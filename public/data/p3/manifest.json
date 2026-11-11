@@ -1,0 +1,62 @@
+{
+  "id": "p3",
+  "code": "Part 3",
+  "title": "Internal Audit Function",
+  "titleVi": "Quản lý Chức năng Kiểm toán Nội bộ",
+  "questionCount": 100,
+  "minutes": 120,
+  "status": "draft",
+  "summary": "Vận hành chức năng KTNB, kế hoạch kiểm toán dựa trên rủi ro, chất lượng (QAIP), báo cáo kết quả và theo dõi.",
+  "sections": [
+    {
+      "id": "A",
+      "name": "Internal Audit Operations",
+      "nameVi": "Vận hành Chức năng KTNB",
+      "weight": 25,
+      "topics": [
+        { "id": "A1", "en": "Planning, organizing, directing and monitoring the function", "vi": "Hoạch định, tổ chức, điều hành, giám sát chức năng KTNB" },
+        { "id": "A2", "en": "Managing financial, human and IT resources", "vi": "Quản lý nguồn lực tài chính, nhân sự, CNTT" },
+        { "id": "A3", "en": "Aligning strategy to stakeholder expectations", "vi": "Gắn chiến lược KTNB với kỳ vọng các bên liên quan" },
+        { "id": "A4", "en": "CAE relationships with the board and senior management", "vi": "CAE xây dựng quan hệ với HĐQT và BĐH" }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Internal Audit Plan",
+      "nameVi": "Kế hoạch Kiểm toán Nội bộ",
+      "weight": 15,
+      "topics": [
+        { "id": "B1", "en": "Sources of potential engagements", "vi": "Nguồn hình thành các cuộc kiểm toán tiềm năng" },
+        { "id": "B2", "en": "Developing a risk-based audit plan", "vi": "Xây dựng kế hoạch kiểm toán dựa trên rủi ro" },
+        { "id": "B3", "en": "Coordination with other assurance providers", "vi": "Phối hợp với các bên đảm bảo khác" }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Quality of the Internal Audit Function",
+      "nameVi": "Chất lượng Chức năng KTNB",
+      "weight": 15,
+      "topics": [
+        { "id": "C1", "en": "Quality assurance and improvement program (QAIP)", "vi": "Chương trình đảm bảo và nâng cao chất lượng (QAIP)" },
+        { "id": "C2", "en": "Disclosure of nonconformance with the Standards", "vi": "Công bố việc không tuân thủ Chuẩn mực" },
+        { "id": "C3", "en": "Internal audit KPIs", "vi": "Chỉ số đo lường hiệu quả KTNB (KPI)" }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Engagement Results and Monitoring",
+      "nameVi": "Kết quả Kiểm toán và Theo dõi",
+      "weight": 45,
+      "topics": [
+        { "id": "D1", "en": "Attributes of effective results communication", "vi": "Thuộc tính của báo cáo kết quả hiệu quả" },
+        { "id": "D2", "en": "Communicating engagement results", "vi": "Trao đổi kết quả kiểm toán" },
+        { "id": "D3", "en": "Recommendations and action plans", "vi": "Khuyến nghị và kế hoạch hành động" },
+        { "id": "D4", "en": "Closing communication and reporting", "vi": "Trao đổi kết thúc và báo cáo" },
+        { "id": "D5", "en": "CAE assessment of residual risk", "vi": "CAE đánh giá rủi ro còn lại" },
+        { "id": "D6", "en": "Communicating risk acceptance", "vi": "Báo cáo việc chấp nhận rủi ro" },
+        { "id": "D7", "en": "Monitoring implementation of action plans", "vi": "Theo dõi thực hiện kế hoạch hành động" },
+        { "id": "D8", "en": "Escalation when action plans are not implemented", "vi": "Báo cáo vượt cấp khi BĐH không khắc phục" }
+      ]
+    }
+  ]
+}

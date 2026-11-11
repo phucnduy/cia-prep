@@ -1,0 +1,71 @@
+{
+  "id": "p1",
+  "code": "Part 1",
+  "title": "Internal Audit Fundamentals",
+  "titleVi": "Nền tảng Kiểm toán Nội bộ",
+  "questionCount": 125,
+  "minutes": 150,
+  "status": "ready",
+  "summary": "Mục đích và nhiệm vụ của KTNB theo GIAS, đạo đức và tính chuyên nghiệp, quản trị - rủi ro - kiểm soát, rủi ro gian lận.",
+  "sections": [
+    {
+      "id": "A",
+      "name": "Foundations of Internal Auditing",
+      "nameVi": "Nền tảng Kiểm toán Nội bộ",
+      "weight": 35,
+      "topics": [
+        { "id": "A1", "en": "Purpose of Internal Auditing (GIAS)", "vi": "Mục đích của KTNB theo GIAS" },
+        { "id": "A2", "en": "Internal audit mandate; responsibilities of the board and CAE", "vi": "Nhiệm vụ (mandate) KTNB; trách nhiệm của HĐQT và CAE" },
+        { "id": "A3", "en": "Internal audit charter requirements", "vi": "Yêu cầu đối với Điều lệ KTNB" },
+        { "id": "A4", "en": "Assurance vs. advisory services", "vi": "Dịch vụ đảm bảo và dịch vụ tư vấn" },
+        { "id": "A5", "en": "Types of assurance services", "vi": "Các loại dịch vụ đảm bảo" },
+        { "id": "A6", "en": "Types of advisory services", "vi": "Các loại dịch vụ tư vấn" },
+        { "id": "A7", "en": "Impairments to independence of the internal audit function", "vi": "Suy giảm tính độc lập của chức năng KTNB" },
+        { "id": "A8", "en": "Internal audit's role in risk management", "vi": "Vai trò của KTNB trong quản trị rủi ro" }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Ethics and Professionalism",
+      "nameVi": "Đạo đức và Tính chuyên nghiệp",
+      "weight": 20,
+      "topics": [
+        { "id": "B1", "en": "Demonstrate integrity", "vi": "Tính chính trực" },
+        { "id": "B2", "en": "Impairments to individual objectivity", "vi": "Suy giảm tính khách quan của cá nhân KTV" },
+        { "id": "B3", "en": "Policies that promote objectivity; mitigating impairments", "vi": "Chính sách bảo vệ tính khách quan; xử lý suy giảm" },
+        { "id": "B4", "en": "Knowledge, skills and competencies", "vi": "Kiến thức, kỹ năng, năng lực chuyên môn" },
+        { "id": "B5", "en": "Due professional care", "vi": "Sự thận trọng nghề nghiệp đúng mức" },
+        { "id": "B6", "en": "Confidentiality and use of information", "vi": "Bảo mật và sử dụng thông tin" }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Governance, Risk Management, and Control",
+      "nameVi": "Quản trị, Quản lý Rủi ro và Kiểm soát",
+      "weight": 30,
+      "topics": [
+        { "id": "C1", "en": "Organizational governance", "vi": "Quản trị tổ chức" },
+        { "id": "C2", "en": "Organizational culture and the control environment", "vi": "Văn hóa tổ chức và môi trường kiểm soát" },
+        { "id": "C3", "en": "Ethical and compliance-related issues", "vi": "Vấn đề đạo đức và tuân thủ" },
+        { "id": "C4", "en": "Fundamental concepts of risk", "vi": "Khái niệm rủi ro cơ bản" },
+        { "id": "C5", "en": "Risk management process", "vi": "Quy trình quản lý rủi ro" },
+        { "id": "C6", "en": "Risk management within processes and functions", "vi": "Quản lý rủi ro trong quy trình và chức năng" },
+        { "id": "C7", "en": "Internal control concepts and types", "vi": "Khái niệm và loại kiểm soát nội bộ" },
+        { "id": "C8", "en": "Design, effectiveness and efficiency of controls", "vi": "Thiết kế, hiệu lực và hiệu quả của kiểm soát" }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Fraud Risks",
+      "nameVi": "Rủi ro Gian lận",
+      "weight": 15,
+      "topics": [
+        { "id": "D1", "en": "Fraud risk concepts and types of fraud", "vi": "Khái niệm rủi ro gian lận và các loại gian lận" },
+        { "id": "D2", "en": "Special consideration of fraud risks in engagements", "vi": "Xem xét rủi ro gian lận trong hợp đồng kiểm toán" },
+        { "id": "D3", "en": "Fraud potential; how the organization detects and manages fraud", "vi": "Khả năng gian lận; cách tổ chức phát hiện và quản lý" },
+        { "id": "D4", "en": "Controls to prevent and detect fraud", "vi": "Kiểm soát ngăn ngừa và phát hiện gian lận" },
+        { "id": "D5", "en": "Fraud investigation techniques and internal audit's role", "vi": "Kỹ thuật điều tra gian lận và vai trò KTNB" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "P3-C-L001",
+    "section": "C",
+    "difficulty": 2,
+    "stem": "Theo Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS), nếu bộ phận Kiểm toán Nội bộ KHÔNG hoàn thành Chương trình Đảm bảo và Cải tiến Chất lượng (QAIP) đầy đủ, CAE sẽ không được phép làm gì?",
+    "options": [
+      "CAE không được trình kế hoạch kiểm toán năm cho HĐQT phê duyệt.",
+      "CAE không được dựa vào công việc của các bên đảm bảo khác.",
+      "CAE không được thực hiện các cuộc tư vấn trong năm.",
+      "CAE không được tuyên bố chức năng kiểm toán nội bộ tuân thủ GIAS."
+    ],
+    "answer": 3,
+    "explanation": "Tuyên bố 'Conforms with the Global Internal Audit Standards' là một chứng nhận chất lượng uy tín. Chuẩn mực nghiêm cấm CAE sử dụng cụm từ này nếu phòng KTNB chưa vượt qua các bài đánh giá (Nội bộ & Bên ngoài) của chương trình QAIP.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P3-C-L002",
+    "section": "C",
+    "difficulty": 2,
+    "stem": "Theo Chuẩn mực GIAS 12.2 (Đo lường hiệu quả hoạt động - Performance Measurement), CAE nên xây dựng bộ chỉ số đo lường (KPIs) cho phòng Kiểm toán Nội bộ như thế nào?",
+    "options": [
+      "Bộ chỉ số cân bằng định lượng và định tính, có ý kiến HĐQT và Ban điều hành.",
+      "Chủ yếu đo số lượng phát hiện để khuyến khích kiểm toán viên tìm nhiều lỗi.",
+      "Chủ yếu đo tỷ lệ hoàn thành kế hoạch kiểm toán đúng hạn trong năm.",
+      "Dùng nguyên bộ KPI của các phòng nghiệp vụ để bảo đảm nhất quán."
+    ],
+    "answer": 0,
+    "explanation": "Đo lường hiệu suất KTNB không nên chỉ đếm số lỗi (dễ gây tâm lý soi mói vụn vặt), mà phải cân bằng giữa: Mức độ hoàn thành kế hoạch, Chất lượng khuyến nghị, Sự hài lòng của các bên liên quan và Phát triển năng lực đội ngũ.",
+    "refs": [
+      "GIAS 12.2"
+    ],
+    "source": "legacy"
+  },
+  {
+    "id": "P3-C-L003",
+    "section": "C",
+    "difficulty": 2,
+    "stem": "Khi một cuộc kiểm toán cụ thể KHÔNG thể tuân thủ một chuẩn mực nhất định trong GIAS (ví dụ do bị giới hạn phạm vi nghiêm trọng), CAE phải công bố thông tin gì trong báo cáo kiểm toán?",
+    "options": [
+      "Không cần công bố nếu kết luận cuối cùng của cuộc kiểm toán không đổi.",
+      "Công bố yêu cầu không tuân thủ, lý do và ảnh hưởng đến kết quả.",
+      "Chỉ báo cáo riêng cho Tổng Giám đốc và lưu hồ sơ nội bộ.",
+      "Hủy báo cáo và thực hiện lại toàn bộ cuộc kiểm toán."
+    ],
+    "answer": 1,
+    "explanation": "Khi có sự không tuân thủ Chuẩn mực (Nonconformance) ảnh hưởng đến một cuộc kiểm toán, chuẩn mực yêu cầu phải công bố rõ 3 yếu tố: (1) Chuẩn mực nào bị vi phạm, (2) Lý do, và (3) Ảnh hưởng của nó đến kết quả/kết luận kiểm toán.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P3-C-001",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Theo GIAS 8.4, đánh giá chất lượng bên ngoài (EQA) phải đáp ứng yêu cầu nào?",
+    "options": [
+      "Mỗi năm một lần, do công ty kiểm toán báo cáo tài chính thực hiện.",
+      "Khi Ban điều hành yêu cầu, không có tần suất tối thiểu.",
+      "Do chính phòng kiểm toán nội bộ tự thực hiện và tự công bố.",
+      "Tối thiểu 5 năm/lần, người đánh giá độc lập, có ít nhất một CIA."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 8.4: EQA thực hiện ít nhất 5 năm một lần bởi người đánh giá hoặc nhóm có năng lực, độc lập với tổ chức, trong đó ít nhất một người có chứng chỉ CIA còn hiệu lực. Có thể dùng hình thức tự đánh giá có xác nhận độc lập.",
+    "refs": [
+      "GIAS 8.4"
+    ],
+    "source": "original"
+  }
+]

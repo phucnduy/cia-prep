@@ -1,0 +1,52 @@
+[
+  {
+    "id": "P2-A-K001",
+    "section": "A",
+    "title": "Đánh giá rủi ro cuộc kiểm toán (GIAS 13.2)",
+    "rule": "Trước khi đặt mục tiêu và phạm vi, kiểm toán viên phải hiểu hoạt động, mục tiêu, rủi ro trọng yếu (kể cả gian lận) và kiểm soát hiện có của đối tượng được kiểm toán.",
+    "action": "Lập ma trận rủi ro - kiểm soát (RCM): mục tiêu quy trình, rủi ro, kiểm soát chính, đánh giá thiết kế, thủ tục kiểm tra dự kiến.",
+    "violation": "Dùng lại nguyên chương trình kiểm toán năm trước mà không cập nhật thay đổi về quy trình, hệ thống và rủi ro.",
+    "trap": "Mục tiêu cuộc kiểm toán do đơn vị được kiểm toán đề xuất nên kiểm toán viên chỉ cần chấp nhận.",
+    "distinction": "Mục tiêu nói 'cần đạt điều gì'; phạm vi nói 'kiểm tra những gì, giai đoạn nào, địa điểm nào'."
+  },
+  {
+    "id": "P2-A-K002",
+    "section": "A",
+    "title": "Tiêu chí đánh giá (GIAS 13.4)",
+    "rule": "Kiểm toán viên phải xác định tiêu chí phù hợp để đánh giá; nếu tiêu chí của Ban điều hành không đầy đủ, phải xác định tiêu chí phù hợp và thống nhất với Ban điều hành.",
+    "action": "Dùng chính sách nội bộ, luật, quy định, chuẩn mực ngành, thông lệ tốt hoặc mục tiêu đã phê duyệt làm tiêu chí.",
+    "violation": "Đánh giá theo cảm nhận cá nhân của kiểm toán viên mà không nêu tiêu chí.",
+    "trap": "Không có tiêu chí thì không thể kiểm toán, nên phải dừng cuộc kiểm toán.",
+    "distinction": "Phát hiện = chênh lệch giữa tiêu chí (cái nên có) và thực trạng (cái đang có)."
+  },
+  {
+    "id": "P2-B-K001",
+    "section": "B",
+    "title": "Thuộc tính của bằng chứng (GIAS 14.1)",
+    "rule": "Thông tin thu thập phải đầy đủ, đáng tin cậy, phù hợp và hữu ích để làm cơ sở cho phát hiện và kết luận.",
+    "action": "Ưu tiên bằng chứng từ nguồn độc lập, thu thập trực tiếp, dạng văn bản; dùng phân tích dữ liệu để kiểm tra toàn bộ tổng thể khi có thể.",
+    "violation": "Kết luận chỉ dựa trên giải trình bằng lời của người thực hiện quy trình.",
+    "trap": "Càng nhiều tài liệu thì bằng chứng càng đáng tin cậy.",
+    "distinction": "Đầy đủ (sufficient) là về số lượng; đáng tin cậy (reliable) là về chất lượng nguồn."
+  },
+  {
+    "id": "P2-B-K002",
+    "section": "B",
+    "title": "Năm yếu tố của phát hiện kiểm toán",
+    "rule": "Phát hiện gồm tiêu chí, thực trạng, nguyên nhân, ảnh hưởng, kèm khuyến nghị hoặc kế hoạch hành động.",
+    "action": "Phân tích nguyên nhân gốc rễ (5 Whys, xương cá) trước khi đưa ra khuyến nghị.",
+    "violation": "Khuyến nghị chỉ xử lý triệu chứng (sửa giao dịch lỗi) mà không xử lý nguyên nhân (thiếu kiểm soát).",
+    "trap": "Ảnh hưởng (effect) chỉ được nêu khi có thể định lượng bằng tiền.",
+    "distinction": "Nguyên nhân giải thích vì sao có chênh lệch; ảnh hưởng là rủi ro hoặc hệ quả của chênh lệch."
+  },
+  {
+    "id": "P2-C-K001",
+    "section": "C",
+    "title": "Giám sát cuộc kiểm toán (GIAS 12.3)",
+    "rule": "Cuộc kiểm toán phải được giám sát phù hợp để đạt mục tiêu, bảo đảm chất lượng và phát triển nhân sự; bằng chứng giám sát phải được ghi nhận.",
+    "action": "Rà soát hồ sơ làm việc, phê duyệt chương trình, hướng dẫn kiểm toán viên mới chặt hơn.",
+    "violation": "Phát hành báo cáo khi hồ sơ làm việc chưa được người có thẩm quyền rà soát.",
+    "trap": "Kiểm toán viên có kinh nghiệm thì không cần được giám sát.",
+    "distinction": "Mức độ giám sát thay đổi theo năng lực người thực hiện và độ phức tạp công việc."
+  }
+]

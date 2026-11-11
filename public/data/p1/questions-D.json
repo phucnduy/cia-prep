@@ -1,0 +1,473 @@
+[
+  {
+    "id": "P1-D-L001",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Mô hình 'Kim cương gian lận' (Fraud Diamond của Wolfe và Hermanson) mở rộng Tam giác gian lận truyền thống bằng cách bổ sung thêm yếu tố thứ 4 nào sau đây?",
+    "options": [
+      "Năng lực (capability) của cá nhân.",
+      "Tính chính trực (integrity) của cá nhân.",
+      "Sự thông đồng (collusion) giữa nhiều người.",
+      "Mức độ răn đe của chế tài pháp luật."
+    ],
+    "answer": 0,
+    "explanation": "Fraud Diamond chỉ ra rằng dù có Áp lực, Cơ hội và Sự tự hợp lý hóa, một vụ gian lận lớn (đặc biệt là gian lận hàng triệu USD) sẽ không thể xảy ra nếu thủ phạm không có 'Năng lực' (Capability: quyền hạn, hiểu biết kỹ thuật và bản lĩnh che giấu).",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L002",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Trong nhóm gian lận Tham nhũng (Corruption), sự khác biệt giữa 'Hối lộ' (Bribery) và 'Tống tiền kinh tế' (Economic Extortion) là gì?",
+    "options": [
+      "Hối lộ luôn dùng tiền mặt; tống tiền kinh tế luôn dùng chuyển khoản qua ngân hàng.",
+      "Hối lộ: bên ngoài chủ động trả tiền; tống tiền: nhân viên ép bên ngoài phải chi.",
+      "Hối lộ chỉ liên quan đến công chức; tống tiền kinh tế chỉ xảy ra giữa doanh nghiệp.",
+      "Hối lộ là gian lận báo cáo tài chính; tống tiền kinh tế là biển thủ tài sản."
+    ],
+    "answer": 1,
+    "explanation": "Bribery và Economic Extortion là hai mặt của đồng xu tham nhũng: Bribery khởi phát từ bên ngoài mua chuộc vào trong; còn Economic Extortion là người bên trong dùng quyền lực ép buộc bên ngoài phải nộp tiền.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L003",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Trong gian lận 'Lại quả' (Kickback Scheme) giữa nhà cung cấp và nhân viên mua hàng, dấu hiệu cảnh báo (Red Flag) nào sau đây thường xuất hiện trên dữ liệu mua sắm?",
+    "options": [
+      "Nhà cung cấp được chọn qua đấu thầu cạnh tranh với nhiều hồ sơ tham dự.",
+      "Giá mua tăng đều theo lạm phát và được phê duyệt đúng hạn mức.",
+      "Một nhà cung cấp liên tục được chọn với giá cao, chất lượng giảm.",
+      "Nhân viên mua hàng được luân chuyển vị trí định kỳ hằng năm."
+    ],
+    "answer": 2,
+    "explanation": "Để có tiền chi 'lại quả' (kickback) cho nhân viên mua hàng, nhà cung cấp thường phải nâng khống giá bán (inflated prices) hoặc giao hàng kém chất lượng hơn so với tiêu chuẩn.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L004",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Thủ đoạn gian lận sử dụng 'Nhà cung cấp trung gian ăn chênh lệch' (Pass-Through Vendor Scheme) diễn ra như thế nào?",
+    "options": [
+      "Nhà cung cấp xuất hóa đơn khống mà không giao bất kỳ hàng hóa nào.",
+      "Nhà cung cấp chia hóa đơn thành nhiều phần nhỏ dưới hạn mức phê duyệt.",
+      "Nhân viên nhận tiền lại quả từ nhà sản xuất chính hãng sau mỗi đơn hàng.",
+      "Nhân viên lập công ty riêng, mua hàng thật rồi bán lại với giá đội lên."
+    ],
+    "answer": 3,
+    "explanation": "Khác với Shell Company (xuất hóa đơn khống cho dịch vụ không có thật), trong Pass-Through Scheme, hàng hóa thực sự có tồn tại và được nhập kho đầy đủ, nhưng đi vòng qua công ty sân sau của nhân viên mua hàng để ăn chênh lệch giá.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L005",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Để ngăn chặn và phát hiện thủ đoạn gian lận 'Nhân viên ma' (Ghost Employee) trên bảng lương, chốt kiểm soát nào sau đây là HIỆU QUẢ NHẤT?",
+    "options": [
+      "Tách cập nhật hồ sơ nhân sự khỏi tính lương và xác minh nhân sự thực tế.",
+      "Yêu cầu trưởng bộ phận ký xác nhận bảng chấm công hằng tháng.",
+      "Chuyển toàn bộ việc trả lương sang chuyển khoản qua ngân hàng.",
+      "Giao kế toán lương đối chiếu tổng quỹ lương với ngân sách đã duyệt."
+    ],
+    "answer": 0,
+    "explanation": "Ghost employee xảy ra khi kẻ gian thêm tên người không có thật (hoặc người đã nghỉ việc) vào bảng lương để rút tiền. Phân nhiệm giữa HR (thêm/xóa nhân sự) và Payroll (tính lương), kèm theo quét dữ liệu tìm số tài khoản ngân hàng bị trùng lặp là kiểm soát cốt lõi nhất.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L006",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Một nhân viên kinh doanh khi đi công tác đã thanh toán hóa đơn khách sạn bằng thẻ tín dụng công ty, nhưng sau đó lại lấy chính tờ hóa đơn giấy của khách sạn đó để làm đề nghị hoàn ứng tiền mặt lần thứ hai. Đây là loại gian lận gì và kiểm soát nào ngăn chặn tốt nhất?",
+    "options": [
+      "Chi phí khống; ngăn chặn bằng phê duyệt của trưởng bộ phận trước khi hoàn ứng.",
+      "Hoàn ứng trùng; dùng chứng từ gốc đóng dấu đã trả và đối chiếu sao kê thẻ.",
+      "Lapping; ngăn chặn bằng việc gửi thư xác nhận công nợ cho khách hàng.",
+      "Thổi phồng chi phí; ngăn chặn bằng việc đặt hạn mức công tác phí theo ngày."
+    ],
+    "answer": 1,
+    "explanation": "Nộp một hóa đơn nhiều lần (hoặc vừa quẹt thẻ công ty vừa xin hoàn ứng cá nhân) là gian lận hoàn ứng chi phí phổ biến. Kiểm soát đối chiếu dữ liệu chi phí và đóng dấu hủy chứng từ gốc sau khi thanh toán sẽ chặn đứng hành vi này.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L007",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Để chống lại gian lận làm giả séc hoặc sửa đổi số tiền/tên người thụ hưởng trên lệnh chi ngân hàng (Check Tampering), nhiều công ty sử dụng cơ chế kiểm soát 'Positive Pay' với ngân hàng. Cơ chế này hoạt động như thế nào?",
+    "options": [
+      "Ngân hàng yêu cầu hai chữ ký trên mọi tờ séc vượt một hạn mức nhất định.",
+      "Công ty đối chiếu sao kê ngân hàng hằng ngày thay vì hằng tháng.",
+      "Ngân hàng chỉ thanh toán séc khớp với danh sách công ty gửi trước.",
+      "Ngân hàng gọi điện xác nhận với kế toán trước mỗi lần thanh toán séc."
+    ],
+    "answer": 2,
+    "explanation": "Positive Pay là một Kiểm soát phòng ngừa (Preventive Control) cực mạnh giữa doanh nghiệp và ngân hàng nhằm ngăn chặn séc giả hoặc séc bị cạo sửa số tiền trước khi tiền bị rút khỏi tài khoản.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L008",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Sự khác biệt giữa 'Trộm cắp tiền mặt đã ghi sổ' (Cash Larceny) và 'Hớt váng' (Skimming) là gì?",
+    "options": [
+      "Cash larceny là lấy tiền trước khi ghi sổ; skimming là lấy tiền sau khi ghi sổ.",
+      "Skimming dễ phát hiện qua đối chiếu sổ cái hơn cash larceny.",
+      "Cash larceny liên quan đến hàng tồn kho; skimming liên quan đến tiền mặt.",
+      "Cash larceny là lấy tiền sau khi đã ghi sổ; skimming là lấy tiền trước khi ghi sổ."
+    ],
+    "answer": 3,
+    "explanation": "Vì Cash Larceny xảy ra sau khi giao dịch đã vào sổ (ví dụ: lấy tiền từ két sắt sau khi đã in hóa đơn thu ngân), nó để lại sự chênh lệch trực tiếp giữa tiền thực tế và sổ sách nên dễ bị phát hiện qua kiểm quỹ/đối chiếu hơn Skimming.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L009",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Vào tuần cuối cùng của năm tài chính, Giám đốc Kinh doanh thuyết phục các đại lý nhận một lượng hàng hóa khổng lồ vượt xa nhu cầu thực tế bằng cách hứa miệng rằng đại lý có thể trả lại toàn bộ hàng không bán được vào đầu năm sau mà không bị phạt. Thủ đoạn gian lận báo cáo tài chính này gọi là gì?",
+    "options": [
+      "Nhồi kênh phân phối (channel stuffing).",
+      "Bill-and-hold (lập hóa đơn nhưng giữ hàng).",
+      "Dự phòng hũ bánh quy (cookie jar reserves).",
+      "Ghi nhận doanh thu sớm qua hợp đồng nhiều kỳ."
+    ],
+    "answer": 0,
+    "explanation": "Channel Stuffing là thủ đoạn đẩy hàng ồ ạt cho nhà phân phối vào cuối kỳ kèm các điều khoản ngầm (side agreements) cho phép trả lại hàng. Dấu hiệu cảnh báo (Red flag) là doanh thu tăng vọt tháng cuối năm nhưng hàng bán bị trả lại (Sales returns) tăng đột biến vào quý 1 năm sau.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L010",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Thủ đoạn gian lận doanh thu 'Lập hóa đơn nhưng giữ hàng' (Bill-and-Hold Scheme) thường vi phạm nguyên tắc ghi nhận doanh thu như thế nào?",
+    "options": [
+      "Giao hàng cho khách trong kỳ nhưng ghi nhận doanh thu vào kỳ sau.",
+      "Ghi doanh thu khi hàng còn trong kho, chưa chuyển quyền kiểm soát.",
+      "Bán hàng có điều khoản trả lại nhưng không trích lập dự phòng hàng trả lại.",
+      "Gộp nhiều hợp đồng nhỏ thành một hợp đồng lớn để ghi nhận một lần."
+    ],
+    "answer": 1,
+    "explanation": "Trong Bill-and-Hold gian lận, công ty ghi nhận doanh thu sớm khi nghĩa vụ thực hiện (chuyển giao quyền kiểm soát hàng hóa) chưa hoàn thành, nhằm làm đẹp BCTC cuối kỳ.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L011",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Trong một năm công ty đạt lợi nhuận vượt xa chỉ tiêu, Ban giám đốc cố tình trích lập khống các khoản dự phòng chi phí quá mức cần thiết, nhằm mục đích 'để dành' hoàn nhập các khoản dự phòng này vào những năm sau khi kinh doanh kém hiệu quả. Thủ đoạn thao túng BCTC này được gọi là gì?",
+    "options": [
+      "Nhồi kênh phân phối (channel stuffing).",
+      "Vốn hóa chi phí sai quy định.",
+      "Dự phòng hũ bánh quy (cookie jar).",
+      "Ghi nhận doanh thu khống cuối kỳ."
+    ],
+    "answer": 2,
+    "explanation": "Cookie Jar Reserves là thủ đoạn gian lận BCTC thông qua việc ghi nhận chi phí dự phòng quá cao vào năm lãi lớn rồi hoàn nhập dự phòng (giảm chi phí, tăng lãi) vào năm kinh doanh khó khăn để tạo cảm giác lợi nhuận tăng trưởng đều đặn.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L012",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Khi Ban giám đốc chỉ đạo kế toán hạch toán các khoản chi phí sửa chữa, bảo trì thường xuyên hàng ngày vào nguyên giá Tài sản cố định (Vốn hóa chi phí sai quy định - Improper Capitalization of Expenses), Báo cáo tài chính năm đó sẽ bị sai lệch như thế nào?",
+    "options": [
+      "Tài sản và lợi nhuận đều bị khai thấp.",
+      "Tài sản bị khai cao nhưng lợi nhuận không bị ảnh hưởng.",
+      "Lợi nhuận bị khai cao, nợ phải trả bị khai cao.",
+      "Tài sản bị khai cao và lợi nhuận kỳ đó bị khai cao."
+    ],
+    "answer": 3,
+    "explanation": "Bằng cách biến Chi phí trong kỳ (Expense) thành Tài sản cố định (Asset - phân bổ dần qua nhiều năm), kẻ gian vừa làm tăng tổng tài sản vừa làm giảm chi phí trong kỳ, từ đó thổi phồng lợi nhuận (giống vụ bê bối WorldCom kinh điển).",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L013",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Khi sử dụng Phân tích dữ liệu (Data Analytics) để rà soát gian lận trên hàng trăm nghìn hóa đơn chi phí, kiểm toán viên áp dụng 'Định luật Benford' (Benford's Law). Định luật này giúp phát hiện điều gì?",
+    "options": [
+      "Số liệu có thể bị bịa đặt, dựa trên phân phối tự nhiên của chữ số đầu.",
+      "Hóa đơn trùng lặp dựa trên số hóa đơn, số tiền và mã nhà cung cấp.",
+      "Khoảng trống trong dãy số thứ tự của chứng từ đã phát hành.",
+      "Giao dịch có giá trị vượt hạn mức phê duyệt của người ký duyệt."
+    ],
+    "answer": 0,
+    "explanation": "Khi kẻ gian tự nghĩ ra các con số hóa đơn giả, họ thường phân bổ các chữ số đầu tiên khá đồng đều hoặc lặp lại các số sát ngưỡng phê duyệt (như 9.800, 9.900), làm lệch hoàn toàn phân phối tự nhiên theo Định luật Benford.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L014",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Sự khác biệt chính giữa 'Kiểm toán Nội bộ thông thường' và 'Kiểm toán Điều tra Pháp lý' (Forensic Auditing / Fraud Investigation) là gì?",
+    "options": [
+      "Kiểm toán nội bộ dùng bằng chứng định tính; điều tra chỉ dùng bằng chứng định lượng.",
+      "Kiểm toán nội bộ đánh giá GRC; điều tra thu thập bằng chứng đủ chuẩn pháp lý.",
+      "Điều tra do kiểm toán độc lập thực hiện; kiểm toán nội bộ không được tham gia.",
+      "Điều tra chỉ được bắt đầu sau khi cơ quan chức năng ra quyết định khởi tố."
+    ],
+    "answer": 1,
+    "explanation": "Forensic Auditing đòi hỏi kỹ năng chuyên sâu về quy trình tố tụng, bảo toàn chuỗi chứng cứ (Chain of custody) không bị nhiễm bẩn và kỹ thuật phỏng vấn điều tra để hồ sơ có giá trị làm bằng chứng trước tòa án.",
+    "refs": [],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-L015",
+    "section": "D",
+    "difficulty": 2,
+    "stem": "Một quy trình 'Đánh giá Rủi ro Gian lận' (Fraud Risk Assessment) toàn diện của doanh nghiệp nên bao gồm các bước cốt lõi nào sau đây?",
+    "options": [
+      "Rà soát lý lịch nhân viên mới và yêu cầu ký cam kết không gian lận.",
+      "Lập danh sách các vụ gian lận đã xảy ra và tổng hợp thiệt hại.",
+      "Nhận diện kịch bản, đánh giá, ánh xạ kiểm soát, xử lý lỗ hổng.",
+      "Giao kiểm toán nội bộ kiểm tra 100% giao dịch có giá trị lớn."
+    ],
+    "answer": 2,
+    "explanation": "Theo COSO (Nguyên tắc 8) và hướng dẫn quản trị rủi ro gian lận, doanh nghiệp phải chủ động nhận diện các kịch bản gian lận cụ thể (kể cả rủi ro Management Override), đánh giá hiệu quả của kiểm soát chống gian lận hiện tại và liên tục cập nhật.",
+    "refs": [
+      "GIAS Principle 8",
+      "COSO"
+    ],
+    "source": "legacy"
+  },
+  {
+    "id": "P1-D-001",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 1,
+    "stem": "Theo mô hình Tam giác gian lận (Fraud Triangle), ba yếu tố dẫn đến gian lận là gì?",
+    "options": [
+      "Động cơ/áp lực, cơ hội và sự hợp lý hóa.",
+      "Kiến thức, kỹ năng và kinh nghiệm.",
+      "Lương thấp, kiểm toán yếu, công nghệ lạc hậu.",
+      "Rủi ro tiềm tàng, rủi ro kiểm soát và rủi ro phát hiện."
+    ],
+    "answer": 0,
+    "explanation": "Tam giác gian lận (Donald Cressey): Áp lực/động cơ (pressure/incentive), Cơ hội (opportunity) và Hợp lý hóa (rationalization). Tổ chức kiểm soát trực tiếp được nhiều nhất yếu tố Cơ hội thông qua kiểm soát nội bộ.",
+    "refs": [
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-002",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Theo các báo cáo nghiên cứu toàn cầu của ACFE (Report to the Nations), loại gian lận nghề nghiệp nào xảy ra thường xuyên nhất nhưng có mức thiệt hại trung vị thấp nhất?",
+    "options": [
+      "Gian lận báo cáo tài chính.",
+      "Tham nhũng và hối lộ.",
+      "Biển thủ tài sản.",
+      "Gian lận thuế của doanh nghiệp."
+    ],
+    "answer": 2,
+    "explanation": "Theo cây gian lận ACFE: biển thủ tài sản phổ biến nhất nhưng thiệt hại trung vị thấp nhất; gian lận BCTC ít xảy ra nhất nhưng thiệt hại trung vị cao nhất; tham nhũng ở giữa.",
+    "refs": [
+      "ACFE Report to the Nations"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-003",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Nhân viên thu ngân nhận tiền mặt của khách hàng nhưng không ghi nhận giao dịch vào hệ thống và giữ lại số tiền. Đây là loại gian lận nào?",
+    "options": [
+      "Skimming (biển thủ trước khi ghi nhận).",
+      "Lapping (gối đầu công nợ).",
+      "Larceny (lấy tiền sau khi đã ghi nhận).",
+      "Kiting (lợi dụng thời gian chuyển séc giữa ngân hàng)."
+    ],
+    "answer": 0,
+    "explanation": "Skimming là lấy tiền trước khi giao dịch được ghi vào sổ sách, nên khó phát hiện qua đối chiếu sổ. Larceny là lấy tiền sau khi đã ghi nhận. Lapping là dùng tiền khách sau bù cho khách trước để che giấu.",
+    "refs": [
+      "ACFE Fraud Tree"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-004",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Kế toán công nợ lấy tiền thanh toán của khách hàng A, sau đó dùng tiền của khách hàng B để ghi có cho A, và tiếp tục như vậy. Đây là thủ đoạn gì và kiểm soát nào giúp phát hiện tốt nhất?",
+    "options": [
+      "Kiting; phát hiện bằng đối chiếu ngân hàng vào cuối năm tài chính.",
+      "Lapping; xác nhận công nợ trực tiếp, bắt buộc nghỉ phép, luân chuyển.",
+      "Công ty vỏ bọc; phát hiện bằng rà soát danh mục nhà cung cấp mới.",
+      "Nhân viên ma; phát hiện bằng đối chiếu bảng lương với hồ sơ nhân sự."
+    ],
+    "answer": 1,
+    "explanation": "Lapping cần người thực hiện liên tục che giấu. Xác nhận công nợ trực tiếp với khách hàng sẽ lộ chênh lệch về thời điểm thanh toán; nghỉ phép bắt buộc và luân chuyển khiến chuỗi gối đầu bị gián đoạn.",
+    "refs": [
+      "ACFE Fraud Tree"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-005",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Theo GIAS, kiểm toán viên nội bộ cần có mức hiểu biết như thế nào về gian lận?",
+    "options": [
+      "Đủ chuyên môn tương đương chuyên gia điều tra gian lận chuyên nghiệp.",
+      "Không cần hiểu biết, vì gian lận thuộc trách nhiệm của bộ phận pháp chế.",
+      "Chỉ cần hiểu về gian lận báo cáo tài chính, không cần các loại khác.",
+      "Đủ để đánh giá rủi ro gian lận, không cần như chuyên gia điều tra."
+    ],
+    "answer": 3,
+    "explanation": "Theo GIAS (Nguyên tắc 3 và phần Considerations), kiểm toán viên cần đủ hiểu biết để nhận diện dấu hiệu và đánh giá rủi ro gian lận, nhưng không yêu cầu chuyên môn như chuyên gia điều tra.",
+    "refs": [
+      "GIAS 3.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-006",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 3,
+    "stem": "Trong giai đoạn lập kế hoạch kiểm toán quy trình mua hàng, kiểm toán viên nên xem xét rủi ro gian lận như thế nào?",
+    "options": [
+      "Chỉ xem xét khi đơn vị được kiểm toán đã có tiền sử gian lận.",
+      "Để đến giai đoạn báo cáo mới xem xét nếu có phát hiện bất thường.",
+      "Đưa các kịch bản gian lận vào đánh giá rủi ro và thiết kế thủ tục.",
+      "Dùng kết quả tự đánh giá rủi ro gian lận của bộ phận tuân thủ."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.2 yêu cầu đánh giá rủi ro cuộc kiểm toán, bao gồm rủi ro gian lận. Kiểm toán viên cần nhận diện các kịch bản gian lận cụ thể của quy trình và thiết kế thủ tục để phản ứng, không đợi có tiền sử.",
+    "refs": [
+      "GIAS 13.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-007",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 1,
+    "stem": "Theo các báo cáo của ACFE, phương thức phát hiện gian lận phổ biến nhất là gì?",
+    "options": [
+      "Kiểm toán độc lập bên ngoài.",
+      "Tố giác.",
+      "Rà soát của Ban điều hành.",
+      "Phát hiện tình cờ."
+    ],
+    "answer": 1,
+    "explanation": "Các báo cáo Report to the Nations liên tục cho thấy tố giác (khoảng 40% số vụ) là phương thức phát hiện phổ biến nhất, vượt xa các phương thức khác. Tổ chức có đường dây nóng phát hiện gian lận nhanh hơn và thiệt hại thấp hơn.",
+    "refs": [
+      "ACFE Report to the Nations"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-008",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Dấu hiệu nào sau đây là 'cờ đỏ' (red flag) điển hình của gian lận do nhân viên?",
+    "options": [
+      "Nhân viên vừa đạt chứng chỉ chuyên môn mới và xin tăng lương.",
+      "Nhân viên thường xuyên đề xuất thay đổi quy trình làm việc.",
+      "Nhân viên thường làm thêm giờ để kịp tiến độ dự án được giao.",
+      "Sống vượt thu nhập, thân thiết với nhà cung cấp, không chịu nghỉ phép."
+    ],
+    "answer": 3,
+    "explanation": "Các cờ đỏ hành vi phổ biến: sống vượt thu nhập, khó khăn tài chính, quan hệ bất thường với nhà cung cấp/khách hàng, không muốn chia sẻ công việc hoặc nghỉ phép. Cờ đỏ là dấu hiệu cần điều tra thêm, không phải bằng chứng.",
+    "refs": [
+      "ACFE Report to the Nations"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-009",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Ai chịu trách nhiệm chính trong việc ngăn ngừa và phát hiện gian lận trong tổ chức?",
+    "options": [
+      "Ban điều hành, dưới sự giám sát của HĐQT.",
+      "Chức năng kiểm toán nội bộ của tổ chức.",
+      "Công ty kiểm toán độc lập được thuê hằng năm.",
+      "Bộ phận pháp chế và cơ quan điều tra."
+    ],
+    "answer": 0,
+    "explanation": "Ban điều hành chịu trách nhiệm thiết kế và vận hành kiểm soát chống gian lận; HĐQT giám sát. Kiểm toán nội bộ đánh giá hiệu quả của quản lý rủi ro gian lận và có thể hỗ trợ điều tra, nhưng không chịu trách nhiệm chính.",
+    "refs": [
+      "COSO 2013 Principle 8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-010",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Kiểm soát nào sau đây là kiểm soát phòng ngừa (preventive) đối với rủi ro thanh toán cho nhà cung cấp ma (fictitious vendor)?",
+    "options": [
+      "Rà soát danh sách các khoản đã thanh toán vào cuối mỗi tháng.",
+      "So sánh địa chỉ nhà cung cấp với địa chỉ nhân viên hằng quý.",
+      "Tách quyền tạo nhà cung cấp khỏi quyền thanh toán, có thẩm định trước.",
+      "Kiểm toán nội bộ chọn mẫu hóa đơn để kiểm tra chi tiết vào cuối năm."
+    ],
+    "answer": 2,
+    "explanation": "Phân chia trách nhiệm giữa tạo dữ liệu chủ nhà cung cấp và thanh toán, cùng thẩm định trước, ngăn gian lận xảy ra. Các phương án còn lại phát hiện sau khi đã thanh toán (detective).",
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-011",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Chương trình đào tạo nâng cao nhận thức về gian lận cho nhân viên giúp giảm rủi ro gian lận chủ yếu qua cơ chế nào?",
+    "options": [
+      "Loại bỏ hoàn toàn động cơ tài chính dẫn tới gian lận của nhân viên.",
+      "Giúp nhận biết, báo cáo dấu hiệu và tăng nhận thức sẽ bị phát hiện.",
+      "Thay thế cho các kiểm soát nội bộ trong những quy trình rủi ro thấp.",
+      "Chuyển trách nhiệm phòng chống gian lận từ Ban điều hành sang nhân viên."
+    ],
+    "answer": 1,
+    "explanation": "Đào tạo nhận thức gian lận tăng khả năng phát hiện qua tố giác và tạo hiệu ứng răn đe (perception of detection). Nó bổ trợ chứ không thay thế kiểm soát, và không chuyển trách nhiệm của Ban điều hành.",
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-012",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Trong một cuộc điều tra gian lận, trình tự phỏng vấn nào là phù hợp nhất?",
+    "options": [
+      "Phỏng vấn đối tượng nghi vấn đầu tiên trước khi họ kịp chuẩn bị.",
+      "Phỏng vấn tất cả các bên cùng lúc trong một buổi họp chung.",
+      "Chỉ phỏng vấn đối tượng nghi vấn, không cần đến nhân chứng.",
+      "Từ nhân chứng trung lập, người xác nhận, đồng phạm, rồi đến đối tượng."
+    ],
+    "answer": 3,
+    "explanation": "Thông lệ điều tra: thu thập bằng chứng và phỏng vấn từ người ít liên quan nhất đến người liên quan nhất, để có đủ thông tin trước khi phỏng vấn đối tượng (thường là phỏng vấn nhằm thu nhận lời thừa nhận). Phỏng vấn đối tượng trước có thể khiến họ tiêu hủy bằng chứng.",
+    "refs": [
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "P2-B-L001",
+    "section": "B",
+    "difficulty": 2,
+    "stem": "Khi phân tích một phát hiện kiểm toán, kiểm toán viên sử dụng kỹ thuật '5 Tại sao' (5 Whys) hoặc 'Biểu đồ xương cá' (Fishbone / Ishikawa Diagram). Mục đích chính của các công cụ này là để xác định yếu tố nào?",
+    "options": [
+      "Tiêu chí kiểm toán (criteria).",
+      "Thực trạng (condition).",
+      "Nguyên nhân gốc rễ (root cause).",
+      "Ảnh hưởng (effect) của phát hiện."
+    ],
+    "answer": 2,
+    "explanation": "Root Cause Analysis (Phân tích nguyên nhân gốc rễ) giúp KTV tìm ra lý do sâu xa tại sao lỗi xảy ra (ví dụ: không chỉ dừng ở 'nhân viên nhập sai', mà tìm ra gốc rễ là 'phần mềm chưa thiết lập trường chặn lỗi và nhân viên mới chưa được đào tạo').",
+    "refs": [],
+    "source": "legacy",
+    "topic": "B6"
+  },
+  {
+    "id": "P2-B-001",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Theo GIAS 14.1, thông tin dùng làm cơ sở cho phát hiện kiểm toán cần có những thuộc tính nào?",
+    "options": [
+      "Được đơn vị được kiểm toán ký xác nhận trên từng trang.",
+      "Đầy đủ, đáng tin cậy, phù hợp và hữu ích.",
+      "Được lưu trữ trên giấy và có dấu đỏ của tổ chức.",
+      "Do bên thứ ba độc lập cung cấp trong mọi trường hợp."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.1: kiểm toán viên thu thập thông tin đầy đủ (sufficient), đáng tin cậy (reliable), phù hợp (relevant) và hữu ích (useful) để thực hiện phân tích và đánh giá.",
+    "refs": [
+      "GIAS 14.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-002",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Bằng chứng nào sau đây thường có độ tin cậy CAO NHẤT?",
+    "options": [
+      "Giải trình bằng lời của nhân viên trực tiếp thực hiện quy trình.",
+      "Bản sao chứng từ do đơn vị được kiểm toán chuẩn bị và cung cấp.",
+      "Báo cáo quản trị nội bộ do bộ phận được kiểm toán tự lập.",
+      "Thư xác nhận bên thứ ba gửi thẳng cho kiểm toán viên."
+    ],
+    "answer": 3,
+    "explanation": "Độ tin cậy tăng khi bằng chứng đến từ nguồn độc lập bên ngoài, được thu thập trực tiếp bởi kiểm toán viên, và ở dạng văn bản gốc. Giải trình bằng lời và tài liệu nội bộ tự lập kém tin cậy hơn.",
+    "refs": [
+      "GIAS 14.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-003",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Một phát hiện kiểm toán đầy đủ thường gồm những thành phần nào?",
+    "options": [
+      "Tiêu chí, thực trạng, nguyên nhân, ảnh hưởng, khuyến nghị.",
+      "Tên người vi phạm, mức phạt đề xuất và thời hạn nộp phạt.",
+      "Mục tiêu, phạm vi, ngân sách và nhân sự của cuộc kiểm toán.",
+      "Ý kiến của kiểm toán độc lập và của cơ quan quản lý ngành."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.2-14.4: phát hiện là chênh lệch giữa tiêu chí (criteria) và thực trạng (condition), được phân tích nguyên nhân (cause) và ảnh hưởng (effect), kèm khuyến nghị hoặc kế hoạch hành động.",
+    "refs": [
+      "GIAS 14.2",
+      "GIAS 14.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-004",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên so sánh chi phí sửa chữa từng tháng năm nay với năm trước và phát hiện tháng 12 tăng gấp ba. Đây là loại thủ tục nào và bước tiếp theo là gì?",
+    "options": [
+      "Thủ tục kiểm tra chi tiết; kết luận ngay là có sai sót trọng yếu.",
+      "Thủ tục quan sát; yêu cầu kiểm kê lại toàn bộ tài sản cố định.",
+      "Thủ tục phân tích; tìm hiểu nguyên nhân và kiểm tra chứng từ.",
+      "Thủ tục xác nhận; gửi thư cho tất cả nhà cung cấp dịch vụ sửa chữa."
+    ],
+    "answer": 2,
+    "explanation": "So sánh xu hướng giữa các kỳ là thủ tục phân tích (analytical review). Biến động bất thường không phải là kết luận mà là tín hiệu để hỏi, tìm hiểu nguyên nhân và kiểm tra chứng từ liên quan.",
+    "refs": [
+      "GIAS 14.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-005",
+    "section": "B",
+    "topic": "B7",
+    "difficulty": 1,
+    "stem": "Theo GIAS 14.6, hồ sơ làm việc (workpapers) của cuộc kiểm toán phải đáp ứng yêu cầu nào?",
+    "options": [
+      "Chỉ lưu bằng chứng có phát hiện, bỏ các phần không có ngoại lệ.",
+      "Đủ để kiểm toán viên khác hiểu công việc và ủng hộ kết luận.",
+      "Được đơn vị được kiểm toán ký duyệt trước khi đưa vào lưu trữ.",
+      "Được hủy ngay sau khi phát hành báo cáo để bảo mật thông tin."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.6: hồ sơ phải ghi nhận thông tin, phân tích để hỗ trợ kết quả và kết luận, đủ để một kiểm toán viên có kinh nghiệm khác hiểu được công việc. Hồ sơ được lưu theo chính sách lưu trữ, không hủy ngay.",
+    "refs": [
+      "GIAS 14.6"
+    ],
+    "source": "original"
+  }
+]

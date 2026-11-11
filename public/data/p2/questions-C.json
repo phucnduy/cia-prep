@@ -1,0 +1,60 @@
+[
+  {
+    "id": "P2-C-001",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Theo GIAS 12.3, mức độ giám sát cuộc kiểm toán phụ thuộc chủ yếu vào yếu tố nào?",
+    "options": [
+      "Thâm niên công tác của trưởng đơn vị được kiểm toán.",
+      "Số lần họp tiến độ mà HĐQT mong muốn trong cuộc kiểm toán.",
+      "Số trang dự kiến của báo cáo kết quả kiểm toán.",
+      "Năng lực kiểm toán viên và độ phức tạp công việc."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 12.3: CAE phải đảm bảo cuộc kiểm toán được giám sát phù hợp; mức độ giám sát tùy thuộc năng lực, kinh nghiệm của kiểm toán viên và độ phức tạp của công việc. Bằng chứng giám sát phải được ghi nhận.",
+    "refs": [
+      "GIAS 12.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-002",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Trong quá trình kiểm toán, kiểm toán viên phát hiện một vấn đề nghiêm trọng cần xử lý ngay. Cách trao đổi phù hợp nhất là gì?",
+    "options": [
+      "Trao đổi kịp thời với quản lý phù hợp, không chờ đến báo cáo cuối cùng.",
+      "Giữ lại để đưa vào báo cáo cuối cùng nhằm bảo đảm tính bất ngờ.",
+      "Gửi thẳng cho HĐQT mà không trao đổi với Ban điều hành.",
+      "Chỉ trao đổi miệng với nhân viên trực tiếp thực hiện quy trình."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 13.1 và 11.2: kiểm toán viên trao đổi với các bên liên quan trong suốt cuộc kiểm toán; vấn đề cần hành động ngay phải được báo cho quản lý phù hợp kịp thời. Trao đổi chính thức vẫn được ghi nhận trong báo cáo.",
+    "refs": [
+      "GIAS 13.1",
+      "GIAS 11.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-003",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 1,
+    "stem": "Theo GIAS 13.1, kiểm toán viên trao đổi với Ban điều hành những nội dung gì khi bắt đầu cuộc kiểm toán?",
+    "options": [
+      "Kết luận dự kiến và mức xếp hạng của cuộc kiểm toán.",
+      "Mục tiêu, phạm vi, thời gian và các thông tin liên quan khác.",
+      "Danh sách nhân viên có khả năng vi phạm trong đơn vị.",
+      "Kết quả đánh giá năng lực cá nhân của trưởng đơn vị."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 13.1: kiểm toán viên phải trao đổi với Ban điều hành về mục tiêu, phạm vi, thời gian của cuộc kiểm toán và các vấn đề liên quan. Kết luận chỉ có sau khi thực hiện công việc.",
+    "refs": [
+      "GIAS 13.1"
+    ],
+    "source": "original"
+  }
+]

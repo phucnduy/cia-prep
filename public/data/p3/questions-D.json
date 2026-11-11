@@ -1,0 +1,136 @@
+[
+  {
+    "id": "P3-D-001",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Theo GIAS 11.2, thông tin trao đổi kết quả kiểm toán cần có những đặc điểm nào?",
+    "options": [
+      "Càng dài càng tốt để thể hiện khối lượng công việc đã làm.",
+      "Chính xác, khách quan, rõ ràng, súc tích, xây dựng, đầy đủ và kịp thời.",
+      "Chỉ nêu điểm yếu, không nêu điểm tốt để tránh hiểu lầm.",
+      "Dùng nhiều thuật ngữ chuyên môn để bảo đảm tính chuyên nghiệp."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 11.2: trao đổi phải chính xác (accurate), khách quan, rõ ràng, súc tích, mang tính xây dựng, đầy đủ và kịp thời. Có thể ghi nhận thực hành tốt khi phù hợp.",
+    "refs": [
+      "GIAS 11.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-002",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Sau khi phát hành báo cáo, kiểm toán viên phát hiện một số liệu quan trọng trong báo cáo bị sai. Theo GIAS 11.4, CAE phải làm gì?",
+    "options": [
+      "Không cần xử lý nếu kết luận tổng thể không thay đổi.",
+      "Sửa trực tiếp trên bản lưu trữ mà không thông báo cho ai.",
+      "Gửi thông tin đã sửa cho tất cả các bên đã nhận báo cáo ban đầu.",
+      "Chờ đến cuộc kiểm toán năm sau để điều chỉnh."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 11.4 (Errors and Omissions): nếu trao đổi cuối cùng có sai sót hoặc thiếu sót đáng kể, CAE phải trao đổi thông tin đã điều chỉnh kịp thời cho tất cả các bên đã nhận bản gốc.",
+    "refs": [
+      "GIAS 11.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-003",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Theo GIAS 14.4, khi phát hiện vấn đề, kiểm toán viên có thể đưa ra khuyến nghị hoặc làm gì khác?",
+    "options": [
+      "Đề nghị Ban điều hành lập kế hoạch hành động và đánh giá kế hoạch đó.",
+      "Tự thực hiện khắc phục thay Ban điều hành để tiết kiệm thời gian.",
+      "Chỉ nêu phát hiện, không cần giải pháp hay kế hoạch hành động.",
+      "Yêu cầu HĐQT phê duyệt từng biện pháp khắc phục trước khi làm."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.4: kiểm toán viên xây dựng khuyến nghị hoặc đề nghị Ban điều hành lập kế hoạch hành động; trao đổi với Ban điều hành; và đánh giá kế hoạch có xử lý nguyên nhân gốc rễ không. Khắc phục là trách nhiệm quản lý.",
+    "refs": [
+      "GIAS 14.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-004",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Theo GIAS 15.1, trao đổi kết quả cuối cùng của cuộc kiểm toán phải bao gồm những nội dung nào?",
+    "options": [
+      "Danh sách nhân viên vi phạm và đề xuất hình thức kỷ luật.",
+      "Toàn bộ hồ sơ làm việc và bằng chứng đã thu thập được.",
+      "Chỉ kết luận tổng thể, không cần nêu mục tiêu và phạm vi.",
+      "Mục tiêu, phạm vi, phát hiện, khuyến nghị và kết luận."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 15.1: trao đổi cuối cùng gồm mục tiêu và phạm vi, phát hiện, khuyến nghị và/hoặc kế hoạch hành động, kết luận, và giới hạn phạm vi nếu có. Hồ sơ làm việc không gửi kèm.",
+    "refs": [
+      "GIAS 15.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-005",
+    "section": "D",
+    "topic": "D6",
+    "difficulty": 3,
+    "stem": "Ban điều hành quyết định không thực hiện kế hoạch hành động cho một phát hiện rủi ro cao, chấp nhận rủi ro mà CAE cho là vượt khẩu vị. Sau khi thảo luận không thành, CAE phải làm gì?",
+    "options": [
+      "Đóng phát hiện vì Ban điều hành có quyền chấp nhận rủi ro.",
+      "Báo cáo vấn đề cho HĐQT theo GIAS 11.5.",
+      "Tự thực hiện kiểm soát thay thế để giảm rủi ro.",
+      "Thông báo cho cơ quan quản lý trước khi báo cáo HĐQT."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 11.5: nếu CAE kết luận Ban điều hành đã chấp nhận rủi ro vượt khẩu vị và thảo luận không giải quyết được, CAE phải báo cáo HĐQT. Quyết định cuối cùng thuộc HĐQT; CAE không tự thực hiện kiểm soát.",
+    "refs": [
+      "GIAS 11.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-006",
+    "section": "D",
+    "topic": "D7",
+    "difficulty": 2,
+    "stem": "Theo GIAS 15.2, CAE phải làm gì đối với các kế hoạch hành động đã được Ban điều hành cam kết?",
+    "options": [
+      "Không cần theo dõi vì đó là trách nhiệm của Ban điều hành.",
+      "Chỉ theo dõi phát hiện liên quan đến báo cáo tài chính.",
+      "Theo dõi, xác nhận việc thực hiện và báo cáo HĐQT.",
+      "Yêu cầu kiểm toán độc lập xác nhận từng kế hoạch hành động."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 15.2: kiểm toán viên phải xác nhận Ban điều hành đã thực hiện khuyến nghị hoặc kế hoạch hành động theo phương pháp CAE thiết lập; CAE báo cáo tình trạng theo dõi, đặc biệt các kế hoạch quá hạn, cho HĐQT.",
+    "refs": [
+      "GIAS 15.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-007",
+    "section": "D",
+    "topic": "D8",
+    "difficulty": 2,
+    "stem": "Một kế hoạch hành động cho phát hiện rủi ro cao đã quá hạn hai lần mà không có lý do chính đáng. Bước xử lý phù hợp nhất là gì?",
+    "options": [
+      "Đóng phát hiện và ghi nhận trạng thái là đã quá hạn.",
+      "Gia hạn thêm theo đề nghị của đơn vị mà không cần báo cáo.",
+      "Tự thực hiện các bước khắc phục còn lại thay đơn vị.",
+      "Báo vượt cấp lên quản lý cao hơn và HĐQT."
+    ],
+    "answer": 3,
+    "explanation": "Quy trình escalation: khi Ban điều hành không thực hiện kế hoạch hành động phù hợp, CAE báo lên cấp quản lý cao hơn và cuối cùng là HĐQT. Đóng phát hiện hoặc tự khắc phục đều không phù hợp.",
+    "refs": [
+      "GIAS 15.2",
+      "GIAS 11.5"
+    ],
+    "source": "original"
+  }
+]

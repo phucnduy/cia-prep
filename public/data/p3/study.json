@@ -1,0 +1,112 @@
+[
+  {
+    "id": "P3-C-K031",
+    "section": "C",
+    "title": "Cấu trúc Chương trình Đảm bảo và Cải tiến Chất lượng (QAIP - Chuẩn mực 8.3 & 8.4)",
+    "rule": "Một chương trình QAIP toàn diện bắt buộc phải bao gồm cả Đánh giá nội bộ (Giám sát liên tục + Tự đánh giá định kỳ) và Đánh giá độc lập bên ngoài.",
+    "action": "CAE thiết lập quy trình giám sát chất lượng từng cuộc kiểm toán đồng thời lập kế hoạch đánh giá độc lập bên ngoài tối thiểu 5 năm một lần.",
+    "violation": "Chỉ thực hiện tự đánh giá nội bộ mà không bao giờ mời đơn vị độc lập bên ngoài đánh giá nhưng vẫn tuyên bố tuân thủ chuẩn mực GIAS.",
+    "trap": "QAIP chỉ áp dụng cho các cuộc kiểm toán tài chính, không áp dụng cho kiểm toán vận hành và dịch vụ tư vấn.",
+    "distinction": "Mục tiêu của QAIP không chỉ là kiểm tra sự tuân thủ Chuẩn mực mà còn nhằm cải tiến liên tục hiệu quả và hiệu suất của bộ phận KTNB."
+  },
+  {
+    "id": "P3-C-K032",
+    "section": "C",
+    "title": "Giám sát Liên tục Chất lượng Kiểm toán (Ongoing Monitoring trong QAIP)",
+    "rule": "Giám sát liên tục là một phần tích hợp trong quy trình quản lý hàng ngày của KTNB, được thực hiện xuyên suốt từng cuộc kiểm toán.",
+    "action": "Thực hiện soát xét giấy tờ làm việc theo cấp bậc (Supervisory review), dùng bảng kiểm (Checklist) chất lượng và khảo sát phản hồi của đơn vị sau mỗi cuộc kiểm toán.",
+    "violation": "Đợi đến hết 5 năm mới kiểm tra giấy tờ làm việc của các kiểm toán viên trong phòng một lần.",
+    "trap": "Việc thuê công ty tư vấn độc lập bên ngoài 5 năm một lần được phân loại là hoạt động Giám sát liên tục (Ongoing monitoring).",
+    "distinction": "Giám sát liên tục giúp phát hiện và sửa chữa ngay các thiếu sót về bằng chứng hoặc thủ tục trước khi phát hành báo cáo kiểm toán chính thức."
+  },
+  {
+    "id": "P3-C-K033",
+    "section": "C",
+    "title": "Tự đánh giá Định kỳ (Periodic Self-Assessment trong QAIP)",
+    "rule": "Là các cuộc rà soát định kỳ (thường thực hiện hàng năm) do nhân sự cấp cao trong bộ phận KTNB hoặc nhóm chuyên trách thực hiện để đánh giá sự tuân thủ toàn diện với GIAS.",
+    "action": "Hàng năm, CAE tổ chức rà soát lại Điều lệ, sổ tay kiểm toán, mẫu hồ sơ kiểm toán và trình kết quả tự đánh giá cho Ủy ban Kiểm toán.",
+    "violation": "Bỏ qua hoạt động tự đánh giá định kỳ suốt 4 năm liền vì cho rằng đã có trưởng nhóm soát xét từng báo cáo riêng lẻ.",
+    "trap": "Tự đánh giá định kỳ có thể thay thế hoàn toàn cho Đánh giá độc lập bên ngoài (External Assessment).",
+    "distinction": "Trong khi Ongoing Monitoring nhìn vào chất lượng từng cuộc kiểm toán cụ thể, Periodic Self-Assessment nhìn vào chất lượng tổng thể của cả hoạt động KTNB."
+  },
+  {
+    "id": "P3-C-K034",
+    "section": "C",
+    "title": "Đánh giá Độc lập Bên ngoài (External Quality Assessment - Chuẩn mực 8.4)",
+    "rule": "Phải được thực hiện tối thiểu 5 năm một lần bởi một chuyên gia/nhóm đánh giá có trình độ và hoàn toàn độc lập từ bên ngoài tổ chức.",
+    "action": "CAE thảo luận với HĐQT/Ủy ban Kiểm toán để phê duyệt kế hoạch, phạm vi và tiêu chí lựa chọn đơn vị đánh giá độc lập bên ngoài.",
+    "violation": "Mời Trưởng phòng Pháp chế hoặc Kế toán trưởng trong cùng công ty đứng ra làm Trưởng đoàn đánh giá độc lập bên ngoài cho phòng KTNB.",
+    "trap": "Đoàn đánh giá độc lập bên ngoài không cần có kinh nghiệm về kiểm toán nội bộ mà chỉ cần có chứng chỉ kế toán viên công chứng.",
+    "distinction": "Có 2 hình thức hợp lệ: (1) Đánh giá toàn diện bởi bên độc lập bên ngoài, hoặc (2) Tự đánh giá có sự xác nhận độc lập từ bên ngoài (SAIV)."
+  },
+  {
+    "id": "P3-C-K035",
+    "section": "C",
+    "title": "Tự đánh giá có Xác nhận Độc lập (Self-Assessment with Independent Validation - SAIV)",
+    "rule": "Trong hình thức SAIV, nhóm nội bộ tự đánh giá toàn diện và lập báo cáo, sau đó một chuyên gia độc lập bên ngoài kiểm tra tại chỗ, phỏng vấn và ký xác nhận kết luận.",
+    "action": "Các bộ phận KTNB quy mô nhỏ hoặc ngân sách hạn chế có thể chọn SAIV (sau khi được HĐQT duyệt) để vẫn đáp ứng yêu cầu đánh giá 5 năm/lần.",
+    "violation": "Tự làm báo cáo đánh giá nội bộ rồi chỉ nhờ CEO ký xác nhận và gọi đó là đánh giá độc lập bên ngoài.",
+    "trap": "Hình thức SAIV không được IIA công nhận là một phương thức hợp lệ của External Assessment.",
+    "distinction": "Người xác nhận độc lập trong SAIV vẫn phải trực tiếp soát xét hồ sơ, phỏng vấn Chủ tịch Ủy ban Kiểm toán và CEO để xác thực kết quả."
+  },
+  {
+    "id": "P3-C-K036",
+    "section": "C",
+    "title": "Điều kiện sử dụng Tuyên bố Phù hợp với Chuẩn mực (Conforms with GIAS)",
+    "rule": "CAE chỉ được phép tuyên bố hoạt động KTNB \"Phù hợp với Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu\" khi kết quả QAIP (cả nội bộ và bên ngoài) xác nhận đạt chuẩn.",
+    "action": "Sau khi vượt qua kỳ đánh giá độc lập bên ngoài và duy trì đánh giá nội bộ tốt, CAE đưa câu tuyên bố phù hợp vào các báo cáo kiểm toán.",
+    "violation": "Phòng KTNB mới thành lập được 2 năm, chưa từng làm đánh giá bên ngoài nhưng đã in dòng chữ \"Phù hợp với Chuẩn mực GIAS\" lên mọi báo cáo.",
+    "trap": "Trong 5 năm đầu mới thành lập, bộ phận KTNB đương nhiên được quyền tuyên bố phù hợp với Chuẩn mực mà không cần đánh giá bên ngoài.",
+    "distinction": "Nếu quá hạn 5 năm mà chưa thực hiện lại đánh giá bên ngoài, bộ phận KTNB phải ngừng sử dụng tuyên bố phù hợp cho đến khi đánh giá xong."
+  },
+  {
+    "id": "P3-C-K037",
+    "section": "C",
+    "title": "Báo cáo kết quả QAIP cho Hội đồng Quản trị (Ủy ban Kiểm toán)",
+    "rule": "CAE phải báo cáo cho HĐQT về phạm vi, tần suất và kết quả của cả đánh giá nội bộ định kỳ lẫn đánh giá độc lập bên ngoài kèm kế hoạch hành động khắc phục.",
+    "action": "Trình bày nguyên văn kết luận của đoàn đánh giá độc lập bên ngoài và lộ trình cải tiến các điểm chưa hoàn thiện tại cuộc họp Ủy ban Kiểm toán.",
+    "violation": "CAE giữ kín báo cáo đánh giá chất lượng bên ngoài vì có một số nhận xét phê bình về quy trình lưu trữ hồ sơ của phòng.",
+    "trap": "Kết quả QAIP chỉ là việc nội bộ của phòng KTNB nên không cần báo cáo cho Ủy ban Kiểm toán.",
+    "distinction": "Theo Chuẩn mực GIAS 8.4, ít nhất một thành viên trong nhóm đánh giá độc lập bên ngoài phải sở hữu chứng chỉ CIA còn hiệu lực."
+  },
+  {
+    "id": "P3-A-K001",
+    "section": "A",
+    "title": "Chiến lược và phương pháp luận kiểm toán (GIAS 9.2, 9.3)",
+    "rule": "CAE xây dựng chiến lược kiểm toán (tầm nhìn, mục tiêu, sáng kiến) gắn với chiến lược tổ chức, và ban hành phương pháp luận hướng dẫn công việc kiểm toán.",
+    "action": "Trao đổi chiến lược với HĐQT, rà soát định kỳ; cập nhật phương pháp luận khi chuẩn mực hoặc rủi ro thay đổi.",
+    "violation": "Không có phương pháp luận thống nhất, mỗi nhóm tự làm theo cách riêng.",
+    "trap": "Chiến lược kiểm toán chính là kế hoạch kiểm toán năm.",
+    "distinction": "Chiến lược là định hướng dài hạn; kế hoạch kiểm toán là danh mục công việc cụ thể dựa trên rủi ro."
+  },
+  {
+    "id": "P3-B-K001",
+    "section": "B",
+    "title": "Kế hoạch kiểm toán dựa trên rủi ro (GIAS 9.4)",
+    "rule": "Kế hoạch dựa trên đánh giá rủi ro có tài liệu, ít nhất hằng năm, có ý kiến Ban điều hành và HĐQT, được HĐQT phê duyệt; cập nhật khi rủi ro thay đổi đáng kể.",
+    "action": "Xây dựng audit universe, chấm điểm rủi ro, phân bổ nguồn lực, phối hợp với các bên đảm bảo khác (GIAS 9.5).",
+    "violation": "Kiểm toán luân phiên đều các phòng ban mà không xét mức độ rủi ro.",
+    "trap": "Kế hoạch đã được HĐQT phê duyệt thì không được thay đổi trong năm.",
+    "distinction": "Đảm bảo kết hợp (combined assurance) giảm trùng lặp nhưng CAE vẫn chịu trách nhiệm kết luận."
+  },
+  {
+    "id": "P3-D-K001",
+    "section": "D",
+    "title": "Báo cáo chấp nhận rủi ro (GIAS 11.5)",
+    "rule": "Nếu CAE kết luận Ban điều hành chấp nhận rủi ro vượt khẩu vị, CAE thảo luận với Ban điều hành; nếu không giải quyết được, phải báo cáo HĐQT.",
+    "action": "Ghi nhận rõ rủi ro, lý do Ban điều hành chấp nhận, quan điểm của CAE và trình HĐQT.",
+    "violation": "Đóng phát hiện chỉ vì Ban điều hành nói 'chúng tôi chấp nhận rủi ro'.",
+    "trap": "CAE có quyền buộc Ban điều hành khắc phục rủi ro.",
+    "distinction": "Quyết định chấp nhận rủi ro thuộc Ban điều hành và HĐQT; CAE có trách nhiệm báo cáo."
+  },
+  {
+    "id": "P3-D-K002",
+    "section": "D",
+    "title": "Theo dõi thực hiện kế hoạch hành động (GIAS 15.2)",
+    "rule": "Kiểm toán viên xác nhận việc thực hiện khuyến nghị hoặc kế hoạch hành động theo phương pháp CAE thiết lập; tình trạng được báo cáo cho HĐQT.",
+    "action": "Theo dõi theo thời hạn cam kết, kiểm tra bằng chứng khắc phục, escalation khi quá hạn.",
+    "violation": "Đóng phát hiện chỉ dựa vào email xác nhận 'đã xong' của đơn vị.",
+    "trap": "Theo dõi khắc phục là trách nhiệm của Ban điều hành nên kiểm toán nội bộ không cần làm.",
+    "distinction": "Mức độ xác nhận tương xứng với mức độ rủi ro của phát hiện."
+  }
+]

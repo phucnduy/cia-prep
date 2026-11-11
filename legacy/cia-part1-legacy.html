@@ -1,0 +1,2534 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hệ Thống Ôn Thi CIA Part 1 Toàn Diện (350+ Câu Hỏi)</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- React & ReactDOM & Babel Standalone -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #f8fafc;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect, useMemo } = React;
+
+    // Bộ Icon SVG nội tuyến giúp file HTML chạy độc lập không phụ thuộc thư viện icon ngoài
+    const Icon = ({ path, className = "w-5 h-5" }) => (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className={className}
+      >
+        {path}
+      </svg>
+    );
+
+    const FileText = (props) => <Icon {...props} path={<><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></>} />;
+    const ListChecks = (props) => <Icon {...props} path={<><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></>} />;
+    const ChevronRight = (props) => <Icon {...props} path={<polyline points="9 18 15 12 9 6"/>} />;
+    const ChevronLeft = (props) => <Icon {...props} path={<polyline points="15 18 9 12 15 6"/>} />;
+    const BookOpen = (props) => <Icon {...props} path={<><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></>} />;
+    const Target = (props) => <Icon {...props} path={<><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></>} />;
+    const Home = (props) => <Icon {...props} path={<><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></>} />;
+    const EyeOff = (props) => <Icon {...props} path={<><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"/><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"/><path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"/><line x1="2" y1="2" x2="22" y2="22"/></>} />;
+    const Eye = (props) => <Icon {...props} path={<><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></>} />;
+    const Search = (props) => <Icon {...props} path={<><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></>} />;
+    const CheckCircle = (props) => <Icon {...props} path={<><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></>} />;
+    const HelpCircle = (props) => <Icon {...props} path={<><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></>} />;
+    const ArrowRight = (props) => <Icon {...props} path={<><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></>} />;
+    const Shuffle = (props) => <Icon {...props} path={<><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22"/><polyline points="18 2 22 6 18 10"/><path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2"/><path d="M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8"/><polyline points="18 14 22 18 18 22"/></>} />;
+    const Play = (props) => <Icon {...props} path={<polygon points="5 3 19 12 5 21 5 3"/>} />;
+    const XCircle = (props) => <Icon {...props} path={<><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></>} />;
+    const AlertCircle = (props) => <Icon {...props} path={<><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></>} />;
+    const Award = (props) => <Icon {...props} path={<><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></>} />;
+    const RotateCcw = (props) => <Icon {...props} path={<><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></>} />;
+    const Download = (props) => <Icon {...props} path={<><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></>} />;
+    const Upload = (props) => <Icon {...props} path={<><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></>} />;
+    const Database = (props) => <Icon {...props} path={<><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></>} />;
+    const PlusCircle = (props) => <Icon {...props} path={<><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></>} />;
+    const Trash2 = (props) => <Icon {...props} path={<><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/></>} />;
+
+    // Ngân hàng 60 chủ điểm cốt lõi CIA Part 1 (tạo 298 câu hỏi tình huống từ #1 -> #298 nối tiếp với #299 -> #350)
+    const CORE_CIA_TOPICS = [
+      {
+        d: 'D1',
+        topic: 'Mục đích của Kiểm toán Nội bộ (GIAS Domain I)',
+        rule: 'Tăng cường khả năng tạo lập, bảo vệ và duy trì giá trị của tổ chức thông qua việc cung cấp dịch vụ đảm bảo và tư vấn độc lập, khách quan dựa trên rủi ro.',
+        action: 'Trình bày rõ sứ mệnh và giá trị gia tăng của KTNB trong Điều lệ kiểm toán trình HĐQT phê duyệt.',
+        violation: 'Biến bộ phận KTNB thành bộ phận trực tiếp phê duyệt chứng từ kế toán hàng ngày thay cho Ban điều hành.',
+        trap: 'KTNB chịu trách nhiệm chính trong việc thiết kế và vận hành hệ thống kiểm soát nội bộ của doanh nghiệp.',
+        distinction: 'Dịch vụ đảm bảo đưa ra đánh giá độc lập của KTV, còn dịch vụ tư vấn đưa ra lời khuyên theo yêu cầu mà không nhận trách nhiệm quản lý.'
+      },
+      {
+        d: 'D1',
+        topic: 'Điều lệ Kiểm toán Nội bộ (Internal Audit Charter - Chuẩn mực 6.2)',
+        rule: 'Là văn bản chính thức xác định mục đích, quyền hạn, trách nhiệm và vị thế của bộ phận KTNB trong tổ chức, được HĐQT/Ủy ban Kiểm toán phê duyệt.',
+        action: 'CAE định kỳ rà soát Điều lệ với Ban điều hành cấp cao và trình HĐQT phê duyệt lại khi có thay đổi lớn.',
+        violation: 'Cho phép Giám đốc Tài chính (CFO) tự ý sửa đổi Điều lệ KTNB để giới hạn quyền truy cập hồ sơ của KTV.',
+        trap: 'Điều lệ KTNB chỉ cần chữ ký của Tổng Giám đốc (CEO) mà không cần thông qua Ủy ban Kiểm toán.',
+        distinction: 'Điều lệ quy định cả dịch vụ đảm bảo và dịch vụ tư vấn, đồng thời xác lập quyền tiếp cận không giới hạn với hồ sơ, nhân sự và tài sản.'
+      },
+      {
+        d: 'D1',
+        topic: 'Ủy quyền Kiểm toán Nội bộ (Internal Audit Mandate - Chuẩn mực 6.1)',
+        rule: 'Trao cho bộ phận KTNB thẩm quyền chính thức từ HĐQT hoặc pháp luật để thực hiện chức năng kiểm toán độc lập.',
+        action: 'CAE nhắc lại thẩm quyền trong Điều lệ và báo cáo lên Ủy ban Kiểm toán nếu một phòng ban từ chối cung cấp tài liệu.',
+        violation: 'Đơn vị được kiểm toán viện lý do bí mật kinh doanh nội bộ để cấm KTNB xem xét hợp đồng mua sắm.',
+        trap: 'KTNB chỉ được kiểm toán các phòng ban khi có sự đồng ý bằng văn bản của trưởng phòng ban đó.',
+        distinction: 'Mandate là nguồn gốc quyền lực do HĐQT trao, còn Charter là văn bản hóa quyền lực và phạm vi hoạt động đó.'
+      },
+      {
+        d: 'D1',
+        topic: 'Nguyên tắc Tính Chính trực (Integrity - GIAS Nguyên tắc 1)',
+        rule: 'Kiểm toán viên phải hành động trung thực, có trách nhiệm, tuân thủ pháp luật và thể hiện dũng khí đạo đức trong mọi công việc.',
+        action: 'Báo cáo trung thực các phát hiện kiểm toán trọng yếu dù bị lãnh đạo đơn vị được kiểm toán gây sức ép.',
+        violation: 'Cố tình bỏ qua một bút toán điều chỉnh sai quy định để đổi lấy lời hứa khen thưởng từ Giám đốc chi nhánh.',
+        trap: 'Kiểm toán viên có thể làm ngơ các vi phạm nhỏ của lãnh đạo nếu điều đó giúp giữ hòa khí với đơn vị được kiểm toán.',
+        distinction: 'Tính chính trực là nền tảng của sự tin cậy để các bên liên quan đặt niềm tin vào phán đoán chuyên môn của KTV.'
+      },
+      {
+        d: 'D1',
+        topic: 'Bảo mật thông tin (Confidentiality - Chuẩn mực 5.1 & 5.2)',
+        rule: 'KTV phải tôn trọng giá trị và quyền sở hữu thông tin nhận được, không tiết lộ thông tin nếu không có thẩm quyền hợp pháp hoặc nghĩa vụ pháp lý.',
+        action: 'Tham khảo ý kiến chuyên gia tư vấn pháp lý (Legal Counsel) trước khi cung cấp hồ sơ kiểm toán theo yêu cầu của cơ quan chức năng.',
+        violation: 'Sử dụng thông tin mật về kế hoạch sáp nhập chưa công bố của công ty để mua cổ phiếu trục lợi cá nhân.',
+        trap: 'Nguyên tắc bảo mật cấm tuyệt đối việc cung cấp hồ sơ kiểm toán ngay cả khi có Trát đòi hầu tòa (Subpoena) hợp pháp.',
+        distinction: 'Bảo mật không có nghĩa là che giấu hành vi phạm pháp trước HĐQT hoặc cơ quan tòa án có thẩm quyền.'
+      },
+      {
+        d: 'D1',
+        topic: 'Phân biệt Dịch vụ Đảm bảo (Assurance) và Tư vấn (Advisory)',
+        rule: 'Dịch vụ đảm bảo có 3 bên (Đơn vị vận hành, KTNB, Người sử dụng báo cáo); dịch vụ tư vấn có 2 bên (KTNB và Khách hàng yêu cầu tư vấn).',
+        action: 'Trước khi nhận hợp đồng tư vấn lớn, CAE đánh giá xem bộ phận có đủ năng lực chuyên môn và đảm bảo không nhận trách nhiệm quản lý hay không.',
+        violation: 'KTV trực tiếp đứng ra ký phê duyệt lựa chọn nhà thầu phần mềm ERP trong quá trình tư vấn triển khai hệ thống.',
+        trap: 'Khi thực hiện dịch vụ tư vấn, kiểm toán viên nội bộ được miễn trừ hoàn toàn nghĩa vụ tuân thủ Chuẩn mực GIAS.',
+        distinction: 'Nếu phát hiện rủi ro trọng yếu trong lúc làm tư vấn, KTV vẫn có nghĩa vụ báo cáo cho Ban điều hành và HĐQT.'
+      },
+      {
+        d: 'D1',
+        topic: 'Xung đột giữa Chuẩn mực GIAS và Luật pháp địa phương',
+        rule: 'Nếu một phần của Chuẩn mực bị cấm bởi luật pháp hoặc quy định, KTV phải tuân thủ luật pháp và vẫn phải tuân thủ tất cả các phần còn lại của Chuẩn mực.',
+        action: 'Thực hiện đúng quy định pháp luật sở tại và công bố rõ sự khác biệt nếu ảnh hưởng đến phạm vi kiểm toán.',
+        violation: 'Viện cớ một điều khoản luật địa phương khác biệt để hủy bỏ toàn bộ việc áp dụng Chuẩn mực GIAS tại phòng KTNB.',
+        trap: 'Chuẩn mực của IIA có hiệu lực pháp lý cao hơn luật pháp quốc gia của nước sở tại.',
+        distinction: 'Khi quy định pháp luật nghiêm ngặt hơn Chuẩn mực GIAS, KTV phải tuân thủ quy định nghiêm ngặt hơn đó.'
+      },
+      {
+        d: 'D1',
+        topic: 'Chính sách nhận Quà tặng và Chiêu đãi (Gifts and Entertainment)',
+        rule: 'KTV không được nhận bất kỳ quà tặng hay lợi ích nào có thể làm suy giảm hoặc tạo cảm giác làm suy giảm tính khách quan và phán đoán chuyên môn.',
+        action: 'Từ chối lịch sự các món quà có giá trị từ đơn vị đang được kiểm toán và báo cáo ngay cho CAE theo quy chế đạo đức.',
+        violation: 'Nhận chuyến du lịch nghỉ dưỡng miễn phí do nhà cung cấp đang nằm trong diện kiểm toán tài trợ.',
+        trap: 'Có thể nhận mọi món quà có giá trị cao miễn là kiểm toán viên tự hứa sẽ không thiên vị khi viết báo cáo.',
+        distinction: 'Các vật phẩm quảng cáo giá trị nhỏ (như bút bi, sổ tay có logo công ty) thường được phép nhận nếu phù hợp chính sách chung của công ty.'
+      },
+      {
+        d: 'D1',
+        topic: 'Khung Thực hành Chuyên môn Quốc tế (IPPF & 5 Domains của GIAS)',
+        rule: 'Bộ Chuẩn mực GIAS được cấu trúc thành 5 Lĩnh vực (Domains) và 15 Nguyên tắc cốt lõi mang tính bắt buộc.',
+        action: 'Đào tạo toàn bộ đội ngũ KTV nắm vững 5 Domains: Mục đích KTNB, Đạo đức & Chuyên nghiệp, Quản trị KTNB, Quản lý KTNB, và Thực hiện dịch vụ KTNB.',
+        violation: 'Chỉ áp dụng các chuẩn mực về thực hiện cuộc kiểm toán mà bỏ qua các chuẩn mực về đạo đức và quản trị chất lượng.',
+        trap: 'Hướng dẫn bổ sung (Global Guidance) có tính bắt buộc pháp lý ngang bằng với 15 Nguyên tắc của GIAS.',
+        distinction: 'Chuẩn mực GIAS và Topical Requirements là bắt buộc (Mandatory), còn Global Guidance là tài liệu hướng dẫn khuyến nghị.'
+      },
+      {
+        d: 'D1',
+        topic: 'Trách nhiệm đạo đức đối với chứng chỉ CIA',
+        rule: 'Người sở hữu chứng chỉ CIA phải duy trì đào tạo liên tục (CPE) và không được xuyên tạc trình độ hoặc thực hiện hành vi làm tổn hại uy tín nghề nghiệp.',
+        action: 'Khai báo trung thực số giờ CPE định kỳ hàng năm bao gồm tối thiểu 2 giờ về Đạo đức nghề nghiệp (Ethics).',
+        violation: 'Khai khống các khóa học chưa từng tham gia để duy trì trạng thái hoạt động của chứng chỉ CIA.',
+        trap: 'Sau khi thi đỗ chứng chỉ CIA, hội viên có giá trị vĩnh viễn mà không cần cập nhật kiến thức CPE hàng năm.',
+        distinction: 'Hội đồng Kỷ luật của IIA có quyền đình chỉ hoặc thu hồi chứng chỉ CIA nếu cá nhân vi phạm nghiêm trọng Quy tắc Đạo đức.'
+      },
+      {
+        d: 'D2',
+        topic: 'Tính Độc lập về mặt Tổ chức (Organizational Independence - Chuẩn mực 7.1)',
+        rule: 'Tính độc lập đạt được hiệu quả nhất khi CAE báo cáo trực tiếp về mặt chức năng (Functionally) cho Hội đồng Quản trị/Ủy ban Kiểm toán và về mặt hành chính (Administratively) cho CEO.',
+        action: 'Đảm bảo Ủy ban Kiểm toán trực tiếp phê duyệt Điều lệ, Kế hoạch kiểm toán dựa trên rủi ro, ngân sách và quyết định bổ nhiệm/miễn nhiệm CAE.',
+        violation: 'Giao cho Giám đốc Tài chính (CFO) quyền quyết định mức thưởng cuối năm và quyền sa thải Giám đốc Kiểm toán Nội bộ (CAE).',
+        trap: 'Báo cáo hành chính cho CEO bao gồm cả việc CEO có quyền cắt bỏ các cuộc kiểm toán nhạy cảm khỏi kế hoạch năm.',
+        distinction: 'Báo cáo hành chính chỉ phục vụ vận hành nội bộ (duyệt nghỉ phép, chi tiêu hành chính hàng ngày), còn báo cáo chức năng bảo vệ sự độc lập.'
+      },
+      {
+        d: 'D2',
+        topic: 'Phân biệt Tính Độc lập (Independence) và Tính Khách quan (Objectivity)',
+        rule: 'Tính độc lập là vị thế không bị chi phối của cả bộ phận KTNB trong cơ cấu tổ chức; còn Tính khách quan là thái độ tinh thần không thiên vị của từng cá nhân kiểm toán viên.',
+        action: 'Xây dựng cơ chế báo cáo kép cho bộ phận KTNB đồng thời rà soát xung đột lợi ích cá nhân của từng KTV trước mỗi cuộc kiểm toán.',
+        violation: 'Bố trí một KTV có vợ đang làm Kế toán trưởng chi nhánh A trực tiếp đi kiểm toán báo cáo tài chính của chi nhánh A.',
+        trap: 'Nếu bộ phận KTNB đã độc lập về mặt tổ chức thì mọi kiểm toán viên trong phòng tự động có tính khách quan tuyệt đối.',
+        distinction: 'Sự suy giảm tính khách quan cần được đánh giá trên cả hai khía cạnh: thực tế (in fact) và hình thức bên ngoài (in appearance).'
+      },
+      {
+        d: 'D2',
+        topic: 'Quy tắc Thời gian đóng băng 12 tháng (12-Month Cooling-Off Period)',
+        rule: 'Kiểm toán viên bị suy giảm tính khách quan nếu thực hiện dịch vụ đảm bảo cho một bộ phận mà mình từng làm việc hoặc chịu trách nhiệm quản lý trong vòng 12 tháng trước đó.',
+        action: 'Phân công KTV mới chuyển từ phòng Mua hàng sang kiểm toán các mảng khác trong năm đầu tiên, hoặc chỉ cho phép tham gia dịch vụ tư vấn.',
+        violation: 'Giao cho nhân viên vừa chuyển từ phòng Kho vận sang KTNB được 3 tháng làm trưởng đoàn kiểm toán đảm bảo quy trình Kho vận.',
+        trap: 'Thời gian hạn chế kiểm toán lại bộ phận cũ của nhân sự điều chuyển nội bộ chỉ là 3 tháng.',
+        distinction: 'KTV mới chuyển từ bộ phận vận hành sang vẫn có thể cung cấp dịch vụ tư vấn (Advisory) cho bộ phận cũ nếu công bố rõ thông tin.'
+      },
+      {
+        d: 'D2',
+        topic: 'Họp riêng định kỳ với Ủy ban Kiểm toán (Executive Sessions)',
+        rule: 'CAE phải có các cuộc họp riêng định kỳ với Hội đồng Quản trị/Ủy ban Kiểm toán mà không có sự hiện diện của Ban điều hành để trao đổi thẳng thắn các vấn đề nhạy cảm.',
+        action: 'Duy trì lịch họp kín hàng quý với Ủy ban Kiểm toán ngay sau các phiên họp định kỳ để báo cáo về giới hạn phạm vi hoặc áp lực từ Ban giám đốc.',
+        violation: 'Tổng Giám đốc (CEO) yêu cầu bắt buộc phải có mặt trong mọi cuộc trao đổi giữa CAE và Chủ tịch Ủy ban Kiểm toán.',
+        trap: 'CAE chỉ được phép gặp Ủy ban Kiểm toán khi có sự cho phép trước bằng văn bản của CEO.',
+        distinction: 'Các cuộc họp kín giúp bảo vệ tính độc lập và tạo kênh cảnh báo sớm khi Ban điều hành cấp cao có dấu hiệu lạm quyền.'
+      },
+      {
+        d: 'D2',
+        topic: 'Giới hạn Phạm vi Kiểm toán (Scope Limitation)',
+        rule: 'Giới hạn phạm vi là bất kỳ sự cản trở nào ngăn không cho KTNB thực hiện đầy đủ các mục tiêu và thủ tục kiểm toán cần thiết.',
+        action: 'Khi gặp giới hạn phạm vi không thể tháo gỡ với Ban điều hành, CAE phải báo cáo bằng văn bản lên Hội đồng Quản trị/Ủy ban Kiểm toán.',
+        violation: 'Khi bị Giám đốc chi nhánh từ chối cung cấp sổ phụ ngân hàng, đoàn kiểm toán tự ý bỏ qua thủ tục đó và vẫn kết luận chi nhánh đạt chuẩn.',
+        trap: 'Mọi giới hạn phạm vi đều buộc kiểm toán viên phải nộp đơn từ chức ngay lập tức.',
+        distinction: 'Giới hạn phạm vi có thể phát sinh từ sự từ chối cung cấp hồ sơ của đơn vị hoặc từ việc cắt giảm ngân sách kiểm toán quá mức.'
+      },
+      {
+        d: 'D2',
+        topic: 'CAE kiêm nhiệm chức năng thuộc trách nhiệm của Ban điều hành',
+        rule: 'Khi CAE được giao kiêm nhiệm thêm vai trò ngoài kiểm toán (như Quản lý rủi ro hoặc Tuân thủ ở Tuyến 2), tính độc lập đối với mảng đó bị suy giảm.',
+        action: 'HĐQT phải thiết lập cơ chế giám sát bổ sung và thuê bên thứ ba độc lập thực hiện kiểm toán đảm bảo đối với mảng mà CAE đang kiêm nhiệm.',
+        violation: 'CAE trực tiếp điều hành bộ phận Tuân thủ và tự phân công nhân viên KTNB dưới quyền mình đánh giá đảm bảo cho bộ phận Tuân thủ đó.',
+        trap: 'CAE tuyệt đối không bao giờ được phép đảm nhận bất kỳ vai trò nào khác trong tổ chức dù HĐQT yêu cầu.',
+        distinction: 'Nhân viên KTNB không thể đánh giá khách quan một bộ phận mà chính sếp trực tiếp của họ (CAE) đang làm trưởng bộ phận.'
+      },
+      {
+        d: 'D2',
+        topic: 'Quản lý tính khách quan khi sử dụng Nhân sự biệt phái (Guest Auditors)',
+        rule: 'Khi mượn chuyên gia từ các phòng ban vận hành trong công ty tham gia đoàn kiểm toán, CAE phải đảm bảo họ không kiểm toán lại chính bộ phận của mình.',
+        action: 'Sử dụng kỹ sư giỏi từ Nhà máy A để hỗ trợ chuyên môn kỹ thuật cho đoàn kiểm toán tại Nhà máy B độc lập.',
+        violation: 'Mượn chuyên viên phòng CNTT tham gia đoàn kiểm toán để tự đánh giá các chốt kiểm soát bảo mật do chính chuyên viên đó thiết lập.',
+        trap: 'Không bao giờ được sử dụng nhân sự từ các phòng ban khác tham gia hỗ trợ chuyên môn cho đoàn kiểm toán nội bộ.',
+        distinction: 'Guest Auditor giúp bổ sung kiến thức chuyên sâu và đào tạo chéo nhưng phải được giám sát chặt chẽ bởi KTV có kinh nghiệm.'
+      },
+      {
+        d: 'D2',
+        topic: 'Suy giảm tính khách quan do Thiết kế Hệ thống Kiểm soát',
+        rule: 'Nếu kiểm toán viên trực tiếp thiết kế hoặc cài đặt quy trình kiểm soát cho một hệ thống thì tính khách quan sẽ bị suy giảm nếu chính họ kiểm toán đảm bảo hệ thống đó.',
+        action: 'Kiểm toán viên chỉ đưa ra khuyến nghị về tiêu chuẩn kiểm soát cần có, còn việc thiết kế chi tiết và vận hành thuộc về Ban điều hành.',
+        violation: 'KTV trực tiếp viết quy trình và cài đặt cấu hình phân quyền ERP rồi tháng sau lại ký báo cáo đảm bảo rằng hệ thống phân quyền đó hoàn hảo.',
+        trap: 'Việc kiểm toán viên đưa ra khuyến nghị khắc phục sau cuộc kiểm toán cũng làm mất tính khách quan.',
+        distinction: 'Đưa ra khuyến nghị kiểm soát là chức năng bình thường của KTNB, nhưng trực tiếp thiết kế/cài đặt thay cho Tuyến 1 sẽ gây nguy cơ tự kiểm tra (Self-review).'
+      },
+      {
+        d: 'D2',
+        topic: 'Chính sách Lương thưởng đối với Kiểm toán viên Nội bộ',
+        rule: 'Chế độ lương thưởng của nhân sự KTNB không được gắn trực tiếp với lợi nhuận tài chính của đơn vị mà họ kiểm toán hoặc gắn cứng với số lượng lỗi bắt được.',
+        action: 'Đánh giá thưởng cho KTV dựa trên chất lượng hồ sơ kiểm toán, mức độ tuân thủ chuẩn mực và sự đóng góp cải tiến quy trình.',
+        violation: 'Quy định mức thưởng của KTV bằng 5% lợi nhuận sau thuế của chi nhánh mà KTV đó vừa ký báo cáo kiểm toán.',
+        trap: 'Trả thưởng theo số lượng phát hiện kiểm toán sẽ luôn giúp nâng cao chất lượng cuộc kiểm toán.',
+        distinction: 'Thưởng theo lợi nhuận đơn vị gây xung đột lợi ích tư lợi, còn thưởng theo số lượng lỗi khiến KTV sa đà vào các lỗi vụn vặt.'
+      },
+      {
+        d: 'D2',
+        topic: 'Luân chuyển phân công công việc trong phòng Kiểm toán Nội bộ',
+        rule: 'CAE nên định kỳ luân chuyển danh mục đơn vị phụ trách giữa các KTV để tránh sự thân thiết quá mức (Familiarity threat) làm suy giảm tính khách quan.',
+        action: 'Thiết lập kế hoạch luân chuyển KTV phụ trách các mảng kiểm toán định kỳ 2–3 năm một lần kết hợp soát xét chéo giấy tờ làm việc.',
+        violation: 'Để một KTV duy nhất kiểm toán độc quyền cùng một chi nhánh suốt 10 năm liên tục dù chi nhánh đó có quan hệ thân hữu với KTV.',
+        trap: 'Luân chuyển công việc chỉ áp dụng cho kế toán viên chứ không cần thiết đối với kiểm toán viên nội bộ.',
+        distinction: 'Khi phòng KTNB quá nhỏ không thể luân chuyển hết, CAE cần tăng cường giám sát và soát xét độc lập hồ sơ làm việc.'
+      },
+      {
+        d: 'D3',
+        topic: 'Sự Cẩn trọng Nghề nghiệp Đúng mức (Due Professional Care - Chuẩn mực 4.2)',
+        rule: 'KTV phải áp dụng sự cẩn trọng và kỹ năng của một kiểm toán viên có năng lực và thận trọng hợp lý (reasonably prudent and competent internal auditor).',
+        action: 'Cân nhắc độ phức tạp, mức độ trọng yếu, khả năng xảy ra sai sót/gian lận và chi phí đảm bảo so với lợi ích mang lại khi lập kế hoạch.',
+        violation: 'Chọn mẫu kiểm tra qua loa không theo phương pháp chuẩn và bỏ qua các dấu hiệu chênh lệch lớn trên sổ cái vì muốn về sớm.',
+        trap: 'Sự cẩn trọng nghề nghiệp đòi hỏi kiểm toán viên phải kiểm tra 100% mọi giao dịch và đảm bảo công ty không bao giờ có sai sót.',
+        distinction: 'Sự cẩn trọng nghề nghiệp gắn liền với Đảm bảo hợp lý (Reasonable Assurance), không phải Đảm bảo tuyệt đối (Absolute Assurance).'
+      },
+      {
+        d: 'D3',
+        topic: 'Năng lực chuyên môn tập thể của Bộ phận KTNB (Chuẩn mực 3.1 & 10.2)',
+        rule: 'Bộ phận KTNB tính trên tổng thể (Collectively) phải sở hữu hoặc tiếp cận được đầy đủ kiến thức, kỹ năng và năng lực cần thiết để hoàn thành Điều lệ kiểm toán.',
+        action: 'Khi thiếu chuyên gia nội bộ cho mảng kiểm toán chuyên sâu (như An ninh mạng, Định phí bảo hiểm), CAE thuê chuyên gia bên ngoài hỗ trợ (Co-sourcing).',
+        violation: 'Nhận thực hiện kiểm toán đảm bảo hệ thống trí tuệ nhân tạo phức tạp khi cả phòng không ai có chuyên môn và cũng không thuê chuyên gia.',
+        trap: 'Mỗi một cá nhân kiểm toán viên trong phòng bắt buộc phải giỏi tất cả mọi lĩnh vực từ kế toán, CNTT, pháp lý đến kỹ thuật xây dựng.',
+        distinction: 'Đối với dịch vụ Đảm bảo, nếu không có năng lực và không thuê được chuyên gia thì phải từ chối/hoãn; với dịch vụ Tư vấn thì phải từ chối nhận ngay từ đầu.'
+      },
+      {
+        d: 'D3',
+        topic: 'Thuê ngoài dịch vụ Kiểm toán Nội bộ (Co-sourcing & Outsourcing)',
+        rule: 'Dù thuê nhà cung cấp bên ngoài thực hiện một phần hay toàn bộ công việc KTNB, trách nhiệm giám sát chất lượng và đảm bảo sự phù hợp với Chuẩn mực vẫn thuộc về CAE/Tổ chức.',
+        action: 'CAE đánh giá năng lực, tính độc lập của đơn vị tư vấn bên ngoài và trực tiếp phê duyệt phạm vi, soát xét kết quả công việc của họ.',
+        violation: 'Giao khoán trắng toàn bộ cuộc kiểm toán cho công ty bên ngoài mà không kiểm tra tính độc lập hay chất lượng hồ sơ làm việc của họ.',
+        trap: 'Một công ty kiểm toán độc lập đang làm kiểm toán BCTC bắt buộc (External Audit) cho công ty thì vẫn được nhận làm Outsourcing toàn bộ KTNB cho công ty đó.',
+        distinction: 'Co-sourcing giúp chuyển giao kiến thức (Knowledge transfer) từ chuyên gia bên ngoài cho đội ngũ kiểm toán viên nội bộ của công ty.'
+      },
+      {
+        d: 'D3',
+        topic: 'Bốn yếu tố của một Phát hiện Kiểm toán (4 Cs of Audit Findings)',
+        rule: 'Một phát hiện kiểm toán chuẩn mực bao gồm: Tiêu chí (Criteria - cái nên là), Hiện trạng (Condition - cái đang là), Nguyên nhân (Cause - lý do sai lệch) và Hậu quả (Effect - tác động/rủi ro).',
+        action: 'Trình bày đầy đủ 4 yếu tố và tập trung khắc phục Nguyên nhân gốc rễ (Root Cause) khi đưa ra khuyến nghị kiểm toán.',
+        violation: 'Chỉ nêu hiện tượng lỗi trên báo cáo mà không đối chiếu với quy định chuẩn (Criteria) và không đánh giá mức độ thiệt hại (Effect).',
+        trap: 'Nguyên nhân (Cause) là số tiền thiệt hại thực tế mà công ty đã phải gánh chịu do lỗi kiểm soát.',
+        distinction: 'Khoảng cách giữa Criteria và Condition tạo ra phát hiện; Cause giải thích tại sao khoảng cách đó tồn tại; Effect cho biết mức độ trọng yếu.'
+      },
+      {
+        d: 'D3',
+        topic: 'Đánh giá chất lượng Bằng chứng Kiểm toán (Sufficient, Reliable, Relevant)',
+        rule: 'Bằng chứng kiểm toán phải Đầy đủ (Sufficient - về số lượng), Đáng tin cậy (Reliable - về chất lượng nguồn gốc) và Thích hợp (Relevant - gắn với mục tiêu kiểm toán).',
+        action: 'Ưu tiên thu thập bằng chứng trực tiếp từ bên thứ ba độc lập hoặc do chính KTV trực tiếp quan sát, tính toán lại.',
+        violation: 'Chỉ dựa duy nhất vào lời giải trình bằng miệng của trưởng bộ phận được kiểm toán để kết luận hệ thống kiểm soát hoạt động tốt.',
+        trap: 'Bản sao chứng từ do đơn vị được kiểm toán cung cấp có độ tin cậy cao hơn thư xác nhận gửi trực tiếp từ ngân hàng về phòng KTNB.',
+        distinction: 'Bằng chứng nội bộ có độ tin cậy cao hơn khi hệ thống kiểm soát nội bộ của đơn vị đó được đánh giá là chặt chẽ và hiệu quả.'
+      },
+      {
+        d: 'D3',
+        topic: 'Ứng dụng Phân tích dữ liệu & Kiểm toán bằng máy tính (CAATs / Data Analytics)',
+        rule: 'Sử dụng công cụ phân tích dữ liệu cho phép KTV kiểm tra 100% tổng thể giao dịch (Full population testing) thay vì chỉ chọn mẫu truyền thống.',
+        action: 'Dùng kịch bản truy vấn dữ liệu để quét toàn bộ các bút toán nhật ký thủ công được nhập vào ngày nghỉ lễ hoặc sát ngưỡng phê duyệt.',
+        violation: 'Chấp nhận rủi ro lấy mẫu cao ở những mảng dữ liệu số hóa hoàn toàn có thể chạy kiểm tra 100% bằng phần mềm phân tích.',
+        trap: 'Sử dụng CAATs giúp loại bỏ hoàn toàn sự cần thiết phải thực hiện xét đoán chuyên môn của kiểm toán viên.',
+        distinction: 'Generalized Audit Software (GAS như ACL, IDEA) cho phép KTV tự độc lập trích xuất và phân tích dữ liệu mà không phụ thuộc vào lập trình viên IT.'
+      },
+      {
+        d: 'D3',
+        topic: 'Kỹ thuật Kiểm toán Liên tục (Continuous Auditing) vs Giám sát Liên tục (Continuous Monitoring)',
+        rule: 'Continuous Monitoring là công cụ của Ban điều hành (Tuyến 1 & 2) để theo dõi kiểm soát hàng ngày; Continuous Auditing là kỹ thuật của KTNB (Tuyến 3) để thu thập bằng chứng kiểm toán liên tục.',
+        action: 'KTNB thiết lập các chỉ báo rủi ro tự động trên hệ thống để điều chỉnh trọng tâm kế hoạch kiểm toán kịp thời khi rủi ro biến động.',
+        violation: 'Phòng KTNB tự nhận trách nhiệm vận hành hệ thống cảnh báo giao dịch hàng ngày thay cho bộ phận Quản lý rủi ro.',
+        trap: 'Hai thuật ngữ Continuous Auditing và Continuous Monitoring hoàn toàn đồng nghĩa và đều thuộc trách nhiệm của Tuyến 3.',
+        distinction: 'Nếu hệ thống Continuous Monitoring của Ban điều hành đã hoạt động rất tốt, KTNB có thể giảm tần suất kiểm tra chi tiết thủ công.'
+      },
+      {
+        d: 'D3',
+        topic: 'Khung năng lực Kiểm toán Nội bộ của IIA (Internal Audit Competency Framework)',
+        rule: 'Năng lực cốt lõi của KTV hiện đại bao gồm: Đạo đức & Chuyên nghiệp, Thực hành kiểm toán, Hiểu biết về Quản trị/Rủi ro/Kiểm soát, và Kỹ năng giao tiếp/Thuyết phục.',
+        action: 'Thực hiện đánh giá khoảng cách năng lực (Skills Gap Analysis) hàng năm để xây dựng kế hoạch đào tạo cá nhân cho từng KTV.',
+        violation: 'Chỉ tuyển dụng và đào tạo kỹ năng định khoản kế toán mà bỏ qua hoàn toàn kỹ năng phân tích rủi ro CNTT và giao tiếp chiến lược.',
+        trap: 'Kỹ năng mềm như giao tiếp, thương lượng và giải quyết xung đột không nằm trong yêu cầu năng lực của kiểm toán viên nội bộ.',
+        distinction: 'Kỹ năng giao tiếp tốt giúp KTV thu thập thông tin phỏng vấn hiệu quả hơn và thuyết phục Ban điều hành thực hiện khuyến nghị.'
+      },
+      {
+        d: 'D3',
+        topic: 'Sử dụng Thủ tục Phân tích (Analytical Procedures) trong kiểm toán',
+        rule: 'Thủ tục phân tích nghiên cứu mối quan hệ hợp lý giữa các dữ liệu tài chính và phi tài chính để nhận diện các biến động hoặc xu hướng bất thường.',
+        action: 'So sánh tỷ lệ chi phí hoa hồng trên doanh thu giữa các chi nhánh và đối chiếu chi phí lương với số lượng nhân sự thực tế của phòng Nhân sự.',
+        violation: 'Khi thấy tỷ suất lợi nhuận gộp tăng đột biến gấp 3 lần trung bình ngành nhưng KTV không thực hiện điều tra nguyên nhân.',
+        trap: 'Thủ tục phân tích chỉ được phép sử dụng ở giai đoạn lập kế hoạch mà không được dùng trong giai đoạn thực hiện kiểm toán.',
+        distinction: 'Kết hợp dữ liệu tài chính với dữ liệu phi tài chính (như diện tích kho, số giờ máy chạy, số lượng nhân viên) mang lại độ tin cậy cao vì kẻ gian khó làm giả đồng bộ cả hai.'
+      },
+      {
+        d: 'D3',
+        topic: 'Kỹ thuật Phỏng vấn và Đặt câu hỏi trong Kiểm toán',
+        rule: 'KTV nên kết hợp câu hỏi mở (Open-ended questions) để thu thập thông tin rộng và câu hỏi đóng (Closed-ended questions) để xác nhận lại các chi tiết cụ thể.',
+        action: 'Chuẩn bị trước danh mục câu hỏi, lắng nghe tích cực, quan sát ngôn ngữ cơ thể và luôn xác minh lại thông tin phỏng vấn bằng tài liệu khách quan.',
+        violation: 'Sử dụng các câu hỏi mang tính chất mớm cung, áp đặt hoặc đe dọa nhân viên ngay trong buổi phỏng vấn tìm hiểu quy trình.',
+        trap: 'Biên bản phỏng vấn có chữ ký của người được phỏng vấn là bằng chứng có độ tin cậy cao nhất, không cần kiểm chứng thêm.',
+        distinction: 'Câu hỏi mở bắt đầu bằng "Như thế nào / Quy trình diễn ra sao" giúp người được phỏng vấn mô tả thực tế vận hành thay vì chỉ trả lời Có/Không.'
+      },
+      {
+        d: 'D4',
+        topic: 'Cấu trúc Chương trình Đảm bảo và Cải tiến Chất lượng (QAIP - Chuẩn mực 8.3 & 8.4)',
+        rule: 'Một chương trình QAIP toàn diện bắt buộc phải bao gồm cả Đánh giá nội bộ (Giám sát liên tục + Tự đánh giá định kỳ) và Đánh giá độc lập bên ngoài.',
+        action: 'CAE thiết lập quy trình giám sát chất lượng từng cuộc kiểm toán đồng thời lập kế hoạch đánh giá độc lập bên ngoài tối thiểu 5 năm một lần.',
+        violation: 'Chỉ thực hiện tự đánh giá nội bộ mà không bao giờ mời đơn vị độc lập bên ngoài đánh giá nhưng vẫn tuyên bố tuân thủ chuẩn mực GIAS.',
+        trap: 'QAIP chỉ áp dụng cho các cuộc kiểm toán tài chính, không áp dụng cho kiểm toán vận hành và dịch vụ tư vấn.',
+        distinction: 'Mục tiêu của QAIP không chỉ là kiểm tra sự tuân thủ Chuẩn mực mà còn nhằm cải tiến liên tục hiệu quả và hiệu suất của bộ phận KTNB.'
+      },
+      {
+        d: 'D4',
+        topic: 'Giám sát Liên tục Chất lượng Kiểm toán (Ongoing Monitoring trong QAIP)',
+        rule: 'Giám sát liên tục là một phần tích hợp trong quy trình quản lý hàng ngày của KTNB, được thực hiện xuyên suốt từng cuộc kiểm toán.',
+        action: 'Thực hiện soát xét giấy tờ làm việc theo cấp bậc (Supervisory review), dùng bảng kiểm (Checklist) chất lượng và khảo sát phản hồi của đơn vị sau mỗi cuộc kiểm toán.',
+        violation: 'Đợi đến hết 5 năm mới kiểm tra giấy tờ làm việc của các kiểm toán viên trong phòng một lần.',
+        trap: 'Việc thuê công ty tư vấn độc lập bên ngoài 5 năm một lần được phân loại là hoạt động Giám sát liên tục (Ongoing monitoring).',
+        distinction: 'Giám sát liên tục giúp phát hiện và sửa chữa ngay các thiếu sót về bằng chứng hoặc thủ tục trước khi phát hành báo cáo kiểm toán chính thức.'
+      },
+      {
+        d: 'D4',
+        topic: 'Tự đánh giá Định kỳ (Periodic Self-Assessment trong QAIP)',
+        rule: 'Là các cuộc rà soát định kỳ (thường thực hiện hàng năm) do nhân sự cấp cao trong bộ phận KTNB hoặc nhóm chuyên trách thực hiện để đánh giá sự tuân thủ toàn diện với GIAS.',
+        action: 'Hàng năm, CAE tổ chức rà soát lại Điều lệ, sổ tay kiểm toán, mẫu hồ sơ kiểm toán và trình kết quả tự đánh giá cho Ủy ban Kiểm toán.',
+        violation: 'Bỏ qua hoạt động tự đánh giá định kỳ suốt 4 năm liền vì cho rằng đã có trưởng nhóm soát xét từng báo cáo riêng lẻ.',
+        trap: 'Tự đánh giá định kỳ có thể thay thế hoàn toàn cho Đánh giá độc lập bên ngoài (External Assessment).',
+        distinction: 'Trong khi Ongoing Monitoring nhìn vào chất lượng từng cuộc kiểm toán cụ thể, Periodic Self-Assessment nhìn vào chất lượng tổng thể của cả hoạt động KTNB.'
+      },
+      {
+        d: 'D4',
+        topic: 'Đánh giá Độc lập Bên ngoài (External Quality Assessment - Chuẩn mực 8.4)',
+        rule: 'Phải được thực hiện tối thiểu 5 năm một lần bởi một chuyên gia/nhóm đánh giá có trình độ và hoàn toàn độc lập từ bên ngoài tổ chức.',
+        action: 'CAE thảo luận với HĐQT/Ủy ban Kiểm toán để phê duyệt kế hoạch, phạm vi và tiêu chí lựa chọn đơn vị đánh giá độc lập bên ngoài.',
+        violation: 'Mời Trưởng phòng Pháp chế hoặc Kế toán trưởng trong cùng công ty đứng ra làm Trưởng đoàn đánh giá độc lập bên ngoài cho phòng KTNB.',
+        trap: 'Đoàn đánh giá độc lập bên ngoài không cần có kinh nghiệm về kiểm toán nội bộ mà chỉ cần có chứng chỉ kế toán viên công chứng.',
+        distinction: 'Có 2 hình thức hợp lệ: (1) Đánh giá toàn diện bởi bên độc lập bên ngoài, hoặc (2) Tự đánh giá có sự xác nhận độc lập từ bên ngoài (SAIV).'
+      },
+      {
+        d: 'D4',
+        topic: 'Tự đánh giá có Xác nhận Độc lập (Self-Assessment with Independent Validation - SAIV)',
+        rule: 'Trong hình thức SAIV, nhóm nội bộ tự đánh giá toàn diện và lập báo cáo, sau đó một chuyên gia độc lập bên ngoài kiểm tra tại chỗ, phỏng vấn và ký xác nhận kết luận.',
+        action: 'Các bộ phận KTNB quy mô nhỏ hoặc ngân sách hạn chế có thể chọn SAIV (sau khi được HĐQT duyệt) để vẫn đáp ứng yêu cầu đánh giá 5 năm/lần.',
+        violation: 'Tự làm báo cáo đánh giá nội bộ rồi chỉ nhờ CEO ký xác nhận và gọi đó là đánh giá độc lập bên ngoài.',
+        trap: 'Hình thức SAIV không được IIA công nhận là một phương thức hợp lệ của External Assessment.',
+        distinction: 'Người xác nhận độc lập trong SAIV vẫn phải trực tiếp soát xét hồ sơ, phỏng vấn Chủ tịch Ủy ban Kiểm toán và CEO để xác thực kết quả.'
+      },
+      {
+        d: 'D4',
+        topic: 'Điều kiện sử dụng Tuyên bố Phù hợp với Chuẩn mực (Conforms with GIAS)',
+        rule: 'CAE chỉ được phép tuyên bố hoạt động KTNB "Phù hợp với Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu" khi kết quả QAIP (cả nội bộ và bên ngoài) xác nhận đạt chuẩn.',
+        action: 'Sau khi vượt qua kỳ đánh giá độc lập bên ngoài và duy trì đánh giá nội bộ tốt, CAE đưa câu tuyên bố phù hợp vào các báo cáo kiểm toán.',
+        violation: 'Phòng KTNB mới thành lập được 2 năm, chưa từng làm đánh giá bên ngoài nhưng đã in dòng chữ "Phù hợp với Chuẩn mực GIAS" lên mọi báo cáo.',
+        trap: 'Trong 5 năm đầu mới thành lập, bộ phận KTNB đương nhiên được quyền tuyên bố phù hợp với Chuẩn mực mà không cần đánh giá bên ngoài.',
+        distinction: 'Nếu quá hạn 5 năm mà chưa thực hiện lại đánh giá bên ngoài, bộ phận KTNB phải ngừng sử dụng tuyên bố phù hợp cho đến khi đánh giá xong.'
+      },
+      {
+        d: 'D4',
+        topic: 'Báo cáo kết quả QAIP cho Hội đồng Quản trị (Ủy ban Kiểm toán)',
+        rule: 'CAE phải báo cáo cho HĐQT về phạm vi, tần suất và kết quả của cả đánh giá nội bộ định kỳ lẫn đánh giá độc lập bên ngoài kèm kế hoạch hành động khắc phục.',
+        action: 'Trình bày nguyên văn kết luận của đoàn đánh giá độc lập bên ngoài và lộ trình cải tiến các điểm chưa hoàn thiện tại cuộc họp Ủy ban Kiểm toán.',
+        violation: 'CAE giữ kín báo cáo đánh giá chất lượng bên ngoài vì có một số nhận xét phê bình về quy trình lưu trữ hồ sơ của phòng.',
+        trap: 'Kết quả QAIP chỉ là việc nội bộ của phòng KTNB nên không cần báo cáo cho Ủy ban Kiểm toán.',
+        distinction: 'Theo Chuẩn mực GIAS 8.4, ít nhất một thành viên trong nhóm đánh giá độc lập bên ngoài phải sở hữu chứng chỉ CIA còn hiệu lực.'
+      },
+      {
+        d: 'D5',
+        topic: 'Mô hình 3 Tuyến của IIA (Three Lines Model - Quản trị & Rủi ro)',
+        rule: 'Cơ quan quản trị (HĐQT) chịu trách nhiệm giám sát; Ban điều hành gồm Tuyến 1 (Sở hữu và quản lý rủi ro trực tiếp) và Tuyến 2 (Chuyên môn hỗ trợ, giám sát rủi ro & tuân thủ); Tuyến 3 là KTNB độc lập.',
+        action: 'Phối hợp chia sẻ thông tin rủi ro giữa Tuyến 2 và Tuyến 3 (Combined Assurance) nhưng vẫn giữ vững ranh giới độc lập của KTNB.',
+        violation: 'Tuyến 1 đẩy hoàn toàn trách nhiệm kiểm soát rủi ro vận hành hàng ngày sang cho phòng Kiểm toán Nội bộ (Tuyến 3).',
+        trap: 'Phòng Quản lý rủi ro và phòng Pháp chế/Tuân thủ thuộc Tuyến 3 giống như Kiểm toán Nội bộ.',
+        distinction: 'Điểm khác biệt cốt lõi giữa Tuyến 2 và Tuyến 3 là Tuyến 2 vẫn nằm dưới sự chỉ đạo của Ban điều hành, còn Tuyến 3 độc lập với Ban điều hành.'
+      },
+      {
+        d: 'D5',
+        topic: 'Môi trường Kiểm soát (Control Environment - Thành phần nền tảng của COSO)',
+        rule: 'Môi trường kiểm soát là tập hợp các tiêu chuẩn, quy trình và cấu trúc làm nền tảng cho việc thực hiện kiểm soát nội bộ trên toàn tổ chức (bao gồm Tone at the top).',
+        action: 'Đánh giá cam kết về tính chính trực, quy tắc đạo đức, sự độc lập của HĐQT, cơ cấu phân quyền và chính sách nhân sự khi kiểm toán môi trường kiểm soát.',
+        violation: 'Ban giám đốc ban hành quy tắc đạo đức rất hay nhưng lại dung túng và thăng chức cho các giám đốc kinh doanh làm giả chứng từ để đạt doanh số.',
+        trap: 'Thủ tục đối chiếu sổ phụ ngân hàng hàng tháng là một phần của Môi trường kiểm soát.',
+        distinction: 'Nếu Môi trường kiểm soát (đặc biệt là thái độ của lãnh đạo cấp cao) bị suy đồi thì mọi hoạt động kiểm soát chi tiết bên dưới đều dễ dàng bị vô hiệu hóa.'
+      },
+      {
+        d: 'D5',
+        topic: 'Phân biệt Khẩu vị Rủi ro (Risk Appetite) và Mức chấp nhận Rủi ro (Risk Tolerance)',
+        rule: 'Risk Appetite là mức độ rủi ro tổng thể mà tổ chức sẵn sàng chấp nhận để theo đuổi chiến lược; Risk Tolerance là biên độ dao động chấp nhận được xoay quanh một mục tiêu cụ thể.',
+        action: 'Chuyển hóa tuyên bố Khẩu vị rủi ro chiến lược của HĐQT thành các ngưỡng Mức chấp nhận rủi ro định lượng cụ thể cho từng quy trình vận hành.',
+        violation: 'Từng trưởng bộ phận tự đặt ra mức chấp nhận rủi ro vượt xa khẩu vị rủi ro chung đã được Hội đồng Quản trị phê duyệt.',
+        trap: 'Khẩu vị rủi ro là một con số chi tiết cho từng giao dịch nhỏ, còn Mức chấp nhận rủi ro là định hướng triết lý vĩ mô của cả tập đoàn.',
+        distinction: 'Ví dụ: "Chấp nhận rủi ro tín dụng trung bình để mở rộng thị phần" là Risk Appetite; còn "Tỷ lệ nợ quá hạn không vượt quá 2% tổng dư nợ" là Risk Tolerance.'
+      },
+      {
+        d: 'D5',
+        topic: 'Phân biệt Rủi ro Tiềm tàng (Inherent Risk) và Rủi ro Còn lại (Residual Risk)',
+        rule: 'Rủi ro tiềm tàng là mức rủi ro tự nhiên khi chưa tính đến các biện pháp kiểm soát; Rủi ro còn lại là phần rủi ro vẫn tồn tại sau khi Ban điều hành đã áp dụng các chốt kiểm soát.',
+        action: 'Đánh giá cả Rủi ro tiềm tàng (để hiểu bản chất trọng yếu của mảng nghiệp vụ) và Rủi ro còn lại (để kiểm tra xem kiểm soát hiện tại đã đưa rủi ro về dưới Khẩu vị rủi ro chưa).',
+        violation: 'Chỉ nhìn vào Rủi ro còn lại thấp mà bỏ qua việc kiểm tra xem các chốt kiểm soát tạo ra mức rủi ro thấp đó có thực sự đang hoạt động hay không.',
+        trap: 'Một hệ thống kiểm soát nội bộ tốt sẽ giúp đưa Rủi ro còn lại (Residual Risk) của doanh nghiệp về bằng 0 tuyệt đối.',
+        distinction: 'Công thức quản trị cốt lõi: Rủi ro còn lại = Rủi ro tiềm tàng – Hiệu quả của các biện pháp Kiểm soát.'
+      },
+      {
+        d: 'D5',
+        topic: 'Bốn chiến lược Phản ứng với Rủi ro (4 Risk Responses: Avoid, Reduce, Share, Accept)',
+        rule: 'Doanh nghiệp có 4 cách ứng phó với rủi ro: Né tránh (Avoid/Terminate), Giảm thiểu (Reduce/Mitigate), Chia sẻ/Chuyển giao (Share/Transfer) và Chấp nhận (Accept/Tolerate).',
+        action: 'Mua bảo hiểm cháy nổ hoặc ký hợp đồng thuê ngoài có điều khoản bồi thường để Chia sẻ (Share) các rủi ro có mức thiệt hại tài chính lớn nhưng tần suất xảy ra thấp.',
+        violation: 'Quyết định tự Chấp nhận (Accept) một rủi ro có khả năng gây phá sản công ty mà không báo cáo cho Hội đồng Quản trị.',
+        trap: 'Khi mua bảo hiểm tài sản, doanh nghiệp đã thực hiện chiến lược Né tránh rủi ro (Risk Avoidance).',
+        distinction: 'Né tránh rủi ro là rút lui hoàn toàn khỏi hoạt động sinh ra rủi ro đó (ví dụ: đóng cửa chi nhánh tại vùng có chiến sự).'
+      },
+      {
+        d: 'D5',
+        topic: 'Xử lý khi Ban điều hành chấp nhận Rủi ro vượt quá Khẩu vị rủi ro (Chuẩn mực 11.5)',
+        rule: 'Khi CAE đánh giá rằng Ban điều hành đã chấp nhận mức rủi ro vượt quá khẩu vị rủi ro của tổ chức, CAE phải thảo luận với Ban điều hành trước; nếu không giải quyết được thì phải báo cáo lên HĐQT.',
+        action: 'Bước 1: Thảo luận trực tiếp với CEO và Ban giám đốc để thuyết phục khắc phục; Bước 2: Nếu CEO vẫn giữ nguyên quyết định, báo cáo lên Ủy ban Kiểm toán.',
+        violation: 'Khi thấy CEO từ chối vá lỗ hổng bảo mật nghiêm trọng, CAE tự ý gửi đơn tố cáo ngay cho báo chí mà không thảo luận hay báo cáo Ủy ban Kiểm toán.',
+        trap: 'CAE có quyền ra lệnh đình chỉ hoạt động của Tổng Giám đốc nếu Tổng Giám đốc chấp nhận rủi ro quá cao.',
+        distinction: 'Quyền quyết định cuối cùng về việc có chấp nhận mức rủi ro trọng yếu đó hay không thuộc về Hội đồng Quản trị, không thuộc về CAE.'
+      },
+      {
+        d: 'D5',
+        topic: 'Nguyên tắc Phân chia Trách nhiệm (Segregation of Duties - SOD)',
+        rule: 'Phải tách biệt 4 chức năng không tương thích trong một giao dịch: Phê duyệt (Authorization), Thực hiện/Ghi chép kế toán (Recording), Bảo quản tài sản (Custody) và Đối chiếu (Reconciliation).',
+        action: 'Tách biệt người phê duyệt đơn mua hàng, người nhận hàng tại kho và kế toán ghi sổ công nợ phải trả.',
+        violation: 'Giao cho một nhân viên vừa giữ quỹ tiền mặt, vừa tự ghi sổ kế toán tiền mặt và tự lập bảng đối chiếu ngân hàng cuối tháng.',
+        trap: 'Nếu công ty đã sử dụng phần mềm kế toán thì không cần phải phân chia trách nhiệm giữa các nhân viên nữa.',
+        distinction: 'Khi quy mô đơn vị quá nhỏ không đủ người để phân nhiệm, phải áp dụng Kiểm soát bù đắp (Compensating Controls) như sự giám sát và đối chiếu độc lập của chủ sở hữu/quản lý cấp trên.'
+      },
+      {
+        d: 'D5',
+        topic: 'Phân loại Kiểm soát: Phòng ngừa (Preventive), Phát hiện (Detective) và Khắc phục (Corrective)',
+        rule: 'Kiểm soát phòng ngừa ngăn chặn lỗi trước khi xảy ra; Kiểm soát phát hiện tìm ra lỗi sau khi đã xảy ra; Kiểm soát khắc phục sửa chữa hậu quả của lỗi.',
+        action: 'Kết hợp hài hòa kiểm soát phòng ngừa (như phân quyền truy cập, đối chiếu 3 chiều tự động trước khi chi) với kiểm soát phát hiện (như kiểm kê kho, đối chiếu ngân hàng).',
+        violation: 'Chỉ dựa vào việc kiểm toán cuối năm (Detective) mà bỏ mặc không có bất kỳ chốt phê duyệt phòng ngừa nào trong suốt cả năm.',
+        trap: 'Kiểm kê hàng tồn kho định kỳ cuối tháng là một ví dụ điển hình của Kiểm soát phòng ngừa (Preventive Control).',
+        distinction: 'Khôi phục dữ liệu từ bản sao lưu (Backup recovery) sau khi bị mã độc tấn công là một Kiểm soát khắc phục (Corrective Control).'
+      },
+      {
+        d: 'D5',
+        topic: 'Kiểm soát Chung về CNTT (IT General Controls - ITGC) và Kiểm soát Quản lý Thay đổi (Change Management)',
+        rule: 'ITGC đảm bảo môi trường CNTT vận hành ổn định và toàn vẹn (gồm Quản lý truy cập, Quản lý thay đổi chương trình, và Vận hành trung tâm dữ liệu), làm nền tảng cho Kiểm soát ứng dụng.',
+        action: 'Tách biệt hoàn toàn môi trường Phát triển/Thử nghiệm (Development/Test) với môi trường Vận hành thực tế (Production); lập trình viên không được tự đẩy code lên Production.',
+        violation: 'Cho phép lập trình viên phần mềm có toàn quyền truy cập trực tiếp vào cơ sở dữ liệu Production để sửa số liệu kế toán mà không cần phê duyệt.',
+        trap: 'Lập trình viên là người hiểu rõ phần mềm nhất nên cần được cấp quyền Admin cao nhất trên hệ thống vận hành thực tế (Production).',
+        distinction: 'Nếu ITGC (như kiểm soát thay đổi mã nguồn) bị lủng, kẻ gian có thể sửa thuật toán nên mọi Kiểm soát ứng dụng tự động bên trên đều mất độ tin cậy.'
+      },
+      {
+        d: 'D5',
+        topic: 'Kiểm soát Ứng dụng CNTT: Đầu vào (Input), Xử lý (Processing) và Đầu ra (Output)',
+        rule: 'Kiểm soát ứng dụng được tích hợp trực tiếp vào từng phần mềm nghiệp vụ nhằm đảm bảo dữ liệu nhập vào, xử lý và kết xuất ra là đầy đủ, chính xác và hợp lệ.',
+        action: 'Thiết lập các kiểm tra hợp lệ đầu vào như: Kiểm tra giới hạn (Limit/Range check), Kiểm tra trường bắt buộc (Completeness check), Kiểm tra kiểu dữ liệu (Field check).',
+        violation: 'Phần mềm tính lương cho phép nhập số giờ làm thêm trong tuần là 500 giờ hoặc nhập chữ cái vào ô hệ số lương mà không báo lỗi.',
+        trap: 'Việc lắp khóa cửa sinh trắc học cho phòng máy chủ là một Kiểm soát ứng dụng (Application Control).',
+        distinction: 'Batch Total / Control Total (Tổng kiểm soát lô) giúp đảm bảo không có chứng từ nào bị mất hoặc bị sửa đổi trong quá trình truyền và xử lý dữ liệu.'
+      },
+      {
+        d: 'D5',
+        topic: 'Tự đánh giá Kiểm soát (Control Self-Assessment - CSA)',
+        rule: 'CSA là phương pháp trong đó chính các nhà quản lý và nhân viên vận hành trực tiếp tham gia đánh giá hiệu quả của các chốt kiểm soát và rủi ro trong bộ phận của họ.',
+        action: 'KTNB đóng vai trò người điều phối (Facilitator) tổ chức các hội thảo CSA (Workshops) hoặc bảng câu hỏi khảo sát để nâng cao nhận thức rủi ro của Tuyến 1.',
+        violation: 'Dùng kết quả tự đánh giá CSA của các phòng ban để thay thế hoàn toàn cho mọi cuộc kiểm toán độc lập của phòng Kiểm toán Nội bộ.',
+        trap: 'Trong chương trình CSA, chỉ có kiểm toán viên nội bộ mới được quyền phát biểu và đánh giá về rủi ro của quy trình.',
+        distinction: 'Lợi ích lớn nhất của CSA là giúp phát hiện tốt các kiểm soát mềm (Soft controls) và tăng tinh thần làm chủ kiểm soát (Accountability) của nhân viên vận hành.'
+      },
+      {
+        d: 'D5',
+        topic: 'Hạn chế Cố hữu của Hệ thống Kiểm soát Nội bộ (Inherent Limitations of Internal Control)',
+        rule: 'Dù được thiết kế tốt đến đâu, hệ thống kiểm soát nội bộ cũng chỉ cung cấp sự Đảm bảo hợp lý (Reasonable Assurance) do các hạn chế cố hữu.',
+        action: 'Nhận diện và giám sát chặt các nguyên nhân gây hạn chế cố hữu: Sự thông đồng (Collusion), Lạm quyền của lãnh đạo (Management Override), và Sai sót bất cẩn của con người.',
+        violation: 'Cam kết với Hội đồng Quản trị rằng sau khi áp dụng khung COSO, công ty sẽ miễn nhiễm 100% với mọi hành vi thông đồng gian lận.',
+        trap: 'Nguyên tắc phân chia trách nhiệm (Segregation of duties) có thể ngăn chặn tuyệt đối hành vi thông đồng giữa nhiều nhân viên.',
+        distinction: 'Sự thông đồng (Collusion) giữa hai hay nhiều người giữ các khâu tách biệt sẽ làm vô hiệu hóa trực tiếp chốt kiểm soát phân chia trách nhiệm.'
+      },
+      {
+        d: 'D5',
+        topic: 'Vai trò của Kiểm toán Nội bộ trong Quản trị Rủi ro Doanh nghiệp (COSO ERM)',
+        rule: 'KTNB cung cấp sự đảm bảo độc lập về tính hiệu quả của quy trình ERM, nhưng KHÔNG được gánh vác trách nhiệm quản lý rủi ro thay cho Ban điều hành.',
+        action: 'Thực hiện các vai trò cốt lõi được phép: Đánh giá quy trình quản lý rủi ro, đánh giá việc báo cáo rủi ro trọng yếu, và điều phối/tư vấn phương pháp nhận diện rủi ro.',
+        violation: 'Giám đốc Kiểm toán Nội bộ (CAE) trực tiếp quyết định Khẩu vị rủi ro của công ty và ký phê duyệt các quyết định xử lý rủi ro kinh doanh hàng ngày.',
+        trap: 'Theo chuẩn mực IIA, phòng Kiểm toán Nội bộ là đơn vị chịu trách nhiệm sở hữu và quản lý mọi rủi ro của doanh nghiệp.',
+        distinction: 'Trong sơ đồ hình quạt của IIA về ERM: Nhóm 1 (Vai trò cốt lõi của KTNB), Nhóm 2 (Vai trò tư vấn được phép nếu có biện pháp bảo vệ), Nhóm 3 (Vai trò bị cấm thực hiện).'
+      },
+      {
+        d: 'D6',
+        topic: 'Tam giác Gian lận của Cressey (Fraud Triangle: Pressure, Opportunity, Rationalization)',
+        rule: 'Hành vi gian lận thường hình thành khi hội tụ đủ 3 yếu tố: Áp lực/Động cơ (Perceived Pressure), Cơ hội (Perceived Opportunity) và Sự tự hợp lý hóa (Rationalization).',
+        action: 'Tập trung thiết kế hệ thống kiểm soát nội bộ chặt chẽ và phân quyền minh bạch để triệt tiêu yếu tố "Cơ hội" — yếu tố doanh nghiệp kiểm soát được nhiều nhất.',
+        violation: 'Giao toàn quyền mua sắm, nghiệm thu và duyệt chi cho một cá nhân đang chịu áp lực chỉ tiêu tài chính quá mức mà không có cơ chế giám sát.',
+        trap: 'Trong 3 yếu tố của Tam giác gian lận, doanh nghiệp dễ dàng kiểm soát trực tiếp nhất đối với suy nghĩ Tự hợp lý hóa trong đầu nhân viên.',
+        distinction: 'Áp lực tài chính cá nhân hoặc chỉ tiêu doanh số bất khả thi tạo ra Động cơ; lỗ hổng kiểm soát tạo ra Cơ hội; còn suy nghĩ "mình chỉ vay tạm công ty" là Sự tự hợp lý hóa.'
+      },
+      {
+        d: 'D6',
+        topic: 'Trách nhiệm của Kiểm toán viên Nội bộ đối với Gian lận (Chuẩn mực GIAS)',
+        rule: 'KTV nội bộ phải có đủ kiến thức để nhận diện các dấu hiệu cảnh báo gian lận (Red flags) và đánh giá rủi ro gian lận, nhưng không đòi hỏi phải có chuyên môn của một điều tra viên chuyên nghiệp.',
+        action: 'Khi phát hiện đủ dấu hiệu nghi ngờ gian lận, KTV phải dừng việc chất vấn trực tiếp nghi phạm và báo cáo ngay cho cấp có thẩm quyền/bộ phận điều tra.',
+        violation: 'Khi thấy dấu hiệu biển thủ, kiểm toán viên tự ý gọi nhân viên kế toán lên dọa nạt khiến nghi phạm kịp thời tiêu hủy toàn bộ chứng từ gốc.',
+        trap: 'Trách nhiệm chính trong việc ngăn ngừa và phát hiện mọi vụ gian lận trong công ty thuộc về Kiểm toán viên nội bộ.',
+        distinction: 'Ban điều hành (Management) mới là bên chịu trách nhiệm chính trong việc thiết lập văn hóa và kiểm soát để ngăn ngừa, phát hiện gian lận.'
+      },
+      {
+        d: 'D6',
+        topic: 'Gian lận Biển thủ tiền thu trước khi ghi sổ (Skimming - Off-book Fraud)',
+        rule: 'Skimming là hành vi lấy cắp tiền mặt thu được từ khách hàng TRƯỚC KHI giao dịch đó được ghi nhận vào hệ thống sổ sách kế toán của công ty.',
+        action: 'Phát hiện Skimming thông qua kiểm soát vật lý tại quầy thu ngân (camera, in hóa đơn bắt buộc) và đối chiếu biến động hàng tồn kho giảm nhưng doanh thu không tăng.',
+        violation: 'Cho phép nhân viên bán hàng vừa trực tiếp thu tiền mặt không cần xuất phiếu thu, vừa tự quản lý số liệu tồn kho tại cửa hàng.',
+        trap: 'Có thể dễ dàng phát hiện gian lận Skimming chỉ bằng cách cộng sổ cái doanh thu và đối chiếu với sổ phụ ngân hàng.',
+        distinction: 'Vì giao dịch chưa từng được ghi sổ (Off-book), sổ sách kế toán vẫn cân đối bình thường nên cần dùng thủ tục phân tích tỷ lệ lãi gộp và kiểm kê kho để phát hiện.'
+      },
+      {
+        d: 'D6',
+        topic: 'Gian lận Gối đầu công nợ phải thu (Lapping of Accounts Receivable)',
+        rule: 'Lapping là thủ đoạn nhân viên biển thủ khoản tiền thanh toán của Khách hàng A, sau đó lấy tiền thanh toán thu được sau đó của Khách hàng B để đắp vào công nợ của Khách hàng A.',
+        action: 'Tách biệt hoàn toàn người mở thư/nhận séc thanh toán với người ghi sổ công nợ phải thu, đồng thời gửi thư xác nhận số dư công nợ trực tiếp cho khách hàng.',
+        violation: 'Giao cho một kế toán công nợ duy nhất vừa trực tiếp thu tiền khách hàng, vừa cập nhật sổ chi tiết phải thu và tự gửi sao kê cho khách.',
+        trap: 'Gian lận Lapping làm tổng số dư tiền mặt trong két sắt tăng lên cao hơn so với sổ sách.',
+        distinction: 'Để che giấu Lapping, kẻ gian không bao giờ dám nghỉ phép dài ngày; do đó chính sách bắt buộc nghỉ phép liên tục (Mandatory Vacation) và luân chuyển vị trí sẽ làm lộ tẩy ngay.'
+      },
+      {
+        d: 'D6',
+        topic: 'Gian lận Thả diều séc ngân hàng (Check Kiting)',
+        rule: 'Kiting là thủ đoạn lợi dụng độ trễ thời gian bù trừ séc (Float time) giữa hai hay nhiều ngân hàng để ghi nhận khống số dư tiền gửi tại thời điểm khóa sổ cuối kỳ.',
+        action: 'Lập bảng kiểm tra các giao dịch chuyển tiền liên ngân hàng (Bank Transfer Schedule) vào những ngày cuối kỳ và đầu kỳ tiếp theo.',
+        violation: 'Khi kiểm toán tiền gửi cuối năm, KTV chỉ kiểm tra từng tài khoản ngân hàng riêng lẻ mà không đối chiếu ngày ghi giảm và ngày ghi tăng giữa các ngân hàng.',
+        trap: 'Trong gian lận Kiting, khoản tiền chuyển giữa hai ngân hàng được ghi giảm ở ngân hàng chuyển đi trước nhưng lại ghi tăng ở ngân hàng nhận ở kỳ sau.',
+        distinction: 'Dấu hiệu đặc trưng của Kiting là khoản chuyển tiền đã được ghi TĂNG ở ngân hàng nhận vào cuối năm N, nhưng đến đầu năm N+1 mới bị ghi GIẢM ở ngân hàng trích chuyển.'
+      },
+      {
+        d: 'D6',
+        topic: 'Gian lận Công ty ma / Nhà cung cấp khống (Shell Company / Billing Scheme)',
+        rule: 'Nhân viên lập ra một công ty ma (chỉ tồn tại trên giấy tờ, không có hoạt động thực) để xuất hóa đơn khống (thường là dịch vụ tư vấn, vận chuyển vô hình) nhằm rút tiền công ty.',
+        action: 'Phân quyền chặt chẽ việc phê duyệt thêm mới vào Danh mục nhà cung cấp chuẩn (Vendor Master File) và chạy phân tích dữ liệu tìm địa chỉ/số tài khoản nhà cung cấp trùng với nhân viên.',
+        violation: 'Cho phép trưởng phòng mua hàng vừa được quyền tự tạo mã nhà cung cấp mới trên phần mềm, vừa được quyền tự phê duyệt thanh toán hóa đơn dịch vụ.',
+        trap: 'Gian lận Công ty ma (Shell Company) thường xuất hóa đơn cho các lô máy móc thiết bị cỡ lớn phải qua kiểm định nhập kho nghiêm ngặt.',
+        distinction: 'Kẻ gian thường chọn xuất hóa đơn dịch vụ vô hình (như phí tư vấn, phí khảo sát, sửa chữa nhỏ) và chia nhỏ số tiền ngay dưới ngưỡng phải trình Giám đốc phê duyệt.'
+      },
+      {
+        d: 'D6',
+        topic: 'Gian lận Thông thầu và Chia nhỏ gói thầu (Bid Rigging & Split Purchases)',
+        rule: 'Thông thầu xảy ra khi nhân viên mua hàng thông đồng với nhà thầu để cài cắm tiêu chí kỹ thuật độc quyền, tiết lộ giá trần hoặc chia nhỏ đơn hàng để né đấu thầu rộng rãi.',
+        action: 'Quét dữ liệu mua sắm để phát hiện các đơn đặt hàng (PO) được lập liên tiếp trong cùng một ngày cho cùng một nhà cung cấp với số tiền ngay sát dưới hạn mức đấu thầu.',
+        violation: 'Hồ sơ mời thầu quy định các thông số kỹ thuật chi tiết chỉ khớp duy nhất với một nhà sản xuất dù trên thị trường có nhiều sản phẩm tương đương.',
+        trap: 'Việc có đủ 3 bảng báo giá trong hồ sơ mua hàng chứng tỏ chắc chắn 100% không có gian lận thông thầu.',
+        distinction: 'Các nhà thầu quân xanh có thể nộp báo giá cao giả tạo (Complementary bidding) để giúp nhà thầu ruột trúng thầu với giá cao.'
+      },
+      {
+        d: 'D6',
+        topic: 'Gian lận Cắt lát Salami (Salami Slicing Technique trong hệ thống IT)',
+        rule: 'Lập trình viên hoặc nhân viên cài đoạn mã tự động cắt đi các phần lẻ rất nhỏ (vài xu hoặc phần lẻ làm tròn lãi suất/lương) từ hàng vạn tài khoản và dồn vào tài khoản riêng.',
+        action: 'Kiểm soát chặt chẽ việc thay đổi mã nguồn chương trình tính lãi/tính lương và rà soát các tài khoản nội bộ nhận tiền làm tròn số học.',
+        violation: 'Không kiểm tra mã nguồn của các bản cập nhật phần mềm tính lãi tự động do một lập trình viên độc lập viết và cài đặt.',
+        trap: 'Thủ đoạn Salami là hành vi rút một lần toàn bộ số dư của khách hàng lớn nhất trong ngân hàng.',
+        distinction: 'Vì số tiền bị mất trên từng giao dịch cá nhân là cực kỳ nhỏ nên khách hàng không để ý khiếu nại, nhưng tổng số tiền tích lũy qua hàng triệu giao dịch lại rất lớn.'
+      },
+      {
+        d: 'D6',
+        topic: 'Dấu hiệu Cảnh báo Gian lận từ Hành vi Nhân sự (Behavioral Red Flags)',
+        rule: 'Theo thống kê của ACFE, hai dấu hiệu hành vi phổ biến nhất ở thủ phạm gian lận là: Sống xa hoa vượt quá thu nhập hợp pháp (Living beyond means) và Gặp khó khăn tài chính.',
+        action: 'Kết hợp quan sát các dấu hiệu hành vi (như không bao giờ chịu nghỉ phép, độc quyền giữ hồ sơ, quan hệ quá thân mật với nhà cung cấp) để tăng cường thủ tục kiểm tra chi tiết.',
+        violation: 'Khi thấy một nhân viên kế toán lương cơ bản mua siêu xe và nhất quyết không bàn giao sổ sách khi được cử đi nghỉ phép, cấp quản lý vẫn hoàn toàn làm ngơ.',
+        trap: 'Một nhân viên có lối sống xa hoa bất thường là bằng chứng pháp lý đủ để kết luận ngay người đó phạm tội biển thủ mà không cần kiểm tra chứng từ.',
+        distinction: 'Cờ đỏ (Red flag) chỉ là dấu hiệu cảnh báo cần chú ý kiểm tra sâu hơn, không phải là bằng chứng kết tội trực tiếp.'
+      },
+      {
+        d: 'D6',
+        topic: 'Hệ thống Đường dây nóng Tố giác (Whistleblowing Hotline) và Bảo vệ người tố giác',
+        rule: 'Đường dây nóng tố giác ẩn danh là kênh phát hiện gian lận hiệu quả số 1 trong thực tế doanh nghiệp theo báo cáo toàn cầu của ACFE.',
+        action: 'Thiết lập kênh tiếp nhận tố giác độc lập hoạt động 24/7, cho phép ẩn danh, báo cáo thẳng các vụ việc liên quan đến lãnh đạo cấp cao lên Ủy ban Kiểm toán và nghiêm cấm trả thù (Non-retaliation).',
+        violation: 'Giao cho thư ký của Tổng Giám đốc quản lý hộp thư tố giác và tiết lộ danh tính người tố giác cho trưởng bộ phận bị phản ánh.',
+        trap: 'Các cuộc kiểm toán báo cáo tài chính của Kiểm toán độc lập bên ngoài là kênh phát hiện ra nhiều vụ gian lận nhất trong doanh nghiệp.',
+        distinction: 'Một chương trình Whistleblowing chỉ hiệu quả khi nhân viên tin tưởng rằng thông tin được bảo mật và họ được bảo vệ tuyệt đối khỏi sự trù dập.'
+      }
+    ];
+
+    const buildInitialQuestions = () => {
+      const list = [];
+      let idCounter = 1;
+
+      for (let i = 0; i < CORE_CIA_TOPICS.length; i++) {
+        const item = CORE_CIA_TOPICS[i];
+
+        if (idCounter <= 298) {
+          list.push({
+            id: idCounter++,
+            domain: item.d,
+            question: `[Chuẩn mực & Lý thuyết] Theo khung chuẩn mực CIA Part 1, phát biểu nào sau đây phản ánh ĐÚNG NHẤT quy định cốt lõi về "${item.topic}"?`,
+            options: [
+              item.rule,
+              item.trap,
+              item.violation,
+              'Quy định này chỉ mang tính chất tự nguyện và có thể bỏ qua nếu chi phí thực hiện cao.'
+            ],
+            correctAnswer: 0,
+            explanation: `Trọng tâm "${item.topic}": ${item.rule} Lưu ý phân biệt: ${item.distinction}`
+          });
+        }
+
+        if (idCounter <= 298) {
+          list.push({
+            id: idCounter++,
+            domain: item.d,
+            question: `[Tình huống Thực hành] Khi triển khai hoặc đánh giá vấn đề liên quan đến "${item.topic}", hành động nào sau đây của Giám đốc Kiểm toán Nội bộ (CAE) / Kiểm toán viên là PHÙ HỢP NHẤT?`,
+            options: [
+              item.violation,
+              item.action,
+              item.trap,
+              'Ủy quyền hoàn toàn cho đơn vị được kiểm toán tự quyết định mà không cần giám sát hay báo cáo.'
+            ],
+            correctAnswer: 1,
+            explanation: `Hành động chuẩn mực theo IIA đối với "${item.topic}": ${item.action} Nguyên tắc nền tảng: ${item.rule}`
+          });
+        }
+
+        if (idCounter <= 298) {
+          list.push({
+            id: idCounter++,
+            domain: item.d,
+            question: `[Nhận diện Rủi ro & Vi phạm] Trong quá trình rà soát "${item.topic}", tình huống nào dưới đây là dấu hiệu VI PHẠM chuẩn mực hoặc tạo ra lỗ hổng rủi ro nghiêm trọng nhất?`,
+            options: [
+              item.action,
+              item.rule,
+              item.violation,
+              item.distinction
+            ],
+            correctAnswer: 2,
+            explanation: `Tình huống vi phạm/rủi ro trọng yếu cần cảnh giác trong "${item.topic}" là: ${item.violation} Biện pháp đúng cần thực hiện: ${item.action}`
+          });
+        }
+
+        if (idCounter <= 298) {
+          list.push({
+            id: idCounter++,
+            domain: item.d,
+            question: `[Phân tích Bẫy Đề Thi] Khi ôn tập chuyên đề "${item.topic}", nhận định nào sau đây là SAI (không đúng với Chuẩn mực GIAS và thông lệ quốc tế của IIA)?`,
+            options: [
+              item.rule,
+              item.action,
+              item.distinction,
+              item.trap
+            ],
+            correctAnswer: 3,
+            explanation: `Đây là bẫy câu hỏi rất hay gặp trong đề thi CIA Part 1. Nhận định SAI là: "${item.trap}". Thực tế theo chuẩn mực: ${item.rule}`
+          });
+        }
+
+        if (idCounter <= 298) {
+          list.push({
+            id: idCounter++,
+            domain: item.d,
+            question: `[Phân biệt Chuyên sâu] Để trả lời chính xác các câu hỏi nâng cao về "${item.topic}", điểm khác biệt hoặc lưu ý chuyên môn quan trọng nhất mà kiểm toán viên nội bộ cần nắm vững là gì?`,
+            options: [
+              item.trap,
+              item.violation,
+              item.distinction,
+              'Không cần phân biệt vì mọi trường hợp đều xử lý giống hệt nhau.'
+            ],
+            correctAnswer: 2,
+            explanation: `Điểm phân biệt cốt lõi của "${item.topic}": ${item.distinction} Quy tắc chuẩn: ${item.rule}`
+          });
+        }
+      }
+
+      return list;
+    };
+
+    const QUESTIONS = [
+      ...buildInitialQuestions(),
+      {
+        id: 299,
+        domain: "D4",
+        question: "Theo Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS), nếu bộ phận Kiểm toán Nội bộ KHÔNG hoàn thành Chương trình Đảm bảo và Cải tiến Chất lượng (QAIP) đầy đủ, CAE sẽ không được phép làm gì?",
+        options: [
+          "CAE không được phép lập Kế hoạch kiểm toán năm.",
+          "CAE không được phép trả lương cho nhân viên.",
+          "CAE không được phép sử dụng cụm từ 'Phù hợp với Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu' trong các báo cáo và tài liệu kiểm toán.",
+          "CAE không được phép phỏng vấn Giám đốc công ty."
+        ],
+        correctAnswer: 2,
+        explanation: "Tuyên bố 'Conforms with the Global Internal Audit Standards' là một chứng nhận chất lượng uy tín. Chuẩn mực nghiêm cấm CAE sử dụng cụm từ này nếu phòng KTNB chưa vượt qua các bài đánh giá (Nội bộ & Bên ngoài) của chương trình QAIP."
+      },
+      {
+        id: 300,
+        domain: "D3",
+        question: "Theo Chuẩn mực GIAS 9.5 (Phối hợp và Tin cậy - Coordination and Reliance), khi Giám đốc Kiểm toán Nội bộ (CAE) muốn sử dụng kết quả công việc của các bên cung cấp dịch vụ đảm bảo khác (như bộ phận Tuân thủ ở Tuyến 2 hoặc Kiểm toán độc lập), CAE phải làm gì?",
+        options: [
+          "Sử dụng ngay lập tức mà không cần kiểm tra để tiết kiệm thời gian.",
+          "Chuyển toàn bộ trách nhiệm pháp lý của báo cáo kiểm toán nội bộ cho bộ phận đó.",
+          "Đánh giá năng lực, tính khách quan và sự cẩn trọng nghề nghiệp của bên cung cấp đó, đồng thời hiểu rõ phạm vi, mục tiêu và kết quả công việc của họ trước khi tin cậy.",
+          "Xin phép cơ quan thuế trước khi sử dụng báo cáo của Tuyến 2."
+        ],
+        correctAnswer: 2,
+        explanation: "Theo Chuẩn mực 9.5 về Đảm bảo kết hợp (Combined Assurance), CAE có thể dựa vào (rely on) công việc của Tuyến 2 hoặc bên ngoài để giảm trùng lặp, nhưng CAE vẫn chịu trách nhiệm cuối cùng về kết luận của KTNB nên bắt buộc phải đánh giá năng lực, tính khách quan và chất lượng công việc của họ trước."
+      },
+      {
+        id: 301,
+        domain: "D1",
+        question: "Theo Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS - Chuẩn mực 1.3), khái niệm 'Dũng khí đạo đức' (Ethical Courage) yêu cầu kiểm toán viên nội bộ phải làm gì?",
+        options: [
+          "Luôn tranh luận gay gắt với đơn vị được kiểm toán trong mọi cuộc họp.",
+          "Trung thực nêu ra các phát hiện chính đáng và hành động đúng đắn về mặt đạo đức ngay cả khi phải đối mặt với tình huống khó khăn, áp lực hoặc hậu quả bất lợi cho bản thân.",
+          "Tự mình xử lý kỷ luật các giám đốc vi phạm quy chế.",
+          "Từ chối mọi cuộc kiểm toán có rủi ro cao."
+        ],
+        correctAnswer: 1,
+        explanation: "GIAS bổ sung rõ khái niệm Dũng khí đạo đức (Ethical Courage) trong Nguyên tắc 1 (Tính chính trực), đòi hỏi KTV phải kiên định bảo vệ sự thật và chuẩn mực đạo đức bất chấp áp lực từ Ban điều hành hay các bên liên quan."
+      },
+      {
+        id: 302,
+        domain: "D3",
+        question: "Chuẩn mực GIAS 4.3 quy định cụ thể về 'Sự hoài nghi nghề nghiệp' (Professional Skepticism). Thái độ nào sau đây thể hiện đúng nhất sự hoài nghi nghề nghiệp của kiểm toán viên nội bộ?",
+        options: [
+          "Mặc định rằng tất cả các nhà quản lý trong công ty đều là kẻ gian lận và nói dối.",
+          "Tin tưởng hoàn toàn vào giải trình của các giám đốc lâu năm có uy tín tốt.",
+          "Duy trì thái độ luôn đặt câu hỏi (questioning mind), đánh giá một cách phản biện (critically assess) độ tin cậy của bằng chứng và không vội vàng chấp nhận các câu trả lời thiếu căn cứ.",
+          "Yêu cầu công chứng nhà nước đối với mọi chứng từ nội bộ."
+        ],
+        correctAnswer: 2,
+        explanation: "Sự hoài nghi nghề nghiệp không có nghĩa là nghi ngờ cực đoan (cynicism) hay cả tin. Nó đòi hỏi KTV không mặc định Ban điều hành là không trung thực nhưng cũng không mặc định họ hoàn toàn trung thực, mà phải luôn kiểm chứng bằng bằng chứng khách quan."
+      },
+      {
+        id: 303,
+        domain: "D3",
+        question: "Khi đánh giá bằng chứng kiểm toán, kiểm toán viên có xu hướng chỉ tìm kiếm và coi trọng những thông tin ủng hộ cho giả định ban đầu của mình, đồng thời phớt lờ các bằng chứng ngược lại. Hiện tượng tâm lý này gọi là gì?",
+        options: [
+          "Thiên kiến xác nhận (Confirmation Bias).",
+          "Thiên kiến mỏ neo (Anchoring Bias).",
+          "Thiên kiến đám đông (Groupthink).",
+          "Sự cẩn trọng nghề nghiệp hợp lý."
+        ],
+        correctAnswer: 0,
+        explanation: "Confirmation Bias (Thiên kiến xác nhận) là một cạm bẫy nhận thức làm suy giảm Sự hoài nghi nghề nghiệp (Chuẩn mực 4.3) và Tính khách quan, khiến KTV chỉ nhìn thấy những gì mình muốn thấy."
+      },
+      {
+        id: 304,
+        domain: "D1",
+        question: "Trong Khung Thực hành Chuyên môn Quốc tế (IPPF) cập nhật của IIA, cấu phần 'Các Yêu cầu theo Chủ đề' (Topical Requirements) có tính chất pháp lý như thế nào đối với kiểm toán viên nội bộ?",
+        options: [
+          "Chỉ là tài liệu tham khảo tùy chọn, không bắt buộc.",
+          "Là các yêu cầu BẮT BUỘC (Mandatory) nhằm đảm bảo tính nhất quán và chất lượng khi kiểm toán các chủ đề rủi ro đặc thù (như An ninh mạng, ESG, Rủi ro bên thứ ba...).",
+          "Chỉ áp dụng cho các công ty kiểm toán độc lập Big 4.",
+          "Thay thế hoàn toàn cho Điều lệ Kiểm toán Nội bộ."
+        ],
+        correctAnswer: 1,
+        explanation: "Trong khung IPPF mới, bên cạnh GIAS, IIA ban hành Topical Requirements (Yêu cầu theo chủ đề) mang tính chất BẮT BUỘC áp dụng khi KTNB thực hiện dịch vụ đảm bảo cho các mảng rủi ro chuyên biệt đó."
+      },
+      {
+        id: 305,
+        domain: "D1",
+        question: "Khi áp dụng Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS) trong 'Khu vực công' (Public Sector), yếu tố nào thường khác biệt nhất so với doanh nghiệp tư nhân?",
+        options: [
+          "Kiểm toán viên khu vực công không cần giữ tính khách quan.",
+          "Ủy quyền kiểm toán (Mandate), cơ cấu báo cáo và nghĩa vụ công bố báo cáo kiểm toán cho công chúng thường được quy định trực tiếp bởi Luật pháp hoặc Nghị định của Nhà nước.",
+          "Khu vực công không cần lập kế hoạch kiểm toán dựa trên rủi ro.",
+          "Khu vực công không áp dụng chương trình QAIP."
+        ],
+        correctAnswer: 1,
+        explanation: "Trong khu vực công, Điều lệ/Ủy quyền KTNB thường được quy định bằng văn bản luật, và báo cáo kiểm toán đôi khi bắt buộc phải công khai cho công chúng theo luật tự do thông tin (khác với bảo mật tuyệt đối ở khu vực tư nhân)."
+      },
+      {
+        id: 306,
+        domain: "D4",
+        question: "Theo Chuẩn mực GIAS 12.2 (Đo lường hiệu quả hoạt động - Performance Measurement), CAE nên xây dựng bộ chỉ số đo lường (KPIs) cho phòng Kiểm toán Nội bộ như thế nào?",
+        options: [
+          "Chỉ đo lường số lượng phát hiện kiểm toán để khuyến khích KTV bắt thật nhiều lỗi.",
+          "Xây dựng bộ chỉ số cân bằng (như Balanced Scorecard) kết hợp cả chỉ số định lượng và định tính, lấy ý kiến từ HĐQT và Ban điều hành để đo lường mức độ đạt được mục tiêu của KTNB.",
+          "Chỉ đo lường chi phí văn phòng phẩm tiết kiệm được.",
+          "Sử dụng nguyên xi bộ KPI của phòng Kinh doanh."
+        ],
+        correctAnswer: 1,
+        explanation: "Đo lường hiệu suất KTNB không nên chỉ đếm số lỗi (dễ gây tâm lý soi mói vụn vặt), mà phải cân bằng giữa: Mức độ hoàn thành kế hoạch, Chất lượng khuyến nghị, Sự hài lòng của các bên liên quan và Phát triển năng lực đội ngũ."
+      },
+      {
+        id: 307,
+        domain: "D2",
+        question: "Một kiểm toán viên nội bộ sở hữu một lượng lớn cổ phiếu của Nhà cung cấp X. Khi được phân công kiểm toán quy trình lựa chọn nhà thầu có sự tham gia của Nhà cung cấp X, kiểm toán viên này đang đối mặt với nguy cơ suy giảm tính khách quan nào?",
+        options: [
+          "Nguy cơ tự kiểm tra (Self-review threat).",
+          "Nguy cơ tư lợi (Self-interest threat).",
+          "Nguy cơ bị đe dọa (Intimidation threat).",
+          "Nguy cơ bào chữa (Advocacy threat)."
+        ],
+        correctAnswer: 1,
+        explanation: "Self-interest threat (Nguy cơ tư lợi) phát sinh khi kiểm toán viên có lợi ích tài chính trực tiếp hoặc gián tiếp tại đối tượng liên quan đến cuộc kiểm toán, làm ảnh hưởng đến sự vô tư."
+      },
+      {
+        id: 308,
+        domain: "D4",
+        question: "Khi một cuộc kiểm toán cụ thể KHÔNG thể tuân thủ một chuẩn mực nhất định trong GIAS (ví dụ do bị giới hạn phạm vi nghiêm trọng), CAE phải công bố thông tin gì trong báo cáo kiểm toán?",
+        options: [
+          "Không cần công bố gì để giữ uy tín cho phòng KTNB.",
+          "Công bố chuẩn mực không được tuân thủ, lý do không tuân thủ, và tác động (impact) của việc không tuân thủ đó đối với kết luận của cuộc kiểm toán.",
+          "Chỉ cần gửi tin nhắn riêng cho Kế toán trưởng.",
+          "Hủy bỏ toàn bộ báo cáo kiểm toán."
+        ],
+        correctAnswer: 1,
+        explanation: "Khi có sự không tuân thủ Chuẩn mực (Nonconformance) ảnh hưởng đến một cuộc kiểm toán, chuẩn mực yêu cầu phải công bố rõ 3 yếu tố: (1) Chuẩn mực nào bị vi phạm, (2) Lý do, và (3) Ảnh hưởng của nó đến kết quả/kết luận kiểm toán."
+      },
+      {
+        id: 309,
+        domain: "D5",
+        question: "Theo 6 Nguyên tắc của Mô hình 3 Tuyến (IIA Three Lines Model), phát biểu nào sau đây là ĐÚNG về mối quan hệ giữa Tuyến 1, Tuyến 2 và Ban điều hành?",
+        options: [
+          "Tuyến 1 và Tuyến 2 bắt buộc phải tách thành các phòng ban riêng biệt trong mọi doanh nghiệp dù quy mô siêu nhỏ.",
+          "Vai trò của Tuyến 1 và Tuyến 2 có thể được kết hợp hoặc tách biệt tùy thuộc vào quy mô, độ phức tạp của tổ chức, nhưng cả hai đều thuộc trách nhiệm của Ban điều hành.",
+          "Tuyến 2 phải hoàn toàn độc lập với Ban điều hành giống như Tuyến 3.",
+          "Tuyến 1 báo cáo trực tiếp cho Ủy ban Kiểm toán."
+        ],
+        correctAnswer: 1,
+        explanation: "Trong Mô hình 3 Tuyến của IIA, cả Tuyến 1 (vận hành) và Tuyến 2 (hỗ trợ/giám sát rủi ro, tuân thủ) đều nằm dưới sự chỉ đạo của Ban điều hành (Management). Các vai trò này có thể linh hoạt kết hợp hoặc tách rời tùy quy mô công ty, chỉ có Tuyến 3 (KTNB) là bắt buộc phải độc lập với Ban điều hành."
+      },
+      {
+        id: 310,
+        domain: "D5",
+        question: "Khung kiểm soát nội bộ CoCo (Criteria of Control của Canada) rất nổi tiếng trong kỳ thi CIA bởi việc nhấn mạnh vào các yếu tố tâm lý và văn hóa. Khung CoCo phân loại 20 tiêu chí kiểm soát vào 4 nhóm nào sau đây?",
+        options: [
+          "Môi trường, Rủi ro, Hoạt động, Giám sát.",
+          "Mục đích (Purpose), Cam kết (Commitment), Năng lực (Capability), và Giám sát & Học hỏi (Monitoring and Learning).",
+          "Lập kế hoạch, Thực hiện, Kiểm tra, Hành động (PDCA).",
+          "Phòng ngừa, Phát hiện, Khắc phục, Chỉ đạo."
+        ],
+        correctAnswer: 1,
+        explanation: "Mẹo nhớ kinh điển trong đề thi CIA Part 1: Nhắc đến khung CoCo của Canada là nhớ ngay tới 4 chữ: Purpose (Mục đích), Commitment (Sự cam kết), Capability (Năng lực) và Monitoring & Learning (Giám sát & Học hỏi)."
+      },
+      {
+        id: 311,
+        domain: "D5",
+        question: "Khung kiểm soát COBIT (Control Objectives for Information and Related Technologies) do ISACA ban hành được thiết kế chủ yếu nhằm mục đích gì?",
+        options: [
+          "Hướng dẫn cách định giá hàng tồn kho theo chuẩn kế toán.",
+          "Cung cấp khung Quản trị và Quản lý Công nghệ thông tin (Enterprise Governance of IT), giúp kết nối mục tiêu CNTT với mục tiêu kinh doanh chiến lược của tổ chức.",
+          "Thay thế hoàn toàn cho các chuẩn mực kiểm toán nội bộ GIAS.",
+          "Chỉ dùng để viết mã nguồn phần mềm."
+        ],
+        correctAnswer: 1,
+        explanation: "COBIT là khung chuẩn quốc tế hàng đầu về Quản trị và Kiểm soát CNTT, phân biệt rõ giữa Quản trị CNTT (Governance - thuộc HĐQT: Đánh giá, Định hướng, Giám sát - EDM) và Quản lý CNTT (Management - thuộc Ban điều hành: Lập kế hoạch, Xây dựng, Vận hành, Theo dõi - APO, BAI, DSS, MEA)."
+      },
+      {
+        id: 312,
+        domain: "D5",
+        question: "Trong đánh giá hệ thống kiểm soát nội bộ, sự khác biệt giữa 'Kiểm soát cứng' (Hard Controls) và 'Kiểm soát mềm' (Soft Controls) là gì?",
+        options: [
+          "Kiểm soát cứng áp dụng cho phần cứng máy tính, kiểm soát mềm áp dụng cho phần mềm.",
+          "Kiểm soát cứng là các thủ tục chính thức, hữu hình, dễ đo lường (như chữ ký phê duyệt, đối chiếu, phân quyền); Kiểm soát mềm là các yếu tố vô hình thuộc về văn hóa, lòng tin, sự cởi mở, đạo đức và thái độ của con người.",
+          "Kiểm soát mềm không có tác dụng ngăn ngừa gian lận.",
+          "Kiểm toán viên nội bộ chỉ được phép kiểm toán kiểm soát cứng."
+        ],
+        correctAnswer: 1,
+        explanation: "Hard controls là các chốt kiểm soát khách quan, để lại dấu vết tài liệu rõ ràng. Soft controls gắn liền với Môi trường kiểm soát (văn hóa, sự chính trực, áp lực đồng trang lứa, phong cách lãnh đạo). Nếu Soft controls yếu kém, Hard controls rất dễ bị vượt qua."
+      },
+      {
+        id: 313,
+        domain: "D5",
+        question: "Khi kiểm toán viên nội bộ muốn đánh giá tính hiệu quả của các 'Kiểm soát mềm' (Soft Controls) như văn hóa đạo đức và sự cởi mở trong giao tiếp của tổ chức, kỹ thuật thu thập bằng chứng nào sau đây là PHÙ HỢP NHẤT?",
+        options: [
+          "Tính toán lại khấu hao tài sản cố định.",
+          "Gửi thư xác nhận số dư công nợ cho ngân hàng.",
+          "Kết hợp khảo sát ẩn danh nhân viên (Surveys), phỏng vấn sâu, thảo luận nhóm (Focus groups / CSA workshops) và quan sát hành vi thực tế.",
+          "Kiểm tra chuỗi số thứ tự của hóa đơn bán hàng."
+        ],
+        correctAnswer: 2,
+        explanation: "Vì Kiểm soát mềm (Soft controls) mang tính vô hình và tâm lý, KTV không thể chỉ kiểm tra chứng từ sổ sách mà phải dùng các phương pháp định tính như khảo sát ẩn danh, phỏng vấn đa chiều và hội thảo CSA."
+      },
+      {
+        id: 314,
+        domain: "D5",
+        question: "Theo phân loại kiểm soát quản lý theo thời điểm tác động vào quy trình (Input - Process - Output), việc công ty kiểm tra nghiêm ngặt chất lượng nguyên vật liệu đầu vào và bằng cấp của công nhân TRƯỚC KHI bắt đầu ca sản xuất được gọi là gì?",
+        options: [
+          "Kiểm soát phản hồi (Feedback Control).",
+          "Kiểm soát đồng thời (Concurrent Control).",
+          "Kiểm soát đón đầu / định hướng trước (Feedforward Control).",
+          "Kiểm soát khắc phục (Corrective Control)."
+        ],
+        correctAnswer: 2,
+        explanation: "Feedforward control tác động vào Đầu vào (Inputs) trước khi quy trình diễn ra nhằm ngăn ngừa lỗi từ trứng nước. Concurrent control diễn ra ngay trong lúc đang vận hành (Process). Feedback control đo lường kết quả Đầu ra (Outputs) sau khi đã hoàn thành."
+      },
+      {
+        id: 315,
+        domain: "D5",
+        question: "Khung Kiểm soát Nội bộ COSO (2013) bao gồm 5 thành phần và 17 nguyên tắc. Nguyên tắc nào sau đây thuộc về thành phần 'Môi trường kiểm soát' (Control Environment - Nguyên tắc 1 đến 5)?",
+        options: [
+          "Tổ chức lựa chọn và phát triển các hoạt động kiểm soát chung đối với công nghệ.",
+          "Tổ chức thể hiện cam kết thu hút, phát triển và giữ chân các cá nhân có năng lực phù hợp với mục tiêu (Nguyên tắc 4).",
+          "Tổ chức xem xét khả năng xảy ra gian lận khi đánh giá rủi ro.",
+          "Tổ chức thực hiện các đánh giá liên tục và định kỳ."
+        ],
+        correctAnswer: 1,
+        explanation: "5 Nguyên tắc của Môi trường kiểm soát (COSO) gồm: (1) Cam kết về tính chính trực & đạo đức, (2) HĐQT độc lập và giám sát, (3) Thiết lập cơ cấu, đường báo cáo, thẩm quyền, (4) Cam kết về năng lực nhân sự, và (5) Thực thi trách nhiệm giải trình (Accountability)."
+      },
+      {
+        id: 316,
+        domain: "D5",
+        question: "Theo 17 Nguyên tắc của Khung Kiểm soát Nội bộ COSO, Nguyên tắc số 8 ('Tổ chức xem xét khả năng xảy ra gian lận khi đánh giá rủi ro đối với việc đạt được mục tiêu') trực thuộc thành phần nào trong 5 thành phần của COSO?",
+        options: [
+          "Môi trường kiểm soát (Control Environment).",
+          "Đánh giá rủi ro (Risk Assessment).",
+          "Hoạt động kiểm soát (Control Activities).",
+          "Hoạt động giám sát (Monitoring Activities)."
+        ],
+        correctAnswer: 1,
+        explanation: "Thành phần Đánh giá rủi ro (Risk Assessment) của COSO gồm 4 nguyên tắc (từ 6 đến 9): (6) Xác định mục tiêu rõ ràng, (7) Nhận diện và phân tích rủi ro, (8) Đánh giá rủi ro gian lận, và (9) Nhận diện và phân tích các thay đổi trọng yếu."
+      },
+      {
+        id: 317,
+        domain: "D5",
+        question: "Để hệ thống Kiểm soát Nội bộ theo COSO được coi là 'Hữu hiệu' (Effective), điều kiện nào sau đây phải được thỏa mãn?",
+        options: [
+          "Chỉ cần 3 trong 5 thành phần của COSO hoạt động tốt.",
+          "Tất cả 5 thành phần và 17 nguyên tắc liên quan đều phải hiện hữu (Present), hoạt động (Functioning) và vận hành gắn kết với nhau (Operating together in an integrated manner).",
+          "Không có bất kỳ nhân viên nào nghỉ việc trong năm.",
+          "Chi phí kiểm soát phải bằng 0."
+        ],
+        correctAnswer: 1,
+        explanation: "Theo COSO, một hệ thống KSNB chỉ được kết luận là hữu hiệu khi toàn bộ 5 thành phần và 17 nguyên tắc đều Hiện hữu (được thiết kế đầy đủ), Hoạt động (vận hành trên thực tế) và Phối hợp nhịp nhàng với nhau."
+      },
+      {
+        id: 318,
+        domain: "D5",
+        question: "Theo 17 Nguyên tắc của COSO IC, thành phần 'Hoạt động kiểm soát' (Control Activities) bao gồm 3 nguyên tắc nào?",
+        options: [
+          "Nguyên tắc 1, 2 và 3.",
+          "Nguyên tắc 10 (Lựa chọn và phát triển hoạt động kiểm soát giảm thiểu rủi ro), Nguyên tắc 11 (Kiểm soát chung đối với công nghệ), và Nguyên tắc 12 (Triển khai thông qua chính sách và thủ tục).",
+          "Nguyên tắc 13, 14 và 15.",
+          "Nguyên tắc 16 và 17."
+        ],
+        correctAnswer: 1,
+        explanation: "Hoạt động kiểm soát trong COSO gồm Nguyên tắc 10 (tích hợp với đánh giá rủi ro), Nguyên tắc 11 (kiểm soát công nghệ ITGC) và Nguyên tắc 12 (triển khai qua Policies xác định cái cần làm và Procedures xác định cách thực hiện)."
+      },
+      {
+        id: 319,
+        domain: "D5",
+        question: "Trong thành phần 'Thông tin và Truyền thông' (Information & Communication - Nguyên tắc 13, 14, 15) của COSO, Nguyên tắc 13 yêu cầu tổ chức phải làm gì?",
+        options: [
+          "Chỉ sử dụng thông tin tài chính đã được kiểm toán độc lập.",
+          "Thu thập hoặc tạo ra và sử dụng thông tin có chất lượng, phù hợp (relevant, quality information) để hỗ trợ sự vận hành của hệ thống kiểm soát nội bộ.",
+          "Giữ bí mật mọi thông tin với Hội đồng Quản trị.",
+          "Xóa bỏ toàn bộ dữ liệu sau mỗi tháng."
+        ],
+        correctAnswer: 1,
+        explanation: "Thông tin và Truyền thông gồm: Nguyên tắc 13 (Sử dụng thông tin chất lượng, phù hợp), Nguyên tắc 14 (Truyền thông nội bộ bao gồm mục tiêu và trách nhiệm KSNB), và Nguyên tắc 15 (Truyền thông với các bên bên ngoài)."
+      },
+      {
+        id: 320,
+        domain: "D5",
+        question: "Khung Quản trị Rủi ro Doanh nghiệp COSO ERM (cập nhật 2017) có tên gọi chính thức là gì và nhấn mạnh điểm cốt lõi nào?",
+        options: [
+          "Kiểm soát nội bộ tích hợp; nhấn mạnh vào việc lập báo cáo thuế.",
+          "Quản trị rủi ro doanh nghiệp – Tích hợp với Chiến lược và Hiệu suất hoạt động (Integrating with Strategy and Performance); nhấn mạnh rủi ro phải được xem xét ngay từ khi hoạch định chiến lược.",
+          "Tiêu chuẩn an ninh thông tin toàn cầu; nhấn mạnh vào tường lửa.",
+          "Quy tắc đạo đức kiểm toán viên."
+        ],
+        correctAnswer: 1,
+        explanation: "COSO ERM 2017 mang tên 'Integrating with Strategy and Performance', gồm 5 thành phần và 20 nguyên tắc, khẳng định ERM không phải là một bộ phận tách rời mà phải hòa quyện vào quá trình chọn Chiến lược và thực thi Hiệu suất."
+      },
+      {
+        id: 321,
+        domain: "D5",
+        question: "Khung Quản lý Rủi ro theo tiêu chuẩn quốc tế ISO 31000 được cấu trúc xoay quanh 3 trụ cột chính nào?",
+        options: [
+          "Tài chính, Nhân sự và Công nghệ.",
+          "Các Nguyên tắc (Principles), Khung cơ cấu (Framework), và Quy trình (Process).",
+          "Tuyến 1, Tuyến 2 và Tuyến 3.",
+          "Môi trường kiểm soát, Hoạt động kiểm soát và Giám sát."
+        ],
+        correctAnswer: 1,
+        explanation: "ISO 31000 được thiết kế rất tinh gọn dựa trên 3 trụ cột liên kết: (1) Các Nguyên tắc (tạo và bảo vệ giá trị), (2) Khung cơ cấu (Lãnh đạo & Cam kết: Tích hợp, Thiết kế, Thực thi, Đánh giá, Cải tiến), và (3) Quy trình quản lý rủi ro."
+      },
+      {
+        id: 322,
+        domain: "D5",
+        question: "Trong quản trị rủi ro doanh nghiệp (ERM), khái niệm 'Sức chịu đựng rủi ro tối đa' (Risk Capacity) khác với 'Khẩu vị rủi ro' (Risk Appetite) như thế nào?",
+        options: [
+          "Risk Capacity luôn nhỏ hơn Risk Appetite.",
+          "Risk Capacity là lượng rủi ro TỐI ĐA tuyệt đối mà tổ chức có khả năng gánh chịu trước khi bị phá sản/sụp đổ; còn Risk Appetite là mức rủi ro mà tổ chức SẴN SÀNG chấp nhận (luôn phải nằm dưới mức Risk Capacity).",
+          "Hai khái niệm này hoàn toàn đồng nhất.",
+          "Risk Capacity do nhân viên tự quyết định."
+        ],
+        correctAnswer: 1,
+        explanation: "Risk Capacity là giới hạn sinh tử về mặt vốn và nguồn lực của doanh nghiệp. Doanh nghiệp luôn phải thiết lập Khẩu vị rủi ro (Risk Appetite) thấp hơn một khoảng an toàn so với Risk Capacity."
+      },
+      {
+        id: 323,
+        domain: "D5",
+        question: "Nếu sau khi đánh giá, Ban điều hành nhận thấy 'Rủi ro còn lại' (Residual Risk) của một quy trình hiện đang THẤP HƠN RẤT NHIỀU so với 'Khẩu vị rủi ro' (Risk Appetite) do công ty đang áp dụng tới 6 tầng phê duyệt chồng chéo. Vấn đề gì đang xảy ra?",
+        options: [
+          "Hệ thống kiểm soát đang bị thiếu hụt nghiêm trọng.",
+          "Tổ chức đang bị 'Kiểm soát quá mức' (Over-controlled), gây lãng phí nguồn lực, làm chậm trễ vận hành và giảm hiệu quả kinh doanh.",
+          "Rủi ro tiềm tàng đã biến mất.",
+          "Kiểm toán viên nội bộ đã tính sai."
+        ],
+        correctAnswer: 1,
+        explanation: "Trong CIA Part 1, nếu Residual Risk > Risk Appetite thì phải tăng kiểm soát; ngược lại, nếu Residual Risk quá thấp kèm chi phí kiểm soát quá cao (Over-controlling), KTNB nên khuyến nghị cắt bỏ bớt các chốt kiểm soát dư thừa để tối ưu hóa hiệu suất."
+      },
+      {
+        id: 324,
+        domain: "D5",
+        question: "Trong Quản trị doanh nghiệp (Corporate Governance), sự khác biệt giữa mô hình Hội đồng quản trị 1 cấp (One-tier / Unitary Board) và mô hình 2 cấp (Two-tier Board) là gì?",
+        options: [
+          "Mô hình 1 cấp không có cổ đông.",
+          "Mô hình 1 cấp kết hợp cả thành viên điều hành và không điều hành trong một HĐQT duy nhất; Mô hình 2 cấp tách bạch hoàn toàn giữa Hội đồng Giám sát (Supervisory Board - chỉ gồm thành viên không điều hành) và Ban Điều hành (Management Board).",
+          "Mô hình 2 cấp không cần có Kiểm toán nội bộ.",
+          "Mô hình 1 cấp chỉ áp dụng cho doanh nghiệp nhà nước."
+        ],
+        correctAnswer: 1,
+        explanation: "Mô hình 1 cấp (phổ biến ở Mỹ, Anh) gộp chung Executive và Non-Executive Directors trong một Board. Mô hình 2 cấp (phổ biến ở Đức, Châu Âu) tách riêng Supervisory Board (chuyên giám sát) và Management Board (chuyên điều hành)."
+      },
+      {
+        id: 325,
+        domain: "D5",
+        question: "Để ngăn ngừa rủi ro Ban điều hành thiết lập các gói thưởng cổ phiếu khuyến khích việc làm đẹp báo cáo tài chính ngắn hạn bất chấp rủi ro dài hạn, tiểu ban nào thuộc Hội đồng Quản trị chịu trách nhiệm thiết kế và giám sát chính sách lương thưởng của CEO?",
+        options: [
+          "Ủy ban Lương thưởng / Đãi ngộ (Compensation / Remuneration Committee) gồm các thành viên HĐQT độc lập.",
+          "Phòng Hành chính Nhân sự.",
+          "Phòng Kế toán.",
+          "Phòng Kiểm toán Nội bộ."
+        ],
+        correctAnswer: 0,
+        explanation: "Trong cấu trúc quản trị công ty chuẩn mực, Ủy ban Lương thưởng (Compensation Committee) gồm các thành viên HĐQT độc lập chịu trách nhiệm gắn kết cơ chế đãi ngộ của Ban giám đốc với hiệu quả bền vững và khẩu vị rủi ro dài hạn."
+      },
+      {
+        id: 326,
+        domain: "D5",
+        question: "Một tổ chức bổ nhiệm vị trí 'Thanh tra viên đạo đức độc lập' (Ombudsperson / Ethics Officer). Vai trò chính của vị trí này trong văn hóa quản trị doanh nghiệp là gì?",
+        options: [
+          "Trực tiếp lập báo cáo tài chính hợp nhất.",
+          "Cung cấp một kênh trung lập, bảo mật và không chính thức để nhân viên có thể xin tư vấn về các tình huống khó xử về đạo đức hoặc phản ánh quan ngại mà không sợ bị trả thù.",
+          "Thay thế vai trò của Giám đốc Kiểm toán Nội bộ.",
+          "Đại diện công ty đi kiện khách hàng."
+        ],
+        correctAnswer: 1,
+        explanation: "Ombudsperson là một thiết chế quan trọng trong chương trình Đạo đức doanh nghiệp, giúp giải quyết các xung đột và lắng nghe phản ánh của nhân viên một cách bảo mật, độc lập với chuỗi mệnh lệnh hành chính."
+      },
+      {
+        id: 327,
+        domain: "D5",
+        question: "Khi kiểm toán nội bộ đánh giá các báo cáo Môi trường, Xã hội và Quản trị (ESG / Sustainability Reporting) của công ty, rủi ro 'Tẩy xanh' (Greenwashing) được hiểu là gì?",
+        options: [
+          "Rủi ro nhà máy sơn lại tường màu xanh lá cây.",
+          "Rủi ro công ty công bố thông tin phóng đại, sai sự thật hoặc gây hiểu lầm về các thành tích bảo vệ môi trường nhằm đánh bóng tên tuổi với nhà đầu tư và khách hàng.",
+          "Rủi ro rửa tiền qua ngân hàng quốc tế.",
+          "Rủi ro thiếu hụt cây xanh trong văn phòng."
+        ],
+        correctAnswer: 1,
+        explanation: "Greenwashing là rủi ro gian lận/báo cáo sai lệch rất nóng trong mảng ESG. KTNB cần kiểm tra xem các số liệu công bố về giảm phát thải, thân thiện môi trường có bằng chứng gốc đáng tin cậy và tiêu chí đo lường chuẩn xác hay không."
+      },
+      {
+        id: 328,
+        domain: "D5",
+        question: "Trong kiểm soát Bảo vệ Dữ liệu Cá nhân (Data Privacy / PII - Personally Identifiable Information), nguyên tắc 'Giảm thiểu dữ liệu' (Data Minimization) yêu cầu tổ chức phải làm gì?",
+        options: [
+          "Thu thập càng nhiều thông tin cá nhân của khách hàng càng tốt để dự phòng cho tương lai.",
+          "Chỉ thu thập, xử lý và lưu trữ lượng dữ liệu cá nhân tối thiểu thực sự cần thiết cho mục đích kinh doanh hợp pháp đã thông báo, và xóa bỏ khi không còn cần thiết.",
+          "Bán dữ liệu khách hàng cho bên thứ ba ngay sau khi thu thập.",
+          "Lưu trữ dữ liệu cá nhân dưới dạng văn bản không mã hóa."
+        ],
+        correctAnswer: 1,
+        explanation: "Data Minimization là nguyên tắc cốt lõi của Quản trị dữ liệu và Bảo mật quyền riêng tư (như GDPR): Không thu thập dư thừa và không lưu trữ lâu hơn thời gian cần thiết nhằm giảm thiểu thiệt hại nếu xảy ra rò rỉ dữ liệu."
+      },
+      {
+        id: 329,
+        domain: "D5",
+        question: "Một công ty thuê nhà cung cấp dịch vụ đám mây bên thứ ba xử lý dữ liệu bảng lương và kế toán. Để đánh giá hệ thống kiểm soát nội bộ của nhà cung cấp này tác động đến Báo cáo tài chính của công ty, kiểm toán viên nên yêu cầu loại báo cáo đảm bảo nào từ nhà cung cấp?",
+        options: [
+          "Báo cáo SOC 1 (System and Organization Controls 1 - tập trung vào kiểm soát liên quan đến Báo cáo tài chính ICFR).",
+          "Tờ rơi quảng cáo của nhà cung cấp.",
+          "Báo cáo thuế thu nhập cá nhân của Giám đốc nhà cung cấp.",
+          "Hợp đồng thuê văn phòng của nhà cung cấp."
+        ],
+        correctAnswer: 0,
+        explanation: "Trong quản lý rủi ro bên thứ ba: SOC 1 đánh giá các kiểm soát của nhà cung cấp dịch vụ có ảnh hưởng đến Báo cáo tài chính (ICFR) của khách hàng; còn SOC 2 đánh giá các kiểm soát về An toàn thông tin (Bảo mật, Khả dụng, Toàn vẹn xử lý, Riêng tư)."
+      },
+      {
+        id: 330,
+        domain: "D5",
+        question: "Khi xem xét báo cáo kiểm toán tổ chức dịch vụ (SOC Report), sự khác biệt quan trọng nhất giữa báo cáo 'Type 1' và báo cáo 'Type 2' là gì?",
+        options: [
+          "Type 1 đắt tiền hơn Type 2.",
+          "Type 1 chỉ đánh giá tính hợp lý của THIẾT KẾ kiểm soát tại một thời điểm (point in time); còn Type 2 đánh giá cả thiết kế VÀ TÍNH HIỆU QUẢ VẬN HÀNH (operating effectiveness) của kiểm soát trong suốt một giai đoạn (thường từ 6–12 tháng).",
+          "Type 1 do nội bộ tự lập, Type 2 do khách hàng lập.",
+          "Type 2 chỉ đánh giá thiết kế tại một ngày duy nhất."
+        ],
+        correctAnswer: 1,
+        explanation: "Báo cáo SOC Type 2 luôn cung cấp mức độ đảm bảo cao hơn rất nhiều so với Type 1 vì kiểm toán viên độc lập đã kiểm thử sự vận hành thực tế của các chốt kiểm soát xuyên suốt một khoảng thời gian dài."
+      },
+      {
+        id: 331,
+        domain: "D5",
+        question: "Sự khác biệt giữa Kế hoạch Duy trì Hoạt động Kinh doanh Liên tục (BCP - Business Continuity Plan) và Kế hoạch Khôi phục sau Thảm họa (DRP - Disaster Recovery Plan) là gì?",
+        options: [
+          "DRP rộng hơn BCP và bao gồm cả chiến lược truyền thông.",
+          "BCP mang tính toàn diện nhằm duy trì các quy trình kinh doanh cốt lõi của toàn tổ chức khi có khủng hoảng; còn DRP là một phần kỹ thuật nằm trong BCP, tập trung cụ thể vào việc khôi phục hạ tầng CNTT, máy chủ và dữ liệu.",
+          "BCP chỉ dành cho phòng IT, DRP dành cho phòng Nhân sự.",
+          "Hai khái niệm này không liên quan đến nhau."
+        ],
+        correctAnswer: 1,
+        explanation: "BCP nhìn ở góc độ toàn bộ hoạt động kinh doanh (con người, quy trình, địa điểm làm việc thay thế, chăm sóc khách hàng). DRP tập trung chuyên biệt vào việc khôi phục hệ thống IT và dữ liệu (với các chỉ số RTO - Thời gian khôi phục mục tiêu và RPO - Điểm khôi phục dữ liệu mục tiêu)."
+      },
+      {
+        id: 332,
+        domain: "D5",
+        question: "Trong Kiểm soát Ứng dụng CNTT (IT Application Controls), thuật toán tự động tính toán số cuối cùng của dãy số thẻ tín dụng hoặc mã vạch để phát hiện ngay lập tức lỗi gõ nhầm phím của người nhập liệu được gọi là gì?",
+        options: [
+          "Kiểm tra chữ số kiểm tra (Check Digit).",
+          "Kiểm tra giới hạn (Limit Check).",
+          "Kiểm tra chạy nối tiếp (Run-to-run Total).",
+          "Kiểm soát truy cập vật lý."
+        ],
+        correctAnswer: 0,
+        explanation: "Check Digit (Chữ số kiểm tra) là một con số được tính toán bằng công thức toán học từ các chữ số đứng trước nó trong mã số (như thuật toán Luhn), giúp phát hiện ngay lỗi gõ sai hoặc đảo vị trí chữ số (transposition error) khi nhập liệu."
+      },
+      {
+        id: 333,
+        domain: "D5",
+        question: "Rủi ro lớn nhất của môi trường 'Điện toán người dùng cuối' (End-User Computing - EUC), chẳng hạn như việc phòng Kế toán tự lập các bảng tính Excel chứa công thức phức tạp để tính dự phòng phải thu khó đòi, là gì?",
+        options: [
+          "Chi phí bản quyền phần mềm Excel quá đắt.",
+          "Thiếu các kiểm soát chuẩn mực về quản lý thay đổi (Change management), kiểm soát phiên bản (Version control), bảo mật truy cập và kiểm thử công thức, dẫn đến nguy cơ sai sót trọng yếu hoặc bị chỉnh sửa trái phép mà không để lại dấu vết.",
+          "Máy tính chạy quá nhanh.",
+          "Nhân viên không biết dùng chuột máy tính."
+        ],
+        correctAnswer: 1,
+        explanation: "Các file Excel/Access do người dùng tự tạo (EUC) nằm ngoài hệ thống ERP chính thức nên thường thiếu kiểm soát ITGC. KTNB cần kiểm tra xem các ô công thức có bị khóa (locked cells) không, có phân quyền truy cập và có người soát xét độc lập công thức hay không."
+      },
+      {
+        id: 334,
+        domain: "D5",
+        question: "Khi phân tích một phát hiện kiểm toán, kiểm toán viên sử dụng kỹ thuật '5 Tại sao' (5 Whys) hoặc 'Biểu đồ xương cá' (Fishbone / Ishikawa Diagram). Mục đích chính của các công cụ này là để xác định yếu tố nào?",
+        options: [
+          "Tiêu chí kiểm toán (Criteria).",
+          "Hiện trạng lỗi (Condition).",
+          "Nguyên nhân gốc rễ (Root Cause) của vấn đề để đưa ra khuyến nghị khắc phục triệt để thay vì chỉ xử lý triệu chứng bề nổi.",
+          "Chi phí công tác của đoàn kiểm toán."
+        ],
+        correctAnswer: 2,
+        explanation: "Root Cause Analysis (Phân tích nguyên nhân gốc rễ) giúp KTV tìm ra lý do sâu xa tại sao lỗi xảy ra (ví dụ: không chỉ dừng ở 'nhân viên nhập sai', mà tìm ra gốc rễ là 'phần mềm chưa thiết lập trường chặn lỗi và nhân viên mới chưa được đào tạo')."
+      },
+      {
+        id: 335,
+        domain: "D5",
+        question: "Một kho hàng chứa các linh kiện kim loại thô giá trị thấp có mức tổn thất mất cắp trung bình là 5.000 USD/năm. Trưởng kho đề xuất lắp đặt hệ thống cổng từ sinh trắc học và thuê bảo vệ 24/7 với tổng chi phí 40.000 USD/năm để giảm mất cắp về 0. Dưới góc độ kiểm soát nội bộ, đề xuất này vi phạm nguyên tắc nào?",
+        options: [
+          "Nguyên tắc Phân chia trách nhiệm.",
+          "Nguyên tắc Chi phí - Lợi ích (Cost-Benefit Principle) trong thiết kế kiểm soát.",
+          "Nguyên tắc Bảo mật thông tin.",
+          "Nguyên tắc Độc lập tổ chức."
+        ],
+        correctAnswer: 1,
+        explanation: "Chi phí của một chốt kiểm soát (40.000 USD/năm) không nên vượt quá lợi ích giảm thiểu rủi ro mà nó mang lại (5.000 USD/năm), trừ khi liên quan đến an toàn tính mạng hoặc yêu cầu pháp lý bắt buộc."
+      },
+      {
+        id: 336,
+        domain: "D6",
+        question: "Mô hình 'Kim cương gian lận' (Fraud Diamond của Wolfe và Hermanson) mở rộng Tam giác gian lận truyền thống bằng cách bổ sung thêm yếu tố thứ 4 nào sau đây?",
+        options: [
+          "Sự tham lam (Greed).",
+          "Năng lực / Quyền hạn của cá nhân (Capability) — bao gồm vị trí chức vụ, trí thông minh để hiểu và khai thác lỗ hổng hệ thống, sự tự tin/cái tôi lớn và khả năng chịu áp lực khi nói dối.",
+          "Sự thiếu hụt phần mềm kế toán.",
+          "Mức phạt tù của pháp luật."
+        ],
+        correctAnswer: 1,
+        explanation: "Fraud Diamond chỉ ra rằng dù có Áp lực, Cơ hội và Sự tự hợp lý hóa, một vụ gian lận lớn (đặc biệt là gian lận hàng triệu USD) sẽ không thể xảy ra nếu thủ phạm không có 'Năng lực' (Capability: quyền hạn, hiểu biết kỹ thuật và bản lĩnh che giấu)."
+      },
+      {
+        id: 337,
+        domain: "D6",
+        question: "Trong nhóm gian lận Tham nhũng (Corruption), sự khác biệt giữa 'Hối lộ' (Bribery) và 'Tống tiền kinh tế' (Economic Extortion) là gì?",
+        options: [
+          "Hối lộ dùng tiền mặt, tống tiền kinh tế dùng chuyển khoản.",
+          "Trong Hối lộ, bên mua/nhà thầu chủ động đề nghị chi tiền để mua chuộc quyết định; còn trong Tống tiền kinh tế, chính nhân viên của công ty chủ động đe dọa, ép buộc nhà cung cấp phải chung chi nếu không sẽ gây thiệt hại (như cắt hợp đồng, làm khó khi nghiệm thu).",
+          "Cả hai đều hoàn toàn hợp pháp.",
+          "Tống tiền kinh tế chỉ xảy ra ở bộ phận Kế toán."
+        ],
+        correctAnswer: 1,
+        explanation: "Bribery và Economic Extortion là hai mặt của đồng xu tham nhũng: Bribery khởi phát từ bên ngoài mua chuộc vào trong; còn Economic Extortion là người bên trong dùng quyền lực ép buộc bên ngoài phải nộp tiền."
+      },
+      {
+        id: 338,
+        domain: "D6",
+        question: "Trong gian lận 'Lại quả' (Kickback Scheme) giữa nhà cung cấp và nhân viên mua hàng, dấu hiệu cảnh báo (Red Flag) nào sau đây thường xuất hiện trên dữ liệu mua sắm?",
+        options: [
+          "Giá mua hàng hóa liên tục giảm qua các năm.",
+          "Một nhà cung cấp liên tục được chỉ định thầu độc quyền với mức giá cao hơn thị trường, chất lượng hàng hóa giảm sút nhưng đơn hàng vẫn được nhân viên mua hàng đó ưu tiên duyệt nhanh bất thường.",
+          "Công ty tổ chức đấu thầu công khai rộng rãi trên báo chí.",
+          "Nhân viên mua hàng được luân chuyển vị trí định kỳ mỗi năm."
+        ],
+        correctAnswer: 1,
+        explanation: "Để có tiền chi 'lại quả' (kickback) cho nhân viên mua hàng, nhà cung cấp thường phải nâng khống giá bán (inflated prices) hoặc giao hàng kém chất lượng hơn so với tiêu chuẩn."
+      },
+      {
+        id: 339,
+        domain: "D6",
+        question: "Thủ đoạn gian lận sử dụng 'Nhà cung cấp trung gian ăn chênh lệch' (Pass-Through Vendor Scheme) diễn ra như thế nào?",
+        options: [
+          "Nhân viên mua hàng lập ra một công ty riêng của mình, dùng công ty đó mua hàng hóa thật từ nhà sản xuất chính hãng rồi bán lại cho chính công ty mình đang làm việc với mức giá bị đội lên cao để hưởng phần chênh lệch.",
+          "Nhà cung cấp không giao bất kỳ hàng hóa nào mà chỉ xuất hóa đơn khống.",
+          "Nhân viên lấy cắp tiền mặt tại két sắt.",
+          "Khách hàng trả tiền chậm."
+        ],
+        correctAnswer: 0,
+        explanation: "Khác với Shell Company (xuất hóa đơn khống cho dịch vụ không có thật), trong Pass-Through Scheme, hàng hóa thực sự có tồn tại và được nhập kho đầy đủ, nhưng đi vòng qua công ty sân sau của nhân viên mua hàng để ăn chênh lệch giá."
+      },
+      {
+        id: 340,
+        domain: "D6",
+        question: "Để ngăn chặn và phát hiện thủ đoạn gian lận 'Nhân viên ma' (Ghost Employee) trên bảng lương, chốt kiểm soát nào sau đây là HIỆU QUẢ NHẤT?",
+        options: [
+          "Cho phép trưởng bộ phận chấm công trực tiếp phát tiền mặt lương cho nhân viên dưới quyền.",
+          "Tách biệt hoàn toàn chức năng cập nhật hồ sơ nhân sự (HR Master File) với chức năng tính lương (Payroll), đồng thời định kỳ đối chiếu danh sách tài khoản ngân hàng nhận lương trùng nhau và kiểm tra độc lập danh sách nhân sự thực tế đang làm việc.",
+          "Tăng lương cho toàn bộ nhân viên mỗi quý.",
+          "Không cần kiểm tra bảng lương nếu công ty đã dùng phần mềm tính lương."
+        ],
+        correctAnswer: 1,
+        explanation: "Ghost employee xảy ra khi kẻ gian thêm tên người không có thật (hoặc người đã nghỉ việc) vào bảng lương để rút tiền. Phân nhiệm giữa HR (thêm/xóa nhân sự) và Payroll (tính lương), kèm theo quét dữ liệu tìm số tài khoản ngân hàng bị trùng lặp là kiểm soát cốt lõi nhất."
+      },
+      {
+        id: 341,
+        domain: "D6",
+        question: "Một nhân viên kinh doanh khi đi công tác đã thanh toán hóa đơn khách sạn bằng thẻ tín dụng công ty, nhưng sau đó lại lấy chính tờ hóa đơn giấy của khách sạn đó để làm đề nghị hoàn ứng tiền mặt lần thứ hai. Đây là loại gian lận gì và kiểm soát nào ngăn chặn tốt nhất?",
+        options: [
+          "Gian lận Kiting; ngăn chặn bằng kiểm kê kho.",
+          "Gian lận thanh toán trùng chi phí công tác (Multiple Reimbursement Fraud); ngăn chặn bằng cách yêu cầu chứng từ gốc đóng dấu 'Đã thanh toán' và đối chiếu chéo sao kê thẻ tín dụng công ty với các khoản hoàn ứng tiền mặt.",
+          "Gian lận Lapping; ngăn chặn bằng thư xác nhận khách hàng.",
+          "Gian lận báo cáo tài chính."
+        ],
+        correctAnswer: 1,
+        explanation: "Nộp một hóa đơn nhiều lần (hoặc vừa quẹt thẻ công ty vừa xin hoàn ứng cá nhân) là gian lận hoàn ứng chi phí phổ biến. Kiểm soát đối chiếu dữ liệu chi phí và đóng dấu hủy chứng từ gốc sau khi thanh toán sẽ chặn đứng hành vi này."
+      },
+      {
+        id: 342,
+        domain: "D6",
+        question: "Để chống lại gian lận làm giả séc hoặc sửa đổi số tiền/tên người thụ hưởng trên lệnh chi ngân hàng (Check Tampering), nhiều công ty sử dụng cơ chế kiểm soát 'Positive Pay' với ngân hàng. Cơ chế này hoạt động như thế nào?",
+        options: [
+          "Ngân hàng tự động thanh toán mọi tờ séc được mang đến rồi cuối năm mới báo cho công ty.",
+          "Công ty gửi trước cho ngân hàng một danh sách điện tử các lệnh chi/séc hợp lệ đã phát hành (gồm số séc, ngày, số tiền, người nhận); ngân hàng chỉ giải ngân nếu thông tin trên séc trùng khớp 100% với danh sách này.",
+          "Công ty chỉ trả lương bằng tiền mặt.",
+          "Nhân viên kế toán tự ký séc không cần giám đốc duyệt."
+        ],
+        correctAnswer: 1,
+        explanation: "Positive Pay là một Kiểm soát phòng ngừa (Preventive Control) cực mạnh giữa doanh nghiệp và ngân hàng nhằm ngăn chặn séc giả hoặc séc bị cạo sửa số tiền trước khi tiền bị rút khỏi tài khoản."
+      },
+      {
+        id: 343,
+        domain: "D6",
+        question: "Sự khác biệt giữa 'Trộm cắp tiền mặt đã ghi sổ' (Cash Larceny) và 'Hớt váng' (Skimming) là gì?",
+        options: [
+          "Cash Larceny là hành vi lấy cắp tiền mặt SAU KHI khoản thu đó đã được ghi nhận vào sổ sách kế toán (on-book); còn Skimming là lấy cắp tiền mặt TRƯỚC KHI nó được ghi nhận vào sổ sách (off-book).",
+          "Skimming dễ phát hiện trên sổ cái hơn Cash Larceny.",
+          "Cash Larceny chỉ xảy ra với hàng tồn kho.",
+          "Hai thuật ngữ này hoàn toàn giống nhau."
+        ],
+        correctAnswer: 0,
+        explanation: "Vì Cash Larceny xảy ra sau khi giao dịch đã vào sổ (ví dụ: lấy tiền từ két sắt sau khi đã in hóa đơn thu ngân), nó để lại sự chênh lệch trực tiếp giữa tiền thực tế và sổ sách nên dễ bị phát hiện qua kiểm quỹ/đối chiếu hơn Skimming."
+      },
+      {
+        id: 344,
+        domain: "D6",
+        question: "Vào tuần cuối cùng của năm tài chính, Giám đốc Kinh doanh thuyết phục các đại lý nhận một lượng hàng hóa khổng lồ vượt xa nhu cầu thực tế bằng cách hứa miệng rằng đại lý có thể trả lại toàn bộ hàng không bán được vào đầu năm sau mà không bị phạt. Thủ đoạn gian lận báo cáo tài chính này gọi là gì?",
+        options: [
+          "Kiting (Thả diều).",
+          "Channel Stuffing (Nhồi kênh phân phối) nhằm thổi phồng doanh thu và lợi nhuận của kỳ hiện tại.",
+          "Lapping (Gối đầu).",
+          "Salami technique."
+        ],
+        correctAnswer: 1,
+        explanation: "Channel Stuffing là thủ đoạn đẩy hàng ồ ạt cho nhà phân phối vào cuối kỳ kèm các điều khoản ngầm (side agreements) cho phép trả lại hàng. Dấu hiệu cảnh báo (Red flag) là doanh thu tăng vọt tháng cuối năm nhưng hàng bán bị trả lại (Sales returns) tăng đột biến vào quý 1 năm sau."
+      },
+      {
+        id: 345,
+        domain: "D6",
+        question: "Thủ đoạn gian lận doanh thu 'Lập hóa đơn nhưng giữ hàng' (Bill-and-Hold Scheme) thường vi phạm nguyên tắc ghi nhận doanh thu như thế nào?",
+        options: [
+          "Công ty giao hàng cho khách nhưng quên xuất hóa đơn.",
+          "Công ty xuất hóa đơn khống và ghi nhận doanh thu ngay trong kỳ hiện tại cho những lô hàng chưa hề được giao (vẫn nằm trong kho của công ty) khi khách hàng chưa thực sự yêu cầu hoặc chưa chuyển giao quyền kiểm soát.",
+          "Công ty xóa nợ cho khách hàng.",
+          "Công ty bán hàng thu tiền mặt."
+        ],
+        correctAnswer: 1,
+        explanation: "Trong Bill-and-Hold gian lận, công ty ghi nhận doanh thu sớm khi nghĩa vụ thực hiện (chuyển giao quyền kiểm soát hàng hóa) chưa hoàn thành, nhằm làm đẹp BCTC cuối kỳ."
+      },
+      {
+        id: 346,
+        domain: "D6",
+        question: "Trong một năm công ty đạt lợi nhuận vượt xa chỉ tiêu, Ban giám đốc cố tình trích lập khống các khoản dự phòng chi phí quá mức cần thiết, nhằm mục đích 'để dành' hoàn nhập các khoản dự phòng này vào những năm sau khi kinh doanh kém hiệu quả. Thủ đoạn thao túng BCTC này được gọi là gì?",
+        options: [
+          "Dự phòng hũ bánh quy (Cookie Jar Reserves / Earnings Smoothing).",
+          "Biển thủ tài sản cố định.",
+          "Gian lận bảng lương.",
+          "Thông thầu."
+        ],
+        correctAnswer: 0,
+        explanation: "Cookie Jar Reserves là thủ đoạn gian lận BCTC thông qua việc ghi nhận chi phí dự phòng quá cao vào năm lãi lớn rồi hoàn nhập dự phòng (giảm chi phí, tăng lãi) vào năm kinh doanh khó khăn để tạo cảm giác lợi nhuận tăng trưởng đều đặn."
+      },
+      {
+        id: 347,
+        domain: "D6",
+        question: "Khi Ban giám đốc chỉ đạo kế toán hạch toán các khoản chi phí sửa chữa, bảo trì thường xuyên hàng ngày vào nguyên giá Tài sản cố định (Vốn hóa chi phí sai quy định - Improper Capitalization of Expenses), Báo cáo tài chính năm đó sẽ bị sai lệch như thế nào?",
+        options: [
+          "Tài sản bị khai giảm và Lợi nhuận bị khai giảm.",
+          "Tài sản trên Bảng cân đối kế toán bị thổi phồng (Overstated) và Lợi nhuận ròng trên Báo cáo kết quả kinh doanh cũng bị thổi phồng (do chi phí trong kỳ bị giấu bớt).",
+          "Không ảnh hưởng đến lợi nhuận.",
+          "Nợ phải trả bị thổi phồng."
+        ],
+        correctAnswer: 1,
+        explanation: "Bằng cách biến Chi phí trong kỳ (Expense) thành Tài sản cố định (Asset - phân bổ dần qua nhiều năm), kẻ gian vừa làm tăng tổng tài sản vừa làm giảm chi phí trong kỳ, từ đó thổi phồng lợi nhuận (giống vụ bê bối WorldCom kinh điển)."
+      },
+      {
+        id: 348,
+        domain: "D6",
+        question: "Khi sử dụng Phân tích dữ liệu (Data Analytics) để rà soát gian lận trên hàng trăm nghìn hóa đơn chi phí, kiểm toán viên áp dụng 'Định luật Benford' (Benford's Law). Định luật này giúp phát hiện điều gì?",
+        options: [
+          "Phát hiện mật khẩu yếu của nhân viên.",
+          "Phát hiện các bộ số liệu có khả năng bị con người tự bịa đặt hoặc làm giả, dựa trên quy luật xác suất tự nhiên của các chữ số đầu tiên (ví dụ: trong tập dữ liệu tự nhiên, chữ số 1 xuất hiện ở vị trí đầu tiên khoảng 30.1% số lần, trong khi chữ số 9 chỉ khoảng 4.6%).",
+          "Tính toán chính xác số thuế phải nộp.",
+          "Đo lường tốc độ mạng internet."
+        ],
+        correctAnswer: 1,
+        explanation: "Khi kẻ gian tự nghĩ ra các con số hóa đơn giả, họ thường phân bổ các chữ số đầu tiên khá đồng đều hoặc lặp lại các số sát ngưỡng phê duyệt (như 9.800, 9.900), làm lệch hoàn toàn phân phối tự nhiên theo Định luật Benford."
+      },
+      {
+        id: 349,
+        domain: "D6",
+        question: "Sự khác biệt chính giữa 'Kiểm toán Nội bộ thông thường' và 'Kiểm toán Điều tra Pháp lý' (Forensic Auditing / Fraud Investigation) là gì?",
+        options: [
+          "Kiểm toán nội bộ chỉ làm việc với cảnh sát.",
+          "Kiểm toán nội bộ tập trung đánh giá hệ thống quản trị, rủi ro và kiểm soát định kỳ; còn Kiểm toán điều tra pháp lý tập trung thu thập, bảo quản chuỗi hành trình chứng cứ (Chain of custody) đủ tiêu chuẩn pháp lý để chứng minh hành vi gian lận cụ thể trước Tòa án.",
+          "Kiểm toán điều tra pháp lý không cần bằng chứng.",
+          "Kiểm toán nội bộ có quyền bắt giam nghi phạm."
+        ],
+        correctAnswer: 1,
+        explanation: "Forensic Auditing đòi hỏi kỹ năng chuyên sâu về quy trình tố tụng, bảo toàn chuỗi chứng cứ (Chain of custody) không bị nhiễm bẩn và kỹ thuật phỏng vấn điều tra để hồ sơ có giá trị làm bằng chứng trước tòa án."
+      },
+      {
+        id: 350,
+        domain: "D6",
+        question: "Một quy trình 'Đánh giá Rủi ro Gian lận' (Fraud Risk Assessment) toàn diện của doanh nghiệp nên bao gồm các bước cốt lõi nào sau đây?",
+        options: [
+          "Chỉ kiểm tra nhân viên mới vào làm trong 1 tháng đầu.",
+          "Nhận diện các kịch bản gian lận tiềm tàng (biển thủ, tham nhũng, báo cáo khống, lạm quyền quản lý), đánh giá khả năng xảy ra và mức độ tác động, ánh xạ với các chốt kiểm soát hiện có và thiết lập kế hoạch xử lý các lỗ hổng còn lại.",
+          "Đợi đến khi mất tiền mới bắt đầu đánh giá.",
+          "Chỉ giao cho một mình nhân viên bảo vệ thực hiện."
+        ],
+        correctAnswer: 1,
+        explanation: "Theo COSO (Nguyên tắc 8) và hướng dẫn quản trị rủi ro gian lận, doanh nghiệp phải chủ động nhận diện các kịch bản gian lận cụ thể (kể cả rủi ro Management Override), đánh giá hiệu quả của kiểm soát chống gian lận hiện tại và liên tục cập nhật."
+      }
+    ];
+
+    const LOCAL_STORAGE_KEY = 'CIA_PART1_CUSTOM_QUESTIONS_V1';
+
+    const CIA_DOMAINS = [
+      { id: 'ALL', code: 'Tất cả', name: 'Toàn bộ 6 Chuyên đề CIA Part 1', weight: '100%' },
+      { id: 'D1', code: 'Domain I', name: 'Nền tảng Kiểm toán Nội bộ & Đạo đức (Foundations)', weight: '15%' },
+      { id: 'D2', code: 'Domain II', name: 'Tính Độc lập & Khách quan (Independence & Objectivity)', weight: '15%' },
+      { id: 'D3', code: 'Domain III', name: 'Năng lực & Sự cẩn trọng nghề nghiệp (Proficiency & Due Care)', weight: '15%' },
+      { id: 'D4', code: 'Domain IV', name: 'Đảm bảo & Cải tiến Chất lượng (QAIP)', weight: '7%' },
+      { id: 'D5', code: 'Domain V', name: 'Quản trị, Quản lý Rủi ro & Kiểm soát (GRC)', weight: '38%' },
+      { id: 'D6', code: 'Domain VI', name: 'Rủi ro Gian lận (Fraud Risks)', weight: '10%' }
+    ];
+
+    const getQuestionDomain = (q) => {
+      if (q.domain) return q.domain;
+      return 'D5';
+    };
+
+    function CIAMockExam() {
+      const [customQuestions, setCustomQuestions] = useState(() => {
+        try {
+          const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
+          return saved ? JSON.parse(saved) : [];
+        } catch (e) {
+          return [];
+        }
+      });
+
+      const allQuestions = useMemo(() => {
+        const map = new Map();
+        QUESTIONS.forEach((q) => map.set(q.id, q));
+        customQuestions.forEach((q) => map.set(q.id, q));
+        return Array.from(map.values()).sort((a, b) => a.id - b.id);
+      }, [customQuestions]);
+
+      const [appState, setAppState] = useState('menu');
+      const [activeMode, setActiveMode] = useState(null);
+      const [selectedDomain, setSelectedDomain] = useState('ALL');
+      const [practiceOrder, setPracticeOrder] = useState('sequential');
+      const [examQuestionCount, setExamQuestionCount] = useState(125);
+
+      const [activeQuestions, setActiveQuestions] = useState(allQuestions);
+      const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+      const [userAnswers, setUserAnswers] = useState({});
+      const [practiceAnswer, setPracticeAnswer] = useState(null);
+      const [isPracticeChecked, setIsPracticeChecked] = useState(false);
+      const [showQuestionGrid, setShowQuestionGrid] = useState(false);
+
+      const [searchQuery, setSearchQuery] = useState('');
+      const [inspectDomain, setInspectDomain] = useState('ALL');
+      const [inspectPage, setInspectPage] = useState(1);
+      const [showAllExplanations, setShowAllExplanations] = useState(true);
+      const [expandedIds, setExpandedIds] = useState({});
+
+      const [jsonInputText, setJsonInputText] = useState('');
+      const [jsonStatus, setJsonStatus] = useState({ type: '', message: '' });
+      const [confirmModal, setConfirmModal] = useState({ open: false, message: '', onConfirm: null });
+
+      useEffect(() => {
+        try {
+          localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(customQuestions));
+        } catch (e) {}
+      }, [customQuestions]);
+
+      const domainCounts = allQuestions.reduce((acc, q) => {
+        const d = getQuestionDomain(q);
+        acc[d] = (acc[d] || 0) + 1;
+        acc.ALL = (acc.ALL || 0) + 1;
+        return acc;
+      }, {});
+
+      const getDomainMeta = (domainId) => CIA_DOMAINS.find((d) => d.id === domainId) || CIA_DOMAINS[0];
+
+      const shuffleArray = (array) => {
+        const newArr = [...array];
+        for (let i = newArr.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
+        }
+        return newArr;
+      };
+
+      const handleExportJsonFile = () => {
+        const dataStr = JSON.stringify(allQuestions, null, 2);
+        const blob = new Blob([dataStr], { type: 'application/json;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `cia_part1_questions_${allQuestions.length}_cau.json`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+        setJsonStatus({
+          type: 'success',
+          message: `Đã xuất thành công file JSON gồm ${allQuestions.length} câu hỏi!`
+        });
+      };
+
+      const mergeImportedQuestions = (rawArray) => {
+        if (!Array.isArray(rawArray)) {
+          setJsonStatus({ type: 'error', message: 'Dữ liệu JSON phải là một mảng [ ... ] chứa các câu hỏi.' });
+          return;
+        }
+
+        let maxId = allQuestions.reduce((max, q) => Math.max(max, Number(q.id) || 0), 0);
+        const validNewQuestions = [];
+
+        for (const item of rawArray) {
+          if (
+            item &&
+            typeof item.question === 'string' &&
+            Array.isArray(item.options) &&
+            item.options.length >= 2 &&
+            typeof item.correctAnswer === 'number'
+          ) {
+            const assignedId = item.id ? Number(item.id) : ++maxId;
+            validNewQuestions.push({
+              id: assignedId,
+              domain: item.domain || 'D5',
+              question: item.question.trim(),
+              options: item.options,
+              correctAnswer: item.correctAnswer,
+              explanation: item.explanation || 'Chưa có giải thích chi tiết.'
+            });
+          }
+        }
+
+        if (validNewQuestions.length === 0) {
+          setJsonStatus({
+            type: 'error',
+            message: 'Không tìm thấy câu hỏi hợp lệ. Mỗi câu cần có: question, options (mảng 4 đáp án), correctAnswer (0-3), explanation.'
+          });
+          return;
+        }
+
+        setCustomQuestions((prev) => {
+          const map = new Map();
+          prev.forEach((q) => map.set(q.id, q));
+          validNewQuestions.forEach((q) => map.set(q.id, q));
+          return Array.from(map.values());
+        });
+
+        setJsonInputText('');
+        setJsonStatus({
+          type: 'success',
+          message: `Đã nạp/cập nhật thành công ${validNewQuestions.length} câu hỏi từ JSON! Tổng số câu hiện tại đã được nâng cấp.`
+        });
+      };
+
+      const handleFileUpload = (e) => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          try {
+            const parsed = JSON.parse(event.target.result);
+            mergeImportedQuestions(parsed);
+          } catch (err) {
+            setJsonStatus({ type: 'error', message: `File JSON không đúng định dạng cú pháp: ${err.message}` });
+          }
+        };
+        reader.readAsText(file);
+        e.target.value = '';
+      };
+
+      const handlePasteJsonImport = () => {
+        if (!jsonInputText.trim()) {
+          setJsonStatus({ type: 'error', message: 'Vui lòng dán nội dung JSON vào ô bên dưới trước khi bấm Bổ sung.' });
+          return;
+        }
+        try {
+          const parsed = JSON.parse(jsonInputText);
+          mergeImportedQuestions(Array.isArray(parsed) ? parsed : [parsed]);
+        } catch (err) {
+          setJsonStatus({ type: 'error', message: `Lỗi cú pháp JSON: ${err.message}` });
+        }
+      };
+
+      const handleStart = () => {
+        const pool = selectedDomain === 'ALL'
+          ? allQuestions
+          : allQuestions.filter((q) => getQuestionDomain(q) === selectedDomain);
+
+        if (activeMode === 'practice') {
+          const list = practiceOrder === 'random' ? shuffleArray(pool) : [...pool];
+          setActiveQuestions(list);
+          setPracticeAnswer(null);
+          setIsPracticeChecked(false);
+        } else if (activeMode === 'exam') {
+          const list = examQuestionCount === 125 ? shuffleArray(allQuestions).slice(0, 125) : [...allQuestions];
+          setActiveQuestions(list);
+        }
+        setAppState('quiz');
+        setCurrentQuestionIndex(0);
+        setUserAnswers({});
+        setShowQuestionGrid(false);
+      };
+
+      const renderMenuScreen = () => (
+        <div className="flex flex-col items-center justify-center min-h-screen bg-slate-50 text-slate-800 p-6">
+          <div className="max-w-6xl w-full">
+            <div className="text-center mb-8">
+              <FileText className="w-16 h-16 mx-auto text-blue-600 mb-3" />
+              <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-2">
+                Hệ Thống Ôn Thi CIA Part 1 ({allQuestions.length} Câu Hỏi Toàn Diện)
+              </h1>
+              <p className="text-base sm:text-lg text-slate-600">
+                Bản HTML độc lập chạy trực tiếp trên trình duyệt — Bao phủ 100% <strong>6 Chuyên đề (Domains)</strong> theo chuẩn IIA & <strong>GIAS</strong>.
+              </p>
+              <div className="mt-4 flex flex-wrap justify-center gap-3">
+                <button
+                  onClick={() => { setJsonStatus({ type: '', message: '' }); setAppState('json_manager'); }}
+                  className="inline-flex items-center px-4 py-2 rounded-xl text-sm font-bold bg-amber-500 hover:bg-amber-600 text-white shadow-sm transition-colors"
+                >
+                  <Database className="w-4 h-4 mr-2" />
+                  Quản lý File JSON Câu hỏi (Xuất / Nhập thêm câu hỏi)
+                </button>
+                <button
+                  onClick={handleExportJsonFile}
+                  className="inline-flex items-center px-4 py-2 rounded-xl text-sm font-semibold bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 shadow-xs transition-colors"
+                >
+                  <Download className="w-4 h-4 mr-2 text-blue-600" />
+                  Tải ngay file JSON ({allQuestions.length} câu)
+                </button>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div 
+                onClick={() => { setInspectPage(1); setSearchQuery(''); setInspectDomain('ALL'); setAppState('inspect'); }}
+                className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-7 cursor-pointer border-t-4 border-indigo-600 flex flex-col items-center text-center group"
+              >
+                <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                  <ListChecks className="w-8 h-8 text-indigo-600" />
+                </div>
+                <h2 className="text-xl font-bold text-slate-900 mb-3">Kiểm tra Bộ đề (1 → {allQuestions.length})</h2>
+                <p className="text-slate-600 mb-6 flex-grow leading-relaxed text-sm sm:text-base">
+                  Duyệt và kiểm tra lần lượt toàn bộ <strong>{allQuestions.length} câu hỏi</strong> theo thứ tự hoặc lọc theo từng <strong>Domain (I–VI)</strong> kèm đáp án và giải thích.
+                </p>
+                <span className="text-indigo-600 font-semibold inline-flex items-center">
+                  Duyệt toàn bộ câu hỏi <ChevronRight className="w-5 h-5 ml-1" />
+                </span>
+              </div>
+
+              <div 
+                onClick={() => { setActiveMode('practice'); setSelectedDomain('ALL'); setAppState('start'); }}
+                className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-7 cursor-pointer border-t-4 border-emerald-500 flex flex-col items-center text-center group"
+              >
+                <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                  <BookOpen className="w-8 h-8 text-emerald-600" />
+                </div>
+                <h2 className="text-xl font-bold text-slate-900 mb-3">Luyện tập từng câu</h2>
+                <p className="text-slate-600 mb-6 flex-grow leading-relaxed text-sm sm:text-base">
+                  Luyện tập <strong>toàn bộ {allQuestions.length} câu</strong> hoặc <strong>chọn riêng từng Chuyên đề (Domain)</strong>. Xem đáp án và giải thích ngay sau mỗi câu.
+                </p>
+                <span className="text-emerald-600 font-semibold inline-flex items-center">
+                  Bắt đầu luyện tập <ChevronRight className="w-5 h-5 ml-1" />
+                </span>
+              </div>
+
+              <div 
+                onClick={() => { setActiveMode('exam'); setSelectedDomain('ALL'); setAppState('start'); }}
+                className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-7 cursor-pointer border-t-4 border-blue-600 flex flex-col items-center text-center group"
+              >
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                  <Target className="w-8 h-8 text-blue-600" />
+                </div>
+                <h2 className="text-xl font-bold text-slate-900 mb-3">Thi thử & Chấm điểm</h2>
+                <p className="text-slate-600 mb-6 flex-grow leading-relaxed text-sm sm:text-base">
+                  Mô phỏng đề thi thật (<strong>125 câu chuẩn IIA</strong> hoặc toàn bộ <strong>{allQuestions.length} câu</strong>). Chấm điểm đỗ/trượt và xem giải thích sau khi nộp bài.
+                </p>
+                <span className="text-blue-600 font-semibold inline-flex items-center">
+                  Bắt đầu thi thử <ChevronRight className="w-5 h-5 ml-1" />
+                </span>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+              <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
+                <div>
+                  <h3 className="text-lg font-bold text-slate-900">
+                    Bản Đồ Bao Phủ Kiến Thức CIA Part 1 (Theo 6 Domains Chuẩn IIA)
+                  </h3>
+                  <p className="text-sm text-slate-500">
+                    Nhấn vào bất kỳ chuyên đề nào bên dưới để luyện tập hoặc tra cứu nhanh các câu hỏi thuộc chuyên đề đó:
+                  </p>
+                </div>
+                <span className="text-xs font-bold bg-emerald-100 text-emerald-800 px-3 py-1.5 rounded-full">
+                  Đã bao phủ 100% khung đề cương IIA ({allQuestions.length} câu)
+                </span>
+              </div>
+
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
+                {CIA_DOMAINS.filter((d) => d.id !== 'ALL').map((dom) => {
+                  const count = domainCounts[dom.id] || 0;
+                  const pct = Math.round((count / allQuestions.length) * 100);
+                  return (
+                    <div
+                      key={dom.id}
+                      className="p-4 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-indigo-50/50 hover:border-indigo-300 transition-all flex flex-col justify-between"
+                    >
+                      <div>
+                        <div className="flex items-center justify-between text-xs font-bold mb-1.5">
+                          <span className="text-indigo-700 bg-indigo-100 px-2 py-0.5 rounded">{dom.code}</span>
+                          <span className="text-slate-600">Tỷ trọng IIA: {dom.weight}</span>
+                        </div>
+                        <h4 className="font-semibold text-slate-900 text-sm mb-2 leading-snug">{dom.name}</h4>
+                      </div>
+
+                      <div>
+                        <div className="flex items-center justify-between text-xs text-slate-600 mb-2">
+                          <span>Số lượng: <strong className="text-slate-900">{count} câu</strong> ({pct}%)</span>
+                        </div>
+                        <div className="flex gap-2 pt-2 border-t border-slate-200/80">
+                          <button
+                            onClick={() => {
+                              setActiveMode('practice');
+                              setSelectedDomain(dom.id);
+                              setAppState('start');
+                            }}
+                            className="flex-1 text-xs font-semibold bg-emerald-600 hover:bg-emerald-700 text-white py-1.5 px-2.5 rounded-md transition-colors"
+                          >
+                            Luyện tập ({count})
+                          </button>
+                          <button
+                            onClick={() => {
+                              setInspectDomain(dom.id);
+                              setInspectPage(1);
+                              setSearchQuery('');
+                              setAppState('inspect');
+                            }}
+                            className="flex-1 text-xs font-semibold bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 py-1.5 px-2.5 rounded-md transition-colors"
+                          >
+                            Xem câu hỏi
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+
+      const renderJsonManagerScreen = () => {
+        const sampleJson = JSON.stringify(
+          [
+            {
+              id: allQuestions.length + 1,
+              domain: 'D5',
+              question: 'Nội dung câu hỏi mới của bạn...',
+              options: ['Phương án A', 'Phương án B', 'Phương án C', 'Phương án D'],
+              correctAnswer: 1,
+              explanation: 'Giải thích chi tiết tại sao đáp án B đúng...'
+            }
+          ],
+          null,
+          2
+        );
+
+        return (
+          <div className="min-h-screen bg-slate-100 p-4 sm:p-6 lg:p-8">
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white rounded-2xl shadow-sm p-6 border border-slate-200">
+                <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
+                  <button
+                    onClick={() => setAppState('menu')}
+                    className="inline-flex items-center text-slate-600 hover:text-slate-900 font-medium bg-slate-100 hover:bg-slate-200 px-4 py-2 rounded-lg transition-colors"
+                  >
+                    <Home className="w-4 h-4 mr-2" /> Về Menu Chính
+                  </button>
+                  <span className="text-xs font-bold bg-indigo-100 text-indigo-800 px-3 py-1.5 rounded-full">
+                    Đang có: {QUESTIONS.length} câu gốc + {customQuestions.length} câu JSON bổ sung = {allQuestions.length} câu
+                  </span>
+                </div>
+
+                <h2 className="text-2xl font-bold text-slate-900 mb-2">
+                  Quản Lý Ngân Hàng Câu Hỏi Bằng File JSON Độc Lập
+                </h2>
+                <p className="text-sm text-slate-600 leading-relaxed mb-6">
+                  Bạn có thể xuất toàn bộ câu hỏi ra file <code>.json</code> hoặc nạp thêm các bộ câu hỏi JSON mới vào trình duyệt mà không cần chỉnh sửa file HTML.
+                </p>
+
+                {jsonStatus.message && (
+                  <div
+                    className={`p-4 rounded-xl mb-6 border text-sm font-medium flex items-center gap-2 ${
+                      jsonStatus.type === 'error'
+                        ? 'bg-rose-50 border-rose-300 text-rose-800'
+                        : 'bg-emerald-50 border-emerald-300 text-emerald-800'
+                    }`}
+                  >
+                    {jsonStatus.type === 'error' ? (
+                      <AlertCircle className="w-5 h-5 flex-shrink-0 text-rose-600" />
+                    ) : (
+                      <CheckCircle className="w-5 h-5 flex-shrink-0 text-emerald-600" />
+                    )}
+                    <span>{jsonStatus.message}</span>
+                  </div>
+                )}
+
+                <div className="grid sm:grid-cols-2 gap-4 mb-6">
+                  <div className="p-5 rounded-xl bg-blue-50/70 border border-blue-200 flex flex-col justify-between">
+                    <div>
+                      <h3 className="font-bold text-blue-950 mb-1 flex items-center">
+                        <Download className="w-4 h-4 mr-2 text-blue-600" />
+                        1. Xuất toàn bộ ra File JSON
+                      </h3>
+                      <p className="text-xs text-slate-600 mb-4">
+                        Tải toàn bộ <strong>{allQuestions.length} câu hỏi</strong> hiện tại về máy tính dưới dạng file <code>.json</code>.
+                      </p>
+                    </div>
+                    <button
+                      onClick={handleExportJsonFile}
+                      className="w-full py-2.5 px-4 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition-colors"
+                    >
+                      Tải về cia_part1_questions.json
+                    </button>
+                  </div>
+
+                  <div className="p-5 rounded-xl bg-emerald-50/70 border border-emerald-200 flex flex-col justify-between">
+                    <div>
+                      <h3 className="font-bold text-emerald-950 mb-1 flex items-center">
+                        <Upload className="w-4 h-4 mr-2 text-emerald-600" />
+                        2. Nạp thêm từ File JSON trên máy
+                      </h3>
+                      <p className="text-xs text-slate-600 mb-4">
+                        Chọn file <code>.json</code> từ máy tính của bạn để gộp thêm câu hỏi mới vào bộ đề.
+                      </p>
+                    </div>
+                    <label className="w-full py-2.5 px-4 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm transition-colors text-center cursor-pointer block">
+                      Chọn File .JSON từ máy tính
+                      <input type="file" accept=".json,application/json" onChange={handleFileUpload} className="hidden" />
+                    </label>
+                  </div>
+                </div>
+
+                <div className="p-5 rounded-xl bg-slate-50 border border-slate-200">
+                  <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+                    <h3 className="font-bold text-slate-900 flex items-center text-sm">
+                      <PlusCircle className="w-4 h-4 mr-2 text-indigo-600" />
+                      3. Hoặc dán trực tiếp khối JSON câu hỏi mới vào đây:
+                    </h3>
+                    <button
+                      type="button"
+                      onClick={() => setJsonInputText(sampleJson)}
+                      className="text-xs font-semibold text-indigo-600 hover:text-indigo-800 underline"
+                    >
+                      Điền mẫu JSON ví dụ
+                    </button>
+                  </div>
+                  <textarea
+                    rows={8}
+                    value={jsonInputText}
+                    onChange={(e) => setJsonInputText(e.target.value)}
+                    placeholder={sampleJson}
+                    className="w-full p-3 rounded-lg border border-slate-300 font-mono text-xs bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3"
+                  />
+                  <div className="flex flex-wrap items-center justify-between gap-3">
+                    <button
+                      type="button"
+                      onClick={handlePasteJsonImport}
+                      className="inline-flex items-center px-5 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold transition-colors"
+                    >
+                      <PlusCircle className="w-4 h-4 mr-2" />
+                      Bổ sung JSON vào Ngân hàng đề
+                    </button>
+
+                    {customQuestions.length > 0 && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setCustomQuestions([]);
+                          setJsonStatus({ type: 'success', message: 'Đã xóa các câu bổ sung và khôi phục về 350 câu gốc.' });
+                        }}
+                        className="inline-flex items-center px-4 py-2 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-700 text-xs font-semibold transition-colors"
+                      >
+                        <Trash2 className="w-4 h-4 mr-1.5" />
+                        Xóa {customQuestions.length} câu bổ sung (Về 350 câu gốc)
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      };
+
+      const renderInspectScreen = () => {
+        const ITEMS_PER_PAGE = 25;
+        const filteredQuestions = allQuestions.filter((q) => {
+          if (inspectDomain !== 'ALL' && getQuestionDomain(q) !== inspectDomain) {
+            return false;
+          }
+          if (!searchQuery.trim()) return true;
+          const qLower = searchQuery.toLowerCase();
+          return (
+            String(q.id).includes(qLower) ||
+            q.question.toLowerCase().includes(qLower) ||
+            q.explanation.toLowerCase().includes(qLower) ||
+            q.options.some((opt) => opt.toLowerCase().includes(qLower))
+          );
+        });
+
+        const totalPages = Math.max(1, Math.ceil(filteredQuestions.length / ITEMS_PER_PAGE));
+        const currentPage = Math.min(inspectPage, totalPages);
+        const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
+        const pageQuestions = filteredQuestions.slice(startIdx, startIdx + ITEMS_PER_PAGE);
+
+        return (
+          <div className="min-h-screen bg-slate-100 p-4 sm:p-6 lg:p-8">
+            <div className="max-w-5xl mx-auto space-y-6">
+              <div className="bg-white rounded-xl shadow-sm p-5 border border-slate-200 flex flex-col gap-4">
+                <div className="flex flex-wrap items-center justify-between gap-4">
+                  <button
+                    onClick={() => setAppState('menu')}
+                    className="inline-flex items-center text-slate-600 hover:text-slate-900 font-medium bg-slate-100 hover:bg-slate-200 px-4 py-2 rounded-lg transition-colors"
+                  >
+                    <Home className="w-4 h-4 mr-2" /> Về Menu Chính
+                  </button>
+                  <div className="text-center">
+                    <h1 className="text-xl sm:text-2xl font-bold text-slate-900">
+                      Kiểm Tra Lần Lượt Ngân Hàng Câu Hỏi ({filteredQuestions.length} / {allQuestions.length} Câu)
+                    </h1>
+                  </div>
+                  <button
+                    onClick={() => setShowAllExplanations((prev) => !prev)}
+                    className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold border border-indigo-200 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 transition-colors"
+                  >
+                    {showAllExplanations ? (
+                      <><EyeOff className="w-4 h-4 mr-1.5" /> Ẩn bớt đáp án</>
+                    ) : (
+                      <><Eye className="w-4 h-4 mr-1.5" /> Hiện toàn bộ đáp án</>
+                    )}
+                  </button>
+                </div>
+
+                <div className="flex flex-wrap gap-1.5 pt-2 border-t border-slate-100">
+                  {CIA_DOMAINS.map((dom) => {
+                    const count = domainCounts[dom.id] || 0;
+                    const active = inspectDomain === dom.id;
+                    return (
+                      <button
+                        key={dom.id}
+                        onClick={() => { setInspectDomain(dom.id); setInspectPage(1); }}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
+                          active
+                            ? 'bg-indigo-600 text-white shadow-xs'
+                            : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                        }`}
+                      >
+                        {dom.code}: {dom.id === 'ALL' ? `Tất cả (${count})` : `${dom.name.split('(')[0].trim()} (${count})`}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                <div className="flex flex-col sm:flex-row gap-3 items-center justify-between pt-2 border-t border-slate-100">
+                  <div className="relative w-full sm:w-96">
+                    <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-3" />
+                    <input
+                      type="text"
+                      value={searchQuery}
+                      onChange={(e) => { setSearchQuery(e.target.value); setInspectPage(1); }}
+                      placeholder="Tìm theo số câu, từ khóa (VD: COSO, CoCo, SOC, Benford...)"
+                      className="w-full pl-10 pr-4 py-2 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    />
+                  </div>
+
+                  <div className="flex flex-wrap items-center gap-1.5">
+                    <span className="text-xs font-semibold text-slate-500 mr-1">Nhảy tới cụm câu:</span>
+                    {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => {
+                      const rangeStart = (pageNum - 1) * ITEMS_PER_PAGE + 1;
+                      const rangeEnd = Math.min(pageNum * ITEMS_PER_PAGE, filteredQuestions.length);
+                      return (
+                        <button
+                          key={pageNum}
+                          onClick={() => { setInspectPage(pageNum); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                          className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
+                            currentPage === pageNum
+                              ? 'bg-indigo-600 text-white shadow-sm'
+                              : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                          }`}
+                        >
+                          {rangeStart}–{rangeEnd}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-4">
+                {pageQuestions.map((q) => {
+                  const isVisible = showAllExplanations || expandedIds[q.id];
+                  const letters = ['A', 'B', 'C', 'D'];
+                  const domMeta = getDomainMeta(getQuestionDomain(q));
+                  return (
+                    <div key={q.id} className="bg-white rounded-xl shadow-sm border border-slate-200 p-5 sm:p-6">
+                      <div className="flex items-start justify-between gap-4 mb-4">
+                        <h3 className="text-base sm:text-lg font-semibold text-slate-900 leading-snug">
+                          <span className="inline-block bg-indigo-100 text-indigo-800 font-bold px-2.5 py-0.5 rounded-md mr-2 text-sm">
+                            Câu #{q.id}
+                          </span>
+                          <span className="inline-block bg-slate-100 text-slate-700 font-semibold px-2 py-0.5 rounded-md mr-2 text-xs">
+                            {domMeta.code}
+                          </span>
+                          {q.question}
+                        </h3>
+                        <button
+                          onClick={() =>
+                            setExpandedIds((prev) => ({
+                              ...prev,
+                              [q.id]: !isVisible
+                            }))
+                          }
+                          className="text-xs font-semibold text-indigo-600 hover:text-indigo-800 whitespace-nowrap px-2.5 py-1 rounded bg-indigo-50 hover:bg-indigo-100"
+                        >
+                          {isVisible ? 'Ẩn giải thích' : 'Xem đáp án'}
+                        </button>
+                      </div>
+
+                      <div className="space-y-2 mb-3">
+                        {q.options.map((opt, idx) => {
+                          const isCorrect = idx === q.correctAnswer;
+                          return (
+                            <div
+                              key={idx}
+                              className={`p-3 rounded-lg border text-sm flex items-start ${
+                                isVisible && isCorrect
+                                  ? 'bg-emerald-50 border-emerald-400 text-emerald-950 font-semibold'
+                                  : 'bg-slate-50 border-slate-200 text-slate-700'
+                              }`}
+                            >
+                              <span className="font-bold mr-2">{letters[idx]}.</span>
+                              <span className="flex-1">{opt}</span>
+                              {isVisible && isCorrect && (
+                                <CheckCircle className="w-4 h-4 text-emerald-600 ml-2 flex-shrink-0 mt-0.5" />
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
+
+                      {isVisible && (
+                        <div className="mt-3 p-4 rounded-lg bg-amber-50/80 border border-amber-200 text-sm text-slate-800">
+                          <p className="font-bold text-amber-900 mb-1 flex items-center">
+                            <HelpCircle className="w-4 h-4 mr-1.5 text-amber-700" />
+                            Đáp án đúng: {letters[q.correctAnswer]} — Giải thích:
+                          </p>
+                          <p className="leading-relaxed">{q.explanation}</p>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+
+              {totalPages > 1 && (
+                <div className="flex items-center justify-between bg-white p-4 rounded-xl border border-slate-200">
+                  <button
+                    disabled={currentPage <= 1}
+                    onClick={() => { setInspectPage((p) => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                    className="px-4 py-2 rounded-lg text-sm font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 disabled:opacity-40"
+                  >
+                    Trang trước
+                  </button>
+                  <span className="text-sm font-semibold text-slate-600">
+                    Trang {currentPage} / {totalPages}
+                  </span>
+                  <button
+                    disabled={currentPage >= totalPages}
+                    onClick={() => { setInspectPage((p) => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                    className="px-4 py-2 rounded-lg text-sm font-semibold bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-40"
+                  >
+                    Trang tiếp
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+        );
+      };
+
+      const renderStartScreen = () => (
+        <div className="flex flex-col items-center justify-center min-h-screen bg-slate-50 text-slate-800 p-6">
+          <div className="max-w-xl w-full bg-white rounded-2xl shadow-lg p-8 border border-slate-200 text-center">
+            <button
+              onClick={() => setAppState('menu')}
+              className="inline-flex items-center text-sm text-slate-500 hover:text-slate-800 mb-6"
+            >
+              <ChevronLeft className="w-4 h-4 mr-1" /> Quay lại Menu chính
+            </button>
+
+            <h2 className="text-2xl font-bold text-slate-900 mb-3">
+              {activeMode === 'exam' ? 'Chế độ Thi Thử CIA Part 1' : 'Chế độ Luyện Tập Từng Câu'}
+            </h2>
+
+            <div className="text-slate-600 mb-6 space-y-3">
+              {activeMode === 'exam' ? (
+                <>
+                  <p>Mô phỏng kỳ thi CIA Part 1 thực tế. Kết quả và giải thích chi tiết sẽ hiển thị sau khi bạn nộp bài.</p>
+                  <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 text-left space-y-3 mt-4">
+                    <p className="text-sm font-bold text-slate-700 uppercase">Chọn quy mô đề thi:</p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <button
+                        type="button"
+                        onClick={() => setExamQuestionCount(125)}
+                        className={`p-3 rounded-lg border text-left transition-all text-sm ${
+                          examQuestionCount === 125
+                            ? 'border-blue-600 bg-blue-50 text-blue-900 font-semibold'
+                            : 'border-slate-200 bg-white text-slate-700'
+                        }`}
+                      >
+                        125 câu ngẫu nhiên (Chuẩn đề thi IIA)
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setExamQuestionCount(allQuestions.length)}
+                        className={`p-3 rounded-lg border text-left transition-all text-sm ${
+                          examQuestionCount !== 125
+                            ? 'border-blue-600 bg-blue-50 text-blue-900 font-semibold'
+                            : 'border-slate-200 bg-white text-slate-700'
+                        }`}
+                      >
+                        Toàn bộ {allQuestions.length} câu hỏi
+                      </button>
+                    </div>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <p>Luyện tập và xem ngay đáp án cùng giải thích chi tiết sau từng câu hỏi.</p>
+                  <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 text-left space-y-3 mt-4">
+                    <div>
+                      <p className="text-sm font-bold text-slate-700 uppercase mb-2">1. Chọn Chuyên đề (Domain) muốn ôn:</p>
+                      <select
+                        value={selectedDomain}
+                        onChange={(e) => setSelectedDomain(e.target.value)}
+                        className="w-full p-2.5 rounded-lg border border-slate-300 bg-white text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                      >
+                        {CIA_DOMAINS.map((dom) => (
+                          <option key={dom.id} value={dom.id}>
+                            {dom.code} — {dom.name} ({domainCounts[dom.id] || 0} câu)
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+
+                    <div>
+                      <p className="text-sm font-bold text-slate-700 uppercase mb-2">2. Chọn thứ tự câu hỏi:</p>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <button
+                          type="button"
+                          onClick={() => setPracticeOrder('sequential')}
+                          className={`p-3 rounded-lg border text-left transition-all flex items-center text-sm ${
+                            practiceOrder === 'sequential'
+                              ? 'border-emerald-600 bg-emerald-50 text-emerald-900 font-semibold'
+                              : 'border-slate-200 bg-white text-slate-700'
+                          }`}
+                        >
+                          <ArrowRight className="w-5 h-5 mr-2 flex-shrink-0 text-emerald-600" />
+                          Lần lượt theo thứ tự ({domainCounts[selectedDomain] || 0} câu)
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setPracticeOrder('random')}
+                          className={`p-3 rounded-lg border text-left transition-all flex items-center text-sm ${
+                            practiceOrder === 'random'
+                              ? 'border-emerald-600 bg-emerald-50 text-emerald-900 font-semibold'
+                              : 'border-slate-200 bg-white text-slate-700'
+                          }`}
+                        >
+                          <Shuffle className="w-5 h-5 mr-2 flex-shrink-0 text-emerald-600" />
+                          Xáo trộn ngẫu nhiên ({domainCounts[selectedDomain] || 0} câu)
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+            
+            <button
+              onClick={handleStart}
+              className={`inline-flex items-center px-8 py-3 text-white font-bold rounded-lg transition-colors shadow-md hover:shadow-lg text-lg ${
+                activeMode === 'exam' ? 'bg-blue-600 hover:bg-blue-700' : 'bg-emerald-600 hover:bg-emerald-700'
+              }`}
+            >
+              <Play className="w-6 h-6 mr-2" />
+              {activeMode === 'exam' ? 'Bắt đầu làm bài' : 'Bắt đầu luyện tập'}
+            </button>
+          </div>
+        </div>
+      );
+
+      const renderQuizScreen = () => {
+        const currentQuestion = activeQuestions[currentQuestionIndex] || activeQuestions[0];
+        if (!currentQuestion) return null;
+
+        const totalQ = activeQuestions.length;
+        const letters = ['A', 'B', 'C', 'D'];
+        const domMeta = getDomainMeta(getQuestionDomain(currentQuestion));
+        const selectedOption =
+          activeMode === 'exam' ? userAnswers[currentQuestion.id] : practiceAnswer;
+
+        const handleSelectOption = (idx) => {
+          if (activeMode === 'exam') {
+            setUserAnswers((prev) => ({ ...prev, [currentQuestion.id]: idx }));
+          } else {
+            if (!isPracticeChecked) {
+              setPracticeAnswer(idx);
+            }
+          }
+        };
+
+        const handleNextPractice = () => {
+          if (currentQuestionIndex < totalQ - 1) {
+            setCurrentQuestionIndex((i) => i + 1);
+            setPracticeAnswer(null);
+            setIsPracticeChecked(false);
+          } else {
+            setCurrentQuestionIndex(0);
+            setPracticeAnswer(null);
+            setIsPracticeChecked(false);
+          }
+        };
+
+        const handleSubmitExam = () => {
+          const answeredCount = Object.keys(userAnswers).length;
+          if (answeredCount < totalQ) {
+            setConfirmModal({
+              open: true,
+              message: `Bạn mới trả lời ${answeredCount}/${totalQ} câu hỏi. Bạn có chắc chắn muốn nộp bài ngay không?`,
+              onConfirm: () => {
+                setConfirmModal({ open: false, message: '', onConfirm: null });
+                setAppState('results');
+              }
+            });
+          } else {
+            setAppState('results');
+          }
+        };
+
+        return (
+          <div className="min-h-screen bg-slate-100 p-4 sm:p-6">
+            <div className="max-w-4xl mx-auto space-y-5">
+              <div className="bg-white rounded-xl shadow-sm p-4 border border-slate-200 flex flex-wrap items-center justify-between gap-3">
+                <button
+                  onClick={() => setAppState('menu')}
+                  className="inline-flex items-center text-sm font-medium text-slate-600 hover:text-slate-900 bg-slate-100 px-3 py-1.5 rounded-lg"
+                >
+                  <Home className="w-4 h-4 mr-1.5" /> Menu chính
+                </button>
+
+                <div className="text-sm font-bold text-slate-800">
+                  {activeMode === 'exam' ? 'Chế độ Thi thử' : 'Chế độ Luyện tập'} — Câu {currentQuestionIndex + 1} / {totalQ}
+                </div>
+
+                <button
+                  onClick={() => setShowQuestionGrid((prev) => !prev)}
+                  className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-indigo-50 text-indigo-700 hover:bg-indigo-100"
+                >
+                  {showQuestionGrid ? 'Ẩn danh sách câu' : `Chọn nhanh câu (1–${totalQ})`}
+                </button>
+              </div>
+
+              {showQuestionGrid && (
+                <div className="bg-white rounded-xl shadow-sm p-4 border border-slate-200 max-h-60 overflow-y-auto">
+                  <p className="text-xs font-bold text-slate-500 uppercase mb-2">Nhảy nhanh đến câu hỏi:</p>
+                  <div className="grid grid-cols-8 sm:grid-cols-12 gap-1.5">
+                    {activeQuestions.map((q, idx) => {
+                      const isAnswered = userAnswers[q.id] !== undefined;
+                      const isCurrent = idx === currentQuestionIndex;
+                      return (
+                        <button
+                          key={q.id}
+                          onClick={() => {
+                            setCurrentQuestionIndex(idx);
+                            setPracticeAnswer(null);
+                            setIsPracticeChecked(false);
+                          }}
+                          className={`py-1.5 rounded text-xs font-bold border transition-all ${
+                            isCurrent
+                              ? 'bg-indigo-600 text-white border-indigo-600'
+                              : isAnswered
+                              ? 'bg-emerald-50 text-emerald-800 border-emerald-300'
+                              : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                          }`}
+                        >
+                          {idx + 1}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
+                <div className="flex flex-wrap items-center gap-2 mb-4">
+                  <span className="text-xs font-bold bg-indigo-100 text-indigo-800 px-2.5 py-1 rounded">
+                    Mã câu #{currentQuestion.id}
+                  </span>
+                  <span className="text-xs font-semibold bg-slate-100 text-slate-700 px-2.5 py-1 rounded">
+                    {domMeta.code}: {domMeta.name}
+                  </span>
+                </div>
+
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-6 leading-relaxed">
+                  {currentQuestion.question}
+                </h3>
+
+                <div className="space-y-3">
+                  {currentQuestion.options.map((opt, idx) => {
+                    const isSelected = selectedOption === idx;
+                    const isCorrect = idx === currentQuestion.correctAnswer;
+
+                    let optionStyle = 'border-slate-200 bg-white hover:bg-slate-50 text-slate-800';
+                    if (activeMode === 'practice' && isPracticeChecked) {
+                      if (isCorrect) {
+                        optionStyle = 'border-emerald-500 bg-emerald-50 text-emerald-950 font-semibold';
+                      } else if (isSelected && !isCorrect) {
+                        optionStyle = 'border-rose-500 bg-rose-50 text-rose-950 font-semibold';
+                      }
+                    } else if (isSelected) {
+                      optionStyle = 'border-blue-600 bg-blue-50 text-blue-950 font-semibold';
+                    }
+
+                    return (
+                      <button
+                        key={idx}
+                        type="button"
+                        onClick={() => handleSelectOption(idx)}
+                        className={`w-full text-left p-4 rounded-xl border-2 transition-all flex items-start gap-3 ${optionStyle}`}
+                      >
+                        <span className="font-bold">{letters[idx]}.</span>
+                        <span className="flex-1">{opt}</span>
+                        {activeMode === 'practice' && isPracticeChecked && isCorrect && (
+                          <CheckCircle className="w-5 h-5 text-emerald-600 flex-shrink-0" />
+                        )}
+                        {activeMode === 'practice' && isPracticeChecked && isSelected && !isCorrect && (
+                          <XCircle className="w-5 h-5 text-rose-600 flex-shrink-0" />
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {activeMode === 'practice' && isPracticeChecked && (
+                  <div className="mt-6 p-5 rounded-xl bg-amber-50 border border-amber-200 text-slate-800">
+                    <p className="font-bold text-amber-900 mb-1">
+                      {practiceAnswer === currentQuestion.correctAnswer
+                        ? 'Chính xác!'
+                        : `Chưa đúng. Đáp án đúng là ${letters[currentQuestion.correctAnswer]}.`}
+                    </p>
+                    <p className="text-sm leading-relaxed">{currentQuestion.explanation}</p>
+                  </div>
+                )}
+
+                <div className="mt-8 pt-5 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+                  <button
+                    type="button"
+                    disabled={currentQuestionIndex === 0}
+                    onClick={() => {
+                      setCurrentQuestionIndex((i) => Math.max(0, i - 1));
+                      setPracticeAnswer(null);
+                      setIsPracticeChecked(false);
+                    }}
+                    className="inline-flex items-center px-4 py-2.5 rounded-lg text-sm font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 disabled:opacity-40"
+                  >
+                    <ChevronLeft className="w-4 h-4 mr-1" /> Câu trước
+                  </button>
+
+                  {activeMode === 'practice' ? (
+                    <div className="flex items-center gap-3">
+                      {!isPracticeChecked ? (
+                        <button
+                          type="button"
+                          disabled={practiceAnswer === null}
+                          onClick={() => setIsPracticeChecked(true)}
+                          className="inline-flex items-center px-6 py-2.5 rounded-lg text-sm font-bold bg-emerald-600 text-white hover:bg-emerald-700 disabled:opacity-40"
+                        >
+                          Kiểm tra đáp án
+                        </button>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={handleNextPractice}
+                          className="inline-flex items-center px-6 py-2.5 rounded-lg text-sm font-bold bg-blue-600 text-white hover:bg-blue-700"
+                        >
+                          Câu tiếp theo <ChevronRight className="w-4 h-4 ml-1" />
+                        </button>
+                      )}
+                    </div>
+                  ) : (
+                    <div className="flex items-center gap-3">
+                      {currentQuestionIndex < totalQ - 1 && (
+                        <button
+                          type="button"
+                          onClick={() => setCurrentQuestionIndex((i) => Math.min(totalQ - 1, i + 1))}
+                          className="inline-flex items-center px-5 py-2.5 rounded-lg text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700"
+                        >
+                          Câu tiếp theo <ChevronRight className="w-4 h-4 ml-1" />
+                        </button>
+                      )}
+                      <button
+                        type="button"
+                        onClick={handleSubmitExam}
+                        className="inline-flex items-center px-5 py-2.5 rounded-lg text-sm font-bold bg-emerald-600 text-white hover:bg-emerald-700"
+                      >
+                        Nộp bài & Chấm điểm
+                      </button>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+
+            {confirmModal.open && (
+              <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+                <div className="bg-white rounded-2xl max-w-md w-full p-6 shadow-xl">
+                  <div className="flex items-center gap-3 text-amber-600 mb-3">
+                    <AlertCircle className="w-6 h-6" />
+                    <h4 className="text-lg font-bold text-slate-900">Xác nhận nộp bài</h4>
+                  </div>
+                  <p className="text-sm text-slate-600 mb-6">{confirmModal.message}</p>
+                  <div className="flex justify-end gap-3">
+                    <button
+                      onClick={() => setConfirmModal({ open: false, message: '', onConfirm: null })}
+                      className="px-4 py-2 rounded-lg text-sm font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200"
+                    >
+                      Làm tiếp
+                    </button>
+                    <button
+                      onClick={confirmModal.onConfirm}
+                      className="px-4 py-2 rounded-lg text-sm font-bold bg-emerald-600 text-white hover:bg-emerald-700"
+                    >
+                      Nộp bài ngay
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        );
+      };
+
+      const renderResultsScreen = () => {
+        const totalQ = activeQuestions.length;
+        const correctCount = activeQuestions.reduce(
+          (acc, q) => acc + (userAnswers[q.id] === q.correctAnswer ? 1 : 0),
+          0
+        );
+        const percentage = Math.round((correctCount / totalQ) * 100);
+        const scaledScore = Math.round(250 + (correctCount / totalQ) * 500);
+        const isPassed = scaledScore >= 600;
+        const letters = ['A', 'B', 'C', 'D'];
+
+        return (
+          <div className="min-h-screen bg-slate-100 p-4 sm:p-6 lg:p-8">
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white rounded-2xl shadow-md p-6 sm:p-8 border border-slate-200 text-center">
+                <Award className={`w-16 h-16 mx-auto mb-3 ${isPassed ? 'text-emerald-600' : 'text-amber-500'}`} />
+                <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">
+                  Kết Quả Bài Thi Thử CIA Part 1
+                </h2>
+                <p className="text-slate-600 mb-6">
+                  Điểm quy đổi chuẩn IIA: <strong>{scaledScore} / 750</strong> (Cần 600 điểm để Đạt)
+                </p>
+
+                <div className="grid grid-cols-3 gap-4 max-w-lg mx-auto mb-6">
+                  <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                    <div className="text-xs text-slate-500">Số câu đúng</div>
+                    <div className="text-xl font-bold text-slate-900">{correctCount} / {totalQ}</div>
+                  </div>
+                  <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                    <div className="text-xs text-slate-500">Tỷ lệ đúng</div>
+                    <div className="text-xl font-bold text-slate-900">{percentage}%</div>
+                  </div>
+                  <div className={`p-4 rounded-xl border ${isPassed ? 'bg-emerald-50 border-emerald-300 text-emerald-900' : 'bg-rose-50 border-rose-300 text-rose-900'}`}>
+                    <div className="text-xs">Kết quả</div>
+                    <div className="text-xl font-bold">{isPassed ? 'ĐẠT (PASS)' : 'CHƯA ĐẠT'}</div>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap justify-center gap-3">
+                  <button
+                    onClick={handleStart}
+                    className="inline-flex items-center px-6 py-2.5 rounded-lg text-sm font-bold bg-blue-600 text-white hover:bg-blue-700"
+                  >
+                    <RotateCcw className="w-4 h-4 mr-2" /> Thi lại đề mới
+                  </button>
+                  <button
+                    onClick={() => setAppState('menu')}
+                    className="inline-flex items-center px-6 py-2.5 rounded-lg text-sm font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200"
+                  >
+                    <Home className="w-4 h-4 mr-2" /> Về Menu chính
+                  </button>
+                </div>
+              </div>
+
+              <div className="space-y-4">
+                <h3 className="text-lg font-bold text-slate-900">Chi tiết đáp án & giải thích:</h3>
+                {activeQuestions.map((q, idx) => {
+                  const userAns = userAnswers[q.id];
+                  const isCorrect = userAns === q.correctAnswer;
+                  return (
+                    <div key={q.id} className="bg-white rounded-xl p-5 border border-slate-200 shadow-xs">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className={`text-xs font-bold px-2.5 py-0.5 rounded ${isCorrect ? 'bg-emerald-100 text-emerald-800' : 'bg-rose-100 text-rose-800'}`}>
+                          Câu {idx + 1} (#{q.id}) — {isCorrect ? 'Đúng' : 'Sai / Chưa làm'}
+                        </span>
+                      </div>
+                      <p className="font-semibold text-slate-900 mb-3">{q.question}</p>
+                      <p className="text-sm text-slate-700 mb-1">
+                        <strong>Bạn chọn:</strong>{' '}
+                        {userAns !== undefined ? `${letters[userAns]}. ${q.options[userAns]}` : 'Chưa trả lời'}
+                      </p>
+                      <p className="text-sm text-emerald-700 font-semibold mb-3">
+                        <strong>Đáp án đúng:</strong> {letters[q.correctAnswer]}. {q.options[q.correctAnswer]}
+                      </p>
+                      <div className="p-3 rounded-lg bg-amber-50 border border-amber-200 text-xs sm:text-sm text-slate-800">
+                        <strong>Giải thích:</strong> {q.explanation}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        );
+      };
+
+      if (appState === 'menu') return renderMenuScreen();
+      if (appState === 'json_manager') return renderJsonManagerScreen();
+      if (appState === 'inspect') return renderInspectScreen();
+      if (appState === 'start') return renderStartScreen();
+      if (appState === 'quiz') return renderQuizScreen();
+      if (appState === 'results') return renderResultsScreen();
+      return null;
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<CIAMockExam />);
+  </script>
+</body>
+</html>

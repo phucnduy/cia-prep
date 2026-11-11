@@ -1,0 +1,53 @@
+{
+  "id": "p2",
+  "code": "Part 2",
+  "title": "Internal Audit Engagement",
+  "titleVi": "Thực hiện Cuộc kiểm toán",
+  "questionCount": 100,
+  "minutes": 120,
+  "status": "draft",
+  "summary": "Lập kế hoạch cuộc kiểm toán, thu thập - phân tích - đánh giá thông tin, giám sát và trao đổi trong cuộc kiểm toán.",
+  "sections": [
+    {
+      "id": "A",
+      "name": "Engagement Planning",
+      "nameVi": "Lập kế hoạch Cuộc kiểm toán",
+      "weight": 50,
+      "topics": [
+        { "id": "A1", "en": "Engagement objectives and scope", "vi": "Mục tiêu và phạm vi cuộc kiểm toán" },
+        { "id": "A2", "en": "Evaluation criteria", "vi": "Tiêu chí đánh giá" },
+        { "id": "A3", "en": "Planning to assess key risks and controls", "vi": "Lập kế hoạch đánh giá rủi ro và kiểm soát chính" },
+        { "id": "A4", "en": "Engagement approach", "vi": "Phương pháp tiếp cận cuộc kiểm toán" },
+        { "id": "A5", "en": "Detailed risk assessment of each activity", "vi": "Đánh giá rủi ro chi tiết từng hoạt động" },
+        { "id": "A6", "en": "Engagement procedures and work program", "vi": "Thủ tục kiểm toán và chương trình làm việc" },
+        { "id": "A7", "en": "Resources and skills needed", "vi": "Nguồn lực và kỹ năng cần thiết" }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Information Gathering, Analysis, and Evaluation",
+      "nameVi": "Thu thập, Phân tích và Đánh giá Thông tin",
+      "weight": 40,
+      "topics": [
+        { "id": "B1", "en": "Sources of information", "vi": "Nguồn thông tin" },
+        { "id": "B2", "en": "Relevance, sufficiency and reliability of evidence", "vi": "Tính phù hợp, đầy đủ, đáng tin cậy của bằng chứng" },
+        { "id": "B3", "en": "Technology options (data analytics, CAATs)", "vi": "Công nghệ hỗ trợ (phân tích dữ liệu, CAATs)" },
+        { "id": "B4", "en": "Analytical approaches and process mapping", "vi": "Phương pháp phân tích và lưu đồ quy trình" },
+        { "id": "B5", "en": "Analytical review techniques", "vi": "Kỹ thuật phân tích soát xét" },
+        { "id": "B6", "en": "Criteria vs. condition (findings)", "vi": "Chênh lệch giữa tiêu chí và thực trạng (phát hiện)" },
+        { "id": "B7", "en": "Workpapers", "vi": "Hồ sơ làm việc" },
+        { "id": "B8", "en": "Engagement conclusions", "vi": "Kết luận cuộc kiểm toán" }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Engagement Supervision and Communication",
+      "nameVi": "Giám sát và Trao đổi trong Cuộc kiểm toán",
+      "weight": 10,
+      "topics": [
+        { "id": "C1", "en": "Engagement supervision", "vi": "Giám sát cuộc kiểm toán" },
+        { "id": "C2", "en": "Communication with stakeholders during the engagement", "vi": "Trao đổi với các bên liên quan trong cuộc kiểm toán" }
+      ]
+    }
+  ]
+}

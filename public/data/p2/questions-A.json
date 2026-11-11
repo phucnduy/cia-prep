@@ -1,0 +1,117 @@
+[
+  {
+    "id": "P2-A-001",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Theo GIAS 13.3, khi xác định mục tiêu và phạm vi cuộc kiểm toán, kiểm toán viên phải dựa chủ yếu vào điều gì?",
+    "options": [
+      "Kết quả đánh giá rủi ro của hoạt động được kiểm toán.",
+      "Danh sách thủ tục chuẩn trong chương trình kiểm toán năm trước.",
+      "Mong muốn của trưởng đơn vị được kiểm toán về phạm vi kiểm tra.",
+      "Số ngày công kiểm toán còn lại trong ngân sách của phòng."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 13.3: mục tiêu cuộc kiểm toán phản ánh kết quả đánh giá rủi ro (GIAS 13.2), và phạm vi phải đủ để đạt mục tiêu. Chương trình cũ, ý kiến đơn vị hay ngân sách là yếu tố tham khảo, không phải căn cứ chính.",
+    "refs": [
+      "GIAS 13.2",
+      "GIAS 13.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-002",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Ban điều hành chưa có tiêu chí rõ ràng để đánh giá hiệu quả quy trình tuyển dụng. Theo GIAS 13.4, kiểm toán viên nên làm gì?",
+    "options": [
+      "Dùng tiêu chí của tổ chức khác mà không cần trao đổi.",
+      "Tạm dừng cuộc kiểm toán cho đến khi Ban điều hành ban hành tiêu chí.",
+      "Xác định tiêu chí phù hợp (ví dụ thông lệ ngành) và thống nhất với Ban điều hành.",
+      "Kết luận quy trình không hiệu quả vì thiếu tiêu chí."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.4: nếu tiêu chí của Ban điều hành không có hoặc không đầy đủ, kiểm toán viên xác định tiêu chí phù hợp (chuẩn mực ngành, thông lệ tốt, quy định) và trao đổi để thống nhất với Ban điều hành, HĐQT khi cần.",
+    "refs": [
+      "GIAS 13.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-003",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Trong giai đoạn lập kế hoạch, công cụ nào giúp kiểm toán viên liên kết rủi ro của quy trình với kiểm soát hiện có để xác định khoảng trống?",
+    "options": [
+      "Biểu đồ Gantt của tiến độ cuộc kiểm toán.",
+      "Ma trận rủi ro và kiểm soát (RCM).",
+      "Bảng cân đối số phát sinh của kỳ kiểm toán.",
+      "Biên bản họp kết thúc của cuộc kiểm toán năm trước."
+    ],
+    "answer": 1,
+    "explanation": "Ma trận rủi ro và kiểm soát (risk and control matrix) ánh xạ mục tiêu, rủi ro, kiểm soát chính và thủ tục kiểm tra. Đây là kết quả trọng tâm của đánh giá rủi ro cuộc kiểm toán (GIAS 13.2).",
+    "refs": [
+      "GIAS 13.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-004",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Theo GIAS 13.6, chương trình làm việc (work program) của cuộc kiểm toán phải được xử lý như thế nào?",
+    "options": [
+      "Lập sau khi hoàn thành thực địa để phản ánh đúng công việc đã làm.",
+      "Gửi đơn vị được kiểm toán phê duyệt trước khi bắt đầu thực địa.",
+      "Giữ nguyên trong suốt cuộc kiểm toán, không được điều chỉnh.",
+      "Lập thành văn bản, phê duyệt trước; điều chỉnh được phê duyệt kịp thời."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.6: chương trình làm việc nêu các thủ tục để đạt mục tiêu, phải được lập bằng văn bản và phê duyệt trước khi thực hiện; các điều chỉnh phải được phê duyệt kịp thời. Đơn vị được kiểm toán không phê duyệt chương trình.",
+    "refs": [
+      "GIAS 13.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-005",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 1,
+    "stem": "Khi nhóm kiểm toán thiếu kỹ năng phân tích dữ liệu lớn cần thiết cho cuộc kiểm toán, cách xử lý phù hợp theo GIAS 13.5 là gì?",
+    "options": [
+      "Bổ sung nguồn lực có kỹ năng phù hợp, kể cả chuyên gia bên ngoài.",
+      "Bỏ các thủ tục phân tích dữ liệu khỏi chương trình làm việc.",
+      "Yêu cầu đơn vị được kiểm toán tự phân tích và gửi kết quả.",
+      "Kéo dài thời gian kiểm toán để nhóm tự học trong quá trình làm."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 13.5: CAE và người phụ trách phải xác định nguồn lực phù hợp, đủ (số lượng, kỹ năng). Nếu thiếu, có thể dùng chuyên gia nội bộ khác hoặc bên ngoài. Giảm thủ tục làm yếu phạm vi; để đơn vị tự phân tích mất khách quan.",
+    "refs": [
+      "GIAS 13.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-006",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 3,
+    "stem": "Trong cuộc kiểm toán quy trình bán hàng có 2 triệu giao dịch, cách tiếp cận nào cho mức đảm bảo cao nhất về việc chiết khấu vượt hạn mức?",
+    "options": [
+      "Phỏng vấn trưởng phòng kinh doanh về chính sách và hạn mức chiết khấu.",
+      "Chọn mẫu ngẫu nhiên 25 giao dịch để kiểm tra chữ ký phê duyệt.",
+      "Phân tích toàn bộ giao dịch để lọc chiết khấu vượt hạn mức.",
+      "Rà soát báo cáo chiết khấu tổng hợp hằng tháng của phòng kế toán."
+    ],
+    "answer": 2,
+    "explanation": "Phân tích 100% tổng thể bằng công cụ dữ liệu cho phép xác định mọi ngoại lệ so với quy tắc hạn mức, nên cho mức đảm bảo cao hơn chọn mẫu. Phỏng vấn và rà soát báo cáo tổng hợp chỉ là bằng chứng gián tiếp.",
+    "refs": [
+      "GIAS 14.1"
+    ],
+    "source": "original"
+  }
+]

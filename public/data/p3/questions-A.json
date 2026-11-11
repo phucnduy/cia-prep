@@ -1,0 +1,79 @@
+[
+  {
+    "id": "P3-A-001",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Theo GIAS 9.2, chiến lược kiểm toán nội bộ cần những thành phần nào?",
+    "options": [
+      "Danh sách các cuộc kiểm toán và lịch thực hiện trong năm tới.",
+      "Tầm nhìn, mục tiêu, sáng kiến gắn với chiến lược tổ chức.",
+      "Ngân sách chi tiết theo từng tháng của phòng kiểm toán nội bộ.",
+      "Bản mô tả công việc và KPI của từng kiểm toán viên trong phòng."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 9.2: CAE xây dựng và thực hiện chiến lược kiểm toán nội bộ gồm tầm nhìn, mục tiêu chiến lược và sáng kiến hỗ trợ, phù hợp với chiến lược tổ chức và kỳ vọng của các bên liên quan, được trao đổi với HĐQT.",
+    "refs": [
+      "GIAS 9.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-002",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Theo GIAS 10.3, CAE có trách nhiệm gì đối với nguồn lực công nghệ của chức năng kiểm toán nội bộ?",
+    "options": [
+      "Tự phát triển phần mềm kiểm toán riêng thay vì dùng giải pháp sẵn có.",
+      "Dùng chung hệ thống CNTT của các phòng ban để giảm chi phí.",
+      "Bảo đảm có công nghệ phù hợp và đào tạo sử dụng hiệu quả.",
+      "Chuyển toàn bộ trách nhiệm công nghệ cho phòng CNTT của tổ chức."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 10.3: CAE phải nỗ lực bảo đảm chức năng kiểm toán có công nghệ hỗ trợ quy trình (quản lý hồ sơ, phân tích dữ liệu...), đào tạo nhân sự sử dụng hiệu quả, và trao đổi với HĐQT nếu hạn chế công nghệ ảnh hưởng đến mandate.",
+    "refs": [
+      "GIAS 10.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-003",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "CAE muốn hiểu kỳ vọng của các bên liên quan để điều chỉnh chiến lược kiểm toán. Cách làm nào phù hợp nhất?",
+    "options": [
+      "Phỏng vấn, khảo sát HĐQT và Ban điều hành, xem xét chiến lược và rủi ro của tổ chức.",
+      "Sao chép chiến lược của chức năng kiểm toán ở doanh nghiệp cùng ngành.",
+      "Chỉ dựa trên ý kiến của nhân viên trong phòng kiểm toán.",
+      "Chờ HĐQT yêu cầu thay đổi rồi mới điều chỉnh."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 9.2 và 11.1: CAE tìm hiểu kỳ vọng của các bên liên quan thông qua trao đổi, khảo sát, và hiểu biết về chiến lược, rủi ro tổ chức; sau đó gắn chiến lược kiểm toán với các kỳ vọng đó.",
+    "refs": [
+      "GIAS 9.2",
+      "GIAS 11.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-004",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 1,
+    "stem": "GIAS 11.1 yêu cầu CAE xây dựng quan hệ với các bên liên quan nhằm mục đích chính nào?",
+    "options": [
+      "Để các bên liên quan duyệt trước nội dung báo cáo kiểm toán.",
+      "Để giảm số phát hiện phải báo cáo lên HĐQT mỗi quý.",
+      "Để thay thế các cuộc họp chính thức với Ủy ban Kiểm toán.",
+      "Để xây dựng lòng tin và trao đổi hiệu quả về rủi ro."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 11.1: CAE phát triển quan hệ, tin cậy với các bên liên quan (HĐQT, Ban điều hành, cơ quan quản lý, kiểm toán độc lập) để hiểu nhu cầu và trao đổi hiệu quả. Quan hệ tốt không được làm suy giảm độc lập.",
+    "refs": [
+      "GIAS 11.1"
+    ],
+    "source": "original"
+  }
+]
