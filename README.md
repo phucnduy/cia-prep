@@ -18,9 +18,9 @@ Nguồn: [CIA Exam: Why and How It's Changing (IIA)](https://www.theiia.org/glob
 
 | Phần | Câu hỏi | Bài học | Thẻ kiến thức | Trạng thái |
 |---|---|---|---|---|
-| Part 1 | 193 (56 câu khó dạng tình huống) | 27/27 chủ đề, bài chi tiết (khoảng 950 từ/bài, ví dụ, bảng so sánh, tự kiểm tra) | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
-| Part 2 | 15 | 17/17 chủ đề | 5 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
-| Part 3 | 19 | 18/18 chủ đề | 11 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
+| Part 1 | 193 (phần lớn dạng tình huống; 56 câu khó) | 27/27 chủ đề, bài chi tiết (khoảng 950 từ/bài, ví dụ, bảng so sánh, tự kiểm tra) | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
+| Part 2 | 23 (8 câu khó) | 17/17 chủ đề | 5 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
+| Part 3 | 26 (7 câu khó) | 18/18 chủ đề | 11 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
 
 Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành `"ready"` trong `public/data/<part>/manifest.json`.
 

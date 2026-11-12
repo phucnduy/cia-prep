@@ -97,5 +97,31 @@
       "Sai. Tự đánh giá cần xác nhận độc lập từ bên ngoài.",
       "Đúng. GIAS 8.4: ít nhất 5 năm một lần, người đánh giá độc lập, có năng lực, ít nhất một người có CIA."
     ]
+  },
+  {
+    "id": "P3-C-H01",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Chức năng kiểm toán nội bộ đã 7 năm chưa có đánh giá chất lượng từ bên ngoài vì thiếu ngân sách, nhưng báo cáo năm vẫn ghi 'tuân thủ Chuẩn mực Kiểm toán Nội bộ Toàn cầu'. CAE cần làm gì?",
+    "options": [
+      "Giữ nguyên tuyên bố, vì tự đánh giá nội bộ hằng năm đều cho kết quả tốt.",
+      "Bỏ tuyên bố khỏi báo cáo năm, không cần thông báo thêm cho ai để tránh gây lo ngại.",
+      "Công bố cho HĐQT và Ban điều hành việc không tuân thủ và tác động của nó.",
+      "Chờ có ngân sách thực hiện đánh giá bên ngoài rồi mới xem xét lại tuyên bố."
+    ],
+    "answer": 2,
+    "explanation": "Đánh giá bên ngoài phải thực hiện ít nhất năm năm một lần (GIAS 8.4). Nếu việc không tuân thủ ảnh hưởng đến phạm vi hoặc hoạt động tổng thể của chức năng, CAE phải công bố cho HĐQT và Ban điều hành việc không tuân thủ và tác động của nó (GIAS 12.1).",
+    "optionNotes": [
+      "Sai. Tự đánh giá nội bộ không thay thế yêu cầu đánh giá bên ngoài.",
+      "Sai. Lặng lẽ bỏ tuyên bố không đáp ứng yêu cầu công bố.",
+      "Đúng. Đúng yêu cầu công bố việc không tuân thủ ở cấp chức năng.",
+      "Sai. Tiếp tục tuyên bố sai trong lúc chờ là trình bày gây hiểu nhầm."
+    ],
+    "refs": [
+      "GIAS 8.4",
+      "GIAS 12.1"
+    ],
+    "source": "original"
   }
 ]

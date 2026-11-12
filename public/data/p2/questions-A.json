@@ -149,5 +149,107 @@
       "Đúng. Phân tích 100% giao dịch tìm được mọi ngoại lệ so với hạn mức.",
       "Sai. Báo cáo tổng hợp có thể che khuất từng giao dịch vượt hạn mức."
     ]
+  },
+  {
+    "id": "P2-A-H01",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Giữa cuộc kiểm toán quy trình trả lương, Giám đốc nhân sự từ chối cung cấp dữ liệu lương chi tiết của khối quản lý, chỉ cho xem số tổng hợp, viện lý do 'bảo mật'. Kiểm toán viên nên làm gì trước tiên?",
+    "options": [
+      "Thu hẹp phạm vi sang khối nhân viên và kết luận dựa trên phần dữ liệu đã được cung cấp.",
+      "Trao đổi với Ban điều hành về giới hạn phạm vi này nhằm tìm cách giải quyết.",
+      "Báo cáo ngay cho HĐQT về việc Giám đốc nhân sự cản trở hoạt động kiểm toán.",
+      "Dừng cuộc kiểm toán và đưa quy trình trả lương sang kế hoạch kiểm toán năm sau."
+    ],
+    "answer": 1,
+    "explanation": "Giới hạn phạm vi (ví dụ hạn chế truy cập dữ liệu) phải được trao đổi với Ban điều hành khi phát hiện, với mục tiêu giải quyết (GIAS 13.3). Nếu không giải quyết được, báo cáo cuối cùng phải giải thích giới hạn phạm vi (GIAS 15.1), và CAE xem xét báo cáo lên cấp cao hơn.",
+    "optionNotes": [
+      "Sai. Tự thu hẹp phạm vi mà không trao đổi để lại khoảng trống ở khu vực rủi ro cao nhất.",
+      "Đúng. Bước đầu tiên chuẩn mực yêu cầu là trao đổi với Ban điều hành để giải quyết.",
+      "Sai. Báo cáo HĐQT ngay là bỏ qua bước trao đổi với Ban điều hành.",
+      "Sai. Dừng kiểm toán không giải quyết giới hạn và làm chậm đảm bảo."
+    ],
+    "refs": [
+      "GIAS 13.3",
+      "GIAS 15.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-H02",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Quy định của Ngân hàng Nhà nước yêu cầu cuộc kiểm toán hằng năm về phòng chống rửa tiền phải đánh giá việc báo cáo giao dịch đáng ngờ. Đánh giá rủi ro của nhóm xếp nội dung này 'thấp', nên trưởng nhóm đề xuất bỏ khỏi mục tiêu năm nay. Nhận định nào đúng?",
+    "options": [
+      "Được bỏ, vì mục tiêu cuộc kiểm toán phải dựa trên kết quả đánh giá rủi ro của nhóm.",
+      "Được bỏ, nếu CAE phê duyệt và ghi nhận lý do trong hồ sơ lập kế hoạch.",
+      "Không được bỏ, vì mục tiêu phải bao gồm cả các mục tiêu do pháp luật, quy định yêu cầu.",
+      "Không được bỏ, vì mọi nội dung đã kiểm toán năm trước đều phải được kiểm toán lại."
+    ],
+    "answer": 2,
+    "explanation": "Mục tiêu cuộc kiểm toán phải nêu rõ mục đích và các mục tiêu cụ thể, bao gồm những mục tiêu do luật và/hoặc quy định yêu cầu (GIAS 13.3). Đánh giá rủi ro giúp xác định trọng tâm, nhưng không thay thế được yêu cầu pháp lý.",
+    "optionNotes": [
+      "Sai. Đánh giá rủi ro không loại bỏ được nội dung bắt buộc theo quy định.",
+      "Sai. CAE phê duyệt không miễn yêu cầu pháp lý.",
+      "Đúng. Mục tiêu bắt buộc theo quy định phải nằm trong cuộc kiểm toán.",
+      "Sai. Không có yêu cầu kiểm toán lại mọi nội dung năm trước."
+    ],
+    "refs": [
+      "GIAS 13.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-H03",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Trong cuộc tư vấn thiết kế quy trình onboarding khách hàng, kiểm toán nội bộ và Giám đốc khối thống nhất bằng văn bản phạm vi và cách làm, không lập đánh giá rủi ro chính thức. Người rà soát chất lượng ghi nhận đây là 'không tuân thủ Chuẩn mực'. Đánh giá nào đúng?",
+    "options": [
+      "Ghi nhận đúng, vì mọi cuộc kiểm toán đều phải có đánh giá rủi ro chính thức bằng văn bản.",
+      "Ghi nhận đúng, vì thỏa thuận với khách hàng tư vấn không thể thay đổi yêu cầu của Chuẩn mực.",
+      "Ghi nhận sai, vì dịch vụ tư vấn không phải tuân thủ bất kỳ yêu cầu nào của Chuẩn mực.",
+      "Ghi nhận sai, vì với tư vấn, đánh giá rủi ro chính thức có thể không cần, tùy thỏa thuận."
+    ],
+    "answer": 3,
+    "explanation": "Với dịch vụ tư vấn, đánh giá rủi ro chính thức, bằng văn bản có thể không cần thiết, tùy thỏa thuận với các bên liên quan (GIAS 13.2). Kiểm toán viên vẫn phải hiểu hoạt động được xem xét. Đây là chỗ Chuẩn mực cố ý phân biệt tư vấn với đảm bảo.",
+    "optionNotes": [
+      "Sai. Yêu cầu đánh giá rủi ro chính thức không áp dụng giống nhau cho tư vấn.",
+      "Sai. Chính chuẩn mực cho phép điều chỉnh theo thỏa thuận đối với tư vấn.",
+      "Sai. Quá tuyệt đối: tư vấn vẫn phải tuân thủ Chuẩn mực, chỉ một số yêu cầu được linh hoạt.",
+      "Đúng. Chuẩn mực cho phép bỏ đánh giá rủi ro chính thức với tư vấn tùy thỏa thuận."
+    ],
+    "refs": [
+      "GIAS 13.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-H04",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Đơn vị được kiểm toán vừa hoàn thành bộ tự đánh giá rủi ro và kiểm soát (RCSA), xếp mọi rủi ro ở mức 'thấp'. Để tiết kiệm thời gian, trưởng nhóm đề xuất lấy nguyên kết quả RCSA làm đánh giá rủi ro của cuộc kiểm toán. Cách làm phù hợp nhất là gì?",
+    "options": [
+      "Dùng RCSA làm thông tin đầu vào, nhưng tự hiểu hoạt động và đánh giá lại độ tin cậy của nó.",
+      "Dùng nguyên kết quả RCSA, vì đơn vị hiểu rủi ro của mình rõ hơn kiểm toán viên.",
+      "Bỏ qua hoàn toàn RCSA, vì đây là tài liệu do chính đơn vị được kiểm toán lập ra.",
+      "Dùng RCSA nếu Giám đốc đơn vị ký xác nhận chịu trách nhiệm về kết quả đánh giá."
+    ],
+    "answer": 0,
+    "explanation": "Kiểm toán viên phải tự hiểu hoạt động được xem xét để đánh giá các rủi ro liên quan, dựa trên thông tin đáng tin cậy, phù hợp và đầy đủ (GIAS 13.2), và dùng hoài nghi nghề nghiệp để đánh giá độ tin cậy của thông tin (GIAS 4.3, 14.1). RCSA là đầu vào hữu ích, nhưng việc mọi rủi ro đều 'thấp' là dấu hiệu cần xem xét kỹ.",
+    "optionNotes": [
+      "Đúng. Tận dụng RCSA nhưng vẫn đánh giá độc lập và phê phán.",
+      "Sai. Dùng nguyên kết quả là thiếu hoài nghi và không tự hiểu rủi ro.",
+      "Sai. Bỏ qua hoàn toàn lãng phí thông tin hữu ích; cần đánh giá, không loại bỏ.",
+      "Sai. Chữ ký xác nhận không làm thông tin đáng tin cậy hơn."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "GIAS 4.3"
+    ],
+    "source": "original"
   }
 ]

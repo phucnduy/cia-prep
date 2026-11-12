@@ -98,5 +98,80 @@
       "Sai. Thay đổi đáng kể phải được HĐQT phê duyệt, không chỉ báo cáo cuối năm.",
       "Sai. Tổng Giám đốc không có thẩm quyền phê duyệt kế hoạch kiểm toán."
     ]
+  },
+  {
+    "id": "P3-B-H01",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Do thiếu nhân sự CNTT, kế hoạch kiểm toán năm không có cuộc đảm bảo nào về an ninh mạng, dù đánh giá rủi ro xếp an ninh mạng vào nhóm rủi ro cao nhất. CAE cần làm gì khi trình kế hoạch?",
+    "options": [
+      "Không cần nêu, vì kế hoạch chỉ trình bày những cuộc kiểm toán sẽ được thực hiện.",
+      "Ghi chú trong hồ sơ nội bộ của chức năng để lần tự đánh giá chất lượng xem xét.",
+      "Đề nghị bộ phận CNTT tự đánh giá an ninh mạng và đưa kết quả đó vào kế hoạch.",
+      "Trao đổi với HĐQT và Ban điều hành lý do không đưa vào và tác động của thiếu nguồn lực."
+    ],
+    "answer": 3,
+    "explanation": "Khi trao đổi kế hoạch, CAE phải nêu tác động của các hạn chế nguồn lực đến độ bao phủ và lý do không đưa một cuộc đảm bảo ở khu vực rủi ro cao vào kế hoạch. Kế hoạch cũng phải xem xét độ bao phủ quản trị CNTT; kế hoạch và các thay đổi quan trọng phải được HĐQT phê duyệt (GIAS 9.4).",
+    "optionNotes": [
+      "Sai. Chuẩn mực yêu cầu nêu lý do bỏ sót khu vực rủi ro cao.",
+      "Sai. Ghi nhận nội bộ không thay cho việc trao đổi với HĐQT và Ban điều hành.",
+      "Sai. Tự đánh giá của bộ phận CNTT là tuyến một, không phải đảm bảo độc lập.",
+      "Đúng. Đúng nội dung chuẩn mực yêu cầu trao đổi khi trình kế hoạch."
+    ],
+    "refs": [
+      "GIAS 9.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-H02",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Giữa năm, Tổng Giám đốc đề nghị bỏ cuộc kiểm toán đảm bảo về quy trình đấu thầu (rủi ro cao) để kiểm toán nội bộ chuyển sang tư vấn cho dự án chuyển đổi số mới. Cách xử lý phù hợp nhất của CAE là gì?",
+    "options": [
+      "Đồng ý, vì Tổng Giám đốc là người hiểu rõ nhất ưu tiên kinh doanh của tổ chức.",
+      "Trao đổi xung đột yêu cầu này với HĐQT, vì thay đổi kế hoạch quan trọng phải được HĐQT duyệt.",
+      "Từ chối, vì kế hoạch kiểm toán đã được phê duyệt thì không được thay đổi trong năm.",
+      "Thực hiện cả hai bằng cách rút ngắn thời gian của cuộc kiểm toán đấu thầu xuống một nửa."
+    ],
+    "answer": 1,
+    "explanation": "CAE phải trao đổi với HĐQT về các xung đột yêu cầu giữa các bên liên quan chính, ví dụ đề nghị thay cuộc đảm bảo đã lập kế hoạch bằng cuộc tư vấn. Kế hoạch phải linh hoạt, nhưng các thay đổi quan trọng phải được HĐQT phê duyệt (GIAS 9.4).",
+    "optionNotes": [
+      "Sai. Thay đổi quan trọng cần HĐQT phê duyệt, không chỉ Tổng Giám đốc.",
+      "Đúng. Đúng yêu cầu trao đổi xung đột và phê duyệt thay đổi của HĐQT.",
+      "Sai. Kế hoạch phải được cập nhật kịp thời khi rủi ro và hoạt động thay đổi.",
+      "Sai. Cắt nửa thời gian có thể làm cuộc kiểm toán không đạt mục tiêu."
+    ],
+    "refs": [
+      "GIAS 9.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-H03",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "CAE lập kế hoạch năm bằng cách lấy danh sách cuộc kiểm toán năm trước, bổ sung các đơn vị đã lâu chưa kiểm toán, rồi trình HĐQT. Kế hoạch này thiếu yếu tố cơ bản nào theo Chuẩn mực?",
+    "options": [
+      "Đánh giá rủi ro có văn bản, với ý kiến của HĐQT và Ban điều hành.",
+      "Danh sách tên kiểm toán viên phụ trách từng cuộc kiểm toán và thời gian cụ thể.",
+      "Chữ ký xác nhận của trưởng các đơn vị sẽ được kiểm toán trong năm kế hoạch.",
+      "Phân bổ đều số cuộc kiểm toán cho tất cả các đơn vị trong toàn tổ chức."
+    ],
+    "answer": 0,
+    "explanation": "Kế hoạch kiểm toán phải dựa trên đánh giá có văn bản về chiến lược, mục tiêu và rủi ro của tổ chức, có ý kiến đầu vào của HĐQT và Ban điều hành, thực hiện ít nhất hằng năm (GIAS 9.4). Lặp lại kế hoạch cũ theo chu kỳ không phải là lập kế hoạch dựa trên rủi ro.",
+    "optionNotes": [
+      "Đúng. Đây là nền tảng bắt buộc của kế hoạch dựa trên rủi ro.",
+      "Sai. Phân công nhân sự là chi tiết triển khai, không phải yếu tố cơ bản bị thiếu.",
+      "Sai. Đơn vị được kiểm toán không xác nhận kế hoạch kiểm toán.",
+      "Sai. Phân bổ đều đi ngược cách tiếp cận dựa trên rủi ro."
+    ],
+    "refs": [
+      "GIAS 9.4"
+    ],
+    "source": "original"
   }
 ]

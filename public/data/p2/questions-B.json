@@ -147,5 +147,80 @@
       "Sai. Đơn vị được kiểm toán không phê duyệt hồ sơ kiểm toán.",
       "Sai. Hồ sơ được lưu theo chính sách lưu trữ, không hủy ngay."
     ]
+  },
+  {
+    "id": "P2-B-H01",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên tìm thấy 12/60 hợp đồng tín dụng thiếu chữ ký thẩm định. Anh tự kết luận nguyên nhân là 'nhân viên cẩu thả' và xếp mức 'cao' vì tỷ lệ lỗi 20%. Cách đánh giá phát hiện nào phù hợp hơn với Chuẩn mực?",
+    "options": [
+      "Giữ nguyên, vì tỷ lệ lỗi là căn cứ khách quan nhất để xếp mức độ phát hiện.",
+      "Hạ xuống mức 'trung bình', vì lỗi thiếu chữ ký thường không gây tổn thất thực tế.",
+      "Chuyển cho Ban điều hành tự xác định nguyên nhân và mức độ trước khi đưa vào báo cáo.",
+      "Cùng Ban điều hành tìm nguyên nhân gốc, đánh giá khả năng xảy ra và mức ảnh hưởng của rủi ro."
+    ],
+    "answer": 3,
+    "explanation": "Khi đánh giá phát hiện, kiểm toán viên phải phối hợp với Ban điều hành để xác định nguyên nhân gốc khi có thể, xác định ảnh hưởng tiềm tàng, và đánh giá mức độ quan trọng dựa trên khả năng xảy ra và mức ảnh hưởng của rủi ro (GIAS 14.3). Tỷ lệ lỗi chỉ là một dữ kiện.",
+    "optionNotes": [
+      "Sai. Mức độ dựa trên khả năng và ảnh hưởng của rủi ro, không chỉ tỷ lệ lỗi.",
+      "Sai. Hạ mức theo cảm tính bỏ qua rủi ro tín dụng của khoản vay chưa thẩm định.",
+      "Sai. Kiểm toán viên phối hợp với Ban điều hành nhưng vẫn tự đánh giá phát hiện.",
+      "Đúng. Đúng các bước đánh giá phát hiện theo chuẩn mực."
+    ],
+    "refs": [
+      "GIAS 14.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-H02",
+    "section": "B",
+    "topic": "B8",
+    "difficulty": 2,
+    "stem": "Cuộc kiểm toán đảm bảo quy trình quản lý tài sản cố định không có phát hiện đáng kể nào. Trưởng nhóm đề xuất báo cáo chỉ ghi 'Không có phát hiện' và không nêu kết luận gì thêm. Nhận định nào đúng?",
+    "options": [
+      "Phù hợp, vì kết luận chỉ cần thiết khi có phát hiện cần Ban điều hành xử lý.",
+      "Chưa phù hợp, vì kết luận phải nêu đánh giá về hiệu quả quy trình, kể cả khi quy trình hữu hiệu.",
+      "Chưa phù hợp, vì báo cáo không được phát hành khi không có ít nhất một khuyến nghị.",
+      "Phù hợp, nếu Ban điều hành đã xác nhận đồng ý với kết quả của cuộc kiểm toán."
+    ],
+    "answer": 1,
+    "explanation": "Kết luận của cuộc kiểm toán đảm bảo phải gồm nhận định của kiểm toán viên về hiệu quả của quy trình quản trị, quản lý rủi ro và/hoặc kiểm soát của hoạt động được xem xét, kể cả ghi nhận khi các quy trình hữu hiệu (GIAS 14.5). 'Không có phát hiện' không phải là kết luận.",
+    "optionNotes": [
+      "Sai. Kết luận là yêu cầu cho mọi cuộc đảm bảo, không phụ thuộc có phát hiện.",
+      "Đúng. Phải nêu kết luận về hiệu quả, kể cả ghi nhận quy trình hữu hiệu.",
+      "Sai. Không có yêu cầu phải có khuyến nghị mới được phát hành báo cáo.",
+      "Sai. Đồng ý của Ban điều hành không thay thế kết luận của kiểm toán viên."
+    ],
+    "refs": [
+      "GIAS 14.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-H03",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Phân tích 80.000 khoản thanh toán chi phí cho thấy tỷ lệ các số tiền bắt đầu bằng chữ số 4 và 9 cao bất thường, nhiều khoản ngay dưới các hạn mức phê duyệt 5 triệu và 10 triệu đồng. Kỹ thuật phân tích nào đã làm lộ ra dấu hiệu này?",
+    "options": [
+      "Kiểm tra khoảng trống số thứ tự (gap test) của chứng từ thanh toán.",
+      "Phân tích hồi quy chi phí theo doanh thu của từng đơn vị trong năm.",
+      "Chọn mẫu phân tầng theo giá trị khoản chi để kiểm tra chi tiết.",
+      "Phân tích phân phối chữ số đầu theo luật Benford."
+    ],
+    "answer": 3,
+    "explanation": "Luật Benford mô tả tần suất kỳ vọng của chữ số đầu trong nhiều tập dữ liệu tự nhiên. Tần suất bất thường của chữ số 4 và 9 cùng việc dồn ngay dưới hạn mức là dấu hiệu chia nhỏ hoặc điều chỉnh số tiền để tránh phê duyệt cấp cao.",
+    "optionNotes": [
+      "Sai. Kiểm tra khoảng trống tìm chứng từ bị thiếu số thứ tự, không phân tích chữ số đầu.",
+      "Sai. Hồi quy xem mối quan hệ giữa các biến, không phát hiện phân phối chữ số.",
+      "Sai. Chọn mẫu phân tầng là kỹ thuật chọn mẫu, không phải phân tích phân phối.",
+      "Đúng. Phân tích chữ số đầu theo luật Benford phát hiện phân phối bất thường này."
+    ],
+    "refs": [
+      "CIA Part 2 B.3"
+    ],
+    "source": "original"
   }
 ]

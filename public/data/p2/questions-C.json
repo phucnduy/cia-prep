@@ -74,5 +74,30 @@
       "Sai. Danh sách nghi vấn không phải nội dung trao đổi khi bắt đầu.",
       "Sai. Không phải nội dung trao đổi khi bắt đầu cuộc kiểm toán."
     ]
+  },
+  {
+    "id": "P2-C-H01",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Ở cuộc họp kết thúc, Giám đốc chi nhánh không đồng ý với phát hiện về cho vay vượt hạn mức, cho rằng 'đây là đặc thù kinh doanh', nhưng không đưa ra bằng chứng mới. Hai bên đã trao đổi kỹ mà không thống nhất được. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Bỏ phát hiện khỏi báo cáo, vì phát hiện phải được Ban điều hành đồng ý mới được đưa vào.",
+      "Hạ mức độ phát hiện xuống một bậc để thể hiện thiện chí và tránh căng thẳng kéo dài.",
+      "Giữ phát hiện, và theo phương pháp đã thiết lập, trình bày quan điểm của cả hai bên.",
+      "Hoãn phát hành báo cáo cho đến khi Giám đốc chi nhánh đồng ý với phát hiện."
+    ],
+    "answer": 2,
+    "explanation": "Khi không thống nhất, kiểm toán viên phải trao đổi và cố gắng đạt hiểu biết chung, nhưng không bắt buộc thay đổi kết quả nếu không có lý do hợp lệ. Phải theo phương pháp đã thiết lập để cả hai bên trình bày quan điểm và lý do khác biệt trong báo cáo cuối cùng (GIAS 13.1).",
+    "optionNotes": [
+      "Sai. Phát hiện không cần sự đồng ý của Ban điều hành mới được báo cáo.",
+      "Sai. Thay đổi kết quả mà không có lý do hợp lệ là làm sai lệch đánh giá.",
+      "Đúng. Giữ kết quả có căn cứ và để cả hai bên trình bày quan điểm.",
+      "Sai. Trì hoãn vô thời hạn làm chậm thông tin cho người cần biết."
+    ],
+    "refs": [
+      "GIAS 13.1"
+    ],
+    "source": "original"
   }
 ]

@@ -174,5 +174,81 @@
       "Sai. Tự khắc phục là nhận trách nhiệm quản lý.",
       "Đúng. Báo vượt cấp lên quản lý cao hơn và HĐQT khi kế hoạch hành động không được thực hiện."
     ]
+  },
+  {
+    "id": "P3-D-H01",
+    "section": "D",
+    "topic": "D7",
+    "difficulty": 3,
+    "stem": "Chức năng kiểm toán đang theo dõi 300 kế hoạch hành động, phần lớn cho phát hiện rủi ro thấp. Một trưởng nhóm đề xuất kiểm tra lại toàn bộ bằng thủ tục chi tiết như một cuộc kiểm toán mới. Cách tiếp cận nào phù hợp nhất?",
+    "options": [
+      "Kiểm tra lại toàn bộ bằng thủ tục chi tiết, vì mọi kế hoạch hành động đều phải xác minh như nhau.",
+      "Chỉ hỏi Ban điều hành về tiến độ, vì xác minh việc thực hiện là trách nhiệm của Ban điều hành.",
+      "Ngừng theo dõi các phát hiện rủi ro thấp để tập trung nguồn lực cho cuộc kiểm toán mới.",
+      "Theo dõi theo mức quan trọng: rủi ro thấp có thể chỉ hỏi, rủi ro cao kiểm tra lại."
+    ],
+    "answer": 3,
+    "explanation": "Kiểm toán viên phải xác nhận việc thực hiện theo phương pháp đã thiết lập: hỏi tiến độ, đánh giá theo dõi dựa trên rủi ro, cập nhật hệ thống theo dõi. Mức độ thủ tục phải xem xét mức quan trọng của phát hiện (GIAS 15.2).",
+    "optionNotes": [
+      "Sai. Kiểm tra như nhau mọi phát hiện không dựa trên rủi ro và lãng phí nguồn lực.",
+      "Sai. Kiểm toán viên vẫn phải xác nhận việc thực hiện; với rủi ro cao cần nhiều hơn là hỏi.",
+      "Sai. Mọi kế hoạch hành động phải được theo dõi, chỉ khác mức độ.",
+      "Đúng. Mức độ theo dõi tương xứng với mức quan trọng của phát hiện."
+    ],
+    "refs": [
+      "GIAS 15.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-H02",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Báo cáo kiểm toán quy trình tín dụng có phát hiện rủi ro cao. Giám đốc khối Tín dụng đề nghị chỉ gửi báo cáo cho khối mình 'để tự khắc phục, tránh làm lớn chuyện'. CAE nên phân phối báo cáo thế nào?",
+    "options": [
+      "Chỉ gửi cho khối Tín dụng theo đề nghị, vì đây là đơn vị chịu trách nhiệm khắc phục.",
+      "Gửi cho các bên có thể bảo đảm kết quả được xem xét thỏa đáng, kể cả cấp trên của khối.",
+      "Công bố rộng rãi cho toàn bộ nhân viên để nâng cao nhận thức về rủi ro tín dụng.",
+      "Chỉ gửi cho HĐQT, vì phát hiện rủi ro cao chỉ thuộc thẩm quyền xử lý của HĐQT."
+    ],
+    "answer": 1,
+    "explanation": "CAE phải phân phối báo cáo cuối cùng cho các bên có thể bảo đảm kết quả được xem xét thỏa đáng (GIAS 15.1). Với phát hiện rủi ro cao, thường cần cả Ban điều hành cấp cao, không chỉ đơn vị được kiểm toán.",
+    "optionNotes": [
+      "Sai. Chỉ gửi cho đơn vị bị kiểm toán có thể khiến rủi ro cao không được giám sát thỏa đáng.",
+      "Đúng. Đúng nguyên tắc phân phối của chuẩn mực.",
+      "Sai. Công bố rộng rãi vi phạm nguyên tắc bảo mật thông tin.",
+      "Sai. Bỏ qua Ban điều hành, bên chịu trách nhiệm khắc phục và giám sát trực tiếp."
+    ],
+    "refs": [
+      "GIAS 15.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-H03",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 3,
+    "stem": "Khi trao đổi phát hiện về việc thiếu đối chiếu công nợ, Ban điều hành đã chủ động đề xuất một kế hoạch hành động cụ thể, có người chịu trách nhiệm, thời hạn, và xử lý đúng nguyên nhân gốc. Kiểm toán viên vẫn muốn viết khuyến nghị riêng khác đi. Nhận định nào phù hợp nhất?",
+    "options": [
+      "Có thể chấp nhận kế hoạch hành động của Ban điều hành, vì kế hoạch đã xử lý đúng nguyên nhân gốc.",
+      "Phải viết khuyến nghị riêng, vì báo cáo kiểm toán luôn phải có khuyến nghị của kiểm toán viên.",
+      "Phải viết khuyến nghị riêng, để bảo đảm tính độc lập của kiểm toán nội bộ với Ban điều hành.",
+      "Bỏ phát hiện khỏi báo cáo, vì Ban điều hành đã có kế hoạch khắc phục trước khi phát hành."
+    ],
+    "answer": 0,
+    "explanation": "Kiểm toán viên xác định nên đưa ra khuyến nghị, đề nghị Ban điều hành lập kế hoạch hành động, hay phối hợp để thống nhất hành động (GIAS 14.4). Nếu kế hoạch của Ban điều hành xử lý được nguyên nhân gốc, có người chịu trách nhiệm và thời hạn, chấp nhận là phù hợp; phát hiện vẫn được báo cáo kèm ghi nhận hành động của Ban điều hành (GIAS 15.1).",
+    "optionNotes": [
+      "Đúng. Chuẩn mực cho phép dùng kế hoạch hành động của Ban điều hành.",
+      "Sai. Không có yêu cầu báo cáo luôn phải có khuyến nghị riêng của kiểm toán viên.",
+      "Sai. Chấp nhận kế hoạch hợp lý của Ban điều hành không làm mất tính độc lập.",
+      "Sai. Phát hiện vẫn phải báo cáo; hành động của Ban điều hành được ghi nhận kèm theo."
+    ],
+    "refs": [
+      "GIAS 14.4",
+      "GIAS 15.1"
+    ],
+    "source": "original"
   }
 ]
