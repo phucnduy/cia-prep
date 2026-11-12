@@ -19,7 +19,7 @@
     "id": "P1-C-L002",
     "section": "C",
     "difficulty": 2,
-    "stem": "Khung kiểm soát nội bộ CoCo (Criteria of Control của Canada) rất nổi tiếng trong kỳ thi CIA bởi việc nhấn mạnh vào các yếu tố tâm lý và văn hóa. Khung CoCo phân loại 20 tiêu chí kiểm soát vào 4 nhóm nào sau đây?",
+    "stem": "Khung kiểm soát CoCo (Criteria of Control, Canada) nhấn mạnh các yếu tố con người và văn hóa. CoCo nhóm 20 tiêu chí kiểm soát thành 4 nhóm nào?",
     "options": [
       "Môi trường, Rủi ro, Hoạt động kiểm soát, Giám sát.",
       "Chiến lược, Hoạt động, Báo cáo, Tuân thủ.",
@@ -99,7 +99,7 @@
     "id": "P1-C-L007",
     "section": "C",
     "difficulty": 2,
-    "stem": "Khung Kiểm soát Nội bộ COSO (2013) bao gồm 5 thành phần và 17 nguyên tắc. Nguyên tắc nào sau đây thuộc về thành phần 'Môi trường kiểm soát' (Control Environment - Nguyên tắc 1 đến 5)?",
+    "stem": "Nguyên tắc nào sau đây thuộc thành phần 'Môi trường kiểm soát' của khung COSO Internal Control 2013?",
     "options": [
       "Tổ chức thể hiện cam kết thu hút, phát triển và giữ chân người có năng lực.",
       "Tổ chức lựa chọn và phát triển các hoạt động kiểm soát chung đối với công nghệ.",
@@ -175,7 +175,7 @@
     "id": "P1-C-L011",
     "section": "C",
     "difficulty": 2,
-    "stem": "Trong thành phần 'Thông tin và Truyền thông' (Information & Communication - Nguyên tắc 13, 14, 15) của COSO, Nguyên tắc 13 yêu cầu tổ chức phải làm gì?",
+    "stem": "Trong thành phần 'Thông tin và Truyền thông' của COSO 2013, nguyên tắc đầu tiên yêu cầu tổ chức làm gì?",
     "options": [
       "Thu thập hoặc tạo ra và sử dụng thông tin phù hợp, có chất lượng để hỗ trợ kiểm soát nội bộ vận hành.",
       "Truyền đạt thông tin cho các bên bên ngoài về các vấn đề ảnh hưởng đến kiểm soát nội bộ.",

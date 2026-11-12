@@ -3,7 +3,7 @@
     "id": "P3-B-L001",
     "section": "B",
     "difficulty": 2,
-    "stem": "Theo Chuẩn mực GIAS 9.5 (Phối hợp và Tin cậy - Coordination and Reliance), khi Giám đốc Kiểm toán Nội bộ (CAE) muốn sử dụng kết quả công việc của các bên cung cấp dịch vụ đảm bảo khác (như bộ phận Tuân thủ ở Tuyến 2 hoặc Kiểm toán độc lập), CAE phải làm gì?",
+    "stem": "CAE muốn sử dụng kết quả công việc của bộ phận Tuân thủ (tuyến hai) để giảm trùng lặp với kế hoạch kiểm toán. CAE phải làm gì?",
     "options": [
       "Dùng ngay kết quả nếu bên đó là công ty kiểm toán độc lập có uy tín.",
       "Chuyển trách nhiệm kết luận về phần đó sang bên cung cấp đảm bảo.",
@@ -23,7 +23,7 @@
     "section": "B",
     "topic": "B2",
     "difficulty": 2,
-    "stem": "Theo GIAS 9.4, kế hoạch kiểm toán nội bộ phải được xây dựng và duy trì như thế nào?",
+    "stem": "Kế hoạch kiểm toán nội bộ phải được xây dựng và duy trì như thế nào?",
     "options": [
       "Lập một lần cho chu kỳ 5 năm và giữ nguyên trong suốt chu kỳ.",
       "Dựa trên rủi ro, xem xét ít nhất hằng năm, cập nhật khi cần.",

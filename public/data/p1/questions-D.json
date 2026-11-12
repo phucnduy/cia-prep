@@ -112,22 +112,6 @@
     "source": "legacy"
   },
   {
-    "id": "P1-D-L008",
-    "section": "D",
-    "difficulty": 2,
-    "stem": "Sự khác biệt giữa 'Trộm cắp tiền mặt đã ghi sổ' (Cash Larceny) và 'Hớt váng' (Skimming) là gì?",
-    "options": [
-      "Cash larceny là lấy tiền trước khi ghi sổ; skimming là lấy tiền sau khi ghi sổ.",
-      "Skimming dễ phát hiện qua đối chiếu sổ cái hơn cash larceny.",
-      "Cash larceny liên quan đến hàng tồn kho; skimming liên quan đến tiền mặt.",
-      "Cash larceny là lấy tiền sau khi đã ghi sổ; skimming là lấy tiền trước khi ghi sổ."
-    ],
-    "answer": 3,
-    "explanation": "Vì Cash Larceny xảy ra sau khi giao dịch đã vào sổ (ví dụ: lấy tiền từ két sắt sau khi đã in hóa đơn thu ngân), nó để lại sự chênh lệch trực tiếp giữa tiền thực tế và sổ sách nên dễ bị phát hiện qua kiểm quỹ/đối chiếu hơn Skimming.",
-    "refs": [],
-    "source": "legacy"
-  },
-  {
     "id": "P1-D-L009",
     "section": "D",
     "difficulty": 2,
@@ -331,9 +315,11 @@
       "Đủ để đánh giá rủi ro gian lận, không cần như chuyên gia điều tra."
     ],
     "answer": 3,
-    "explanation": "Theo GIAS (Nguyên tắc 3 và phần Considerations), kiểm toán viên cần đủ hiểu biết để nhận diện dấu hiệu và đánh giá rủi ro gian lận, nhưng không yêu cầu chuyên môn như chuyên gia điều tra.",
+    "explanation": "Kiểm toán viên cần đủ hiểu biết để nhận diện dấu hiệu và đánh giá rủi ro gian lận, nhưng không cần chuyên môn như người có trách nhiệm chính là phát hiện và điều tra gian lận. Câu chữ này có trong IPPF 2017 (Chuẩn mực 1210.A2); GIAS 3.1 yêu cầu chung là có hoặc bổ sung năng lực cần thiết, và GIAS 9.4 yêu cầu kế hoạch kiểm toán xem xét rủi ro gian lận.",
     "refs": [
-      "GIAS 3.1"
+      "GIAS 3.1",
+      "GIAS 9.4",
+      "IPPF 2017 1210.A2"
     ],
     "source": "original"
   },

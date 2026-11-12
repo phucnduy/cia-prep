@@ -4,7 +4,7 @@
     "section": "A",
     "topic": "A1",
     "difficulty": 2,
-    "stem": "Theo GIAS 9.2, chiến lược kiểm toán nội bộ cần những thành phần nào?",
+    "stem": "Chiến lược kiểm toán nội bộ cần bao gồm những thành phần nào?",
     "options": [
       "Danh sách các cuộc kiểm toán và lịch thực hiện trong năm tới.",
       "Tầm nhìn, mục tiêu, sáng kiến gắn với chiến lược tổ chức.",
@@ -23,7 +23,7 @@
     "section": "A",
     "topic": "A2",
     "difficulty": 2,
-    "stem": "Theo GIAS 10.3, CAE có trách nhiệm gì đối với nguồn lực công nghệ của chức năng kiểm toán nội bộ?",
+    "stem": "CAE có trách nhiệm gì đối với nguồn lực công nghệ của chức năng kiểm toán nội bộ?",
     "options": [
       "Tự phát triển phần mềm kiểm toán riêng thay vì dùng giải pháp sẵn có.",
       "Dùng chung hệ thống CNTT của các phòng ban để giảm chi phí.",
@@ -62,7 +62,7 @@
     "section": "A",
     "topic": "A4",
     "difficulty": 1,
-    "stem": "GIAS 11.1 yêu cầu CAE xây dựng quan hệ với các bên liên quan nhằm mục đích chính nào?",
+    "stem": "Mục đích chính của việc CAE xây dựng quan hệ với các bên liên quan là gì?",
     "options": [
       "Để các bên liên quan duyệt trước nội dung báo cáo kiểm toán.",
       "Để giảm số phát hiện phải báo cáo lên HĐQT mỗi quý.",

@@ -3,23 +3,26 @@
     "id": "P3-C-L001",
     "section": "C",
     "difficulty": 2,
-    "stem": "Theo Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS), nếu bộ phận Kiểm toán Nội bộ KHÔNG hoàn thành Chương trình Đảm bảo và Cải tiến Chất lượng (QAIP) đầy đủ, CAE sẽ không được phép làm gì?",
+    "stem": "Chức năng kiểm toán nội bộ chưa từng thực hiện đánh giá chất lượng bên ngoài. CAE KHÔNG nên làm điều gì?",
     "options": [
-      "CAE không được trình kế hoạch kiểm toán năm cho HĐQT phê duyệt.",
-      "CAE không được dựa vào công việc của các bên đảm bảo khác.",
-      "CAE không được thực hiện các cuộc tư vấn trong năm.",
-      "CAE không được tuyên bố chức năng kiểm toán nội bộ tuân thủ GIAS."
+      "Trình kế hoạch kiểm toán năm cho HĐQT phê duyệt.",
+      "Dựa vào công việc của các bên cung cấp đảm bảo khác.",
+      "Thực hiện các cuộc tư vấn theo yêu cầu trong năm.",
+      "Tuyên bố chức năng kiểm toán nội bộ tuân thủ GIAS."
     ],
     "answer": 3,
-    "explanation": "Tuyên bố 'Conforms with the Global Internal Audit Standards' là một chứng nhận chất lượng uy tín. Chuẩn mực nghiêm cấm CAE sử dụng cụm từ này nếu phòng KTNB chưa vượt qua các bài đánh giá (Nội bộ & Bên ngoài) của chương trình QAIP.",
-    "refs": [],
+    "explanation": "Tuyên bố 'tuân thủ Chuẩn mực' phải có cơ sở từ kết quả QAIP, bao gồm đánh giá bên ngoài ít nhất 5 năm một lần (GIAS 8.4). Quy định cấm dùng cụm từ này khi chưa có kết quả QAIP hỗ trợ có từ IPPF 2017 (Chuẩn mực 1321). Các phương án còn lại không phụ thuộc vào việc đã có EQA hay chưa.",
+    "refs": [
+      "GIAS 8.4",
+      "IPPF 2017 1321"
+    ],
     "source": "legacy"
   },
   {
     "id": "P3-C-L002",
     "section": "C",
     "difficulty": 2,
-    "stem": "Theo Chuẩn mực GIAS 12.2 (Đo lường hiệu quả hoạt động - Performance Measurement), CAE nên xây dựng bộ chỉ số đo lường (KPIs) cho phòng Kiểm toán Nội bộ như thế nào?",
+    "stem": "CAE nên xây dựng bộ chỉ số đo lường hiệu quả (KPI) cho chức năng kiểm toán nội bộ như thế nào?",
     "options": [
       "Bộ chỉ số cân bằng định lượng và định tính, có ý kiến HĐQT và Ban điều hành.",
       "Chủ yếu đo số lượng phát hiện để khuyến khích kiểm toán viên tìm nhiều lỗi.",
@@ -54,7 +57,7 @@
     "section": "C",
     "topic": "C1",
     "difficulty": 2,
-    "stem": "Theo GIAS 8.4, đánh giá chất lượng bên ngoài (EQA) phải đáp ứng yêu cầu nào?",
+    "stem": "Đánh giá chất lượng bên ngoài (EQA) của chức năng kiểm toán nội bộ phải đáp ứng yêu cầu nào?",
     "options": [
       "Mỗi năm một lần, do công ty kiểm toán báo cáo tài chính thực hiện.",
       "Khi Ban điều hành yêu cầu, không có tần suất tối thiểu.",

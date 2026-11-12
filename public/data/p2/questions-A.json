@@ -4,7 +4,7 @@
     "section": "A",
     "topic": "A1",
     "difficulty": 2,
-    "stem": "Theo GIAS 13.3, khi xác định mục tiêu và phạm vi cuộc kiểm toán, kiểm toán viên phải dựa chủ yếu vào điều gì?",
+    "stem": "Khi xác định mục tiêu và phạm vi cuộc kiểm toán, kiểm toán viên phải dựa chủ yếu vào điều gì?",
     "options": [
       "Kết quả đánh giá rủi ro của hoạt động được kiểm toán.",
       "Danh sách thủ tục chuẩn trong chương trình kiểm toán năm trước.",
@@ -24,7 +24,7 @@
     "section": "A",
     "topic": "A2",
     "difficulty": 2,
-    "stem": "Ban điều hành chưa có tiêu chí rõ ràng để đánh giá hiệu quả quy trình tuyển dụng. Theo GIAS 13.4, kiểm toán viên nên làm gì?",
+    "stem": "Ban điều hành chưa có tiêu chí rõ ràng để đánh giá hiệu quả quy trình tuyển dụng. Kiểm toán viên nên làm gì?",
     "options": [
       "Dùng tiêu chí của tổ chức khác mà không cần trao đổi.",
       "Tạm dừng cuộc kiểm toán cho đến khi Ban điều hành ban hành tiêu chí.",
@@ -62,7 +62,7 @@
     "section": "A",
     "topic": "A6",
     "difficulty": 2,
-    "stem": "Theo GIAS 13.6, chương trình làm việc (work program) của cuộc kiểm toán phải được xử lý như thế nào?",
+    "stem": "Chương trình làm việc (work program) của cuộc kiểm toán phải được xử lý như thế nào?",
     "options": [
       "Lập sau khi hoàn thành thực địa để phản ánh đúng công việc đã làm.",
       "Gửi đơn vị được kiểm toán phê duyệt trước khi bắt đầu thực địa.",
@@ -81,7 +81,7 @@
     "section": "A",
     "topic": "A7",
     "difficulty": 1,
-    "stem": "Khi nhóm kiểm toán thiếu kỹ năng phân tích dữ liệu lớn cần thiết cho cuộc kiểm toán, cách xử lý phù hợp theo GIAS 13.5 là gì?",
+    "stem": "Nhóm kiểm toán thiếu kỹ năng phân tích dữ liệu lớn cần thiết cho cuộc kiểm toán. Cách xử lý phù hợp nhất là gì?",
     "options": [
       "Bổ sung nguồn lực có kỹ năng phù hợp, kể cả chuyên gia bên ngoài.",
       "Bỏ các thủ tục phân tích dữ liệu khỏi chương trình làm việc.",

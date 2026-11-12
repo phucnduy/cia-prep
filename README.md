@@ -18,7 +18,7 @@ Nguồn: [CIA Exam: Why and How It's Changing (IIA)](https://www.theiia.org/glob
 
 | Phần | Câu hỏi | Thẻ kiến thức | Trạng thái |
 |---|---|---|---|
-| Part 1 | 161 | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
+| Part 1 | 158 | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
 | Part 2 | 15 | 5 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
 | Part 3 | 19 | 11 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
 

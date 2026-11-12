@@ -1,23 +1,5 @@
 [
   {
-    "id": "P1-B-L002",
-    "section": "B",
-    "difficulty": 2,
-    "stem": "Chuẩn mực GIAS 4.3 quy định cụ thể về 'Sự hoài nghi nghề nghiệp' (Professional Skepticism). Thái độ nào sau đây thể hiện đúng nhất sự hoài nghi nghề nghiệp của kiểm toán viên nội bộ?",
-    "options": [
-      "Mặc định rằng quản lý luôn che giấu thông tin cho đến khi có bằng chứng ngược lại.",
-      "Tin tưởng giải trình của các quản lý có uy tín lâu năm để tiết kiệm thời gian.",
-      "Yêu cầu chứng từ gốc có công chứng cho mọi thông tin đơn vị cung cấp.",
-      "Luôn đặt câu hỏi và đánh giá phản biện độ tin cậy của bằng chứng."
-    ],
-    "answer": 3,
-    "explanation": "Sự hoài nghi nghề nghiệp không có nghĩa là nghi ngờ cực đoan (cynicism) hay cả tin. Nó đòi hỏi KTV không mặc định Ban điều hành là không trung thực nhưng cũng không mặc định họ hoàn toàn trung thực, mà phải luôn kiểm chứng bằng bằng chứng khách quan.",
-    "refs": [
-      "GIAS 4.3"
-    ],
-    "source": "legacy"
-  },
-  {
     "id": "P1-B-L003",
     "section": "B",
     "difficulty": 2,
@@ -47,8 +29,11 @@
       "Nguy cơ bào chữa (advocacy threat)."
     ],
     "answer": 1,
-    "explanation": "Self-interest threat (Nguy cơ tư lợi) phát sinh khi kiểm toán viên có lợi ích tài chính trực tiếp hoặc gián tiếp tại đối tượng liên quan đến cuộc kiểm toán, làm ảnh hưởng đến sự vô tư.",
-    "refs": [],
+    "explanation": "Self-interest threat (Nguy cơ tư lợi) phát sinh khi kiểm toán viên có lợi ích tài chính trực tiếp hoặc gián tiếp tại đối tượng liên quan đến cuộc kiểm toán, làm ảnh hưởng đến sự vô tư. Lưu ý: cách phân loại nguy cơ (tư lợi, tự kiểm tra, quen thuộc, bị đe dọa, bào chữa) lấy từ Bộ quy tắc đạo đức IESBA, được dùng phổ biến để phân tích; GIAS 2.2 không liệt kê theo các nhóm này.",
+    "refs": [
+      "GIAS 2.2",
+      "IESBA Code"
+    ],
     "source": "legacy"
   },
   {
@@ -56,7 +41,7 @@
     "section": "B",
     "topic": "B1",
     "difficulty": 1,
-    "stem": "Theo GIAS 1.1, 'dũng khí nghề nghiệp' (professional courage) đòi hỏi kiểm toán viên nội bộ điều gì?",
+    "stem": "'Dũng khí nghề nghiệp' (professional courage) đòi hỏi kiểm toán viên nội bộ điều gì?",
     "options": [
       "Đồng thuận với Ban điều hành để duy trì quan hệ làm việc tốt và tránh xung đột.",
       "Trao đổi trung thực và hành động phù hợp, kể cả khi chịu áp lực.",
@@ -94,7 +79,7 @@
     "section": "B",
     "topic": "B1",
     "difficulty": 2,
-    "stem": "GIAS 1.2 yêu cầu kiểm toán viên nội bộ liên quan đến kỳ vọng đạo đức của tổ chức là gì?",
+    "stem": "Kiểm toán viên nội bộ cần làm gì liên quan đến các kỳ vọng đạo đức của tổ chức?",
     "options": [
       "Hiểu, tôn trọng và góp phần vào kỳ vọng đạo đức hợp pháp của tổ chức.",
       "Soạn thảo và cập nhật bộ quy tắc ứng xử của tổ chức thay Ban điều hành.",
@@ -113,7 +98,7 @@
     "section": "B",
     "topic": "B1",
     "difficulty": 2,
-    "stem": "Theo GIAS 1.3, kiểm toán viên nội bộ KHÔNG được làm điều gì?",
+    "stem": "Hành vi nào sau đây kiểm toán viên nội bộ KHÔNG được làm?",
     "options": [
       "Báo cáo hành vi vi phạm pháp luật mà mình phát hiện cho cấp có thẩm quyền.",
       "Tham dự khóa đào tạo về luật áp dụng cho ngành của tổ chức.",
@@ -160,9 +145,9 @@
       "Kiểm toán viên đã kiểm toán phòng mua hàng một lần cách đây ba năm."
     ],
     "answer": 0,
-    "explanation": "Quan hệ thân thuộc với người phụ trách hoạt động được kiểm toán là xung đột lợi ích, suy giảm khách quan (GIAS 2.1). Đào tạo, chứng chỉ không tạo suy giảm. Kiểm toán cùng khu vực nhiều năm có thể gây quen thuộc nhưng ba năm trước một lần chưa phải suy giảm rõ ràng.",
+    "explanation": "Quan hệ thân thuộc với người phụ trách hoạt động được kiểm toán là xung đột lợi ích, suy giảm khách quan (GIAS 2.2). Đào tạo, chứng chỉ không tạo suy giảm. Kiểm toán cùng khu vực nhiều năm có thể gây quen thuộc nhưng ba năm trước một lần chưa phải suy giảm rõ ràng.",
     "refs": [
-      "GIAS 2.1"
+      "GIAS 2.2"
     ],
     "source": "original"
   },
@@ -198,9 +183,9 @@
       "Nhận quà nhưng không ghi nhận trong hồ sơ để tránh hiểu lầm."
     ],
     "answer": 2,
-    "explanation": "Nhận quà có giá trị lớn từ đơn vị được kiểm toán tạo suy giảm khách quan thực tế hoặc bề ngoài (GIAS 2.1). Kiểm toán viên phải tuân theo chính sách của tổ chức và báo cáo CAE. Chia quà cho cả nhóm vẫn gây suy giảm.",
+    "explanation": "GIAS 2.2: kiểm toán viên không được nhận bất kỳ vật hữu hình hay vô hình (quà, phần thưởng, ưu đãi) có thể làm suy giảm hoặc bị coi là làm suy giảm khách quan. Kiểm toán viên phải xử lý theo chính sách của tổ chức và báo cáo CAE (GIAS 2.3). Chia quà cho cả nhóm vẫn gây suy giảm.",
     "refs": [
-      "GIAS 2.1",
+      "GIAS 2.2",
       "GIAS 2.3"
     ],
     "source": "original"
@@ -218,10 +203,10 @@
       "Nguy cơ bị đe dọa (intimidation) từ ban lãnh đạo chi nhánh."
     ],
     "answer": 1,
-    "explanation": "Quan hệ lâu dài, thân thiết tạo nguy cơ quen thuộc, khiến kiểm toán viên chấp nhận giải trình mà không kiểm tra đủ. Biện pháp phổ biến: luân chuyển phân công. Tự kiểm tra là khi đánh giá công việc của chính mình; tư lợi là khi có lợi ích tài chính.",
+    "explanation": "Quan hệ lâu dài, thân thiết tạo nguy cơ quen thuộc, khiến kiểm toán viên chấp nhận giải trình mà không kiểm tra đủ. Biện pháp phổ biến: luân chuyển phân công. Tự kiểm tra là khi đánh giá công việc của chính mình; tư lợi là khi có lợi ích tài chính. Lưu ý: cách phân loại nguy cơ (tư lợi, tự kiểm tra, quen thuộc, bị đe dọa, bào chữa) lấy từ Bộ quy tắc đạo đức IESBA, được dùng phổ biến để phân tích; GIAS 2.2 không liệt kê theo các nhóm này.",
     "refs": [
-      "GIAS 2.1",
-      "GIAS 2.2"
+      "GIAS 2.2",
+      "IESBA Code"
     ],
     "source": "original"
   },
@@ -238,9 +223,9 @@
       "Công bố xung đột lợi ích cho CAE để CAE quyết định phân công."
     ],
     "answer": 3,
-    "explanation": "Quan hệ gia đình với người giữ vị trí quan trọng ở bên liên quan đến hoạt động được kiểm toán tạo suy giảm khách quan thực tế hoặc bề ngoài (GIAS 2.1). Kiểm toán viên phải công bố cho CAE (GIAS 2.3) để phân công lại hoặc áp dụng biện pháp bảo vệ. Tự loại khách hàng khỏi mẫu là che giấu vấn đề và làm sai lệch phạm vi.",
+    "explanation": "Quan hệ gia đình với người giữ vị trí quan trọng ở bên liên quan đến hoạt động được kiểm toán là xung đột lợi ích, tạo suy giảm khách quan thực tế hoặc bề ngoài (GIAS 2.2). Kiểm toán viên phải công bố cho CAE (GIAS 2.3) để phân công lại hoặc áp dụng biện pháp bảo vệ. Tự loại khách hàng khỏi mẫu là che giấu vấn đề và làm sai lệch phạm vi.",
     "refs": [
-      "GIAS 2.1",
+      "GIAS 2.2",
       "GIAS 2.3"
     ],
     "source": "original"
@@ -250,7 +235,7 @@
     "section": "B",
     "topic": "B3",
     "difficulty": 2,
-    "stem": "Biện pháp nào sau đây là chính sách phổ biến giúp bảo vệ tính khách quan của kiểm toán viên (GIAS 2.2)?",
+    "stem": "Biện pháp nào sau đây là chính sách phổ biến giúp bảo vệ tính khách quan của kiểm toán viên?",
     "options": [
       "Xác nhận định kỳ về xung đột lợi ích và luân chuyển phân công.",
       "Cho phép kiểm toán viên tự chọn đơn vị được kiểm toán phù hợp với mình.",
@@ -269,7 +254,7 @@
     "section": "B",
     "topic": "B3",
     "difficulty": 2,
-    "stem": "Theo GIAS 2.3, nếu kiểm toán viên phát hiện có suy giảm khách quan sau khi đã phát hành kết quả kiểm toán, cần làm gì?",
+    "stem": "Sau khi cuộc kiểm toán đã hoàn thành và báo cáo đã phát hành, CAE phát hiện một kiểm toán viên trong nhóm bị suy giảm khách quan. CAE nên làm gì?",
     "options": [
       "Không cần làm gì thêm vì báo cáo đã được phát hành và gửi đi.",
       "Rút lại báo cáo và hủy toàn bộ kết quả của cuộc kiểm toán.",
@@ -277,7 +262,7 @@
       "Chỉ thông báo cho kiểm toán viên liên quan và ghi chú hồ sơ."
     ],
     "answer": 2,
-    "explanation": "GIAS 2.3: nếu suy giảm được phát hiện sau khi trao đổi kết quả, CAE phải xác định tác động và thông báo cho người đã nhận kết quả (Ban điều hành, HĐQT...). Hủy toàn bộ là quá mức nếu kết luận vẫn đứng vững.",
+    "explanation": "GIAS 2.3: nếu sau khi hoàn thành cuộc kiểm toán mới phát hiện suy giảm ảnh hưởng đến độ tin cậy của phát hiện, khuyến nghị hoặc kết luận, CAE phải thảo luận với quản lý đơn vị được kiểm toán, HĐQT, Ban điều hành và/hoặc các bên bị ảnh hưởng để xác định hành động phù hợp (xem thêm GIAS 11.4 về sai sót). Hủy toàn bộ kết quả là quá mức nếu kết luận vẫn đứng vững.",
     "refs": [
       "GIAS 2.3"
     ],
@@ -308,7 +293,7 @@
     "section": "B",
     "topic": "B4",
     "difficulty": 1,
-    "stem": "Theo GIAS 3.1, trách nhiệm có năng lực chuyên môn được phân chia như thế nào?",
+    "stem": "Trách nhiệm về năng lực chuyên môn trong chức năng kiểm toán nội bộ được phân chia như thế nào?",
     "options": [
       "Chỉ CAE phải có năng lực đầy đủ; kiểm toán viên học dần qua công việc.",
       "Mỗi người có năng lực cho vai trò; CAE bảo đảm năng lực tổng thể.",
@@ -347,7 +332,7 @@
     "section": "B",
     "topic": "B4",
     "difficulty": 2,
-    "stem": "GIAS 3.2 về phát triển nghề nghiệp liên tục (CPD) yêu cầu gì?",
+    "stem": "Phát biểu nào đúng về phát triển nghề nghiệp liên tục (CPD) của kiểm toán viên nội bộ?",
     "options": [
       "Mọi kiểm toán viên phải duy trì năng lực qua CPD; người có chứng chỉ đáp ứng CPE.",
       "Chỉ kiểm toán viên mới vào nghề dưới ba năm phải tham gia CPD.",
@@ -386,7 +371,7 @@
     "section": "B",
     "topic": "B5",
     "difficulty": 1,
-    "stem": "Theo GIAS 4.2, khi thực hiện sự thận trọng nghề nghiệp đúng mức, kiểm toán viên cần cân nhắc yếu tố nào sau đây?",
+    "stem": "Khi thực hiện sự thận trọng nghề nghiệp đúng mức, kiểm toán viên cần cân nhắc yếu tố nào sau đây?",
     "options": [
       "Ý kiến của Tổng Giám đốc về mức độ tin cậy của đơn vị được kiểm toán.",
       "Số giờ làm thêm mà nhóm kiểm toán có thể bố trí trong tháng.",
@@ -424,7 +409,7 @@
     "section": "B",
     "topic": "B5",
     "difficulty": 2,
-    "stem": "GIAS 4.3 yêu cầu kiểm toán viên duy trì 'hoài nghi nghề nghiệp'. Hành vi nào thể hiện đúng yêu cầu này?",
+    "stem": "Hành vi nào thể hiện đúng 'hoài nghi nghề nghiệp' của kiểm toán viên nội bộ?",
     "options": [
       "Giả định mọi nhân viên đều có thể gian lận cho đến khi chứng minh ngược lại.",
       "Chấp nhận giải trình của quản lý cấp cao vì họ có thẩm quyền và trách nhiệm.",
@@ -463,7 +448,7 @@
     "section": "B",
     "topic": "B5",
     "difficulty": 2,
-    "stem": "GIAS 4.1 về tuân thủ Chuẩn mực yêu cầu gì khi kiểm toán viên không thể tuân thủ một yêu cầu trong một cuộc kiểm toán cụ thể?",
+    "stem": "Trong một cuộc kiểm toán, nhóm kiểm toán không thể tuân thủ một yêu cầu của Chuẩn mực do giới hạn về thời gian. CAE cần làm gì?",
     "options": [
       "Tiếp tục mà không cần ghi nhận vì đây là trường hợp cá biệt.",
       "Hủy cuộc kiểm toán và đưa vào kế hoạch của năm sau.",
@@ -471,9 +456,10 @@
       "Công bố yêu cầu không tuân thủ, lý do và ảnh hưởng đến kết quả."
     ],
     "answer": 3,
-    "explanation": "GIAS 4.1: nếu không tuân thủ GIAS ảnh hưởng đến một cuộc kiểm toán, phải công bố trong trao đổi kết quả: yêu cầu không tuân thủ, lý do, và ảnh hưởng đến kết quả, kết luận.",
+    "explanation": "GIAS 4.1: khi không thể tuân thủ một yêu cầu, CAE phải ghi nhận và trao đổi về hoàn cảnh, hành động thay thế, ảnh hưởng và lý do. GIAS 15.1: trao đổi kết quả cuối cùng phải công bố chuẩn mực không được tuân thủ, lý do và ảnh hưởng đến phát hiện, kết luận.",
     "refs": [
-      "GIAS 4.1"
+      "GIAS 4.1",
+      "GIAS 15.1"
     ],
     "source": "original"
   },
@@ -482,7 +468,7 @@
     "section": "B",
     "topic": "B6",
     "difficulty": 1,
-    "stem": "Theo GIAS 5.1, kiểm toán viên được sử dụng thông tin thu được trong quá trình kiểm toán như thế nào?",
+    "stem": "Kiểm toán viên được sử dụng thông tin thu được trong quá trình kiểm toán như thế nào?",
     "options": [
       "Dùng cho mục đích bất kỳ nếu không gây thiệt hại tài chính cho tổ chức.",
       "Chỉ dùng cho công việc; không vì lợi ích riêng, không trái luật.",
@@ -548,9 +534,10 @@
       "Nghĩa vụ chấm dứt sau 12 tháng."
     ],
     "answer": 0,
-    "explanation": "Nghĩa vụ bảo mật không kết thúc khi kiểm toán viên rời tổ chức. Việc dùng hoặc tiết lộ thông tin có được trong công việc vẫn bị ràng buộc bởi GIAS 5.1, chính sách của tổ chức và pháp luật.",
+    "explanation": "Nghĩa vụ không sử dụng hoặc tiết lộ thông tin có được trong công việc (GIAS 5.1, 5.2) không mất đi khi kiểm toán viên nghỉ việc; nó tiếp tục bị ràng buộc bởi chính sách bảo mật, hợp đồng của tổ chức và pháp luật.",
     "refs": [
-      "GIAS 5.1"
+      "GIAS 5.1",
+      "GIAS 5.2"
     ],
     "source": "original"
   },
@@ -625,10 +612,10 @@
       "Chấp nhận và giao người này kiểm toán mảng kế toán ngay khi quay về."
     ],
     "answer": 2,
-    "explanation": "Đảm nhận vai trò quản lý tạm thời làm suy giảm khách quan. CAE cần trao đổi với HĐQT về suy giảm, và nếu bố trí, người đó không được kiểm toán hoạt động mình phụ trách trong 12 tháng tiếp theo (GIAS 2.1-2.2, 7.1).",
+    "explanation": "Đảm nhận vai trò quản lý tạm thời làm suy giảm khách quan. CAE cần trao đổi với HĐQT về suy giảm; nếu vẫn bố trí, người đó không được đảm bảo cho hoạt động mình phụ trách trong 12 tháng tiếp theo, vì tính khách quan được coi là bị suy giảm trong thời gian đó (GIAS 2.2).",
     "refs": [
-      "GIAS 2.1",
-      "GIAS 2.2"
+      "GIAS 2.2",
+      "GIAS 7.1"
     ],
     "source": "original"
   }

@@ -1,24 +1,5 @@
 [
   {
-    "id": "P1-A-L001",
-    "section": "A",
-    "difficulty": 2,
-    "stem": "Theo Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS - Chuẩn mực 1.3), khái niệm 'Dũng khí đạo đức' (Ethical Courage) yêu cầu kiểm toán viên nội bộ phải làm gì?",
-    "options": [
-      "Trung thực nêu phát hiện và hành động đúng đắn kể cả khi chịu áp lực hoặc hậu quả bất lợi cho bản thân.",
-      "Giữ quan hệ hài hòa với đơn vị được kiểm toán, chỉ nêu phát hiện khi đã được quản lý đồng thuận.",
-      "Báo cáo trực tiếp mọi phát hiện cho cơ quan quản lý nhà nước trước khi báo cáo nội bộ.",
-      "Từ chối các cuộc kiểm toán mà kết quả có thể ảnh hưởng đến lãnh đạo cấp cao."
-    ],
-    "answer": 0,
-    "explanation": "GIAS bổ sung rõ khái niệm Dũng khí đạo đức (Ethical Courage) trong Nguyên tắc 1 (Tính chính trực), đòi hỏi KTV phải kiên định bảo vệ sự thật và chuẩn mực đạo đức bất chấp áp lực từ Ban điều hành hay các bên liên quan.",
-    "refs": [
-      "GIAS 1.3",
-      "GIAS Principle 1"
-    ],
-    "source": "legacy"
-  },
-  {
     "id": "P1-A-L002",
     "section": "A",
     "difficulty": 2,
@@ -228,7 +209,7 @@
     "section": "A",
     "topic": "A2",
     "difficulty": 2,
-    "stem": "Ai có thẩm quyền cuối cùng trong việc bổ nhiệm, đánh giá và miễn nhiệm Giám đốc kiểm toán nội bộ (CAE) theo GIAS?",
+    "stem": "Ai có thẩm quyền phê duyệt việc bổ nhiệm và miễn nhiệm Giám đốc kiểm toán nội bộ (CAE)?",
     "options": [
       "Giám đốc tài chính (CFO), người phụ trách hành chính của CAE.",
       "Tổng Giám đốc, sau khi tham khảo ý kiến các trưởng phòng.",
@@ -236,7 +217,7 @@
       "Đại hội đồng cổ đông thông qua biểu quyết hằng năm."
     ],
     "answer": 2,
-    "explanation": "Theo các điều kiện thiết yếu của Nguyên tắc 7, HĐQT phê duyệt việc bổ nhiệm, miễn nhiệm, thù lao và đánh giá CAE (có thể tham khảo Ban điều hành). Nếu CFO hoặc Tổng Giám đốc có quyền này, tính độc lập của chức năng kiểm toán bị đe dọa.",
+    "explanation": "GIAS 7.1 (điều kiện thiết yếu): HĐQT phê duyệt (authorize) việc bổ nhiệm và miễn nhiệm CAE; Ban điều hành góp ý cho HĐQT. Với đánh giá hiệu quả và thù lao của CAE, HĐQT góp ý cho Ban điều hành. Nếu CFO hoặc Tổng Giám đốc toàn quyền bổ nhiệm, miễn nhiệm, độc lập của chức năng kiểm toán bị đe dọa.",
     "refs": [
       "GIAS 7.1"
     ],
@@ -247,7 +228,7 @@
     "section": "A",
     "topic": "A3",
     "difficulty": 1,
-    "stem": "Nội dung nào sau đây BẮT BUỘC phải có trong điều lệ kiểm toán nội bộ theo GIAS 6.2?",
+    "stem": "Nội dung nào sau đây BẮT BUỘC phải có trong điều lệ kiểm toán nội bộ?",
     "options": [
       "Danh sách, chức danh và chứng chỉ nghề nghiệp của toàn bộ kiểm toán viên nội bộ.",
       "Mục đích, cam kết tuân thủ GIAS, mandate, vị trí tổ chức và quan hệ báo cáo.",
@@ -469,7 +450,7 @@
     "answer": 1,
     "explanation": "Điều phối (facilitate) CSA là dịch vụ tư vấn điển hình: kiểm toán viên hỗ trợ phương pháp, còn quản lý tự đánh giá và sở hữu rủi ro. Phê duyệt nhà cung cấp, quản lý dự án và vận hành hotline đều là trách nhiệm quản lý.",
     "refs": [
-      "GIAS 2.1"
+      "GIAS 2.2"
     ],
     "source": "original"
   },
@@ -488,7 +469,6 @@
     "answer": 2,
     "explanation": "Kiểm toán nội bộ có thể tư vấn về rủi ro và kiểm soát trong dự án, nhưng không được ra quyết định hoặc phê duyệt (trách nhiệm quản lý). Tham gia không biểu quyết là thông lệ phổ biến. Từ chối hoàn toàn bỏ lỡ cơ hội tạo giá trị.",
     "refs": [
-      "GIAS 2.1",
       "GIAS 2.2"
     ],
     "source": "original"
@@ -506,9 +486,8 @@
       "Có thể suy giảm khách quan; CAE đánh giá, áp dụng biện pháp bảo vệ, công bố."
     ],
     "answer": 3,
-    "explanation": "GIAS 2.1-2.3: tư vấn trước đó không mặc nhiên cấm việc đảm bảo sau này, nhưng có thể tạo ra suy giảm khách quan (tự kiểm tra công việc của mình). CAE phải đánh giá, áp dụng biện pháp bảo vệ như phân công người khác hoặc tăng giám sát, và công bố suy giảm cho bên phù hợp.",
+    "explanation": "GIAS 2.2: khi chức năng kiểm toán đảm bảo cho hoạt động mà trước đó mình đã tư vấn, CAE phải xác nhận bản chất của cuộc tư vấn không làm suy giảm khách quan và phân công nguồn lực sao cho quản lý được tính khách quan cá nhân. Tư vấn trước đó không mặc nhiên cấm việc đảm bảo sau này; CAE áp dụng biện pháp bảo vệ (phân công người khác, tăng giám sát) và công bố suy giảm nếu có (GIAS 2.3).",
     "refs": [
-      "GIAS 2.1",
       "GIAS 2.2",
       "GIAS 2.3"
     ],
@@ -557,7 +536,7 @@
     "section": "A",
     "topic": "A7",
     "difficulty": 2,
-    "stem": "Ngoài chức năng kiểm toán nội bộ, CAE được giao phụ trách thêm bộ phận Tuân thủ. Theo GIAS 7.1, yêu cầu nào phải được đáp ứng?",
+    "stem": "Ngoài chức năng kiểm toán nội bộ, CAE được giao phụ trách thêm bộ phận Tuân thủ. Yêu cầu nào phải được đáp ứng?",
     "options": [
       "Từ chối, vì GIAS cấm CAE kiêm nhiệm bất kỳ chức năng nào khác ngoài kiểm toán.",
       "Không cần biện pháp gì thêm, vì tuân thủ là chức năng tuyến hai, ít rủi ro.",
@@ -634,7 +613,7 @@
     "section": "A",
     "topic": "A7",
     "difficulty": 2,
-    "stem": "Theo GIAS 7.1, khi tính độc lập bị suy giảm trên thực tế hoặc có thể bị suy giảm, CAE phải làm gì?",
+    "stem": "Khi tính độc lập của chức năng kiểm toán nội bộ bị suy giảm trên thực tế hoặc bề ngoài, CAE phải làm gì?",
     "options": [
       "Công bố chi tiết suy giảm cho các bên phù hợp, bao gồm HĐQT.",
       "Từ chức ngay để bảo vệ uy tín nghề nghiệp.",
@@ -661,7 +640,7 @@
       "Không có rủi ro đáng kể vì thưởng theo lợi nhuận là thông lệ phổ biến."
     ],
     "answer": 1,
-    "explanation": "Khi thù lao của CAE gắn với kết quả tài chính và do Ban điều hành quyết định, CAE có động cơ làm nhẹ phát hiện. GIAS yêu cầu HĐQT tham gia phê duyệt thù lao và đánh giá CAE để bảo vệ độc lập (Nguyên tắc 7).",
+    "explanation": "Khi thù lao của CAE gắn với kết quả tài chính và do Ban điều hành quyết định một mình, CAE có động cơ làm nhẹ phát hiện. GIAS 7.1 yêu cầu HĐQT góp ý cho Ban điều hành về đánh giá hiệu quả và thù lao của CAE để giảm áp lực này.",
     "refs": [
       "GIAS 7.1"
     ],
@@ -672,7 +651,7 @@
     "section": "A",
     "topic": "A7",
     "difficulty": 2,
-    "stem": "GIAS 7.2 yêu cầu gì đối với trình độ của CAE?",
+    "stem": "Theo Chuẩn mực của IIA, ai xác định trình độ và năng lực cần có của CAE?",
     "options": [
       "CAE bắt buộc có chứng chỉ CIA và tối thiểu 15 năm kinh nghiệm kiểm toán.",
       "CAE bắt buộc là kế toán viên công chứng và từng làm kế toán trưởng.",
@@ -680,7 +659,7 @@
       "HĐQT xác định và phê duyệt yêu cầu về trình độ, năng lực của CAE."
     ],
     "answer": 3,
-    "explanation": "GIAS 7.2: HĐQT cùng Ban điều hành xác định các yêu cầu về trình độ, kinh nghiệm, năng lực của CAE (ví dụ chứng chỉ nghề nghiệp), và CAE phải duy trì năng lực đó. GIAS không đặt cứng số năm hay chứng chỉ bắt buộc.",
+    "explanation": "GIAS 7.2: CAE giúp HĐQT hiểu trình độ, năng lực cần có của một CAE; HĐQT phê duyệt vai trò, trách nhiệm của CAE và xác định trình độ, kinh nghiệm, năng lực cần thiết. GIAS không đặt cứng số năm kinh nghiệm hay chứng chỉ bắt buộc.",
     "refs": [
       "GIAS 7.2"
     ],
@@ -702,7 +681,7 @@
     "explanation": "Đây vừa là suy giảm khách quan cá nhân (tự kiểm tra) vừa là suy giảm độc lập tổ chức (báo cáo cho bên bị kiểm toán). Giải pháp: CAE báo cáo chức năng cho HĐQT, hoặc thuê ngoài/đồng cung cấp dịch vụ kiểm toán nội bộ.",
     "refs": [
       "GIAS 7.1",
-      "GIAS 2.1"
+      "GIAS 2.2"
     ],
     "source": "original"
   },
@@ -770,7 +749,7 @@
     "section": "A",
     "topic": "A8",
     "difficulty": 2,
-    "stem": "GIAS 9.1 yêu cầu CAE phải hiểu quy trình quản trị, quản lý rủi ro và kiểm soát của tổ chức nhằm mục đích chính nào?",
+    "stem": "Mục đích chính của việc CAE phải hiểu quy trình quản trị, quản lý rủi ro và kiểm soát của tổ chức là gì?",
     "options": [
       "Để sẵn sàng thay thế bộ phận quản trị rủi ro khi bộ phận này thiếu nhân sự.",
       "Để thiết kế các kiểm soát mới cho Ban điều hành ở những khu vực còn thiếu.",
@@ -835,10 +814,11 @@
       "Khi kiểm toán độc lập phát hành ý kiến chấp nhận toàn phần về BCTC."
     ],
     "answer": 1,
-    "explanation": "GIAS 4.1 và 12.1: chỉ được tuyên bố tuân thủ GIAS khi kết quả QAIP (đánh giá nội bộ và bên ngoài) hỗ trợ tuyên bố đó. Cam kết trong điều lệ là cần thiết nhưng không đủ.",
+    "explanation": "Tuyên bố tuân thủ GIAS cần có cơ sở từ chương trình đảm bảo và nâng cao chất lượng (QAIP): đánh giá nội bộ (GIAS 12.1) và đánh giá bên ngoài ít nhất 5 năm một lần (GIAS 8.4). Quy định 'chỉ được tuyên bố tuân thủ khi kết quả QAIP hỗ trợ' có từ IPPF 2017 (Chuẩn mực 1321). Cam kết trong điều lệ là cần nhưng chưa đủ.",
     "refs": [
-      "GIAS 4.1",
-      "GIAS 8.4"
+      "GIAS 8.4",
+      "GIAS 12.1",
+      "IPPF 2017 1321"
     ],
     "source": "original"
   },
@@ -847,7 +827,7 @@
     "section": "A",
     "topic": "A3",
     "difficulty": 2,
-    "stem": "GIAS 6.3 yêu cầu HĐQT và Ban điều hành hỗ trợ chức năng kiểm toán nội bộ. Hành động nào thể hiện sự hỗ trợ này?",
+    "stem": "Hành động nào của HĐQT và Ban điều hành thể hiện đúng sự hỗ trợ đối với chức năng kiểm toán nội bộ?",
     "options": [
       "Ban điều hành rà soát, chỉnh sửa báo cáo kiểm toán trước khi gửi HĐQT.",
       "HĐQT giao kiểm toán nội bộ quyền phê duyệt ngân sách các phòng ban.",
@@ -905,7 +885,7 @@
     "section": "A",
     "topic": "A2",
     "difficulty": 2,
-    "stem": "GIAS 8.2 yêu cầu gì về nguồn lực của chức năng kiểm toán nội bộ?",
+    "stem": "Phát biểu nào đúng về trách nhiệm của CAE đối với nguồn lực của chức năng kiểm toán nội bộ?",
     "options": [
       "Số kiểm toán viên phải tối thiểu bằng 1% tổng số nhân viên của tổ chức.",
       "CAE đánh giá mức đầy đủ và báo cáo HĐQT tác động nếu nguồn lực không đủ.",

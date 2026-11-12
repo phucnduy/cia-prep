@@ -23,7 +23,7 @@
     "id": "P2-B-K001",
     "section": "B",
     "title": "Thuộc tính của bằng chứng (GIAS 14.1)",
-    "rule": "Thông tin thu thập phải đầy đủ, đáng tin cậy, phù hợp và hữu ích để làm cơ sở cho phát hiện và kết luận.",
+    "rule": "Thông tin thu thập phải phù hợp, đáng tin cậy và đầy đủ (GIAS 14.1; IPPF 2017 có thêm 'hữu ích') để làm cơ sở cho phát hiện và kết luận.",
     "action": "Ưu tiên bằng chứng từ nguồn độc lập, thu thập trực tiếp, dạng văn bản; dùng phân tích dữ liệu để kiểm tra toàn bộ tổng thể khi có thể.",
     "violation": "Kết luận chỉ dựa trên giải trình bằng lời của người thực hiện quy trình.",
     "trap": "Càng nhiều tài liệu thì bằng chứng càng đáng tin cậy.",

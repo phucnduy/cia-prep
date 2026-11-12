@@ -21,15 +21,15 @@
     "section": "B",
     "topic": "B2",
     "difficulty": 2,
-    "stem": "Theo GIAS 14.1, thông tin dùng làm cơ sở cho phát hiện kiểm toán cần có những thuộc tính nào?",
+    "stem": "Thông tin dùng làm cơ sở cho phát hiện kiểm toán cần có những thuộc tính nào?",
     "options": [
       "Được đơn vị được kiểm toán ký xác nhận trên từng trang.",
-      "Đầy đủ, đáng tin cậy, phù hợp và hữu ích.",
-      "Được lưu trữ trên giấy và có dấu đỏ của tổ chức.",
+      "Phù hợp, đáng tin cậy và đầy đủ.",
+      "Được lưu trữ trên giấy và có dấu của tổ chức.",
       "Do bên thứ ba độc lập cung cấp trong mọi trường hợp."
     ],
     "answer": 1,
-    "explanation": "GIAS 14.1: kiểm toán viên thu thập thông tin đầy đủ (sufficient), đáng tin cậy (reliable), phù hợp (relevant) và hữu ích (useful) để thực hiện phân tích và đánh giá.",
+    "explanation": "GIAS 14.1: thông tin dùng để phân tích, đánh giá phải phù hợp (relevant), đáng tin cậy (reliable) và đầy đủ (sufficient). Lưu ý: IPPF 2017 có thêm 'hữu ích' (useful), GIAS 2024 không còn yêu cầu này.",
     "refs": [
       "GIAS 14.1"
     ],
@@ -98,7 +98,7 @@
     "section": "B",
     "topic": "B7",
     "difficulty": 1,
-    "stem": "Theo GIAS 14.6, hồ sơ làm việc (workpapers) của cuộc kiểm toán phải đáp ứng yêu cầu nào?",
+    "stem": "Hồ sơ làm việc (workpapers) của cuộc kiểm toán phải đáp ứng yêu cầu nào?",
     "options": [
       "Chỉ lưu bằng chứng có phát hiện, bỏ các phần không có ngoại lệ.",
       "Đủ để kiểm toán viên khác hiểu công việc và ủng hộ kết luận.",

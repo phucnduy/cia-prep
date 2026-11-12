@@ -6,8 +6,17 @@ import Calculator from './Calculator.jsx';
 
 const LOW_TIME_SECONDS = 5 * 60;
 
+/** Drop items whose question was removed from the bank since the session started. */
+function loadSession(manifest, byId) {
+  const saved = load(keys.activeSession(manifest.id), null);
+  if (!saved) return null;
+  const items = saved.items.filter((it) => byId[it.qid]);
+  if (!items.length) return null;
+  return { ...saved, items, current: Math.min(saved.current, items.length - 1) };
+}
+
 export default function Session({ index, manifest, data }) {
-  const [session, setSession] = useState(() => load(keys.activeSession(manifest.id), null));
+  const [session, setSession] = useState(() => loadSession(manifest, data.byId));
   const [now, setNow] = useState(Date.now());
   const [sheet, setSheet] = useState(null); // 'nav' | 'review' | null
   const [showCalc, setShowCalc] = useState(false);
@@ -171,7 +180,7 @@ export default function Session({ index, manifest, data }) {
           </div>
           <p className="q-stem">{question.stem}</p>
 
-          <ol className="options" aria-label="Các phương án">
+          <ol className="options" role="radiogroup" aria-label="Các phương án">
             {item.order.map((original, pos) => {
               const isSel = selected === original;
               let state = '';

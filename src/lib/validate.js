@@ -38,12 +38,12 @@ export function validateImport(payload, sectionIds) {
   const seen = new Set();
   payload.forEach((q, i) => {
     const problems = questionProblems(q, sectionIds);
-    if (!problems.length && seen.has(q.id)) problems.push(`id "${q.id}" bị trùng trong file`);
+    if (!problems.length && seen.has(q.id.trim())) problems.push(`id "${q.id}" bị trùng trong file`);
     if (problems.length) {
       errors.push(`Câu #${i + 1}${q?.id ? ` (${q.id})` : ''}: ${problems.join('; ')}`);
       return;
     }
-    seen.add(q.id);
+    seen.add(q.id.trim());
     valid.push({
       id: q.id.trim(),
       section: q.section,
