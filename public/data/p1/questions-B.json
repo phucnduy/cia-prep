@@ -232,26 +232,26 @@
     "section": "B",
     "topic": "B2",
     "difficulty": 2,
-    "stem": "Kiểm toán viên nhận được giỏ quà Tết trị giá lớn từ giám đốc chi nhánh đang được kiểm toán. Theo GIAS, kiểm toán viên nên xử lý thế nào?",
+    "stem": "Trước Tết, kiểm toán viên nhận được một giỏ quà đắt tiền gửi đến nhà từ giám đốc chi nhánh đang được kiểm toán. Kiểm toán viên không kịp từ chối vì quà đã được người nhà nhận. Bước tiếp theo phù hợp nhất là gì?",
     "options": [
-      "Nhận quà vì đây là phong tục truyền thống và không ảnh hưởng đến kết quả.",
-      "Nhận quà và chia đều cho cả nhóm để tránh thiên vị cá nhân.",
-      "Xử lý theo chính sách quà tặng và báo CAE về khả năng suy giảm khách quan.",
-      "Nhận quà nhưng không ghi nhận trong hồ sơ để tránh hiểu lầm."
+      "Giữ quà vì đây là phong tục truyền thống và đã lỡ được người nhà nhận rồi.",
+      "Chia quà cho cả nhóm kiểm toán để tránh việc một cá nhân được hưởng lợi riêng.",
+      "Xử lý theo chính sách quà tặng của tổ chức và báo CAE về khả năng suy giảm khách quan.",
+      "Giữ quà nhưng kết luận các phát hiện tại chi nhánh đó một cách khắt khe hơn để bù lại."
     ],
     "answer": 2,
-    "explanation": "GIAS 2.2: kiểm toán viên không được nhận bất kỳ vật hữu hình hay vô hình (quà, phần thưởng, ưu đãi) có thể làm suy giảm hoặc bị coi là làm suy giảm khách quan. Kiểm toán viên phải xử lý theo chính sách của tổ chức và báo cáo CAE (GIAS 2.3). Chia quà cho cả nhóm vẫn gây suy giảm.",
+    "explanation": "Kiểm toán viên không được nhận quà có thể làm suy giảm hoặc bị coi là làm suy giảm khách quan (GIAS 2.2). Khi lỡ nhận, cần xử lý theo chính sách quà tặng (ví dụ trả lại, nộp cho tổ chức) và công bố suy giảm tiềm ẩn cho CAE để CAE quyết định cách xử lý (GIAS 2.3).",
+    "optionNotes": [
+      "Sai. Phong tục không thay đổi việc quà có thể bị coi là làm suy giảm khách quan.",
+      "Sai. Chia quà mở rộng vấn đề ra cả nhóm thay vì xử lý nó.",
+      "Đúng. Xử lý theo chính sách và công bố cho CAE.",
+      "Sai. Khắt khe để bù lại cũng là thiên lệch, không phải khách quan."
+    ],
     "refs": [
       "GIAS 2.2",
       "GIAS 2.3"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Quà giá trị lớn từ đơn vị đang được kiểm toán có thể làm suy giảm khách quan.",
-      "Sai. Chia quà cho cả nhóm vẫn gây suy giảm khách quan.",
-      "Đúng. GIAS 2.2 cấm nhận quà có thể làm suy giảm khách quan; xử lý theo chính sách và báo CAE.",
-      "Sai. Che giấu việc nhận quà làm vấn đề nghiêm trọng hơn."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-B-009",
@@ -464,26 +464,26 @@
     "section": "B",
     "topic": "B4",
     "difficulty": 2,
-    "stem": "Kỹ năng mềm nào sau đây được nhấn mạnh trong năng lực của kiểm toán viên nội bộ theo syllabus CIA?",
+    "stem": "Kiểm toán viên có phát hiện đúng và bằng chứng đầy đủ, nhưng ở cuộc họp kết thúc, trưởng phòng được kiểm toán phản ứng gay gắt và từ chối lập kế hoạch hành động. Năng lực nào kiểm toán viên cần phát huy nhất lúc này?",
     "options": [
-      "Lập trình và bảo trì phần mềm kế toán của tổ chức.",
-      "Định giá tài sản theo chuẩn mực báo cáo tài chính quốc tế.",
-      "Tư vấn pháp lý về các điều khoản hợp đồng thương mại.",
-      "Giao tiếp, tư duy phản biện, thuyết phục, đàm phán, hợp tác."
+      "Kiến thức chuyên sâu về chuẩn mực báo cáo tài chính để chứng minh phát hiện là đúng.",
+      "Kỹ năng phân tích dữ liệu nâng cao để thu thập thêm bằng chứng cho phát hiện đó.",
+      "Giao tiếp, lắng nghe, thuyết phục để cùng hiểu rủi ro và thống nhất hướng xử lý.",
+      "Kỹ năng lập trình để tự động hóa việc theo dõi kế hoạch hành động sau kiểm toán."
     ],
-    "answer": 3,
-    "explanation": "Syllabus Part 1 (mục Ethics and Professionalism) liệt kê các kỹ năng như giao tiếp, tư duy phản biện, thuyết phục, đàm phán và hợp tác. Lập trình, định giá và tư vấn pháp lý là chuyên môn mà chức năng có thể thuê ngoài khi cần.",
-    "refs": [
-      "CIA Part 1 B.4",
-      "GIAS 3.1"
-    ],
-    "source": "original",
+    "answer": 2,
+    "explanation": "Bằng chứng đã đủ; trở ngại là phản ứng của người được kiểm toán. Năng lực cần thiết là kỹ năng mềm: giao tiếp, lắng nghe, thuyết phục, đàm phán, hợp tác để giúp Ban điều hành hiểu rủi ro và chấp nhận hành động (GIAS 3.1, 11.1).",
     "optionNotes": [
-      "Sai. Lập trình là kỹ năng chuyên môn kỹ thuật, không phải kỹ năng mềm.",
-      "Sai. Định giá tài sản là chuyên môn kỹ thuật có thể thuê ngoài.",
-      "Sai. Tư vấn pháp lý thuộc chuyên môn của luật sư.",
-      "Đúng. Syllabus nêu các kỹ năng giao tiếp, tư duy phản biện, thuyết phục, đàm phán, hợp tác."
-    ]
+      "Sai. Phát hiện đã có đủ căn cứ; thêm kiến thức kỹ thuật không giải quyết phản ứng.",
+      "Sai. Thêm bằng chứng không giải quyết được vấn đề giao tiếp.",
+      "Đúng. Kỹ năng giao tiếp, thuyết phục là then chốt trong tình huống này.",
+      "Sai. Tự động hóa theo dõi không liên quan đến việc thống nhất với đơn vị."
+    ],
+    "refs": [
+      "GIAS 3.1",
+      "GIAS 11.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-B-018",

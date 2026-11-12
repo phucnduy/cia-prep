@@ -4,46 +4,51 @@
     "section": "D",
     "topic": "D1",
     "difficulty": 2,
-    "stem": "Mô hình 'Kim cương gian lận' (Fraud Diamond của Wolfe và Hermanson) mở rộng Tam giác gian lận truyền thống bằng cách bổ sung thêm yếu tố thứ 4 nào sau đây?",
+    "stem": "Một kế toán viên lâu năm có áp lực nợ nần và biết công ty kiểm soát yếu, nhưng không biết cách che giấu giao dịch trên hệ thống. Kế toán trưởng, người có quyền truy cập rộng và kỹ năng điều chỉnh bút toán, cũng có áp lực tương tự. Mô hình nào giải thích rõ nhất vì sao rủi ro gian lận từ Kế toán trưởng cao hơn?",
     "options": [
-      "Năng lực (capability) của cá nhân.",
-      "Tính chính trực (integrity) của cá nhân.",
-      "Sự thông đồng (collusion) giữa nhiều người.",
-      "Mức độ răn đe của chế tài pháp luật."
+      "Tam giác gian lận, vì Kế toán trưởng có áp lực tài chính lớn hơn kế toán viên.",
+      "Kim cương gian lận, vì bổ sung yếu tố năng lực: vị trí, kỹ năng và khả năng che giấu.",
+      "Mô hình Ba Tuyến, vì Kế toán trưởng thuộc tuyến thứ nhất nên trực tiếp chịu rủi ro.",
+      "Khung COSO, vì môi trường kiểm soát tại phòng kế toán đang ở mức rất yếu."
     ],
-    "answer": 0,
-    "explanation": "Fraud Diamond chỉ ra rằng dù có Áp lực, Cơ hội và Sự tự hợp lý hóa, một vụ gian lận lớn (đặc biệt là gian lận hàng triệu USD) sẽ không thể xảy ra nếu thủ phạm không có 'Năng lực' (Capability: quyền hạn, hiểu biết kỹ thuật và bản lĩnh che giấu).",
-    "refs": [],
-    "source": "legacy",
+    "answer": 1,
+    "explanation": "Kim cương gian lận (Wolfe và Hermanson) bổ sung yếu tố năng lực vào Tam giác gian lận: vị trí, kỹ năng, khả năng che giấu và chịu áp lực. Hai người có áp lực và cơ hội tương tự; khác biệt nằm ở năng lực thực hiện và che giấu.",
     "optionNotes": [
-      "Đúng. Kim cương gian lận bổ sung yếu tố năng lực: vị trí, hiểu biết để khai thác lỗ hổng, khả năng che giấu.",
-      "Sai. Tính chính trực không phải yếu tố được bổ sung trong mô hình.",
-      "Sai. Thông đồng là thủ đoạn, không phải yếu tố thứ tư của mô hình.",
-      "Sai. Chế tài pháp luật không phải yếu tố của mô hình."
-    ]
+      "Sai. Tình huống nói áp lực tương tự; khác biệt không nằm ở áp lực.",
+      "Đúng. Yếu tố năng lực giải thích khác biệt giữa hai người.",
+      "Sai. Mô hình Ba Tuyến phân vai trò quản lý rủi ro, không giải thích động cơ gian lận.",
+      "Sai. Môi trường kiểm soát như nhau với cả hai, không giải thích sự khác biệt."
+    ],
+    "refs": [
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-D-L002",
     "section": "D",
     "topic": "D1",
-    "difficulty": 2,
-    "stem": "Trong nhóm gian lận Tham nhũng (Corruption), sự khác biệt giữa 'Hối lộ' (Bribery) và 'Tống tiền kinh tế' (Economic Extortion) là gì?",
+    "difficulty": 3,
+    "stem": "Nhân viên phụ trách nghiệm thu của công ty đòi nhà thầu phải trả 'phí bôi trơn' 2% giá trị hợp đồng, nếu không sẽ trì hoãn ký biên bản nghiệm thu. Nhà thầu miễn cưỡng chi trả. Theo phân loại của ACFE, đây là hành vi gì?",
     "options": [
-      "Hối lộ luôn dùng tiền mặt; tống tiền kinh tế luôn dùng chuyển khoản qua ngân hàng.",
-      "Hối lộ: bên ngoài chủ động trả tiền; tống tiền: nhân viên ép bên ngoài phải chi.",
-      "Hối lộ chỉ liên quan đến công chức; tống tiền kinh tế chỉ xảy ra giữa doanh nghiệp.",
-      "Hối lộ là gian lận báo cáo tài chính; tống tiền kinh tế là biển thủ tài sản."
+      "Hối lộ (bribery), vì nhà thầu đã chủ động đưa tiền để được lợi thế.",
+      "Lại quả (kickback), vì tiền được trích từ giá trị hợp đồng đã ký.",
+      "Tống tiền kinh tế (economic extortion), vì nhân viên ép nhà thầu phải chi.",
+      "Biển thủ tài sản (asset misappropriation), vì công ty bị thiệt hại tiền."
     ],
-    "answer": 1,
-    "explanation": "Bribery và Economic Extortion là hai mặt của đồng xu tham nhũng: Bribery khởi phát từ bên ngoài mua chuộc vào trong; còn Economic Extortion là người bên trong dùng quyền lực ép buộc bên ngoài phải nộp tiền.",
-    "refs": [],
-    "source": "legacy",
+    "answer": 2,
+    "explanation": "Trong nhóm tham nhũng của ACFE: hối lộ là khi bên ngoài chủ động đưa giá trị để tác động quyết định; tống tiền kinh tế là khi nhân viên đòi hỏi, ép buộc bên ngoài phải chi trả, nếu không sẽ gây bất lợi. Ở đây nhân viên là bên chủ động đòi.",
     "optionNotes": [
-      "Sai. Phương thức thanh toán không phân biệt hai hành vi.",
-      "Đúng. Hối lộ: bên ngoài chủ động trả tiền; tống tiền kinh tế: nhân viên ép bên ngoài chi tiền bằng đe dọa.",
-      "Sai. Cả hai có thể xảy ra ở khu vực công và tư.",
-      "Sai. Cả hai thuộc nhóm tham nhũng."
-    ]
+      "Sai. Nhà thầu không chủ động; họ bị ép.",
+      "Sai. Lại quả là thỏa thuận chia lại phần tiền nâng giá; ở đây là bị ép chi.",
+      "Đúng. Nhân viên đòi tiền dưới đe dọa gây bất lợi là tống tiền kinh tế.",
+      "Sai. Tiền do nhà thầu chi, không trực tiếp lấy từ tài sản công ty."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-D-L003",
@@ -98,24 +103,27 @@
     "id": "P1-D-L005",
     "section": "D",
     "topic": "D4",
-    "difficulty": 2,
-    "stem": "Để ngăn chặn và phát hiện thủ đoạn gian lận 'Nhân viên ma' (Ghost Employee) trên bảng lương, chốt kiểm soát nào sau đây là HIỆU QUẢ NHẤT?",
+    "difficulty": 3,
+    "stem": "Một nhà máy 3.000 công nhân. Nhân viên phòng nhân sự vừa tạo hồ sơ công nhân mới, vừa nhập công và chạy bảng lương; lương chuyển vào tài khoản do người lao động tự khai. Kiểm soát nào giảm hiệu quả nhất rủi ro 'nhân viên ma'?",
     "options": [
-      "Tách cập nhật hồ sơ nhân sự khỏi tính lương và xác minh nhân sự thực tế.",
-      "Yêu cầu trưởng bộ phận ký xác nhận bảng chấm công hằng tháng.",
-      "Chuyển toàn bộ việc trả lương sang chuyển khoản qua ngân hàng.",
-      "Giao kế toán lương đối chiếu tổng quỹ lương với ngân sách đã duyệt."
+      "Yêu cầu trưởng bộ phận ký xác nhận tổng quỹ lương hằng tháng của bộ phận mình.",
+      "Tách việc cập nhật hồ sơ nhân sự khỏi việc tính lương, và định kỳ xác minh nhân sự thực tế.",
+      "Yêu cầu kế toán đối chiếu tổng quỹ lương với ngân sách đã duyệt cho từng tháng.",
+      "Tăng tần suất kiểm toán nội bộ đối với quy trình tính lương lên hai lần mỗi năm."
     ],
-    "answer": 0,
-    "explanation": "Ghost employee xảy ra khi kẻ gian thêm tên người không có thật (hoặc người đã nghỉ việc) vào bảng lương để rút tiền. Phân nhiệm giữa HR (thêm/xóa nhân sự) và Payroll (tính lương), kèm theo quét dữ liệu tìm số tài khoản ngân hàng bị trùng lặp là kiểm soát cốt lõi nhất.",
-    "refs": [],
-    "source": "legacy",
+    "answer": 1,
+    "explanation": "Nhân viên ma xảy ra khi một người vừa tạo được người lao động vừa kiểm soát việc trả lương. Tách hai nhiệm vụ này và xác minh nhân sự thực tế (đối chiếu chấm công sinh trắc, phát lương có kiểm tra, tài khoản trùng) xử lý đúng nguyên nhân. Ký xác nhận tổng quỹ lương hay đối chiếu ngân sách khó phát hiện vài người ma trong 3.000 người.",
     "optionNotes": [
-      "Đúng. Tách cập nhật hồ sơ nhân sự khỏi tính lương và xác minh nhân sự thực tế ngăn và phát hiện nhân viên ma.",
-      "Sai. Trưởng bộ phận có thể chính là người tạo nhân viên ma.",
-      "Sai. Chuyển khoản vẫn có thể chuyển vào tài khoản của nhân viên ma.",
-      "Sai. Đối chiếu tổng quỹ lương không phát hiện từng nhân viên ma."
-    ]
+      "Sai. Ký tổng quỹ lương khó phát hiện vài hồ sơ giả trong số lớn.",
+      "Đúng. Tách nhiệm vụ và xác minh nhân sự thực tế xử lý đúng nguyên nhân.",
+      "Sai. Đối chiếu tổng với ngân sách không phát hiện được chênh lệch nhỏ.",
+      "Sai. Kiểm toán nội bộ không thay thế kiểm soát của quản lý."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-D-L006",
@@ -190,24 +198,26 @@
     "id": "P1-D-L010",
     "section": "D",
     "topic": "D1",
-    "difficulty": 2,
-    "stem": "Thủ đoạn gian lận doanh thu 'Lập hóa đơn nhưng giữ hàng' (Bill-and-Hold Scheme) thường vi phạm nguyên tắc ghi nhận doanh thu như thế nào?",
+    "difficulty": 3,
+    "stem": "Ngày 30/12, công ty xuất hóa đơn 50 tỷ đồng cho một nhà phân phối và ghi nhận doanh thu, nhưng hàng vẫn nằm trong kho công ty; nhà phân phối chưa yêu cầu giữ hàng và chưa nhận rủi ro về hàng hóa. Đây là dấu hiệu của thủ đoạn gì?",
     "options": [
-      "Giao hàng cho khách trong kỳ nhưng ghi nhận doanh thu vào kỳ sau.",
-      "Ghi doanh thu khi hàng còn trong kho, chưa chuyển quyền kiểm soát.",
-      "Bán hàng có điều khoản trả lại nhưng không trích lập dự phòng hàng trả lại.",
-      "Gộp nhiều hợp đồng nhỏ thành một hợp đồng lớn để ghi nhận một lần."
+      "Ghi nhận doanh thu sớm qua 'lập hóa đơn nhưng giữ hàng' (bill-and-hold) không có cơ sở.",
+      "Chuyển lỗ sang kỳ sau bằng cách trì hoãn ghi nhận chi phí bán hàng của năm.",
+      "Đẩy hàng cho đại lý (channel stuffing) với cam kết nhận lại hàng tồn sau đó.",
+      "Ăn chặn tiền thu của khách hàng trước khi giao dịch được ghi vào sổ sách."
     ],
-    "answer": 1,
-    "explanation": "Trong Bill-and-Hold gian lận, công ty ghi nhận doanh thu sớm khi nghĩa vụ thực hiện (chuyển giao quyền kiểm soát hàng hóa) chưa hoàn thành, nhằm làm đẹp BCTC cuối kỳ.",
-    "refs": [],
-    "source": "legacy",
+    "answer": 0,
+    "explanation": "Doanh thu chỉ được ghi nhận khi quyền kiểm soát hàng hóa đã chuyển cho người mua. Bill-and-hold hợp lệ cần lý do thực chất do người mua yêu cầu, hàng được tách riêng, người mua đã nhận rủi ro. Ở đây không đáp ứng, nên là ghi nhận doanh thu sớm.",
     "optionNotes": [
-      "Sai. Ghi nhận muộn không phải bill-and-hold.",
-      "Đúng. Bill-and-hold ghi doanh thu khi hàng còn trong kho, chưa chuyển quyền kiểm soát.",
-      "Sai. Đó là vấn đề dự phòng hàng trả lại.",
-      "Sai. Đó là vấn đề gộp hợp đồng."
-    ]
+      "Đúng. Ghi doanh thu khi hàng còn trong kho, chưa chuyển quyền kiểm soát.",
+      "Sai. Vấn đề là doanh thu, không phải trì hoãn chi phí.",
+      "Sai. Channel stuffing là hàng được giao thật đến đại lý; ở đây hàng chưa rời kho.",
+      "Sai. Ăn chặn tiền là biển thủ tài sản, không phải gian lận doanh thu."
+    ],
+    "refs": [
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-D-L011",
@@ -283,23 +293,25 @@
     "section": "D",
     "topic": "D5",
     "difficulty": 2,
-    "stem": "Sự khác biệt chính giữa 'Kiểm toán Nội bộ thông thường' và 'Kiểm toán Điều tra Pháp lý' (Forensic Auditing / Fraud Investigation) là gì?",
+    "stem": "Kiểm toán nội bộ phát hiện dấu hiệu gian lận đáng kể và công ty dự định khởi kiện. CAE cân nhắc chuyển từ cuộc kiểm toán thông thường sang điều tra pháp lý (forensic). Điểm khác biệt chính cần lưu ý là gì?",
     "options": [
-      "Kiểm toán nội bộ dùng bằng chứng định tính; điều tra chỉ dùng bằng chứng định lượng.",
-      "Kiểm toán nội bộ đánh giá GRC; điều tra thu thập bằng chứng đủ chuẩn pháp lý.",
-      "Điều tra do kiểm toán độc lập thực hiện; kiểm toán nội bộ không được tham gia.",
-      "Điều tra chỉ được bắt đầu sau khi cơ quan chức năng ra quyết định khởi tố."
+      "Điều tra pháp lý chỉ dùng bằng chứng định lượng, còn kiểm toán dùng bằng chứng định tính.",
+      "Điều tra pháp lý có thể tiến hành mà không cần sự cho phép của Ban điều hành hay HĐQT.",
+      "Điều tra thu thập bằng chứng đạt chuẩn pháp lý cho xét xử; kiểm toán đánh giá quản trị, kiểm soát.",
+      "Điều tra pháp lý luôn phải do cơ quan công an thực hiện, kiểm toán nội bộ không được tham gia."
     ],
-    "answer": 1,
-    "explanation": "Forensic Auditing đòi hỏi kỹ năng chuyên sâu về quy trình tố tụng, bảo toàn chuỗi chứng cứ (Chain of custody) không bị nhiễm bẩn và kỹ thuật phỏng vấn điều tra để hồ sơ có giá trị làm bằng chứng trước tòa án.",
-    "refs": [],
-    "source": "legacy",
+    "answer": 2,
+    "explanation": "Kiểm toán nội bộ thông thường đánh giá quản trị, rủi ro, kiểm soát. Điều tra pháp lý nhằm thu thập bằng chứng đạt chuẩn có thể dùng trong tranh chấp, xét xử, với yêu cầu chặt chẽ về chuỗi lưu giữ, phỏng vấn, tư vấn pháp lý; thường cần chuyên gia và sự tham gia của pháp chế.",
     "optionNotes": [
-      "Sai. Cả hai dùng bằng chứng định lượng và định tính.",
-      "Đúng. Kiểm toán nội bộ đánh giá quản trị, rủi ro, kiểm soát; điều tra thu thập bằng chứng đạt chuẩn pháp lý cho vụ việc cụ thể.",
-      "Sai. Kiểm toán nội bộ có thể tham gia điều tra khi được giao.",
-      "Sai. Điều tra nội bộ có thể bắt đầu trước khi có quyết định khởi tố."
-    ]
+      "Sai. Cả hai đều dùng bằng chứng định tính và định lượng.",
+      "Sai. Điều tra phải được thực hiện trong khuôn khổ thẩm quyền và chính sách của tổ chức.",
+      "Đúng. Khác biệt cốt lõi là mục đích và tiêu chuẩn bằng chứng.",
+      "Sai. Tổ chức có thể tự điều tra (thường với chuyên gia); kiểm toán nội bộ có thể tham gia."
+    ],
+    "refs": [
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-D-L015",
@@ -460,25 +472,25 @@
     "section": "D",
     "topic": "D2",
     "difficulty": 3,
-    "stem": "Trong giai đoạn lập kế hoạch kiểm toán quy trình mua hàng, kiểm toán viên nên xem xét rủi ro gian lận như thế nào?",
+    "stem": "Khi lập kế hoạch kiểm toán quy trình mua hàng, đơn vị chưa từng có vụ gian lận nào. Trưởng nhóm đề xuất bỏ qua đánh giá rủi ro gian lận để 'tập trung vào hiệu quả quy trình'. Cách làm phù hợp nhất là gì?",
     "options": [
-      "Chỉ xem xét khi đơn vị được kiểm toán đã có tiền sử gian lận.",
-      "Để đến giai đoạn báo cáo mới xem xét nếu có phát hiện bất thường.",
-      "Đưa các kịch bản gian lận vào đánh giá rủi ro và thiết kế thủ tục.",
-      "Dùng kết quả tự đánh giá rủi ro gian lận của bộ phận tuân thủ."
+      "Bỏ qua, vì đơn vị chưa có tiền sử gian lận nên rủi ro gian lận rất thấp.",
+      "Đưa các kịch bản gian lận có thể xảy ra vào đánh giá rủi ro và thiết kế thủ tục tương ứng.",
+      "Chỉ xem xét gian lận nếu trong quá trình kiểm tra tình cờ phát hiện điều bất thường.",
+      "Chuyển toàn bộ việc đánh giá rủi ro gian lận cho bộ phận pháp chế thực hiện riêng."
     ],
-    "answer": 2,
-    "explanation": "GIAS 13.2 yêu cầu đánh giá rủi ro cuộc kiểm toán, bao gồm rủi ro gian lận. Kiểm toán viên cần nhận diện các kịch bản gian lận cụ thể của quy trình và thiết kế thủ tục để phản ứng, không đợi có tiền sử.",
+    "answer": 1,
+    "explanation": "Khi hiểu hoạt động được kiểm toán, kiểm toán viên phải đánh giá các rủi ro liên quan, kể cả rủi ro gian lận (GIAS 13.2). Không có tiền sử không có nghĩa là không có rủi ro: mua hàng là khu vực có nhiều kịch bản gian lận điển hình (nhà cung cấp ma, lại quả, chia nhỏ hợp đồng).",
+    "optionNotes": [
+      "Sai. Chưa phát hiện không có nghĩa là không có gian lận.",
+      "Đúng. Đánh giá rủi ro gian lận ngay từ lập kế hoạch.",
+      "Sai. Chờ tình cờ phát hiện là thiếu thận trọng nghề nghiệp.",
+      "Sai. Đánh giá rủi ro của cuộc kiểm toán là trách nhiệm của kiểm toán viên."
+    ],
     "refs": [
       "GIAS 13.2"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Rủi ro gian lận phải được xem xét trong mọi cuộc kiểm toán.",
-      "Sai. Rủi ro gian lận phải được xem xét ngay từ khâu lập kế hoạch.",
-      "Đúng. GIAS 13.2: đánh giá rủi ro cuộc kiểm toán phải gồm rủi ro gian lận, sau đó thiết kế thủ tục phù hợp.",
-      "Sai. Có thể tham khảo, nhưng kiểm toán viên phải tự đánh giá."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-D-007",
@@ -612,25 +624,25 @@
     "section": "D",
     "topic": "D5",
     "difficulty": 3,
-    "stem": "Trong một cuộc điều tra gian lận, trình tự phỏng vấn nào là phù hợp nhất?",
+    "stem": "Trong cuộc điều tra nghi vấn biển thủ tại kho, nhóm cần phỏng vấn: thủ kho bị nghi ngờ, hai nhân viên kho có thể đã giúp sức, kế toán kho (nhân chứng trung lập) và bảo vệ (người có thể xác nhận giờ ra vào). Trình tự phỏng vấn nào phù hợp nhất?",
     "options": [
-      "Phỏng vấn đối tượng nghi vấn đầu tiên trước khi họ kịp chuẩn bị.",
-      "Phỏng vấn tất cả các bên cùng lúc trong một buổi họp chung.",
-      "Chỉ phỏng vấn đối tượng nghi vấn, không cần đến nhân chứng.",
-      "Từ nhân chứng trung lập, người xác nhận, đồng phạm, rồi đến đối tượng."
+      "Thủ kho trước, để người này không kịp chuẩn bị lời khai hay tiêu hủy bằng chứng.",
+      "Phỏng vấn cùng lúc tất cả trong một buổi họp để so sánh lời khai trực tiếp.",
+      "Kế toán kho, bảo vệ, rồi hai nhân viên kho, cuối cùng mới đến thủ kho.",
+      "Hai nhân viên kho trước để thuyết phục họ làm chứng, sau đó đến những người khác."
     ],
-    "answer": 3,
-    "explanation": "Thông lệ điều tra: thu thập bằng chứng và phỏng vấn từ người ít liên quan nhất đến người liên quan nhất, để có đủ thông tin trước khi phỏng vấn đối tượng (thường là phỏng vấn nhằm thu nhận lời thừa nhận). Phỏng vấn đối tượng trước có thể khiến họ tiêu hủy bằng chứng.",
+    "answer": 2,
+    "explanation": "Thông lệ điều tra là đi từ ngoài vào trong: nhân chứng trung lập, người xác nhận, đến người có thể là đồng phạm, cuối cùng là đối tượng chính. Cách này giúp có đủ thông tin trước khi phỏng vấn đối tượng và hạn chế việc lộ thông tin sớm.",
+    "optionNotes": [
+      "Sai. Phỏng vấn đối tượng trước khi có đủ thông tin làm yếu cuộc phỏng vấn quan trọng nhất.",
+      "Sai. Phỏng vấn chung khiến lời khai ảnh hưởng lẫn nhau và lộ thông tin.",
+      "Đúng. Đúng trình tự từ nhân chứng trung lập đến đối tượng chính.",
+      "Sai. Bỏ qua nhân chứng trung lập và có nguy cơ lộ thông tin cho đối tượng."
+    ],
     "refs": [
       "CIA Part 1 D.5"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Phỏng vấn đối tượng trước có thể khiến họ tiêu hủy bằng chứng.",
-      "Sai. Phỏng vấn chung làm mất tính độc lập của lời khai.",
-      "Sai. Nhân chứng cung cấp bằng chứng quan trọng.",
-      "Đúng. Phỏng vấn từ người ít liên quan nhất đến đối tượng nghi vấn để có đủ thông tin trước."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-D-H01",
