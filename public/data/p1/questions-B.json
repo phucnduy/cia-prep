@@ -812,5 +812,207 @@
       "Đúng. Trao đổi với HĐQT; nếu thực hiện, người đó không đảm bảo cho mảng kế toán trong 12 tháng (GIAS 2.2).",
       "Sai. Kiểm toán mảng mình vừa phụ trách vi phạm quy tắc 12 tháng."
     ]
+  },
+  {
+    "id": "P1-B-H01",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Khi kiểm toán nhà máy, kiểm toán viên có bằng chứng nhà máy xả nước thải chưa xử lý ra sông, vi phạm luật môi trường. Giám đốc nhà máy nói đã biết và sẽ tự khắc phục trong quý tới, đề nghị không đưa ra ngoài. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Giữ bảo mật, vì thông tin thu được khi kiểm toán chỉ được dùng cho mục đích của cuộc kiểm toán.",
+      "Chờ đến quý sau kiểm tra lại, nếu nhà máy chưa khắc phục thì mới đưa vào báo cáo kiểm toán.",
+      "Ghi vào hồ sơ làm việc, vì xử lý vi phạm pháp luật là trách nhiệm của Ban điều hành nhà máy.",
+      "Báo cáo vi phạm cho người, cơ quan có thẩm quyền xử lý theo quy định pháp luật và chính sách."
+    ],
+    "answer": 3,
+    "explanation": "Khi phát hiện vi phạm pháp luật, kiểm toán viên phải báo cáo cho cá nhân hoặc cơ quan có thẩm quyền hành động phù hợp, theo luật, quy định và chính sách, thủ tục áp dụng (GIAS 1.3). Họ cũng không được che giấu hoặc bỏ sót phát hiện (GIAS 1.1).",
+    "optionNotes": [
+      "Sai. Bảo mật không cho phép che giấu vi phạm pháp luật; chuẩn mực yêu cầu báo cáo cho người có thẩm quyền.",
+      "Sai. Trì hoãn chờ khắc phục là che giấu phát hiện trong khi vi phạm vẫn đang diễn ra.",
+      "Sai. Ban điều hành chịu trách nhiệm khắc phục, nhưng kiểm toán viên vẫn có nghĩa vụ báo cáo vi phạm.",
+      "Đúng. Đúng yêu cầu báo cáo vi phạm pháp luật cho người có thẩm quyền theo kênh quy định."
+    ],
+    "refs": [
+      "GIAS 1.3",
+      "GIAS 1.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-H02",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Trong lúc kiểm toán, kiểm toán viên phát hiện 40 tài khoản người dùng của nhân viên đã nghỉ việc vẫn còn quyền truy cập hệ thống thanh toán. Trưởng phòng CNTT khóa toàn bộ ngay trong ngày và đề nghị bỏ phát hiện khỏi báo cáo vì 'đã xử lý xong'. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Bỏ phát hiện khỏi báo cáo, vì rủi ro đã được loại trừ trước khi cuộc kiểm toán kết thúc.",
+      "Vẫn nêu phát hiện trong báo cáo, kèm ghi nhận biện pháp khắc phục Ban điều hành đã thực hiện.",
+      "Chỉ trao đổi miệng với Trưởng phòng CNTT, vì đưa vào báo cáo sẽ ảnh hưởng uy tín bộ phận.",
+      "Đưa vào phụ lục báo cáo nhưng không xếp hạng mức độ, vì vấn đề không còn tồn tại trên thực tế."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán viên không được che giấu hoặc bỏ sót phát hiện, và phải công bố mọi sự kiện trọng yếu có thể ảnh hưởng đến khả năng ra quyết định của tổ chức (GIAS 1.1). Khoản khắc phục nhanh là thông tin tốt cần ghi nhận, nhưng điểm yếu trong quy trình thu hồi quyền truy cập vẫn tồn tại và người đọc báo cáo cần biết.",
+    "optionNotes": [
+      "Sai. Khóa 40 tài khoản không sửa nguyên nhân gốc là quy trình thu hồi quyền khi nhân viên nghỉ việc.",
+      "Đúng. Nêu đầy đủ phát hiện và ghi nhận hành động khắc phục là cách trình bày trung thực, cân bằng.",
+      "Sai. Bỏ khỏi báo cáo bằng văn bản là che giấu thông tin liên quan khỏi người nhận báo cáo.",
+      "Sai. Đưa vào nhưng làm mờ mức độ là trình bày gây hiểu nhầm về tầm quan trọng của vấn đề."
+    ],
+    "refs": [
+      "GIAS 1.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-H03",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Cuộc kiểm toán một nhà cung cấp phần mềm đã kết thúc tuần trước. Nhà cung cấp mời kiểm toán viên trưởng nhóm tham dự miễn phí khóa đào tạo chứng chỉ quốc tế trị giá 2.500 USD 'như lời cảm ơn', và nói rõ khóa học sẽ giúp nâng cao năng lực chuyên môn. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Nhận lời, vì cuộc kiểm toán đã kết thúc nên không còn ảnh hưởng đến các kết luận đã đưa ra.",
+      "Nhận lời nếu báo trước cho CAE, vì đào tạo giúp đáp ứng yêu cầu phát triển nghề nghiệp liên tục.",
+      "Từ chối, vì lợi ích từ bên liên quan có thể làm suy giảm hoặc bị coi là suy giảm tính khách quan.",
+      "Nhận lời và tự chi trả một phần học phí để món quà không còn được coi là quà tặng nguyên giá trị."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán viên không được nhận bất kỳ vật hữu hình hoặc vô hình nào (quà, phần thưởng, ưu đãi) có thể làm suy giảm hoặc bị coi là làm suy giảm tính khách quan (GIAS 2.2). Thời điểm sau cuộc kiểm toán không loại bỏ nhận thức về suy giảm, và nhà cung cấp có thể lại được kiểm toán.",
+    "optionNotes": [
+      "Sai. Món quà gắn với cuộc kiểm toán vẫn bị coi là suy giảm khách quan, dù nhận sau khi kết thúc.",
+      "Sai. Báo cho CAE không biến ưu đãi từ bên được kiểm toán thành chấp nhận được; mục đích CPD không đổi bản chất.",
+      "Đúng. Đúng quy tắc không nhận ưu đãi có thể bị coi là làm suy giảm khách quan.",
+      "Sai. Trả một phần vẫn là nhận ưu đãi đáng kể từ bên được kiểm toán."
+    ],
+    "refs": [
+      "GIAS 2.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-H04",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Anh Minh làm Trưởng phòng Mua hàng đến hai năm trước rồi chuyển sang kiểm toán nội bộ. Nay Giám đốc vận hành đề nghị kiểm toán nội bộ tư vấn thiết kế lại quy trình lựa chọn nhà cung cấp, và CAE định giao anh Minh. Trước khi nhận việc, cần làm gì?",
+    "options": [
+      "Không cần thêm bước nào, vì anh Minh đã rời vị trí quá 12 tháng nên khách quan không bị coi là suy giảm.",
+      "Không được giao anh Minh, vì người từng phụ trách hoạt động không bao giờ được tham gia tư vấn cho hoạt động đó.",
+      "Chỉ cần ghi chú trong hồ sơ cuộc tư vấn rằng anh Minh từng là Trưởng phòng Mua hàng của tổ chức.",
+      "Công bố các suy giảm tiềm ẩn cho Giám đốc vận hành, bên đề nghị tư vấn, trước khi nhận cuộc tư vấn."
+    ],
+    "answer": 3,
+    "explanation": "Nếu kiểm toán viên tư vấn về hoạt động mà họ từng phụ trách, họ phải công bố các suy giảm tiềm ẩn cho bên đề nghị dịch vụ trước khi nhận việc (GIAS 2.2). Quy tắc 12 tháng là quy tắc riêng cho dịch vụ đảm bảo, không miễn nghĩa vụ công bố trong dịch vụ tư vấn.",
+    "optionNotes": [
+      "Sai. Bẫy nhầm quy tắc: mốc 12 tháng áp dụng cho dịch vụ đảm bảo; tư vấn có yêu cầu công bố riêng.",
+      "Sai. Chuẩn mực cho phép tư vấn, với điều kiện công bố trước cho bên đề nghị.",
+      "Sai. Ghi chú nội bộ không phải là công bố cho bên đề nghị dịch vụ trước khi nhận việc.",
+      "Đúng. Đúng người nhận công bố (bên đề nghị) và đúng thời điểm (trước khi nhận việc)."
+    ],
+    "refs": [
+      "GIAS 2.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-H05",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 3,
+    "stem": "Khi thực hiện sự thận trọng nghề nghiệp đúng mức, kiểm toán viên phải cân nhắc bản chất, hoàn cảnh và yêu cầu của dịch vụ. Yếu tố nào sau đây KHÔNG phải là yếu tố cần cân nhắc theo Chuẩn mực?",
+    "options": [
+      "Chi phí của dịch vụ kiểm toán nội bộ so với lợi ích tiềm năng mà dịch vụ đó mang lại.",
+      "Khả năng xảy ra sai sót trọng yếu, gian lận, không tuân thủ và rủi ro ảnh hưởng mục tiêu.",
+      "Bảo đảm tuyệt đối rằng hoạt động được kiểm toán không còn sai sót hay gian lận trọng yếu nào.",
+      "Việc sử dụng các kỹ thuật, công cụ và công nghệ phù hợp với cuộc kiểm toán cần thực hiện."
+    ],
+    "answer": 2,
+    "explanation": "Thận trọng nghề nghiệp đúng mức gồm cân nhắc chi phí so với lợi ích, khả năng xảy ra sai sót, gian lận, không tuân thủ, và việc dùng kỹ thuật, công cụ, công nghệ phù hợp (GIAS 4.2). Chuẩn mực nói rõ kiểm toán viên không được kỳ vọng là không bao giờ sai (Nguyên tắc 4), nên bảo đảm tuyệt đối không phải là yêu cầu.",
+    "optionNotes": [
+      "Sai. Chi phí so với lợi ích là một yếu tố được liệt kê trong chuẩn mực.",
+      "Sai. Khả năng xảy ra sai sót, gian lận, không tuân thủ là một yếu tố được liệt kê.",
+      "Đúng. Thận trọng đúng mức không đòi hỏi bảo đảm tuyệt đối; kiểm toán viên không được kỳ vọng là không bao giờ sai.",
+      "Sai. Kỹ thuật, công cụ và công nghệ phù hợp là một yếu tố được liệt kê."
+    ],
+    "refs": [
+      "GIAS 4.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-H06",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 3,
+    "stem": "Một kiểm toán viên được mời trình bày tại hội thảo nghề nghiệp. Anh muốn dùng một tình huống gian lận thật phát hiện năm ngoái tại công ty, đã thay tên người và đơn vị, để minh họa kỹ thuật phân tích dữ liệu. Nhận định nào đúng nhất?",
+    "options": [
+      "Được dùng tự do, vì thông tin đã được ẩn danh và mục đích là chia sẻ kiến thức cho nghề nghiệp.",
+      "Chỉ được dùng khi tuân thủ chính sách, thủ tục và quy định của tổ chức, kể cả việc xin phép.",
+      "Không bao giờ được dùng, vì mọi thông tin thu được khi kiểm toán là bí mật vĩnh viễn của tổ chức.",
+      "Được dùng sau khi kiểm toán viên rời tổ chức, vì nghĩa vụ bảo mật chỉ áp dụng khi còn làm việc."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán viên phải tuân thủ chính sách, thủ tục, pháp luật liên quan khi sử dụng thông tin, và không dùng thông tin theo cách trái với hoặc gây hại cho mục tiêu hợp pháp của tổ chức (GIAS 5.1). Ẩn danh chưa chắc đủ, vì tình huống vẫn có thể bị nhận ra; quyết định thuộc chính sách và sự cho phép của tổ chức.",
+    "optionNotes": [
+      "Sai. Ẩn danh không thay thế việc tuân thủ chính sách sử dụng thông tin; tình huống vẫn có thể bị nhận diện.",
+      "Đúng. Việc sử dụng thông tin phải theo chính sách, thủ tục của tổ chức, nên cần xin phép.",
+      "Sai. Quá tuyệt đối: chuẩn mực cho phép sử dụng thông tin theo đúng chính sách và quy định.",
+      "Sai. Nghĩa vụ bảo mật không chấm dứt khi kiểm toán viên rời tổ chức."
+    ],
+    "refs": [
+      "GIAS 5.1",
+      "GIAS 5.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-H07",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Khi lập kế hoạch, kiểm toán viên lấy mức xếp hạng rủi ro 'Thấp' của năm trước làm điểm xuất phát cho kho hàng miền Bắc và chỉ điều chỉnh rất ít, dù kho vừa thay toàn bộ quản lý và chuyển sang hệ thống quản lý kho mới. Thiên lệch nào thể hiện rõ nhất?",
+    "options": [
+      "Thiên lệch xác nhận: chỉ tìm và coi trọng bằng chứng ủng hộ kết luận mình đã có từ trước.",
+      "Thiên lệch tư duy nhóm: chấp nhận quan điểm chung của nhóm để tránh mâu thuẫn trong nhóm.",
+      "Thiên lệch sẵn có: đánh giá dựa trên những sự việc gần đây, dễ nhớ, gây ấn tượng mạnh nhất.",
+      "Thiên lệch neo: dựa quá nhiều vào thông tin ban đầu và điều chỉnh không đủ khi có thay đổi."
+    ],
+    "answer": 3,
+    "explanation": "Thiên lệch neo (anchoring) là bám vào một điểm xuất phát (xếp hạng năm trước) và điều chỉnh không đủ dù hoàn cảnh đã thay đổi lớn. Kiểm toán viên phải nhận biết và quản lý các thiên lệch tiềm ẩn để giữ tư duy khách quan (GIAS 2.1).",
+    "optionNotes": [
+      "Sai. Tình huống không nói kiểm toán viên chọn lọc bằng chứng; vấn đề là điểm xuất phát bị neo.",
+      "Sai. Không có yếu tố áp lực hay đồng thuận của nhóm trong tình huống.",
+      "Sai. Thiên lệch sẵn có dựa vào sự kiện dễ nhớ; ở đây là bám vào con số năm trước.",
+      "Đúng. Bám vào xếp hạng cũ và điều chỉnh quá ít là đặc trưng của thiên lệch neo."
+    ],
+    "refs": [
+      "GIAS 2.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-H08",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Trong một cuộc họp không liên quan đến cuộc kiểm toán đang làm, kiểm toán viên nghe Trưởng phòng Kinh doanh chỉ đạo nhân viên ký lùi ngày hợp đồng để ghi nhận doanh thu vào quý này. Mảng kinh doanh không thuộc phạm vi kiểm toán năm nay. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Báo cáo mối lo ngại theo chính sách, thủ tục áp dụng của tổ chức về hành vi trái đạo đức.",
+      "Không xử lý, vì sự việc nằm ngoài phạm vi cuộc kiểm toán đã được phê duyệt trong kế hoạch.",
+      "Tự mở rộng phạm vi cuộc kiểm toán hiện tại sang mảng kinh doanh để thu thập thêm bằng chứng.",
+      "Gặp riêng Trưởng phòng Kinh doanh để nhắc nhở, tránh làm lớn chuyện khi chưa có bằng chứng."
+    ],
+    "answer": 0,
+    "explanation": "Khi nhận thấy hành vi không phù hợp với chuẩn mực đạo đức của tổ chức, kiểm toán viên phải báo cáo mối lo ngại theo chính sách, thủ tục áp dụng (GIAS 1.2). Phạm vi cuộc kiểm toán không giới hạn nghĩa vụ này; mở rộng phạm vi là việc cần CAE quyết định.",
+    "optionNotes": [
+      "Đúng. Đúng nghĩa vụ báo cáo hành vi trái chuẩn mực đạo đức qua kênh quy định.",
+      "Sai. Nghĩa vụ báo cáo hành vi trái đạo đức không phụ thuộc phạm vi cuộc kiểm toán.",
+      "Sai. Kiểm toán viên không tự mở rộng phạm vi; thay đổi phạm vi phải theo phương pháp và phê duyệt.",
+      "Sai. Tự nhắc nhở riêng không phải là báo cáo theo kênh quy định và có thể làm mất bằng chứng."
+    ],
+    "refs": [
+      "GIAS 1.2"
+    ],
+    "source": "original"
   }
 ]
