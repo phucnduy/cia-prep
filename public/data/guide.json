@@ -1,0 +1,146 @@
+{
+  "title": "Tìm hiểu về chứng chỉ CIA",
+  "lede": "Những điều cần biết trước khi bắt đầu: CIA là gì, ai nên học, quy trình ghi danh và thi, chi phí, cách học và đi thi. Thông tin về quy định và lệ phí được đối chiếu với trang chính thức của IIA; quy định có thể thay đổi, hãy kiểm tra lại trước khi đăng ký.",
+  "checked": "Đối chiếu với theiia.org ngày 12/11/2026",
+  "sections": [
+    {
+      "id": "cia",
+      "title": "CIA là gì",
+      "blocks": [
+        { "type": "p", "text": "CIA (Certified Internal Auditor) là chứng chỉ kiểm toán nội bộ do The Institute of Internal Auditors (IIA) cấp. Theo IIA, hiện có hơn 220.000 người giữ chứng chỉ CIA tại 170 quốc gia." },
+        { "type": "p", "text": "Nội dung CIA tập trung vào chính nghề kiểm toán nội bộ: vai trò và chuẩn mực nghề nghiệp (GIAS), quản trị, quản lý rủi ro, kiểm soát, gian lận, cách thực hiện một cuộc kiểm toán và cách quản lý chức năng kiểm toán nội bộ." },
+        { "type": "table", "title": "Kiểm toán nội bộ và kiểm toán độc lập", "columns": ["", "Kiểm toán nội bộ", "Kiểm toán độc lập"], "rows": [
+          ["Phục vụ ai", "HĐQT (giám sát) và Ban điều hành", "Cổ đông và người sử dụng báo cáo tài chính"],
+          ["Mục tiêu", "Đảm bảo và tư vấn về quản trị, rủi ro, kiểm soát để tổ chức đạt mục tiêu", "Ý kiến về tính trung thực, hợp lý của báo cáo tài chính"],
+          ["Góc nhìn", "Cả hiện tại và tương lai: rủi ro có đang được kiểm soát tốt không", "Chủ yếu các giao dịch đã phát sinh trong kỳ"],
+          ["Chuẩn mực", "Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS)", "Chuẩn mực kiểm toán (ví dụ ISA, VSA)"],
+          ["Chứng chỉ thường gặp", "CIA", "CPA, ACCA"]
+        ] },
+        { "type": "note", "text": "Tại Việt Nam, Nghị định 05/2019/NĐ-CP quy định về kiểm toán nội bộ và yêu cầu một số nhóm doanh nghiệp (như công ty niêm yết, một số doanh nghiệp có vốn nhà nước) phải tổ chức công tác kiểm toán nội bộ." }
+      ]
+    },
+    {
+      "id": "who",
+      "title": "CIA phù hợp với ai",
+      "blocks": [
+        { "type": "list", "items": [
+          "Người đang làm hoặc muốn làm kiểm toán nội bộ, kể cả người mới ra trường.",
+          "Người làm quản lý rủi ro, kiểm soát nội bộ, tuân thủ, muốn có nền tảng chuẩn về quản trị, rủi ro, kiểm soát.",
+          "Người làm kiểm toán độc lập, kế toán, tài chính muốn chuyển sang kiểm toán nội bộ."
+        ] },
+        { "type": "p", "text": "Nếu định hướng của bạn là kế toán, thuế, kiểm toán báo cáo tài chính hay tài chính doanh nghiệp, các chứng chỉ như CPA, ACCA, CMA có thể phù hợp hơn. Sau CIA, có thể bổ sung chứng chỉ theo hướng chuyên sâu: CRMA (quản lý rủi ro), CISA (kiểm toán CNTT), CFE (điều tra gian lận)." }
+      ]
+    },
+    {
+      "id": "exam",
+      "title": "Cấu trúc kỳ thi",
+      "blocks": [
+        { "type": "parts" },
+        { "type": "list", "items": [
+          "Toàn bộ là câu trắc nghiệm, mỗi câu có một đáp án đúng nhất. Đề có thể gồm một số câu thử nghiệm không tính điểm.",
+          "Thi trên máy tại trung tâm Pearson VUE (hoặc hình thức IIA cho phép tại thời điểm đăng ký).",
+          "Điểm theo thang quy đổi 250-750, đạt từ 600. IIA không công bố cách quy đổi sang số câu đúng.",
+          "Thời gian trung bình khoảng 72 giây mỗi câu ở cả ba phần (150 phút cho 125 câu; 120 phút cho 100 câu).",
+          "IIA không bắt buộc thứ tự thi. Với người mới, thứ tự Part 1, Part 2, Part 3 hợp lý vì đi từ nền tảng, đến thực hiện cuộc kiểm toán, rồi quản lý chức năng."
+        ] }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Quy trình: ghi danh, thi, nhận chứng chỉ",
+      "blocks": [
+        { "type": "steps", "items": [
+          { "title": "Ghi danh chương trình", "text": "Tạo hồ sơ trên hệ thống CCMS của IIA, nộp giấy tờ (bằng cấp, giấy tờ tùy thân) và phí ghi danh. Người có bằng cử nhân hoặc thạc sĩ ghi danh trực tiếp. Sinh viên hoặc người chưa có bằng đại học theo quy định hiện hành phải thi đạt chứng chỉ IAP trong vòng 2 năm, rồi ghi danh CIA với tư cách người giữ IAP. Người có CPA/CA hoặc CISA có thể chọn bài thi Challenge Exam thay cho ba phần thi." },
+          { "title": "Đăng ký và thi từng phần", "text": "Chọn phần thi và thanh toán trên CCMS, rồi đặt ngày, giờ, địa điểm, ngôn ngữ thi trên hệ thống Pearson VUE. Mỗi lượt đăng ký thi có hiệu lực 180 ngày (hoặc đến khi chương trình hết hạn, tùy mốc nào sớm hơn); không thi trong thời gian này thì mất lượt. Bạn có 3 năm để hoàn thành các yêu cầu của chương trình. Kết quả chính thức được gửi trong vòng 3 tuần sau ngày thi." },
+          { "title": "Xác nhận kinh nghiệm và nhận chứng chỉ", "text": "Sau khi đạt đủ ba phần, xác nhận kinh nghiệm làm việc trên CCMS: 1 năm nếu có bằng thạc sĩ, 2 năm nếu có bằng cử nhân, 5 năm nếu là người giữ IAP không có bằng đại học. Không cần có kinh nghiệm mới được đi thi; kinh nghiệm là điều kiện để được cấp chứng chỉ." },
+          { "title": "Duy trì chứng chỉ", "text": "Người giữ CIA đang hành nghề cần 40 giờ đào tạo liên tục (CPE) mỗi năm, trong đó 2 giờ về đạo đức; người không hành nghề cần 20 giờ. Báo cáo trước 31/12 hằng năm trên CCMS." }
+        ] },
+        { "type": "note", "text": "Thời hạn gia hạn chương trình, đổi lịch thi và các phí phát sinh có thể thay đổi; hãy xem trực tiếp trong CCMS và Candidate Handbook của IIA trước khi đăng ký." }
+      ]
+    },
+    {
+      "id": "fees",
+      "title": "Lệ phí thi (USD)",
+      "blocks": [
+        { "type": "table", "title": "Lệ phí theo trang chính thức của IIA", "columns": ["Khoản phí", "Hội viên IIA", "Không phải hội viên"], "rows": [
+          ["Phí ghi danh chương trình CIA", "120", "240"],
+          ["Part 1", "310", "445"],
+          ["Part 2", "280", "415"],
+          ["Part 3", "280", "415"],
+          ["Tổng (ghi danh + 3 phần)", "990", "1.515"],
+          ["Ghi danh Challenge Exam", "150", "380"],
+          ["Challenge Exam", "845", "1.245"]
+        ] },
+        { "type": "list", "items": [
+          "Là hội viên IIA (ví dụ qua IIA Việt Nam) giúp được hưởng mức phí hội viên; cần tính thêm phí hội viên hằng năm.",
+          "Phí thi không gồm tài liệu ôn thi.",
+          "IIA thông báo sẽ thay đổi biểu phí từ ngày 4/1/2027. IIA cũng thường có các đợt ưu đãi phí; theo dõi thông báo chính thức.",
+          "Đổi lịch thi, thi lại hoặc gia hạn đều có thể phát sinh thêm phí, nên chỉ đặt lịch khi kế hoạch học đã chắc."
+        ] }
+      ]
+    },
+    {
+      "id": "study",
+      "title": "Cách học hiệu quả với trang này",
+      "blocks": [
+        { "type": "list", "items": [
+          "Đọc syllabus trước: biết mỗi phần gồm chủ đề nào, tỷ trọng bao nhiêu. Trên trang này, mục Học lý thuyết đi theo đúng các chủ đề của syllabus.",
+          "Học hiểu, không học thuộc: câu hỏi CIA thường là tình huống, hỏi phương án phù hợp nhất. Đọc phần giải thích chi tiết và ví dụ tình huống trong mỗi bài.",
+          "Học đến đâu, luyện đến đó: sau mỗi bài, bấm 'Luyện N câu' của chủ đề đó, đọc giải thích của cả bốn phương án.",
+          "Xem câu sai là dữ liệu: dùng 'Ôn câu sai' để làm lại cho đến khi đúng.",
+          "Ba giai đoạn: học và luyện theo chủ đề; tổng ôn và luyện chéo các chủ đề; làm đề thi thử bấm giờ để rèn tốc độ.",
+          "Dùng một bộ giáo trình chính và tài liệu gốc của IIA (syllabus, GIAS); trang này phù hợp để ôn tập và luyện đề, không thay thế giáo trình."
+        ] }
+      ]
+    },
+    {
+      "id": "tactics",
+      "title": "Kỹ năng làm bài trắc nghiệm",
+      "blocks": [
+        { "type": "list", "items": [
+          "Với câu dài, đọc câu hỏi ở cuối trước để biết cần tìm gì trong tình huống.",
+          "Gạch chân từ khóa: nhất, tốt nhất, đầu tiên, chủ yếu, KHÔNG, NGOẠI TRỪ. Bỏ sót một từ là dễ chọn sai.",
+          "Loại trừ phương án sai rõ ràng trước, rồi so sánh các phương án còn lại.",
+          "Chưa chắc thì chọn phương án hợp lý nhất, đánh dấu, quay lại sau. Không dừng quá lâu ở một câu.",
+          "Không để trống: câu bỏ trống chắc chắn không có điểm. Trong phòng thi trên trang này, nút Đánh dấu, gạch bỏ phương án và bảng câu hỏi mô phỏng đúng các công cụ đó.",
+          "Theo dõi nhịp: khoảng 72 giây mỗi câu. Phòng thi thử trên trang này hiển thị bạn đang nhanh hay chậm so với nhịp này."
+        ] }
+      ]
+    },
+    {
+      "id": "examday",
+      "title": "Trước và trong ngày thi",
+      "blocks": [
+        { "type": "list", "items": [
+          "Ngày trước thi: rà nhanh sơ đồ, ghi chú hoặc syllabus; dừng lại xem kỹ những chỗ còn chưa chắc, không học nội dung mới.",
+          "Chuẩn bị giấy tờ tùy thân đúng tên đã đăng ký, kiểm tra địa điểm và đường đi, đến sớm để làm thủ tục.",
+          "Ăn uống đủ, mặc nhiều lớp để dễ điều chỉnh; giảm mọi thứ gây phân tâm.",
+          "Dùng hết thời gian: không có điểm thưởng cho người nộp sớm. Dành vài phút cuối để điền các câu còn trống.",
+          "Gặp nhiều câu khó liên tiếp ở đầu bài là bình thường; giữ bình tĩnh và làm từng câu.",
+          "Nếu chưa đạt: xem báo cáo kết quả theo từng phần để biết phần yếu, học lại phần đó trước khi luyện đề tiếp."
+        ] }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Câu hỏi thường gặp",
+      "blocks": [
+        { "type": "faq", "items": [
+          { "q": "Không học kiểm toán có thi CIA được không?", "a": "Được. Điều kiện về học vấn là bằng đại học, không giới hạn chuyên ngành. Người học kế toán, tài chính, kinh doanh, CNTT đều phổ biến trong nghề kiểm toán nội bộ." },
+          { "q": "Tiếng Anh chưa tốt có thi được không?", "a": "Được. Theo IIA, từ ngày 28/8/2026 thí sinh có thể đăng ký thi CIA bằng tiếng Việt. Nếu thi bằng tiếng Anh, chủ yếu cần kỹ năng đọc hiểu thuật ngữ chuyên ngành." },
+          { "q": "Có cần kinh nghiệm mới được thi không?", "a": "Không. Kinh nghiệm (1-2 năm tùy bằng cấp) là điều kiện để được cấp chứng chỉ sau khi đã thi đạt, không phải điều kiện để đi thi." },
+          { "q": "Vừa đi làm vừa học có khả thi không?", "a": "Có, đa số người học như vậy. Điều quan trọng là lịch học đều đặn hằng tuần, không quá dày, và đặt lịch thi khi kế hoạch đã chắc." },
+          { "q": "Phí thi có gồm tài liệu không?", "a": "Không. Tài liệu, ngân hàng câu hỏi hoặc khóa học là chi phí riêng." },
+          { "q": "Khi nào thì sẵn sàng đi thi?", "a": "Không có ngưỡng chính thức. Một dấu hiệu tốt là bạn đạt ổn định trên mục tiêu luyện tập ở nhiều đề thi thử đầy đủ, bấm giờ, và hiểu được vì sao các phương án sai là sai." },
+          { "q": "Chứng chỉ CIA có phải duy trì không?", "a": "Có. Mỗi năm cần báo cáo giờ CPE (40 giờ với người đang hành nghề, gồm 2 giờ đạo đức) và tự xác nhận tuân thủ yêu cầu của IIA." }
+        ] }
+      ]
+    }
+  ],
+  "sources": [
+    { "label": "IIA - Certified Internal Auditor (điều kiện, lệ phí, ngôn ngữ, kết quả)", "url": "https://www.theiia.org/en/certifications/cia/" },
+    { "label": "IIA - CPE Requirements", "url": "https://www.theiia.org/en/certifications/already-certified/cpe-requirements/" },
+    { "label": "IIA - CIA Exam Syllabus 2025", "url": "https://www.theiia.org/globalassets/site/certifications/certified-internal-auditor/cia-exam-why-how-and-what-is-changing/cia-exam-why-and-how-it-is-changing2.pdf" },
+    { "label": "IIA - Certification Candidate Handbook", "url": "https://www.theiia.org/globalassets/site/certifications/certification-candidate-handbook.pdf" }
+  ]
+}

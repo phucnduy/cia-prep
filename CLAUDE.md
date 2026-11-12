@@ -18,6 +18,7 @@ Every rule below exists because the mistake it prevents already happened once in
   - 13.6: the CAE approves the work program before it is used, and approves changes promptly.
 - **Name the source of non-GIAS frameworks:** COSO 2013 / COSO ERM 2017 / ISO 31000:2018 / ACFE / IIA Three Lines. The threat categories (self-interest, self-review, familiarity, intimidation, advocacy) come from the **IESBA Code**, not GIAS.
 - **Exam structure must follow the current syllabus** (the CIA 2025 syllabus, source URL in `public/data/parts.json`). Never fall back to the 2019 domains. For counts, times, weights or the pass mark, re-check theiia.org.
+- **Third-party guides** (for example a training provider's CIA handbook) may be used only for facts, re-checked against theiia.org and written in our own words. Do not copy their text, tables, case studies or structure, especially when they carry a no-copying notice. `guide.json` facts (fees, eligibility, deadlines, CPE) must be re-checked on theiia.org whenever edited; IIA changes fees from 4 January 2027.
 - **Questions are original.** Never copy or paraphrase IIA questions (sample questions, practice questions, retired exam items); they are copyrighted.
 
 ## 2. Exam style (follow IIA's official sample questions)

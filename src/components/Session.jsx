@@ -141,6 +141,7 @@ export default function Session({ index, manifest, data }) {
           </small>
         </div>
         <div className="tools">
+          {isExam && <Pace session={session} now={now} answered={answeredCount} />}
           {isExam && (
             <span className={`timer ${remaining <= LOW_TIME_SECONDS ? 'low' : ''}`} role="timer" aria-label="Thời gian còn lại">
               {formatClock(remaining)}
@@ -300,6 +301,29 @@ export default function Session({ index, manifest, data }) {
         />
       )}
     </div>
+  );
+}
+
+/**
+ * Pace vs. the exam's own budget per question (minutes / questions; 72 s on all
+ * three CIA parts). Compares questions answered with questions that "should" be
+ * done by now; a small tolerance avoids flicker at the start.
+ */
+const PACE_TOLERANCE = 2;
+function Pace({ session, now, answered }) {
+  const secondsPerQuestion = (session.minutes * 60) / session.items.length;
+  const elapsed = Math.max(0, (now - session.startedAt) / 1000);
+  const expected = Math.min(session.items.length, Math.floor(elapsed / secondsPerQuestion));
+  const diff = answered - expected;
+  const behind = diff < -PACE_TOLERANCE;
+  const label = behind ? `Chậm ${-diff} câu` : diff > PACE_TOLERANCE ? `Nhanh ${diff} câu` : 'Đúng nhịp';
+  return (
+    <span
+      className={`pace ${behind ? 'behind' : ''}`}
+      title={`Nhịp chuẩn khoảng ${Math.round(secondsPerQuestion)} giây mỗi câu; theo thời gian đã trôi qua, bạn nên làm xong khoảng ${expected} câu.`}
+    >
+      {label}
+    </span>
   );
 }
 

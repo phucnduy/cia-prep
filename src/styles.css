@@ -508,6 +508,44 @@ textarea.input { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; fo
 .breakdown-row .bar i { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--ink); opacity: 0.5; }
 @keyframes grow { from { transform: scaleX(0); } }
 
+/* ---------- Guide (Tìm hiểu CIA) ---------- */
+.lbl-short { display: none; }
+.guide-head { padding: 36px 0 12px; max-width: 760px; }
+.guide-head h1 { font-size: var(--text-hero); margin-top: 10px; }
+.guide-layout { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 36px; align-items: start; margin-top: 18px; }
+.guide-layout > * { min-width: 0; }
+.guide-toc { position: sticky; top: 80px; display: grid; gap: 2px; }
+.guide-toc a { text-decoration: none; padding: 7px 10px; border-radius: var(--radius-s); font-size: var(--text-sm); color: var(--ink-2); display: flex; gap: 10px; }
+.guide-toc a:hover { background: var(--surface-2); color: var(--ink); }
+.guide-toc .mono { color: var(--copper); font-weight: 700; font-size: var(--text-xs); padding-top: 2px; }
+.guide-body { max-width: 780px; }
+.guide-section { padding: 26px 0; border-top: 1px solid var(--line); }
+.guide-section:first-child { border-top: 0; padding-top: 0; }
+.guide-section h2 { font-family: var(--font-read); font-size: var(--text-2xl); display: flex; gap: 14px; align-items: baseline; margin-bottom: 12px; }
+.guide-section h2 .mono { font-family: var(--font-ui); font-size: var(--text-sm); color: var(--copper); }
+.guide-p { line-height: 1.7; margin: 0 0 12px; }
+.guide-note { margin: 14px 0 0; }
+.guide-list { margin: 0; padding-left: 20px; display: grid; gap: 8px; line-height: 1.6; }
+.guide-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.guide-steps li { display: grid; grid-template-columns: 34px 1fr; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-m); padding: 14px 16px; }
+.guide-steps p { margin: 4px 0 0; font-size: var(--text-sm); line-height: 1.6; color: var(--ink-2); }
+.step-n { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--navy); color: var(--on-navy); font-weight: 700; }
+.guide-parts { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.guide-parts .topic-card { gap: 8px; min-width: 0; }
+.guide-parts .legend span { white-space: normal; overflow: visible; }
+.guide-cta { margin: 10px 0 0; padding: 20px; border-radius: var(--radius-l); background: var(--navy); color: var(--on-navy); display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+.guide-cta .muted { color: color-mix(in srgb, var(--on-navy) 75%, transparent); flex: 1 1 260px; }
+.home-guide {
+  display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin: 0 0 22px; padding: 16px 20px; text-decoration: none;
+  border: 1px dashed var(--line-strong); border-radius: var(--radius-l); background: var(--surface);
+  transition: border-color var(--fast), transform 200ms var(--ease);
+}
+.home-guide:hover { border-color: var(--copper); transform: translateY(-1px); }
+.home-guide b { font-family: var(--font-read); font-size: var(--text-lg); }
+.home-guide span { color: var(--ink-2); font-size: var(--text-sm); flex: 1 1 280px; }
+.pace { font-size: var(--text-xs); font-weight: 600; padding: 4px 9px; border-radius: 999px; background: color-mix(in srgb, var(--on-navy) 10%, transparent); white-space: nowrap; }
+.pace.behind { background: var(--flag); color: #1a1300; }
+
 .empty { text-align: center; padding: 48px 16px; color: var(--ink-3); }
 .loading { display: grid; place-items: center; min-height: 50vh; color: var(--ink-3); }
 
@@ -517,6 +555,8 @@ textarea.input { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; fo
   .part-card { min-height: 0; }
   .how { grid-template-columns: 1fr 1fr; }
   .toc { position: static; max-height: none; border-top: 1px solid var(--line); padding-top: 16px; }
+  .guide-layout { grid-template-columns: minmax(0, 1fr); }
+  .guide-toc { position: static; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
   .study-main { order: -1; }
 }
 @media (max-width: 600px) {
@@ -524,6 +564,9 @@ textarea.input { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; fo
   .brand { white-space: nowrap; }
   .topnav { gap: 2px; }
   .topnav a { padding: 6px 8px; white-space: nowrap; }
+  .lbl-long { display: none; }
+  .lbl-short { display: inline; }
+  .pace { display: none; }
   .brand small { display: none; }
   .hero-facts b { font-size: var(--text-xl); }
   .how { grid-template-columns: 1fr; }
@@ -534,6 +577,10 @@ textarea.input { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; fo
   .option { grid-template-columns: 30px 1fr 30px; padding: 10px; }
   .history .hide-sm { display: none; }
   .score-ring { width: 140px; height: 140px; }
+}
+@media (max-width: 420px) {
+  /* Header is full at phone width: keep the logo mark, drop the wordmark. */
+  .brand > span:not(.brand-mark) { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }

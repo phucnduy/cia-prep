@@ -26,7 +26,8 @@ Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành
 
 ## Tính năng
 
-- **Thi thử mô phỏng**: đủ số câu và thời gian như đề thật, rút câu theo tỷ trọng từng section, xáo trộn thứ tự đáp án mỗi lần thi, bấm giờ (tự nộp khi hết giờ), đánh dấu câu, gạch bỏ phương án (nút hoặc chuột phải), bảng câu hỏi, màn hình xem lại trước khi nộp, máy tính.
+- **Tìm hiểu CIA**: điều kiện ghi danh, quy trình thi, lệ phí, duy trì chứng chỉ, cách học, kỹ năng làm bài, câu hỏi thường gặp; quy định và lệ phí đối chiếu với trang chính thức của IIA.
+- **Thi thử mô phỏng**: đủ số câu và thời gian như đề thật, rút câu theo tỷ trọng từng section, xáo trộn thứ tự đáp án mỗi lần thi, bấm giờ (tự nộp khi hết giờ), chỉ báo nhịp làm bài (khoảng 72 giây/câu), đánh dấu câu, gạch bỏ phương án (nút hoặc chuột phải), bảng câu hỏi, màn hình xem lại trước khi nộp, máy tính.
 - **Luyện tập theo chuyên đề**: chọn section và số câu, xem đáp án và giải thích (kèm căn cứ GIAS) ngay sau mỗi câu.
 - **Ôn câu sai**: mọi câu làm sai được lưu lại, làm đúng thì tự xóa khỏi danh sách.
 - **Học lý thuyết**: một bài học cho mỗi chủ đề syllabus (tóm tắt, ý chính, thuật ngữ Anh - Việt, bẫy thường gặp, căn cứ), luyện riêng câu hỏi của chủ đề, tỷ lệ đúng theo chủ đề, đánh dấu đã học và tiến độ; kèm thẻ kiến thức theo section.
@@ -40,6 +41,7 @@ Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành
 ```
 public/data/                  <- DỮ LIỆU (tách riêng khỏi giao diện)
   parts.json                  danh sách phần thi, thang điểm, nguồn syllabus
+  guide.json                  nội dung trang Tìm hiểu CIA
   p1/manifest.json            số câu, thời gian, section, tỷ trọng, chủ đề syllabus
   p1/questions-A.json ...     câu hỏi, mỗi section một file
   p1/lessons.json             bài học, mỗi chủ đề syllabus một bài

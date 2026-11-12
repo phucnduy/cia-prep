@@ -21,6 +21,10 @@ export async function loadIndex() {
   return { ...index, manifests };
 }
 
+export function loadGuide() {
+  return getJson('data/guide.json');
+}
+
 export async function loadPart(manifest) {
   const base = `data/${manifest.id}`;
   const [sectionFiles, study, lessons] = await Promise.all([

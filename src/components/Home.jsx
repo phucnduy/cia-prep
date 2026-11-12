@@ -47,6 +47,12 @@ export default function Home({ index }) {
         </div>
       </section>
 
+      <a className="home-guide" href="#/guide">
+        <b>Mới tìm hiểu về CIA?</b>
+        <span>Điều kiện ghi danh, quy trình thi, lệ phí, cách học và kinh nghiệm đi thi, đối chiếu với thông tin chính thức của IIA.</span>
+        <Icon name="arrow" />
+      </a>
+
       <section className="parts" aria-label="Các phần thi">
         {index.manifests.map((m, i) => {
           const history = load(keys.history(m.id), []);
