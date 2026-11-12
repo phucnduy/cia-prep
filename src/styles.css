@@ -286,6 +286,8 @@ textarea.input { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; fo
 
 /* ---------- Study ---------- */
 .study-layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 32px; align-items: start; }
+/* Let wide children (comparison tables) scroll inside their box instead of widening the page. */
+.study-layout > * { min-width: 0; }
 .toc { position: sticky; top: 80px; display: grid; gap: 2px; max-height: calc(100vh - 100px); overflow-y: auto; padding-right: 4px; }
 .toc-progress { font-size: var(--text-xs); color: var(--ink-2); padding: 4px 12px 14px; }
 .toc-progress .bar { height: 4px; background: var(--surface-2); border-radius: 999px; margin-top: 6px; overflow: hidden; }
@@ -338,6 +340,29 @@ textarea.input { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; fo
   padding: 10px 14px; border-radius: var(--radius-s); background: var(--bad-soft);
   border-left: 3px solid var(--bad); font-size: var(--text-sm); line-height: 1.5;
 }
+.lesson-details { display: grid; gap: 18px; }
+.lesson-details h4 { font-family: var(--font-read); font-size: var(--text-lg); margin: 0 0 6px; line-height: 1.35; }
+.lesson-details p { margin: 0 0 8px; line-height: 1.65; }
+.compare-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-m); background: var(--surface); }
+.compare { border-collapse: collapse; width: 100%; min-width: 560px; font-size: var(--text-sm); }
+.compare th, .compare td { padding: 10px 12px; border-top: 1px solid var(--line); text-align: left; vertical-align: top; line-height: 1.5; }
+.compare thead th { border-top: 0; background: var(--surface-2); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-2); }
+.compare tbody th { font-weight: 600; width: 22%; }
+.lesson-example {
+  margin-top: 28px; padding: 18px 20px; border-radius: var(--radius-m);
+  background: color-mix(in srgb, var(--copper-soft) 55%, var(--surface)); border: 1px solid color-mix(in srgb, var(--copper) 30%, transparent);
+}
+.lesson-example h4 { font-family: var(--font-read); font-size: var(--text-lg); margin: 6px 0 8px; }
+.lesson-example p { margin: 0 0 8px; line-height: 1.6; font-size: var(--text-sm); }
+.lesson-example .analysis { margin: 0; }
+.checks { display: grid; gap: 8px; }
+.check { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-m); }
+.check summary { list-style: none; cursor: pointer; padding: 12px 14px; display: flex; gap: 10px; font-weight: 600; font-size: var(--text-sm); line-height: 1.45; }
+.check summary::-webkit-details-marker { display: none; }
+.check summary::after { content: 'Xem đáp án'; margin-left: auto; flex: none; font-weight: 500; font-size: var(--text-xs); color: var(--copper); padding-left: 10px; }
+.check[open] summary::after { content: 'Ẩn'; }
+.check p { margin: 0; padding: 0 14px 14px 46px; font-size: var(--text-sm); line-height: 1.55; color: var(--ink-2); }
+.check-n { width: 22px; height: 22px; flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--surface-2); font-size: var(--text-xs); }
 .lesson-nav { display: flex; justify-content: space-between; gap: 10px; margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); flex-wrap: wrap; }
 .lesson-nav .btn { white-space: normal; text-align: left; }
 .cards { display: grid; gap: 14px; }

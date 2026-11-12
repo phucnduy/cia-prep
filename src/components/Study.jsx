@@ -218,7 +218,59 @@ function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggl
         <>
           <p className="lesson-summary">{lesson.summary}</p>
 
-          <h3 className="study-h3">Ý chính</h3>
+          {lesson.details?.length > 0 && (
+            <>
+              <h3 className="study-h3">Giải thích chi tiết</h3>
+              <div className="lesson-details">
+                {lesson.details.map((d) => (
+                  <section key={d.heading}>
+                    <h4>{d.heading}</h4>
+                    {d.body.map((para, i) => (
+                      <p key={i}>{para}</p>
+                    ))}
+                  </section>
+                ))}
+              </div>
+            </>
+          )}
+
+          {lesson.compare && (
+            <>
+              <h3 className="study-h3">{lesson.compare.title}</h3>
+              <div className="compare-wrap">
+                <table className="compare">
+                  <thead>
+                    <tr>
+                      {lesson.compare.columns.map((c) => (
+                        <th key={c}>{c}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {lesson.compare.rows.map((row, i) => (
+                      <tr key={i}>
+                        {row.map((cell, j) => (j === 0 ? <th key={j}>{cell}</th> : <td key={j}>{cell}</td>))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </>
+          )}
+
+          {lesson.example && (
+            <aside className="lesson-example">
+              <div className="eyebrow">Ví dụ tình huống</div>
+              <h4>{lesson.example.title}</h4>
+              <p>{lesson.example.scenario}</p>
+              <p className="analysis">
+                <b>Phân tích: </b>
+                {lesson.example.analysis}
+              </p>
+            </aside>
+          )}
+
+          <h3 className="study-h3">Ý chính cần nhớ</h3>
           <ol className="lesson-points">
             {lesson.points.map((p, i) => (
               <li key={i}>{p}</li>
@@ -249,6 +301,23 @@ function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggl
                   <li key={i}>{t}</li>
                 ))}
               </ul>
+            </>
+          )}
+
+          {lesson.checks?.length > 0 && (
+            <>
+              <h3 className="study-h3">Tự kiểm tra</h3>
+              <div className="checks">
+                {lesson.checks.map((c, i) => (
+                  <details className="check" key={i}>
+                    <summary>
+                      <span className="check-n">{i + 1}</span>
+                      {c.q}
+                    </summary>
+                    <p>{c.a}</p>
+                  </details>
+                ))}
+              </div>
             </>
           )}
 

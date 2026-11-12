@@ -101,6 +101,7 @@ for (const { id: part, path } of index.parts) {
   const allTopics = manifest.sections.flatMap((s) => s.topics.map((t) => t.id));
   const lessons = readJson(`${dir}/lessons.json`);
   const seenLessons = new Set();
+  const shallowLessons = [];
   for (const l of lessons) {
     const where = `${part}/lesson ${l.topic ?? '?'}`;
     if (!allTopics.includes(l.topic)) errors.push(`${where}: unknown topic`);
@@ -110,11 +111,24 @@ for (const { id: part, path } of index.parts) {
     if (!Array.isArray(l.points) || l.points.length < 3) errors.push(`${where}: needs at least 3 points`);
     for (const t of l.terms || []) if (!t.term || !t.vi || !t.def) errors.push(`${where}: term needs term, vi, def`);
     if (!Array.isArray(l.refs) || !l.refs.length) errors.push(`${where}: needs refs`);
+    // Optional deep-dive fields.
+    for (const d of l.details || []) {
+      if (!d.heading || !Array.isArray(d.body) || !d.body.length) errors.push(`${where}: details need heading and body[]`);
+    }
+    if (l.compare) {
+      const { columns, rows } = l.compare;
+      if (!l.compare.title || !Array.isArray(columns) || !Array.isArray(rows)) errors.push(`${where}: compare needs title, columns, rows`);
+      else for (const r of rows) if (r.length !== columns.length) errors.push(`${where}: compare row has ${r.length} cells, expected ${columns.length}`);
+    }
+    if (l.example && !(l.example.title && l.example.scenario && l.example.analysis)) errors.push(`${where}: example needs title, scenario, analysis`);
+    for (const c of l.checks || []) if (!c.q || !c.a) errors.push(`${where}: check needs q and a`);
+    if (part === 'p1' && !l.details?.length) shallowLessons.push(l.topic);
     if (TYPOGRAPHIC.test(JSON.stringify(l))) warnings.push(`${where}: typographic characters`);
     for (const s of unknownGiasCitations(l)) errors.push(`${where}: cites GIAS ${s}, which does not exist`);
     const m = JSON.stringify(l).match(LETTER_REFERENCE);
     if (m) errors.push(`${where}: refers to an option by letter ("${m[0]}")`);
   }
+  if (shallowLessons.length) warnings.push(`${part}: ${shallowLessons.length} lesson(s) without detailed explanation: ${shallowLessons.join(', ')}`);
   const missingLessons = allTopics.filter((t) => !seenLessons.has(t));
   if (missingLessons.length) warnings.push(`${part}: ${missingLessons.length} topic(s) without a lesson: ${missingLessons.join(', ')}`);
 

@@ -8,7 +8,7 @@ import { questionProblems } from '../src/lib/validate.js';
 
 const [part, file, flag] = process.argv.slice(2);
 if (!part || !file) {
-  console.error('Usage: node scripts/add-questions.mjs <p1|p2|p3> <file.json> [--study]');
+  console.error('Usage: node scripts/add-questions.mjs <p1|p2|p3> <file.json> [--study | --lessons]');
   process.exit(1);
 }
 
@@ -24,13 +24,14 @@ const deepNormalize = (v) =>
       : normalizeText(v);
 
 if (flag === '--lessons') {
-  // Lessons are keyed by syllabus topic; a new lesson replaces the old one for that topic.
+  // Lessons are keyed by syllabus topic. Fields in the file are merged into the
+  // existing lesson, so a file may carry only some fields (e.g. details, checks).
   const path = `${dir}/lessons.json`;
   const topicIds = manifest.sections.flatMap((s) => s.topics.map((t) => t.id));
   const byTopic = Object.fromEntries(readJson(path).map((l) => [l.topic, l]));
   for (const l of incoming.map(deepNormalize)) {
     if (!topicIds.includes(l.topic)) throw new Error(`lesson: unknown topic ${l.topic}`);
-    byTopic[l.topic] = l;
+    byTopic[l.topic] = { ...byTopic[l.topic], ...l };
   }
   const ordered = topicIds.filter((t) => byTopic[t]).map((t) => byTopic[t]);
   writeJson(path, ordered);
