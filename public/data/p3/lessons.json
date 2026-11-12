@@ -1,0 +1,569 @@
+[
+  {
+    "topic": "A1",
+    "summary": "CAE thiết lập phương pháp luận để chức năng kiểm toán làm việc có hệ thống và kỷ luật, đánh giá hiệu quả phương pháp và cập nhật khi cần (GIAS 9.3).",
+    "points": [
+      "Phương pháp luận hướng dẫn việc thực hiện chiến lược, lập kế hoạch kiểm toán và tuân thủ GIAS; CAE phải đào tạo kiểm toán viên về phương pháp.",
+      "Rà soát và sửa đổi phương pháp khi có thay đổi lớn: chuẩn mực mới, Yêu cầu theo chủ đề mới, thay đổi tổ chức, công nghệ, kết quả QAIP.",
+      "Quản lý nhà cung cấp dịch vụ kiểm toán bên ngoài (thuê ngoài, đồng cung cấp): CAE vẫn chịu trách nhiệm tuân thủ GIAS và giám sát công việc của họ (GIAS 12.3, Domain III).",
+      "Giám sát hoạt động của chức năng: tiến độ kế hoạch, ngân sách, chỉ số hiệu quả, kết quả đánh giá chất lượng.",
+      "Cân bằng giữa đảm bảo và tư vấn: yêu cầu tư vấn không được thay thế các cuộc đảm bảo ở khu vực rủi ro cao mà không báo HĐQT (GIAS 9.4).",
+      "CAE có thể giao trách nhiệm cho người có năng lực nhưng vẫn chịu trách nhiệm cuối cùng (Domain IV)."
+    ],
+    "terms": [
+      {
+        "term": "Methodologies",
+        "vi": "Phương pháp luận",
+        "def": "Chính sách, quy trình, hướng dẫn cách chức năng kiểm toán làm việc."
+      },
+      {
+        "term": "Outsourcing / co-sourcing",
+        "vi": "Thuê ngoài / đồng cung cấp",
+        "def": "Toàn bộ hoặc một phần dịch vụ kiểm toán do bên ngoài thực hiện."
+      }
+    ],
+    "traps": [
+      "Cho rằng thuê ngoài chuyển trách nhiệm tuân thủ GIAS sang nhà cung cấp.",
+      "Thay cuộc đảm bảo rủi ro cao bằng tư vấn mà không báo HĐQT."
+    ],
+    "refs": [
+      "GIAS 9.3",
+      "GIAS 9.4",
+      "GIAS Domain IV"
+    ]
+  },
+  {
+    "topic": "A2",
+    "summary": "CAE quản lý nguồn lực tài chính, nhân sự và công nghệ để thực hiện chiến lược và kế hoạch kiểm toán (Principle 10).",
+    "points": [
+      "Tài chính (GIAS 10.1): lập ngân sách đủ cho chiến lược và kế hoạch, gồm đào tạo, công nghệ, công cụ; trình HĐQT phê duyệt; báo kịp thời tác động khi thiếu.",
+      "Nhân sự (GIAS 10.2): tuyển dụng, phát triển, giữ chân người có năng lực. Nhân sự phải phù hợp (kết hợp kỹ năng), đủ (số lượng) và được bố trí hiệu quả.",
+      "CAE đánh giá năng lực từng kiểm toán viên, hỗ trợ phát triển qua đào tạo, phản hồi, kèm cặp; trao đổi với HĐQT khi thiếu nhân sự.",
+      "Công nghệ (GIAS 10.3): bảo đảm có công nghệ hỗ trợ quy trình, đánh giá định kỳ, đào tạo sử dụng, phối hợp với bộ phận CNTT, an toàn thông tin; báo HĐQT khi hạn chế công nghệ ảnh hưởng hiệu quả.",
+      "Kỹ thuật quản lý trong syllabus: thiết kế công việc, khen thưởng, lịch làm việc, kèm cặp, huấn luyện, phản hồi xây dựng; vai trò các thành viên nhóm (CAE, trưởng nhóm, kiểm toán viên, chuyên gia)."
+    ],
+    "terms": [
+      {
+        "term": "Appropriate / sufficient / effectively deployed",
+        "vi": "Phù hợp / đủ / bố trí hiệu quả",
+        "def": "Ba yêu cầu về nhân sự kiểm toán theo GIAS 10.2."
+      },
+      {
+        "term": "Internal audit budget",
+        "vi": "Ngân sách kiểm toán nội bộ",
+        "def": "Nguồn lực tài chính do HĐQT phê duyệt cho chức năng kiểm toán."
+      }
+    ],
+    "traps": [
+      "Cho rằng Ban điều hành phê duyệt ngân sách kiểm toán mà không cần HĐQT.",
+      "Cho rằng 'đủ nhân sự' chỉ là số lượng; còn phải đúng kỹ năng."
+    ],
+    "refs": [
+      "GIAS 10.1",
+      "GIAS 10.2",
+      "GIAS 10.3"
+    ]
+  },
+  {
+    "topic": "A3",
+    "summary": "Chiến lược kiểm toán nội bộ là kế hoạch hành động dài hạn, hỗ trợ mục tiêu chiến lược của tổ chức và phù hợp kỳ vọng của HĐQT, Ban điều hành và các bên liên quan chính (GIAS 9.2).",
+    "points": [
+      "Chiến lược phải gồm tầm nhìn, mục tiêu chiến lược và các sáng kiến hỗ trợ.",
+      "Tuyên bố sứ mệnh và tầm nhìn giúp định hướng chức năng kiểm toán và truyền đạt giá trị cho bên liên quan.",
+      "Kế hoạch nguồn lực phải gắn với chiến lược (ví dụ chiến lược phân tích dữ liệu cần đầu tư công nghệ và kỹ năng).",
+      "CAE rà soát chiến lược định kỳ với HĐQT và Ban điều hành; sửa đổi khi chiến lược tổ chức, rủi ro, công nghệ hoặc kỳ vọng thay đổi.",
+      "Để hiểu kỳ vọng: trao đổi, khảo sát HĐQT và Ban điều hành, xem xét chiến lược và rủi ro của tổ chức."
+    ],
+    "terms": [
+      {
+        "term": "Internal audit strategy",
+        "vi": "Chiến lược kiểm toán nội bộ",
+        "def": "Tầm nhìn, mục tiêu chiến lược và sáng kiến của chức năng kiểm toán."
+      },
+      {
+        "term": "Vision / mission",
+        "vi": "Tầm nhìn / sứ mệnh",
+        "def": "Hình ảnh mong muốn trong tương lai / lý do tồn tại của chức năng."
+      }
+    ],
+    "traps": [
+      "Nhầm chiến lược với kế hoạch kiểm toán năm.",
+      "Sao chép chiến lược của tổ chức khác thay vì dựa vào kỳ vọng của bên liên quan."
+    ],
+    "refs": [
+      "GIAS 9.2",
+      "CIA Part 3 A.3"
+    ]
+  },
+  {
+    "topic": "A4",
+    "summary": "CAE xây dựng quan hệ, lòng tin với các bên liên quan và báo cáo cho HĐQT, Ban điều hành những thông tin cần thiết để họ thực hiện vai trò giám sát (GIAS 8.1, 11.1).",
+    "points": [
+      "Bên liên quan chính: HĐQT, Ban điều hành, quản lý vận hành, cơ quan quản lý, các bên cung cấp đảm bảo trong và ngoài, chuyên gia tư vấn.",
+      "Trao đổi chính thức và không chính thức giúp hiểu lợi ích, mối quan tâm, cách quản lý rủi ro, vai trò và cơ hội phối hợp (GIAS 11.1).",
+      "CAE báo cáo HĐQT và Ban điều hành: kế hoạch và ngân sách cùng các thay đổi lớn; thay đổi ảnh hưởng mandate, điều lệ; khả năng suy giảm độc lập; kết quả kiểm toán; kết quả QAIP (GIAS 8.1).",
+      "CAE báo cáo kịp thời các chủ đề (themes) rút ra từ nhiều cuộc kiểm toán, như nguyên nhân gốc rễ chung (GIAS 11.3).",
+      "Khi bất đồng với Ban điều hành về phạm vi hoặc phát hiện, CAE cung cấp cho HĐQT sự thật và hoàn cảnh để HĐQT cân nhắc can thiệp (GIAS 8.1).",
+      "Trước khi phát hành kết quả ra ngoài tổ chức, CAE tham vấn pháp chế và/hoặc Ban điều hành, trừ khi luật quy định khác (GIAS 11.3)."
+    ],
+    "terms": [
+      {
+        "term": "Themes",
+        "vi": "Chủ đề xuyên suốt",
+        "def": "Mẫu hình, xu hướng rút ra từ nhiều cuộc kiểm toán."
+      },
+      {
+        "term": "Board interaction",
+        "vi": "Tương tác với HĐQT",
+        "def": "Thông tin CAE cung cấp để HĐQT giám sát chức năng kiểm toán."
+      }
+    ],
+    "traps": [
+      "Để bên liên quan duyệt trước nội dung báo cáo để giữ quan hệ tốt.",
+      "Giấu bất đồng với Ban điều hành, không báo HĐQT."
+    ],
+    "refs": [
+      "GIAS 8.1",
+      "GIAS 11.1",
+      "GIAS 11.3"
+    ]
+  },
+  {
+    "topic": "B1",
+    "summary": "Danh mục kiểm toán (audit universe) là tập hợp các đối tượng có thể kiểm toán. Nó là đầu vào để đánh giá rủi ro và chọn các cuộc kiểm toán đưa vào kế hoạch.",
+    "points": [
+      "Thành phần của danh mục: đơn vị, quy trình, chức năng, hệ thống, dự án, bên thứ ba, chương trình.",
+      "Nguồn hình thành cuộc kiểm toán: đánh giá rủi ro, yêu cầu của HĐQT và Ban điều hành, luật và quy định bắt buộc, Yêu cầu theo chủ đề, kết quả kiểm toán trước.",
+      "Xu hướng thị trường và ngành, thay đổi tổ chức, vấn đề mới nổi, công nghệ mới (IoT, trí tuệ nhân tạo, blockchain, tài sản số, RPA) cũng tạo ra cuộc kiểm toán tiềm năng.",
+      "Chu kỳ kiểm toán bắt buộc (ví dụ theo quy định ngành) giải thích vì sao một số khu vực được kiểm toán định kỳ bất kể xếp hạng rủi ro.",
+      "Yêu cầu của bên liên quan cần được xem xét theo quy trình, cân với rủi ro và nguồn lực."
+    ],
+    "terms": [
+      {
+        "term": "Audit universe",
+        "vi": "Danh mục kiểm toán",
+        "def": "Toàn bộ các đối tượng có thể được kiểm toán trong tổ chức."
+      },
+      {
+        "term": "Audit cycle",
+        "vi": "Chu kỳ kiểm toán",
+        "def": "Tần suất kiểm toán tối thiểu cho một khu vực."
+      }
+    ],
+    "traps": [
+      "Chọn cuộc kiểm toán theo sở thích của kiểm toán viên.",
+      "Bỏ qua công nghệ mới vì chưa có trong danh mục cũ."
+    ],
+    "refs": [
+      "CIA Part 3 B.1",
+      "GIAS 9.4"
+    ]
+  },
+  {
+    "topic": "B2",
+    "summary": "Kế hoạch kiểm toán dựa trên đánh giá có tài liệu về chiến lược, mục tiêu và rủi ro của tổ chức, thực hiện ít nhất hằng năm và cập nhật kịp thời. HĐQT phê duyệt kế hoạch và các thay đổi đáng kể (GIAS 9.4).",
+    "points": [
+      "Đánh giá rủi ro có ý kiến của HĐQT và Ban điều hành, cùng hiểu biết của CAE về quản trị, rủi ro, kiểm soát.",
+      "Kế hoạch phải: xem xét mandate và các dịch vụ đã thỏa thuận; nêu dịch vụ giúp đánh giá, cải thiện quản trị, rủi ro, kiểm soát; xem xét quản trị CNTT, rủi ro gian lận, hiệu quả chương trình tuân thủ và đạo đức, khu vực rủi ro cao; nêu nguồn lực cần thiết.",
+      "Kế hoạch phải linh hoạt, cập nhật khi kinh doanh, rủi ro, hệ thống, kiểm soát, văn hóa thay đổi.",
+      "CAE phải trao đổi kịp thời với HĐQT và Ban điều hành: tác động của hạn chế nguồn lực; lý do không đưa cuộc đảm bảo ở khu vực rủi ro cao vào kế hoạch; yêu cầu xung đột giữa các bên; giới hạn phạm vi, quyền tiếp cận.",
+      "Phương pháp đánh giá và xếp hạng rủi ro (ví dụ theo khả năng xảy ra, ảnh hưởng, tốc độ) để ưu tiên.",
+      "Kế hoạch phải được gắn với chiến lược tổ chức, chiến lược kiểm toán và kỳ vọng các bên."
+    ],
+    "terms": [
+      {
+        "term": "Risk-based audit plan",
+        "vi": "Kế hoạch kiểm toán dựa trên rủi ro",
+        "def": "Kế hoạch ưu tiên các khu vực theo đánh giá rủi ro."
+      },
+      {
+        "term": "Dynamic plan",
+        "vi": "Kế hoạch linh hoạt",
+        "def": "Kế hoạch được cập nhật kịp thời khi rủi ro thay đổi."
+      }
+    ],
+    "traps": [
+      "Giữ nguyên kế hoạch cả năm vì HĐQT đã phê duyệt.",
+      "Để Tổng Giám đốc phê duyệt thay đổi đáng kể của kế hoạch.",
+      "Chia đều nguồn lực cho mọi phòng ban."
+    ],
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.2"
+    ]
+  },
+  {
+    "topic": "B3",
+    "summary": "CAE phối hợp với các bên cung cấp đảm bảo trong và ngoài tổ chức và cân nhắc dựa vào công việc của họ, để giảm trùng lặp và tìm khoảng trống trong bao phủ rủi ro (GIAS 9.5).",
+    "points": [
+      "Bên đảm bảo nội bộ: quản lý rủi ro, tuân thủ, an toàn thông tin, kiểm soát chất lượng. Bên ngoài: kiểm toán độc lập, cơ quan quản lý, chuyên gia thuê ngoài.",
+      "Cách phối hợp: bản đồ đảm bảo (assurance map), đảm bảo kết hợp (combined assurance), chia sẻ kế hoạch, ngôn ngữ rủi ro chung.",
+      "Trước khi dựa vào công việc của bên khác, đánh giá năng lực, khách quan, thận trọng nghề nghiệp của họ, cùng phạm vi, mục tiêu và kết quả công việc.",
+      "Khi dựa vào, CAE phải ghi nhận căn cứ và vẫn chịu trách nhiệm về kết luận của chức năng kiểm toán.",
+      "Nếu không phối hợp được ở mức phù hợp, CAE nêu quan ngại với Ban điều hành và, nếu cần, HĐQT."
+    ],
+    "terms": [
+      {
+        "term": "Combined assurance",
+        "vi": "Đảm bảo kết hợp",
+        "def": "Phối hợp các bên đảm bảo để bao phủ rủi ro hiệu quả, tránh trùng lặp."
+      },
+      {
+        "term": "Assurance map",
+        "vi": "Bản đồ đảm bảo",
+        "def": "Bảng cho thấy bên nào đảm bảo cho rủi ro nào."
+      }
+    ],
+    "traps": [
+      "Dùng ngay kết quả của kiểm toán độc lập vì có uy tín.",
+      "Cho rằng dựa vào bên khác thì chuyển trách nhiệm kết luận cho họ."
+    ],
+    "refs": [
+      "GIAS 9.5",
+      "GIAS 6.1"
+    ]
+  },
+  {
+    "topic": "C1",
+    "summary": "Chất lượng là thước đo kết hợp của việc tuân thủ GIAS và đạt mục tiêu hiệu quả của chức năng kiểm toán. QAIP bao phủ mọi khía cạnh của chức năng và gồm đánh giá nội bộ và bên ngoài (GIAS 8.3, Principle 12).",
+    "points": [
+      "Đánh giá nội bộ (GIAS 12.1): giám sát liên tục; tự đánh giá định kỳ hoặc đánh giá bởi người trong tổ chức am hiểu kiểm toán nội bộ; trao đổi kết quả với HĐQT và Ban điều hành; lập kế hoạch hành động cho điểm chưa tuân thủ.",
+      "Đánh giá bên ngoài (GIAS 8.4): ít nhất 5 năm một lần, do người hoặc nhóm đủ năng lực, độc lập thực hiện; ít nhất một người có chứng chỉ CIA còn hiệu lực. Có thể thay bằng tự đánh giá có xác nhận độc lập.",
+      "HĐQT xem xét và phê duyệt kế hoạch EQA (phạm vi, tần suất, năng lực và độc lập của người đánh giá), nhận kết quả đầy đủ trực tiếp từ người đánh giá, phê duyệt kế hoạch hành động.",
+      "CAE báo cáo kết quả đánh giá nội bộ ít nhất hằng năm và kết quả EQA khi hoàn thành: mức tuân thủ GIAS, đạt mục tiêu hiệu quả, tuân thủ luật liên quan, kế hoạch khắc phục.",
+      "Kết quả đánh giá nội bộ được ghi nhận và đưa vào phạm vi đánh giá của EQA.",
+      "Ở khu vực công, EQA nên do nhóm am hiểu khu vực công thực hiện; khi thiếu kinh phí có thể tham gia chương trình đánh giá ngang hàng."
+    ],
+    "terms": [
+      {
+        "term": "QAIP",
+        "vi": "Chương trình đảm bảo và nâng cao chất lượng",
+        "def": "Chương trình đánh giá nội bộ và bên ngoài về tuân thủ GIAS và hiệu quả."
+      },
+      {
+        "term": "Self-assessment with independent validation",
+        "vi": "Tự đánh giá có xác nhận độc lập",
+        "def": "Hình thức thay thế cho EQA đầy đủ, có bên độc lập xác nhận."
+      },
+      {
+        "term": "Ongoing monitoring",
+        "vi": "Giám sát liên tục",
+        "def": "Theo dõi chất lượng trong công việc hằng ngày (giám sát, rà soát hồ sơ)."
+      }
+    ],
+    "traps": [
+      "Cho rằng EQA mỗi năm một lần hoặc do kiểm toán độc lập BCTC thực hiện.",
+      "Quên yêu cầu ít nhất một người đánh giá có CIA.",
+      "Cho rằng QAIP chỉ áp dụng cho kiểm toán tài chính."
+    ],
+    "refs": [
+      "GIAS 8.3",
+      "GIAS 8.4",
+      "GIAS 12.1",
+      "GIAS Principle 12"
+    ]
+  },
+  {
+    "topic": "C2",
+    "summary": "Khi không tuân thủ được GIAS, CAE phải ghi nhận và công bố đúng cách. Chỉ được tuyên bố tuân thủ khi có cơ sở từ QAIP.",
+    "points": [
+      "Không tuân thủ một yêu cầu: CAE ghi nhận và trao đổi về hoàn cảnh, hành động thay thế, ảnh hưởng và lý do (GIAS 4.1).",
+      "Trong một cuộc kiểm toán: báo cáo cuối phải nêu chuẩn mực không tuân thủ, lý do và ảnh hưởng đến phát hiện, kết luận (GIAS 15.1).",
+      "Không tuân thủ ảnh hưởng đến phạm vi hoặc hoạt động tổng thể của chức năng: CAE công bố cho HĐQT và Ban điều hành cùng ảnh hưởng (GIAS 12.1).",
+      "Luật ngăn tuân thủ một phần: tuân thủ mọi phần còn lại và công bố phù hợp (GIAS 4.1).",
+      "Câu 'thực hiện phù hợp với GIAS' chỉ được dùng khi kết quả QAIP hỗ trợ; quy định này có từ IPPF 2017 (1321)."
+    ],
+    "terms": [
+      {
+        "term": "Nonconformance",
+        "vi": "Không tuân thủ",
+        "def": "Không đáp ứng một yêu cầu của GIAS."
+      }
+    ],
+    "traps": [
+      "Không công bố vì kết luận cuối cùng không thay đổi.",
+      "Chỉ báo riêng cho Tổng Giám đốc.",
+      "Tuyên bố tuân thủ khi chưa từng có đánh giá bên ngoài."
+    ],
+    "refs": [
+      "GIAS 4.1",
+      "GIAS 12.1",
+      "GIAS 15.1",
+      "IPPF 2017 1321"
+    ]
+  },
+  {
+    "topic": "C3",
+    "summary": "CAE xây dựng mục tiêu hiệu quả cho chức năng kiểm toán, có xét ý kiến của HĐQT và Ban điều hành, và phương pháp đo lường tiến độ (GIAS 12.2). HĐQT phê duyệt mục tiêu hiệu quả ít nhất hằng năm (GIAS 8.3).",
+    "points": [
+      "Mục tiêu của KPI: đo mức đạt mục tiêu, thúc đẩy cải tiến liên tục, minh bạch giá trị của kiểm toán nội bộ với HĐQT.",
+      "Khi đặt chỉ số: gắn với chiến lược kiểm toán, đặt chỉ tiêu (target), có thể đo được, không tạo động cơ sai lệch.",
+      "Kết hợp chỉ số định lượng (tỷ lệ hoàn thành kế hoạch, thời gian phát hành báo cáo, tỷ lệ kế hoạch hành động đúng hạn) và định tính (khảo sát hài lòng của HĐQT, Ban điều hành).",
+      "Nhóm thước đo: tài chính, hoạt động, chất lượng, năng suất, hiệu suất, hiệu quả.",
+      "CAE lấy phản hồi của HĐQT và Ban điều hành khi đánh giá hiệu quả, và lập kế hoạch hành động cho điểm cần cải thiện."
+    ],
+    "terms": [
+      {
+        "term": "Key performance indicator (KPI)",
+        "vi": "Chỉ số hiệu quả chính",
+        "def": "Thước đo mức đạt mục tiêu của chức năng kiểm toán."
+      },
+      {
+        "term": "Balanced scorecard",
+        "vi": "Thẻ điểm cân bằng",
+        "def": "Bộ chỉ số nhiều chiều, định lượng và định tính."
+      }
+    ],
+    "traps": [
+      "Đo bằng số lượng phát hiện, tạo động cơ tìm lỗi.",
+      "Chỉ dùng một chỉ số như tỷ lệ hoàn thành kế hoạch."
+    ],
+    "refs": [
+      "GIAS 12.2",
+      "GIAS 8.3",
+      "CIA Part 3 C.3"
+    ]
+  },
+  {
+    "topic": "D1",
+    "summary": "Thông tin trao đổi của kiểm toán nội bộ phải chính xác, khách quan, rõ ràng, súc tích, mang tính xây dựng, đầy đủ và kịp thời. CAE thiết lập phương pháp để thúc đẩy các thuộc tính này (GIAS 11.2).",
+    "points": [
+      "Chính xác: không sai sót, không bóp méo.",
+      "Khách quan: công bằng, không thiên lệch, dựa trên đánh giá cân bằng mọi tình huống liên quan.",
+      "Rõ ràng: dễ hiểu, logic, tránh thuật ngữ không cần thiết. Súc tích: đi thẳng vào vấn đề, không lặp lại.",
+      "Mang tính xây dựng: giúp đơn vị được kiểm toán và tổ chức cải thiện.",
+      "Đầy đủ: không thiếu thông tin cần cho người đọc. Kịp thời: đúng lúc để người nhận hành động.",
+      "Phương pháp trao đổi hiệu quả: mẫu báo cáo thống nhất, quy trình rà soát, trình bày trực quan, điều chỉnh theo người nhận."
+    ],
+    "terms": [
+      {
+        "term": "Effective communication",
+        "vi": "Trao đổi hiệu quả",
+        "def": "Thông tin đáp ứng bảy thuộc tính theo GIAS 11.2."
+      }
+    ],
+    "traps": [
+      "Cho rằng báo cáo càng dài càng thể hiện khối lượng công việc.",
+      "Chỉ nêu điểm yếu, không ghi nhận thực hành tốt."
+    ],
+    "refs": [
+      "GIAS 11.2",
+      "GIAS 15.1"
+    ]
+  },
+  {
+    "topic": "D2",
+    "summary": "Báo cáo cuối của mỗi cuộc kiểm toán có nội dung bắt buộc. Báo cáo cuộc đảm bảo phải có thêm phát hiện, giới hạn phạm vi và kết luận về hiệu quả (GIAS 15.1).",
+    "points": [
+      "Mọi cuộc kiểm toán: mục tiêu, phạm vi, khuyến nghị và/hoặc kế hoạch hành động (nếu có), kết luận.",
+      "Cuộc đảm bảo thêm: phát hiện cùng mức trọng yếu và thứ tự ưu tiên; giải thích giới hạn phạm vi (nếu có); kết luận về hiệu quả của quản trị, rủi ro, kiểm soát.",
+      "Phải nêu người chịu trách nhiệm xử lý phát hiện và thời hạn hoàn thành.",
+      "Nếu Ban điều hành đã bắt đầu hoặc hoàn thành hành động trước khi phát hành báo cáo, báo cáo phải ghi nhận điều đó.",
+      "CAE rà soát, phê duyệt trước khi phát hành và quyết định phân phối cho những người có thể bảo đảm kết quả được xem xét đúng mức.",
+      "Nếu cuộc kiểm toán không tuân thủ GIAS: nêu chuẩn mực, lý do và ảnh hưởng. Giới hạn phạm vi phải được ghi nhận."
+    ],
+    "terms": [
+      {
+        "term": "Final engagement communication",
+        "vi": "Báo cáo kết quả cuối cùng",
+        "def": "Báo cáo chính thức sau khi hoàn thành cuộc kiểm toán."
+      }
+    ],
+    "traps": [
+      "Gửi kèm toàn bộ hồ sơ làm việc.",
+      "Bỏ phát hiện đã được Ban điều hành khắc phục trước khi phát hành; đúng là vẫn nêu và ghi nhận hành động đó.",
+      "Quên nêu người chịu trách nhiệm và thời hạn."
+    ],
+    "refs": [
+      "GIAS 15.1",
+      "GIAS 11.3"
+    ]
+  },
+  {
+    "topic": "D3",
+    "summary": "Kiểm toán viên quyết định đưa ra khuyến nghị, yêu cầu Ban điều hành lập kế hoạch hành động, hoặc cùng Ban điều hành thống nhất hành động (GIAS 14.4).",
+    "points": [
+      "Hành động nhằm: xử lý chênh lệch giữa tiêu chí và thực trạng; giảm rủi ro xuống mức chấp nhận được; xử lý nguyên nhân gốc rễ; cải thiện hoạt động.",
+      "Khi đưa ra khuyến nghị, phải thảo luận với Ban điều hành của đơn vị được kiểm toán.",
+      "Đánh giá kế hoạch hành động có xử lý được nguyên nhân gốc rễ không; cân nhắc chi phí so với lợi ích của khuyến nghị.",
+      "Khi bất đồng về khuyến nghị hoặc kế hoạch hành động, theo phương pháp đã thiết lập để hai bên trình bày quan điểm và lý do, rồi xác định cách giải quyết.",
+      "Khắc phục là trách nhiệm của Ban điều hành; kiểm toán viên không tự thực hiện."
+    ],
+    "terms": [
+      {
+        "term": "Recommendation",
+        "vi": "Khuyến nghị",
+        "def": "Đề xuất của kiểm toán viên để xử lý phát hiện."
+      },
+      {
+        "term": "Management action plan",
+        "vi": "Kế hoạch hành động của Ban điều hành",
+        "def": "Cam kết của Ban điều hành về biện pháp và thời hạn khắc phục."
+      }
+    ],
+    "traps": [
+      "Kiểm toán viên tự khắc phục để tiết kiệm thời gian.",
+      "Chấp nhận kế hoạch chỉ xử lý triệu chứng.",
+      "Sửa phát hiện vì Ban điều hành không đồng ý mà không có lý do hợp lệ."
+    ],
+    "refs": [
+      "GIAS 14.4",
+      "GIAS 13.1"
+    ]
+  },
+  {
+    "topic": "D4",
+    "summary": "Cuộc họp kết thúc (exit conference) trao đổi kết quả với Ban điều hành trước khi phát hành báo cáo. CAE chịu trách nhiệm phân phối báo cáo cho các bên phù hợp.",
+    "points": [
+      "Họp kết thúc: xác nhận sự thật, thảo luận phát hiện, khuyến nghị, kế hoạch hành động và thời hạn; thường có quản lý đơn vị được kiểm toán và trưởng nhóm kiểm toán.",
+      "CAE quyết định gửi báo cáo cho ai và bằng cách nào; phân phối cho người có thể bảo đảm kết quả được xem xét (GIAS 11.3, 15.1).",
+      "Mục đích trao đổi khác nhau theo bên nhận: quản lý đơn vị (hành động), Ban điều hành (giám sát), HĐQT (giám sát tổng thể), quản lý rủi ro, kiểm toán độc lập, cơ quan quản lý, công chúng (khu vực công).",
+      "Gửi kết quả ra ngoài tổ chức: tham vấn pháp chế và/hoặc Ban điều hành trước, trừ khi luật quy định khác.",
+      "Phát hiện đã được Ban điều hành xử lý trước khi phát hành vẫn được nêu, kèm ghi nhận hành động.",
+      "Sai sót hoặc thiếu sót đáng kể trong báo cáo đã phát hành: CAE gửi thông tin đã sửa kịp thời cho mọi người đã nhận bản gốc; mức đáng kể theo tiêu chí đã thống nhất với HĐQT (GIAS 11.4)."
+    ],
+    "terms": [
+      {
+        "term": "Exit conference",
+        "vi": "Họp kết thúc",
+        "def": "Cuộc họp trao đổi kết quả với Ban điều hành khi kết thúc thực địa."
+      },
+      {
+        "term": "Errors and omissions",
+        "vi": "Sai sót và thiếu sót",
+        "def": "Lỗi đáng kể trong báo cáo cuối, cần sửa và gửi lại cho người đã nhận."
+      }
+    ],
+    "traps": [
+      "Sửa báo cáo lưu trữ mà không thông báo cho người đã nhận.",
+      "Gửi báo cáo ra ngoài mà không tham vấn pháp chế khi luật không bắt buộc."
+    ],
+    "refs": [
+      "GIAS 11.3",
+      "GIAS 11.4",
+      "GIAS 15.1"
+    ]
+  },
+  {
+    "topic": "D5",
+    "summary": "Sau mỗi cuộc kiểm toán, CAE cần hiểu mức rủi ro còn lại dựa trên đánh giá thiết kế và hiệu quả của kiểm soát hiện có, tổng hợp và ưu tiên phát hiện.",
+    "points": [
+      "Rủi ro còn lại được xác định bằng cách đánh giá thiết kế và hiệu quả vận hành của kiểm soát so với rủi ro tiềm tàng.",
+      "Tổng hợp và ưu tiên phát hiện giúp thấy vấn đề hệ thống và tập trung nguồn lực khắc phục vào rủi ro lớn nhất (GIAS 14.3).",
+      "Thang xếp hạng (ví dụ hiệu quả, cần cải thiện, không hiệu quả) phản ánh đánh giá tổng thể về kiểm soát của cuộc kiểm toán.",
+      "So sánh rủi ro còn lại với khẩu vị và ngưỡng chịu đựng rủi ro để biết có cần báo cáo chấp nhận rủi ro không (GIAS 11.5).",
+      "Kết luận về hiệu quả phải dựa trên bằng chứng đủ và ghi nhận cả khi quy trình hiệu quả (GIAS 14.5)."
+    ],
+    "terms": [
+      {
+        "term": "Residual risk",
+        "vi": "Rủi ro còn lại",
+        "def": "Rủi ro còn lại sau khi tính đến kiểm soát hiện có."
+      },
+      {
+        "term": "Rating scale",
+        "vi": "Thang xếp hạng",
+        "def": "Cách tóm tắt đánh giá tổng thể về kiểm soát."
+      }
+    ],
+    "traps": [
+      "Cho rằng kiểm soát hiệu quả làm rủi ro còn lại bằng 0.",
+      "Đánh giá từng phát hiện riêng lẻ mà không tổng hợp."
+    ],
+    "refs": [
+      "GIAS 14.3",
+      "GIAS 14.5",
+      "CIA Part 3 D.5"
+    ]
+  },
+  {
+    "topic": "D6",
+    "summary": "CAE phải trao đổi về mức rủi ro không chấp nhận được. Khi Ban điều hành chấp nhận rủi ro vượt khẩu vị hoặc ngưỡng chịu đựng, CAE thảo luận với Ban điều hành, và nếu không giải quyết được thì báo HĐQT. CAE không có trách nhiệm tự xử lý rủi ro (GIAS 11.5).",
+    "points": [
+      "Rủi ro không chấp nhận được là rủi ro vượt khẩu vị hoặc ngưỡng chịu đựng rủi ro của tổ chức.",
+      "Bước 1: CAE kết luận Ban điều hành đã chấp nhận mức rủi ro đó.",
+      "Bước 2: thảo luận với Ban điều hành cấp cao (senior management).",
+      "Bước 3: nếu Ban điều hành không giải quyết, CAE báo lên HĐQT; quyết định cuối cùng thuộc HĐQT.",
+      "Chậm trễ hoặc không hành động có thể được coi là chấp nhận rủi ro; CAE xác định điều đó khi theo dõi kế hoạch hành động (GIAS 15.2).",
+      "HĐQT thống nhất trước với CAE tiêu chí vấn đề cần báo lên, như rủi ro vượt ngưỡng chịu đựng (GIAS 8.1)."
+    ],
+    "terms": [
+      {
+        "term": "Risk acceptance",
+        "vi": "Chấp nhận rủi ro",
+        "def": "Ban điều hành quyết định không xử lý thêm một rủi ro."
+      }
+    ],
+    "traps": [
+      "Đóng phát hiện vì Ban điều hành có quyền chấp nhận rủi ro.",
+      "Báo cơ quan quản lý trước khi báo HĐQT.",
+      "CAE tự thực hiện kiểm soát để giảm rủi ro."
+    ],
+    "refs": [
+      "GIAS 11.5",
+      "GIAS 15.2",
+      "GIAS 8.1"
+    ]
+  },
+  {
+    "topic": "D7",
+    "summary": "Kiểm toán viên phải xác nhận Ban điều hành đã thực hiện khuyến nghị hoặc kế hoạch hành động theo phương pháp đã thiết lập (GIAS 15.2).",
+    "points": [
+      "Phương pháp theo dõi gồm: hỏi về tiến độ; đánh giá theo dõi theo cách tiếp cận dựa trên rủi ro; cập nhật trạng thái trong hệ thống theo dõi.",
+      "Mức độ thủ tục theo dõi tương xứng với mức trọng yếu của phát hiện (phát hiện rủi ro cao cần kiểm tra bằng chứng, không chỉ hỏi).",
+      "Nếu Ban điều hành chậm tiến độ, kiểm toán viên lấy và ghi nhận giải trình, rồi thảo luận với CAE.",
+      "CAE báo cáo kết quả theo dõi cho HĐQT và Ban điều hành (GIAS 8.1).",
+      "Báo cáo cuối phải có người chịu trách nhiệm và thời hạn, làm căn cứ để theo dõi (GIAS 15.1)."
+    ],
+    "terms": [
+      {
+        "term": "Follow-up",
+        "vi": "Theo dõi",
+        "def": "Xác nhận việc thực hiện khuyến nghị, kế hoạch hành động."
+      },
+      {
+        "term": "Tracking system",
+        "vi": "Hệ thống theo dõi",
+        "def": "Công cụ ghi nhận trạng thái các kế hoạch hành động."
+      }
+    ],
+    "traps": [
+      "Đóng phát hiện chỉ dựa vào email 'đã xong' của đơn vị.",
+      "Cho rằng theo dõi là việc của Ban điều hành nên kiểm toán không cần làm."
+    ],
+    "refs": [
+      "GIAS 15.2",
+      "GIAS 8.1",
+      "GIAS 15.1"
+    ]
+  },
+  {
+    "topic": "D8",
+    "summary": "Khi Ban điều hành không thực hiện đầy đủ kế hoạch hành động, vấn đề được báo vượt cấp theo trình tự, đến HĐQT khi cần.",
+    "points": [
+      "Bước 1: kiểm toán viên lấy và ghi nhận giải trình của Ban điều hành về sự chậm trễ.",
+      "Bước 2: thảo luận với CAE (GIAS 15.2).",
+      "Bước 3: CAE xác định chậm trễ hoặc không hành động có phải là chấp nhận rủi ro vượt ngưỡng chịu đựng không.",
+      "Bước 4: nếu đúng là vậy, CAE thảo luận với Ban điều hành cấp cao; không giải quyết được thì báo HĐQT (GIAS 11.5).",
+      "Bên tham gia: quản lý đơn vị, Ban điều hành cấp cao, HĐQT; quy trình báo vượt cấp được thống nhất trước với HĐQT (GIAS 8.1).",
+      "Kiểm toán viên không gia hạn tùy ý, không tự khắc phục và không đóng phát hiện chưa được xử lý."
+    ],
+    "terms": [
+      {
+        "term": "Escalation process",
+        "vi": "Quy trình báo vượt cấp",
+        "def": "Trình tự đưa vấn đề chưa được xử lý lên cấp có thẩm quyền cao hơn."
+      }
+    ],
+    "traps": [
+      "Báo thẳng HĐQT mà bỏ qua việc trao đổi với Ban điều hành.",
+      "Gia hạn nhiều lần mà không báo cáo.",
+      "Tự thực hiện phần khắc phục còn lại."
+    ],
+    "refs": [
+      "GIAS 15.2",
+      "GIAS 11.5",
+      "GIAS 8.1"
+    ]
+  }
+]

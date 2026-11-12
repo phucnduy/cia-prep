@@ -2,6 +2,7 @@
   {
     "id": "P1-D-L001",
     "section": "D",
+    "topic": "D1",
     "difficulty": 2,
     "stem": "Mô hình 'Kim cương gian lận' (Fraud Diamond của Wolfe và Hermanson) mở rộng Tam giác gian lận truyền thống bằng cách bổ sung thêm yếu tố thứ 4 nào sau đây?",
     "options": [
@@ -24,6 +25,7 @@
   {
     "id": "P1-D-L002",
     "section": "D",
+    "topic": "D1",
     "difficulty": 2,
     "stem": "Trong nhóm gian lận Tham nhũng (Corruption), sự khác biệt giữa 'Hối lộ' (Bribery) và 'Tống tiền kinh tế' (Economic Extortion) là gì?",
     "options": [
@@ -46,6 +48,7 @@
   {
     "id": "P1-D-L003",
     "section": "D",
+    "topic": "D3",
     "difficulty": 2,
     "stem": "Trong gian lận 'Lại quả' (Kickback Scheme) giữa nhà cung cấp và nhân viên mua hàng, dấu hiệu cảnh báo (Red Flag) nào sau đây thường xuất hiện trên dữ liệu mua sắm?",
     "options": [
@@ -68,6 +71,7 @@
   {
     "id": "P1-D-L004",
     "section": "D",
+    "topic": "D1",
     "difficulty": 2,
     "stem": "Thủ đoạn gian lận sử dụng 'Nhà cung cấp trung gian ăn chênh lệch' (Pass-Through Vendor Scheme) diễn ra như thế nào?",
     "options": [
@@ -90,6 +94,7 @@
   {
     "id": "P1-D-L005",
     "section": "D",
+    "topic": "D4",
     "difficulty": 2,
     "stem": "Để ngăn chặn và phát hiện thủ đoạn gian lận 'Nhân viên ma' (Ghost Employee) trên bảng lương, chốt kiểm soát nào sau đây là HIỆU QUẢ NHẤT?",
     "options": [
@@ -112,6 +117,7 @@
   {
     "id": "P1-D-L006",
     "section": "D",
+    "topic": "D4",
     "difficulty": 2,
     "stem": "Một nhân viên kinh doanh khi đi công tác đã thanh toán hóa đơn khách sạn bằng thẻ tín dụng công ty, nhưng sau đó lại lấy chính tờ hóa đơn giấy của khách sạn đó để làm đề nghị hoàn ứng tiền mặt lần thứ hai. Đây là loại gian lận gì và kiểm soát nào ngăn chặn tốt nhất?",
     "options": [
@@ -134,6 +140,7 @@
   {
     "id": "P1-D-L007",
     "section": "D",
+    "topic": "D4",
     "difficulty": 2,
     "stem": "Để chống lại gian lận làm giả séc hoặc sửa đổi số tiền/tên người thụ hưởng trên lệnh chi ngân hàng (Check Tampering), nhiều công ty sử dụng cơ chế kiểm soát 'Positive Pay' với ngân hàng. Cơ chế này hoạt động như thế nào?",
     "options": [
@@ -156,6 +163,7 @@
   {
     "id": "P1-D-L009",
     "section": "D",
+    "topic": "D1",
     "difficulty": 2,
     "stem": "Vào tuần cuối cùng của năm tài chính, Giám đốc Kinh doanh thuyết phục các đại lý nhận một lượng hàng hóa khổng lồ vượt xa nhu cầu thực tế bằng cách hứa miệng rằng đại lý có thể trả lại toàn bộ hàng không bán được vào đầu năm sau mà không bị phạt. Thủ đoạn gian lận báo cáo tài chính này gọi là gì?",
     "options": [
@@ -178,6 +186,7 @@
   {
     "id": "P1-D-L010",
     "section": "D",
+    "topic": "D1",
     "difficulty": 2,
     "stem": "Thủ đoạn gian lận doanh thu 'Lập hóa đơn nhưng giữ hàng' (Bill-and-Hold Scheme) thường vi phạm nguyên tắc ghi nhận doanh thu như thế nào?",
     "options": [
@@ -200,6 +209,7 @@
   {
     "id": "P1-D-L011",
     "section": "D",
+    "topic": "D1",
     "difficulty": 2,
     "stem": "Trong một năm công ty đạt lợi nhuận vượt xa chỉ tiêu, Ban giám đốc cố tình trích lập khống các khoản dự phòng chi phí quá mức cần thiết, nhằm mục đích 'để dành' hoàn nhập các khoản dự phòng này vào những năm sau khi kinh doanh kém hiệu quả. Thủ đoạn thao túng BCTC này được gọi là gì?",
     "options": [
@@ -222,6 +232,7 @@
   {
     "id": "P1-D-L012",
     "section": "D",
+    "topic": "D1",
     "difficulty": 2,
     "stem": "Khi Ban giám đốc chỉ đạo kế toán hạch toán các khoản chi phí sửa chữa, bảo trì thường xuyên hàng ngày vào nguyên giá Tài sản cố định (Vốn hóa chi phí sai quy định - Improper Capitalization of Expenses), Báo cáo tài chính năm đó sẽ bị sai lệch như thế nào?",
     "options": [
@@ -244,6 +255,7 @@
   {
     "id": "P1-D-L013",
     "section": "D",
+    "topic": "D5",
     "difficulty": 2,
     "stem": "Khi sử dụng Phân tích dữ liệu (Data Analytics) để rà soát gian lận trên hàng trăm nghìn hóa đơn chi phí, kiểm toán viên áp dụng 'Định luật Benford' (Benford's Law). Định luật này giúp phát hiện điều gì?",
     "options": [
@@ -266,6 +278,7 @@
   {
     "id": "P1-D-L014",
     "section": "D",
+    "topic": "D5",
     "difficulty": 2,
     "stem": "Sự khác biệt chính giữa 'Kiểm toán Nội bộ thông thường' và 'Kiểm toán Điều tra Pháp lý' (Forensic Auditing / Fraud Investigation) là gì?",
     "options": [
@@ -288,6 +301,7 @@
   {
     "id": "P1-D-L015",
     "section": "D",
+    "topic": "D3",
     "difficulty": 2,
     "stem": "Một quy trình 'Đánh giá Rủi ro Gian lận' (Fraud Risk Assessment) toàn diện của doanh nghiệp nên bao gồm các bước cốt lõi nào sau đây?",
     "options": [

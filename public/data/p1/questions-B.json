@@ -2,6 +2,7 @@
   {
     "id": "P1-B-L003",
     "section": "B",
+    "topic": "B2",
     "difficulty": 2,
     "stem": "Khi đánh giá bằng chứng kiểm toán, kiểm toán viên có xu hướng chỉ tìm kiếm và coi trọng những thông tin ủng hộ cho giả định ban đầu của mình, đồng thời phớt lờ các bằng chứng ngược lại. Hiện tượng tâm lý này gọi là gì?",
     "options": [
@@ -26,6 +27,7 @@
   {
     "id": "P1-B-L004",
     "section": "B",
+    "topic": "B2",
     "difficulty": 2,
     "stem": "Một kiểm toán viên nội bộ sở hữu một lượng lớn cổ phiếu của Nhà cung cấp X. Khi được phân công kiểm toán quy trình lựa chọn nhà thầu có sự tham gia của Nhà cung cấp X, kiểm toán viên này đang đối mặt với nguy cơ suy giảm tính khách quan nào?",
     "options": [

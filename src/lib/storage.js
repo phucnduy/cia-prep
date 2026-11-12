@@ -29,6 +29,7 @@ export const keys = {
   wrong: (part) => `${part}:wrong`,
   custom: (part) => `${part}:custom`,
   bookmarks: (part) => `${part}:bookmarks`,
+  learned: (part) => `${part}:learned`,
 };
 
 const HISTORY_LIMIT = 30;

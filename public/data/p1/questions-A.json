@@ -2,6 +2,7 @@
   {
     "id": "P1-A-L002",
     "section": "A",
+    "topic": "A1",
     "difficulty": 2,
     "stem": "Trong Khung Thực hành Chuyên môn Quốc tế (IPPF) cập nhật của IIA, cấu phần 'Các Yêu cầu theo Chủ đề' (Topical Requirements) có tính chất pháp lý như thế nào đối với kiểm toán viên nội bộ?",
     "options": [
@@ -24,6 +25,7 @@
   {
     "id": "P1-A-L003",
     "section": "A",
+    "topic": "A2",
     "difficulty": 2,
     "stem": "Khi áp dụng Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS) trong 'Khu vực công' (Public Sector), yếu tố nào thường khác biệt nhất so với doanh nghiệp tư nhân?",
     "options": [

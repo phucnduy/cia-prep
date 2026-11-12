@@ -2,6 +2,7 @@
   {
     "id": "P1-C-L001",
     "section": "C",
+    "topic": "C1",
     "difficulty": 2,
     "stem": "Theo 6 Nguyên tắc của Mô hình 3 Tuyến (IIA Three Lines Model), phát biểu nào sau đây là ĐÚNG về mối quan hệ giữa Tuyến 1, Tuyến 2 và Ban điều hành?",
     "options": [
@@ -24,6 +25,7 @@
   {
     "id": "P1-C-L002",
     "section": "C",
+    "topic": "C7",
     "difficulty": 2,
     "stem": "Khung kiểm soát CoCo (Criteria of Control, Canada) nhấn mạnh các yếu tố con người và văn hóa. CoCo nhóm 20 tiêu chí kiểm soát thành 4 nhóm nào?",
     "options": [
@@ -46,6 +48,7 @@
   {
     "id": "P1-C-L003",
     "section": "C",
+    "topic": "C1",
     "difficulty": 2,
     "stem": "Khung kiểm soát COBIT (Control Objectives for Information and Related Technologies) do ISACA ban hành được thiết kế chủ yếu nhằm mục đích gì?",
     "options": [
@@ -68,6 +71,7 @@
   {
     "id": "P1-C-L004",
     "section": "C",
+    "topic": "C2",
     "difficulty": 2,
     "stem": "Trong đánh giá hệ thống kiểm soát nội bộ, sự khác biệt giữa 'Kiểm soát cứng' (Hard Controls) và 'Kiểm soát mềm' (Soft Controls) là gì?",
     "options": [
@@ -90,6 +94,7 @@
   {
     "id": "P1-C-L005",
     "section": "C",
+    "topic": "C2",
     "difficulty": 2,
     "stem": "Khi kiểm toán viên nội bộ muốn đánh giá tính hiệu quả của các 'Kiểm soát mềm' (Soft Controls) như văn hóa đạo đức và sự cởi mở trong giao tiếp của tổ chức, kỹ thuật thu thập bằng chứng nào sau đây là PHÙ HỢP NHẤT?",
     "options": [
@@ -112,6 +117,7 @@
   {
     "id": "P1-C-L006",
     "section": "C",
+    "topic": "C7",
     "difficulty": 2,
     "stem": "Theo phân loại kiểm soát quản lý theo thời điểm tác động vào quy trình (Input - Process - Output), việc công ty kiểm tra nghiêm ngặt chất lượng nguyên vật liệu đầu vào và bằng cấp của công nhân TRƯỚC KHI bắt đầu ca sản xuất được gọi là gì?",
     "options": [
@@ -134,6 +140,7 @@
   {
     "id": "P1-C-L007",
     "section": "C",
+    "topic": "C7",
     "difficulty": 2,
     "stem": "Nguyên tắc nào sau đây thuộc thành phần 'Môi trường kiểm soát' của khung COSO Internal Control 2013?",
     "options": [
@@ -159,6 +166,7 @@
   {
     "id": "P1-C-L008",
     "section": "C",
+    "topic": "C7",
     "difficulty": 2,
     "stem": "Theo 17 Nguyên tắc của Khung Kiểm soát Nội bộ COSO, Nguyên tắc số 8 ('Tổ chức xem xét khả năng xảy ra gian lận khi đánh giá rủi ro đối với việc đạt được mục tiêu') trực thuộc thành phần nào trong 5 thành phần của COSO?",
     "options": [
@@ -183,6 +191,7 @@
   {
     "id": "P1-C-L009",
     "section": "C",
+    "topic": "C8",
     "difficulty": 2,
     "stem": "Để hệ thống Kiểm soát Nội bộ theo COSO được coi là 'Hữu hiệu' (Effective), điều kiện nào sau đây phải được thỏa mãn?",
     "options": [
@@ -207,6 +216,7 @@
   {
     "id": "P1-C-L010",
     "section": "C",
+    "topic": "C7",
     "difficulty": 2,
     "stem": "Theo 17 Nguyên tắc của COSO IC, thành phần 'Hoạt động kiểm soát' (Control Activities) bao gồm 3 nguyên tắc nào?",
     "options": [
@@ -234,6 +244,7 @@
   {
     "id": "P1-C-L011",
     "section": "C",
+    "topic": "C7",
     "difficulty": 2,
     "stem": "Trong thành phần 'Thông tin và Truyền thông' của COSO 2013, nguyên tắc đầu tiên yêu cầu tổ chức làm gì?",
     "options": [
@@ -261,6 +272,7 @@
   {
     "id": "P1-C-L012",
     "section": "C",
+    "topic": "C5",
     "difficulty": 2,
     "stem": "Khung Quản trị Rủi ro Doanh nghiệp COSO ERM (cập nhật 2017) có tên gọi chính thức là gì và nhấn mạnh điểm cốt lõi nào?",
     "options": [
@@ -285,6 +297,7 @@
   {
     "id": "P1-C-L013",
     "section": "C",
+    "topic": "C5",
     "difficulty": 2,
     "stem": "Khung Quản lý Rủi ro theo tiêu chuẩn quốc tế ISO 31000 được cấu trúc xoay quanh 3 trụ cột chính nào?",
     "options": [
@@ -307,6 +320,7 @@
   {
     "id": "P1-C-L014",
     "section": "C",
+    "topic": "C4",
     "difficulty": 2,
     "stem": "Trong quản trị rủi ro doanh nghiệp (ERM), khái niệm 'Sức chịu đựng rủi ro tối đa' (Risk Capacity) khác với 'Khẩu vị rủi ro' (Risk Appetite) như thế nào?",
     "options": [
@@ -329,6 +343,7 @@
   {
     "id": "P1-C-L015",
     "section": "C",
+    "topic": "C8",
     "difficulty": 2,
     "stem": "Nếu sau khi đánh giá, Ban điều hành nhận thấy 'Rủi ro còn lại' (Residual Risk) của một quy trình hiện đang THẤP HƠN RẤT NHIỀU so với 'Khẩu vị rủi ro' (Risk Appetite) do công ty đang áp dụng tới 6 tầng phê duyệt chồng chéo. Vấn đề gì đang xảy ra?",
     "options": [
@@ -351,6 +366,7 @@
   {
     "id": "P1-C-L016",
     "section": "C",
+    "topic": "C1",
     "difficulty": 2,
     "stem": "Trong Quản trị doanh nghiệp (Corporate Governance), sự khác biệt giữa mô hình Hội đồng quản trị 1 cấp (One-tier / Unitary Board) và mô hình 2 cấp (Two-tier Board) là gì?",
     "options": [
@@ -373,6 +389,7 @@
   {
     "id": "P1-C-L017",
     "section": "C",
+    "topic": "C1",
     "difficulty": 2,
     "stem": "Để ngăn ngừa rủi ro Ban điều hành thiết lập các gói thưởng cổ phiếu khuyến khích việc làm đẹp báo cáo tài chính ngắn hạn bất chấp rủi ro dài hạn, tiểu ban nào thuộc Hội đồng Quản trị chịu trách nhiệm thiết kế và giám sát chính sách lương thưởng của CEO?",
     "options": [
@@ -395,6 +412,7 @@
   {
     "id": "P1-C-L018",
     "section": "C",
+    "topic": "C3",
     "difficulty": 2,
     "stem": "Một tổ chức bổ nhiệm vị trí 'Thanh tra viên đạo đức độc lập' (Ombudsperson / Ethics Officer). Vai trò chính của vị trí này trong văn hóa quản trị doanh nghiệp là gì?",
     "options": [
@@ -417,6 +435,7 @@
   {
     "id": "P1-C-L019",
     "section": "C",
+    "topic": "C1",
     "difficulty": 2,
     "stem": "Khi kiểm toán nội bộ đánh giá các báo cáo Môi trường, Xã hội và Quản trị (ESG / Sustainability Reporting) của công ty, rủi ro 'Tẩy xanh' (Greenwashing) được hiểu là gì?",
     "options": [
@@ -439,6 +458,7 @@
   {
     "id": "P1-C-L020",
     "section": "C",
+    "topic": "C3",
     "difficulty": 2,
     "stem": "Trong kiểm soát Bảo vệ Dữ liệu Cá nhân (Data Privacy / PII - Personally Identifiable Information), nguyên tắc 'Giảm thiểu dữ liệu' (Data Minimization) yêu cầu tổ chức phải làm gì?",
     "options": [
@@ -461,6 +481,7 @@
   {
     "id": "P1-C-L021",
     "section": "C",
+    "topic": "C6",
     "difficulty": 2,
     "stem": "Một công ty thuê nhà cung cấp dịch vụ đám mây bên thứ ba xử lý dữ liệu bảng lương và kế toán. Để đánh giá hệ thống kiểm soát nội bộ của nhà cung cấp này tác động đến Báo cáo tài chính của công ty, kiểm toán viên nên yêu cầu loại báo cáo đảm bảo nào từ nhà cung cấp?",
     "options": [
@@ -483,6 +504,7 @@
   {
     "id": "P1-C-L022",
     "section": "C",
+    "topic": "C6",
     "difficulty": 2,
     "stem": "Khi xem xét báo cáo kiểm toán tổ chức dịch vụ (SOC Report), sự khác biệt quan trọng nhất giữa báo cáo 'Type 1' và báo cáo 'Type 2' là gì?",
     "options": [
@@ -505,6 +527,7 @@
   {
     "id": "P1-C-L023",
     "section": "C",
+    "topic": "C6",
     "difficulty": 2,
     "stem": "Sự khác biệt giữa Kế hoạch Duy trì Hoạt động Kinh doanh Liên tục (BCP - Business Continuity Plan) và Kế hoạch Khôi phục sau Thảm họa (DRP - Disaster Recovery Plan) là gì?",
     "options": [
@@ -527,6 +550,7 @@
   {
     "id": "P1-C-L024",
     "section": "C",
+    "topic": "C7",
     "difficulty": 2,
     "stem": "Trong Kiểm soát Ứng dụng CNTT (IT Application Controls), thuật toán tự động tính toán số cuối cùng của dãy số thẻ tín dụng hoặc mã vạch để phát hiện ngay lập tức lỗi gõ nhầm phím của người nhập liệu được gọi là gì?",
     "options": [
@@ -549,6 +573,7 @@
   {
     "id": "P1-C-L025",
     "section": "C",
+    "topic": "C6",
     "difficulty": 2,
     "stem": "Rủi ro lớn nhất của môi trường 'Điện toán người dùng cuối' (End-User Computing - EUC), chẳng hạn như việc phòng Kế toán tự lập các bảng tính Excel chứa công thức phức tạp để tính dự phòng phải thu khó đòi, là gì?",
     "options": [
@@ -571,6 +596,7 @@
   {
     "id": "P1-C-L027",
     "section": "C",
+    "topic": "C8",
     "difficulty": 2,
     "stem": "Một kho hàng chứa các linh kiện kim loại thô giá trị thấp có mức tổn thất mất cắp trung bình là 5.000 USD/năm. Trưởng kho đề xuất lắp đặt hệ thống cổng từ sinh trắc học và thuê bảo vệ 24/7 với tổng chi phí 40.000 USD/năm để giảm mất cắp về 0. Dưới góc độ kiểm soát nội bộ, đề xuất này vi phạm nguyên tắc nào?",
     "options": [

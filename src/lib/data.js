@@ -23,9 +23,10 @@ export async function loadIndex() {
 
 export async function loadPart(manifest) {
   const base = `data/${manifest.id}`;
-  const [sectionFiles, study] = await Promise.all([
+  const [sectionFiles, study, lessons] = await Promise.all([
     Promise.all(manifest.sections.map((s) => getJson(`${base}/questions-${s.id}.json`).catch(() => []))),
     getJson(`${base}/study.json`).catch(() => []),
+    getJson(`${base}/lessons.json`).catch(() => []),
   ]);
   const builtIn = sectionFiles.flat();
   const custom = load(keys.custom(manifest.id), []);
@@ -33,7 +34,7 @@ export async function loadPart(manifest) {
   for (const q of builtIn) byId[q.id] = q;
   for (const q of custom) byId[q.id] = q; // imported questions may override by id
   const questions = Object.values(byId);
-  return { questions, byId, study, builtInCount: builtIn.length, customCount: custom.length };
+  return { questions, byId, study, lessons, builtInCount: builtIn.length, customCount: custom.length };
 }
 
 export function countBySection(questions) {

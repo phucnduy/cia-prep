@@ -1,0 +1,567 @@
+[
+  {
+    "topic": "A1",
+    "summary": "Mục tiêu nêu cuộc kiểm toán cần đạt điều gì; phạm vi xác định ranh giới công việc. Cả hai phải được ghi nhận và CAE phê duyệt, kể cả các thay đổi trong quá trình thực hiện (GIAS 13.3).",
+    "points": [
+      "Mục tiêu phản ánh kết quả đánh giá rủi ro cuộc kiểm toán và mục tiêu bắt buộc theo luật, quy định.",
+      "Yếu tố cần xem xét: yêu cầu pháp lý; chiến lược, mục tiêu tổ chức; quy trình quản trị, rủi ro, kiểm soát; khẩu vị và ngưỡng chịu đựng rủi ro; chính sách nội bộ; báo cáo kiểm toán trước; công việc của các bên đảm bảo khác; đây là cuộc đảm bảo hay tư vấn.",
+      "Phạm vi nêu hoạt động, địa điểm, quy trình, hệ thống, thời kỳ được xem xét, và phải đủ để đạt mục tiêu.",
+      "Giới hạn phạm vi (thiếu nguồn lực, bị hạn chế tiếp cận) phải được thảo luận với Ban điều hành; nếu không giải quyết được, CAE đưa lên HĐQT theo phương pháp đã định.",
+      "Khi công việc cho thấy cần thay đổi, được điều chỉnh mục tiêu và phạm vi nhưng phải được CAE phê duyệt và thông báo kịp thời cho Ban điều hành (GIAS 13.1).",
+      "Khi kiểm toán chủ đề có Yêu cầu theo chủ đề (Topical Requirements), phải áp dụng yêu cầu đó khi xác định mục tiêu và phạm vi."
+    ],
+    "terms": [
+      {
+        "term": "Engagement objectives",
+        "vi": "Mục tiêu cuộc kiểm toán",
+        "def": "Mục đích và các kết quả cụ thể cuộc kiểm toán cần đạt."
+      },
+      {
+        "term": "Engagement scope",
+        "vi": "Phạm vi cuộc kiểm toán",
+        "def": "Ranh giới về hoạt động, địa điểm, hệ thống, thời kỳ được xem xét."
+      },
+      {
+        "term": "Scope limitation",
+        "vi": "Giới hạn phạm vi",
+        "def": "Điều kiện ngăn kiểm toán viên thực hiện công việc như kế hoạch."
+      }
+    ],
+    "traps": [
+      "Để đơn vị được kiểm toán quyết định phạm vi.",
+      "Cho rằng đã lập kế hoạch thì không được thay đổi mục tiêu, phạm vi.",
+      "Che giấu giới hạn phạm vi thay vì thảo luận và báo cáo."
+    ],
+    "refs": [
+      "GIAS 13.1",
+      "GIAS 13.3",
+      "CIA Part 2 A.1"
+    ]
+  },
+  {
+    "topic": "A2",
+    "summary": "Tiêu chí là mô tả trạng thái mong muốn của hoạt động được kiểm toán. Không có tiêu chí thì không thể xác định phát hiện, vì phát hiện là chênh lệch giữa tiêu chí và thực trạng.",
+    "points": [
+      "Kiểm toán viên xác định các tiêu chí phù hợp nhất cho khía cạnh nằm trong mục tiêu và phạm vi (GIAS 13.4).",
+      "Đánh giá xem HĐQT và Ban điều hành đã có tiêu chí đầy đủ chưa; nếu đầy đủ thì dùng tiêu chí đó.",
+      "Nếu tiêu chí chưa đầy đủ, kiểm toán viên xác định tiêu chí phù hợp thông qua trao đổi với HĐQT và/hoặc Ban điều hành.",
+      "Tiêu chí tốt: cụ thể, thực tế, phù hợp, gắn với mục tiêu của tổ chức và hoạt động, cho phép so sánh tin cậy.",
+      "Nguồn tiêu chí: chính sách nội bộ, luật và quy định, hợp đồng, chuẩn mực ngành, khung kiểm soát (COSO, COBIT), thông lệ tốt, mục tiêu đã phê duyệt.",
+      "Với dịch vụ tư vấn, có thể không cần xác định tiêu chí, tùy thỏa thuận với các bên liên quan."
+    ],
+    "terms": [
+      {
+        "term": "Criteria",
+        "vi": "Tiêu chí",
+        "def": "Mô tả trạng thái mong muốn của hoạt động được kiểm toán (Glossary GIAS)."
+      },
+      {
+        "term": "Condition",
+        "vi": "Thực trạng",
+        "def": "Trạng thái thực tế của hoạt động, xác định bằng bằng chứng."
+      }
+    ],
+    "traps": [
+      "Dừng cuộc kiểm toán vì Ban điều hành chưa có tiêu chí.",
+      "Kết luận hoạt động không hiệu quả chỉ vì thiếu tiêu chí.",
+      "Tự áp tiêu chí của tổ chức khác mà không trao đổi."
+    ],
+    "refs": [
+      "GIAS 13.4",
+      "CIA Part 2 A.2"
+    ]
+  },
+  {
+    "topic": "A3",
+    "summary": "Khi lập kế hoạch, kiểm toán viên cần hiểu mục tiêu chiến lược của hoạt động và các rủi ro, kiểm soát chính, bao gồm CNTT, an ninh mạng, liên tục kinh doanh, tài chính và các quy trình kinh doanh phổ biến.",
+    "points": [
+      "Hiểu mục tiêu chiến lược của hoạt động và cách chúng gắn với quản lý rủi ro, chỉ số hiệu quả, quản lý hiệu suất.",
+      "An ninh mạng và CNTT: rủi ro hiện tại và mới nổi; kiểm soát an toàn thông tin; kiểm soát chung CNTT (truy cập, thay đổi, vận hành); lợi ích của khung kiểm soát CNTT; nguyên tắc quyền riêng tư và bảo mật dữ liệu.",
+      "Liên tục kinh doanh: khả năng phục hồi, quản lý sự cố, phân tích tác động kinh doanh (BIA), kiểm thử sao lưu và khôi phục.",
+      "Khái niệm tài chính, kế toán: tài sản ngắn và dài hạn, nợ ngắn và dài hạn, vốn, đầu tư.",
+      "Quy trình kinh doanh phổ biến: quản lý tài sản, chuỗi cung ứng, tồn kho, phải trả, mua hàng, tuân thủ, bên thứ ba, hệ thống CRM, ERP, GRC.",
+      "Áp dụng Yêu cầu theo chủ đề khi lập kế hoạch chủ đề được quy định, ví dụ an ninh mạng."
+    ],
+    "terms": [
+      {
+        "term": "Business impact analysis (BIA)",
+        "vi": "Phân tích tác động kinh doanh",
+        "def": "Xác định quy trình trọng yếu và ảnh hưởng nếu bị gián đoạn."
+      },
+      {
+        "term": "IT general controls (ITGC)",
+        "vi": "Kiểm soát chung CNTT",
+        "def": "Kiểm soát truy cập, thay đổi chương trình, vận hành CNTT."
+      },
+      {
+        "term": "ERP / GRC systems",
+        "vi": "Hệ thống ERP / GRC",
+        "def": "Phần mềm quản trị nguồn lực doanh nghiệp / quản trị, rủi ro, tuân thủ."
+      }
+    ],
+    "traps": [
+      "Bỏ qua kiểm soát chung CNTT khi dựa vào kiểm soát ứng dụng tự động.",
+      "Cho rằng có bản sao lưu là đủ mà không cần kiểm thử khôi phục."
+    ],
+    "refs": [
+      "CIA Part 2 A.3",
+      "GIAS 13.2"
+    ]
+  },
+  {
+    "topic": "A4",
+    "summary": "Phương pháp tiếp cận quyết định cách tổ chức và thực hiện cuộc kiểm toán. Kiểm toán viên chọn phương pháp phù hợp nhất với mục tiêu, rủi ro và bối cảnh, và áp dụng nguyên tắc quản lý dự án.",
+    "points": [
+      "Truyền thống: các giai đoạn tuần tự (lập kế hoạch, thực địa, báo cáo, theo dõi).",
+      "Agile: chia thành các vòng ngắn (sprint), ưu tiên rủi ro cao, trao đổi liên tục với bên liên quan, linh hoạt điều chỉnh.",
+      "Tích hợp (integrated): kết hợp nhiều khía cạnh (hoạt động, tài chính, CNTT, tuân thủ) trong một cuộc kiểm toán.",
+      "Từ xa (remote): dùng công nghệ để thu thập bằng chứng và trao đổi; cần chú ý độ tin cậy của bằng chứng và bảo mật dữ liệu.",
+      "Quản lý dự án: phạm vi, thời gian, nguồn lực, mốc tiến độ, rủi ro dự án, kênh trao đổi.",
+      "Phân tích dữ liệu toàn bộ tổng thể cho mức đảm bảo cao hơn chọn mẫu khi có dữ liệu đầy đủ, tin cậy."
+    ],
+    "terms": [
+      {
+        "term": "Agile auditing",
+        "vi": "Kiểm toán agile",
+        "def": "Cách tiếp cận lặp, ngắn, ưu tiên rủi ro và phản hồi liên tục."
+      },
+      {
+        "term": "Integrated audit",
+        "vi": "Kiểm toán tích hợp",
+        "def": "Kết hợp kiểm toán hoạt động, tài chính, CNTT trong một cuộc."
+      }
+    ],
+    "traps": [
+      "Cho rằng một phương pháp tốt nhất cho mọi cuộc kiểm toán.",
+      "Cho rằng kiểm toán từ xa không cần đánh giá độ tin cậy của bằng chứng điện tử."
+    ],
+    "refs": [
+      "CIA Part 2 A.4"
+    ]
+  },
+  {
+    "topic": "A5",
+    "summary": "Kiểm toán viên phải hiểu hoạt động được kiểm toán để đánh giá rủi ro liên quan, sau đó ưu tiên rủi ro để xác định mục tiêu và phạm vi (GIAS 13.2).",
+    "points": [
+      "Thu thập thông tin đáng tin cậy, phù hợp, đầy đủ về: chiến lược, mục tiêu, rủi ro của hoạt động; ngưỡng chịu đựng rủi ro (nếu có); đánh giá rủi ro hỗ trợ kế hoạch kiểm toán; quy trình quản trị, rủi ro, kiểm soát của hoạt động; khung, hướng dẫn, tiêu chí áp dụng.",
+      "Nhận diện rủi ro: rủi ro tiềm ẩn trọng yếu với mục tiêu; xem xét cụ thể rủi ro gian lận; đánh giá mức trọng yếu và ưu tiên.",
+      "Xác định tiêu chí mà Ban điều hành dùng để đo việc đạt mục tiêu.",
+      "Nếu đã đánh giá rủi ro trong cuộc kiểm toán trước, chỉ cần rà soát và cập nhật. Với tư vấn, có thể không cần đánh giá rủi ro chính thức.",
+      "Xem xét rủi ro tài chính, hoạt động, CNTT, an ninh mạng, pháp lý; rủi ro mới nổi; tác động của thay đổi về con người, quy trình, hệ thống.",
+      "Ảnh hưởng của cơ cấu (tập trung hay phân quyền, phẳng hay nhiều cấp, làm việc trực tiếp hay từ xa) và văn hóa, tone at the top."
+    ],
+    "terms": [
+      {
+        "term": "Engagement risk assessment",
+        "vi": "Đánh giá rủi ro cuộc kiểm toán",
+        "def": "Hiểu hoạt động, nhận diện và ưu tiên rủi ro để xác định mục tiêu, phạm vi."
+      },
+      {
+        "term": "Risk and control matrix (RCM)",
+        "vi": "Ma trận rủi ro và kiểm soát",
+        "def": "Bảng ánh xạ mục tiêu, rủi ro, kiểm soát và thủ tục kiểm tra."
+      }
+    ],
+    "traps": [
+      "Bỏ qua rủi ro gian lận khi đánh giá rủi ro cuộc kiểm toán.",
+      "Cho rằng mọi cuộc tư vấn đều cần đánh giá rủi ro chính thức có tài liệu."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 2 A.5"
+    ]
+  },
+  {
+    "topic": "A6",
+    "summary": "Chương trình làm việc mô tả các bước cụ thể để đạt mục tiêu cuộc kiểm toán. Chương trình phải được lập thành văn bản và CAE phê duyệt trước khi thực hiện (GIAS 13.6).",
+    "points": [
+      "Chương trình phải nêu: tiêu chí đánh giá từng mục tiêu; công việc cần làm; phương pháp (kể cả thủ tục phân tích) và công cụ; người được phân công từng công việc.",
+      "Chương trình dựa trên thông tin thu thập khi lập kế hoạch, kể cả kết quả đánh giá rủi ro.",
+      "CAE rà soát và phê duyệt trước khi thực hiện, và phê duyệt kịp thời mọi thay đổi sau đó.",
+      "Thủ tục đánh giá thiết kế kiểm soát: walkthrough, phỏng vấn, xem xét chính sách, lưu đồ.",
+      "Thủ tục kiểm tra hiệu quả vận hành: chọn mẫu, kiểm tra tài liệu, quan sát, thực hiện lại; thủ tục đánh giá hiệu quả (efficiency): so sánh chi phí, thời gian, nguồn lực với lợi ích.",
+      "Phương pháp kiểm tra có thể khác nhau cho kế toán, tài chính, hệ thống CNTT, hoạt động kinh doanh, an ninh mạng."
+    ],
+    "terms": [
+      {
+        "term": "Engagement work program",
+        "vi": "Chương trình làm việc",
+        "def": "Tài liệu nêu công việc, phương pháp, người thực hiện để đạt mục tiêu."
+      },
+      {
+        "term": "Walkthrough",
+        "vi": "Kiểm tra theo luồng",
+        "def": "Theo một giao dịch qua toàn bộ quy trình để hiểu và đánh giá thiết kế."
+      },
+      {
+        "term": "Reperformance",
+        "vi": "Thực hiện lại",
+        "def": "Kiểm toán viên tự làm lại kiểm soát để kiểm tra hiệu quả."
+      }
+    ],
+    "traps": [
+      "Để đơn vị được kiểm toán phê duyệt chương trình.",
+      "Lập chương trình sau khi đã làm xong thực địa.",
+      "Cho rằng chương trình đã duyệt thì không được điều chỉnh."
+    ],
+    "refs": [
+      "GIAS 13.6",
+      "CIA Part 2 A.6"
+    ]
+  },
+  {
+    "topic": "A7",
+    "summary": "Khi lập kế hoạch, kiểm toán viên xác định loại và lượng nguồn lực cần để đạt mục tiêu. Nguồn lực không phù hợp hoặc không đủ phải được trao đổi với CAE (GIAS 13.5).",
+    "points": [
+      "Cân nhắc bản chất và độ phức tạp của cuộc kiểm toán, khung thời gian, và nguồn lực tài chính, nhân sự, công nghệ có phù hợp và đủ không.",
+      "Nguồn lực tài chính: chi phí đi lại, chuyên gia bên ngoài, công cụ.",
+      "Nhân sự: kết hợp kiến thức, kỹ năng (ví dụ phân tích dữ liệu, CNTT, chuyên ngành), số lượng, kinh nghiệm.",
+      "Công nghệ: phần mềm phân tích dữ liệu, truy cập hệ thống, công cụ quản lý hồ sơ.",
+      "Nếu thiếu: trao đổi với CAE để bổ sung (kể cả chuyên gia bên ngoài); không bỏ thủ tục cần thiết hay để đơn vị được kiểm toán tự làm.",
+      "Thiếu nguồn lực không giải quyết được là giới hạn phạm vi, cần xử lý theo GIAS 13.3."
+    ],
+    "terms": [
+      {
+        "term": "Engagement resources",
+        "vi": "Nguồn lực cuộc kiểm toán",
+        "def": "Tài chính, nhân sự, công nghệ cần để đạt mục tiêu."
+      }
+    ],
+    "traps": [
+      "Bỏ thủ tục quan trọng vì thiếu kỹ năng.",
+      "Nhờ đơn vị được kiểm toán tự phân tích dữ liệu của mình."
+    ],
+    "refs": [
+      "GIAS 13.5",
+      "GIAS 13.3",
+      "CIA Part 2 A.7"
+    ]
+  },
+  {
+    "topic": "B1",
+    "summary": "Kiểm toán viên chọn nguồn và phương pháp thu thập thông tin phù hợp với mục tiêu và thủ tục của cuộc kiểm toán.",
+    "points": [
+      "Phương pháp: phỏng vấn, quan sát, walkthrough, phân tích dữ liệu, kiểm tra tài liệu, xác nhận từ bên ngoài.",
+      "Tài liệu: chính sách, quy trình, danh mục kiểm tra (checklist), bảng câu hỏi rủi ro và kiểm soát, khảo sát tự đánh giá.",
+      "Phỏng vấn giúp hiểu quy trình nhưng là bằng chứng gián tiếp; cần chứng thực bằng nguồn khác.",
+      "Quan sát cho thấy hoạt động tại thời điểm quan sát; người bị quan sát có thể thay đổi hành vi.",
+      "Bảng câu hỏi và khảo sát tự đánh giá thu thập nhanh thông tin từ nhiều người, phù hợp đánh giá kiểm soát mềm."
+    ],
+    "terms": [
+      {
+        "term": "Internal control questionnaire (ICQ)",
+        "vi": "Bảng câu hỏi kiểm soát nội bộ",
+        "def": "Danh sách câu hỏi đóng để tìm hiểu kiểm soát hiện có."
+      },
+      {
+        "term": "Observation",
+        "vi": "Quan sát",
+        "def": "Xem trực tiếp việc thực hiện một quy trình hoặc kiểm soát."
+      }
+    ],
+    "traps": [
+      "Kết luận chỉ dựa trên phỏng vấn.",
+      "Cho rằng quan sát một lần chứng minh kiểm soát vận hành suốt kỳ."
+    ],
+    "refs": [
+      "CIA Part 2 B.1",
+      "GIAS 14.1"
+    ]
+  },
+  {
+    "topic": "B2",
+    "summary": "Bằng chứng phải phù hợp, đáng tin cậy và đầy đủ (GIAS 14.1). Kiểm toán viên dùng hoài nghi nghề nghiệp để đánh giá độ tin cậy của thông tin.",
+    "points": [
+      "Phù hợp: nhất quán với mục tiêu, trong phạm vi, và góp phần vào kết quả cuộc kiểm toán.",
+      "Đáng tin cậy: đúng sự thật và cập nhật. Độ tin cậy tăng khi bằng chứng do kiểm toán viên trực tiếp thu thập hoặc từ nguồn độc lập, được chứng thực, và từ hệ thống có quản trị, rủi ro, kiểm soát hiệu quả.",
+      "Đầy đủ: đủ để phân tích, đánh giá, và để một người thận trọng, có hiểu biết, có năng lực thực hiện lại chương trình và đi đến cùng kết luận.",
+      "Nếu bằng chứng chưa đạt, quyết định có thu thập thêm không; nếu không thể có bằng chứng phù hợp, cân nhắc ghi nhận là một phát hiện.",
+      "Thứ tự tin cậy thường gặp: xác nhận từ bên thứ ba gửi thẳng kiểm toán viên, cao hơn tài liệu bên ngoài do đơn vị giữ, cao hơn tài liệu nội bộ, cao hơn giải trình bằng lời."
+    ],
+    "terms": [
+      {
+        "term": "Relevant / reliable / sufficient",
+        "vi": "Phù hợp / đáng tin cậy / đầy đủ",
+        "def": "Ba thuộc tính của thông tin theo GIAS 14.1."
+      },
+      {
+        "term": "Corroboration",
+        "vi": "Chứng thực",
+        "def": "Xác nhận thông tin bằng nguồn hoặc thủ tục khác."
+      }
+    ],
+    "traps": [
+      "Thêm 'hữu ích' (useful) như yêu cầu của GIAS; đó là của IPPF 2017.",
+      "Cho rằng càng nhiều tài liệu thì càng đáng tin cậy.",
+      "Đánh giá tài liệu nội bộ tự lập ngang với xác nhận từ bên thứ ba."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.2"
+    ]
+  },
+  {
+    "topic": "B3",
+    "summary": "Công nghệ giúp kiểm toán viên kiểm tra nhiều dữ liệu hơn, nhanh hơn và liên tục hơn. Kiểm toán viên cần biết khi nào dùng công cụ nào.",
+    "points": [
+      "Trí tuệ nhân tạo và học máy: phân loại, phát hiện mẫu bất thường trong khối dữ liệu lớn.",
+      "Tự động hóa quy trình bằng robot (RPA): tự động thực hiện các bước kiểm tra lặp lại.",
+      "Giám sát liên tục và kiểm toán liên tục: kiểm tra giao dịch gần thời gian thực, cảnh báo ngoại lệ.",
+      "Dashboard: trình bày chỉ số rủi ro, kết quả kiểm toán trực quan cho bên liên quan.",
+      "Module kiểm toán nhúng (embedded audit modules): đoạn chương trình trong hệ thống ghi lại giao dịch thỏa điều kiện để kiểm toán viên rà soát.",
+      "Khi dùng công nghệ, vẫn phải đánh giá độ tin cậy của dữ liệu nguồn và bảo mật dữ liệu (GIAS 5.2, 10.3)."
+    ],
+    "terms": [
+      {
+        "term": "Continuous auditing",
+        "vi": "Kiểm toán liên tục",
+        "def": "Kiểm toán viên kiểm tra dữ liệu thường xuyên, tự động."
+      },
+      {
+        "term": "Continuous monitoring",
+        "vi": "Giám sát liên tục",
+        "def": "Ban điều hành tự động theo dõi kiểm soát và giao dịch."
+      },
+      {
+        "term": "Embedded audit module",
+        "vi": "Module kiểm toán nhúng",
+        "def": "Chương trình trong hệ thống ghi lại giao dịch cần kiểm tra."
+      }
+    ],
+    "traps": [
+      "Nhầm giám sát liên tục (của Ban điều hành) với kiểm toán liên tục (của kiểm toán viên).",
+      "Tin kết quả phân tích mà không kiểm tra tính đầy đủ, chính xác của dữ liệu đầu vào."
+    ],
+    "refs": [
+      "CIA Part 2 B.3",
+      "GIAS 10.3"
+    ]
+  },
+  {
+    "topic": "B4",
+    "summary": "Lưu đồ quy trình và phân tích dữ liệu giúp hiểu quy trình, tìm điểm kiểm soát và phát hiện bất thường.",
+    "points": [
+      "Lưu đồ quy trình chia quy trình thành các đoạn (đầu vào, xử lý, đầu ra) và cho thấy điểm kiểm soát, điểm nghẽn, khoảng trống.",
+      "Ma trận phân công trách nhiệm (RACI) giúp phát hiện xung đột phân chia trách nhiệm.",
+      "Dữ liệu có cấu trúc (bảng, cơ sở dữ liệu) và phi cấu trúc (email, văn bản, hình ảnh) cần công cụ phân tích khác nhau.",
+      "Quy trình phân tích dữ liệu: xác định mục tiêu, lấy dữ liệu phù hợp, chuẩn hóa dữ liệu, phân tích, trao đổi kết quả.",
+      "Loại phân tích: chẩn đoán (vì sao xảy ra), dự báo (điều gì có thể xảy ra), đề xuất (nên làm gì), phát hiện bất thường, phân tích văn bản."
+    ],
+    "terms": [
+      {
+        "term": "Process mapping",
+        "vi": "Lập lưu đồ quy trình",
+        "def": "Mô tả trực quan các bước, người thực hiện và điểm kiểm soát."
+      },
+      {
+        "term": "RACI matrix",
+        "vi": "Ma trận RACI",
+        "def": "Ma trận ai chịu trách nhiệm, phê duyệt, được tham vấn, được thông báo."
+      },
+      {
+        "term": "Anomaly detection",
+        "vi": "Phát hiện bất thường",
+        "def": "Tìm điểm dữ liệu khác biệt rõ với phần còn lại."
+      }
+    ],
+    "traps": [
+      "Bỏ bước chuẩn hóa, làm sạch dữ liệu trước khi phân tích.",
+      "Nhầm phân tích dự báo với phân tích chẩn đoán."
+    ],
+    "refs": [
+      "CIA Part 2 B.4"
+    ]
+  },
+  {
+    "topic": "B5",
+    "summary": "Thủ tục phân tích so sánh số liệu với kỳ vọng để tìm biến động bất thường. Biến động bất thường là tín hiệu cần điều tra, chưa phải là kết luận.",
+    "points": [
+      "Phân tích tỷ số: thanh khoản, hiệu quả hoạt động, khả năng sinh lời, đòn bẩy.",
+      "Phân tích chênh lệch: so thực tế với ngân sách hoặc kế hoạch.",
+      "Phân tích xu hướng: so sánh nhiều kỳ để phát hiện thay đổi bất thường.",
+      "Dùng cả thông tin tài chính và phi tài chính (ví dụ số giờ máy chạy so với chi phí điện).",
+      "So sánh chuẩn với đơn vị khác, ngành, thông lệ tốt.",
+      "Khi có biến động bất thường: hỏi nguyên nhân, chứng thực giải trình, kiểm tra chứng từ chi tiết."
+    ],
+    "terms": [
+      {
+        "term": "Analytical review",
+        "vi": "Thủ tục phân tích",
+        "def": "So sánh, đánh giá mối quan hệ giữa các số liệu để tìm bất thường."
+      },
+      {
+        "term": "Variance analysis",
+        "vi": "Phân tích chênh lệch",
+        "def": "So sánh thực tế với ngân sách, kế hoạch."
+      }
+    ],
+    "traps": [
+      "Kết luận sai sót ngay khi thấy biến động.",
+      "Chấp nhận giải trình về biến động mà không chứng thực."
+    ],
+    "refs": [
+      "CIA Part 2 B.5"
+    ]
+  },
+  {
+    "topic": "B6",
+    "summary": "Phát hiện là chênh lệch giữa tiêu chí và thực trạng. Kiểm toán viên đánh giá mức độ trọng yếu của từng phát hiện, cùng Ban điều hành tìm nguyên nhân gốc rễ, và ưu tiên phát hiện (GIAS 14.2, 14.3).",
+    "points": [
+      "Xác định thực trạng bằng bằng chứng, rồi so với tiêu chí. Không có chênh lệch thì phải đưa ra đảm bảo về hiệu quả trong kết luận.",
+      "Nếu bằng chứng ban đầu chưa đủ, cân nhắc phân tích thêm; khi đó chương trình làm việc phải được điều chỉnh và CAE phê duyệt.",
+      "Mức trọng yếu dựa trên khả năng xảy ra và mức độ ảnh hưởng của rủi ro.",
+      "Phối hợp với Ban điều hành để tìm nguyên nhân gốc rễ (5 Whys, biểu đồ xương cá) và ảnh hưởng tiềm ẩn.",
+      "Rủi ro trọng yếu phải được ghi nhận và báo cáo là phát hiện; ưu tiên phát hiện theo phương pháp của CAE.",
+      "Một phát hiện đầy đủ gồm: tiêu chí, thực trạng, nguyên nhân, ảnh hưởng, kèm khuyến nghị hoặc kế hoạch hành động."
+    ],
+    "terms": [
+      {
+        "term": "Engagement finding",
+        "vi": "Phát hiện kiểm toán",
+        "def": "Chênh lệch giữa tiêu chí và thực trạng."
+      },
+      {
+        "term": "Root cause",
+        "vi": "Nguyên nhân gốc rễ",
+        "def": "Vấn đề cốt lõi tạo ra chênh lệch giữa tiêu chí và thực trạng (Glossary GIAS)."
+      },
+      {
+        "term": "Significance",
+        "vi": "Mức độ trọng yếu",
+        "def": "Đánh giá theo khả năng xảy ra và ảnh hưởng."
+      }
+    ],
+    "traps": [
+      "Khuyến nghị xử lý triệu chứng thay vì nguyên nhân gốc rễ.",
+      "Cho rằng ảnh hưởng chỉ được nêu khi định lượng được bằng tiền.",
+      "Không đưa ra đảm bảo khi không có phát hiện."
+    ],
+    "refs": [
+      "GIAS 14.2",
+      "GIAS 14.3",
+      "CIA Part 2 B.6"
+    ]
+  },
+  {
+    "topic": "B7",
+    "summary": "Hồ sơ làm việc ghi nhận thông tin và bằng chứng hỗ trợ kết quả cuộc kiểm toán. Hồ sơ phải đủ để một người có hiểu biết, thận trọng thực hiện lại công việc và đạt cùng kết quả (GIAS 14.6).",
+    "points": [
+      "Ghi nhận phân tích, đánh giá và thông tin hỗ trợ, có liên kết rõ với phát hiện và kết luận.",
+      "Kiểm toán viên và người giám sát rà soát hồ sơ về tính chính xác, phù hợp và đầy đủ; CAE rà soát và phê duyệt hồ sơ.",
+      "Hồ sơ được tổ chức nhất quán: mục tiêu, nguồn, thủ tục, kết quả, kết luận, tham chiếu chéo, người lập và người rà soát.",
+      "Lưu giữ theo luật, quy định và chính sách của chức năng kiểm toán và tổ chức.",
+      "Việc tiếp cận và phát hành hồ sơ cho bên khác phải theo chính sách, thường cần tham vấn pháp chế (GIAS 5.2)."
+    ],
+    "terms": [
+      {
+        "term": "Workpapers",
+        "vi": "Hồ sơ làm việc",
+        "def": "Tài liệu ghi nhận công việc và bằng chứng của cuộc kiểm toán."
+      },
+      {
+        "term": "Retention policy",
+        "vi": "Chính sách lưu giữ",
+        "def": "Quy định thời gian và cách lưu trữ, hủy hồ sơ."
+      }
+    ],
+    "traps": [
+      "Chỉ lưu bằng chứng có ngoại lệ.",
+      "Để đơn vị được kiểm toán phê duyệt hồ sơ.",
+      "Hủy hồ sơ ngay sau khi phát hành báo cáo."
+    ],
+    "refs": [
+      "GIAS 14.6",
+      "GIAS 5.2",
+      "CIA Part 2 B.7"
+    ]
+  },
+  {
+    "topic": "B8",
+    "summary": "Kết luận cuộc kiểm toán tóm tắt kết quả so với mục tiêu và thể hiện xét đoán nghề nghiệp về mức trọng yếu tổng hợp của các phát hiện (GIAS 14.5).",
+    "points": [
+      "Kết luận tóm tắt kết quả so với mục tiêu của cuộc kiểm toán và mục tiêu của Ban điều hành.",
+      "Đánh giá mức trọng yếu khi tổng hợp các phát hiện: nhiều phát hiện nhỏ có thể cùng chỉ ra một vấn đề lớn.",
+      "Kết luận của cuộc đảm bảo phải gồm xét đoán về hiệu quả của quản trị, rủi ro và/hoặc kiểm soát, kể cả ghi nhận khi các quy trình hiệu quả.",
+      "Thường dùng thang xếp hạng (ví dụ hiệu quả, cần cải thiện, không hiệu quả) theo phương pháp của CAE.",
+      "Kết luận phải dựa trên bằng chứng phù hợp, đáng tin cậy, đầy đủ."
+    ],
+    "terms": [
+      {
+        "term": "Engagement conclusion",
+        "vi": "Kết luận cuộc kiểm toán",
+        "def": "Xét đoán tổng thể về kết quả so với mục tiêu."
+      },
+      {
+        "term": "Aggregated findings",
+        "vi": "Phát hiện tổng hợp",
+        "def": "Xem xét các phát hiện cùng nhau để đánh giá mức trọng yếu chung."
+      }
+    ],
+    "traps": [
+      "Chỉ nêu điểm yếu mà không ghi nhận khi quy trình hiệu quả.",
+      "Đánh giá từng phát hiện riêng lẻ mà bỏ qua tác động tổng hợp."
+    ],
+    "refs": [
+      "GIAS 14.5",
+      "CIA Part 2 B.8"
+    ]
+  },
+  {
+    "topic": "C1",
+    "summary": "Giám sát bảo đảm cuộc kiểm toán đạt mục tiêu, có chất lượng và giúp kiểm toán viên phát triển. Mức độ giám sát tùy độ trưởng thành của chức năng kiểm toán, năng lực, kinh nghiệm của kiểm toán viên và độ phức tạp của cuộc kiểm toán (GIAS 12.3).",
+    "points": [
+      "Giám sát diễn ra suốt cuộc kiểm toán, kể cả khi lập kế hoạch.",
+      "CAE hoặc người giám sát hướng dẫn kiểm toán viên, xác minh chương trình làm việc được hoàn thành và hồ sơ hỗ trợ đầy đủ cho phát hiện, kết luận, khuyến nghị.",
+      "Người giám sát điều phối phân công công việc, rà soát hồ sơ và kết luận, đánh giá và phản hồi về hiệu quả làm việc của kiểm toán viên.",
+      "CAE có thể giao việc giám sát cho người phù hợp nhưng vẫn chịu trách nhiệm cuối cùng, kể cả khi công việc do bên cung cấp dịch vụ thực hiện.",
+      "Bằng chứng giám sát phải được ghi nhận và lưu giữ theo phương pháp đã thiết lập."
+    ],
+    "terms": [
+      {
+        "term": "Engagement supervision",
+        "vi": "Giám sát cuộc kiểm toán",
+        "def": "Hướng dẫn, rà soát, phản hồi trong suốt cuộc kiểm toán."
+      }
+    ],
+    "traps": [
+      "Cho rằng kiểm toán viên giàu kinh nghiệm thì không cần giám sát.",
+      "Phát hành báo cáo khi hồ sơ chưa được rà soát."
+    ],
+    "refs": [
+      "GIAS 12.3",
+      "CIA Part 2 C.1"
+    ]
+  },
+  {
+    "topic": "C2",
+    "summary": "Kiểm toán viên phải trao đổi hiệu quả trong suốt cuộc kiểm toán: thông báo mục tiêu, phạm vi, thời gian khi bắt đầu; cập nhật thay đổi kịp thời; báo cáo vấn đề cần xử lý ngay (GIAS 13.1).",
+    "points": [
+      "Khi bắt đầu: trao đổi mục tiêu, phạm vi, thời gian với Ban điều hành; thay đổi sau đó phải được thông báo kịp thời.",
+      "Chọn hình thức phù hợp: chính thức hoặc không chính thức, viết hoặc nói, ở các giai đoạn lập kế hoạch, thực địa, báo cáo.",
+      "Vấn đề nghiêm trọng cần xử lý ngay phải được báo kịp thời cho quản lý phù hợp, không chờ báo cáo cuối.",
+      "Báo vượt cấp khi: giới hạn phạm vi không giải quyết được, rủi ro vượt khẩu vị, nghi ngờ gian lận liên quan quản lý.",
+      "Bất đồng về kết quả: thảo luận để hiểu nhau; nếu vẫn không thống nhất, kiểm toán viên không bắt buộc sửa kết quả trừ khi có lý do hợp lệ, và hai bên trình bày quan điểm theo phương pháp đã định.",
+      "Xác định đúng bên liên quan cần nhận thông tin: quản lý đơn vị, Ban điều hành, HĐQT."
+    ],
+    "terms": [
+      {
+        "term": "Engagement communication",
+        "vi": "Trao đổi trong cuộc kiểm toán",
+        "def": "Thông tin giữa kiểm toán viên và Ban điều hành trong suốt cuộc kiểm toán."
+      },
+      {
+        "term": "Escalation",
+        "vi": "Báo vượt cấp",
+        "def": "Đưa vấn đề lên cấp cao hơn khi không giải quyết được ở cấp hiện tại."
+      }
+    ],
+    "traps": [
+      "Giữ vấn đề nghiêm trọng đến báo cáo cuối để tạo bất ngờ.",
+      "Sửa kết quả kiểm toán chỉ vì Ban điều hành không đồng ý."
+    ],
+    "refs": [
+      "GIAS 13.1",
+      "CIA Part 2 C.2"
+    ]
+  }
+]

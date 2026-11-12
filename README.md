@@ -16,11 +16,11 @@ Nguồn: [CIA Exam: Why and How It's Changing (IIA)](https://www.theiia.org/glob
 
 ## Tình trạng nội dung
 
-| Phần | Câu hỏi | Thẻ kiến thức | Trạng thái |
-|---|---|---|---|
-| Part 1 | 158 | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
-| Part 2 | 15 | 5 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
-| Part 3 | 19 | 11 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
+| Phần | Câu hỏi | Bài học | Thẻ kiến thức | Trạng thái |
+|---|---|---|---|---|
+| Part 1 | 158 | 27/27 chủ đề | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
+| Part 2 | 15 | 17/17 chủ đề | 5 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
+| Part 3 | 19 | 18/18 chủ đề | 11 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
 
 Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành `"ready"` trong `public/data/<part>/manifest.json`.
 
@@ -29,7 +29,7 @@ Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành
 - **Thi thử mô phỏng**: đủ số câu và thời gian như đề thật, rút câu theo tỷ trọng từng section, xáo trộn thứ tự đáp án mỗi lần thi, bấm giờ (tự nộp khi hết giờ), đánh dấu câu, gạch bỏ phương án (nút hoặc chuột phải), bảng câu hỏi, màn hình xem lại trước khi nộp, máy tính.
 - **Luyện tập theo chuyên đề**: chọn section và số câu, xem đáp án và giải thích (kèm căn cứ GIAS) ngay sau mỗi câu.
 - **Ôn câu sai**: mọi câu làm sai được lưu lại, làm đúng thì tự xóa khỏi danh sách.
-- **Học lý thuyết**: nội dung syllabus từng section và thẻ kiến thức (quy tắc, cách làm đúng, vi phạm, bẫy đề thi, điểm phân biệt).
+- **Học lý thuyết**: một bài học cho mỗi chủ đề syllabus (tóm tắt, ý chính, thuật ngữ Anh - Việt, bẫy thường gặp, căn cứ), luyện riêng câu hỏi của chủ đề, tỷ lệ đúng theo chủ đề, đánh dấu đã học và tiến độ; kèm thẻ kiến thức theo section.
 - **Ngân hàng câu hỏi**: tìm kiếm, lọc theo section, nhập và xuất JSON (câu nhập chỉ lưu trong trình duyệt).
 - **Kết quả**: điểm theo từng section, gợi ý phần cần ôn, xem lại đáp án; lịch sử làm bài.
 - Bài đang làm được lưu tự động; tải lại trang vẫn tiếp tục được. Phím tắt: `1-4` hoặc `A-D` chọn đáp án, `mũi tên trái/phải` chuyển câu, `F` đánh dấu, `Enter` kiểm tra (khi luyện tập).
@@ -42,6 +42,7 @@ public/data/                  <- DỮ LIỆU (tách riêng khỏi giao diện)
   parts.json                  danh sách phần thi, thang điểm, nguồn syllabus
   p1/manifest.json            số câu, thời gian, section, tỷ trọng, chủ đề syllabus
   p1/questions-A.json ...     câu hỏi, mỗi section một file
+  p1/lessons.json             bài học, mỗi chủ đề syllabus một bài
   p1/study.json               thẻ kiến thức
   p2/ ...  p3/ ...
 src/                          <- GIAO DIỆN (React + Vite)
@@ -51,7 +52,7 @@ src/                          <- GIAO DIỆN (React + Vite)
   components/                 Home, PartPage, Session (phòng thi), Results, Study, Bank, Calculator
 scripts/
   validate.mjs                kiểm tra toàn bộ dữ liệu, chạy tự động trước mỗi lần build
-  add-questions.mjs           thêm câu hỏi từ file JSON vào đúng section
+  add-questions.mjs           thêm câu hỏi (hoặc --lessons, --study) từ file JSON
   migrate-legacy.mjs          (một lần) chuyển dữ liệu từ bản HTML cũ
 legacy/cia-part1-legacy.html  bản HTML ban đầu, giữ để đối chiếu
 ```

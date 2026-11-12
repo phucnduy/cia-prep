@@ -6,6 +6,16 @@ import { TYPOGRAPHIC } from './text.mjs';
 
 const LENGTH_TELL_RATIO = 1.2;
 const MAX_LONGEST_CORRECT_SHARE = 0.4;
+// The 52 standards of GIAS 2024 (Principle.Standard). Any other "GIAS x.y" is a typo or invention.
+const GIAS_STANDARDS = new Set(
+  Object.entries({ 1: 3, 2: 3, 3: 2, 4: 3, 5: 2, 6: 3, 7: 2, 8: 4, 9: 5, 10: 3, 11: 5, 12: 3, 13: 6, 14: 6, 15: 2 })
+    .flatMap(([p, n]) => Array.from({ length: n }, (_, i) => `${p}.${i + 1}`)),
+);
+const GIAS_CITATION = /GIAS (\d{1,2}\.\d{1,2})/g;
+function unknownGiasCitations(value) {
+  return [...JSON.stringify(value).matchAll(GIAS_CITATION)].map((m) => m[1]).filter((s) => !GIAS_STANDARDS.has(s));
+}
+
 const LETTER_REFERENCE =
   /(?:[Pp]hương án|[Đđ]áp án|[Ll]ựa chọn|[Cc]âu)\s+[A-D]\b|[Cc]ả [A-D] và [A-D]\b|[Tt]ất cả các (?:phương án|ý) trên|[Kk]hông có phương án nào/;
 
@@ -48,6 +58,7 @@ for (const { id: part, path } of index.parts) {
       // Options are shuffled at display time, so text that names a letter or
       // relies on option order ("cả A và B") is wrong by construction.
       if (!q.optionNotes) missingNotes.push(q.id);
+      for (const s of unknownGiasCitations(q)) errors.push(`${where}: cites GIAS ${s}, which does not exist`);
       for (const text of [q.stem, q.explanation, ...(q.options || []), ...(q.optionNotes || [])]) {
         const m = typeof text === 'string' && text.match(LETTER_REFERENCE);
         if (m) errors.push(`${where}: refers to an option by letter or position ("${m[0]}"); options are shuffled`);
@@ -85,6 +96,27 @@ for (const { id: part, path } of index.parts) {
   if (missingNotes.length) {
     warnings.push(`${part}: ${missingNotes.length} question(s) without per-option notes (optionNotes), e.g. ${missingNotes.slice(0, 3).join(', ')}`);
   }
+
+  // Lessons: one per syllabus topic, same no-letter rule as questions.
+  const allTopics = manifest.sections.flatMap((s) => s.topics.map((t) => t.id));
+  const lessons = readJson(`${dir}/lessons.json`);
+  const seenLessons = new Set();
+  for (const l of lessons) {
+    const where = `${part}/lesson ${l.topic ?? '?'}`;
+    if (!allTopics.includes(l.topic)) errors.push(`${where}: unknown topic`);
+    if (seenLessons.has(l.topic)) errors.push(`${where}: duplicate lesson`);
+    seenLessons.add(l.topic);
+    if (typeof l.summary !== 'string' || l.summary.length < 40) errors.push(`${where}: summary missing or too short`);
+    if (!Array.isArray(l.points) || l.points.length < 3) errors.push(`${where}: needs at least 3 points`);
+    for (const t of l.terms || []) if (!t.term || !t.vi || !t.def) errors.push(`${where}: term needs term, vi, def`);
+    if (!Array.isArray(l.refs) || !l.refs.length) errors.push(`${where}: needs refs`);
+    if (TYPOGRAPHIC.test(JSON.stringify(l))) warnings.push(`${where}: typographic characters`);
+    for (const s of unknownGiasCitations(l)) errors.push(`${where}: cites GIAS ${s}, which does not exist`);
+    const m = JSON.stringify(l).match(LETTER_REFERENCE);
+    if (m) errors.push(`${where}: refers to an option by letter ("${m[0]}")`);
+  }
+  const missingLessons = allTopics.filter((t) => !seenLessons.has(t));
+  if (missingLessons.length) warnings.push(`${part}: ${missingLessons.length} topic(s) without a lesson: ${missingLessons.join(', ')}`);
 
   for (const c of readJson(`${dir}/study.json`)) {
     if (!sectionIds.includes(c.section)) errors.push(`${part}/study ${c.id}: bad section ${c.section}`);

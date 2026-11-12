@@ -39,6 +39,14 @@ Every rule below exists because the mistake it prevents already happened once in
 - `optionNotes`: required. One note per option, in `options` order, starting with "Đúng." or "Sai.", giving the reason or the misconception.
 - `refs`: `GIAS x.y`, `CIA Part n X.y` (syllabus section; not the old Roman numerals I-IV), `IPPF 2017 nnnn`, `COSO 2013`, `IESBA Code`...
 
+## 3b. Lessons (`lessons.json`)
+
+- One lesson per syllabus topic: `topic`, `summary`, `points` (at least 3), `terms` (`term`, `vi`, `def`), `traps`, `refs`. Load with `add-questions.mjs <part> <file> --lessons`, which replaces the lesson by topic.
+- Follow the syllabus sub-items for the topic (the "May include" list in the IIA document) so nothing in the exam is missed.
+- Read the original GIAS text before writing GIAS-based content; take glossary definitions from the GIAS glossary. Write content from COSO, ISO, ACFE or IESBA under their own names.
+- Every question needs a `topic` so it shows up in its lesson's topic practice.
+- The validator rejects any "GIAS x.y" that is not one of the 52 real standards.
+
 ## 4. Workflow
 
 1. Write questions into a JSON file, then run `node scripts/add-questions.mjs <part> <file>`. It normalizes characters, checks the schema and refuses duplicate IDs.

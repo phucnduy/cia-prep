@@ -2,6 +2,7 @@
   {
     "id": "P3-C-L001",
     "section": "C",
+    "topic": "C2",
     "difficulty": 2,
     "stem": "Chức năng kiểm toán nội bộ chưa từng thực hiện đánh giá chất lượng bên ngoài. CAE KHÔNG nên làm điều gì?",
     "options": [
@@ -27,6 +28,7 @@
   {
     "id": "P3-C-L002",
     "section": "C",
+    "topic": "C3",
     "difficulty": 2,
     "stem": "CAE nên xây dựng bộ chỉ số đo lường hiệu quả (KPI) cho chức năng kiểm toán nội bộ như thế nào?",
     "options": [
@@ -51,6 +53,7 @@
   {
     "id": "P3-C-L003",
     "section": "C",
+    "topic": "C2",
     "difficulty": 2,
     "stem": "Khi một cuộc kiểm toán cụ thể KHÔNG thể tuân thủ một chuẩn mực nhất định trong GIAS (ví dụ do bị giới hạn phạm vi nghiêm trọng), CAE phải công bố thông tin gì trong báo cáo kiểm toán?",
     "options": [

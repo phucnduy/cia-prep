@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { countBySection, loadPart } from '../lib/data.js';
 import { buildExam, buildItems, shuffle } from '../lib/exam.js';
 import { keys, load, save } from '../lib/storage.js';
+import { newSeed, startSession } from '../lib/session.js';
 import { SectionChip, StatusBadge, sectionColor } from './ui.jsx';
 import Study from './Study.jsx';
 import Bank from './Bank.jsx';
@@ -66,26 +67,12 @@ export default function PartPage({ index, manifest, route }) {
       </nav>
 
       {route.view === 'overview' && <Overview index={index} manifest={manifest} data={data} />}
-      {route.view === 'study' && <Study manifest={manifest} study={data.study} />}
+      {route.view === 'study' && <Study manifest={manifest} data={data} topicId={route.arg} />}
       {route.view === 'bank' && <Bank manifest={manifest} data={data} onChange={reload} />}
       {route.view === 'history' && <History manifest={manifest} />}
       {route.view === 'result' && <Results index={index} manifest={manifest} data={data} attemptId={route.arg} />}
     </div>
   );
-}
-
-export function startSession(manifest, session) {
-  // Exams and practice share one resumable slot per part; never drop one silently.
-  const existing = load(keys.activeSession(manifest.id), null);
-  if (existing && !window.confirm(`Bạn đang có bài làm dở: "${existing.title}". Bắt đầu bài mới sẽ xóa bài đó. Tiếp tục?`)) {
-    return;
-  }
-  save(keys.activeSession(manifest.id), session);
-  window.location.hash = `#/${manifest.id}/session`;
-}
-
-function newSeed() {
-  return Math.floor(Math.random() * 2 ** 31);
 }
 
 function Overview({ index, manifest, data }) {

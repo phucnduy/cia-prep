@@ -1,6 +1,6 @@
 // Append questions from a JSON file into public/data/<part>/questions-<section>.json.
 // Normalizes typography, validates the schema and refuses duplicate ids.
-// Usage: node scripts/add-questions.mjs <part> <file.json> [--study]
+// Usage: node scripts/add-questions.mjs <part> <file.json> [--study | --lessons]
 //   --study  treat the file as study cards and append to study.json instead.
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { normalizeText } from './text.mjs';
@@ -22,6 +22,21 @@ const deepNormalize = (v) =>
   Array.isArray(v) ? v.map(deepNormalize)
     : v && typeof v === 'object' ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, deepNormalize(x)]))
       : normalizeText(v);
+
+if (flag === '--lessons') {
+  // Lessons are keyed by syllabus topic; a new lesson replaces the old one for that topic.
+  const path = `${dir}/lessons.json`;
+  const topicIds = manifest.sections.flatMap((s) => s.topics.map((t) => t.id));
+  const byTopic = Object.fromEntries(readJson(path).map((l) => [l.topic, l]));
+  for (const l of incoming.map(deepNormalize)) {
+    if (!topicIds.includes(l.topic)) throw new Error(`lesson: unknown topic ${l.topic}`);
+    byTopic[l.topic] = l;
+  }
+  const ordered = topicIds.filter((t) => byTopic[t]).map((t) => byTopic[t]);
+  writeJson(path, ordered);
+  console.log(`lessons.json: ${incoming.length} written (total ${ordered.length}/${topicIds.length} topics)`);
+  process.exit(0);
+}
 
 if (flag === '--study') {
   const path = `${dir}/study.json`;
