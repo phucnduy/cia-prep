@@ -4,92 +4,100 @@
     "section": "C",
     "topic": "C1",
     "difficulty": 2,
-    "stem": "Theo 6 Nguyên tắc của Mô hình 3 Tuyến (IIA Three Lines Model), phát biểu nào sau đây là ĐÚNG về mối quan hệ giữa Tuyến 1, Tuyến 2 và Ban điều hành?",
+    "stem": "Một công ty 40 nhân viên không có bộ phận quản lý rủi ro riêng; Kế toán trưởng vừa ghi sổ vừa định kỳ rà soát tuân thủ chính sách chi tiêu của các phòng. Theo Mô hình Ba Tuyến, nhận định nào đúng nhất?",
     "options": [
-      "Tuyến 1 và tuyến 2 luôn phải là các phòng ban tách biệt, kể cả ở tổ chức rất nhỏ.",
-      "Tuyến 2 phải độc lập với Ban điều hành giống như chức năng kiểm toán nội bộ.",
-      "Có thể kết hợp hoặc tách biệt tùy quy mô; cả hai thuộc trách nhiệm Ban điều hành.",
-      "Tuyến 1 báo cáo trực tiếp cho Ủy ban Kiểm toán về các rủi ro hoạt động."
+      "Không phù hợp, vì tuyến thứ nhất và tuyến thứ hai luôn phải là hai bộ phận tách biệt.",
+      "Chấp nhận được; tuyến một và hai có thể kết hợp tùy quy mô, đều thuộc Ban điều hành.",
+      "Không phù hợp, vì việc rà soát tuân thủ phải được chuyển cho kiểm toán nội bộ thực hiện.",
+      "Có thể chấp nhận, vì ở công ty nhỏ Kế toán trưởng đóng vai trò tuyến thứ ba độc lập."
     ],
-    "answer": 2,
-    "explanation": "Trong Mô hình 3 Tuyến của IIA, cả Tuyến 1 (vận hành) và Tuyến 2 (hỗ trợ/giám sát rủi ro, tuân thủ) đều nằm dưới sự chỉ đạo của Ban điều hành (Management). Các vai trò này có thể linh hoạt kết hợp hoặc tách rời tùy quy mô công ty, chỉ có Tuyến 3 (KTNB) là bắt buộc phải độc lập với Ban điều hành.",
-    "refs": [],
-    "source": "legacy",
+    "answer": 1,
+    "explanation": "Mô hình Ba Tuyến (IIA 2020) mô tả vai trò, không bắt buộc cơ cấu: vai trò tuyến một và tuyến hai có thể kết hợp hoặc tách biệt tùy quy mô, đều thuộc trách nhiệm Ban điều hành. Điều không thay đổi là kiểm toán nội bộ (tuyến ba) phải độc lập với Ban điều hành.",
     "optionNotes": [
-      "Sai. Ở tổ chức nhỏ, vai trò tuyến một và hai có thể do cùng bộ phận đảm nhận.",
-      "Sai. Tuyến hai thuộc Ban điều hành, không độc lập như kiểm toán nội bộ.",
-      "Đúng. Mô hình Ba Tuyến cho phép kết hợp hoặc tách biệt; cả hai vai trò thuộc Ban điều hành.",
-      "Sai. Tuyến một báo cáo qua Ban điều hành, không trực tiếp cho Ủy ban Kiểm toán."
-    ]
+      "Sai. Mô hình cho phép kết hợp vai trò tuyến một và tuyến hai tùy quy mô.",
+      "Đúng. Vai trò có thể kết hợp; cả hai thuộc trách nhiệm Ban điều hành.",
+      "Sai. Rà soát tuân thủ là vai trò quản lý; giao cho kiểm toán nội bộ làm suy giảm độc lập.",
+      "Sai. Kế toán trưởng thuộc Ban điều hành, không thể là tuyến thứ ba độc lập."
+    ],
+    "refs": [
+      "IIA Three Lines Model"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L002",
     "section": "C",
     "topic": "C7",
     "difficulty": 2,
-    "stem": "Khung kiểm soát CoCo (Criteria of Control, Canada) nhấn mạnh các yếu tố con người và văn hóa. CoCo nhóm 20 tiêu chí kiểm soát thành 4 nhóm nào?",
+    "stem": "Một tập đoàn muốn chọn khung kiểm soát nhấn mạnh yếu tố con người: mục đích chung, cam kết, năng lực của nhân viên, cùng việc giám sát và học hỏi liên tục. Khung nào phù hợp nhất với định hướng này?",
     "options": [
-      "Môi trường, Rủi ro, Hoạt động kiểm soát, Giám sát.",
-      "Chiến lược, Hoạt động, Báo cáo, Tuân thủ.",
-      "Phòng ngừa, Phát hiện, Khắc phục, Chỉ dẫn.",
-      "Mục đích, Cam kết, Năng lực, Giám sát và Học hỏi."
+      "COSO Kiểm soát nội bộ 2013, với năm thành phần và 17 nguyên tắc.",
+      "COBIT, khung quản trị và quản lý công nghệ thông tin của ISACA.",
+      "ISO 31000:2018, tiêu chuẩn về nguyên tắc và hướng dẫn quản lý rủi ro.",
+      "CoCo của Canada, các nhóm tiêu chí xoay quanh con người."
     ],
     "answer": 3,
-    "explanation": "Mẹo nhớ kinh điển trong đề thi CIA Part 1: Nhắc đến khung CoCo của Canada là nhớ ngay tới 4 chữ: Purpose (Mục đích), Commitment (Sự cam kết), Capability (Năng lực) và Monitoring & Learning (Giám sát & Học hỏi).",
-    "refs": [],
-    "source": "legacy",
+    "explanation": "Khung CoCo (Canada) nhóm các tiêu chí kiểm soát thành bốn nhóm: Mục đích, Cam kết, Năng lực, và Giám sát và Học hỏi, nhấn mạnh yếu tố con người và văn hóa. COSO có cấu trúc theo thành phần, nguyên tắc; COBIT dành cho CNTT; ISO 31000 về quản lý rủi ro.",
     "optionNotes": [
-      "Sai. Đây gần với các thành phần của COSO, không phải CoCo.",
-      "Sai. Đây là các nhóm mục tiêu (gần COSO ERM 2004), không phải CoCo.",
-      "Sai. Đây là phân loại kiểm soát theo chức năng.",
-      "Đúng. CoCo nhóm 20 tiêu chí vào Mục đích, Cam kết, Năng lực, Giám sát và Học hỏi."
-    ]
+      "Sai. COSO 2013 cấu trúc theo năm thành phần, không theo bốn nhóm này.",
+      "Sai. COBIT tập trung vào quản trị và quản lý CNTT.",
+      "Sai. ISO 31000 là tiêu chuẩn quản lý rủi ro, không phải khung kiểm soát này.",
+      "Đúng. Bốn nhóm tiêu chí mô tả đúng khung CoCo."
+    ],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L003",
     "section": "C",
     "topic": "C1",
     "difficulty": 2,
-    "stem": "Khung kiểm soát COBIT (Control Objectives for Information and Related Technologies) do ISACA ban hành được thiết kế chủ yếu nhằm mục đích gì?",
+    "stem": "HĐQT một ngân hàng muốn có một khung tham chiếu để đánh giá việc quản trị CNTT có giúp đạt mục tiêu kinh doanh hay không, gồm cả phân định trách nhiệm giữa HĐQT và Ban điều hành về CNTT. Kiểm toán nội bộ nên đề xuất khung nào?",
     "options": [
-      "Khung quản trị và quản lý CNTT doanh nghiệp.",
-      "Chuẩn mực kiểm toán báo cáo tài chính trong môi trường máy tính.",
-      "Tiêu chuẩn chứng nhận hệ thống quản lý an toàn thông tin.",
-      "Khung quản trị rủi ro doanh nghiệp thay thế COSO ERM."
+      "COBIT của ISACA, khung quản trị và quản lý CNTT.",
+      "COSO ERM 2017, khung quản trị rủi ro gắn với chiến lược.",
+      "ISO 31000:2018, tiêu chuẩn quốc tế về quản lý rủi ro.",
+      "Mô hình Ba Tuyến của IIA về phân vai quản lý rủi ro."
     ],
     "answer": 0,
-    "explanation": "COBIT là khung chuẩn quốc tế hàng đầu về Quản trị và Kiểm soát CNTT, phân biệt rõ giữa Quản trị CNTT (Governance - thuộc HĐQT: Đánh giá, Định hướng, Giám sát - EDM) và Quản lý CNTT (Management - thuộc Ban điều hành: Lập kế hoạch, Xây dựng, Vận hành, Theo dõi - APO, BAI, DSS, MEA).",
-    "refs": [],
-    "source": "legacy",
+    "explanation": "COBIT (ISACA) là khung quản trị và quản lý CNTT doanh nghiệp, phân biệt rõ quản trị (HĐQT: đánh giá, định hướng, giám sát) với quản lý (Ban điều hành: lập kế hoạch, xây dựng, vận hành, giám sát), và gắn CNTT với mục tiêu kinh doanh.",
     "optionNotes": [
-      "Đúng. COBIT là khung quản trị và quản lý CNTT doanh nghiệp của ISACA.",
-      "Sai. COBIT không phải chuẩn mực kiểm toán báo cáo tài chính.",
-      "Sai. Đó là ISO/IEC 27001.",
-      "Sai. COBIT không thay thế COSO ERM."
-    ]
+      "Đúng. COBIT được thiết kế cho đúng nhu cầu này.",
+      "Sai. COSO ERM là khung quản trị rủi ro tổng thể, không chuyên về quản trị CNTT.",
+      "Sai. ISO 31000 về quản lý rủi ro nói chung.",
+      "Sai. Mô hình Ba Tuyến phân vai trò đảm bảo, không phải khung quản trị CNTT."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L004",
     "section": "C",
     "topic": "C2",
-    "difficulty": 2,
-    "stem": "Trong đánh giá hệ thống kiểm soát nội bộ, sự khác biệt giữa 'Kiểm soát cứng' (Hard Controls) và 'Kiểm soát mềm' (Soft Controls) là gì?",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên muốn đánh giá mức độ 'nhân viên dám báo cáo sai phạm' tại một khối kinh doanh. Phương pháp nào cung cấp bằng chứng phù hợp nhất cho yếu tố này?",
     "options": [
-      "Kiểm soát cứng là kiểm soát tự động trên hệ thống; kiểm soát mềm là kiểm soát thủ công.",
-      "Cứng là thủ tục chính thức, hữu hình; mềm là văn hóa, đạo đức, lòng tin.",
-      "Kiểm soát cứng là kiểm soát phòng ngừa; kiểm soát mềm là kiểm soát phát hiện.",
-      "Kiểm soát cứng do Ban điều hành thiết kế; kiểm soát mềm do kiểm toán nội bộ thiết kế."
+      "Kiểm tra quy trình tiếp nhận tố giác đã được ban hành và có chữ ký phê duyệt.",
+      "Đếm số tin báo qua đường dây nóng năm nay so với năm trước của toàn công ty.",
+      "Khảo sát ẩn danh, phỏng vấn nhóm, đối chiếu với sự việc thực tế.",
+      "Xác nhận tất cả nhân viên đã ký cam kết tuân thủ bộ quy tắc ứng xử năm nay."
     ],
-    "answer": 1,
-    "explanation": "Hard controls là các chốt kiểm soát khách quan, để lại dấu vết tài liệu rõ ràng. Soft controls gắn liền với Môi trường kiểm soát (văn hóa, sự chính trực, áp lực đồng trang lứa, phong cách lãnh đạo). Nếu Soft controls yếu kém, Hard controls rất dễ bị vượt qua.",
-    "refs": [],
-    "source": "legacy",
+    "answer": 2,
+    "explanation": "'Dám lên tiếng' là kiểm soát mềm, không thể kiểm tra bằng tài liệu hay chữ ký. Bằng chứng phù hợp đến từ khảo sát ẩn danh, phỏng vấn nhóm, quan sát hành vi và đối chiếu với sự việc thực tế. Số tin báo có thể tăng hoặc giảm vì nhiều lý do khác nhau.",
     "optionNotes": [
-      "Sai. Kiểm soát cứng có thể thủ công hoặc tự động.",
-      "Đúng. Kiểm soát cứng là thủ tục chính thức, hữu hình; kiểm soát mềm là yếu tố văn hóa, đạo đức, lòng tin.",
-      "Sai. Cả hai loại đều có thể phòng ngừa hoặc phát hiện.",
-      "Sai. Thiết kế mọi kiểm soát là trách nhiệm của Ban điều hành."
-    ]
+      "Sai. Quy trình trên giấy là kiểm soát cứng, không cho biết nhân viên có dám báo cáo không.",
+      "Sai. Số tin báo toàn công ty khó diễn giải và không riêng cho khối được kiểm toán.",
+      "Đúng. Phương pháp phù hợp để đánh giá kiểm soát mềm.",
+      "Sai. Chữ ký cam kết là hình thức, không đo được văn hóa thực tế."
+    ],
+    "refs": [
+      "CIA Part 1 C.2"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L005",
@@ -142,26 +150,25 @@
     "section": "C",
     "topic": "C7",
     "difficulty": 2,
-    "stem": "Nguyên tắc nào sau đây thuộc thành phần 'Môi trường kiểm soát' của khung COSO Internal Control 2013?",
+    "stem": "Khi đánh giá môi trường kiểm soát theo COSO 2013, kiểm toán viên thấy công ty có tỷ lệ nghỉ việc 45% ở bộ phận kế toán, không có kế hoạch kế nhiệm và đào tạo rất ít. Phát hiện này liên quan trực tiếp nhất đến nguyên tắc nào?",
     "options": [
       "Tổ chức thể hiện cam kết thu hút, phát triển và giữ chân người có năng lực.",
-      "Tổ chức lựa chọn và phát triển các hoạt động kiểm soát chung đối với công nghệ.",
-      "Tổ chức xem xét khả năng xảy ra gian lận khi đánh giá rủi ro.",
-      "Tổ chức thực hiện các đánh giá liên tục và định kỳ."
+      "Tổ chức xác định mục tiêu đủ rõ ràng để nhận diện và đánh giá rủi ro.",
+      "Tổ chức lựa chọn và phát triển các hoạt động kiểm soát để giảm rủi ro.",
+      "Tổ chức truyền đạt với các bên bên ngoài về các vấn đề ảnh hưởng đến kiểm soát."
     ],
     "answer": 0,
-    "explanation": "5 Nguyên tắc của Môi trường kiểm soát (COSO) gồm: (1) Cam kết về tính chính trực & đạo đức, (2) HĐQT độc lập và giám sát, (3) Thiết lập cơ cấu, đường báo cáo, thẩm quyền, (4) Cam kết về năng lực nhân sự, và (5) Thực thi trách nhiệm giải trình (Accountability).",
-    "refs": [
-      "GIAS Principle 1",
-      "COSO"
-    ],
-    "source": "legacy",
+    "explanation": "Cam kết về năng lực (thu hút, phát triển, giữ chân người có năng lực) là một nguyên tắc của thành phần Môi trường kiểm soát trong COSO 2013. Các phương án khác là nguyên tắc của thành phần Đánh giá rủi ro, Hoạt động kiểm soát, Thông tin và truyền thông.",
     "optionNotes": [
-      "Đúng. Đây là Nguyên tắc 4, thuộc Môi trường kiểm soát.",
-      "Sai. Đây là Nguyên tắc 11, thuộc Hoạt động kiểm soát.",
-      "Sai. Đây là Nguyên tắc 8, thuộc Đánh giá rủi ro.",
-      "Sai. Đây là Nguyên tắc 16, thuộc Hoạt động giám sát."
-    ]
+      "Đúng. Nghỉ việc cao, thiếu kế nhiệm và đào tạo là vấn đề cam kết về năng lực.",
+      "Sai. Đây là nguyên tắc thuộc Đánh giá rủi ro.",
+      "Sai. Đây là nguyên tắc thuộc Hoạt động kiểm soát.",
+      "Sai. Đây là nguyên tắc thuộc Thông tin và truyền thông."
+    ],
+    "refs": [
+      "COSO 2013"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L008",
@@ -192,26 +199,26 @@
     "id": "P1-C-L009",
     "section": "C",
     "topic": "C8",
-    "difficulty": 2,
-    "stem": "Để hệ thống Kiểm soát Nội bộ theo COSO được coi là 'Hữu hiệu' (Effective), điều kiện nào sau đây phải được thỏa mãn?",
+    "difficulty": 3,
+    "stem": "Đánh giá kiểm soát nội bộ cho thấy bốn thành phần COSO vận hành tốt, nhưng thành phần Hoạt động giám sát có khiếm khuyết lớn: không ai theo dõi việc khắc phục các khiếm khuyết đã biết. Ban điều hành muốn kết luận hệ thống 'hữu hiệu' vì 'bốn trên năm thành phần đạt'. Nhận định nào đúng?",
     "options": [
-      "Đa số các thành phần hoạt động tốt và không có khiếm khuyết nghiêm trọng ở môi trường kiểm soát.",
-      "Hoạt động kiểm soát được thiết kế đầy đủ cho mọi rủi ro đã nhận diện.",
-      "Cả 5 thành phần và các nguyên tắc liên quan đều hiện hữu, vận hành và phối hợp với nhau.",
-      "Kiểm toán độc lập không đưa ra ý kiến ngoại trừ về báo cáo tài chính."
+      "Có thể kết luận hữu hiệu, vì phần lớn các thành phần đều đang vận hành tốt.",
+      "Có thể kết luận hữu hiệu, vì Hoạt động giám sát chỉ là thành phần hỗ trợ cuối cùng.",
+      "Chưa thể, vì cả năm thành phần phải hiện hữu, vận hành và phối hợp.",
+      "Chưa thể kết luận, vì phải chờ kiểm toán độc lập xác nhận trước khi đưa ra kết luận."
     ],
     "answer": 2,
-    "explanation": "Theo COSO, một hệ thống KSNB chỉ được kết luận là hữu hiệu khi toàn bộ 5 thành phần và 17 nguyên tắc đều Hiện hữu (được thiết kế đầy đủ), Hoạt động (vận hành trên thực tế) và Phối hợp nhịp nhàng với nhau.",
-    "refs": [
-      "COSO"
-    ],
-    "source": "legacy",
+    "explanation": "Theo COSO 2013, hệ thống kiểm soát nội bộ hữu hiệu khi cả năm thành phần và các nguyên tắc liên quan đều hiện hữu, vận hành và phối hợp với nhau, không có khiếm khuyết lớn. Một khiếm khuyết lớn ở bất kỳ thành phần nào cũng ngăn kết luận hữu hiệu.",
     "optionNotes": [
-      "Sai. COSO yêu cầu tất cả các thành phần, không chỉ đa số.",
-      "Sai. Chỉ một thành phần là không đủ.",
-      "Đúng. Cả 5 thành phần và các nguyên tắc liên quan phải hiện hữu, vận hành và phối hợp.",
-      "Sai. Ý kiến kiểm toán BCTC không phải tiêu chí hữu hiệu của COSO."
-    ]
+      "Sai. Không có cơ chế 'đa số đạt'; khiếm khuyết lớn ở một thành phần là đủ để không hữu hiệu.",
+      "Sai. Các thành phần có vai trò ngang nhau, không có thành phần phụ.",
+      "Đúng. Đúng điều kiện hữu hiệu theo COSO 2013.",
+      "Sai. Ban điều hành tự đánh giá, không phụ thuộc xác nhận của kiểm toán độc lập."
+    ],
+    "refs": [
+      "COSO 2013"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L010",
@@ -243,53 +250,50 @@
     "section": "C",
     "topic": "C7",
     "difficulty": 2,
-    "stem": "Trong thành phần 'Thông tin và Truyền thông' của COSO 2013, nguyên tắc đầu tiên yêu cầu tổ chức làm gì?",
+    "stem": "Báo cáo quản trị hằng tháng dùng dữ liệu tồn kho trích từ một bảng tính thủ công, không đối chiếu với hệ thống, và nhiều lần sai lệch. Theo COSO 2013, điểm yếu này liên quan trực tiếp nhất đến yêu cầu nào?",
     "options": [
-      "Thu thập hoặc tạo ra và sử dụng thông tin phù hợp, có chất lượng để hỗ trợ kiểm soát nội bộ vận hành.",
-      "Truyền đạt thông tin cho các bên bên ngoài về các vấn đề ảnh hưởng đến kiểm soát nội bộ.",
-      "Truyền đạt nội bộ về mục tiêu và trách nhiệm đối với kiểm soát nội bộ.",
-      "Đánh giá và truyền đạt khiếm khuyết kiểm soát kịp thời cho bên chịu trách nhiệm khắc phục."
+      "Thông tin và truyền thông: dùng thông tin phù hợp, có chất lượng cho kiểm soát.",
+      "Môi trường kiểm soát: HĐQT độc lập với Ban điều hành và giám sát kiểm soát nội bộ.",
+      "Đánh giá rủi ro: xem xét khả năng gian lận khi đánh giá rủi ro đối với mục tiêu.",
+      "Hoạt động giám sát: đánh giá và truyền đạt khiếm khuyết kiểm soát một cách kịp thời."
     ],
     "answer": 0,
-    "explanation": "Thông tin và Truyền thông gồm: Nguyên tắc 13 (Sử dụng thông tin chất lượng, phù hợp), Nguyên tắc 14 (Truyền thông nội bộ bao gồm mục tiêu và trách nhiệm KSNB), và Nguyên tắc 15 (Truyền thông với các bên bên ngoài).",
-    "refs": [
-      "GIAS Principle 13",
-      "GIAS Principle 14",
-      "GIAS Principle 15",
-      "COSO"
-    ],
-    "source": "legacy",
+    "explanation": "Nguyên tắc đầu tiên của thành phần Thông tin và truyền thông trong COSO 2013 yêu cầu tổ chức thu thập hoặc tạo ra và sử dụng thông tin phù hợp, có chất lượng để hỗ trợ kiểm soát nội bộ vận hành. Dữ liệu thủ công không đối chiếu, sai lệch nhiều lần là vấn đề chất lượng thông tin.",
     "optionNotes": [
-      "Đúng. Nguyên tắc 13: sử dụng thông tin phù hợp, có chất lượng để hỗ trợ kiểm soát nội bộ.",
-      "Sai. Đây là Nguyên tắc 15, truyền đạt ra bên ngoài.",
-      "Sai. Đây là Nguyên tắc 14, truyền đạt nội bộ.",
-      "Sai. Đây là Nguyên tắc 17, thuộc Hoạt động giám sát."
-    ]
+      "Đúng. Vấn đề nằm ở chất lượng thông tin dùng cho kiểm soát và quản lý.",
+      "Sai. Tình huống không liên quan đến vai trò giám sát của HĐQT.",
+      "Sai. Tình huống không nói về đánh giá rủi ro gian lận.",
+      "Sai. Vấn đề là chất lượng thông tin đầu vào, không phải việc đánh giá khiếm khuyết."
+    ],
+    "refs": [
+      "COSO 2013"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L012",
     "section": "C",
     "topic": "C5",
     "difficulty": 2,
-    "stem": "Khung Quản trị Rủi ro Doanh nghiệp COSO ERM (cập nhật 2017) có tên gọi chính thức là gì và nhấn mạnh điểm cốt lõi nào?",
+    "stem": "Trong COSO ERM 2017, phát biểu nào thể hiện đúng nhất cách khung này nhìn nhận mối quan hệ giữa rủi ro và giá trị?",
     "options": [
-      "Internal Control - Integrated Framework; nhấn mạnh kiểm soát báo cáo tài chính.",
-      "ERM - Integrating with Strategy and Performance; gắn rủi ro với chiến lược.",
-      "ERM - Integrated Framework; nhấn mạnh tám thành phần của quản trị rủi ro.",
-      "Risk Management - Guidelines; nhấn mạnh nguyên tắc, khung và quy trình."
+      "Rủi ro là điều tiêu cực cần giảm đến mức thấp nhất có thể trong mọi hoạt động.",
+      "Rủi ro chỉ cần được quản lý ở cấp hoạt động, sau khi chiến lược đã được thông qua.",
+      "Quản trị rủi ro giúp tạo, bảo tồn và hiện thực hóa giá trị.",
+      "Quản trị rủi ro chủ yếu nhằm bảo đảm độ tin cậy của báo cáo tài chính công bố."
     ],
-    "answer": 1,
-    "explanation": "COSO ERM 2017 mang tên 'Integrating with Strategy and Performance', gồm 5 thành phần và 20 nguyên tắc, khẳng định ERM không phải là một bộ phận tách rời mà phải hòa quyện vào quá trình chọn Chiến lược và thực thi Hiệu suất.",
-    "refs": [
-      "COSO"
-    ],
-    "source": "legacy",
+    "answer": 2,
+    "explanation": "COSO ERM 2017 coi quản trị rủi ro là phần gắn liền với việc tạo, bảo tồn và hiện thực hóa giá trị, kết nối rủi ro với chiến lược và hiệu quả hoạt động. Rủi ro có cả mặt cơ hội; mục tiêu không phải giảm rủi ro thấp nhất mà quản lý phù hợp khẩu vị.",
     "optionNotes": [
-      "Sai. Đây là tên khung kiểm soát nội bộ COSO, không phải ERM 2017.",
-      "Đúng. COSO ERM 2017 gắn quản trị rủi ro với chiến lược và hiệu quả hoạt động.",
-      "Sai. Đây là COSO ERM 2004 với tám thành phần.",
-      "Sai. Đây là tiêu đề của ISO 31000."
-    ]
+      "Sai. Giảm rủi ro thấp nhất có thể bỏ lỡ cơ hội tạo giá trị.",
+      "Sai. Khung nhấn mạnh xem xét rủi ro cả khi xây dựng chiến lược.",
+      "Đúng. Đây là quan điểm cốt lõi của COSO ERM 2017.",
+      "Sai. Đây là trọng tâm của kiểm soát báo cáo tài chính, không phải ERM."
+    ],
+    "refs": [
+      "COSO ERM 2017"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L013",
@@ -318,24 +322,26 @@
     "id": "P1-C-L014",
     "section": "C",
     "topic": "C4",
-    "difficulty": 2,
-    "stem": "Trong quản trị rủi ro doanh nghiệp (ERM), khái niệm 'Sức chịu đựng rủi ro tối đa' (Risk Capacity) khác với 'Khẩu vị rủi ro' (Risk Appetite) như thế nào?",
+    "difficulty": 3,
+    "stem": "Một công ty có vốn chủ sở hữu 500 tỷ đồng. HĐQT xác định không chấp nhận mức lỗ quá 50 tỷ đồng mỗi năm từ hoạt động đầu tư. Ước tính mức lỗ tối đa công ty có thể gánh mà vẫn tồn tại là khoảng 200 tỷ đồng. Hai con số 50 tỷ và 200 tỷ lần lượt thể hiện khái niệm nào?",
     "options": [
-      "Capacity là mức tổ chức sẵn sàng chấp nhận; appetite là mức tối đa có thể gánh chịu.",
-      "Capacity do Ban điều hành đặt cho phòng ban; appetite do kiểm toán nội bộ đề xuất.",
-      "Hai khái niệm đồng nhất, chỉ khác cách diễn đạt giữa các khung.",
-      "Capacity là mức tối đa có thể gánh chịu; appetite là mức sẵn sàng chấp nhận."
+      "Năng lực chịu đựng rủi ro; khẩu vị rủi ro.",
+      "Khẩu vị rủi ro; năng lực chịu đựng rủi ro.",
+      "Rủi ro còn lại; rủi ro tiềm tàng.",
+      "Ngưỡng chịu đựng rủi ro; rủi ro tiềm tàng."
     ],
-    "answer": 3,
-    "explanation": "Risk Capacity là giới hạn sinh tử về mặt vốn và nguồn lực của doanh nghiệp. Doanh nghiệp luôn phải thiết lập Khẩu vị rủi ro (Risk Appetite) thấp hơn một khoảng an toàn so với Risk Capacity.",
-    "refs": [],
-    "source": "legacy",
+    "answer": 1,
+    "explanation": "Khẩu vị rủi ro là mức rủi ro tổ chức sẵn sàng chấp nhận để theo đuổi giá trị (50 tỷ). Năng lực chịu đựng rủi ro (risk capacity) là mức tối đa tổ chức có thể gánh mà không đe dọa sự tồn tại (200 tỷ). Khẩu vị luôn nằm trong năng lực chịu đựng.",
     "optionNotes": [
-      "Sai. Định nghĩa bị đảo ngược.",
-      "Sai. Khẩu vị rủi ro do HĐQT phê duyệt, không phải kiểm toán nội bộ đề xuất.",
-      "Sai. Hai khái niệm khác nhau.",
-      "Đúng. Capacity là mức tối đa có thể gánh chịu; appetite là mức sẵn sàng chấp nhận, thấp hơn capacity."
-    ]
+      "Sai. Đảo ngược hai khái niệm: mức sẵn sàng chấp nhận nhỏ hơn mức tối đa có thể gánh.",
+      "Đúng. 50 tỷ là khẩu vị, 200 tỷ là năng lực chịu đựng.",
+      "Sai. Rủi ro tiềm tàng và còn lại mô tả rủi ro trước và sau kiểm soát.",
+      "Sai. Ngưỡng chịu đựng là biên độ cho mục tiêu cụ thể; 200 tỷ không phải rủi ro tiềm tàng."
+    ],
+    "refs": [
+      "COSO ERM 2017"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L015",
@@ -365,23 +371,25 @@
     "section": "C",
     "topic": "C1",
     "difficulty": 2,
-    "stem": "Trong Quản trị doanh nghiệp (Corporate Governance), sự khác biệt giữa mô hình Hội đồng quản trị 1 cấp (One-tier / Unitary Board) và mô hình 2 cấp (Two-tier Board) là gì?",
+    "stem": "Một tập đoàn châu Âu có Hội đồng giám sát (Supervisory Board) gồm thành viên không điều hành và một Ban điều hành (Management Board) riêng chịu trách nhiệm hoạt động hằng ngày. Cấu trúc này là gì và khác với HĐQT một cấp ở điểm nào?",
     "options": [
-      "Một cấp chỉ gồm thành viên độc lập; hai cấp chỉ gồm thành viên điều hành.",
-      "Một cấp gộp thành viên điều hành và không điều hành; hai cấp tách giám sát và điều hành.",
-      "Hai cấp không có Ủy ban Kiểm toán; một cấp bắt buộc phải có Ủy ban Kiểm toán.",
-      "Một cấp áp dụng cho công ty niêm yết; hai cấp áp dụng cho công ty tư nhân."
+      "Mô hình hai cấp; tách bạch chức năng giám sát và điều hành vào hai cơ quan riêng.",
+      "Mô hình một cấp; mọi thành viên Hội đồng giám sát đều tham gia điều hành hằng ngày.",
+      "Mô hình hai cấp; khác ở chỗ chỉ gồm thành viên độc lập, không có cổ đông lớn tham gia.",
+      "Mô hình một cấp; khác ở chỗ Ban điều hành do cổ đông trực tiếp bầu hằng năm."
     ],
-    "answer": 1,
-    "explanation": "Mô hình 1 cấp (phổ biến ở Mỹ, Anh) gộp chung Executive và Non-Executive Directors trong một Board. Mô hình 2 cấp (phổ biến ở Đức, Châu Âu) tách riêng Supervisory Board (chuyên giám sát) và Management Board (chuyên điều hành).",
-    "refs": [],
-    "source": "legacy",
+    "answer": 0,
+    "explanation": "Mô hình hai cấp tách chức năng giám sát (Hội đồng giám sát, thành viên không điều hành) khỏi chức năng điều hành (Ban điều hành). Mô hình một cấp gộp thành viên điều hành và không điều hành trong cùng một HĐQT.",
     "optionNotes": [
-      "Sai. Thành phần của hai mô hình được mô tả sai.",
-      "Đúng. Mô hình một cấp gộp thành viên điều hành và không điều hành; mô hình hai cấp tách giám sát và điều hành.",
-      "Sai. Việc có Ủy ban Kiểm toán không phụ thuộc mô hình.",
-      "Sai. Lựa chọn mô hình phụ thuộc pháp luật từng quốc gia, không phụ thuộc niêm yết."
-    ]
+      "Đúng. Đúng tên mô hình và điểm khác biệt chính.",
+      "Sai. Đây là mô hình hai cấp; Hội đồng giám sát không điều hành.",
+      "Sai. Điểm khác biệt là tách hai chức năng, không phải thành phần thành viên độc lập.",
+      "Sai. Đây không phải mô hình một cấp, và cách bầu không phải điểm khác biệt chính."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L017",
@@ -411,46 +419,50 @@
     "section": "C",
     "topic": "C3",
     "difficulty": 2,
-    "stem": "Một tổ chức bổ nhiệm vị trí 'Thanh tra viên đạo đức độc lập' (Ombudsperson / Ethics Officer). Vai trò chính của vị trí này trong văn hóa quản trị doanh nghiệp là gì?",
+    "stem": "Công ty bổ nhiệm một Thanh tra viên đạo đức (Ombudsperson). Sau đó, Ban điều hành đề nghị người này quyết định luôn hình thức kỷ luật đối với các vụ vi phạm được báo cáo 'cho nhanh'. Nhận định nào phù hợp nhất?",
     "options": [
-      "Điều tra và quyết định hình thức kỷ luật đối với các vi phạm đạo đức.",
-      "Thay thế chức năng kiểm toán nội bộ trong việc đánh giá văn hóa tổ chức.",
-      "Đại diện tổ chức trong các tranh chấp pháp lý với người lao động.",
-      "Kênh trung lập, bảo mật để nhân viên xin tư vấn hoặc nêu quan ngại."
+      "Phù hợp, vì Thanh tra viên đạo đức nắm rõ nhất các vụ việc được báo cáo.",
+      "Chưa phù hợp; vai trò chính là kênh trung lập, bảo mật để tiếp nhận quan ngại.",
+      "Phù hợp, nếu quyết định kỷ luật được HĐQT phê chuẩn lại vào cuối năm.",
+      "Chưa phù hợp, vì việc kỷ luật phải do kiểm toán nội bộ quyết định thay thế."
     ],
-    "answer": 3,
-    "explanation": "Ombudsperson là một thiết chế quan trọng trong chương trình Đạo đức doanh nghiệp, giúp giải quyết các xung đột và lắng nghe phản ánh của nhân viên một cách bảo mật, độc lập với chuỗi mệnh lệnh hành chính.",
-    "refs": [],
-    "source": "legacy",
+    "answer": 1,
+    "explanation": "Thanh tra viên đạo đức là kênh trung lập, bảo mật để nhân viên xin tư vấn hoặc nêu quan ngại. Nếu kiêm quyết định kỷ luật, người này mất tính trung lập và nhân viên sẽ ngại tìm đến. Kỷ luật là trách nhiệm của Ban điều hành theo quy trình.",
     "optionNotes": [
-      "Sai. Ombudsperson không quyết định kỷ luật.",
-      "Sai. Không thay thế chức năng kiểm toán nội bộ.",
-      "Sai. Đại diện tổ chức trong tranh chấp là việc của bộ phận pháp chế.",
-      "Đúng. Ombudsperson là kênh trung lập, bảo mật để tư vấn và tiếp nhận quan ngại."
-    ]
+      "Sai. Kiêm quyết định kỷ luật phá vỡ tính trung lập, làm kênh này mất tác dụng.",
+      "Đúng. Vai trò cốt lõi là trung lập và bảo mật.",
+      "Sai. Phê chuẩn sau không khắc phục được việc mất tính trung lập.",
+      "Sai. Kiểm toán nội bộ cũng không quyết định kỷ luật, vì đó là trách nhiệm quản lý."
+    ],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L019",
     "section": "C",
     "topic": "C1",
     "difficulty": 2,
-    "stem": "Khi kiểm toán nội bộ đánh giá các báo cáo Môi trường, Xã hội và Quản trị (ESG / Sustainability Reporting) của công ty, rủi ro 'Tẩy xanh' (Greenwashing) được hiểu là gì?",
+    "stem": "Báo cáo phát triển bền vững của công ty quảng bá 'sản phẩm xanh 100%' dựa trên một dòng sản phẩm chiếm 3% doanh thu, trong khi phát thải của các dòng còn lại tăng mạnh nhưng không được nêu. Rủi ro chính kiểm toán nội bộ cần nêu là gì?",
     "options": [
-      "Công bố phóng đại hoặc gây hiểu lầm về thành tích môi trường.",
-      "Đầu tư vượt mức vào các dự án xanh có tỷ suất sinh lời thấp.",
-      "Không đáp ứng tiêu chuẩn báo cáo phát triển bền vững bắt buộc.",
-      "Phân loại sai chi phí môi trường thành chi phí quản lý doanh nghiệp."
+      "Rủi ro tẩy xanh (greenwashing): công bố gây hiểu lầm về thành tích môi trường.",
+      "Rủi ro tuân thủ: chưa có giấy phép xả thải cho các dòng sản phẩm còn lại.",
+      "Rủi ro hoạt động: chi phí sản xuất sản phẩm xanh cao hơn sản phẩm thông thường.",
+      "Rủi ro thị trường: nhu cầu với sản phẩm xanh có thể giảm trong năm tới."
     ],
     "answer": 0,
-    "explanation": "Greenwashing là rủi ro gian lận/báo cáo sai lệch rất nóng trong mảng ESG. KTNB cần kiểm tra xem các số liệu công bố về giảm phát thải, thân thiện môi trường có bằng chứng gốc đáng tin cậy và tiêu chí đo lường chuẩn xác hay không.",
-    "refs": [],
-    "source": "legacy",
+    "explanation": "Phóng đại hoặc trình bày chọn lọc thành tích môi trường làm người đọc hiểu sai là tẩy xanh, gây rủi ro uy tín và pháp lý. Kiểm toán nội bộ có thể đánh giá quản trị, kiểm soát và dữ liệu ESG được công bố.",
     "optionNotes": [
-      "Đúng. Greenwashing là công bố phóng đại hoặc gây hiểu lầm về thành tích môi trường.",
-      "Sai. Đầu tư kém hiệu quả là rủi ro đầu tư, không phải greenwashing.",
-      "Sai. Đó là rủi ro tuân thủ báo cáo.",
-      "Sai. Đó là sai sót phân loại kế toán."
-    ]
+      "Đúng. Trình bày chọn lọc, phóng đại là tẩy xanh.",
+      "Sai. Tình huống không nêu vấn đề giấy phép.",
+      "Sai. Chi phí sản xuất không phải vấn đề được mô tả.",
+      "Sai. Vấn đề là công bố gây hiểu lầm, không phải nhu cầu thị trường."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L020",
@@ -502,24 +514,26 @@
     "id": "P1-C-L022",
     "section": "C",
     "topic": "C6",
-    "difficulty": 2,
-    "stem": "Khi xem xét báo cáo kiểm toán tổ chức dịch vụ (SOC Report), sự khác biệt quan trọng nhất giữa báo cáo 'Type 1' và báo cáo 'Type 2' là gì?",
+    "difficulty": 3,
+    "stem": "Kiểm toán nội bộ muốn dựa vào báo cáo SOC của nhà cung cấp dịch vụ trả lương để kết luận về kiểm soát trong cả năm tài chính. Nhà cung cấp gửi báo cáo SOC 1 Type 1 tại ngày 30/6. Đánh giá nào đúng nhất?",
     "options": [
-      "Type 1 do kiểm toán độc lập lập; Type 2 do Ban điều hành nhà cung cấp tự lập.",
-      "Type 1 đánh giá kiểm soát báo cáo tài chính; Type 2 đánh giá kiểm soát an ninh thông tin.",
-      "Type 1 đánh giá trong cả kỳ; Type 2 chỉ đánh giá tại một thời điểm.",
-      "Type 1 đánh giá thiết kế tại một thời điểm; Type 2 đánh giá cả thiết kế và hiệu quả vận hành trong một kỳ."
+      "Đủ để dựa vào, vì báo cáo do kiểm toán viên độc lập phát hành.",
+      "Đủ để dựa vào, vì ngày 30/6 nằm giữa năm tài chính đang được đánh giá.",
+      "Chưa đủ; Type 1 chỉ đánh giá thiết kế tại một thời điểm.",
+      "Chưa đủ, vì báo cáo SOC 1 chỉ dùng được cho mục đích kiểm toán thuế."
     ],
-    "answer": 3,
-    "explanation": "Báo cáo SOC Type 2 luôn cung cấp mức độ đảm bảo cao hơn rất nhiều so với Type 1 vì kiểm toán viên độc lập đã kiểm thử sự vận hành thực tế của các chốt kiểm soát xuyên suốt một khoảng thời gian dài.",
-    "refs": [],
-    "source": "legacy",
+    "answer": 2,
+    "explanation": "Báo cáo Type 1 đánh giá mô tả và thiết kế kiểm soát tại một thời điểm; Type 2 đánh giá cả hiệu quả vận hành trong một kỳ. Để kết luận về cả năm, cần Type 2 bao phủ phần lớn kỳ, cùng việc xem xét các kiểm soát bổ sung phía đơn vị sử dụng dịch vụ.",
     "optionNotes": [
-      "Sai. Cả hai loại đều do kiểm toán viên độc lập phát hành.",
-      "Sai. Type 1/2 phân biệt theo thời gian và phạm vi đánh giá, không theo chủ đề.",
-      "Sai. Định nghĩa bị đảo ngược.",
-      "Đúng. Type 1 đánh giá thiết kế tại một thời điểm; Type 2 đánh giá cả hiệu quả vận hành trong một kỳ."
-    ]
+      "Sai. Người phát hành độc lập không thay đổi phạm vi của báo cáo Type 1.",
+      "Sai. Một thời điểm không chứng minh vận hành trong cả năm.",
+      "Đúng. Type 1 không có bằng chứng về hiệu quả vận hành trong kỳ.",
+      "Sai. SOC 1 nói về kiểm soát liên quan đến báo cáo tài chính của đơn vị sử dụng, không phải thuế."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L023",
@@ -693,50 +707,50 @@
     "section": "C",
     "topic": "C1",
     "difficulty": 2,
-    "stem": "Trách nhiệm xã hội doanh nghiệp (CSR) và ESG liên quan đến kiểm toán nội bộ như thế nào?",
+    "stem": "Ban điều hành đề nghị kiểm toán nội bộ soạn báo cáo phát triển bền vững năm nay vì 'kiểm toán nội bộ hiểu mọi bộ phận'. Phản hồi phù hợp nhất của CAE là gì?",
     "options": [
-      "Không liên quan, vì CSR là hoạt động tự nguyện của doanh nghiệp.",
-      "Kiểm toán nội bộ chịu trách nhiệm soạn báo cáo phát triển bền vững.",
-      "Có thể đánh giá quản trị, rủi ro, kiểm soát và dữ liệu ESG công bố.",
-      "Chỉ kiểm toán độc lập mới được phép đánh giá thông tin ESG."
+      "Nhận soạn báo cáo, vì đây là cơ hội để kiểm toán nội bộ gia tăng giá trị cho tổ chức.",
+      "Từ chối mọi việc liên quan ESG, vì đây là nội dung tự nguyện ngoài phạm vi kiểm toán.",
+      "Nhận soạn, rồi giao một nhóm kiểm toán khác đánh giá báo cáo đó trước khi công bố.",
+      "Không soạn, nhưng có thể đánh giá kiểm soát và dữ liệu ESG công bố."
     ],
-    "answer": 2,
-    "explanation": "CSR/ESG là phần của quản trị và rủi ro (môi trường, xã hội, uy tín, tuân thủ). Kiểm toán nội bộ có thể đánh giá khung quản trị ESG và độ tin cậy dữ liệu, nhưng không soạn báo cáo (trách nhiệm quản lý).",
+    "answer": 3,
+    "explanation": "Soạn báo cáo là trách nhiệm của Ban điều hành; nếu kiểm toán nội bộ làm, họ sẽ tự đánh giá công việc của mình. Kiểm toán nội bộ có thể cung cấp đảm bảo hoặc tư vấn về quản trị, rủi ro, kiểm soát và độ tin cậy của dữ liệu ESG.",
+    "optionNotes": [
+      "Sai. Soạn báo cáo là nhận trách nhiệm quản lý.",
+      "Sai. ESG nằm trong phạm vi quản trị, rủi ro, kiểm soát mà kiểm toán nội bộ có thể đánh giá.",
+      "Sai. Nhóm khác trong cùng chức năng vẫn đánh giá sản phẩm của chính chức năng.",
+      "Đúng. Giữ vai trò đảm bảo, tư vấn mà không nhận trách nhiệm quản lý."
+    ],
     "refs": [
       "CIA Part 1 C.1"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. CSR, ESG tạo rủi ro về uy tín, tuân thủ và báo cáo.",
-      "Sai. Soạn báo cáo là trách nhiệm quản lý.",
-      "Đúng. Kiểm toán nội bộ có thể đánh giá quản trị, rủi ro, kiểm soát và độ tin cậy dữ liệu ESG.",
-      "Sai. Kiểm toán nội bộ cũng có thể đưa ra đảm bảo về ESG."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-005",
     "section": "C",
     "topic": "C2",
-    "difficulty": 1,
-    "stem": "'Tone at the top' ảnh hưởng đến môi trường kiểm soát như thế nào?",
+    "difficulty": 3,
+    "stem": "Công ty có quy tắc ứng xử chi tiết và chương trình đào tạo đạo đức bắt buộc. Tuy nhiên, Tổng Giám đốc công khai khen thưởng một giám đốc vùng đạt doanh số vượt trội dù đã biết người này 'lách' quy trình phê duyệt chiết khấu. Ảnh hưởng lớn nhất đến môi trường kiểm soát là gì?",
     "options": [
-      "Hành vi đạo đức của lãnh đạo định hình văn hóa và ý thức kiểm soát.",
-      "Chủ yếu ảnh hưởng đến hoạt động truyền thông nội bộ của tổ chức.",
-      "Không còn ảnh hưởng khi tổ chức đã dùng hệ thống kiểm soát tự động.",
-      "Ảnh hưởng đến kết quả kinh doanh nhưng không ảnh hưởng đến kiểm soát."
+      "Không đáng kể, vì quy tắc ứng xử và đào tạo bắt buộc vẫn đang được duy trì đầy đủ.",
+      "Làm suy yếu văn hóa kiểm soát, vì hành vi lãnh đạo mạnh hơn văn bản.",
+      "Chỉ ảnh hưởng đến khu vực của giám đốc vùng đó, vì các khu vực khác không liên quan.",
+      "Chỉ là rủi ro báo cáo tài chính về chiết khấu, cần điều chỉnh số liệu cuối năm."
     ],
-    "answer": 0,
-    "explanation": "Môi trường kiểm soát (thành phần đầu tiên của COSO) là nền tảng. Cam kết về chính trực và giá trị đạo đức của lãnh đạo (Nguyên tắc 1) quyết định cách nhân viên nhìn nhận kiểm soát. Kiểm soát tự động vẫn có thể bị lãnh đạo vô hiệu hóa.",
+    "answer": 1,
+    "explanation": "'Tone at the top' được hình thành chủ yếu qua hành vi của lãnh đạo. Khen thưởng người lách kiểm soát cho toàn tổ chức thấy kết quả quan trọng hơn tuân thủ, làm vô hiệu hóa quy tắc và đào tạo. Cam kết về chính trực và giá trị đạo đức là nguyên tắc đầu tiên của COSO 2013.",
+    "optionNotes": [
+      "Sai. Văn bản và đào tạo bị vô hiệu khi lãnh đạo hành xử ngược lại.",
+      "Đúng. Hành vi của lãnh đạo định hình văn hóa kiểm soát.",
+      "Sai. Thông điệp từ Tổng Giám đốc lan ra toàn tổ chức.",
+      "Sai. Vấn đề lớn nhất là văn hóa, không chỉ số liệu chiết khấu."
+    ],
     "refs": [
       "COSO 2013 Principle 1"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Đúng. Hành vi đạo đức của lãnh đạo định hình văn hóa và ý thức kiểm soát (COSO Nguyên tắc 1).",
-      "Sai. Tone at the top ảnh hưởng toàn bộ môi trường kiểm soát.",
-      "Sai. Lãnh đạo vẫn có thể vô hiệu hóa kiểm soát tự động.",
-      "Sai. Văn hóa ảnh hưởng trực tiếp đến việc tuân thủ kiểm soát."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-006",
@@ -819,75 +833,75 @@
     "section": "C",
     "topic": "C3",
     "difficulty": 2,
-    "stem": "Yếu tố nào quan trọng nhất để một chương trình tuân thủ (compliance program) có hiệu quả?",
+    "stem": "Sau một vụ phạt lớn, công ty ban hành thêm 120 quy định tuân thủ mới chỉ trong một quý, nhưng không đào tạo, không có kênh báo cáo và không xử lý vi phạm nào. Đánh giá nào đúng nhất về chương trình tuân thủ này?",
     "options": [
-      "Ban hành càng nhiều quy định chi tiết càng tốt để bao phủ mọi tình huống.",
-      "Giao toàn bộ trách nhiệm tuân thủ cho chức năng kiểm toán nội bộ.",
-      "Đào tạo tuân thủ một lần cho nhân viên mới khi tuyển dụng.",
-      "Cam kết lãnh đạo, chính sách, đào tạo, kênh báo cáo, giám sát, kỷ luật."
+      "Hữu hiệu, vì bộ quy định mới đã bao phủ được hầu hết các tình huống rủi ro.",
+      "Hữu hiệu, nếu toàn bộ quy định được đăng tải đầy đủ trên trang nội bộ.",
+      "Chưa hữu hiệu, vì nên giao toàn bộ việc tuân thủ cho kiểm toán nội bộ theo dõi.",
+      "Chưa hữu hiệu, vì thiếu đào tạo, kênh báo cáo, giám sát và kỷ luật."
     ],
     "answer": 3,
-    "explanation": "Chương trình tuân thủ hiệu quả gồm: cam kết lãnh đạo, đánh giá rủi ro tuân thủ, chính sách, đào tạo liên tục, kênh báo cáo, giám sát và xử lý kỷ luật nhất quán. Trách nhiệm tuân thủ thuộc Ban điều hành (tuyến 1 và 2).",
+    "explanation": "Chương trình tuân thủ hữu hiệu cần nhiều yếu tố phối hợp: cam kết lãnh đạo, chính sách, đào tạo, kênh báo cáo, giám sát và xử lý kỷ luật nhất quán. Nhiều quy định mà không triển khai chỉ tạo tuân thủ trên giấy.",
+    "optionNotes": [
+      "Sai. Số lượng quy định không tạo ra tuân thủ thực tế.",
+      "Sai. Đăng tải không thay thế đào tạo, giám sát và kỷ luật.",
+      "Sai. Tuân thủ là trách nhiệm quản lý; kiểm toán nội bộ chỉ đánh giá.",
+      "Đúng. Thiếu các yếu tố triển khai then chốt."
+    ],
     "refs": [
       "CIA Part 1 C.3"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Nhiều quy định không bảo đảm hiệu quả nếu thiếu thực thi và văn hóa.",
-      "Sai. Tuân thủ là trách nhiệm của Ban điều hành (tuyến một và hai).",
-      "Sai. Đào tạo cần liên tục, không chỉ một lần.",
-      "Đúng. Chương trình tuân thủ hiệu quả cần cam kết lãnh đạo, chính sách, đào tạo, kênh báo cáo, giám sát và kỷ luật."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-010",
     "section": "C",
     "topic": "C4",
-    "difficulty": 1,
-    "stem": "Phân biệt đúng giữa 'khẩu vị rủi ro' (risk appetite) và 'ngưỡng chịu đựng rủi ro' (risk tolerance)?",
+    "difficulty": 3,
+    "stem": "HĐQT xác định 'công ty có khẩu vị rủi ro thấp đối với rủi ro tín dụng'. Ban điều hành đặt chỉ tiêu tỷ lệ nợ xấu tối đa 2%, chấp nhận dao động trong khoảng 1,8% - 2,3%. Khoảng dao động này là khái niệm nào?",
     "options": [
-      "Appetite là mức rủi ro tổng thể sẵn sàng chấp nhận; tolerance là biên độ cho mục tiêu cụ thể.",
-      "Appetite là mức rủi ro tối đa trước khi phá sản; tolerance là mức rủi ro thấp nhất có thể.",
-      "Hai khái niệm giống nhau và được dùng thay thế cho nhau trong COSO ERM.",
-      "Appetite do kiểm toán nội bộ xác định; tolerance do kiểm toán độc lập xác định."
+      "Khẩu vị rủi ro.",
+      "Năng lực chịu đựng rủi ro.",
+      "Ngưỡng chịu đựng rủi ro.",
+      "Rủi ro còn lại."
     ],
-    "answer": 0,
-    "explanation": "Khẩu vị rủi ro: lượng rủi ro tổng thể tổ chức sẵn sàng chấp nhận để đạt giá trị (do HĐQT phê duyệt). Ngưỡng chịu đựng: biên độ biến động chấp nhận được đối với từng mục tiêu, chỉ tiêu cụ thể. Năng lực chịu rủi ro (capacity) mới là mức tối đa có thể gánh chịu.",
+    "answer": 2,
+    "explanation": "Khẩu vị rủi ro là mức rủi ro tổng thể tổ chức sẵn sàng chấp nhận (mô tả 'thấp' của HĐQT). Ngưỡng chịu đựng rủi ro (risk tolerance) là biên độ chấp nhận được quanh một mục tiêu cụ thể, ở đây là khoảng 1,8% - 2,3% quanh chỉ tiêu 2%.",
+    "optionNotes": [
+      "Sai. Khẩu vị là tuyên bố tổng thể của HĐQT, không phải biên độ quanh chỉ tiêu.",
+      "Sai. Năng lực chịu đựng là mức tối đa tổ chức có thể gánh mà vẫn tồn tại.",
+      "Đúng. Biên độ quanh một mục tiêu cụ thể là ngưỡng chịu đựng.",
+      "Sai. Rủi ro còn lại là rủi ro sau khi đã có biện pháp kiểm soát."
+    ],
     "refs": [
       "COSO ERM 2017"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Đúng. Appetite là mức rủi ro tổng thể sẵn sàng chấp nhận; tolerance là biên độ chấp nhận được cho mục tiêu cụ thể.",
-      "Sai. Mức tối đa trước khi phá sản là risk capacity.",
-      "Sai. COSO ERM phân biệt rõ hai khái niệm.",
-      "Sai. Cả hai do HĐQT và Ban điều hành xác định."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-011",
     "section": "C",
     "topic": "C4",
-    "difficulty": 2,
-    "stem": "Rủi ro tiềm tàng của một quy trình là 'Cao'. Kiểm soát được thiết kế và vận hành hiệu quả. Kết luận nào về rủi ro còn lại là hợp lý?",
+    "difficulty": 3,
+    "stem": "Rủi ro tiềm tàng của quy trình chuyển tiền quốc tế được đánh giá 'rất cao'. Sau khi kiểm tra, kiểm soát được thiết kế và vận hành hữu hiệu, rủi ro còn lại ở mức 'trung bình', trong khi khẩu vị rủi ro HĐQT đặt cho quy trình này là 'thấp'. Kết luận nào phù hợp nhất?",
     "options": [
-      "Rủi ro còn lại vẫn là 'Cao' vì rủi ro tiềm tàng không thay đổi.",
-      "Rủi ro còn lại bằng 0 vì kiểm soát hoạt động hiệu quả.",
-      "Có thể thấp hơn tiềm tàng; cần so với khẩu vị rủi ro.",
-      "Không thể xác định rủi ro còn lại khi đã có kiểm soát."
+      "Không có vấn đề, vì các kiểm soát hiện có đều thiết kế và vận hành hữu hiệu.",
+      "Rủi ro còn lại vượt khẩu vị; cần báo cáo để có thêm biện pháp ứng phó.",
+      "Rủi ro còn lại bằng rủi ro tiềm tàng, vì bản chất nghiệp vụ không hề thay đổi.",
+      "Kiểm toán nội bộ cần tự bổ sung thêm kiểm soát để đưa rủi ro về mức thấp."
     ],
-    "answer": 2,
-    "explanation": "Rủi ro tiềm tàng là rủi ro khi chưa có biện pháp của quản lý; rủi ro còn lại là phần còn lại sau phản ứng rủi ro. Kiểm soát hiệu quả làm giảm nhưng không loại bỏ hoàn toàn rủi ro. Sau đó so sánh với khẩu vị để quyết định có cần hành động thêm.",
+    "answer": 1,
+    "explanation": "Kiểm soát hữu hiệu không có nghĩa là đủ. Điều quan trọng là so rủi ro còn lại với khẩu vị rủi ro: 'trung bình' vượt khẩu vị 'thấp', nên cần ứng phó thêm (tăng kiểm soát, giảm hoạt động, chuyển giao...). Quyết định ứng phó thuộc Ban điều hành.",
+    "optionNotes": [
+      "Sai. Bẫy: kiểm soát hữu hiệu nhưng vẫn chưa đưa rủi ro về trong khẩu vị.",
+      "Đúng. So sánh rủi ro còn lại với khẩu vị là bước kết luận then chốt.",
+      "Sai. Kiểm soát hữu hiệu đã làm rủi ro còn lại thấp hơn tiềm tàng.",
+      "Sai. Thiết kế kiểm soát là trách nhiệm quản lý, không phải của kiểm toán nội bộ."
+    ],
     "refs": [
       "CIA Part 1 C.4"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Kiểm soát hiệu quả làm giảm rủi ro còn lại.",
-      "Sai. Kiểm soát không loại bỏ hoàn toàn rủi ro.",
-      "Đúng. Rủi ro còn lại thấp hơn tiềm tàng và cần so với khẩu vị để quyết định hành động.",
-      "Sai. Rủi ro còn lại chính là rủi ro sau khi tính đến kiểm soát."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-012",
