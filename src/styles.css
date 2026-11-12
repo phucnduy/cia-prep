@@ -315,6 +315,12 @@ textarea.input { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; fo
 .bank-item li { font-size: var(--text-sm); padding: 6px 10px; border-radius: var(--radius-s); display: flex; gap: 8px; }
 .bank-item li.correct { background: var(--ok-soft); font-weight: 600; }
 .tag { font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 4px; background: var(--surface-2); color: var(--ink-2); letter-spacing: 0.02em; }
+.opt-note {
+  /* inline-block stops a parent's line-through (struck / wrong option) from crossing out the note */
+  display: inline-block; width: 100%; margin-top: 4px; font-size: var(--text-sm); font-weight: 400; line-height: 1.45;
+  color: var(--ink-2); text-decoration: none;
+}
+.option .opt-note { font-family: var(--font-ui); }
 .explain { margin-top: 12px; font-size: var(--text-sm); padding: 12px 14px; background: var(--surface-2); border-left: 3px solid var(--copper); border-radius: 0 var(--radius-s) var(--radius-s) 0; }
 .pager { display: flex; gap: 8px; justify-content: center; align-items: center; margin-top: 20px; font-size: var(--text-sm); }
 

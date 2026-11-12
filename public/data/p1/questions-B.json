@@ -15,7 +15,13 @@
     "refs": [
       "GIAS 4.3"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. Thiên kiến xác nhận là xu hướng chỉ tìm và coi trọng thông tin ủng hộ giả định ban đầu.",
+      "Sai. Thiên kiến mỏ neo là bám vào thông tin đầu tiên nhận được khi ước lượng, đánh giá.",
+      "Sai. Tư duy bầy đàn là nhóm chạy theo đồng thuận và bỏ qua ý kiến trái chiều.",
+      "Sai. Thiên kiến sẵn có là đánh giá theo những gì dễ nhớ, dễ nghĩ tới."
+    ]
   },
   {
     "id": "P1-B-L004",
@@ -34,7 +40,13 @@
       "GIAS 2.2",
       "IESBA Code"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Tự kiểm tra là đánh giá lại công việc mà chính mình đã làm.",
+      "Đúng. Lợi ích tài chính ở bên liên quan tạo nguy cơ tư lợi.",
+      "Sai. Bị đe dọa là khi chịu áp lực, hăm dọa từ người khác.",
+      "Sai. Bào chữa là khi kiểm toán viên đứng về phía bảo vệ một bên."
+    ]
   },
   {
     "id": "P1-B-001",
@@ -53,7 +65,13 @@
     "refs": [
       "GIAS 1.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Đồng thuận để tránh xung đột là ngược với dũng khí nghề nghiệp.",
+      "Đúng. GIAS 1.1: trung thực và hành động phù hợp ngay cả khi chịu áp lực hoặc hậu quả bất lợi.",
+      "Sai. Dũng khí không có nghĩa là gây đối đầu trong mọi tình huống.",
+      "Sai. Né phát hiện để tránh mâu thuẫn là thiếu dũng khí nghề nghiệp."
+    ]
   },
   {
     "id": "P1-B-002",
@@ -72,7 +90,13 @@
     "refs": [
       "GIAS 1.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Bỏ phát hiện khỏi báo cáo là bóp méo kết quả.",
+      "Sai. Hạ mức nghiêm trọng trái với bằng chứng vi phạm tính chính trực.",
+      "Sai. Hoãn báo cáo vì lý do cá nhân của đơn vị cũng là chịu ảnh hưởng không đáng có.",
+      "Đúng. Báo cáo đúng mức theo bằng chứng và báo CAE về áp lực."
+    ]
   },
   {
     "id": "P1-B-003",
@@ -91,7 +115,13 @@
     "refs": [
       "GIAS 1.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. GIAS 1.2: hiểu, tôn trọng, đáp ứng và góp phần vào kỳ vọng đạo đức hợp pháp của tổ chức.",
+      "Sai. Soạn bộ quy tắc ứng xử là trách nhiệm quản lý.",
+      "Sai. Kiểm toán viên phải tôn trọng cả kỳ vọng đạo đức hợp pháp của tổ chức.",
+      "Sai. Quyết định kỷ luật là trách nhiệm quản lý."
+    ]
   },
   {
     "id": "P1-B-004",
@@ -110,7 +140,13 @@
     "refs": [
       "GIAS 1.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Báo cáo vi phạm cho cấp có thẩm quyền là hành vi phù hợp.",
+      "Sai. Đào tạo về luật là hoạt động phát triển nghề nghiệp phù hợp.",
+      "Đúng. GIAS 1.3 cấm tham gia hoạt động bất hợp pháp hoặc gây mất uy tín nghề và tổ chức.",
+      "Sai. Tham vấn pháp chế là thận trọng nghề nghiệp phù hợp."
+    ]
   },
   {
     "id": "P1-B-005",
@@ -130,7 +166,13 @@
       "GIAS 1.1",
       "GIAS 12.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Hồ sơ sai ảnh hưởng đến độ tin cậy kết luận của cả chức năng kiểm toán.",
+      "Sai. Tự sửa và im lặng là che giấu hành vi thiếu trung thực.",
+      "Sai. Vượt cấp lên Tổng Giám đốc không đúng kênh; vấn đề thuộc quản lý của CAE.",
+      "Đúng. Báo trưởng nhóm hoặc CAE để đánh giá ảnh hưởng và xử lý."
+    ]
   },
   {
     "id": "P1-B-006",
@@ -149,7 +191,13 @@
     "refs": [
       "GIAS 2.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Quan hệ thân thuộc với người phụ trách hoạt động là xung đột lợi ích.",
+      "Sai. Có thêm chứng chỉ không tạo suy giảm khách quan.",
+      "Sai. Từng được đào tạo về quy trình không tạo suy giảm.",
+      "Sai. Một lần kiểm toán ba năm trước chưa tạo suy giảm rõ ràng."
+    ]
   },
   {
     "id": "P1-B-007",
@@ -168,7 +216,13 @@
     "refs": [
       "GIAS 2.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Am hiểu quy trình không bù được nguy cơ tự kiểm tra công việc của mình.",
+      "Đúng. GIAS 2.2: khách quan được coi là suy giảm nếu đảm bảo cho hoạt động mình phụ trách trong 12 tháng trước.",
+      "Sai. Cam kết khách quan không loại bỏ suy giảm được giả định theo quy tắc 12 tháng.",
+      "Sai. Sau 12 tháng có thể được phân công nếu CAE đánh giá phù hợp."
+    ]
   },
   {
     "id": "P1-B-008",
@@ -188,7 +242,13 @@
       "GIAS 2.2",
       "GIAS 2.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Quà giá trị lớn từ đơn vị đang được kiểm toán có thể làm suy giảm khách quan.",
+      "Sai. Chia quà cho cả nhóm vẫn gây suy giảm khách quan.",
+      "Đúng. GIAS 2.2 cấm nhận quà có thể làm suy giảm khách quan; xử lý theo chính sách và báo CAE.",
+      "Sai. Che giấu việc nhận quà làm vấn đề nghiêm trọng hơn."
+    ]
   },
   {
     "id": "P1-B-009",
@@ -208,7 +268,13 @@
       "GIAS 2.2",
       "IESBA Code"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Tự kiểm tra là khi đánh giá công việc của chính mình.",
+      "Đúng. Quan hệ lâu dài, thân thiết tạo nguy cơ quen thuộc; biện pháp phổ biến là luân chuyển.",
+      "Sai. Tư lợi gắn với lợi ích tài chính hoặc cá nhân, không phải quan hệ thân thiết.",
+      "Sai. Không có dấu hiệu bị hăm dọa hay áp lực."
+    ]
   },
   {
     "id": "P1-B-010",
@@ -228,7 +294,13 @@
       "GIAS 2.2",
       "GIAS 2.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Quan hệ gia đình tạo suy giảm khách quan bề ngoài, bất kể loại bằng chứng.",
+      "Sai. Tự loại khỏi mẫu là che giấu vấn đề và làm sai lệch phạm vi.",
+      "Sai. Khách hàng không phải bên quyết định phân công kiểm toán viên.",
+      "Đúng. Công bố cho CAE (GIAS 2.3) để phân công lại hoặc áp dụng biện pháp bảo vệ."
+    ]
   },
   {
     "id": "P1-B-011",
@@ -247,7 +319,13 @@
     "refs": [
       "GIAS 2.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Xác nhận xung đột lợi ích định kỳ và luân chuyển là biện pháp bảo vệ khách quan phổ biến.",
+      "Sai. Tự chọn đơn vị có thể dẫn đến chọn nơi có quan hệ hoặc tránh nơi khó.",
+      "Sai. Thưởng theo số phát hiện tạo động cơ thiên lệch.",
+      "Sai. Để đơn vị được kiểm toán đánh giá kiểm toán viên tạo áp lực làm nhẹ phát hiện."
+    ]
   },
   {
     "id": "P1-B-012",
@@ -266,7 +344,13 @@
     "refs": [
       "GIAS 2.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. GIAS 2.3 yêu cầu xử lý cả khi suy giảm được phát hiện sau khi hoàn thành.",
+      "Sai. Hủy toàn bộ là quá mức nếu kết luận vẫn đứng vững.",
+      "Đúng. Xác định ảnh hưởng và trao đổi với các bên liên quan để xử lý (GIAS 2.3, 11.4).",
+      "Sai. Những người đã nhận kết quả cũng cần được thông tin nếu kết quả bị ảnh hưởng."
+    ]
   },
   {
     "id": "P1-B-013",
@@ -286,7 +370,13 @@
       "GIAS 2.2",
       "GIAS 2.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Không có ngưỡng 6 tháng; CAE phải đánh giá bản chất cuộc tư vấn.",
+      "Sai. Đơn vị được kiểm toán không phải bên quyết định về khách quan.",
+      "Sai. Thu hẹp phạm vi để né vấn đề làm giảm giá trị đảm bảo.",
+      "Đúng. Tăng giám sát, rà soát độc lập và công bố là biện pháp bảo vệ phù hợp."
+    ]
   },
   {
     "id": "P1-B-014",
@@ -305,7 +395,13 @@
     "refs": [
       "GIAS 3.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Mỗi kiểm toán viên phải có năng lực phù hợp với vai trò của mình.",
+      "Đúng. GIAS 3.1: mỗi người chịu trách nhiệm về năng lực của mình; CAE bảo đảm năng lực tổng thể.",
+      "Sai. Năng lực gồm kiến thức, kỹ năng, khả năng, không chỉ chứng chỉ.",
+      "Sai. Phát triển năng lực kiểm toán viên là trách nhiệm của CAE và kiểm toán viên."
+    ]
   },
   {
     "id": "P1-B-015",
@@ -325,7 +421,13 @@
       "GIAS 3.1",
       "GIAS 10.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. CAE có thể bổ sung năng lực thay vì từ chối.",
+      "Sai. Thực hiện khi thiếu năng lực vi phạm GIAS 3.1.",
+      "Đúng. Dùng chuyên gia bên ngoài, đánh giá năng lực và khách quan của họ; CAE vẫn chịu trách nhiệm.",
+      "Sai. Người xây dựng mô hình không thể đánh giá khách quan mô hình của mình."
+    ]
   },
   {
     "id": "P1-B-016",
@@ -344,7 +446,13 @@
     "refs": [
       "GIAS 3.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. GIAS 3.2: mọi kiểm toán viên phải phát triển năng lực liên tục; người có chứng chỉ đáp ứng yêu cầu CPE.",
+      "Sai. CPD áp dụng cho mọi kiểm toán viên.",
+      "Sai. CPD là trách nhiệm liên tục, không phụ thuộc yêu cầu của Ban điều hành.",
+      "Sai. Kinh nghiệm không thay thế được phát triển chuyên môn liên tục."
+    ]
   },
   {
     "id": "P1-B-017",
@@ -364,7 +472,13 @@
       "CIA Part 1 B.4",
       "GIAS 3.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Lập trình là kỹ năng chuyên môn kỹ thuật, không phải kỹ năng mềm.",
+      "Sai. Định giá tài sản là chuyên môn kỹ thuật có thể thuê ngoài.",
+      "Sai. Tư vấn pháp lý thuộc chuyên môn của luật sư.",
+      "Đúng. Syllabus nêu các kỹ năng giao tiếp, tư duy phản biện, thuyết phục, đàm phán, hợp tác."
+    ]
   },
   {
     "id": "P1-B-018",
@@ -383,7 +497,13 @@
     "refs": [
       "GIAS 4.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Ý kiến của Tổng Giám đốc không phải yếu tố của thận trọng nghề nghiệp.",
+      "Sai. Khả năng làm thêm giờ là vấn đề nguồn lực, không phải yếu tố đánh giá.",
+      "Đúng. GIAS 4.2 liệt kê độ phức tạp, trọng yếu, khả năng sai sót, gian lận và chi phí so với lợi ích.",
+      "Sai. Kết quả năm trước chỉ là thông tin tham khảo, không phải căn cứ duy nhất."
+    ]
   },
   {
     "id": "P1-B-019",
@@ -402,7 +522,13 @@
     "refs": [
       "GIAS 4.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Thận trọng nghề nghiệp không bảo đảm phát hiện mọi gian lận.",
+      "Đúng. Là sự cẩn trọng của một kiểm toán viên hợp lý, có năng lực; không có nghĩa là không thể sai.",
+      "Sai. Không đòi hỏi kiểm tra toàn bộ giao dịch.",
+      "Sai. Áp dụng cho cả dịch vụ tư vấn."
+    ]
   },
   {
     "id": "P1-B-020",
@@ -421,7 +547,13 @@
     "refs": [
       "GIAS 4.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Hoài nghi nghề nghiệp không phải mặc định mọi người gian lận.",
+      "Sai. Thẩm quyền không thay thế bằng chứng.",
+      "Sai. Từ chối mọi tài liệu là thiếu hợp lý; cần đánh giá độ tin cậy.",
+      "Đúng. GIAS 4.3: đặt câu hỏi, đánh giá phê phán và tìm thêm bằng chứng khi thông tin không nhất quán."
+    ]
   },
   {
     "id": "P1-B-021",
@@ -441,7 +573,13 @@
       "GIAS 4.2",
       "GIAS 4.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Dấu hiệu bất thường cần thu thập thêm bằng chứng trước khi kết luận.",
+      "Sai. Có quyền phê duyệt không chứng minh chi phí hợp lệ.",
+      "Sai. Kết luận gian lận khi chưa có bằng chứng là thiếu thận trọng.",
+      "Sai. Số tiền nhỏ vẫn có thể là dấu hiệu của gian lận lớn hơn."
+    ]
   },
   {
     "id": "P1-B-022",
@@ -461,7 +599,13 @@
       "GIAS 4.1",
       "GIAS 15.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Không tuân thủ phải được ghi nhận và công bố.",
+      "Sai. Hủy cuộc kiểm toán là không cần thiết; cần công bố đúng.",
+      "Sai. Tuyên bố tuân thủ khi không tuân thủ là thiếu trung thực.",
+      "Đúng. GIAS 4.1 và 15.1: công bố yêu cầu không tuân thủ, lý do và ảnh hưởng đến kết quả."
+    ]
   },
   {
     "id": "P1-B-023",
@@ -480,7 +624,13 @@
     "refs": [
       "GIAS 5.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Không gây thiệt hại tài chính vẫn chưa đủ; còn phải tuân thủ luật và chính sách.",
+      "Đúng. GIAS 5.1: chỉ dùng cho công việc, không vì lợi ích cá nhân và không trái luật.",
+      "Sai. Chia sẻ với bên ngoài vi phạm bảo mật.",
+      "Sai. Giao dịch dựa trên thông tin nội bộ là trái luật."
+    ]
   },
   {
     "id": "P1-B-024",
@@ -499,7 +649,13 @@
     "refs": [
       "GIAS 5.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Vấn đề không nằm ở năng lực chuyên môn.",
+      "Sai. Không có xung đột lợi ích hay thiên lệch.",
+      "Đúng. GIAS 5.2 yêu cầu bảo vệ thông tin; để mất dữ liệu nhạy cảm vi phạm bảo mật.",
+      "Sai. Nguyên tắc 7 nói về vị trí độc lập của chức năng kiểm toán."
+    ]
   },
   {
     "id": "P1-B-025",
@@ -519,7 +675,13 @@
       "GIAS 5.2",
       "GIAS 14.6"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Có thể có nghĩa vụ pháp lý phải cung cấp; không được từ chối máy móc.",
+      "Sai. Cung cấp toàn bộ không qua tham vấn có thể vi phạm chính sách và lộ thông tin.",
+      "Sai. Chọn lọc phần có lợi là thiếu trung thực.",
+      "Đúng. Tham vấn pháp chế và áp dụng chính sách phát hành hồ sơ theo nghĩa vụ pháp lý."
+    ]
   },
   {
     "id": "P1-B-026",
@@ -539,7 +701,13 @@
       "GIAS 5.1",
       "GIAS 5.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Nghĩa vụ không sử dụng, không tiết lộ thông tin vẫn tiếp tục sau khi nghỉ việc.",
+      "Sai. Nghĩa vụ không chấm dứt cùng hợp đồng lao động.",
+      "Sai. Nghĩa vụ bao gồm mọi thông tin bảo mật, không chỉ tài chính.",
+      "Sai. Không có thời hạn 12 tháng cho nghĩa vụ bảo mật."
+    ]
   },
   {
     "id": "P1-B-027",
@@ -558,7 +726,13 @@
     "refs": [
       "GIAS 2.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Khách quan vẫn cần thiết trong dịch vụ tư vấn.",
+      "Sai. Công bố sau khi làm xong là quá muộn.",
+      "Đúng. GIAS 2.2: công bố cho bên yêu cầu tư vấn trước khi nhận việc.",
+      "Sai. Nghĩa vụ công bố không phụ thuộc yêu cầu của HĐQT."
+    ]
   },
   {
     "id": "P1-B-028",
@@ -578,7 +752,13 @@
       "GIAS 4.2",
       "GIAS 10.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Không liên quan đến độc lập của chức năng.",
+      "Đúng. GIAS 4.2 yêu cầu cân nhắc kỹ thuật, công cụ và công nghệ phù hợp.",
+      "Sai. Bảo mật là nghĩa vụ riêng, không phải điểm chính của tình huống.",
+      "Sai. Không liên quan đến yêu cầu chứng chỉ."
+    ]
   },
   {
     "id": "P1-B-029",
@@ -597,7 +777,13 @@
     "refs": [
       "GIAS Domain II"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. GIAS giữ nội dung đạo đức như yêu cầu bắt buộc.",
+      "Sai. Đạo đức được tích hợp vào GIAS, không tách ra.",
+      "Sai. Số nguyên tắc tăng lên năm và được tổ chức lại.",
+      "Đúng. Domain II có 5 nguyên tắc, thêm Thận trọng nghề nghiệp đúng mức."
+    ]
   },
   {
     "id": "P1-B-030",
@@ -617,6 +803,12 @@
       "GIAS 2.2",
       "GIAS 7.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Quan hệ hành chính không cho phép bỏ qua suy giảm khách quan.",
+      "Sai. Báo cơ quan quản lý là không cần thiết; cần trao đổi với HĐQT.",
+      "Đúng. Trao đổi với HĐQT; nếu thực hiện, người đó không đảm bảo cho mảng kế toán trong 12 tháng (GIAS 2.2).",
+      "Sai. Kiểm toán mảng mình vừa phụ trách vi phạm quy tắc 12 tháng."
+    ]
   }
 ]

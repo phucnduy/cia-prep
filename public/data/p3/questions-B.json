@@ -16,7 +16,13 @@
       "GIAS 9.5"
     ],
     "source": "legacy",
-    "topic": "B3"
+    "topic": "B3",
+    "optionNotes": [
+      "Sai. Uy tín không thay thế việc CAE tự đánh giá.",
+      "Sai. CAE vẫn chịu trách nhiệm về kết luận.",
+      "Sai. Xác nhận của Ban điều hành không đủ.",
+      "Đúng. GIAS 9.5: đánh giá năng lực, khách quan, thận trọng và phạm vi công việc trước khi tin cậy."
+    ]
   },
   {
     "id": "P3-B-001",
@@ -35,7 +41,13 @@
     "refs": [
       "GIAS 9.4"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Kế hoạch phải được đánh giá ít nhất hằng năm và linh hoạt.",
+      "Đúng. GIAS 9.4: dựa trên đánh giá rủi ro, ít nhất hằng năm, cập nhật khi cần.",
+      "Sai. CAE lập kế hoạch; HĐQT phê duyệt.",
+      "Sai. Kế hoạch phân bổ theo rủi ro, không chia đều."
+    ]
   },
   {
     "id": "P3-B-002",
@@ -54,7 +66,13 @@
     "refs": [
       "GIAS 9.4"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Sổ đăng ký rủi ro là nguồn chính.",
+      "Sai. Yêu cầu của HĐQT và Ban điều hành là nguồn hợp lệ.",
+      "Đúng. Sở thích cá nhân không phải căn cứ để chọn cuộc kiểm toán.",
+      "Sai. Thay đổi về quy định, hệ thống, sáp nhập là nguồn quan trọng."
+    ]
   },
   {
     "id": "P3-B-003",
@@ -73,6 +91,12 @@
     "refs": [
       "GIAS 9.4"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. GIAS 9.4: đánh giá lại rủi ro và trình HĐQT phê duyệt thay đổi đáng kể của kế hoạch.",
+      "Sai. Kế hoạch phải linh hoạt khi rủi ro thay đổi.",
+      "Sai. Thay đổi đáng kể phải được HĐQT phê duyệt, không chỉ báo cáo cuối năm.",
+      "Sai. Tổng Giám đốc không có thẩm quyền phê duyệt kế hoạch kiểm toán."
+    ]
   }
 ]

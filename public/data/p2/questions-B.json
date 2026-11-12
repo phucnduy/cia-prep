@@ -14,7 +14,13 @@
     "explanation": "Root Cause Analysis (Phân tích nguyên nhân gốc rễ) giúp KTV tìm ra lý do sâu xa tại sao lỗi xảy ra (ví dụ: không chỉ dừng ở 'nhân viên nhập sai', mà tìm ra gốc rễ là 'phần mềm chưa thiết lập trường chặn lỗi và nhân viên mới chưa được đào tạo').",
     "refs": [],
     "source": "legacy",
-    "topic": "B6"
+    "topic": "B6",
+    "optionNotes": [
+      "Sai. Tiêu chí là chuẩn để so sánh, không cần công cụ phân tích nguyên nhân.",
+      "Sai. Thực trạng là những gì quan sát được.",
+      "Đúng. 5 Whys và biểu đồ xương cá dùng để tìm nguyên nhân gốc rễ.",
+      "Sai. Ảnh hưởng là hệ quả, không phải nguyên nhân."
+    ]
   },
   {
     "id": "P2-B-001",
@@ -33,7 +39,13 @@
     "refs": [
       "GIAS 14.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Ký xác nhận từng trang không phải thuộc tính của thông tin.",
+      "Đúng. GIAS 14.1: thông tin phải phù hợp, đáng tin cậy và đầy đủ.",
+      "Sai. Hình thức lưu trữ không quyết định chất lượng thông tin.",
+      "Sai. Thông tin nội bộ vẫn có thể đủ tin cậy."
+    ]
   },
   {
     "id": "P2-B-002",
@@ -52,7 +64,13 @@
     "refs": [
       "GIAS 14.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Giải trình bằng lời kém tin cậy nhất.",
+      "Sai. Bản sao do đơn vị cung cấp kém tin cậy hơn bằng chứng từ bên ngoài.",
+      "Sai. Báo cáo tự lập có nguy cơ thiên lệch.",
+      "Đúng. Bằng chứng từ bên thứ ba độc lập gửi trực tiếp cho kiểm toán viên tin cậy nhất."
+    ]
   },
   {
     "id": "P2-B-003",
@@ -72,7 +90,13 @@
       "GIAS 14.2",
       "GIAS 14.4"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Phát hiện gồm tiêu chí, thực trạng, nguyên nhân, ảnh hưởng và khuyến nghị hoặc kế hoạch hành động.",
+      "Sai. Kiểm toán nội bộ không đề xuất mức phạt.",
+      "Sai. Đây là thông tin kế hoạch cuộc kiểm toán.",
+      "Sai. Ý kiến bên ngoài không phải thành phần của phát hiện."
+    ]
   },
   {
     "id": "P2-B-004",
@@ -91,7 +115,13 @@
     "refs": [
       "GIAS 14.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Biến động bất thường là tín hiệu cần điều tra, chưa phải kết luận.",
+      "Sai. So sánh giữa các kỳ không phải thủ tục quan sát.",
+      "Đúng. Đây là thủ tục phân tích; tiếp theo là tìm hiểu nguyên nhân và kiểm tra chứng từ.",
+      "Sai. Xác nhận không phải thủ tục đã thực hiện và không cần gửi tất cả."
+    ]
   },
   {
     "id": "P2-B-005",
@@ -110,6 +140,12 @@
     "refs": [
       "GIAS 14.6"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Hồ sơ phải ghi nhận cả công việc không có ngoại lệ.",
+      "Đúng. GIAS 14.6: hồ sơ đủ để kiểm toán viên có kinh nghiệm khác lặp lại công việc và đạt cùng kết luận.",
+      "Sai. Đơn vị được kiểm toán không phê duyệt hồ sơ kiểm toán.",
+      "Sai. Hồ sơ được lưu theo chính sách lưu trữ, không hủy ngay."
+    ]
   }
 ]

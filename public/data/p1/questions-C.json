@@ -13,7 +13,13 @@
     "answer": 2,
     "explanation": "Trong Mô hình 3 Tuyến của IIA, cả Tuyến 1 (vận hành) và Tuyến 2 (hỗ trợ/giám sát rủi ro, tuân thủ) đều nằm dưới sự chỉ đạo của Ban điều hành (Management). Các vai trò này có thể linh hoạt kết hợp hoặc tách rời tùy quy mô công ty, chỉ có Tuyến 3 (KTNB) là bắt buộc phải độc lập với Ban điều hành.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Ở tổ chức nhỏ, vai trò tuyến một và hai có thể do cùng bộ phận đảm nhận.",
+      "Sai. Tuyến hai thuộc Ban điều hành, không độc lập như kiểm toán nội bộ.",
+      "Đúng. Mô hình Ba Tuyến cho phép kết hợp hoặc tách biệt; cả hai vai trò thuộc Ban điều hành.",
+      "Sai. Tuyến một báo cáo qua Ban điều hành, không trực tiếp cho Ủy ban Kiểm toán."
+    ]
   },
   {
     "id": "P1-C-L002",
@@ -29,7 +35,13 @@
     "answer": 3,
     "explanation": "Mẹo nhớ kinh điển trong đề thi CIA Part 1: Nhắc đến khung CoCo của Canada là nhớ ngay tới 4 chữ: Purpose (Mục đích), Commitment (Sự cam kết), Capability (Năng lực) và Monitoring & Learning (Giám sát & Học hỏi).",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Đây gần với các thành phần của COSO, không phải CoCo.",
+      "Sai. Đây là các nhóm mục tiêu (gần COSO ERM 2004), không phải CoCo.",
+      "Sai. Đây là phân loại kiểm soát theo chức năng.",
+      "Đúng. CoCo nhóm 20 tiêu chí vào Mục đích, Cam kết, Năng lực, Giám sát và Học hỏi."
+    ]
   },
   {
     "id": "P1-C-L003",
@@ -45,7 +57,13 @@
     "answer": 0,
     "explanation": "COBIT là khung chuẩn quốc tế hàng đầu về Quản trị và Kiểm soát CNTT, phân biệt rõ giữa Quản trị CNTT (Governance - thuộc HĐQT: Đánh giá, Định hướng, Giám sát - EDM) và Quản lý CNTT (Management - thuộc Ban điều hành: Lập kế hoạch, Xây dựng, Vận hành, Theo dõi - APO, BAI, DSS, MEA).",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. COBIT là khung quản trị và quản lý CNTT doanh nghiệp của ISACA.",
+      "Sai. COBIT không phải chuẩn mực kiểm toán báo cáo tài chính.",
+      "Sai. Đó là ISO/IEC 27001.",
+      "Sai. COBIT không thay thế COSO ERM."
+    ]
   },
   {
     "id": "P1-C-L004",
@@ -61,7 +79,13 @@
     "answer": 1,
     "explanation": "Hard controls là các chốt kiểm soát khách quan, để lại dấu vết tài liệu rõ ràng. Soft controls gắn liền với Môi trường kiểm soát (văn hóa, sự chính trực, áp lực đồng trang lứa, phong cách lãnh đạo). Nếu Soft controls yếu kém, Hard controls rất dễ bị vượt qua.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Kiểm soát cứng có thể thủ công hoặc tự động.",
+      "Đúng. Kiểm soát cứng là thủ tục chính thức, hữu hình; kiểm soát mềm là yếu tố văn hóa, đạo đức, lòng tin.",
+      "Sai. Cả hai loại đều có thể phòng ngừa hoặc phát hiện.",
+      "Sai. Thiết kế mọi kiểm soát là trách nhiệm của Ban điều hành."
+    ]
   },
   {
     "id": "P1-C-L005",
@@ -77,7 +101,13 @@
     "answer": 2,
     "explanation": "Vì Kiểm soát mềm (Soft controls) mang tính vô hình và tâm lý, KTV không thể chỉ kiểm tra chứng từ sổ sách mà phải dùng các phương pháp định tính như khảo sát ẩn danh, phỏng vấn đa chiều và hội thảo CSA.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Kiểm tra chữ ký đánh giá kiểm soát cứng.",
+      "Sai. Xác nhận bên thứ ba không phản ánh văn hóa nội bộ.",
+      "Đúng. Kiểm soát mềm được đánh giá qua khảo sát, phỏng vấn, hội thảo và quan sát.",
+      "Sai. Thực hiện lại đối chiếu đánh giá kiểm soát cứng."
+    ]
   },
   {
     "id": "P1-C-L006",
@@ -93,7 +123,13 @@
     "answer": 3,
     "explanation": "Feedforward control tác động vào Đầu vào (Inputs) trước khi quy trình diễn ra nhằm ngăn ngừa lỗi từ trứng nước. Concurrent control diễn ra ngay trong lúc đang vận hành (Process). Feedback control đo lường kết quả Đầu ra (Outputs) sau khi đã hoàn thành.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Kiểm soát phản hồi đánh giá đầu ra sau khi quá trình kết thúc.",
+      "Sai. Kiểm soát đồng thời diễn ra trong khi quá trình đang chạy.",
+      "Sai. Kiểm soát khắc phục sửa hậu quả sau khi lỗi xảy ra.",
+      "Đúng. Kiểm tra đầu vào trước khi bắt đầu là kiểm soát đón đầu (feedforward)."
+    ]
   },
   {
     "id": "P1-C-L007",
@@ -112,7 +148,13 @@
       "GIAS Principle 1",
       "COSO"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. Đây là Nguyên tắc 4, thuộc Môi trường kiểm soát.",
+      "Sai. Đây là Nguyên tắc 11, thuộc Hoạt động kiểm soát.",
+      "Sai. Đây là Nguyên tắc 8, thuộc Đánh giá rủi ro.",
+      "Sai. Đây là Nguyên tắc 16, thuộc Hoạt động giám sát."
+    ]
   },
   {
     "id": "P1-C-L008",
@@ -130,7 +172,13 @@
     "refs": [
       "COSO"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Môi trường kiểm soát gồm Nguyên tắc 1-5.",
+      "Đúng. Đánh giá rủi ro gồm Nguyên tắc 6-9, trong đó Nguyên tắc 8 về gian lận.",
+      "Sai. Hoạt động kiểm soát gồm Nguyên tắc 10-12.",
+      "Sai. Hoạt động giám sát gồm Nguyên tắc 16-17."
+    ]
   },
   {
     "id": "P1-C-L009",
@@ -148,7 +196,13 @@
     "refs": [
       "COSO"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. COSO yêu cầu tất cả các thành phần, không chỉ đa số.",
+      "Sai. Chỉ một thành phần là không đủ.",
+      "Đúng. Cả 5 thành phần và các nguyên tắc liên quan phải hiện hữu, vận hành và phối hợp.",
+      "Sai. Ý kiến kiểm toán BCTC không phải tiêu chí hữu hiệu của COSO."
+    ]
   },
   {
     "id": "P1-C-L010",
@@ -169,7 +223,13 @@
       "GIAS Principle 12",
       "COSO"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Nguyên tắc 6-9 thuộc Đánh giá rủi ro.",
+      "Sai. Nguyên tắc 13-15 thuộc Thông tin và Truyền thông.",
+      "Sai. Nguyên tắc 16-17 thuộc Hoạt động giám sát.",
+      "Đúng. Hoạt động kiểm soát gồm Nguyên tắc 10, 11, 12."
+    ]
   },
   {
     "id": "P1-C-L011",
@@ -190,7 +250,13 @@
       "GIAS Principle 15",
       "COSO"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. Nguyên tắc 13: sử dụng thông tin phù hợp, có chất lượng để hỗ trợ kiểm soát nội bộ.",
+      "Sai. Đây là Nguyên tắc 15, truyền đạt ra bên ngoài.",
+      "Sai. Đây là Nguyên tắc 14, truyền đạt nội bộ.",
+      "Sai. Đây là Nguyên tắc 17, thuộc Hoạt động giám sát."
+    ]
   },
   {
     "id": "P1-C-L012",
@@ -208,7 +274,13 @@
     "refs": [
       "COSO"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Đây là tên khung kiểm soát nội bộ COSO, không phải ERM 2017.",
+      "Đúng. COSO ERM 2017 gắn quản trị rủi ro với chiến lược và hiệu quả hoạt động.",
+      "Sai. Đây là COSO ERM 2004 với tám thành phần.",
+      "Sai. Đây là tiêu đề của ISO 31000."
+    ]
   },
   {
     "id": "P1-C-L013",
@@ -224,7 +296,13 @@
     "answer": 2,
     "explanation": "ISO 31000 được thiết kế rất tinh gọn dựa trên 3 trụ cột liên kết: (1) Các Nguyên tắc (tạo và bảo vệ giá trị), (2) Khung cơ cấu (Lãnh đạo & Cam kết: Tích hợp, Thiết kế, Thực thi, Đánh giá, Cải tiến), và (3) Quy trình quản lý rủi ro.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Đây gần với các nhóm mục tiêu, không phải cấu trúc ISO 31000.",
+      "Sai. Đây là một phần trong Quy trình, không phải ba trụ cột.",
+      "Đúng. ISO 31000:2018 gồm Nguyên tắc, Khung và Quy trình.",
+      "Sai. Đây là các thành phần của COSO."
+    ]
   },
   {
     "id": "P1-C-L014",
@@ -240,7 +318,13 @@
     "answer": 3,
     "explanation": "Risk Capacity là giới hạn sinh tử về mặt vốn và nguồn lực của doanh nghiệp. Doanh nghiệp luôn phải thiết lập Khẩu vị rủi ro (Risk Appetite) thấp hơn một khoảng an toàn so với Risk Capacity.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Định nghĩa bị đảo ngược.",
+      "Sai. Khẩu vị rủi ro do HĐQT phê duyệt, không phải kiểm toán nội bộ đề xuất.",
+      "Sai. Hai khái niệm khác nhau.",
+      "Đúng. Capacity là mức tối đa có thể gánh chịu; appetite là mức sẵn sàng chấp nhận, thấp hơn capacity."
+    ]
   },
   {
     "id": "P1-C-L015",
@@ -256,7 +340,13 @@
     "answer": 0,
     "explanation": "Trong CIA Part 1, nếu Residual Risk > Risk Appetite thì phải tăng kiểm soát; ngược lại, nếu Residual Risk quá thấp kèm chi phí kiểm soát quá cao (Over-controlling), KTNB nên khuyến nghị cắt bỏ bớt các chốt kiểm soát dư thừa để tối ưu hóa hiệu suất.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. Rủi ro còn lại thấp hơn nhiều so với khẩu vị cho thấy kiểm soát quá mức, gây lãng phí.",
+      "Sai. Tình huống là thừa kiểm soát, không phải thiếu.",
+      "Sai. Vấn đề là kiểm soát quá mức so với khẩu vị, không phải khẩu vị quá thấp.",
+      "Sai. Rủi ro tiềm tàng không biến mất nhờ kiểm soát."
+    ]
   },
   {
     "id": "P1-C-L016",
@@ -272,7 +362,13 @@
     "answer": 1,
     "explanation": "Mô hình 1 cấp (phổ biến ở Mỹ, Anh) gộp chung Executive và Non-Executive Directors trong một Board. Mô hình 2 cấp (phổ biến ở Đức, Châu Âu) tách riêng Supervisory Board (chuyên giám sát) và Management Board (chuyên điều hành).",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Thành phần của hai mô hình được mô tả sai.",
+      "Đúng. Mô hình một cấp gộp thành viên điều hành và không điều hành; mô hình hai cấp tách giám sát và điều hành.",
+      "Sai. Việc có Ủy ban Kiểm toán không phụ thuộc mô hình.",
+      "Sai. Lựa chọn mô hình phụ thuộc pháp luật từng quốc gia, không phụ thuộc niêm yết."
+    ]
   },
   {
     "id": "P1-C-L017",
@@ -288,7 +384,13 @@
     "answer": 2,
     "explanation": "Trong cấu trúc quản trị công ty chuẩn mực, Ủy ban Lương thưởng (Compensation Committee) gồm các thành viên HĐQT độc lập chịu trách nhiệm gắn kết cơ chế đãi ngộ của Ban giám đốc với hiệu quả bền vững và khẩu vị rủi ro dài hạn.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Ủy ban Kiểm toán giám sát báo cáo tài chính và kiểm soát.",
+      "Sai. Ủy ban Đề cử phụ trách nhân sự HĐQT và lãnh đạo cấp cao.",
+      "Đúng. Ủy ban Lương thưởng thiết kế và giám sát chính sách thù lao lãnh đạo.",
+      "Sai. Ủy ban Quản trị rủi ro giám sát rủi ro, không phải chính sách lương thưởng."
+    ]
   },
   {
     "id": "P1-C-L018",
@@ -304,7 +406,13 @@
     "answer": 3,
     "explanation": "Ombudsperson là một thiết chế quan trọng trong chương trình Đạo đức doanh nghiệp, giúp giải quyết các xung đột và lắng nghe phản ánh của nhân viên một cách bảo mật, độc lập với chuỗi mệnh lệnh hành chính.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Ombudsperson không quyết định kỷ luật.",
+      "Sai. Không thay thế chức năng kiểm toán nội bộ.",
+      "Sai. Đại diện tổ chức trong tranh chấp là việc của bộ phận pháp chế.",
+      "Đúng. Ombudsperson là kênh trung lập, bảo mật để tư vấn và tiếp nhận quan ngại."
+    ]
   },
   {
     "id": "P1-C-L019",
@@ -320,7 +428,13 @@
     "answer": 0,
     "explanation": "Greenwashing là rủi ro gian lận/báo cáo sai lệch rất nóng trong mảng ESG. KTNB cần kiểm tra xem các số liệu công bố về giảm phát thải, thân thiện môi trường có bằng chứng gốc đáng tin cậy và tiêu chí đo lường chuẩn xác hay không.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. Greenwashing là công bố phóng đại hoặc gây hiểu lầm về thành tích môi trường.",
+      "Sai. Đầu tư kém hiệu quả là rủi ro đầu tư, không phải greenwashing.",
+      "Sai. Đó là rủi ro tuân thủ báo cáo.",
+      "Sai. Đó là sai sót phân loại kế toán."
+    ]
   },
   {
     "id": "P1-C-L020",
@@ -336,7 +450,13 @@
     "answer": 1,
     "explanation": "Data Minimization là nguyên tắc cốt lõi của Quản trị dữ liệu và Bảo mật quyền riêng tư (như GDPR): Không thu thập dư thừa và không lưu trữ lâu hơn thời gian cần thiết nhằm giảm thiểu thiệt hại nếu xảy ra rò rỉ dữ liệu.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Mã hóa là biện pháp bảo mật, không phải giảm thiểu dữ liệu.",
+      "Đúng. Giảm thiểu dữ liệu: chỉ thu thập, lưu trữ lượng tối thiểu cần thiết và xóa khi hết cần.",
+      "Sai. Giới hạn truy cập là kiểm soát truy cập.",
+      "Sai. Ẩn danh hóa là biện pháp bảo vệ khác, không phải giảm thiểu."
+    ]
   },
   {
     "id": "P1-C-L021",
@@ -352,7 +472,13 @@
     "answer": 2,
     "explanation": "Trong quản lý rủi ro bên thứ ba: SOC 1 đánh giá các kiểm soát của nhà cung cấp dịch vụ có ảnh hưởng đến Báo cáo tài chính (ICFR) của khách hàng; còn SOC 2 đánh giá các kiểm soát về An toàn thông tin (Bảo mật, Khả dụng, Toàn vẹn xử lý, Riêng tư).",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. SOC 2 tập trung bảo mật, tính sẵn sàng, quyền riêng tư, không phải kiểm soát BCTC.",
+      "Sai. SOC 3 là bản tóm tắt công khai, không đủ chi tiết.",
+      "Đúng. SOC 1 đánh giá kiểm soát liên quan đến báo cáo tài chính của khách hàng.",
+      "Sai. ISO 27001 là chứng nhận an toàn thông tin, không đánh giá kiểm soát BCTC."
+    ]
   },
   {
     "id": "P1-C-L022",
@@ -368,7 +494,13 @@
     "answer": 3,
     "explanation": "Báo cáo SOC Type 2 luôn cung cấp mức độ đảm bảo cao hơn rất nhiều so với Type 1 vì kiểm toán viên độc lập đã kiểm thử sự vận hành thực tế của các chốt kiểm soát xuyên suốt một khoảng thời gian dài.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Cả hai loại đều do kiểm toán viên độc lập phát hành.",
+      "Sai. Type 1/2 phân biệt theo thời gian và phạm vi đánh giá, không theo chủ đề.",
+      "Sai. Định nghĩa bị đảo ngược.",
+      "Đúng. Type 1 đánh giá thiết kế tại một thời điểm; Type 2 đánh giá cả hiệu quả vận hành trong một kỳ."
+    ]
   },
   {
     "id": "P1-C-L023",
@@ -384,7 +516,13 @@
     "answer": 0,
     "explanation": "BCP nhìn ở góc độ toàn bộ hoạt động kinh doanh (con người, quy trình, địa điểm làm việc thay thế, chăm sóc khách hàng). DRP tập trung chuyên biệt vào việc khôi phục hệ thống IT và dữ liệu (với các chỉ số RTO - Thời gian khôi phục mục tiêu và RPO - Điểm khôi phục dữ liệu mục tiêu).",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. BCP duy trì quy trình kinh doanh cốt lõi; DRP là phần khôi phục CNTT trong BCP.",
+      "Sai. BCP rộng hơn DRP.",
+      "Sai. BCP thuộc toàn tổ chức; DRP thường do CNTT phụ trách.",
+      "Sai. DRP áp dụng cho mọi sự cố làm gián đoạn CNTT, không chỉ thiên tai."
+    ]
   },
   {
     "id": "P1-C-L024",
@@ -400,7 +538,13 @@
     "answer": 1,
     "explanation": "Check Digit (Chữ số kiểm tra) là một con số được tính toán bằng công thức toán học từ các chữ số đứng trước nó trong mã số (như thuật toán Luhn), giúp phát hiện ngay lỗi gõ sai hoặc đảo vị trí chữ số (transposition error) khi nhập liệu.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Kiểm tra giới hạn so sánh giá trị với ngưỡng.",
+      "Đúng. Chữ số kiểm tra được tính bằng thuật toán để phát hiện lỗi nhập liệu.",
+      "Sai. Tổng chạy nối tiếp kiểm tra dữ liệu giữa các bước xử lý.",
+      "Sai. Kiểm tra tính hợp lý so sánh với giá trị dự kiến."
+    ]
   },
   {
     "id": "P1-C-L025",
@@ -416,7 +560,13 @@
     "answer": 2,
     "explanation": "Các file Excel/Access do người dùng tự tạo (EUC) nằm ngoài hệ thống ERP chính thức nên thường thiếu kiểm soát ITGC. KTNB cần kiểm tra xem các ô công thức có bị khóa (locked cells) không, có phân quyền truy cập và có người soát xét độc lập công thức hay không.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Chi phí bản quyền không phải rủi ro chính.",
+      "Sai. Hiệu năng không phải rủi ro kiểm soát chính.",
+      "Đúng. Rủi ro chính của EUC là thiếu kiểm soát thay đổi, phiên bản, truy cập và kiểm thử.",
+      "Sai. EUC thường nằm ngoài kiểm soát của CNTT, nên rủi ro ngược lại."
+    ]
   },
   {
     "id": "P1-C-L027",
@@ -432,7 +582,13 @@
     "answer": 3,
     "explanation": "Chi phí của một chốt kiểm soát (40.000 USD/năm) không nên vượt quá lợi ích giảm thiểu rủi ro mà nó mang lại (5.000 USD/năm), trừ khi liên quan đến an toàn tính mạng hoặc yêu cầu pháp lý bắt buộc.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Không có vấn đề phân chia trách nhiệm.",
+      "Sai. Bảo vệ tài sản là mục tiêu hợp lý; vấn đề là chi phí.",
+      "Sai. Đảm bảo hợp lý chỉ việc không thể đạt đảm bảo tuyệt đối.",
+      "Đúng. Chi phí 40.000 USD/năm vượt xa tổn thất 5.000 USD/năm, vi phạm chi phí - lợi ích."
+    ]
   },
   {
     "id": "P1-C-001",
@@ -451,7 +607,13 @@
     "refs": [
       "GIAS - Glossary"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Glossary GIAS: quy trình và cấu trúc do HĐQT thiết lập để thông tin, chỉ đạo, quản lý và giám sát tổ chức.",
+      "Sai. Thủ tục kế toán chỉ là một phần nhỏ của kiểm soát.",
+      "Sai. Quy định của nhà nước là môi trường pháp lý, không phải quản trị.",
+      "Sai. Kiểm toán nội bộ đánh giá quản trị, không phải quản trị."
+    ]
   },
   {
     "id": "P1-C-002",
@@ -470,7 +632,13 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Điều hành hằng ngày là việc của Ban điều hành.",
+      "Đúng. Ủy ban Kiểm toán giám sát BCTC, kiểm soát nội bộ, kiểm toán nội bộ và kiểm toán độc lập.",
+      "Sai. Phê duyệt giao dịch là trách nhiệm quản lý.",
+      "Sai. Ủy ban Kiểm toán giám sát, không thực hiện kiểm toán."
+    ]
   },
   {
     "id": "P1-C-003",
@@ -489,7 +657,13 @@
     "refs": [
       "GIAS 9.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Đây là một phần rất nhỏ của quản trị.",
+      "Sai. Kiểm toán lại BCTC không phải đánh giá quản trị.",
+      "Sai. Đánh giá năng lực để miễn nhiệm thành viên HĐQT không thuộc vai trò kiểm toán nội bộ.",
+      "Đúng. Đánh giá quản trị gồm ra quyết định, giám sát rủi ro, đạo đức, trách nhiệm giải trình và truyền thông."
+    ]
   },
   {
     "id": "P1-C-004",
@@ -508,7 +682,13 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. CSR, ESG tạo rủi ro về uy tín, tuân thủ và báo cáo.",
+      "Sai. Soạn báo cáo là trách nhiệm quản lý.",
+      "Đúng. Kiểm toán nội bộ có thể đánh giá quản trị, rủi ro, kiểm soát và độ tin cậy dữ liệu ESG.",
+      "Sai. Kiểm toán nội bộ cũng có thể đưa ra đảm bảo về ESG."
+    ]
   },
   {
     "id": "P1-C-005",
@@ -527,7 +707,13 @@
     "refs": [
       "COSO 2013 Principle 1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Hành vi đạo đức của lãnh đạo định hình văn hóa và ý thức kiểm soát (COSO Nguyên tắc 1).",
+      "Sai. Tone at the top ảnh hưởng toàn bộ môi trường kiểm soát.",
+      "Sai. Lãnh đạo vẫn có thể vô hiệu hóa kiểm soát tự động.",
+      "Sai. Văn hóa ảnh hưởng trực tiếp đến việc tuân thủ kiểm soát."
+    ]
   },
   {
     "id": "P1-C-006",
@@ -546,7 +732,13 @@
     "refs": [
       "CIA Part 1 C.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Đối chiếu ngân hàng là kiểm soát cứng.",
+      "Sai. Mật khẩu, phân quyền là kiểm soát cứng.",
+      "Sai. Phê duyệt hai cấp là kiểm soát cứng.",
+      "Đúng. Sự tin tưởng và tinh thần dám lên tiếng là kiểm soát mềm."
+    ]
   },
   {
     "id": "P1-C-007",
@@ -566,7 +758,13 @@
       "COSO 2013 Principle 1",
       "COSO 2013 Principle 5"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Quy tắc trên giấy không thay thế được văn hóa thực tế.",
+      "Đúng. Áp lực cao cùng nỗi sợ trả thù làm yếu môi trường kiểm soát và giảm khả năng phát hiện.",
+      "Sai. Văn hóa ảnh hưởng trực tiếp đến kiểm soát, thuộc phạm vi kiểm toán nội bộ.",
+      "Sai. Kết quả kinh doanh tốt có thể che giấu vi phạm."
+    ]
   },
   {
     "id": "P1-C-008",
@@ -585,7 +783,13 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Quyết định kỷ luật là trách nhiệm quản lý.",
+      "Sai. Công khai cáo buộc vi phạm bảo mật và quyền của người bị cáo buộc.",
+      "Đúng. Kiểm toán nội bộ đánh giá quy trình và điều tra nếu được giao, nhưng không quyết định xử lý.",
+      "Sai. Đạo đức và tuân thủ thuộc phạm vi syllabus và công việc kiểm toán nội bộ."
+    ]
   },
   {
     "id": "P1-C-009",
@@ -604,7 +808,13 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Nhiều quy định không bảo đảm hiệu quả nếu thiếu thực thi và văn hóa.",
+      "Sai. Tuân thủ là trách nhiệm của Ban điều hành (tuyến một và hai).",
+      "Sai. Đào tạo cần liên tục, không chỉ một lần.",
+      "Đúng. Chương trình tuân thủ hiệu quả cần cam kết lãnh đạo, chính sách, đào tạo, kênh báo cáo, giám sát và kỷ luật."
+    ]
   },
   {
     "id": "P1-C-010",
@@ -623,7 +833,13 @@
     "refs": [
       "COSO ERM 2017"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Appetite là mức rủi ro tổng thể sẵn sàng chấp nhận; tolerance là biên độ chấp nhận được cho mục tiêu cụ thể.",
+      "Sai. Mức tối đa trước khi phá sản là risk capacity.",
+      "Sai. COSO ERM phân biệt rõ hai khái niệm.",
+      "Sai. Cả hai do HĐQT và Ban điều hành xác định."
+    ]
   },
   {
     "id": "P1-C-011",
@@ -642,7 +858,13 @@
     "refs": [
       "CIA Part 1 C.4"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Kiểm soát hiệu quả làm giảm rủi ro còn lại.",
+      "Sai. Kiểm soát không loại bỏ hoàn toàn rủi ro.",
+      "Đúng. Rủi ro còn lại thấp hơn tiềm tàng và cần so với khẩu vị để quyết định hành động.",
+      "Sai. Rủi ro còn lại chính là rủi ro sau khi tính đến kiểm soát."
+    ]
   },
   {
     "id": "P1-C-012",
@@ -661,7 +883,13 @@
     "refs": [
       "CIA Part 1 C.4"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Không có vấn đề pháp luật cạnh tranh trong tình huống.",
+      "Sai. Không có sai sót ghi nhận giá vốn.",
+      "Sai. Không liên quan đến lãi suất.",
+      "Đúng. Phụ thuộc một nhà cung cấp là rủi ro hoạt động, tập trung trong chuỗi cung ứng."
+    ]
   },
   {
     "id": "P1-C-013",
@@ -680,7 +908,13 @@
     "refs": [
       "ISO 31000:2018"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. PDCA là chu trình cải tiến, không phải quy trình ISO 31000.",
+      "Đúng. ISO 31000: bối cảnh, đánh giá, xử lý rủi ro; kèm tham vấn, giám sát, ghi nhận và báo cáo.",
+      "Sai. Mua bảo hiểm chỉ là một phương án xử lý.",
+      "Sai. Đây là quản lý chi phí, không phải quản lý rủi ro."
+    ]
   },
   {
     "id": "P1-C-014",
@@ -699,7 +933,13 @@
     "refs": [
       "COSO ERM 2017"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Đây là năm thành phần của COSO Internal Control 2013.",
+      "Sai. Không phải các thành phần của COSO ERM.",
+      "Đúng. COSO ERM 2017 có năm thành phần này cùng 20 nguyên tắc.",
+      "Sai. Đây là các chức năng quản lý cổ điển."
+    ]
   },
   {
     "id": "P1-C-015",
@@ -718,7 +958,13 @@
     "refs": [
       "CIA Part 1 C.5"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Heat map xếp rủi ro theo khả năng xảy ra và mức độ ảnh hưởng.",
+      "Sai. Không phải hai trục của heat map rủi ro.",
+      "Sai. Không phải hai trục của heat map rủi ro.",
+      "Sai. Rủi ro kiểm toán là khái niệm của kiểm toán, không phải trục của heat map."
+    ]
   },
   {
     "id": "P1-C-016",
@@ -737,7 +983,13 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Cả hai loại chỉ số áp dụng cho mọi lĩnh vực.",
+      "Đúng. KRI cảnh báo sớm rủi ro gia tăng; KPI đo mức đạt mục tiêu.",
+      "Sai. Cả hai do Ban điều hành xây dựng.",
+      "Sai. Mục đích của hai loại chỉ số khác nhau."
+    ]
   },
   {
     "id": "P1-C-017",
@@ -756,7 +1008,13 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Thuê ngoài không chuyển giao trách nhiệm giải trình.",
+      "Sai. Còn rủi ro hoạt động, bảo mật, tuân thủ, phụ thuộc nhà cung cấp.",
+      "Sai. Giám sát nhà cung cấp là trách nhiệm quản lý.",
+      "Đúng. Công ty vẫn chịu trách nhiệm và phải quản lý rủi ro bên thứ ba."
+    ]
   },
   {
     "id": "P1-C-018",
@@ -775,7 +1033,13 @@
     "refs": [
       "CIA Part 1 C.7"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Chính sách và quy trình hướng dẫn hành vi mong muốn là kiểm soát chỉ dẫn.",
+      "Sai. Đối chiếu là kiểm soát phát hiện.",
+      "Sai. Khôi phục dữ liệu là kiểm soát khắc phục.",
+      "Sai. Khóa tài khoản là kiểm soát phòng ngừa."
+    ]
   },
   {
     "id": "P1-C-019",
@@ -794,7 +1058,13 @@
     "refs": [
       "COSO 2013"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Không phải ba nhóm mục tiêu của COSO.",
+      "Sai. Đây là các loại kiểm soát.",
+      "Đúng. COSO 2013 chia mục tiêu thành Hoạt động, Báo cáo và Tuân thủ.",
+      "Sai. Đây là tiêu chí (3E) của kiểm toán hoạt động."
+    ]
   },
   {
     "id": "P1-C-020",
@@ -813,7 +1083,13 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Chi phí, lợi ích là vấn đề hiệu quả (efficiency), không phải định nghĩa này.",
+      "Đúng. Thiết kế: kiểm soát có phù hợp với rủi ro; vận hành: có thực hiện nhất quán trong kỳ.",
+      "Sai. Kiểm soát thiết kế tốt vẫn có thể không được thực hiện.",
+      "Sai. Kiểm toán nội bộ đánh giá cả hai."
+    ]
   },
   {
     "id": "P1-C-021",
@@ -832,7 +1108,13 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Kiểm soát quá mức gây lãng phí và chi phí phạt.",
+      "Sai. Bãi bỏ toàn bộ phê duyệt làm mất kiểm soát.",
+      "Sai. Kiểm toán nội bộ tham gia phê duyệt là nhận trách nhiệm quản lý.",
+      "Đúng. Điều chỉnh ngưỡng và cấp phê duyệt theo rủi ro để cân bằng chi phí và lợi ích."
+    ]
   },
   {
     "id": "P1-C-022",
@@ -851,6 +1133,12 @@
     "refs": [
       "CIA Part 1 C.7"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Rà soát độc lập của chủ sở hữu là kiểm soát bù đắp điển hình khi thiếu phân chia trách nhiệm.",
+      "Sai. Tăng lương không phải kiểm soát.",
+      "Sai. Bảo hiểm là chuyển giao rủi ro, không phải kiểm soát.",
+      "Sai. Két sắt bảo vệ chứng từ, không bù đắp việc thiếu phân chia trách nhiệm."
+    ]
   }
 ]

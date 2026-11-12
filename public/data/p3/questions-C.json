@@ -16,7 +16,13 @@
       "GIAS 8.4",
       "IPPF 2017 1321"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. CAE vẫn phải trình kế hoạch kiểm toán năm.",
+      "Sai. Dựa vào công việc bên khác không phụ thuộc EQA.",
+      "Sai. Tư vấn không phụ thuộc EQA.",
+      "Đúng. Chưa có kết quả QAIP (gồm EQA) hỗ trợ thì không được tuyên bố tuân thủ GIAS."
+    ]
   },
   {
     "id": "P3-C-L002",
@@ -34,7 +40,13 @@
     "refs": [
       "GIAS 12.2"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. Bộ chỉ số cân bằng, có ý kiến HĐQT và Ban điều hành, phản ánh mục tiêu của chức năng kiểm toán.",
+      "Sai. Đo số phát hiện tạo động cơ sai lệch.",
+      "Sai. Một chỉ số không phản ánh chất lượng và giá trị tạo ra.",
+      "Sai. KPI của phòng nghiệp vụ không phù hợp với chức năng kiểm toán."
+    ]
   },
   {
     "id": "P3-C-L003",
@@ -50,7 +62,13 @@
     "answer": 1,
     "explanation": "Khi có sự không tuân thủ Chuẩn mực (Nonconformance) ảnh hưởng đến một cuộc kiểm toán, chuẩn mực yêu cầu phải công bố rõ 3 yếu tố: (1) Chuẩn mực nào bị vi phạm, (2) Lý do, và (3) Ảnh hưởng của nó đến kết quả/kết luận kiểm toán.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Không tuân thủ phải được công bố, kể cả khi kết luận không đổi.",
+      "Đúng. GIAS 15.1: công bố chuẩn mực không tuân thủ, lý do và ảnh hưởng đến phát hiện, kết luận.",
+      "Sai. Công bố trong thông tin trao đổi cuối cùng cho các bên nhận báo cáo.",
+      "Sai. Hủy báo cáo là không cần thiết."
+    ]
   },
   {
     "id": "P3-C-001",
@@ -69,6 +87,12 @@
     "refs": [
       "GIAS 8.4"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. EQA ít nhất 5 năm một lần và không do kiểm toán độc lập BCTC thực hiện.",
+      "Sai. GIAS quy định tần suất tối thiểu là 5 năm.",
+      "Sai. Tự đánh giá cần xác nhận độc lập từ bên ngoài.",
+      "Đúng. GIAS 8.4: ít nhất 5 năm một lần, người đánh giá độc lập, có năng lực, ít nhất một người có CIA."
+    ]
   }
 ]

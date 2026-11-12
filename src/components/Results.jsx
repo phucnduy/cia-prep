@@ -173,7 +173,10 @@ export default function Results({ index, manifest, data, attemptId }) {
                         : undefined
                     }
                   >
-                    <b>{LETTERS[pos]}.</b> {q.options[original]}
+                    <span>
+                      <b>{LETTERS[pos]}.</b> {q.options[original]}
+                      {q.optionNotes && <span className="opt-note">{q.optionNotes[original]}</span>}
+                    </span>
                   </li>
                 ))}
               </ol>

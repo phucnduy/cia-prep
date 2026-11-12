@@ -16,7 +16,13 @@
     "refs": [
       "GIAS 12.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Thâm niên của trưởng đơn vị không quyết định mức giám sát.",
+      "Sai. HĐQT không quyết định mức giám sát từng cuộc kiểm toán.",
+      "Sai. Độ dài báo cáo không liên quan.",
+      "Đúng. GIAS 12.3: mức giám sát tùy năng lực, kinh nghiệm của kiểm toán viên và độ phức tạp công việc."
+    ]
   },
   {
     "id": "P2-C-002",
@@ -36,7 +42,13 @@
       "GIAS 13.1",
       "GIAS 11.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Vấn đề cần xử lý ngay phải được trao đổi kịp thời với quản lý phù hợp.",
+      "Sai. Giữ lại gây chậm trễ và tăng thiệt hại.",
+      "Sai. Ban điều hành cần được trao đổi trước, trừ khi chính họ liên quan.",
+      "Sai. Nhân viên thực hiện không có thẩm quyền xử lý."
+    ]
   },
   {
     "id": "P2-C-003",
@@ -55,6 +67,12 @@
     "refs": [
       "GIAS 13.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Kết luận chỉ có sau khi thực hiện công việc.",
+      "Đúng. GIAS 13.1: trao đổi mục tiêu, phạm vi, thời gian và thông tin liên quan.",
+      "Sai. Danh sách nghi vấn không phải nội dung trao đổi khi bắt đầu.",
+      "Sai. Không phải nội dung trao đổi khi bắt đầu cuộc kiểm toán."
+    ]
   }
 ]

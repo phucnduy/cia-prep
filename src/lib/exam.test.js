@@ -126,6 +126,12 @@ describe('validateImport', () => {
     expect(errors).toHaveLength(3);
   });
 
+  test('keeps valid optionNotes and rejects a wrong count', () => {
+    const notes = ['a sai', 'b đúng', 'c sai', 'd sai'];
+    expect(validateImport([{ ...good, optionNotes: notes }], ['A']).valid[0].optionNotes).toEqual(notes);
+    expect(validateImport([{ ...good, optionNotes: notes.slice(0, 3) }], ['A']).errors).toHaveLength(1);
+  });
+
   test('rejects duplicate ids and non-array payloads', () => {
     expect(validateImport([good, good], ['A']).errors).toHaveLength(1);
     expect(validateImport({}, ['A']).errors).toHaveLength(1);

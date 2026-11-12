@@ -208,7 +208,12 @@ export default function Session({ index, manifest, data }) {
                     }}
                   >
                     <span className="letter">{LETTERS[pos]}</span>
-                    <span className="text">{question.options[original]}</span>
+                    <span className="text">
+                      {question.options[original]}
+                      {checked && question.optionNotes && (
+                        <span className="opt-note">{question.optionNotes[original]}</span>
+                      )}
+                    </span>
                     <button
                       className="strike-btn"
                       onClick={(e) => {

@@ -16,7 +16,13 @@
     "refs": [
       "GIAS 9.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Danh sách cuộc kiểm toán là kế hoạch kiểm toán.",
+      "Đúng. GIAS 9.2: chiến lược gồm tầm nhìn, mục tiêu chiến lược và sáng kiến hỗ trợ.",
+      "Sai. Ngân sách là công cụ thực hiện, không phải chiến lược.",
+      "Sai. Mô tả công việc thuộc quản lý nhân sự."
+    ]
   },
   {
     "id": "P3-A-002",
@@ -35,7 +41,13 @@
     "refs": [
       "GIAS 10.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Không có yêu cầu phải tự phát triển phần mềm.",
+      "Sai. Dùng chung hệ thống có thể ảnh hưởng bảo mật hồ sơ kiểm toán.",
+      "Đúng. GIAS 10.3: bảo đảm có công nghệ phù hợp và đào tạo sử dụng hiệu quả.",
+      "Sai. CAE vẫn chịu trách nhiệm về nguồn lực công nghệ của chức năng."
+    ]
   },
   {
     "id": "P3-A-003",
@@ -55,7 +67,13 @@
       "GIAS 9.2",
       "GIAS 11.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Trao đổi, khảo sát HĐQT và Ban điều hành, xem xét chiến lược và rủi ro tổ chức.",
+      "Sai. Kỳ vọng của bên liên quan khác nhau giữa các tổ chức.",
+      "Sai. Thiếu ý kiến của HĐQT và Ban điều hành.",
+      "Sai. CAE phải chủ động tìm hiểu kỳ vọng."
+    ]
   },
   {
     "id": "P3-A-004",
@@ -74,6 +92,12 @@
     "refs": [
       "GIAS 11.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Để bên liên quan duyệt trước báo cáo làm tổn hại độc lập.",
+      "Sai. Giảm phát hiện báo cáo là thiếu trung thực.",
+      "Sai. Quan hệ không thay thế các cuộc họp chính thức.",
+      "Đúng. GIAS 11.1: xây dựng lòng tin, hiểu nhu cầu và trao đổi hiệu quả."
+    ]
   }
 ]

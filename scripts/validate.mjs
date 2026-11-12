@@ -26,6 +26,7 @@ for (const { id: part, path } of index.parts) {
   const positions = [0, 0, 0, 0];
   let total = 0;
   let longestCorrect = 0;
+  const missingNotes = [];
   const lines = [];
 
   for (const section of manifest.sections) {
@@ -46,7 +47,8 @@ for (const { id: part, path } of index.parts) {
       if (TYPOGRAPHIC.test(text)) warnings.push(`${where}: typographic characters (run add-questions to normalize)`);
       // Options are shuffled at display time, so text that names a letter or
       // relies on option order ("cả A và B") is wrong by construction.
-      for (const text of [q.stem, q.explanation, ...(q.options || [])]) {
+      if (!q.optionNotes) missingNotes.push(q.id);
+      for (const text of [q.stem, q.explanation, ...(q.options || []), ...(q.optionNotes || [])]) {
         const m = typeof text === 'string' && text.match(LETTER_REFERENCE);
         if (m) errors.push(`${where}: refers to an option by letter or position ("${m[0]}"); options are shuffled`);
       }
@@ -78,6 +80,10 @@ for (const { id: part, path } of index.parts) {
     if (share > MAX_LONGEST_CORRECT_SHARE) {
       errors.push(`${part}: correct option is the longest in ${Math.round(share * 100)}% of questions (max ${MAX_LONGEST_CORRECT_SHARE * 100}%) - "pick the longest" would beat the exam`);
     }
+  }
+
+  if (missingNotes.length) {
+    warnings.push(`${part}: ${missingNotes.length} question(s) without per-option notes (optionNotes), e.g. ${missingNotes.slice(0, 3).join(', ')}`);
   }
 
   for (const c of readJson(`${dir}/study.json`)) {

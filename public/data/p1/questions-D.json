@@ -13,7 +13,13 @@
     "answer": 0,
     "explanation": "Fraud Diamond chỉ ra rằng dù có Áp lực, Cơ hội và Sự tự hợp lý hóa, một vụ gian lận lớn (đặc biệt là gian lận hàng triệu USD) sẽ không thể xảy ra nếu thủ phạm không có 'Năng lực' (Capability: quyền hạn, hiểu biết kỹ thuật và bản lĩnh che giấu).",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. Kim cương gian lận bổ sung yếu tố năng lực: vị trí, hiểu biết để khai thác lỗ hổng, khả năng che giấu.",
+      "Sai. Tính chính trực không phải yếu tố được bổ sung trong mô hình.",
+      "Sai. Thông đồng là thủ đoạn, không phải yếu tố thứ tư của mô hình.",
+      "Sai. Chế tài pháp luật không phải yếu tố của mô hình."
+    ]
   },
   {
     "id": "P1-D-L002",
@@ -29,7 +35,13 @@
     "answer": 1,
     "explanation": "Bribery và Economic Extortion là hai mặt của đồng xu tham nhũng: Bribery khởi phát từ bên ngoài mua chuộc vào trong; còn Economic Extortion là người bên trong dùng quyền lực ép buộc bên ngoài phải nộp tiền.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Phương thức thanh toán không phân biệt hai hành vi.",
+      "Đúng. Hối lộ: bên ngoài chủ động trả tiền; tống tiền kinh tế: nhân viên ép bên ngoài chi tiền bằng đe dọa.",
+      "Sai. Cả hai có thể xảy ra ở khu vực công và tư.",
+      "Sai. Cả hai thuộc nhóm tham nhũng."
+    ]
   },
   {
     "id": "P1-D-L003",
@@ -45,7 +57,13 @@
     "answer": 2,
     "explanation": "Để có tiền chi 'lại quả' (kickback) cho nhân viên mua hàng, nhà cung cấp thường phải nâng khống giá bán (inflated prices) hoặc giao hàng kém chất lượng hơn so với tiêu chuẩn.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Đấu thầu cạnh tranh là dấu hiệu kiểm soát tốt.",
+      "Sai. Giá tăng theo lạm phát và được phê duyệt đúng là bình thường.",
+      "Đúng. Một nhà cung cấp liên tục được chọn với giá cao, chất lượng giảm là cờ đỏ của lại quả.",
+      "Sai. Luân chuyển nhân viên là biện pháp phòng ngừa."
+    ]
   },
   {
     "id": "P1-D-L004",
@@ -61,7 +79,13 @@
     "answer": 3,
     "explanation": "Khác với Shell Company (xuất hóa đơn khống cho dịch vụ không có thật), trong Pass-Through Scheme, hàng hóa thực sự có tồn tại và được nhập kho đầy đủ, nhưng đi vòng qua công ty sân sau của nhân viên mua hàng để ăn chênh lệch giá.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Đó là gian lận hóa đơn khống (nhà cung cấp ma).",
+      "Sai. Đó là chia nhỏ đơn hàng để né hạn mức.",
+      "Sai. Đó là lại quả (kickback).",
+      "Đúng. Pass-through: nhân viên lập công ty trung gian, mua hàng thật rồi bán lại với giá đội lên."
+    ]
   },
   {
     "id": "P1-D-L005",
@@ -77,7 +101,13 @@
     "answer": 0,
     "explanation": "Ghost employee xảy ra khi kẻ gian thêm tên người không có thật (hoặc người đã nghỉ việc) vào bảng lương để rút tiền. Phân nhiệm giữa HR (thêm/xóa nhân sự) và Payroll (tính lương), kèm theo quét dữ liệu tìm số tài khoản ngân hàng bị trùng lặp là kiểm soát cốt lõi nhất.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. Tách cập nhật hồ sơ nhân sự khỏi tính lương và xác minh nhân sự thực tế ngăn và phát hiện nhân viên ma.",
+      "Sai. Trưởng bộ phận có thể chính là người tạo nhân viên ma.",
+      "Sai. Chuyển khoản vẫn có thể chuyển vào tài khoản của nhân viên ma.",
+      "Sai. Đối chiếu tổng quỹ lương không phát hiện từng nhân viên ma."
+    ]
   },
   {
     "id": "P1-D-L006",
@@ -93,7 +123,13 @@
     "answer": 1,
     "explanation": "Nộp một hóa đơn nhiều lần (hoặc vừa quẹt thẻ công ty vừa xin hoàn ứng cá nhân) là gian lận hoàn ứng chi phí phổ biến. Kiểm soát đối chiếu dữ liệu chi phí và đóng dấu hủy chứng từ gốc sau khi thanh toán sẽ chặn đứng hành vi này.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Chi phí có thật; vấn đề là hoàn ứng hai lần. Phê duyệt không phát hiện được.",
+      "Đúng. Đây là hoàn ứng trùng; đóng dấu đã thanh toán và đối chiếu sao kê thẻ công ty ngăn chặn được.",
+      "Sai. Lapping liên quan đến công nợ phải thu.",
+      "Sai. Số tiền không bị thổi phồng; hạn mức không ngăn hoàn ứng hai lần."
+    ]
   },
   {
     "id": "P1-D-L007",
@@ -109,7 +145,13 @@
     "answer": 2,
     "explanation": "Positive Pay là một Kiểm soát phòng ngừa (Preventive Control) cực mạnh giữa doanh nghiệp và ngân hàng nhằm ngăn chặn séc giả hoặc séc bị cạo sửa số tiền trước khi tiền bị rút khỏi tài khoản.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Hai chữ ký không ngăn séc bị sửa sau khi phát hành.",
+      "Sai. Đối chiếu sao kê là kiểm soát phát hiện, không phải Positive Pay.",
+      "Đúng. Positive Pay: ngân hàng chỉ thanh toán séc khớp với danh sách công ty gửi trước.",
+      "Sai. Gọi điện xác nhận thủ công không phải cơ chế Positive Pay."
+    ]
   },
   {
     "id": "P1-D-L009",
@@ -125,7 +167,13 @@
     "answer": 0,
     "explanation": "Channel Stuffing là thủ đoạn đẩy hàng ồ ạt cho nhà phân phối vào cuối kỳ kèm các điều khoản ngầm (side agreements) cho phép trả lại hàng. Dấu hiệu cảnh báo (Red flag) là doanh thu tăng vọt tháng cuối năm nhưng hàng bán bị trả lại (Sales returns) tăng đột biến vào quý 1 năm sau.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. Nhồi kênh phân phối thổi phồng doanh thu cuối kỳ bằng hàng vượt nhu cầu kèm quyền trả lại.",
+      "Sai. Bill-and-hold là ghi doanh thu khi hàng vẫn ở kho của người bán.",
+      "Sai. Cookie jar là làm mượt lợi nhuận bằng dự phòng.",
+      "Sai. Không liên quan đến hợp đồng nhiều kỳ."
+    ]
   },
   {
     "id": "P1-D-L010",
@@ -141,7 +189,13 @@
     "answer": 1,
     "explanation": "Trong Bill-and-Hold gian lận, công ty ghi nhận doanh thu sớm khi nghĩa vụ thực hiện (chuyển giao quyền kiểm soát hàng hóa) chưa hoàn thành, nhằm làm đẹp BCTC cuối kỳ.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Ghi nhận muộn không phải bill-and-hold.",
+      "Đúng. Bill-and-hold ghi doanh thu khi hàng còn trong kho, chưa chuyển quyền kiểm soát.",
+      "Sai. Đó là vấn đề dự phòng hàng trả lại.",
+      "Sai. Đó là vấn đề gộp hợp đồng."
+    ]
   },
   {
     "id": "P1-D-L011",
@@ -157,7 +211,13 @@
     "answer": 2,
     "explanation": "Cookie Jar Reserves là thủ đoạn gian lận BCTC thông qua việc ghi nhận chi phí dự phòng quá cao vào năm lãi lớn rồi hoàn nhập dự phòng (giảm chi phí, tăng lãi) vào năm kinh doanh khó khăn để tạo cảm giác lợi nhuận tăng trưởng đều đặn.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Nhồi kênh liên quan đến doanh thu, không phải dự phòng.",
+      "Sai. Vốn hóa chi phí làm tăng lợi nhuận kỳ hiện tại.",
+      "Đúng. Cookie jar là trích lập dự phòng quá mức khi lãi cao để hoàn nhập khi kinh doanh kém.",
+      "Sai. Không có doanh thu khống trong tình huống."
+    ]
   },
   {
     "id": "P1-D-L012",
@@ -173,7 +233,13 @@
     "answer": 3,
     "explanation": "Bằng cách biến Chi phí trong kỳ (Expense) thành Tài sản cố định (Asset - phân bổ dần qua nhiều năm), kẻ gian vừa làm tăng tổng tài sản vừa làm giảm chi phí trong kỳ, từ đó thổi phồng lợi nhuận (giống vụ bê bối WorldCom kinh điển).",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Cả tài sản và lợi nhuận đều bị khai cao.",
+      "Sai. Chi phí bị chuyển thành tài sản nên lợi nhuận tăng.",
+      "Sai. Nợ phải trả không bị ảnh hưởng.",
+      "Đúng. Vốn hóa sai làm tài sản khai cao và chi phí kỳ đó khai thấp, nên lợi nhuận khai cao."
+    ]
   },
   {
     "id": "P1-D-L013",
@@ -189,7 +255,13 @@
     "answer": 0,
     "explanation": "Khi kẻ gian tự nghĩ ra các con số hóa đơn giả, họ thường phân bổ các chữ số đầu tiên khá đồng đều hoặc lặp lại các số sát ngưỡng phê duyệt (như 9.800, 9.900), làm lệch hoàn toàn phân phối tự nhiên theo Định luật Benford.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Đúng. Định luật Benford so sánh phân phối chữ số đầu để phát hiện số liệu có thể bị bịa đặt.",
+      "Sai. Đó là kiểm tra trùng lặp.",
+      "Sai. Đó là kiểm tra khoảng trống số thứ tự.",
+      "Sai. Đó là kiểm tra hạn mức."
+    ]
   },
   {
     "id": "P1-D-L014",
@@ -205,7 +277,13 @@
     "answer": 1,
     "explanation": "Forensic Auditing đòi hỏi kỹ năng chuyên sâu về quy trình tố tụng, bảo toàn chuỗi chứng cứ (Chain of custody) không bị nhiễm bẩn và kỹ thuật phỏng vấn điều tra để hồ sơ có giá trị làm bằng chứng trước tòa án.",
     "refs": [],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Cả hai dùng bằng chứng định lượng và định tính.",
+      "Đúng. Kiểm toán nội bộ đánh giá quản trị, rủi ro, kiểm soát; điều tra thu thập bằng chứng đạt chuẩn pháp lý cho vụ việc cụ thể.",
+      "Sai. Kiểm toán nội bộ có thể tham gia điều tra khi được giao.",
+      "Sai. Điều tra nội bộ có thể bắt đầu trước khi có quyết định khởi tố."
+    ]
   },
   {
     "id": "P1-D-L015",
@@ -224,7 +302,13 @@
       "GIAS Principle 8",
       "COSO"
     ],
-    "source": "legacy"
+    "source": "legacy",
+    "optionNotes": [
+      "Sai. Kiểm tra lý lịch chỉ là một kiểm soát, không phải quy trình đánh giá.",
+      "Sai. Lịch sử gian lận chỉ là đầu vào, không phải đánh giá toàn diện.",
+      "Đúng. Đánh giá rủi ro gian lận gồm nhận diện kịch bản, đánh giá, ánh xạ kiểm soát và xử lý lỗ hổng.",
+      "Sai. Kiểm tra 100% giao dịch là thủ tục kiểm toán, không phải đánh giá rủi ro."
+    ]
   },
   {
     "id": "P1-D-001",
@@ -243,7 +327,13 @@
     "refs": [
       "CIA Part 1 D.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Tam giác gian lận gồm áp lực/động cơ, cơ hội và hợp lý hóa.",
+      "Sai. Đây là các yếu tố năng lực.",
+      "Sai. Đây là các ví dụ nguyên nhân cụ thể, không phải mô hình.",
+      "Sai. Đây là các thành phần của mô hình rủi ro kiểm toán."
+    ]
   },
   {
     "id": "P1-D-002",
@@ -262,7 +352,13 @@
     "refs": [
       "ACFE Report to the Nations"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Gian lận BCTC ít xảy ra nhất nhưng thiệt hại trung vị cao nhất.",
+      "Sai. Tham nhũng nằm ở giữa về tần suất và thiệt hại.",
+      "Đúng. Biển thủ tài sản phổ biến nhất nhưng thiệt hại trung vị thấp nhất.",
+      "Sai. Gian lận thuế không phải một nhóm trong cây gian lận nghề nghiệp ACFE."
+    ]
   },
   {
     "id": "P1-D-003",
@@ -281,7 +377,13 @@
     "refs": [
       "ACFE Fraud Tree"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Skimming là lấy tiền trước khi giao dịch được ghi sổ.",
+      "Sai. Lapping là dùng tiền khách sau để bù cho khách trước.",
+      "Sai. Larceny là lấy tiền sau khi đã ghi sổ.",
+      "Sai. Kiting lợi dụng thời gian thanh toán séc giữa các ngân hàng."
+    ]
   },
   {
     "id": "P1-D-004",
@@ -300,7 +402,13 @@
     "refs": [
       "ACFE Fraud Tree"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Kiting liên quan đến séc giữa ngân hàng, không phải công nợ khách hàng.",
+      "Đúng. Đây là lapping; xác nhận công nợ trực tiếp, nghỉ phép bắt buộc và luân chuyển làm lộ chuỗi gối đầu.",
+      "Sai. Công ty vỏ bọc liên quan đến nhà cung cấp, không phải công nợ khách hàng.",
+      "Sai. Nhân viên ma liên quan đến bảng lương."
+    ]
   },
   {
     "id": "P1-D-005",
@@ -321,7 +429,13 @@
       "GIAS 9.4",
       "IPPF 2017 1210.A2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Kiểm toán viên không cần chuyên môn của chuyên gia điều tra.",
+      "Sai. Kiểm toán viên cần đủ hiểu biết để đánh giá rủi ro gian lận.",
+      "Sai. Cần hiểu mọi loại gian lận, không chỉ gian lận BCTC.",
+      "Đúng. Đủ hiểu biết để đánh giá rủi ro gian lận, không cần như chuyên gia điều tra (IPPF 2017 1210.A2)."
+    ]
   },
   {
     "id": "P1-D-006",
@@ -340,7 +454,13 @@
     "refs": [
       "GIAS 13.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Rủi ro gian lận phải được xem xét trong mọi cuộc kiểm toán.",
+      "Sai. Rủi ro gian lận phải được xem xét ngay từ khâu lập kế hoạch.",
+      "Đúng. GIAS 13.2: đánh giá rủi ro cuộc kiểm toán phải gồm rủi ro gian lận, sau đó thiết kế thủ tục phù hợp.",
+      "Sai. Có thể tham khảo, nhưng kiểm toán viên phải tự đánh giá."
+    ]
   },
   {
     "id": "P1-D-007",
@@ -359,7 +479,13 @@
     "refs": [
       "ACFE Report to the Nations"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Kiểm toán độc lập phát hiện tỷ lệ nhỏ các vụ gian lận.",
+      "Đúng. Theo ACFE, tố giác là phương thức phát hiện phổ biến nhất (khoảng 40% số vụ).",
+      "Sai. Rà soát của Ban điều hành đứng sau tố giác.",
+      "Sai. Phát hiện tình cờ chiếm tỷ lệ nhỏ."
+    ]
   },
   {
     "id": "P1-D-008",
@@ -378,7 +504,13 @@
     "refs": [
       "ACFE Report to the Nations"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Đạt chứng chỉ và xin tăng lương là hành vi bình thường.",
+      "Sai. Đề xuất cải tiến là hành vi tích cực.",
+      "Sai. Làm thêm giờ để kịp tiến độ dự án không phải cờ đỏ điển hình.",
+      "Đúng. Sống vượt thu nhập, thân với nhà cung cấp, không chịu nghỉ phép là các cờ đỏ hành vi điển hình."
+    ]
   },
   {
     "id": "P1-D-009",
@@ -397,7 +529,13 @@
     "refs": [
       "COSO 2013 Principle 8"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. Ban điều hành chịu trách nhiệm chính về kiểm soát chống gian lận; HĐQT giám sát.",
+      "Sai. Kiểm toán nội bộ đánh giá quản lý rủi ro gian lận, không chịu trách nhiệm chính.",
+      "Sai. Kiểm toán độc lập chỉ xem xét gian lận ảnh hưởng BCTC.",
+      "Sai. Pháp chế và cơ quan điều tra tham gia khi có vụ việc, không chịu trách nhiệm phòng ngừa."
+    ]
   },
   {
     "id": "P1-D-010",
@@ -416,7 +554,13 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Rà soát sau khi thanh toán là kiểm soát phát hiện.",
+      "Sai. So sánh địa chỉ định kỳ là kiểm soát phát hiện.",
+      "Đúng. Tách quyền tạo nhà cung cấp khỏi thanh toán và thẩm định trước ngăn gian lận xảy ra.",
+      "Sai. Kiểm toán chọn mẫu cuối năm là thủ tục phát hiện."
+    ]
   },
   {
     "id": "P1-D-011",
@@ -435,7 +579,13 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Đào tạo không loại bỏ được áp lực tài chính.",
+      "Đúng. Đào tạo giúp nhận biết, báo cáo dấu hiệu và tăng nhận thức rằng gian lận sẽ bị phát hiện.",
+      "Sai. Đào tạo bổ trợ, không thay thế kiểm soát.",
+      "Sai. Trách nhiệm chính vẫn thuộc Ban điều hành."
+    ]
   },
   {
     "id": "P1-D-012",
@@ -454,6 +604,12 @@
     "refs": [
       "CIA Part 1 D.5"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Phỏng vấn đối tượng trước có thể khiến họ tiêu hủy bằng chứng.",
+      "Sai. Phỏng vấn chung làm mất tính độc lập của lời khai.",
+      "Sai. Nhân chứng cung cấp bằng chứng quan trọng.",
+      "Đúng. Phỏng vấn từ người ít liên quan nhất đến đối tượng nghi vấn để có đủ thông tin trước."
+    ]
   }
 ]

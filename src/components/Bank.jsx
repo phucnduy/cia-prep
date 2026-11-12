@@ -143,7 +143,10 @@ export default function Bank({ manifest, data, onChange }) {
           <ol>
             {q.options.map((o, i) => (
               <li key={i} className={reveal && i === q.answer ? 'correct' : ''}>
-                <b>{LETTERS[i]}.</b> {o}
+                <span>
+                  <b>{LETTERS[i]}.</b> {o}
+                  {reveal && q.optionNotes && <span className="opt-note">{q.optionNotes[i]}</span>}
+                </span>
               </li>
             ))}
           </ol>

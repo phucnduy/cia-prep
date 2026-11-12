@@ -67,12 +67,19 @@ legacy/cia-part1-legacy.html  bản HTML ban đầu, giữ để đối chiếu
   "stem": "Nội dung câu hỏi...",
   "options": ["Phương án 1", "Phương án 2", "Phương án 3", "Phương án 4"],
   "answer": 2,
-  "explanation": "Vì sao phương án 3 đúng và các phương án khác sai...",
+  "explanation": "Giải thích tổng quát, kèm căn cứ...",
+  "optionNotes": [
+    "Sai. Vì sao phương án 1 sai...",
+    "Sai. Vì sao phương án 2 sai...",
+    "Đúng. Vì sao phương án 3 đúng...",
+    "Sai. Vì sao phương án 4 sai..."
+  ],
   "refs": ["GIAS 6.2"]
 }
 ```
 
 - `answer` là vị trí (0-3) của đáp án đúng trong `options`. Ứng dụng tự xáo thứ tự khi hiển thị.
+- `optionNotes` giải thích từng phương án, theo đúng thứ tự `options`, giống cách IIA giải thích câu hỏi mẫu. Mở đầu bằng "Đúng." hoặc "Sai.". Hiện sau khi kiểm tra câu (luyện tập), ở trang kết quả và trong ngân hàng câu hỏi. Thiếu trường này thì `npm run validate` cảnh báo.
 - `topic` là mã chủ đề syllabus trong `manifest.json` (ví dụ `A3`).
 - `difficulty`: 1 dễ, 2 trung bình, 3 khó.
 

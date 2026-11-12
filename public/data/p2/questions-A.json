@@ -17,7 +17,13 @@
       "GIAS 13.2",
       "GIAS 13.3"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. GIAS 13.3: mục tiêu và phạm vi phản ánh kết quả đánh giá rủi ro cuộc kiểm toán.",
+      "Sai. Chương trình năm trước có thể đã lỗi thời so với rủi ro hiện tại.",
+      "Sai. Để đơn vị được kiểm toán quyết định phạm vi là giới hạn độc lập.",
+      "Sai. Ngân sách là ràng buộc, không phải căn cứ chính để xác định phạm vi."
+    ]
   },
   {
     "id": "P2-A-002",
@@ -36,7 +42,13 @@
     "refs": [
       "GIAS 13.4"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Tiêu chí phải phù hợp và được trao đổi, không áp đặt.",
+      "Sai. Thiếu tiêu chí không phải lý do dừng cuộc kiểm toán.",
+      "Đúng. GIAS 13.4: nếu tiêu chí không đầy đủ, kiểm toán viên xác định tiêu chí phù hợp qua trao đổi với Ban điều hành.",
+      "Sai. Thiếu tiêu chí không chứng minh quy trình kém hiệu quả."
+    ]
   },
   {
     "id": "P2-A-003",
@@ -55,7 +67,13 @@
     "refs": [
       "GIAS 13.2"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Biểu đồ Gantt quản lý tiến độ, không liên kết rủi ro và kiểm soát.",
+      "Đúng. Ma trận rủi ro và kiểm soát (RCM) ánh xạ rủi ro với kiểm soát để tìm khoảng trống.",
+      "Sai. Bảng cân đối số phát sinh là dữ liệu tài chính.",
+      "Sai. Biên bản năm trước chỉ là thông tin tham khảo."
+    ]
   },
   {
     "id": "P2-A-004",
@@ -74,7 +92,13 @@
     "refs": [
       "GIAS 13.6"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Chương trình phải có trước khi thực hiện công việc.",
+      "Sai. Đơn vị được kiểm toán không phê duyệt chương trình kiểm toán.",
+      "Sai. Chương trình được điều chỉnh khi cần, kèm phê duyệt.",
+      "Đúng. GIAS 13.6: CAE rà soát, phê duyệt trước khi thực hiện và phê duyệt kịp thời mọi thay đổi."
+    ]
   },
   {
     "id": "P2-A-005",
@@ -93,7 +117,13 @@
     "refs": [
       "GIAS 13.5"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Đúng. GIAS 13.5: bổ sung nguồn lực có kỹ năng phù hợp, kể cả chuyên gia bên ngoài.",
+      "Sai. Bỏ thủ tục cần thiết làm yếu phạm vi kiểm toán.",
+      "Sai. Để đơn vị tự phân tích làm mất khách quan.",
+      "Sai. Tự học trong lúc làm không bảo đảm năng lực cần thiết."
+    ]
   },
   {
     "id": "P2-A-006",
@@ -112,6 +142,12 @@
     "refs": [
       "GIAS 14.1"
     ],
-    "source": "original"
+    "source": "original",
+    "optionNotes": [
+      "Sai. Phỏng vấn chỉ là bằng chứng gián tiếp.",
+      "Sai. 25 mẫu trong 2 triệu giao dịch cho mức đảm bảo thấp hơn phân tích toàn bộ.",
+      "Đúng. Phân tích 100% giao dịch tìm được mọi ngoại lệ so với hạn mức.",
+      "Sai. Báo cáo tổng hợp có thể che khuất từng giao dịch vượt hạn mức."
+    ]
   }
 ]
