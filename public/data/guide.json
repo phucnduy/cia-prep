@@ -1,6 +1,6 @@
 {
   "title": "Tìm hiểu về chứng chỉ CIA",
-  "lede": "Những điều cần biết trước khi bắt đầu: nghề kiểm toán nội bộ, CIA là gì và phù hợp với ai, quy trình ghi danh và thi, chi phí, cách học và đi thi. Quy định và lệ phí được đối chiếu với trang chính thức của IIA. Phần kinh nghiệm, số liệu thị trường và ví dụ chi phí lấy từ cẩm nang \"Chinh phục chứng chỉ CIA\" của NEXO Institute (được tác giả cho phép sử dụng). Quy định có thể thay đổi, hãy kiểm tra lại trước khi đăng ký.",
+  "lede": "Những điều cần biết trước khi bắt đầu: nghề kiểm toán nội bộ, CIA là gì và phù hợp với ai, quy trình ghi danh và thi, chi phí, cách học và đi thi. Quy định và lệ phí được đối chiếu với trang chính thức của IIA. Phần kinh nghiệm học, thi và số liệu thị trường mang tính tham khảo. Quy định có thể thay đổi, hãy kiểm tra lại trước khi đăng ký.",
   "checked": "Quy định và lệ phí đối chiếu với theiia.org ngày 12/11/2026",
   "sections": [
     {
@@ -27,7 +27,7 @@
         { "type": "list", "items": [
           "Nghị định 05/2019/NĐ-CP yêu cầu một số nhóm doanh nghiệp phải tổ chức công tác kiểm toán nội bộ, như công ty niêm yết và một số doanh nghiệp có vốn nhà nước.",
           "Việt Nam có hơn 1.600 doanh nghiệp niêm yết, nhóm có nhu cầu rõ ràng về nhân sự KTNB.",
-          "Theo số liệu IIA Việt Nam công bố tại Hội nghị hội viên năm 2025 (dẫn theo cẩm nang NEXO), cả nước mới có khoảng 125 người giữ chứng chỉ CIA. Nguồn nhân lực có chứng chỉ quốc tế còn rất ít so với nhu cầu."
+          "Theo số liệu IIA Việt Nam công bố tại Hội nghị hội viên năm 2025, cả nước mới có khoảng 125 người giữ chứng chỉ CIA. Nguồn nhân lực có chứng chỉ quốc tế còn rất ít so với nhu cầu."
         ] }
       ]
     },
@@ -48,7 +48,7 @@
           "Số năm không phải là tất cả: loại trải nghiệm mới tạo khác biệt. Làm KTNB ở tổ chức lớn, đa ngành, nhiều rủi ro cho trải nghiệm rất khác một môi trường nhỏ và đơn giản.",
           "Sau vị trí Trưởng KTNB, có thể chuyển sang Giám đốc quản lý rủi ro, Giám đốc tuân thủ, các vị trí điều hành ở tuyến thứ nhất, hoặc về lâu dài là thành viên HĐQT độc lập, thành viên Ủy ban kiểm toán."
         ] },
-        { "type": "table", "title": "Mức lương tham khảo (VietnamWorks, dẫn theo cẩm nang NEXO)", "columns": ["Cấp bậc", "Lương tham khảo"], "rows": [
+        { "type": "table", "title": "Mức lương tham khảo (theo VietnamWorks)", "columns": ["Cấp bậc", "Lương tham khảo"], "rows": [
           ["Mới tốt nghiệp", "681 USD/tháng"],
           ["Nhân viên", "1.095 USD/tháng"],
           ["Trưởng phòng", "2.121 USD/tháng"],
@@ -68,7 +68,7 @@
           "Người mới vẫn có cơ hội: theo khảo sát Pulse of Internal Audit 2024 của IIA, 29% Trưởng KTNB cho biết đã tuyển sinh viên mới tốt nghiệp; bộ phận lớn tuyển người mới nhiều hơn vì có nguồn lực đào tạo.",
           "Chứng chỉ: CIA phù hợp nhất với người theo nghề KTNB. Tùy vị trí có thể được ưu tiên thêm CRMA, CPA, ACCA, CISA."
         ] },
-        { "type": "note", "text": "Theo các khảo sát của IIA (dẫn theo cẩm nang NEXO): khoảng 95% lãnh đạo KTNB có chứng chỉ chuyên môn, trong đó khoảng 60% có CIA và 55% có CPA; 70% Trưởng KTNB ưu tiên ứng viên có CIA hơn ứng viên chưa có chứng chỉ nào." },
+        { "type": "note", "text": "Theo các khảo sát của IIA: khoảng 95% lãnh đạo KTNB có chứng chỉ chuyên môn, trong đó khoảng 60% có CIA và 55% có CPA; 70% Trưởng KTNB ưu tiên ứng viên có CIA hơn ứng viên chưa có chứng chỉ nào." },
         { "type": "p", "text": "Với người mới, khó nhất là chứng minh năng lực khi bằng đại học và một hai năm kinh nghiệm ai cũng có. Theo đuổi CIA từ sớm, kể cả từ khi còn đi học, cho nhà tuyển dụng thấy bạn đầu tư cho một con đường dài hạn. Hoàn thành một hai phần thi trong những năm đầu đi làm đã là tín hiệu tốt." }
       ]
     },
@@ -150,13 +150,13 @@
           ["Part 3", "7.420.000", "10.997.500"],
           ["Tổng", "29.235.000", "40.147.500"]
         ] },
-        { "type": "p", "text": "Như vậy nếu tự học, chi phí đóng cho IIA khoảng 29 triệu đồng nếu là hội viên và khoảng 40 triệu nếu không. Học tại trung tâm luyện thi thường thêm khoảng 10-15 triệu đồng mỗi phần, tức 30-45 triệu cho cả ba phần (mức tham khảo theo cẩm nang NEXO). Biểu phí trên áp dụng đến hết 3/1/2027; IIA thông báo thay đổi biểu phí từ 4/1/2027." },
+        { "type": "p", "text": "Như vậy nếu tự học, chi phí đóng cho IIA khoảng 29 triệu đồng nếu là hội viên và khoảng 40 triệu nếu không. Học tại trung tâm luyện thi thường thêm khoảng 10-15 triệu đồng mỗi phần, tức 30-45 triệu cho cả ba phần (mức tham khảo trên thị trường). Biểu phí trên áp dụng đến hết 3/1/2027; IIA thông báo thay đổi biểu phí từ 4/1/2027." },
         { "type": "h", "text": "Chi phí có thể phát sinh" },
         { "type": "list", "items": [
           "Tài liệu, ngân hàng câu hỏi hoặc khóa học: phí thi không gồm tài liệu.",
           "Phí hội viên các năm sau nếu quá trình thi kéo dài hơn một năm và muốn giữ mức phí hội viên.",
           "Đổi lịch thi: 75 USD mỗi lần (khoảng 2 triệu đồng), trả cho Pearson VUE.",
-          "Gia hạn lượt thi thêm 75 ngày và gia hạn chương trình thêm 1 năm: có tính phí; cẩm nang NEXO ghi lần lượt khoảng 100 USD và 275 USD, hãy kiểm tra mức hiện hành trên CCMS.",
+          "Gia hạn lượt thi thêm 75 ngày và gia hạn chương trình thêm 1 năm: có tính phí, tham khảo khoảng 100 USD và 275 USD; hãy kiểm tra mức hiện hành trên CCMS.",
           "Thi lại nếu chưa đạt: đóng lại lệ phí phần thi đó."
         ] },
         { "type": "h", "text": "Cách tiết kiệm chi phí" },
@@ -165,7 +165,7 @@
           "Theo dõi các đợt ưu đãi phí của IIA (theo kinh nghiệm thường vào khoảng tháng 5 hoặc dịp năm mới) nếu không quá gấp.",
           "Chốt lịch thi cẩn thận: cân nhắc tiến độ học và lịch công việc trước khi đặt, vì mỗi lần đổi lịch đều mất phí."
         ] },
-        { "type": "table", "title": "Ví dụ thực tế: xong CIA trong khoảng 18 tháng, tổng 27,5 triệu đồng (2024-2025, theo cẩm nang NEXO)", "columns": ["Thời điểm", "Khoản chi", "Số tiền (VNĐ)"], "rows": [
+        { "type": "table", "title": "Ví dụ thực tế: xong CIA trong khoảng 18 tháng, tổng 27,5 triệu đồng (2024-2025)", "columns": ["Thời điểm", "Khoản chi", "Số tiền (VNĐ)"], "rows": [
           ["05/2024", "Hội viên IIA Việt Nam", "3.000.000"],
           ["05/2024", "Phí ghi danh, giảm 20% đợt tháng 5 (120 còn 96 USD)", "2.500.000"],
           ["05/2024", "Đăng ký Part 1, giảm 20% (310 còn 248 USD)", "6.500.000"],
@@ -200,7 +200,7 @@
         { "type": "p", "text": "Không có lộ trình đúng cho tất cả; kế hoạch tốt nhất là kế hoạch bạn duy trì được đều đặn. Bám kế hoạch nhưng linh hoạt điều chỉnh, và đừng để chậm tiến độ thành lý do bỏ cuộc. Tìm người đồng hành (mentor, bạn học, cộng đồng) giúp giữ động lực lúc mệt." },
         { "type": "table", "title": "Chọn tài liệu", "columns": ["Nhóm tài liệu", "Dùng để", "Lưu ý"], "rows": [
           ["Tài liệu gốc của IIA: syllabus, tài liệu tham chiếu chính thức, GIAS, yêu cầu theo chủ đề, các hướng dẫn", "Biết phạm vi kiến thức và nguồn tham chiếu chính thức của kỳ thi", "Đọc syllabus trước mọi giáo trình; quay lại tài liệu gốc khi gặp nội dung khó"],
-          ["Tài liệu luyện thi: Gleim, Hock, PRC, Becker (tiếng Anh), NEXO Institute (tiếng Việt), nguồn khác", "Học có hệ thống, luyện câu hỏi, làm đề thi thử", "Chọn một bộ chính, tránh học quá nhiều nguồn cùng lúc"]
+          ["Tài liệu luyện thi: Gleim, Hock, PRC, Becker (tiếng Anh), tài liệu tiếng Việt, nguồn khác", "Học có hệ thống, luyện câu hỏi, làm đề thi thử", "Chọn một bộ chính, tránh học quá nhiều nguồn cùng lúc"]
         ] },
         { "type": "note", "text": "Công thức một bộ tài liệu đủ dùng: syllabus + một bộ giáo trình chính + một bộ câu hỏi chất lượng + tài liệu bổ trợ khi cần. Nếu thi bằng tiếng Việt, chọn tài liệu tiếng Việt bám sát syllabus và có kiểm soát chất lượng rõ ràng." },
         { "type": "h", "text": "Dùng trang này thế nào" },
@@ -267,7 +267,7 @@
           { "q": "Nên thi các phần theo thứ tự nào?", "a": "Thứ tự nào hợp với bạn cũng được. Với người mới, Part 1, Part 2, Part 3 giúp kiến thức nối tiếp nhau và dễ nhớ hơn." },
           { "q": "Nên tự học hay học trung tâm?", "a": "Cả hai đều được. Dù học trung tâm, bạn vẫn cần nhiều thời gian tự học để nhớ kiến thức và rèn kỹ năng làm bài. Học phí trung tâm khoảng 10-15 triệu đồng mỗi phần là khoản đáng cân nhắc." },
           { "q": "Phí thi có gồm tài liệu không?", "a": "Không. Tài liệu, ngân hàng câu hỏi hoặc khóa học là chi phí riêng; nên tìm hiểu ưu nhược điểm của từng bộ trước khi chọn." },
-          { "q": "Khi nào thì sẵn sàng đi thi?", "a": "Không có ngưỡng chính thức. Kinh nghiệm được chia sẻ trong cẩm nang NEXO: đạt trên 85% với đề thi thử khó và trên 90% với đề dễ thì khả năng đạt cao hơn. Điểm luyện đề chỉ là chỉ báo; bạn cần hiểu đủ rộng và sâu, và hiểu vì sao các phương án sai là sai." },
+          { "q": "Khi nào thì sẵn sàng đi thi?", "a": "Không có ngưỡng chính thức. Theo kinh nghiệm của nhiều người đã thi: đạt trên 85% với đề thi thử khó và trên 90% với đề dễ thì khả năng đạt cao hơn. Điểm luyện đề chỉ là chỉ báo; bạn cần hiểu đủ rộng và sâu, và hiểu vì sao các phương án sai là sai." },
           { "q": "Có nên học thêm chứng chỉ khác không?", "a": "Có, nếu nó phục vụ hướng đi của bạn: CRMA cho quản lý rủi ro, CISA cho kiểm toán CNTT, CPA hoặc ACCA nếu mở rộng sang kế toán, tài chính, kiểm toán độc lập. Đừng học chỉ vì nhiều người học." },
           { "q": "Chứng chỉ CIA có phải duy trì không?", "a": "Có. Mỗi năm cần báo cáo giờ CPE (40 giờ với người đang hành nghề, gồm 2 giờ đạo đức) và tự xác nhận tuân thủ yêu cầu của IIA trên CCMS." }
         ] }
@@ -280,7 +280,6 @@
     { "label": "IIA - CIA Exam Syllabus 2025", "url": "https://www.theiia.org/globalassets/site/certifications/certified-internal-auditor/cia-exam-why-how-and-what-is-changing/cia-exam-why-and-how-it-is-changing2.pdf" },
     { "label": "IIA - Certification Candidate Handbook (thời hạn, gia hạn, đổi lịch thi)", "url": "https://www.theiia.org/globalassets/site/certifications/certification-candidate-handbook.pdf" },
     { "label": "IIA - Pulse of Internal Audit 2024 (tuyển sinh viên mới tốt nghiệp)", "url": "https://www.theiia.org/globalassets/site/resources/research-and-reports/pulse-of-internal-audit/2024-iia-pulse-report.pdf" },
-    { "label": "Nghị định 05/2019/NĐ-CP về kiểm toán nội bộ", "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=196045" },
-    { "label": "NEXO Institute - Cẩm nang chinh phục chứng chỉ CIA (lộ trình nghề, số liệu thị trường, chi phí thực tế, phương pháp học; sử dụng với sự cho phép của tác giả)", "url": "" }
+    { "label": "Nghị định 05/2019/NĐ-CP về kiểm toán nội bộ", "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=196045" }
   ]
 }
