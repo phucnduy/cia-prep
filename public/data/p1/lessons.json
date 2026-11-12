@@ -1231,6 +1231,80 @@
       "IIA Three Lines Model",
       "G20/OECD Principles of Corporate Governance",
       "CIA Part 1 C.1"
+    ],
+    "details": [
+      {
+        "heading": "Vai trò của các bên trong quản trị",
+        "body": [
+          "HĐQT: đặt định hướng chiến lược, phê duyệt khẩu vị rủi ro, giám sát Ban điều hành, chịu trách nhiệm giải trình trước cổ đông và bên liên quan. HĐQT thường giao việc cho các ủy ban: Kiểm toán (báo cáo tài chính, kiểm soát, kiểm toán nội bộ và độc lập), Lương thưởng (chính sách thù lao lãnh đạo), Đề cử (nhân sự HĐQT và lãnh đạo cấp cao), Rủi ro.",
+          "Ban điều hành: thực hiện chiến lược, quản lý hoạt động, thiết kế và vận hành quản lý rủi ro, kiểm soát.",
+          "Kiểm toán nội bộ: đánh giá và đưa ra đảm bảo, tư vấn độc lập về quản trị, rủi ro, kiểm soát. Các bên đảm bảo khác: kiểm toán độc lập, cơ quan quản lý, bộ phận tuân thủ, chuyên gia bên ngoài."
+        ]
+      },
+      {
+        "heading": "Khung, nguyên tắc và mô hình quản trị",
+        "body": [
+          "Nguyên tắc Quản trị Công ty của G20/OECD: quyền và đối xử công bằng với cổ đông, vai trò của nhà đầu tư tổ chức, công bố thông tin minh bạch, trách nhiệm của HĐQT, và (từ bản 2023) tính bền vững và khả năng phục hồi.",
+          "Mô hình HĐQT một cấp (thành viên điều hành và không điều hành cùng một HĐQT) và hai cấp (Hội đồng giám sát tách khỏi Ban điều hành). Mô hình Ba Tuyến của IIA mô tả cách các vai trò phối hợp.",
+          "Quản trị CNTT theo COBIT (ISACA) giúp gắn mục tiêu CNTT với mục tiêu kinh doanh. Trách nhiệm xã hội và ESG mở rộng quản trị sang tác động môi trường, xã hội; rủi ro 'tẩy xanh' là công bố phóng đại thành tích môi trường."
+        ]
+      },
+      {
+        "heading": "Kiểm toán nội bộ đánh giá quản trị như thế nào",
+        "body": [
+          "GIAS 9.1 nêu những gì CAE cần hiểu về quản trị: cách tổ chức đặt mục tiêu chiến lược và ra quyết định; giám sát quản lý rủi ro và kiểm soát; thúc đẩy văn hóa đạo đức; quản lý hiệu quả và trách nhiệm giải trình; cơ cấu bộ máy; truyền đạt thông tin rủi ro, kiểm soát; phối hợp giữa HĐQT, các bên đảm bảo và Ban điều hành.",
+          "Đây cũng là danh sách gợi ý khi lập kế hoạch một cuộc kiểm toán quản trị: kiểm tra quy chế HĐQT, biên bản họp, quy trình phê duyệt, hệ thống KPI và lương thưởng, kênh báo cáo rủi ro, chương trình đạo đức."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Các ủy ban thường gặp của HĐQT",
+      "columns": [
+        "Ủy ban",
+        "Trách nhiệm chính",
+        "Liên hệ với kiểm toán nội bộ"
+      ],
+      "rows": [
+        [
+          "Kiểm toán",
+          "Giám sát BCTC, kiểm soát nội bộ, kiểm toán nội bộ và độc lập",
+          "Thường là 'HĐQT' mà CAE báo cáo chức năng"
+        ],
+        [
+          "Lương thưởng",
+          "Chính sách thù lao, thưởng của lãnh đạo",
+          "Kiểm toán có thể đánh giá rủi ro trong cơ chế thưởng"
+        ],
+        [
+          "Đề cử",
+          "Chọn, đánh giá thành viên HĐQT, lãnh đạo cấp cao",
+          "Ít liên hệ trực tiếp"
+        ],
+        [
+          "Rủi ro",
+          "Giám sát khẩu vị và hồ sơ rủi ro",
+          "Nhận kết quả đảm bảo về quản lý rủi ro"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Thưởng cổ phiếu theo lợi nhuận quý",
+      "scenario": "Cơ chế thưởng của Tổng Giám đốc chỉ dựa trên lợi nhuận từng quý. Kiểm toán nội bộ thấy các khoản dự phòng được điều chỉnh bất thường vào cuối quý.",
+      "analysis": "Đây là vấn đề quản trị: cơ chế thưởng tạo áp lực làm đẹp lợi nhuận ngắn hạn. Kiểm toán nội bộ báo kết quả cho Ủy ban Kiểm toán, và có thể khuyến nghị Ủy ban Lương thưởng xem lại cơ chế (kết hợp chỉ tiêu dài hạn, điều khoản thu hồi thưởng). Kiểm toán nội bộ không tự thiết kế lại chính sách thưởng."
+    },
+    "checks": [
+      {
+        "q": "Định nghĩa quản trị theo Glossary GIAS?",
+        "a": "Sự kết hợp quy trình và cấu trúc do HĐQT thiết lập để thông tin, chỉ đạo, quản lý và giám sát hoạt động của tổ chức hướng tới mục tiêu."
+      },
+      {
+        "q": "Mô hình HĐQT hai cấp khác một cấp ở điểm nào?",
+        "a": "Hai cấp tách Hội đồng giám sát (không điều hành) khỏi Ban điều hành; một cấp gộp thành viên điều hành và không điều hành trong một HĐQT."
+      },
+      {
+        "q": "Ủy ban nào giám sát chính sách thù lao lãnh đạo?",
+        "a": "Ủy ban Lương thưởng."
+      }
     ]
   },
   {
@@ -1269,6 +1343,86 @@
     "refs": [
       "COSO 2013 Principles 1-5",
       "CIA Part 1 C.2"
+    ],
+    "details": [
+      {
+        "heading": "Văn hóa tổ chức và môi trường kiểm soát",
+        "body": [
+          "Văn hóa là tập hợp giá trị, niềm tin, chuẩn mực hành vi chung, thể hiện qua cách mọi người thực sự làm việc và ra quyết định, không chỉ những gì viết trong quy định.",
+          "Môi trường kiểm soát là thành phần đầu tiên và là nền tảng của COSO 2013, gồm Nguyên tắc 1-5: (1) cam kết chính trực và giá trị đạo đức; (2) HĐQT độc lập với Ban điều hành và giám sát kiểm soát nội bộ; (3) Ban điều hành thiết lập cơ cấu, kênh báo cáo, thẩm quyền và trách nhiệm; (4) cam kết thu hút, phát triển, giữ chân người có năng lực; (5) buộc mọi người chịu trách nhiệm giải trình về kiểm soát.",
+          "Môi trường kiểm soát yếu làm mọi kiểm soát khác kém tin cậy: nhân viên làm tắt khi bị áp lực, lãnh đạo bỏ qua quy trình."
+        ]
+      },
+      {
+        "heading": "Kiểm soát cứng và kiểm soát mềm",
+        "body": [
+          "Kiểm soát cứng là thủ tục hữu hình, dễ kiểm tra: phê duyệt, đối chiếu, phân quyền, khóa hệ thống. Kiểm soát mềm là yếu tố vô hình: chính trực, sự tin tưởng, cởi mở, dám lên tiếng, năng lực, gương mẫu của lãnh đạo.",
+          "Đánh giá kiểm soát mềm cần kỹ thuật khác: khảo sát ẩn danh, phỏng vấn, thảo luận nhóm, hội thảo CSA, quan sát hành vi, phân tích dữ liệu tố giác và nghỉ việc."
+        ]
+      },
+      {
+        "heading": "Rủi ro và kiểm soát của cuộc kiểm toán",
+        "body": [
+          "Rủi ro của cuộc kiểm toán là rủi ro cuộc kiểm toán không đạt mục tiêu hoặc đưa ra kết luận không phù hợp: bỏ sót vấn đề trọng yếu, bằng chứng không đủ, thiếu năng lực chuyên môn, bị ảnh hưởng không đáng có, thiên kiến.",
+          "Kiểm soát của cuộc kiểm toán: phương pháp luận (GIAS 9.3), đánh giá rủi ro cuộc kiểm toán (13.2), chương trình làm việc được phê duyệt (13.6), giám sát và rà soát hồ sơ (12.3), QAIP (8.3, 12.1)."
+        ]
+      },
+      {
+        "heading": "Cách tổ chức ra quyết định ảnh hưởng quản trị, rủi ro, kiểm soát",
+        "body": [
+          "Quyết định tập trung: kiểm soát chặt nhưng chậm, dễ phụ thuộc vào một người, rủi ro lạm quyền. Phân quyền: linh hoạt nhưng cần kiểm soát thống nhất và giám sát tốt hơn.",
+          "Áp lực chỉ tiêu quá cao, thưởng chỉ dựa trên kết quả ngắn hạn, hoặc văn hóa 'không mang tin xấu lên trên' làm tăng rủi ro vi phạm và che giấu. Kiểm toán viên nên xem cách quyết định thực sự được đưa ra, không chỉ sơ đồ tổ chức."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Kiểm soát cứng và kiểm soát mềm",
+      "columns": [
+        "Tiêu chí",
+        "Kiểm soát cứng",
+        "Kiểm soát mềm"
+      ],
+      "rows": [
+        [
+          "Bản chất",
+          "Thủ tục chính thức, hữu hình",
+          "Giá trị, thái độ, hành vi"
+        ],
+        [
+          "Ví dụ",
+          "Phê duyệt hai cấp, đối chiếu ngân hàng, phân quyền",
+          "Tone at the top, sự tin tưởng, dám lên tiếng"
+        ],
+        [
+          "Cách đánh giá",
+          "Kiểm tra tài liệu, chọn mẫu, thực hiện lại",
+          "Khảo sát, phỏng vấn, thảo luận nhóm, quan sát"
+        ],
+        [
+          "Điểm yếu khi thiếu cái kia",
+          "Bị lách khi văn hóa yếu",
+          "Khó chứng minh, cần cấu trúc hỗ trợ"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Quy tắc đẹp, thực tế khác",
+      "scenario": "Công ty có bộ quy tắc ứng xử đầy đủ và đường dây nóng. Khảo sát ẩn danh cho thấy 60% nhân viên kinh doanh không tin việc báo cáo vi phạm sẽ được xử lý công bằng; hai trưởng nhóm từng tố giác đã nghỉ việc.",
+      "analysis": "Kiểm soát cứng có (quy tắc, hotline) nhưng kiểm soát mềm yếu (thiếu tin tưởng, lo sợ trả thù). Kết luận: môi trường kiểm soát yếu, rủi ro vi phạm không được phát hiện cao. Khuyến nghị tập trung vào bảo vệ người tố giác, phản hồi kết quả xử lý, hành vi của lãnh đạo, chứ không chỉ sửa văn bản."
+    },
+    "checks": [
+      {
+        "q": "Môi trường kiểm soát trong COSO 2013 gồm những nguyên tắc nào?",
+        "a": "Nguyên tắc 1-5: chính trực và đạo đức; HĐQT độc lập, giám sát; cơ cấu, thẩm quyền, trách nhiệm; năng lực; trách nhiệm giải trình."
+      },
+      {
+        "q": "Kể hai cách đánh giá kiểm soát mềm.",
+        "a": "Khảo sát ẩn danh, phỏng vấn, thảo luận nhóm, hội thảo CSA, quan sát hành vi."
+      },
+      {
+        "q": "Rủi ro của cuộc kiểm toán là gì?",
+        "a": "Rủi ro cuộc kiểm toán không đạt mục tiêu hoặc đưa ra kết luận không phù hợp."
+      }
     ]
   },
   {
@@ -1308,6 +1462,74 @@
       "GIAS 1.3",
       "GIAS 9.4",
       "CIA Part 1 C.3"
+    ],
+    "details": [
+      {
+        "heading": "Các yêu cầu đạo đức, pháp lý và tuân thủ",
+        "body": [
+          "Nhóm yêu cầu thường gặp: chống tham nhũng, hối lộ (ví dụ luật trong nước và luật có hiệu lực ngoài lãnh thổ như FCPA của Mỹ, UK Bribery Act); phòng chống rửa tiền; cạnh tranh; bảo vệ dữ liệu cá nhân; lao động, an toàn; môi trường; quy định chuyên ngành (ngân hàng, dược, năng lượng); thuế.",
+          "Ngoài luật, tổ chức còn có cam kết tự nguyện: bộ quy tắc ứng xử, chính sách quà tặng, xung đột lợi ích, tiêu chuẩn ESG mà tổ chức công bố."
+        ]
+      },
+      {
+        "heading": "Chương trình đạo đức và tuân thủ hiệu quả",
+        "body": [
+          "Các yếu tố: cam kết và gương mẫu của lãnh đạo; đánh giá rủi ro tuân thủ; chính sách, quy trình rõ ràng; đào tạo liên tục; kênh tư vấn và báo cáo bảo mật (đường dây nóng, ombudsperson); giám sát, kiểm tra; điều tra và xử lý kỷ luật nhất quán; cải tiến sau mỗi vụ việc.",
+          "Trách nhiệm thuộc Ban điều hành (tuyến một, tuyến hai) dưới sự giám sát của HĐQT."
+        ]
+      },
+      {
+        "heading": "Vai trò của kiểm toán viên trong khung đạo đức",
+        "body": [
+          "Đánh giá: GIAS 9.4 yêu cầu kế hoạch kiểm toán xem xét hiệu quả của chương trình tuân thủ và đạo đức. Kiểm toán nội bộ có thể đảm bảo về thiết kế, vận hành của chương trình.",
+          "Thúc đẩy: GIAS 1.2 yêu cầu kiểm toán viên khuyến khích văn hóa đạo đức và báo cáo hành vi trái kỳ vọng đạo đức theo chính sách.",
+          "Báo cáo vi phạm pháp luật: GIAS 1.3 yêu cầu báo cho người hoặc cơ quan có thẩm quyền xử lý, theo luật và chính sách. Kiểm toán nội bộ không tự quyết định kỷ luật và không công khai cáo buộc."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Ai làm gì trong chương trình đạo đức",
+      "columns": [
+        "Bên",
+        "Vai trò"
+      ],
+      "rows": [
+        [
+          "HĐQT",
+          "Giám sát văn hóa và chương trình tuân thủ"
+        ],
+        [
+          "Ban điều hành",
+          "Xây dựng, vận hành chương trình, xử lý vi phạm"
+        ],
+        [
+          "Bộ phận tuân thủ, ombudsperson",
+          "Tư vấn, tiếp nhận quan ngại, giám sát (tuyến hai)"
+        ],
+        [
+          "Kiểm toán nội bộ",
+          "Đánh giá hiệu quả chương trình, báo cáo vi phạm, có thể hỗ trợ điều tra khi được giao"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Phát hiện khoản 'phí tư vấn' bất thường",
+      "scenario": "Khi kiểm toán chi phí bán hàng ở một chi nhánh nước ngoài, kiểm toán viên thấy các khoản phí tư vấn lớn trả cho một công ty không rõ hoạt động, ngay trước khi chi nhánh nhận giấy phép.",
+      "analysis": "Đây có thể là dấu hiệu hối lộ. Kiểm toán viên không tự kết luận hay công khai. Báo CAE ngay; CAE báo cho cấp có thẩm quyền theo chính sách (pháp chế, Ủy ban Kiểm toán) để quyết định điều tra (GIAS 1.3). Kiểm toán nội bộ có thể hỗ trợ điều tra nếu được giao."
+    },
+    "checks": [
+      {
+        "q": "GIAS yêu cầu gì khi kiểm toán viên phát hiện vi phạm pháp luật?",
+        "a": "Báo cho cá nhân hoặc cơ quan có thẩm quyền xử lý, theo luật, quy định và chính sách (GIAS 1.3)."
+      },
+      {
+        "q": "Ai chịu trách nhiệm chính về chương trình tuân thủ?",
+        "a": "Ban điều hành, dưới sự giám sát của HĐQT."
+      },
+      {
+        "q": "Kế hoạch kiểm toán phải xem xét chương trình đạo đức và tuân thủ theo chuẩn mực nào?",
+        "a": "GIAS 9.4."
+      }
     ]
   },
   {
@@ -1346,6 +1568,81 @@
     "refs": [
       "CIA Part 1 C.4",
       "COSO ERM 2017"
+    ],
+    "details": [
+      {
+        "heading": "Phân loại rủi ro theo syllabus",
+        "body": [
+          "Chiến lược: rủi ro chiến lược sai hoặc không thích ứng (đối thủ mới, công nghệ thay thế, thay đổi hành vi khách hàng).",
+          "Hoạt động: rủi ro do quy trình, con người, hệ thống hoặc sự kiện bên ngoài (lỗi sản xuất, gián đoạn chuỗi cung ứng, tấn công mạng, phụ thuộc một nhà cung cấp).",
+          "Tài chính: thị trường (giá, lãi suất, tỷ giá), tín dụng (khách hàng không trả nợ), thanh khoản (không đủ tiền thanh toán).",
+          "Tuân thủ: vi phạm luật, quy định, hợp đồng, chính sách nội bộ, dẫn tới phạt, kiện tụng.",
+          "Uy tín: mất lòng tin của khách hàng, nhà đầu tư, công chúng; thường là hệ quả của các rủi ro khác.",
+          "Môi trường, bền vững và trách nhiệm xã hội: tác động môi trường, biến đổi khí hậu, điều kiện lao động, quyền con người, công bố ESG."
+        ]
+      },
+      {
+        "heading": "Rủi ro tiềm tàng và rủi ro còn lại",
+        "body": [
+          "Rủi ro tiềm tàng: mức rủi ro khi Ban điều hành chưa có biện pháp gì để thay đổi khả năng xảy ra hoặc tác động.",
+          "Rủi ro còn lại: mức rủi ro sau khi đã áp dụng phản ứng rủi ro (kiểm soát, bảo hiểm...). Kiểm soát hiệu quả làm giảm rủi ro còn lại, nhưng không bao giờ về 0.",
+          "Quy trình: đánh giá rủi ro tiềm tàng, đánh giá thiết kế và hiệu quả kiểm soát, xác định rủi ro còn lại, so với khẩu vị và ngưỡng chịu đựng. Nếu vượt: cần thêm hành động. Nếu thấp hơn nhiều: có thể đang kiểm soát quá mức."
+        ]
+      },
+      {
+        "heading": "Năng lực chịu rủi ro và khẩu vị rủi ro",
+        "body": [
+          "Năng lực chịu rủi ro (risk capacity) là mức tối đa tổ chức có thể gánh chịu mà không đe dọa sự tồn tại. Khẩu vị rủi ro nằm dưới mức này và do HĐQT phê duyệt."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Ví dụ phân loại rủi ro",
+      "columns": [
+        "Tình huống",
+        "Loại rủi ro chính"
+      ],
+      "rows": [
+        [
+          "70% hàng hóa từ một nhà cung cấp",
+          "Hoạt động (tập trung chuỗi cung ứng)"
+        ],
+        [
+          "Khách hàng lớn chậm thanh toán 6 tháng",
+          "Tài chính (tín dụng)"
+        ],
+        [
+          "Quy định mới về dữ liệu cá nhân",
+          "Tuân thủ"
+        ],
+        [
+          "Đối thủ ra sản phẩm thay thế rẻ hơn 40%",
+          "Chiến lược"
+        ],
+        [
+          "Bài báo về điều kiện lao động ở nhà máy",
+          "Uy tín; trách nhiệm xã hội"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Rủi ro tiềm tàng cao, kiểm soát tốt",
+      "scenario": "Quy trình chuyển tiền quốc tế có rủi ro tiềm tàng cao (giá trị lớn, nhiều thao tác). Ngân hàng áp dụng phê duyệt hai người, giới hạn hạn mức, đối chiếu tự động; kiểm toán xác nhận kiểm soát vận hành hiệu quả.",
+      "analysis": "Rủi ro còn lại thấp hơn nhiều so với tiềm tàng nhưng không bằng 0 (vẫn có rủi ro thông đồng, lạm quyền). So với khẩu vị rủi ro của ngân hàng để kết luận mức còn lại có chấp nhận được không."
+    },
+    "checks": [
+      {
+        "q": "Rủi ro tiềm tàng và rủi ro còn lại khác nhau thế nào?",
+        "a": "Tiềm tàng là trước khi có phản ứng của Ban điều hành; còn lại là sau khi đã áp dụng phản ứng rủi ro."
+      },
+      {
+        "q": "Rủi ro tín dụng thuộc nhóm nào?",
+        "a": "Rủi ro tài chính."
+      },
+      {
+        "q": "Kiểm soát hiệu quả có làm rủi ro còn lại bằng 0 không?",
+        "a": "Không, vì kiểm soát có hạn chế cố hữu."
+      }
     ]
   },
   {
@@ -1385,6 +1682,89 @@
       "GIAS - Glossary",
       "ISO 31000:2018",
       "COSO ERM 2017"
+    ],
+    "details": [
+      {
+        "heading": "Quản lý rủi ro và các khái niệm nền",
+        "body": [
+          "Glossary GIAS: quản lý rủi ro là quy trình nhận diện, đánh giá, quản lý và kiểm soát các sự kiện tiềm ẩn để cung cấp đảm bảo hợp lý về việc đạt mục tiêu. Khẩu vị rủi ro là loại và mức rủi ro tổ chức sẵn sàng chấp nhận để theo đuổi chiến lược và mục tiêu. Ngưỡng chịu đựng là biên độ biến động chấp nhận được trong việc đạt mục tiêu.",
+          "Ví dụ: khẩu vị 'không chấp nhận rủi ro vi phạm pháp luật nghiêm trọng; chấp nhận rủi ro vừa phải khi mở thị trường mới'. Ngưỡng chịu đựng: 'tỷ lệ nợ xấu không vượt 3%', 'hệ thống ngừng không quá 4 giờ mỗi tháng'."
+        ]
+      },
+      {
+        "heading": "Chu trình quản lý rủi ro theo ISO 31000:2018",
+        "body": [
+          "ISO 31000 gồm Nguyên tắc, Khung và Quy trình. Tám nguyên tắc: tích hợp; có cấu trúc và toàn diện; tùy biến; bao trùm (có sự tham gia của các bên); linh hoạt; dựa trên thông tin tốt nhất có được; tính đến yếu tố con người và văn hóa; cải tiến liên tục.",
+          "Quy trình: xác lập phạm vi, bối cảnh, tiêu chí; đánh giá rủi ro gồm nhận diện, phân tích (khả năng, hệ quả), định mức (so với tiêu chí để quyết định cần xử lý không); xử lý rủi ro. Bao quanh là trao đổi và tham vấn, giám sát và rà soát, ghi nhận và báo cáo."
+        ]
+      },
+      {
+        "heading": "COSO ERM 2017",
+        "body": [
+          "Tên đầy đủ: Enterprise Risk Management - Integrating with Strategy and Performance. Điểm mới so với bản 2004: gắn rủi ro với chiến lược và hiệu quả hoạt động ngay từ khi xây dựng chiến lược.",
+          "Năm thành phần: Quản trị và văn hóa; Chiến lược và thiết lập mục tiêu; Hiệu quả hoạt động (nhận diện, đánh giá, ưu tiên, phản ứng rủi ro); Rà soát và điều chỉnh; Thông tin, truyền thông và báo cáo. Có 20 nguyên tắc."
+        ]
+      },
+      {
+        "heading": "Phản ứng rủi ro và cách đánh giá",
+        "body": [
+          "Né tránh: rút khỏi hoạt động tạo rủi ro. Giảm thiểu: kiểm soát để giảm khả năng hoặc tác động. Chia sẻ: chuyển một phần cho bên khác (bảo hiểm, thuê ngoài, phòng ngừa rủi ro tài chính). Chấp nhận: không làm gì thêm vì rủi ro nằm trong khẩu vị. COSO ERM 2017 bổ sung Theo đuổi: chấp nhận thêm rủi ro để đạt hiệu quả cao hơn.",
+          "Kiểm toán viên đánh giá phản ứng rủi ro bằng câu hỏi: rủi ro còn lại sau phản ứng có nằm trong khẩu vị không; chi phí phản ứng có tương xứng lợi ích không; phản ứng có tạo rủi ro mới không (ví dụ thuê ngoài tạo rủi ro bên thứ ba); ai sở hữu và theo dõi."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "COSO Internal Control và COSO ERM",
+      "columns": [
+        "Tiêu chí",
+        "COSO Internal Control 2013",
+        "COSO ERM 2017"
+      ],
+      "rows": [
+        [
+          "Trọng tâm",
+          "Kiểm soát nội bộ để đạt mục tiêu",
+          "Quản trị rủi ro gắn với chiến lược và hiệu quả"
+        ],
+        [
+          "Cấu trúc",
+          "5 thành phần, 17 nguyên tắc",
+          "5 thành phần, 20 nguyên tắc"
+        ],
+        [
+          "Thành phần",
+          "Môi trường kiểm soát; Đánh giá rủi ro; Hoạt động kiểm soát; Thông tin và truyền thông; Giám sát",
+          "Quản trị và văn hóa; Chiến lược và mục tiêu; Hiệu quả hoạt động; Rà soát và điều chỉnh; Thông tin, truyền thông, báo cáo"
+        ],
+        [
+          "Nhóm mục tiêu",
+          "Hoạt động, báo cáo, tuân thủ",
+          "Gắn với chiến lược và mục tiêu kinh doanh"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Chọn phản ứng rủi ro",
+      "scenario": "Công ty logistics có kho ở vùng thường xuyên ngập lụt. Thiệt hại dự kiến lớn nhưng xác suất mỗi năm thấp.",
+      "analysis": "Các lựa chọn: né tránh (chuyển kho); giảm thiểu (nâng nền, hệ thống bơm, kế hoạch di dời hàng); chia sẻ (mua bảo hiểm); chấp nhận (nếu thiệt hại nằm trong khẩu vị). Thường kết hợp giảm thiểu và chia sẻ. Kiểm toán viên không chọn thay Ban điều hành mà đánh giá rủi ro còn lại sau phản ứng có nằm trong khẩu vị không."
+    },
+    "checks": [
+      {
+        "q": "Ba bước trong 'đánh giá rủi ro' của ISO 31000?",
+        "a": "Nhận diện, phân tích, định mức (evaluation) rủi ro."
+      },
+      {
+        "q": "Mua bảo hiểm là phản ứng rủi ro nào?",
+        "a": "Chia sẻ (chuyển giao) rủi ro."
+      },
+      {
+        "q": "Phản ứng nào được COSO ERM 2017 bổ sung?",
+        "a": "Theo đuổi (pursue): chấp nhận thêm rủi ro để đạt hiệu quả cao hơn."
+      },
+      {
+        "q": "Khẩu vị rủi ro và ngưỡng chịu đựng khác nhau thế nào?",
+        "a": "Khẩu vị là loại và mức rủi ro sẵn sàng chấp nhận để theo đuổi chiến lược; ngưỡng chịu đựng là biên độ biến động chấp nhận được khi thực hiện mục tiêu."
+      }
     ]
   },
   {
@@ -1423,6 +1803,79 @@
     "refs": [
       "CIA Part 1 C.6",
       "AICPA SOC reports"
+    ],
+    "details": [
+      {
+        "heading": "Đánh giá thiết kế và hiệu quả của quy trình quản lý rủi ro",
+        "body": [
+          "Thiết kế: có chính sách, vai trò, trách nhiệm rõ; khẩu vị được HĐQT phê duyệt; phương pháp đánh giá thống nhất; tiêu chí xếp hạng; kênh báo cáo lên HĐQT.",
+          "Hiệu quả: rủi ro trọng yếu thực sự được nhận diện và đánh giá đúng; phản ứng phù hợp khẩu vị; thông tin rủi ro đến đúng người, đúng lúc; sổ rủi ro được dùng khi ra quyết định, không chỉ cập nhật cho có.",
+          "GIAS 9.1 nêu các khu vực rủi ro chính cần hiểu cách tổ chức quản lý: độ tin cậy, toàn vẹn của thông tin tài chính và hoạt động; hiệu quả, hiệu suất của hoạt động và chương trình; bảo vệ tài sản; tuân thủ luật, quy định."
+        ]
+      },
+      {
+        "heading": "Mục đích và lợi ích của khung quản lý rủi ro",
+        "body": [
+          "Ngôn ngữ chung (cùng định nghĩa khả năng, tác động); phương pháp nhất quán giữa các bộ phận; tổng hợp và so sánh rủi ro toàn tổ chức; hỗ trợ ra quyết định và phân bổ nguồn lực; tạo căn cứ để kiểm toán đánh giá."
+        ]
+      },
+      {
+        "heading": "Rủi ro trong các chức năng thường gặp",
+        "body": [
+          "Bên thứ ba: thuê ngoài chuyển giao hoạt động nhưng không chuyển giao trách nhiệm giải trình. Cần thẩm định trước khi ký, điều khoản hợp đồng (SLA, quyền kiểm toán, bảo mật), giám sát liên tục, báo cáo SOC (SOC 1 cho kiểm soát liên quan BCTC; SOC 2 cho bảo mật, tính sẵn sàng, quyền riêng tư; Type 1 thiết kế tại một thời điểm, Type 2 cả hiệu quả vận hành trong kỳ).",
+          "Liên tục kinh doanh: BCP duy trì quy trình kinh doanh cốt lõi khi có khủng hoảng; DRP là phần trong BCP để khôi phục CNTT và dữ liệu. Cần phân tích tác động kinh doanh, mục tiêu thời gian khôi phục, và kiểm thử định kỳ.",
+          "Điện toán người dùng cuối (bảng tính tự lập): dễ thiếu kiểm soát thay đổi, phiên bản, truy cập, kiểm thử công thức; nếu dùng cho số liệu quan trọng phải được kiểm soát như hệ thống."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Báo cáo SOC",
+      "columns": [
+        "Loại",
+        "Nội dung",
+        "Khi nào dùng"
+      ],
+      "rows": [
+        [
+          "SOC 1",
+          "Kiểm soát của nhà cung cấp liên quan BCTC của khách hàng",
+          "Thuê ngoài bảng lương, kế toán, xử lý giao dịch"
+        ],
+        [
+          "SOC 2",
+          "Bảo mật, tính sẵn sàng, toàn vẹn xử lý, bảo mật thông tin, quyền riêng tư",
+          "Đám mây, trung tâm dữ liệu, SaaS"
+        ],
+        [
+          "Type 1",
+          "Thiết kế kiểm soát tại một thời điểm",
+          "Đánh giá ban đầu"
+        ],
+        [
+          "Type 2",
+          "Thiết kế và hiệu quả vận hành trong một kỳ",
+          "Cần dựa vào kiểm soát trong cả kỳ"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Thuê ngoài xử lý lương",
+      "scenario": "Công ty thuê nhà cung cấp tính và chi trả lương. Kiểm toán độc lập hỏi kiểm toán nội bộ có đảm bảo gì về kiểm soát của nhà cung cấp.",
+      "analysis": "Phù hợp nhất là yêu cầu báo cáo SOC 1 Type 2, vì lương ảnh hưởng BCTC và cần đánh giá hiệu quả vận hành trong cả kỳ. Công ty vẫn phải có kiểm soát bổ sung phía mình (complementary user entity controls), ví dụ đối chiếu danh sách nhân viên và tổng quỹ lương."
+    },
+    "checks": [
+      {
+        "q": "Thuê ngoài có chuyển giao trách nhiệm giải trình không?",
+        "a": "Không. Tổ chức vẫn chịu trách nhiệm và phải quản lý rủi ro bên thứ ba."
+      },
+      {
+        "q": "Báo cáo nào phù hợp khi cần đánh giá kiểm soát của nhà cung cấp ảnh hưởng BCTC trong cả năm?",
+        "a": "SOC 1 Type 2."
+      },
+      {
+        "q": "BCP và DRP quan hệ thế nào?",
+        "a": "DRP là phần trong BCP, tập trung khôi phục CNTT và dữ liệu; BCP bao quát toàn bộ quy trình kinh doanh cốt lõi."
+      }
     ]
   },
   {
@@ -1462,6 +1915,95 @@
       "GIAS - Glossary",
       "COSO 2013",
       "CIA Part 1 C.7"
+    ],
+    "details": [
+      {
+        "heading": "Mục đích của kiểm soát nội bộ",
+        "body": [
+          "Glossary GIAS: kiểm soát là mọi hành động của Ban điều hành, HĐQT và các bên khác để quản lý rủi ro và tăng khả năng đạt mục tiêu. Quy trình kiểm soát là chính sách, thủ tục, hoạt động được thiết kế và vận hành để giữ rủi ro trong ngưỡng chịu đựng.",
+          "COSO 2013 nêu ba nhóm mục tiêu: hoạt động (hiệu quả, hiệu suất, bảo vệ tài sản), báo cáo (tài chính và phi tài chính, nội bộ và bên ngoài), tuân thủ (luật, quy định)."
+        ]
+      },
+      {
+        "heading": "Các loại kiểm soát",
+        "body": [
+          "Theo chức năng: phòng ngừa (ngăn lỗi xảy ra: phân quyền, phê duyệt trước, kiểm tra hợp lệ đầu vào); phát hiện (tìm lỗi đã xảy ra: đối chiếu, kiểm kê, rà soát ngoại lệ); khắc phục (sửa hậu quả: khôi phục dữ liệu, sửa sai, xử lý kỷ luật); chỉ dẫn (định hướng hành vi: chính sách, quy trình, đào tạo).",
+          "Kiểm soát bù đắp thay thế khi kiểm soát chính không khả thi, ví dụ chủ doanh nghiệp rà soát độc lập khi không đủ người để phân chia trách nhiệm.",
+          "Theo thời điểm: đón đầu (trước quá trình), đồng thời (trong quá trình), phản hồi (sau khi có kết quả). Theo cách thực hiện: thủ công, tự động, bán tự động.",
+          "Kiểm soát CNTT: kiểm soát chung (truy cập, quản lý thay đổi chương trình, vận hành, sao lưu) là nền cho kiểm soát ứng dụng (đầu vào: chữ số kiểm tra, kiểm tra giới hạn, kiểm tra hợp lý; xử lý: tổng chạy nối tiếp; đầu ra: đối chiếu tổng). Nếu kiểm soát chung yếu, kiểm soát ứng dụng tự động cũng không đáng tin."
+        ]
+      },
+      {
+        "heading": "Cấu trúc COSO 2013 cần thuộc",
+        "body": [
+          "Môi trường kiểm soát: Nguyên tắc 1-5. Đánh giá rủi ro: 6 (mục tiêu rõ ràng), 7 (nhận diện và phân tích rủi ro), 8 (xem xét gian lận), 9 (nhận diện thay đổi đáng kể). Hoạt động kiểm soát: 10 (chọn kiểm soát giảm rủi ro), 11 (kiểm soát chung về công nghệ), 12 (triển khai qua chính sách, thủ tục). Thông tin và truyền thông: 13 (thông tin có chất lượng), 14 (truyền đạt nội bộ), 15 (truyền đạt bên ngoài). Giám sát: 16 (đánh giá liên tục, định kỳ), 17 (đánh giá và báo cáo khiếm khuyết)."
+        ]
+      },
+      {
+        "heading": "Đề xuất kiểm soát phù hợp",
+        "body": [
+          "Bắt đầu từ rủi ro: rủi ro gì, xảy ra ở bước nào, hệ quả ra sao. Ưu tiên kiểm soát phòng ngừa và tự động cho rủi ro lớn, xảy ra thường xuyên; dùng kiểm soát phát hiện để bắt lỗi còn sót. Phân chia bốn chức năng: phê duyệt, ghi chép, giữ tài sản, đối chiếu.",
+          "Cân nhắc chi phí so với lợi ích; đề xuất kiểm soát, còn Ban điều hành quyết định và triển khai."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Phân loại kiểm soát theo chức năng",
+      "columns": [
+        "Loại",
+        "Mục đích",
+        "Ví dụ"
+      ],
+      "rows": [
+        [
+          "Phòng ngừa",
+          "Ngăn lỗi, gian lận xảy ra",
+          "Phân quyền hệ thống, phê duyệt trước khi chi, kiểm tra giới hạn"
+        ],
+        [
+          "Phát hiện",
+          "Tìm lỗi đã xảy ra",
+          "Đối chiếu ngân hàng, kiểm kê, rà soát báo cáo ngoại lệ"
+        ],
+        [
+          "Khắc phục",
+          "Sửa hậu quả",
+          "Khôi phục từ sao lưu, điều chỉnh bút toán"
+        ],
+        [
+          "Chỉ dẫn",
+          "Định hướng hành vi mong muốn",
+          "Chính sách, quy trình, đào tạo"
+        ],
+        [
+          "Bù đắp",
+          "Thay thế kiểm soát chính không khả thi",
+          "Chủ sở hữu rà soát độc lập sổ quỹ"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Nhân viên vừa tạo nhà cung cấp vừa duyệt thanh toán",
+      "scenario": "Trong hệ thống ERP, một kế toán có quyền tạo nhà cung cấp mới, nhập hóa đơn và phát hành lệnh thanh toán.",
+      "analysis": "Rủi ro: tạo nhà cung cấp ma và tự thanh toán. Kiểm soát phòng ngừa: tách quyền tạo dữ liệu chủ nhà cung cấp khỏi quyền nhập hóa đơn và thanh toán, kèm thẩm định trước khi kích hoạt. Kiểm soát phát hiện: rà soát định kỳ nhà cung cấp mới, so khớp tài khoản ngân hàng, địa chỉ với dữ liệu nhân viên. Nền tảng: kiểm soát chung về quản lý quyền truy cập (COSO Nguyên tắc 11)."
+    },
+    "checks": [
+      {
+        "q": "Đối chiếu ngân hàng hằng tháng là loại kiểm soát gì?",
+        "a": "Kiểm soát phát hiện."
+      },
+      {
+        "q": "Nguyên tắc 8 của COSO thuộc thành phần nào và nói về gì?",
+        "a": "Đánh giá rủi ro; tổ chức xem xét khả năng gian lận khi đánh giá rủi ro."
+      },
+      {
+        "q": "Vì sao kiểm soát chung CNTT quan trọng với kiểm soát ứng dụng?",
+        "a": "Nếu truy cập, thay đổi chương trình không được kiểm soát, logic của kiểm soát ứng dụng có thể bị sửa, nên không đáng tin."
+      },
+      {
+        "q": "Bốn chức năng cần phân chia là gì?",
+        "a": "Phê duyệt, ghi chép, giữ tài sản, đối chiếu."
+      }
     ]
   },
   {
@@ -1500,6 +2042,79 @@
     "refs": [
       "COSO 2013",
       "CIA Part 1 C.8"
+    ],
+    "details": [
+      {
+        "heading": "Rà soát thiết kế",
+        "body": [
+          "Câu hỏi: nếu kiểm soát vận hành đúng như mô tả, nó có ngăn ngừa hoặc phát hiện kịp thời rủi ro đã xác định không? Đúng người thực hiện chưa (đủ thẩm quyền, độc lập)? Tần suất đủ chưa? Có bằng chứng thực hiện không?",
+          "Kỹ thuật: phỏng vấn, xem chính sách và lưu đồ, walkthrough (theo một giao dịch từ đầu đến cuối). Thiết kế kém là phát hiện, và khi đó không cần kiểm tra vận hành."
+        ]
+      },
+      {
+        "heading": "Kiểm tra hiệu quả vận hành",
+        "body": [
+          "Câu hỏi: kiểm soát có được thực hiện đúng, nhất quán trong suốt kỳ không? Kỹ thuật: hỏi (yếu nhất, phải kết hợp), quan sát, kiểm tra tài liệu (chữ ký, nhật ký hệ thống), thực hiện lại. Kiểm soát tự động có kiểm soát chung tốt thường chỉ cần kiểm tra ít mẫu; kiểm soát thủ công cần mẫu lớn hơn.",
+          "Phân tích dữ liệu toàn bộ tổng thể có thể thay chọn mẫu khi dữ liệu đầy đủ và tin cậy."
+        ]
+      },
+      {
+        "heading": "Hiệu quả về chi phí (efficiency)",
+        "body": [
+          "Kiểm soát tốt là kiểm soát đủ, không thừa. Dấu hiệu kiểm soát quá mức: nhiều cấp phê duyệt cho giao dịch nhỏ, kiểm soát trùng lặp, chi phí kiểm soát vượt tổn thất có thể xảy ra, rủi ro còn lại thấp hơn nhiều so với khẩu vị. Khuyến nghị: điều chỉnh theo rủi ro (ngưỡng, tần suất, tự động hóa)."
+        ]
+      },
+      {
+        "heading": "Hạn chế cố hữu và lợi ích của khung kiểm soát",
+        "body": [
+          "Hạn chế cố hữu: sai sót do xét đoán, sơ suất; thông đồng giữa nhiều người làm vô hiệu phân chia trách nhiệm; Ban điều hành lạm quyền bỏ qua kiểm soát; chi phí giới hạn mức kiểm soát. Vì vậy kiểm soát chỉ cung cấp đảm bảo hợp lý.",
+          "Khung kiểm soát (COSO, CoCo của Canada, COBIT cho CNTT) cung cấp tiêu chí chung, giúp thiết kế và đánh giá nhất quán, so sánh giữa các bộ phận. Theo COSO, hệ thống kiểm soát hữu hiệu khi cả 5 thành phần và các nguyên tắc liên quan hiện hữu, vận hành và phối hợp với nhau; khiếm khuyết nghiêm trọng (major deficiency) ở một thành phần làm không thể kết luận hệ thống hữu hiệu."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Thiết kế, vận hành và hiệu quả chi phí",
+      "columns": [
+        "Khía cạnh",
+        "Câu hỏi",
+        "Kỹ thuật kiểm tra"
+      ],
+      "rows": [
+        [
+          "Thiết kế",
+          "Nếu chạy đúng thì có xử lý được rủi ro không?",
+          "Phỏng vấn, lưu đồ, walkthrough"
+        ],
+        [
+          "Hiệu quả vận hành",
+          "Có chạy đúng và nhất quán trong kỳ không?",
+          "Chọn mẫu, kiểm tra tài liệu, quan sát, thực hiện lại"
+        ],
+        [
+          "Hiệu quả chi phí",
+          "Chi phí có tương xứng rủi ro được giảm không?",
+          "So sánh chi phí, thời gian với tổn thất có thể xảy ra"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Kiểm soát chạy đều nhưng không bắt được lỗi",
+      "scenario": "Trưởng phòng ký duyệt mọi phiếu chi trước khi thanh toán; kiểm tra 40 mẫu đều có chữ ký. Nhưng phiếu chi không kèm hóa đơn gốc, và trưởng phòng cũng là người đề nghị chi.",
+      "analysis": "Vận hành nhất quán nhưng thiết kế kém: người phê duyệt không có thông tin để kiểm tra và không độc lập với người đề nghị. Phát hiện là thiếu sót thiết kế; khuyến nghị yêu cầu chứng từ gốc và tách người đề nghị khỏi người phê duyệt."
+    },
+    "checks": [
+      {
+        "q": "Thiết kế kiểm soát kém thì có cần kiểm tra hiệu quả vận hành không?",
+        "a": "Không cần; thiếu sót thiết kế đã là phát hiện."
+      },
+      {
+        "q": "Kỹ thuật kiểm tra nào yếu nhất nếu dùng một mình?",
+        "a": "Hỏi (phỏng vấn); phải kết hợp với kỹ thuật khác."
+      },
+      {
+        "q": "Kể ba hạn chế cố hữu của kiểm soát nội bộ.",
+        "a": "Sai sót do xét đoán, sơ suất; thông đồng; Ban điều hành lạm quyền; giới hạn chi phí."
+      }
     ]
   },
   {
