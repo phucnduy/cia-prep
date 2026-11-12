@@ -1021,6 +1021,75 @@
       "GIAS 1.2",
       "GIAS 1.3",
       "GIAS Domain II"
+    ],
+    "details": [
+      {
+        "heading": "Chính trực là nền tảng",
+        "body": [
+          "Nguyên tắc 1 định nghĩa chính trực là tuân thủ các nguyên tắc đạo đức, gồm trung thực và dũng khí hành động dựa trên sự thật liên quan, kể cả khi bị áp lực hoặc có thể gây hậu quả bất lợi cho bản thân hay tổ chức. Nói đơn giản: nói sự thật và làm điều đúng, kể cả khi khó chịu.",
+          "Chính trực là nền tảng của bốn nguyên tắc còn lại: khách quan, năng lực, thận trọng nghề nghiệp, bảo mật. Domain II thay thế Quy tắc Đạo đức cũ của IIA và áp dụng cho mọi người cung cấp dịch vụ kiểm toán nội bộ, kể cả CAE và bên cung cấp dịch vụ bên ngoài."
+        ]
+      },
+      {
+        "heading": "Trung thực và dũng khí nghề nghiệp khi gặp tình huống khó (GIAS 1.1)",
+        "body": [
+          "Kiểm toán viên phải trung thực, chính xác, rõ ràng, cởi mở và tôn trọng trong mọi quan hệ và trao đổi, kể cả khi bày tỏ hoài nghi hoặc quan điểm trái chiều.",
+          "Không được đưa thông tin sai, gây hiểu lầm hoặc lừa dối; không che giấu hoặc bỏ sót phát hiện. Phải công bố mọi sự thật trọng yếu mà mình biết, nếu không công bố có thể ảnh hưởng đến khả năng ra quyết định đúng của tổ chức.",
+          "Dũng khí nghề nghiệp là trao đổi trung thực và hành động phù hợp khi gặp tình huống khó xử. CAE phải duy trì môi trường để kiểm toán viên được hỗ trợ khi báo cáo kết quả có căn cứ, dù thuận lợi hay không."
+        ]
+      },
+      {
+        "heading": "Hành vi hợp pháp và chuyên nghiệp (GIAS 1.2, 1.3)",
+        "body": [
+          "Kỳ vọng đạo đức của tổ chức: hiểu, tôn trọng, đáp ứng và góp phần vào kỳ vọng hợp pháp, đạo đức của tổ chức; nhận biết hành vi trái kỳ vọng; khuyến khích văn hóa đạo đức; báo cáo quan ngại theo chính sách.",
+          "Hành vi hợp pháp: không tham gia hoạt động bất hợp pháp, gây mất uy tín cho tổ chức hoặc nghề, hoặc có thể gây hại cho tổ chức, nhân viên; hiểu và tuân thủ luật liên quan đến ngành và khu vực hoạt động; khi phát hiện vi phạm pháp luật, báo cho người hoặc cơ quan có thẩm quyền theo quy định.",
+          "Nếu phải tuân thủ thêm quy tắc đạo đức khác (của tổ chức, của hội nghề nghiệp khác), vẫn phải tuân thủ Domain II. Một hành vi không được nêu trong chuẩn mực vẫn có thể bị coi là không chấp nhận được."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Ba chuẩn mực của Nguyên tắc 1",
+      "columns": [
+        "Chuẩn mực",
+        "Yêu cầu chính",
+        "Ví dụ vi phạm"
+      ],
+      "rows": [
+        [
+          "1.1 Trung thực và dũng khí",
+          "Không đưa thông tin sai, không che giấu phát hiện, công bố sự thật trọng yếu",
+          "Bỏ phát hiện khỏi báo cáo theo yêu cầu của quản lý"
+        ],
+        [
+          "1.2 Kỳ vọng đạo đức của tổ chức",
+          "Tôn trọng, góp phần, báo cáo hành vi trái kỳ vọng",
+          "Biết đồng nghiệp nhận quà trái chính sách mà im lặng"
+        ],
+        [
+          "1.3 Hành vi hợp pháp",
+          "Không tham gia hoạt động trái luật, báo vi phạm cho cấp có thẩm quyền",
+          "Giúp điều chỉnh chứng từ để tránh thuế"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Áp lực trước kỳ họp cổ đông",
+      "scenario": "Một tuần trước đại hội cổ đông, Tổng Giám đốc đề nghị CAE hoãn báo cáo về khiếm khuyết kiểm soát doanh thu sang sau đại hội 'để tránh gây hoang mang'.",
+      "analysis": "Hoãn để tránh thông tin bất lợi là che giấu sự thật trọng yếu, vi phạm GIAS 1.1. CAE trình bày phát hiện có căn cứ theo kế hoạch, trao đổi với Ủy ban Kiểm toán về áp lực đã gặp. Dũng khí nghề nghiệp ở đây là trao đổi thẳng thắn, dựa trên bằng chứng, không phải đối đầu."
+    },
+    "checks": [
+      {
+        "q": "Vì sao chính trực được gọi là nền tảng của các nguyên tắc còn lại?",
+        "a": "Không trung thực thì khách quan, năng lực, thận trọng, bảo mật đều mất giá trị; GIAS nêu rõ chính trực là nền tảng của bốn nguyên tắc kia."
+      },
+      {
+        "q": "GIAS 1.1 yêu cầu gì về sự thật trọng yếu?",
+        "a": "Công bố mọi sự thật trọng yếu mình biết nếu việc không công bố có thể ảnh hưởng đến quyết định của tổ chức."
+      },
+      {
+        "q": "Kiểm toán viên vừa tuân thủ quy tắc của tổ chức vừa phải tuân thủ GIAS Domain II không?",
+        "a": "Có; quy tắc khác không thay thế Domain II."
+      }
     ]
   },
   {
@@ -1059,6 +1128,78 @@
       "GIAS 2.1",
       "GIAS 2.2",
       "IESBA Code"
+    ],
+    "details": [
+      {
+        "heading": "Khách quan và thiên kiến (GIAS 2.1)",
+        "body": [
+          "Khách quan là thái độ tinh thần không thiên lệch, giúp kiểm toán viên đưa ra xét đoán nghề nghiệp mà không thỏa hiệp. Kiểm toán viên phải áp dụng tư duy không thiên lệch, xét đoán dựa trên đánh giá cân bằng mọi tình huống liên quan, và nhận biết, kiểm soát thiên kiến.",
+          "Thiên kiến thường gặp: xác nhận (chỉ tìm bằng chứng ủng hộ giả thuyết ban đầu), mỏ neo (bám vào con số đầu tiên), sẵn có (đánh giá theo điều dễ nhớ), bầy đàn (theo ý kiến số đông của nhóm)."
+        ]
+      },
+      {
+        "heading": "Thiên kiến tự kiểm tra và quen thuộc",
+        "body": [
+          "Tự kiểm tra: đánh giá công việc mà chính mình đã làm hoặc phụ trách, nên khó thấy lỗi của mình. GIAS 2.2: khách quan được coi là suy giảm nếu kiểm toán viên đảm bảo cho hoạt động mà mình chịu trách nhiệm trong 12 tháng trước. Đảm bảo cho hoạt động từng tư vấn cũng có nguy cơ này.",
+          "Quen thuộc: quan hệ lâu dài, thân thiết với đơn vị được kiểm toán làm giảm hoài nghi, dễ chấp nhận giải trình. Biện pháp phổ biến: luân chuyển phân công, rà soát độc lập."
+        ]
+      },
+      {
+        "heading": "Xung đột lợi ích",
+        "body": [
+          "GIAS 2.2: kiểm toán viên phải tránh xung đột lợi ích và không bị ảnh hưởng không đáng có bởi lợi ích của bản thân hoặc người khác (kể cả Ban điều hành, người có thẩm quyền, môi trường chính trị).",
+          "Tình huống điển hình: người thân làm ở bộ phận được kiểm toán hoặc ở nhà cung cấp, khách hàng; sở hữu cổ phần, có quan hệ tài chính với bên liên quan; đang ứng tuyển vào bộ phận được kiểm toán; nhận quà, ưu đãi; bị đe dọa về việc làm."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Nhận diện nguy cơ với khách quan",
+      "columns": [
+        "Tình huống",
+        "Dạng nguy cơ",
+        "Căn cứ"
+      ],
+      "rows": [
+        [
+          "Kiểm toán quy trình mình phụ trách 8 tháng trước",
+          "Tự kiểm tra; suy giảm được giả định",
+          "GIAS 2.2 (quy tắc 12 tháng)"
+        ],
+        [
+          "Kiểm toán cùng chi nhánh 6 năm liền",
+          "Quen thuộc",
+          "GIAS 2.1, 2.2"
+        ],
+        [
+          "Vợ là kế toán trưởng của nhà cung cấp được kiểm tra",
+          "Xung đột lợi ích",
+          "GIAS 2.2"
+        ],
+        [
+          "Giám đốc chi nhánh gợi ý 'liên quan đến xét thăng chức'",
+          "Ảnh hưởng không đáng có",
+          "GIAS 2.2"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Ứng tuyển vào bộ phận đang kiểm toán",
+      "scenario": "Giữa cuộc kiểm toán phòng Tài chính, một kiểm toán viên nộp đơn ứng tuyển vị trí Phó phòng Tài chính.",
+      "analysis": "Có xung đột lợi ích: kiểm toán viên có động cơ không làm mất lòng người sẽ tuyển mình. Phải công bố ngay cho CAE (GIAS 2.3); CAE thường rút người này khỏi cuộc kiểm toán và rà soát lại phần việc đã làm."
+    },
+    "checks": [
+      {
+        "q": "Quy tắc 12 tháng nằm ở chuẩn mực nào và nói gì?",
+        "a": "GIAS 2.2: khách quan được coi là suy giảm nếu đảm bảo cho hoạt động mình chịu trách nhiệm trong 12 tháng trước."
+      },
+      {
+        "q": "Thiên kiến xác nhận là gì?",
+        "a": "Xu hướng chỉ tìm và coi trọng thông tin ủng hộ giả thuyết ban đầu, bỏ qua bằng chứng trái chiều."
+      },
+      {
+        "q": "Biện pháp phổ biến cho nguy cơ quen thuộc?",
+        "a": "Luân chuyển phân công, rà soát độc lập."
+      }
     ]
   },
   {
@@ -1092,6 +1233,88 @@
     "refs": [
       "GIAS 2.2",
       "GIAS 2.3"
+    ],
+    "details": [
+      {
+        "heading": "Phương pháp xử lý suy giảm khách quan",
+        "body": [
+          "GIAS 2.2 yêu cầu CAE thiết lập phương pháp xử lý suy giảm khách quan; kiểm toán viên thảo luận suy giảm và hành động theo phương pháp đó. Chính sách thường gồm: xác nhận độc lập, xung đột lợi ích định kỳ; chính sách quà tặng; luân chuyển; quy trình công bố; đào tạo."
+        ]
+      },
+      {
+        "heading": "Khi nào phân công lại",
+        "body": [
+          "Phân công lại khi suy giảm rõ ràng và không giảm thiểu được bằng giám sát: từng phụ trách hoạt động trong 12 tháng; quan hệ gia đình; lợi ích tài chính; đang ứng tuyển vào bộ phận được kiểm toán; quan hệ quá thân thiết.",
+          "Nếu không thể phân công lại (chức năng nhỏ), dùng biện pháp khác: tăng giám sát, rà soát độc lập hồ sơ, giới hạn vai trò của người đó, và công bố."
+        ]
+      },
+      {
+        "heading": "Khi nào thuê ngoài thực hiện hoặc giám sát",
+        "body": [
+          "Khi không ai trong chức năng đủ khách quan hoặc đủ năng lực: kiểm toán chức năng mà CAE phụ trách (GIAS 2.2 yêu cầu giám sát bởi bên độc lập ngoài chức năng kiểm toán); kiểm toán mảng CAE kiêm nhiệm (GIAS 7.1); cần chuyên môn sâu. Bên thuê ngoài vẫn phải được đánh giá năng lực, khách quan."
+        ]
+      },
+      {
+        "heading": "Khi nào phải công bố (GIAS 2.3)",
+        "body": [
+          "Suy giảm thực tế hoặc bề ngoài phải được công bố kịp thời cho các bên phù hợp. Kiểm toán viên công bố cho CAE hoặc người giám sát được chỉ định. CAE thảo luận với quản lý đơn vị, HĐQT và/hoặc Ban điều hành và quyết định cách xử lý.",
+          "Phát hiện suy giảm sau khi hoàn thành cuộc kiểm toán mà ảnh hưởng độ tin cậy của kết quả: CAE thảo luận với các bên liên quan để xử lý (xem thêm GIAS 11.4). CAE bị suy giảm: công bố cho HĐQT."
+        ]
+      },
+      {
+        "heading": "Khi nào không được nhận quà, phần thưởng, ưu đãi",
+        "body": [
+          "GIAS 2.2: không nhận bất kỳ vật hữu hình hay vô hình (quà, phần thưởng, ưu đãi) có thể làm suy giảm hoặc bị coi là làm suy giảm khách quan. Dấu hiệu không được nhận: từ đơn vị đang hoặc sắp được kiểm toán; giá trị vượt mức xã giao hoặc chính sách; tặng riêng cho người có ảnh hưởng tới kết quả; có điều kiện kèm theo. Không chắc thì từ chối hoặc báo CAE, xử lý theo chính sách."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Chọn biện pháp theo tình huống",
+      "columns": [
+        "Tình huống",
+        "Biện pháp phù hợp"
+      ],
+      "rows": [
+        [
+          "Từng phụ trách hoạt động 6 tháng trước",
+          "Phân công lại người khác"
+        ],
+        [
+          "Chức năng chỉ có 2 người, một người từng tư vấn quy trình",
+          "Tăng giám sát, rà soát độc lập, công bố"
+        ],
+        [
+          "Kiểm toán bộ phận do CAE kiêm nhiệm",
+          "Bên độc lập ngoài chức năng kiểm toán giám sát hoặc thực hiện"
+        ],
+        [
+          "Phát hiện suy giảm sau khi phát hành báo cáo",
+          "CAE thảo luận với các bên liên quan, xác định hành động"
+        ],
+        [
+          "Nhà cung cấp tặng phiếu du lịch",
+          "Từ chối, báo CAE theo chính sách quà tặng"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Chức năng kiểm toán chỉ có ba người",
+      "scenario": "Kiểm toán nội bộ có ba người. Người duy nhất hiểu CNTT đã tư vấn thiết kế phân quyền ERP năm ngoái. Năm nay cần kiểm toán đảm bảo phân quyền ERP.",
+      "analysis": "CAE xác nhận bản chất cuộc tư vấn không làm suy giảm khách quan quá mức (GIAS 2.2). Nếu suy giảm đáng kể, cân nhắc thuê chuyên gia CNTT bên ngoài thực hiện hoặc rà soát. Nếu vẫn giao người đó, tăng giám sát, rà soát độc lập hồ sơ và công bố tình huống cho các bên phù hợp (GIAS 2.3)."
+    },
+    "checks": [
+      {
+        "q": "Ai thiết lập phương pháp xử lý suy giảm khách quan?",
+        "a": "CAE (GIAS 2.2)."
+      },
+      {
+        "q": "Đảm bảo cho chức năng mà CAE phụ trách phải do ai giám sát?",
+        "a": "Một bên độc lập ngoài chức năng kiểm toán nội bộ (GIAS 2.2)."
+      },
+      {
+        "q": "CAE bị suy giảm khách quan thì công bố cho ai?",
+        "a": "HĐQT (GIAS 2.3)."
+      }
     ]
   },
   {
@@ -1125,6 +1348,67 @@
       "GIAS 3.1",
       "GIAS 3.2",
       "CIA Part 1 B.4"
+    ],
+    "details": [
+      {
+        "heading": "Yêu cầu về năng lực (GIAS 3.1, 3.2)",
+        "body": [
+          "Kiểm toán viên phải có hoặc có được năng lực (kiến thức, kỹ năng, khả năng) phù hợp vị trí và mức kinh nghiệm, hiểu GIAS, và chỉ nhận dịch vụ mà mình có hoặc có thể có năng lực. CAE bảo đảm chức năng có tổng thể năng lực để thực hiện các dịch vụ trong điều lệ, hoặc bổ sung từ bên ngoài.",
+          "Phát triển nghề nghiệp liên tục là bắt buộc; người có chứng chỉ nghề nghiệp kiểm toán nội bộ phải tuân thủ chính sách CPE của chứng chỉ."
+        ]
+      },
+      {
+        "heading": "Các kỹ năng trong syllabus",
+        "body": [
+          "Giao tiếp viết và nói: báo cáo, cuộc họp, thuyết trình hiệu quả. Tư duy phản biện và giải quyết vấn đề: xử lý vấn đề phức tạp, tìm giải pháp mới. Nghiên cứu: thu thập thông tin từ nhiều nguồn, mở rộng hiểu biết.",
+          "Thuyết phục và đàm phán: quản lý bất đồng (ví dụ về phát hiện, kế hoạch hành động), hợp tác với đồng nghiệp và bên liên quan. Xây dựng quan hệ: tạo lòng tin, uy tín. Quản lý thay đổi: thích ứng với môi trường biến động. Tò mò: tìm hiểu thông tin mới, học hỏi liên tục.",
+          "Nhận diện khi nào cần phát triển thêm: được giao lĩnh vực mới (an ninh mạng, ESG, trí tuệ nhân tạo), chuẩn mực thay đổi, phản hồi giám sát cho thấy thiếu kỹ năng."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Thiếu năng lực: xử lý thế nào",
+      "columns": [
+        "Tình huống",
+        "Cách xử lý phù hợp",
+        "Cách xử lý sai"
+      ],
+      "rows": [
+        [
+          "Nhóm thiếu kỹ năng phân tích dữ liệu",
+          "Đào tạo, thuê chuyên gia, bổ sung nhân sự",
+          "Bỏ thủ tục phân tích"
+        ],
+        [
+          "Cần đánh giá mô hình định giá phức tạp",
+          "Thuê chuyên gia, đánh giá năng lực và khách quan của họ",
+          "Nhờ chính người xây mô hình tự đánh giá"
+        ],
+        [
+          "Chuẩn mực mới ban hành",
+          "CPD, cập nhật phương pháp luận",
+          "Chờ đánh giá bên ngoài chỉ ra"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Phát hiện đúng nhưng bị bác bỏ",
+      "scenario": "Kiểm toán viên phát hiện quy trình phê duyệt tín dụng yếu, nhưng trình bày bằng ngôn ngữ trách móc; Giám đốc tín dụng phản ứng và từ chối mọi khuyến nghị.",
+      "analysis": "Vấn đề nằm ở kỹ năng giao tiếp, thuyết phục, xây dựng quan hệ, chứ không ở nội dung. Cách làm tốt hơn: trình bày dựa trên dữ kiện và rủi ro, ghi nhận điểm làm tốt, cùng Ban điều hành tìm nguyên nhân gốc rễ, đề xuất giải pháp khả thi. Nếu vẫn bất đồng, theo phương pháp đã định để hai bên trình bày quan điểm (GIAS 14.4)."
+    },
+    "checks": [
+      {
+        "q": "Ai chịu trách nhiệm về năng lực tổng thể của chức năng kiểm toán?",
+        "a": "CAE (GIAS 3.1)."
+      },
+      {
+        "q": "Kể bốn kỹ năng mềm trong syllabus.",
+        "a": "Giao tiếp, tư duy phản biện, nghiên cứu, thuyết phục và đàm phán, xây dựng quan hệ, quản lý thay đổi, tò mò."
+      },
+      {
+        "q": "Người có CIA phải làm gì về đào tạo liên tục?",
+        "a": "Tuân thủ chính sách và yêu cầu CPE của chứng chỉ (GIAS 3.2)."
+      }
     ]
   },
   {
@@ -1159,6 +1443,78 @@
       "GIAS 4.2",
       "GIAS 4.3",
       "GIAS 15.1"
+    ],
+    "details": [
+      {
+        "heading": "Ba thành phần của Nguyên tắc 4",
+        "body": [
+          "Thận trọng nghề nghiệp đúng mức gồm: tuân thủ GIAS (4.1); cân nhắc bản chất, hoàn cảnh và yêu cầu của công việc (4.2); áp dụng hoài nghi nghề nghiệp (4.3). Tiêu chuẩn đo là sự cẩn trọng, xét đoán và hoài nghi của một kiểm toán viên thận trọng, có năng lực. GIAS nói rõ kiểm toán viên không được kỳ vọng là không thể sai."
+        ]
+      },
+      {
+        "heading": "Các yếu tố phải cân nhắc (GIAS 4.2)",
+        "body": [
+          "Chiến lược và mục tiêu của tổ chức. Lợi ích của người nhận dịch vụ và các bên liên quan khác. Mức đầy đủ và hiệu quả của quản trị, rủi ro, kiểm soát. Chi phí so với lợi ích tiềm năng của dịch vụ. Phạm vi và thời gian cần để đạt mục tiêu. Độ phức tạp, trọng yếu hoặc mức độ của rủi ro. Khả năng có sai sót, gian lận, không tuân thủ trọng yếu. Kỹ thuật, công cụ, công nghệ phù hợp.",
+          "Syllabus nhấn mạnh bốn yếu tố: chiến lược và mục tiêu; quản trị, rủi ro, kiểm soát; chi phí so với lợi ích; khả năng có sai sót, gian lận, không tuân thủ."
+        ]
+      },
+      {
+        "heading": "Hoài nghi nghề nghiệp (GIAS 4.3)",
+        "body": [
+          "Bốn yêu cầu: duy trì thái độ tò mò; đánh giá phê phán độ tin cậy của thông tin; thẳng thắn, trung thực khi nêu quan ngại và hỏi về thông tin mâu thuẫn; tìm thêm bằng chứng khi thông tin có thể không đầy đủ, mâu thuẫn, sai hoặc gây hiểu lầm.",
+          "Hoài nghi không có nghĩa là mặc định mọi người gian lận, cũng không phải tin vào thẩm quyền của người giải trình. Syllabus mô tả là thái độ tinh thần không thiên lệch và đánh giá phê phán độ tin cậy của thông tin."
+        ]
+      },
+      {
+        "heading": "Khi không tuân thủ được GIAS (GIAS 4.1)",
+        "body": [
+          "CAE ghi nhận và trao đổi về hoàn cảnh, hành động thay thế, ảnh hưởng và lý do. Trong một cuộc kiểm toán, báo cáo cuối phải nêu chuẩn mực không tuân thủ, lý do và ảnh hưởng đến kết quả (GIAS 15.1). Phương pháp luận của chức năng phải phù hợp GIAS và được tuân theo."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Hoài nghi nghề nghiệp: đúng và sai",
+      "columns": [
+        "Hành vi",
+        "Đánh giá"
+      ],
+      "rows": [
+        [
+          "Hỏi thêm và tìm chứng từ khi số liệu không khớp giải trình",
+          "Đúng: tìm thêm bằng chứng"
+        ],
+        [
+          "Chấp nhận giải trình vì người nói là Phó Tổng Giám đốc",
+          "Sai: thẩm quyền không thay bằng chứng"
+        ],
+        [
+          "Coi mọi nhân viên là nghi phạm",
+          "Sai: không phải thái độ không thiên lệch"
+        ],
+        [
+          "Nói thẳng với quản lý về điểm mâu thuẫn trong dữ liệu",
+          "Đúng: thẳng thắn khi nêu quan ngại"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Báo cáo tồn kho 'đã được kiểm tra'",
+      "scenario": "Trưởng kho đưa kiểm toán viên biên bản kiểm kê có chữ ký đầy đủ, khớp 100% với sổ sách ở mọi mã hàng, kể cả hàng dễ hỏng, trong năm có nhiều đợt hư hỏng được báo cáo.",
+      "analysis": "Khớp tuyệt đối trong bối cảnh có hư hỏng là bất thường. Hoài nghi nghề nghiệp đòi hỏi kiểm toán viên chứng thực: tự quan sát kiểm kê mẫu, đối chiếu biên bản hư hỏng, xem ai lập biên bản. Không kết luận gian lận ngay, nhưng không chấp nhận chỉ vì có chữ ký."
+    },
+    "checks": [
+      {
+        "q": "Ba thành phần của Nguyên tắc 4?",
+        "a": "Tuân thủ GIAS (4.1), cân nhắc bản chất và yêu cầu công việc (4.2), hoài nghi nghề nghiệp (4.3)."
+      },
+      {
+        "q": "Thận trọng nghề nghiệp có đòi hỏi không bao giờ sai không?",
+        "a": "Không; GIAS nêu kiểm toán viên không được kỳ vọng là không thể sai."
+      },
+      {
+        "q": "Kể bốn yêu cầu của hoài nghi nghề nghiệp.",
+        "a": "Tò mò; đánh giá phê phán độ tin cậy; thẳng thắn khi hỏi về thông tin mâu thuẫn; tìm thêm bằng chứng khi thông tin có thể sai lệch."
+      }
     ]
   },
   {
@@ -1192,6 +1548,74 @@
       "GIAS 5.1",
       "GIAS 5.2",
       "GIAS Principle 5"
+    ],
+    "details": [
+      {
+        "heading": "Vì sao bảo mật là nguyên tắc riêng",
+        "body": [
+          "Kiểm toán viên có quyền tiếp cận không hạn chế nên thường nhận thông tin mật, độc quyền hoặc dữ liệu cá nhân, ở dạng giấy, số và cả lời nói trong cuộc họp. Họ phải tôn trọng giá trị và quyền sở hữu thông tin, chỉ dùng cho mục đích nghề nghiệp và bảo vệ khỏi tiếp cận, tiết lộ trái phép (Nguyên tắc 5)."
+        ]
+      },
+      {
+        "heading": "Áp dụng chính sách, luật và phương pháp luận",
+        "body": [
+          "GIAS 5.1: tuân thủ chính sách, thủ tục, luật khi sử dụng thông tin; không dùng vì lợi ích cá nhân hoặc theo cách gây hại cho mục tiêu hợp pháp của tổ chức.",
+          "GIAS 5.2: hiểu và tuân thủ luật, chính sách về bảo mật, quyền riêng tư, an toàn thông tin của tổ chức và chức năng kiểm toán. Phương pháp luận của chức năng phải quy định: lưu giữ, lưu trữ và hủy hồ sơ; phát hành hồ sơ cho bên trong và bên ngoài; xử lý bản sao thông tin mật khi không còn cần."
+        ]
+      },
+      {
+        "heading": "Tôn trọng quyền riêng tư và quyền sở hữu thông tin",
+        "body": [
+          "Chỉ lấy dữ liệu cần cho mục tiêu kiểm toán; ẩn danh hóa khi có thể; không chia sẻ cho người không có nhu cầu; không mang dữ liệu ra ngoài hệ thống được phép.",
+          "Không tiết lộ cho bên không có thẩm quyền, trừ khi có trách nhiệm pháp lý hoặc nghề nghiệp. Trước khi phát hành kết quả ra ngoài tổ chức, CAE tham vấn pháp chế và/hoặc Ban điều hành, trừ khi luật quy định khác (GIAS 11.3)."
+        ]
+      },
+      {
+        "heading": "Biện pháp bảo vệ thông tin",
+        "body": [
+          "Mã hóa thiết bị và tệp, phân quyền truy cập phần mềm hồ sơ kiểm toán, lưu trữ trên hệ thống được phê duyệt, chính sách bàn sạch, hủy bản sao an toàn. Quản lý rủi ro lộ thông tin vô ý (gửi nhầm email, chia sẻ màn hình).",
+          "CAE bảo đảm người hỗ trợ chức năng kiểm toán (chuyên gia, bên thuê ngoài, thực tập sinh) tuân thủ cùng yêu cầu bảo vệ."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Hai chuẩn mực của Nguyên tắc 5",
+      "columns": [
+        "Chuẩn mực",
+        "Trọng tâm",
+        "Ví dụ vi phạm"
+      ],
+      "rows": [
+        [
+          "5.1 Sử dụng thông tin",
+          "Dùng đúng mục đích, đúng luật, không vì lợi ích riêng",
+          "Mua cổ phiếu khi biết trước thông tin sáp nhập"
+        ],
+        [
+          "5.2 Bảo vệ thông tin",
+          "Bảo mật, quyền riêng tư, an toàn; chính sách lưu giữ, phát hành hồ sơ",
+          "Để quên laptop chứa dữ liệu lương không mã hóa"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Cơ quan quản lý yêu cầu hồ sơ kiểm toán",
+      "scenario": "Thanh tra chuyên ngành yêu cầu kiểm toán nội bộ gửi toàn bộ hồ sơ cuộc kiểm toán tín dụng năm trước trong 48 giờ.",
+      "analysis": "Không từ chối máy móc và không gửi ngay toàn bộ. CAE tham vấn pháp chế để xác định nghĩa vụ pháp lý và phạm vi phải cung cấp, áp dụng chính sách phát hành hồ sơ, ghi nhận những gì đã cung cấp. Không chọn lọc chỉ phần có lợi cho tổ chức."
+    },
+    "checks": [
+      {
+        "q": "GIAS 5.1 cấm sử dụng thông tin theo hai cách nào?",
+        "a": "Vì lợi ích cá nhân; theo cách trái hoặc gây hại cho mục tiêu hợp pháp, đạo đức của tổ chức."
+      },
+      {
+        "q": "Kể ba nội dung phương pháp luận cần quy định về hồ sơ kiểm toán.",
+        "a": "Lưu giữ, lưu trữ, hủy hồ sơ; phát hành hồ sơ cho bên trong và ngoài; xử lý bản sao thông tin mật khi không còn cần."
+      },
+      {
+        "q": "Ai phải tuân thủ cùng yêu cầu bảo vệ thông tin như kiểm toán viên?",
+        "a": "Mọi người hỗ trợ chức năng kiểm toán, như chuyên gia, bên thuê ngoài (GIAS 5.2)."
+      }
     ]
   },
   {
@@ -2154,6 +2578,79 @@
       "GIAS - Glossary",
       "ACFE Occupational Fraud Tree",
       "CIA Part 1 D.1"
+    ],
+    "details": [
+      {
+        "heading": "Tam giác gian lận",
+        "body": [
+          "Mô hình của Donald Cressey cho rằng gian lận thường xảy ra khi có đủ ba yếu tố. Động cơ hoặc áp lực (syllabus gọi là motivation): nợ nần, chỉ tiêu quá cao, thưởng gắn với kết quả, lối sống. Cơ hội: kiểm soát yếu, thiếu phân chia trách nhiệm, thiếu giám sát, quyền vượt kiểm soát. Hợp lý hóa: tự biện minh ('chỉ mượn tạm', 'công ty nợ mình', 'ai cũng làm').",
+          "Tổ chức khó tác động vào áp lực và hợp lý hóa của từng cá nhân, nhưng kiểm soát được cơ hội. Vì vậy kiểm soát nội bộ chủ yếu nhằm giảm cơ hội. Kim cương gian lận (Wolfe và Hermanson) bổ sung yếu tố năng lực: vị trí, hiểu biết để khai thác lỗ hổng, sự tự tin và khả năng che giấu."
+        ]
+      },
+      {
+        "heading": "Nhận diện rủi ro gian lận",
+        "body": [
+          "Glossary GIAS: gian lận là hành vi cố ý có tính lừa dối, che giấu, không trung thực, chiếm đoạt tài sản hoặc thông tin, giả mạo hoặc lạm dụng lòng tin, do cá nhân hoặc tổ chức thực hiện để đạt lợi thế bất chính.",
+          "Rủi ro gian lận cao ở nơi: tiền và tài sản dễ chuyển đổi; ước tính kế toán nhiều xét đoán; giao dịch với bên liên quan; quyền lực tập trung; áp lực kết quả lớn; hệ thống cho phép sửa dữ liệu mà không để lại dấu vết."
+        ]
+      },
+      {
+        "heading": "Các thủ đoạn phổ biến theo cây gian lận ACFE",
+        "body": [
+          "Ba nhóm: biển thủ tài sản (phổ biến nhất, thiệt hại trung vị thấp nhất); tham nhũng; gian lận báo cáo tài chính (ít nhất nhưng thiệt hại trung vị cao nhất, khoảng 766.000 USD trong báo cáo ACFE 2024).",
+          "Biển thủ tiền thu: skimming (lấy trước khi ghi sổ, khó phát hiện qua đối chiếu sổ), larceny (lấy sau khi đã ghi sổ), lapping (dùng tiền khách sau bù cho khách trước). Chi tiền gian lận: hóa đơn khống hoặc nhà cung cấp ma, công ty trung gian đội giá (pass-through), nhân viên ma, hoàn ứng chi phí trùng hoặc khống, giả mạo séc.",
+          "Tham nhũng: hối lộ (bên ngoài chủ động trả), lại quả (kickback), tống tiền kinh tế (nhân viên ép bên ngoài phải chi), xung đột lợi ích không công bố, thông thầu.",
+          "Gian lận báo cáo tài chính: ghi nhận doanh thu sớm hoặc khống (nhồi kênh phân phối, bill-and-hold), dự phòng hũ bánh quy để làm mượt lợi nhuận, vốn hóa chi phí sai, che giấu nợ, công bố thiếu."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Ba nhóm gian lận nghề nghiệp (ACFE)",
+      "columns": [
+        "Nhóm",
+        "Tần suất",
+        "Thiệt hại trung vị",
+        "Ví dụ"
+      ],
+      "rows": [
+        [
+          "Biển thủ tài sản",
+          "Cao nhất",
+          "Thấp nhất",
+          "Skimming, lapping, nhân viên ma, hoàn ứng khống"
+        ],
+        [
+          "Tham nhũng",
+          "Trung bình",
+          "Trung bình",
+          "Hối lộ, lại quả, xung đột lợi ích"
+        ],
+        [
+          "Gian lận BCTC",
+          "Thấp nhất",
+          "Cao nhất",
+          "Nhồi kênh, bill-and-hold, cookie jar, vốn hóa chi phí sai"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Kế toán gương mẫu không bao giờ nghỉ phép",
+      "scenario": "Kế toán công nợ 12 năm, chưa từng nghỉ phép, tự nhận việc gửi thư nhắc nợ. Gần đây mua nhà, xe đắt tiền. Một số khách hàng than phiền khoản đã trả vẫn bị ghi nợ quá hạn.",
+      "analysis": "Đủ ba yếu tố: áp lực hoặc lối sống (tài sản mới), cơ hội (một người nắm cả thu tiền, ghi sổ, nhắc nợ), và dấu hiệu che giấu (không nghỉ phép). Than phiền của khách hàng phù hợp thủ đoạn lapping. Kiểm toán viên báo CAE; thủ tục phù hợp: xác nhận công nợ trực tiếp với khách hàng, so ngày nộp tiền với ngày ghi có."
+    },
+    "checks": [
+      {
+        "q": "Yếu tố nào trong tam giác gian lận tổ chức kiểm soát được nhiều nhất?",
+        "a": "Cơ hội, thông qua kiểm soát nội bộ."
+      },
+      {
+        "q": "Skimming và larceny khác nhau thế nào?",
+        "a": "Skimming lấy tiền trước khi giao dịch được ghi sổ; larceny lấy sau khi đã ghi sổ."
+      },
+      {
+        "q": "Nhóm gian lận nào có thiệt hại trung vị cao nhất?",
+        "a": "Gian lận báo cáo tài chính."
+      }
     ]
   },
   {
@@ -2187,6 +2684,77 @@
       "GIAS 13.2",
       "GIAS 9.4",
       "IPPF 2017 1210.A2"
+    ],
+    "details": [
+      {
+        "heading": "Nhận diện rủi ro gian lận khi lập kế hoạch",
+        "body": [
+          "GIAS 13.2 yêu cầu khi đánh giá rủi ro cuộc kiểm toán phải xem xét cụ thể các rủi ro liên quan đến gian lận. Ở cấp kế hoạch năm, GIAS 9.4 yêu cầu kế hoạch kiểm toán xem xét bao phủ rủi ro gian lận.",
+          "Cách làm: hiểu quy trình, xác định ai có thể gian lận, bằng thủ đoạn nào, che giấu ra sao (kịch bản gian lận); xem kiểm soát hiện có có ngăn hoặc phát hiện được kịch bản đó không; thiết kế thủ tục để kiểm tra các điểm yếu. Luôn xem xét nguy cơ Ban điều hành lạm quyền bỏ qua kiểm soát."
+        ]
+      },
+      {
+        "heading": "Quy trình có mức độ tiếp xúc rủi ro gian lận cao",
+        "body": [
+          "Thu tiền và tiền mặt; mua hàng và thanh toán (nhà cung cấp ma, lại quả, chia nhỏ đơn hàng); dữ liệu chủ nhà cung cấp và nhân viên; bảng lương; hoàn ứng chi phí, thẻ tín dụng công ty; ghi nhận doanh thu và khóa sổ cuối kỳ; tồn kho và tài sản dễ di chuyển; ước tính kế toán (dự phòng, giảm giá).",
+          "Yếu tố làm tăng rủi ro: thay đổi nhân sự hoặc hệ thống, áp lực chỉ tiêu cuối kỳ, giao dịch bất thường, bộ phận ở xa ít giám sát."
+        ]
+      },
+      {
+        "heading": "Giới hạn trách nhiệm của kiểm toán viên",
+        "body": [
+          "Kiểm toán viên cần đủ hiểu biết để đánh giá rủi ro gian lận và nhận ra dấu hiệu, nhưng không cần chuyên môn của người có trách nhiệm chính là điều tra gian lận (IPPF 2017 1210.A2). Thận trọng nghề nghiệp không bảo đảm phát hiện mọi gian lận, nhưng đòi hỏi cân nhắc khả năng có gian lận trọng yếu (GIAS 4.2)."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Kịch bản gian lận theo quy trình",
+      "columns": [
+        "Quy trình",
+        "Kịch bản điển hình",
+        "Thủ tục kiểm tra gợi ý"
+      ],
+      "rows": [
+        [
+          "Mua hàng",
+          "Nhà cung cấp ma, chia nhỏ đơn dưới hạn mức",
+          "So dữ liệu nhà cung cấp với nhân viên; tìm đơn sát hạn mức"
+        ],
+        [
+          "Bảng lương",
+          "Nhân viên ma, nghỉ việc vẫn nhận lương",
+          "Đối chiếu bảng lương với hồ sơ nhân sự, tài khoản trùng"
+        ],
+        [
+          "Doanh thu",
+          "Ghi doanh thu sớm cuối kỳ",
+          "Kiểm tra giao dịch cuối kỳ, hàng trả lại đầu kỳ sau"
+        ],
+        [
+          "Chi phí",
+          "Hoàn ứng trùng, hóa đơn khống",
+          "Tìm hóa đơn trùng, số tiền tròn, ngày nghỉ lễ"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Kiểm toán quy trình mua hàng ở công ty con mới mua",
+      "scenario": "Công ty vừa mua một công ty con. Quy trình mua hàng ở đó chưa được tích hợp vào ERP, người phê duyệt cũng là người chọn nhà cung cấp.",
+      "analysis": "Rủi ro gian lận cao (thay đổi, kiểm soát yếu, tập trung quyền). Khi lập kế hoạch: liệt kê kịch bản (lại quả, nhà cung cấp ma, đội giá), đưa vào đánh giá rủi ro cuộc kiểm toán (GIAS 13.2), thiết kế thủ tục như phân tích giá mua so với thị trường, kiểm tra quan hệ giữa nhân viên và nhà cung cấp."
+    },
+    "checks": [
+      {
+        "q": "Chuẩn mực nào yêu cầu xem xét cụ thể rủi ro gian lận khi đánh giá rủi ro cuộc kiểm toán?",
+        "a": "GIAS 13.2."
+      },
+      {
+        "q": "Rủi ro gian lận nào phải luôn được xem xét ở mọi tổ chức?",
+        "a": "Ban điều hành lạm quyền bỏ qua kiểm soát (management override)."
+      },
+      {
+        "q": "Kể ba quy trình có mức độ tiếp xúc rủi ro gian lận cao.",
+        "a": "Thu tiền, mua hàng và thanh toán, bảng lương, hoàn ứng chi phí, doanh thu cuối kỳ, tồn kho."
+      }
     ]
   },
   {
@@ -2221,6 +2789,75 @@
       "COSO/ACFE Fraud Risk Management Guide",
       "COSO 2013 Principle 8",
       "ACFE Report to the Nations"
+    ],
+    "details": [
+      {
+        "heading": "Đánh giá quy trình quản lý rủi ro gian lận",
+        "body": [
+          "Hướng dẫn Quản lý Rủi ro Gian lận của COSO và ACFE nêu 5 nguyên tắc: (1) quản trị rủi ro gian lận (cam kết của HĐQT, Ban điều hành, chính sách); (2) đánh giá rủi ro gian lận định kỳ; (3) kiểm soát phòng ngừa và phát hiện; (4) điều tra và hành động khắc phục; (5) giám sát và cải tiến.",
+          "COSO 2013 Nguyên tắc 8 yêu cầu xem xét khả năng gian lận khi đánh giá rủi ro, gồm báo cáo gian lận, biển thủ tài sản, tham nhũng, lạm quyền của Ban điều hành, và cân nhắc áp lực, cơ hội, thái độ.",
+          "Kiểm toán viên đánh giá xem tổ chức có đánh giá rủi ro gian lận không, kịch bản có đủ không, kiểm soát có tương ứng với kịch bản không, kênh tố giác có hoạt động và được tin tưởng không, và vụ việc có được điều tra, xử lý nhất quán không."
+        ]
+      },
+      {
+        "heading": "Cờ đỏ ở cấp tổ chức và cấp quy trình",
+        "body": [
+          "Cấp tổ chức: chỉ tiêu tài chính phi thực tế; thưởng gắn chặt với kết quả ngắn hạn; Ban điều hành chi phối, ít giám sát của HĐQT; cơ cấu phức tạp bất thường; thay đổi kiểm toán độc lập, pháp chế, CFO thường xuyên; kết quả kinh doanh tốt bất thường so với ngành.",
+          "Cấp quy trình và cá nhân: chứng từ thiếu, bị sửa, bản sao thay bản gốc; giao dịch bất thường cuối kỳ; số tiền tròn hoặc sát hạn mức; một nhà cung cấp luôn thắng thầu; nhân viên sống vượt thu nhập, quan hệ quá thân với nhà cung cấp, không chịu nghỉ phép hoặc chia sẻ công việc.",
+          "Theo báo cáo ACFE 2024, tố giác là phương thức phát hiện gian lận phổ biến nhất (43% số vụ), hơn một nửa số tố giác đến từ nhân viên."
+        ]
+      },
+      {
+        "heading": "Báo cáo cờ đỏ phát hiện trong cuộc kiểm toán",
+        "body": [
+          "Cờ đỏ chỉ là dấu hiệu cần điều tra thêm, không phải bằng chứng. Kiểm toán viên ghi nhận, báo CAE kịp thời; CAE báo cho các bên phù hợp theo chính sách (Ban điều hành cấp phù hợp, pháp chế, Ủy ban Kiểm toán nếu liên quan lãnh đạo cấp cao).",
+          "Không cảnh báo người bị nghi ngờ, không tự mở rộng thành điều tra khi chưa được giao, và bảo vệ bằng chứng."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Cờ đỏ theo yếu tố của tam giác gian lận",
+      "columns": [
+        "Yếu tố",
+        "Cờ đỏ ví dụ"
+      ],
+      "rows": [
+        [
+          "Áp lực",
+          "Chỉ tiêu phi thực tế, nợ cá nhân, thưởng theo kết quả quý"
+        ],
+        [
+          "Cơ hội",
+          "Một người nắm toàn bộ giao dịch, không nghỉ phép, kiểm soát bị bỏ qua"
+        ],
+        [
+          "Hợp lý hóa",
+          "Thái độ bất mãn, coi thường quy định, 'ai cũng làm'"
+        ],
+        [
+          "Dấu hiệu che giấu",
+          "Chứng từ bị sửa, bản sao thay bản gốc, giải trình mâu thuẫn"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Doanh thu tăng mạnh khi ngành suy giảm",
+      "scenario": "Chi nhánh miền Nam báo doanh thu tăng 35% trong khi toàn ngành giảm 10%. Giám đốc chi nhánh nhận thưởng lớn theo doanh thu, và hàng trả lại tháng đầu năm sau tăng gấp bốn.",
+      "analysis": "Cờ đỏ cấp tổ chức (kết quả bất thường so với ngành, thưởng theo doanh thu) và cấp quy trình (hàng trả lại tăng mạnh sau kỳ). Phù hợp với nhồi kênh phân phối. Kiểm toán viên báo CAE, đề xuất kiểm tra hợp đồng, điều khoản trả lại, xác nhận với đại lý; không kết luận gian lận khi chưa có bằng chứng."
+    },
+    "checks": [
+      {
+        "q": "Năm nguyên tắc của Hướng dẫn Quản lý Rủi ro Gian lận COSO/ACFE?",
+        "a": "Quản trị rủi ro gian lận; đánh giá rủi ro gian lận; kiểm soát phòng ngừa và phát hiện; điều tra và hành động khắc phục; giám sát."
+      },
+      {
+        "q": "Phương thức phát hiện gian lận phổ biến nhất theo ACFE 2024 là gì?",
+        "a": "Tố giác (43% số vụ)."
+      },
+      {
+        "q": "Kiểm toán viên làm gì khi thấy cờ đỏ?",
+        "a": "Ghi nhận và báo CAE kịp thời; CAE báo các bên phù hợp theo chính sách; không cảnh báo người bị nghi, không tự điều tra khi chưa được giao."
+      }
     ]
   },
   {
@@ -2259,6 +2896,79 @@
     "refs": [
       "CIA Part 1 D.4",
       "COSO 2013"
+    ],
+    "details": [
+      {
+        "heading": "Tone at the top",
+        "body": [
+          "Hành vi của lãnh đạo ảnh hưởng trực tiếp đến khả năng xảy ra gian lận: lãnh đạo tuân thủ quy trình, xử lý vi phạm nhất quán (kể cả với người giỏi kinh doanh), không đặt chỉ tiêu phi thực tế sẽ giảm áp lực và hợp lý hóa. Ngược lại, lãnh đạo bỏ qua kiểm soát tạo tín hiệu cho toàn tổ chức."
+        ]
+      },
+      {
+        "heading": "Phân chia trách nhiệm và hạn mức thẩm quyền",
+        "body": [
+          "Phân chia bốn chức năng: phê duyệt, ghi chép, giữ tài sản, đối chiếu. Ví dụ: người tạo nhà cung cấp không được thanh toán; người nhận hàng khác người ghi sổ phải trả; người giữ tiền không đối chiếu ngân hàng; người cập nhật hồ sơ nhân sự khác người tính lương.",
+          "Phân chia trách nhiệm không ngăn được thông đồng; cần kết hợp giám sát và phân tích dữ liệu.",
+          "Hạn mức thẩm quyền: mỗi cấp chỉ phê duyệt đến một giá trị nhất định, giao dịch lớn cần cấp cao hơn hoặc hai người. Cần kiểm tra việc chia nhỏ giao dịch để né hạn mức."
+        ]
+      },
+      {
+        "heading": "Kiểm soát phát hiện phổ biến",
+        "body": [
+          "Đường dây nóng tố giác: ẩn danh, độc lập với Ban điều hành bị phản ánh, có cơ chế báo cáo vụ việc liên quan lãnh đạo lên Ủy ban Kiểm toán, cam kết không trả thù.",
+          "Đối chiếu: ngân hàng, công nợ, tồn kho, tài khoản trung gian, do người độc lập thực hiện. Rà soát của cấp trên: xem báo cáo ngoại lệ, chi phí bất thường, giao dịch cuối kỳ.",
+          "Bổ trợ: nghỉ phép bắt buộc và luân chuyển (làm gián đoạn thủ đoạn cần duy trì liên tục như lapping); phân tích dữ liệu liên tục; xác nhận trực tiếp với bên thứ ba; Positive Pay với ngân hàng; đóng dấu 'đã thanh toán' lên chứng từ."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Kiểm soát phòng ngừa và phát hiện gian lận",
+      "columns": [
+        "Rủi ro",
+        "Phòng ngừa",
+        "Phát hiện"
+      ],
+      "rows": [
+        [
+          "Nhà cung cấp ma",
+          "Tách quyền tạo nhà cung cấp và thanh toán; thẩm định trước",
+          "So tài khoản, địa chỉ với nhân viên; rà soát nhà cung cấp mới"
+        ],
+        [
+          "Nhân viên ma",
+          "Tách nhân sự và tính lương",
+          "Đối chiếu bảng lương với hồ sơ; tài khoản nhận lương trùng"
+        ],
+        [
+          "Hoàn ứng trùng",
+          "Yêu cầu chứng từ gốc, đóng dấu đã thanh toán",
+          "Đối chiếu sao kê thẻ công ty với hoàn ứng"
+        ],
+        [
+          "Lapping",
+          "Tách thu tiền và ghi sổ công nợ",
+          "Xác nhận công nợ trực tiếp; nghỉ phép bắt buộc"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Đường dây nóng do thư ký Tổng Giám đốc quản lý",
+      "scenario": "Công ty có đường dây nóng, nhưng email nhận tố giác do thư ký của Tổng Giám đốc đọc và phân loại. Hai năm qua không có tố giác nào liên quan đến Ban điều hành.",
+      "analysis": "Thiết kế không độc lập: người tố giác lo sợ bị lộ danh tính, và vụ việc liên quan Tổng Giám đốc có thể bị chặn. Khuyến nghị: kênh do bên thứ ba hoặc bộ phận độc lập tiếp nhận, cho phép ẩn danh, quy trình chuyển thẳng vụ việc liên quan lãnh đạo lên Ủy ban Kiểm toán, truyền thông về cam kết không trả thù."
+    },
+    "checks": [
+      {
+        "q": "Kiểm soát nào làm gián đoạn thủ đoạn lapping?",
+        "a": "Nghỉ phép bắt buộc, luân chuyển công việc, xác nhận công nợ trực tiếp với khách hàng."
+      },
+      {
+        "q": "Phân chia trách nhiệm có ngăn được thông đồng không?",
+        "a": "Không; cần kết hợp giám sát và phân tích dữ liệu."
+      },
+      {
+        "q": "Đường dây nóng hiệu quả cần những đặc điểm nào?",
+        "a": "Ẩn danh, độc lập với người bị phản ánh, chuyển vụ việc liên quan lãnh đạo lên Ủy ban Kiểm toán, cam kết không trả thù."
+      }
     ]
   },
   {
@@ -2297,6 +3007,85 @@
     "refs": [
       "CIA Part 1 D.5",
       "ACFE Fraud Examiners Manual"
+    ],
+    "details": [
+      {
+        "heading": "Vai trò của kiểm toán nội bộ trong điều tra",
+        "body": [
+          "Vai trò do điều lệ và chính sách tổ chức quy định: có thể dẫn dắt, tham gia hoặc chỉ phối hợp với bộ phận điều tra, pháp chế, chuyên gia bên ngoài. Domain V của GIAS nêu dịch vụ điều tra (forensic) là một ví dụ dịch vụ tư vấn.",
+          "Dù vai trò nào, kiểm toán viên cần năng lực phù hợp (GIAS 3.1), tham vấn pháp chế trước những bước có hệ quả pháp lý, và bảo vệ bằng chứng. Sau vụ việc, kiểm toán nội bộ thường đánh giá kiểm soát đã thất bại ở đâu và đề xuất khắc phục."
+        ]
+      },
+      {
+        "heading": "Kỹ thuật phỏng vấn",
+        "body": [
+          "Trình tự: nhân chứng trung lập, đến người có thể xác nhận thông tin, đến người có thể đồng phạm, cuối cùng là đối tượng nghi vấn. Mục đích: có đủ thông tin trước khi phỏng vấn người liên quan nhất và tránh để họ tiêu hủy bằng chứng.",
+          "Phỏng vấn thu thập thông tin dùng câu hỏi mở, không buộc tội. Phỏng vấn nhằm thu nhận thừa nhận (admission-seeking) chỉ thực hiện khi đã có bằng chứng đáng kể, thường có hai người phỏng vấn và theo tư vấn pháp lý.",
+          "Ghi nhận đầy đủ, chính xác; tôn trọng quyền của người được phỏng vấn theo luật lao động và quy định nội bộ."
+        ]
+      },
+      {
+        "heading": "Kỹ thuật điều tra và kiểm tra gian lận",
+        "body": [
+          "Điều tra: xem xét tài liệu và dữ liệu điện tử, truy dấu dòng tiền, kiểm tra quan hệ giữa các bên, xác nhận với bên thứ ba, giám định chữ ký hoặc chứng từ khi cần. Bảo toàn chuỗi lưu giữ bằng chứng (chain of custody) để bằng chứng có giá trị pháp lý.",
+          "Phương pháp kiểm tra bằng dữ liệu: định luật Benford (phân phối chữ số đầu, chữ số 1 xuất hiện khoảng 30%); tìm giao dịch trùng lặp; khoảng trống trong dãy số thứ tự; giá trị sát hạn mức, số tròn; giao dịch ngoài giờ, ngày nghỉ; so khớp dữ liệu chủ nhà cung cấp với nhân viên."
+        ]
+      },
+      {
+        "heading": "Phối hợp với người điều tra",
+        "body": [
+          "Kiểm toán nội bộ nên xem đánh giá rủi ro, kết quả các vụ điều tra trước, xu hướng điều tra và các khiếu nại tố giác để định hướng kế hoạch kiểm toán: khu vực nào lặp lại vấn đề, kiểm soát nào thường bị vượt qua."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Kiểm toán thông thường và điều tra gian lận",
+      "columns": [
+        "Tiêu chí",
+        "Kiểm toán nội bộ thông thường",
+        "Điều tra gian lận"
+      ],
+      "rows": [
+        [
+          "Mục tiêu",
+          "Đánh giá quản trị, rủi ro, kiểm soát",
+          "Xác định có gian lận không, ai, bao nhiêu, thế nào"
+        ],
+        [
+          "Khởi phát",
+          "Kế hoạch dựa trên rủi ro",
+          "Có cáo buộc hoặc nghi ngờ cụ thể"
+        ],
+        [
+          "Bằng chứng",
+          "Đủ để kết luận về kiểm soát",
+          "Đạt chuẩn pháp lý, giữ chuỗi lưu giữ"
+        ],
+        [
+          "Bên phối hợp",
+          "Ban điều hành đơn vị",
+          "Pháp chế, điều tra viên, có thể cơ quan chức năng"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Tố giác về trưởng phòng mua hàng",
+      "scenario": "Đường dây nóng nhận tố giác trưởng phòng mua hàng nhận lại quả từ một nhà cung cấp. Ủy ban Kiểm toán giao kiểm toán nội bộ phối hợp với pháp chế điều tra.",
+      "analysis": "Trình tự: bảo vệ dữ liệu mua hàng và email trước; phân tích giá, tần suất trúng thầu của nhà cung cấp; kiểm tra quan hệ sở hữu, tài khoản; phỏng vấn nhân viên mua hàng khác, rồi người phê duyệt, cuối cùng mới phỏng vấn trưởng phòng khi đã có bằng chứng. Giữ chuỗi lưu giữ bằng chứng và tham vấn pháp chế trước mỗi bước quan trọng."
+    },
+    "checks": [
+      {
+        "q": "Ai được phỏng vấn cuối cùng trong điều tra gian lận?",
+        "a": "Đối tượng nghi vấn."
+      },
+      {
+        "q": "Chuỗi lưu giữ bằng chứng là gì và vì sao quan trọng?",
+        "a": "Hồ sơ cho thấy bằng chứng được bảo quản nguyên vẹn từ khi thu thập; cần để bằng chứng có giá trị pháp lý."
+      },
+      {
+        "q": "Định luật Benford dùng để phát hiện điều gì?",
+        "a": "Tập số liệu có thể bị bịa đặt, dựa trên phân phối tự nhiên của chữ số đầu."
+      }
     ]
   }
 ]

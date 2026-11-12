@@ -41,7 +41,9 @@ Every rule below exists because the mistake it prevents already happened once in
 
 ## 3b. Lessons (`lessons.json`)
 
-- One lesson per syllabus topic: `topic`, `summary`, `points` (at least 3), `terms` (`term`, `vi`, `def`), `traps`, `refs`. Load with `add-questions.mjs <part> <file> --lessons`, which replaces the lesson by topic.
+- One lesson per syllabus topic: `topic`, `summary`, `points` (at least 3), `terms` (`term`, `vi`, `def`), `traps`, `refs`. Load with `add-questions.mjs <part> <file> --lessons`, which merges fields into the lesson for that topic.
+- Detailed lessons (required for Part 1, validator warns otherwise) also have: `details` (`heading` + `body[]`, one block per syllabus sub-item), `compare` (`title`, `columns`, `rows`, each row the same length as `columns`), `example` (`title`, `scenario`, `analysis`), `checks` (`q`, `a`).
+- Statistics (for example ACFE figures) must be verified against the latest report before use; when sources conflict, leave the figure out.
 - Follow the syllabus sub-items for the topic (the "May include" list in the IIA document) so nothing in the exam is missed.
 - Read the original GIAS text before writing GIAS-based content; take glossary definitions from the GIAS glossary. Write content from COSO, ISO, ACFE or IESBA under their own names.
 - Every question needs a `topic` so it shows up in its lesson's topic practice.
