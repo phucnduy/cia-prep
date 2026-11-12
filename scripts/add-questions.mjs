@@ -1,7 +1,8 @@
 // Append questions from a JSON file into public/data/<part>/questions-<section>.json.
 // Normalizes typography, validates the schema and refuses duplicate ids.
-// Usage: node scripts/add-questions.mjs <part> <file.json> [--study | --lessons]
-//   --study  treat the file as study cards and append to study.json instead.
+// Usage: node scripts/add-questions.mjs <part> <file.json> [--study | --lessons | --replace]
+//   --study    treat the file as study cards and append to study.json instead.
+//   --replace  rewrite existing questions in place (same id, section and topic).
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { normalizeText } from './text.mjs';
 import { questionProblems } from '../src/lib/validate.js';
@@ -53,13 +54,21 @@ if (flag === '--study') {
   process.exit(0);
 }
 
-const existingIds = new Set(sectionIds.flatMap((s) => readJson(`${dir}/questions-${s}.json`).map((q) => q.id)));
+const replace = flag === '--replace';
+const existing = Object.fromEntries(sectionIds.map((s) => [s, readJson(`${dir}/questions-${s}.json`)]));
+const existingIds = new Set(sectionIds.flatMap((s) => existing[s].map((q) => q.id)));
 const bySection = {};
 let failed = 0;
 for (const raw of incoming) {
   const q = deepNormalize(raw);
   const problems = questionProblems(q, sectionIds);
-  if (existingIds.has(q.id)) problems.push('duplicate id');
+  if (replace) {
+    // Rewrite in place: the id must exist in the same section and keep its topic,
+    // so saved progress and topic practice still point at the right question.
+    const old = existing[q.section]?.find((x) => x.id === q.id);
+    if (!old) problems.push('id not found in its section');
+    else if (old.topic !== q.topic) problems.push(`topic changed ${old.topic} -> ${q.topic}`);
+  } else if (existingIds.has(q.id)) problems.push('duplicate id');
   if (problems.length) {
     failed += 1;
     console.error(`x ${q.id || '(no id)'}: ${problems.join('; ')}`);
@@ -83,7 +92,13 @@ for (const raw of incoming) {
 
 for (const [section, list] of Object.entries(bySection)) {
   const path = `${dir}/questions-${section}.json`;
-  const merged = [...readJson(path), ...list];
+  if (replace) {
+    const byId = Object.fromEntries(list.map((q) => [q.id, q]));
+    writeJson(path, existing[section].map((q) => byId[q.id] ?? q));
+    console.log(`${path}: ${list.length} replaced`);
+    continue;
+  }
+  const merged = [...existing[section], ...list];
   writeJson(path, merged);
   console.log(`${path}: +${list.length} (total ${merged.length})`);
 }

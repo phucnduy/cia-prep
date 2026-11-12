@@ -4,23 +4,25 @@
     "section": "A",
     "topic": "A1",
     "difficulty": 2,
-    "stem": "Trong Khung Thực hành Chuyên môn Quốc tế (IPPF) cập nhật của IIA, cấu phần 'Các Yêu cầu theo Chủ đề' (Topical Requirements) có tính chất pháp lý như thế nào đối với kiểm toán viên nội bộ?",
+    "stem": "Kế hoạch năm có cuộc kiểm toán mà phạm vi bao gồm an ninh mạng, một chủ đề IIA đã ban hành Yêu cầu theo chủ đề (Topical Requirement). Trưởng nhóm đề xuất chỉ dùng chương trình kiểm toán nội bộ sẵn có vì 'đã quen và đủ tốt'. Nhận định nào đúng nhất?",
     "options": [
-      "Là hướng dẫn tham khảo; chức năng kiểm toán tự quyết định có áp dụng hay không tùy mức độ rủi ro.",
-      "Là yêu cầu bắt buộc khi kiểm toán chủ đề được quy định, áp dụng cùng với GIAS.",
-      "Chỉ bắt buộc với chức năng kiểm toán nội bộ của công ty niêm yết và tổ chức tài chính.",
-      "Thay thế các Chuẩn mực GIAS khi kiểm toán chủ đề tương ứng, nên không cần áp dụng GIAS."
+      "Được phép, vì Yêu cầu theo chủ đề chỉ là hướng dẫn tham khảo, chức năng tự quyết định có áp dụng hay không.",
+      "Phải áp dụng Yêu cầu theo chủ đề cho phần phạm vi đó, cùng với các yêu cầu của GIAS.",
+      "Chỉ phải áp dụng nếu cơ quan quản lý nhà nước yêu cầu kiểm toán an ninh mạng bằng văn bản.",
+      "Chỉ phải áp dụng khi cuộc kiểm toán do bên cung cấp dịch vụ bên ngoài thực hiện thay chức năng."
     ],
     "answer": 1,
-    "explanation": "Trong khung IPPF mới, bên cạnh GIAS, IIA ban hành Topical Requirements (Yêu cầu theo chủ đề) mang tính chất BẮT BUỘC áp dụng khi KTNB thực hiện dịch vụ đảm bảo cho các mảng rủi ro chuyên biệt đó.",
-    "refs": [],
-    "source": "legacy",
+    "explanation": "Trong IPPF cập nhật, Yêu cầu theo chủ đề là bắt buộc khi chủ đề đó nằm trong phạm vi một cuộc kiểm toán, và được áp dụng cùng với GIAS. Chương trình nội bộ sẵn có có thể dùng tiếp, nhưng phải bảo đảm bao quát các yêu cầu tối thiểu của chủ đề.",
     "optionNotes": [
-      "Sai. Topical Requirements không phải hướng dẫn tự nguyện; IIA ban hành chúng như một phần bắt buộc của IPPF.",
-      "Đúng. Khi kiểm toán chủ đề được quy định (ví dụ an ninh mạng), yêu cầu theo chủ đề là bắt buộc và áp dụng cùng GIAS.",
-      "Sai. Yêu cầu theo chủ đề áp dụng cho mọi chức năng kiểm toán tuân thủ GIAS, không chỉ công ty niêm yết hay tổ chức tài chính.",
-      "Sai. Chúng bổ sung cho GIAS về một chủ đề, không thay thế GIAS."
-    ]
+      "Sai. Yêu cầu theo chủ đề là một cấu phần bắt buộc của IPPF, không phải hướng dẫn tùy chọn.",
+      "Đúng. Khi chủ đề nằm trong phạm vi, phải áp dụng Yêu cầu theo chủ đề cùng với GIAS.",
+      "Sai. Tính bắt buộc đến từ IPPF, không phụ thuộc yêu cầu của cơ quan quản lý.",
+      "Sai. Yêu cầu áp dụng cho chức năng kiểm toán nội bộ, dù tự thực hiện hay thuê ngoài."
+    ],
+    "refs": [
+      "IPPF - Topical Requirements"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-L003",
@@ -99,51 +101,51 @@
     "id": "P1-A-003",
     "section": "A",
     "topic": "A1",
-    "difficulty": 1,
-    "stem": "GIAS được cấu trúc thành năm Lĩnh vực (Domain). Lĩnh vực nào chứa các Nguyên tắc về chính trực, khách quan, năng lực, thận trọng nghề nghiệp và bảo mật?",
+    "difficulty": 2,
+    "stem": "Tại cuộc họp HĐQT, một thành viên nói kiểm toán nội bộ 'chỉ cần kiểm tra xem mọi người có làm đúng quy trình không'. CAE muốn giải thích theo tuyên bố Mục đích của kiểm toán nội bộ trong GIAS. Câu trả lời nào phản ánh đúng nhất tuyên bố đó?",
     "options": [
-      "Domain I - Mục đích của kiểm toán nội bộ.",
-      "Domain II - Đạo đức và Tính chuyên nghiệp.",
-      "Domain III - Quản trị chức năng kiểm toán nội bộ.",
-      "Domain IV - Quản lý chức năng kiểm toán nội bộ."
+      "Kiểm toán nội bộ phát hiện và xử lý sai phạm của nhân viên để bảo vệ tài sản tổ chức.",
+      "Kiểm toán nội bộ xác nhận tính trung thực, hợp lý của báo cáo tài chính trình cổ đông.",
+      "Kiểm toán nội bộ tăng cường khả năng tạo ra, bảo vệ và duy trì giá trị của tổ chức.",
+      "Kiểm toán nội bộ thiết kế và vận hành hệ thống kiểm soát nội bộ thay cho Ban điều hành."
     ],
-    "answer": 1,
-    "explanation": "Domain II (Ethics and Professionalism) gồm Nguyên tắc 1-5: Chính trực, Khách quan, Năng lực, Thận trọng nghề nghiệp đúng mức, Bảo mật. Domain III về quản trị (HĐQT ủy quyền, bố trí độc lập, giám sát); Domain IV về quản lý chức năng; Domain V về thực hiện dịch vụ.",
-    "refs": [
-      "GIAS Domain II"
-    ],
-    "source": "original",
+    "answer": 2,
+    "explanation": "Theo GIAS, kiểm toán nội bộ tăng cường khả năng tạo ra, bảo vệ và duy trì giá trị của tổ chức bằng cách cung cấp cho HĐQT và Ban điều hành sự đảm bảo, tư vấn, hiểu biết sâu và tầm nhìn độc lập, dựa trên rủi ro và khách quan. Kiểm tra tuân thủ chỉ là một phần nhỏ.",
     "optionNotes": [
-      "Sai. Domain I chỉ nêu Mục đích của kiểm toán nội bộ.",
-      "Đúng. Domain II gồm Nguyên tắc 1-5: chính trực, khách quan, năng lực, thận trọng nghề nghiệp, bảo mật.",
-      "Sai. Domain III gồm Nguyên tắc 6-8 về HĐQT ủy quyền, bố trí độc lập, giám sát.",
-      "Sai. Domain IV gồm Nguyên tắc 9-12 về hoạch định, nguồn lực, trao đổi, chất lượng."
-    ]
+      "Sai. Xử lý sai phạm là trách nhiệm của Ban điều hành; mô tả này hẹp và sai vai trò.",
+      "Sai. Đây là mục tiêu của kiểm toán độc lập báo cáo tài chính.",
+      "Đúng. Đây là nội dung cốt lõi của tuyên bố Mục đích trong GIAS.",
+      "Sai. Thiết kế và vận hành kiểm soát là trách nhiệm của Ban điều hành."
+    ],
+    "refs": [
+      "GIAS Domain I"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-004",
     "section": "A",
     "topic": "A1",
     "difficulty": 2,
-    "stem": "Trong GIAS, mỗi Chuẩn mực gồm phần 'Yêu cầu' (Requirements) và phần 'Xem xét khi thực hiện' (Considerations for Implementation). Phát biểu nào đúng về hai phần này?",
+    "stem": "Trong đợt tự đánh giá chất lượng, người rà soát ghi nhận 'không tuân thủ' vì nhóm kiểm toán không dùng một ví dụ nêu trong phần 'Xem xét khi thực hiện' của một Chuẩn mực, dù nhóm đã đáp ứng đầy đủ phần 'Yêu cầu' bằng cách khác. Đánh giá nào đúng?",
     "options": [
-      "Cả hai phần đều bắt buộc và kiểm toán viên phải áp dụng từng ví dụ trong phần Xem xét.",
-      "Phần Yêu cầu chỉ là khuyến nghị; phần Xem xét mới mang tính bắt buộc.",
-      "Phần Yêu cầu là bắt buộc; phần Xem xét mô tả thông lệ phổ biến và gợi ý cách áp dụng.",
-      "Cả hai phần chỉ áp dụng cho chức năng kiểm toán nội bộ ở khu vực công."
+      "Ghi nhận đúng, vì cả phần Yêu cầu và phần Xem xét khi thực hiện đều mang tính bắt buộc.",
+      "Ghi nhận đúng, vì cách làm khác ví dụ phải được HĐQT phê duyệt trước khi áp dụng.",
+      "Ghi nhận sai về tên gọi: đây là 'tuân thủ một phần', không phải 'không tuân thủ'.",
+      "Ghi nhận sai, vì chỉ phần Yêu cầu là bắt buộc; phần Xem xét mô tả thông lệ nên cân nhắc."
     ],
-    "answer": 2,
-    "explanation": "Requirements dùng từ 'must' và là bắt buộc. Considerations for Implementation mô tả thông lệ phổ biến, có thể dùng 'should/may', giúp áp dụng yêu cầu nhưng không bắt buộc từng ví dụ. GIAS áp dụng cho mọi chức năng kiểm toán nội bộ, kể cả khu vực công (có phần riêng về khu vực công).",
+    "answer": 3,
+    "explanation": "Mỗi Chuẩn mực gồm Yêu cầu (thực hành bắt buộc) và Xem xét khi thực hiện (thông lệ phổ biến và nên cân nhắc). Không dùng một ví dụ trong phần Xem xét không phải là không tuân thủ, nếu phần Yêu cầu đã được đáp ứng.",
+    "optionNotes": [
+      "Sai. Phần Xem xét khi thực hiện không bắt buộc.",
+      "Sai. Không có yêu cầu HĐQT phê duyệt cách thực hiện khác ví dụ.",
+      "Sai. Vẫn là đánh giá sai, vì không có thiếu sót nào so với phần Yêu cầu.",
+      "Đúng. Đánh giá tuân thủ dựa trên phần Yêu cầu."
+    ],
     "refs": [
       "GIAS - Fundamentals"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Chỉ phần Yêu cầu là bắt buộc; phần Xem xét là hướng dẫn.",
-      "Sai. Ngược lại: phần Yêu cầu mới bắt buộc.",
-      "Đúng. Requirements dùng 'must'; Considerations for Implementation mô tả thông lệ để áp dụng.",
-      "Sai. GIAS áp dụng cho mọi chức năng kiểm toán nội bộ, không chỉ khu vực công."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-005",
@@ -174,26 +176,27 @@
     "id": "P1-A-006",
     "section": "A",
     "topic": "A2",
-    "difficulty": 2,
-    "stem": "Theo GIAS, 'nhiệm vụ của kiểm toán nội bộ' (internal audit mandate) xác định những nội dung gì?",
+    "difficulty": 3,
+    "stem": "Ban điều hành liên tục yêu cầu kiểm toán nội bộ kiểm tra và ký duyệt từng bộ chứng từ trước khi thanh toán (pre-audit) cho các khoản trên 500 triệu đồng, vì 'kiểm toán nội bộ làm kỹ nhất'. Điều lệ không đề cập việc này. CAE nên làm gì?",
     "options": [
-      "Danh sách các cuộc kiểm toán sẽ thực hiện trong năm tài chính.",
-      "Thẩm quyền, vai trò và trách nhiệm của chức năng kiểm toán nội bộ.",
-      "Các tiêu chí đánh giá hiệu quả công việc của từng kiểm toán viên.",
-      "Mức lương và chế độ đãi ngộ của Giám đốc kiểm toán nội bộ."
+      "Thảo luận với HĐQT và Ban điều hành vì vai trò này có thể làm suy giảm tính độc lập.",
+      "Tiếp nhận, vì đây là kiểm soát phòng ngừa giúp giảm rủi ro thanh toán sai cho tổ chức.",
+      "Tiếp nhận tạm thời, rồi ghi bổ sung vai trò này vào điều lệ ở lần rà soát định kỳ sau.",
+      "Giao cho một kiểm toán viên mới, không tham gia các cuộc kiểm toán thanh toán sau này."
     ],
-    "answer": 1,
-    "explanation": "Mandate là thẩm quyền, vai trò và trách nhiệm của chức năng kiểm toán nội bộ; có thể do HĐQT cấp hoặc do luật quy định (GIAS 6.1). Danh sách cuộc kiểm toán là kế hoạch kiểm toán; KPI cá nhân và đãi ngộ không phải là mandate.",
-    "refs": [
-      "GIAS 6.1"
-    ],
-    "source": "original",
+    "answer": 0,
+    "explanation": "Ký duyệt trước thanh toán là một kiểm soát của Ban điều hành; nhận vai trò này làm kiểm toán nội bộ tham gia vận hành kiểm soát mà sau đó phải đánh giá. CAE phải thảo luận với HĐQT và Ban điều hành mọi vai trò hiện có hoặc đề xuất có khả năng làm suy giảm độc lập, và cung cấp thông tin để xác lập nhiệm vụ (GIAS 6.1, 7.1).",
     "optionNotes": [
-      "Sai. Danh sách cuộc kiểm toán là kế hoạch kiểm toán, không phải mandate.",
-      "Đúng. GIAS 6.1: mandate là thẩm quyền, vai trò và trách nhiệm của chức năng kiểm toán nội bộ.",
-      "Sai. Tiêu chí đánh giá cá nhân thuộc quản lý nhân sự của chức năng kiểm toán.",
-      "Sai. Thù lao của CAE không phải nội dung của mandate."
-    ]
+      "Đúng. Vai trò có khả năng làm suy giảm độc lập phải được thảo luận với HĐQT và Ban điều hành.",
+      "Sai. Tác dụng phòng ngừa không thay đổi bản chất: đây là kiểm soát thuộc trách nhiệm quản lý.",
+      "Sai. Nhận trước, hợp thức hóa sau là đảo ngược trình tự; phải thảo luận trước khi nhận vai trò.",
+      "Sai. Bố trí người khác không xử lý việc chức năng kiểm toán vận hành một kiểm soát quản lý."
+    ],
+    "refs": [
+      "GIAS 6.1",
+      "GIAS 7.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-007",
@@ -224,27 +227,28 @@
     "id": "P1-A-008",
     "section": "A",
     "topic": "A2",
-    "difficulty": 2,
-    "stem": "Theo GIAS, trách nhiệm nào sau đây thuộc về HĐQT (hoặc Ủy ban Kiểm toán) đối với chức năng kiểm toán nội bộ?",
+    "difficulty": 3,
+    "stem": "Ủy ban Kiểm toán mới thành lập muốn 'tăng cường giám sát' chức năng kiểm toán nội bộ và đề xuất bốn việc sẽ làm. Việc nào phù hợp với vai trò của HĐQT theo GIAS?",
     "options": [
-      "Lập chương trình làm việc chi tiết cho các cuộc kiểm toán rủi ro cao.",
-      "Đánh giá năng lực của từng kiểm toán viên trước mỗi cuộc kiểm toán.",
-      "Phê duyệt điều lệ, kế hoạch kiểm toán, ngân sách và kế hoạch nguồn lực.",
-      "Soạn thảo và ký phát hành báo cáo kết quả kiểm toán gửi Ban điều hành."
+      "Phê duyệt chương trình kiểm toán chi tiết của từng cuộc kiểm toán trước khi thực hiện.",
+      "Rà soát và ký phát hành từng báo cáo kiểm toán trước khi gửi cho đơn vị được kiểm toán.",
+      "Phê duyệt điều lệ, kế hoạch kiểm toán, ngân sách và kế hoạch nguồn lực của chức năng.",
+      "Phân công kiểm toán viên cho từng cuộc kiểm toán dựa trên đánh giá năng lực cá nhân."
     ],
     "answer": 2,
-    "explanation": "Các 'điều kiện thiết yếu' (essential conditions) trong Nguyên tắc 6-8 giao cho HĐQT phê duyệt điều lệ, kế hoạch kiểm toán, ngân sách, kế hoạch nguồn lực, bổ nhiệm và miễn nhiệm CAE. Lập chương trình làm việc, đánh giá năng lực kiểm toán viên và soạn báo cáo là việc của chức năng kiểm toán nội bộ.",
-    "refs": [
-      "GIAS 6.2",
-      "GIAS 8.2"
-    ],
-    "source": "original",
+    "explanation": "HĐQT thể hiện sự hỗ trợ bằng cách phê duyệt điều lệ, kế hoạch kiểm toán, ngân sách và kế hoạch nguồn lực (GIAS 6.3, điều kiện thiết yếu). Phê duyệt chương trình kiểm toán (13.6), duyệt báo cáo cuối cùng (15.1) và phân công nhân sự là việc của CAE; HĐQT can thiệp vào đó sẽ lẫn lộn giám sát với điều hành.",
     "optionNotes": [
-      "Sai. Chương trình làm việc do kiểm toán viên lập và CAE phê duyệt.",
-      "Sai. Phân công và đánh giá năng lực kiểm toán viên là việc của CAE.",
-      "Đúng. Đây là các điều kiện thiết yếu thuộc trách nhiệm của HĐQT trong GIAS.",
-      "Sai. Báo cáo kết quả do chức năng kiểm toán soạn và phát hành."
-    ]
+      "Sai. CAE rà soát và phê duyệt chương trình kiểm toán trước khi thực hiện.",
+      "Sai. CAE duyệt báo cáo cuối cùng trước khi phát hành; HĐQT nhận kết quả.",
+      "Đúng. Đây là các phê duyệt thuộc vai trò giám sát của HĐQT.",
+      "Sai. Phân công nhân sự cho cuộc kiểm toán là quản lý chức năng, việc của CAE."
+    ],
+    "refs": [
+      "GIAS 6.3",
+      "GIAS 13.6",
+      "GIAS 15.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-009",
@@ -277,75 +281,75 @@
     "section": "A",
     "topic": "A2",
     "difficulty": 2,
-    "stem": "Ai có thẩm quyền phê duyệt việc bổ nhiệm và miễn nhiệm Giám đốc kiểm toán nội bộ (CAE)?",
+    "stem": "Sau khi CAE trình HĐQT báo cáo về sai phạm trong mua sắm có liên quan đến Phó Tổng Giám đốc, Tổng Giám đốc ký quyết định cho CAE thôi việc với lý do 'tái cơ cấu'. Nhận định nào đúng nhất?",
     "options": [
-      "Giám đốc tài chính (CFO), người phụ trách hành chính của CAE.",
-      "Tổng Giám đốc, sau khi tham khảo ý kiến các trưởng phòng.",
-      "HĐQT (thường qua Ủy ban Kiểm toán), có xem xét ý kiến của Ban điều hành.",
-      "Đại hội đồng cổ đông thông qua biểu quyết hằng năm."
+      "Hợp lệ, vì Tổng Giám đốc là người quản lý hành chính trực tiếp của CAE trong tổ chức.",
+      "Hợp lệ, nếu bộ phận nhân sự xác nhận việc tái cơ cấu được thực hiện đúng quy trình.",
+      "Hợp lệ, nếu Tổng Giám đốc báo cáo lại cho HĐQT tại kỳ họp thường kỳ gần nhất.",
+      "Không phù hợp, vì việc miễn nhiệm CAE phải được HĐQT cho phép."
     ],
-    "answer": 2,
-    "explanation": "GIAS 7.1 (điều kiện thiết yếu): HĐQT phê duyệt (authorize) việc bổ nhiệm và miễn nhiệm CAE; Ban điều hành góp ý cho HĐQT. Với đánh giá hiệu quả và thù lao của CAE, HĐQT góp ý cho Ban điều hành. Nếu CFO hoặc Tổng Giám đốc toàn quyền bổ nhiệm, miễn nhiệm, độc lập của chức năng kiểm toán bị đe dọa.",
+    "answer": 3,
+    "explanation": "HĐQT cho phép việc bổ nhiệm và miễn nhiệm CAE (GIAS 7.1, điều kiện thiết yếu). Nếu Ban điều hành tự miễn nhiệm CAE, nhất là sau một báo cáo bất lợi, tính độc lập của chức năng bị đe dọa nghiêm trọng.",
+    "optionNotes": [
+      "Sai. Quản lý hành chính không bao gồm quyền miễn nhiệm CAE.",
+      "Sai. Quy trình nhân sự đúng không thay thế thẩm quyền của HĐQT.",
+      "Sai. Báo cáo sau khi đã quyết định không phải là HĐQT cho phép.",
+      "Đúng. Thẩm quyền cho phép miễn nhiệm CAE thuộc HĐQT."
+    ],
     "refs": [
       "GIAS 7.1"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. CFO thường là đối tượng được kiểm toán; trao quyền bổ nhiệm cho CFO làm suy giảm độc lập.",
-      "Sai. Tổng Giám đốc chỉ góp ý; quyền phê duyệt thuộc HĐQT.",
-      "Đúng. GIAS 7.1: HĐQT phê duyệt bổ nhiệm, miễn nhiệm CAE; Ban điều hành góp ý.",
-      "Sai. Đại hội đồng cổ đông không phải cấp phê duyệt CAE theo GIAS."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-011",
     "section": "A",
     "topic": "A3",
-    "difficulty": 1,
-    "stem": "Nội dung nào sau đây BẮT BUỘC phải có trong điều lệ kiểm toán nội bộ?",
+    "difficulty": 2,
+    "stem": "Dự thảo điều lệ kiểm toán nội bộ đã nêu mục đích của kiểm toán nội bộ, cam kết tuân thủ GIAS, phạm vi và loại dịch vụ, kỳ vọng của HĐQT về sự hỗ trợ của Ban điều hành. Còn thiếu nội dung nào thì điều lệ chưa đáp ứng yêu cầu tối thiểu?",
     "options": [
-      "Danh sách, chức danh và chứng chỉ nghề nghiệp của toàn bộ kiểm toán viên nội bộ.",
-      "Mục đích, cam kết tuân thủ GIAS, mandate, vị trí tổ chức và quan hệ báo cáo.",
-      "Kế hoạch kiểm toán chi tiết ba năm và danh mục đơn vị được kiểm toán hằng năm.",
-      "Ngân sách hoạt động hằng năm và định biên nhân sự của chức năng kiểm toán nội bộ."
+      "Danh mục toàn bộ đơn vị và quy trình có thể được kiểm toán (audit universe).",
+      "Vị trí tổ chức và quan hệ báo cáo của chức năng kiểm toán nội bộ.",
+      "Kế hoạch kiểm toán ba năm và tần suất kiểm toán từng đơn vị trong tổ chức.",
+      "Định biên nhân sự và yêu cầu chứng chỉ nghề nghiệp của từng kiểm toán viên."
     ],
     "answer": 1,
-    "explanation": "GIAS 6.2 yêu cầu điều lệ bao gồm: mục đích kiểm toán nội bộ; cam kết tuân thủ GIAS; mandate (phạm vi, loại dịch vụ, trách nhiệm của HĐQT); vị trí tổ chức và quan hệ báo cáo của CAE. Kế hoạch và ngân sách được phê duyệt riêng và thay đổi thường xuyên, không nằm trong điều lệ.",
+    "explanation": "Điều lệ tối thiểu phải nêu: Mục đích, cam kết tuân thủ GIAS, nhiệm vụ (gồm phạm vi, loại dịch vụ, trách nhiệm và kỳ vọng của HĐQT về sự hỗ trợ của Ban điều hành), vị trí tổ chức và quan hệ báo cáo (GIAS 6.2). Kế hoạch, danh mục kiểm toán và định biên là tài liệu quản lý khác.",
+    "optionNotes": [
+      "Sai. Danh mục kiểm toán phục vụ lập kế hoạch, không phải nội dung bắt buộc của điều lệ.",
+      "Đúng. Vị trí tổ chức và quan hệ báo cáo là nội dung bắt buộc còn thiếu.",
+      "Sai. Kế hoạch kiểm toán là tài liệu riêng, được cập nhật ít nhất hằng năm.",
+      "Sai. Định biên và chứng chỉ thuộc quản lý nguồn lực, không bắt buộc trong điều lệ."
+    ],
     "refs": [
       "GIAS 6.2"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Danh sách nhân sự thay đổi thường xuyên, không phải nội dung bắt buộc của điều lệ.",
-      "Đúng. GIAS 6.2 liệt kê đúng các nội dung tối thiểu này.",
-      "Sai. Kế hoạch kiểm toán được phê duyệt riêng, ít nhất hằng năm.",
-      "Sai. Ngân sách được HĐQT phê duyệt riêng, không nằm trong điều lệ."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-012",
     "section": "A",
     "topic": "A3",
-    "difficulty": 2,
-    "stem": "CAE nhận thấy điều lệ kiểm toán nội bộ đã ba năm chưa được rà soát trong khi tổ chức vừa sáp nhập một công ty lớn. Hành động phù hợp nhất là gì?",
+    "difficulty": 3,
+    "stem": "CAE soạn xong điều lệ kiểm toán nội bộ mới và định gửi thẳng cho HĐQT phê duyệt, không trao đổi với Ban điều hành cấp cao vì lo họ sẽ 'làm yếu' các điều khoản về quyền tiếp cận. Cách làm này đánh giá thế nào?",
     "options": [
-      "Giữ nguyên điều lệ vì GIAS chỉ yêu cầu rà soát khi có thay đổi luật.",
-      "Tự sửa điều lệ và áp dụng ngay, sau đó báo cáo HĐQT ở kỳ họp cuối năm.",
-      "Đề nghị Tổng Giám đốc phê duyệt điều lệ sửa đổi để tiết kiệm thời gian của HĐQT.",
-      "Rà soát điều lệ, thảo luận với HĐQT và Ban điều hành, trình HĐQT phê duyệt bản cập nhật."
+      "Phù hợp, vì HĐQT là bên duy nhất có thẩm quyền phê duyệt điều lệ kiểm toán nội bộ.",
+      "Phù hợp, vì loại Ban điều hành khỏi quá trình soạn thảo giúp bảo vệ tính độc lập.",
+      "Chưa phù hợp, vì CAE phải thảo luận dự thảo với cả HĐQT và Ban điều hành cấp cao.",
+      "Chưa phù hợp, vì Ban điều hành cấp cao phải phê duyệt trước, rồi HĐQT mới phê chuẩn."
     ],
-    "answer": 3,
-    "explanation": "GIAS 6.2: CAE phải rà soát điều lệ định kỳ và khi có thay đổi đáng kể (như sáp nhập), thảo luận với HĐQT và Ban điều hành, và HĐQT phê duyệt. Tự áp dụng trước hoặc để Tổng Giám đốc phê duyệt đều sai thẩm quyền.",
+    "answer": 2,
+    "explanation": "CAE phải thảo luận dự thảo điều lệ với HĐQT và Ban điều hành cấp cao để xác nhận điều lệ phản ánh đúng hiểu biết và kỳ vọng của họ (GIAS 6.2). Thảo luận không có nghĩa Ban điều hành phê duyệt: thẩm quyền phê duyệt vẫn thuộc HĐQT.",
+    "optionNotes": [
+      "Sai. HĐQT phê duyệt, nhưng chuẩn mực vẫn yêu cầu thảo luận với Ban điều hành cấp cao.",
+      "Sai. Độc lập được bảo vệ bởi thẩm quyền phê duyệt của HĐQT, không phải bằng cách bỏ qua Ban điều hành.",
+      "Đúng. Phải thảo luận với cả hai bên; HĐQT là bên phê duyệt.",
+      "Sai. Ban điều hành không có thẩm quyền phê duyệt điều lệ."
+    ],
     "refs": [
       "GIAS 6.2"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Thay đổi đáng kể của tổ chức như sáp nhập là lý do rà soát điều lệ.",
-      "Sai. Điều lệ chỉ có hiệu lực sau khi HĐQT phê duyệt.",
-      "Sai. Tổng Giám đốc không có thẩm quyền phê duyệt điều lệ.",
-      "Đúng. GIAS 6.2: rà soát khi có thay đổi, thảo luận với HĐQT và Ban điều hành, HĐQT phê duyệt."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-013",
@@ -403,26 +407,27 @@
     "id": "P1-A-015",
     "section": "A",
     "topic": "A4",
-    "difficulty": 1,
-    "stem": "Đặc điểm nào phân biệt rõ nhất dịch vụ đảm bảo với dịch vụ tư vấn của kiểm toán nội bộ?",
+    "difficulty": 3,
+    "stem": "Giám đốc vận hành đề nghị kiểm toán nội bộ 'tư vấn' về quy trình xử lý khiếu nại khách hàng: kiểm tra mẫu hồ sơ theo tiêu chí đã thống nhất và gửi kết luận cho Ủy ban Kiểm toán về việc kiểm soát có hữu hiệu hay không. Bản chất của công việc này là gì?",
     "options": [
-      "Dịch vụ đảm bảo luôn do kiểm toán viên có chứng chỉ CIA thực hiện và ký báo cáo.",
-      "Dịch vụ tư vấn chỉ được thực hiện cho các phòng ban không thuộc kế hoạch kiểm toán năm.",
-      "Dịch vụ đảm bảo chỉ áp dụng cho thông tin tài chính, còn tư vấn cho hoạt động khác.",
-      "Đảm bảo là đánh giá độc lập; phạm vi tư vấn do hai bên thỏa thuận."
+      "Dịch vụ tư vấn, vì chính Ban điều hành là bên đề nghị và thỏa thuận phạm vi với kiểm toán.",
+      "Dịch vụ tư vấn, vì quy trình xử lý khiếu nại không thuộc lĩnh vực tài chính của tổ chức.",
+      "Dịch vụ đảm bảo, vì là đánh giá khách quan bằng chứng để đưa kết luận cho Ủy ban Kiểm toán.",
+      "Dịch vụ kết hợp, nên được miễn các yêu cầu lập kế hoạch dành cho dịch vụ đảm bảo."
     ],
-    "answer": 3,
-    "explanation": "Dịch vụ đảm bảo đưa ra đánh giá khách quan về quản trị, rủi ro và kiểm soát, phục vụ HĐQT và Ban điều hành. Dịch vụ tư vấn (advisory) có bản chất và phạm vi do kiểm toán viên và khách hàng thỏa thuận, mục đích cải thiện quy trình. Cả hai có thể áp dụng cho hoạt động phi tài chính.",
-    "refs": [
-      "GIAS - Glossary"
-    ],
-    "source": "original",
+    "answer": 2,
+    "explanation": "Bản chất dịch vụ do mục tiêu quyết định, không do tên gọi hay người đề nghị. Đánh giá khách quan bằng chứng theo tiêu chí để đưa ra kết luận về hiệu quả kiểm soát cho bên thứ ba (Ủy ban Kiểm toán) là dịch vụ đảm bảo; tư vấn có bản chất và phạm vi do khách hàng thỏa thuận, không đưa ra kết luận đảm bảo.",
     "optionNotes": [
-      "Sai. Không có yêu cầu dịch vụ đảm bảo chỉ do người có CIA thực hiện.",
-      "Sai. Tư vấn có thể thực hiện cho bất kỳ đơn vị nào khi được yêu cầu.",
-      "Sai. Cả hai loại dịch vụ đều áp dụng cho hoạt động tài chính và phi tài chính.",
-      "Đúng. Đảm bảo là đánh giá khách quan cho các bên liên quan; phạm vi tư vấn do hai bên thỏa thuận."
-    ]
+      "Sai. Người đề nghị không quyết định loại dịch vụ; mục tiêu và người sử dụng kết quả mới quyết định.",
+      "Sai. Đảm bảo áp dụng cho mọi lĩnh vực, không chỉ tài chính.",
+      "Đúng. Đánh giá theo tiêu chí và kết luận cho Ủy ban Kiểm toán là đảm bảo.",
+      "Sai. Không có loại dịch vụ được miễn yêu cầu; công việc này phải theo yêu cầu của dịch vụ đảm bảo."
+    ],
+    "refs": [
+      "GIAS - Glossary",
+      "CIA Part 1 A.4"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-016",
@@ -504,26 +509,26 @@
     "id": "P1-A-019",
     "section": "A",
     "topic": "A5",
-    "difficulty": 1,
-    "stem": "Cuộc kiểm toán nào sau đây là ví dụ về dịch vụ đảm bảo của kiểm toán nội bộ?",
+    "difficulty": 2,
+    "stem": "Sau khi Nghị định về bảo vệ dữ liệu cá nhân có hiệu lực, Ủy ban Kiểm toán muốn biết công ty đã đáp ứng các nghĩa vụ của Nghị định hay chưa (đồng ý của chủ thể dữ liệu, đánh giá tác động, thông báo vi phạm). Loại kiểm toán nào phù hợp nhất?",
     "options": [
-      "Kiểm toán tuân thủ quy định bảo vệ dữ liệu cá nhân của tổ chức.",
-      "Tổ chức hội thảo đào tạo về quản trị rủi ro cho các trưởng phòng.",
-      "Hỗ trợ Ban điều hành soạn thảo chính sách chống tham nhũng mới.",
-      "Tham gia ban triển khai dự án CNTT với tư cách không biểu quyết."
+      "Kiểm toán công nghệ thông tin, vì dữ liệu cá nhân được lưu trữ và xử lý trên các hệ thống.",
+      "Kiểm toán tuân thủ, đánh giá mức độ đáp ứng các nghĩa vụ theo quy định pháp luật mới.",
+      "Kiểm toán hoạt động, đánh giá tính kinh tế và hiệu suất của bộ phận quản lý dữ liệu.",
+      "Kiểm toán tài chính, đánh giá rủi ro bị xử phạt được ghi nhận trên báo cáo tài chính."
     ],
-    "answer": 0,
-    "explanation": "Kiểm toán tuân thủ đưa ra đánh giá khách quan về việc tổ chức tuân thủ quy định, nên là dịch vụ đảm bảo. Đào tạo, hỗ trợ soạn chính sách và tham gia ban dự án là dịch vụ tư vấn.",
-    "refs": [
-      "GIAS - Glossary"
-    ],
-    "source": "original",
+    "answer": 1,
+    "explanation": "Mục tiêu là xác định tổ chức có đáp ứng các nghĩa vụ của một quy định pháp luật hay không, nên đây là kiểm toán tuân thủ. Một số thủ tục có thể cần kỹ năng CNTT, nhưng loại kiểm toán được xác định theo mục tiêu.",
     "optionNotes": [
-      "Đúng. Kiểm toán tuân thủ đưa ra đánh giá khách quan, là dịch vụ đảm bảo.",
-      "Sai. Đào tạo là dịch vụ tư vấn.",
-      "Sai. Hỗ trợ soạn chính sách là dịch vụ tư vấn.",
-      "Sai. Tham gia ban dự án không biểu quyết là dịch vụ tư vấn."
-    ]
+      "Sai. Bẫy về công cụ: có thể cần kỹ năng CNTT, nhưng mục tiêu là đánh giá tuân thủ pháp luật.",
+      "Đúng. Mục tiêu đánh giá việc đáp ứng nghĩa vụ pháp lý là kiểm toán tuân thủ.",
+      "Sai. Kiểm toán hoạt động tập trung vào tính kinh tế, hiệu suất, hiệu quả, không phải nghĩa vụ pháp lý.",
+      "Sai. Ghi nhận khoản phạt trên báo cáo tài chính không phải mục tiêu Ủy ban Kiểm toán nêu ra."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-020",
@@ -555,25 +560,25 @@
     "section": "A",
     "topic": "A5",
     "difficulty": 2,
-    "stem": "Cuộc kiểm toán nào tập trung chủ yếu vào việc đánh giá tính kinh tế, hiệu suất và hiệu quả (economy, efficiency, effectiveness) của một hoạt động?",
+    "stem": "Công ty có 120 xe giao hàng. Ban điều hành muốn biết có thể giảm chi phí nhiên liệu và số km chạy rỗng mà vẫn giữ cam kết giao hàng trong 24 giờ hay không. Cuộc kiểm toán nào đáp ứng mục tiêu này?",
     "options": [
-      "Kiểm toán tuân thủ đối với quy định và chính sách nội bộ.",
-      "Kiểm toán tài chính đối với chi phí và doanh thu của hoạt động.",
-      "Kiểm toán hoạt động.",
-      "Kiểm toán hệ thống CNTT hỗ trợ hoạt động đó."
+      "Kiểm toán tuân thủ định mức nhiên liệu đã ban hành cho từng loại xe giao hàng.",
+      "Kiểm toán tài chính đối với số dư chi phí nhiên liệu và khấu hao đội xe trong năm.",
+      "Kiểm toán CNTT đối với hệ thống định vị và phần mềm điều phối tuyến giao hàng.",
+      "Kiểm toán hoạt động, đánh giá tính kinh tế, hiệu suất và hiệu quả của đội xe."
     ],
-    "answer": 2,
-    "explanation": "Kiểm toán hoạt động (operational hay performance audit) đánh giá 3E: kinh tế (chi phí nguồn lực), hiệu suất (đầu vào so với đầu ra) và hiệu quả (đạt mục tiêu). Kiểm toán tuân thủ đối chiếu với quy định; kiểm toán tài chính tập trung vào thông tin tài chính.",
+    "answer": 3,
+    "explanation": "Câu hỏi 'có làm được với chi phí thấp hơn mà vẫn đạt mục tiêu dịch vụ' là mục tiêu của kiểm toán hoạt động (tính kinh tế, hiệu suất, hiệu quả). Tuân thủ định mức chỉ cho biết có làm đúng quy định, không cho biết quy định đó có tối ưu không.",
+    "optionNotes": [
+      "Sai. Tuân thủ định mức không trả lời được câu hỏi có thể tiết kiệm hơn hay không.",
+      "Sai. Kiểm toán tài chính xác nhận số liệu, không đánh giá cách sử dụng nguồn lực.",
+      "Sai. Hệ thống điều phối có thể là một phần, nhưng mục tiêu tổng thể là hiệu quả hoạt động.",
+      "Đúng. Mục tiêu tiết kiệm chi phí mà giữ chất lượng dịch vụ là kiểm toán hoạt động."
+    ],
     "refs": [
       "CIA Part 1 A.5"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Kiểm toán tuân thủ đối chiếu với quy định, không tập trung vào 3E.",
-      "Sai. Kiểm toán tài chính tập trung vào thông tin tài chính.",
-      "Đúng. Kiểm toán hoạt động đánh giá tính kinh tế, hiệu suất và hiệu quả.",
-      "Sai. Kiểm toán CNTT tập trung vào kiểm soát hệ thống thông tin."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-022",
@@ -630,51 +635,52 @@
     "section": "A",
     "topic": "A6",
     "difficulty": 3,
-    "stem": "Một kiểm toán viên vừa thực hiện cuộc tư vấn thiết kế quy trình đối chiếu ngân hàng. Sáu tháng sau, CAE muốn giao chính người này kiểm toán đảm bảo quy trình đó. Theo GIAS, nhận định nào đúng nhất?",
+    "stem": "Trong cuộc tư vấn thiết kế quy trình đối chiếu ngân hàng, bộ phận kế toán thiếu người nên đề nghị kiểm toán viên trực tiếp lập các bảng đối chiếu trong ba tháng 'cho đến khi tuyển được người'. Kiểm toán viên nên phản hồi thế nào?",
     "options": [
-      "Bị cấm tuyệt đối; người đã tư vấn không bao giờ được kiểm toán quy trình đó.",
-      "Được phép không cần lưu ý gì, vì tư vấn không ảnh hưởng tính khách quan.",
-      "Chỉ được phép nếu Tổng Giám đốc chấp thuận bằng văn bản trước khi bắt đầu.",
-      "Có thể suy giảm khách quan; CAE đánh giá, áp dụng biện pháp bảo vệ, công bố."
+      "Đồng ý, vì đây vẫn nằm trong cuộc tư vấn về quy trình đối chiếu đã được thỏa thuận.",
+      "Đồng ý, nếu ghi rõ trong báo cáo tư vấn rằng kiểm toán viên đã lập bảng trong ba tháng.",
+      "Từ chối lập bảng, nhưng có thể góp ý phương án tạm thời để kế toán tự thực hiện.",
+      "Từ chối toàn bộ cuộc tư vấn, vì yêu cầu này cho thấy không thể giữ được tính khách quan."
     ],
-    "answer": 3,
-    "explanation": "GIAS 2.2: khi chức năng kiểm toán đảm bảo cho hoạt động mà trước đó mình đã tư vấn, CAE phải xác nhận bản chất của cuộc tư vấn không làm suy giảm khách quan và phân công nguồn lực sao cho quản lý được tính khách quan cá nhân. Tư vấn trước đó không mặc nhiên cấm việc đảm bảo sau này; CAE áp dụng biện pháp bảo vệ (phân công người khác, tăng giám sát) và công bố suy giảm nếu có (GIAS 2.3).",
-    "refs": [
-      "GIAS 2.2",
-      "GIAS 2.3"
-    ],
-    "source": "original",
+    "answer": 2,
+    "explanation": "Lập bảng đối chiếu là vận hành kiểm soát, tức trách nhiệm quản lý; kiểm toán nội bộ tư vấn nhưng không nhận trách nhiệm quản lý. Kiểm toán viên vẫn có thể giúp bằng cách góp ý giải pháp tạm thời mà bộ phận kế toán tự thực hiện.",
     "optionNotes": [
-      "Sai. GIAS không cấm tuyệt đối; yêu cầu đánh giá và áp dụng biện pháp bảo vệ.",
-      "Sai. Tư vấn trước đó có thể tạo nguy cơ tự kiểm tra.",
-      "Sai. Quyết định phân công thuộc CAE, không phải Tổng Giám đốc.",
-      "Đúng. GIAS 2.2: CAE xác nhận cuộc tư vấn không làm suy giảm khách quan và phân công phù hợp; công bố nếu có suy giảm."
-    ]
+      "Sai. Thực hiện kiểm soát vượt khỏi tư vấn và là nhận trách nhiệm quản lý.",
+      "Sai. Công bố không biến việc vận hành kiểm soát thành chấp nhận được.",
+      "Đúng. Giữ ranh giới trách nhiệm quản lý mà vẫn hỗ trợ được đơn vị.",
+      "Sai. Phản ứng quá mức: phần tư vấn ban đầu vẫn thực hiện được."
+    ],
+    "refs": [
+      "GIAS - Glossary",
+      "CIA Part 1 A.6"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-025",
     "section": "A",
     "topic": "A6",
     "difficulty": 2,
-    "stem": "Phát biểu nào đúng về dịch vụ tư vấn của kiểm toán nội bộ theo GIAS?",
+    "stem": "Trưởng nhóm của một cuộc tư vấn nói: 'Đây không phải cuộc đảm bảo, nên không cần lập hồ sơ làm việc và không cần CAE duyệt báo cáo trước khi gửi khách hàng'. Nhận định nào đúng nhất?",
     "options": [
-      "Dịch vụ tư vấn không phải tuân thủ GIAS vì không đưa ra ý kiến đảm bảo.",
-      "Phải tuân thủ GIAS và nguyên tắc đạo đức, không nhận trách nhiệm quản lý.",
-      "Kết quả tư vấn phải gửi HĐQT phê duyệt trước khi gửi cho khách hàng tư vấn.",
-      "Chỉ được tư vấn sau khi đã hoàn thành toàn bộ kế hoạch đảm bảo trong năm."
+      "Đúng, vì yêu cầu về hồ sơ và phê duyệt chỉ áp dụng cho dịch vụ đảm bảo.",
+      "Đúng, nếu khách hàng tư vấn đã đồng ý bằng văn bản về hình thức báo cáo.",
+      "Sai, vì báo cáo tư vấn phải được HĐQT phê duyệt trước khi gửi cho khách hàng.",
+      "Sai, vì GIAS áp dụng cho mọi dịch vụ, gồm lập hồ sơ và CAE duyệt báo cáo cuối cùng."
     ],
-    "answer": 1,
-    "explanation": "GIAS áp dụng cho cả dịch vụ đảm bảo và tư vấn. Kiểm toán viên không được nhận trách nhiệm quản lý. Kết quả tư vấn gửi cho khách hàng theo thỏa thuận; vấn đề trọng yếu mới cần báo cáo lên HĐQT.",
-    "refs": [
-      "GIAS - Applicability"
-    ],
-    "source": "original",
+    "answer": 3,
+    "explanation": "GIAS áp dụng cho mọi dịch vụ kiểm toán nội bộ, cả đảm bảo và tư vấn. Mỗi cuộc kiểm toán phải lập hồ sơ (GIAS 14.6) và có báo cáo cuối cùng được CAE rà soát, phê duyệt trước khi phát hành (GIAS 15.1); nội dung báo cáo tư vấn có thể khác đảm bảo.",
     "optionNotes": [
-      "Sai. GIAS áp dụng cho cả dịch vụ đảm bảo và tư vấn.",
-      "Đúng. Tư vấn vẫn phải tuân thủ GIAS và không được nhận trách nhiệm quản lý.",
-      "Sai. Kết quả tư vấn gửi khách hàng theo thỏa thuận; chỉ vấn đề trọng yếu mới báo HĐQT.",
-      "Sai. Không có yêu cầu hoàn thành kế hoạch đảm bảo trước khi tư vấn."
-    ]
+      "Sai. Yêu cầu về hồ sơ và phê duyệt áp dụng cho mọi cuộc kiểm toán, kể cả tư vấn.",
+      "Sai. Đồng ý của khách hàng không miễn yêu cầu của chuẩn mực.",
+      "Sai. CAE, không phải HĐQT, phê duyệt báo cáo cuối cùng.",
+      "Đúng. GIAS áp dụng cho dịch vụ tư vấn, gồm hồ sơ và phê duyệt của CAE."
+    ],
+    "refs": [
+      "GIAS 14.6",
+      "GIAS 15.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-026",
@@ -706,25 +712,25 @@
     "section": "A",
     "topic": "A7",
     "difficulty": 2,
-    "stem": "Ngoài chức năng kiểm toán nội bộ, CAE được giao phụ trách thêm bộ phận Tuân thủ. Yêu cầu nào phải được đáp ứng?",
+    "stem": "HĐQT quyết định giao CAE phụ trách lâu dài thêm bộ phận Tuân thủ. Theo Chuẩn mực, thông tin nào về vai trò kiêm nhiệm này phải được ghi trong điều lệ kiểm toán nội bộ?",
     "options": [
-      "Từ chối, vì GIAS cấm CAE kiêm nhiệm bất kỳ chức năng nào khác ngoài kiểm toán.",
-      "Không cần biện pháp gì thêm, vì tuân thủ là chức năng tuyến hai, ít rủi ro.",
-      "Thông báo HĐQT, có biện pháp bảo vệ, đảm bảo mảng đó do bên ngoài thực hiện.",
-      "Chỉ cần Tổng Giám đốc phê duyệt việc kiêm nhiệm bằng văn bản và lưu hồ sơ."
+      "Trách nhiệm, tính chất công việc và các biện pháp bảo vệ đã thiết lập.",
+      "Chỉ cần tên bộ phận Tuân thủ và ngày HĐQT ra quyết định giao kiêm nhiệm.",
+      "Không cần ghi gì, vì quyết định của HĐQT đã là văn bản pháp lý đầy đủ.",
+      "Mức phụ cấp kiêm nhiệm và tiêu chí đánh giá hiệu quả của CAE ở vai trò mới."
     ],
-    "answer": 2,
-    "explanation": "GIAS 7.1: khi CAE có vai trò ngoài kiểm toán nội bộ, phải thảo luận với HĐQT về suy giảm tiềm ẩn, có biện pháp bảo vệ được HĐQT chấp thuận, và việc đảm bảo đối với các mảng đó phải do một bên độc lập ngoài chức năng kiểm toán nội bộ thực hiện.",
+    "answer": 0,
+    "explanation": "Khi CAE có một hoặc nhiều vai trò lâu dài ngoài kiểm toán nội bộ, trách nhiệm, tính chất công việc và các biện pháp bảo vệ phải được ghi trong điều lệ (GIAS 7.1).",
+    "optionNotes": [
+      "Đúng. Đây chính là ba nội dung chuẩn mực yêu cầu ghi trong điều lệ.",
+      "Sai. Thiếu trách nhiệm, tính chất công việc và biện pháp bảo vệ.",
+      "Sai. Chuẩn mực yêu cầu ghi nhận cụ thể trong điều lệ.",
+      "Sai. Phụ cấp và đánh giá hiệu quả không phải nội dung chuẩn mực yêu cầu."
+    ],
     "refs": [
       "GIAS 7.1"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. GIAS cho phép kiêm nhiệm nếu có biện pháp bảo vệ.",
-      "Sai. Kiêm nhiệm bất kỳ vai trò ngoài kiểm toán nào cũng cần biện pháp bảo vệ.",
-      "Đúng. GIAS 7.1: thảo luận với HĐQT, ghi biện pháp bảo vệ vào điều lệ, đảm bảo mảng đó do bên độc lập thực hiện.",
-      "Sai. Tổng Giám đốc phê duyệt là không đủ; HĐQT phải được thông báo và chấp thuận biện pháp bảo vệ."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-028",
@@ -782,25 +788,26 @@
     "section": "A",
     "topic": "A7",
     "difficulty": 2,
-    "stem": "Theo GIAS, CAE nên tương tác trực tiếp với HĐQT như thế nào để củng cố tính độc lập?",
+    "stem": "Tổng Giám đốc yêu cầu được tham dự mọi buổi làm việc giữa CAE và Ủy ban Kiểm toán 'để bảo đảm thông tin thống nhất'. CAE sắp trình bày một vấn đề nhạy cảm liên quan đến Ban điều hành. Cách xử lý nào phù hợp nhất?",
     "options": [
-      "Chỉ gặp HĐQT khi có Tổng Giám đốc tham dự để bảo đảm thông tin thống nhất.",
-      "Chỉ gửi báo cáo bằng văn bản; không cần họp trực tiếp với HĐQT.",
-      "Có phiên trao đổi riêng với HĐQT không có Ban điều hành, dự họp liên quan.",
-      "Gặp HĐQT mỗi năm một lần khi trình kế hoạch kiểm toán năm sau."
+      "Đồng ý, và trình bày vấn đề nhạy cảm bằng văn bản gửi kèm sau buổi họp.",
+      "Đồng ý, vì Ban điều hành có quyền biết mọi thông tin trình Ủy ban Kiểm toán.",
+      "Đề nghị Ủy ban Kiểm toán bố trí phiên trao đổi riêng không có Ban điều hành.",
+      "Hoãn trình bày đến khi có bằng chứng đầy đủ để Tổng Giám đốc không phản đối."
     ],
     "answer": 2,
-    "explanation": "Điều kiện thiết yếu trong Nguyên tắc 7 và 8: HĐQT tạo điều kiện để CAE có các phiên họp riêng (private sessions) không có Ban điều hành, và CAE được mời tham dự các cuộc họp liên quan để báo cáo. Đây là cơ chế quan trọng để nêu vấn đề nhạy cảm.",
+    "explanation": "HĐQT tạo cơ hội để CAE trao đổi các vấn đề quan trọng, nhạy cảm, gồm các cuộc họp không có Ban điều hành cấp cao, và gặp CAE định kỳ trong các phiên như vậy (GIAS 7.1, 8.1, điều kiện thiết yếu).",
+    "optionNotes": [
+      "Sai. Gửi văn bản sau vẫn bỏ qua kênh trao đổi riêng mà chuẩn mực yêu cầu HĐQT tạo ra.",
+      "Sai. Một số vấn đề, nhất là liên quan đến Ban điều hành, cần trao đổi không có họ.",
+      "Đúng. Phiên trao đổi riêng không có Ban điều hành là cơ chế bảo vệ độc lập.",
+      "Sai. Trì hoãn để tránh phản đối là thiếu dũng khí nghề nghiệp và làm chậm thông tin cho HĐQT."
+    ],
     "refs": [
+      "GIAS 7.1",
       "GIAS 8.1"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Có mặt Tổng Giám đốc làm mất cơ hội nêu vấn đề nhạy cảm.",
-      "Sai. Gặp trực tiếp HĐQT là cần thiết để thảo luận vấn đề quan trọng.",
-      "Đúng. GIAS 7.1: HĐQT tạo cơ hội cho CAE thảo luận riêng, kể cả họp không có Ban điều hành.",
-      "Sai. Một lần mỗi năm là không đủ để HĐQT giám sát hiệu quả."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-031",
@@ -857,25 +864,25 @@
     "section": "A",
     "topic": "A7",
     "difficulty": 2,
-    "stem": "Theo Chuẩn mực của IIA, ai xác định trình độ và năng lực cần có của CAE?",
+    "stem": "HĐQT đang tuyển CAE mới và Tổng Giám đốc đề xuất tự quyết định tiêu chuẩn tuyển dụng như các vị trí quản lý khác. Theo Chuẩn mực, cách làm nào phù hợp nhất?",
     "options": [
-      "CAE bắt buộc có chứng chỉ CIA và tối thiểu 15 năm kinh nghiệm kiểm toán.",
-      "CAE bắt buộc là kế toán viên công chứng và từng làm kế toán trưởng.",
-      "Trình độ của CAE do Tổng Giám đốc quyết định toàn quyền khi tuyển dụng.",
-      "HĐQT xác định và phê duyệt yêu cầu về trình độ, năng lực của CAE."
+      "HĐQT xác định trình độ, năng lực cần có của CAE, phối hợp với Ban điều hành cấp cao.",
+      "Tổng Giám đốc quyết định tiêu chuẩn, vì CAE báo cáo hành chính cho Tổng Giám đốc.",
+      "Bộ phận nhân sự quyết định tiêu chuẩn theo khung năng lực chung của toàn công ty.",
+      "Áp dụng tiêu chuẩn bắt buộc của IIA: có chứng chỉ CIA và ít nhất 15 năm kinh nghiệm."
     ],
-    "answer": 3,
-    "explanation": "GIAS 7.2: CAE giúp HĐQT hiểu trình độ, năng lực cần có của một CAE; HĐQT phê duyệt vai trò, trách nhiệm của CAE và xác định trình độ, kinh nghiệm, năng lực cần thiết. GIAS không đặt cứng số năm kinh nghiệm hay chứng chỉ bắt buộc.",
+    "answer": 0,
+    "explanation": "HĐQT phê duyệt vai trò, trách nhiệm của CAE và xác định trình độ, kinh nghiệm, năng lực cần thiết; Ban điều hành cấp cao phối hợp với HĐQT trong việc này và bổ nhiệm qua quy trình nhân sự (GIAS 7.2, điều kiện thiết yếu). CAE hiện tại giúp HĐQT hiểu các tiêu chuẩn phổ biến. IIA không quy định số năm kinh nghiệm bắt buộc.",
+    "optionNotes": [
+      "Đúng. HĐQT xác định yêu cầu, có sự phối hợp của Ban điều hành cấp cao.",
+      "Sai. Quan hệ hành chính không trao quyền xác định tiêu chuẩn CAE.",
+      "Sai. Nhân sự hỗ trợ quy trình nhưng không quyết định tiêu chuẩn CAE.",
+      "Sai. GIAS không quy định chứng chỉ hay số năm kinh nghiệm bắt buộc cho CAE."
+    ],
     "refs": [
       "GIAS 7.2"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. GIAS không đặt cứng chứng chỉ hay số năm kinh nghiệm.",
-      "Sai. GIAS không yêu cầu CAE là kế toán viên công chứng.",
-      "Sai. Tổng Giám đốc không có toàn quyền; HĐQT phê duyệt vai trò và yêu cầu năng lực.",
-      "Đúng. GIAS 7.2: HĐQT phê duyệt vai trò, trách nhiệm và xác định trình độ, năng lực cần thiết của CAE."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-034",
@@ -907,26 +914,26 @@
     "id": "P1-A-035",
     "section": "A",
     "topic": "A8",
-    "difficulty": 1,
-    "stem": "Theo Mô hình Ba Tuyến (Three Lines Model) của IIA, vai trò của kiểm toán nội bộ là gì?",
+    "difficulty": 3,
+    "stem": "Bộ phận Quản lý rủi ro của một ngân hàng có Giám đốc rủi ro báo cáo trực tiếp cho Ủy ban Rủi ro thuộc HĐQT. Một thành viên HĐQT đề xuất bỏ cuộc kiểm toán nội bộ về quản lý rủi ro vì 'bộ phận này đã độc lập rồi'. Theo Mô hình Ba Tuyến, nhận định nào đúng nhất?",
     "options": [
-      "Vai trò tuyến thứ ba: cung cấp đảm bảo và tư vấn độc lập, khách quan cho cơ quan quản trị.",
-      "Vai trò tuyến thứ nhất: quản lý rủi ro trực tiếp trong hoạt động hằng ngày.",
-      "Vai trò tuyến thứ hai: xây dựng khung quản trị rủi ro và giám sát tuân thủ.",
-      "Vai trò của cơ quan quản trị: chịu trách nhiệm giải trình trước cổ đông."
+      "Đúng, vì báo cáo trực tiếp cho HĐQT làm bộ phận rủi ro trở thành tuyến thứ ba.",
+      "Sai, vì tuyến thứ hai vẫn thuộc Ban điều hành; đảm bảo độc lập là vai trò tuyến thứ ba.",
+      "Đúng, nếu bộ phận rủi ro có nhân sự giữ chứng chỉ quốc tế về quản lý rủi ro.",
+      "Sai, vì bộ phận rủi ro thuộc tuyến thứ nhất nên không thể tự đánh giá chính mình."
     ],
-    "answer": 0,
-    "explanation": "Mô hình Ba Tuyến (2020): Ban điều hành đảm nhận vai trò tuyến một (cung cấp sản phẩm, dịch vụ, quản lý rủi ro) và tuyến hai (chuyên môn, giám sát rủi ro). Kiểm toán nội bộ là tuyến ba, độc lập với Ban điều hành, báo cáo cho cơ quan quản trị.",
+    "answer": 1,
+    "explanation": "Trong Mô hình Ba Tuyến, tuyến thứ hai (quản lý rủi ro, tuân thủ) cung cấp chuyên môn, giám sát và thách thức nhưng vẫn là một phần trách nhiệm của Ban điều hành. Kênh báo cáo lên HĐQT tăng tính khách quan nhưng không biến tuyến thứ hai thành bên đảm bảo độc lập; vai trò đó thuộc kiểm toán nội bộ (tuyến thứ ba).",
+    "optionNotes": [
+      "Sai. Kênh báo cáo không thay đổi vai trò; tuyến thứ hai không phải đảm bảo độc lập.",
+      "Đúng. Tuyến thứ hai thuộc Ban điều hành; đảm bảo độc lập là vai trò tuyến thứ ba.",
+      "Sai. Chứng chỉ của nhân sự không thay đổi vị trí trong mô hình.",
+      "Sai. Quản lý rủi ro là tuyến thứ hai, không phải tuyến thứ nhất."
+    ],
     "refs": [
       "IIA Three Lines Model"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Đúng. Kiểm toán nội bộ là vai trò tuyến ba, độc lập với Ban điều hành.",
-      "Sai. Tuyến một là bộ phận cung cấp sản phẩm, dịch vụ và quản lý rủi ro trực tiếp.",
-      "Sai. Tuyến hai là chức năng chuyên môn hỗ trợ, giám sát rủi ro của Ban điều hành.",
-      "Sai. Cơ quan quản trị là HĐQT, không phải kiểm toán nội bộ."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-036",
@@ -1059,28 +1066,28 @@
     "id": "P1-A-041",
     "section": "A",
     "topic": "A1",
-    "difficulty": 2,
-    "stem": "Theo GIAS, trường hợp nào chức năng kiểm toán nội bộ được phép tuyên bố 'tuân thủ Chuẩn mực Kiểm toán Nội bộ Toàn cầu'?",
+    "difficulty": 3,
+    "stem": "Do sự cố khẩn cấp, một cuộc kiểm toán phải triển khai ngay và chương trình kiểm toán chỉ được CAE phê duyệt sau khi công việc đã thực hiện xong một nửa. CAE đánh giá điều này không tuân thủ một yêu cầu của Chuẩn mực. Báo cáo cuối cùng của cuộc kiểm toán cần thể hiện điều gì?",
     "options": [
-      "Khi CAE đã ghi cam kết tuân thủ GIAS trong điều lệ được HĐQT phê duyệt.",
-      "Khi kết quả QAIP, gồm đánh giá bên ngoài, hỗ trợ tuyên bố đó.",
-      "Khi ít nhất một nửa số kiểm toán viên trong phòng có chứng chỉ CIA.",
-      "Khi kiểm toán độc lập phát hành ý kiến chấp nhận toàn phần về BCTC."
+      "Không cần nêu, vì kết luận cuối cùng vẫn đúng và chương trình đã được phê duyệt sau đó.",
+      "Không cần nêu trong báo cáo, chỉ cần ghi vào hồ sơ để đợt đánh giá chất lượng xem xét.",
+      "Phải ghi lại rằng cuộc kiểm toán không được tuyên bố tuân thủ Chuẩn mực trong mọi trường hợp.",
+      "Công bố chi tiết việc không tuân thủ, gồm yêu cầu bị ảnh hưởng, lý do và tác động."
     ],
-    "answer": 1,
-    "explanation": "Tuyên bố tuân thủ GIAS cần có cơ sở từ chương trình đảm bảo và nâng cao chất lượng (QAIP): đánh giá nội bộ (GIAS 12.1) và đánh giá bên ngoài ít nhất 5 năm một lần (GIAS 8.4). Quy định 'chỉ được tuyên bố tuân thủ khi kết quả QAIP hỗ trợ' có từ IPPF 2017 (Chuẩn mực 1321). Cam kết trong điều lệ là cần nhưng chưa đủ.",
-    "refs": [
-      "GIAS 8.4",
-      "GIAS 12.1",
-      "IPPF 2017 1321"
-    ],
-    "source": "original",
+    "answer": 3,
+    "explanation": "CAE phải phê duyệt chương trình kiểm toán trước khi thực hiện (GIAS 13.6). Khi cuộc kiểm toán không được thực hiện theo Chuẩn mực, báo cáo cuối cùng phải công bố chi tiết về việc không tuân thủ (GIAS 15.1); khi không thể tuân thủ một yêu cầu, CAE phải ghi lại hoàn cảnh, hành động thay thế, tác động và lý do (GIAS 4.1).",
     "optionNotes": [
-      "Sai. Cam kết trong điều lệ là cần nhưng chưa đủ để tuyên bố tuân thủ.",
-      "Đúng. Tuyên bố tuân thủ cần được kết quả QAIP (đánh giá nội bộ và bên ngoài) hỗ trợ.",
-      "Sai. Tỷ lệ người có CIA không phải điều kiện tuyên bố tuân thủ.",
-      "Sai. Ý kiến kiểm toán BCTC không liên quan đến việc tuân thủ GIAS."
-    ]
+      "Sai. Kết luận đúng không miễn nghĩa vụ công bố việc không tuân thủ.",
+      "Sai. Chuẩn mực yêu cầu công bố trong báo cáo cuối cùng, không chỉ ghi hồ sơ.",
+      "Sai. Quá tuyệt đối: chuẩn mực yêu cầu công bố chi tiết, không phải tuyên bố chung như vậy.",
+      "Đúng. Báo cáo cuối cùng phải công bố chi tiết việc không tuân thủ và tác động."
+    ],
+    "refs": [
+      "GIAS 13.6",
+      "GIAS 15.1",
+      "GIAS 4.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-042",
@@ -1111,26 +1118,26 @@
     "id": "P1-A-043",
     "section": "A",
     "topic": "A5",
-    "difficulty": 2,
-    "stem": "Theo GIAS, kiểm toán nội bộ có thể dựa vào công việc của các bên cung cấp đảm bảo khác (ví dụ bộ phận tuân thủ, kiểm toán độc lập). Điều kiện tiên quyết là gì?",
+    "difficulty": 3,
+    "stem": "Ba bộ phận Kiểm toán nội bộ, Tuân thủ và Quản lý rủi ro cùng kiểm tra các chi nhánh, nhiều lần cùng một nội dung trong cùng tháng. Bộ phận Tuân thủ từ chối chia sẻ kế hoạch kiểm tra dù CAE đã nhiều lần đề nghị. CAE nên làm gì tiếp theo?",
     "options": [
-      "Bên cung cấp đảm bảo phải là công ty kiểm toán quốc tế có uy tín.",
-      "Ban điều hành đồng ý bằng văn bản cho việc dựa vào kết quả đó.",
-      "CAE đánh giá năng lực, khách quan, phạm vi của bên đó và vẫn chịu trách nhiệm.",
-      "Kết quả của bên kia được gửi thẳng cho HĐQT, không cần qua CAE."
+      "Nêu mối lo ngại với Ban điều hành cấp cao, và với HĐQT nếu cần thiết.",
+      "Tạm dừng kiểm toán các chi nhánh cho đến khi bộ phận Tuân thủ đồng ý phối hợp.",
+      "Bỏ các nội dung trùng lặp khỏi kế hoạch và dựa hoàn toàn vào bộ phận Tuân thủ.",
+      "Tiếp tục kế hoạch độc lập, vì phối hợp với tuyến thứ hai là không bắt buộc."
     ],
-    "answer": 2,
-    "explanation": "GIAS 9.5 (Phối hợp và Tin cậy): CAE có thể dựa vào công việc của bên khác để tránh trùng lặp, nhưng phải đánh giá năng lực, khách quan, thận trọng của họ, hiểu phạm vi và kết quả; trách nhiệm kết luận vẫn thuộc kiểm toán nội bộ.",
+    "answer": 0,
+    "explanation": "CAE phải phối hợp với các bên cung cấp đảm bảo nội bộ và bên ngoài để giảm trùng lặp và phát hiện khoảng trống. Nếu không thể phối hợp phù hợp, CAE phải nêu mối lo ngại với Ban điều hành cấp cao và, nếu cần, với HĐQT (GIAS 9.5).",
+    "optionNotes": [
+      "Đúng. Đây là trình tự leo thang chuẩn mực quy định khi không phối hợp được.",
+      "Sai. Dừng kiểm toán tạo khoảng trống đảm bảo và không xử lý gốc vấn đề.",
+      "Sai. Dựa vào bên khác cần cơ sở được ghi nhận; ở đây không có thông tin về công việc của họ.",
+      "Sai. Phối hợp là yêu cầu của chuẩn mực, không phải tùy chọn."
+    ],
     "refs": [
       "GIAS 9.5"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Quy mô của bên đảm bảo không phải điều kiện; CAE phải tự đánh giá.",
-      "Sai. Việc dựa vào là quyết định chuyên môn của CAE, không cần Ban điều hành đồng ý.",
-      "Đúng. GIAS 9.5: đánh giá năng lực, khách quan, phạm vi của bên đó; CAE vẫn chịu trách nhiệm kết luận.",
-      "Sai. CAE phải hiểu và đánh giá kết quả trước khi dựa vào."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-044",
@@ -1162,26 +1169,26 @@
     "id": "P1-A-045",
     "section": "A",
     "topic": "A2",
-    "difficulty": 2,
-    "stem": "Phát biểu nào đúng về trách nhiệm của CAE đối với nguồn lực của chức năng kiểm toán nội bộ?",
+    "difficulty": 3,
+    "stem": "CAE chuẩn bị nội dung báo cáo định kỳ cho HĐQT và Ban điều hành cấp cao. Nội dung nào sau đây KHÔNG thuộc danh mục CAE bắt buộc phải báo cáo theo Chuẩn mực?",
     "options": [
-      "Số kiểm toán viên phải tối thiểu bằng 1% tổng số nhân viên của tổ chức.",
-      "CAE đánh giá mức đầy đủ và báo cáo HĐQT tác động nếu nguồn lực không đủ.",
-      "Ban điều hành quyết định nguồn lực kiểm toán, không cần báo cáo HĐQT.",
-      "Kiểm toán nội bộ tự tạo nguồn thu từ dịch vụ tư vấn để bù đắp chi phí."
+      "Kế hoạch, ngân sách kiểm toán nội bộ và các điều chỉnh quan trọng sau đó.",
+      "Các tình huống có thể làm suy giảm tính độc lập của chức năng kiểm toán nội bộ.",
+      "Kết quả của chương trình đảm bảo và nâng cao chất lượng (QAIP).",
+      "Chương trình kiểm toán chi tiết và mẫu chọn của từng cuộc kiểm toán."
     ],
-    "answer": 1,
-    "explanation": "GIAS 8.2: CAE đánh giá nguồn lực (tài chính, nhân sự, công nghệ) có đủ để thực hiện mandate và kế hoạch không; nếu không đủ, phải báo cáo HĐQT về tác động. HĐQT có trách nhiệm cân nhắc việc bổ sung nguồn lực.",
-    "refs": [
-      "GIAS 8.2"
-    ],
-    "source": "original",
+    "answer": 3,
+    "explanation": "CAE phải báo cáo HĐQT và Ban điều hành cấp cao: kế hoạch và ngân sách cùng các điều chỉnh quan trọng; thay đổi có thể ảnh hưởng nhiệm vụ hoặc điều lệ; khả năng suy giảm độc lập; kết quả các dịch vụ kiểm toán; kết quả QAIP (GIAS 8.1). Chương trình kiểm toán chi tiết do CAE phê duyệt, không phải nội dung báo cáo bắt buộc.",
     "optionNotes": [
-      "Sai. GIAS không đặt tỷ lệ cố định về số kiểm toán viên.",
-      "Đúng. GIAS 8.2: CAE đánh giá mức đầy đủ của nguồn lực và báo HĐQT tác động khi không đủ.",
-      "Sai. HĐQT phải được thông tin và phê duyệt kế hoạch nguồn lực.",
-      "Sai. Kiểm toán nội bộ không có trách nhiệm tự tạo nguồn thu."
-    ]
+      "Sai. Kế hoạch, ngân sách và điều chỉnh quan trọng là nội dung bắt buộc.",
+      "Sai. Khả năng suy giảm độc lập là nội dung bắt buộc.",
+      "Sai. Kết quả QAIP là nội dung bắt buộc.",
+      "Đúng. Chương trình kiểm toán chi tiết không thuộc danh mục báo cáo bắt buộc."
+    ],
+    "refs": [
+      "GIAS 8.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-046",
@@ -1265,25 +1272,25 @@
     "section": "A",
     "topic": "A5",
     "difficulty": 2,
-    "stem": "Dịch vụ đảm bảo nào kiểm tra xem các hệ thống thông tin có bảo vệ tài sản, duy trì tính toàn vẹn dữ liệu và vận hành hiệu quả hay không?",
+    "stem": "Ủy ban Kiểm toán muốn có đảm bảo về độ tin cậy của số liệu phát thải khí nhà kính và tiêu thụ năng lượng sẽ công bố trong báo cáo phát triển bền vững năm nay. Đây là loại dịch vụ đảm bảo nào?",
     "options": [
-      "Kiểm toán môi trường và an toàn lao động.",
-      "Kiểm toán báo cáo tài chính.",
-      "Kiểm toán tuân thủ nghĩa vụ thuế.",
-      "Kiểm toán CNTT."
+      "Kiểm toán báo cáo tài chính, vì số liệu được công bố ra bên ngoài cho nhà đầu tư.",
+      "Kiểm toán tuân thủ luật môi trường về giới hạn phát thải tại các nhà máy.",
+      "Đảm bảo về thông tin phi tài chính (ESG) được báo cáo ra bên ngoài.",
+      "Kiểm toán hoạt động về hiệu quả sử dụng năng lượng của các nhà máy."
     ],
-    "answer": 3,
-    "explanation": "Kiểm toán CNTT đánh giá kiểm soát chung CNTT (truy cập, thay đổi, vận hành) và kiểm soát ứng dụng nhằm bảo vệ tài sản thông tin, toàn vẹn dữ liệu và hiệu quả hệ thống.",
+    "answer": 2,
+    "explanation": "Mục tiêu là độ tin cậy của thông tin phi tài chính sẽ công bố, nên đây là đảm bảo về báo cáo ESG / phát triển bền vững. Tuân thủ giới hạn phát thải và hiệu quả sử dụng năng lượng là các mục tiêu khác, dù cùng chủ đề môi trường.",
+    "optionNotes": [
+      "Sai. Số liệu phát thải không phải thông tin tài chính, dù được công bố ra ngoài.",
+      "Sai. Bẫy cùng chủ đề: tuân thủ giới hạn phát thải khác với độ tin cậy số liệu báo cáo.",
+      "Đúng. Mục tiêu là độ tin cậy của thông tin ESG được báo cáo.",
+      "Sai. Hiệu quả năng lượng là mục tiêu của kiểm toán hoạt động, không phải độ tin cậy số liệu."
+    ],
     "refs": [
       "CIA Part 1 A.5"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Kiểm toán môi trường không tập trung vào hệ thống thông tin.",
-      "Sai. Kiểm toán BCTC tập trung vào thông tin tài chính.",
-      "Sai. Kiểm toán thuế tập trung vào nghĩa vụ thuế.",
-      "Đúng. Kiểm toán CNTT đánh giá bảo vệ tài sản thông tin, toàn vẹn dữ liệu và hiệu quả hệ thống."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-A-050",
