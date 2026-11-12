@@ -1309,5 +1309,284 @@
       "Đúng. Đào tạo và góp ý dự thảo chính sách theo yêu cầu là dịch vụ tư vấn.",
       "Sai. Theo dõi kế hoạch hành động thuộc hoạt động đảm bảo."
     ]
+  },
+  {
+    "id": "P1-A-H01",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Giám đốc tài chính nghỉ đột xuất. Trong lúc tuyển người thay, HĐQT giao CAE kiêm Quyền Giám đốc tài chính trong 4 tháng. Kế hoạch kiểm toán năm có cuộc kiểm toán quy trình khóa sổ và lập báo cáo tài chính vào quý sau. Biện pháp nào đáp ứng yêu cầu về tính độc lập?",
+    "options": [
+      "Giao trưởng nhóm kiểm toán chủ trì cuộc kiểm toán, CAE không tham gia rà soát hồ sơ và báo cáo.",
+      "Hoãn cuộc kiểm toán mảng tài chính đến khi CAE thôi kiêm nhiệm, sau đó thực hiện như thông thường.",
+      "Bên độc lập bên ngoài đảm bảo cho mảng tài chính trong thời gian kiêm nhiệm và 12 tháng sau đó.",
+      "Ghi việc kiêm nhiệm vào điều lệ, báo cáo HĐQT, rồi kiểm toán nội bộ vẫn tự thực hiện cuộc kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "Khi CAE kiêm nhiệm tạm thời một trách nhiệm ngoài kiểm toán, việc đảm bảo cho mảng đó phải do bên thứ ba độc lập thực hiện trong thời gian kiêm nhiệm và 12 tháng tiếp theo; CAE cũng phải lập kế hoạch chuyển giao trách nhiệm đó lại cho Ban điều hành (GIAS 7.1).",
+    "optionNotes": [
+      "Sai. Người thực hiện vẫn thuộc chức năng do CAE quản lý, nên không phải là bên độc lập với mảng CAE đang phụ trách.",
+      "Sai. Chuẩn mực yêu cầu bên độc lập cả trong 12 tháng sau khi thôi kiêm nhiệm, nên kiểm toán ngay khi CAE trở lại vẫn không đạt.",
+      "Đúng. Đây đúng là biện pháp chuẩn mực yêu cầu cho trách nhiệm ngoài kiểm toán mang tính tạm thời.",
+      "Sai. Ghi vào điều lệ là yêu cầu với vai trò kiêm nhiệm lâu dài; mảng đó vẫn cần nguồn đảm bảo thay thế, không do kiểm toán nội bộ tự làm."
+    ],
+    "refs": [
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-H02",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Chị Lan làm Trưởng bộ phận Phải trả đến 10 tháng trước rồi chuyển sang kiểm toán nội bộ. Quý trước, chị Lan cùng hai đồng nghiệp thực hiện cuộc tư vấn thiết kế lại luồng phê duyệt thanh toán. Nay kế hoạch có cuộc kiểm toán đảm bảo quy trình thanh toán. CAE nên làm gì?",
+    "options": [
+      "Giao chị Lan làm trưởng nhóm vì hiểu quy trình nhất, nhưng CAE trực tiếp rà soát mọi phát hiện.",
+      "Không giao chị Lan; xác nhận cuộc tư vấn trước không làm suy giảm khách quan rồi bố trí nhân sự phù hợp.",
+      "Thuê ngoài toàn bộ cuộc kiểm toán, vì chức năng đã tư vấn về quy trình này thì không được đảm bảo nữa.",
+      "Giao chị Lan nếu chị đã công bố mối quan hệ với bộ phận Phải trả trước khi nhận việc tư vấn quý trước."
+    ],
+    "answer": 1,
+    "explanation": "Hai quy tắc cùng áp dụng: (1) khách quan bị coi là suy giảm nếu kiểm toán viên đảm bảo cho hoạt động mình phụ trách trong 12 tháng trước; (2) khi chức năng đảm bảo cho lĩnh vực đã tư vấn, CAE phải xác nhận tính chất cuộc tư vấn không làm suy giảm khách quan và bố trí nguồn lực sao cho khách quan cá nhân được quản lý (GIAS 2.2).",
+    "optionNotes": [
+      "Sai. Giám sát chặt không gỡ được suy giảm mặc định của quy tắc 12 tháng; chị Lan rời vị trí mới 10 tháng.",
+      "Đúng. Loại chị Lan theo quy tắc 12 tháng và áp dụng yêu cầu khi chuyển từ tư vấn sang đảm bảo.",
+      "Sai. Chuẩn mực cho phép đảm bảo sau khi đã tư vấn, miễn CAE xác nhận và bố trí nguồn lực phù hợp.",
+      "Sai. Việc công bố trước khi nhận tư vấn là yêu cầu cho cuộc tư vấn; không thay thế quy tắc 12 tháng cho cuộc đảm bảo."
+    ],
+    "refs": [
+      "GIAS 2.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-H03",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "CAE đồng thời phụ trách bộ phận Quản lý rủi ro doanh nghiệp (ERM) theo quyết định của HĐQT; điều lệ đã ghi rõ vai trò này và các biện pháp bảo vệ. Kế hoạch năm nay có cuộc kiểm toán đảm bảo về hiệu quả quy trình ERM. Cách thực hiện nào phù hợp nhất?",
+    "options": [
+      "Đội kiểm toán nội bộ thực hiện, CAE tránh duyệt chương trình và báo cáo của cuộc kiểm toán này.",
+      "CAE trực tiếp chủ trì để đảm bảo chất lượng, vì đã được HĐQT chấp thuận vai trò kiêm nhiệm.",
+      "Đưa cuộc kiểm toán ERM ra khỏi kế hoạch, vì kiểm toán nội bộ không thể khách quan với mảng này.",
+      "Cuộc kiểm toán được một bên độc lập ngoài chức năng kiểm toán nội bộ giám sát và chịu trách nhiệm."
+    ],
+    "answer": 3,
+    "explanation": "Cuộc kiểm toán đảm bảo cho chức năng mà CAE chịu trách nhiệm phải được một bên độc lập ngoài chức năng kiểm toán nội bộ giám sát; với vai trò kiêm nhiệm lâu dài, cần có quy trình đảm bảo thay thế, ví dụ thuê bên đảm bảo có năng lực, báo cáo độc lập cho HĐQT (GIAS 2.2, 7.1).",
+    "optionNotes": [
+      "Sai. Đội kiểm toán vẫn báo cáo cho CAE; CAE tránh duyệt không biến cuộc kiểm toán thành độc lập với CAE.",
+      "Sai. HĐQT chấp thuận vai trò kiêm nhiệm không cho phép CAE tự đảm bảo cho mảng mình phụ trách.",
+      "Sai. Bỏ khỏi kế hoạch để lại lỗ hổng đảm bảo; chuẩn mực yêu cầu thiết lập nguồn đảm bảo thay thế.",
+      "Đúng. Đây là yêu cầu khi đảm bảo cho chức năng thuộc trách nhiệm của CAE."
+    ],
+    "refs": [
+      "GIAS 2.2",
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-H04",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Đang thực hiện kiểm toán tại chi nhánh Đà Nẵng, một kiểm toán viên biết anh rể mình vừa được bổ nhiệm làm Phó giám đốc chi nhánh, phụ trách chính mảng đang được kiểm tra. Cuộc kiểm toán còn hai tuần nữa mới kết thúc. Kiểm toán viên nên làm gì trước tiên?",
+    "options": [
+      "Báo ngay cho CAE hoặc người giám sát được chỉ định về mối quan hệ này để có hướng xử lý phù hợp.",
+      "Báo trực tiếp cho Ủy ban Kiểm toán, vì suy giảm khách quan phải được HĐQT biết để bảo đảm độc lập.",
+      "Tiếp tục làm việc, ghi nhận mối quan hệ vào hồ sơ và công bố thông tin này trong báo cáo cuối cùng.",
+      "Nhờ một đồng nghiệp đổi phần việc với mình để tránh xung đột, không cần làm lớn chuyện với cấp trên."
+    ],
+    "answer": 0,
+    "explanation": "Khi biết một suy giảm có thể ảnh hưởng đến khách quan, kiểm toán viên phải công bố ngay cho CAE hoặc người giám sát được chỉ định. CAE mới là người quyết định có cần trao đổi với Ban điều hành, HĐQT và cách xử lý (GIAS 2.3).",
+    "optionNotes": [
+      "Đúng. Đúng người nhận và đúng thời điểm: công bố kịp thời cho CAE hoặc người giám sát được chỉ định.",
+      "Sai. Bỏ qua cấp nhận công bố đầu tiên; việc trao đổi với HĐQT do CAE quyết định khi cần.",
+      "Sai. Công bố muộn ở báo cáo cuối không thay được việc công bố kịp thời để xử lý trong khi đang làm.",
+      "Sai. Tự xử lý mà không công bố vi phạm yêu cầu công bố kịp thời; CAE cần biết để đánh giá cả cuộc kiểm toán."
+    ],
+    "refs": [
+      "GIAS 2.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-H05",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Báo cáo kiểm toán quy trình mua hàng đã phát hành hai tháng và Ban điều hành đang triển khai kế hoạch hành động. CAE mới biết trưởng nhóm kiểm toán có quan hệ góp vốn với một nhà cung cấp lớn được nêu trong báo cáo, điều có thể làm người đọc nghi ngờ các kết luận. CAE nên làm gì?",
+    "options": [
+      "Ghi nhận nội bộ trong hồ sơ, vì báo cáo đã phát hành và Ban điều hành đã chấp nhận các phát hiện.",
+      "Tự thu hồi báo cáo và cho kiểm toán lại toàn bộ trước khi báo cho bất kỳ bên liên quan nào.",
+      "Trao đổi với Ban điều hành đơn vị, HĐQT và các bên liên quan để thống nhất cách xử lý phù hợp.",
+      "Đưa sự việc vào lần xác nhận tính độc lập hằng năm gửi HĐQT, không cần xử lý riêng cuộc kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "Nếu phát hiện sau khi cuộc kiểm toán đã hoàn thành một suy giảm ảnh hưởng đến độ tin cậy (thực tế hoặc được cảm nhận) của phát hiện, khuyến nghị, kết luận, CAE phải trao đổi với Ban điều hành đơn vị, HĐQT, Ban điều hành cấp cao và/hoặc các bên bị ảnh hưởng để xác định hành động xử lý (GIAS 2.3; xem thêm 11.4).",
+    "optionNotes": [
+      "Sai. Việc báo cáo đã phát hành không miễn trách nhiệm xử lý suy giảm ảnh hưởng đến độ tin cậy kết luận.",
+      "Sai. Chuẩn mực yêu cầu trao đổi với các bên để xác định hành động; tự ý thu hồi trước khi trao đổi là đi tắt.",
+      "Đúng. Đây là yêu cầu khi suy giảm được phát hiện sau khi cuộc kiểm toán đã hoàn thành.",
+      "Sai. Chờ đến xác nhận hằng năm là không kịp thời và không giải quyết độ tin cậy của báo cáo đã phát hành."
+    ],
+    "refs": [
+      "GIAS 2.3",
+      "GIAS 11.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-H06",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Để tránh trùng lặp, CAE dựa vào kết quả kiểm tra kiểm soát phòng chống rửa tiền do bộ phận Tuân thủ thực hiện và nêu kết luận 'hữu hiệu' trong báo cáo gửi HĐQT. Sau đó thanh tra Ngân hàng Nhà nước phát hiện nhiều sai sót mà bộ phận Tuân thủ bỏ sót. Phát biểu nào đúng nhất?",
+    "options": [
+      "Trách nhiệm về kết luận chuyển sang bộ phận Tuân thủ, vì họ là người trực tiếp kiểm tra kiểm soát.",
+      "CAE vẫn chịu trách nhiệm về kết luận và lẽ ra phải ghi lại cơ sở cho việc dựa vào công việc đó.",
+      "CAE và bộ phận Tuân thủ chia đều trách nhiệm, vì kết luận dựa trên công việc của cả hai bên.",
+      "Kiểm toán nội bộ không được dựa vào công việc của tuyến thứ hai, nên việc dựa vào đó là sai ngay từ đầu."
+    ],
+    "answer": 1,
+    "explanation": "CAE phải phối hợp và cân nhắc dựa vào công việc của các bên cung cấp đảm bảo khác. Khi dựa vào, CAE phải ghi lại cơ sở cho việc dựa vào và vẫn chịu trách nhiệm về kết luận của chức năng kiểm toán nội bộ (GIAS 9.5).",
+    "optionNotes": [
+      "Sai. Dựa vào công việc của bên khác không chuyển trách nhiệm về kết luận của kiểm toán nội bộ.",
+      "Đúng. Trách nhiệm về kết luận vẫn thuộc CAE, kèm yêu cầu ghi lại cơ sở dựa vào.",
+      "Sai. Chuẩn mực không có cơ chế chia trách nhiệm; kết luận của kiểm toán nội bộ thuộc về CAE.",
+      "Sai. Chuẩn mực khuyến khích phối hợp và cho phép dựa vào công việc của bên đảm bảo nội bộ khác."
+    ],
+    "refs": [
+      "GIAS 9.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-H07",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "CAE lên kế hoạch đánh giá chất lượng từ bên ngoài cho chu kỳ năm năm và đang xem xét các phương án. Phương án nào sau đây KHÔNG đáp ứng yêu cầu của Chuẩn mực về đánh giá chất lượng từ bên ngoài?",
+    "options": [
+      "Tự đánh giá, sau đó thuê một đoàn độc lập có thành viên giữ chứng chỉ CIA đang hiệu lực xác nhận lại.",
+      "Thuê công ty tư vấn độc lập, có năng lực, với trưởng đoàn giữ chứng chỉ CIA đang còn hiệu lực.",
+      "Thuê một đoàn độc lập gồm chuyên gia giữ chứng chỉ CPA và CISA, không ai có chứng chỉ CIA hiệu lực.",
+      "CAE xây dựng kế hoạch đánh giá và thảo luận kế hoạch đó với HĐQT trước khi lựa chọn đoàn đánh giá."
+    ],
+    "answer": 2,
+    "explanation": "Đánh giá từ bên ngoài phải thực hiện ít nhất năm năm một lần bởi người hoặc đoàn đánh giá có năng lực, độc lập, trong đó ít nhất một người giữ chứng chỉ CIA đang hiệu lực. Yêu cầu có thể đáp ứng bằng tự đánh giá kèm xác nhận độc lập. CAE phải lập kế hoạch và thảo luận với HĐQT (GIAS 8.4).",
+    "optionNotes": [
+      "Sai. Tự đánh giá kèm xác nhận độc lập là cách được chuẩn mực cho phép, và đoàn có người giữ CIA.",
+      "Sai. Phương án này đáp ứng: độc lập, có năng lực, có người giữ CIA đang hiệu lực.",
+      "Đúng. Thiếu người giữ chứng chỉ CIA đang hiệu lực, dù các chứng chỉ khác có giá trị.",
+      "Sai. Lập kế hoạch và thảo luận với HĐQT chính là yêu cầu của chuẩn mực."
+    ],
+    "refs": [
+      "GIAS 8.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-H08",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Ngân sách kiểm toán nội bộ năm sau bị cắt 30%. CAE đánh giá rằng với nguồn lực còn lại, ba lĩnh vực rủi ro cao trong kế hoạch (an ninh mạng, tín dụng, mua sắm) sẽ không được kiểm toán. Yêu cầu nào CAE phải thực hiện?",
+    "options": [
+      "Thu hẹp phạm vi cho vừa ngân sách và trình bày mức độ bao phủ thực tế trong báo cáo cuối năm.",
+      "Chấp nhận quyết định, vì Ban điều hành cấp cao có thẩm quyền phân bổ ngân sách trong tổ chức.",
+      "Chuyển ba lĩnh vực sang hình thức đơn vị tự đánh giá kiểm soát để vẫn bảo đảm độ bao phủ.",
+      "Lập chiến lược để có đủ nguồn lực và báo HĐQT về tác động cùng cách xử lý phần thiếu hụt."
+    ],
+    "answer": 3,
+    "explanation": "CAE phải đánh giá nguồn lực có đủ để thực hiện nhiệm vụ và kế hoạch hay không. Nếu không, CAE phải xây dựng chiến lược để có đủ nguồn lực và thông báo cho HĐQT về tác động của việc thiếu nguồn lực và cách xử lý phần thiếu hụt (GIAS 8.2).",
+    "optionNotes": [
+      "Sai. Báo cáo cuối năm là quá muộn; HĐQT cần biết tác động khi quyết định, không phải sau khi đã thiếu bao phủ.",
+      "Sai. Ban điều hành có thể quyết ngân sách, nhưng CAE vẫn phải báo HĐQT về tác động đến nhiệm vụ.",
+      "Sai. Tự đánh giá của đơn vị là công cụ quản lý (tuyến thứ nhất), không thay thế đảm bảo độc lập.",
+      "Đúng. Đúng hai yêu cầu: chiến lược để có nguồn lực và báo HĐQT về tác động."
+    ],
+    "refs": [
+      "GIAS 8.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-H09",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Một công ty gia đình không có Ủy ban Kiểm toán; Chủ tịch HĐQT đồng thời là Tổng Giám đốc, và CAE báo cáo trực tiếp cho người này. Các thành viên HĐQT còn lại đều là người nhà. CAE muốn tiếp tục áp dụng Chuẩn mực. CAE phải làm gì?",
+    "options": [
+      "Ghi lại các đặc điểm của cơ cấu quản trị đang hạn chế tính độc lập và các biện pháp bảo vệ có thể áp dụng.",
+      "Ngừng tuyên bố tuân thủ Chuẩn mực, vì không có Ủy ban Kiểm toán thì không thể đạt độc lập tổ chức.",
+      "Chuyển sang báo cáo chức năng cho kiểm toán độc lập, vì đây là bên duy nhất độc lập với Ban điều hành.",
+      "Từ chối thực hiện các cuộc kiểm toán liên quan đến Tổng Giám đốc cho đến khi cơ cấu được thay đổi."
+    ],
+    "answer": 0,
+    "explanation": "Nếu cơ cấu quản trị không hỗ trợ độc lập tổ chức, CAE phải ghi lại các đặc điểm của cơ cấu đang hạn chế độc lập và các biện pháp bảo vệ có thể dùng để đạt nguyên tắc này (GIAS 7.1).",
+    "optionNotes": [
+      "Đúng. Đây chính là yêu cầu khi cơ cấu quản trị không hỗ trợ độc lập tổ chức.",
+      "Sai. Chuẩn mực áp dụng cho nhiều loại hình tổ chức và có hướng xử lý riêng, không buộc ngừng tuyên bố tuân thủ.",
+      "Sai. Kiểm toán độc lập là bên cung cấp dịch vụ cho tổ chức, không phải cơ quan quản trị để kiểm toán nội bộ báo cáo.",
+      "Sai. Tự giới hạn phạm vi làm yếu thêm nhiệm vụ; chuẩn mực yêu cầu ghi nhận hạn chế và biện pháp bảo vệ."
+    ],
+    "refs": [
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-H10",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Tổng Giám đốc đề nghị mọi tài liệu CAE trình HĐQT phải gửi qua văn phòng Tổng Giám đốc trước một tuần 'để biên tập lại cho thống nhất thông điệp của Ban điều hành'. Cách ứng xử nào của CAE phù hợp nhất?",
+    "options": [
+      "Đồng ý, vì Chuẩn mực yêu cầu CAE phối hợp thông tin gửi HĐQT với Ban điều hành cấp cao.",
+      "Từ chối chia sẻ trước bất kỳ tài liệu nào với Ban điều hành, để bảo vệ tính độc lập của báo cáo.",
+      "Chia sẻ và trao đổi trước với Ban điều hành, nhưng CAE giữ quyền quyết định nội dung trình HĐQT.",
+      "Chỉ gửi tài liệu riêng cho Chủ tịch Ủy ban Kiểm toán, không trình bày tại các cuộc họp HĐQT nữa."
+    ],
+    "answer": 2,
+    "explanation": "CAE phải phối hợp thông tin gửi HĐQT với Ban điều hành cấp cao (GIAS 6.3), nhưng vẫn phải cung cấp cho HĐQT thông tin cần thiết để giám sát (GIAS 8.1); để Ban điều hành biên tập nội dung làm suy giảm tính độc lập (GIAS 7.1). Phối hợp không đồng nghĩa với kiểm duyệt.",
+    "optionNotes": [
+      "Sai. Phối hợp là trao đổi, không phải để Ban điều hành sửa nội dung kiểm toán gửi HĐQT.",
+      "Sai. Chuẩn mực yêu cầu phối hợp với Ban điều hành; từ chối hoàn toàn đi ngược yêu cầu đó.",
+      "Đúng. Vừa phối hợp với Ban điều hành, vừa giữ quyền quyết định nội dung báo cáo HĐQT.",
+      "Sai. Né tránh vấn đề và làm hẹp kênh báo cáo với cả HĐQT, không giải quyết yêu cầu biên tập."
+    ],
+    "refs": [
+      "GIAS 6.3",
+      "GIAS 7.1",
+      "GIAS 8.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-H11",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Công ty vừa bổ nhiệm CAE mới và mua lại một công ty con hoạt động ở lĩnh vực có rủi ro pháp lý cao. Điều lệ kiểm toán nội bộ hiện hành được HĐQT phê duyệt cách đây hai năm. Nhận định nào đúng nhất?",
+    "options": [
+      "Điều lệ còn hiệu lực đến kỳ rà soát định kỳ, nên chỉ cần CAE mới đọc và ký xác nhận đã hiểu.",
+      "CAE mới tự cập nhật điều lệ cho phù hợp, vì việc soạn và duy trì điều lệ là trách nhiệm của CAE.",
+      "Ban điều hành cấp cao phê duyệt điều lệ sửa đổi, sau đó báo cáo lại cho HĐQT tại kỳ họp gần nhất.",
+      "HĐQT nên cùng CAE rà soát điều lệ để xét thay đổi, vì có CAE mới và rủi ro của tổ chức đã thay đổi."
+    ],
+    "answer": 3,
+    "explanation": "HĐQT phê duyệt điều lệ và rà soát điều lệ cùng CAE để xét các thay đổi ảnh hưởng đến tổ chức, ví dụ khi có CAE mới hoặc khi loại, mức độ, tương tác của rủi ro thay đổi (GIAS 6.2, điều kiện thiết yếu). CAE soạn và duy trì điều lệ nhưng phải thảo luận với HĐQT và Ban điều hành.",
+    "optionNotes": [
+      "Sai. CAE mới và rủi ro mới chính là hai sự kiện chuẩn mực nêu để rà soát điều lệ, không chờ kỳ định kỳ.",
+      "Sai. CAE soạn và duy trì điều lệ nhưng không tự phê duyệt; điều lệ do HĐQT phê duyệt.",
+      "Sai. Thẩm quyền phê duyệt điều lệ thuộc HĐQT, không phải Ban điều hành cấp cao.",
+      "Đúng. Đúng hai yếu tố kích hoạt rà soát và đúng vai trò của HĐQT cùng CAE."
+    ],
+    "refs": [
+      "GIAS 6.2"
+    ],
+    "source": "original"
   }
 ]
