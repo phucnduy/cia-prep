@@ -72,24 +72,27 @@
     "id": "P1-D-L004",
     "section": "D",
     "topic": "D1",
-    "difficulty": 2,
-    "stem": "Thủ đoạn gian lận sử dụng 'Nhà cung cấp trung gian ăn chênh lệch' (Pass-Through Vendor Scheme) diễn ra như thế nào?",
+    "difficulty": 3,
+    "stem": "Trưởng phòng Mua hàng sở hữu 30% cổ phần của một nhà cung cấp vật tư nhưng không kê khai. Nhà cung cấp này giao hàng đầy đủ, đúng chất lượng, với giá ngang thị trường, và được chọn trong 60% đơn hàng. Theo cây gian lận của ACFE, đây là dạng gian lận nào?",
     "options": [
-      "Nhà cung cấp xuất hóa đơn khống mà không giao bất kỳ hàng hóa nào.",
-      "Nhà cung cấp chia hóa đơn thành nhiều phần nhỏ dưới hạn mức phê duyệt.",
-      "Nhân viên nhận tiền lại quả từ nhà sản xuất chính hãng sau mỗi đơn hàng.",
-      "Nhân viên lập công ty riêng, mua hàng thật rồi bán lại với giá đội lên."
+      "Không phải gian lận, vì công ty nhận được hàng hóa đầy đủ với giá thị trường.",
+      "Biển thủ tài sản qua thủ đoạn công ty ma lập hóa đơn khống cho công ty.",
+      "Tham nhũng dưới dạng xung đột lợi ích không được công bố.",
+      "Biển thủ tài sản qua thủ đoạn trung gian ăn chênh lệch giá mua hàng."
     ],
-    "answer": 3,
-    "explanation": "Khác với Shell Company (xuất hóa đơn khống cho dịch vụ không có thật), trong Pass-Through Scheme, hàng hóa thực sự có tồn tại và được nhập kho đầy đủ, nhưng đi vòng qua công ty sân sau của nhân viên mua hàng để ăn chênh lệch giá.",
-    "refs": [],
-    "source": "legacy",
+    "answer": 2,
+    "explanation": "Lợi ích kinh tế không công bố trong một giao dịch mà nhân viên có ảnh hưởng là xung đột lợi ích, thuộc nhánh tham nhũng trong cây gian lận của ACFE. Việc giá ngang thị trường không loại trừ vi phạm: nhân viên vẫn hưởng lợi bí mật và công ty mất tính khách quan trong lựa chọn.",
     "optionNotes": [
-      "Sai. Đó là gian lận hóa đơn khống (nhà cung cấp ma).",
-      "Sai. Đó là chia nhỏ đơn hàng để né hạn mức.",
-      "Sai. Đó là lại quả (kickback).",
-      "Đúng. Pass-through: nhân viên lập công ty trung gian, mua hàng thật rồi bán lại với giá đội lên."
-    ]
+      "Sai. Bẫy: giá hợp lý không làm việc che giấu lợi ích cá nhân trở thành hợp lệ.",
+      "Sai. Hàng được giao thật, nhà cung cấp có hoạt động thật, nên không phải công ty ma.",
+      "Đúng. Lợi ích không công bố trong giao dịch là xung đột lợi ích, thuộc tham nhũng.",
+      "Sai. Không có việc mua qua trung gian để nâng giá; giá ngang thị trường."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-D-L005",
@@ -328,26 +331,26 @@
     "id": "P1-D-001",
     "section": "D",
     "topic": "D1",
-    "difficulty": 1,
-    "stem": "Theo mô hình Tam giác gian lận (Fraud Triangle), ba yếu tố dẫn đến gian lận là gì?",
+    "difficulty": 2,
+    "stem": "Sau một vụ biển thủ tại kho, Ban điều hành muốn giảm rủi ro gian lận bằng biện pháp tác động trực tiếp nhất đến yếu tố mà tổ chức kiểm soát được nhiều nhất trong Tam giác gian lận. Biện pháp nào phù hợp nhất?",
     "options": [
-      "Động cơ/áp lực, cơ hội và sự hợp lý hóa.",
-      "Kiến thức, kỹ năng và kinh nghiệm.",
-      "Lương thấp, kiểm toán yếu, công nghệ lạc hậu.",
-      "Rủi ro tiềm tàng, rủi ro kiểm soát và rủi ro phát hiện."
+      "Chương trình hỗ trợ tài chính, tư vấn cho nhân viên gặp khó khăn cá nhân.",
+      "Đào tạo đạo đức để nhân viên khó tự biện minh cho hành vi sai trái.",
+      "Tách nhiệm vụ giữ hàng và ghi sổ, kết hợp kiểm kê đột xuất định kỳ.",
+      "Tăng lương cho nhân viên kho để giảm áp lực tài chính cá nhân."
     ],
-    "answer": 0,
-    "explanation": "Tam giác gian lận (Donald Cressey): Áp lực/động cơ (pressure/incentive), Cơ hội (opportunity) và Hợp lý hóa (rationalization). Tổ chức kiểm soát trực tiếp được nhiều nhất yếu tố Cơ hội thông qua kiểm soát nội bộ.",
+    "answer": 2,
+    "explanation": "Trong Tam giác gian lận (áp lực, cơ hội, hợp lý hóa), cơ hội là yếu tố tổ chức kiểm soát trực tiếp nhất thông qua hệ thống kiểm soát nội bộ. Áp lực và hợp lý hóa chủ yếu nằm ở cá nhân, chỉ tác động gián tiếp được.",
+    "optionNotes": [
+      "Sai. Tác động vào áp lực, yếu tố tổ chức chỉ ảnh hưởng gián tiếp.",
+      "Sai. Tác động vào hợp lý hóa, khó kiểm soát và đo lường.",
+      "Đúng. Giảm cơ hội bằng kiểm soát nội bộ là biện pháp trực tiếp nhất.",
+      "Sai. Tăng lương có thể giảm áp lực nhưng không chặn cơ hội."
+    ],
     "refs": [
       "CIA Part 1 D.1"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Đúng. Tam giác gian lận gồm áp lực/động cơ, cơ hội và hợp lý hóa.",
-      "Sai. Đây là các yếu tố năng lực.",
-      "Sai. Đây là các ví dụ nguyên nhân cụ thể, không phải mô hình.",
-      "Sai. Đây là các thành phần của mô hình rủi ro kiểm toán."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-D-002",
@@ -378,26 +381,27 @@
     "id": "P1-D-003",
     "section": "D",
     "topic": "D1",
-    "difficulty": 2,
-    "stem": "Nhân viên thu ngân nhận tiền mặt của khách hàng nhưng không ghi nhận giao dịch vào hệ thống và giữ lại số tiền. Đây là loại gian lận nào?",
+    "difficulty": 3,
+    "stem": "Một chuỗi cửa hàng nghi ngờ thu ngân nhận tiền mặt của khách nhưng không nhập giao dịch vào máy tính tiền (skimming). Thủ tục nào sau đây ÍT hiệu quả nhất để phát hiện thủ đoạn này?",
     "options": [
-      "Skimming (biển thủ trước khi ghi nhận).",
-      "Lapping (gối đầu công nợ).",
-      "Larceny (lấy tiền sau khi đã ghi nhận).",
-      "Kiting (lợi dụng thời gian chuyển séc giữa ngân hàng)."
+      "Đối chiếu số tiền nộp ngân hàng với doanh thu đã ghi nhận trên hệ thống bán hàng.",
+      "Phân tích chênh lệch giữa lượng hàng xuất kho và doanh thu theo từng cửa hàng.",
+      "Xem camera quầy thu ngân và so sánh với nhật ký giao dịch của máy tính tiền.",
+      "Theo dõi phản hồi của khách hàng về việc không được in hóa đơn khi thanh toán."
     ],
     "answer": 0,
-    "explanation": "Skimming là lấy tiền trước khi giao dịch được ghi vào sổ sách, nên khó phát hiện qua đối chiếu sổ. Larceny là lấy tiền sau khi đã ghi nhận. Lapping là dùng tiền khách sau bù cho khách trước để che giấu.",
-    "refs": [
-      "ACFE Fraud Tree"
-    ],
-    "source": "original",
+    "explanation": "Skimming lấy tiền trước khi giao dịch được ghi nhận, nên sổ sách vẫn khớp: tiền nộp ngân hàng bằng đúng doanh thu đã ghi. Cần các thủ tục đối chiếu với nguồn độc lập ngoài sổ sách: hàng tồn kho, camera, phản hồi khách hàng.",
     "optionNotes": [
-      "Đúng. Skimming là lấy tiền trước khi giao dịch được ghi sổ.",
-      "Sai. Lapping là dùng tiền khách sau để bù cho khách trước.",
-      "Sai. Larceny là lấy tiền sau khi đã ghi sổ.",
-      "Sai. Kiting lợi dụng thời gian thanh toán séc giữa các ngân hàng."
-    ]
+      "Đúng. Doanh thu bị lấy không bao giờ được ghi nhận, nên đối chiếu này vẫn khớp.",
+      "Sai. Hàng xuất mà không có doanh thu tương ứng là dấu hiệu của skimming.",
+      "Sai. Camera cho thấy giao dịch thực tế không có trong nhật ký máy tính tiền.",
+      "Sai. Khách không nhận hóa đơn là dấu hiệu giao dịch không được nhập."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-D-004",
@@ -429,27 +433,27 @@
     "section": "D",
     "topic": "D2",
     "difficulty": 2,
-    "stem": "Theo GIAS, kiểm toán viên nội bộ cần có mức hiểu biết như thế nào về gian lận?",
+    "stem": "Sau một vụ gian lận được phát hiện, một thành viên HĐQT yêu cầu mọi kiểm toán viên nội bộ phải có trình độ ngang chuyên gia điều tra gian lận. CAE nên giải thích kỳ vọng phù hợp về hiểu biết gian lận của kiểm toán viên nội bộ thế nào?",
     "options": [
-      "Đủ chuyên môn tương đương chuyên gia điều tra gian lận chuyên nghiệp.",
-      "Không cần hiểu biết, vì gian lận thuộc trách nhiệm của bộ phận pháp chế.",
-      "Chỉ cần hiểu về gian lận báo cáo tài chính, không cần các loại khác.",
-      "Đủ để đánh giá rủi ro gian lận, không cần như chuyên gia điều tra."
+      "Phải có trình độ tương đương chuyên gia điều tra để phát hiện được mọi vụ gian lận.",
+      "Đủ hiểu biết để nhận diện dấu hiệu và đánh giá rủi ro gian lận, không cần như chuyên gia điều tra.",
+      "Không cần hiểu biết về gian lận, vì việc điều tra luôn được thuê chuyên gia bên ngoài thực hiện.",
+      "Chỉ cần hiểu về gian lận báo cáo tài chính, vì đây là loại gây thiệt hại lớn nhất."
     ],
-    "answer": 3,
-    "explanation": "Kiểm toán viên cần đủ hiểu biết để nhận diện dấu hiệu và đánh giá rủi ro gian lận, nhưng không cần chuyên môn như người có trách nhiệm chính là phát hiện và điều tra gian lận. Câu chữ này có trong IPPF 2017 (Chuẩn mực 1210.A2); GIAS 3.1 yêu cầu chung là có hoặc bổ sung năng lực cần thiết, và GIAS 9.4 yêu cầu kế hoạch kiểm toán xem xét rủi ro gian lận.",
+    "answer": 1,
+    "explanation": "Kiểm toán viên cần đủ hiểu biết để nhận diện dấu hiệu và đánh giá rủi ro gian lận, nhưng không được kỳ vọng có chuyên môn như người có trách nhiệm chính là phát hiện và điều tra gian lận. Câu chữ này có trong IPPF 2017 (1210.A2); GIAS 3.1 yêu cầu chung là có hoặc bổ sung năng lực cần thiết, và GIAS 9.4 yêu cầu kế hoạch kiểm toán xem xét rủi ro gian lận. Khi cần điều tra, CAE bổ sung năng lực, ví dụ thuê chuyên gia.",
+    "optionNotes": [
+      "Sai. Kỳ vọng quá mức: kiểm toán viên không phải là chuyên gia điều tra.",
+      "Đúng. Đây là mức hiểu biết phù hợp với vai trò kiểm toán nội bộ.",
+      "Sai. Kiểm toán viên vẫn phải đủ hiểu biết để đánh giá rủi ro gian lận.",
+      "Sai. Hiểu biết cần bao gồm mọi loại gian lận liên quan đến tổ chức."
+    ],
     "refs": [
       "GIAS 3.1",
       "GIAS 9.4",
       "IPPF 2017 1210.A2"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Kiểm toán viên không cần chuyên môn của chuyên gia điều tra.",
-      "Sai. Kiểm toán viên cần đủ hiểu biết để đánh giá rủi ro gian lận.",
-      "Sai. Cần hiểu mọi loại gian lận, không chỉ gian lận BCTC.",
-      "Đúng. Đủ hiểu biết để đánh giá rủi ro gian lận, không cần như chuyên gia điều tra (IPPF 2017 1210.A2)."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-D-006",
@@ -480,101 +484,103 @@
     "id": "P1-D-007",
     "section": "D",
     "topic": "D3",
-    "difficulty": 1,
-    "stem": "Theo các báo cáo của ACFE, phương thức phát hiện gian lận phổ biến nhất là gì?",
+    "difficulty": 2,
+    "stem": "Với ngân sách hạn chế, Ủy ban Kiểm toán muốn đầu tư vào một biện pháp giúp phát hiện gian lận sớm nhất. Dựa trên kết quả nghiên cứu nhiều năm của ACFE về cách các vụ gian lận được phát hiện, lựa chọn nào hợp lý nhất?",
     "options": [
-      "Kiểm toán độc lập bên ngoài.",
-      "Tố giác.",
-      "Rà soát của Ban điều hành.",
-      "Phát hiện tình cờ."
+      "Tăng tần suất kiểm toán báo cáo tài chính bởi công ty kiểm toán độc lập.",
+      "Mua phần mềm giám sát toàn bộ email của nhân viên theo thời gian thực.",
+      "Tăng số lượng cuộc kiểm toán nội bộ đột xuất tại các chi nhánh.",
+      "Xây dựng kênh tố giác dễ tiếp cận, bảo mật và có cơ chế bảo vệ người báo."
     ],
-    "answer": 1,
-    "explanation": "Các báo cáo Report to the Nations liên tục cho thấy tố giác (khoảng 40% số vụ) là phương thức phát hiện phổ biến nhất, vượt xa các phương thức khác. Tổ chức có đường dây nóng phát hiện gian lận nhanh hơn và thiệt hại thấp hơn.",
-    "refs": [
-      "ACFE Report to the Nations"
-    ],
-    "source": "original",
+    "answer": 3,
+    "explanation": "Các báo cáo của ACFE qua nhiều năm đều cho thấy tố giác là phương thức phát hiện gian lận phổ biến nhất, vượt xa kiểm toán nội bộ và kiểm toán độc lập. Kênh tố giác hiệu quả cũng có tác dụng răn đe.",
     "optionNotes": [
-      "Sai. Kiểm toán độc lập phát hiện tỷ lệ nhỏ các vụ gian lận.",
-      "Đúng. Theo ACFE, tố giác là phương thức phát hiện phổ biến nhất (khoảng 40% số vụ).",
-      "Sai. Rà soát của Ban điều hành đứng sau tố giác.",
-      "Sai. Phát hiện tình cờ chiếm tỷ lệ nhỏ."
-    ]
+      "Sai. Kiểm toán độc lập phát hiện một tỷ lệ nhỏ các vụ gian lận theo ACFE.",
+      "Sai. Giám sát email tốn kém, có vấn đề quyền riêng tư và không phải phương thức phát hiện chính.",
+      "Sai. Kiểm toán nội bộ có ích, nhưng phát hiện ít vụ hơn tố giác.",
+      "Đúng. Tố giác là nguồn phát hiện gian lận phổ biến nhất theo ACFE."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.3"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-D-008",
     "section": "D",
     "topic": "D3",
     "difficulty": 2,
-    "stem": "Dấu hiệu nào sau đây là 'cờ đỏ' (red flag) điển hình của gian lận do nhân viên?",
+    "stem": "Kiểm toán viên ghi nhận bốn quan sát về nhân viên phòng kế toán công nợ. Quan sát nào là dấu hiệu cảnh báo gian lận (red flag) đáng chú ý nhất?",
     "options": [
-      "Nhân viên vừa đạt chứng chỉ chuyên môn mới và xin tăng lương.",
-      "Nhân viên thường xuyên đề xuất thay đổi quy trình làm việc.",
-      "Nhân viên thường làm thêm giờ để kịp tiến độ dự án được giao.",
-      "Sống vượt thu nhập, thân thiết với nhà cung cấp, không chịu nghỉ phép."
+      "Một nhân viên thường đề xuất cải tiến quy trình đối chiếu công nợ hằng tháng.",
+      "Một nhân viên từ chối nghỉ phép nhiều năm và đòi tự xử lý mọi hồ sơ của một nhà cung cấp.",
+      "Một nhân viên vừa hoàn thành chứng chỉ kế toán và đề nghị được tăng lương.",
+      "Một nhân viên thường làm thêm giờ vào cuối quý khi khối lượng công việc tăng."
     ],
-    "answer": 3,
-    "explanation": "Các cờ đỏ hành vi phổ biến: sống vượt thu nhập, khó khăn tài chính, quan hệ bất thường với nhà cung cấp/khách hàng, không muốn chia sẻ công việc hoặc nghỉ phép. Cờ đỏ là dấu hiệu cần điều tra thêm, không phải bằng chứng.",
-    "refs": [
-      "ACFE Report to the Nations"
-    ],
-    "source": "original",
+    "answer": 1,
+    "explanation": "Không chịu nghỉ phép và giành quyền kiểm soát độc quyền một mảng giao dịch là dấu hiệu hành vi điển hình: người gian lận cần có mặt liên tục để che giấu và ngăn người khác phát hiện. Các quan sát khác có giải thích hợp lý theo công việc.",
     "optionNotes": [
-      "Sai. Đạt chứng chỉ và xin tăng lương là hành vi bình thường.",
-      "Sai. Đề xuất cải tiến là hành vi tích cực.",
-      "Sai. Làm thêm giờ để kịp tiến độ dự án không phải cờ đỏ điển hình.",
-      "Đúng. Sống vượt thu nhập, thân với nhà cung cấp, không chịu nghỉ phép là các cờ đỏ hành vi điển hình."
-    ]
+      "Sai. Đề xuất cải tiến quy trình là hành vi tích cực.",
+      "Đúng. Đây là dấu hiệu hành vi cảnh báo gian lận điển hình.",
+      "Sai. Đề nghị tăng lương sau khi có chứng chỉ là bình thường.",
+      "Sai. Làm thêm giờ vào cao điểm cuối quý có lý do công việc rõ ràng."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.3"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-D-009",
     "section": "D",
     "topic": "D3",
     "difficulty": 2,
-    "stem": "Ai chịu trách nhiệm chính trong việc ngăn ngừa và phát hiện gian lận trong tổ chức?",
+    "stem": "Sau khi phát hiện một vụ biển thủ kéo dài hai năm, một thành viên HĐQT nói: 'Kiểm toán nội bộ đã thất bại, vì ngăn ngừa và phát hiện gian lận là trách nhiệm của kiểm toán nội bộ'. Nhận định nào đúng nhất?",
     "options": [
-      "Ban điều hành, dưới sự giám sát của HĐQT.",
-      "Chức năng kiểm toán nội bộ của tổ chức.",
-      "Công ty kiểm toán độc lập được thuê hằng năm.",
-      "Bộ phận pháp chế và cơ quan điều tra."
+      "Đúng, vì kiểm toán nội bộ là tuyến cuối cùng chịu trách nhiệm về kiểm soát gian lận.",
+      "Đúng, nếu khu vực xảy ra gian lận đã có trong kế hoạch kiểm toán hai năm qua.",
+      "Chưa đúng; trách nhiệm chính thuộc kiểm toán độc lập vì họ kiểm toán báo cáo tài chính.",
+      "Chưa đúng; Ban điều hành chịu trách nhiệm chính, dưới sự giám sát của HĐQT."
     ],
-    "answer": 0,
-    "explanation": "Ban điều hành chịu trách nhiệm thiết kế và vận hành kiểm soát chống gian lận; HĐQT giám sát. Kiểm toán nội bộ đánh giá hiệu quả của quản lý rủi ro gian lận và có thể hỗ trợ điều tra, nhưng không chịu trách nhiệm chính.",
-    "refs": [
-      "COSO 2013 Principle 8"
-    ],
-    "source": "original",
+    "answer": 3,
+    "explanation": "Ban điều hành chịu trách nhiệm chính trong việc thiết kế và vận hành kiểm soát để ngăn ngừa, phát hiện gian lận, dưới sự giám sát của HĐQT. Kiểm toán nội bộ đánh giá rủi ro gian lận và hiệu quả kiểm soát, nhưng không chịu trách nhiệm chính.",
     "optionNotes": [
-      "Đúng. Ban điều hành chịu trách nhiệm chính về kiểm soát chống gian lận; HĐQT giám sát.",
-      "Sai. Kiểm toán nội bộ đánh giá quản lý rủi ro gian lận, không chịu trách nhiệm chính.",
-      "Sai. Kiểm toán độc lập chỉ xem xét gian lận ảnh hưởng BCTC.",
-      "Sai. Pháp chế và cơ quan điều tra tham gia khi có vụ việc, không chịu trách nhiệm phòng ngừa."
-    ]
+      "Sai. Kiểm toán nội bộ cung cấp đảm bảo, không sở hữu kiểm soát gian lận.",
+      "Sai. Có trong kế hoạch kiểm toán không chuyển trách nhiệm chính sang kiểm toán nội bộ.",
+      "Sai. Kiểm toán độc lập chỉ xem xét gian lận ở mức ảnh hưởng trọng yếu đến báo cáo tài chính.",
+      "Đúng. Trách nhiệm chính thuộc Ban điều hành, HĐQT giám sát."
+    ],
+    "refs": [
+      "CIA Part 1 D.3"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-D-010",
     "section": "D",
     "topic": "D4",
-    "difficulty": 2,
-    "stem": "Kiểm soát nào sau đây là kiểm soát phòng ngừa (preventive) đối với rủi ro thanh toán cho nhà cung cấp ma (fictitious vendor)?",
+    "difficulty": 3,
+    "stem": "Công ty lo ngại đã thanh toán trùng hóa đơn cho nhà cung cấp trong ba năm qua do nhiều chi nhánh cùng nhập hóa đơn. Kiểm soát nào giúp PHÁT HIỆN tốt nhất các khoản thanh toán trùng đã xảy ra?",
     "options": [
-      "Rà soát danh sách các khoản đã thanh toán vào cuối mỗi tháng.",
-      "So sánh địa chỉ nhà cung cấp với địa chỉ nhân viên hằng quý.",
-      "Tách quyền tạo nhà cung cấp khỏi quyền thanh toán, có thẩm định trước.",
-      "Kiểm toán nội bộ chọn mẫu hóa đơn để kiểm tra chi tiết vào cuối năm."
+      "Đối chiếu ba bên giữa đơn đặt hàng, phiếu nhập kho và hóa đơn trước khi thanh toán.",
+      "Yêu cầu bộ phận độc lập phê duyệt mọi thay đổi trong danh mục nhà cung cấp.",
+      "Định kỳ phân tích dữ liệu thanh toán để tìm các khoản trùng số hóa đơn, số tiền, nhà cung cấp.",
+      "Tách biệt nhiệm vụ nhập hóa đơn với nhiệm vụ phê duyệt thanh toán tại mỗi chi nhánh."
     ],
     "answer": 2,
-    "explanation": "Phân chia trách nhiệm giữa tạo dữ liệu chủ nhà cung cấp và thanh toán, cùng thẩm định trước, ngăn gian lận xảy ra. Các phương án còn lại phát hiện sau khi đã thanh toán (detective).",
+    "explanation": "Câu hỏi hỏi về phát hiện các khoản đã thanh toán. Phân tích dữ liệu thanh toán theo các tiêu chí trùng là kiểm soát phát hiện, rà soát được toàn bộ lịch sử. Đối chiếu ba bên, phê duyệt danh mục và tách nhiệm vụ là kiểm soát phòng ngừa cho giao dịch mới.",
+    "optionNotes": [
+      "Sai. Đối chiếu ba bên là phòng ngừa, áp dụng trước khi thanh toán.",
+      "Sai. Kiểm soát danh mục nhà cung cấp là phòng ngừa, không xử lý hóa đơn trùng.",
+      "Đúng. Phân tích dữ liệu định kỳ phát hiện các khoản trùng đã xảy ra.",
+      "Sai. Tách nhiệm vụ là phòng ngừa và không ngăn được hai chi nhánh cùng nhập một hóa đơn."
+    ],
     "refs": [
       "CIA Part 1 D.4"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Rà soát sau khi thanh toán là kiểm soát phát hiện.",
-      "Sai. So sánh địa chỉ định kỳ là kiểm soát phát hiện.",
-      "Đúng. Tách quyền tạo nhà cung cấp khỏi thanh toán và thẩm định trước ngăn gian lận xảy ra.",
-      "Sai. Kiểm toán chọn mẫu cuối năm là thủ tục phát hiện."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-D-011",

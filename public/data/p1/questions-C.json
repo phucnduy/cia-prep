@@ -218,28 +218,25 @@
     "section": "C",
     "topic": "C7",
     "difficulty": 2,
-    "stem": "Theo 17 Nguyên tắc của COSO IC, thành phần 'Hoạt động kiểm soát' (Control Activities) bao gồm 3 nguyên tắc nào?",
+    "stem": "Công ty ban hành chính sách phê duyệt chi và triển khai bằng các thủ tục cụ thể, thiết lập kiểm soát chung đối với hệ thống CNTT, và lựa chọn các kiểm soát để giảm rủi ro thanh toán sai. Theo COSO 2013, ba việc này thuộc thành phần nào?",
     "options": [
-      "Nguyên tắc 6, 7 và 8.",
-      "Nguyên tắc 13, 14 và 15.",
-      "Nguyên tắc 16 và 17.",
-      "Nguyên tắc 10, 11 và 12."
+      "Đánh giá rủi ro.",
+      "Hoạt động kiểm soát.",
+      "Thông tin và truyền thông.",
+      "Hoạt động giám sát."
     ],
-    "answer": 3,
-    "explanation": "Hoạt động kiểm soát trong COSO gồm Nguyên tắc 10 (tích hợp với đánh giá rủi ro), Nguyên tắc 11 (kiểm soát công nghệ ITGC) và Nguyên tắc 12 (triển khai qua Policies xác định cái cần làm và Procedures xác định cách thực hiện).",
-    "refs": [
-      "GIAS Principle 10",
-      "GIAS Principle 11",
-      "GIAS Principle 12",
-      "COSO"
-    ],
-    "source": "legacy",
+    "answer": 1,
+    "explanation": "Thành phần Hoạt động kiểm soát gồm ba nguyên tắc (10-12): lựa chọn và phát triển hoạt động kiểm soát để giảm rủi ro; lựa chọn và phát triển kiểm soát chung đối với công nghệ; triển khai qua chính sách và thủ tục.",
     "optionNotes": [
-      "Sai. Nguyên tắc 6-9 thuộc Đánh giá rủi ro.",
-      "Sai. Nguyên tắc 13-15 thuộc Thông tin và Truyền thông.",
-      "Sai. Nguyên tắc 16-17 thuộc Hoạt động giám sát.",
-      "Đúng. Hoạt động kiểm soát gồm Nguyên tắc 10, 11, 12."
-    ]
+      "Sai. Đánh giá rủi ro là nhận diện, phân tích rủi ro, xem xét gian lận và thay đổi.",
+      "Đúng. Cả ba việc là ba nguyên tắc của thành phần Hoạt động kiểm soát.",
+      "Sai. Thông tin và truyền thông bàn về thông tin chất lượng và truyền đạt nội bộ, bên ngoài.",
+      "Sai. Hoạt động giám sát là đánh giá liên tục, định kỳ và thông báo khiếm khuyết."
+    ],
+    "refs": [
+      "COSO 2013"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-C-L011",
@@ -620,51 +617,51 @@
     "id": "P1-C-001",
     "section": "C",
     "topic": "C1",
-    "difficulty": 1,
-    "stem": "Theo GIAS, 'quản trị' (governance) được hiểu là gì?",
+    "difficulty": 2,
+    "stem": "Kiểm toán nội bộ được giao đánh giá quy trình quản trị (governance) của công ty. Hoạt động nào sau đây thuộc phạm vi quản trị hơn là quản lý điều hành hằng ngày?",
     "options": [
-      "Quy trình và cấu trúc do HĐQT thiết lập để chỉ đạo, giám sát tổ chức.",
-      "Toàn bộ các thủ tục kế toán và lập báo cáo tài chính của tổ chức.",
-      "Các quy định do cơ quan quản lý nhà nước ban hành cho doanh nghiệp.",
-      "Hoạt động kiểm tra của kiểm toán nội bộ đối với Ban điều hành."
+      "Trưởng phòng mua hàng phê duyệt đơn đặt hàng trong hạn mức được giao.",
+      "Giám đốc kinh doanh họp hằng tuần để rà soát doanh số từng khu vực.",
+      "HĐQT xác định định hướng chiến lược và giám sát việc Ban điều hành thực hiện.",
+      "Phòng nhân sự tuyển dụng và đào tạo nhân viên mới theo kế hoạch năm."
     ],
-    "answer": 0,
-    "explanation": "Glossary GIAS định nghĩa governance là sự kết hợp các quy trình và cấu trúc do HĐQT thực hiện để thông tin, chỉ đạo, quản lý và giám sát các hoạt động của tổ chức nhằm đạt mục tiêu. Kế toán và kiểm toán chỉ là một phần trong đó.",
+    "answer": 2,
+    "explanation": "Theo GIAS, quản trị là sự kết hợp các quy trình và cấu trúc do HĐQT triển khai để thông tin, chỉ đạo, quản lý và giám sát hoạt động của tổ chức hướng tới mục tiêu. Phê duyệt đơn hàng, họp doanh số, tuyển dụng là quản lý điều hành.",
+    "optionNotes": [
+      "Sai. Phê duyệt giao dịch là hoạt động kiểm soát trong quản lý điều hành.",
+      "Sai. Rà soát doanh số là quản lý hiệu quả kinh doanh hằng ngày.",
+      "Đúng. Định hướng và giám sát của HĐQT là trọng tâm của quản trị.",
+      "Sai. Tuyển dụng, đào tạo là quy trình quản lý nhân sự."
+    ],
     "refs": [
       "GIAS - Glossary"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Đúng. Glossary GIAS: quy trình và cấu trúc do HĐQT thiết lập để thông tin, chỉ đạo, quản lý và giám sát tổ chức.",
-      "Sai. Thủ tục kế toán chỉ là một phần nhỏ của kiểm soát.",
-      "Sai. Quy định của nhà nước là môi trường pháp lý, không phải quản trị.",
-      "Sai. Kiểm toán nội bộ đánh giá quản trị, không phải quản trị."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-002",
     "section": "C",
     "topic": "C1",
     "difficulty": 2,
-    "stem": "Vai trò chính của Ủy ban Kiểm toán thuộc HĐQT là gì?",
+    "stem": "Chủ tịch Ủy ban Kiểm toán mới đề xuất Ủy ban trực tiếp phê duyệt mọi khoản thanh toán trên 1 tỷ đồng 'để kiểm soát chặt hơn'. Nhận định nào phù hợp nhất về đề xuất này?",
     "options": [
-      "Điều hành và ra quyết định về hoạt động kinh doanh hằng ngày.",
-      "Giám sát BCTC, kiểm soát nội bộ, kiểm toán nội bộ và độc lập.",
-      "Phê duyệt từng khoản chi có giá trị trên mức 100 triệu đồng.",
-      "Thay thế chức năng kiểm toán nội bộ ở các doanh nghiệp nhỏ."
+      "Phù hợp, vì Ủy ban Kiểm toán chịu trách nhiệm cao nhất về kiểm soát nội bộ của công ty.",
+      "Phù hợp, nếu Ủy ban Kiểm toán có thành viên có chuyên môn tài chính để thẩm định từng khoản.",
+      "Chưa phù hợp, vì Ủy ban Kiểm toán giám sát kiểm soát, không thực hiện chức năng quản lý.",
+      "Chưa phù hợp, vì chỉ kiểm toán nội bộ mới được phê duyệt các khoản thanh toán lớn."
     ],
-    "answer": 1,
-    "explanation": "Ủy ban Kiểm toán là ủy ban giám sát của HĐQT: giám sát báo cáo tài chính, hệ thống kiểm soát, quản trị rủi ro, kiểm toán nội bộ và kiểm toán độc lập. Điều hành hằng ngày và phê duyệt giao dịch là việc của Ban điều hành.",
+    "answer": 2,
+    "explanation": "Ủy ban Kiểm toán giám sát báo cáo tài chính, kiểm soát nội bộ, kiểm toán nội bộ và kiểm toán độc lập. Phê duyệt giao dịch là kiểm soát của Ban điều hành; nếu Ủy ban tham gia, Ủy ban sẽ giám sát chính việc mình làm và lẫn lộn vai trò.",
+    "optionNotes": [
+      "Sai. Ban điều hành chịu trách nhiệm thiết kế và vận hành kiểm soát; Ủy ban giám sát.",
+      "Sai. Chuyên môn không thay đổi việc đây là vai trò quản lý.",
+      "Đúng. Vai trò của Ủy ban là giám sát, không phải vận hành kiểm soát.",
+      "Sai. Kiểm toán nội bộ cũng không phê duyệt giao dịch, vì đó là trách nhiệm quản lý."
+    ],
     "refs": [
       "CIA Part 1 C.1"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Điều hành hằng ngày là việc của Ban điều hành.",
-      "Đúng. Ủy ban Kiểm toán giám sát BCTC, kiểm soát nội bộ, kiểm toán nội bộ và kiểm toán độc lập.",
-      "Sai. Phê duyệt giao dịch là trách nhiệm quản lý.",
-      "Sai. Ủy ban Kiểm toán giám sát, không thực hiện kiểm toán."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-003",
@@ -746,25 +743,25 @@
     "section": "C",
     "topic": "C2",
     "difficulty": 2,
-    "stem": "Ví dụ nào sau đây là 'kiểm soát mềm' (soft control)?",
+    "stem": "Khi đánh giá môi trường kiểm soát, kiểm toán viên phân loại các yếu tố thành kiểm soát cứng và kiểm soát mềm. Yếu tố nào sau đây KHÔNG phải là kiểm soát mềm?",
     "options": [
-      "Đối chiếu số dư ngân hàng hằng tháng.",
-      "Mật khẩu và phân quyền truy cập hệ thống.",
-      "Phê duyệt hai cấp cho khoản thanh toán lớn.",
-      "Sự tin tưởng và tinh thần dám lên tiếng."
+      "Mức độ cởi mở của lãnh đạo khi nhận tin xấu từ cấp dưới.",
+      "Sự hiểu biết chung của nhân viên về giá trị đạo đức của công ty.",
+      "Phân quyền trên hệ thống chặn người lập phiếu chi tự phê duyệt.",
+      "Sự tin tưởng và tinh thần dám lên tiếng trong các nhóm làm việc."
     ],
-    "answer": 3,
-    "explanation": "Kiểm soát mềm là yếu tố vô hình như văn hóa, đạo đức, năng lực, sự tin tưởng, tinh thần lên tiếng. Đối chiếu, mật khẩu, phê duyệt là kiểm soát cứng (hữu hình). Kiểm soát mềm thường được đánh giá qua khảo sát, phỏng vấn, CSA.",
+    "answer": 2,
+    "explanation": "Kiểm soát mềm là các yếu tố vô hình: văn hóa, giá trị, sự cởi mở, tin tưởng, năng lực, cam kết. Phân quyền trên hệ thống là kiểm soát cứng: được văn bản hóa, có thể kiểm tra trực tiếp.",
+    "optionNotes": [
+      "Sai. Sự cởi mở của lãnh đạo là kiểm soát mềm.",
+      "Sai. Hiểu biết chung về giá trị đạo đức là kiểm soát mềm.",
+      "Đúng. Phân quyền hệ thống là kiểm soát cứng.",
+      "Sai. Tin tưởng và dám lên tiếng là kiểm soát mềm."
+    ],
     "refs": [
       "CIA Part 1 C.2"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Đối chiếu ngân hàng là kiểm soát cứng.",
-      "Sai. Mật khẩu, phân quyền là kiểm soát cứng.",
-      "Sai. Phê duyệt hai cấp là kiểm soát cứng.",
-      "Đúng. Sự tin tưởng và tinh thần dám lên tiếng là kiểm soát mềm."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-007",
@@ -946,176 +943,176 @@
     "id": "P1-C-014",
     "section": "C",
     "topic": "C5",
-    "difficulty": 2,
-    "stem": "Khung COSO ERM 2017 (Enterprise Risk Management - Integrating with Strategy and Performance) gồm năm thành phần nào?",
+    "difficulty": 3,
+    "stem": "HĐQT đang chọn giữa ba phương án chiến lược mở rộng. Giám đốc rủi ro đề xuất chỉ đánh giá rủi ro sau khi HĐQT đã chọn xong chiến lược, để 'không làm chậm quyết định'. Theo cách tiếp cận của COSO ERM 2017, nhận định nào đúng nhất?",
     "options": [
-      "Môi trường kiểm soát, đánh giá rủi ro, hoạt động kiểm soát, thông tin, giám sát.",
-      "Nhận diện, đo lường, giám sát, báo cáo và kiểm toán rủi ro.",
-      "Quản trị và văn hóa; Chiến lược; Hiệu quả; Rà soát; Thông tin và báo cáo.",
-      "Lập kế hoạch, tổ chức, lãnh đạo, kiểm soát và cải tiến liên tục."
+      "Phù hợp, vì quản trị rủi ro chủ yếu phục vụ việc kiểm soát quá trình thực hiện chiến lược.",
+      "Phù hợp, nếu rủi ro của chiến lược được chọn được đánh giá ngay trong quý đầu triển khai.",
+      "Chưa phù hợp, vì mục tiêu chính của quản trị rủi ro là loại bỏ các phương án có rủi ro cao.",
+      "Chưa phù hợp, vì rủi ro cần được xem xét ngay khi lựa chọn chiến lược, không chỉ khi thực hiện."
     ],
-    "answer": 2,
-    "explanation": "COSO ERM 2017 có 5 thành phần và 20 nguyên tắc: Governance & Culture; Strategy & Objective-Setting; Performance; Review & Revision; Information, Communication & Reporting. Phương án liệt kê môi trường kiểm soát, đánh giá rủi ro, hoạt động kiểm soát, thông tin, giám sát là 5 thành phần của COSO Internal Control 2013.",
+    "answer": 3,
+    "explanation": "COSO ERM 2017 (Tích hợp với Chiến lược và Hiệu quả hoạt động) nhấn mạnh xem xét rủi ro ngay trong quá trình xây dựng và lựa chọn chiến lược, bao gồm rủi ro chiến lược không phù hợp với sứ mệnh, giá trị, khẩu vị rủi ro, chứ không chỉ rủi ro khi thực hiện.",
+    "optionNotes": [
+      "Sai. Đây là cách nhìn hẹp mà COSO ERM 2017 muốn thay đổi.",
+      "Sai. Đánh giá sau khi đã chọn bỏ lỡ việc so sánh rủi ro giữa các phương án.",
+      "Sai. Quản trị rủi ro không nhằm loại bỏ rủi ro, mà chấp nhận rủi ro phù hợp khẩu vị để tạo giá trị.",
+      "Đúng. Rủi ro phải được xem xét khi lựa chọn chiến lược."
+    ],
     "refs": [
       "COSO ERM 2017"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Đây là năm thành phần của COSO Internal Control 2013.",
-      "Sai. Không phải các thành phần của COSO ERM.",
-      "Đúng. COSO ERM 2017 có năm thành phần này cùng 20 nguyên tắc.",
-      "Sai. Đây là các chức năng quản lý cổ điển."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-015",
     "section": "C",
     "topic": "C5",
-    "difficulty": 2,
-    "stem": "Một ma trận nhiệt (heat map) rủi ro thường dựa trên hai trục đánh giá nào?",
+    "difficulty": 3,
+    "stem": "Trên ma trận nhiệt, rủi ro X (khả năng 5, mức ảnh hưởng 2) và rủi ro Y (khả năng 1, mức ảnh hưởng 10, có thể làm công ty mất giấy phép hoạt động) đều có điểm 10. Ban điều hành đề xuất xử lý hai rủi ro như nhau vì 'cùng điểm'. Nhận định nào đúng nhất?",
     "options": [
-      "Khả năng xảy ra và mức độ ảnh hưởng.",
-      "Chi phí kiểm soát và doanh thu bị đe dọa.",
-      "Số lượng nhân viên và số quy trình liên quan.",
-      "Rủi ro tiềm tàng và rủi ro kiểm toán."
+      "Hợp lý, vì ma trận nhiệt được thiết kế để so sánh các rủi ro trên cùng một thang điểm.",
+      "Hợp lý, nhưng nên ưu tiên rủi ro X vì khả năng xảy ra cao hơn nhiều so với rủi ro Y.",
+      "Chưa hợp lý, vì điểm tổng hợp che mất mức độ nghiêm trọng; rủi ro Y cần xem xét riêng.",
+      "Chưa hợp lý, vì rủi ro có khả năng xảy ra thấp như Y nên được chấp nhận mà không xử lý."
     ],
-    "answer": 0,
-    "explanation": "Heat map biểu diễn rủi ro theo khả năng xảy ra và mức độ ảnh hưởng để ưu tiên xử lý. Một số tổ chức bổ sung tốc độ tác động (velocity) hoặc mức độ chuẩn bị, nhưng hai trục cơ bản là likelihood và impact.",
+    "answer": 2,
+    "explanation": "Nhân khả năng với ảnh hưởng thành một điểm có thể che mất rủi ro có hậu quả thảm khốc dù hiếm gặp. Rủi ro có thể đe dọa sự tồn tại của tổ chức cần xem xét theo mức độ nghiêm trọng và năng lực chịu đựng, thường với biện pháp ứng phó riêng.",
+    "optionNotes": [
+      "Sai. Đây là hạn chế đã biết của điểm tổng hợp trên ma trận nhiệt.",
+      "Sai. Ưu tiên theo khả năng xảy ra bỏ qua hậu quả có thể đe dọa sự tồn tại.",
+      "Đúng. Điểm giống nhau không có nghĩa là rủi ro giống nhau.",
+      "Sai. Khả năng thấp không có nghĩa là chấp nhận khi hậu quả vượt năng lực chịu đựng."
+    ],
     "refs": [
       "CIA Part 1 C.5"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Đúng. Heat map xếp rủi ro theo khả năng xảy ra và mức độ ảnh hưởng.",
-      "Sai. Không phải hai trục của heat map rủi ro.",
-      "Sai. Không phải hai trục của heat map rủi ro.",
-      "Sai. Rủi ro kiểm toán là khái niệm của kiểm toán, không phải trục của heat map."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-016",
     "section": "C",
     "topic": "C6",
     "difficulty": 2,
-    "stem": "Chỉ số rủi ro chính (KRI) khác chỉ số hiệu quả hoạt động (KPI) ở điểm nào?",
+    "stem": "Ban điều hành muốn theo dõi sớm rủi ro mất nhân sự chủ chốt ở bộ phận phát triển phần mềm. Chỉ số nào phù hợp nhất để làm chỉ số rủi ro chính (KRI)?",
     "options": [
-      "KRI chỉ dùng cho rủi ro tài chính; KPI dùng cho rủi ro phi tài chính.",
-      "KRI cảnh báo sớm rủi ro tăng; KPI đo mức đạt mục tiêu.",
-      "KRI do kiểm toán nội bộ đặt ra; KPI do HĐQT đặt ra hằng năm.",
-      "KRI và KPI giống nhau, chỉ khác tên gọi giữa các phòng ban."
+      "Số nhân viên mới được tuyển trong quý so với kế hoạch tuyển dụng.",
+      "Tổng số giờ đào tạo đã hoàn thành của bộ phận trong năm.",
+      "Xu hướng tỷ lệ nghỉ việc tự nguyện và đơn xin nghỉ ở các vị trí chủ chốt.",
+      "Tổng chi phí lương của bộ phận so với ngân sách được duyệt."
     ],
-    "answer": 1,
-    "explanation": "KRI là chỉ số dự báo, giúp phát hiện sớm rủi ro đang tăng (ví dụ tỷ lệ nghỉ việc nhân sự chủ chốt, số lần truy cập trái phép). KPI đo kết quả thực hiện mục tiêu. Cả hai do Ban điều hành xây dựng.",
+    "answer": 2,
+    "explanation": "KRI là chỉ số cảnh báo sớm khi mức độ rủi ro tăng. Xu hướng nghỉ việc tự nguyện ở vị trí chủ chốt phản ánh trực tiếp rủi ro mất nhân sự. Số tuyển dụng, giờ đào tạo, chi phí lương chủ yếu đo mức đạt kế hoạch (KPI).",
+    "optionNotes": [
+      "Sai. Đây là KPI đo việc đạt kế hoạch tuyển dụng.",
+      "Sai. Giờ đào tạo đo hoạt động, không cảnh báo nguy cơ mất người.",
+      "Đúng. Chỉ số này cảnh báo sớm và gắn trực tiếp với rủi ro.",
+      "Sai. Chi phí lương là chỉ số tài chính, không cảnh báo nguy cơ nghỉ việc."
+    ],
     "refs": [
       "CIA Part 1 C.6"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Cả hai loại chỉ số áp dụng cho mọi lĩnh vực.",
-      "Đúng. KRI cảnh báo sớm rủi ro gia tăng; KPI đo mức đạt mục tiêu.",
-      "Sai. Cả hai do Ban điều hành xây dựng.",
-      "Sai. Mục đích của hai loại chỉ số khác nhau."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-017",
     "section": "C",
     "topic": "C6",
-    "difficulty": 3,
-    "stem": "Công ty quyết định thuê ngoài toàn bộ hoạt động trung tâm dữ liệu cho một nhà cung cấp đám mây. Đánh giá nào đúng về trách nhiệm đối với rủi ro?",
+    "difficulty": 2,
+    "stem": "Công ty sắp ký hợp đồng 5 năm thuê ngoài xử lý bảng lương cho một nhà cung cấp dịch vụ. Để có thể giám sát rủi ro nhà cung cấp trong suốt thời hạn hợp đồng, điều khoản nào quan trọng nhất cần có?",
     "options": [
-      "Toàn bộ rủi ro liên quan đã được chuyển giao sang nhà cung cấp.",
-      "Công ty chỉ còn rủi ro về chi phí và điều khoản thanh toán hợp đồng.",
-      "Kiểm toán nội bộ trở thành bên chịu trách nhiệm giám sát nhà cung cấp.",
-      "Công ty vẫn chịu trách nhiệm; cần quản lý rủi ro bên thứ ba."
+      "Điều khoản tự động gia hạn hợp đồng để tránh gián đoạn dịch vụ khi hết hạn.",
+      "Quyền kiểm toán, hoặc quyền nhận báo cáo đảm bảo độc lập về kiểm soát của nhà cung cấp.",
+      "Điều khoản độc quyền, cam kết nhà cung cấp không phục vụ đối thủ cạnh tranh.",
+      "Điều khoản chiết khấu khi thanh toán sớm phí dịch vụ hằng tháng cho nhà cung cấp."
     ],
-    "answer": 3,
-    "explanation": "Thuê ngoài chuyển giao hoạt động nhưng không chuyển giao trách nhiệm giải trình. Tổ chức phải quản lý rủi ro bên thứ ba qua thẩm định, hợp đồng, giám sát (ví dụ báo cáo SOC 2). Giám sát nhà cung cấp là trách nhiệm quản lý, kiểm toán nội bộ chỉ đánh giá.",
+    "answer": 1,
+    "explanation": "Thuê ngoài không chuyển trách nhiệm quản lý rủi ro. Để giám sát, tổ chức cần quyền kiểm toán nhà cung cấp hoặc quyền nhận báo cáo đảm bảo độc lập (ví dụ SOC 1, SOC 2), cùng các điều khoản về bảo mật, mức dịch vụ và thông báo sự cố.",
+    "optionNotes": [
+      "Sai. Tự động gia hạn còn làm giảm cơ hội đánh giá lại nhà cung cấp.",
+      "Đúng. Đây là cơ sở để có thông tin giám sát kiểm soát của nhà cung cấp.",
+      "Sai. Độc quyền là điều khoản thương mại, không giúp giám sát rủi ro.",
+      "Sai. Chiết khấu là lợi ích tài chính, không liên quan giám sát kiểm soát."
+    ],
     "refs": [
       "CIA Part 1 C.6"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Thuê ngoài không chuyển giao trách nhiệm giải trình.",
-      "Sai. Còn rủi ro hoạt động, bảo mật, tuân thủ, phụ thuộc nhà cung cấp.",
-      "Sai. Giám sát nhà cung cấp là trách nhiệm quản lý.",
-      "Đúng. Công ty vẫn chịu trách nhiệm và phải quản lý rủi ro bên thứ ba."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-018",
     "section": "C",
     "topic": "C7",
-    "difficulty": 1,
-    "stem": "Kiểm soát nào sau đây là kiểm soát 'chỉ dẫn' (directive control)?",
+    "difficulty": 3,
+    "stem": "Báo cáo ngoại lệ hằng ngày phát hiện một số đơn giá bán bị nhập sai. Quy trình yêu cầu kế toán điều chỉnh bút toán, bộ phận CNTT sửa bảng giá trên hệ thống để lỗi không lặp lại. Việc điều chỉnh và sửa bảng giá là loại kiểm soát nào?",
     "options": [
-      "Ban hành chính sách và quy trình hướng dẫn.",
-      "Đối chiếu số dư ngân hàng hằng tháng.",
-      "Khôi phục dữ liệu từ bản sao lưu.",
-      "Khóa tài khoản sau 5 lần nhập sai mật khẩu."
+      "Kiểm soát phát hiện, vì quy trình bắt đầu từ báo cáo ngoại lệ hằng ngày.",
+      "Kiểm soát phòng ngừa, vì mục đích là ngăn sai sót xảy ra từ đầu.",
+      "Kiểm soát chỉ dẫn, vì có quy trình hướng dẫn cách xử lý sai sót.",
+      "Kiểm soát khắc phục, vì sửa sai sót đã xảy ra và nguyên nhân của nó."
     ],
-    "answer": 0,
-    "explanation": "Kiểm soát chỉ dẫn định hướng hành vi mong muốn (chính sách, quy trình, đào tạo). Đối chiếu là phát hiện; khôi phục dữ liệu là khắc phục; khóa tài khoản là phòng ngừa.",
+    "answer": 3,
+    "explanation": "Báo cáo ngoại lệ là kiểm soát phát hiện. Việc điều chỉnh bút toán và sửa nguyên nhân sau khi sai sót đã được phát hiện là kiểm soát khắc phục. Câu hỏi hỏi về bước điều chỉnh, không phải bước phát hiện.",
+    "optionNotes": [
+      "Sai. Bẫy: báo cáo ngoại lệ là phát hiện, nhưng câu hỏi hỏi về bước điều chỉnh.",
+      "Sai. Sai sót đã xảy ra; bước này không ngăn sai sót ban đầu.",
+      "Sai. Kiểm soát chỉ dẫn là chính sách, hướng dẫn để khuyến khích kết quả mong muốn.",
+      "Đúng. Sửa sai sót và nguyên nhân sau khi phát hiện là kiểm soát khắc phục."
+    ],
     "refs": [
       "CIA Part 1 C.7"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Đúng. Chính sách và quy trình hướng dẫn hành vi mong muốn là kiểm soát chỉ dẫn.",
-      "Sai. Đối chiếu là kiểm soát phát hiện.",
-      "Sai. Khôi phục dữ liệu là kiểm soát khắc phục.",
-      "Sai. Khóa tài khoản là kiểm soát phòng ngừa."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-019",
     "section": "C",
     "topic": "C7",
     "difficulty": 2,
-    "stem": "Theo COSO Internal Control 2013, mục tiêu của hệ thống kiểm soát nội bộ được chia thành ba nhóm nào?",
+    "stem": "Công ty đặt mục tiêu 'số liệu phát thải và an toàn lao động trong báo cáo phát triển bền vững gửi nhà đầu tư phải đáng tin cậy'. Theo COSO 2013, đây là loại mục tiêu nào?",
     "options": [
-      "Chiến lược, tài chính và nhân sự.",
-      "Phòng ngừa, phát hiện và khắc phục.",
-      "Hoạt động, báo cáo và tuân thủ.",
-      "Hiệu lực, hiệu quả và tính kinh tế."
+      "Mục tiêu hoạt động, vì liên quan đến hoạt động sản xuất của các nhà máy.",
+      "Mục tiêu báo cáo, vì liên quan độ tin cậy của thông tin báo cáo ra bên ngoài.",
+      "Mục tiêu tuân thủ, vì liên quan đến các quy định về môi trường và lao động.",
+      "Không thuộc COSO 2013, vì khung chỉ áp dụng cho báo cáo tài chính."
     ],
-    "answer": 2,
-    "explanation": "COSO 2013 chia mục tiêu thành: Hoạt động (operations), Báo cáo (reporting - tài chính và phi tài chính, nội bộ và bên ngoài) và Tuân thủ (compliance). Phòng ngừa, phát hiện, khắc phục là các loại kiểm soát; hiệu lực, hiệu quả, kinh tế là tiêu chí của kiểm toán hoạt động. COSO ERM 2004 bổ sung thêm nhóm mục tiêu Chiến lược.",
+    "answer": 1,
+    "explanation": "COSO 2013 chia mục tiêu thành hoạt động, báo cáo, tuân thủ; nhóm báo cáo gồm cả báo cáo phi tài chính, bên trong và bên ngoài. Độ tin cậy của số liệu bền vững gửi nhà đầu tư là mục tiêu báo cáo bên ngoài, phi tài chính.",
+    "optionNotes": [
+      "Sai. Mục tiêu nói về độ tin cậy của báo cáo, không phải hiệu quả sản xuất.",
+      "Đúng. Đây là mục tiêu báo cáo bên ngoài, phi tài chính.",
+      "Sai. Bẫy cùng chủ đề: tuân thủ quy định khác với độ tin cậy số liệu báo cáo.",
+      "Sai. COSO 2013 mở rộng mục tiêu báo cáo sang thông tin phi tài chính."
+    ],
     "refs": [
       "COSO 2013"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Không phải ba nhóm mục tiêu của COSO.",
-      "Sai. Đây là các loại kiểm soát.",
-      "Đúng. COSO 2013 chia mục tiêu thành Hoạt động, Báo cáo và Tuân thủ.",
-      "Sai. Đây là tiêu chí (3E) của kiểm toán hoạt động."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-020",
     "section": "C",
     "topic": "C8",
-    "difficulty": 2,
-    "stem": "Phân biệt 'hiệu lực thiết kế' và 'hiệu quả vận hành' của một kiểm soát?",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên chọn một giao dịch mua hàng, đi theo toàn bộ quy trình từ đề nghị mua đến thanh toán (walkthrough) và thấy kiểm soát phê duyệt được thực hiện đúng. Từ đó kiểm toán viên kết luận kiểm soát 'vận hành hữu hiệu trong cả năm'. Kết luận này có vấn đề gì?",
     "options": [
-      "Thiết kế đánh giá chi phí của kiểm soát; vận hành đánh giá lợi ích mang lại.",
-      "Thiết kế: phù hợp với rủi ro; vận hành: thực hiện nhất quán trong kỳ.",
-      "Hai khái niệm như nhau, nên chỉ cần kiểm tra một trong hai.",
-      "Thiết kế do kiểm toán độc lập đánh giá; vận hành do kiểm toán nội bộ đánh giá."
+      "Không có vấn đề, vì walkthrough là thủ tục kiểm tra kiểm soát đầy đủ nhất hiện có.",
+      "Walkthrough chỉ cho thấy thiết kế và việc triển khai, chưa đủ kết luận vận hành cả kỳ.",
+      "Kiểm toán viên phải kiểm tra 100% giao dịch mới được kết luận về hiệu quả vận hành.",
+      "Walkthrough chỉ dùng trong kiểm toán báo cáo tài chính, không dùng trong kiểm toán nội bộ."
     ],
     "answer": 1,
-    "explanation": "Đánh giá thiết kế (thường qua walkthrough, phỏng vấn) xem kiểm soát có phù hợp với rủi ro. Kiểm tra vận hành (chọn mẫu, thực hiện lại) xem kiểm soát có được thực hiện đúng và nhất quán. Kiểm soát thiết kế kém thì không cần kiểm tra vận hành.",
+    "explanation": "Walkthrough một giao dịch giúp hiểu quy trình và xác nhận kiểm soát được thiết kế và đã được triển khai. Kết luận về hiệu quả vận hành trong cả kỳ cần kiểm tra một mẫu đủ lớn trải đều trong kỳ hoặc phân tích toàn bộ dữ liệu.",
+    "optionNotes": [
+      "Sai. Một giao dịch không chứng minh kiểm soát vận hành nhất quán trong kỳ.",
+      "Đúng. Phân biệt bằng chứng về thiết kế với bằng chứng về vận hành.",
+      "Sai. Quá tuyệt đối: mẫu phù hợp hoặc phân tích dữ liệu là đủ.",
+      "Sai. Walkthrough là kỹ thuật phổ biến trong kiểm toán nội bộ."
+    ],
     "refs": [
       "CIA Part 1 C.8"
     ],
-    "source": "original",
-    "optionNotes": [
-      "Sai. Chi phí, lợi ích là vấn đề hiệu quả (efficiency), không phải định nghĩa này.",
-      "Đúng. Thiết kế: kiểm soát có phù hợp với rủi ro; vận hành: có thực hiện nhất quán trong kỳ.",
-      "Sai. Kiểm soát thiết kế tốt vẫn có thể không được thực hiện.",
-      "Sai. Kiểm toán nội bộ đánh giá cả hai."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-021",
