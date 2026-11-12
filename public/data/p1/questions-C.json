@@ -1166,5 +1166,263 @@
       "Sai. Bảo hiểm là chuyển giao rủi ro, không phải kiểm soát.",
       "Sai. Két sắt bảo vệ chứng từ, không bù đắp việc thiếu phân chia trách nhiệm."
     ]
+  },
+  {
+    "id": "P1-C-H01",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 3,
+    "stem": "Chính sách yêu cầu Trưởng phòng Kế toán rà soát bảng đối chiếu ngân hàng hằng tháng và điều tra mọi khoản chênh lệch tồn quá 30 ngày. Kiểm toán viên thấy các bảng đối chiếu đều có chữ ký rà soát đúng hạn, nhưng nhiều khoản chênh lệch tồn hơn 90 ngày không có ghi chú hay xử lý. Kết luận nào phù hợp nhất?",
+    "options": [
+      "Kiểm soát hữu hiệu, vì bảng đối chiếu được lập và có chữ ký rà soát đầy đủ, đúng hạn mỗi tháng.",
+      "Thiết kế kiểm soát không phù hợp, vì chính sách không quy định rõ ngưỡng giá trị cần điều tra.",
+      "Kiểm soát thiết kế phù hợp nhưng không vận hành hữu hiệu, vì việc rà soát không được thực hiện thực chất.",
+      "Không có kiểm soát, vì một kiểm soát chỉ tồn tại khi đã có chênh lệch được phát hiện và xử lý."
+    ],
+    "answer": 2,
+    "explanation": "Chính sách đã quy định rõ việc điều tra chênh lệch quá 30 ngày (thiết kế phù hợp). Chữ ký rà soát không chứng minh việc rà soát đã thực hiện đúng; các khoản tồn trên 90 ngày cho thấy kiểm soát không vận hành hữu hiệu. Phân biệt hiệu lực thiết kế và hiệu quả vận hành là trọng tâm khi đánh giá kiểm soát.",
+    "optionNotes": [
+      "Sai. Bẫy bằng chứng hình thức: chữ ký không chứng minh việc rà soát được thực hiện thực chất.",
+      "Sai. Chính sách đã nêu rõ yêu cầu điều tra khoản tồn quá 30 ngày; vấn đề nằm ở thực hiện.",
+      "Đúng. Thiết kế đủ, nhưng thực tế không điều tra chênh lệch nên vận hành không hữu hiệu.",
+      "Sai. Kiểm soát vẫn tồn tại trong chính sách và quy trình; nó chỉ không vận hành như thiết kế."
+    ],
+    "refs": [
+      "CIA Part 1 C.8",
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-H02",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 3,
+    "stem": "Sau một vụ cháy ở đối thủ, công ty vừa mua bảo hiểm cháy nổ cho kho hàng chính, vừa lắp hệ thống phun nước tự động và cảm biến khói. Đánh giá nào đúng nhất về các biện pháp ứng phó rủi ro này?",
+    "options": [
+      "Cả hai đều là giảm thiểu rủi ro, vì đều làm giảm thiệt hại tài chính công ty phải gánh chịu.",
+      "Bảo hiểm là chia sẻ (chuyển giao) rủi ro; hệ thống phun nước và cảm biến là giảm thiểu rủi ro.",
+      "Bảo hiểm là chuyển giao toàn bộ rủi ro, nên công ty không còn rủi ro nào liên quan đến hỏa hoạn.",
+      "Bảo hiểm là chấp nhận rủi ro có điều kiện; hệ thống phun nước và cảm biến là né tránh rủi ro."
+    ],
+    "answer": 1,
+    "explanation": "Mua bảo hiểm chia sẻ hoặc chuyển giao hậu quả tài chính cho bên khác; thiết bị phòng cháy làm giảm khả năng hoặc mức độ thiệt hại (giảm thiểu). Bảo hiểm không chuyển hết rủi ro: gián đoạn kinh doanh, mất khách, uy tín, an toàn con người vẫn thuộc về công ty.",
+    "optionNotes": [
+      "Sai. Bảo hiểm không làm giảm khả năng xảy ra cháy, chỉ chuyển một phần hậu quả tài chính.",
+      "Đúng. Phân loại đúng hai cách ứng phó: chia sẻ và giảm thiểu.",
+      "Sai. Bảo hiểm không chuyển được rủi ro gián đoạn hoạt động, uy tín và trách nhiệm của công ty.",
+      "Sai. Né tránh là thôi hoạt động gây rủi ro; công ty vẫn vận hành kho nên không phải né tránh."
+    ],
+    "refs": [
+      "CIA Part 1 C.4",
+      "COSO ERM 2017"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-H03",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 3,
+    "stem": "Khi trình bày khung COSO Kiểm soát nội bộ (2013) cho Ban điều hành, kiểm toán viên liệt kê các thành phần của khung. Mục nào sau đây KHÔNG phải là một trong năm thành phần của khung này?",
+    "options": [
+      "Môi trường kiểm soát (control environment).",
+      "Thiết lập mục tiêu (objective setting).",
+      "Hoạt động giám sát (monitoring activities).",
+      "Thông tin và truyền thông (information and communication)."
+    ],
+    "answer": 1,
+    "explanation": "Năm thành phần của COSO Kiểm soát nội bộ 2013 là: môi trường kiểm soát, đánh giá rủi ro, hoạt động kiểm soát, thông tin và truyền thông, hoạt động giám sát. 'Thiết lập mục tiêu' là một thành phần của COSO ERM 2004; trong COSO 2013, việc xác định mục tiêu rõ ràng chỉ là một nguyên tắc thuộc thành phần đánh giá rủi ro.",
+    "optionNotes": [
+      "Sai. Môi trường kiểm soát là thành phần thứ nhất của khung.",
+      "Đúng. Bẫy nhầm khung: thiết lập mục tiêu là thành phần của COSO ERM 2004, không phải COSO 2013.",
+      "Sai. Hoạt động giám sát là thành phần thứ năm của khung.",
+      "Sai. Thông tin và truyền thông là thành phần thứ tư của khung."
+    ],
+    "refs": [
+      "COSO 2013",
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-H04",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên đang phân loại các kiểm soát trong hệ thống ERP để lập kế hoạch kiểm tra. Kiểm soát nào sau đây là kiểm soát chung về công nghệ thông tin (IT general control), không phải kiểm soát ứng dụng?",
+    "options": [
+      "Hệ thống tự động đối chiếu ba bên giữa đơn đặt hàng, phiếu nhập kho và hóa đơn trước khi thanh toán.",
+      "Mọi thay đổi mã nguồn phải được phê duyệt, kiểm thử và tách biệt môi trường trước khi đưa vào chạy.",
+      "Hệ thống từ chối nhập mã nhà cung cấp không tồn tại trong danh mục nhà cung cấp đã được duyệt.",
+      "Hệ thống tự động tính lãi chậm trả cho khách hàng dựa trên số ngày quá hạn và lãi suất hợp đồng."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm soát chung CNTT áp dụng cho môi trường hệ thống nói chung (quản lý thay đổi, quản lý truy cập, vận hành, phát triển hệ thống) và là nền tảng để các kiểm soát ứng dụng vận hành tin cậy. Đối chiếu ba bên, kiểm tra dữ liệu nhập, tính toán tự động là kiểm soát ứng dụng gắn với một quy trình nghiệp vụ cụ thể.",
+    "optionNotes": [
+      "Sai. Đối chiếu ba bên tự động là kiểm soát ứng dụng trong quy trình mua hàng - thanh toán.",
+      "Đúng. Quản lý thay đổi chương trình là kiểm soát chung CNTT điển hình.",
+      "Sai. Kiểm tra tính hợp lệ của dữ liệu nhập là kiểm soát ứng dụng (input control).",
+      "Sai. Tính toán tự động trong một nghiệp vụ là kiểm soát ứng dụng (processing control)."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-H05",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 3,
+    "stem": "Một doanh nghiệp xây dựng khung quản lý rủi ro theo ISO 31000:2018. Phát biểu nào sau đây KHÔNG phù hợp với các nguyên tắc quản lý rủi ro của tiêu chuẩn này?",
+    "options": [
+      "Quản lý rủi ro được tích hợp vào mọi hoạt động của tổ chức, kể cả việc ra quyết định.",
+      "Quản lý rủi ro được vận hành như một quy trình độc lập, tách biệt khỏi các quy trình quản lý khác.",
+      "Quản lý rủi ro cần xét đến yếu tố con người và văn hóa ở mọi cấp độ và giai đoạn.",
+      "Quản lý rủi ro dựa trên thông tin tốt nhất hiện có, gồm dữ liệu quá khứ, hiện tại và dự báo."
+    ],
+    "answer": 1,
+    "explanation": "ISO 31000:2018 nêu các nguyên tắc: tích hợp, có cấu trúc và toàn diện, được điều chỉnh phù hợp, có sự tham gia, linh hoạt, dựa trên thông tin tốt nhất hiện có, xét yếu tố con người và văn hóa, cải tiến liên tục. Vận hành tách biệt đi ngược nguyên tắc tích hợp.",
+    "optionNotes": [
+      "Sai. 'Tích hợp' là nguyên tắc đầu tiên của ISO 31000:2018.",
+      "Đúng. Tách quản lý rủi ro khỏi các quy trình khác trái với nguyên tắc tích hợp.",
+      "Sai. Yếu tố con người và văn hóa là một nguyên tắc của tiêu chuẩn.",
+      "Sai. Dựa trên thông tin tốt nhất hiện có là một nguyên tắc của tiêu chuẩn."
+    ],
+    "refs": [
+      "ISO 31000:2018",
+      "CIA Part 1 C.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-H06",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 3,
+    "stem": "Đường dây nóng tố giác của công ty nhận được rất ít báo cáo dù khảo sát nhân viên cho thấy nhiều người biết về vi phạm. Mọi tin báo hiện được chuyển thẳng đến Giám đốc tài chính, người cũng phụ trách các bộ phận thường bị phản ánh. Biện pháp nào cải thiện hiệu quả kênh này nhất?",
+    "options": [
+      "Tổ chức thêm các buổi đào tạo để nhân viên hiểu rõ quy tắc ứng xử và cách sử dụng đường dây nóng.",
+      "Yêu cầu người báo cáo cung cấp danh tính để giảm tin báo sai sự thật và dễ xác minh thông tin.",
+      "Thưởng tiền cho mọi tin báo được gửi đến để khuyến khích nhân viên sử dụng đường dây nóng nhiều hơn.",
+      "Chuyển tin báo đến một bên độc lập, ví dụ Ủy ban Kiểm toán, và bảo đảm người báo được bảo vệ."
+    ],
+    "answer": 3,
+    "explanation": "Nguyên nhân gốc là kênh tố giác không độc lập: người nhận tin là người phụ trách các bộ phận bị phản ánh, nên nhân viên ngại báo cáo vì sợ bị trả đũa. Kênh hiệu quả cần được tiếp nhận bởi bên độc lập, bảo mật hoặc cho phép ẩn danh, và chống trả đũa.",
+    "optionNotes": [
+      "Sai. Nhân viên đã biết về vi phạm; vấn đề là không tin tưởng người nhận tin, đào tạo không xử lý được.",
+      "Sai. Bắt buộc nêu danh tính làm tăng nỗi sợ bị trả đũa và giảm thêm số tin báo.",
+      "Sai. Thưởng cho mọi tin báo khuyến khích tin báo kém chất lượng mà không xử lý vấn đề độc lập.",
+      "Đúng. Xử lý đúng nguyên nhân gốc: tính độc lập của người nhận tin và bảo vệ người báo."
+    ],
+    "refs": [
+      "CIA Part 1 C.3",
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-H07",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "Giám đốc quản lý rủi ro (CRO) của một ngân hàng báo cáo duy nhất cho Tổng Giám đốc, và thưởng hằng năm của CRO được tính theo mức tăng trưởng dư nợ tín dụng. Theo Mô hình Ba Tuyến, điều nào đáng lo ngại nhất?",
+    "options": [
+      "CRO không có kênh báo cáo trực tiếp cho CAE để phối hợp kế hoạch kiểm toán và đánh giá rủi ro.",
+      "Cơ chế thưởng làm suy giảm tính khách quan của vai trò giám sát rủi ro mà tuyến thứ hai phải giữ.",
+      "Bộ phận quản lý rủi ro chỉ cập nhật danh mục rủi ro theo quý thay vì cập nhật theo từng tháng.",
+      "CRO tham gia các cuộc họp kinh doanh, nên không còn là chức năng độc lập với tuyến thứ nhất."
+    ],
+    "answer": 1,
+    "explanation": "Vai trò tuyến thứ hai là chuyên môn, hỗ trợ, giám sát và thách thức các vấn đề liên quan đến rủi ro. Khi thưởng của CRO gắn với tăng trưởng tín dụng, CRO có động cơ nới lỏng việc thách thức rủi ro tín dụng. Tuyến thứ hai có thể gần gũi tuyến thứ nhất; điều quan trọng là tính khách quan và kênh tiếp cận cơ quan quản trị.",
+    "optionNotes": [
+      "Sai. CRO không cần báo cáo cho CAE; hai bên phối hợp nhưng có quan hệ báo cáo riêng.",
+      "Đúng. Động cơ tài chính gắn với chỉ tiêu kinh doanh làm yếu chức năng thách thức của tuyến thứ hai.",
+      "Sai. Tần suất cập nhật theo quý có thể phù hợp; đây không phải mối lo ngại lớn nhất.",
+      "Sai. Theo Mô hình Ba Tuyến, tuyến thứ hai được phép gắn với hoạt động; tham gia họp không phải vấn đề."
+    ],
+    "refs": [
+      "IIA Three Lines Model",
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-H08",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 3,
+    "stem": "Theo khung COSO ERM 2017 (Tích hợp với Chiến lược và Hiệu quả hoạt động), việc nhận diện, đánh giá mức độ nghiêm trọng, ưu tiên hóa và lựa chọn ứng phó với rủi ro thuộc chủ yếu thành phần nào?",
+    "options": [
+      "Quản trị và Văn hóa (Governance and Culture).",
+      "Chiến lược và Thiết lập mục tiêu (Strategy and Objective-Setting).",
+      "Rà soát và Điều chỉnh (Review and Revision).",
+      "Hiệu quả hoạt động (Performance)."
+    ],
+    "answer": 3,
+    "explanation": "COSO ERM 2017 có năm thành phần: Quản trị và Văn hóa; Chiến lược và Thiết lập mục tiêu; Hiệu quả hoạt động; Rà soát và Điều chỉnh; Thông tin, Truyền thông và Báo cáo. Nhận diện, đánh giá mức độ nghiêm trọng, ưu tiên và ứng phó rủi ro nằm trong thành phần Hiệu quả hoạt động (Performance).",
+    "optionNotes": [
+      "Sai. Quản trị và Văn hóa bàn về giám sát của HĐQT, cơ cấu, văn hóa, giá trị cốt lõi.",
+      "Sai. Thành phần này gồm phân tích bối cảnh, xác định khẩu vị rủi ro, đánh giá chiến lược thay thế.",
+      "Sai. Rà soát và Điều chỉnh xem xét thay đổi trọng yếu và cải tiến quản trị rủi ro.",
+      "Đúng. Nhận diện, đánh giá, ưu tiên và ứng phó rủi ro thuộc thành phần Hiệu quả hoạt động."
+    ],
+    "refs": [
+      "COSO ERM 2017",
+      "CIA Part 1 C.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-H09",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Công ty thuê hạ tầng đám mây theo mô hình IaaS và tự cài đặt hệ điều hành, phần mềm ERP trên các máy chủ ảo. Tin tặc khai thác một lỗ hổng hệ điều hành đã có bản vá từ sáu tháng trước nhưng chưa được cài. Ai chịu trách nhiệm chính về kiểm soát bị thất bại?",
+    "options": [
+      "Nhà cung cấp đám mây, vì toàn bộ hạ tầng máy chủ nằm trong trung tâm dữ liệu của nhà cung cấp.",
+      "Hai bên chịu trách nhiệm ngang nhau, vì sự cố xảy ra trên nền tảng đám mây do hai bên cùng dùng.",
+      "Công ty, vì với IaaS, việc cập nhật hệ điều hành và ứng dụng thuộc phần trách nhiệm của khách hàng.",
+      "Kiểm toán nội bộ, vì đã không phát hiện việc chưa cài bản vá trong cuộc kiểm toán CNTT gần nhất."
+    ],
+    "answer": 2,
+    "explanation": "Theo mô hình trách nhiệm chia sẻ, với IaaS nhà cung cấp chịu trách nhiệm hạ tầng vật lý, mạng, ảo hóa; khách hàng chịu trách nhiệm hệ điều hành, ứng dụng, dữ liệu, quản lý truy cập. Thuê ngoài hạ tầng không chuyển trách nhiệm đối với phần khách hàng quản lý.",
+    "optionNotes": [
+      "Sai. Nhà cung cấp IaaS chỉ chịu trách nhiệm phần hạ tầng bên dưới hệ điều hành.",
+      "Sai. Trách nhiệm chia sẻ là chia theo tầng, không phải chia đều; tầng hệ điều hành thuộc khách hàng.",
+      "Đúng. Vá hệ điều hành trong IaaS là trách nhiệm của khách hàng.",
+      "Sai. Vận hành kiểm soát là trách nhiệm của Ban điều hành; kiểm toán nội bộ không sở hữu kiểm soát."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-H10",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên lo ngại rủi ro Ban điều hành cấp cao vượt quyền kiểm soát (management override) để điều chỉnh kết quả kinh doanh trước kỳ phát hành cổ phiếu. Biện pháp nào giảm rủi ro này hiệu quả nhất?",
+    "options": [
+      "Tăng cường phân công phân nhiệm giữa các nhân viên kế toán thực hiện ghi sổ hằng ngày.",
+      "Bổ sung thêm các kiểm soát tự động trong phần mềm kế toán để hạn chế sai sót khi nhập liệu.",
+      "Giám sát chủ động của Ủy ban Kiểm toán độc lập kết hợp với kênh tố giác được bảo vệ hữu hiệu.",
+      "Xây dựng ma trận phê duyệt chi tiết hơn, với hạn mức do chính Ban điều hành cấp cao phê duyệt."
+    ],
+    "answer": 2,
+    "explanation": "Vượt quyền của Ban điều hành là một hạn chế cố hữu của kiểm soát nội bộ: người có quyền cao có thể bỏ qua các kiểm soát ở cấp dưới. Biện pháp hữu hiệu nằm ở cấp quản trị: giám sát độc lập của HĐQT, Ủy ban Kiểm toán, cùng kênh tố giác và văn hóa đạo đức.",
+    "optionNotes": [
+      "Sai. Phân công phân nhiệm ở cấp nhân viên không ngăn được người có quyền cao hơn bỏ qua kiểm soát.",
+      "Sai. Kiểm soát tự động giảm sai sót nhập liệu nhưng vẫn có thể bị người có quyền cao vượt qua.",
+      "Đúng. Giám sát độc lập ở cấp quản trị và kênh tố giác là đối trọng chính với vượt quyền.",
+      "Sai. Ma trận do chính người có thể vượt quyền phê duyệt không kiềm chế được họ."
+    ],
+    "refs": [
+      "COSO 2013",
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
   }
 ]
