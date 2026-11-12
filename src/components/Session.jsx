@@ -165,7 +165,7 @@ export default function Session({ index, manifest, data }) {
             style={{
               height: '100%',
               width: `${(answeredCount / session.items.length) * 100}%`,
-              background: 'var(--copper)',
+              background: 'var(--gold)',
               transition: 'width 300ms',
             }}
           />
