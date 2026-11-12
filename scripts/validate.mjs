@@ -145,7 +145,7 @@ for (const { id: part, path } of index.parts) {
 const guide = readJson('public/data/guide.json');
 if (!guide || !Array.isArray(guide.sections) || !guide.sections.length) errors.push('guide.json: missing sections');
 else {
-  const blockTypes = new Set(['p', 'note', 'list', 'table', 'steps', 'faq', 'parts']);
+  const blockTypes = new Set(['h', 'p', 'note', 'list', 'table', 'steps', 'faq', 'parts']);
   for (const s of guide.sections) {
     if (!s.id || !s.title || !Array.isArray(s.blocks)) errors.push(`guide/${s.id ?? '?'}: needs id, title, blocks`);
     for (const b of s.blocks || []) {

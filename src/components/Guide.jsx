@@ -46,13 +46,17 @@ export default function Guide({ index }) {
           ))}
 
           <section className="guide-section">
-            <h2>Nguồn chính thức</h2>
+            <h2>Nguồn tham khảo</h2>
             <ul className="guide-list">
               {guide.sources.map((s) => (
-                <li key={s.url}>
-                  <a href={s.url} target="_blank" rel="noreferrer">
-                    {s.label}
-                  </a>
+                <li key={s.label}>
+                  {s.url ? (
+                    <a href={s.url} target="_blank" rel="noreferrer">
+                      {s.label}
+                    </a>
+                  ) : (
+                    s.label
+                  )}
                 </li>
               ))}
             </ul>
@@ -73,6 +77,8 @@ export default function Guide({ index }) {
 
 function Block({ block, index }) {
   switch (block.type) {
+    case 'h':
+      return <h3 className="study-h3">{block.text}</h3>;
     case 'p':
       return <p className="guide-p">{block.text}</p>;
     case 'note':
