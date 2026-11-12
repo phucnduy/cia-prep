@@ -18,7 +18,7 @@ Nguồn: [CIA Exam: Why and How It's Changing (IIA)](https://www.theiia.org/glob
 
 | Phần | Câu hỏi | Bài học | Thẻ kiến thức | Trạng thái |
 |---|---|---|---|---|
-| Part 1 | 158 | 27/27 chủ đề, bài chi tiết (khoảng 950 từ/bài, ví dụ, bảng so sánh, tự kiểm tra) | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
+| Part 1 | 193 (56 câu khó dạng tình huống) | 27/27 chủ đề, bài chi tiết (khoảng 950 từ/bài, ví dụ, bảng so sánh, tự kiểm tra) | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
 | Part 2 | 15 | 17/17 chủ đề | 5 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
 | Part 3 | 19 | 18/18 chủ đề | 11 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
 

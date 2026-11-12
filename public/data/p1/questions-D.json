@@ -625,5 +625,158 @@
       "Sai. Nhân chứng cung cấp bằng chứng quan trọng.",
       "Đúng. Phỏng vấn từ người ít liên quan nhất đến đối tượng nghi vấn để có đủ thông tin trước."
     ]
+  },
+  {
+    "id": "P1-D-H01",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Khi kiểm toán quy trình mua hàng, kiểm toán viên thấy nhiều dấu hiệu mạnh cho thấy Trưởng phòng Mua hàng thông đồng với một nhà cung cấp: giá mua cao hơn thị trường 25%, hồ sơ chào giá của các bên khác có cùng định dạng và lỗi chính tả. Kiểm toán viên nên làm gì trước tiên?",
+    "options": [
+      "Phỏng vấn ngay Trưởng phòng Mua hàng để nghe giải thích trước khi đưa ra bất kỳ kết luận nào.",
+      "Âm thầm mở rộng kiểm tra để có đủ bằng chứng chắc chắn rồi mới báo cáo cho bất kỳ ai khác.",
+      "Báo cho CAE theo quy định, để quyết định cách điều tra và việc tham vấn bộ phận pháp chế.",
+      "Báo ngay cho cơ quan công an, vì hành vi thông đồng với nhà cung cấp có dấu hiệu hình sự."
+    ],
+    "answer": 2,
+    "explanation": "Khi có dấu hiệu gian lận, kiểm toán viên báo cho CAE theo điều lệ và chính sách của tổ chức. CAE quyết định có điều tra hay không, ai thực hiện (có thể cần chuyên gia điều tra), tham vấn pháp chế và báo cáo ai. Đối chất sớm có thể làm mất bằng chứng; tự ý điều tra hoặc báo bên ngoài vượt quá thẩm quyền.",
+    "optionNotes": [
+      "Sai. Đối chất sớm với nghi phạm có thể làm lộ việc nghi ngờ, dẫn đến tiêu hủy bằng chứng.",
+      "Sai. Tự ý điều tra mà không báo cấp trên vượt quá thẩm quyền và có thể ảnh hưởng giá trị pháp lý của bằng chứng.",
+      "Đúng. Báo cáo theo kênh quy định để CAE quyết định cách điều tra và tham vấn pháp chế.",
+      "Sai. Việc báo cơ quan bên ngoài do tổ chức quyết định theo luật và chính sách, sau khi tham vấn pháp chế."
+    ],
+    "refs": [
+      "CIA Part 1 D.5",
+      "CIA Part 1 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-H02",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 3,
+    "stem": "Phân tích dữ liệu cho thấy một nhà cung cấp 'dịch vụ tư vấn' có địa chỉ trùng với nhà riêng của một kế toán công nợ. Các hóa đơn của nhà cung cấp này có số thứ tự liên tiếp, mỗi hóa đơn thấp hơn hạn mức cần phê duyệt cấp hai, và không có sản phẩm tư vấn nào được giao. Đây nhiều khả năng là thủ đoạn gì?",
+    "options": [
+      "Nhà cung cấp trung gian ăn chênh lệch: mua hàng thật rồi bán lại cho công ty với giá cao hơn.",
+      "Lại quả: nhà cung cấp thật nâng giá và chia lại một phần tiền cho nhân viên đã chọn họ.",
+      "Công ty ma: lập hóa đơn khống từ một đơn vị do nhân viên kiểm soát, không có giao dịch thật.",
+      "Nhân viên ma: tạo người lao động không có thật trên bảng lương để nhận tiền lương hằng tháng."
+    ],
+    "answer": 2,
+    "explanation": "Dấu hiệu của thủ đoạn công ty ma (shell company): địa chỉ trùng nhân viên, hóa đơn số liên tiếp (công ty chỉ có một khách hàng), chia nhỏ dưới ngưỡng phê duyệt, dịch vụ không có thật. Thủ đoạn trung gian ăn chênh lệch có giao dịch hàng hóa thật; lại quả có nhà cung cấp thật.",
+    "optionNotes": [
+      "Sai. Trung gian ăn chênh lệch có hàng hóa thật được giao; ở đây không có sản phẩm nào.",
+      "Sai. Lại quả liên quan nhà cung cấp thật thông đồng; ở đây nhà cung cấp do chính nhân viên kiểm soát.",
+      "Đúng. Các dấu hiệu khớp với thủ đoạn lập hóa đơn qua công ty ma.",
+      "Sai. Nhân viên ma là gian lận bảng lương, không phải thanh toán cho nhà cung cấp."
+    ],
+    "refs": [
+      "CIA Part 1 D.1",
+      "ACFE"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-H03",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 3,
+    "stem": "Sau vụ việc công ty ma, Ban điều hành muốn bổ sung kiểm soát. Kiểm soát nào là kiểm soát PHÒNG NGỪA trực tiếp nhất đối với việc đưa nhà cung cấp giả vào hệ thống?",
+    "options": [
+      "Kế toán trưởng rà soát danh sách các khoản thanh toán cho nhà cung cấp vào cuối mỗi tháng.",
+      "Hằng quý chạy phân tích dữ liệu đối chiếu địa chỉ, tài khoản nhà cung cấp với dữ liệu nhân viên.",
+      "Luân chuyển định kỳ nhân viên phụ trách công nợ phải trả giữa các nhóm nhà cung cấp khác nhau.",
+      "Tạo mới, sửa nhà cung cấp phải do bộ phận độc lập duyệt sau khi xác minh mã số thuế, địa chỉ."
+    ],
+    "answer": 3,
+    "explanation": "Kiểm soát phòng ngừa ngăn sự việc xảy ra. Kiểm soát chặt danh mục nhà cung cấp (người tạo khác người duyệt, xác minh pháp lý trước khi kích hoạt) chặn nhà cung cấp giả ngay từ đầu. Rà soát thanh toán và phân tích dữ liệu là kiểm soát phát hiện; luân chuyển nhân sự có tác dụng răn đe, phát hiện.",
+    "optionNotes": [
+      "Sai. Rà soát sau khi thanh toán là kiểm soát phát hiện, không ngăn tiền bị chi ra.",
+      "Sai. Phân tích dữ liệu định kỳ là kiểm soát phát hiện, thường chỉ thấy vấn đề sau khi đã thanh toán.",
+      "Sai. Luân chuyển giúp răn đe và phát hiện, không chặn việc tạo nhà cung cấp giả.",
+      "Đúng. Phê duyệt độc lập và xác minh trước khi tạo nhà cung cấp là kiểm soát phòng ngừa."
+    ],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-H04",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 3,
+    "stem": "Theo phân loại 'cây gian lận' (Fraud Tree) của ACFE, hành vi nào sau đây KHÔNG thuộc nhóm biển thủ tài sản (asset misappropriation)?",
+    "options": [
+      "Thu ngân nhận tiền mặt của khách hàng nhưng không ghi nhận doanh thu vào hệ thống bán hàng.",
+      "Kế toán ghi nhận doanh thu khống từ khách hàng không có thật để đạt chỉ tiêu lợi nhuận năm.",
+      "Kế toán dùng tiền của khách hàng sau để bù vào khoản phải thu của khách hàng trước đó.",
+      "Nhân viên nhân sự tạo hồ sơ người lao động không có thật trên bảng lương để nhận tiền lương."
+    ],
+    "answer": 1,
+    "explanation": "Cây gian lận của ACFE có ba nhánh: tham nhũng, biển thủ tài sản, gian lận báo cáo tài chính. Ghi nhận doanh thu khống làm sai lệch báo cáo tài chính, không trực tiếp chiếm đoạt tài sản, nên thuộc nhánh gian lận báo cáo tài chính. Ăn chặn tiền (skimming), gối đầu (lapping), nhân viên ma là biển thủ tài sản.",
+    "optionNotes": [
+      "Sai. Đây là ăn chặn tiền trước khi ghi sổ (skimming), thuộc biển thủ tài sản.",
+      "Đúng. Doanh thu khống là gian lận báo cáo tài chính, không phải biển thủ tài sản.",
+      "Sai. Đây là gối đầu (lapping), che giấu việc chiếm đoạt tiền thu, thuộc biển thủ tài sản.",
+      "Sai. Nhân viên ma là gian lận chi trả qua bảng lương, thuộc biển thủ tài sản."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-H05",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Trong cuộc điều tra được CAE phê duyệt, nhóm cần thu thập dữ liệu từ máy tính xách tay công ty cấp cho một nhân viên bị nghi ngờ. Cách xử lý nào phù hợp nhất để bằng chứng có giá trị nếu sau này đưa ra tòa?",
+    "options": [
+      "Kiểm toán viên mở máy, xem nhanh các tệp đáng ngờ để quyết định có cần thu thập thêm hay không.",
+      "Nhờ quản trị viên CNTT chép các tệp liên quan sang ổ USB, rồi trả máy cho nhân viên để tránh nghi ngờ.",
+      "Yêu cầu nhân viên tự trích xuất email và tệp liên quan, có xác nhận bằng văn bản về tính đầy đủ.",
+      "Chuyên gia giám định số tạo bản sao nguyên trạng và ghi chép đầy đủ chuỗi lưu giữ bằng chứng."
+    ],
+    "answer": 3,
+    "explanation": "Bằng chứng số dễ bị thay đổi chỉ bằng thao tác mở tệp (thay đổi dấu thời gian, siêu dữ liệu). Để giữ giá trị pháp lý, cần chuyên gia tạo bản sao nguyên trạng (forensic image), xác minh bằng giá trị băm, và ghi lại chuỗi lưu giữ (chain of custody) từ lúc thu giữ.",
+    "optionNotes": [
+      "Sai. Mở tệp trực tiếp làm thay đổi siêu dữ liệu và làm giảm giá trị pháp lý của bằng chứng.",
+      "Sai. Sao chép thủ công không giữ nguyên trạng và không có chuỗi lưu giữ; trả máy còn tạo nguy cơ xóa dữ liệu.",
+      "Sai. Để nghi phạm tự trích xuất bằng chứng không bảo đảm tính đầy đủ và toàn vẹn.",
+      "Đúng. Bản sao nguyên trạng và chuỗi lưu giữ là yêu cầu cơ bản với bằng chứng số."
+    ],
+    "refs": [
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-H06",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 3,
+    "stem": "Một thủ quỹ có khoản nợ cờ bạc lớn. Công ty không tách bạch việc giữ tiền và ghi sổ quỹ. Khi bị phát hiện lấy tiền, thủ quỹ nói: 'Công ty trả lương tôi quá thấp, tôi chỉ tạm mượn và định trả lại'. Theo Tam giác gian lận, câu nói đó thể hiện yếu tố nào?",
+    "options": [
+      "Áp lực: động cơ tài chính thúc đẩy nhân viên tìm cách lấy tiền của công ty để trả nợ.",
+      "Cơ hội: kiểm soát yếu cho phép nhân viên lấy tiền mà không bị phát hiện ngay lập tức.",
+      "Hợp lý hóa: tự biện minh để hành vi gian lận có vẻ chấp nhận được với chính bản thân.",
+      "Năng lực: kỹ năng và vị trí cho phép nhân viên thực hiện và che giấu hành vi gian lận."
+    ],
+    "answer": 2,
+    "explanation": "Tình huống có cả ba yếu tố: khoản nợ cờ bạc là áp lực; không tách bạch giữ tiền và ghi sổ là cơ hội; câu 'lương thấp, chỉ tạm mượn' là hợp lý hóa. Câu hỏi hỏi riêng về câu nói, nên đáp án là hợp lý hóa. Năng lực là yếu tố bổ sung của Kim cương gian lận, không thuộc Tam giác.",
+    "optionNotes": [
+      "Sai. Áp lực là khoản nợ cờ bạc, không phải câu nói tự biện minh.",
+      "Sai. Cơ hội là việc không tách bạch nhiệm vụ, không phải câu nói của thủ quỹ.",
+      "Đúng. Tự biện minh 'lương thấp, chỉ tạm mượn' là hợp lý hóa.",
+      "Sai. Năng lực thuộc mô hình Kim cương gian lận, và câu nói không mô tả kỹ năng."
+    ],
+    "refs": [
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
   }
 ]
