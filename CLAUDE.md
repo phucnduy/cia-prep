@@ -8,7 +8,8 @@ Every rule below exists because the mistake it prevents already happened once in
 - **Keep GIAS 2024 and IPPF 2017 apart.** Many familiar rules come from the 2017 standards. When the rule is from 2017, cite it as `IPPF 2017 <number>`. Errors already made:
   - Saying evidence must be "sufficient, reliable, relevant **and useful**". GIAS 14.1 is relevant, reliable, sufficient; "useful" is IPPF 2017.
   - Attributing "not expected to have the expertise of a fraud investigator" to GIAS. It is IPPF 2017 1210.A2.
-  - Attributing "may claim conformance only if QAIP results support it" to GIAS. It is IPPF 2017 1321.
+  - Calling "may claim conformance only if QAIP results support it" a GIAS requirement. It is IPPF 2017 1321; GIAS repeats it only as guidance (15.1 Considerations, "should").
+  - The full GIAS (with Considerations, Evidence of Conformance and Glossary) is in `~/.claude/skills/internal-audit/references/gias-official-full.txt`; grep it before citing.
 - **GIAS numbers that were cited wrong before:**
   - 2.1 covers objectivity, mindset and bias only.
   - **2.2** covers the 12-month rule, gifts, conflicts of interest, and the duty to disclose to the client before accepting an advisory engagement.

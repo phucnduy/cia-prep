@@ -466,7 +466,7 @@
       "Chỉ cần hiểu về gian lận báo cáo tài chính, vì đây là loại gây thiệt hại lớn nhất."
     ],
     "answer": 1,
-    "explanation": "Kiểm toán viên cần đủ hiểu biết để nhận diện dấu hiệu và đánh giá rủi ro gian lận, nhưng không được kỳ vọng có chuyên môn như người có trách nhiệm chính là phát hiện và điều tra gian lận. Câu chữ này có trong IPPF 2017 (1210.A2); GIAS 3.1 yêu cầu chung là có hoặc bổ sung năng lực cần thiết, và GIAS 9.4 yêu cầu kế hoạch kiểm toán xem xét rủi ro gian lận. Khi cần điều tra, CAE bổ sung năng lực, ví dụ thuê chuyên gia.",
+    "explanation": "GIAS 3.1 (phần Xem xét khi thực hiện) nêu kiểm toán viên nên phát triển năng lực về các rủi ro lan tỏa như gian lận, đủ để nhận diện dấu hiệu và đánh giá rủi ro; khi cần năng lực sâu hơn, CAE bổ sung cho chức năng, ví dụ dùng chuyên gia điều tra. GIAS 9.4 yêu cầu kế hoạch kiểm toán xem xét rủi ro gian lận. Bộ chuẩn mực cũ IPPF 2017 (1210.A2) từng nói rõ kiểm toán viên không được kỳ vọng có chuyên môn như người điều tra gian lận; GIAS không lặp lại câu này.",
     "optionNotes": [
       "Sai. Kỳ vọng quá mức: kiểm toán viên không phải là chuyên gia điều tra.",
       "Đúng. Đây là mức hiểu biết phù hợp với vai trò kiểm toán nội bộ.",
@@ -1719,7 +1719,7 @@
       "Yêu cầu nghi phạm tự gửi lại các email liên quan đến vụ việc."
     ],
     "answer": 0,
-    "explanation": "Bằng chứng số cần được thu thập, bảo quản theo quy trình (chuỗi lưu giữ bằng chứng) để giữ giá trị pháp lý. Khi thiếu năng lực, kiểm toán viên nên đề nghị sử dụng chuyên gia, phù hợp yêu cầu tìm kiếm tư vấn, hỗ trợ khi thiếu năng lực (IPPF 2017 1210.A1).",
+    "explanation": "Bằng chứng số cần được thu thập, bảo quản theo quy trình (chuỗi lưu giữ bằng chứng) để giữ giá trị pháp lý. Khi thiếu năng lực, kiểm toán viên nên đề nghị sử dụng chuyên gia, phù hợp GIAS 3.1: chỉ nhận dịch vụ mà mình có hoặc đạt được năng lực, và CAE phải bổ sung năng lực còn thiếu cho chức năng.",
     "optionNotes": [
       "Đúng. Dùng chuyên gia điều tra số.",
       "Sai. Có thể làm thay đổi dữ liệu và mất giá trị bằng chứng.",
@@ -1728,7 +1728,7 @@
     ],
     "refs": [
       "CIA Part 1 D.5",
-      "IPPF 2017 1210.A1"
+      "GIAS 3.1"
     ],
     "source": "original"
   },

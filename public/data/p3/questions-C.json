@@ -12,10 +12,10 @@
       "Tuyên bố chức năng kiểm toán nội bộ tuân thủ GIAS."
     ],
     "answer": 3,
-    "explanation": "Tuyên bố 'tuân thủ Chuẩn mực' phải có cơ sở từ kết quả QAIP, bao gồm đánh giá bên ngoài ít nhất 5 năm một lần (GIAS 8.4). Quy định cấm dùng cụm từ này khi chưa có kết quả QAIP hỗ trợ có từ IPPF 2017 (Chuẩn mực 1321). Các phương án còn lại không phụ thuộc vào việc đã có EQA hay chưa.",
+    "explanation": "Tuyên bố 'tuân thủ Chuẩn mực' phải có cơ sở từ kết quả QAIP, bao gồm đánh giá bên ngoài ít nhất 5 năm một lần (GIAS 8.4). GIAS 15.1 (phần Xem xét khi thực hiện) nêu chỉ nên ghi cuộc kiểm toán tuân thủ Chuẩn mực khi kết quả giám sát cuộc kiểm toán và chương trình QAIP hỗ trợ (IPPF 2017 1321 có quy định tương tự). Các phương án còn lại không phụ thuộc vào việc đã có EQA hay chưa.",
     "refs": [
       "GIAS 8.4",
-      "IPPF 2017 1321"
+      "GIAS 15.1"
     ],
     "source": "legacy",
     "optionNotes": [

@@ -2341,7 +2341,7 @@
       "Chưa chắc: thận trọng nghề nghiệp không có nghĩa là không bao giờ sai sót."
     ],
     "answer": 3,
-    "explanation": "Thận trọng nghề nghiệp đúng mức đòi hỏi sự cẩn trọng, kỹ năng hợp lý, nhưng không có nghĩa là không thể sai (IPPF 2017 1220). Sai sót được che giấu bằng thông đồng, làm giả tinh vi có thể không bị phát hiện dù đã làm đúng.",
+    "explanation": "Thận trọng nghề nghiệp đúng mức đòi hỏi sự cẩn trọng, kỹ năng hợp lý, nhưng không có nghĩa là không thể sai (GIAS, phần giới thiệu Nguyên tắc 4: kiểm toán viên không được kỳ vọng là không bao giờ sai). Sai sót được che giấu bằng thông đồng, làm giả tinh vi có thể không bị phát hiện dù đã làm đúng.",
     "optionNotes": [
       "Sai. Thận trọng không bảo đảm phát hiện mọi sai sót.",
       "Sai. Kiểm toán viên vẫn chịu trách nhiệm về sự thận trọng.",
@@ -2349,7 +2349,6 @@
       "Đúng. Thận trọng không đồng nghĩa với không sai sót."
     ],
     "refs": [
-      "IPPF 2017 1220",
       "GIAS 4.2",
       "CIA Part 1 B.5"
     ],
