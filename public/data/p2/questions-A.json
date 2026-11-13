@@ -251,5 +251,531 @@
       "GIAS 4.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-A-M01",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Trong cuộc kiểm toán quy trình bán hàng trực tuyến (không thuộc chủ đề an ninh mạng), kiểm toán viên phát hiện rủi ro an ninh mạng đáng kể ở cổng thanh toán. Đối với Yêu cầu theo chủ đề (Topical Requirement) về an ninh mạng, cách làm phù hợp nhất là gì?",
+    "options": [
+      "Xét từng yêu cầu có áp dụng không và ghi lý do cho phần loại trừ.",
+      "Bỏ qua vì yêu cầu chỉ áp dụng cho cuộc kiểm toán có chủ đề an ninh mạng.",
+      "Dừng cuộc kiểm toán và lập một cuộc kiểm toán an ninh mạng riêng ngay.",
+      "Áp dụng toàn bộ yêu cầu, không được loại trừ bất kỳ phần nào."
+    ],
+    "answer": 0,
+    "explanation": "Theo hướng dẫn của IIA, Topical Requirement áp dụng cả khi chủ đề được nhận diện trong lúc thực hiện một cuộc kiểm toán khác. Không phải mọi yêu cầu con đều áp dụng; đánh giá rủi ro quyết định phần nào đưa vào, nhưng phải ghi lại việc đã xem xét từng yêu cầu và lý do loại trừ.",
+    "optionNotes": [
+      "Đúng. Xem xét từng yêu cầu, ghi lại lý do loại trừ.",
+      "Sai. Yêu cầu cũng áp dụng khi chủ đề được nhận diện trong cuộc kiểm toán khác.",
+      "Sai. Không cần dừng cuộc kiểm toán; có thể xử lý trong phạm vi hoặc lên kế hoạch riêng.",
+      "Sai. Được loại trừ phần không áp dụng nếu có lý do được ghi lại."
+    ],
+    "refs": [
+      "IIA Topical Requirements",
+      "GIAS 13.2",
+      "CIA Part 2 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M02",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Đoàn đánh giá chất lượng bên ngoài thấy một cuộc kiểm toán an ninh mạng đã không đề cập phần quản trị an ninh mạng trong Topical Requirement và không có giải thích. Nhận định nào đúng nhất?",
+    "options": [
+      "Là khoảng trống, có thể dẫn đến kết luận không tuân thủ.",
+      "Hợp lý, vì Topical Requirement chỉ là hướng dẫn không bắt buộc.",
+      "Hợp lý nếu kết luận cuộc kiểm toán vẫn là kiểm soát hữu hiệu.",
+      "Chỉ là vấn đề nếu HĐQT đã yêu cầu kiểm toán phần quản trị."
+    ],
+    "answer": 0,
+    "explanation": "Theo IIA, khi chủ đề nằm trong cuộc kiểm toán, kiểm toán viên phải đánh giá các yêu cầu; phần nằm ngoài phạm vi phải có lý do được ghi lại. Bỏ qua hoàn toàn hoặc không có lý do là khoảng trống, có thể góp phần vào đánh giá không tuân thủ Chuẩn mực.",
+    "optionNotes": [
+      "Đúng. Thiếu lý do loại trừ là khoảng trống tuân thủ.",
+      "Sai. Topical Requirements là phần bắt buộc của IPPF.",
+      "Sai. Kết luận tốt không thay được việc ghi lại lý do.",
+      "Sai. Yêu cầu áp dụng khi chủ đề nằm trong phạm vi, không chờ HĐQT."
+    ],
+    "refs": [
+      "IIA Topical Requirements",
+      "CIA Part 2 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M03",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Một thành viên HĐQT hỏi: 'Vì IIA đã ban hành Topical Requirement về an ninh mạng, năm nào chúng ta cũng phải kiểm toán an ninh mạng phải không?'. Câu trả lời đúng nhất là gì?",
+    "options": [
+      "Đúng, vì mọi Topical Requirement bắt buộc kiểm toán chủ đề đó hằng năm.",
+      "Không; chỉ áp dụng khi chủ đề nằm trong phạm vi một cuộc kiểm toán.",
+      "Đúng, nếu tổ chức có sử dụng hệ thống công nghệ thông tin.",
+      "Không, vì Topical Requirement chỉ áp dụng cho tổ chức tài chính."
+    ],
+    "answer": 1,
+    "explanation": "IIA nêu Topical Requirements không bắt buộc chức năng kiểm toán phải kiểm toán một chủ đề cụ thể; chúng áp dụng khi chủ đề nằm trong phạm vi một cuộc kiểm toán. Kế hoạch kiểm toán vẫn lập theo đánh giá rủi ro của tổ chức (GIAS 9.4).",
+    "optionNotes": [
+      "Sai. Không có yêu cầu kiểm toán chủ đề hằng năm.",
+      "Đúng. Áp dụng khi chủ đề nằm trong phạm vi; kế hoạch theo rủi ro.",
+      "Sai. Dùng hệ thống CNTT không tự động buộc phải kiểm toán.",
+      "Sai. Không giới hạn trong ngành tài chính."
+    ],
+    "refs": [
+      "IIA Topical Requirements",
+      "GIAS 9.4",
+      "CIA Part 2 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M04",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Khi lập kế hoạch một cuộc tư vấn thiết kế quy trình phê duyệt hợp đồng, mục tiêu và phạm vi thường được xác định thế nào là phù hợp nhất?",
+    "options": [
+      "Do kiểm toán viên tự xác định, quản lý chỉ được thông báo sau.",
+      "Do HĐQT quyết định trực tiếp cho từng cuộc tư vấn cụ thể.",
+      "Do kiểm toán viên và quản lý đơn vị cùng thống nhất xác lập.",
+      "Do quản lý đơn vị tự quyết định, kiểm toán viên làm theo."
+    ],
+    "answer": 2,
+    "explanation": "Theo phần Xem xét khi thực hiện của GIAS 13.3, mục tiêu và phạm vi cuộc đảm bảo chủ yếu do kiểm toán viên xác định, còn với cuộc tư vấn thường do kiểm toán viên và quản lý đơn vị cùng xác lập. CAE vẫn phê duyệt mục tiêu và phạm vi.",
+    "optionNotes": [
+      "Sai. Đó là đặc điểm của cuộc đảm bảo.",
+      "Sai. HĐQT không quyết từng cuộc tư vấn.",
+      "Đúng. Tư vấn: hai bên cùng xác lập.",
+      "Sai. Kiểm toán viên vẫn tham gia xác lập và CAE phê duyệt."
+    ],
+    "refs": [
+      "GIAS 13.3",
+      "CIA Part 2 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M05",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Giám đốc chi nhánh đề nghị cuộc kiểm toán chỉ kéo dài 3 ngày thay vì 10 ngày như kế hoạch, vì 'đang mùa cao điểm'. Kiểm toán viên nên nhìn nhận đề nghị này thế nào trước tiên?",
+    "options": [
+      "Chấp nhận ngay vì quản lý đơn vị hiểu rõ lịch làm việc của mình.",
+      "Giữ nguyên 10 ngày nhưng giảm số mẫu cho mỗi thủ tục.",
+      "Từ chối thẳng vì kế hoạch đã được HĐQT phê duyệt.",
+      "Xét xem giới hạn thời gian có là giới hạn phạm vi không."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.3 (Xem xét khi thực hiện) nêu kiểm toán viên nên xem xét liệu yêu cầu thêm, bớt nội dung hay giới hạn thời gian của cuộc kiểm toán có cấu thành giới hạn phạm vi không. Nếu có, phải thảo luận với quản lý để giải quyết, và CAE đưa lên HĐQT nếu không giải quyết được.",
+    "optionNotes": [
+      "Sai. Chấp nhận mà không đánh giá ảnh hưởng đến mục tiêu.",
+      "Sai. Tự giảm mẫu có thể làm không đạt mục tiêu.",
+      "Sai. Có thể điều chỉnh lịch nếu vẫn đạt mục tiêu.",
+      "Đúng. Đánh giá xem đây có phải giới hạn phạm vi không."
+    ],
+    "refs": [
+      "GIAS 13.3",
+      "CIA Part 2 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M06",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Giữa cuộc kiểm toán, trưởng nhóm thấy cần mở rộng phạm vi sang quy trình thanh lý tài sản vì phát hiện nhiều bất thường. Theo GIAS, ai phê duyệt thay đổi này?",
+    "options": [
+      "Trưởng kiểm toán nội bộ phê duyệt thay đổi phạm vi.",
+      "Trưởng nhóm tự quyết vì có quyền linh hoạt điều chỉnh phạm vi.",
+      "Giám đốc đơn vị được kiểm toán đồng ý bằng văn bản.",
+      "Ủy ban Kiểm toán phê duyệt mọi thay đổi phạm vi."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 13.3 cho phép kiểm toán viên linh hoạt thay đổi mục tiêu, phạm vi khi cần, nhưng CAE phải phê duyệt mục tiêu, phạm vi và mọi thay đổi trong cuộc kiểm toán. Thay đổi cũng phải được thông báo kịp thời cho quản lý (GIAS 13.1).",
+    "optionNotes": [
+      "Đúng. CAE phê duyệt thay đổi phạm vi.",
+      "Sai. Linh hoạt điều chỉnh nhưng vẫn cần CAE phê duyệt.",
+      "Sai. Quản lý được thông báo, không phê duyệt phạm vi.",
+      "Sai. HĐQT không duyệt từng thay đổi phạm vi."
+    ],
+    "refs": [
+      "GIAS 13.3",
+      "GIAS 13.1",
+      "CIA Part 2 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M07",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Kho hàng không có quy trình kiểm kê bằng văn bản, nhưng thực tế mọi tháng đều kiểm kê theo một cách thống nhất mà nhân viên đều biết. Kiểm toán viên có thể dùng gì làm tiêu chí đánh giá?",
+    "options": [
+      "Không thể đánh giá vì chưa có quy trình bằng văn bản.",
+      "Thông lệ đã hình thành, sau khi xác nhận và thống nhất.",
+      "Quy trình kiểm kê của một công ty khác cùng ngành, áp dụng ngay.",
+      "Ý kiến cá nhân của kiểm toán viên về cách kiểm kê tốt nhất."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 13.4 (Xem xét khi thực hiện) liệt kê các nguồn tiêu chí đầy đủ, gồm thông lệ đã hình thành của tổ chức và cả thủ tục chưa được viết thành văn bản. Kiểm toán viên nên báo cho quản lý tiêu chí sẽ dùng và ghi lại tiêu chí đã thống nhất.",
+    "optionNotes": [
+      "Sai. Thủ tục chưa thành văn vẫn có thể là tiêu chí.",
+      "Đúng. Thông lệ đã hình thành, được xác nhận và thống nhất.",
+      "Sai. Áp tiêu chí của tổ chức khác mà không trao đổi là không phù hợp.",
+      "Sai. Tiêu chí phải khách quan, không dựa vào ý kiến cá nhân."
+    ],
+    "refs": [
+      "GIAS 13.4",
+      "CIA Part 2 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M08",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Chỉ tiêu 'xử lý 100% hồ sơ vay trong ngày' của ngân hàng chưa bao giờ đạt được và không gắn với mục tiêu quản lý rủi ro tín dụng. Khi đánh giá tiêu chí này, kiểm toán viên nên kết luận gì?",
+    "options": [
+      "Tiêu chí đầy đủ vì đã được Ban điều hành ban hành chính thức.",
+      "Tiêu chí đầy đủ vì chỉ tiêu càng cao thì kiểm soát càng chặt.",
+      "Chưa đầy đủ vì không thực tế, không gắn với mục tiêu.",
+      "Không cần đánh giá tiêu chí, chỉ cần so sánh với thực trạng."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.4 yêu cầu đánh giá tiêu chí của Ban điều hành có đầy đủ không; phần Xem xét khi thực hiện mô tả tiêu chí đầy đủ là phù hợp, gắn với mục tiêu của tổ chức và hoạt động, cho phép so sánh tin cậy, và nên cụ thể, thực tế. Kiểm toán viên phải đánh giá tiêu chí của Ban điều hành; nếu chưa đầy đủ thì xác định tiêu chí phù hợp qua trao đổi với Ban điều hành.",
+    "optionNotes": [
+      "Sai. Ban hành chính thức chưa đủ để coi là đầy đủ.",
+      "Sai. Chỉ tiêu phi thực tế không làm kiểm soát chặt hơn.",
+      "Đúng. Không thực tế và không gắn mục tiêu.",
+      "Sai. Phải đánh giá tiêu chí trước khi dùng."
+    ],
+    "refs": [
+      "GIAS 13.4",
+      "CIA Part 2 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M09",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Khi lập kế hoạch kiểm toán quy trình mới về quản lý dữ liệu khách hàng, kiểm toán viên thấy công ty chưa có bất kỳ chính sách, chỉ tiêu hay tiêu chuẩn nào để đánh giá. Hướng xử lý nào phù hợp nhất?",
+    "options": [
+      "Huỷ cuộc kiểm toán vì không thể có phát hiện khi thiếu tiêu chí.",
+      "Đánh giá theo tiêu chí do kiểm toán viên tự đặt, không cần trao đổi.",
+      "Kết luận quy trình không hữu hiệu vì chưa có tiêu chí nào.",
+      "Trao đổi với quản lý; có thể chuyển sang tư vấn xây dựng tiêu chí."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.4: khi tiêu chí chưa đủ, kiểm toán viên xác định tiêu chí phù hợp qua trao đổi với HĐQT và/hoặc Ban điều hành. Phần Xem xét khi thực hiện nêu việc thiếu tiêu chí có thể dẫn tới quyết định cung cấp dịch vụ tư vấn, ví dụ giúp quản lý xây dựng tiêu chí.",
+    "optionNotes": [
+      "Sai. Thiếu tiêu chí không buộc phải huỷ cuộc kiểm toán.",
+      "Sai. Tiêu chí phải được trao đổi và thống nhất.",
+      "Sai. Thiếu tiêu chí chưa phải là bằng chứng không hữu hiệu.",
+      "Đúng. Trao đổi, có thể chuyển sang tư vấn."
+    ],
+    "refs": [
+      "GIAS 13.4",
+      "CIA Part 2 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M10",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Cuộc kiểm toán quy trình lương năm ngoái đã nhận diện đầy đủ rủi ro. Năm nay kiểm toán lại quy trình này, yêu cầu tối thiểu của GIAS về đánh giá rủi ro cuộc kiểm toán là gì?",
+    "options": [
+      "Rà soát và cập nhật đánh giá rủi ro của cuộc kiểm toán trước.",
+      "Thực hiện lại toàn bộ đánh giá rủi ro từ đầu như lần đầu tiên.",
+      "Không cần đánh giá rủi ro vì đã có kết quả năm ngoái.",
+      "Dùng nguyên đánh giá rủi ro năm ngoái, không cần xem lại."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 13.2: khi rủi ro của hoạt động đã được nhận diện trong các cuộc kiểm toán trước, chỉ cần rà soát và cập nhật đánh giá rủi ro trước đó. Không rà soát thì có thể bỏ sót thay đổi mới.",
+    "optionNotes": [
+      "Đúng. Rà soát và cập nhật là yêu cầu tối thiểu.",
+      "Sai. Không bắt buộc làm lại từ đầu.",
+      "Sai. Vẫn phải rà soát và cập nhật.",
+      "Sai. Phải xem lại để phát hiện thay đổi."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M11",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Khi bắt đầu lập kế hoạch cho một cuộc kiểm toán trong kế hoạch năm, việc nào nên làm đầu tiên để hiểu bối cảnh?",
+    "options": [
+      "Lấy chương trình kiểm toán chuẩn của phòng để áp dụng ngay.",
+      "Tìm hiểu vì sao cuộc kiểm toán có trong kế hoạch, điều gì đã đổi.",
+      "Yêu cầu đơn vị gửi toàn bộ chứng từ của năm để chọn mẫu.",
+      "Họp kết thúc với quản lý đơn vị để thống nhất kết quả."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 13.2 (Xem xét khi thực hiện) nêu kiểm toán viên nên bắt đầu từ việc hiểu kế hoạch kiểm toán, các thảo luận dẫn đến kế hoạch và lý do cuộc kiểm toán được đưa vào, đồng thời hỏi có thay đổi gì kể từ khi lập kế hoạch.",
+    "optionNotes": [
+      "Sai. Chương trình phải dựa trên đánh giá rủi ro cụ thể.",
+      "Đúng. Hiểu lý do và thay đổi kể từ khi lập kế hoạch.",
+      "Sai. Thu thập chứng từ chi tiết là bước sau.",
+      "Sai. Họp kết thúc ở cuối cuộc kiểm toán."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M12",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Khi đánh giá rủi ro cuộc kiểm toán, trưởng nhóm muốn tự làm hoàn toàn, không hỏi quản lý đơn vị để 'giữ khách quan'. Nhận định nào phù hợp nhất với GIAS?",
+    "options": [
+      "Đúng, vì ý kiến của quản lý luôn làm giảm tính khách quan.",
+      "Đúng, vì GIAS cấm trao đổi với quản lý trước khi có kết quả.",
+      "Nên lấy ý kiến quản lý nhưng tự xét đoán mức rủi ro.",
+      "Nên để quản lý tự xếp hạng rủi ro và dùng kết quả đó."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.2 (Xem xét khi thực hiện) nêu, như một phần của thận trọng nghề nghiệp, kiểm toán viên nên xem xét ý kiến của quản lý đơn vị về mục tiêu, rủi ro trọng yếu và kiểm soát; hiểu biết chung về rủi ro làm đánh giá rủi ro hữu ích hơn. Kiểm toán viên vẫn tự xét đoán mức độ quan trọng.",
+    "optionNotes": [
+      "Sai. Lấy ý kiến không làm mất khách quan nếu tự xét đoán.",
+      "Sai. GIAS không cấm, mà khuyến khích trao đổi.",
+      "Đúng. Lấy ý kiến quản lý nhưng tự đánh giá.",
+      "Sai. Không giao việc đánh giá cho quản lý."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M13",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Đánh giá rủi ro cuộc kiểm toán xác định 3 rủi ro trọng yếu nhất trong quy trình thu tiền. Vì sao nên đánh giá thiết kế các kiểm soát liên quan ngay trong giai đoạn lập kế hoạch?",
+    "options": [
+      "Để thay thế hoàn toàn việc kiểm tra hiệu quả vận hành.",
+      "Vì GIAS cấm đánh giá thiết kế trong giai đoạn thực hiện.",
+      "Để quản lý đơn vị kịp sửa kiểm soát trước khi kiểm toán viên kiểm tra.",
+      "Để xác định kiểm soát nào cần tiếp tục kiểm tra hiệu quả vận hành."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.2 và 13.6 (Xem xét khi thực hiện): với các rủi ro quan trọng nhất, đánh giá thiết kế kiểm soát giúp xác định kiểm soát chính cần kiểm tra tiếp hiệu quả vận hành. Kiểm soát thiết kế yếu thì không cần tốn công kiểm tra vận hành. Thời điểm đánh giá thiết kế có thể linh hoạt.",
+    "optionNotes": [
+      "Sai. Thiết kế tốt chưa chứng minh vận hành hữu hiệu.",
+      "Sai. GIAS cho phép đánh giá thiết kế ở nhiều thời điểm.",
+      "Sai. Mục đích không phải báo trước để quản lý sửa.",
+      "Đúng. Chọn kiểm soát chính để kiểm tra vận hành."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "GIAS 13.6",
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M14",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Sau khi nhận diện 15 rủi ro của quy trình mua hàng, nhóm kiểm toán cần chọn rủi ro để tập trung. Cách ưu tiên phù hợp nhất là gì?",
+    "options": [
+      "Xếp hạng theo ảnh hưởng và khả năng xảy ra.",
+      "Kiểm tra đều tất cả 15 rủi ro với cùng mức độ công việc.",
+      "Chọn các rủi ro dễ kiểm tra nhất để kịp thời hạn.",
+      "Chọn theo thứ tự rủi ro được liệt kê trong sổ đăng ký rủi ro."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 13.2 yêu cầu đánh giá mức độ quan trọng của rủi ro và ưu tiên để xem xét. Phần Xem xét khi thực hiện nêu mức quan trọng thường ước lượng theo ảnh hưởng, khả năng xảy ra và có thể thêm yếu tố khác, thường minh họa trên bản đồ nhiệt.",
+    "optionNotes": [
+      "Đúng. Ưu tiên theo ảnh hưởng và khả năng xảy ra.",
+      "Sai. Dàn đều công sức không tập trung vào rủi ro trọng yếu.",
+      "Sai. Dễ kiểm tra không phải tiêu chí ưu tiên.",
+      "Sai. Thứ tự trong sổ không phản ánh mức quan trọng."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M15",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 3,
+    "stem": "Chương trình kiểm toán có thủ tục chọn mẫu 40 phiếu chi để kiểm tra phê duyệt. Theo GIAS, chương trình nên ghi thêm thông tin nào về việc chọn mẫu?",
+    "options": [
+      "Tên người phê duyệt của từng phiếu chi trong mẫu.",
+      "Phương pháp chọn mẫu, tổng thể, cỡ mẫu và khả năng suy rộng.",
+      "Chỉ cần ghi cỡ mẫu, vì phương pháp do kiểm toán viên tự chọn.",
+      "Danh sách phiếu chi do đơn vị được kiểm toán đề xuất."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 13.6 (Xem xét khi thực hiện): khi dùng chọn mẫu, chương trình nên gồm phương pháp chọn mẫu, tổng thể, cỡ mẫu và việc kết quả có thể suy rộng cho tổng thể hay không.",
+    "optionNotes": [
+      "Sai. Đó là thông tin chi tiết khi thực hiện, không phải thiết kế mẫu.",
+      "Đúng. Bốn nội dung GIAS nêu về chọn mẫu.",
+      "Sai. Cỡ mẫu thôi chưa đủ.",
+      "Sai. Mẫu do đơn vị đề xuất có thể thiên lệch."
+    ],
+    "refs": [
+      "GIAS 13.6",
+      "CIA Part 2 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M16",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Kiểm toán nội bộ nhận cuộc tư vấn cải tiến quy trình đối chiếu công nợ theo đề nghị của Giám đốc tài chính. Chương trình làm việc nên được xây dựng thế nào?",
+    "options": [
+      "Kiểm toán viên tự lập như một cuộc đảm bảo, không cần trao đổi.",
+      "Không cần chương trình vì đây không phải cuộc đảm bảo.",
+      "Xây dựng cùng các bên đã đề nghị dịch vụ tư vấn.",
+      "Giao Giám đốc tài chính tự lập và kiểm toán viên làm theo."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.6 yêu cầu lập chương trình cho mỗi cuộc kiểm toán; phần Xem xét khi thực hiện nêu với dịch vụ tư vấn, chương trình nên được xây dựng cùng các bên đã đề nghị dịch vụ. CAE vẫn phê duyệt chương trình.",
+    "optionNotes": [
+      "Sai. Tư vấn nên phối hợp với bên đề nghị.",
+      "Sai. Tư vấn vẫn cần chương trình làm việc.",
+      "Đúng. Xây dựng cùng bên đề nghị dịch vụ.",
+      "Sai. Kiểm toán viên không giao việc lập chương trình cho quản lý."
+    ],
+    "refs": [
+      "GIAS 13.6",
+      "CIA Part 2 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M17",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 3,
+    "stem": "Khi rà soát chương trình kiểm toán, CAE thấy các bước kiểm tra không ghi người thực hiện, ngày hoàn thành và dấu hiệu rà soát. Rủi ro chính của thiếu sót này là gì?",
+    "options": [
+      "Chương trình trở nên dài hơn mức cần thiết khi in ra.",
+      "Kiểm toán viên không thể dùng thủ tục phân tích trong cuộc kiểm toán.",
+      "Đơn vị được kiểm toán không biết thời gian kết thúc cuộc kiểm toán.",
+      "Khó chứng minh công việc đã làm, ai làm và đã được rà soát hay chưa."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.6 yêu cầu chương trình nêu người được phân công từng việc; phần Xem xét khi thực hiện nêu chương trình nên có chỗ ghi tên người hoàn thành, ngày hoàn thành và dấu hiệu rà soát, phê duyệt. Thiếu các thông tin này làm khó chứng minh công việc đã được làm và giám sát (GIAS 12.3, 14.6).",
+    "optionNotes": [
+      "Sai. Độ dài không phải rủi ro chính.",
+      "Sai. Không liên quan đến thủ tục phân tích.",
+      "Sai. Thời gian được trao đổi riêng với quản lý.",
+      "Đúng. Mất bằng chứng về thực hiện và rà soát."
+    ],
+    "refs": [
+      "GIAS 13.6",
+      "GIAS 12.3",
+      "CIA Part 2 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M18",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Chương trình kiểm toán liệt kê 30 thủ tục chuẩn nhưng không liên kết với rủi ro hay kiểm soát nào đã nhận diện trong đánh giá rủi ro. Điểm yếu lớn nhất là gì?",
+    "options": [
+      "Thủ tục có thể không nhắm vào rủi ro trọng yếu đã nhận diện.",
+      "Số thủ tục quá ít so với quy mô của quy trình được kiểm toán.",
+      "Thủ tục chuẩn luôn bị cấm trong chương trình kiểm toán.",
+      "Chương trình chưa được đơn vị được kiểm toán ký xác nhận."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 13.6 yêu cầu chương trình dựa trên thông tin lập kế hoạch, kể cả kết quả đánh giá rủi ro. Phần Xem xét khi thực hiện nêu chương trình có thể được xây dựng bằng cách liên kết rủi ro, kiểm soát đã nhận diện với cách kiểm tra.",
+    "optionNotes": [
+      "Đúng. Không bám rủi ro trọng yếu.",
+      "Sai. Vấn đề là liên kết với rủi ro, không phải số lượng.",
+      "Sai. Thủ tục chuẩn được dùng nếu phù hợp với rủi ro.",
+      "Sai. Đơn vị được kiểm toán không ký chương trình."
+    ],
+    "refs": [
+      "GIAS 13.6",
+      "CIA Part 2 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M19",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Trưởng nhóm báo CAE rằng thiếu chuyên gia phân tích dữ liệu cho cuộc kiểm toán, và CAE không thể bổ sung trong năm nay. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Giữ nguyên phạm vi và để nhóm hiện tại làm trong khả năng.",
+      "CAE trao đổi hệ quả với HĐQT, có thể thu hẹp phạm vi.",
+      "Nhờ phòng CNTT của đơn vị được kiểm toán phân tích thay.",
+      "Hoãn cuộc kiểm toán mà không cần báo cáo ai."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 13.5 (Xem xét khi thực hiện): khi thiếu nguồn lực ảnh hưởng đến mục tiêu, người giám sát báo CAE; CAE trao đổi với Ban điều hành, HĐQT về hệ quả và quyết định hướng xử lý, ví dụ thu hẹp phạm vi khi không có được nguồn lực cần thiết.",
+    "optionNotes": [
+      "Sai. Làm trong khả năng có thể không đạt mục tiêu.",
+      "Đúng. Trao đổi hệ quả và điều chỉnh phạm vi.",
+      "Sai. Đơn vị được kiểm toán phân tích cho mình là thiếu khách quan.",
+      "Sai. Hoãn phải được trao đổi, không tự quyết."
+    ],
+    "refs": [
+      "GIAS 13.5",
+      "GIAS 8.2",
+      "CIA Part 2 A.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M20",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 2,
+    "stem": "Phòng kiểm toán thường xuyên vượt ngân sách thời gian của các cuộc kiểm toán. Thông lệ nào giúp cải thiện việc lập kế hoạch nguồn lực các cuộc sau?",
+    "options": [
+      "Tăng gấp đôi ngân sách thời gian cho mọi cuộc kiểm toán.",
+      "Cắt bớt thủ tục khi gần hết ngân sách thời gian.",
+      "So sánh thời gian thực tế với ngân sách, rà soát định kỳ.",
+      "Giao đơn vị được kiểm toán tự ước tính thời gian cần thiết."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.5 (Xem xét khi thực hiện) nêu kiểm toán viên có thể ghi lại thời gian thực tế so với ngân sách; tài liệu này được rà soát để cải thiện việc lập kế hoạch nguồn lực cho các cuộc kiểm toán sau.",
+    "optionNotes": [
+      "Sai. Tăng đều không dựa trên dữ liệu thực tế.",
+      "Sai. Cắt thủ tục có thể không đạt mục tiêu.",
+      "Đúng. So sánh thực tế với ngân sách để cải thiện.",
+      "Sai. Không giao việc ước tính cho đơn vị được kiểm toán."
+    ],
+    "refs": [
+      "GIAS 13.5",
+      "CIA Part 2 A.7"
+    ],
+    "source": "original"
   }
 ]
