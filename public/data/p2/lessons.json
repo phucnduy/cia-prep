@@ -30,12 +30,94 @@
     "traps": [
       "Để đơn vị được kiểm toán quyết định phạm vi.",
       "Cho rằng đã lập kế hoạch thì không được thay đổi mục tiêu, phạm vi.",
-      "Che giấu giới hạn phạm vi thay vì thảo luận và báo cáo."
+      "Che giấu giới hạn phạm vi thay vì thảo luận và báo cáo.",
+      "Cho rằng Topical Requirement buộc phải kiểm toán chủ đề đó hằng năm: nó chỉ áp dụng khi chủ đề nằm trong phạm vi.",
+      "Bỏ qua phần Topical Requirement không áp dụng mà không ghi lại lý do."
     ],
     "refs": [
       "GIAS 13.1",
       "GIAS 13.3",
-      "CIA Part 2 A.1"
+      "CIA Part 2 A.1",
+      "GIAS 13.2",
+      "IIA Topical Requirements"
+    ],
+    "details": [
+      {
+        "heading": "1a. Yêu cầu theo chủ đề (Topical Requirements)",
+        "body": [
+          "Topical Requirements là một phần bắt buộc của IPPF, bên cạnh GIAS và Hướng dẫn toàn cầu (không bắt buộc). Theo phần giới thiệu IPPF trong GIAS, kiểm toán viên phải tuân thủ các yêu cầu liên quan khi phạm vi cuộc kiểm toán bao gồm một trong các chủ đề đã được IIA xác định.",
+          "Theo tài liệu hỏi đáp của IIA về Yêu cầu theo chủ đề an ninh mạng, yêu cầu áp dụng khi chủ đề là: đối tượng của một cuộc đảm bảo trong kế hoạch; được nhận diện trong khi thực hiện một cuộc kiểm toán khác; hoặc đối tượng của một yêu cầu kiểm toán ngoài kế hoạch.",
+          "Không phải mọi yêu cầu con đều áp dụng cho mọi cuộc đảm bảo; đánh giá rủi ro quyết định yêu cầu nào đưa vào. Nhưng phải ghi lại bằng chứng đã xem xét khả năng áp dụng của từng yêu cầu, và nếu loại trừ thì phải ghi lại lý do. Bỏ qua hoàn toàn hoặc không có lý do cho phần bị loại là khoảng trống, có thể dẫn đến đánh giá không tuân thủ Chuẩn mực.",
+          "Yêu cầu có hiệu lực 12 tháng sau khi ban hành. Yêu cầu về an ninh mạng ban hành ngày 5/2/2025, hiệu lực từ 5/2/2026; câu hỏi tính điểm về một Yêu cầu theo chủ đề mới chỉ xuất hiện trong đề thi CIA ít nhất 6 tháng sau ngày hiệu lực.",
+          "Topical Requirements không bắt buộc chức năng phải kiểm toán một chủ đề cụ thể; chức năng vẫn lập kế hoạch theo rủi ro của tổ chức."
+        ]
+      },
+      {
+        "heading": "1b. Các yếu tố khi xây dựng mục tiêu",
+        "body": [
+          "Bắt buộc (13.3): mục tiêu nêu mục đích và các mục tiêu cụ thể cần đạt, kể cả mục tiêu do luật, quy định yêu cầu; xác định rõ là đảm bảo hay tư vấn, vì kỳ vọng của các bên và yêu cầu của Chuẩn mực khác nhau.",
+          "Nên (13.3): gắn mục tiêu cuộc kiểm toán với mục tiêu kinh doanh của hoạt động và của tổ chức. Mục tiêu đảm bảo thường hướng đến kiểm soát về: phân quyền và trách nhiệm; tuân thủ chính sách, luật; độ tin cậy của thông tin báo cáo; sử dụng nguồn lực hiệu quả, hiệu suất; bảo vệ tài sản.",
+          "Với cuộc đảm bảo, mục tiêu và phạm vi chủ yếu do kiểm toán viên xác định; với cuộc tư vấn, thường do kiểm toán viên và quản lý đơn vị cùng xác lập."
+        ]
+      },
+      {
+        "heading": "1c-1e. Giới hạn phạm vi, yêu cầu của các bên và thay đổi",
+        "body": [
+          "Phạm vi nêu hoạt động, địa điểm, quy trình, hệ thống, bộ phận, thời kỳ và phải đủ để đạt mục tiêu; nên xét riêng từng mục tiêu để chắc mỗi mục tiêu đều đạt được trong phạm vi.",
+          "Giới hạn phạm vi là điều kiện của cuộc đảm bảo (thiếu nguồn lực, bị hạn chế tiếp cận nhân sự, cơ sở, dữ liệu) khiến không làm được như chương trình. Bắt buộc: thảo luận với quản lý khi phát hiện, nhằm giải quyết; không giải quyết được thì CAE đưa lên HĐQT theo phương pháp đã định.",
+          "Nên xem xét: yêu cầu của các bên muốn đưa vào hay loại ra một nội dung, hoặc giới hạn thời gian cuộc kiểm toán, có cấu thành giới hạn phạm vi hay không.",
+          "Bắt buộc: kiểm toán viên được linh hoạt thay đổi mục tiêu, phạm vi khi công việc cho thấy cần; CAE phê duyệt mục tiêu, phạm vi và mọi thay đổi; thay đổi được thông báo kịp thời cho quản lý (13.1, 13.3)."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Mục tiêu và phạm vi: đảm bảo so với tư vấn",
+      "columns": [
+        "Khía cạnh",
+        "Đảm bảo",
+        "Tư vấn"
+      ],
+      "rows": [
+        [
+          "Ai xác định mục tiêu, phạm vi",
+          "Chủ yếu kiểm toán viên, CAE phê duyệt",
+          "Kiểm toán viên và quản lý cùng xác lập"
+        ],
+        [
+          "Đánh giá rủi ro chính thức",
+          "Bắt buộc (13.2)",
+          "Có thể không cần, tùy thỏa thuận"
+        ],
+        [
+          "Tiêu chí đánh giá",
+          "Bắt buộc xác định (13.4)",
+          "Có thể không cần, tùy thỏa thuận"
+        ],
+        [
+          "Giới hạn phạm vi",
+          "Thảo luận với quản lý; không giải quyết được thì lên HĐQT",
+          "Khái niệm gắn với cuộc đảm bảo"
+        ]
+      ]
+    },
+    "example": {
+      "title": "Thu hẹp phạm vi theo yêu cầu",
+      "scenario": "Khi họp khởi động cuộc kiểm toán quy trình mua hàng, Giám đốc mua hàng đề nghị loại các gói thầu trên 5 tỷ đồng ra khỏi phạm vi vì 'đã có Ban kiểm soát xem xét'. Đánh giá rủi ro cho thấy đây là nhóm rủi ro cao nhất.",
+      "analysis": "Đề nghị loại một nội dung khỏi phạm vi có thể là giới hạn phạm vi (13.3). Kiểm toán viên trao đổi với quản lý để tìm hiểu: nếu Ban kiểm soát đã đảm bảo đầy đủ, có thể cân nhắc dựa vào công việc đó theo 9.5 và ghi lại cơ sở; nếu không, giữ phạm vi. Nếu quản lý vẫn từ chối, CAE đưa vấn đề lên HĐQT. Mọi thay đổi phạm vi do CAE phê duyệt."
+    },
+    "checks": [
+      {
+        "q": "Khi nào Topical Requirement áp dụng cho một cuộc kiểm toán?",
+        "a": "Khi chủ đề là đối tượng của cuộc đảm bảo trong kế hoạch, được nhận diện khi đang thực hiện một cuộc kiểm toán khác, hoặc là đối tượng của yêu cầu kiểm toán ngoài kế hoạch."
+      },
+      {
+        "q": "Loại trừ một yêu cầu con của Topical Requirement có được không?",
+        "a": "Được, nếu đánh giá rủi ro cho thấy không áp dụng, nhưng phải ghi lại việc đã xem xét và lý do loại trừ."
+      },
+      {
+        "q": "Ai phê duyệt thay đổi phạm vi giữa cuộc kiểm toán?",
+        "a": "CAE (GIAS 13.3); thay đổi cũng phải được thông báo kịp thời cho quản lý (13.1)."
+      }
     ]
   },
   {
@@ -69,6 +151,39 @@
     "refs": [
       "GIAS 13.4",
       "CIA Part 2 A.2"
+    ],
+    "details": [
+      {
+        "heading": "2a. Chọn tiêu chí phù hợp nhất",
+        "body": [
+          "Bắt buộc (13.4): xác định tiêu chí phù hợp nhất cho các khía cạnh trong mục tiêu, phạm vi; đánh giá tiêu chí HĐQT, Ban điều hành đã lập có đầy đủ không; đủ thì dùng, chưa đủ thì xác định tiêu chí phù hợp qua trao đổi với HĐQT và/hoặc Ban điều hành.",
+          "Các nguồn tiêu chí GIAS nêu: nội bộ (chính sách, thủ tục, KPI, chỉ tiêu); bên ngoài (luật, quy định, hợp đồng); thông lệ có thẩm quyền (khung, chuẩn mực, hướng dẫn, so sánh chuẩn của ngành); thông lệ đã hình thành của tổ chức; kỳ vọng dựa trên thiết kế kiểm soát; cả thủ tục chưa được viết thành văn bản.",
+          "Nên: báo cho quản lý đơn vị biết tiêu chí sẽ dùng và ghi lại tiêu chí đã thống nhất, để tránh bị hiểu sai hoặc phản bác về sau."
+        ]
+      },
+      {
+        "heading": "2b. Thế nào là tiêu chí đầy đủ",
+        "body": [
+          "Tiêu chí đầy đủ: phù hợp, gắn với mục tiêu của tổ chức và hoạt động, cho phép so sánh tin cậy; nên cụ thể và thực tế, thể hiện trạng thái mong muốn.",
+          "Nên xem xét tổ chức đã xác định rõ dung sai rủi ro (kể cả ngưỡng trọng yếu cho từng bộ phận) và mức kiểm soát 'đạt yêu cầu' chưa, ví dụ một tỷ lệ giao dịch phải đúng thủ tục.",
+          "Khi tiêu chí chưa đủ hoặc không có: kiểm toán viên có thể giúp quản lý xây dựng, tham khảo chuyên gia, hoặc khuyến nghị quản lý áp dụng tiêu chí do kiểm toán xác định; việc thiếu tiêu chí có thể dẫn tới quyết định chuyển sang dịch vụ tư vấn."
+        ]
+      }
+    ],
+    "example": {
+      "title": "Thiếu tiêu chí về thời gian xử lý khiếu nại",
+      "scenario": "Mục tiêu cuộc kiểm toán là đánh giá hiệu quả xử lý khiếu nại khách hàng, nhưng công ty không có quy định thời hạn xử lý.",
+      "analysis": "Không dừng cuộc kiểm toán và cũng không tự áp con số của đối thủ. Kiểm toán viên trao đổi với Ban điều hành để xác định tiêu chí phù hợp (ví dụ cam kết dịch vụ trong hợp đồng, quy định bảo vệ người tiêu dùng, thông lệ ngành), ghi lại tiêu chí đã thống nhất, rồi so sánh với thực trạng. Có thể khuyến nghị công ty ban hành thời hạn chính thức."
+    },
+    "checks": [
+      {
+        "q": "Nếu tiêu chí của Ban điều hành đã đầy đủ, kiểm toán viên làm gì?",
+        "a": "Phải dùng tiêu chí đó để đánh giá (GIAS 13.4)."
+      },
+      {
+        "q": "Ba đặc điểm của tiêu chí đầy đủ theo GIAS?",
+        "a": "Phù hợp; gắn với mục tiêu của tổ chức và hoạt động; cho phép so sánh tin cậy."
+      }
     ]
   },
   {
@@ -169,6 +284,35 @@
     "refs": [
       "GIAS 13.2",
       "CIA Part 2 A.5"
+    ],
+    "details": [
+      {
+        "heading": "Cách thu thập thông tin để đánh giá rủi ro cuộc kiểm toán (13.2, nên làm)",
+        "body": [
+          "Bắt đầu từ kế hoạch kiểm toán: lý do cuộc kiểm toán được đưa vào kế hoạch (đánh giá rủi ro toàn tổ chức hay yêu cầu của các bên), và hỏi xem có thay đổi gì từ khi lập kế hoạch.",
+          "Nguồn: các đánh giá rủi ro gần đây của kiểm toán nội bộ, quản lý, bên ngoài; báo cáo các cuộc kiểm toán, tư vấn trước; hồ sơ làm việc cũ; hướng dẫn của IIA, luật, quy định; sơ đồ tổ chức, mô tả công việc; quan sát tài sản, quy trình; phỏng vấn, khảo sát; gặp các bên đảm bảo khác.",
+          "Nên tham khảo người giám sát cuộc kiểm toán khi lập kế hoạch, và lấy ý kiến quản lý đơn vị về mục tiêu, rủi ro, kiểm soát: hiểu biết chung về rủi ro làm đánh giá rủi ro hữu ích hơn."
+        ]
+      },
+      {
+        "heading": "5d. Đánh giá và ưu tiên rủi ro, kiểm soát",
+        "body": [
+          "Bắt buộc: xác định rủi ro tiềm ẩn trọng yếu với mục tiêu của hoạt động; xem xét cụ thể rủi ro gian lận; đánh giá mức quan trọng và ưu tiên; xác định tiêu chí quản lý dùng để đo việc đạt mục tiêu.",
+          "Ghi lại mục tiêu, rủi ro với từng mục tiêu và kiểm soát cho từng rủi ro bằng bảng, ma trận rủi ro và kiểm soát hoặc mô tả quy trình; ước lượng mức quan trọng theo ảnh hưởng, khả năng xảy ra và có thể thêm yếu tố khác; thường minh họa bằng bản đồ nhiệt.",
+          "Với các rủi ro quan trọng nhất, đánh giá thiết kế kiểm soát giúp quyết định kiểm soát nào cần kiểm tra tiếp hiệu quả vận hành. Ma trận rủi ro và kiểm soát thường được hoàn thiện dần trong suốt cuộc kiểm toán.",
+          "Nếu rủi ro đã được nhận diện trong cuộc kiểm toán trước, chỉ cần rà soát và cập nhật đánh giá rủi ro trước đó (bắt buộc tối thiểu)."
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "q": "Cuộc kiểm toán năm ngoái đã đánh giá rủi ro quy trình này; năm nay có phải làm lại từ đầu?",
+        "a": "Không bắt buộc; GIAS 13.2 chỉ yêu cầu rà soát và cập nhật đánh giá trước đó."
+      },
+      {
+        "q": "Vì sao nên đánh giá thiết kế kiểm soát ngay khi lập kế hoạch?",
+        "a": "Để chọn kiểm soát chính cần kiểm tra hiệu quả vận hành; kiểm soát thiết kế yếu thì không cần tốn công kiểm tra vận hành."
+      }
     ]
   },
   {
@@ -206,7 +350,31 @@
     ],
     "refs": [
       "GIAS 13.6",
-      "CIA Part 2 A.6"
+      "CIA Part 2 A.6",
+      "GIAS 14.2"
+    ],
+    "details": [
+      {
+        "heading": "6a-6d. Chương trình làm việc theo GIAS 13.6",
+        "body": [
+          "Bắt buộc: lập, ghi lại chương trình dựa trên thông tin lập kế hoạch và kết quả đánh giá rủi ro; nêu tiêu chí cho từng mục tiêu, công việc, phương pháp (kể cả thủ tục phân tích) và công cụ, người thực hiện từng việc; CAE duyệt trước khi thực hiện và duyệt kịp thời mọi thay đổi.",
+          "Nên: chương trình có chỗ ghi tên người làm, ngày hoàn thành và dấu hiệu rà soát, phê duyệt; công việc lập kế hoạch được ghi vào hồ sơ và tham chiếu trong chương trình.",
+          "Nên: khi chọn mẫu, ghi phương pháp chọn mẫu, tổng thể, cỡ mẫu và kết quả có suy rộng cho tổng thể được không.",
+          "Đánh giá thiết kế kiểm soát có thể làm khi lập kế hoạch (giúp chọn kiểm soát chính), như một giai đoạn riêng, hoặc cùng lúc với kiểm tra hiệu quả vận hành; kết quả đánh giá thiết kế được ghi trong chương trình hoặc giấy làm việc riêng.",
+          "Với tư vấn, chương trình nên được xây dựng cùng các bên đã yêu cầu dịch vụ.",
+          "Một chương trình đầy đủ liên kết rõ rủi ro, kiểm soát với cách kiểm tra, và về sau liên kết với phát hiện, kết luận."
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "q": "Bốn nội dung bắt buộc của chương trình làm việc?",
+        "a": "Tiêu chí cho từng mục tiêu; công việc cần làm; phương pháp và công cụ (kể cả thủ tục phân tích); người được phân công."
+      },
+      {
+        "q": "Phát hiện cần phân tích thêm giữa chừng thì làm gì với chương trình?",
+        "a": "Điều chỉnh chương trình và trình CAE phê duyệt (GIAS 13.6, 14.2)."
+      }
     ]
   },
   {
@@ -235,6 +403,23 @@
       "GIAS 13.5",
       "GIAS 13.3",
       "CIA Part 2 A.7"
+    ],
+    "details": [
+      {
+        "heading": "7a-7d. Xác định nguồn lực và xử lý khi thiếu (13.5)",
+        "body": [
+          "Bắt buộc: xác định loại và số lượng nguồn lực; xét bản chất, độ phức tạp, khung thời gian, và nguồn lực tài chính, nhân sự, công nghệ có phù hợp và đủ không; không đủ thì trao đổi với CAE.",
+          "Nên: thường do người được giao dẫn dắt, giám sát cuộc kiểm toán phân bổ, dựa trên các bước trong chương trình và thời gian dự kiến cho từng bước; xét thêm các ràng buộc như số giờ ngân sách, thời điểm, hậu cần, làm việc bằng nhiều ngôn ngữ.",
+          "Khi thiếu nguồn lực ảnh hưởng mục tiêu: người giám sát báo CAE; CAE trao đổi với Ban điều hành, HĐQT về hệ quả và quyết định hướng xử lý, có thể phải thu hẹp phạm vi.",
+          "Nên ghi lại thời gian thực tế so với ngân sách để cải thiện việc lập kế hoạch nguồn lực các cuộc sau."
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "q": "Trưởng nhóm thấy thiếu chuyên gia CNTT cho cuộc kiểm toán; báo ai trước?",
+        "a": "Báo CAE (GIAS 13.5); CAE trao đổi với Ban điều hành, HĐQT nếu không giải quyết được."
+      }
     ]
   },
   {
