@@ -14,7 +14,7 @@
       {
         "term": "Engagement objectives",
         "vi": "Mục tiêu cuộc kiểm toán",
-        "def": "Mục đích và các kết quả cụ thể cuộc kiểm toán cần đạt."
+        "def": "Các tuyên bố nêu mục đích của cuộc kiểm toán và mô tả các mục tiêu cụ thể cần đạt. (Glossary GIAS)"
       },
       {
         "term": "Engagement scope",
@@ -53,7 +53,7 @@
       {
         "term": "Criteria",
         "vi": "Tiêu chí",
-        "def": "Mô tả trạng thái mong muốn của hoạt động được kiểm toán (Glossary GIAS)."
+        "def": "Mô tả trạng thái mong muốn của hoạt động được kiểm toán (còn gọi là tiêu chí đánh giá). (Glossary GIAS)"
       },
       {
         "term": "Condition",
@@ -159,7 +159,7 @@
       {
         "term": "Risk and control matrix (RCM)",
         "vi": "Ma trận rủi ro và kiểm soát",
-        "def": "Bảng ánh xạ mục tiêu, rủi ro, kiểm soát và thủ tục kiểm tra."
+        "def": "Công cụ hỗ trợ kiểm toán, thường liên kết mục tiêu kinh doanh, rủi ro, quy trình kiểm soát và thông tin chính. (Glossary GIAS)"
       }
     ],
     "traps": [
@@ -186,7 +186,7 @@
       {
         "term": "Engagement work program",
         "vi": "Chương trình làm việc",
-        "def": "Tài liệu nêu công việc, phương pháp, người thực hiện để đạt mục tiêu."
+        "def": "Tài liệu nêu các công việc cần làm để đạt mục tiêu cuộc kiểm toán, phương pháp và công cụ, người thực hiện; được xây dựng từ thông tin thu thập khi lập kế hoạch. (Glossary GIAS)"
       },
       {
         "term": "Walkthrough",
@@ -423,12 +423,17 @@
       {
         "term": "Root cause",
         "vi": "Nguyên nhân gốc rễ",
-        "def": "Vấn đề cốt lõi tạo ra chênh lệch giữa tiêu chí và thực trạng (Glossary GIAS)."
+        "def": "Vấn đề cốt lõi hay lý do gốc rễ gây ra chênh lệch giữa tiêu chí và thực trạng của hoạt động được kiểm toán. (Glossary GIAS)"
       },
       {
         "term": "Significance",
         "vi": "Mức độ trọng yếu",
-        "def": "Đánh giá theo khả năng xảy ra và ảnh hưởng."
+        "def": "Mức độ quan trọng tương đối của một vấn đề trong bối cảnh đang xem xét, gồm yếu tố định lượng và định tính như quy mô, bản chất, mức liên quan và ảnh hưởng; cần xét đoán nghề nghiệp. (Glossary GIAS)"
+      },
+      {
+        "term": "Finding",
+        "vi": "Phát hiện kiểm toán",
+        "def": "Kết luận rằng có chênh lệch giữa tiêu chí đánh giá và thực trạng của hoạt động được kiểm toán; có thể gọi là 'quan sát' (observation). (Glossary GIAS)"
       }
     ],
     "traps": [
@@ -456,7 +461,7 @@
       {
         "term": "Workpapers",
         "vi": "Hồ sơ làm việc",
-        "def": "Tài liệu ghi nhận công việc và bằng chứng của cuộc kiểm toán."
+        "def": "Tài liệu ghi lại công việc kiểm toán khi lập kế hoạch và thực hiện, làm cơ sở cho phát hiện và kết luận. (Glossary GIAS)"
       },
       {
         "term": "Retention policy",
@@ -489,7 +494,7 @@
       {
         "term": "Engagement conclusion",
         "vi": "Kết luận cuộc kiểm toán",
-        "def": "Xét đoán tổng thể về kết quả so với mục tiêu."
+        "def": "Xét đoán nghề nghiệp của kiểm toán viên về tổng thể các phát hiện; nên thể hiện kết quả hoạt động là đạt hay không đạt yêu cầu. (Glossary GIAS)"
       },
       {
         "term": "Aggregated findings",

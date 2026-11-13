@@ -157,17 +157,27 @@
       {
         "term": "Internal audit mandate",
         "vi": "Nhiệm vụ (mandate) kiểm toán nội bộ",
-        "def": "Thẩm quyền, vai trò và trách nhiệm của chức năng kiểm toán nội bộ."
+        "def": "Thẩm quyền, vai trò và trách nhiệm của chức năng kiểm toán nội bộ, do HĐQT và/hoặc luật, quy định trao. (Glossary GIAS)"
       },
       {
         "term": "Board",
         "vi": "HĐQT (cơ quan quản trị)",
-        "def": "Cơ quan quản trị cao nhất cấp thẩm quyền cho kiểm toán nội bộ."
+        "def": "Cơ quan cao nhất chịu trách nhiệm quản trị, ví dụ HĐQT, Ủy ban Kiểm toán, hội đồng thành viên; nếu có nhiều cơ quan quản trị thì là cơ quan được giao cấp thẩm quyền cho kiểm toán nội bộ. (Glossary GIAS)"
       },
       {
         "term": "Essential conditions",
         "vi": "Điều kiện thiết yếu",
         "def": "Các việc HĐQT và Ban điều hành cần làm để chức năng kiểm toán nội bộ hiệu quả (Domain III)."
+      },
+      {
+        "term": "Chief audit executive (CAE)",
+        "vi": "Trưởng kiểm toán nội bộ",
+        "def": "Vai trò lãnh đạo chịu trách nhiệm quản lý mọi mặt của chức năng kiểm toán nội bộ và bảo đảm chất lượng dịch vụ theo GIAS; chức danh cụ thể có thể khác nhau giữa các tổ chức. (Glossary GIAS)"
+      },
+      {
+        "term": "Senior management",
+        "vi": "Ban điều hành cấp cao",
+        "def": "Cấp điều hành cao nhất, chịu trách nhiệm giải trình trước HĐQT về việc thực hiện các quyết định chiến lược; thường gồm Tổng Giám đốc và nhóm lãnh đạo. (Glossary GIAS)"
       }
     ],
     "traps": [
@@ -175,7 +185,8 @@
       "Cho rằng CAE tự quyết định mandate hoặc Tổng Giám đốc giao mandate.",
       "Cho rằng khi luật đã quy định mandate thì không cần điều lệ.",
       "Cho rằng HĐQT tự phê duyệt từng chương trình kiểm toán hay ký từng báo cáo; đó là việc của CAE (GIAS 13.6, 15.1).",
-      "Nghĩ HĐQT chỉ phê duyệt điều lệ và kế hoạch: HĐQT còn phê duyệt mục tiêu hoạt động của chức năng và kế hoạch đánh giá chất lượng bên ngoài."
+      "Nghĩ HĐQT chỉ phê duyệt điều lệ và kế hoạch: HĐQT còn phê duyệt mục tiêu hoạt động của chức năng và kế hoạch đánh giá chất lượng bên ngoài.",
+      "Nghĩ CAE luôn phải báo Ban điều hành nội dung họp riêng với HĐQT: không báo khi nội dung liên quan sai phạm của Ban điều hành."
     ],
     "refs": [
       "GIAS 6.1",
@@ -230,6 +241,17 @@
           "Kế hoạch kiểm toán không cố định cả năm: khi rủi ro thay đổi (ví dụ sự cố an ninh mạng), CAE trao đổi các thay đổi đáng kể giữa kỳ với HĐQT, Ban điều hành và trình HĐQT phê duyệt (GIAS 9.4). Tự điều chỉnh mà không trao đổi là sai.",
           "CAE thiết lập cách thức tuyển dụng, phát triển và giữ chân kiểm toán viên đủ năng lực (GIAS 10.2); thiếu người thì báo cáo ảnh hưởng đến kế hoạch, không âm thầm thu hẹp phạm vi.",
           "CAE cố gắng bảo đảm chức năng có công nghệ hỗ trợ và thường xuyên đánh giá công nghệ đang dùng (GIAS 10.3), ví dụ công cụ phân tích dữ liệu khi đơn vị chuyển lên hệ thống mới."
+        ]
+      },
+      {
+        "heading": "Thông lệ theo GIAS: trao đổi về nhiệm vụ, họp riêng với HĐQT (6.1, 6.3)",
+        "body": [
+          "Đây là phần Xem xét khi thực hiện của GIAS (\"should\", \"may\"): thông lệ nên làm, không phải yêu cầu bắt buộc.",
+          "CAE giúp HĐQT, Ban điều hành hiểu năm khía cạnh của nhiệm vụ: thẩm quyền (đến từ quan hệ báo cáo trực tiếp HĐQT, cho phép tiếp cận không hạn chế), vai trò, trách nhiệm, phạm vi (toàn bộ hay một phần tổ chức; chỉ đảm bảo hay cả tư vấn) và loại dịch vụ (6.1).",
+          "Nên trao đổi lại về nhiệm vụ khi có: mua lại, tái cấu trúc lớn; thay đổi lớn trong HĐQT, Ban điều hành; thay đổi chiến lược, hồ sơ rủi ro; luật mới ảnh hưởng phạm vi; thay đổi đáng kể của GIAS. CAE xem xét chính thức các thay đổi này ít nhất hằng năm (6.1).",
+          "HĐQT và CAE nên họp riêng, không có Ban điều hành, ít nhất mỗi năm một lần; họp hằng quý là thông lệ quản trị tốt (6.3).",
+          "Sau khi họp riêng, CAE nên thông báo cho Ban điều hành về nội dung đã trao đổi, trừ khi không phù hợp, ví dụ khi nội dung liên quan sai phạm của chính một thành viên Ban điều hành (6.3).",
+          "HĐQT phê duyệt ngân sách và kế hoạch nguồn lực của kiểm toán nội bộ, thể hiện chức năng có đủ nguồn lực cho kế hoạch (6.3)."
         ]
       }
     ],
@@ -297,7 +319,7 @@
       {
         "term": "Internal audit charter",
         "vi": "Điều lệ kiểm toán nội bộ",
-        "def": "Văn bản được HĐQT phê duyệt, ghi nhận mandate, vị trí và quan hệ báo cáo của kiểm toán nội bộ."
+        "def": "Văn bản chính thức nêu nhiệm vụ, vị trí tổ chức, quan hệ báo cáo, phạm vi công việc, loại dịch vụ và các nội dung khác của chức năng kiểm toán nội bộ. (Glossary GIAS)"
       },
       {
         "term": "Unrestricted access",
@@ -353,6 +375,15 @@
         "body": [
           "Ở ngành, quốc gia có luật quy định toàn bộ hay một phần nhiệm vụ của kiểm toán nội bộ (ví dụ ngân hàng), điều lệ phải bao gồm các yêu cầu pháp lý đó (GIAS 6.1). Luật có hiệu lực riêng không có nghĩa là bỏ qua trong điều lệ.",
           "Phân biệt: nhiệm vụ (mandate) là thẩm quyền, vai trò, trách nhiệm do HĐQT xác lập (có thể từ luật), với thông tin do CAE cung cấp; điều lệ là văn bản chính thức ghi nhận nhiệm vụ cùng các nội dung tối thiểu khác (GIAS 6.1, 6.2)."
+        ]
+      },
+      {
+        "heading": "Thông lệ theo GIAS: nội dung nên có thêm trong điều lệ (6.2)",
+        "body": [
+          "Điều lệ nên mô tả quan hệ báo cáo hành chính: ai phê duyệt nhân sự, ngân sách của chức năng, chi phí của CAE và ai đánh giá kết quả làm việc của CAE.",
+          "Nếu luật quy định quan hệ báo cáo thì điều lệ nên dẫn chiếu văn bản đó; nếu luật đã quy định đầy đủ mọi yêu cầu của điều lệ thì luật có thể thay cho điều lệ chính thức.",
+          "Các nội dung nên cân nhắc thêm: biện pháp bảo vệ khách quan và độc lập; quyền tiếp cận không hạn chế; cách và thời điểm báo cáo HĐQT; quy trình kiểm toán, kể cả cách xử lý bất đồng với quản lý; chương trình đảm bảo và cải tiến chất lượng.",
+          "CAE thường trình bản dự thảo cuối tại cuộc họp HĐQT để thảo luận và phê duyệt; hai bên thống nhất tần suất rà soát, tái khẳng định điều lệ."
         ]
       }
     ],
@@ -425,17 +456,22 @@
       {
         "term": "Assurance services",
         "vi": "Dịch vụ đảm bảo",
-        "def": "Đánh giá khách quan, đưa ra kết luận cho các bên liên quan."
+        "def": "Dịch vụ trong đó kiểm toán viên đánh giá khách quan để đưa ra sự đảm bảo (tuân thủ, tài chính, hoạt động/hiệu quả, công nghệ); mức đảm bảo hạn chế hoặc hợp lý tùy bản chất, thời điểm, phạm vi thủ tục. (Glossary GIAS)"
       },
       {
         "term": "Advisory services",
         "vi": "Dịch vụ tư vấn",
-        "def": "Hỗ trợ theo yêu cầu, phạm vi do hai bên thỏa thuận, không nhận trách nhiệm quản lý."
+        "def": "Dịch vụ tư vấn cho các bên liên quan, không đưa ra đảm bảo và không nhận trách nhiệm quản lý; bản chất, phạm vi do hai bên thỏa thuận. Ví dụ: góp ý thiết kế chính sách, hệ thống mới; dịch vụ pháp y (forensic); đào tạo; điều phối thảo luận về rủi ro, kiểm soát. Còn gọi là dịch vụ tư vấn (consulting). (Glossary GIAS)"
       },
       {
         "term": "Reasonable vs. limited assurance",
         "vi": "Đảm bảo hợp lý và có giới hạn",
         "def": "Hai mức tin cậy khác nhau tùy phạm vi và độ sâu của thủ tục."
+      },
+      {
+        "term": "Assurance",
+        "vi": "Sự đảm bảo",
+        "def": "Nhận định nhằm tăng mức tin cậy của các bên liên quan về quản trị, quản lý rủi ro, kiểm soát đối với một vấn đề, hoạt động khi so với tiêu chí đã thiết lập. (Glossary GIAS)"
       }
     ],
     "traps": [
@@ -860,12 +896,19 @@
         "term": "Scope limitation",
         "vi": "Giới hạn phạm vi",
         "def": "Hạn chế về phạm vi, quyền tiếp cận hoặc nguồn lực, cần báo HĐQT."
+      },
+      {
+        "term": "Independence",
+        "vi": "Tính độc lập",
+        "def": "Không bị các điều kiện làm suy giảm khả năng của chức năng kiểm toán nội bộ trong việc thực hiện trách nhiệm một cách không thiên lệch. Độc lập gắn với chức năng; khách quan gắn với cá nhân. (Glossary GIAS)"
       }
     ],
     "traps": [
       "Nhầm suy giảm độc lập (cấp chức năng) với suy giảm khách quan (cấp cá nhân).",
       "Cho rằng HĐQT quyết định thù lao CAE; GIAS chỉ yêu cầu HĐQT góp ý cho Ban điều hành.",
-      "Cho rằng GIAS cấm tuyệt đối CAE kiêm nhiệm."
+      "Cho rằng GIAS cấm tuyệt đối CAE kiêm nhiệm.",
+      "Cho rằng CAE báo cáo hành chính cho Giám đốc tài chính thì vẫn kiểm toán bình thường bộ phận ngân quỹ cũng do Giám đốc tài chính quản lý: đây là suy giảm độc lập.",
+      "Nghĩ hết vai trò tạm thời là kiểm toán nội bộ tự đánh giá ngay lĩnh vực đó: trong 12 tháng sau, việc đảm bảo do bên thứ ba độc lập giám sát."
     ],
     "refs": [
       "GIAS 7.1",
@@ -917,6 +960,17 @@
           "Khi phê duyệt vai trò ngoài kiểm toán của CAE, HĐQT phải ghi nhận khả năng suy giảm độc lập và cùng Ban điều hành, CAE thiết lập biện pháp bảo vệ; sự tin tưởng không phải biện pháp bảo vệ.",
           "Trong tập đoàn, kiểm toán nội bộ công ty con không được chỉ báo cáo cho Giám đốc công ty con; cần kênh báo cáo chức năng lên cơ quan quản trị và/hoặc kiểm toán nội bộ tập đoàn.",
           "Thưởng của kiểm toán viên không được gắn với kết quả (lợi nhuận, chỉ tiêu) của đơn vị mà họ kiểm toán."
+        ]
+      },
+      {
+        "heading": "Thông lệ theo GIAS: dấu hiệu suy giảm độc lập và vai trò ngoài kiểm toán (7.1, 7.2)",
+        "body": [
+          "Kiểm toán nội bộ hiệu quả nhất khi chịu trách nhiệm trực tiếp trước HĐQT (báo cáo chức năng); về hành chính, thông lệ tốt là báo cáo Tổng Giám đốc. Báo cáo cho một lãnh đạo khác vẫn có thể được nếu có biện pháp bảo vệ phù hợp.",
+          "Các tình huống có thể gây suy giảm độc lập: CAE không được giao tiếp trực tiếp với HĐQT; Ban điều hành cố thu hẹp phạm vi đã được HĐQT duyệt; hạn chế tiếp cận hồ sơ, nhân sự, tài sản; gây áp lực để bỏ hoặc sửa phát hiện; cắt ngân sách đến mức không thực hiện được điều lệ.",
+          "Cũng là suy giảm: kiểm toán đảm bảo một lĩnh vực mà CAE phụ trách hoặc có ảnh hưởng đáng kể; hay kiểm toán hoạt động do chính lãnh đạo (không phải Tổng Giám đốc) mà CAE báo cáo hành chính quản lý, ví dụ CAE báo cáo Giám đốc tài chính nhưng kiểm toán bộ phận ngân quỹ cũng thuộc Giám đốc tài chính.",
+          "Vai trò ngoài kiểm toán thường gặp: quy định mới cần xây dựng kiểm soát gấp; CAE có chuyên môn phù hợp nhất; tổ chức quá nhỏ để có bộ phận tuân thủ riêng. CAE đề xuất biện pháp bảo vệ, phân biệt vai trò lâu dài với tạm thời, và đặt lộ trình chuyển giao vai trò tạm thời cho quản lý.",
+          "Sau khi CAE thôi phụ trách tạm thời một lĩnh vực, việc đảm bảo cho lĩnh vực đó do bên thứ ba độc lập giám sát trong 12 tháng tiếp theo; có thể cần lâu hơn nếu vẫn bị nhìn nhận là thiếu độc lập.",
+          "HĐQT nên tham gia tuyển CAE (thảo luận tiêu chuẩn, xem hồ sơ, phỏng vấn); có thể phê duyệt bản mô tả công việc của CAE; nên có kế hoạch kế nhiệm CAE (7.1, 7.2)."
         ]
       }
     ],
@@ -1118,7 +1172,7 @@
       {
         "term": "Integrity",
         "vi": "Chính trực",
-        "def": "Tuân thủ nguyên tắc đạo đức, trung thực, dám hành động theo sự thật."
+        "def": "Hành vi tuân thủ các nguyên tắc đạo đức, gồm trung thực và dũng khí nghề nghiệp để hành động dựa trên sự thật. (Glossary GIAS)"
       },
       {
         "term": "Professional courage",
@@ -1129,7 +1183,8 @@
     "traps": [
       "Nhầm dũng khí với đối đầu gay gắt.",
       "Chọn phương án làm nhẹ, hoãn hoặc bỏ phát hiện để giữ quan hệ.",
-      "Cho rằng quy tắc của tổ chức thay thế được nguyên tắc đạo đức của GIAS."
+      "Cho rằng quy tắc của tổ chức thay thế được nguyên tắc đạo đức của GIAS.",
+      "Báo vi phạm đạo đức của Chủ tịch HĐQT cho riêng Chủ tịch hoặc Tổng Giám đốc: phải báo toàn thể HĐQT."
     ],
     "refs": [
       "GIAS 1.1",
@@ -1177,6 +1232,14 @@
           "Nếu báo cáo cuối cùng có sai sót hoặc bỏ sót đáng kể, CAE phải nhanh chóng gửi thông tin đã sửa cho tất cả các bên đã nhận báo cáo gốc (GIAS 11.4). Sửa trong hồ sơ nội bộ hay chờ báo cáo năm sau là không đủ.",
           "Áp lực trì hoãn báo cáo vấn đề trọng yếu cho HĐQT (ví dụ chờ sau đợt phát hành trái phiếu) phải được từ chối; chính trực và dũng khí nghề nghiệp đòi hỏi báo cáo kịp thời (GIAS 1.1).",
           "Kỹ thuật thu thập bằng chứng phải hợp pháp (GIAS 1.3): ghi âm bí mật, truy cập thiết bị cá nhân... cần tham khảo pháp chế và chính sách trước."
+        ]
+      },
+      {
+        "heading": "Thông lệ theo GIAS: báo cáo vi phạm đạo đức và hành vi làm mất uy tín (1.1-1.3)",
+        "body": [
+          "Khi gặp tình huống thử thách sự trung thực, dũng khí nghề nghiệp, kiểm toán viên nên trao đổi với người giám sát để chọn cách xử lý phù hợp (1.1).",
+          "Nếu thành viên Ban điều hành vi phạm kỳ vọng đạo đức, CAE nên báo cáo HĐQT; nếu liên quan Chủ tịch HĐQT thì báo cáo toàn thể HĐQT. Kiểm toán viên nên theo dõi để xác nhận vấn đề đã được xử lý (1.2).",
+          "Ví dụ hành vi làm mất uy tín nghề nghiệp: bắt nạt, quấy rối, phân biệt đối xử; tự nhận chứng chỉ đã hết hạn hoặc không có; phát hành báo cáo sai hoặc giảm nhẹ, che giấu phát hiện, xếp hạng; làm ngơ hoạt động bất hợp pháp mà tổ chức dung túng; tiết lộ thông tin mật trái phép; làm việc khi có suy giảm khách quan chưa công bố; tuyên bố tuân thủ GIAS khi không có cơ sở; không nhận trách nhiệm về sai sót của mình (1.3)."
         ]
       }
     ],
@@ -1239,12 +1302,12 @@
       {
         "term": "Objectivity",
         "vi": "Khách quan",
-        "def": "Thái độ tinh thần không thiên lệch của kiểm toán viên (Nguyên tắc 2)."
+        "def": "Thái độ tinh thần không thiên lệch, giúp kiểm toán viên xét đoán nghề nghiệp, hoàn thành trách nhiệm và đạt Mục đích kiểm toán nội bộ mà không bị chi phối. (Glossary GIAS)"
       },
       {
         "term": "Conflict of interest",
         "vi": "Xung đột lợi ích",
-        "def": "Lợi ích cá nhân có thể ảnh hưởng đến xét đoán nghề nghiệp."
+        "def": "Tình huống, hoạt động hoặc mối quan hệ có thể ảnh hưởng, hoặc bị nhìn nhận là ảnh hưởng, đến khả năng xét đoán và làm việc khách quan của kiểm toán viên. (Glossary GIAS)"
       },
       {
         "term": "Self-review / familiarity",
@@ -1377,7 +1440,8 @@
     "traps": [
       "Chọn phương án để đơn vị được kiểm toán quyết định việc phân công.",
       "Chọn 'thu hẹp phạm vi để tránh phần bị suy giảm'.",
-      "Chọn thưởng theo số phát hiện như một biện pháp bảo vệ khách quan."
+      "Chọn thưởng theo số phát hiện như một biện pháp bảo vệ khách quan.",
+      "Coi thưởng theo số phát hiện hay số tiền tiết kiệm được là động lực tốt: GIAS nêu đây là ví dụ cơ chế có thể làm suy giảm khách quan."
     ],
     "refs": [
       "GIAS 2.2",
@@ -1423,6 +1487,16 @@
           "Kiểm toán viên cung cấp tư vấn về hoạt động mình từng phụ trách phải công bố khả năng suy giảm khách quan với bên đề nghị trước khi nhận cuộc tư vấn (GIAS 2.2). Quy tắc 12 tháng là của dịch vụ bảo đảm.",
           "Không nhận quà, phần thưởng, ưu đãi có thể làm suy giảm khách quan (GIAS 2.2), kể cả khi cuộc kiểm toán đã kết thúc.",
           "Phân công lại khi xuất hiện xung đột giữa cuộc, ví dụ kiểm toán viên ứng tuyển vào chính đơn vị đang kiểm toán; rà soát lại phần việc người đó đã làm."
+        ]
+      },
+      {
+        "heading": "Thông lệ theo GIAS: chính sách quà tặng và cơ chế lương thưởng (2.2)",
+        "body": [
+          "Phương pháp của chức năng nên quy định rõ về nhận quà, ưu đãi, phần thưởng; nhận diện và xử lý tình huống suy giảm khách quan.",
+          "CAE có thể đặt chính sách quà tặng chặt hơn của tổ chức; khi đó kiểm toán viên theo chính sách chặt hơn.",
+          "Cơ chế đánh giá, lương thưởng có thể làm suy giảm khách quan: dựa chủ yếu vào khảo sát hoặc ý kiến của quản lý đơn vị được kiểm toán; đo theo số phát hiện, theo tăng trưởng doanh thu của đơn vị được kiểm toán, hoặc theo số tiền tiết kiệm, số việc làm bị cắt giảm tại đơn vị đó; để quản lý trả thù lao gián tiếp bằng quà tặng.",
+          "Khi lập nguồn lực cho cuộc kiểm toán, CAE hoặc người giám sát nên trao đổi với kiểm toán viên để nhận diện suy giảm khách quan hiện có hoặc tiềm ẩn, kể cả những suy giảm đã công bố trước đó. Người thực hiện và người giám sát cuộc kiểm toán nên độc lập với hoạt động được kiểm toán.",
+          "Quan hệ cá nhân thân thiết ngoài công việc và quan hệ tài chính (như khoản đầu tư) có thể là, hoặc bị nhìn nhận là, xung đột lợi ích."
         ]
       }
     ],
@@ -1489,7 +1563,7 @@
       {
         "term": "Competency",
         "vi": "Năng lực",
-        "def": "Kiến thức, kỹ năng và khả năng để hoàn thành trách nhiệm."
+        "def": "Kiến thức, kỹ năng và khả năng. (Glossary GIAS)"
       },
       {
         "term": "CPD / CPE",
@@ -1536,6 +1610,15 @@
         "body": [
           "Nghiên cứu: ưu tiên nguồn gốc (văn bản của cơ quan ban hành, hướng dẫn chính thức); bài viết, diễn đàn là nguồn thứ cấp cần kiểm chứng; ý kiến của đơn vị được kiểm toán không độc lập.",
           "Tò mò nghề nghiệp: chú ý bất thường ngoài chương trình (ví dụ chi phí điện giảm khi sản lượng tăng), tìm hiểu nguyên nhân và trao đổi với trưởng nhóm để quyết định mở rộng thủ tục; không bỏ qua, cũng không tự ý mở rộng phạm vi."
+        ]
+      },
+      {
+        "heading": "Thông lệ theo GIAS: năng lực cần phát triển và cách bổ sung (3.1, 3.2)",
+        "body": [
+          "Kiểm toán viên nên phát triển năng lực về: quản trị, quản lý rủi ro, kiểm soát; các chức năng kinh doanh (tài chính, CNTT); rủi ro lan tỏa như gian lận; công cụ phân tích dữ liệu; tác động của điều kiện kinh tế, môi trường, pháp lý, chính trị, xã hội; luật và thông lệ của ngành; xu hướng mới; giám sát và lãnh đạo; giao tiếp và hợp tác.",
+          "Để chức năng đủ năng lực tổng thể, CAE nên: nắm năng lực từng người khi phân công, đào tạo, tuyển dụng; xác định mảng cần cải thiện; khuyến khích sự tò mò trí tuệ; cân nhắc dựa vào các bên đảm bảo khác có chuyên môn; thuê nhà cung cấp độc lập bên ngoài khi chức năng không đủ năng lực cho dịch vụ được yêu cầu.",
+          "IIA yêu cầu người có chứng chỉ của IIA học đạo đức trong CPE; GIAS khuyến khích mọi kiểm toán viên học đạo đức định kỳ. Không đáp ứng yêu cầu CPE có thể mất quyền sử dụng chứng chỉ (3.2).",
+          "Kiểm toán viên có thể học thêm khi được phân công vào lĩnh vực mới dưới sự giám sát phù hợp; CAE nên lập kế hoạch, ngân sách đào tạo cân bằng giữa nhu cầu chức năng và mục tiêu cá nhân."
         ]
       }
     ],
@@ -1603,13 +1686,14 @@
       {
         "term": "Professional skepticism",
         "vi": "Hoài nghi nghề nghiệp",
-        "def": "Thái độ tò mò và đánh giá phê phán thông tin, không mặc định ai gian lận."
+        "def": "Đặt câu hỏi và đánh giá phê phán độ tin cậy của thông tin. (Glossary GIAS)"
       }
     ],
     "traps": [
       "Cho rằng thận trọng bảo đảm phát hiện mọi gian lận.",
       "Nhầm hoài nghi nghề nghiệp với mặc định mọi người gian lận.",
-      "Chấp nhận giải trình vì người giải trình có thẩm quyền cao."
+      "Chấp nhận giải trình vì người giải trình có thẩm quyền cao.",
+      "Kiểm tra hiệu quả vận hành của kiểm soát đã biết là thiết kế yếu: thường lãng phí, nên báo cáo khiếm khuyết thiết kế."
     ],
     "refs": [
       "GIAS 4.1",
@@ -1658,6 +1742,16 @@
         "body": [
           "Thận trọng nghề nghiệp đúng mức không có nghĩa là không bao giờ sai sót (GIAS, phần giới thiệu Nguyên tắc 4): sai sót được che giấu bằng thông đồng, làm giả tinh vi có thể không bị phát hiện dù cuộc kiểm toán làm đúng.",
           "GIAS 4.2 yêu cầu cân nhắc mức độ, tính kịp thời của công việc và độ phức tạp, mức trọng yếu của rủi ro: một chương trình và số ngày công giống nhau cho chi nhánh 5 người và hội sở 500 người là chưa phù hợp."
+        ]
+      },
+      {
+        "heading": "Thông lệ theo GIAS: chi phí - lợi ích, không tuân thủ được và hoài nghi (4.1-4.3)",
+        "body": [
+          "Thận trọng nghề nghiệp gồm cân nhắc chi phí so với lợi ích: nếu kiểm soát được thiết kế không phù hợp thì kiểm tra đầy đủ hiệu quả vận hành thường không đáng chi phí (4.2).",
+          "Mức trọng yếu là tương đối: một rủi ro có thể không trọng yếu với tổ chức nhưng trọng yếu với hoạt động đang được kiểm toán (4.2).",
+          "Kiểm toán viên cân nhắc cả lợi ích của khách hàng và công chúng chịu ảnh hưởng bởi hoạt động của tổ chức, như an toàn và kinh doanh trung thực (4.2).",
+          "Khi không thể tuân thủ một yêu cầu, CAE phải ghi lại và trao đổi hoàn cảnh, biện pháp thay thế, ảnh hưởng và lý do; nếu chuẩn mực của cơ quan khác chặt hơn GIAS, chức năng có thể phải hoặc chọn theo chuẩn chặt hơn (4.1).",
+          "Hoài nghi nghề nghiệp nghĩa là tìm bằng chứng để xác nhận lời giải trình của quản lý, thay vì tin ngay; thông tin thiếu, mâu thuẫn, sai hoặc gây hiểu lầm thì phân tích thêm (4.3)."
         ]
       }
     ],
@@ -1782,6 +1876,15 @@
           "Dùng thông tin bảo mật có được trong công việc để mưu lợi (ví dụ mua cổ phiếu trước khi công bố thương vụ) vi phạm nguyên tắc bảo mật và có thể là giao dịch nội gián.",
           "Quyền truy cập được cấp cho mục tiêu kiểm toán; dùng để xem thông tin ngoài mục tiêu (lương đồng nghiệp) là vi phạm. Chỉ truyền dữ liệu qua kênh được chính sách cho phép; trễ hạn ít nghiêm trọng hơn lộ thông tin (GIAS 5.2)."
         ]
+      },
+      {
+        "heading": "Thông lệ theo GIAS: quản lý vòng đời thông tin (5.1, 5.2)",
+        "body": [
+          "Chính sách điều chỉnh thông tin suốt vòng đời: tiếp cận, thu thập, chuyển giao, lưu trữ, hủy. Kiểm toán viên cũng phải tuân thủ chính sách về thông tin của bên thứ ba mà mình tiếp cận.",
+          "CAE có thể yêu cầu kiểm toán viên ký xác nhận đã hiểu chính sách sử dụng thông tin; dữ liệu nhạy cảm cần biện pháp an ninh như mật khẩu, mã hóa.",
+          "Khi không còn cần, quyền truy cập dữ liệu nên được thu hồi và bản in xử lý theo quy định; CAE nên định kỳ xác nhận nhu cầu truy cập và hiệu quả kiểm soát truy cập.",
+          "CAE nên hỏi ý kiến pháp chế về các yêu cầu, quyền bảo vệ pháp lý (ví dụ đặc quyền luật sư - khách hàng); một số thông tin phải được cấp có thẩm quyền duyệt trước khi công bố ra ngoài. Ví dụ thông tin mật: lương từng cá nhân, hồ sơ kỷ luật."
+        ]
       }
     ],
     "compare": {
@@ -1839,7 +1942,7 @@
       {
         "term": "Governance",
         "vi": "Quản trị",
-        "def": "Quy trình và cấu trúc HĐQT dùng để thông tin, chỉ đạo, quản lý, giám sát tổ chức (Glossary GIAS)."
+        "def": "Tổng hợp các quy trình và cơ cấu HĐQT thiết lập để thông tin, chỉ đạo, quản lý và giám sát hoạt động của tổ chức nhằm đạt mục tiêu. (Glossary GIAS)"
       },
       {
         "term": "Audit committee",
@@ -2109,6 +2212,11 @@
         "term": "Data minimization",
         "vi": "Giảm thiểu dữ liệu",
         "def": "Chỉ thu thập, lưu trữ dữ liệu cá nhân ở mức cần thiết."
+      },
+      {
+        "term": "Compliance",
+        "vi": "Tuân thủ",
+        "def": "Việc chấp hành luật, quy định, hợp đồng, chính sách, thủ tục và các yêu cầu khác. (Glossary GIAS)"
       }
     ],
     "traps": [
@@ -2223,17 +2331,22 @@
       {
         "term": "Inherent risk",
         "vi": "Rủi ro tiềm tàng",
-        "def": "Rủi ro khi chưa có kiểm soát hoặc phản ứng của Ban điều hành."
+        "def": "Tổ hợp các yếu tố rủi ro bên trong và bên ngoài tồn tại khi chưa có bất kỳ hành động nào của quản lý. (Glossary GIAS)"
       },
       {
         "term": "Residual risk",
         "vi": "Rủi ro còn lại",
-        "def": "Rủi ro còn lại sau khi đã áp dụng phản ứng rủi ro."
+        "def": "Phần rủi ro tiềm tàng còn lại sau khi quản lý đã thực hiện các hành động xử lý. (Glossary GIAS)"
       },
       {
         "term": "Risk capacity",
         "vi": "Năng lực chịu rủi ro",
         "def": "Mức rủi ro tối đa tổ chức có thể gánh chịu."
+      },
+      {
+        "term": "Risk",
+        "vi": "Rủi ro",
+        "def": "Ảnh hưởng tích cực hoặc tiêu cực của sự không chắc chắn đến mục tiêu. (Glossary GIAS)"
       }
     ],
     "traps": [
@@ -2355,17 +2468,22 @@
       {
         "term": "Risk appetite",
         "vi": "Khẩu vị rủi ro",
-        "def": "Loại và mức rủi ro tổ chức sẵn sàng chấp nhận để theo đuổi chiến lược (Glossary GIAS)."
+        "def": "Loại và mức rủi ro tổ chức sẵn sàng chấp nhận khi theo đuổi chiến lược và mục tiêu. (Glossary GIAS)"
       },
       {
         "term": "Risk tolerance",
         "vi": "Ngưỡng chịu đựng rủi ro",
-        "def": "Biên độ biến động chấp nhận được trong việc đạt mục tiêu (Glossary GIAS)."
+        "def": "Mức biến động chấp nhận được của kết quả hoạt động so với mục tiêu. (Glossary GIAS)"
       },
       {
         "term": "Risk response",
         "vi": "Phản ứng rủi ro",
         "def": "Né tránh, giảm thiểu, chia sẻ, chấp nhận (và theo đuổi theo COSO ERM 2017)."
+      },
+      {
+        "term": "Risk management",
+        "vi": "Quản lý rủi ro",
+        "def": "Quy trình nhận diện, đánh giá, quản lý và kiểm soát các sự kiện tiềm ẩn nhằm cung cấp sự đảm bảo hợp lý về việc đạt mục tiêu của tổ chức. (Glossary GIAS)"
       }
     ],
     "traps": [
@@ -2637,6 +2755,16 @@
         "term": "Compensating control",
         "vi": "Kiểm soát bù đắp",
         "def": "Kiểm soát thay thế khi kiểm soát chính không thực hiện được."
+      },
+      {
+        "term": "Control",
+        "vi": "Kiểm soát",
+        "def": "Mọi hành động của quản lý, HĐQT và các bên khác nhằm quản lý rủi ro và tăng khả năng đạt mục tiêu. (Glossary GIAS)"
+      },
+      {
+        "term": "Control processes",
+        "vi": "Quy trình kiểm soát",
+        "def": "Chính sách, thủ tục và hoạt động được thiết kế, vận hành để giữ rủi ro trong mức dung sai rủi ro của tổ chức. (Glossary GIAS)"
       }
     ],
     "traps": [
@@ -2911,7 +3039,7 @@
       {
         "term": "Fraud",
         "vi": "Gian lận",
-        "def": "Hành vi cố ý lừa dối, che giấu để đạt lợi thế bất chính (Glossary GIAS)."
+        "def": "Mọi hành vi cố ý có đặc điểm lừa dối, che giấu, gian dối, chiếm đoạt tài sản hoặc thông tin, giả mạo hay lạm dụng lòng tin, do cá nhân hoặc tổ chức thực hiện để có lợi thế cá nhân hoặc kinh doanh bất chính, bất hợp pháp. (Glossary GIAS)"
       },
       {
         "term": "Skimming / larceny",

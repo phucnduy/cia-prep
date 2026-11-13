@@ -14,12 +14,12 @@
       {
         "term": "Methodologies",
         "vi": "Phương pháp luận",
-        "def": "Chính sách, quy trình, hướng dẫn cách chức năng kiểm toán làm việc."
+        "def": "Chính sách, quy trình và thủ tục do CAE thiết lập để hướng dẫn chức năng kiểm toán nội bộ và nâng cao hiệu quả. (Glossary GIAS)"
       },
       {
         "term": "Outsourcing / co-sourcing",
         "vi": "Thuê ngoài / đồng cung cấp",
-        "def": "Toàn bộ hoặc một phần dịch vụ kiểm toán do bên ngoài thực hiện."
+        "def": "Thuê một nhà cung cấp độc lập bên ngoài thực hiện dịch vụ kiểm toán nội bộ: thuê toàn bộ chức năng (outsourcing) hoặc chỉ một phần dịch vụ (co-sourcing). (Glossary GIAS)"
       }
     ],
     "traps": [
@@ -457,7 +457,7 @@
       {
         "term": "Residual risk",
         "vi": "Rủi ro còn lại",
-        "def": "Rủi ro còn lại sau khi tính đến kiểm soát hiện có."
+        "def": "Phần rủi ro tiềm tàng còn lại sau khi quản lý đã thực hiện các hành động xử lý. (Glossary GIAS)"
       },
       {
         "term": "Rating scale",
