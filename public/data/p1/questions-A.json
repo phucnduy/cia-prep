@@ -1979,5 +1979,258 @@
       "CIA Part 1 A.8"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-A-N16",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Đến kỳ đánh giá cuối năm, Chủ tịch Ủy ban Kiểm toán đề xuất Ủy ban tự quyết định toàn bộ điểm đánh giá và mức thưởng của CAE, không cần Ban điều hành tham gia. Theo điều kiện thiết yếu của GIAS, vai trò của HĐQT trong việc này là gì?",
+    "options": [
+      "HĐQT tự quyết định toàn bộ đánh giá và thưởng của CAE, để bảo đảm tuyệt đối tính độc lập.",
+      "HĐQT không tham gia gì, vì đánh giá và trả lương là quy trình nhân sự thuộc Ban điều hành.",
+      "HĐQT góp ý cho Ban điều hành khi đánh giá và quyết định thù lao của CAE.",
+      "HĐQT chỉ phê duyệt mức thưởng sau khi kiểm toán độc lập xác nhận kết quả làm việc của CAE."
+    ],
+    "answer": 2,
+    "explanation": "Theo điều kiện thiết yếu của GIAS 7.1, HĐQT cho phép bổ nhiệm và miễn nhiệm CAE, còn với việc đánh giá và thù lao của CAE thì HĐQT cung cấp ý kiến cho Ban điều hành. Ban điều hành thực hiện qua quy trình nhân sự (GIAS 7.2), có ý kiến của HĐQT để hạn chế ảnh hưởng đến độc lập.",
+    "optionNotes": [
+      "Sai. Bẫy: HĐQT quyết bổ nhiệm, miễn nhiệm; với đánh giá, thù lao chỉ góp ý.",
+      "Sai. HĐQT vẫn phải góp ý để hạn chế ảnh hưởng của Ban điều hành.",
+      "Đúng. Đúng vai trò của HĐQT theo điều kiện thiết yếu.",
+      "Sai. Kiểm toán độc lập không tham gia đánh giá CAE."
+    ],
+    "refs": [
+      "GIAS 7.1",
+      "GIAS 7.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N17",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "HĐQT giao CAE phụ trách thêm bộ phận Kiểm soát nội bộ và nói 'không cần biện pháp bảo vệ gì vì chúng tôi tin tưởng CAE'. Theo điều kiện thiết yếu, HĐQT lẽ ra nên làm gì khi phê duyệt vai trò này?",
+    "options": [
+      "Không cần làm gì thêm, vì sự tin tưởng của HĐQT là biện pháp bảo vệ quan trọng nhất đối với CAE.",
+      "Ghi nhận khả năng suy giảm độc lập và cùng Ban điều hành, CAE thiết lập biện pháp bảo vệ.",
+      "Yêu cầu CAE tự đánh giá bộ phận Kiểm soát nội bộ mỗi năm và báo cáo kết quả cho HĐQT.",
+      "Chuyển bộ phận Kiểm soát nội bộ về dưới quyền kiểm toán nội bộ một cách lâu dài."
+    ],
+    "answer": 1,
+    "explanation": "Khi phê duyệt vai trò ngoài kiểm toán cho CAE, HĐQT phải ghi nhận khả năng suy giảm độc lập và phối hợp với Ban điều hành, CAE để thiết lập biện pháp bảo vệ phù hợp (GIAS 7.1, điều kiện thiết yếu). Sự tin tưởng không thay thế biện pháp bảo vệ.",
+    "optionNotes": [
+      "Sai. Tin tưởng cá nhân không phải là biện pháp bảo vệ.",
+      "Đúng. Đúng hai việc HĐQT cần làm khi phê duyệt vai trò kiêm nhiệm.",
+      "Sai. CAE tự đánh giá mảng mình phụ trách chính là suy giảm độc lập.",
+      "Sai. Gộp lâu dài làm vấn đề trầm trọng hơn."
+    ],
+    "refs": [
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N18",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 2,
+    "stem": "Tổng Giám đốc yêu cầu CAE không được liên hệ trực tiếp với Chủ tịch Ủy ban Kiểm toán ngoài các cuộc họp chính thức, mọi trao đổi phải qua văn phòng Tổng Giám đốc. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì Tổng Giám đốc là người quản lý hành chính trực tiếp của CAE.",
+      "Phù hợp, nếu CAE vẫn được trình bày đầy đủ tại các kỳ họp chính thức.",
+      "Không phù hợp; Ban điều hành phải công nhận kênh báo cáo trực tiếp với HĐQT.",
+      "Không phù hợp, vì CAE phải báo cáo cả hành chính lẫn chức năng cho HĐQT."
+    ],
+    "answer": 2,
+    "explanation": "HĐQT thiết lập quan hệ báo cáo trực tiếp với CAE, hỗ trợ CAE bằng trao đổi thường xuyên, trực tiếp; Ban điều hành phải công nhận quan hệ báo cáo trực tiếp này (GIAS 6.3, 7.1, điều kiện thiết yếu). Quan hệ hành chính không cho phép chặn kênh này.",
+    "optionNotes": [
+      "Sai. Quản lý hành chính không bao gồm quyền chặn kênh với HĐQT.",
+      "Sai. Trao đổi trực tiếp, thường xuyên không chỉ giới hạn trong các kỳ họp.",
+      "Đúng. Đúng nghĩa vụ của Ban điều hành theo điều kiện thiết yếu.",
+      "Sai. Báo cáo hành chính cho Tổng Giám đốc là phổ biến và được chấp nhận."
+    ],
+    "refs": [
+      "GIAS 6.3",
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N19",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Khi thảo luận nguồn lực hằng năm, Ủy ban Kiểm toán thấy phòng kiểm toán đủ 12 người như định biên nên kết luận nguồn lực 'đủ'. Kế hoạch năm nay có nhiều cuộc kiểm toán CNTT, nhưng không ai trong phòng có chuyên môn CNTT. Thiếu sót trong cách đánh giá là gì?",
+    "options": [
+      "Không có thiếu sót, vì số lượng nhân sự đã đạt đúng định biên đã được phê duyệt.",
+      "Chỉ xét số lượng; mức đủ phải xét cả năng lực so với nhiệm vụ và kế hoạch.",
+      "Lẽ ra Ủy ban phải so sánh số nhân sự với các ngân hàng cùng quy mô trên thị trường.",
+      "Lẽ ra Ban điều hành mới là bên đánh giá nguồn lực, Ủy ban Kiểm toán không cần tham gia."
+    ],
+    "answer": 1,
+    "explanation": "HĐQT cần thảo luận với CAE ít nhất hằng năm về mức đủ của nguồn lực, cả về số lượng lẫn năng lực, để thực hiện nhiệm vụ và kế hoạch (GIAS 8.2, điều kiện thiết yếu). Đủ người mà thiếu kỹ năng CNTT thì vẫn không đủ cho kế hoạch.",
+    "optionNotes": [
+      "Sai. Định biên đủ không có nghĩa là đủ năng lực.",
+      "Đúng. Phải đánh giá cả số lượng và năng lực.",
+      "Sai. So sánh ngành có thể tham khảo, nhưng không giải quyết thiếu năng lực.",
+      "Sai. HĐQT phải thảo luận về nguồn lực với CAE."
+    ],
+    "refs": [
+      "GIAS 8.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N20",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "CAE không chắc vấn đề nào cần báo cáo ngay lên Ủy ban Kiểm toán, vấn đề nào chỉ cần nêu trong báo cáo quý, vì chưa có thống nhất nào. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Báo cáo ngay mọi phát hiện lên Ủy ban Kiểm toán để không bỏ sót vấn đề nào.",
+      "Để Tổng Giám đốc quyết định vấn đề nào đủ quan trọng để trình Ủy ban Kiểm toán.",
+      "Cùng HĐQT thống nhất tần suất báo cáo, tiêu chí và quy trình báo cáo vượt cấp.",
+      "Chỉ báo cáo hằng quý, vì báo cáo đột xuất có thể làm Ban điều hành mất lòng tin."
+    ],
+    "answer": 2,
+    "explanation": "HĐQT đặt kỳ vọng với CAE về tần suất trao đổi, tiêu chí xác định vấn đề cần báo cáo lên (ví dụ rủi ro vượt ngưỡng chịu đựng) và quy trình báo cáo vượt cấp; Ban điều hành cùng tham gia xây dựng quy trình này (GIAS 8.1, điều kiện thiết yếu).",
+    "optionNotes": [
+      "Sai. Báo cáo mọi thứ làm loãng thông tin quan trọng.",
+      "Sai. Để Ban điều hành lọc thông tin trình HĐQT làm suy giảm độc lập.",
+      "Đúng. Thống nhất tiêu chí và quy trình với HĐQT.",
+      "Sai. Vấn đề khẩn cấp có thể cần báo cáo ngay, không chờ quý."
+    ],
+    "refs": [
+      "GIAS 8.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N21",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "CAE và Tổng Giám đốc bất đồng về phạm vi một cuộc kiểm toán: CAE muốn bao gồm các giao dịch với bên liên quan, Tổng Giám đốc phản đối. Theo điều kiện thiết yếu, vai trò của HĐQT là gì?",
+    "options": [
+      "Đứng ngoài, vì phạm vi cuộc kiểm toán là vấn đề nghiệp vụ giữa CAE và Ban điều hành.",
+      "Thảo luận với CAE về bất đồng và hỗ trợ khi cần để CAE thực hiện được nhiệm vụ.",
+      "Giao Tổng Giám đốc quyết định cuối cùng, vì Ban điều hành hiểu rõ hoạt động kinh doanh hơn.",
+      "Tự thực hiện cuộc kiểm toán giao dịch bên liên quan thay cho chức năng kiểm toán nội bộ."
+    ],
+    "answer": 1,
+    "explanation": "HĐQT thảo luận với CAE về các bất đồng với Ban điều hành hoặc các bên liên quan khác, và hỗ trợ khi cần để CAE thực hiện trách nhiệm trong nhiệm vụ kiểm toán (GIAS 8.1, điều kiện thiết yếu). HĐQT cũng phối hợp với Ban điều hành để kiểm toán nội bộ không bị can thiệp khi xác định phạm vi (GIAS 7.1).",
+    "optionNotes": [
+      "Sai. HĐQT có vai trò hỗ trợ khi có bất đồng ảnh hưởng đến nhiệm vụ.",
+      "Đúng. Đúng vai trò của HĐQT theo điều kiện thiết yếu.",
+      "Sai. Để Ban điều hành quyết phạm vi là can thiệp vào độc lập.",
+      "Sai. HĐQT giám sát, không tự thực hiện kiểm toán."
+    ],
+    "refs": [
+      "GIAS 8.1",
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N22",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 2,
+    "stem": "Trong sơ đồ tổ chức mới, CAE báo cáo cho Trưởng phòng Kiểm soát nội bộ, người lại báo cáo cho Phó Tổng Giám đốc tài chính. Rủi ro chủ yếu về vị trí của chức năng kiểm toán nội bộ là gì?",
+    "options": [
+      "Vị trí quá thấp, thiếu thẩm quyền để làm việc không bị can thiệp.",
+      "Chi phí quản lý của chức năng kiểm toán nội bộ sẽ tăng lên do thêm một cấp trung gian.",
+      "Kiểm toán nội bộ sẽ không còn được phép kiểm toán phòng Kiểm soát nội bộ nữa.",
+      "Không có rủi ro, miễn là CAE vẫn được mời dự các cuộc họp của Ủy ban Kiểm toán."
+    ],
+    "answer": 0,
+    "explanation": "HĐQT yêu cầu CAE được bố trí ở cấp đủ để thực hiện dịch vụ và trách nhiệm mà không bị Ban điều hành can thiệp, có thẩm quyền và vị thế để đưa vấn đề lên HĐQT; Ban điều hành bố trí theo chỉ đạo của HĐQT (GIAS 7.1, điều kiện thiết yếu).",
+    "optionNotes": [
+      "Đúng. Vị trí thấp làm mất thẩm quyền và dễ bị can thiệp.",
+      "Sai. Chi phí không phải rủi ro chủ yếu.",
+      "Sai. Vấn đề là thẩm quyền chung, không chỉ một đơn vị.",
+      "Sai. Dự họp không bù được việc bị đặt dưới các cấp quản lý."
+    ],
+    "refs": [
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N23",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Trước khi phê duyệt kế hoạch kiểm toán năm, Ủy ban Kiểm toán muốn bảo đảm kế hoạch không bị thu hẹp ngầm. Việc nào Ủy ban nên làm theo điều kiện thiết yếu?",
+    "options": [
+      "Hỏi Ban điều hành và CAE về giới hạn phạm vi, nguồn lực.",
+      "Tự chọn danh sách các cuộc kiểm toán thay cho kế hoạch do CAE đề xuất.",
+      "Giao Ban điều hành rà soát và chỉnh sửa kế hoạch trước khi trình Ủy ban.",
+      "Yêu cầu kiểm toán độc lập xác nhận kế hoạch trước khi Ủy ban phê duyệt."
+    ],
+    "answer": 0,
+    "explanation": "HĐQT thể hiện sự hỗ trợ bằng cách phê duyệt điều lệ, kế hoạch, ngân sách và kế hoạch nguồn lực, đồng thời đặt câu hỏi phù hợp với Ban điều hành và CAE để xác định có giới hạn phạm vi hoặc nguồn lực không phù hợp hay không (GIAS 6.3, điều kiện thiết yếu).",
+    "optionNotes": [
+      "Đúng. Đặt câu hỏi về giới hạn là việc HĐQT nên làm.",
+      "Sai. HĐQT phê duyệt, không tự lập kế hoạch thay CAE.",
+      "Sai. Ban điều hành sửa kế hoạch làm suy giảm độc lập.",
+      "Sai. Kiểm toán độc lập không xác nhận kế hoạch kiểm toán nội bộ."
+    ],
+    "refs": [
+      "GIAS 6.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N24",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "CAE muốn chỉ cho HĐQT phần nào của GIAS mô tả trách nhiệm của chính HĐQT và Ban điều hành đối với chức năng kiểm toán nội bộ (điều lệ, độc lập, giám sát). CAE nên dẫn phần nào?",
+    "options": [
+      "Lĩnh vực II - Đạo đức và Tính chuyên nghiệp, phần dành cho kiểm toán viên.",
+      "Lĩnh vực III - Quản trị chức năng kiểm toán nội bộ, với các điều kiện thiết yếu.",
+      "Lĩnh vực IV - Quản lý chức năng kiểm toán nội bộ, phần dành cho CAE.",
+      "Lĩnh vực V - Thực hiện dịch vụ kiểm toán nội bộ, phần hồ sơ làm việc."
+    ],
+    "answer": 1,
+    "explanation": "Lĩnh vực III (Quản trị chức năng kiểm toán nội bộ) gồm các nguyên tắc về được HĐQT cho phép, bố trí độc lập, được HĐQT giám sát; mỗi chuẩn mực có phần Điều kiện thiết yếu mô tả trách nhiệm của HĐQT và Ban điều hành.",
+    "optionNotes": [
+      "Sai. Lĩnh vực II về hành vi của kiểm toán viên.",
+      "Đúng. Lĩnh vực III và các điều kiện thiết yếu dành cho HĐQT, Ban điều hành.",
+      "Sai. Lĩnh vực IV về cách CAE quản lý chức năng.",
+      "Sai. Lĩnh vực V về thực hiện cuộc kiểm toán."
+    ],
+    "refs": [
+      "GIAS Domain III"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N25",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Một cuộc kiểm toán quy trình mua hàng kết hợp: kiểm tra số dư phải trả (tài chính), hiệu quả quy trình (hoạt động) và kiểm soát ứng dụng trên ERP (CNTT) trong cùng một kế hoạch. Cách tiếp cận này gọi là gì và lợi ích chính là gì?",
+    "options": [
+      "Kiểm toán độc lập; giúp thay thế kiểm toán báo cáo tài chính hằng năm.",
+      "Kiểm toán tích hợp; cho cái nhìn toàn diện về rủi ro của quy trình.",
+      "Kiểm toán tuân thủ; bảo đảm quy trình đáp ứng mọi quy định pháp luật.",
+      "Tư vấn kết hợp; vì có nhiều loại thủ tục nên không đưa ra kết luận."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán tích hợp kết hợp các góc độ tài chính, hoạt động, CNTT, tuân thủ trong một cuộc kiểm toán theo quy trình, giúp đánh giá toàn diện rủi ro và kiểm soát, tránh trùng lặp giữa nhiều cuộc kiểm toán riêng lẻ.",
+    "optionNotes": [
+      "Sai. Đây vẫn là kiểm toán nội bộ, không thay kiểm toán độc lập.",
+      "Đúng. Kiểm toán tích hợp, đánh giá toàn diện quy trình.",
+      "Sai. Tuân thủ chỉ là một góc độ; ở đây kết hợp nhiều góc độ.",
+      "Sai. Kết hợp nhiều thủ tục không biến cuộc đảm bảo thành tư vấn."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
   }
 ]

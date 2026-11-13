@@ -1587,5 +1587,155 @@
       "ISO 31000:2018"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-C-N07",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "Ban điều hành được thưởng cổ phiếu dựa trên giá cổ phiếu quý gần nhất; họ cắt giảm R&D để tăng lợi nhuận ngắn hạn, dù làm giảm giá trị dài hạn cho cổ đông. Vấn đề quản trị này được giải thích rõ nhất bởi khái niệm nào và biện pháp nào phù hợp?",
+    "options": [
+      "Rủi ro thị trường; mua công cụ phái sinh để phòng ngừa biến động giá cổ phiếu.",
+      "Vấn đề đại diện; gắn thù lao với mục tiêu dài hạn, HĐQT độc lập.",
+      "Rủi ro tuân thủ; yêu cầu Ban điều hành ký cam kết tuân thủ quy định chứng khoán.",
+      "Rủi ro hoạt động; giao kiểm toán nội bộ phê duyệt ngân sách R&D hằng năm."
+    ],
+    "answer": 1,
+    "explanation": "Vấn đề đại diện phát sinh khi lợi ích của người quản lý (đại diện) khác lợi ích của chủ sở hữu. Biện pháp quản trị gồm thiết kế thù lao gắn với giá trị dài hạn (ví dụ thời gian nắm giữ, thu hồi thưởng) và HĐQT độc lập giám sát.",
+    "optionNotes": [
+      "Sai. Phòng ngừa giá không xử lý động cơ của Ban điều hành.",
+      "Đúng. Vấn đề đại diện và biện pháp quản trị phù hợp.",
+      "Sai. Hành vi không vi phạm luật mà lệch lợi ích.",
+      "Sai. Kiểm toán nội bộ không phê duyệt ngân sách."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N08",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 3,
+    "stem": "Mỗi khối kinh doanh đều báo cáo rủi ro tín dụng của mình nằm trong ngưỡng cho phép. Tuy nhiên, cả ba khối cùng cho vay tập trung vào ngành bất động sản, và tổng mức tập trung vượt khẩu vị rủi ro HĐQT đặt ra. Khái niệm nào của COSO ERM giải thích vấn đề này?",
+    "options": [
+      "Rủi ro tiềm tàng, vì rủi ro của ngành bất động sản vốn đã cao trước khi có kiểm soát.",
+      "Góc nhìn danh mục (portfolio view): rủi ro phải được xem xét tổng hợp toàn tổ chức.",
+      "Ngưỡng chịu đựng, vì mỗi khối đã tự đặt ngưỡng của mình quá rộng so với thực tế.",
+      "Năng lực chịu đựng, vì ngân hàng không đủ vốn để chịu mọi khoản lỗ có thể xảy ra."
+    ],
+    "answer": 1,
+    "explanation": "COSO ERM nhấn mạnh góc nhìn danh mục: các rủi ro riêng lẻ có thể đều chấp nhận được, nhưng khi tổng hợp (do tương quan, tập trung) lại vượt khẩu vị của tổ chức. Cần đánh giá rủi ro ở cấp toàn tổ chức, không chỉ từng đơn vị.",
+    "optionNotes": [
+      "Sai. Vấn đề không phải mức tiềm tàng của một khoản, mà là tổng hợp.",
+      "Đúng. Góc nhìn danh mục cho thấy rủi ro tập trung khi tổng hợp.",
+      "Sai. Từng khối vẫn trong ngưỡng; vấn đề nằm ở cấp tổ chức.",
+      "Sai. Tình huống nói vượt khẩu vị, không nói vượt năng lực chịu đựng."
+    ],
+    "refs": [
+      "COSO ERM 2017"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N09",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 2,
+    "stem": "Kế hoạch duy trì hoạt động của ngân hàng yêu cầu: hệ thống thanh toán phải hoạt động lại trong vòng 2 giờ sau sự cố, và không được mất quá 15 phút dữ liệu giao dịch. Hai chỉ tiêu này lần lượt là gì?",
+    "options": [
+      "RPO (mục tiêu điểm khôi phục) và RTO (mục tiêu thời gian khôi phục).",
+      "RTO (mục tiêu thời gian khôi phục) và RPO (mục tiêu điểm khôi phục).",
+      "SLA (thỏa thuận mức dịch vụ) và KRI (chỉ số rủi ro chính).",
+      "MTBF (thời gian trung bình giữa các sự cố) và KPI (chỉ số hiệu quả)."
+    ],
+    "answer": 1,
+    "explanation": "RTO là thời gian tối đa để khôi phục hệ thống sau sự cố (2 giờ). RPO là lượng dữ liệu tối đa có thể mất, tính theo thời gian từ lần sao lưu gần nhất (15 phút). RPO quyết định tần suất sao lưu, RTO quyết định phương án khôi phục.",
+    "optionNotes": [
+      "Sai. Đảo ngược hai khái niệm.",
+      "Đúng. 2 giờ là RTO, 15 phút dữ liệu là RPO.",
+      "Sai. SLA và KRI không phải chỉ tiêu khôi phục.",
+      "Sai. MTBF và KPI không mô tả khôi phục sau sự cố."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N10",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Nhà cung cấp dịch vụ thu hộ của công ty thuê lại một đơn vị khác lưu trữ dữ liệu khách hàng, nhưng công ty không biết điều này. Rủi ro này gọi là gì và kiểm soát nào phù hợp nhất?",
+    "options": [
+      "Rủi ro bên thứ tư; yêu cầu nhà cung cấp công bố và quản lý nhà thầu phụ theo hợp đồng.",
+      "Rủi ro thị trường; đa dạng hóa bằng cách thuê thêm nhiều nhà cung cấp thu hộ khác nhau.",
+      "Rủi ro tuân thủ; yêu cầu nhà cung cấp ký cam kết tuân thủ pháp luật hằng năm.",
+      "Rủi ro tài chính; yêu cầu nhà cung cấp ký quỹ bảo đảm thực hiện hợp đồng."
+    ],
+    "answer": 0,
+    "explanation": "Rủi ro bên thứ tư phát sinh từ nhà thầu phụ của nhà cung cấp. Quản lý rủi ro bên thứ ba cần mở rộng đến các bên này: điều khoản hợp đồng yêu cầu công bố, chấp thuận và giám sát nhà thầu phụ, quyền kiểm toán hoặc nhận báo cáo đảm bảo.",
+    "optionNotes": [
+      "Đúng. Đúng loại rủi ro và kiểm soát phù hợp.",
+      "Sai. Thêm nhà cung cấp không xử lý việc không biết nhà thầu phụ.",
+      "Sai. Cam kết chung không cho công ty biết và giám sát nhà thầu phụ.",
+      "Sai. Ký quỹ không bảo vệ được dữ liệu khách hàng."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N11",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 3,
+    "stem": "Kiểm soát rà soát yêu cầu Kế toán trưởng điều tra mọi chênh lệch doanh thu giữa các tháng vượt 30%. Doanh thu tháng thường khoảng 10 tỷ đồng, và sai sót 2 tỷ đồng đã được coi là trọng yếu. Nhận xét nào đúng nhất về kiểm soát này?",
+    "options": [
+      "Thiết kế phù hợp, vì có ngưỡng định lượng rõ ràng và người thực hiện có thẩm quyền.",
+      "Vận hành không hữu hiệu, vì Kế toán trưởng không ghi chép lại kết quả điều tra.",
+      "Thiết kế không đủ chính xác: ngưỡng 30% để lọt sai sót trọng yếu 2 tỷ đồng.",
+      "Thiết kế phù hợp, nhưng nên giao cho kiểm toán nội bộ thực hiện thay Kế toán trưởng."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm soát rà soát phải đủ chính xác để phát hiện sai sót trọng yếu. Ngưỡng 30% (khoảng 3 tỷ đồng) cao hơn mức trọng yếu 2 tỷ đồng, nên sai sót trọng yếu có thể lọt qua dù kiểm soát được thực hiện đúng; đây là khiếm khuyết thiết kế.",
+    "optionNotes": [
+      "Sai. Có ngưỡng rõ không đủ; ngưỡng phải đủ chặt so với mức trọng yếu.",
+      "Sai. Tình huống không nói về việc thực hiện; vấn đề nằm ở thiết kế.",
+      "Đúng. Ngưỡng không đủ chính xác là khiếm khuyết thiết kế.",
+      "Sai. Kiểm soát là trách nhiệm quản lý, không giao kiểm toán nội bộ."
+    ],
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N12",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 3,
+    "stem": "Một kiểm soát tự động trên ERP chặn thanh toán vượt giá trị đơn đặt hàng. Kiểm soát chung CNTT (quản lý thay đổi, phân quyền) được đánh giá hữu hiệu cả năm. Cách kiểm tra kiểm soát tự động này hợp lý nhất là gì?",
+    "options": [
+      "Kiểm tra mẫu lớn (ví dụ 60 giao dịch) như với một kiểm soát thủ công thực hiện hằng ngày.",
+      "Không cần kiểm tra, vì kiểm soát tự động luôn đúng tuyệt đối và không bao giờ có lỗi.",
+      "Kiểm tra cấu hình và vài trường hợp; ITGC hữu hiệu cho phép dựa vào tính nhất quán.",
+      "Chỉ phỏng vấn bộ phận CNTT về việc cài đặt kiểm soát khi triển khai hệ thống."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm soát tự động vận hành nhất quán nếu cấu hình đúng và không bị thay đổi trái phép. Khi kiểm soát chung CNTT hữu hiệu, kiểm toán viên có thể kiểm tra cấu hình và một số ít trường hợp (kể cả trường hợp bị chặn), thay vì mẫu lớn như kiểm soát thủ công.",
+    "optionNotes": [
+      "Sai. Mẫu lớn cần cho kiểm soát thủ công; kiểm soát tự động cần ít hơn khi ITGC tốt.",
+      "Sai. Kiểm soát tự động có thể cấu hình sai hoặc bị thay đổi; vẫn phải kiểm tra.",
+      "Đúng. Kết hợp kiểm tra cấu hình với dựa vào ITGC hữu hiệu.",
+      "Sai. Phỏng vấn không đủ bằng chứng về vận hành."
+    ],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
   }
 ]

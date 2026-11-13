@@ -1092,5 +1092,58 @@
       "GIAS 5.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-B-N04",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Tổng Giám đốc nói với CAE: 'Công ty kỳ vọng kiểm toán nội bộ không đụng tới dự án nghỉ dưỡng của tôi năm nay'. Theo yêu cầu về kỳ vọng đạo đức của tổ chức, CAE nên hiểu yêu cầu này thế nào?",
+    "options": [
+      "Phải đáp ứng, vì kiểm toán viên phải tôn trọng và đáp ứng kỳ vọng của tổ chức.",
+      "Phải đáp ứng nếu dự án nghỉ dưỡng đã có ban kiểm soát dự án riêng giám sát.",
+      "Đây không phải kỳ vọng chính đáng; chỉ kỳ vọng hợp pháp, đạo đức mới phải đáp ứng.",
+      "Có thể đáp ứng tạm thời trong năm nay rồi đưa dự án vào kế hoạch kiểm toán năm sau."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán viên phải hiểu, tôn trọng, đáp ứng và góp phần vào các kỳ vọng hợp pháp và đạo đức của tổ chức (GIAS 1.2). Yêu cầu loại một dự án khỏi kiểm toán vì lợi ích cá nhân không phải kỳ vọng chính đáng; nếu dự án rủi ro cao, đây còn là can thiệp vào phạm vi cần báo HĐQT (GIAS 7.1).",
+    "optionNotes": [
+      "Sai. Bẫy: chỉ kỳ vọng hợp pháp và đạo đức mới cần đáp ứng.",
+      "Sai. Có ban kiểm soát dự án không thay thế đảm bảo độc lập.",
+      "Đúng. Phân biệt đúng kỳ vọng chính đáng với yêu cầu can thiệp.",
+      "Sai. Hoãn theo yêu cầu cá nhân vẫn là chấp nhận can thiệp."
+    ],
+    "refs": [
+      "GIAS 1.2",
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N05",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Ba tháng trước, một kiểm toán viên phát biểu tại hội nghị nội bộ, nhiệt tình quảng bá hệ thống quản lý kho mới của Ban điều hành là 'giải pháp hoàn hảo'. Nay anh được giao kiểm toán hệ thống này. Đây là nguy cơ nào đối với tính khách quan?",
+    "options": [
+      "Nguy cơ tự kiểm tra, vì anh sẽ đánh giá lại bản thiết kế hệ thống do chính mình làm.",
+      "Nguy cơ bào chữa (advocacy), vì đã công khai ủng hộ hệ thống đó.",
+      "Nguy cơ bị đe dọa, vì Ban điều hành có thể gây áp lực nếu anh nêu phát hiện bất lợi.",
+      "Nguy cơ quen thuộc, vì anh đã làm việc nhiều năm với đội dự án triển khai hệ thống."
+    ],
+    "answer": 1,
+    "explanation": "Nguy cơ bào chữa (theo phân loại của IESBA Code) phát sinh khi kiểm toán viên đã công khai ủng hộ một quan điểm hoặc đơn vị, đến mức khách quan bị ảnh hưởng. Kiểm toán viên phải nhận biết và quản lý thiên lệch (GIAS 2.1) và báo CAE để xem xét phân công lại (GIAS 2.3).",
+    "optionNotes": [
+      "Sai. Anh không thiết kế hệ thống; tình huống không phải tự kiểm tra.",
+      "Đúng. Công khai ủng hộ rồi đánh giá chính đối tượng đó là nguy cơ bào chữa.",
+      "Sai. Tình huống không có áp lực hay đe dọa nào.",
+      "Sai. Tình huống không nói về quan hệ lâu năm với đội dự án."
+    ],
+    "refs": [
+      "GIAS 2.1",
+      "GIAS 2.3",
+      "IESBA Code"
+    ],
+    "source": "original"
   }
 ]
