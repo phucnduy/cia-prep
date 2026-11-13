@@ -625,8 +625,22 @@ textarea.input { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; fo
 .weak-list { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
 .weak-list li { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 12px; border-radius: var(--radius-s); background: var(--surface-2); }
 .row-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0; }
+/* Flashcards tab. */
+.cards-page { display: grid; gap: 20px; }
+.cards-page > * { min-width: 0; }
+.cards-page .panel + .panel { margin-top: 0; }
+.cards-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 16px 0; }
+.flashcard { display: grid; gap: 16px; }
+.flashcard-meta { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.flashcard-front { font-family: var(--font-display); font-size: var(--text-xl); font-weight: 700; color: var(--heading); line-height: 1.35; }
+.flashcard-back { white-space: pre-line; padding: 14px 16px; border-left: 4px solid var(--gold); background: var(--surface-2); border-radius: var(--radius-s); line-height: 1.6; }
+.flashcard-grades { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.flashcard-grades .btn { flex-direction: column; gap: 2px; }
+.flashcard-grades small { font-weight: 500; opacity: 0.8; font-size: var(--text-xs); }
 @media (max-width: 720px) {
   .progress-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cards-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .flashcard-grades { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .path li { flex-wrap: wrap; }
 }
 @media (prefers-reduced-motion: reduce) {

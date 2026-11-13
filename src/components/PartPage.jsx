@@ -6,6 +6,8 @@ import { newSeed, startSession } from '../lib/session.js';
 import { SectionChip, StatusBadge, sectionColor } from './ui.jsx';
 import Study from './Study.jsx';
 import Progress from './Progress.jsx';
+import Flashcards from './Flashcards.jsx';
+import { startWeakPractice } from '../lib/adaptive.js';
 import Bank from './Bank.jsx';
 import Session from './Session.jsx';
 import Results from './Results.jsx';
@@ -13,6 +15,7 @@ import Results from './Results.jsx';
 const TABS = [
   ['overview', 'Tổng quan'],
   ['study', 'Học lý thuyết'],
+  ['cards', 'Thẻ ghi nhớ'],
   ['progress', 'Tiến độ'],
   ['bank', 'Ngân hàng câu hỏi'],
   ['history', 'Lịch sử làm bài'],
@@ -70,6 +73,7 @@ export default function PartPage({ index, manifest, route }) {
 
       {route.view === 'overview' && <Overview index={index} manifest={manifest} data={data} />}
       {route.view === 'study' && <Study manifest={manifest} data={data} topicId={route.arg} />}
+      {route.view === 'cards' && <Flashcards manifest={manifest} data={data} />}
       {route.view === 'progress' && <Progress index={index} manifest={manifest} data={data} />}
       {route.view === 'bank' && <Bank manifest={manifest} data={data} onChange={reload} />}
       {route.view === 'history' && <History manifest={manifest} />}
@@ -261,7 +265,13 @@ function Overview({ index, manifest, data }) {
               <button className="btn btn-ghost" onClick={startWrong} disabled={!wrongIds.length}>
                 Ôn câu sai ({wrongIds.length})
               </button>
+              <button className="btn btn-accent" onClick={() => startWeakPractice(manifest, data)} disabled={!data.questions.length}>
+                Luyện điểm yếu (20 câu)
+              </button>
             </div>
+            <p className="subtle" style={{ margin: 0 }}>
+              Luyện điểm yếu tự chọn câu từng làm sai, câu thuộc chủ đề có tỷ lệ đúng thấp và chủ đề ít luyện.
+            </p>
           </div>
         </section>
       </div>

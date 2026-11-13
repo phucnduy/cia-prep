@@ -1,6 +1,7 @@
 import { useMemo, useRef, useState } from 'react';
 import { exportProgress, importProgress, keys, load } from '../lib/storage.js';
 import { parseProgressFile, progressSummary, WEAK_ACCURACY, WEAK_MIN_ANSWERED } from '../lib/progress.js';
+import { startWeakPractice } from '../lib/adaptive.js';
 
 /** "Tiến độ" tab: study path, progress by topic, weak topics, export and import. */
 export default function Progress({ index, manifest, data }) {
@@ -120,6 +121,11 @@ export default function Progress({ index, manifest, data }) {
         ) : (
           <p className="subtle">Chưa có chủ đề nào dưới ngưỡng (hoặc chưa đủ số câu để đánh giá).</p>
         )}
+        <div className="row-actions">
+          <button type="button" className="btn btn-accent" onClick={() => startWeakPractice(manifest, data)}>
+            Luyện điểm yếu (20 câu)
+          </button>
+        </div>
       </section>
 
       <section className="panel" aria-labelledby="topics-h">

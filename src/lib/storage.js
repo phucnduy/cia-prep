@@ -30,6 +30,8 @@ export const keys = {
   custom: (part) => `${part}:custom`,
   bookmarks: (part) => `${part}:bookmarks`,
   learned: (part) => `${part}:learned`,
+  cards: (part) => `${part}:cards`, // spaced-repetition state per flashcard
+  cardsDay: (part) => `${part}:cardsDay`, // { day, newCount } for the daily new-card limit
 };
 
 /** All of this app's stored values, as raw JSON strings keyed by full storage key. */
