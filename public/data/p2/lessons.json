@@ -262,6 +262,14 @@
           "Bên thứ ba và chuỗi cung ứng: phụ thuộc nhà cung cấp, vi phạm của nhà cung cấp; kiểm soát: thẩm định, điều khoản hợp đồng, quyền kiểm toán, giám sát.",
           "Hệ thống ERP, CRM, GRC: phân quyền sai, dữ liệu gốc sai, cấu hình kiểm soát tự động không đúng."
         ]
+      },
+      {
+        "heading": "3a. Áp dụng Yêu cầu theo chủ đề khi lập kế hoạch",
+        "body": [
+          "Khi cuộc kiểm toán có chủ đề thuộc một Topical Requirement (ví dụ an ninh mạng), hoặc chủ đề đó được nhận diện trong lúc lập kế hoạch, kiểm toán viên dùng đánh giá rủi ro để xác định yêu cầu con nào đưa vào phạm vi và chương trình làm việc.",
+          "Phải ghi lại việc đã xem xét từng yêu cầu và lý do loại trừ phần không áp dụng; đoàn đánh giá chất lượng kiểm tra việc này khi xem xét GIAS 13.2 và 13.3 (theo hỏi đáp chính thức của IIA về Topical Requirement an ninh mạng).",
+          "Hướng dẫn sử dụng của IIA có bảng đối chiếu Topical Requirement an ninh mạng với NIST CSF 2.0, COBIT 2019 và NIST 800-53; kiểm toán viên nên đối chiếu chương trình hiện có với yêu cầu để bảo đảm đủ phạm vi."
+        ]
       }
     ]
   },
@@ -367,6 +375,17 @@
           "Ghi lại mục tiêu, rủi ro với từng mục tiêu và kiểm soát cho từng rủi ro bằng bảng, ma trận rủi ro và kiểm soát hoặc mô tả quy trình; ước lượng mức quan trọng theo ảnh hưởng, khả năng xảy ra và có thể thêm yếu tố khác; thường minh họa bằng bản đồ nhiệt.",
           "Với các rủi ro quan trọng nhất, đánh giá thiết kế kiểm soát giúp quyết định kiểm soát nào cần kiểm tra tiếp hiệu quả vận hành. Ma trận rủi ro và kiểm soát thường được hoàn thiện dần trong suốt cuộc kiểm toán.",
           "Nếu rủi ro đã được nhận diện trong cuộc kiểm toán trước, chỉ cần rà soát và cập nhật đánh giá rủi ro trước đó (bắt buộc tối thiểu)."
+        ]
+      },
+      {
+        "heading": "5a-5c, 5e-5g. Các nguồn rủi ro cần xét khi đánh giá rủi ro chi tiết",
+        "body": [
+          "5a: Topical Requirement áp dụng khi đánh giá rủi ro cho thấy chủ đề nằm trong cuộc kiểm toán; đánh giá rủi ro quyết định yêu cầu con nào được đưa vào (hướng dẫn chính thức của IIA).",
+          "Phần còn lại là kiến thức chung, không lấy từ GIAS. 5b, rủi ro lan tỏa: tài chính (sai lệch số liệu, thanh khoản), hoạt động (gián đoạn, sai sót quy trình), CNTT và an ninh mạng (truy cập trái phép, mất dữ liệu), tuân thủ (vi phạm luật, quy định); một hoạt động thường chịu nhiều loại cùng lúc.",
+          "5c, rủi ro mới nổi: công nghệ mới (trí tuệ nhân tạo, tự động hóa), thay đổi luật, biến đổi khí hậu, rủi ro địa chính trị; nhận diện qua theo dõi xu hướng, trao đổi với quản lý và chuyên gia.",
+          "5e, thay đổi về con người, quy trình, hệ thống làm tăng rủi ro: nhân sự chủ chốt nghỉ việc, chuyển đổi hệ thống mới (dữ liệu chuyển sai, kiểm soát chưa được cấu hình), tái cấu trúc làm mất phân nhiệm.",
+          "5f, cơ cấu tổ chức: tập trung giúp kiểm soát thống nhất nhưng chậm thích ứng; phân quyền linh hoạt nhưng kiểm soát dễ không đồng đều giữa đơn vị; cơ cấu phẳng ít cấp phê duyệt; làm việc từ xa làm giảm giám sát trực tiếp và tăng rủi ro truy cập từ xa.",
+          "5g, văn hóa: thông điệp từ cấp cao, hành vi cá nhân và nhóm ảnh hưởng đến môi trường kiểm soát; văn hóa coi nhẹ kiểm soát làm kiểm soát chính thức kém tin cậy, nên rủi ro cuộc kiểm toán được đánh giá cao hơn."
         ]
       }
     ],
@@ -626,7 +645,7 @@
       "Giám sát liên tục và kiểm toán liên tục: kiểm tra giao dịch gần thời gian thực, cảnh báo ngoại lệ.",
       "Dashboard: trình bày chỉ số rủi ro, kết quả kiểm toán trực quan cho bên liên quan.",
       "Module kiểm toán nhúng (embedded audit modules): đoạn chương trình trong hệ thống ghi lại giao dịch thỏa điều kiện để kiểm toán viên rà soát.",
-      "Khi dùng công nghệ, vẫn phải đánh giá độ tin cậy của dữ liệu nguồn và bảo mật dữ liệu (GIAS 5.2, 10.3)."
+      "Khi dùng công nghệ, vẫn phải đánh giá độ tin cậy của dữ liệu nguồn (GIAS 14.1) và bảo vệ dữ liệu (GIAS 5.2)."
     ],
     "terms": [
       {

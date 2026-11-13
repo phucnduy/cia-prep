@@ -220,7 +220,7 @@
         "heading": "Mandate do luật quy định",
         "body": [
           "Ở một số ngành (ngân hàng, bảo hiểm) và khu vực công, luật quy định một phần hoặc toàn bộ mandate. Khi đó điều lệ phải đưa các yêu cầu pháp lý của mandate vào (GIAS 6.1).",
-          "Ở khu vực công, khi luật là mandate và điều lệ, CAE có thể không có quyền sửa đổi; GIAS cho phép thay việc rà soát định kỳ bằng rà soát tập trung để bảo đảm con đường tuân thủ luật được mô tả đúng."
+          "Ở khu vực công, khi luật là mandate và điều lệ, CAE có thể không có quyền sửa đổi; phần áp dụng GIAS cho khu vực công gợi ý CAE có thể định kỳ thực hiện và ghi lại một đợt rà soát tập trung về nhiệm vụ và điều lệ để xác nhận cách thức tuân thủ luật được mô tả đúng."
         ]
       },
       {
@@ -313,7 +313,7 @@
       "CAE phải thảo luận dự thảo với HĐQT và Ban điều hành để xác nhận điều lệ phản ánh đúng hiểu biết và kỳ vọng của họ.",
       "HĐQT phê duyệt điều lệ và rà soát cùng CAE khi có thay đổi, ví dụ CAE mới hoặc thay đổi về loại, mức độ, mối liên hệ của rủi ro.",
       "Khi CAE có vai trò ngoài kiểm toán, trách nhiệm, bản chất công việc và biện pháp bảo vệ phải được ghi trong điều lệ (GIAS 7.1).",
-      "Điều lệ là căn cứ thẩm quyền, kể cả quyền tiếp cận không hạn chế dữ liệu, hồ sơ, nhân sự và tài sản (GIAS 6.3)."
+      "Điều lệ là căn cứ thẩm quyền, kể cả quyền tiếp cận không hạn chế dữ liệu, hồ sơ, nhân sự và tài sản (GIAS 6.2, 6.3)."
     ],
     "terms": [
       {
@@ -1219,7 +1219,7 @@
       {
         "heading": "Bổ sung: trung thực trong mọi hình thức trao đổi",
         "body": [
-          "Không đưa ra tuyên bố gây hiểu lầm về phạm vi: nếu chỉ kiểm tra mẫu, báo cáo phải nêu rõ mẫu và giới hạn kết luận (GIAS 1.1, 15.1).",
+          "Không đưa ra tuyên bố gây hiểu lầm về phạm vi: nếu chỉ kiểm tra mẫu, báo cáo cần mô tả đúng phạm vi thực tế để không gây hiểu lầm, và phải nêu giới hạn phạm vi nếu có (GIAS 1.1, 15.1).",
           "Trung thực cả với thông tin về bản thân: khai giờ CPE không có thật là gian dối (GIAS 1.1, 3.2).",
           "Tôn trọng trong trao đổi: phê bình, mỉa mai người được kiểm toán trước đám đông vi phạm yêu cầu tôn trọng (GIAS 1.1).",
           "Chỉ kỳ vọng hợp pháp và đạo đức của tổ chức mới phải đáp ứng; yêu cầu loại một khu vực khỏi kiểm toán vì lợi ích cá nhân không phải kỳ vọng chính đáng (GIAS 1.2).",
@@ -3323,7 +3323,7 @@
         "body": [
           "Cấp tổ chức: chỉ tiêu tài chính phi thực tế; thưởng gắn chặt với kết quả ngắn hạn; Ban điều hành chi phối, ít giám sát của HĐQT; cơ cấu phức tạp bất thường; thay đổi kiểm toán độc lập, pháp chế, CFO thường xuyên; kết quả kinh doanh tốt bất thường so với ngành.",
           "Cấp quy trình và cá nhân: chứng từ thiếu, bị sửa, bản sao thay bản gốc; giao dịch bất thường cuối kỳ; số tiền tròn hoặc sát hạn mức; một nhà cung cấp luôn thắng thầu; nhân viên sống vượt thu nhập, quan hệ quá thân với nhà cung cấp, không chịu nghỉ phép hoặc chia sẻ công việc.",
-          "Theo báo cáo ACFE 2024, tố giác là phương thức phát hiện gian lận phổ biến nhất (43% số vụ), hơn một nửa số tố giác đến từ nhân viên."
+          "Theo các kỳ báo cáo Occupational Fraud của ACFE (gần nhất là bản 2026), tố giác luôn là phương thức phát hiện gian lận phổ biến nhất, và nhân viên là nguồn tố giác lớn nhất."
         ]
       },
       {
@@ -3386,7 +3386,7 @@
       },
       {
         "q": "Phương thức phát hiện gian lận phổ biến nhất theo ACFE 2024 là gì?",
-        "a": "Tố giác (43% số vụ)."
+        "a": "Tố giác (phương thức phổ biến nhất theo ACFE)."
       },
       {
         "q": "Kiểm toán viên làm gì khi thấy cờ đỏ?",

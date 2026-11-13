@@ -47,23 +47,23 @@
     "action": "Các bộ phận KTNB quy mô nhỏ hoặc ngân sách hạn chế có thể chọn SAIV (sau khi được HĐQT duyệt) để vẫn đáp ứng yêu cầu đánh giá 5 năm/lần.",
     "violation": "Tự làm báo cáo đánh giá nội bộ rồi chỉ nhờ CEO ký xác nhận và gọi đó là đánh giá độc lập bên ngoài.",
     "trap": "Hình thức SAIV không được IIA công nhận là một phương thức hợp lệ của External Assessment.",
-    "distinction": "Người xác nhận độc lập trong SAIV vẫn phải trực tiếp soát xét hồ sơ, phỏng vấn Chủ tịch Ủy ban Kiểm toán và CEO để xác thực kết quả."
+    "distinction": "Người xác nhận độc lập thường phải trực tiếp soát xét hồ sơ và trao đổi với các bên chính để xác thực kết quả tự đánh giá; HĐQT phê duyệt lý do chọn hình thức này (GIAS 8.4)."
   },
   {
     "id": "P3-C-K036",
     "section": "C",
-    "title": "Điều kiện sử dụng Tuyên bố Phù hợp với Chuẩn mực (Conforms with GIAS)",
-    "rule": "CAE chỉ được phép tuyên bố hoạt động KTNB \"Phù hợp với Các Chuẩn mực Kiểm toán Nội bộ Toàn cầu\" khi kết quả QAIP (cả nội bộ và bên ngoài) xác nhận đạt chuẩn.",
-    "action": "Sau khi vượt qua kỳ đánh giá độc lập bên ngoài và duy trì đánh giá nội bộ tốt, CAE đưa câu tuyên bố phù hợp vào các báo cáo kiểm toán.",
-    "violation": "Phòng KTNB mới thành lập được 2 năm, chưa từng làm đánh giá bên ngoài nhưng đã in dòng chữ \"Phù hợp với Chuẩn mực GIAS\" lên mọi báo cáo.",
-    "trap": "Trong 5 năm đầu mới thành lập, bộ phận KTNB đương nhiên được quyền tuyên bố phù hợp với Chuẩn mực mà không cần đánh giá bên ngoài.",
-    "distinction": "Nếu quá hạn 5 năm mà chưa thực hiện lại đánh giá bên ngoài, bộ phận KTNB phải ngừng sử dụng tuyên bố phù hợp cho đến khi đánh giá xong."
+    "title": "Câu 'thực hiện theo Chuẩn mực' trong báo cáo (GIAS 15.1, 8.4)",
+    "rule": "Báo cáo cuối nên có câu cuộc kiểm toán thực hiện theo GIAS, nhưng câu này chỉ phù hợp khi kết quả giám sát cuộc kiểm toán và QAIP hỗ trợ (Xem xét khi thực hiện của GIAS 15.1).",
+    "action": "Trước khi đưa câu tuyên bố vào báo cáo, CAE xem kết quả giám sát cuộc kiểm toán, giám sát liên tục, tự đánh giá định kỳ và đánh giá ngoài gần nhất.",
+    "violation": "Vẫn in câu 'thực hiện theo Chuẩn mực' dù tự đánh giá định kỳ đã phát hiện nhiều điểm không tuân thủ trọng yếu chưa được khắc phục.",
+    "trap": "Chỉ cần CAE có chứng chỉ CIA là đủ cơ sở để tuyên bố mọi cuộc kiểm toán thực hiện theo Chuẩn mực.",
+    "distinction": "Quá 5 năm chưa đánh giá ngoài là không tuân thủ GIAS 8.4, nên câu tuyên bố không còn được hỗ trợ. Quy tắc 'phải có đánh giá ngoài trong 5 năm gần nhất mới được tuyên bố' xuất phát từ hướng dẫn của IPPF 2017 (1321)."
   },
   {
     "id": "P3-C-K037",
     "section": "C",
     "title": "Báo cáo kết quả QAIP cho Hội đồng Quản trị (Ủy ban Kiểm toán)",
-    "rule": "CAE phải báo cáo cho HĐQT về phạm vi, tần suất và kết quả của cả đánh giá nội bộ định kỳ lẫn đánh giá độc lập bên ngoài kèm kế hoạch hành động khắc phục.",
+    "rule": "CAE phải báo cáo HĐQT, Ban điều hành kết quả đánh giá nội bộ ít nhất hằng năm và đánh giá ngoài khi hoàn thành, gồm mức tuân thủ, đạt mục tiêu hoạt động và kế hoạch khắc phục (GIAS 8.3); nên nêu thêm phạm vi, tần suất và tiến độ khắc phục.",
     "action": "Trình bày nguyên văn kết luận của đoàn đánh giá độc lập bên ngoài và lộ trình cải tiến các điểm chưa hoàn thiện tại cuộc họp Ủy ban Kiểm toán.",
     "violation": "CAE giữ kín báo cáo đánh giá chất lượng bên ngoài vì có một số nhận xét phê bình về quy trình lưu trữ hồ sơ của phòng.",
     "trap": "Kết quả QAIP chỉ là việc nội bộ của phòng KTNB nên không cần báo cáo cho Ủy ban Kiểm toán.",
