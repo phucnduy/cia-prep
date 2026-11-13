@@ -603,6 +603,32 @@ textarea.input { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; fo
   .topnav { gap: 0; }
   .topnav a { padding: 6px 6px; }
 }
+/* Progress tab (LMS-lite): study path, stat cards, weak topics, backup. */
+.progress-page { display: grid; gap: 20px; }
+/* Grid items default to min-width: auto; let the topic table scroll inside its wrapper instead. */
+.progress-page > * { min-width: 0; }
+.progress-page .panel + .panel { margin-top: 0; }
+.path { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 12px; }
+.path li { display: flex; align-items: center; gap: 14px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius-m); background: var(--surface); }
+.path li.current { border-color: var(--gold); box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 22%, transparent); }
+.path li.done { background: var(--ok-soft); border-color: color-mix(in srgb, var(--ok) 35%, transparent); }
+.path-n { flex: none; width: 30px; height: 30px; border-radius: 999px; display: grid; place-items: center; font-family: var(--font-display); font-weight: 700; background: var(--surface-2); color: var(--heading); }
+.path li.done .path-n { background: var(--ok); color: #fff; }
+.path li.current .path-n { background: var(--gold); color: var(--on-gold); }
+.path-body { flex: 1; min-width: 0; display: grid; gap: 4px; }
+.path-body .bar { height: 6px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+.path-body .bar span { display: block; height: 100%; background: var(--gold); border-radius: 999px; }
+.progress-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.stat-card { display: grid; gap: 2px; padding: 16px; border: 1px solid var(--line); border-radius: var(--radius-m); background: var(--surface); }
+.stat-value { font-family: var(--font-display); font-size: var(--text-2xl, 1.6rem); font-weight: 700; color: var(--heading); }
+.stat-label { font-size: var(--text-sm); color: var(--ink-2); }
+.weak-list { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
+.weak-list li { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 12px; border-radius: var(--radius-s); background: var(--surface-2); }
+.row-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0; }
+@media (max-width: 720px) {
+  .progress-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .path li { flex-wrap: wrap; }
+}
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }

@@ -28,6 +28,7 @@ Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành
 
 - **Tìm hiểu CIA**: điều kiện ghi danh, quy trình thi, lệ phí, duy trì chứng chỉ, cách học, kỹ năng làm bài, câu hỏi thường gặp; quy định và lệ phí đối chiếu với trang chính thức của IIA.
 - **Khung chuẩn mực**: tóm tắt IPPF, GIAS (5 lĩnh vực, 15 nguyên tắc, 52 chuẩn mực), so sánh với IPPF 2017, Mô hình Ba Tuyến, COSO 2013 (17 nguyên tắc), COSO ERM 2017 (20 nguyên tắc), ISO 31000, COBIT, CoCo, IESBA, ACFE.
+- **Tiến độ (LMS-lite, không cần máy chủ)**: lộ trình 4 bước (đọc bài, luyện mỗi chủ đề, ôn câu sai, đạt đề thi thử), số bài đã học, số câu đã gặp, tỷ lệ đúng theo chủ đề, chủ đề cần ôn; tải và nhập tệp tiến độ để sao lưu hoặc chuyển máy.
 - **Thi thử mô phỏng**: đủ số câu và thời gian như đề thật, rút câu theo tỷ trọng từng section, ưu tiên câu chưa gặp ở các lần làm trước, xáo trộn thứ tự đáp án mỗi lần thi, bấm giờ (tự nộp khi hết giờ), chỉ báo nhịp làm bài (khoảng 72 giây/câu), đánh dấu câu, gạch bỏ phương án (nút hoặc chuột phải), bảng câu hỏi, màn hình xem lại trước khi nộp, máy tính.
 - **Luyện tập theo chuyên đề**: chọn section và số câu, xem đáp án và giải thích (kèm căn cứ GIAS) ngay sau mỗi câu.
 - **Ôn câu sai**: mọi câu làm sai được lưu lại, làm đúng thì tự xóa khỏi danh sách.
@@ -51,6 +52,7 @@ public/data/                  <- DỮ LIỆU (tách riêng khỏi giao diện)
   p2/ ...  p3/ ...
 src/                          <- GIAO DIỆN (React + Vite)
   lib/exam.js                 rút đề theo tỷ trọng, xáo đáp án, chấm điểm (có unit test)
+  lib/progress.js             tính tiến độ, lộ trình, kiểm tra tệp tiến độ khi nhập (có unit test)
   lib/validate.js             kiểm tra cấu trúc câu hỏi (dùng chung cho app và script)
   lib/data.js, storage.js     tải dữ liệu, lưu tiến độ trong trình duyệt
   components/                 Home, PartPage, Session (phòng thi), Results, Study, Bank, Calculator

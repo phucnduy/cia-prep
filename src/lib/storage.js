@@ -32,6 +32,35 @@ export const keys = {
   learned: (part) => `${part}:learned`,
 };
 
+/** All of this app's stored values, as raw JSON strings keyed by full storage key. */
+export function exportProgress() {
+  const data = {};
+  try {
+    for (let i = 0; i < localStorage.length; i += 1) {
+      const key = localStorage.key(i);
+      if (key?.startsWith(PREFIX)) data[key] = localStorage.getItem(key);
+    }
+  } catch (err) {
+    console.warn('Không đọc được dữ liệu trong trình duyệt:', err);
+  }
+  return { app: 'cia-prep', version: 1, exportedAt: new Date().toISOString(), data };
+}
+
+/** Write values from a validated progress file (see parseProgressFile). Returns the number of keys written. */
+export function importProgress(data) {
+  let written = 0;
+  for (const [key, value] of Object.entries(data)) {
+    if (!key.startsWith(PREFIX)) continue;
+    try {
+      localStorage.setItem(key, value);
+      written += 1;
+    } catch (err) {
+      console.warn('Không ghi được dữ liệu vào trình duyệt:', err);
+    }
+  }
+  return written;
+}
+
 const HISTORY_LIMIT = 30;
 
 export function pushHistory(part, attempt) {

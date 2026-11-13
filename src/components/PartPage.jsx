@@ -5,6 +5,7 @@ import { keys, load, save } from '../lib/storage.js';
 import { newSeed, startSession } from '../lib/session.js';
 import { SectionChip, StatusBadge, sectionColor } from './ui.jsx';
 import Study from './Study.jsx';
+import Progress from './Progress.jsx';
 import Bank from './Bank.jsx';
 import Session from './Session.jsx';
 import Results from './Results.jsx';
@@ -12,6 +13,7 @@ import Results from './Results.jsx';
 const TABS = [
   ['overview', 'Tổng quan'],
   ['study', 'Học lý thuyết'],
+  ['progress', 'Tiến độ'],
   ['bank', 'Ngân hàng câu hỏi'],
   ['history', 'Lịch sử làm bài'],
 ];
@@ -68,6 +70,7 @@ export default function PartPage({ index, manifest, route }) {
 
       {route.view === 'overview' && <Overview index={index} manifest={manifest} data={data} />}
       {route.view === 'study' && <Study manifest={manifest} data={data} topicId={route.arg} />}
+      {route.view === 'progress' && <Progress index={index} manifest={manifest} data={data} />}
       {route.view === 'bank' && <Bank manifest={manifest} data={data} onChange={reload} />}
       {route.view === 'history' && <History manifest={manifest} />}
       {route.view === 'result' && <Results index={index} manifest={manifest} data={data} attemptId={route.arg} />}
