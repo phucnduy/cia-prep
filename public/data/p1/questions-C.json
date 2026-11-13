@@ -3609,5 +3609,309 @@
       "CIA Part 1 C.1"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-C-M49",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Đoàn thanh tra của Ngân hàng Nhà nước vừa kết thúc kiểm tra một ngân hàng thương mại và đưa ra nhiều kiến nghị. Kiểm toán nội bộ nên sử dụng kết quả thanh tra này như thế nào là phù hợp nhất?",
+    "options": [
+      "Dùng làm đầu vào đánh giá rủi ro và theo dõi việc khắc phục kiến nghị.",
+      "Bỏ qua vì thanh tra là bên ngoài, không liên quan đến kiểm toán nội bộ.",
+      "Thay thế toàn bộ kế hoạch kiểm toán năm bằng các kiến nghị thanh tra.",
+      "Tự thực hiện các kiến nghị thay cho Ban điều hành."
+    ],
+    "answer": 0,
+    "explanation": "Cơ quan quản lý là một bên cung cấp bảo đảm bên ngoài trong hệ thống quản trị. Kết quả thanh tra là đầu vào quan trọng cho đánh giá rủi ro và kế hoạch kiểm toán, đồng thời kiểm toán nội bộ có thể theo dõi việc khắc phục.",
+    "optionNotes": [
+      "Đúng. Đầu vào đánh giá rủi ro và theo dõi khắc phục.",
+      "Sai. Kết quả thanh tra là thông tin rủi ro quan trọng.",
+      "Sai. Kế hoạch vẫn dựa trên đánh giá rủi ro toàn diện.",
+      "Sai. Khắc phục là trách nhiệm quản lý."
+    ],
+    "refs": [
+      "CIA Part 1 C.1",
+      "GIAS 9.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M50",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 1,
+    "stem": "Phát biểu nào mô tả đúng nhất khái niệm văn hóa tổ chức?",
+    "options": [
+      "Sơ đồ tổ chức và bảng mô tả công việc của các phòng ban.",
+      "Các giá trị, niềm tin và hành vi chung định hình cách mọi người làm việc.",
+      "Bộ quy chế, quy trình được Ban điều hành ban hành bằng văn bản chính thức.",
+      "Các hoạt động văn nghệ, thể thao do công đoàn tổ chức."
+    ],
+    "answer": 1,
+    "explanation": "Văn hóa tổ chức là tập hợp giá trị, niềm tin, thái độ và hành vi chung, ảnh hưởng đến cách nhân viên ra quyết định và hành xử. Văn hóa là nền tảng của môi trường kiểm soát, khác với cơ cấu hay quy chế bằng văn bản.",
+    "optionNotes": [
+      "Sai. Đó là cơ cấu tổ chức.",
+      "Đúng. Giá trị, niềm tin và hành vi chung.",
+      "Sai. Đó là các kiểm soát chính thức.",
+      "Sai. Đó chỉ là hoạt động phong trào."
+    ],
+    "refs": [
+      "CIA Part 1 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M51",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Tại hội nghị hiệp hội ngành, giám đốc kinh doanh trao đổi với các đối thủ và thống nhất 'cùng không giảm giá bán dưới mức sàn' trong năm tới. Kiểm toán viên nên nhận định thế nào?",
+    "options": [
+      "Không có vấn đề vì đây là thỏa thuận có lợi cho cả ngành.",
+      "Chỉ là vấn đề chiến lược kinh doanh, nằm ngoài phạm vi của kiểm toán nội bộ.",
+      "Rủi ro vi phạm pháp luật về cạnh tranh, cần báo cáo và tham khảo pháp chế.",
+      "Không sao nếu thỏa thuận không được ghi thành văn bản."
+    ],
+    "answer": 2,
+    "explanation": "Thỏa thuận ấn định giá giữa các đối thủ cạnh tranh có thể vi phạm pháp luật về cạnh tranh, kéo theo rủi ro phạt và uy tín. Kiểm toán viên cần nhận diện yêu cầu pháp lý áp dụng và báo cáo cho cấp phù hợp.",
+    "optionNotes": [
+      "Sai. Lợi ích cho ngành không làm thỏa thuận hợp pháp.",
+      "Sai. Tuân thủ pháp luật thuộc phạm vi kiểm toán.",
+      "Đúng. Rủi ro vi phạm luật cạnh tranh.",
+      "Sai. Thỏa thuận miệng vẫn có thể vi phạm."
+    ],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M52",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 3,
+    "stem": "Khi lập kế hoạch kiểm toán dựa trên rủi ro, vì sao kiểm toán viên không nên chỉ dựa vào mức rủi ro còn lại do Ban điều hành tự đánh giá?",
+    "options": [
+      "Vì rủi ro còn lại luôn cao hơn rủi ro tiềm tàng.",
+      "Vì rủi ro còn lại chỉ áp dụng cho rủi ro tài chính.",
+      "Vì Ban điều hành không được phép tự đánh giá rủi ro.",
+      "Vì nó giả định kiểm soát hữu hiệu, điều cần kiểm chứng."
+    ],
+    "answer": 3,
+    "explanation": "Rủi ro còn lại phản ánh rủi ro sau khi tính đến kiểm soát, nên dựa trên giả định kiểm soát hoạt động hữu hiệu. Nếu chỉ dựa vào đó, quy trình có rủi ro tiềm tàng cao nhưng kiểm soát yếu (chưa được kiểm chứng) có thể bị bỏ sót.",
+    "optionNotes": [
+      "Sai. Rủi ro còn lại thường thấp hơn rủi ro tiềm tàng.",
+      "Sai. Áp dụng cho mọi loại rủi ro.",
+      "Sai. Ban điều hành có trách nhiệm đánh giá rủi ro.",
+      "Đúng. Hiệu quả kiểm soát cần được kiểm chứng."
+    ],
+    "refs": [
+      "CIA Part 1 C.4",
+      "GIAS 9.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M53",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 2,
+    "stem": "Công ty dùng các khoản vay ngắn hạn 6 tháng để tài trợ cho dự án nhà máy có thời gian hoàn vốn 8 năm. Rủi ro nổi bật nhất là gì?",
+    "options": [
+      "Rủi ro thanh khoản do không đáp ứng được nợ đến hạn.",
+      "Rủi ro uy tín do khách hàng không hài lòng với sản phẩm.",
+      "Rủi ro tuân thủ do vi phạm luật xây dựng nhà máy.",
+      "Rủi ro môi trường do khí thải từ nhà máy mới."
+    ],
+    "answer": 0,
+    "explanation": "Lệch kỳ hạn giữa nguồn vốn ngắn hạn và tài sản dài hạn tạo rủi ro thanh khoản (một dạng rủi ro tài chính): công ty có thể không đủ tiền trả nợ đến hạn nếu không tái cấp vốn được.",
+    "optionNotes": [
+      "Đúng. Lệch kỳ hạn gây rủi ro thanh khoản.",
+      "Sai. Không liên quan đến khách hàng.",
+      "Sai. Không có thông tin về vi phạm luật.",
+      "Sai. Không liên quan đến nguồn vốn."
+    ],
+    "refs": [
+      "CIA Part 1 C.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M54",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 3,
+    "stem": "Công ty logistics đặt mục tiêu giao hàng trong 24 giờ, và chấp nhận một số đơn giao chậm nhưng không quá 30 giờ. Mức 30 giờ thể hiện khái niệm nào?",
+    "options": [
+      "Khẩu vị rủi ro tổng thể của toàn công ty.",
+      "Dung sai rủi ro (risk tolerance) đối với mục tiêu cụ thể.",
+      "Rủi ro tiềm tàng của quy trình giao hàng.",
+      "Năng lực chịu đựng rủi ro tối đa của công ty (risk capacity)."
+    ],
+    "answer": 1,
+    "explanation": "Dung sai rủi ro là mức biến động chấp nhận được quanh một mục tiêu cụ thể, thường đo lường được (24 giờ, chấp nhận đến 30 giờ). Khẩu vị rủi ro là mức rủi ro tổng thể tổ chức sẵn sàng chấp nhận; năng lực chịu đựng là mức tối đa trước khi không thể tồn tại.",
+    "optionNotes": [
+      "Sai. Khẩu vị là mức tổng thể, không gắn một mục tiêu cụ thể.",
+      "Đúng. Biến động chấp nhận được quanh mục tiêu.",
+      "Sai. Rủi ro tiềm tàng là rủi ro trước kiểm soát.",
+      "Sai. Năng lực chịu đựng là giới hạn sống còn."
+    ],
+    "refs": [
+      "COSO ERM 2017",
+      "CIA Part 1 C.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M55",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 2,
+    "stem": "Bộ phận quản lý rủi ro chỉ cập nhật sổ đăng ký rủi ro từ các sự cố đã xảy ra. Cách nào giúp nhận diện rủi ro mới nổi tốt nhất?",
+    "options": [
+      "Chỉ theo dõi các sự cố của chính công ty trong năm qua.",
+      "Sao chép sổ đăng ký rủi ro của một đối thủ cùng ngành.",
+      "Rà soát định kỳ xu hướng bên ngoài và lấy ý kiến chuyên gia.",
+      "Đợi cơ quan quản lý ban hành quy định mới rồi mới cập nhật sổ rủi ro."
+    ],
+    "answer": 2,
+    "explanation": "Rủi ro mới nổi thường chưa từng gây sự cố. Rà soát định kỳ xu hướng công nghệ, pháp lý, thị trường, xã hội và tham khảo ý kiến chuyên gia giúp nhận diện sớm trước khi rủi ro xảy ra.",
+    "optionNotes": [
+      "Sai. Chỉ nhìn lại quá khứ.",
+      "Sai. Không đặc thù cho công ty.",
+      "Đúng. Quét xu hướng bên ngoài và ý kiến chuyên gia.",
+      "Sai. Bị động và chậm."
+    ],
+    "refs": [
+      "CIA Part 1 C.5",
+      "COSO ERM 2017"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M56",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Khi đánh giá thiết kế quy trình quản lý rủi ro, kiểm toán viên thấy người được giao làm chủ rủi ro an ninh mạng là một chuyên viên cấp thấp, không có ngân sách hay quyền quyết định. Điểm yếu chính là gì?",
+    "options": [
+      "Chuyên viên chưa có chứng chỉ an ninh mạng quốc tế.",
+      "Kiểm toán nội bộ nên làm chủ rủi ro này thay chuyên viên.",
+      "Rủi ro an ninh mạng không cần người chịu trách nhiệm.",
+      "Người chủ rủi ro thiếu thẩm quyền quyết định ứng phó."
+    ],
+    "answer": 3,
+    "explanation": "Người làm chủ rủi ro cần có thẩm quyền, nguồn lực để quyết định và triển khai biện pháp ứng phó. Giao cho người thiếu thẩm quyền khiến rủi ro không được xử lý kịp thời dù có tên trên sổ đăng ký.",
+    "optionNotes": [
+      "Sai. Chứng chỉ không phải vấn đề chính.",
+      "Sai. Kiểm toán nội bộ không làm chủ rủi ro.",
+      "Sai. Mọi rủi ro trọng yếu cần người chịu trách nhiệm.",
+      "Đúng. Thiếu thẩm quyền và nguồn lực."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M57",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 2,
+    "stem": "Một chi nhánh phát hiện chỉ số rủi ro tín dụng vượt ngưỡng cảnh báo, nhưng quy trình không quy định phải báo cáo cho ai và trong bao lâu. Điểm yếu thiết kế chính là gì?",
+    "options": [
+      "Thiếu cơ chế báo cáo vượt cấp (escalation) khi vượt ngưỡng.",
+      "Ngưỡng cảnh báo được đặt quá thấp so với thực tế.",
+      "Chi nhánh không có phần mềm theo dõi chỉ số rủi ro.",
+      "Chỉ số rủi ro tín dụng không cần theo dõi ở cấp chi nhánh mà ở hội sở."
+    ],
+    "answer": 0,
+    "explanation": "Theo dõi chỉ số chỉ có tác dụng khi việc vượt ngưỡng kích hoạt báo cáo đến đúng cấp trong thời hạn rõ ràng để ra quyết định ứng phó. Thiếu cơ chế báo cáo vượt cấp làm cảnh báo không dẫn đến hành động.",
+    "optionNotes": [
+      "Đúng. Thiếu cơ chế báo cáo vượt cấp.",
+      "Sai. Không có thông tin cho thấy ngưỡng sai.",
+      "Sai. Công cụ không phải vấn đề chính.",
+      "Sai. Theo dõi tại chi nhánh là cần thiết."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M58",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 2,
+    "stem": "Khi nhập hóa đơn mua hàng, hệ thống từ chối mọi mã nhà cung cấp không có trong danh mục nhà cung cấp đã được phê duyệt. Đây là loại kiểm soát nào?",
+    "options": [
+      "Kiểm tra giới hạn (limit check) đối với số tiền.",
+      "Kiểm tra tính hợp lệ (validity check) khi nhập.",
+      "Kiểm soát tổng lô đối với chứng từ nhập vào.",
+      "Kiểm soát phát hiện qua đối chiếu cuối tháng."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm tra tính hợp lệ so sánh dữ liệu nhập với danh mục giá trị cho phép (mã nhà cung cấp đã duyệt) và từ chối giá trị không hợp lệ. Đây là kiểm soát ứng dụng mang tính phòng ngừa.",
+    "optionNotes": [
+      "Sai. Kiểm tra giới hạn so sánh với ngưỡng số.",
+      "Đúng. So với danh mục giá trị hợp lệ.",
+      "Sai. Tổng lô so sánh tổng trước và sau khi nhập.",
+      "Sai. Kiểm soát này phòng ngừa ngay khi nhập."
+    ],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M59",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 2,
+    "stem": "Khi rà soát ma trận rủi ro - kiểm soát của quy trình bán hàng, kiểm toán viên thấy rủi ro 'giao hàng cho khách vượt hạn mức tín dụng' không có kiểm soát nào tương ứng. Kết luận phù hợp nhất là gì?",
+    "options": [
+      "Rủi ro không đáng kể nên không cần kiểm soát.",
+      "Kiểm soát chắc chắn có nhưng chưa được ghi vào ma trận.",
+      "Có khoảng trống trong thiết kế kiểm soát cần được khắc phục.",
+      "Cần kiểm tra hiệu quả vận hành trước khi kết luận về thiết kế."
+    ],
+    "answer": 2,
+    "explanation": "Ma trận rủi ro - kiểm soát giúp nhận diện rủi ro chưa có kiểm soát. Rủi ro đáng kể không có kiểm soát tương ứng là khiếm khuyết thiết kế; kiểm toán viên cần xác nhận qua trao đổi và kiểm tra, rồi khuyến nghị khắc phục.",
+    "optionNotes": [
+      "Sai. Rủi ro tín dụng khách hàng thường đáng kể.",
+      "Sai. Không có cơ sở để giả định.",
+      "Đúng. Khoảng trống thiết kế.",
+      "Sai. Không có kiểm soát thì không có gì để kiểm tra vận hành."
+    ],
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M60",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 3,
+    "stem": "Kiểm soát rà soát điều khoản hợp đồng trước khi ký được giao cho một nhân viên mới, chưa được đào tạo pháp lý và không có danh mục điều khoản cần kiểm tra. Nhận định nào đúng nhất về thiết kế kiểm soát?",
+    "options": [
+      "Thiết kế phù hợp vì đã có người được giao nhiệm vụ rà soát mọi hợp đồng.",
+      "Thiết kế yếu vì hợp đồng nên do HĐQT tự rà soát.",
+      "Thiết kế phù hợp, chỉ cần kiểm tra hiệu quả vận hành.",
+      "Thiết kế yếu vì người thực hiện thiếu năng lực và tiêu chí rà soát."
+    ],
+    "answer": 3,
+    "explanation": "Thiết kế kiểm soát cần xác định người thực hiện có đủ năng lực, thẩm quyền và có tiêu chí rõ ràng. Giao cho người thiếu chuyên môn, không có danh mục kiểm tra thì kiểm soát khó phát hiện điều khoản bất lợi.",
+    "optionNotes": [
+      "Sai. Có người được giao chưa đủ.",
+      "Sai. HĐQT không rà soát từng hợp đồng.",
+      "Sai. Thiết kế yếu thì kiểm tra vận hành ít ý nghĩa.",
+      "Đúng. Thiếu năng lực và tiêu chí."
+    ],
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
+    "source": "original"
   }
 ]

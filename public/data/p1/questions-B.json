@@ -2121,5 +2121,445 @@
       "IESBA Code"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-B-M21",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "Kiểm toán nội bộ thuê một công ty bên ngoài thực hiện cuộc kiểm toán an ninh mạng vì thiếu chuyên môn. Nhận định nào đúng nhất về trách nhiệm đối với cuộc kiểm toán này?",
+    "options": [
+      "Công ty bên ngoài chịu toàn bộ trách nhiệm, CAE không cần tham gia.",
+      "Ủy ban Kiểm toán trực tiếp giám sát công ty bên ngoài thay CAE.",
+      "Ban điều hành bộ phận CNTT chịu trách nhiệm vì là đơn vị được kiểm toán.",
+      "CAE vẫn chịu trách nhiệm giám sát và bảo đảm chất lượng công việc."
+    ],
+    "answer": 3,
+    "explanation": "Khi thuê ngoài thực hiện cuộc kiểm toán, CAE vẫn chịu trách nhiệm về chức năng kiểm toán nội bộ: đánh giá năng lực, tính độc lập của bên cung cấp, giám sát công việc và bảo đảm kết quả đáp ứng Chuẩn mực.",
+    "optionNotes": [
+      "Sai. Thuê ngoài không chuyển trách nhiệm của CAE.",
+      "Sai. Ủy ban Kiểm toán giám sát CAE, không thay CAE.",
+      "Sai. Đơn vị được kiểm toán không chịu trách nhiệm về cuộc kiểm toán.",
+      "Đúng. CAE giám sát và chịu trách nhiệm chất lượng."
+    ],
+    "refs": [
+      "CIA Part 1 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M22",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Bộ phận Kho đề nghị kiểm toán nội bộ tư vấn cải tiến quy trình. Một kiểm toán viên được dự kiến giao việc từng là phó phòng Kho cho đến tám tháng trước. Việc cần làm trước khi nhận cuộc tư vấn là gì?",
+    "options": [
+      "Công bố khả năng suy giảm khách quan với bên đề nghị trước khi nhận.",
+      "Nhận ngay vì quy tắc 12 tháng chỉ áp dụng cho dịch vụ bảo đảm.",
+      "Từ chối cuộc tư vấn vì kiểm toán viên chưa đủ 12 tháng.",
+      "Chỉ cần ghi chú vào hồ sơ làm việc sau khi cuộc tư vấn đã kết thúc."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 2.2 yêu cầu: nếu kiểm toán viên cung cấp dịch vụ tư vấn liên quan đến hoạt động mình từng phụ trách, họ phải công bố khả năng suy giảm khách quan với bên đề nghị dịch vụ trước khi nhận cuộc tư vấn.",
+    "optionNotes": [
+      "Đúng. Công bố với bên đề nghị trước khi nhận.",
+      "Sai. Vẫn phải công bố trước khi nhận tư vấn.",
+      "Sai. Tư vấn không bị cấm, nhưng phải công bố.",
+      "Sai. Công bố phải thực hiện trước, không phải sau."
+    ],
+    "refs": [
+      "GIAS 2.2",
+      "CIA Part 1 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M23",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 2,
+    "stem": "Khi kiểm toán quy trình sản xuất, kiểm toán viên thấy chi phí điện của nhà máy giảm 30% trong khi sản lượng tăng, dù chương trình kiểm toán không yêu cầu xem xét chi phí điện. Cách hành xử thể hiện tốt nhất sự tò mò nghề nghiệp là gì?",
+    "options": [
+      "Bỏ qua vì nội dung này nằm ngoài chương trình kiểm toán đã duyệt.",
+      "Tìm hiểu nguyên nhân và trao đổi với trưởng nhóm về việc mở rộng thủ tục.",
+      "Tự mở rộng phạm vi sang kiểm toán toàn bộ chi phí của nhà máy.",
+      "Ghi nhận là điểm tích cực về tiết kiệm năng lượng trong báo cáo."
+    ],
+    "answer": 1,
+    "explanation": "Sự tò mò nghề nghiệp thể hiện ở việc chú ý và tìm hiểu các bất thường, như chi phí giảm khi sản lượng tăng (có thể do ghi nhận sai kỳ, đồng hồ bị can thiệp hoặc sai sót). Việc mở rộng thủ tục cần trao đổi, phê duyệt theo quy trình.",
+    "optionNotes": [
+      "Sai. Bỏ qua bất thường là thiếu hoài nghi và tò mò.",
+      "Đúng. Tìm hiểu và trao đổi để quyết định mở rộng.",
+      "Sai. Mở rộng phạm vi cần được phê duyệt.",
+      "Sai. Kết luận tích cực khi chưa tìm hiểu nguyên nhân."
+    ],
+    "refs": [
+      "CIA Part 1 B.4",
+      "GIAS 4.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M24",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "Giữa cuộc kiểm toán phòng Marketing, CAE biết kiểm toán viên trưởng nhóm vừa nộp đơn ứng tuyển vị trí phó phòng chính tại phòng Marketing. Việc phù hợp nhất là gì?",
+    "options": [
+      "Giữ nguyên vì việc ứng tuyển là quyền cá nhân của nhân viên.",
+      "Yêu cầu kiểm toán viên rút đơn ứng tuyển rồi tiếp tục cuộc kiểm toán.",
+      "Thay trưởng nhóm và rà soát lại công việc người này đã thực hiện.",
+      "Ghi chú việc ứng tuyển vào báo cáo cuối cùng là đủ."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán viên đang tìm việc tại đơn vị được kiểm toán có xung đột lợi ích rõ ràng. CAE nên phân công lại và rà soát công việc đã làm để bảo đảm kết quả không bị ảnh hưởng.",
+    "optionNotes": [
+      "Sai. Quyền ứng tuyển không loại bỏ xung đột lợi ích.",
+      "Sai. Rút đơn chưa loại bỏ được ảnh hưởng đã có.",
+      "Đúng. Phân công lại và rà soát công việc đã làm.",
+      "Sai. Ghi chú không xử lý được suy giảm khách quan."
+    ],
+    "refs": [
+      "GIAS 2.2",
+      "CIA Part 1 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M25",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Sau cuộc kiểm toán xuất phát từ một tố giác ẩn danh, trưởng phòng được kiểm toán hỏi kiểm toán viên 'ai đã báo cáo' để 'rút kinh nghiệm'. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Cho biết danh tính vì trưởng phòng có quyền được biết.",
+      "Chuyển câu hỏi cho bộ phận Nhân sự trả lời.",
+      "Gợi ý một vài người có thể là người tố giác.",
+      "Không tiết lộ thông tin có thể nhận ra người tố giác."
+    ],
+    "answer": 3,
+    "explanation": "Bảo mật danh tính người tố giác là yêu cầu cốt lõi của kênh tố giác và của nguyên tắc bảo mật. Tiết lộ, kể cả gián tiếp, có thể dẫn đến trả đũa và làm mất niềm tin vào kênh tố giác.",
+    "optionNotes": [
+      "Sai. Vi phạm bảo mật và có thể dẫn đến trả đũa.",
+      "Sai. Nhân sự cũng không được tiết lộ.",
+      "Sai. Gợi ý gián tiếp cũng là tiết lộ.",
+      "Đúng. Bảo vệ danh tính người tố giác."
+    ],
+    "refs": [
+      "CIA Part 1 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M26",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Trong cuộc kiểm toán, kiểm toán viên biết công ty sắp công bố thương vụ mua lại lớn chưa được công khai và định mua cổ phiếu của công ty trước ngày công bố. Đánh giá nào đúng nhất?",
+    "options": [
+      "Vi phạm: trục lợi từ thông tin có được trong công việc.",
+      "Được phép vì kiểm toán viên dùng tiền cá nhân.",
+      "Được phép nếu số lượng cổ phiếu mua không lớn.",
+      "Được phép nếu kiểm toán viên báo cáo cho CAE ngay sau khi đã mua."
+    ],
+    "answer": 0,
+    "explanation": "Dùng thông tin bảo mật có được khi thực hiện công việc để mưu lợi cá nhân vi phạm nguyên tắc bảo mật, và có thể vi phạm pháp luật về giao dịch nội gián.",
+    "optionNotes": [
+      "Đúng. Trục lợi từ thông tin bảo mật.",
+      "Sai. Nguồn tiền không quan trọng; thông tin mới là vấn đề.",
+      "Sai. Quy mô không làm hành vi hợp lệ.",
+      "Sai. Báo sau không làm hành vi hợp lệ."
+    ],
+    "refs": [
+      "GIAS 5.2",
+      "CIA Part 1 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M27",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Được cấp quyền đọc dữ liệu nhân sự để kiểm toán quy trình chấm công, một kiểm toán viên tò mò mở xem bảng lương của các đồng nghiệp trong phòng kiểm toán. Nhận định nào đúng nhất?",
+    "options": [
+      "Không sao vì kiểm toán viên đã được cấp quyền truy cập hợp lệ vào hệ thống.",
+      "Sai, vì chỉ được dùng thông tin trong phạm vi mục tiêu kiểm toán.",
+      "Không sao nếu kiểm toán viên không kể với ai.",
+      "Sai, chỉ vì thông tin lương thuộc loại mật cấp cao."
+    ],
+    "answer": 1,
+    "explanation": "Quyền truy cập được cấp để phục vụ mục tiêu kiểm toán; dùng quyền đó cho mục đích khác (tò mò cá nhân) là vi phạm việc tôn trọng quyền riêng tư và sử dụng thông tin đúng mục đích.",
+    "optionNotes": [
+      "Sai. Quyền truy cập không cho phép dùng sai mục đích.",
+      "Đúng. Chỉ sử dụng thông tin cho mục tiêu kiểm toán.",
+      "Sai. Hành vi xem đã là vi phạm.",
+      "Sai. Nguyên tắc áp dụng cho mọi thông tin, không chỉ thông tin mật."
+    ],
+    "refs": [
+      "GIAS 5.2",
+      "CIA Part 1 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M28",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Hệ thống email công ty bị lỗi, một kiểm toán viên định gửi dự thảo báo cáo có thông tin khách hàng qua email cá nhân để kịp hạn. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Gửi qua email cá nhân vì cần kịp thời hạn báo cáo.",
+      "Gửi qua email cá nhân rồi xóa thư ngay sau khi người nhận đã đọc xong.",
+      "Dùng kênh được phép theo chính sách bảo mật, hoặc báo trễ hạn.",
+      "Chụp ảnh từng trang và gửi qua ứng dụng nhắn tin."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán viên phải áp dụng chính sách và phương pháp bảo vệ thông tin của tổ chức. Kênh không được phép như email cá nhân, ứng dụng nhắn tin có nguy cơ làm lộ dữ liệu; trễ hạn ít nghiêm trọng hơn lộ thông tin.",
+    "optionNotes": [
+      "Sai. Áp lực thời gian không cho phép vi phạm bảo mật.",
+      "Sai. Xóa sau không loại bỏ rủi ro đã phát sinh.",
+      "Đúng. Dùng kênh được phép hoặc chấp nhận trễ hạn.",
+      "Sai. Ứng dụng nhắn tin cũng không được phép."
+    ],
+    "refs": [
+      "GIAS 5.2",
+      "CIA Part 1 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M29",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 3,
+    "stem": "Một sai sót nhỏ do thông đồng và làm giả chứng từ tinh vi không được phát hiện trong cuộc kiểm toán đã tuân thủ đầy đủ chương trình được duyệt. Một thành viên HĐQT cho rằng kiểm toán viên đã thiếu thận trọng. Nhận định nào đúng nhất?",
+    "options": [
+      "Đúng, vì thận trọng nghề nghiệp đòi hỏi phát hiện mọi sai sót.",
+      "Sai, vì kiểm toán viên không chịu trách nhiệm với bất kỳ sai sót nào trong đơn vị.",
+      "Đúng, vì mọi sai sót không phát hiện được đều do thiếu năng lực.",
+      "Chưa chắc: thận trọng nghề nghiệp không có nghĩa là không bao giờ sai sót."
+    ],
+    "answer": 3,
+    "explanation": "Thận trọng nghề nghiệp đúng mức đòi hỏi sự cẩn trọng, kỹ năng hợp lý, nhưng không có nghĩa là không thể sai (IPPF 2017 1220). Sai sót được che giấu bằng thông đồng, làm giả tinh vi có thể không bị phát hiện dù đã làm đúng.",
+    "optionNotes": [
+      "Sai. Thận trọng không bảo đảm phát hiện mọi sai sót.",
+      "Sai. Kiểm toán viên vẫn chịu trách nhiệm về sự thận trọng.",
+      "Sai. Quá tuyệt đối.",
+      "Đúng. Thận trọng không đồng nghĩa với không sai sót."
+    ],
+    "refs": [
+      "IPPF 2017 1220",
+      "GIAS 4.2",
+      "CIA Part 1 B.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M30",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 2,
+    "stem": "Phòng kiểm toán dùng cùng một chương trình kiểm toán và cùng số ngày công cho một chi nhánh 5 nhân viên và hội sở 500 nhân viên. Theo yêu cầu về thận trọng nghề nghiệp, nhận xét nào đúng nhất?",
+    "options": [
+      "Chưa phù hợp: cần điều chỉnh theo độ phức tạp, trọng yếu.",
+      "Phù hợp, vì dùng chung một chương trình bảo đảm tính nhất quán giữa các nơi.",
+      "Phù hợp, nếu cả hai nơi đều được kiểm toán hằng năm.",
+      "Chưa phù hợp, vì chi nhánh nhỏ không cần kiểm toán."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 4.2 yêu cầu khi thực hiện thận trọng nghề nghiệp phải cân nhắc mức độ, tính kịp thời của công việc và độ phức tạp, mức trọng yếu của rủi ro. Cùng một khối lượng cho hai đơn vị rất khác nhau là chưa phù hợp.",
+    "optionNotes": [
+      "Đúng. Điều chỉnh theo độ phức tạp và trọng yếu.",
+      "Sai. Nhất quán không thay được việc điều chỉnh theo rủi ro.",
+      "Sai. Tần suất không giải quyết được khối lượng công việc.",
+      "Sai. Quá tuyệt đối."
+    ],
+    "refs": [
+      "GIAS 4.2",
+      "CIA Part 1 B.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M31",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Giám đốc tài chính, người có uy tín lâu năm, giải thích một khoản chi bất thường là 'đã được Chủ tịch đồng ý miệng'. Kiểm toán viên ghi nhận và đóng vấn đề mà không tìm thêm bằng chứng. Thiên kiến nào thể hiện rõ nhất?",
+    "options": [
+      "Thiên kiến xác nhận (confirmation bias).",
+      "Thiên kiến uy quyền (authority bias).",
+      "Thiên kiến neo (anchoring bias).",
+      "Thiên kiến sẵn có (availability bias)."
+    ],
+    "answer": 1,
+    "explanation": "Thiên kiến uy quyền là xu hướng chấp nhận ý kiến của người có địa vị, uy tín mà không kiểm chứng. Thái độ hoài nghi nghề nghiệp đòi hỏi đánh giá độ tin cậy của thông tin dù nguồn là ai.",
+    "optionNotes": [
+      "Sai. Không có dấu hiệu chỉ tìm bằng chứng ủng hộ niềm tin sẵn có.",
+      "Đúng. Chấp nhận vì địa vị, uy tín của người giải thích.",
+      "Sai. Không có con số hay mốc ban đầu chi phối.",
+      "Sai. Không liên quan đến thông tin dễ nhớ gần đây."
+    ],
+    "refs": [
+      "CIA Part 1 B.2",
+      "GIAS 4.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M32",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Ngoài giờ làm, một kiểm toán viên nội bộ làm tư vấn bán thời gian có thù lao cho một công ty là khách hàng lớn của chính công ty mình. Vấn đề chính là gì?",
+    "options": [
+      "Kiểm toán viên có thể bị mệt mỏi do làm việc quá nhiều giờ.",
+      "Thù lao tư vấn phải được kê khai đầy đủ để tính thuế thu nhập cá nhân.",
+      "Xung đột lợi ích làm suy giảm khách quan khi kiểm toán.",
+      "Kiểm toán viên vi phạm quy định về giờ làm việc tối đa."
+    ],
+    "answer": 2,
+    "explanation": "Quan hệ tài chính với khách hàng lớn của tổ chức tạo xung đột lợi ích, có thể ảnh hưởng đến khách quan khi kiểm toán các quy trình liên quan đến khách hàng đó (bán hàng, công nợ). Cần kê khai và xử lý theo chính sách.",
+    "optionNotes": [
+      "Sai. Không phải vấn đề đạo đức chính.",
+      "Sai. Vấn đề thuế không phải trọng tâm.",
+      "Đúng. Xung đột lợi ích làm suy giảm khách quan.",
+      "Sai. Không phải vấn đề chính."
+    ],
+    "refs": [
+      "GIAS 2.2",
+      "CIA Part 1 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M33",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Thưởng cuối năm của các kiểm toán viên được tính theo lợi nhuận của chính khối kinh doanh mà họ phụ trách kiểm toán. Nhận định nào đúng nhất?",
+    "options": [
+      "Hợp lý vì gắn kiểm toán viên với kết quả kinh doanh chung.",
+      "Chỉ là vấn đề nếu khối kinh doanh lỗ trong năm.",
+      "Hợp lý nếu mức thưởng này chỉ chiếm phần nhỏ trong tổng thu nhập hằng năm.",
+      "Tạo xung đột lợi ích, khiến kiểm toán viên ngại báo cáo bất lợi."
+    ],
+    "answer": 3,
+    "explanation": "Khi thu nhập của kiểm toán viên phụ thuộc vào kết quả của đơn vị được kiểm toán, họ có động cơ né tránh phát hiện làm giảm kết quả đó. Đây là xung đột lợi ích làm suy giảm khách quan.",
+    "optionNotes": [
+      "Sai. Gắn thưởng với đơn vị được kiểm toán gây xung đột.",
+      "Sai. Xung đột tồn tại bất kể lãi hay lỗ.",
+      "Sai. Tỷ lệ nhỏ vẫn có thể ảnh hưởng.",
+      "Đúng. Xung đột lợi ích về tài chính."
+    ],
+    "refs": [
+      "GIAS 2.2",
+      "CIA Part 1 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M34",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Tổng Giám đốc đề nghị CAE hoãn trình HĐQT báo cáo về sai phạm trọng yếu trong quản lý dòng tiền đến sau đợt phát hành trái phiếu tháng tới, để 'không ảnh hưởng nhà đầu tư'. CAE nên làm gì?",
+    "options": [
+      "Báo cáo kịp thời cho HĐQT theo kênh báo cáo chức năng.",
+      "Đồng ý hoãn vì chỉ chậm một tháng và có lợi cho công ty.",
+      "Gửi báo cáo trực tiếp cho các nhà đầu tư trái phiếu.",
+      "Hoãn báo cáo nhưng ghi lại yêu cầu của Tổng Giám đốc."
+    ],
+    "answer": 0,
+    "explanation": "Chính trực và dũng khí nghề nghiệp đòi hỏi CAE báo cáo kịp thời những vấn đề trọng yếu cho HĐQT, dù chịu áp lực từ Ban điều hành. Việc công bố ra bên ngoài là quyết định của HĐQT và Ban điều hành theo quy định.",
+    "optionNotes": [
+      "Đúng. Báo cáo kịp thời cho HĐQT.",
+      "Sai. Trì hoãn để che giấu với nhà đầu tư là thiếu chính trực.",
+      "Sai. Kiểm toán nội bộ không tự công bố ra bên ngoài.",
+      "Sai. Ghi lại không thay được việc báo cáo kịp thời."
+    ],
+    "refs": [
+      "GIAS 1.1",
+      "CIA Part 1 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M35",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Để có bằng chứng, trưởng nhóm đề nghị bí mật ghi âm cuộc phỏng vấn với nhân viên bị nghi ngờ mà không thông báo. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Ghi âm bí mật vì giúp có bằng chứng chính xác nhất.",
+      "Hỏi pháp chế, chính sách trước; không ghi âm nếu không được phép.",
+      "Ghi âm rồi xóa bản ghi nếu người được phỏng vấn phản đối sau buổi làm việc.",
+      "Nhờ nhân viên IT cài thiết bị ghi âm trong phòng họp."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán viên phải hành xử đúng pháp luật và chuẩn mực nghề nghiệp. Việc ghi âm bí mật có thể vi phạm pháp luật hoặc chính sách, làm bằng chứng mất giá trị; cần tham khảo pháp chế trước.",
+    "optionNotes": [
+      "Sai. Bằng chứng thu trái phép có thể mất giá trị.",
+      "Đúng. Kiểm tra cơ sở pháp lý trước khi làm.",
+      "Sai. Hành vi ghi âm đã có thể vi phạm.",
+      "Sai. Vẫn là ghi âm bí mật."
+    ],
+    "refs": [
+      "GIAS 1.3",
+      "CIA Part 1 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M36",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Hai tuần sau khi phát hành, CAE phát hiện báo cáo kiểm toán ghi sai số tiền chênh lệch (ghi 2 tỷ đồng thay vì 20 tỷ đồng), làm người đọc đánh giá thấp mức độ nghiêm trọng. CAE nên làm gì?",
+    "options": [
+      "Sửa trong hồ sơ nội bộ, không cần thông báo cho ai.",
+      "Chờ báo cáo năm sau để đính chính một lần.",
+      "Nhanh chóng gửi thông tin đã sửa cho mọi bên đã nhận báo cáo gốc.",
+      "Chỉ thông báo miệng cho Tổng Giám đốc tại cuộc họp giao ban gần nhất."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 11.4 yêu cầu: nếu báo cáo cuối cùng có sai sót hoặc bỏ sót đáng kể, CAE phải nhanh chóng gửi thông tin đã sửa cho tất cả các bên đã nhận báo cáo gốc.",
+    "optionNotes": [
+      "Sai. Người đọc vẫn dựa vào thông tin sai.",
+      "Sai. Chờ quá lâu với sai sót đáng kể.",
+      "Đúng. Gửi thông tin đã sửa cho mọi bên đã nhận.",
+      "Sai. Không đến được tất cả người nhận."
+    ],
+    "refs": [
+      "GIAS 11.4",
+      "CIA Part 1 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-M37",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên gặp một quy định mới về hóa đơn điện tử, các bài viết trên mạng giải thích khác nhau. Nguồn thông tin đáng tin cậy nhất để làm tiêu chí kiểm toán là gì?",
+    "options": [
+      "Bài viết được chia sẻ nhiều nhất trên mạng xã hội.",
+      "Diễn đàn trao đổi của những người làm kế toán.",
+      "Ý kiến của nhân viên kế toán tại chính đơn vị đang được kiểm toán.",
+      "Văn bản gốc của cơ quan ban hành và hướng dẫn chính thức."
+    ],
+    "answer": 3,
+    "explanation": "Kỹ năng nghiên cứu đòi hỏi đánh giá độ tin cậy của nguồn. Văn bản gốc và hướng dẫn chính thức của cơ quan ban hành là nguồn đáng tin cậy nhất; các nguồn thứ cấp cần được kiểm chứng.",
+    "optionNotes": [
+      "Sai. Mức độ phổ biến không phản ánh độ tin cậy.",
+      "Sai. Diễn đàn là nguồn thứ cấp chưa kiểm chứng.",
+      "Sai. Đơn vị được kiểm toán không độc lập.",
+      "Đúng. Nguồn gốc chính thức."
+    ],
+    "refs": [
+      "CIA Part 1 B.4"
+    ],
+    "source": "original"
   }
 ]
