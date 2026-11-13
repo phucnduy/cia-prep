@@ -2434,5 +2434,132 @@
       "GIAS 6.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-A-N34",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 3,
+    "stem": "Cuộc kiểm toán X: kiểm toán viên tự thu thập bằng chứng và đưa ra kết luận về hiệu quả kiểm soát mua hàng. Cuộc kiểm toán Y: Ban điều hành tự đánh giá và khẳng định kiểm soát an toàn thông tin hữu hiệu, kiểm toán viên cho ý kiến về khẳng định đó. Hai cuộc này lần lượt thuộc dạng nào?",
+    "options": [
+      "X là tư vấn, Y là đảm bảo, vì Y có khẳng định chính thức của Ban điều hành.",
+      "X là đảm bảo trực tiếp; Y là đảm bảo dựa trên khẳng định của Ban điều hành.",
+      "Cả hai đều là tư vấn, vì đều phục vụ nhu cầu thông tin của Ban điều hành.",
+      "X là đảm bảo dựa trên khẳng định; Y là đảm bảo trực tiếp của kiểm toán viên."
+    ],
+    "answer": 1,
+    "explanation": "Trong đảm bảo trực tiếp (direct engagement), kiểm toán viên tự đánh giá đối tượng và đưa ra kết luận. Trong đảm bảo dựa trên khẳng định (attestation), bên chịu trách nhiệm đưa ra khẳng định và kiểm toán viên cho ý kiến về khẳng định đó. Cả hai đều là dịch vụ đảm bảo.",
+    "optionNotes": [
+      "Sai. X cũng là đảm bảo vì có kết luận về hiệu quả kiểm soát.",
+      "Đúng. Phân biệt đúng hai dạng đảm bảo.",
+      "Sai. Cả hai đều đưa ra kết luận đảm bảo, không phải tư vấn.",
+      "Sai. Đảo ngược hai khái niệm."
+    ],
+    "refs": [
+      "CIA Part 1 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N35",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Trước khi bắt đầu một cuộc tư vấn về quy trình quản lý hợp đồng, kiểm toán nội bộ và khách hàng tư vấn nên thống nhất những nội dung nào?",
+    "options": [
+      "Chỉ cần thống nhất ngày bắt đầu, vì nội dung tư vấn sẽ hình thành dần trong quá trình làm.",
+      "Mục tiêu, phạm vi, trách nhiệm hai bên và kỳ vọng về kết quả, hình thức báo cáo.",
+      "Danh sách các phát hiện dự kiến để khách hàng tư vấn chuẩn bị giải trình trước.",
+      "Mức độ đảm bảo mà kiểm toán nội bộ sẽ đưa ra về hiệu quả của quy trình."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán viên phải xác lập và ghi nhận mục tiêu, phạm vi cho mỗi cuộc kiểm toán, kể cả tư vấn (GIAS 13.3). Với tư vấn, phạm vi và kỳ vọng được thỏa thuận với khách hàng; thống nhất trước giúp tránh hiểu nhầm và tránh nhận trách nhiệm quản lý.",
+    "optionNotes": [
+      "Sai. Thiếu thỏa thuận về mục tiêu, phạm vi dễ dẫn đến hiểu nhầm.",
+      "Đúng. Đây là các nội dung cần thống nhất trước cuộc tư vấn.",
+      "Sai. Phát hiện chưa thể biết trước khi làm.",
+      "Sai. Tư vấn không đưa ra mức độ đảm bảo."
+    ],
+    "refs": [
+      "GIAS 13.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N36",
+    "section": "A",
+    "topic": "A8",
+    "difficulty": 3,
+    "stem": "Quy trình quản trị rủi ro của công ty đầy đủ trên giấy, nhưng khảo sát cho thấy nhân viên coi việc báo cáo rủi ro là 'thủ tục', ít ai dám nêu rủi ro trong dự án của sếp. Khi đánh giá hiệu quả quản trị rủi ro, kiểm toán nội bộ nên kết luận gì?",
+    "options": [
+      "Hữu hiệu, vì các chính sách, quy trình quản trị rủi ro đã được ban hành đầy đủ.",
+      "Chưa hữu hiệu thực chất; văn hóa rủi ro yếu làm rủi ro không được nêu kịp thời.",
+      "Không đánh giá được, vì văn hóa rủi ro nằm ngoài phạm vi của kiểm toán nội bộ.",
+      "Hữu hiệu, nếu sổ đăng ký rủi ro vẫn được cập nhật đúng hạn mỗi quý."
+    ],
+    "answer": 1,
+    "explanation": "Hiệu quả quản trị rủi ro phụ thuộc cả vào văn hóa rủi ro: nhân viên có sẵn sàng nêu và thảo luận rủi ro không. Khi văn hóa yếu, quy trình trên giấy không bảo đảm rủi ro trọng yếu được nhận diện và truyền đạt kịp thời. Kiểm toán nội bộ có thể đánh giá văn hóa qua khảo sát, phỏng vấn, quan sát.",
+    "optionNotes": [
+      "Sai. Bẫy hình thức: chính sách đầy đủ không chứng minh vận hành thực chất.",
+      "Đúng. Văn hóa rủi ro yếu làm quy trình không hữu hiệu.",
+      "Sai. Văn hóa là một phần của quản trị rủi ro, có thể đánh giá được.",
+      "Sai. Cập nhật đúng hạn là hình thức, không chứng minh rủi ro được nêu đầy đủ."
+    ],
+    "refs": [
+      "CIA Part 1 A.8",
+      "COSO ERM 2017"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N37",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Nhà máy đạt chứng nhận ISO 9001. Ban điều hành muốn kiểm toán nội bộ đánh giá các quy trình kiểm soát chất lượng có thực sự được tuân thủ giữa các kỳ đánh giá của tổ chức chứng nhận hay không. Đây là loại kiểm toán nào?",
+    "options": [
+      "Kiểm toán hệ thống quản lý chất lượng, một dạng đảm bảo về tuân thủ quy trình.",
+      "Kiểm toán báo cáo tài chính về chi phí bảo hành và chi phí hàng lỗi trong năm.",
+      "Tư vấn thiết kế lại hệ thống quản lý chất lượng theo phiên bản ISO mới nhất.",
+      "Kiểm toán độc lập thay cho tổ chức chứng nhận ISO trong kỳ đánh giá lại."
+    ],
+    "answer": 0,
+    "explanation": "Mục tiêu là đánh giá các quy trình chất lượng có được tuân thủ thực tế, nên đây là kiểm toán hệ thống quản lý chất lượng, một dạng đảm bảo về tuân thủ quy trình nội bộ và chuẩn mực. Nó bổ sung, không thay thế, đánh giá của tổ chức chứng nhận.",
+    "optionNotes": [
+      "Đúng. Đánh giá tuân thủ quy trình chất lượng là đảm bảo.",
+      "Sai. Chi phí bảo hành không phải mục tiêu được hỏi.",
+      "Sai. Mục tiêu là đánh giá tuân thủ, không phải thiết kế lại.",
+      "Sai. Kiểm toán nội bộ không thay tổ chức chứng nhận."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N38",
+    "section": "A",
+    "topic": "A8",
+    "difficulty": 2,
+    "stem": "Ủy ban Kiểm toán muốn biết chương trình giám sát tuân thủ của bộ phận Tuân thủ (tuyến thứ hai) có hữu hiệu không. Cách tham gia nào của kiểm toán nội bộ phù hợp nhất?",
+    "options": [
+      "Tiếp quản việc giám sát tuân thủ, vì kiểm toán nội bộ độc lập hơn bộ phận Tuân thủ.",
+      "Thực hiện cuộc đảm bảo đánh giá hiệu quả chương trình giám sát của bộ phận Tuân thủ.",
+      "Từ chối, vì kiểm toán nội bộ chỉ đánh giá tuyến thứ nhất, không đánh giá tuyến thứ hai.",
+      "Dựa hoàn toàn vào báo cáo tự đánh giá của bộ phận Tuân thủ, không cần kiểm tra thêm."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán nội bộ (tuyến thứ ba) cung cấp đảm bảo độc lập về quản trị, quản lý rủi ro và kiểm soát, bao gồm hiệu quả của các chức năng tuyến thứ hai. Kế hoạch kiểm toán cũng phải xem xét hiệu quả chương trình tuân thủ và đạo đức (GIAS 9.4).",
+    "optionNotes": [
+      "Sai. Tiếp quản là nhận trách nhiệm quản lý.",
+      "Đúng. Đảm bảo về hiệu quả tuyến thứ hai là vai trò của kiểm toán nội bộ.",
+      "Sai. Kiểm toán nội bộ đánh giá cả tuyến một và tuyến hai.",
+      "Sai. Dựa hoàn toàn vào tự đánh giá là thiếu cơ sở, không có đảm bảo độc lập."
+    ],
+    "refs": [
+      "IIA Three Lines Model",
+      "GIAS 9.4"
+    ],
+    "source": "original"
   }
 ]

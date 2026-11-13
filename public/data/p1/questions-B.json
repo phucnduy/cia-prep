@@ -1399,5 +1399,132 @@
       "GIAS 2.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-B-N16",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Trong cuộc họp kết thúc, kiểm toán viên phê bình gay gắt, mỉa mai nhân viên kế toán trước toàn bộ phòng về các lỗi đã phát hiện. Hành vi này đi ngược yêu cầu nào trực tiếp nhất?",
+    "options": [
+      "Bảo mật, vì đã nêu phát hiện trước những người không có trách nhiệm liên quan.",
+      "Trung thực và tôn trọng trong mọi quan hệ, trao đổi nghề nghiệp.",
+      "Năng lực, vì kiểm toán viên chưa có kỹ năng trình bày trước đám đông.",
+      "Khách quan, vì kiểm toán viên đã có định kiến với nhân viên kế toán."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán viên phải trung thực, chính xác, rõ ràng, cởi mở và tôn trọng trong mọi quan hệ và trao đổi nghề nghiệp, kể cả khi bày tỏ sự hoài nghi hoặc quan điểm trái chiều (GIAS 1.1).",
+    "optionNotes": [
+      "Sai. Cuộc họp kết thúc là kênh phù hợp; vấn đề là thái độ thiếu tôn trọng.",
+      "Đúng. Yêu cầu tôn trọng trong trao đổi nghề nghiệp bị vi phạm.",
+      "Sai. Vấn đề là thái độ, không phải kỹ năng trình bày.",
+      "Sai. Tình huống không cho thấy định kiến ảnh hưởng đến kết luận."
+    ],
+    "refs": [
+      "GIAS 1.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N17",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 2,
+    "stem": "Cuộc kiểm toán công ty con tại Nhật Bản yêu cầu đọc hợp đồng và phỏng vấn bằng tiếng Nhật, nhưng nhóm kiểm toán không ai biết tiếng Nhật. CAE nên làm gì?",
+    "options": [
+      "Vẫn thực hiện bằng công cụ dịch tự động, chấp nhận rủi ro hiểu sai nội dung.",
+      "Bổ sung năng lực, ví dụ phiên dịch tin cậy, chuyên gia, đồng kiểm toán.",
+      "Chỉ kiểm toán các tài liệu có bản tiếng Anh, bỏ qua các tài liệu còn lại.",
+      "Hủy cuộc kiểm toán, vì nhóm không có đủ năng lực ngôn ngữ cần thiết."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán viên chỉ tham gia dịch vụ mà mình có hoặc có thể đạt được năng lực cần thiết; CAE phải bảo đảm chức năng có hoặc bổ sung năng lực tổng thể (GIAS 3.1). Ngôn ngữ là năng lực có thể bổ sung qua nguồn lực phù hợp, đánh giá độ tin cậy của họ.",
+    "optionNotes": [
+      "Sai. Dịch tự động có rủi ro hiểu sai điều khoản quan trọng.",
+      "Đúng. Bổ sung năng lực bằng nguồn lực phù hợp.",
+      "Sai. Bỏ tài liệu là giới hạn phạm vi không cần thiết.",
+      "Sai. Phản ứng quá mức khi có thể bổ sung năng lực."
+    ],
+    "refs": [
+      "GIAS 3.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N18",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Trong buổi họp lớp, một kiểm toán viên kể chi tiết về vụ gian lận đang điều tra ở công ty, có nhắc tên phòng ban và chức danh người bị nghi ngờ, cho rằng 'không nêu tên thì không sao'. Đánh giá nào đúng nhất?",
+    "options": [
+      "Không sao, vì không nêu họ tên cụ thể của người bị nghi ngờ.",
+      "Không sao, nếu những người nghe không làm việc trong cùng ngành.",
+      "Vi phạm bảo mật, kể cả khi chỉ kể miệng mà không nêu tên.",
+      "Chỉ vi phạm khi thông tin đó được đăng tải lên mạng xã hội."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán viên phải bảo vệ thông tin khỏi tiếp cận và công bố trái phép, cả trong và ngoài tổ chức; thông tin cần bảo vệ bao gồm cả thông tin có từ trao đổi bằng lời (GIAS Nguyên tắc 5, 5.2). Phòng ban và chức danh có thể đủ để nhận diện người bị nghi ngờ.",
+    "optionNotes": [
+      "Sai. Phòng ban và chức danh có thể đủ để nhận diện người.",
+      "Sai. Bảo mật không phụ thuộc người nghe làm ngành gì.",
+      "Đúng. Vi phạm nghĩa vụ bảo mật, kể cả khi chỉ kể miệng.",
+      "Sai. Nghĩa vụ bảo mật áp dụng cho mọi hình thức công bố."
+    ],
+    "refs": [
+      "GIAS 5.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N19",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 3,
+    "stem": "CAE giao một trưởng nhóm giám sát cuộc kiểm toán thay mình. Trưởng nhóm ký duyệt hồ sơ chỉ dựa trên danh mục đã hoàn thành, không xem các hồ sơ có đủ căn cứ cho phát hiện hay không. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì CAE đã ủy quyền nên trách nhiệm giám sát chuyển hẳn cho trưởng nhóm.",
+      "Phù hợp, nếu danh mục công việc đã được CAE phê duyệt từ đầu cuộc kiểm toán.",
+      "Chưa đủ; người giám sát phải xác nhận hồ sơ đủ căn cứ cho phát hiện, kết luận.",
+      "Chưa đủ, vì CAE không được ủy quyền giám sát cuộc kiểm toán cho người khác."
+    ],
+    "answer": 2,
+    "explanation": "CAE có thể làm người giám sát hoặc ủy quyền (GIAS - Glossary). Người giám sát phải hướng dẫn kiểm toán viên, xác minh chương trình đã hoàn thành và xác nhận hồ sơ đủ căn cứ cho phát hiện, kết luận, khuyến nghị (GIAS 12.3); hồ sơ phải được rà soát về độ chính xác, phù hợp, đầy đủ (GIAS 14.6).",
+    "optionNotes": [
+      "Sai. Ủy quyền không làm giảm yêu cầu về chất lượng giám sát.",
+      "Sai. Danh mục đã duyệt không thay việc xem căn cứ của phát hiện.",
+      "Đúng. Giám sát phải kiểm tra căn cứ, không chỉ hình thức.",
+      "Sai. CAE được phép ủy quyền giám sát."
+    ],
+    "refs": [
+      "GIAS 12.3",
+      "GIAS 14.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N20",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Trong cuộc điều tra gian lận tại phòng Kinh doanh, kiểm toán viên được giao phỏng vấn một trưởng nhóm, người từng là cấp dưới thân thiết của anh khi anh còn làm ở phòng này 3 năm trước. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Tiếp tục, vì đã qua 12 tháng kể từ khi rời phòng Kinh doanh nên không còn suy giảm.",
+      "Báo CAE về mối quan hệ để đánh giá và cân nhắc phân công người khác phỏng vấn.",
+      "Tiếp tục, vì quan hệ thân thiết giúp người được phỏng vấn cởi mở hơn với anh.",
+      "Tự từ chối cuộc điều tra mà không cần giải thích lý do với CAE hay ai khác."
+    ],
+    "answer": 1,
+    "explanation": "Quy tắc 12 tháng nói về việc đảm bảo cho hoạt động mình từng phụ trách; mối quan hệ cá nhân thân thiết là một nguồn suy giảm khách quan khác, có thể tồn tại lâu hơn. Kiểm toán viên phải nhận biết suy giảm thực tế, tiềm ẩn, bị cảm nhận và công bố cho CAE (GIAS 2.2, 2.3).",
+    "optionNotes": [
+      "Sai. Bẫy: mốc 12 tháng không xóa được suy giảm do quan hệ cá nhân.",
+      "Đúng. Công bố cho CAE để đánh giá và phân công phù hợp.",
+      "Sai. Quan hệ thân thiết làm suy giảm khách quan bị cảm nhận.",
+      "Sai. Phải công bố để CAE xử lý, không tự rút lui im lặng."
+    ],
+    "refs": [
+      "GIAS 2.2",
+      "GIAS 2.3"
+    ],
+    "source": "original"
   }
 ]

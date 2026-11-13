@@ -1157,5 +1157,83 @@
       "CIA Part 1 D.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-D-N15",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 3,
+    "stem": "Cuối tháng, nhân viên quỹ chuyển tiền từ tài khoản ngân hàng A sang B bằng séc; tài khoản B ghi nhận tiền ngay nhưng tài khoản A vài ngày sau mới bị trừ, tạo số dư ảo ở cả hai. Đây là thủ đoạn gì và cách phát hiện phù hợp?",
+    "options": [
+      "Gối đầu (lapping); đối chiếu chi tiết công nợ phải thu từng khách hàng.",
+      "Kiting; lập bảng theo dõi chuyển tiền giữa các ngân hàng.",
+      "Ăn chặn tiền (skimming); đối chiếu doanh thu với lượng hàng xuất kho.",
+      "Hóa đơn khống; xác minh thực tế sự tồn tại của nhà cung cấp."
+    ],
+    "answer": 1,
+    "explanation": "Kiting lợi dụng khoảng thời gian chờ thanh toán giữa các ngân hàng để tạo số dư ảo, che giấu thiếu hụt. Bảng theo dõi chuyển tiền giữa các ngân hàng quanh ngày khóa sổ (ngày ghi sổ, ngày ngân hàng ghi nhận ở hai đầu) giúp phát hiện.",
+    "optionNotes": [
+      "Sai. Gối đầu liên quan khoản thu khách hàng, không phải chuyển giữa ngân hàng.",
+      "Đúng. Đúng thủ đoạn và thủ tục phát hiện.",
+      "Sai. Skimming là lấy tiền trước khi ghi nhận doanh thu.",
+      "Sai. Không có nhà cung cấp hay hóa đơn trong tình huống."
+    ],
+    "refs": [
+      "CIA Part 1 D.1",
+      "ACFE"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N16",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Phân tích dữ liệu danh mục nhà cung cấp cho thấy 3 nhà cung cấp khác tên, khác địa chỉ nhưng dùng chung một số tài khoản ngân hàng nhận tiền. Kiểm toán viên nên xử lý dấu hiệu này thế nào?",
+    "options": [
+      "Bỏ qua, vì nhiều công ty có thể dùng chung tài khoản của công ty mẹ.",
+      "Coi là bất thường, xác minh chủ tài khoản và các giao dịch.",
+      "Kết luận ngay đây là nhà cung cấp ma và báo cáo Ủy ban Kiểm toán.",
+      "Đề nghị kế toán xóa hai nhà cung cấp để chỉ còn một tên trên danh mục."
+    ],
+    "answer": 1,
+    "explanation": "Nhiều nhà cung cấp dùng chung tài khoản ngân hàng là dấu hiệu cảnh báo (có thể là nhà cung cấp ma, thông đồng, hoặc lý do hợp lệ như cùng tập đoàn). Cần xác minh chủ tài khoản, quan hệ giữa các nhà cung cấp và các khoản đã thanh toán trước khi kết luận.",
+    "optionNotes": [
+      "Sai. Có thể có lý do hợp lệ, nhưng phải xác minh, không bỏ qua.",
+      "Đúng. Xác minh dấu hiệu bất thường trước khi kết luận.",
+      "Sai. Kết luận khi chưa xác minh là vội vàng.",
+      "Sai. Xóa nhà cung cấp làm mất dấu vết và không xử lý nguyên nhân."
+    ],
+    "refs": [
+      "CIA Part 1 D.4",
+      "ACFE"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N17",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 3,
+    "stem": "Lợi nhuận năm nay chỉ vượt chỉ tiêu nhờ Ban điều hành giảm mạnh tỷ lệ trích lập dự phòng nợ khó đòi so với các năm trước, trong khi nợ quá hạn đang tăng. Khi lập kế hoạch, kiểm toán viên nên xử lý điểm này thế nào?",
+    "options": [
+      "Chấp nhận, vì ước tính dự phòng là quyền xét đoán của Ban điều hành.",
+      "Coi là dấu hiệu điều chỉnh ước tính, so giả định với dữ liệu thực tế.",
+      "Yêu cầu Ban điều hành dùng lại tỷ lệ năm trước mà không cần phân tích thêm.",
+      "Chuyển toàn bộ vấn đề cho kiểm toán độc lập vì liên quan báo cáo tài chính."
+    ],
+    "answer": 1,
+    "explanation": "Thay đổi ước tính đi ngược xu hướng dữ liệu, vừa đủ để đạt chỉ tiêu, là dấu hiệu rủi ro Ban điều hành điều chỉnh ước tính (một dạng vượt quyền). Kiểm toán viên cần đưa vào đánh giá rủi ro gian lận (GIAS 13.2) và kiểm tra giả định so với dữ liệu thực tế.",
+    "optionNotes": [
+      "Sai. Quyền xét đoán không loại trừ việc đánh giá tính hợp lý của giả định.",
+      "Đúng. Coi là dấu hiệu rủi ro và kiểm tra giả định.",
+      "Sai. Áp tỷ lệ cũ mà không phân tích cũng thiếu căn cứ.",
+      "Sai. Kiểm toán nội bộ vẫn cần đánh giá rủi ro thuộc phạm vi của mình."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 1 D.2"
+    ],
+    "source": "original"
   }
 ]

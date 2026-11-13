@@ -2114,5 +2114,157 @@
       "COSO ERM 2017"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-C-N28",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Công ty niêm yết công bố mục tiêu giảm phát thải 30% trong 5 năm, nhưng HĐQT chưa phân công ai giám sát, chưa có chỉ tiêu theo dõi và chưa từng thảo luận tiến độ. Khi đánh giá quản trị, kiểm toán nội bộ nên nêu điểm yếu nào?",
+    "options": [
+      "Thiếu giám sát của HĐQT đối với mục tiêu bền vững đã công bố.",
+      "Mục tiêu 30% quá thấp so với mức trung bình của các công ty cùng ngành.",
+      "Công ty không nên công bố mục tiêu môi trường khi chưa chắc chắn đạt được.",
+      "Kiểm toán nội bộ cần nhận trách nhiệm theo dõi tiến độ giảm phát thải."
+    ],
+    "answer": 0,
+    "explanation": "Quản trị hữu hiệu đòi hỏi HĐQT giám sát việc thực hiện các mục tiêu chiến lược đã cam kết, kể cả ESG: phân công trách nhiệm, chỉ tiêu theo dõi, báo cáo định kỳ. Thiếu giám sát làm tăng rủi ro không đạt mục tiêu và rủi ro tẩy xanh.",
+    "optionNotes": [
+      "Đúng. Thiếu giám sát của HĐQT là điểm yếu quản trị.",
+      "Sai. Mức tham vọng là quyết định kinh doanh, không phải điểm yếu được hỏi.",
+      "Sai. Công bố mục tiêu không phải điểm yếu; thiếu giám sát mới là vấn đề.",
+      "Sai. Theo dõi tiến độ là trách nhiệm quản lý."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N29",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Khảo sát văn hóa cho thấy nhân viên tin tưởng cam kết đạo đức của Ban điều hành cấp cao, nhưng nhiều người cho biết trưởng phòng trực tiếp bảo họ 'cứ làm cho kịp chỉ tiêu, quy trình tính sau'. Kiểm toán viên nên nhận định gì?",
+    "options": [
+      "Môi trường kiểm soát tốt, vì thông điệp từ lãnh đạo cấp cao đã rõ ràng và nhất quán.",
+      "Thông điệp ở cấp quản lý trung gian làm yếu môi trường kiểm soát dù cấp cao tốt.",
+      "Đây là vấn đề năng lực của nhân viên, cần tăng cường đào tạo về quy trình làm việc.",
+      "Không có vấn đề, vì việc ưu tiên chỉ tiêu là bình thường trong môi trường kinh doanh."
+    ],
+    "answer": 1,
+    "explanation": "Nhân viên chịu ảnh hưởng trực tiếp nhất từ cấp quản lý gần mình. 'Tone at the top' tốt có thể bị vô hiệu bởi thông điệp ngược ở cấp trung gian ('tone in the middle'). Kiểm toán viên cần đánh giá văn hóa ở nhiều cấp, không chỉ cấp cao.",
+    "optionNotes": [
+      "Sai. Thông điệp cấp cao không đủ nếu cấp trung gian truyền đạt ngược lại.",
+      "Đúng. Cấp quản lý trung gian làm yếu môi trường kiểm soát.",
+      "Sai. Vấn đề là thông điệp của quản lý, không phải năng lực nhân viên.",
+      "Sai. Bỏ qua quy trình để đạt chỉ tiêu là rủi ro kiểm soát."
+    ],
+    "refs": [
+      "CIA Part 1 C.2",
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N30",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 2,
+    "stem": "Khi xếp hạng rủi ro tiềm tàng của các quy trình để lập kế hoạch, yếu tố nào sau đây KHÔNG làm tăng rủi ro tiềm tàng của một quy trình?",
+    "options": [
+      "Giao dịch phức tạp, nhiều xét đoán và ước tính của quản lý.",
+      "Khối lượng giao dịch lớn, giá trị cao và dễ chuyển đổi thành tiền.",
+      "Quy trình vừa thay đổi lớn về hệ thống hoặc nhân sự chủ chốt.",
+      "Quy trình có kiểm soát phê duyệt nhiều cấp đang vận hành tốt."
+    ],
+    "answer": 3,
+    "explanation": "Rủi ro tiềm tàng là rủi ro trước khi xét đến kiểm soát; nó tăng theo độ phức tạp, khối lượng, giá trị, tính thanh khoản của tài sản, mức độ thay đổi. Kiểm soát tốt làm giảm rủi ro còn lại, không thay đổi rủi ro tiềm tàng.",
+    "optionNotes": [
+      "Sai. Phức tạp và xét đoán làm tăng rủi ro tiềm tàng.",
+      "Sai. Khối lượng, giá trị và tính thanh khoản làm tăng rủi ro tiềm tàng.",
+      "Sai. Thay đổi lớn làm tăng rủi ro tiềm tàng.",
+      "Đúng. Kiểm soát ảnh hưởng rủi ro còn lại, không phải rủi ro tiềm tàng."
+    ],
+    "refs": [
+      "CIA Part 1 C.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N31",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Để sửa lỗi nhanh, các lập trình viên của công ty được cấp quyền ghi trực tiếp vào cơ sở dữ liệu của hệ thống thanh toán đang chạy thật. Rủi ro chính và kiểm soát phù hợp nhất là gì?",
+    "options": [
+      "Rủi ro chậm sửa lỗi; tăng thêm lập trình viên để xử lý sự cố nhanh hơn nữa.",
+      "Thiếu tách biệt phát triển và vận hành; hạn chế, giám sát quyền khẩn cấp.",
+      "Rủi ro chi phí bản quyền; chuyển sang phần mềm mã nguồn mở để tiết kiệm chi phí.",
+      "Rủi ro mất dữ liệu; tăng tần suất sao lưu cơ sở dữ liệu lên mỗi giờ một lần."
+    ],
+    "answer": 1,
+    "explanation": "Lập trình viên có quyền sửa dữ liệu thật vi phạm nguyên tắc tách biệt phát triển và vận hành, tạo rủi ro sửa đổi trái phép, gian lận không bị phát hiện. Kiểm soát phù hợp: hạn chế quyền truy cập môi trường thật, cấp quyền khẩn cấp có thời hạn, có phê duyệt và ghi nhật ký được rà soát.",
+    "optionNotes": [
+      "Sai. Tốc độ sửa lỗi không phải rủi ro chính.",
+      "Đúng. Đúng rủi ro và kiểm soát chung CNTT phù hợp.",
+      "Sai. Chi phí bản quyền không liên quan.",
+      "Sai. Sao lưu không ngăn được sửa đổi trái phép."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N32",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 3,
+    "stem": "Khi đánh giá kiểm soát nội bộ của một tập đoàn, kiểm toán viên phân loại kiểm soát. Kiểm soát nào sau đây là kiểm soát cấp đơn vị (entity-level), không phải kiểm soát cấp giao dịch?",
+    "options": [
+      "Đối chiếu ba bên giữa đơn đặt hàng, phiếu nhập kho và hóa đơn nhà cung cấp.",
+      "Phê duyệt từng phiếu chi vượt 50 triệu đồng của Kế toán trưởng chi nhánh.",
+      "Quy trình đánh giá rủi ro toàn tập đoàn và giám sát của Ủy ban Kiểm toán.",
+      "Kiểm tra tự động mã số thuế khi nhập một nhà cung cấp mới vào hệ thống."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm soát cấp đơn vị tác động rộng đến toàn tổ chức: môi trường kiểm soát, quy trình đánh giá rủi ro, giám sát của HĐQT, quy tắc ứng xử. Kiểm soát cấp giao dịch áp dụng cho từng nghiệp vụ cụ thể như đối chiếu, phê duyệt, kiểm tra dữ liệu nhập.",
+    "optionNotes": [
+      "Sai. Đối chiếu ba bên là kiểm soát cấp giao dịch.",
+      "Sai. Phê duyệt từng phiếu chi là kiểm soát cấp giao dịch.",
+      "Đúng. Đánh giá rủi ro toàn tập đoàn và giám sát là kiểm soát cấp đơn vị.",
+      "Sai. Kiểm tra dữ liệu nhập là kiểm soát ứng dụng cấp giao dịch."
+    ],
+    "refs": [
+      "CIA Part 1 C.7",
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N33",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 2,
+    "stem": "Để kiểm tra kiểm soát 'Kế toán trưởng đối chiếu và ký duyệt bảng đối chiếu ngân hàng hằng tháng', thủ tục nào cung cấp bằng chứng mạnh nhất về hiệu quả vận hành?",
+    "options": [
+      "Phỏng vấn Kế toán trưởng về cách thực hiện đối chiếu hằng tháng.",
+      "Xem chữ ký phê duyệt trên các bảng đối chiếu trong năm.",
+      "Thực hiện lại việc đối chiếu cho một số tháng và so kết quả.",
+      "Đọc quy trình đối chiếu ngân hàng đã được ban hành bằng văn bản."
+    ],
+    "answer": 2,
+    "explanation": "Thực hiện lại (re-performance) cho bằng chứng mạnh nhất vì kiểm toán viên tự làm lại kiểm soát và so sánh kết quả. Phỏng vấn yếu nhất; xem chữ ký chỉ cho thấy có thực hiện, không chứng minh thực hiện đúng; đọc quy trình chỉ chứng minh thiết kế.",
+    "optionNotes": [
+      "Sai. Phỏng vấn đơn thuần là bằng chứng yếu nhất.",
+      "Sai. Chữ ký chứng minh có thực hiện, không chứng minh thực hiện đúng.",
+      "Đúng. Thực hiện lại là bằng chứng mạnh nhất về vận hành.",
+      "Sai. Đọc quy trình chỉ cho biết thiết kế."
+    ],
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
+    "source": "original"
   }
 ]
