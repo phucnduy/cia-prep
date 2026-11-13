@@ -58,12 +58,12 @@
     "stem": "Trong giai đoạn lập kế hoạch, công cụ nào giúp kiểm toán viên liên kết rủi ro của quy trình với kiểm soát hiện có để xác định khoảng trống?",
     "options": [
       "Biểu đồ Gantt của tiến độ cuộc kiểm toán.",
-      "Ma trận rủi ro và kiểm soát (RCM).",
+      "Ma trận rủi ro và kiểm soát của quy trình.",
       "Bảng cân đối số phát sinh của kỳ kiểm toán.",
       "Biên bản họp kết thúc của cuộc kiểm toán năm trước."
     ],
     "answer": 1,
-    "explanation": "Ma trận rủi ro và kiểm soát (risk and control matrix) ánh xạ mục tiêu, rủi ro, kiểm soát chính và thủ tục kiểm tra. Đây là kết quả trọng tâm của đánh giá rủi ro cuộc kiểm toán (GIAS 13.2).",
+    "explanation": "Ma trận rủi ro và kiểm soát (risk and control matrix, RCM) ánh xạ mục tiêu, rủi ro, kiểm soát chính và thủ tục kiểm tra. Đây là kết quả trọng tâm của đánh giá rủi ro cuộc kiểm toán (GIAS 13.2).",
     "refs": [
       "GIAS 13.2"
     ],

@@ -12,7 +12,7 @@
       "Tuyên bố chức năng kiểm toán nội bộ tuân thủ GIAS."
     ],
     "answer": 3,
-    "explanation": "Tuyên bố 'tuân thủ Chuẩn mực' phải có cơ sở từ kết quả QAIP, bao gồm đánh giá bên ngoài ít nhất 5 năm một lần (GIAS 8.4). GIAS 15.1 (phần Xem xét khi thực hiện) nêu chỉ nên ghi cuộc kiểm toán tuân thủ Chuẩn mực khi kết quả giám sát cuộc kiểm toán và chương trình QAIP hỗ trợ (IPPF 2017 1321 có quy định tương tự). Các phương án còn lại không phụ thuộc vào việc đã có EQA hay chưa.",
+    "explanation": "Tuyên bố 'tuân thủ Chuẩn mực' chỉ nên đưa ra khi có cơ sở từ kết quả QAIP (GIAS 15.1, phần Xem xét khi thực hiện), bao gồm đánh giá bên ngoài ít nhất 5 năm một lần (GIAS 8.4). GIAS 15.1 (phần Xem xét khi thực hiện) nêu chỉ nên ghi cuộc kiểm toán tuân thủ Chuẩn mực khi kết quả giám sát cuộc kiểm toán và chương trình QAIP hỗ trợ (IPPF 2017 1321 có quy định tương tự). Các phương án còn lại không phụ thuộc vào việc đã có EQA hay chưa.",
     "refs": [
       "GIAS 8.4",
       "GIAS 15.1"
@@ -64,7 +64,10 @@
     ],
     "answer": 1,
     "explanation": "Khi có sự không tuân thủ Chuẩn mực (Nonconformance) ảnh hưởng đến một cuộc kiểm toán, chuẩn mực yêu cầu phải công bố rõ 3 yếu tố: (1) Chuẩn mực nào bị vi phạm, (2) Lý do, và (3) Ảnh hưởng của nó đến kết quả/kết luận kiểm toán.",
-    "refs": [],
+    "refs": [
+      "GIAS 15.1",
+      "CIA Part 3 C.2"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Không tuân thủ phải được công bố, kể cả khi kết luận không đổi.",

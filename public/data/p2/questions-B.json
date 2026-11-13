@@ -12,7 +12,10 @@
     ],
     "answer": 2,
     "explanation": "Root Cause Analysis (Phân tích nguyên nhân gốc rễ) giúp KTV tìm ra lý do sâu xa tại sao lỗi xảy ra (ví dụ: không chỉ dừng ở 'nhân viên nhập sai', mà tìm ra gốc rễ là 'phần mềm chưa thiết lập trường chặn lỗi và nhân viên mới chưa được đào tạo').",
-    "refs": [],
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 2 B.6"
+    ],
     "source": "legacy",
     "topic": "B6",
     "optionNotes": [
@@ -30,7 +33,7 @@
     "stem": "Thông tin dùng làm cơ sở cho phát hiện kiểm toán cần có những thuộc tính nào?",
     "options": [
       "Được đơn vị được kiểm toán ký xác nhận trên từng trang.",
-      "Phù hợp, đáng tin cậy và đầy đủ.",
+      "Phù hợp với mục tiêu, đáng tin cậy và đầy đủ.",
       "Được lưu trữ trên giấy và có dấu của tổ chức.",
       "Do bên thứ ba độc lập cung cấp trong mọi trường hợp."
     ],
