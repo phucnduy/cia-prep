@@ -2388,5 +2388,516 @@
       "COSO 2013"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-C-M01",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 2,
+    "stem": "Một chuỗi hiệu sách truyền thống mất dần khách vì các nền tảng bán sách điện tử giá rẻ, nhưng chưa có kế hoạch thay đổi mô hình kinh doanh. Rủi ro này thuộc loại nào chủ yếu?",
+    "options": [
+      "Rủi ro hoạt động, vì liên quan đến việc vận hành cửa hàng hằng ngày.",
+      "Rủi ro tuân thủ, vì liên quan đến quy định về thương mại điện tử.",
+      "Rủi ro chiến lược, vì đe dọa mô hình kinh doanh và khả năng đạt mục tiêu dài hạn.",
+      "Rủi ro tài chính, vì liên quan đến biến động lãi suất vay ngân hàng."
+    ],
+    "answer": 2,
+    "explanation": "Rủi ro chiến lược phát sinh từ thay đổi môi trường kinh doanh, đối thủ, công nghệ làm mô hình hoặc chiến lược hiện tại mất hiệu lực. Ở đây thị trường dịch chuyển đe dọa chính mô hình kinh doanh.",
+    "optionNotes": [
+      "Sai. Vận hành cửa hàng không phải nguồn rủi ro.",
+      "Sai. Không có vấn đề tuân thủ quy định.",
+      "Đúng. Thay đổi thị trường đe dọa chiến lược và mô hình kinh doanh.",
+      "Sai. Không liên quan đến lãi suất."
+    ],
+    "refs": [
+      "CIA Part 1 C.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M02",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 2,
+    "stem": "Một video quay cảnh nhân viên nhà hàng vi phạm vệ sinh thực phẩm lan truyền trên mạng xã hội, doanh thu toàn chuỗi giảm 30% trong một tuần. Hậu quả nổi bật nhất thuộc loại rủi ro nào?",
+    "options": [
+      "Rủi ro môi trường, vì liên quan đến việc xử lý chất thải của nhà hàng.",
+      "Rủi ro tài chính, vì liên quan đến biến động tỷ giá ngoại tệ của chuỗi.",
+      "Rủi ro chiến lược, vì chuỗi đã lựa chọn sai thị trường mục tiêu ban đầu.",
+      "Rủi ro uy tín, ảnh hưởng đến niềm tin của khách hàng với thương hiệu."
+    ],
+    "answer": 3,
+    "explanation": "Rủi ro uy tín là khả năng mất niềm tin của khách hàng, đối tác, công chúng, thường lan rộng nhanh qua mạng xã hội. Nguyên nhân gốc là rủi ro hoạt động (vệ sinh), nhưng hậu quả nổi bật là uy tín.",
+    "optionNotes": [
+      "Sai. Vệ sinh thực phẩm không phải vấn đề chất thải môi trường.",
+      "Sai. Không liên quan đến tỷ giá.",
+      "Sai. Không có dấu hiệu lựa chọn sai thị trường.",
+      "Đúng. Mất niềm tin của khách hàng là rủi ro uy tín."
+    ],
+    "refs": [
+      "CIA Part 1 C.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M03",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 2,
+    "stem": "Doanh nghiệp vay 10 triệu USD trong khi toàn bộ doanh thu bằng đồng Việt Nam, và không có biện pháp phòng ngừa. Rủi ro chính ở đây là gì?",
+    "options": [
+      "Rủi ro tài chính (tỷ giá): đồng Việt Nam mất giá làm tăng nghĩa vụ trả nợ.",
+      "Rủi ro hoạt động do quy trình thanh toán khoản vay quá phức tạp.",
+      "Rủi ro uy tín do vay nợ bằng ngoại tệ với ngân hàng nước ngoài.",
+      "Rủi ro tuân thủ do vay ngoại tệ luôn bị cấm theo quy định hiện hành."
+    ],
+    "answer": 0,
+    "explanation": "Khi nghĩa vụ nợ bằng ngoại tệ còn nguồn thu bằng nội tệ, biến động tỷ giá có thể làm chi phí trả nợ tăng mạnh: đây là rủi ro tài chính (rủi ro thị trường về tỷ giá).",
+    "optionNotes": [
+      "Đúng. Lệch đồng tiền giữa nợ và doanh thu là rủi ro tỷ giá.",
+      "Sai. Độ phức tạp quy trình không phải rủi ro chính.",
+      "Sai. Vay ngoại tệ tự nó không gây rủi ro uy tín.",
+      "Sai. Quá tuyệt đối: vay ngoại tệ không luôn bị cấm."
+    ],
+    "refs": [
+      "CIA Part 1 C.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M04",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 3,
+    "stem": "Ba nhà máy của công ty nằm ở vùng ven biển thường xuyên ngập lụt, ngày càng nặng hơn; đồng thời các nhà nhập khẩu châu Âu bắt đầu yêu cầu báo cáo phát thải carbon của sản phẩm. Hai rủi ro này thuộc nhóm nào?",
+    "options": [
+      "Rủi ro hoạt động đơn thuần, chỉ liên quan bảo trì nhà máy.",
+      "Rủi ro môi trường, bền vững và khí hậu (vật lý và chuyển đổi).",
+      "Rủi ro tài chính, chỉ liên quan chi phí bảo hiểm tài sản.",
+      "Rủi ro tuân thủ trong nước, chỉ liên quan luật đất đai."
+    ],
+    "answer": 1,
+    "explanation": "Ngập lụt ngày càng nặng là rủi ro khí hậu vật lý; yêu cầu báo cáo carbon từ thị trường là rủi ro chuyển đổi. Cả hai thuộc nhóm rủi ro môi trường, bền vững và khí hậu mà đề cương yêu cầu phân biệt.",
+    "optionNotes": [
+      "Sai. Không chỉ là bảo trì; nguồn rủi ro là khí hậu và yêu cầu thị trường.",
+      "Đúng. Rủi ro khí hậu vật lý và rủi ro chuyển đổi.",
+      "Sai. Chi phí bảo hiểm chỉ là một hệ quả.",
+      "Sai. Yêu cầu đến từ nhà nhập khẩu nước ngoài, không phải luật đất đai."
+    ],
+    "refs": [
+      "CIA Part 1 C.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M05",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 2,
+    "stem": "Công ty đã nhận diện, đánh giá rủi ro và triển khai các biện pháp ứng phó cho dự án mở rộng. Bước tiếp theo trong chu trình quản lý rủi ro là gì?",
+    "options": [
+      "Kết thúc quy trình vì các rủi ro đã được xử lý xong.",
+      "Lập lại danh sách rủi ro từ đầu vào cuối năm tài chính.",
+      "Giám sát, rà soát rủi ro và hiệu quả biện pháp, kèm báo cáo định kỳ.",
+      "Chuyển toàn bộ trách nhiệm theo dõi cho kiểm toán nội bộ."
+    ],
+    "answer": 2,
+    "explanation": "Quản lý rủi ro là chu trình liên tục: sau khi ứng phó, cần giám sát, rà soát rủi ro và hiệu quả biện pháp, cập nhật khi bối cảnh thay đổi, và báo cáo cho người có trách nhiệm.",
+    "optionNotes": [
+      "Sai. Rủi ro thay đổi nên quy trình không kết thúc.",
+      "Sai. Chờ cuối năm làm chậm việc phát hiện thay đổi.",
+      "Đúng. Giám sát, rà soát và báo cáo là bước tiếp theo.",
+      "Sai. Theo dõi rủi ro là trách nhiệm quản lý."
+    ],
+    "refs": [
+      "ISO 31000:2018",
+      "COSO ERM 2017"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M06",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 2,
+    "stem": "Để nhận diện rủi ro của dự án xây nhà máy mới, kỹ thuật nào giúp phát hiện được nhiều rủi ro nhất từ góc nhìn của các bộ phận liên quan?",
+    "options": [
+      "Một chuyên viên tự lập danh sách rủi ro dựa trên dự án tương tự năm trước.",
+      "Chờ dự án vận hành rồi ghi nhận các sự cố thực tế phát sinh.",
+      "Chỉ sao chép sổ đăng ký rủi ro chung của toàn công ty sang dự án.",
+      "Hội thảo nhận diện rủi ro với các bộ phận liên quan, kết hợp phân tích kịch bản."
+    ],
+    "answer": 3,
+    "explanation": "Hội thảo với các bên liên quan và phân tích kịch bản tận dụng hiểu biết đa dạng, phát hiện rủi ro mà một người khó thấy. Đây là kỹ thuật nhận diện rủi ro phổ biến, phù hợp nguyên tắc có sự tham gia của ISO 31000.",
+    "optionNotes": [
+      "Sai. Một người, dựa vào dự án cũ, dễ bỏ sót rủi ro mới.",
+      "Sai. Chờ sự cố là phản ứng, không phải nhận diện trước.",
+      "Sai. Sổ rủi ro chung không đặc thù cho dự án.",
+      "Đúng. Đa dạng góc nhìn và kịch bản giúp nhận diện đầy đủ hơn."
+    ],
+    "refs": [
+      "ISO 31000:2018",
+      "CIA Part 1 C.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M07",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 3,
+    "stem": "Rủi ro khi mở rộng sang thị trường Lào được đánh giá thấp hơn nhiều so với khẩu vị rủi ro, trong khi lợi nhuận tiềm năng cao. HĐQT quyết định tăng gấp đôi vốn đầu tư vào thị trường này. Theo COSO ERM 2017, đây là phương án ứng phó nào?",
+    "options": [
+      "Theo đuổi rủi ro (pursue).",
+      "Né tránh rủi ro (avoid).",
+      "Chia sẻ rủi ro (share).",
+      "Giảm thiểu rủi ro (reduce)."
+    ],
+    "answer": 0,
+    "explanation": "COSO ERM 2017 gồm các phương án: chấp nhận, né tránh, theo đuổi, giảm thiểu, chia sẻ. Theo đuổi là chủ động chấp nhận rủi ro cao hơn để đạt hiệu quả tốt hơn khi rủi ro hiện tại thấp hơn khẩu vị.",
+    "optionNotes": [
+      "Đúng. Tăng đầu tư để tận dụng cơ hội trong khẩu vị là theo đuổi.",
+      "Sai. Né tránh là thôi hoạt động gây rủi ro.",
+      "Sai. Không có bên nào nhận chia sẻ rủi ro.",
+      "Sai. Không có biện pháp làm giảm rủi ro."
+    ],
+    "refs": [
+      "COSO ERM 2017"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M08",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 2,
+    "stem": "Biện pháp giảm rủi ro mất dữ liệu tại một văn phòng đại diện nhỏ tốn 500 triệu đồng mỗi năm, trong khi thiệt hại tối đa ước tính 50 triệu đồng. Rủi ro hiện nằm trong khẩu vị. Ứng phó hợp lý nhất là gì?",
+    "options": [
+      "Triển khai ngay biện pháp vì mọi rủi ro mất dữ liệu đều phải được loại bỏ.",
+      "Chấp nhận rủi ro và theo dõi, vì chi phí biện pháp vượt xa lợi ích.",
+      "Né tránh bằng cách đóng cửa văn phòng đại diện ngay lập tức.",
+      "Mua bảo hiểm với phí bảo hiểm cao hơn thiệt hại tối đa ước tính."
+    ],
+    "answer": 1,
+    "explanation": "Khi rủi ro nằm trong khẩu vị và chi phí ứng phó vượt xa lợi ích, chấp nhận rủi ro (kèm theo dõi) là hợp lý. Đánh giá phương án ứng phó phải cân nhắc chi phí - lợi ích và khẩu vị rủi ro.",
+    "optionNotes": [
+      "Sai. Không cần loại bỏ mọi rủi ro bất kể chi phí.",
+      "Đúng. Chấp nhận khi trong khẩu vị và chi phí vượt lợi ích.",
+      "Sai. Phản ứng quá mức với rủi ro nhỏ.",
+      "Sai. Phí bảo hiểm cao hơn thiệt hại tối đa là không hợp lý."
+    ],
+    "refs": [
+      "COSO ERM 2017",
+      "CIA Part 1 C.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M09",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Khi đánh giá hiệu quả quy trình quản lý rủi ro của một ngân hàng, dấu hiệu nào cho thấy quy trình đang vận hành thực chất nhất?",
+    "options": [
+      "Sổ đăng ký rủi ro dày 200 trang, được cập nhật đúng hạn mỗi quý.",
+      "Mọi phòng ban đều đã ký xác nhận đọc chính sách quản lý rủi ro.",
+      "Mỗi rủi ro có người phụ trách; chỉ số vượt ngưỡng được báo cáo, xử lý.",
+      "Ngân hàng đã thuê tư vấn bên ngoài thiết kế khung quản lý rủi ro."
+    ],
+    "answer": 2,
+    "explanation": "Quy trình quản lý rủi ro hữu hiệu thể hiện qua kết quả vận hành: mỗi rủi ro có người chịu trách nhiệm, chỉ số rủi ro được theo dõi, vượt ngưỡng được báo cáo và xử lý kịp thời. Tài liệu dày, chữ ký đọc chính sách hay thiết kế bởi tư vấn chỉ là hình thức.",
+    "optionNotes": [
+      "Sai. Độ dày và cập nhật đúng hạn không chứng minh hiệu quả.",
+      "Sai. Chữ ký đọc chính sách là hình thức.",
+      "Đúng. Trách nhiệm, theo dõi và báo cáo vượt ngưỡng cho thấy vận hành thực chất.",
+      "Sai. Thiết kế tốt chưa chứng minh vận hành hiệu quả."
+    ],
+    "refs": [
+      "CIA Part 1 C.6",
+      "GIAS 9.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M10",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 2,
+    "stem": "Các khối của một tập đoàn mỗi nơi dùng một thang điểm và cách mô tả rủi ro khác nhau, nên HĐQT không so sánh được rủi ro giữa các khối. Lợi ích chính của việc áp dụng một khung quản lý rủi ro chung là gì?",
+    "options": [
+      "Loại bỏ hoàn toàn rủi ro ở tất cả các khối trong tập đoàn.",
+      "Giảm số lượng rủi ro phải báo cáo lên HĐQT xuống mức tối thiểu.",
+      "Chuyển trách nhiệm quản lý rủi ro từ các khối sang kiểm toán nội bộ.",
+      "Tạo ngôn ngữ, phương pháp thống nhất để đánh giá, tổng hợp và báo cáo rủi ro."
+    ],
+    "answer": 3,
+    "explanation": "Khung quản lý rủi ro (như COSO ERM, ISO 31000) cung cấp thuật ngữ, tiêu chí, phương pháp thống nhất, giúp đánh giá nhất quán, tổng hợp được ở cấp tập đoàn và báo cáo có ý nghĩa cho HĐQT.",
+    "optionNotes": [
+      "Sai. Không khung nào loại bỏ hoàn toàn rủi ro.",
+      "Sai. Mục tiêu không phải giảm số rủi ro báo cáo.",
+      "Sai. Trách nhiệm vẫn thuộc các khối.",
+      "Đúng. Tính nhất quán, so sánh được là lợi ích chính."
+    ],
+    "refs": [
+      "CIA Part 1 C.6",
+      "COSO ERM 2017",
+      "ISO 31000:2018"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M11",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 3,
+    "stem": "Kẻ gian giả danh nhà cung cấp gửi email yêu cầu đổi số tài khoản nhận tiền, và công ty đã chuyển 2 tỷ đồng vào tài khoản giả. Kiểm soát nào phù hợp nhất để ngăn tình huống này?",
+    "options": [
+      "Xác minh mọi thay đổi tài khoản bằng cách gọi lại số điện thoại đã lưu trước đó.",
+      "Yêu cầu nhà cung cấp gửi lại yêu cầu bằng email có chữ ký số trong thư.",
+      "Đối chiếu sao kê ngân hàng với sổ chi tiết công nợ vào cuối mỗi tháng.",
+      "Tăng số cấp phê duyệt cho mọi lệnh thanh toán lên ba cấp quản lý."
+    ],
+    "answer": 0,
+    "explanation": "Lừa đảo đổi tài khoản thường qua email giả mạo. Kiểm soát phòng ngừa hiệu quả là xác minh độc lập qua kênh khác đã biết (gọi lại số điện thoại lưu trong hồ sơ), không dùng thông tin trong chính yêu cầu.",
+    "optionNotes": [
+      "Đúng. Xác minh qua kênh độc lập đã biết.",
+      "Sai. Email vẫn có thể bị giả mạo; kênh xác minh phải độc lập.",
+      "Sai. Đối chiếu cuối tháng là phát hiện, quá muộn.",
+      "Sai. Thêm cấp duyệt không phát hiện tài khoản đã bị thay."
+    ],
+    "refs": [
+      "CIA Part 1 C.7",
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M12",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 2,
+    "stem": "Kho linh kiện điện tử giá trị cao có tỷ lệ hao hụt tăng dần, nhiều người ra vào tự do. Cặp kiểm soát nào phù hợp nhất để xử lý rủi ro này?",
+    "options": [
+      "Tăng lương cho thủ kho và yêu cầu ký cam kết không lấy hàng.",
+      "Hạn chế ra vào kho, kết hợp kiểm kê đột xuất và đối chiếu sổ.",
+      "Chuyển toàn bộ hàng ra kho thuê ngoài và chấm dứt theo dõi.",
+      "Chỉ kiểm kê một lần vào cuối năm cùng với kiểm toán độc lập."
+    ],
+    "answer": 1,
+    "explanation": "Kết hợp kiểm soát phòng ngừa (hạn chế ra vào, giám sát) với kiểm soát phát hiện (kiểm kê định kỳ, đột xuất, đối chiếu với sổ) xử lý trực tiếp rủi ro hao hụt tài sản giá trị cao.",
+    "optionNotes": [
+      "Sai. Không có kiểm soát thực sự với việc ra vào và đối chiếu.",
+      "Đúng. Phòng ngừa kết hợp phát hiện.",
+      "Sai. Thuê ngoài không chấm dứt trách nhiệm theo dõi tài sản.",
+      "Sai. Một lần mỗi năm phát hiện quá muộn."
+    ],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M13",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 2,
+    "stem": "Nhân viên đôi khi nhập trùng cùng một đơn đặt hàng hai lần, dẫn đến giao hàng và xuất hóa đơn hai lần. Kiểm soát nào xử lý tốt nhất ngay từ khâu nhập liệu?",
+    "options": [
+      "Phạt nhân viên nhập trùng theo quy chế khen thưởng, kỷ luật.",
+      "Kế toán rà soát toàn bộ hóa đơn đã xuất vào cuối mỗi quý.",
+      "Hệ thống tự động cảnh báo, chặn đơn trùng ngay khi nhập liệu.",
+      "Khách hàng tự kiểm tra hóa đơn và báo lại khi phát hiện trùng."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm soát ứng dụng tự động (kiểm tra trùng khi nhập) ngăn lỗi ngay từ đầu với chi phí thấp. Rà soát cuối quý hay dựa vào khách hàng là phát hiện muộn; kỷ luật không ngăn được lỗi vô ý.",
+    "optionNotes": [
+      "Sai. Kỷ luật không ngăn lỗi vô ý.",
+      "Sai. Phát hiện muộn sau khi đã giao hàng.",
+      "Đúng. Kiểm soát phòng ngừa tự động tại khâu nhập.",
+      "Sai. Dựa vào khách hàng là không chủ động."
+    ],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M14",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 2,
+    "stem": "Lợi ích chính khi Ban điều hành và kiểm toán nội bộ cùng dùng một khung kiểm soát nội bộ được công nhận (ví dụ COSO 2013) để đánh giá kiểm soát là gì?",
+    "options": [
+      "Bảo đảm tổ chức không bao giờ xảy ra gian lận hay sai sót.",
+      "Cho phép kiểm toán nội bộ vận hành kiểm soát thay Ban điều hành.",
+      "Miễn cho tổ chức nghĩa vụ kiểm toán độc lập báo cáo tài chính.",
+      "Có tiêu chí chung, nhất quán để đánh giá và trao đổi về hiệu quả kiểm soát."
+    ],
+    "answer": 3,
+    "explanation": "Khung kiểm soát được công nhận cung cấp tiêu chí và ngôn ngữ chung (thành phần, nguyên tắc), giúp đánh giá nhất quán, so sánh được và trao đổi rõ ràng giữa Ban điều hành, kiểm toán nội bộ, HĐQT.",
+    "optionNotes": [
+      "Sai. Khung không bảo đảm tuyệt đối do hạn chế cố hữu.",
+      "Sai. Vận hành kiểm soát vẫn là trách nhiệm quản lý.",
+      "Sai. Khung không thay thế kiểm toán độc lập.",
+      "Đúng. Tiêu chí chung là lợi ích chính."
+    ],
+    "refs": [
+      "COSO 2013",
+      "CIA Part 1 C.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M15",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 3,
+    "stem": "Mỗi phiếu chi trên 5 triệu đồng phải qua 5 chữ ký, nhưng kiểm toán viên thấy các cấp sau thường ký mà không xem chứng từ vì 'đã có người trước kiểm tra'. Nhận xét nào đúng nhất về kiểm soát này?",
+    "options": [
+      "Kém hiệu suất và kém hiệu quả: nhiều cấp trùng lặp làm trách nhiệm bị dàn mỏng.",
+      "Kiểm soát rất chặt chẽ, vì có nhiều cấp phê duyệt cho cùng một khoản chi.",
+      "Kiểm soát hữu hiệu, chỉ cần nhắc nhở các cấp sau đọc kỹ chứng từ hơn.",
+      "Nên tăng thêm cấp phê duyệt để bù cho các cấp đang làm việc chưa kỹ."
+    ],
+    "answer": 0,
+    "explanation": "Nhiều cấp phê duyệt trùng lặp tốn thời gian (kém hiệu suất) và làm mỗi cấp ỷ lại vào cấp khác (kém hiệu quả). Thiết kế tốt hơn là ít cấp, phân định rõ trách nhiệm từng cấp, ngưỡng phù hợp với rủi ro.",
+    "optionNotes": [
+      "Đúng. Trùng lặp làm giảm cả hiệu suất lẫn hiệu quả.",
+      "Sai. Bẫy: nhiều cấp không đồng nghĩa với kiểm soát chặt.",
+      "Sai. Nhắc nhở không sửa được thiết kế dàn mỏng trách nhiệm.",
+      "Sai. Thêm cấp làm vấn đề trầm trọng hơn."
+    ],
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M16",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 2,
+    "stem": "Bộ phận kế toán đối chiếu thủ công 20 nghìn giao dịch ngân hàng mỗi tháng, mất 10 ngày công, thường trễ hạn. Cải tiến nào vừa giữ được hiệu quả kiểm soát vừa nâng hiệu suất nhất?",
+    "options": [
+      "Bỏ đối chiếu ngân hàng để tiết kiệm thời gian cho bộ phận kế toán.",
+      "Tự động hóa đối chiếu, nhân viên chỉ xử lý các khoản không khớp.",
+      "Chỉ đối chiếu 10% giao dịch được chọn ngẫu nhiên mỗi tháng.",
+      "Chuyển việc đối chiếu sang kiểm toán nội bộ thực hiện hằng quý."
+    ],
+    "answer": 1,
+    "explanation": "Tự động khớp giao dịch và để nhân viên tập trung xử lý ngoại lệ giữ được độ bao phủ đầy đủ (hiệu quả) với ít nguồn lực hơn (hiệu suất). Bỏ hoặc giảm đối chiếu làm yếu kiểm soát.",
+    "optionNotes": [
+      "Sai. Bỏ kiểm soát quan trọng tạo rủi ro lớn.",
+      "Đúng. Tự động hóa giữ độ bao phủ và tăng hiệu suất.",
+      "Sai. Đối chiếu một phần bỏ sót phần lớn giao dịch.",
+      "Sai. Kiểm toán nội bộ không vận hành kiểm soát của quy trình."
+    ],
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M17",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Khi lập kế hoạch kiểm toán quy trình thanh toán của một chi nhánh, kiểm toán viên cần xác định rủi ro và kiểm soát ở cấp cuộc kiểm toán. Điều nào phân biệt đúng với đánh giá rủi ro ở cấp tổ chức?",
+    "options": [
+      "Rủi ro cấp cuộc kiểm toán chỉ gồm rủi ro tài chính, không gồm rủi ro khác.",
+      "Rủi ro cấp cuộc kiểm toán luôn giống hệt sổ đăng ký rủi ro của toàn tổ chức.",
+      "Rủi ro cấp cuộc kiểm toán gắn với mục tiêu, phạm vi của quy trình được kiểm toán cụ thể.",
+      "Rủi ro cấp cuộc kiểm toán do Ban điều hành xác định thay cho kiểm toán viên."
+    ],
+    "answer": 2,
+    "explanation": "Đánh giá rủi ro cấp tổ chức phục vụ lập kế hoạch năm; rủi ro và kiểm soát cấp cuộc kiểm toán xác định cụ thể cho mục tiêu, phạm vi của quy trình được kiểm toán, dựa trên hiểu biết về hoạt động đó (GIAS 13.2). Văn hóa, môi trường kiểm soát của đơn vị ảnh hưởng đến cả hai.",
+    "optionNotes": [
+      "Sai. Rủi ro cuộc kiểm toán gồm mọi loại liên quan đến mục tiêu.",
+      "Sai. Sổ rủi ro tổ chức là đầu vào, nhưng không thay thế đánh giá cụ thể.",
+      "Đúng. Gắn với mục tiêu và phạm vi cuộc kiểm toán.",
+      "Sai. Kiểm toán viên phải tự đánh giá rủi ro của cuộc kiểm toán."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 1 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M18",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Tại một công ty, mọi quyết định đầu tư lớn do Chủ tịch kiêm Tổng Giám đốc quyết một mình; các thành viên HĐQT khác hiếm khi đặt câu hỏi. Ảnh hưởng chủ yếu đến quản trị, rủi ro và kiểm soát là gì?",
+    "options": [
+      "Quyết định nhanh hơn nên rủi ro của tổ chức thấp hơn so với các công ty khác.",
+      "Kiểm toán nội bộ nên phê duyệt các quyết định đầu tư để tạo đối trọng.",
+      "Không ảnh hưởng gì nếu các quyết định trước đây đều mang lại lợi nhuận.",
+      "Thiếu cơ chế phản biện, giám sát làm tăng rủi ro quyết định sai và vượt quyền."
+    ],
+    "answer": 3,
+    "explanation": "Quy trình ra quyết định tập trung vào một người, thiếu phản biện của HĐQT, làm yếu quản trị: tăng rủi ro quyết định sai, vượt quyền và giảm hiệu quả giám sát. Kết quả tốt trong quá khứ không loại bỏ rủi ro này.",
+    "optionNotes": [
+      "Sai. Tốc độ không bù được việc thiếu phản biện.",
+      "Sai. Kiểm toán nội bộ không phê duyệt quyết định đầu tư.",
+      "Sai. Kết quả tốt trong quá khứ không chứng minh quy trình tốt.",
+      "Đúng. Thiếu phản biện, giám sát làm tăng rủi ro."
+    ],
+    "refs": [
+      "CIA Part 1 C.2",
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M19",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Kiểm toán nội bộ một ngân hàng được giao đánh giá việc tuân thủ quy định phòng chống rửa tiền. Vai trò phù hợp nhất của kiểm toán nội bộ là gì?",
+    "options": [
+      "Đánh giá hiệu quả chương trình tuân thủ (chính sách, nhận biết khách hàng, báo cáo giao dịch).",
+      "Đưa ra ý kiến pháp lý chính thức về việc ngân hàng có vi phạm luật hay không.",
+      "Trực tiếp báo cáo các giao dịch đáng ngờ lên cơ quan quản lý thay bộ phận tuân thủ.",
+      "Thiết kế lại toàn bộ quy trình phòng chống rửa tiền cho ngân hàng."
+    ],
+    "answer": 0,
+    "explanation": "Kiểm toán nội bộ cần nhận biết các yêu cầu pháp lý áp dụng và đánh giá hiệu quả chương trình tuân thủ (chính sách, quy trình, kiểm soát, đào tạo, giám sát). Kiểm toán nội bộ không đưa ý kiến pháp lý thay luật sư và không vận hành chức năng tuân thủ.",
+    "optionNotes": [
+      "Đúng. Đánh giá hiệu quả chương trình tuân thủ.",
+      "Sai. Ý kiến pháp lý chính thức thuộc chuyên gia pháp lý.",
+      "Sai. Báo cáo giao dịch đáng ngờ là trách nhiệm của bộ phận tuân thủ.",
+      "Sai. Thiết kế quy trình là trách nhiệm quản lý."
+    ],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M20",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Cổ đông thiểu số phàn nàn họ không được thông báo kịp thời về đại hội cổ đông và không có cơ hội chất vấn các giao dịch lớn của công ty. Điều này vi phạm nguyên tắc quản trị nào trong Bộ nguyên tắc quản trị công ty G20/OECD?",
+    "options": [
+      "Nguyên tắc tối đa hóa lợi nhuận ngắn hạn cho cổ đông lớn.",
+      "Đối xử công bằng với cổ đông và bảo vệ quyền của cổ đông.",
+      "Nguyên tắc bảo mật tuyệt đối thông tin với mọi cổ đông.",
+      "Nguyên tắc ưu tiên quyền của Ban điều hành hơn cổ đông."
+    ],
+    "answer": 1,
+    "explanation": "Bộ nguyên tắc quản trị công ty G20/OECD nhấn mạnh quyền của cổ đông và đối xử công bằng với mọi cổ đông, kể cả cổ đông thiểu số: được thông tin kịp thời, tham gia và biểu quyết tại đại hội.",
+    "optionNotes": [
+      "Sai. Đây không phải một nguyên tắc quản trị của G20/OECD.",
+      "Đúng. Quyền và đối xử công bằng với cổ đông bị vi phạm.",
+      "Sai. Minh bạch thông tin là nguyên tắc, không phải bảo mật tuyệt đối.",
+      "Sai. Không có nguyên tắc ưu tiên Ban điều hành hơn cổ đông."
+    ],
+    "refs": [
+      "G20/OECD Principles of Corporate Governance",
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
   }
 ]
