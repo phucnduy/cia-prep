@@ -2232,5 +2232,81 @@
       "CIA Part 1 A.5"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-A-N26",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "HĐQT đề nghị kiểm toán nội bộ, ngoài các cuộc kiểm toán thường lệ, hằng năm nêu các rủi ro mới nổi (quy định về AI, biến đổi khí hậu) có thể ảnh hưởng đến chiến lược. Yêu cầu này phù hợp với tuyên bố Mục đích của GIAS ở điểm nào?",
+    "options": [
+      "Không phù hợp, vì kiểm toán nội bộ chỉ đánh giá những gì đã xảy ra trong quá khứ.",
+      "Phù hợp, vì kiểm toán nội bộ cung cấp cả hiểu biết sâu và tầm nhìn (foresight).",
+      "Không phù hợp, vì nhận diện rủi ro mới nổi là trách nhiệm riêng của Ban điều hành.",
+      "Phù hợp, nhưng chỉ khi kiểm toán nội bộ chịu trách nhiệm xử lý các rủi ro đó."
+    ],
+    "answer": 1,
+    "explanation": "Tuyên bố Mục đích của GIAS nêu kiểm toán nội bộ cung cấp đảm bảo, tư vấn, hiểu biết sâu và tầm nhìn (foresight) độc lập, dựa trên rủi ro và khách quan. Nêu rủi ro mới nổi là một cách cung cấp tầm nhìn; Ban điều hành vẫn chịu trách nhiệm xử lý.",
+    "optionNotes": [
+      "Sai. GIAS nhấn mạnh cả tầm nhìn về tương lai.",
+      "Đúng. Phù hợp với yếu tố 'foresight' trong tuyên bố Mục đích.",
+      "Sai. Ban điều hành quản lý rủi ro, nhưng kiểm toán vẫn có thể đưa ra góc nhìn.",
+      "Sai. Kiểm toán không nhận trách nhiệm xử lý rủi ro."
+    ],
+    "refs": [
+      "GIAS Domain I"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N27",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Thưởng của Ban điều hành dựa trên chỉ số 'tỷ lệ khách hàng hài lòng' do chính bộ phận Chăm sóc khách hàng tự tính và báo cáo. Ủy ban Kiểm toán muốn biết chỉ số này có đáng tin cậy không. Đây là loại dịch vụ nào?",
+    "options": [
+      "Đảm bảo về độ tin cậy của thông tin hiệu quả hoạt động (KPI) được báo cáo.",
+      "Tư vấn về cách thiết kế lại bảng câu hỏi khảo sát mức độ hài lòng khách hàng.",
+      "Kiểm toán báo cáo tài chính về chi phí của bộ phận Chăm sóc khách hàng.",
+      "Kiểm toán tuân thủ quy định pháp luật về bảo vệ quyền lợi người tiêu dùng."
+    ],
+    "answer": 0,
+    "explanation": "Mục tiêu là xác định số liệu KPI được báo cáo có đáng tin cậy không, nhất là khi gắn với thưởng và do chính bộ phận liên quan tự tính. Đây là dịch vụ đảm bảo về thông tin hiệu quả hoạt động (phi tài chính).",
+    "optionNotes": [
+      "Đúng. Đảm bảo về độ tin cậy của thông tin KPI.",
+      "Sai. Thiết kế lại khảo sát là tư vấn, không trả lời câu hỏi về độ tin cậy.",
+      "Sai. Chi phí bộ phận không phải đối tượng được hỏi.",
+      "Sai. Tuân thủ luật bảo vệ người tiêu dùng là mục tiêu khác."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N28",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Khi chuẩn bị đề xuất nhiệm vụ của kiểm toán nội bộ cho HĐQT, CAE thấy bộ phận Tuân thủ, Quản lý rủi ro và kiểm toán độc lập cũng đang kiểm tra nhiều mảng giống nhau. Theo Chuẩn mực, CAE nên làm gì trong bước này?",
+    "options": [
+      "Đề xuất nhiệm vụ bao trùm mọi mảng, để kiểm toán nội bộ thay thế các bên khác.",
+      "Phối hợp với các bên để hiểu vai trò của nhau, hỗ trợ HĐQT xác định phạm vi.",
+      "Đề xuất loại bỏ chức năng Tuân thủ để tránh trùng lặp với kiểm toán nội bộ.",
+      "Bỏ qua các bên khác, vì nhiệm vụ của kiểm toán nội bộ do HĐQT quyết định độc lập."
+    ],
+    "answer": 1,
+    "explanation": "Để giúp HĐQT và Ban điều hành xác định phạm vi và loại dịch vụ kiểm toán nội bộ, CAE phải phối hợp với các bên cung cấp đảm bảo nội bộ và bên ngoài để hiểu vai trò, trách nhiệm của nhau (GIAS 6.1).",
+    "optionNotes": [
+      "Sai. Thay thế các bên khác không phải mục tiêu; cần phối hợp.",
+      "Đúng. Đúng yêu cầu phối hợp khi xác lập nhiệm vụ.",
+      "Sai. Cơ cấu chức năng tuân thủ là quyết định của Ban điều hành, HĐQT.",
+      "Sai. Chuẩn mực yêu cầu phối hợp để hỗ trợ HĐQT quyết định."
+    ],
+    "refs": [
+      "GIAS 6.1",
+      "GIAS 9.5"
+    ],
+    "source": "original"
   }
 ]

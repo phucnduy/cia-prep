@@ -1737,5 +1737,206 @@
       "CIA Part 1 C.7"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-C-N13",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "HĐQT muốn tiêu chí thưởng của Tổng Giám đốc được xây dựng khách quan, không do chính Ban điều hành đề xuất và tự thông qua. Cơ cấu quản trị nào phù hợp nhất cho việc này?",
+    "options": [
+      "Giao bộ phận nhân sự xây dựng và Tổng Giám đốc phê duyệt tiêu chí thưởng của mình.",
+      "Ủy ban Lương thưởng gồm thành viên độc lập xây dựng tiêu chí, trình HĐQT.",
+      "Giao kiểm toán nội bộ xây dựng tiêu chí để bảo đảm tính khách quan tuyệt đối.",
+      "Giao Ủy ban Kiểm toán quyết định toàn bộ tiêu chí thưởng của Ban điều hành cấp cao."
+    ],
+    "answer": 1,
+    "explanation": "Ủy ban Lương thưởng (thường gồm thành viên HĐQT độc lập) là cơ chế quản trị phổ biến để xây dựng chính sách thù lao cho Ban điều hành cấp cao, tránh tình trạng người quản lý tự quyết thù lao của mình. Kiểm toán nội bộ có thể đánh giá quy trình, nhưng không xây dựng tiêu chí.",
+    "optionNotes": [
+      "Sai. Tổng Giám đốc tự phê duyệt tiêu chí thưởng của mình là xung đột lợi ích.",
+      "Đúng. Ủy ban Lương thưởng độc lập là cơ chế phù hợp.",
+      "Sai. Xây dựng tiêu chí là trách nhiệm quản trị, làm suy giảm độc lập của kiểm toán.",
+      "Sai. Ủy ban Kiểm toán giám sát báo cáo, kiểm soát, kiểm toán; thù lao thuộc ủy ban khác."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N14",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Chi nhánh dẫn đầu doanh số được thưởng lớn nhất năm, dù kiểm toán phát hiện chi nhánh này có nhiều vi phạm quy trình thẩm định khách hàng nhất. Theo COSO 2013, điểm yếu của môi trường kiểm soát nằm ở đâu?",
+    "options": [
+      "Cơ chế khen thưởng không gắn với trách nhiệm cá nhân về kiểm soát nội bộ.",
+      "Thiếu phần mềm tự động chặn các hồ sơ chưa được thẩm định đầy đủ trước khi giải ngân.",
+      "Thiếu kênh truyền thông với cơ quan quản lý về các vi phạm thẩm định khách hàng.",
+      "Thiếu hoạt động giám sát định kỳ của kiểm toán nội bộ đối với các chi nhánh dẫn đầu."
+    ],
+    "answer": 0,
+    "explanation": "Một nguyên tắc của môi trường kiểm soát trong COSO 2013 là tổ chức buộc các cá nhân chịu trách nhiệm về kiểm soát nội bộ, bao gồm qua đánh giá hiệu quả và khen thưởng. Thưởng chỉ theo doanh số bất kể vi phạm truyền thông điệp rằng kiểm soát không quan trọng.",
+    "optionNotes": [
+      "Đúng. Khuyến khích lệch với trách nhiệm kiểm soát là điểm yếu môi trường kiểm soát.",
+      "Sai. Kiểm soát tự động có ích nhưng không xử lý nguyên nhân về khuyến khích.",
+      "Sai. Truyền thông bên ngoài không phải vấn đề được mô tả.",
+      "Sai. Kiểm toán đã phát hiện vấn đề; điểm yếu nằm ở cách khen thưởng."
+    ],
+    "refs": [
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N15",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 3,
+    "stem": "Để xin giấy phép tại một tỉnh mới, công ty thuê một 'đơn vị tư vấn thủ tục' với phí thành công rất cao, không yêu cầu bất kỳ sản phẩm tư vấn nào bằng văn bản. Rủi ro chính và kiểm soát phù hợp nhất là gì?",
+    "options": [
+      "Rủi ro chi phí cao; đàm phán để giảm phí thành công xuống mức thị trường.",
+      "Rủi ro hối lộ qua trung gian; thẩm định đối tác, kiểm soát phí bất thường.",
+      "Rủi ro chậm tiến độ; thuê thêm một đơn vị tư vấn khác làm song song để bảo đảm.",
+      "Rủi ro thuế; yêu cầu đơn vị tư vấn xuất hóa đơn hợp lệ cho toàn bộ khoản phí."
+    ],
+    "answer": 1,
+    "explanation": "Phí thành công cao bất thường, không có sản phẩm cụ thể, trả cho bên trung gian làm việc với cơ quan nhà nước là dấu hiệu rủi ro hối lộ qua bên thứ ba. Chương trình chống hối lộ cần thẩm định đối tác, điều khoản chống hối lộ trong hợp đồng, phê duyệt và giám sát các khoản phí bất thường.",
+    "optionNotes": [
+      "Sai. Vấn đề chính không phải mức giá mà là khả năng tiền được dùng để hối lộ.",
+      "Đúng. Đúng loại rủi ro và kiểm soát phù hợp.",
+      "Sai. Thuê thêm bên trung gian có thể làm rủi ro lớn hơn.",
+      "Sai. Hóa đơn hợp lệ không chứng minh khoản chi hợp pháp."
+    ],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N16",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Bộ phận Marketing muốn dùng dữ liệu sức khỏe khách hàng thu thập cho mục đích bảo hiểm để gửi quảng cáo sản phẩm thực phẩm chức năng của đối tác. Nguyên tắc bảo vệ dữ liệu nào bị vi phạm trực tiếp nhất?",
+    "options": [
+      "Giới hạn mục đích: dữ liệu chỉ dùng cho mục đích đã thông báo và được đồng ý.",
+      "Giảm thiểu dữ liệu: chỉ thu thập lượng dữ liệu tối thiểu cần thiết cho nghiệp vụ.",
+      "Toàn vẹn dữ liệu: dữ liệu phải chính xác, đầy đủ và được cập nhật kịp thời.",
+      "Lưu trữ có thời hạn: dữ liệu phải được xóa ngay khi hợp đồng bảo hiểm kết thúc."
+    ],
+    "answer": 0,
+    "explanation": "Nguyên tắc giới hạn mục đích yêu cầu dữ liệu cá nhân chỉ được xử lý cho mục đích đã thông báo và được chủ thể đồng ý. Dùng dữ liệu sức khỏe cho quảng cáo của đối tác là mục đích mới, cần sự đồng ý riêng.",
+    "optionNotes": [
+      "Đúng. Dùng dữ liệu cho mục đích khác là vi phạm giới hạn mục đích.",
+      "Sai. Vấn đề không nằm ở lượng dữ liệu thu thập.",
+      "Sai. Độ chính xác của dữ liệu không phải vấn đề được mô tả.",
+      "Sai. Thời hạn lưu trữ không phải vấn đề trực tiếp."
+    ],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N17",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 3,
+    "stem": "Tuyên bố khẩu vị rủi ro của công ty chỉ ghi: 'Công ty chấp nhận mức rủi ro hợp lý để tăng trưởng bền vững'. Kiểm toán nội bộ đánh giá tuyên bố này thế nào?",
+    "options": [
+      "Phù hợp, vì tuyên bố ngắn gọn giúp mọi nhân viên dễ nhớ và dễ áp dụng.",
+      "Phù hợp, vì khẩu vị rủi ro chỉ cần định tính, không nên gắn con số cụ thể.",
+      "Chưa đủ, vì cần thêm chỉ tiêu, ngưỡng đo lường được cho các rủi ro chính.",
+      "Chưa đủ, vì khẩu vị rủi ro phải do kiểm toán nội bộ viết lại cho rõ ràng."
+    ],
+    "answer": 2,
+    "explanation": "Tuyên bố khẩu vị rủi ro chỉ có câu chung chung thì không giúp ra quyết định hay giám sát. Thông lệ tốt kết hợp tuyên bố định tính với chỉ tiêu, ngưỡng chịu đựng đo lường được cho các loại rủi ro chính, để so sánh rủi ro thực tế với khẩu vị.",
+    "optionNotes": [
+      "Sai. Dễ nhớ nhưng không đo được thì không thể dùng để ra quyết định.",
+      "Sai. Thông lệ tốt kết hợp cả định tính và định lượng.",
+      "Đúng. Cần chỉ tiêu đo lường được để vận hành khẩu vị rủi ro.",
+      "Sai. Xác định khẩu vị rủi ro là trách nhiệm của HĐQT và Ban điều hành."
+    ],
+    "refs": [
+      "COSO ERM 2017"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N18",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 2,
+    "stem": "Sổ đăng ký rủi ro của công ty ghi 'Kiểm toán nội bộ' là người chịu trách nhiệm (risk owner) đối với rủi ro gian lận trong mua hàng. Nhận xét nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì kiểm toán nội bộ độc lập nên quản lý rủi ro gian lận khách quan nhất.",
+      "Phù hợp, nếu kiểm toán nội bộ có đủ nhân sự để theo dõi rủi ro này hằng tháng.",
+      "Không phù hợp; người chịu trách nhiệm rủi ro phải là cấp quản lý của quy trình.",
+      "Không phù hợp; rủi ro gian lận phải do kiểm toán độc lập bên ngoài chịu trách nhiệm."
+    ],
+    "answer": 2,
+    "explanation": "Người chịu trách nhiệm rủi ro là cấp quản lý có thẩm quyền và nguồn lực để xử lý rủi ro, ở đây là lãnh đạo khối mua hàng. Gán cho kiểm toán nội bộ làm chức năng này nhận trách nhiệm quản lý và không thể đánh giá độc lập.",
+    "optionNotes": [
+      "Sai. Sở hữu rủi ro là trách nhiệm quản lý, không phải của kiểm toán.",
+      "Sai. Đủ nhân sự không thay đổi bản chất trách nhiệm.",
+      "Đúng. Người chịu trách nhiệm rủi ro là cấp quản lý quy trình.",
+      "Sai. Kiểm toán độc lập không sở hữu rủi ro của tổ chức."
+    ],
+    "refs": [
+      "CIA Part 1 C.5",
+      "IIA Three Lines Model"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N19",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Công ty sao lưu dữ liệu hằng ngày lên một ổ mạng luôn kết nối với hệ thống chính. Khi đánh giá rủi ro mã độc tống tiền (ransomware), kiểm toán viên lo ngại điều gì nhất?",
+    "options": [
+      "Tần suất sao lưu hằng ngày là quá thấp so với tiêu chuẩn chung của ngành tài chính.",
+      "Bản sao lưu có thể bị mã hóa cùng lúc; cần bản sao tách biệt, không thể sửa đổi.",
+      "Ổ mạng sao lưu có dung lượng hạn chế, sẽ nhanh chóng bị đầy sau một thời gian.",
+      "Chi phí lưu trữ sao lưu trên ổ mạng cao hơn so với dịch vụ lưu trữ đám mây."
+    ],
+    "answer": 1,
+    "explanation": "Mã độc tống tiền thường mã hóa mọi ổ đĩa kết nối được, kể cả ổ sao lưu luôn kết nối. Biện pháp quan trọng là có bản sao tách biệt (offline hoặc không thể sửa đổi) và kiểm tra khôi phục định kỳ.",
+    "optionNotes": [
+      "Sai. Tần suất có thể phù hợp; rủi ro chính là bản sao bị mã hóa cùng lúc.",
+      "Đúng. Bản sao luôn kết nối không bảo vệ được trước ransomware.",
+      "Sai. Dung lượng là vấn đề vận hành, không phải rủi ro chính.",
+      "Sai. Chi phí không phải mối lo ngại chính về rủi ro."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N20",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 3,
+    "stem": "Kế toán trưởng rà soát hằng tháng báo cáo tuổi nợ do ERP xuất ra để trích lập dự phòng. Kiểm toán viên đã kiểm tra việc rà soát có thực hiện. Ngoài ra, kiểm toán viên còn cần kiểm tra điều gì để kết luận kiểm soát hữu hiệu?",
+    "options": [
+      "Không cần thêm gì, vì báo cáo do hệ thống ERP tự động xuất ra luôn chính xác.",
+      "Tính đầy đủ, chính xác của báo cáo tuổi nợ dùng làm đầu vào cho việc rà soát.",
+      "Bằng cấp chuyên môn và số năm kinh nghiệm của Kế toán trưởng thực hiện rà soát.",
+      "Chữ ký của Tổng Giám đốc trên các bảng trích lập dự phòng hằng tháng."
+    ],
+    "answer": 1,
+    "explanation": "Đây là kiểm soát thủ công phụ thuộc vào thông tin do hệ thống tạo ra. Nếu báo cáo tuổi nợ thiếu hoặc sai (do cấu hình báo cáo, tham số lọc), rà soát dù kỹ cũng cho kết quả sai. Cần kiểm tra tính đầy đủ, chính xác của báo cáo, cùng kiểm soát chung CNTT liên quan.",
+    "optionNotes": [
+      "Sai. Báo cáo hệ thống có thể sai do cấu hình hoặc tham số.",
+      "Đúng. Kiểm soát chỉ tốt khi thông tin đầu vào đáng tin cậy.",
+      "Sai. Năng lực người rà soát là yếu tố phụ so với chất lượng thông tin đầu vào.",
+      "Sai. Chữ ký thêm không chứng minh dữ liệu đầu vào đúng."
+    ],
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
+    "source": "original"
   }
 ]

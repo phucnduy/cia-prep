@@ -1002,5 +1002,83 @@
       "COSO 2013"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-D-N09",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 3,
+    "stem": "Kho có lượng lớn hàng điện tử tồn hơn 2 năm, mẫu mã đã lỗi thời, nhưng Ban điều hành chỉ đạo không trích lập dự phòng giảm giá để đạt chỉ tiêu lợi nhuận. Đây là dạng gian lận nào?",
+    "options": [
+      "Biển thủ tài sản, vì hàng tồn kho của công ty đã bị giảm giá trị.",
+      "Gian lận báo cáo tài chính qua việc định giá sai tài sản.",
+      "Tham nhũng, vì Ban điều hành có lợi ích từ việc đạt chỉ tiêu.",
+      "Không phải gian lận, vì việc trích lập dự phòng là ước tính chủ quan."
+    ],
+    "answer": 1,
+    "explanation": "Cố ý không ghi giảm giá trị hàng tồn kho lỗi thời làm tài sản và lợi nhuận bị khai khống: đây là gian lận báo cáo tài chính qua định giá sai tài sản. Ước tính có yếu tố chủ quan, nhưng cố ý bỏ qua bằng chứng rõ ràng để đạt chỉ tiêu là gian lận.",
+    "optionNotes": [
+      "Sai. Không có tài sản bị chiếm đoạt; vấn đề là trình bày sai.",
+      "Đúng. Định giá sai tài sản để đạt chỉ tiêu là gian lận báo cáo tài chính.",
+      "Sai. Tham nhũng liên quan đến lợi ích từ bên khác (hối lộ, xung đột lợi ích).",
+      "Sai. Bẫy: ước tính chủ quan không bao che cho việc cố ý bỏ qua bằng chứng."
+    ],
+    "refs": [
+      "CIA Part 1 D.1",
+      "ACFE"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N10",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 3,
+    "stem": "Phân tích 3 năm đấu thầu xây dựng cho thấy cùng 4 nhà thầu luôn tham dự, lần lượt thay phiên nhau thắng thầu, giá dự thầu của các bên thua luôn cao hơn bên thắng khoảng 3-5%. Đây là dấu hiệu của thủ đoạn gì?",
+    "options": [
+      "Lại quả giữa nhà thầu thắng và nhân viên mua hàng sau mỗi gói thầu.",
+      "Thông đồng giữa các nhà thầu (bid rigging), xoay vòng thắng thầu.",
+      "Chia nhỏ gói thầu để tránh ngưỡng phê duyệt của cấp quản lý cao hơn.",
+      "Công ty ma tham dự thầu để tạo ra sự cạnh tranh giả tạo trong hồ sơ."
+    ],
+    "answer": 1,
+    "explanation": "Cùng một nhóm nhà thầu, thay phiên thắng, giá của bên thua cao hơn một cách đều đặn là dấu hiệu điển hình của thông đồng giữa các nhà thầu (bid rotation, cover bidding). Có thể có hoặc không có nhân viên nội bộ tham gia; cần mở rộng danh sách mời thầu và phân tích giá.",
+    "optionNotes": [
+      "Sai. Lại quả có thể đi kèm, nhưng mẫu hình mô tả là thông đồng giữa các nhà thầu.",
+      "Đúng. Xoay vòng thắng thầu và giá bảo vệ là dấu hiệu thông đồng.",
+      "Sai. Không có dấu hiệu chia nhỏ gói thầu.",
+      "Sai. Các nhà thầu được mô tả là có thật, tham dự thường xuyên."
+    ],
+    "refs": [
+      "CIA Part 1 D.3",
+      "ACFE"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N11",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 2,
+    "stem": "Trong một cuộc điều tra gian lận đang diễn ra, CAE gửi email cập nhật tiến độ, có tên người bị nghi ngờ, cho toàn bộ trưởng phòng 'để mọi người cùng cảnh giác'. Đánh giá nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì minh bạch giúp các phòng ban phòng ngừa gian lận tương tự.",
+      "Phù hợp, nếu email được đánh dấu 'mật' ở tiêu đề và phần nội dung.",
+      "Không phù hợp; chỉ chia sẻ cho người cần biết, theo hướng dẫn pháp chế.",
+      "Không phù hợp, vì chỉ được thông báo sau khi tòa án đã có bản án cuối cùng."
+    ],
+    "answer": 2,
+    "explanation": "Thông tin điều tra cần được bảo mật, chỉ chia sẻ cho người cần biết, theo hướng dẫn của pháp chế, để bảo vệ bằng chứng, quyền của người bị nghi ngờ (chưa có kết luận), và tránh rủi ro pháp lý như bôi nhọ (GIAS 5.2).",
+    "optionNotes": [
+      "Sai. Công bố rộng có thể làm lộ điều tra và gây thiệt hại cho người chưa bị kết luận.",
+      "Sai. Đánh dấu 'mật' không khắc phục việc gửi cho người không cần biết.",
+      "Đúng. Nguyên tắc cần biết và tham vấn pháp chế.",
+      "Sai. Quá tuyệt đối: có thể thông báo phù hợp trước khi có bản án."
+    ],
+    "refs": [
+      "CIA Part 1 D.5",
+      "GIAS 5.2"
+    ],
+    "source": "original"
   }
 ]
