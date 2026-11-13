@@ -221,6 +221,48 @@
     "refs": [
       "CIA Part 2 A.3",
       "GIAS 13.2"
+    ],
+    "details": [
+      {
+        "heading": "Lưu ý về nguồn",
+        "body": [
+          "Nội dung chủ đề này là kiến thức nghiệp vụ chung, không lấy từ GIAS; được viết theo hiểu biết phổ biến của nghề, nên đối chiếu với tài liệu chuyên ngành (ví dụ hướng dẫn GTAG của IIA, COBIT, NIST) khi dùng trong công việc."
+        ]
+      },
+      {
+        "heading": "3b. Mục tiêu chiến lược và đo lường hiệu quả",
+        "body": [
+          "Khi lập kế hoạch, kiểm toán viên hiểu hoạt động được kiểm toán góp phần vào mục tiêu chiến lược nào, rủi ro nào đe dọa mục tiêu đó và chỉ số nào đo việc đạt mục tiêu (KPI, chỉ số rủi ro chính KRI).",
+          "Chỉ số hiệu quả gắn với mục tiêu giúp chọn tiêu chí đánh giá và phát hiện chỗ đo lường sai lệch, ví dụ chỉ số thưởng khuyến khích hành vi trái mục tiêu."
+        ]
+      },
+      {
+        "heading": "3c. An ninh mạng, kiểm soát CNTT và quyền riêng tư",
+        "body": [
+          "Rủi ro an ninh mạng thường gặp: lừa đảo qua email, mã độc tống tiền, truy cập trái phép, rò rỉ dữ liệu, rủi ro từ nhà cung cấp; rủi ro mới nổi gồm tấn công dùng trí tuệ nhân tạo và điện toán đám mây cấu hình sai.",
+          "Kiểm soát chung CNTT (ITGC): quản lý truy cập (cấp, rà soát, thu hồi quyền), quản lý thay đổi chương trình, vận hành hệ thống (sao lưu, xử lý sự cố), phát triển hệ thống. ITGC yếu làm giảm độ tin cậy của mọi kiểm soát ứng dụng chạy trên hệ thống đó.",
+          "Khung kiểm soát CNTT (COBIT, NIST Cybersecurity Framework) cung cấp ngôn ngữ chung và tiêu chí đánh giá; Yêu cầu theo chủ đề an ninh mạng của IIA áp dụng khi chủ đề này nằm trong phạm vi.",
+          "Quyền riêng tư: thu thập tối thiểu, đúng mục đích, có đồng ý hoặc cơ sở pháp lý, bảo mật, lưu giữ có thời hạn, quyền của chủ thể dữ liệu."
+        ]
+      },
+      {
+        "heading": "3d. Liên tục kinh doanh và khắc phục thảm họa",
+        "body": [
+          "Phân tích tác động kinh doanh (BIA) xác định quy trình quan trọng và mức gián đoạn chấp nhận được; thời gian khôi phục mục tiêu (RTO) là thời gian tối đa để khôi phục hoạt động, điểm khôi phục mục tiêu (RPO) là lượng dữ liệu tối đa có thể mất.",
+          "Kế hoạch liên tục kinh doanh (BCP) duy trì hoạt động thiết yếu; kế hoạch khắc phục thảm họa (DRP) khôi phục hệ thống CNTT. Kế hoạch chỉ đáng tin khi được thử nghiệm định kỳ; bản sao lưu chỉ có giá trị khi khôi phục được.",
+          "Quản lý sự cố gồm phát hiện, phân loại, xử lý, báo cáo và rút kinh nghiệm."
+        ]
+      },
+      {
+        "heading": "3e-3f. Khái niệm tài chính và rủi ro theo quy trình nghiệp vụ",
+        "body": [
+          "Tài sản ngắn hạn (tiền, phải thu, tồn kho) và dài hạn (tài sản cố định, đầu tư dài hạn); nợ ngắn hạn và dài hạn; vốn chủ sở hữu. Hiểu các khoản này giúp nhận diện rủi ro như phải thu khó đòi, tồn kho lỗi thời, lệch kỳ hạn nợ.",
+          "Mua hàng và phải trả: nhà cung cấp giả, thanh toán trùng, thanh toán không có hàng; kiểm soát: phê duyệt nhà cung cấp, đối chiếu ba chiều, phân nhiệm.",
+          "Tồn kho và tài sản: mất mát, lỗi thời; kiểm soát: hạn chế tiếp cận, kiểm kê, đối chiếu sổ.",
+          "Bên thứ ba và chuỗi cung ứng: phụ thuộc nhà cung cấp, vi phạm của nhà cung cấp; kiểm soát: thẩm định, điều khoản hợp đồng, quyền kiểm toán, giám sát.",
+          "Hệ thống ERP, CRM, GRC: phân quyền sai, dữ liệu gốc sai, cấu hình kiểm soát tự động không đúng."
+        ]
+      }
     ]
   },
   {
@@ -252,6 +294,30 @@
     ],
     "refs": [
       "CIA Part 2 A.4"
+    ],
+    "details": [
+      {
+        "heading": "Lưu ý về nguồn",
+        "body": [
+          "Nội dung chủ đề này là kiến thức nghiệp vụ chung, không lấy từ GIAS; GIAS chỉ yêu cầu lập kế hoạch, mục tiêu, phạm vi, nguồn lực, chương trình theo Nguyên tắc 13, không quy định một phương pháp tiếp cận cụ thể."
+        ]
+      },
+      {
+        "heading": "4a. Chọn phương pháp tiếp cận",
+        "body": [
+          "Truyền thống: các giai đoạn tuần tự, phù hợp khi phạm vi ổn định và rủi ro đã rõ.",
+          "Agile: chia việc thành các vòng ngắn, ưu tiên rủi ro cao trước, trao đổi thường xuyên với đơn vị, kết quả được chia sẻ sớm; phù hợp khi môi trường thay đổi nhanh hoặc cần thông tin kịp thời. Agile không có nghĩa là bỏ qua lập hồ sơ, giám sát hay các yêu cầu của Chuẩn mực.",
+          "Tích hợp: một cuộc kiểm toán kết hợp nhiều khía cạnh (hoạt động, tài chính, CNTT, tuân thủ) của cùng quy trình, tránh làm nhiều cuộc riêng lẻ và thấy rủi ro liên đới.",
+          "Từ xa: dùng công nghệ để lấy dữ liệu, họp, quan sát; tiết kiệm chi phí đi lại nhưng cần chú ý độ tin cậy của bằng chứng (ví dụ tài liệu chụp ảnh), bảo mật dữ liệu và việc khó quan sát trực tiếp tài sản."
+        ]
+      },
+      {
+        "heading": "4b. Quản lý dự án trong cuộc kiểm toán",
+        "body": [
+          "Xác định phạm vi, mốc thời gian, ngân sách giờ, phân công, phụ thuộc giữa các công việc; theo dõi tiến độ so với kế hoạch và xử lý vướng mắc sớm.",
+          "Rủi ro dự án kiểm toán thường gặp: đơn vị chậm cung cấp dữ liệu, thiếu kỹ năng, phạm vi phình ra; cách xử lý là trao đổi kịp thời, điều chỉnh có phê duyệt và báo cáo giới hạn nếu có."
+        ]
+      }
     ]
   },
   {
@@ -451,6 +517,29 @@
     "refs": [
       "CIA Part 2 B.1",
       "GIAS 14.1"
+    ],
+    "details": [
+      {
+        "heading": "1a. Phương pháp thu thập thông tin (GIAS 14.1, nên làm)",
+        "body": [
+          "GIAS 14.1 nêu các thủ tục thu thập thông tin: phỏng vấn hoặc khảo sát người tham gia hoạt động; quan sát trực tiếp quy trình (walkthrough); lấy xác nhận từ người độc lập với hoạt động; kiểm tra bằng chứng vật chất như tài liệu, hàng tồn kho, thiết bị; truy cập trực tiếp hệ thống để quan sát hoặc trích dữ liệu; làm việc với người dùng, quản trị hệ thống để lấy dữ liệu.",
+          "Phỏng vấn giúp hiểu nhanh nhưng là bằng chứng gián tiếp, cần chứng thực. Quan sát chỉ cho thấy tình trạng tại thời điểm quan sát. Walkthrough theo một giao dịch từ đầu đến cuối giúp xác nhận hiểu biết về quy trình và kiểm soát.",
+          "Nên cân nhắc kiểm tra toàn bộ tổng thể hay chọn mẫu; phần mềm phân tích dữ liệu giúp kiểm tra toàn bộ hoặc nhóm mục tiêu. Nếu chọn mẫu, phải dùng phương pháp để mẫu đại diện cho tổng thể nhất có thể."
+        ]
+      },
+      {
+        "heading": "1b. Tài liệu dùng để thu thập thông tin",
+        "body": [
+          "Chính sách, quy trình, lưu đồ, báo cáo của quản lý; danh mục kiểm tra (checklist); bảng câu hỏi rủi ro và kiểm soát; khảo sát tự đánh giá; sơ đồ tổ chức, mô tả công việc; báo cáo các cuộc kiểm toán và đảm bảo trước (GIAS 13.2).",
+          "Bảng câu hỏi tự đánh giá thu thập nhanh ý kiến của nhiều người nhưng phản ánh nhận thức của người trả lời, cần chứng thực trước khi dùng làm bằng chứng cho kết luận."
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "q": "Quan sát thủ kho kiểm kê một lần cho biết điều gì và không cho biết điều gì?",
+        "a": "Cho biết quy trình được làm thế nào tại thời điểm quan sát; không chứng minh kiểm soát vận hành nhất quán trong cả kỳ, và người bị quan sát có thể thay đổi hành vi."
+      }
     ]
   },
   {
@@ -483,6 +572,49 @@
     "refs": [
       "GIAS 14.1",
       "CIA Part 2 B.2"
+    ],
+    "details": [
+      {
+        "heading": "2a-2c. Ba thuộc tính của thông tin theo GIAS 14.1",
+        "body": [
+          "Phù hợp (relevant): nhất quán với mục tiêu, trong phạm vi, góp phần hình thành kết quả.",
+          "Đáng tin cậy (reliable): đúng sự thật và cập nhật. Tăng khi: do kiểm toán viên tự thu thập hoặc từ nguồn độc lập; được chứng thực bằng nhiều nguồn; lấy từ hệ thống có quản trị, quản lý rủi ro và kiểm soát hữu hiệu.",
+          "Đầy đủ (sufficient): đủ để phân tích, đánh giá, và để một người thận trọng, có hiểu biết, có năng lực thực hiện lại chương trình làm việc và đi đến cùng kết luận.",
+          "Bắt buộc: đánh giá thông tin có đủ ba thuộc tính để làm cơ sở hợp lý cho phát hiện và kết luận; nếu chưa đủ thì quyết định có thu thập thêm; nếu không thể có bằng chứng phù hợp thì quyết định có nêu điều đó thành phát hiện không.",
+          "Lưu ý: GIAS 2024 không có thuộc tính 'hữu ích' (useful); đó là của IPPF 2017."
+        ]
+      }
+    ],
+    "compare": {
+      "title": "Độ tin cậy tương đối của bằng chứng (thông lệ thường gặp)",
+      "columns": [
+        "Tin cậy hơn",
+        "Kém tin cậy hơn"
+      ],
+      "rows": [
+        [
+          "Kiểm toán viên tự quan sát, tự tính lại",
+          "Giải trình bằng lời của nhân viên"
+        ],
+        [
+          "Xác nhận bên thứ ba gửi thẳng kiểm toán viên",
+          "Tài liệu do đơn vị được kiểm toán tự lập"
+        ],
+        [
+          "Được chứng thực bằng nhiều nguồn",
+          "Chỉ có một nguồn"
+        ],
+        [
+          "Dữ liệu từ hệ thống có kiểm soát tốt",
+          "Bảng tính thủ công không có kiểm soát"
+        ]
+      ]
+    },
+    "checks": [
+      {
+        "q": "Không thể lấy được bằng chứng cần thiết vì dữ liệu đã bị xóa; kiểm toán viên cân nhắc gì?",
+        "a": "Có nêu việc thiếu bằng chứng (ví dụ yếu kém lưu trữ dữ liệu) thành một phát hiện không (GIAS 14.1), và đây có thể là giới hạn phạm vi (GIAS 13.3)."
+      }
     ]
   },
   {
@@ -519,7 +651,27 @@
     ],
     "refs": [
       "CIA Part 2 B.3",
-      "GIAS 10.3"
+      "GIAS 10.3",
+      "GIAS 14.2"
+    ],
+    "details": [
+      {
+        "heading": "Lưu ý về nguồn",
+        "body": [
+          "Nội dung về công cụ là kiến thức chung, không lấy từ GIAS. GIAS 10.3 và 14.2 chỉ yêu cầu CAE cố gắng có công nghệ phù hợp, và khuyến khích dùng công nghệ để kiểm tra toàn bộ tổng thể."
+        ]
+      },
+      {
+        "heading": "3a. Chọn công cụ phù hợp",
+        "body": [
+          "Trí tuệ nhân tạo, học máy: phân loại, phát hiện mẫu bất thường trong dữ liệu lớn hoặc văn bản; cần hiểu dữ liệu huấn luyện, giới hạn của mô hình và kiểm tra lại kết quả.",
+          "Tự động hóa quy trình bằng robot (RPA): chạy lặp lại các bước kiểm tra theo quy tắc rõ ràng; bản thân robot cũng cần kiểm soát truy cập và quản lý thay đổi.",
+          "Giám sát liên tục (của quản lý) và kiểm toán liên tục (của kiểm toán nội bộ): kiểm tra giao dịch gần thời gian thực theo quy tắc; giám sát liên tục là kiểm soát của quản lý, kiểm toán viên có thể dựa vào sau khi đánh giá.",
+          "Module kiểm toán nhúng: đoạn chương trình trong hệ thống ghi lại giao dịch thỏa điều kiện để kiểm toán viên xem xét.",
+          "Dashboard: trình bày trực quan chỉ số rủi ro, kết quả, tiến độ cho các bên liên quan.",
+          "Dù dùng công cụ nào, kiểm toán viên vẫn phải đánh giá tính đầy đủ, chính xác của dữ liệu nguồn và bảo mật dữ liệu."
+        ]
+      }
     ]
   },
   {
@@ -555,6 +707,30 @@
     ],
     "refs": [
       "CIA Part 2 B.4"
+    ],
+    "details": [
+      {
+        "heading": "Lưu ý về nguồn",
+        "body": [
+          "Nội dung chủ đề này là kiến thức chung về phân tích quy trình và dữ liệu, không lấy từ GIAS."
+        ]
+      },
+      {
+        "heading": "4a-4b. Lưu đồ, walkthrough và ma trận trách nhiệm",
+        "body": [
+          "Chia quy trình thành các đoạn: khởi tạo, phê duyệt, ghi nhận, xử lý, đối chiếu, báo cáo; mỗi đoạn có đầu vào, xử lý, đầu ra và điểm kiểm soát.",
+          "Lưu đồ giúp thấy bước thiếu kiểm soát, điểm chuyển giao giữa bộ phận, bước trùng lặp; walkthrough một giao dịch thật xác nhận lưu đồ đúng với thực tế.",
+          "Ma trận phân công trách nhiệm (RACI: thực hiện, chịu trách nhiệm cuối, được tham vấn, được thông báo) giúp phát hiện xung đột phân nhiệm hoặc việc không ai chịu trách nhiệm."
+        ]
+      },
+      {
+        "heading": "4c-4e. Dữ liệu và các loại phân tích",
+        "body": [
+          "Dữ liệu có cấu trúc (bảng, cơ sở dữ liệu) dễ phân tích bằng truy vấn; dữ liệu phi cấu trúc (email, hợp đồng, hình ảnh) cần kỹ thuật như phân tích văn bản.",
+          "Quy trình phân tích dữ liệu: xác định mục tiêu; lấy dữ liệu phù hợp và xác nhận tính đầy đủ; chuẩn hóa, làm sạch; phân tích; trao đổi kết quả.",
+          "Phân tích mô tả (điều gì đã xảy ra), chẩn đoán (vì sao xảy ra), dự báo (điều gì có thể xảy ra), đề xuất (nên làm gì); phát hiện bất thường tìm giao dịch lệch mẫu chung (ví dụ trùng, ngoài giờ, ngay dưới hạn mức, luật Benford); phân tích văn bản tìm từ khóa, cảm xúc, chủ đề trong dữ liệu chữ."
+        ]
+      }
     ]
   },
   {
@@ -585,7 +761,26 @@
       "Chấp nhận giải trình về biến động mà không chứng thực."
     ],
     "refs": [
-      "CIA Part 2 B.5"
+      "CIA Part 2 B.5",
+      "GIAS 14.2"
+    ],
+    "details": [
+      {
+        "heading": "Lưu ý về nguồn",
+        "body": [
+          "GIAS 14.2 (Xem xét khi thực hiện) liệt kê các phân tích có thể dùng: tỷ số, xu hướng, hồi quy; so sánh với ngân sách, dự báo, kỳ trước; quan hệ giữa thông tin tài chính và phi tài chính; so sánh chuẩn nội bộ và bên ngoài. Chi tiết kỹ thuật dưới đây là kiến thức chung."
+        ]
+      },
+      {
+        "heading": "5a-5b. Chọn kỹ thuật phân tích",
+        "body": [
+          "Tỷ số: thanh khoản (khả năng trả nợ ngắn hạn), hoạt động (vòng quay tồn kho, phải thu), sinh lời, đòn bẩy; dùng để so sánh giữa kỳ và với đơn vị khác.",
+          "Chênh lệch: thực tế so với ngân sách, kế hoạch; xu hướng: nhiều kỳ liên tiếp; hồi quy: ước lượng giá trị kỳ vọng từ biến liên quan (ví dụ chi phí nhiên liệu theo số km).",
+          "Quan hệ tài chính với phi tài chính: chi phí lương so với số nhân viên, chi phí điện so với giờ máy chạy; lệch quan hệ là tín hiệu cần tìm hiểu.",
+          "So sánh chuẩn nội bộ (giữa chi nhánh) và bên ngoài (đơn vị tương tự) cần bảo đảm số liệu so sánh được.",
+          "Biến động bất thường là tín hiệu để hỏi, chứng thực giải trình và kiểm tra chi tiết, chưa phải kết luận; thủ tục phân tích hiệu quả nhất khi kỳ vọng được xây dựng độc lập và đủ chính xác."
+        ]
+      }
     ]
   },
   {
@@ -630,6 +825,38 @@
       "GIAS 14.2",
       "GIAS 14.3",
       "CIA Part 2 B.6"
+    ],
+    "details": [
+      {
+        "heading": "6a. Phân tích thực trạng so với tiêu chí (GIAS 14.2)",
+        "body": [
+          "Bắt buộc: dùng thông tin phù hợp, đáng tin cậy, đầy đủ để xác định thực trạng (condition) và so với tiêu chí; có chênh lệch thì ghi nhận là phát hiện tiềm năng và đánh giá tiếp.",
+          "Nếu phân tích ban đầu chưa đủ bằng chứng, dùng thận trọng nghề nghiệp để quyết định có phân tích thêm; nếu có, điều chỉnh chương trình và CAE phê duyệt. Nếu không có chênh lệch, kết luận phải đưa ra sự đảm bảo về hiệu quả của quy trình.",
+          "Khi quyết định có phân tích thêm, nên xét: kết quả đánh giá rủi ro và mức đầy đủ của kiểm soát; mức quan trọng của hoạt động và phát hiện; tính sẵn có, độ tin cậy của thông tin; mức độ phân tích đã hỗ trợ phát hiện; chi phí so với lợi ích.",
+          "Phát hiện tiềm năng thường gặp: sai sót, bất thường, hành vi bất hợp pháp, cơ hội nâng cao hiệu quả, hiệu suất."
+        ]
+      },
+      {
+        "heading": "6b-6c. Nguyên nhân gốc, ảnh hưởng và mức quan trọng (GIAS 14.3)",
+        "body": [
+          "Bắt buộc: đánh giá mức quan trọng của từng phát hiện; cùng quản lý xác định nguyên nhân gốc khi có thể, ảnh hưởng tiềm tàng; xét khả năng xảy ra và mức ảnh hưởng của rủi ro; rủi ro đáng kể phải được ghi nhận và báo cáo là phát hiện; ưu tiên phát hiện theo phương pháp của CAE.",
+          "Nguyên nhân gốc là vấn đề sâu xa dẫn đến thực trạng, thường liên quan khiếm khuyết kiểm soát; cách đơn giản nhất là hỏi liên tiếp 'vì sao'. Quản lý thường hiểu nguyên nhân rõ hơn nên cần phối hợp.",
+          "Để xác định mức quan trọng: đánh giá thiết kế và hiệu quả kiểm soát hiện có rồi xác định rủi ro còn lại; xét ảnh hưởng, khả năng xảy ra, dung sai rủi ro, các yếu tố quan trọng khác và tiêu chí.",
+          "Ngoài rủi ro đáng kể (bắt buộc báo cáo), kiểm toán viên có thể báo các rủi ro khác dưới dạng phát hiện hoặc cách khác, theo phương pháp đã định.",
+          "Phát hiện nên viết súc tích, ngôn ngữ dễ hiểu, giải thích chênh lệch giữa thực trạng và tiêu chí, có bằng chứng hỗ trợ."
+        ]
+      }
+    ],
+    "example": {
+      "title": "Từ thực trạng đến nguyên nhân gốc",
+      "scenario": "12 trên 40 hóa đơn được thanh toán trước khi có phiếu nhập kho.",
+      "analysis": "Tiêu chí: chỉ thanh toán khi khớp đơn hàng, phiếu nhập kho, hóa đơn. Thực trạng: 30% mẫu vi phạm. Hỏi 'vì sao' cùng quản lý: kế toán thanh toán sớm để được chiết khấu; hệ thống không chặn thanh toán khi thiếu phiếu nhập kho. Nguyên nhân gốc là thiếu kiểm soát tự động, không chỉ là 'nhân viên làm sai'. Ảnh hưởng: có thể trả tiền cho hàng chưa nhận. Mức quan trọng xét theo giá trị, khả năng xảy ra và dung sai rủi ro."
+    },
+    "checks": [
+      {
+        "q": "Không có chênh lệch giữa tiêu chí và thực trạng thì kết luận thế nào?",
+        "a": "Phải đưa ra sự đảm bảo về hiệu quả của quy trình quản trị, rủi ro, kiểm soát của hoạt động (GIAS 14.2)."
+      }
     ]
   },
   {
@@ -662,7 +889,26 @@
     "refs": [
       "GIAS 14.6",
       "GIAS 5.2",
-      "CIA Part 2 B.7"
+      "CIA Part 2 B.7",
+      "GIAS 12.3"
+    ],
+    "details": [
+      {
+        "heading": "7a-7d. Hồ sơ làm việc theo GIAS 14.6",
+        "body": [
+          "Bắt buộc: ghi lại thông tin, bằng chứng sao cho người có hiểu biết, thận trọng làm lại được và ra cùng kết quả; kiểm toán viên và người giám sát rà soát về độ chính xác, phù hợp, đầy đủ; CAE rà soát và phê duyệt; lưu giữ theo luật và chính sách.",
+          "Hồ sơ nên gồm: ngày hoặc kỳ kiểm toán; đánh giá rủi ro; mục tiêu, phạm vi; chương trình; mô tả phân tích (thủ tục, nguồn dữ liệu); kết quả; tên hoặc chữ ký tắt người thực hiện và người giám sát; bằng chứng đã trao đổi với các bên.",
+          "Giấy làm việc cơ bản nên có: số tham chiếu; tiêu đề; kỳ; phạm vi; nguồn dữ liệu; mục đích; mô tả tổng thể, cỡ mẫu, cách chọn; người thực hiện; ghi chú rà soát và người rà soát.",
+          "Hồ sơ là cơ sở để giám sát, để CAE và người khác đánh giá chất lượng, và để chứng minh tuân thủ Chuẩn mực; cũng là nguồn chính hỗ trợ việc trao đổi với HĐQT, Ban điều hành.",
+          "Ghi chú rà soát của người giám sát thường được xóa khỏi hồ sơ cuối khi đã được xử lý, hoặc lưu riêng hồ sơ ghi chú và cách xử lý (GIAS 12.3)."
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "q": "Ai phê duyệt hồ sơ cuộc kiểm toán theo GIAS?",
+        "a": "CAE rà soát và phê duyệt; kiểm toán viên và người giám sát rà soát trước đó (GIAS 14.6)."
+      }
     ]
   },
   {
@@ -694,6 +940,23 @@
     "refs": [
       "GIAS 14.5",
       "CIA Part 2 B.8"
+    ],
+    "details": [
+      {
+        "heading": "8a-8b. Kết luận cuộc kiểm toán (GIAS 14.5)",
+        "body": [
+          "Bắt buộc: kết luận tóm tắt kết quả so với mục tiêu cuộc kiểm toán và mục tiêu của quản lý, thể hiện xét đoán về mức quan trọng tổng hợp của các phát hiện. Kết luận đảm bảo phải gồm đánh giá về hiệu quả quản trị, rủi ro, kiểm soát, kể cả ghi nhận khi quy trình hữu hiệu.",
+          "Nên: dùng thang xếp hạng theo phương pháp của CAE, ví dụ đạt, đạt một phần, cần cải thiện, không đạt; nêu bối cảnh, vì một phát hiện có thể quan trọng ở cấp hoạt động nhưng không ở cấp tổ chức.",
+          "Nhiều phát hiện nhỏ cùng một nguyên nhân có thể tổng hợp thành vấn đề đáng kể; kết luận phải dựa trên xét đoán về tổng thể, không chỉ đếm số phát hiện.",
+          "Kết luận của cuộc tư vấn nên phù hợp với mục tiêu và phạm vi đã thỏa thuận."
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "q": "Cuộc đảm bảo không có phát hiện nào; có cần kết luận về hiệu quả không?",
+        "a": "Có; kết luận đảm bảo phải ghi nhận cả khi quy trình hữu hiệu (GIAS 14.5)."
+      }
     ]
   },
   {
@@ -720,6 +983,24 @@
     "refs": [
       "GIAS 12.3",
       "CIA Part 2 C.1"
+    ],
+    "details": [
+      {
+        "heading": "1a-1d. Giám sát theo GIAS 12.3",
+        "body": [
+          "Bắt buộc: CAE lập phương pháp giám sát, đảm bảo chất lượng và phát triển năng lực; CAE hoặc người giám sát hướng dẫn suốt cuộc kiểm toán, xác minh chương trình đã hoàn thành, xác nhận hồ sơ đủ hỗ trợ phát hiện, kết luận, khuyến nghị; phản hồi cho kiểm toán viên về kết quả làm việc; lưu bằng chứng giám sát.",
+          "Mức độ giám sát tùy độ trưởng thành của chức năng, năng lực, kinh nghiệm của kiểm toán viên và độ phức tạp của cuộc kiểm toán. CAE chịu trách nhiệm giám sát cả khi công việc do bên ngoài thực hiện; có thể giao việc giám sát nhưng vẫn chịu trách nhiệm cuối cùng.",
+          "Khi lập kế hoạch (nên): người giám sát rà soát mục tiêu, phê duyệt chương trình; tiêu chí chính để duyệt là chương trình có đạt mục tiêu một cách hiệu quả không; theo dõi việc hoàn thành và phê duyệt thay đổi.",
+          "Khi rà soát hồ sơ (nên): đánh giá thông tin, kiểm tra và bằng chứng có phù hợp, đáng tin cậy, đầy đủ để đạt mục tiêu và hỗ trợ kết luận; rà soát cả thông tin trao đổi theo các yêu cầu của 11.2; có thể yêu cầu thêm bằng chứng hoặc giải thích.",
+          "Đánh giá kiểm toán viên (nên): trao đổi trong suốt cuộc kiểm toán, họp sau cuộc kiểm toán để phát triển nhân sự. Chức năng nhỏ không có người giám sát riêng có thể dùng danh mục kiểm tra hoặc công cụ tự động."
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "q": "CAE thuê công ty bên ngoài thực hiện một cuộc kiểm toán; ai chịu trách nhiệm giám sát?",
+        "a": "CAE vẫn chịu trách nhiệm giám sát và các xét đoán nghề nghiệp quan trọng (GIAS 12.3)."
+      }
     ]
   },
   {
@@ -751,7 +1032,35 @@
     ],
     "refs": [
       "GIAS 13.1",
-      "CIA Part 2 C.2"
+      "CIA Part 2 C.2",
+      "GIAS 14.4",
+      "GIAS 11.5"
+    ],
+    "details": [
+      {
+        "heading": "2a. Hình thức và thời điểm trao đổi (GIAS 13.1, nên làm)",
+        "body": [
+          "Trao đổi gồm: ban đầu, liên tục, kết thúc và báo cáo cuối cùng; dùng nhiều hình thức: chính thức, không chính thức, viết, nói; qua họp, thuyết trình, email, trao đổi không chính thức.",
+          "Thông báo trước cuộc kiểm toán cho quản lý và nhân viên liên quan: lý do, thời điểm bắt đầu, thời gian dự kiến, để tránh trùng sự kiện quan trọng; đồng thời yêu cầu tài liệu cần cho đánh giá rủi ro.",
+          "Họp khởi động: trao đổi kết quả đánh giá rủi ro, mục tiêu, phạm vi, thời gian; xác nhận quản lý hiểu và ủng hộ; thống nhất tần suất trao đổi và ai nhận báo cáo; ghi lại trong hồ sơ.",
+          "Họp kết thúc (exit conference): hoàn thiện kết quả trước khi phát hành báo cáo, thảo luận bất đồng với mục tiêu đạt đồng thuận; trao đổi tính khả thi của khuyến nghị, kế hoạch hành động, thời hạn và người chịu trách nhiệm."
+        ]
+      },
+      {
+        "heading": "2b-2c. Báo vượt cấp và bên nhận thông tin",
+        "body": [
+          "Vấn đề quản trị, rủi ro, kiểm soát cần xử lý ngay phải được báo kịp thời, không chờ báo cáo cuối (13.1).",
+          "Các tình huống thường phải báo lên cấp cao hơn: giới hạn phạm vi không giải quyết được với quản lý (CAE đưa lên HĐQT, 13.3); quản lý chấp nhận rủi ro vượt dung sai (11.5); bất đồng về kết quả không giải quyết được (CAE làm việc với Ban điều hành, 14.4).",
+          "Bắt buộc khi bất đồng: thảo luận để hiểu nhau; không bắt buộc sửa kết quả nếu không có lý do xác đáng; theo phương pháp để hai bên nêu quan điểm và lý do (13.1, 14.4).",
+          "Khuyến nghị nên được trao đổi với cấp quản lý có thẩm quyền thay đổi hoạt động (14.4)."
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "q": "Giữa cuộc kiểm toán phát hiện lỗ hổng bảo mật đang bị khai thác; chờ báo cáo cuối được không?",
+        "a": "Không; vấn đề cần xử lý ngay phải được báo kịp thời cho quản lý phù hợp (GIAS 13.1)."
+      }
     ]
   }
 ]
