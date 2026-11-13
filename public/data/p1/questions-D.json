@@ -818,12 +818,12 @@
     "stem": "Khi lập kế hoạch kiểm toán quy trình thu tiền tại 30 cửa hàng, trưởng nhóm muốn nhận diện rủi ro gian lận một cách có hệ thống. Cách làm nào hiệu quả nhất ở giai đoạn này?",
     "options": [
       "Chờ đến khi kiểm tra chi tiết, nếu thấy bất thường thì mới bắt đầu xem xét đến gian lận.",
-      "Cả nhóm thảo luận (brainstorming) các kịch bản gian lận và cách che giấu.",
+      "Cả nhóm thảo luận các kịch bản gian lận và cách che giấu.",
       "Yêu cầu các cửa hàng trưởng ký cam kết không gian lận trước khi cuộc kiểm toán bắt đầu.",
       "Chỉ xem xét gian lận ở các cửa hàng đã từng có vụ việc trong ba năm vừa qua."
     ],
     "answer": 1,
-    "explanation": "Thảo luận nhóm về cách gian lận có thể xảy ra, ai có cơ hội, cách che giấu và dấu hiệu nhận biết giúp đưa rủi ro gian lận vào đánh giá rủi ro và thiết kế thủ tục ngay từ đầu (GIAS 13.2; CIA Part 1 D.2).",
+    "explanation": "Thảo luận nhóm về cách gian lận có thể xảy ra, ai có cơ hội, cách che giấu và dấu hiệu nhận biết giúp đưa rủi ro gian lận vào đánh giá rủi ro và thiết kế thủ tục ngay từ đầu (GIAS 13.2; CIA Part 1 D.2). Thuật ngữ gốc: brainstorming.",
     "optionNotes": [
       "Sai. Xem xét gian lận phải bắt đầu từ lập kế hoạch, không chờ tình cờ phát hiện.",
       "Đúng. Brainstorming là kỹ thuật phổ biến để nhận diện kịch bản gian lận.",
@@ -1050,12 +1050,12 @@
     "stem": "Phân tích 3 năm đấu thầu xây dựng cho thấy cùng 4 nhà thầu luôn tham dự, lần lượt thay phiên nhau thắng thầu, giá dự thầu của các bên thua luôn cao hơn bên thắng khoảng 3-5%. Đây là dấu hiệu của thủ đoạn gì?",
     "options": [
       "Lại quả giữa nhà thầu thắng và nhân viên mua hàng sau mỗi gói thầu.",
-      "Thông đồng giữa các nhà thầu (bid rigging), xoay vòng thắng thầu.",
+      "Thông đồng giữa các nhà thầu, xoay vòng thắng thầu.",
       "Chia nhỏ gói thầu để tránh ngưỡng phê duyệt của cấp quản lý cao hơn.",
       "Công ty ma tham dự thầu để tạo ra sự cạnh tranh giả tạo trong hồ sơ."
     ],
     "answer": 1,
-    "explanation": "Cùng một nhóm nhà thầu, thay phiên thắng, giá của bên thua cao hơn một cách đều đặn là dấu hiệu điển hình của thông đồng giữa các nhà thầu (bid rotation, cover bidding). Có thể có hoặc không có nhân viên nội bộ tham gia; cần mở rộng danh sách mời thầu và phân tích giá.",
+    "explanation": "Cùng một nhóm nhà thầu, thay phiên thắng, giá của bên thua cao hơn một cách đều đặn là dấu hiệu điển hình của thông đồng giữa các nhà thầu (bid rotation, cover bidding). Có thể có hoặc không có nhân viên nội bộ tham gia; cần mở rộng danh sách mời thầu và phân tích giá. Thuật ngữ gốc: bid rigging.",
     "optionNotes": [
       "Sai. Lại quả có thể đi kèm, nhưng mẫu hình mô tả là thông đồng giữa các nhà thầu.",
       "Đúng. Xoay vòng thắng thầu và giá bảo vệ là dấu hiệu thông đồng.",
@@ -1891,20 +1891,20 @@
     "section": "D",
     "topic": "D4",
     "difficulty": 2,
-    "stem": "Ngân hàng yêu cầu mỗi thủ quỹ phải nghỉ phép liên tục ít nhất hai tuần mỗi năm, trong thời gian đó người khác làm thay toàn bộ công việc. Mục đích chính của kiểm soát này là gì?",
+    "stem": "Công ty chỉ thanh toán hóa đơn nhà cung cấp khi số lượng, đơn giá khớp giữa đơn đặt hàng đã duyệt, phiếu nhập kho và hóa đơn. Kiểm soát này chủ yếu ngăn rủi ro gian lận nào?",
     "options": [
-      "Bảo đảm sức khỏe và tinh thần làm việc của thủ quỹ.",
-      "Giúp phát hiện gian lận mà thủ quỹ đang phải liên tục che giấu.",
-      "Giảm chi phí lương làm thêm giờ cho toàn bộ nhân viên bộ phận ngân quỹ.",
-      "Đào tạo thêm người dự phòng cho vị trí thủ quỹ."
+      "Thu ngân chiếm đoạt tiền mặt trước khi giao dịch được ghi sổ.",
+      "Thanh toán hóa đơn cho hàng không được đặt hoặc không nhận.",
+      "Nhân viên kê khống giờ làm thêm trong bảng chấm công.",
+      "Kế toán gối đầu các khoản thu của khách hàng với nhau."
     ],
     "answer": 1,
-    "explanation": "Nhiều thủ đoạn gian lận (như gối đầu) cần người thực hiện can thiệp liên tục để che giấu. Bắt buộc nghỉ phép và để người khác làm thay giúp các bất thường lộ ra; đây là kiểm soát phát hiện và răn đe.",
+    "explanation": "Đối chiếu ba chiều (đơn đặt hàng, phiếu nhập kho, hóa đơn) ngăn thanh toán cho hàng không đặt, không nhận hoặc tính giá sai, như hóa đơn khống từ nhà cung cấp giả hay nâng giá. Đây là kiểm soát phòng ngừa trong quy trình thanh toán.",
     "optionNotes": [
-      "Sai. Đây là lợi ích phụ, không phải mục đích kiểm soát.",
-      "Đúng. Lộ ra gian lận cần che giấu liên tục.",
-      "Sai. Không liên quan đến chi phí làm thêm.",
-      "Sai. Lợi ích phụ, không phải mục đích chính."
+      "Sai. Thuộc quy trình thu tiền, không phải thanh toán.",
+      "Đúng. Đối chiếu ba chiều ngăn thanh toán hàng không có thật.",
+      "Sai. Thuộc quy trình lương.",
+      "Sai. Thuộc quy trình thu tiền."
     ],
     "refs": [
       "CIA Part 1 D.4"
@@ -1994,12 +1994,12 @@
     "stem": "Nghi phạm có thu nhập lương khoảng 300 triệu đồng mỗi năm nhưng trong hai năm đã mua nhà, xe, gửi tiết kiệm trị giá hơn 5 tỷ đồng. Kỹ thuật nào giúp ước tính thu nhập không giải thích được của người này?",
     "options": [
       "Phương pháp chọn mẫu ngẫu nhiên các giao dịch.",
-      "Phương pháp giá trị tài sản ròng (net worth).",
+      "Phương pháp giá trị tài sản ròng.",
       "Phương pháp phân tích tỷ số tài chính của công ty.",
       "Phương pháp phỏng vấn đồng nghiệp của nghi phạm."
     ],
     "answer": 1,
-    "explanation": "Phương pháp giá trị tài sản ròng so sánh mức tăng tài sản ròng và chi tiêu với nguồn thu nhập đã biết; phần chênh lệch là thu nhập không giải thích được, có thể từ gian lận. Đây là kỹ thuật điều tra gián tiếp phổ biến.",
+    "explanation": "Phương pháp giá trị tài sản ròng so sánh mức tăng tài sản ròng và chi tiêu với nguồn thu nhập đã biết; phần chênh lệch là thu nhập không giải thích được, có thể từ gian lận. Đây là kỹ thuật điều tra gián tiếp phổ biến. Thuật ngữ gốc: net worth.",
     "optionNotes": [
       "Sai. Chọn mẫu không ước tính thu nhập cá nhân.",
       "Đúng. So sánh tăng tài sản với thu nhập đã biết.",

@@ -593,7 +593,7 @@
     "stem": "Ba bộ phận đề nghị kiểm toán nội bộ hỗ trợ trong quý tới. Đề nghị nào kiểm toán nội bộ có thể nhận dưới dạng tư vấn mà KHÔNG nhận trách nhiệm quản lý?",
     "options": [
       "Phê duyệt danh sách nhà cung cấp đủ điều kiện cho bộ phận mua hàng trong năm tới.",
-      "Điều phối hội thảo tự đánh giá rủi ro và kiểm soát (CSA) cho các phòng ban.",
+      "Điều phối hội thảo tự đánh giá rủi ro và kiểm soát cho các phòng ban.",
       "Quản lý trực tiếp dự án triển khai phần mềm kế toán mới thay cho Giám đốc dự án.",
       "Vận hành đường dây nóng tố giác trong một năm thay cho bộ phận tuân thủ thiếu người."
     ],
@@ -1281,7 +1281,7 @@
     "options": [
       "Kiểm toán báo cáo tài chính, vì số liệu được công bố ra bên ngoài cho nhà đầu tư.",
       "Kiểm toán tuân thủ luật môi trường về giới hạn phát thải tại các nhà máy.",
-      "Đảm bảo về thông tin phi tài chính (ESG) được báo cáo ra bên ngoài.",
+      "Đảm bảo về thông tin phi tài chính được báo cáo ra bên ngoài.",
       "Kiểm toán hoạt động về hiệu quả sử dụng năng lượng của các nhà máy."
     ],
     "answer": 2,
@@ -2240,7 +2240,7 @@
     "difficulty": 2,
     "stem": "HĐQT đề nghị kiểm toán nội bộ, ngoài các cuộc kiểm toán thường lệ, hằng năm nêu các rủi ro mới nổi (quy định về AI, biến đổi khí hậu) có thể ảnh hưởng đến chiến lược. Yêu cầu này phù hợp với tuyên bố Mục đích của GIAS ở điểm nào?",
     "options": [
-      "Phù hợp, vì kiểm toán nội bộ cung cấp cả hiểu biết sâu và tầm nhìn (foresight).",
+      "Phù hợp, vì kiểm toán nội bộ cung cấp cả hiểu biết sâu và tầm nhìn.",
       "Không phù hợp, vì kiểm toán nội bộ chỉ đánh giá những gì đã xảy ra trong quá khứ.",
       "Không phù hợp, vì nhận diện rủi ro mới nổi là trách nhiệm riêng của Ban điều hành.",
       "Phù hợp, nhưng chỉ khi kiểm toán nội bộ chịu trách nhiệm xử lý các rủi ro đó."
@@ -2265,7 +2265,7 @@
     "difficulty": 3,
     "stem": "Thưởng của Ban điều hành dựa trên chỉ số 'tỷ lệ khách hàng hài lòng' do chính bộ phận Chăm sóc khách hàng tự tính và báo cáo. Ủy ban Kiểm toán muốn biết chỉ số này có đáng tin cậy không. Đây là loại dịch vụ nào?",
     "options": [
-      "Đảm bảo về độ tin cậy của thông tin hiệu quả hoạt động (KPI) được báo cáo.",
+      "Đảm bảo về độ tin cậy của thông tin hiệu quả hoạt động được báo cáo.",
       "Tư vấn về cách thiết kế lại bảng câu hỏi khảo sát mức độ hài lòng khách hàng.",
       "Kiểm toán báo cáo tài chính về chi phí của bộ phận Chăm sóc khách hàng.",
       "Kiểm toán tuân thủ quy định pháp luật về bảo vệ quyền lợi người tiêu dùng."
@@ -2906,7 +2906,7 @@
       "Kiểm toán tài chính đối với các khoản chi của chương trình trong năm.",
       "Kiểm toán CNTT đối với hệ thống quản lý dữ liệu tiêm chủng.",
       "Kiểm toán tuân thủ quy định về mua sắm vắc-xin và vật tư y tế.",
-      "Kiểm toán hiệu quả hoạt động (performance) của chương trình."
+      "Kiểm toán hiệu quả hoạt động của chương trình."
     ],
     "answer": 3,
     "explanation": "Kiểm toán hiệu quả hoạt động (performance audit) đánh giá chương trình có đạt mục tiêu (hiệu quả) với nguồn lực hợp lý (kinh tế, hiệu suất) hay không, phổ biến trong khu vực công.",
@@ -3725,24 +3725,23 @@
     "id": "P1-A-M37",
     "section": "A",
     "topic": "A8",
-    "difficulty": 3,
-    "stem": "Bộ phận tuân thủ và kiểm toán nội bộ cùng kiểm tra quy trình nhận biết khách hàng mỗi quý, khiến chi nhánh phàn nàn vì bị kiểm tra trùng. Cách xử lý phù hợp nhất của CAE là gì?",
+    "difficulty": 2,
+    "stem": "Trưởng phòng bán hàng cho rằng kiểm soát rủi ro tín dụng của khách hàng 'là việc của phòng quản lý rủi ro', nên phòng bán hàng chỉ lo doanh số. Theo Mô hình Ba tuyến của IIA, nhận định nào đúng nhất?",
     "options": [
-      "Ngừng kiểm toán quy trình này vì tuyến thứ hai đã kiểm tra.",
-      "Phối hợp lịch, phạm vi và cân nhắc dựa vào công việc của tuyến thứ hai.",
-      "Yêu cầu bộ phận tuân thủ ngừng kiểm tra để kiểm toán nội bộ làm thay.",
-      "Giữ nguyên vì kiểm tra trùng lặp làm tăng mức độ bảo đảm."
+      "Đúng: quản lý rủi ro là trách nhiệm riêng của tuyến thứ hai.",
+      "Không đúng: tuyến thứ nhất sở hữu và quản lý rủi ro hằng ngày.",
+      "Đúng: phòng bán hàng chỉ chịu trách nhiệm về doanh số.",
+      "Không đúng: kiểm toán nội bộ mới là bên chịu trách nhiệm."
     ],
     "answer": 1,
-    "explanation": "CAE cần phối hợp với các bên cung cấp bảo đảm khác để giảm trùng lặp và có thể dựa vào công việc của họ sau khi đánh giá năng lực, khách quan và chất lượng công việc (GIAS 9.5). Phối hợp không có nghĩa là bỏ trách nhiệm bảo đảm độc lập.",
+    "explanation": "Theo Mô hình Ba tuyến, vai trò tuyến thứ nhất (đơn vị kinh doanh) sở hữu và quản lý rủi ro trong hoạt động hằng ngày, gồm duy trì kiểm soát. Tuyến thứ hai hỗ trợ, giám sát, thách thức; không thay tuyến thứ nhất chịu trách nhiệm.",
     "optionNotes": [
-      "Sai. Không đánh giá trước mà bỏ hẳn là thiếu thận trọng.",
-      "Đúng. Phối hợp và cân nhắc dựa vào sau khi đánh giá.",
-      "Sai. Kiểm tra của tuyến thứ hai là trách nhiệm quản lý.",
-      "Sai. Trùng lặp gây lãng phí, không tự làm tăng bảo đảm."
+      "Sai. Tuyến thứ hai không thay tuyến thứ nhất sở hữu rủi ro.",
+      "Đúng. Đơn vị kinh doanh sở hữu rủi ro của mình.",
+      "Sai. Phòng bán hàng chịu trách nhiệm cả rủi ro phát sinh.",
+      "Sai. Kiểm toán nội bộ cung cấp bảo đảm, không sở hữu rủi ro."
     ],
     "refs": [
-      "GIAS 9.5",
       "IIA Three Lines Model",
       "CIA Part 1 A.8"
     ],
@@ -4085,20 +4084,20 @@
     "section": "A",
     "topic": "A5",
     "difficulty": 2,
-    "stem": "Kiểm toán viên CNTT phát hiện lập trình viên có quyền sửa trực tiếp chương trình trên hệ thống đang vận hành mà không qua phê duyệt. Rủi ro chính là gì?",
+    "stem": "Để đánh giá hiệu quả chương trình nâng cao nhận thức an ninh mạng cho nhân viên, bằng chứng nào có giá trị nhất?",
     "options": [
-      "Lập trình viên làm việc quá nhiều giờ trong tuần.",
-      "Chi phí bản quyền phần mềm tăng lên đáng kể.",
-      "Hệ thống sẽ chạy chậm hơn trong giờ cao điểm.",
-      "Thay đổi trái phép, chưa kiểm thử làm sai dữ liệu."
+      "Tổng số giờ đào tạo an ninh mạng mà nhân viên đã học.",
+      "Tỷ lệ nhân viên hoàn thành khóa học trực tuyến bắt buộc.",
+      "Số chữ ký cam kết tuân thủ chính sách an ninh thông tin.",
+      "Kết quả các đợt thử email lừa đảo mô phỏng theo thời gian."
     ],
     "answer": 3,
-    "explanation": "Thiếu phân tách giữa môi trường phát triển và vận hành, cùng thiếu quy trình quản lý thay đổi, cho phép thay đổi trái phép hoặc chưa kiểm thử, có thể gây sai lệch dữ liệu hoặc che giấu gian lận.",
+    "explanation": "Hiệu quả của chương trình nâng cao nhận thức thể hiện qua hành vi thực tế. Kết quả các đợt thử nghiệm email lừa đảo mô phỏng theo thời gian (tỷ lệ bấm vào liên kết, tỷ lệ báo cáo) đo trực tiếp hành vi, tốt hơn số giờ đào tạo hay chữ ký cam kết.",
     "optionNotes": [
-      "Sai. Không liên quan đến rủi ro kiểm soát.",
-      "Sai. Không liên quan đến bản quyền.",
-      "Sai. Hiệu năng không phải rủi ro chính.",
-      "Đúng. Rủi ro thay đổi trái phép, chưa kiểm thử."
+      "Sai. Đầu vào đào tạo không chứng minh thay đổi hành vi.",
+      "Sai. Hoàn thành khóa học chưa chứng minh hiệu quả.",
+      "Sai. Cam kết là hình thức.",
+      "Đúng. Đo trực tiếp hành vi của nhân viên."
     ],
     "refs": [
       "CIA Part 1 A.5"

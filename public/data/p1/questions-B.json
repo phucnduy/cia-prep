@@ -1127,13 +1127,13 @@
     "difficulty": 3,
     "stem": "Ba tháng trước, một kiểm toán viên phát biểu tại hội nghị nội bộ, nhiệt tình quảng bá hệ thống quản lý kho mới của Ban điều hành là 'giải pháp hoàn hảo'. Nay anh được giao kiểm toán hệ thống này. Đây là nguy cơ nào đối với tính khách quan?",
     "options": [
-      "Nguy cơ bào chữa (advocacy), vì đã công khai ủng hộ hệ thống đó.",
+      "Nguy cơ bào chữa, vì đã công khai ủng hộ hệ thống đó.",
       "Nguy cơ tự kiểm tra, vì anh sẽ đánh giá lại bản thiết kế hệ thống do chính mình làm.",
       "Nguy cơ bị đe dọa, vì Ban điều hành có thể gây áp lực nếu anh nêu phát hiện bất lợi.",
       "Nguy cơ quen thuộc, vì anh đã làm việc nhiều năm với đội dự án triển khai hệ thống."
     ],
     "answer": 0,
-    "explanation": "Nguy cơ bào chữa (theo phân loại của IESBA Code) phát sinh khi kiểm toán viên đã công khai ủng hộ một quan điểm hoặc đơn vị, đến mức khách quan bị ảnh hưởng. Kiểm toán viên phải nhận biết và quản lý thiên lệch (GIAS 2.1) và báo CAE để xem xét phân công lại (GIAS 2.3).",
+    "explanation": "Nguy cơ bào chữa (theo phân loại của IESBA Code) phát sinh khi kiểm toán viên đã công khai ủng hộ một quan điểm hoặc đơn vị, đến mức khách quan bị ảnh hưởng. Kiểm toán viên phải nhận biết và quản lý thiên lệch (GIAS 2.1) và báo CAE để xem xét phân công lại (GIAS 2.3). Thuật ngữ gốc: advocacy.",
     "optionNotes": [
       "Đúng. Công khai ủng hộ rồi đánh giá chính đối tượng đó là nguy cơ bào chữa.",
       "Sai. Anh không thiết kế hệ thống; tình huống không phải tự kiểm tra.",
@@ -2336,7 +2336,7 @@
     "stem": "Một sai sót nhỏ do thông đồng và làm giả chứng từ tinh vi không được phát hiện trong cuộc kiểm toán đã tuân thủ đầy đủ chương trình được duyệt. Một thành viên HĐQT cho rằng kiểm toán viên đã thiếu thận trọng. Nhận định nào đúng nhất?",
     "options": [
       "Đúng, vì thận trọng nghề nghiệp đòi hỏi phát hiện mọi sai sót.",
-      "Sai, vì kiểm toán viên không chịu trách nhiệm với bất kỳ sai sót nào trong đơn vị.",
+      "Sai, vì kiểm toán viên không bao giờ chịu trách nhiệm khi bỏ sót sai sót.",
       "Đúng, vì mọi sai sót không phát hiện được đều do thiếu năng lực.",
       "Chưa chắc: thận trọng nghề nghiệp không có nghĩa là không bao giờ sai sót."
     ],
@@ -2438,20 +2438,20 @@
     "section": "B",
     "topic": "B2",
     "difficulty": 3,
-    "stem": "Thưởng cuối năm của các kiểm toán viên được tính theo lợi nhuận của chính khối kinh doanh mà họ phụ trách kiểm toán. Nhận định nào đúng nhất?",
+    "stem": "Một kiểm toán viên nội bộ của ngân hàng được khối Tín dụng duyệt cho vay mua nhà với lãi suất ưu đãi thấp hơn hẳn mức dành cho nhân viên khác. Năm nay kiểm toán viên này được giao kiểm toán khối Tín dụng. Vấn đề chính là gì?",
     "options": [
-      "Hợp lý vì gắn kiểm toán viên với kết quả kinh doanh chung.",
-      "Chỉ là vấn đề nếu khối kinh doanh lỗ trong năm.",
-      "Hợp lý nếu mức thưởng này chỉ chiếm phần nhỏ trong tổng thu nhập hằng năm.",
-      "Tạo xung đột lợi ích, khiến kiểm toán viên ngại báo cáo bất lợi."
+      "Không có vấn đề vì khoản vay đã được duyệt đúng quy trình.",
+      "Chỉ là vấn đề nếu kiểm toán viên trả nợ chậm hạn.",
+      "Chỉ cần kiểm toán viên trả lãi theo đúng hợp đồng vay đã ký.",
+      "Lợi ích đặc biệt từ đơn vị được kiểm toán gây xung đột lợi ích."
     ],
     "answer": 3,
-    "explanation": "Khi thu nhập của kiểm toán viên phụ thuộc vào kết quả của đơn vị được kiểm toán, họ có động cơ né tránh phát hiện làm giảm kết quả đó. Đây là xung đột lợi ích làm suy giảm khách quan.",
+    "explanation": "Nhận lợi ích tài chính đặc biệt từ đơn vị được kiểm toán tạo xung đột lợi ích (nguy cơ tư lợi), làm suy giảm hoặc bị coi là suy giảm khách quan. Kiểm toán viên cần công bố và CAE nên cân nhắc phân công người khác.",
     "optionNotes": [
-      "Sai. Gắn thưởng với đơn vị được kiểm toán gây xung đột.",
-      "Sai. Xung đột tồn tại bất kể lãi hay lỗ.",
-      "Sai. Tỷ lệ nhỏ vẫn có thể ảnh hưởng.",
-      "Đúng. Xung đột lợi ích về tài chính."
+      "Sai. Lãi suất ưu đãi đặc biệt vẫn là lợi ích từ đơn vị được kiểm toán.",
+      "Sai. Xung đột tồn tại bất kể tình trạng trả nợ.",
+      "Sai. Không loại bỏ được lợi ích đã nhận.",
+      "Đúng. Cần công bố và cân nhắc phân công lại."
     ],
     "refs": [
       "GIAS 2.2",

@@ -456,13 +456,13 @@
     "difficulty": 2,
     "stem": "Báo cáo phát triển bền vững của công ty quảng bá 'sản phẩm xanh 100%' dựa trên một dòng sản phẩm chiếm 3% doanh thu, trong khi phát thải của các dòng còn lại tăng mạnh nhưng không được nêu. Rủi ro chính kiểm toán nội bộ cần nêu là gì?",
     "options": [
-      "Rủi ro tẩy xanh (greenwashing): công bố gây hiểu lầm về thành tích môi trường.",
+      "Rủi ro tẩy xanh: công bố gây hiểu lầm về thành tích môi trường.",
       "Rủi ro tuân thủ: chưa có giấy phép xả thải cho các dòng sản phẩm còn lại.",
       "Rủi ro hoạt động: chi phí sản xuất sản phẩm xanh cao hơn sản phẩm thông thường.",
       "Rủi ro thị trường: nhu cầu với sản phẩm xanh có thể giảm trong năm tới."
     ],
     "answer": 0,
-    "explanation": "Phóng đại hoặc trình bày chọn lọc thành tích môi trường làm người đọc hiểu sai là tẩy xanh, gây rủi ro uy tín và pháp lý. Kiểm toán nội bộ có thể đánh giá quản trị, kiểm soát và dữ liệu ESG được công bố.",
+    "explanation": "Phóng đại hoặc trình bày chọn lọc thành tích môi trường làm người đọc hiểu sai là tẩy xanh, gây rủi ro uy tín và pháp lý. Kiểm toán nội bộ có thể đánh giá quản trị, kiểm soát và dữ liệu ESG được công bố. Thuật ngữ gốc: greenwashing.",
     "optionNotes": [
       "Đúng. Trình bày chọn lọc, phóng đại là tẩy xanh.",
       "Sai. Tình huống không nêu vấn đề giấy phép.",
@@ -1642,13 +1642,13 @@
     "difficulty": 3,
     "stem": "Mỗi khối kinh doanh đều báo cáo rủi ro tín dụng của mình nằm trong ngưỡng cho phép. Tuy nhiên, cả ba khối cùng cho vay tập trung vào ngành bất động sản, và tổng mức tập trung vượt khẩu vị rủi ro HĐQT đặt ra. Khái niệm nào của COSO ERM giải thích vấn đề này?",
     "options": [
-      "Góc nhìn danh mục (portfolio view): rủi ro phải được xem xét tổng hợp toàn tổ chức.",
+      "Góc nhìn danh mục: rủi ro phải được xem xét tổng hợp toàn tổ chức.",
       "Rủi ro tiềm tàng, vì rủi ro của ngành bất động sản vốn đã cao trước khi có kiểm soát.",
       "Ngưỡng chịu đựng, vì mỗi khối đã tự đặt ngưỡng của mình quá rộng so với thực tế.",
       "Năng lực chịu đựng, vì ngân hàng không đủ vốn để chịu mọi khoản lỗ có thể xảy ra."
     ],
     "answer": 0,
-    "explanation": "COSO ERM nhấn mạnh góc nhìn danh mục: các rủi ro riêng lẻ có thể đều chấp nhận được, nhưng khi tổng hợp (do tương quan, tập trung) lại vượt khẩu vị của tổ chức. Cần đánh giá rủi ro ở cấp toàn tổ chức, không chỉ từng đơn vị.",
+    "explanation": "COSO ERM nhấn mạnh góc nhìn danh mục: các rủi ro riêng lẻ có thể đều chấp nhận được, nhưng khi tổng hợp (do tương quan, tập trung) lại vượt khẩu vị của tổ chức. Cần đánh giá rủi ro ở cấp toàn tổ chức, không chỉ từng đơn vị. Thuật ngữ gốc: portfolio view.",
     "optionNotes": [
       "Đúng. Góc nhìn danh mục cho thấy rủi ro tập trung khi tổng hợp.",
       "Sai. Vấn đề không phải mức tiềm tàng của một khoản, mà là tổng hợp.",
@@ -1768,12 +1768,12 @@
     "stem": "Hai thành viên HĐQT độc lập sắp hết nhiệm kỳ. HĐQT muốn quy trình tìm và đề xuất người thay thế khách quan, có tiêu chí rõ ràng về kỹ năng còn thiếu, không do Tổng Giám đốc tự giới thiệu. Ủy ban nào thường đảm nhận việc này?",
     "options": [
       "Ủy ban Kiểm toán, vì phụ trách giám sát tính độc lập của HĐQT và kiểm toán.",
-      "Ủy ban Đề cử (Nomination), xác định tiêu chí và đề xuất ứng viên cho HĐQT.",
+      "Ủy ban Đề cử, xác định tiêu chí và đề xuất ứng viên cho HĐQT.",
       "Ủy ban Lương thưởng, vì quyết định thù lao cho các thành viên HĐQT mới.",
       "Ủy ban Rủi ro, vì việc thay đổi nhân sự HĐQT là một rủi ro quản trị lớn."
     ],
     "answer": 1,
-    "explanation": "Ủy ban Đề cử (thường gồm thành viên độc lập) xác định tiêu chí, năng lực cần có và đề xuất ứng viên cho HĐQT và các vị trí lãnh đạo cấp cao, giúp quy trình khách quan, không bị Ban điều hành chi phối.",
+    "explanation": "Ủy ban Đề cử (thường gồm thành viên độc lập) xác định tiêu chí, năng lực cần có và đề xuất ứng viên cho HĐQT và các vị trí lãnh đạo cấp cao, giúp quy trình khách quan, không bị Ban điều hành chi phối. Thuật ngữ gốc: Nomination.",
     "optionNotes": [
       "Sai. Ủy ban Kiểm toán giám sát báo cáo, kiểm soát, kiểm toán, không đề cử nhân sự.",
       "Đúng. Đề cử nhân sự HĐQT là vai trò của Ủy ban Đề cử.",
@@ -3111,7 +3111,7 @@
     "options": [
       "Chỉ cần tuân thủ luật Việt Nam vì công ty đăng ký tại Việt Nam.",
       "Yêu cầu pháp lý chỉ cần xem xét khi có khiếu nại từ khách hàng.",
-      "Quy định bảo vệ dữ liệu của EU (GDPR) có thể áp dụng dù không có văn phòng ở EU.",
+      "Quy định bảo vệ dữ liệu của EU có thể áp dụng dù không có văn phòng ở EU.",
       "Luật nước ngoài chỉ áp dụng khi doanh thu ở đó vượt doanh thu trong nước."
     ],
     "answer": 2,
@@ -3185,7 +3185,7 @@
     "stem": "Hai rủi ro có cùng khả năng xảy ra và mức ảnh hưởng: tấn công mã độc tống tiền (tác động trong vài giờ) và thay đổi cơ cấu dân số khách hàng (tác động trong nhiều năm). Theo COSO ERM 2017, thuộc tính nào giúp phân biệt mức ưu tiên giữa hai rủi ro?",
     "options": [
       "Khẩu vị rủi ro của từng bộ phận phụ trách.",
-      "Tốc độ tác động (velocity) của rủi ro.",
+      "Tốc độ tác động của rủi ro.",
       "Số lượng người chịu trách nhiệm rủi ro.",
       "Chi phí mua bảo hiểm cho từng rủi ro."
     ],
@@ -3542,13 +3542,13 @@
     "difficulty": 2,
     "stem": "Trước khi nhập lô 200 phiếu chi, nhân viên cộng tổng số tiền và tổng số phiếu; sau khi nhập, hệ thống in tổng để so sánh. Đây là loại kiểm soát nào?",
     "options": [
-      "Kiểm soát tổng lô (batch total) đối với dữ liệu đầu vào.",
+      "Kiểm soát tổng lô đối với dữ liệu đầu vào.",
       "Kiểm soát vật chất đối với chứng từ gốc.",
       "Kiểm soát truy cập đối với hệ thống kế toán.",
       "Kiểm soát khắc phục được thực hiện sau khi phát hiện sai sót."
     ],
     "answer": 0,
-    "explanation": "Tổng lô (tổng tiền, tổng số chứng từ) được tính trước và so sánh với kết quả sau khi nhập, giúp phát hiện chứng từ bị bỏ sót, nhập trùng hoặc nhập sai số tiền. Đây là kiểm soát đầu vào.",
+    "explanation": "Tổng lô (tổng tiền, tổng số chứng từ) được tính trước và so sánh với kết quả sau khi nhập, giúp phát hiện chứng từ bị bỏ sót, nhập trùng hoặc nhập sai số tiền. Đây là kiểm soát đầu vào. Thuật ngữ gốc: batch total.",
     "optionNotes": [
       "Đúng. Kiểm soát tổng lô đầu vào.",
       "Sai. Không phải bảo vệ vật chất chứng từ.",
@@ -3821,13 +3821,13 @@
     "difficulty": 2,
     "stem": "Một chi nhánh phát hiện chỉ số rủi ro tín dụng vượt ngưỡng cảnh báo, nhưng quy trình không quy định phải báo cáo cho ai và trong bao lâu. Điểm yếu thiết kế chính là gì?",
     "options": [
-      "Thiếu cơ chế báo cáo vượt cấp (escalation) khi vượt ngưỡng.",
+      "Thiếu cơ chế báo cáo vượt cấp khi vượt ngưỡng.",
       "Ngưỡng cảnh báo được đặt quá thấp so với thực tế.",
       "Chi nhánh không có phần mềm theo dõi chỉ số rủi ro.",
       "Chỉ số rủi ro tín dụng không cần theo dõi ở cấp chi nhánh mà ở hội sở."
     ],
     "answer": 0,
-    "explanation": "Theo dõi chỉ số chỉ có tác dụng khi việc vượt ngưỡng kích hoạt báo cáo đến đúng cấp trong thời hạn rõ ràng để ra quyết định ứng phó. Thiếu cơ chế báo cáo vượt cấp làm cảnh báo không dẫn đến hành động.",
+    "explanation": "Theo dõi chỉ số chỉ có tác dụng khi việc vượt ngưỡng kích hoạt báo cáo đến đúng cấp trong thời hạn rõ ràng để ra quyết định ứng phó. Thiếu cơ chế báo cáo vượt cấp làm cảnh báo không dẫn đến hành động. Thuật ngữ gốc: escalation.",
     "optionNotes": [
       "Đúng. Thiếu cơ chế báo cáo vượt cấp.",
       "Sai. Không có thông tin cho thấy ngưỡng sai.",
