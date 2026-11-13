@@ -3773,5 +3773,387 @@
       "CIA Part 1 A.8"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-A-M39",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "CAE tự đặt các chỉ tiêu hoạt động cho chức năng kiểm toán nội bộ (tỷ lệ hoàn thành kế hoạch, thời gian phát hành báo cáo) và chỉ báo cáo kết quả cuối năm. Theo điều kiện thiết yếu của GIAS, HĐQT cần làm gì?",
+    "options": [
+      "Không cần tham gia vì chỉ tiêu hoạt động là việc nội bộ của CAE.",
+      "Chỉ xem xét chỉ tiêu khi có đánh giá chất lượng bên ngoài.",
+      "Giao Tổng Giám đốc phê duyệt chỉ tiêu thay cho HĐQT.",
+      "Phê duyệt các mục tiêu hoạt động của chức năng ít nhất hằng năm."
+    ],
+    "answer": 3,
+    "explanation": "Theo điều kiện thiết yếu của GIAS 8.3, HĐQT phê duyệt các mục tiêu hoạt động của chức năng kiểm toán nội bộ ít nhất hằng năm, để giám sát hiệu quả của chức năng.",
+    "optionNotes": [
+      "Sai. HĐQT có vai trò phê duyệt mục tiêu hoạt động.",
+      "Sai. Phê duyệt hằng năm, không chờ đánh giá bên ngoài.",
+      "Sai. Đây là trách nhiệm của HĐQT.",
+      "Đúng. Phê duyệt ít nhất hằng năm."
+    ],
+    "refs": [
+      "GIAS 8.3",
+      "CIA Part 1 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M40",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "CAE chuẩn bị kế hoạch cho cuộc đánh giá chất lượng bên ngoài sắp tới và chọn đơn vị đánh giá. Theo GIAS, HĐQT cần xem xét và phê duyệt điều gì tối thiểu?",
+    "options": [
+      "Phạm vi, tần suất đánh giá và năng lực, tính độc lập của người đánh giá.",
+      "Chỉ phí thuê đơn vị đánh giá, vì đó là chi phí lớn.",
+      "Danh sách các giấy làm việc sẽ được cung cấp cho đoàn đánh giá.",
+      "Không cần phê duyệt vì CAE chịu trách nhiệm toàn bộ về chất lượng."
+    ],
+    "answer": 0,
+    "explanation": "Theo GIAS 8.4, HĐQT xem xét và phê duyệt kế hoạch đánh giá chất lượng bên ngoài của CAE, tối thiểu gồm phạm vi, tần suất đánh giá và năng lực, tính độc lập của người hoặc nhóm đánh giá.",
+    "optionNotes": [
+      "Đúng. Phạm vi, tần suất, năng lực và độc lập.",
+      "Sai. Chi phí không phải nội dung phê duyệt tối thiểu.",
+      "Sai. Chi tiết tác nghiệp không cần HĐQT duyệt.",
+      "Sai. HĐQT có vai trò phê duyệt kế hoạch này."
+    ],
+    "refs": [
+      "GIAS 8.4",
+      "CIA Part 1 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M41",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Giữa năm, công ty bị tấn công mạng nghiêm trọng. CAE muốn thay ba cuộc kiểm toán đã duyệt bằng một cuộc kiểm toán an ninh mạng. Cách làm phù hợp nhất là gì?",
+    "options": [
+      "Tự điều chỉnh vì CAE có toàn quyền với kế hoạch kiểm toán.",
+      "Trao đổi thay đổi đáng kể với HĐQT, Ban điều hành và trình HĐQT duyệt.",
+      "Giữ nguyên kế hoạch cũ vì kế hoạch đã được duyệt đầu năm.",
+      "Chỉ cần thông báo cho Tổng Giám đốc bằng email trước khi làm."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 9.4 yêu cầu CAE trao đổi kế hoạch kiểm toán, kể cả các thay đổi đáng kể giữa kỳ, với HĐQT và Ban điều hành; kế hoạch và thay đổi đáng kể cần được HĐQT phê duyệt. Kế hoạch cần linh hoạt theo rủi ro mới.",
+    "optionNotes": [
+      "Sai. Thay đổi đáng kể cần trao đổi và phê duyệt.",
+      "Đúng. Trao đổi và trình HĐQT phê duyệt.",
+      "Sai. Kế hoạch cần thay đổi khi rủi ro thay đổi.",
+      "Sai. Thiếu trao đổi với HĐQT."
+    ],
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 1 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M42",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Phòng kiểm toán nội bộ vẫn dùng bảng tính thủ công cho mọi cuộc kiểm toán, trong khi công ty đã chuyển sang dữ liệu lớn trên hệ thống mới. Theo GIAS, trách nhiệm của CAE là gì?",
+    "options": [
+      "Chờ Ban điều hành chủ động cấp phần mềm khi cần thiết.",
+      "Từ chối kiểm toán các quy trình đã chuyển lên hệ thống mới.",
+      "Thường xuyên đánh giá công nghệ của chức năng và cải thiện.",
+      "Yêu cầu bộ phận CNTT thực hiện phân tích dữ liệu thay kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 10.3 yêu cầu CAE cố gắng bảo đảm chức năng có công nghệ hỗ trợ quy trình kiểm toán và thường xuyên đánh giá công nghệ đang dùng, tìm cơ hội cải thiện hiệu quả, hiệu suất.",
+    "optionNotes": [
+      "Sai. CAE phải chủ động đánh giá và đề xuất.",
+      "Sai. Né tránh rủi ro quan trọng.",
+      "Đúng. Đánh giá công nghệ thường xuyên và cải thiện.",
+      "Sai. Phụ thuộc bộ phận được kiểm toán làm giảm khách quan."
+    ],
+    "refs": [
+      "GIAS 10.3",
+      "CIA Part 1 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M43",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Phòng kiểm toán nội bộ có tỷ lệ nghỉ việc cao, kế hoạch năm liên tục phải cắt vì thiếu người có kỹ năng. Theo GIAS, CAE cần chú trọng nhất điều gì?",
+    "options": [
+      "Thuê ngoài toàn bộ các cuộc kiểm toán để không phải tuyển dụng.",
+      "Yêu cầu các phòng ban cử nhân viên sang làm kiểm toán luân phiên.",
+      "Giảm phạm vi kế hoạch cho vừa với số người hiện có mà không báo cáo.",
+      "Có cách tuyển dụng, phát triển, giữ chân người đủ năng lực."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 10.2 yêu cầu CAE thiết lập cách thức tuyển dụng, phát triển và giữ chân kiểm toán viên đủ năng lực để thực hiện chiến lược và kế hoạch kiểm toán. Giảm phạm vi mà không báo cáo là sai.",
+    "optionNotes": [
+      "Sai. Thuê ngoài toàn bộ không giải quyết năng lực lâu dài.",
+      "Sai. Nhân viên luân phiên có thể mất khách quan.",
+      "Sai. Hạn chế nguồn lực phải được báo cáo.",
+      "Đúng. Tuyển dụng, phát triển, giữ chân nhân sự."
+    ],
+    "refs": [
+      "GIAS 10.2",
+      "CIA Part 1 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M44",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Công ty dùng dịch vụ đám mây để xử lý lương và nhận được báo cáo kiểm soát của bên cung cấp dịch vụ do một công ty kiểm toán độc lập phát hành (SOC 1 loại 2). Khi dựa vào báo cáo này, kiểm toán viên cần lưu ý điều gì nhất?",
+    "options": [
+      "Kỳ báo cáo, phạm vi, ngoại lệ và kiểm soát phía người dùng.",
+      "Chỉ cần xem tên công ty kiểm toán đã phát hành báo cáo.",
+      "Báo cáo đã có thì công ty không cần kiểm soát nào phía mình.",
+      "Yêu cầu nhà cung cấp gửi toàn bộ mã nguồn hệ thống để kiểm tra."
+    ],
+    "answer": 0,
+    "explanation": "Khi dựa vào báo cáo kiểm soát của tổ chức dịch vụ, cần xem kỳ báo cáo có bao phủ kỳ quan tâm không, phạm vi hệ thống, các ngoại lệ được nêu, và các kiểm soát mà người dùng phải tự thực hiện (complementary user entity controls).",
+    "optionNotes": [
+      "Đúng. Kỳ, phạm vi, ngoại lệ và kiểm soát phía người dùng.",
+      "Sai. Tên đơn vị phát hành không đủ.",
+      "Sai. Người dùng vẫn phải có kiểm soát bổ sung.",
+      "Sai. Không cần thiết và không thực tế."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M45",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Khi kiểm toán việc tuân thủ hợp đồng với một nhà thầu xây dựng, kiểm toán viên không được tiếp cận chứng từ chi phí của nhà thầu vì hợp đồng không có điều khoản cho phép. Khuyến nghị phù hợp nhất là gì?",
+    "options": [
+      "Chấm dứt ngay hợp đồng với nhà thầu này để tránh rủi ro.",
+      "Đưa điều khoản quyền kiểm toán vào các hợp đồng tương lai.",
+      "Yêu cầu nhà thầu tự xác nhận chi phí bằng văn bản là đủ.",
+      "Ước tính chi phí của nhà thầu dựa trên giá thị trường."
+    ],
+    "answer": 1,
+    "explanation": "Điều khoản quyền kiểm toán (right-to-audit) cho phép bên mua kiểm tra hồ sơ của nhà thầu liên quan đến hợp đồng. Thiếu điều khoản này hạn chế khả năng kiểm toán tuân thủ hợp đồng, nên cần bổ sung vào hợp đồng mới.",
+    "optionNotes": [
+      "Sai. Phản ứng quá mức khi chưa có bằng chứng sai phạm.",
+      "Đúng. Bổ sung quyền kiểm toán vào hợp đồng.",
+      "Sai. Tự xác nhận không đủ độ tin cậy.",
+      "Sai. Ước tính không thay được kiểm tra thực tế."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M46",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Khi kiểm toán an ninh thông tin, kiểm toán viên muốn đánh giá việc vá lỗ hổng phần mềm trên các máy chủ. Thủ tục nào cho bằng chứng tốt nhất?",
+    "options": [
+      "Phỏng vấn trưởng phòng CNTT về chính sách vá lỗi của công ty.",
+      "Xem bản chính sách vá lỗi đã được Tổng Giám đốc ký ban hành.",
+      "Đối chiếu bản vá khẩn cấp của hãng với ngày cài đặt thực tế.",
+      "Hỏi người dùng xem máy tính có chạy chậm sau khi cập nhật không."
+    ],
+    "answer": 2,
+    "explanation": "Đối chiếu bản vá quan trọng do nhà sản xuất phát hành với ngày cài đặt thực tế trên máy chủ cho bằng chứng trực tiếp về việc vá có kịp thời không. Phỏng vấn và chính sách chỉ cho biết thiết kế.",
+    "optionNotes": [
+      "Sai. Phỏng vấn cho bằng chứng yếu.",
+      "Sai. Chính sách chỉ chứng minh thiết kế.",
+      "Đúng. Bằng chứng trực tiếp về việc thực hiện.",
+      "Sai. Không liên quan đến việc vá lỗ hổng."
+    ],
+    "refs": [
+      "CIA Part 1 A.5",
+      "GIAS 14.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M47",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Bộ phận CNTT cung cấp nhật ký cho thấy dữ liệu được sao lưu đầy đủ mỗi đêm. Thủ tục nào cho bảo đảm tốt nhất rằng dữ liệu có thể khôi phục khi có sự cố?",
+    "options": [
+      "Kiểm tra nhật ký sao lưu của thêm ba tháng gần nhất.",
+      "Phỏng vấn nhân viên vận hành về quy trình sao lưu hằng đêm.",
+      "Xác nhận dung lượng ổ lưu trữ đủ lớn cho bản sao lưu.",
+      "Quan sát hoặc kiểm tra kết quả thử khôi phục dữ liệu từ bản sao lưu."
+    ],
+    "answer": 3,
+    "explanation": "Sao lưu thành công chưa chứng minh dữ liệu khôi phục được. Thử khôi phục thực tế (restore test) là bằng chứng trực tiếp nhất về khả năng phục hồi dữ liệu.",
+    "optionNotes": [
+      "Sai. Thêm nhật ký vẫn chỉ chứng minh việc sao lưu.",
+      "Sai. Phỏng vấn cho bằng chứng yếu.",
+      "Sai. Dung lượng không chứng minh khả năng khôi phục.",
+      "Đúng. Thử khôi phục chứng minh khả năng phục hồi."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M48",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Trong cuộc kiểm toán quyền riêng tư dữ liệu, kiểm toán viên thấy công ty chuyển dữ liệu khách hàng cho đơn vị tiếp thị bên ngoài xử lý. Rủi ro cần đánh giá trước tiên là gì?",
+    "options": [
+      "Thiếu thỏa thuận xử lý dữ liệu ràng buộc mục đích, bảo mật và quyền kiểm tra.",
+      "Đơn vị tiếp thị có giá dịch vụ cao hơn mức thị trường.",
+      "Dữ liệu khách hàng được lưu theo định dạng bảng tính thay vì cơ sở dữ liệu.",
+      "Đơn vị tiếp thị chưa có văn phòng đại diện tại Việt Nam."
+    ],
+    "answer": 0,
+    "explanation": "Khi chia sẻ dữ liệu cá nhân cho bên thứ ba xử lý, rủi ro chính là bên đó dùng sai mục đích hoặc để lộ dữ liệu. Cần thỏa thuận xử lý dữ liệu quy định mục đích, biện pháp bảo mật và quyền kiểm tra của công ty.",
+    "optionNotes": [
+      "Đúng. Thiếu ràng buộc pháp lý với bên xử lý dữ liệu.",
+      "Sai. Giá không phải rủi ro quyền riêng tư.",
+      "Sai. Định dạng lưu không phải rủi ro chính.",
+      "Sai. Văn phòng đại diện không quyết định rủi ro dữ liệu."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M49",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Một chuỗi nhà thuốc phải có giấy phép hoạt động còn hiệu lực và dược sĩ phụ trách tại mỗi cửa hàng theo quy định. Cuộc kiểm toán phù hợp nhất để đánh giá việc này là loại nào?",
+    "options": [
+      "Kiểm toán hiệu quả hoạt động, đo doanh thu trên mỗi cửa hàng.",
+      "Kiểm toán tuân thủ, đối chiếu giấy phép và nhân sự với luật.",
+      "Kiểm toán tài chính, kiểm tra số dư tiền mặt tại cửa hàng.",
+      "Kiểm toán văn hóa, khảo sát thái độ của nhân viên bán hàng."
+    ],
+    "answer": 1,
+    "explanation": "Đánh giá việc đáp ứng yêu cầu pháp luật (giấy phép, điều kiện nhân sự) là kiểm toán tuân thủ quy định, với thủ tục đối chiếu thực tế từng cửa hàng với yêu cầu pháp lý.",
+    "optionNotes": [
+      "Sai. Doanh thu không liên quan yêu cầu pháp lý.",
+      "Đúng. Kiểm toán tuân thủ quy định.",
+      "Sai. Số dư tiền không phải trọng tâm.",
+      "Sai. Thái độ nhân viên không đánh giá được giấy phép."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M50",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Kiểm toán nội bộ kiểm tra quy trình khóa sổ và đối chiếu số dư cuối tháng. Điểm nào phân biệt đúng nhất cuộc kiểm toán tài chính này với kiểm toán độc lập báo cáo tài chính?",
+    "options": [
+      "Kiểm toán nội bộ đưa ra ý kiến về báo cáo tài chính cho cổ đông.",
+      "Kiểm toán nội bộ không được kiểm tra bất kỳ số liệu tài chính nào.",
+      "Kiểm toán nội bộ tập trung vào kiểm soát, phục vụ Ban điều hành và HĐQT.",
+      "Kiểm toán nội bộ thay thế hoàn toàn kiểm toán độc lập khi có kết quả tốt."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán tài chính của kiểm toán nội bộ đánh giá kiểm soát và độ tin cậy của thông tin tài chính để phục vụ Ban điều hành, HĐQT. Ý kiến về báo cáo tài chính cho cổ đông thuộc kiểm toán độc lập.",
+    "optionNotes": [
+      "Sai. Ý kiến về BCTC thuộc kiểm toán độc lập.",
+      "Sai. Kiểm toán nội bộ có thể kiểm tra số liệu tài chính.",
+      "Đúng. Tập trung kiểm soát, phục vụ quản trị nội bộ.",
+      "Sai. Không thay thế kiểm toán độc lập."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M51",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên CNTT phát hiện lập trình viên có quyền sửa trực tiếp chương trình trên hệ thống đang vận hành mà không qua phê duyệt. Rủi ro chính là gì?",
+    "options": [
+      "Lập trình viên làm việc quá nhiều giờ trong tuần.",
+      "Chi phí bản quyền phần mềm tăng lên đáng kể.",
+      "Hệ thống sẽ chạy chậm hơn trong giờ cao điểm.",
+      "Thay đổi trái phép, chưa kiểm thử làm sai dữ liệu."
+    ],
+    "answer": 3,
+    "explanation": "Thiếu phân tách giữa môi trường phát triển và vận hành, cùng thiếu quy trình quản lý thay đổi, cho phép thay đổi trái phép hoặc chưa kiểm thử, có thể gây sai lệch dữ liệu hoặc che giấu gian lận.",
+    "optionNotes": [
+      "Sai. Không liên quan đến rủi ro kiểm soát.",
+      "Sai. Không liên quan đến bản quyền.",
+      "Sai. Hiệu năng không phải rủi ro chính.",
+      "Đúng. Rủi ro thay đổi trái phép, chưa kiểm thử."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M52",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 3,
+    "stem": "Kiểm toán nội bộ tư vấn so sánh chi phí vận hành mỗi đơn hàng của công ty với ba đối thủ để tìm cơ hội cải tiến. Rủi ro lớn nhất làm kết luận so sánh bị sai là gì?",
+    "options": [
+      "Cách định nghĩa chỉ số và chi phí không tương đồng.",
+      "Số lượng đối thủ được chọn để so sánh quá ít.",
+      "Dữ liệu của đối thủ được trình bày bằng tiếng Anh.",
+      "Ban điều hành không thích kết quả so sánh."
+    ],
+    "answer": 0,
+    "explanation": "Khi so sánh chuẩn (benchmarking), nếu cách định nghĩa chỉ số và phạm vi chi phí khác nhau (ví dụ có hay không gồm vận chuyển), kết quả không so sánh được và dẫn đến kết luận sai.",
+    "optionNotes": [
+      "Đúng. Thiếu tính so sánh được là rủi ro lớn nhất.",
+      "Sai. Ít đối tượng vẫn có thể hữu ích nếu tương đồng.",
+      "Sai. Ngôn ngữ không làm sai bản chất số liệu.",
+      "Sai. Không phải rủi ro về tính đúng đắn."
+    ],
+    "refs": [
+      "CIA Part 1 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M53",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Ngoài việc báo cáo kiểm soát hiện tại có hữu hiệu hay không, HĐQT muốn kiểm toán nội bộ cung cấp 'tầm nhìn' (foresight). Điều này thể hiện rõ nhất qua hoạt động nào?",
+    "options": [
+      "Liệt kê lại mọi phát hiện kiểm toán của năm trước.",
+      "Cảnh báo sớm rủi ro mới nổi có thể ảnh hưởng mục tiêu.",
+      "Đếm số khuyến nghị đã được Ban điều hành thực hiện.",
+      "Kiểm tra chi tiết lại toàn bộ chứng từ đã được kiểm toán."
+    ],
+    "answer": 1,
+    "explanation": "Tuyên bố mục đích của GIAS nêu kiểm toán nội bộ cung cấp bảo đảm, tư vấn, hiểu biết sâu (insight) và tầm nhìn (foresight). Tầm nhìn thể hiện qua việc nhận diện, cảnh báo sớm rủi ro mới nổi và xu hướng tương lai.",
+    "optionNotes": [
+      "Sai. Đây là nhìn lại quá khứ.",
+      "Đúng. Cảnh báo rủi ro mới nổi là tầm nhìn.",
+      "Sai. Đây là theo dõi thực hiện khuyến nghị.",
+      "Sai. Kiểm tra lại chứng từ không phải tầm nhìn."
+    ],
+    "refs": [
+      "GIAS Domain I",
+      "CIA Part 1 A.1"
+    ],
+    "source": "original"
   }
 ]
