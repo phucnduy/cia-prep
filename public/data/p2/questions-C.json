@@ -99,5 +99,322 @@
       "GIAS 13.1"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-C-M01",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Phòng kiểm toán thuê một công ty bên ngoài thực hiện toàn bộ cuộc kiểm toán an ninh mạng. Theo GIAS, ai chịu trách nhiệm giám sát cuộc kiểm toán này?",
+    "options": [
+      "Công ty bên ngoài, vì họ là bên trực tiếp thực hiện công việc.",
+      "Ủy ban Kiểm toán, vì cuộc kiểm toán được thuê ngoài.",
+      "Giám đốc CNTT, vì đây là lĩnh vực của bộ phận CNTT.",
+      "CAE, dù công việc do nhà cung cấp dịch vụ bên ngoài thực hiện."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 12.3: CAE chịu trách nhiệm giám sát các cuộc kiểm toán, dù công việc do nhân sự kiểm toán nội bộ hay nhà cung cấp dịch vụ khác thực hiện. CAE có thể giao việc giám sát cho người phù hợp nhưng vẫn chịu trách nhiệm cuối cùng.",
+    "optionNotes": [
+      "Sai. Thuê ngoài không chuyển trách nhiệm giám sát.",
+      "Sai. Ủy ban Kiểm toán giám sát chức năng, không giám sát từng cuộc.",
+      "Sai. Đơn vị được kiểm toán không giám sát cuộc kiểm toán.",
+      "Đúng. CAE vẫn chịu trách nhiệm giám sát."
+    ],
+    "refs": [
+      "GIAS 12.3",
+      "CIA Part 2 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M02",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "Người giám sát đang rà soát chương trình làm việc của một cuộc kiểm toán trước khi phê duyệt. Theo GIAS, tiêu chí chính để phê duyệt chương trình là gì?",
+    "options": [
+      "Chương trình có đạt được mục tiêu cuộc kiểm toán một cách hiệu quả không.",
+      "Chương trình có nhiều thủ tục hơn cuộc kiểm toán năm trước.",
+      "Đơn vị được kiểm toán đã đồng ý bằng văn bản với mọi thủ tục trong chương trình.",
+      "Chương trình dùng đúng mẫu biểu chuẩn của phòng kiểm toán."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 12.3 (Xem xét khi thực hiện): khi lập kế hoạch, người giám sát phê duyệt chương trình làm việc; tiêu chí chính để phê duyệt là chương trình có đạt mục tiêu cuộc kiểm toán một cách hiệu quả hay không.",
+    "optionNotes": [
+      "Đúng. Đạt mục tiêu một cách hiệu quả.",
+      "Sai. Số lượng thủ tục không phải tiêu chí.",
+      "Sai. Đơn vị không phê duyệt chương trình.",
+      "Sai. Mẫu biểu là hình thức, không phải tiêu chí chính."
+    ],
+    "refs": [
+      "GIAS 12.3",
+      "GIAS 13.6",
+      "CIA Part 2 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M03",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Phòng kiểm toán chỉ có hai người, không có người giám sát riêng cho từng cuộc kiểm toán. Cách phù hợp nhất để giám sát việc tuân thủ Chuẩn mực trong từng cuộc là gì?",
+    "options": [
+      "Bỏ qua giám sát vì phòng quá nhỏ, Chuẩn mực không áp dụng.",
+      "Dùng danh mục kiểm tra hoặc công cụ tự động hỗ trợ giám sát.",
+      "Nhờ quản lý đơn vị được kiểm toán rà soát hồ sơ thay người giám sát.",
+      "Chỉ giám sát các cuộc kiểm toán có phát hiện nghiêm trọng."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 12.3 (Xem xét khi thực hiện): ở chức năng không có người giám sát riêng, CAE có thể dùng danh mục kiểm tra hoặc công cụ tự động để hỗ trợ giám sát việc tuân thủ Chuẩn mực trong từng cuộc kiểm toán. Bằng chứng giám sát vẫn phải được lưu.",
+    "optionNotes": [
+      "Sai. Chuẩn mực áp dụng cho mọi quy mô.",
+      "Đúng. Danh mục kiểm tra, công cụ tự động.",
+      "Sai. Đơn vị được kiểm toán không giám sát kiểm toán viên.",
+      "Sai. Mọi cuộc kiểm toán đều cần giám sát."
+    ],
+    "refs": [
+      "GIAS 12.3",
+      "CIA Part 2 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M04",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "CAE giao một trưởng nhóm giám sát cuộc kiểm toán. Trưởng nhóm rà soát kỹ nhưng không để lại dấu hiệu rà soát nào trên hồ sơ. Theo GIAS, vấn đề chính là gì?",
+    "options": [
+      "Không có vấn đề vì việc rà soát thực tế đã được làm đầy đủ.",
+      "Trưởng nhóm không được giao việc giám sát, chỉ CAE mới được làm.",
+      "Bằng chứng giám sát phải được ghi lại và lưu giữ theo phương pháp đã định.",
+      "Đơn vị được kiểm toán phải ký xác nhận việc rà soát của trưởng nhóm trên hồ sơ."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 12.3: CAE phải bảo đảm bằng chứng giám sát được ghi lại và lưu giữ theo phương pháp của chức năng. Rà soát không có dấu vết thì không chứng minh được với đoàn đánh giá chất lượng. Việc giám sát được phép giao cho người phù hợp.",
+    "optionNotes": [
+      "Sai. Không có bằng chứng thì không chứng minh được.",
+      "Sai. Giám sát được phép giao cho người phù hợp.",
+      "Đúng. Phải ghi lại và lưu bằng chứng giám sát.",
+      "Sai. Không cần đơn vị xác nhận."
+    ],
+    "refs": [
+      "GIAS 12.3",
+      "CIA Part 2 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M05",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Ngoài rà soát hồ sơ, hoạt động nào của người giám sát giúp phát triển năng lực kiểm toán viên rõ nhất?",
+    "options": [
+      "Tự làm lại các thủ tục khó thay cho kiểm toán viên.",
+      "Giao toàn bộ việc khó cho kiểm toán viên có kinh nghiệm nhất.",
+      "Chỉ chấm điểm kiểm toán viên vào cuối năm theo số phát hiện.",
+      "Trao đổi suốt cuộc kiểm toán và họp rút kinh nghiệm sau đó."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 12.3 yêu cầu CAE phản hồi cho kiểm toán viên về kết quả làm việc và cơ hội cải thiện. Phần Xem xét khi thực hiện nêu người giám sát trao đổi trong suốt cuộc kiểm toán và có thể họp sau cuộc kiểm toán, tạo cơ hội đào tạo, phát triển, đánh giá.",
+    "optionNotes": [
+      "Sai. Làm thay không giúp kiểm toán viên phát triển.",
+      "Sai. Không tạo cơ hội học cho người khác.",
+      "Sai. Chấm theo số phát hiện có thể làm suy giảm khách quan.",
+      "Đúng. Trao đổi liên tục và họp rút kinh nghiệm."
+    ],
+    "refs": [
+      "GIAS 12.3",
+      "GIAS 2.2",
+      "CIA Part 2 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M06",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "Khi rà soát dự thảo báo cáo, người giám sát thấy một phát hiện dùng từ 'cẩu thả, vô trách nhiệm' để mô tả nhân viên đơn vị. Người giám sát nên yêu cầu sửa vì báo cáo vi phạm thuộc tính nào?",
+    "options": [
+      "Khách quan, vì dùng từ ngữ có thể bị coi là thiên vị.",
+      "Súc tích, vì câu chữ quá dài so với nội dung cần truyền đạt.",
+      "Kịp thời, vì phát hiện được nêu quá muộn.",
+      "Đầy đủ, vì thiếu số liệu tài chính đi kèm."
+    ],
+    "answer": 0,
+    "explanation": "Người giám sát rà soát thông tin trao đổi theo các thuộc tính của GIAS 11.2 (12.3). Theo 11.2, khách quan là vô tư, cân bằng; kiểm toán viên nên tránh từ ngữ có thể bị coi là thiên vị và tập trung vào dữ kiện.",
+    "optionNotes": [
+      "Đúng. Từ ngữ mang tính phán xét làm mất khách quan.",
+      "Sai. Vấn đề không phải độ dài.",
+      "Sai. Không liên quan đến thời điểm.",
+      "Sai. Không liên quan đến số liệu."
+    ],
+    "refs": [
+      "GIAS 11.2",
+      "GIAS 12.3",
+      "CIA Part 2 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M07",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên chuẩn bị gửi thông báo trước cho đơn vị về cuộc kiểm toán sắp tới. Thông báo nên có nội dung nào?",
+    "options": [
+      "Danh sách các phát hiện dự kiến của cuộc kiểm toán.",
+      "Lý do kiểm toán, thời điểm bắt đầu và thời gian dự kiến.",
+      "Kết luận sơ bộ dựa trên cuộc kiểm toán năm trước.",
+      "Tên những nhân viên của đơn vị đang bị nghi ngờ có sai phạm."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 13.1 (Xem xét khi thực hiện): thông báo trước nên nêu lý do của cuộc kiểm toán, thời điểm bắt đầu và thời gian dự kiến, để đơn vị sắp xếp lịch không trùng sự kiện quan trọng; đồng thời yêu cầu tài liệu cần cho đánh giá rủi ro.",
+    "optionNotes": [
+      "Sai. Chưa có phát hiện khi mới bắt đầu.",
+      "Đúng. Lý do, thời điểm, thời gian dự kiến.",
+      "Sai. Kết luận năm trước không phải nội dung thông báo.",
+      "Sai. Không phù hợp và có thể ảnh hưởng điều tra."
+    ],
+    "refs": [
+      "GIAS 13.1",
+      "CIA Part 2 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M08",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Tại cuộc họp khởi động, kiểm toán viên trao đổi kết quả đánh giá rủi ro, mục tiêu, phạm vi và thời gian với quản lý đơn vị. Mục đích quan trọng nhất của cuộc họp này là gì?",
+    "options": [
+      "Để quản lý đơn vị phê duyệt chương trình kiểm toán.",
+      "Để thông báo các phát hiện đã biết từ trước cuộc kiểm toán.",
+      "Xác nhận quản lý hiểu, ủng hộ và thống nhất cách trao đổi.",
+      "Để quản lý đơn vị chọn mẫu kiểm tra cho kiểm toán viên."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.1 (Xem xét khi thực hiện): cuộc họp khởi động giúp xác nhận quản lý đơn vị hiểu và ủng hộ mục tiêu, phạm vi, thời gian; điều chỉnh cách tiếp cận nếu cần; thống nhất tần suất trao đổi và ai nhận báo cáo cuối. Nội dung nên được ghi vào hồ sơ.",
+    "optionNotes": [
+      "Sai. CAE phê duyệt chương trình, không phải đơn vị.",
+      "Sai. Phát hiện chưa có ở giai đoạn này.",
+      "Đúng. Hiểu, ủng hộ và thống nhất cách trao đổi.",
+      "Sai. Mẫu do kiểm toán viên chọn."
+    ],
+    "refs": [
+      "GIAS 13.1",
+      "CIA Part 2 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M09",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên cần trao đổi một khuyến nghị về thay đổi quy trình duyệt chi. Theo GIAS, nên trao đổi với ai?",
+    "options": [
+      "Nhân viên trực tiếp thực hiện quy trình duyệt chi.",
+      "Chỉ HĐQT, vì khuyến nghị cần được HĐQT phê duyệt.",
+      "Bất kỳ ai trong đơn vị có thời gian tham gia cuộc họp.",
+      "Cấp quản lý có thẩm quyền thay đổi hoạt động đó."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 14.4 (Xem xét khi thực hiện): kiểm toán viên nên kịp thời trao đổi phát hiện và khuyến nghị với cấp quản lý có thẩm quyền thực hiện và giám sát thay đổi hoạt động được kiểm toán; CAE có thể quy định cấp quản lý phù hợp.",
+    "optionNotes": [
+      "Sai. Nhân viên thực hiện không có thẩm quyền thay đổi.",
+      "Sai. HĐQT không duyệt từng khuyến nghị.",
+      "Sai. Phải là người có thẩm quyền.",
+      "Đúng. Cấp quản lý có thẩm quyền thay đổi."
+    ],
+    "refs": [
+      "GIAS 14.4",
+      "CIA Part 2 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M10",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Quản lý đơn vị và kiểm toán viên không thống nhất được về một khuyến nghị dù đã thảo luận nhiều lần. Theo GIAS, bước tiếp theo phù hợp nhất của CAE là gì?",
+    "options": [
+      "Làm việc với Ban điều hành để tạo điều kiện giải quyết bất đồng.",
+      "Rút khuyến nghị để giữ quan hệ tốt với đơn vị được kiểm toán về sau.",
+      "Báo ngay cho cơ quan quản lý nhà nước về bất đồng.",
+      "Tự triển khai khuyến nghị thay cho quản lý đơn vị."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.4: khi bất đồng, theo phương pháp đã định để hai bên nêu quan điểm, lý do và tìm giải pháp. Phần Xem xét khi thực hiện nêu CAE nên làm việc với Ban điều hành để tạo điều kiện giải quyết; có thể đính kèm ý kiến chính thức của mỗi bên vào báo cáo.",
+    "optionNotes": [
+      "Đúng. CAE làm việc với Ban điều hành.",
+      "Sai. Không rút khuyến nghị chỉ để giữ quan hệ.",
+      "Sai. Không có cơ sở báo cơ quan quản lý.",
+      "Sai. Thực hiện là trách nhiệm của quản lý."
+    ],
+    "refs": [
+      "GIAS 14.4",
+      "CIA Part 2 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M11",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Cuộc họp kết thúc (exit conference) với quản lý đơn vị có mục đích chính là gì?",
+    "options": [
+      "Để quản lý đơn vị phê duyệt báo cáo trước khi phát hành.",
+      "Hoàn thiện kết quả, thảo luận bất đồng và tính khả thi.",
+      "Để kiểm toán viên bắt đầu thu thập bằng chứng bổ sung.",
+      "Để thông báo kế hoạch kiểm toán năm sau cho đơn vị."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 13.1 (Xem xét khi thực hiện): họp kết thúc là cơ hội để kiểm toán viên, quản lý và nhân viên liên quan hoàn thiện kết quả trước khi phát hành báo cáo, thảo luận bất đồng với mục tiêu đồng thuận, và trao đổi tính khả thi, thời hạn, người chịu trách nhiệm của kế hoạch hành động.",
+    "optionNotes": [
+      "Sai. CAE phê duyệt báo cáo cuối, không phải đơn vị.",
+      "Đúng. Hoàn thiện kết quả, thảo luận bất đồng, tính khả thi.",
+      "Sai. Thu thập bằng chứng diễn ra trước đó.",
+      "Sai. Không phải mục đích của họp kết thúc."
+    ],
+    "refs": [
+      "GIAS 13.1",
+      "GIAS 11.3",
+      "CIA Part 2 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-M12",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Cuộc kiểm toán kéo dài 3 tháng. Trong thời gian đó, phạm vi được mở rộng thêm một chi nhánh và thời gian kéo dài thêm 2 tuần. Kiểm toán viên nên xử lý việc trao đổi thế nào?",
+    "options": [
+      "Chỉ thông báo các thay đổi trong báo cáo cuối cùng.",
+      "Không cần thông báo vì CAE đã phê duyệt thay đổi.",
+      "Thông báo kịp thời các thay đổi này cho quản lý.",
+      "Chỉ thông báo nếu quản lý đơn vị hỏi."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.1: kiểm toán viên phải trao đổi mục tiêu, phạm vi, thời gian với quản lý, và các thay đổi sau đó phải được trao đổi kịp thời. CAE phê duyệt thay đổi (13.3) nhưng điều đó không thay thế việc thông báo cho quản lý.",
+    "optionNotes": [
+      "Sai. Phải thông báo kịp thời, không đợi báo cáo cuối.",
+      "Sai. Phê duyệt nội bộ không thay việc thông báo.",
+      "Đúng. Thông báo kịp thời các thay đổi.",
+      "Sai. Thông báo là trách nhiệm chủ động."
+    ],
+    "refs": [
+      "GIAS 13.1",
+      "GIAS 13.3",
+      "CIA Part 2 C.2"
+    ],
+    "source": "original"
   }
 ]

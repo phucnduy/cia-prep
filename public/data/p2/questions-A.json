@@ -777,5 +777,208 @@
       "CIA Part 2 A.7"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-A-M21",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Khi lập kế hoạch kiểm toán quy trình tính lương chạy trên ERP, kiểm toán viên biết kiểm soát quản lý thay đổi chương trình của ERP rất yếu. Ảnh hưởng chính đến kế hoạch là gì?",
+    "options": [
+      "Không ảnh hưởng vì kiểm toán lương chỉ cần kiểm tra chứng từ gốc đầy đủ.",
+      "Phải chuyển cuộc kiểm toán thành kiểm toán CNTT hoàn toàn.",
+      "Chỉ cần kiểm tra kiểm soát tự động một lần là đủ cho cả năm.",
+      "Kiểm soát tự động tính lương kém tin cậy, cần thêm thủ tục kiểm tra."
+    ],
+    "answer": 3,
+    "explanation": "Kiểm soát chung CNTT như quản lý thay đổi bảo đảm kiểm soát ứng dụng hoạt động nhất quán. Khi quản lý thay đổi yếu, logic tính lương có thể bị thay đổi mà không ai biết, nên không thể dựa vào việc kiểm tra kiểm soát tự động một lần; cần thêm thủ tục.",
+    "optionNotes": [
+      "Sai. Bỏ qua rủi ro hệ thống.",
+      "Sai. Phản ứng quá mức; có thể điều chỉnh thủ tục.",
+      "Sai. Không thể suy rộng kết quả kiểm tra một lần.",
+      "Đúng. ITGC yếu làm kiểm soát tự động kém tin cậy."
+    ],
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M22",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Kế hoạch liên tục kinh doanh của ngân hàng quy định hệ thống thanh toán phải hoạt động lại trong 4 giờ và mất tối đa 15 phút dữ liệu. Hai chỉ số này lần lượt là gì?",
+    "options": [
+      "Thời gian khôi phục mục tiêu và điểm khôi phục mục tiêu.",
+      "Mức chịu đựng rủi ro (RTO) và khẩu vị rủi ro (RPO).",
+      "Điểm khôi phục mục tiêu và thời gian khôi phục mục tiêu.",
+      "Chỉ số hiệu quả hoạt động và chỉ số rủi ro chính của hệ thống."
+    ],
+    "answer": 0,
+    "explanation": "Thời gian khôi phục mục tiêu (RTO) là thời gian tối đa để khôi phục hoạt động sau sự cố; điểm khôi phục mục tiêu (RPO) là lượng dữ liệu tối đa có thể mất, tính bằng thời gian. Hai chỉ số này được xác định qua phân tích tác động kinh doanh.",
+    "optionNotes": [
+      "Đúng. 4 giờ là RTO, 15 phút dữ liệu là RPO.",
+      "Sai. Nhầm với khái niệm khẩu vị và chịu đựng rủi ro.",
+      "Sai. Đảo ngược thứ tự hai chỉ số.",
+      "Sai. Không phải KPI hay KRI."
+    ],
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M23",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Khi lập kế hoạch kiểm toán quy trình quản lý nhà cung cấp dịch vụ thuê ngoài, rủi ro nào nên được ưu tiên đánh giá?",
+    "options": [
+      "Nhà cung cấp có văn phòng quá xa trụ sở công ty.",
+      "Thiếu thẩm định, điều khoản hợp đồng và giám sát nhà cung cấp.",
+      "Nhà cung cấp dùng phần mềm kế toán khác với hệ thống của công ty.",
+      "Nhà cung cấp có nhiều khách hàng lớn trong cùng ngành."
+    ],
+    "answer": 1,
+    "explanation": "Rủi ro chính của quy trình bên thứ ba là chọn nhà cung cấp không đủ năng lực, hợp đồng thiếu điều khoản về chất lượng, bảo mật, quyền kiểm toán, và không giám sát việc thực hiện. Đây là các kiểm soát cốt lõi cần đánh giá.",
+    "optionNotes": [
+      "Sai. Khoảng cách không phải rủi ro chính.",
+      "Đúng. Thẩm định, hợp đồng và giám sát.",
+      "Sai. Phần mềm khác nhau không phải rủi ro chính.",
+      "Sai. Có thể là lợi thế, không phải rủi ro ưu tiên."
+    ],
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M24",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Kho của công ty điện tử có nhiều mặt hàng tồn trên 18 tháng, trong khi mẫu mã thay đổi mỗi năm. Khi lập kế hoạch, rủi ro tài chính nào cần chú ý nhất?",
+    "options": [
+      "Nợ phải trả dài hạn bị ghi nhận sai kỳ kế toán của năm.",
+      "Vốn chủ sở hữu tăng quá nhanh so với doanh thu.",
+      "Hàng tồn kho bị đánh giá cao hơn giá trị có thể thu hồi.",
+      "Đầu tư dài hạn bị phân loại thành ngắn hạn."
+    ],
+    "answer": 2,
+    "explanation": "Hàng tồn lâu trong ngành thay đổi mẫu mã nhanh có nguy cơ lỗi thời, giá trị thu hồi thấp hơn giá trị ghi sổ. Kiểm toán viên cần xem xét việc trích lập dự phòng giảm giá và kiểm soát nhận diện hàng chậm luân chuyển.",
+    "optionNotes": [
+      "Sai. Không liên quan đến tồn kho lâu ngày.",
+      "Sai. Không liên quan trực tiếp.",
+      "Đúng. Rủi ro tồn kho bị đánh giá quá cao.",
+      "Sai. Không liên quan đến tình huống."
+    ],
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M25",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Công ty đang triển khai một hệ thống mới, yêu cầu và rủi ro thay đổi hằng tháng; Ban điều hành cần thông tin kiểm toán sớm để điều chỉnh. Cách tiếp cận nào phù hợp nhất?",
+    "options": [
+      "Kiểm toán truyền thống, chỉ báo cáo sau khi hệ thống đã chạy ổn định một năm.",
+      "Kiểm toán từ xa toàn bộ để tiết kiệm chi phí đi lại.",
+      "Không kiểm toán cho đến khi dự án hoàn thành.",
+      "Kiểm toán agile: chia vòng ngắn, ưu tiên rủi ro cao, chia sẻ kết quả sớm."
+    ],
+    "answer": 3,
+    "explanation": "Cách tiếp cận agile chia công việc thành các vòng ngắn, ưu tiên rủi ro cao, trao đổi thường xuyên và chia sẻ kết quả sớm, phù hợp khi môi trường thay đổi nhanh và cần thông tin kịp thời. Agile vẫn phải đáp ứng các yêu cầu của Chuẩn mực.",
+    "optionNotes": [
+      "Sai. Thông tin đến quá muộn để điều chỉnh.",
+      "Sai. Hình thức từ xa không giải quyết nhu cầu thông tin sớm.",
+      "Sai. Bỏ lỡ cơ hội xử lý rủi ro sớm.",
+      "Đúng. Agile phù hợp với môi trường thay đổi nhanh."
+    ],
+    "refs": [
+      "CIA Part 2 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M26",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 3,
+    "stem": "Một nhóm kiểm toán theo cách tiếp cận agile đề xuất bỏ lập hồ sơ làm việc và bỏ khâu rà soát của người giám sát để 'đi nhanh hơn'. Nhận định nào đúng nhất?",
+    "options": [
+      "Không phù hợp; agile không miễn các yêu cầu của Chuẩn mực.",
+      "Hợp lý, vì agile ưu tiên tốc độ hơn quy trình.",
+      "Hợp lý nếu kết quả được trao đổi miệng thường xuyên với quản lý đơn vị.",
+      "Hợp lý nếu cuộc kiểm toán ngắn hơn một tháng."
+    ],
+    "answer": 0,
+    "explanation": "Agile là cách tổ chức công việc theo vòng ngắn, không phải ngoại lệ đối với Chuẩn mực. Lập hồ sơ (GIAS 14.6) và giám sát (GIAS 12.3) vẫn là yêu cầu bắt buộc.",
+    "optionNotes": [
+      "Đúng. Vẫn phải lập hồ sơ và giám sát.",
+      "Sai. Agile không miễn yêu cầu Chuẩn mực.",
+      "Sai. Trao đổi miệng không thay hồ sơ.",
+      "Sai. Thời gian ngắn không miễn yêu cầu."
+    ],
+    "refs": [
+      "GIAS 14.6",
+      "GIAS 12.3",
+      "CIA Part 2 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M27",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Cuộc kiểm toán từ xa dựa chủ yếu vào ảnh chụp chứng từ do đơn vị gửi qua email. Rủi ro chính cần quản lý là gì?",
+    "options": [
+      "Chi phí đi lại của nhóm kiểm toán tăng lên.",
+      "Độ tin cậy của bằng chứng thấp hơn, khó xác minh bản gốc.",
+      "Đơn vị được kiểm toán không biết cuộc kiểm toán đang diễn ra.",
+      "Kiểm toán viên không thể dùng phân tích dữ liệu."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán từ xa tiết kiệm chi phí nhưng bằng chứng như ảnh chụp do đơn vị cung cấp có độ tin cậy thấp hơn, vì khó xác minh bản gốc và có thể bị chỉnh sửa. Cần thủ tục bổ sung như truy cập trực tiếp hệ thống hoặc xác nhận độc lập (GIAS 14.1).",
+    "optionNotes": [
+      "Sai. Từ xa thường giảm chi phí đi lại.",
+      "Đúng. Độ tin cậy của bằng chứng thấp hơn.",
+      "Sai. Đơn vị vẫn được thông báo.",
+      "Sai. Vẫn có thể phân tích dữ liệu từ xa."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-M28",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Công ty muốn đánh giá quy trình mua hàng cả về hiệu quả hoạt động, độ chính xác số liệu phải trả, kiểm soát ERP và tuân thủ quy chế đấu thầu, nhưng tránh làm phiền đơn vị nhiều lần. Cách tiếp cận nào phù hợp nhất?",
+    "options": [
+      "Bốn cuộc kiểm toán riêng biệt vào bốn quý trong năm.",
+      "Chỉ kiểm toán tài chính vì có ảnh hưởng đến báo cáo tài chính.",
+      "Một cuộc kiểm toán tích hợp bao quát các khía cạnh của quy trình.",
+      "Giao bộ phận tuân thủ làm phần đấu thầu, kiểm toán làm phần còn lại."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán tích hợp kết hợp nhiều khía cạnh (hoạt động, tài chính, CNTT, tuân thủ) của cùng một quy trình trong một cuộc, giảm làm phiền đơn vị và thấy được rủi ro liên đới giữa các khía cạnh.",
+    "optionNotes": [
+      "Sai. Làm phiền đơn vị nhiều lần, khó thấy rủi ro liên đới.",
+      "Sai. Bỏ sót các mục tiêu khác.",
+      "Đúng. Kiểm toán tích hợp.",
+      "Sai. Không đáp ứng yêu cầu đánh giá toàn diện."
+    ],
+    "refs": [
+      "CIA Part 2 A.4"
+    ],
+    "source": "original"
   }
 ]
