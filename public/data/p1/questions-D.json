@@ -1643,7 +1643,7 @@
       "Phỏng vấn nghi phạm đầu tiên, trước khi thu thập bất kỳ bằng chứng nào."
     ],
     "answer": 1,
-    "explanation": "Phỏng vấn nghi phạm thường thực hiện sau khi đã thu thập bằng chứng và phỏng vấn người liên quan khác; có hai người (một hỏi, một ghi chép, làm chứng) tại nơi riêng tư để bảo đảm khách quan và có bằng chứng về nội dung buổi phỏng vấn.",
+    "explanation": "Phỏng vấn nghi phạm thường chỉ thực hiện khi đã có bằng chứng đáng kể, với hai người (một hỏi, một ghi chép và làm chứng) tại nơi riêng tư để bảo đảm khách quan và có bằng chứng về nội dung buổi phỏng vấn.",
     "optionNotes": [
       "Sai. Một người thì không có nhân chứng cho nội dung buổi phỏng vấn.",
       "Đúng. Hai người, riêng tư, sau khi có bằng chứng.",
@@ -1737,20 +1737,20 @@
     "section": "D",
     "topic": "D1",
     "difficulty": 2,
-    "stem": "Nhân viên thu ngân nhận tiền của khách nhưng không nhập giao dịch vào máy tính tiền, rồi giữ lại số tiền đó. Đây là loại gian lận nào?",
+    "stem": "Để đạt chỉ tiêu lợi nhuận năm, kế toán trưởng cất riêng các hóa đơn nhà cung cấp nhận trong tháng 12 và chỉ ghi sổ vào tháng 1 năm sau. Đây là loại gian lận nào?",
     "options": [
-      "Gian lận báo cáo tài chính bằng cách ghi nhận doanh thu khống.",
-      "Chiếm đoạt tiền trước khi ghi sổ (skimming).",
-      "Gian lận thanh toán qua nhà cung cấp giả.",
-      "Tham nhũng dưới hình thức nhận lại quả từ đối tác."
+      "Chiếm đoạt tiền mặt trước khi giao dịch được ghi sổ.",
+      "Che giấu nợ phải trả và chi phí để làm đẹp lợi nhuận.",
+      "Gian lận hoàn ứng chi phí công tác của nhân viên.",
+      "Nhận lại quả từ nhà cung cấp để ưu tiên thanh toán."
     ],
     "answer": 1,
-    "explanation": "Skimming là chiếm đoạt tiền trước khi giao dịch được ghi nhận vào sổ sách, nên rất khó phát hiện qua đối chiếu sổ. Kiểm soát phù hợp: giám sát quầy, khuyến khích khách lấy hóa đơn, phân tích doanh thu theo ca.",
+    "explanation": "Không ghi nhận hóa đơn, nghĩa vụ đã phát sinh trong kỳ làm chi phí và nợ phải trả bị ghi thiếu, lợi nhuận bị thổi phồng. Đây là gian lận báo cáo tài chính (che giấu nợ phải trả và chi phí). Thủ tục phát hiện: kiểm tra hóa đơn, thanh toán đầu kỳ sau (tìm nợ chưa ghi nhận).",
     "optionNotes": [
-      "Sai. Đây không phải ghi nhận doanh thu khống.",
-      "Đúng. Lấy tiền trước khi giao dịch được ghi sổ.",
-      "Sai. Không liên quan đến nhà cung cấp.",
-      "Sai. Không có đối tác bên ngoài liên quan."
+      "Sai. Không có tiền mặt bị chiếm đoạt.",
+      "Đúng. Không ghi nhận hóa đơn làm giảm chi phí, nợ phải trả: gian lận báo cáo tài chính.",
+      "Sai. Không liên quan đến chi phí công tác.",
+      "Sai. Không có lợi ích cá nhân từ nhà cung cấp."
     ],
     "refs": [
       "ACFE",
