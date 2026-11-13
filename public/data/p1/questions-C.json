@@ -2899,5 +2899,462 @@
       "CIA Part 1 C.1"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-C-M21",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Ủy ban Kiểm toán của một công ty niêm yết gồm ba người: Giám đốc tài chính, Phó Tổng Giám đốc kinh doanh và một thành viên HĐQT độc lập không có chuyên môn tài chính. Điểm yếu lớn nhất về quản trị là gì?",
+    "options": [
+      "Số thành viên của Ủy ban Kiểm toán quá ít so với quy mô công ty.",
+      "Ủy ban Kiểm toán không có thành viên đến từ cơ quan nhà nước.",
+      "Thiếu tính độc lập và thiếu chuyên môn tài chính - kế toán.",
+      "Ủy ban Kiểm toán họp quá thường xuyên với kiểm toán nội bộ."
+    ],
+    "answer": 2,
+    "explanation": "Thông lệ quản trị tốt yêu cầu Ủy ban Kiểm toán gồm các thành viên độc lập, không điều hành, và có ít nhất một người có chuyên môn tài chính - kế toán. Người điều hành ngồi trong Ủy ban thì tự giám sát công việc của chính mình.",
+    "optionNotes": [
+      "Sai. Ba thành viên có thể đủ nếu độc lập và có năng lực.",
+      "Sai. Không phải yêu cầu của thông lệ quản trị.",
+      "Đúng. Thiếu độc lập và chuyên môn là điểm yếu chính.",
+      "Sai. Họp thường xuyên là điều tốt."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M22",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "HĐQT cân nhắc đóng cửa một nhà máy cũ ở tỉnh nhỏ để tăng lợi nhuận. Nếu công ty theo mô hình quản trị hướng đến các bên liên quan, cách tiếp cận nào phù hợp nhất?",
+    "options": [
+      "Chuyển quyết định cho chính quyền địa phương đưa ra.",
+      "Chỉ xét lợi nhuận cho cổ đông, các yếu tố khác không liên quan.",
+      "Để người lao động bỏ phiếu quyết định thay cho HĐQT.",
+      "Cân nhắc tác động đến người lao động, cộng đồng bên cạnh lợi ích cổ đông."
+    ],
+    "answer": 3,
+    "explanation": "Mô hình hướng đến các bên liên quan yêu cầu HĐQT cân nhắc lợi ích của người lao động, khách hàng, cộng đồng, môi trường cùng với lợi ích cổ đông. HĐQT vẫn là bên ra quyết định.",
+    "optionNotes": [
+      "Sai. Chính quyền không thay HĐQT quyết định.",
+      "Sai. Đó là cách tiếp cận chỉ ưu tiên cổ đông.",
+      "Sai. Quyền quyết định vẫn thuộc HĐQT.",
+      "Đúng. Cân nhắc lợi ích của nhiều bên liên quan."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M23",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "HĐQT của một công ty chưa từng đánh giá hiệu quả hoạt động của chính mình, dù vài thành viên thường vắng họp và ít đóng góp. Khuyến nghị phù hợp nhất là gì?",
+    "options": [
+      "Đánh giá định kỳ HĐQT, các ủy ban và từng thành viên.",
+      "Giao kiểm toán nội bộ chấm điểm từng thành viên HĐQT hằng năm.",
+      "Giảm số cuộc họp HĐQT để thành viên dễ tham dự hơn.",
+      "Để Tổng Giám đốc đánh giá và đề xuất thay thành viên HĐQT."
+    ],
+    "answer": 0,
+    "explanation": "Thông lệ quản trị tốt yêu cầu HĐQT đánh giá định kỳ hiệu quả của chính mình, các ủy ban và từng thành viên, có thể có hỗ trợ từ bên ngoài. Tổng Giám đốc chịu sự giám sát của HĐQT nên không phù hợp để đánh giá HĐQT.",
+    "optionNotes": [
+      "Đúng. Đánh giá định kỳ HĐQT, ủy ban và thành viên.",
+      "Sai. Kiểm toán nội bộ không nên chấm điểm người mình báo cáo.",
+      "Sai. Không giải quyết vấn đề hiệu quả.",
+      "Sai. Người bị giám sát đánh giá người giám sát là xung đột."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M24",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Theo COSO 2013, cam kết thu hút, phát triển và giữ chân nhân sự có năng lực, cùng việc giao trách nhiệm giải trình về kiểm soát, thuộc thành phần nào?",
+    "options": [
+      "Hoạt động kiểm soát.",
+      "Môi trường kiểm soát.",
+      "Thông tin và truyền thông.",
+      "Hoạt động giám sát."
+    ],
+    "answer": 1,
+    "explanation": "Môi trường kiểm soát theo COSO 2013 gồm các nguyên tắc 1-5: cam kết về tính chính trực và giá trị đạo đức, HĐQT giám sát độc lập, cơ cấu và phân quyền, cam kết về năng lực, và trách nhiệm giải trình.",
+    "optionNotes": [
+      "Sai. Hoạt động kiểm soát là các chính sách, thủ tục cụ thể.",
+      "Đúng. Năng lực và trách nhiệm giải trình là nguyên tắc 4 và 5.",
+      "Sai. Thông tin và truyền thông là nguyên tắc 13-15.",
+      "Sai. Giám sát là nguyên tắc 16-17."
+    ],
+    "refs": [
+      "COSO 2013",
+      "CIA Part 1 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M25",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Khi lập kế hoạch kiểm toán một công ty con, kiểm toán viên nhận thấy văn hóa 'sếp đã duyệt thì không ai hỏi lại', kể cả khi chứng từ thiếu. Ảnh hưởng phù hợp nhất đến cách tiếp cận cuộc kiểm toán là gì?",
+    "options": [
+      "Giảm thử nghiệm chi tiết vì mọi giao dịch đều đã được sếp duyệt.",
+      "Chỉ phỏng vấn giám đốc công ty con để xác nhận các giao dịch.",
+      "Đánh giá rủi ro cao hơn, ít dựa vào phê duyệt, tăng kiểm tra chứng từ gốc.",
+      "Không thay đổi gì vì văn hóa không liên quan đến rủi ro cuộc kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "Văn hóa coi nhẹ kiểm soát làm các kiểm soát phê duyệt kém tin cậy, nên rủi ro cuộc kiểm toán tăng. Kiểm toán viên cần ít dựa vào phê duyệt và tăng kiểm tra trực tiếp chứng từ, bằng chứng gốc.",
+    "optionNotes": [
+      "Sai. Phê duyệt hình thức không đáng tin cậy.",
+      "Sai. Bằng chứng từ phỏng vấn người duyệt là yếu.",
+      "Đúng. Tăng đánh giá rủi ro và kiểm tra trực tiếp.",
+      "Sai. Văn hóa ảnh hưởng trực tiếp đến rủi ro và kiểm soát."
+    ],
+    "refs": [
+      "CIA Part 1 C.2",
+      "GIAS 13.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M26",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Các khoản tín dụng lớn được hội đồng tín dụng thông qua bằng biểu quyết, nhưng biên bản không ghi lý do, ý kiến phản biện hay các rủi ro đã cân nhắc. Ảnh hưởng chính đến quản trị rủi ro là gì?",
+    "options": [
+      "Khách hàng vay phải chờ lâu hơn để nhận được tiền giải ngân.",
+      "Các cuộc họp hội đồng tín dụng kéo dài hơn mức cần thiết.",
+      "Ngân hàng sẽ bị từ chối mọi khoản vay tái cấp vốn.",
+      "Khó truy trách nhiệm và kiểm tra sự phù hợp khẩu vị rủi ro."
+    ],
+    "answer": 3,
+    "explanation": "Quy trình ra quyết định thiếu lưu vết lý do và phản biện làm suy yếu trách nhiệm giải trình và khả năng giám sát: không biết quyết định có cân nhắc đủ rủi ro, có phù hợp khẩu vị rủi ro hay không.",
+    "optionNotes": [
+      "Sai. Không liên quan đến thời gian giải ngân.",
+      "Sai. Thời lượng họp không phải vấn đề chính.",
+      "Sai. Không có cơ sở cho hệ quả này.",
+      "Đúng. Mất trách nhiệm giải trình và khả năng giám sát."
+    ],
+    "refs": [
+      "CIA Part 1 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M27",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên phát hiện công nhân thường làm thêm giờ vượt giới hạn của luật lao động để kịp đơn hàng xuất khẩu. Giám đốc nhà máy nói 'công nhân tự nguyện làm'. Đánh giá phù hợp nhất là gì?",
+    "options": [
+      "Vẫn là vi phạm pháp luật; cần báo cáo và khuyến nghị kiểm soát giờ làm.",
+      "Không phải vấn đề vì công nhân đã đồng ý làm thêm.",
+      "Chỉ là vấn đề nhân sự, nằm ngoài phạm vi của kiểm toán nội bộ.",
+      "Đề nghị tăng lương làm thêm giờ để bù cho công nhân."
+    ],
+    "answer": 0,
+    "explanation": "Sự đồng ý của người lao động không miễn trách nhiệm tuân thủ giới hạn làm thêm giờ theo luật. Đây là rủi ro tuân thủ và uy tín (với khách hàng xuất khẩu), cần báo cáo và khuyến nghị kiểm soát kế hoạch sản xuất, giám sát giờ làm.",
+    "optionNotes": [
+      "Đúng. Rủi ro tuân thủ cần được báo cáo và kiểm soát.",
+      "Sai. Sự đồng ý không làm hợp pháp việc vượt giới hạn luật.",
+      "Sai. Tuân thủ pháp luật nằm trong phạm vi kiểm toán.",
+      "Sai. Trả thêm tiền không sửa được vi phạm."
+    ],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M28",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Tổng Giám đốc muốn giao kiểm toán nội bộ làm chủ chương trình đạo đức: soạn quy tắc ứng xử, tổ chức đào tạo, xử lý vi phạm. Vai trò phù hợp nhất của kiểm toán nội bộ là gì?",
+    "options": [
+      "Nhận làm chủ toàn bộ chương trình vì kiểm toán nội bộ am hiểu đạo đức.",
+      "Đánh giá thiết kế và hiệu quả chương trình đạo đức, không làm chủ chương trình.",
+      "Từ chối mọi liên quan đến đạo đức vì đó không phải việc của kiểm toán.",
+      "Chỉ xử lý các vi phạm nghiêm trọng, các phần khác giao Nhân sự."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán nội bộ đánh giá và đưa ra khuyến nghị về chương trình đạo đức của tổ chức. Làm chủ chương trình (thiết kế, vận hành, xử lý vi phạm) là trách nhiệm quản lý và sẽ làm suy giảm tính khách quan khi đánh giá.",
+    "optionNotes": [
+      "Sai. Làm chủ chương trình là nhận trách nhiệm quản lý.",
+      "Đúng. Đánh giá, không làm chủ.",
+      "Sai. Đạo đức là một nội dung quan trọng của quản trị.",
+      "Sai. Xử lý vi phạm là trách nhiệm quản lý."
+    ],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M29",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 3,
+    "stem": "Một sàn thương mại điện tử Việt Nam bắt đầu bán hàng trực tuyến cho khách hàng ở Đức và Pháp, nhưng không có văn phòng ở châu Âu. Khi nhận diện yêu cầu pháp lý, kiểm toán viên nên lưu ý điều gì nhất?",
+    "options": [
+      "Chỉ cần tuân thủ luật Việt Nam vì công ty đăng ký tại Việt Nam.",
+      "Yêu cầu pháp lý chỉ cần xem xét khi có khiếu nại từ khách hàng.",
+      "Quy định bảo vệ dữ liệu của EU (GDPR) có thể áp dụng dù không có văn phòng ở EU.",
+      "Luật nước ngoài chỉ áp dụng khi doanh thu ở đó vượt doanh thu trong nước."
+    ],
+    "answer": 2,
+    "explanation": "GDPR có thể áp dụng cho tổ chức ngoài EU khi cung cấp hàng hóa, dịch vụ cho người ở EU và xử lý dữ liệu của họ. Kiểm toán viên cần nhận diện yêu cầu pháp lý theo thị trường hoạt động, không chỉ theo nơi đăng ký.",
+    "optionNotes": [
+      "Sai. Hoạt động xuyên biên giới có thể chịu luật nước ngoài.",
+      "Sai. Cần nhận diện yêu cầu trước khi có sự cố.",
+      "Đúng. GDPR có phạm vi áp dụng ngoài lãnh thổ.",
+      "Sai. Không có ngưỡng doanh thu như vậy."
+    ],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M30",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 2,
+    "stem": "Một nhà cung cấp gia công của hãng thời trang bị báo chí phát hiện sử dụng lao động trẻ em. Đối với hãng thời trang, đây là ví dụ rõ nhất của loại rủi ro nào?",
+    "options": [
+      "Rủi ro chiến lược do lựa chọn sai dòng sản phẩm.",
+      "Rủi ro tài chính do biến động giá nguyên liệu vải.",
+      "Rủi ro hoạt động do máy móc nhà xưởng hỏng hóc.",
+      "Rủi ro trách nhiệm xã hội trong chuỗi cung ứng."
+    ],
+    "answer": 3,
+    "explanation": "Vi phạm quyền lao động ở nhà cung cấp là rủi ro môi trường, bền vững và trách nhiệm xã hội (phần xã hội), có thể kéo theo rủi ro uy tín cho hãng dù hãng không trực tiếp sử dụng lao động đó.",
+    "optionNotes": [
+      "Sai. Không liên quan đến lựa chọn sản phẩm.",
+      "Sai. Không liên quan đến giá nguyên liệu.",
+      "Sai. Không liên quan đến máy móc.",
+      "Đúng. Rủi ro trách nhiệm xã hội trong chuỗi cung ứng."
+    ],
+    "refs": [
+      "CIA Part 1 C.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M31",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 1,
+    "stem": "Công ty bị cơ quan thuế phạt vì nộp tờ khai thuế giá trị gia tăng trễ hạn ba kỳ liên tiếp. Đây chủ yếu là loại rủi ro nào?",
+    "options": [
+      "Rủi ro tuân thủ.",
+      "Rủi ro chiến lược.",
+      "Rủi ro thị trường.",
+      "Rủi ro môi trường."
+    ],
+    "answer": 0,
+    "explanation": "Không đáp ứng nghĩa vụ theo luật, quy định (như thời hạn nộp tờ khai thuế) và bị xử phạt là rủi ro tuân thủ.",
+    "optionNotes": [
+      "Đúng. Vi phạm nghĩa vụ pháp lý là rủi ro tuân thủ.",
+      "Sai. Không liên quan đến định hướng chiến lược.",
+      "Sai. Không liên quan đến biến động giá thị trường.",
+      "Sai. Không liên quan đến môi trường."
+    ],
+    "refs": [
+      "CIA Part 1 C.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M32",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 3,
+    "stem": "Hai rủi ro có cùng khả năng xảy ra và mức ảnh hưởng: tấn công mã độc tống tiền (tác động trong vài giờ) và thay đổi cơ cấu dân số khách hàng (tác động trong nhiều năm). Theo COSO ERM 2017, thuộc tính nào giúp phân biệt mức ưu tiên giữa hai rủi ro?",
+    "options": [
+      "Khẩu vị rủi ro của từng bộ phận phụ trách.",
+      "Tốc độ tác động (velocity) của rủi ro.",
+      "Số lượng người chịu trách nhiệm rủi ro.",
+      "Chi phí mua bảo hiểm cho từng rủi ro."
+    ],
+    "answer": 1,
+    "explanation": "Ngoài khả năng xảy ra và mức ảnh hưởng, COSO ERM 2017 nêu tốc độ tác động (velocity) như một tiêu chí đánh giá mức độ nghiêm trọng: rủi ro tác động nhanh để lại ít thời gian ứng phó nên thường cần ưu tiên.",
+    "optionNotes": [
+      "Sai. Khẩu vị không phân biệt đặc tính hai rủi ro này.",
+      "Đúng. Tốc độ tác động khác nhau rõ rệt.",
+      "Sai. Không phải thuộc tính của rủi ro.",
+      "Sai. Chi phí bảo hiểm không phải tiêu chí đánh giá."
+    ],
+    "refs": [
+      "COSO ERM 2017",
+      "CIA Part 1 C.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M33",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 2,
+    "stem": "Công ty thuê ngoài toàn bộ trung tâm dữ liệu và Giám đốc CNTT tuyên bố 'rủi ro mất dữ liệu nay là của nhà cung cấp'. Nhận định nào đúng nhất?",
+    "options": [
+      "Đúng, vì thuê ngoài chuyển toàn bộ rủi ro sang nhà cung cấp.",
+      "Sai, vì thuê ngoài luôn làm rủi ro tăng gấp đôi.",
+      "Chỉ chia sẻ một phần rủi ro; trách nhiệm giải trình vẫn thuộc công ty.",
+      "Đúng, nếu hợp đồng có điều khoản phạt vi phạm đủ lớn."
+    ],
+    "answer": 2,
+    "explanation": "Thuê ngoài là chia sẻ rủi ro: nhà cung cấp vận hành, nhưng công ty vẫn chịu trách nhiệm giải trình với khách hàng, cơ quan quản lý và phải giám sát nhà cung cấp. Điều khoản phạt chỉ bù đắp một phần thiệt hại.",
+    "optionNotes": [
+      "Sai. Trách nhiệm giải trình không chuyển được.",
+      "Sai. Quá tuyệt đối.",
+      "Đúng. Chia sẻ một phần, vẫn chịu trách nhiệm.",
+      "Sai. Tiền phạt không chuyển được trách nhiệm."
+    ],
+    "refs": [
+      "COSO ERM 2017",
+      "CIA Part 1 C.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M34",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 2,
+    "stem": "Khi đánh giá quản lý rủi ro của dự án xây dựng nhà máy kéo dài ba năm, dấu hiệu nào cho thấy quản lý rủi ro dự án đang hữu hiệu nhất?",
+    "options": [
+      "Ngân sách dự phòng chiếm tỷ lệ cao trong tổng mức đầu tư.",
+      "Danh sách rủi ro được lập một lần khi phê duyệt dự án.",
+      "Dự án đã thuê đơn vị tư vấn giám sát có uy tín.",
+      "Rủi ro được cập nhật theo từng giai đoạn và báo cáo cho ban chỉ đạo."
+    ],
+    "answer": 3,
+    "explanation": "Quản lý rủi ro dự án hữu hiệu khi rủi ro được rà soát, cập nhật ở mỗi giai đoạn và báo cáo cho cấp ra quyết định để kịp ứng phó. Lập một lần, thuê tư vấn hay dự phòng lớn chưa chứng minh quá trình vận hành.",
+    "optionNotes": [
+      "Sai. Dự phòng lớn có thể che giấu rủi ro chưa được quản lý.",
+      "Sai. Rủi ro dự án thay đổi theo thời gian.",
+      "Sai. Thuê tư vấn không chứng minh quản lý rủi ro.",
+      "Đúng. Cập nhật liên tục và báo cáo."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M35",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Sổ đăng ký rủi ro của công ty liệt kê 150 rủi ro với điểm số chi tiết, nhưng không rủi ro nào được gắn với mục tiêu chiến lược hay mục tiêu hoạt động cụ thể. Hạn chế chính trong thiết kế là gì?",
+    "options": [
+      "Khó xác định rủi ro nào quan trọng với mục tiêu để ưu tiên ứng phó.",
+      "Sổ đăng ký có quá nhiều rủi ro nên khó in ấn và lưu trữ.",
+      "Thang điểm chi tiết làm việc đánh giá rủi ro thiếu chính xác.",
+      "Sổ đăng ký cần được kiểm toán độc lập xác nhận hằng năm."
+    ],
+    "answer": 0,
+    "explanation": "Rủi ro là ảnh hưởng của sự không chắc chắn đến mục tiêu. Không gắn rủi ro với mục tiêu thì không đánh giá được mức quan trọng, khó ưu tiên ứng phó và phân bổ nguồn lực.",
+    "optionNotes": [
+      "Đúng. Thiếu liên kết với mục tiêu.",
+      "Sai. Số lượng không phải hạn chế chính.",
+      "Sai. Thang điểm chi tiết không phải vấn đề.",
+      "Sai. Không phải yêu cầu."
+    ],
+    "refs": [
+      "ISO 31000:2018",
+      "COSO ERM 2017",
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M36",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 2,
+    "stem": "Kiểm soát nào sau đây là kiểm soát khắc phục (corrective)?",
+    "options": [
+      "Yêu cầu mật khẩu mạnh khi đăng nhập hệ thống.",
+      "Khôi phục dữ liệu từ bản sao lưu sau khi máy chủ gặp sự cố.",
+      "Báo cáo ngoại lệ liệt kê các giao dịch vượt hạn mức.",
+      "Đào tạo nhân viên mới về quy chế bảo mật thông tin."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm soát khắc phục sửa chữa hậu quả sau khi sự cố đã xảy ra và được phát hiện, như khôi phục dữ liệu từ bản sao lưu. Mật khẩu là phòng ngừa, báo cáo ngoại lệ là phát hiện, đào tạo là kiểm soát hướng dẫn.",
+    "optionNotes": [
+      "Sai. Đây là kiểm soát phòng ngừa.",
+      "Đúng. Khắc phục hậu quả sau sự cố.",
+      "Sai. Đây là kiểm soát phát hiện.",
+      "Sai. Đây là kiểm soát hướng dẫn (directive)."
+    ],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M37",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 3,
+    "stem": "Hệ thống tạo báo cáo ngoại lệ hằng tháng về các khoản chiết khấu vượt quy định, nhưng trưởng phòng kinh doanh thường xem báo cáo sau ba tháng. Đánh giá phù hợp nhất về kiểm soát phát hiện này là gì?",
+    "options": [
+      "Kiểm soát hữu hiệu vì báo cáo ngoại lệ vẫn được tạo đều đặn.",
+      "Nên bỏ báo cáo ngoại lệ vì không ai dùng đến.",
+      "Kém hữu hiệu vì phát hiện quá muộn để xử lý kịp thời.",
+      "Kiểm soát hữu hiệu vì cuối cùng trưởng phòng vẫn xem báo cáo."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm soát phát hiện chỉ có giá trị khi ngoại lệ được xem xét và xử lý kịp thời. Xem sau ba tháng thì sai phạm có thể đã lặp lại nhiều lần và khó thu hồi.",
+    "optionNotes": [
+      "Sai. Tạo báo cáo chưa đủ nếu không xử lý kịp.",
+      "Sai. Nên sửa cách vận hành, không bỏ kiểm soát.",
+      "Đúng. Thiếu tính kịp thời làm giảm hiệu quả.",
+      "Sai. Xem muộn làm mất tác dụng phát hiện."
+    ],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M38",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên cần kết luận về hiệu quả vận hành của một kiểm soát trong cả năm tài chính. Cách chọn mẫu nào phù hợp nhất?",
+    "options": [
+      "Chọn toàn bộ mẫu trong tháng gần nhất vì dữ liệu dễ lấy.",
+      "Chọn các giao dịch có giá trị nhỏ nhất để dễ kiểm tra.",
+      "Chọn mẫu do người thực hiện kiểm soát đề xuất.",
+      "Chọn mẫu trải đều trong cả kỳ được đánh giá."
+    ],
+    "answer": 3,
+    "explanation": "Để kết luận cho cả năm, mẫu cần đại diện cho toàn kỳ. Chỉ chọn một tháng không chứng minh kiểm soát vận hành trong các tháng khác; mẫu do người được kiểm toán chọn có thể bị thiên lệch.",
+    "optionNotes": [
+      "Sai. Không đại diện cho cả năm.",
+      "Sai. Không đại diện và bỏ qua giao dịch rủi ro.",
+      "Sai. Người được kiểm toán chọn mẫu gây thiên lệch.",
+      "Đúng. Mẫu trải đều cả kỳ."
+    ],
+    "refs": [
+      "CIA Part 1 C.8",
+      "GIAS 14.1"
+    ],
+    "source": "original"
   }
 ]
