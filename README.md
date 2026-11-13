@@ -18,7 +18,7 @@ Nguồn: [CIA Exam: Why and How It's Changing (IIA)](https://www.theiia.org/glob
 
 | Phần | Câu hỏi | Bài học | Thẻ kiến thức | Trạng thái |
 |---|---|---|---|---|
-| Part 1 | 193 (phần lớn dạng tình huống; 90 câu khó) | 27/27 chủ đề, bài chi tiết (khoảng 950 từ/bài, ví dụ, bảng so sánh, tự kiểm tra) | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
+| Part 1 | 225 (phần lớn dạng tình huống; 105 câu khó) | 27/27 chủ đề, bài chi tiết (khoảng 950 từ/bài, ví dụ, bảng so sánh, tự kiểm tra) | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
 | Part 2 | 23 (8 câu khó) | 17/17 chủ đề | 5 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
 | Part 3 | 26 (7 câu khó) | 18/18 chủ đề | 11 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
 
@@ -27,7 +27,7 @@ Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành
 ## Tính năng
 
 - **Tìm hiểu CIA**: điều kiện ghi danh, quy trình thi, lệ phí, duy trì chứng chỉ, cách học, kỹ năng làm bài, câu hỏi thường gặp; quy định và lệ phí đối chiếu với trang chính thức của IIA.
-- **Thi thử mô phỏng**: đủ số câu và thời gian như đề thật, rút câu theo tỷ trọng từng section, xáo trộn thứ tự đáp án mỗi lần thi, bấm giờ (tự nộp khi hết giờ), chỉ báo nhịp làm bài (khoảng 72 giây/câu), đánh dấu câu, gạch bỏ phương án (nút hoặc chuột phải), bảng câu hỏi, màn hình xem lại trước khi nộp, máy tính.
+- **Thi thử mô phỏng**: đủ số câu và thời gian như đề thật, rút câu theo tỷ trọng từng section, ưu tiên câu chưa gặp ở các lần làm trước, xáo trộn thứ tự đáp án mỗi lần thi, bấm giờ (tự nộp khi hết giờ), chỉ báo nhịp làm bài (khoảng 72 giây/câu), đánh dấu câu, gạch bỏ phương án (nút hoặc chuột phải), bảng câu hỏi, màn hình xem lại trước khi nộp, máy tính.
 - **Luyện tập theo chuyên đề**: chọn section và số câu, xem đáp án và giải thích (kèm căn cứ GIAS) ngay sau mỗi câu.
 - **Ôn câu sai**: mọi câu làm sai được lưu lại, làm đúng thì tự xóa khỏi danh sách.
 - **Học lý thuyết**: một bài học cho mỗi chủ đề syllabus (tóm tắt, ý chính, thuật ngữ Anh - Việt, bẫy thường gặp, căn cứ), luyện riêng câu hỏi của chủ đề, tỷ lệ đúng theo chủ đề, đánh dấu đã học và tiến độ; kèm thẻ kiến thức theo section.
