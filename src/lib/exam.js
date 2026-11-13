@@ -59,14 +59,18 @@ export function allocateBySection(sections, available, total) {
 /**
  * Build an exam: pick questions per section by blueprint weight, mix them,
  * and give every item its own option order so the answer position can't be memorized.
+ * `seen` (optional Set of question ids) puts questions not met in earlier attempts
+ * first, so repeated mocks overlap as little as the bank allows.
  */
-export function buildExam({ questions, sections, count, seed, sectionFilter }) {
+export function buildExam({ questions, sections, count, seed, sectionFilter, seen }) {
   const rng = createRng(seed);
   const activeSections = sectionFilter?.length
     ? sections.filter((s) => sectionFilter.includes(s.id))
     : sections;
+  const unseenFirst = (list) =>
+    seen?.size ? [...list.filter((q) => !seen.has(q.id)), ...list.filter((q) => seen.has(q.id))] : list;
   const pools = Object.fromEntries(
-    activeSections.map((s) => [s.id, shuffle(questions.filter((q) => q.section === s.id), rng)]),
+    activeSections.map((s) => [s.id, unseenFirst(shuffle(questions.filter((q) => q.section === s.id), rng))]),
   );
   const available = Object.fromEntries(Object.entries(pools).map(([k, v]) => [k, v.length]));
   const alloc = allocateBySection(activeSections, available, count);

@@ -89,9 +89,13 @@ function Overview({ index, manifest, data }) {
   const toggleSection = (id) =>
     setSections((cur) => (cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id]));
 
+  // Questions met in past attempts; new exams and practice sets draw unseen ones first.
+  const seenIds = () =>
+    new Set(load(keys.history(manifest.id), []).flatMap((a) => (a.items || []).map((it) => it.qid)));
+
   const startExam = (count) => {
     const seed = newSeed();
-    const items = buildExam({ questions: data.questions, sections: manifest.sections, count, seed });
+    const items = buildExam({ questions: data.questions, sections: manifest.sections, count, seed, seen: seenIds() });
     const minutes = Math.round((manifest.minutes * items.length) / manifest.questionCount);
     startSession(manifest, {
       id: `${Date.now()}`,
@@ -116,6 +120,7 @@ function Overview({ index, manifest, data }) {
       count: size,
       seed,
       sectionFilter: sections,
+      seen: seenIds(),
     });
     startSession(manifest, {
       id: `${Date.now()}`,

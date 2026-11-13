@@ -72,6 +72,24 @@ describe('buildExam', () => {
   });
 });
 
+describe('buildExam with seen questions', () => {
+  test('draws only unseen questions while a section still has enough of them', () => {
+    const questions = makeQuestions({ A: 20, B: 20, C: 20, D: 20 });
+    const seen = new Set(questions.filter((q) => Number(q.id.split('-')[1]) < 10).map((q) => q.id));
+    const items = buildExam({ questions, sections: SECTIONS, count: 20, seed: 3, seen });
+    expect(items).toHaveLength(20);
+    expect(items.every((it) => !seen.has(it.qid))).toBe(true);
+  });
+
+  test('falls back to seen questions when unseen ones run out', () => {
+    const questions = makeQuestions({ A: 10, B: 10, C: 10, D: 10 });
+    const seen = new Set(questions.filter((q) => q.id !== 'A-0').map((q) => q.id));
+    const items = buildExam({ questions, sections: SECTIONS, count: 20, seed: 3, seen });
+    expect(items).toHaveLength(20);
+    expect(items.some((it) => it.qid === 'A-0')).toBe(true);
+  });
+});
+
 describe('scoreAttempt', () => {
   test('scores totals and per-section breakdown; unanswered counts as wrong', () => {
     const questions = makeQuestions({ A: 2, B: 2 });
