@@ -2792,5 +2792,545 @@
       "GIAS 2.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-A-M01",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "HĐQT một ngân hàng muốn kiểm toán nội bộ đánh giá liệu văn hóa chấp nhận rủi ro ở khối tín dụng có phù hợp với giá trị và khẩu vị rủi ro đã công bố hay không. Nguồn bằng chứng nào phù hợp nhất cho cuộc kiểm toán văn hóa này?",
+    "options": [
+      "Kết hợp khảo sát, phỏng vấn, phân tích cơ chế thưởng và dữ liệu tố giác, ngoại lệ.",
+      "Chỉ đọc bộ quy tắc ứng xử và các chính sách tín dụng đã được ban hành.",
+      "Chỉ dựa vào kết quả xếp hạng của các công ty tư vấn bên ngoài về văn hóa ngành.",
+      "Chỉ kiểm tra chữ ký phê duyệt trên một mẫu hồ sơ tín dụng của năm trước."
+    ],
+    "answer": 0,
+    "explanation": "Văn hóa là yếu tố vô hình nên cần nhiều nguồn bằng chứng đối chiếu nhau: khảo sát, phỏng vấn, quan sát hành vi, phân tích khuyến khích, dữ liệu tố giác và ngoại lệ phê duyệt. Văn bản chính sách chỉ cho thấy văn hóa mong muốn, không phải văn hóa thực tế.",
+    "optionNotes": [
+      "Đúng. Đối chiếu nhiều nguồn là cách đánh giá văn hóa phù hợp.",
+      "Sai. Chính sách là văn hóa trên giấy, không chứng minh hành vi thực tế.",
+      "Sai. Xếp hạng bên ngoài không phản ánh văn hóa cụ thể của khối được kiểm toán.",
+      "Sai. Chữ ký phê duyệt là kiểm soát cứng, không đo được văn hóa."
+    ],
+    "refs": [
+      "CIA Part 1 A.5",
+      "CIA Part 1 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M02",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Sau cuộc kiểm toán văn hóa, kiểm toán viên kết luận 'văn hóa tuân thủ yếu' chỉ dựa trên một khảo sát mà 18% nhân viên trả lời. Trưởng khối phản đối kết luận. Điểm yếu chính của kết luận này là gì?",
+    "options": [
+      "Bằng chứng chưa đủ: tỷ lệ trả lời thấp, chỉ một nguồn, chưa đối chiếu với nguồn khác.",
+      "Văn hóa không thuộc phạm vi mà kiểm toán nội bộ được phép đánh giá.",
+      "Kết luận phải được trưởng khối đồng ý thì mới được đưa vào báo cáo kiểm toán.",
+      "Khảo sát văn hóa phải do bộ phận nhân sự thực hiện, không phải kiểm toán nội bộ."
+    ],
+    "answer": 0,
+    "explanation": "Kết luận phải dựa trên thông tin phù hợp, đáng tin cậy và đầy đủ (GIAS 14.1). Một khảo sát với tỷ lệ trả lời thấp có thể không đại diện; cần đối chiếu với phỏng vấn, dữ liệu vi phạm, quan sát trước khi kết luận về văn hóa.",
+    "optionNotes": [
+      "Đúng. Bằng chứng chưa đủ và chưa được đối chiếu.",
+      "Sai. Văn hóa thuộc phạm vi đánh giá quản trị, kiểm soát của kiểm toán nội bộ.",
+      "Sai. Kết luận không cần sự đồng ý của đơn vị được kiểm toán.",
+      "Sai. Kiểm toán nội bộ có thể tự khảo sát hoặc dùng kết quả khảo sát của bộ phận khác."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M03",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Ủy ban Kiểm toán nhận bộ chỉ số hiệu quả hằng tháng do phòng Kế hoạch tổng hợp thủ công từ 6 hệ thống bằng bảng tính. Ủy ban muốn biết có thể tin vào các con số này không. Cuộc kiểm toán phù hợp nhất tập trung vào điều gì?",
+    "options": [
+      "Quy trình lập báo cáo quản trị: nguồn dữ liệu, cách tổng hợp, kiểm soát rà soát, tính kịp thời.",
+      "Mức độ hoàn thành các chỉ tiêu kinh doanh so với kế hoạch đã được HĐQT phê duyệt.",
+      "Hiệu suất làm việc và số giờ làm thêm của nhân viên phòng Kế hoạch trong tháng.",
+      "Chi phí bản quyền của 6 hệ thống phần mềm đang được sử dụng tại công ty."
+    ],
+    "answer": 0,
+    "explanation": "Kiểm toán quy trình báo cáo quản trị đánh giá độ tin cậy của thông tin trình lãnh đạo: nguồn dữ liệu, quá trình tổng hợp (nhất là thủ công), kiểm soát rà soát, đối chiếu và tính kịp thời. Mức hoàn thành chỉ tiêu là nội dung báo cáo, không phải độ tin cậy của nó.",
+    "optionNotes": [
+      "Đúng. Độ tin cậy của báo cáo nằm ở quy trình lập báo cáo.",
+      "Sai. Mức hoàn thành chỉ tiêu không trả lời câu hỏi về độ tin cậy số liệu.",
+      "Sai. Hiệu suất nhân viên không phải mục tiêu được hỏi.",
+      "Sai. Chi phí bản quyền không liên quan đến độ tin cậy báo cáo."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M04",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Khi kiểm toán quy trình báo cáo quản trị, rủi ro nào sau đây thường đáng chú ý nhất khi số liệu được gộp thủ công từ nhiều hệ thống bằng bảng tính?",
+    "options": [
+      "Sai sót công thức, liên kết, chép dữ liệu không được phát hiện do thiếu kiểm soát.",
+      "Báo cáo được trình bày bằng quá nhiều biểu đồ màu sắc khác nhau.",
+      "Báo cáo được gửi qua email thay vì in ra giấy cho các thành viên Ủy ban.",
+      "Phòng Kế hoạch dùng phiên bản bảng tính mới hơn so với các phòng khác."
+    ],
+    "answer": 0,
+    "explanation": "Bảng tính dùng để tổng hợp (điện toán người dùng cuối) dễ có sai sót công thức, liên kết hỏng, dán sai dữ liệu, thiếu kiểm soát thay đổi và phiên bản. Đây là rủi ro chính đối với độ tin cậy của báo cáo quản trị.",
+    "optionNotes": [
+      "Đúng. Sai sót của bảng tính không kiểm soát là rủi ro chính.",
+      "Sai. Hình thức trình bày không phải rủi ro chính về độ tin cậy.",
+      "Sai. Kênh gửi không ảnh hưởng đến độ chính xác của số liệu.",
+      "Sai. Khác phiên bản phần mềm không phải rủi ro trọng yếu."
+    ],
+    "refs": [
+      "CIA Part 1 A.5",
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M05",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Một sở y tế triển khai chương trình tiêm chủng miễn phí với mục tiêu bao phủ 95% trẻ em trong năm. Cơ quan kiểm toán nội bộ được giao đánh giá chương trình có đạt mục tiêu đề ra với nguồn lực đã cấp hay không. Đây là loại kiểm toán nào?",
+    "options": [
+      "Kiểm toán tài chính đối với các khoản chi của chương trình trong năm.",
+      "Kiểm toán CNTT đối với hệ thống quản lý dữ liệu tiêm chủng.",
+      "Kiểm toán tuân thủ quy định về mua sắm vắc-xin và vật tư y tế.",
+      "Kiểm toán hiệu quả hoạt động (performance) của chương trình."
+    ],
+    "answer": 3,
+    "explanation": "Kiểm toán hiệu quả hoạt động (performance audit) đánh giá chương trình có đạt mục tiêu (hiệu quả) với nguồn lực hợp lý (kinh tế, hiệu suất) hay không, phổ biến trong khu vực công.",
+    "optionNotes": [
+      "Sai. Chi tiêu đúng không cho biết chương trình đạt mục tiêu hay không.",
+      "Sai. Hệ thống dữ liệu chỉ là một phần, không phải mục tiêu tổng thể.",
+      "Sai. Tuân thủ mua sắm là mục tiêu khác.",
+      "Đúng. Đánh giá việc đạt mục tiêu với nguồn lực là kiểm toán hiệu quả hoạt động."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M06",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Các phòng ban của công ty đã tự đánh giá rủi ro và kiểm soát (RCSA). Kiểm toán nội bộ được giao thực hiện một cuộc đánh giá rủi ro và kiểm soát độc lập cho quy trình mua hàng. Điểm khác biệt chính giữa hai hoạt động này là gì?",
+    "options": [
+      "RCSA do đơn vị tự đánh giá; cuộc đánh giá của kiểm toán nội bộ độc lập và đưa ra đảm bảo.",
+      "RCSA có giá trị pháp lý cao hơn vì do chính người phụ trách quy trình ký xác nhận.",
+      "Không có khác biệt, vì cả hai đều nhận diện rủi ro và kiểm soát của cùng quy trình.",
+      "Cuộc đánh giá của kiểm toán nội bộ chỉ được dùng khi RCSA cho kết quả xấu."
+    ],
+    "answer": 0,
+    "explanation": "RCSA là công cụ quản lý: đơn vị tự đánh giá rủi ro và kiểm soát của mình. Cuộc đánh giá rủi ro và kiểm soát do kiểm toán nội bộ thực hiện là dịch vụ đảm bảo độc lập, khách quan; có thể dùng RCSA làm đầu vào nhưng phải tự đánh giá.",
+    "optionNotes": [
+      "Đúng. Khác nhau ở người thực hiện và tính độc lập, đảm bảo.",
+      "Sai. Tự xác nhận không làm đánh giá có giá trị độc lập hơn.",
+      "Sai. Khác biệt cốt lõi là tính độc lập của người đánh giá.",
+      "Sai. Đánh giá độc lập không phụ thuộc kết quả RCSA."
+    ],
+    "refs": [
+      "CIA Part 1 A.5",
+      "CIA Part 1 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M07",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Công ty sắp triển khai ứng dụng thu thập dữ liệu sinh trắc học của khách hàng. Ban điều hành mời kiểm toán nội bộ tham gia ngay từ giai đoạn thiết kế về quyền riêng tư dữ liệu. Vai trò phù hợp nhất của kiểm toán nội bộ là gì?",
+    "options": [
+      "Làm người phụ trách bảo vệ dữ liệu cá nhân (DPO) của công ty trong năm đầu.",
+      "Phê duyệt danh mục dữ liệu được thu thập trước khi ứng dụng được đưa vào sử dụng.",
+      "Góp ý về rủi ro và kiểm soát quyền riêng tư trong thiết kế, Ban điều hành quyết định.",
+      "Từ chối tham gia, vì quyền riêng tư dữ liệu là trách nhiệm riêng của bộ phận pháp chế."
+    ],
+    "answer": 2,
+    "explanation": "Trong dịch vụ tư vấn về quyền riêng tư dữ liệu, kiểm toán nội bộ góp ý về rủi ro và kiểm soát (ví dụ thu thập tối thiểu, đồng ý, bảo mật) ngay trong thiết kế, nhưng không nhận vai trò quản lý như DPO hay phê duyệt.",
+    "optionNotes": [
+      "Sai. Làm DPO là vai trò quản lý, làm suy giảm khách quan khi đánh giá sau này.",
+      "Sai. Phê duyệt là quyết định quản lý.",
+      "Đúng. Tư vấn sớm mà không nhận trách nhiệm quản lý.",
+      "Sai. Kiểm toán nội bộ có thể tư vấn về quyền riêng tư."
+    ],
+    "refs": [
+      "CIA Part 1 A.6",
+      "GIAS 2.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M08",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 3,
+    "stem": "Sau khi tư vấn về quy trình xử lý dữ liệu cá nhân, kiểm toán viên nhận thấy công ty đang lưu dữ liệu khách hàng đã chấm dứt hợp đồng lâu hơn thời hạn luật cho phép. Điều này nằm ngoài phạm vi tư vấn đã thỏa thuận. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Bỏ qua, vì phát hiện nằm ngoài phạm vi tư vấn đã thỏa thuận với khách hàng.",
+      "Tự xóa phần dữ liệu quá hạn để giúp công ty tuân thủ ngay quy định pháp luật.",
+      "Ghi chú vào hồ sơ và chờ cuộc kiểm toán tuân thủ năm sau để đánh giá.",
+      "Báo CAE để trao đổi với cấp phù hợp, vì đây là rủi ro tuân thủ đáng kể."
+    ],
+    "answer": 3,
+    "explanation": "Rủi ro đáng kể phát hiện trong cuộc tư vấn, kể cả ngoài phạm vi, cần được báo cho CAE để trao đổi với Ban điều hành hoặc HĐQT phù hợp. Kiểm toán viên không tự xử lý dữ liệu (trách nhiệm quản lý) và không trì hoãn rủi ro tuân thủ đang diễn ra.",
+    "optionNotes": [
+      "Sai. Phạm vi tư vấn không cho phép bỏ qua rủi ro tuân thủ đáng kể.",
+      "Sai. Xóa dữ liệu là hành động quản lý, có thể vi phạm chính sách lưu trữ.",
+      "Sai. Trì hoãn để vi phạm tiếp diễn.",
+      "Đúng. Báo cáo lên để có người có thẩm quyền xử lý."
+    ],
+    "refs": [
+      "CIA Part 1 A.6",
+      "GIAS 1.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M09",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Bộ phận Kho đề nghị kiểm toán nội bộ hỗ trợ vẽ lưu đồ quy trình nhập, xuất kho hiện tại để nhận diện các điểm thiếu kiểm soát trước khi tái cấu trúc. Cách tham gia phù hợp nhất là gì?",
+    "options": [
+      "Hướng dẫn, cùng vẽ lưu đồ và chỉ ra điểm rủi ro; bộ phận Kho sở hữu và quyết định quy trình.",
+      "Kiểm toán nội bộ tự vẽ, tự phê duyệt lưu đồ và ban hành làm quy trình chính thức.",
+      "Từ chối, vì vẽ lưu đồ quy trình chỉ được làm trong một cuộc kiểm toán đảm bảo.",
+      "Thuê tư vấn bên ngoài vẽ lưu đồ để kiểm toán nội bộ giữ được tính độc lập."
+    ],
+    "answer": 0,
+    "explanation": "Lập lưu đồ quy trình (process mapping) là một dạng tư vấn: kiểm toán nội bộ giúp mô tả quy trình và chỉ ra điểm rủi ro, khoảng trống kiểm soát; bộ phận nghiệp vụ sở hữu, phê duyệt và quyết định thay đổi quy trình.",
+    "optionNotes": [
+      "Đúng. Hỗ trợ lập lưu đồ, đơn vị sở hữu quy trình.",
+      "Sai. Ban hành quy trình là trách nhiệm quản lý.",
+      "Sai. Lập lưu đồ là hình thức tư vấn phổ biến.",
+      "Sai. Kiểm toán nội bộ có thể tự tư vấn mà vẫn giữ độc lập."
+    ],
+    "refs": [
+      "CIA Part 1 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M10",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Lợi ích chính của việc kiểm toán nội bộ hỗ trợ lập lưu đồ quy trình trước khi đánh giá kiểm soát là gì?",
+    "options": [
+      "Thay thế hoàn toàn việc kiểm tra chọn mẫu các giao dịch của quy trình.",
+      "Bảo đảm quy trình đạt chuẩn ISO mà không cần thêm đánh giá nào khác.",
+      "Làm rõ các bước, người thực hiện, điểm chuyển giao để thấy khoảng trống kiểm soát.",
+      "Giúp kiểm toán nội bộ trở thành người sở hữu quy trình trong tổ chức."
+    ],
+    "answer": 2,
+    "explanation": "Lưu đồ giúp hiểu quy trình đầu đến cuối, ai làm gì, ở đâu có chuyển giao hay phê duyệt, nhờ đó nhận diện điểm rủi ro, thiếu tách biệt nhiệm vụ, kiểm soát thiếu hoặc trùng lặp. Nó hỗ trợ, không thay thế kiểm tra.",
+    "optionNotes": [
+      "Sai. Lưu đồ không thay thế kiểm tra hiệu quả vận hành.",
+      "Sai. Lưu đồ không bảo đảm đạt chuẩn ISO.",
+      "Đúng. Lưu đồ làm rõ quy trình để nhận diện khoảng trống kiểm soát.",
+      "Sai. Kiểm toán nội bộ không sở hữu quy trình."
+    ],
+    "refs": [
+      "CIA Part 1 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M11",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 3,
+    "stem": "Ban điều hành đang đàm phán mua một công ty logistics và đề nghị kiểm toán nội bộ góp ý về các rủi ro tích hợp hệ thống, kiểm soát sau sáp nhập để đưa vào kế hoạch tích hợp. Không có yêu cầu kết luận cho HĐQT. Dịch vụ này nên được xử lý thế nào?",
+    "options": [
+      "Như một cuộc đảm bảo, đưa ra ý kiến về toàn bộ hệ thống kiểm soát của công ty mục tiêu.",
+      "Giao cho kiểm toán độc lập vì liên quan đến một giao dịch tài chính quan trọng.",
+      "Từ chối, vì giao dịch mua bán chưa hoàn tất nên chưa thuộc phạm vi kiểm toán nội bộ.",
+      "Như tư vấn về thẩm định: góp ý rủi ro theo phạm vi thỏa thuận, Ban điều hành quyết định."
+    ],
+    "answer": 3,
+    "explanation": "Khi mục tiêu là góp ý để Ban điều hành lập kế hoạch tích hợp, không phải đưa kết luận cho HĐQT, đây là tư vấn trong hoạt động thẩm định: phạm vi theo thỏa thuận, quyết định thuộc Ban điều hành. Nếu HĐQT cần kết luận độc lập, cuộc kiểm toán sẽ mang tính đảm bảo.",
+    "optionNotes": [
+      "Sai. Không có bên sử dụng kết luận và mục tiêu không phải đảm bảo.",
+      "Sai. Không có lý do bắt buộc giao cho kiểm toán độc lập.",
+      "Sai. Kiểm toán nội bộ có thể tham gia thẩm định trước khi giao dịch hoàn tất.",
+      "Đúng. Tư vấn về rủi ro tích hợp trong thẩm định."
+    ],
+    "refs": [
+      "CIA Part 1 A.6",
+      "CIA Part 1 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M12",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Kiểm toán nội bộ tổ chức khóa đào tạo về kiểm soát nội bộ cho các trưởng phòng mới bổ nhiệm. Rủi ro nào cần lưu ý để khóa đào tạo vẫn giữ đúng vai trò của kiểm toán nội bộ?",
+    "options": [
+      "Học viên hiểu nhầm kiểm toán nội bộ thiết kế, vận hành kiểm soát thay họ.",
+      "Khóa học quá ngắn nên không kịp trình bày hết 17 nguyên tắc của COSO 2013.",
+      "Kiểm toán viên phải có chứng chỉ sư phạm mới được tổ chức đào tạo nội bộ.",
+      "Đào tạo làm kiểm toán nội bộ mất tính độc lập với mọi phòng ban tham dự."
+    ],
+    "answer": 0,
+    "explanation": "Đào tạo về rủi ro và kiểm soát là dịch vụ tư vấn hợp lệ. Cần nhấn mạnh Ban điều hành sở hữu và vận hành kiểm soát; kiểm toán nội bộ hỗ trợ và đánh giá, để tránh hiểu nhầm chuyển giao trách nhiệm.",
+    "optionNotes": [
+      "Đúng. Cần làm rõ trách nhiệm kiểm soát thuộc Ban điều hành.",
+      "Sai. Độ dài nội dung không phải rủi ro về vai trò.",
+      "Sai. Không có yêu cầu chứng chỉ sư phạm.",
+      "Sai. Đào tạo không làm mất độc lập."
+    ],
+    "refs": [
+      "CIA Part 1 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M13",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 3,
+    "stem": "Ban điều hành nhờ kiểm toán nội bộ đánh giá thiết kế kiểm soát của quy trình thanh toán mới trước khi chạy thật, để kịp sửa trước ngày triển khai. Kết quả chỉ gửi Giám đốc dự án. Cách thực hiện nào phù hợp nhất?",
+    "options": [
+      "Đưa ý kiến đảm bảo hợp lý rằng quy trình sẽ vận hành hữu hiệu sau khi triển khai.",
+      "Thực hiện như tư vấn đánh giá kiểm soát, nêu rõ chưa kết luận về hiệu quả vận hành.",
+      "Từ chối cho đến khi quy trình đã vận hành ít nhất sáu tháng để có dữ liệu thực tế.",
+      "Ký duyệt thiết kế kiểm soát để dự án có cơ sở đưa quy trình vào sử dụng chính thức."
+    ],
+    "answer": 1,
+    "explanation": "Đánh giá thiết kế kiểm soát trước triển khai, kết quả cho Giám đốc dự án, là tư vấn đánh giá kiểm soát. Chưa có dữ liệu vận hành nên không thể kết luận về hiệu quả vận hành; kiểm toán nội bộ không ký duyệt thay Ban điều hành.",
+    "optionNotes": [
+      "Sai. Không thể đảm bảo về vận hành khi chưa vận hành.",
+      "Đúng. Tư vấn về thiết kế, nêu rõ giới hạn.",
+      "Sai. Từ chối bỏ lỡ cơ hội sửa sớm với chi phí thấp.",
+      "Sai. Ký duyệt là quyết định quản lý."
+    ],
+    "refs": [
+      "CIA Part 1 A.6",
+      "CIA Part 1 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M14",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Giữa năm, Giám đốc tài chính cắt 40% ngân sách công tác của kiểm toán nội bộ, làm hủy các cuộc kiểm toán tại chi nhánh ở xa, nơi có nhiều rủi ro gian lận nhất. HĐQT chưa được thông báo. Tình huống này thể hiện rõ nhất điều gì?",
+    "options": [
+      "Một quyết định quản lý chi phí thông thường, không ảnh hưởng đến kiểm toán nội bộ.",
+      "Kiểm toán nội bộ nên tự cắt các cuộc kiểm toán tại trụ sở để bù lại ngân sách.",
+      "Hạn chế ngân sách đang thu hẹp phạm vi, có thể làm suy giảm độc lập; cần báo HĐQT.",
+      "Kiểm toán viên cá nhân bị suy giảm khách quan do không được đi công tác."
+    ],
+    "answer": 2,
+    "explanation": "Ngân sách bị cắt khiến các khu vực rủi ro cao không được kiểm toán là hạn chế đối với hoạt động của chức năng, có thể là sự can thiệp vào phạm vi. CAE phải báo HĐQT tác động của thiếu nguồn lực (GIAS 8.2) và các tình huống có thể làm suy giảm độc lập (GIAS 7.1, 8.1).",
+    "optionNotes": [
+      "Sai. Bỏ qua tác động lên phạm vi kiểm toán khu vực rủi ro cao.",
+      "Sai. Tự xoay xở mà không báo HĐQT vẫn để HĐQT không biết khoảng trống.",
+      "Đúng. Hạn chế ngân sách ảnh hưởng phạm vi, phải báo HĐQT.",
+      "Sai. Đây là vấn đề độc lập của chức năng, không phải khách quan cá nhân."
+    ],
+    "refs": [
+      "GIAS 8.2",
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M15",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 2,
+    "stem": "Ngân sách của kiểm toán nội bộ hằng năm do chính Giám đốc tài chính đề xuất và phê duyệt, trong khi các cuộc kiểm toán lớn nhất đều thuộc khối tài chính. Rủi ro chủ yếu của cách bố trí này là gì?",
+    "options": [
+      "Chi phí kiểm toán nội bộ sẽ tăng nhanh hơn chi phí của các phòng ban khác.",
+      "Giám đốc tài chính phải chịu trách nhiệm về kết luận của các cuộc kiểm toán.",
+      "Kiểm toán nội bộ sẽ không được phép kiểm toán khối tài chính trong năm đó.",
+      "Bên bị kiểm toán có thể dùng ngân sách để hạn chế việc kiểm toán khu vực của mình."
+    ],
+    "answer": 3,
+    "explanation": "Khi bên bị kiểm toán kiểm soát ngân sách, họ có thể gián tiếp thu hẹp phạm vi kiểm toán khu vực của mình, đe dọa tính độc lập. Vì vậy HĐQT phê duyệt ngân sách, kế hoạch nguồn lực (GIAS 6.3) và CAE báo HĐQT về các tình huống có thể làm suy giảm độc lập (GIAS 7.1).",
+    "optionNotes": [
+      "Sai. Mức chi phí không phải rủi ro chính đối với độc lập.",
+      "Sai. Kết luận kiểm toán thuộc trách nhiệm của kiểm toán nội bộ.",
+      "Sai. Không có quy định cấm; vấn đề là nguy cơ can thiệp gián tiếp.",
+      "Đúng. Kiểm soát nguồn lực cho phép bên bị kiểm toán gián tiếp thu hẹp phạm vi."
+    ],
+    "refs": [
+      "GIAS 6.3",
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M16",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Tổng Giám đốc ban hành quy định: kiểm toán nội bộ muốn truy cập dữ liệu khách hàng VIP phải có văn bản đồng ý của chính Tổng Giám đốc cho từng lần. Ảnh hưởng chính của quy định này là gì?",
+    "options": [
+      "Là hạn chế truy cập, có thể thu hẹp phạm vi và làm suy giảm độc lập; CAE phải báo HĐQT.",
+      "Không ảnh hưởng, vì Tổng Giám đốc vẫn có thể đồng ý khi được yêu cầu.",
+      "Giúp tăng cường bảo mật dữ liệu nên kiểm toán nội bộ nên ủng hộ và áp dụng ngay.",
+      "Chỉ ảnh hưởng đến kiểm toán độc lập, không ảnh hưởng đến kiểm toán nội bộ."
+    ],
+    "answer": 0,
+    "explanation": "Yêu cầu Ban điều hành đồng ý từng lần là hạn chế quyền tiếp cận, cho phép Ban điều hành kiểm soát phạm vi kiểm toán. CAE phải trao đổi về giới hạn phạm vi và báo HĐQT về tình huống có thể làm suy giảm độc lập (GIAS 7.1, 8.1); quyền tiếp cận không hạn chế được xác lập trong điều lệ (GIAS 6.2).",
+    "optionNotes": [
+      "Đúng. Hạn chế truy cập ảnh hưởng phạm vi và độc lập.",
+      "Sai. Quyền đồng ý cho phép Ban điều hành chặn kiểm toán bất cứ lúc nào.",
+      "Sai. Bảo mật được bảo đảm bằng nghĩa vụ bảo mật của kiểm toán viên, không bằng chặn truy cập.",
+      "Sai. Quy định áp dụng trực tiếp cho kiểm toán nội bộ."
+    ],
+    "refs": [
+      "GIAS 7.1",
+      "GIAS 8.1",
+      "GIAS 6.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M17",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 2,
+    "stem": "Trong cuộc kiểm toán, Ban điều hành không cho kiểm toán viên phỏng vấn nhân viên kinh doanh ở hai đại lý lớn. Nếu giới hạn này không được giải quyết, báo cáo cuối cùng cần thể hiện điều gì?",
+    "options": [
+      "Không đề cập để tránh làm căng thẳng quan hệ với Ban điều hành.",
+      "Giải thích giới hạn phạm vi và ảnh hưởng của nó đến kết luận.",
+      "Kết luận như thể đã phỏng vấn đầy đủ dựa trên các tài liệu khác.",
+      "Chỉ ghi giới hạn vào hồ sơ làm việc, không đưa vào báo cáo."
+    ],
+    "answer": 1,
+    "explanation": "Báo cáo cuối cùng của cuộc đảm bảo phải giải thích các giới hạn phạm vi, nếu có (GIAS 15.1), để người đọc hiểu giới hạn của kết luận.",
+    "optionNotes": [
+      "Sai. Che giấu giới hạn là trình bày gây hiểu lầm.",
+      "Đúng. Giới hạn phạm vi phải được nêu trong báo cáo.",
+      "Sai. Kết luận vượt quá bằng chứng thu được.",
+      "Sai. Người đọc báo cáo cần biết giới hạn."
+    ],
+    "refs": [
+      "GIAS 15.1",
+      "GIAS 13.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M18",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 2,
+    "stem": "Quan hệ báo cáo chức năng nào sau đây KHÔNG phù hợp cho CAE?",
+    "options": [
+      "Báo cáo chức năng cho Ủy ban Kiểm toán thuộc HĐQT.",
+      "Báo cáo chức năng cho HĐQT khi tổ chức không có Ủy ban Kiểm toán.",
+      "Báo cáo chức năng cho Giám đốc tài chính, người phụ trách nhiều mảng bị kiểm toán.",
+      "Báo cáo chức năng cho cơ quan quản trị có thẩm quyền theo luật ở khu vực công."
+    ],
+    "answer": 2,
+    "explanation": "Báo cáo chức năng phải cho cơ quan quản trị (HĐQT, Ủy ban Kiểm toán, hoặc cơ quan tương ứng theo luật ở khu vực công). Báo cáo chức năng cho Giám đốc tài chính đặt kiểm toán nội bộ dưới quyền bên bị kiểm toán, không bảo đảm độc lập (GIAS 7.1).",
+    "optionNotes": [
+      "Sai. Đây là quan hệ báo cáo chức năng phù hợp.",
+      "Sai. HĐQT là cơ quan quản trị phù hợp.",
+      "Đúng. Báo cáo chức năng cho Ban điều hành bị kiểm toán là không phù hợp.",
+      "Sai. Ở khu vực công, cơ quan quản trị theo luật là phù hợp."
+    ],
+    "refs": [
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M19",
+    "section": "A",
+    "topic": "A8",
+    "difficulty": 3,
+    "stem": "Bộ phận Tuân thủ thiếu người, nên một kiểm toán viên nội bộ được điều sang làm công tác giám sát tuân thủ (tuyến hai) trong 6 tháng. Biện pháp bảo vệ nào phù hợp nhất cho chức năng kiểm toán nội bộ?",
+    "options": [
+      "Không cần biện pháp gì, vì giám sát tuân thủ là việc hỗ trợ ngắn hạn, ít rủi ro.",
+      "Yêu cầu người này nghỉ việc ở kiểm toán nội bộ trước khi chuyển sang bộ phận Tuân thủ.",
+      "Để người này kiểm toán chính công việc giám sát tuân thủ của mình để bảo đảm chất lượng.",
+      "Ghi nhận và báo HĐQT, không để người này kiểm toán mảng tuân thủ trong 12 tháng sau."
+    ],
+    "answer": 3,
+    "explanation": "Khi kiểm toán viên đảm nhận vai trò tuyến hai, cần biện pháp bảo vệ: minh bạch với HĐQT, giới hạn thời gian, và không để người đó đảm bảo cho hoạt động mình đã phụ trách trong 12 tháng (GIAS 2.2). CAE thảo luận các vai trò có thể làm suy giảm độc lập với HĐQT (GIAS 7.1).",
+    "optionNotes": [
+      "Sai. Vai trò tuyến hai vẫn tạo nguy cơ tự kiểm tra sau này.",
+      "Sai. Phản ứng quá mức; có thể dùng biện pháp bảo vệ.",
+      "Sai. Tự kiểm toán công việc của mình là suy giảm khách quan.",
+      "Đúng. Minh bạch và áp dụng quy tắc 12 tháng."
+    ],
+    "refs": [
+      "GIAS 2.2",
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M20",
+    "section": "A",
+    "topic": "A8",
+    "difficulty": 2,
+    "stem": "Trách nhiệm nào sau đây thuộc tuyến thứ nhất hoặc tuyến thứ hai và có thể làm suy giảm độc lập nếu kiểm toán nội bộ đảm nhận?",
+    "options": [
+      "Thiết lập và vận hành khung khẩu vị rủi ro và hạn mức rủi ro.",
+      "Đánh giá hiệu quả của quy trình quản trị rủi ro doanh nghiệp.",
+      "Báo cáo HĐQT về các rủi ro trọng yếu chưa được xử lý phù hợp.",
+      "Điều phối hội thảo nhận diện rủi ro với biện pháp bảo vệ phù hợp."
+    ],
+    "answer": 0,
+    "explanation": "Thiết lập, vận hành khung khẩu vị và hạn mức rủi ro là trách nhiệm quản lý (Ban điều hành, tuyến hai). Đánh giá, báo cáo và điều phối có biện pháp bảo vệ là các vai trò kiểm toán nội bộ có thể đảm nhận.",
+    "optionNotes": [
+      "Đúng. Vận hành khung khẩu vị rủi ro là trách nhiệm quản lý.",
+      "Sai. Đây là vai trò đảm bảo cốt lõi của kiểm toán nội bộ.",
+      "Sai. Báo cáo rủi ro trọng yếu là vai trò của kiểm toán nội bộ.",
+      "Sai. Điều phối có biện pháp bảo vệ là chấp nhận được."
+    ],
+    "refs": [
+      "IIA Three Lines Model",
+      "CIA Part 1 A.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-M21",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Công ty thuê ngoài dịch vụ vệ sinh công nghiệp với giá theo diện tích và cam kết mức chất lượng. Kiểm toán nội bộ được giao kiểm tra nhà cung cấp có tính phí đúng diện tích và đạt các chỉ tiêu chất lượng trong hợp đồng không. Thủ tục nào là trọng tâm?",
+    "options": [
+      "So sánh giá dịch vụ với ba nhà cung cấp khác trên thị trường hiện nay.",
+      "Đối chiếu hóa đơn với diện tích thực tế và các điều khoản, chỉ tiêu trong hợp đồng.",
+      "Đánh giá văn hóa doanh nghiệp của nhà cung cấp qua khảo sát nhân viên của họ.",
+      "Kiểm tra báo cáo tài chính của nhà cung cấp để đánh giá khả năng tài chính."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán tuân thủ hợp đồng (bên thứ ba) đối chiếu hóa đơn, dịch vụ thực tế với điều khoản và chỉ tiêu của hợp đồng: đơn giá, khối lượng, mức chất lượng, chế tài.",
+    "optionNotes": [
+      "Sai. So sánh giá là đối chuẩn, không kiểm tra tuân thủ hợp đồng.",
+      "Đúng. Đối chiếu với điều khoản hợp đồng là trọng tâm.",
+      "Sai. Văn hóa của nhà cung cấp không phải mục tiêu.",
+      "Sai. Năng lực tài chính là vấn đề lựa chọn nhà cung cấp, không phải tuân thủ hợp đồng."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
   }
 ]
