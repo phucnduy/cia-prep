@@ -27,6 +27,7 @@ Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành
 ## Tính năng
 
 - **Tìm hiểu CIA**: điều kiện ghi danh, quy trình thi, lệ phí, duy trì chứng chỉ, cách học, kỹ năng làm bài, câu hỏi thường gặp; quy định và lệ phí đối chiếu với trang chính thức của IIA.
+- **Khung chuẩn mực**: tóm tắt IPPF, GIAS (5 lĩnh vực, 15 nguyên tắc, 52 chuẩn mực), so sánh với IPPF 2017, Mô hình Ba Tuyến, COSO 2013 (17 nguyên tắc), COSO ERM 2017 (20 nguyên tắc), ISO 31000, COBIT, CoCo, IESBA, ACFE.
 - **Thi thử mô phỏng**: đủ số câu và thời gian như đề thật, rút câu theo tỷ trọng từng section, ưu tiên câu chưa gặp ở các lần làm trước, xáo trộn thứ tự đáp án mỗi lần thi, bấm giờ (tự nộp khi hết giờ), chỉ báo nhịp làm bài (khoảng 72 giây/câu), đánh dấu câu, gạch bỏ phương án (nút hoặc chuột phải), bảng câu hỏi, màn hình xem lại trước khi nộp, máy tính.
 - **Luyện tập theo chuyên đề**: chọn section và số câu, xem đáp án và giải thích (kèm căn cứ GIAS) ngay sau mỗi câu.
 - **Ôn câu sai**: mọi câu làm sai được lưu lại, làm đúng thì tự xóa khỏi danh sách.
@@ -42,6 +43,7 @@ Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành
 public/data/                  <- DỮ LIỆU (tách riêng khỏi giao diện)
   parts.json                  danh sách phần thi, thang điểm, nguồn syllabus
   guide.json                  nội dung trang Tìm hiểu CIA
+  frameworks.json             nội dung trang Khung chuẩn mực
   p1/manifest.json            số câu, thời gian, section, tỷ trọng, chủ đề syllabus
   p1/questions-A.json ...     câu hỏi, mỗi section một file
   p1/lessons.json             bài học, mỗi chủ đề syllabus một bài

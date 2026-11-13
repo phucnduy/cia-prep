@@ -7,6 +7,7 @@ import PartPage from './components/PartPage.jsx';
 import Guide from './components/Guide.jsx';
 
 const GUIDE_ROUTE = 'guide';
+const FRAMEWORKS_ROUTE = 'frameworks';
 
 /** Hash routes: #/  #/p1  #/p1/study  #/p1/bank  #/p1/history  #/p1/session  #/p1/result/<id> */
 function parseHash() {
@@ -75,6 +76,10 @@ export default function App() {
               <span className="lbl-long">Tìm hiểu CIA</span>
               <span className="lbl-short">CIA?</span>
             </a>
+            <a href="#/frameworks" aria-current={route.partId === FRAMEWORKS_ROUTE ? 'page' : undefined}>
+              <span className="lbl-long">Khung chuẩn mực</span>
+              <span className="lbl-short">Khung</span>
+            </a>
             {index?.manifests.map((m) => (
               <a key={m.id} href={`#/${m.id}`} aria-current={route.partId === m.id ? 'page' : undefined}>
                 {m.code}
@@ -95,9 +100,12 @@ export default function App() {
         )}
         {!index && !error && <div className="loading">Đang tải dữ liệu...</div>}
         {index && !route.partId && <Home index={index} />}
-        {index && route.partId === GUIDE_ROUTE && <Guide index={index} />}
+        {index && route.partId === GUIDE_ROUTE && <Guide key="guide" index={index} />}
+        {index && route.partId === FRAMEWORKS_ROUTE && (
+          <Guide key="frameworks" index={index} source="frameworks" eyebrow="Tóm tắt các khung, chuẩn mực trong đề thi" />
+        )}
         {index && route.partId && manifest && <PartPage key={manifest.id} index={index} manifest={manifest} route={route} />}
-        {index && route.partId && route.partId !== GUIDE_ROUTE && !manifest && (
+        {index && route.partId && ![GUIDE_ROUTE, FRAMEWORKS_ROUTE].includes(route.partId) && !manifest && (
           <div className="container empty">
             Không tìm thấy phần thi này. <a href="#/">Về trang chủ</a>
           </div>

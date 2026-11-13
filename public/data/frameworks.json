@@ -1,0 +1,214 @@
+{
+  "title": "Khung chuẩn mực trong đề thi CIA",
+  "lede": "Tóm tắt các khung, chuẩn mực mà đề thi CIA dựa vào: IPPF và GIAS của IIA, Mô hình Ba Tuyến, COSO, ISO 31000, COBIT, IESBA và ACFE. Mỗi phần nêu cấu trúc, ý chính và chỗ hay bị nhầm. Đây là bản diễn đạt lại để ôn tập, không thay thế văn bản gốc.",
+  "checked": "Cấu trúc và tên các nguyên tắc, chuẩn mực GIAS đối chiếu với văn bản GIAS của IIA; các khung khác tóm tắt theo hiểu biết, nên đối chiếu thêm với tài liệu gốc.",
+  "sections": [
+    {
+      "id": "map",
+      "title": "Bản đồ các khung",
+      "blocks": [
+        { "type": "p", "text": "Đề thi thường lồng nhiều khung trong một câu hỏi. Điều quan trọng là biết mỗi khung trả lời câu hỏi gì, do ai ban hành, và không trích nhầm khung này sang khung khác (ví dụ ghi nguyên tắc COSO là 'GIAS')." },
+        { "type": "table", "title": "Khung nào dùng cho việc gì", "columns": ["Khung", "Ban hành", "Trả lời câu hỏi", "Phần thi"], "rows": [
+          ["IPPF / GIAS", "IIA", "Kiểm toán nội bộ phải làm gì, như thế nào", "Cả ba phần, trọng tâm Part 1"],
+          ["Mô hình Ba Tuyến", "IIA", "Ai làm gì trong quản trị, quản lý rủi ro", "Part 1 A, C"],
+          ["COSO Kiểm soát nội bộ 2013", "COSO", "Hệ thống kiểm soát nội bộ gồm những gì, khi nào hữu hiệu", "Part 1 C"],
+          ["COSO ERM 2017", "COSO", "Quản trị rủi ro gắn với chiến lược, hiệu quả", "Part 1 C"],
+          ["ISO 31000:2018", "ISO", "Nguyên tắc, khung, quy trình quản lý rủi ro", "Part 1 C"],
+          ["COBIT", "ISACA", "Quản trị và quản lý CNTT", "Part 1 C"],
+          ["IESBA Code", "IESBA", "Phân loại nguy cơ đối với tính khách quan", "Part 1 B"],
+          ["ACFE", "ACFE", "Phân loại gian lận, cách phát hiện", "Part 1 D"]
+        ] }
+      ]
+    },
+    {
+      "id": "ippf",
+      "title": "IPPF - Khung Thực hành Chuyên môn Quốc tế",
+      "blocks": [
+        { "type": "p", "text": "IPPF là khung tổng thể của IIA cho nghề kiểm toán nội bộ. Bản cập nhật hiện hành gồm ba cấu phần, khác nhau ở tính bắt buộc." },
+        { "type": "table", "title": "Các cấu phần của IPPF", "columns": ["Cấu phần", "Nội dung", "Tính chất"], "rows": [
+          ["Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS)", "Mục đích, nguyên tắc, chuẩn mực (yêu cầu, xem xét khi thực hiện, ví dụ bằng chứng tuân thủ)", "Bắt buộc"],
+          ["Yêu cầu theo chủ đề (Topical Requirements)", "Yêu cầu tối thiểu khi kiểm toán một số chủ đề rủi ro, ví dụ an ninh mạng", "Bắt buộc khi chủ đề nằm trong phạm vi"],
+          ["Hướng dẫn toàn cầu (Global Guidance)", "Hướng dẫn thực hành, GTAG (hướng dẫn kiểm toán CNTT)", "Khuyến nghị"]
+        ] },
+        { "type": "note", "text": "GIAS áp dụng cho mọi cá nhân, chức năng cung cấp dịch vụ kiểm toán nội bộ, kể cả thuê ngoài, và không có ngưỡng quy mô để được miễn." }
+      ]
+    },
+    {
+      "id": "gias",
+      "title": "GIAS 2024 - Chuẩn mực Kiểm toán Nội bộ Toàn cầu",
+      "blocks": [
+        { "type": "p", "text": "GIAS được IIA ban hành năm 2024, có hiệu lực từ 9/1/2025, thay thế các chuẩn mực IPPF 2017. Cấu trúc: 5 lĩnh vực (Domain), 15 nguyên tắc, 52 chuẩn mực." },
+        { "type": "list", "items": [
+          "Mỗi chuẩn mực có phần Yêu cầu (bắt buộc), Xem xét khi thực hiện (thông lệ nên cân nhắc) và Ví dụ bằng chứng tuân thủ. Đánh giá tuân thủ dựa trên phần Yêu cầu.",
+          "Lĩnh vực III có thêm Điều kiện thiết yếu: kỳ vọng với HĐQT và Ban điều hành (phê duyệt điều lệ, bổ nhiệm CAE, họp riêng, nguồn lực...).",
+          "Tuyên bố Mục đích (Lĩnh vực I): kiểm toán nội bộ tăng cường khả năng tạo ra, bảo vệ và duy trì giá trị của tổ chức, bằng cách cung cấp cho HĐQT và Ban điều hành sự đảm bảo, tư vấn, hiểu biết sâu và tầm nhìn độc lập, dựa trên rủi ro, khách quan."
+        ] },
+        { "type": "table", "title": "Lĩnh vực I-III: Mục đích, Đạo đức, Quản trị chức năng", "columns": ["Nguyên tắc", "Các chuẩn mực"], "rows": [
+          ["Lĩnh vực I. Mục đích của kiểm toán nội bộ", "Tuyên bố Mục đích (không có chuẩn mực con)"],
+          ["1. Thể hiện sự chính trực", "1.1 Trung thực và dũng khí nghề nghiệp; 1.2 Kỳ vọng đạo đức của tổ chức; 1.3 Hành xử hợp pháp và đạo đức"],
+          ["2. Duy trì tính khách quan", "2.1 Khách quan cá nhân; 2.2 Bảo vệ tính khách quan; 2.3 Công bố suy giảm khách quan"],
+          ["3. Thể hiện năng lực", "3.1 Năng lực; 3.2 Phát triển nghề nghiệp liên tục"],
+          ["4. Thận trọng nghề nghiệp đúng mức", "4.1 Tuân thủ GIAS; 4.2 Thận trọng nghề nghiệp đúng mức; 4.3 Hoài nghi nghề nghiệp"],
+          ["5. Bảo mật", "5.1 Sử dụng thông tin; 5.2 Bảo vệ thông tin"],
+          ["6. Được HĐQT cho phép", "6.1 Nhiệm vụ kiểm toán nội bộ; 6.2 Điều lệ; 6.3 Sự hỗ trợ của HĐQT và Ban điều hành"],
+          ["7. Được bố trí độc lập", "7.1 Độc lập về tổ chức; 7.2 Trình độ của CAE"],
+          ["8. Được HĐQT giám sát", "8.1 Tương tác với HĐQT; 8.2 Nguồn lực; 8.3 Chất lượng; 8.4 Đánh giá chất lượng từ bên ngoài"]
+        ] },
+        { "type": "table", "title": "Lĩnh vực IV-V: Quản lý chức năng, Thực hiện dịch vụ", "columns": ["Nguyên tắc", "Các chuẩn mực"], "rows": [
+          ["9. Lập kế hoạch chiến lược", "9.1 Hiểu quy trình quản trị, quản lý rủi ro, kiểm soát; 9.2 Chiến lược kiểm toán nội bộ; 9.3 Phương pháp; 9.4 Kế hoạch kiểm toán nội bộ; 9.5 Phối hợp và dựa vào công việc của bên khác"],
+          ["10. Quản lý nguồn lực", "10.1 Nguồn lực tài chính; 10.2 Nhân sự; 10.3 Công nghệ"],
+          ["11. Trao đổi hiệu quả", "11.1 Xây dựng quan hệ và trao đổi với các bên liên quan; 11.2 Trao đổi hiệu quả; 11.3 Trao đổi kết quả; 11.4 Sai sót và thiếu sót; 11.5 Trao đổi về việc chấp nhận rủi ro"],
+          ["12. Nâng cao chất lượng", "12.1 Đánh giá chất lượng nội bộ; 12.2 Đo lường hiệu quả; 12.3 Giám sát và cải thiện việc thực hiện cuộc kiểm toán"],
+          ["13. Lập kế hoạch cuộc kiểm toán hiệu quả", "13.1 Trao đổi trong cuộc kiểm toán; 13.2 Đánh giá rủi ro cuộc kiểm toán; 13.3 Mục tiêu và phạm vi; 13.4 Tiêu chí đánh giá; 13.5 Nguồn lực cuộc kiểm toán; 13.6 Chương trình kiểm toán"],
+          ["14. Thực hiện công việc kiểm toán", "14.1 Thu thập thông tin; 14.2 Phân tích và phát hiện tiềm năng; 14.3 Đánh giá phát hiện; 14.4 Khuyến nghị và kế hoạch hành động; 14.5 Kết luận cuộc kiểm toán; 14.6 Hồ sơ cuộc kiểm toán"],
+          ["15. Trao đổi kết quả và theo dõi kế hoạch hành động", "15.1 Báo cáo cuối cùng; 15.2 Xác nhận việc thực hiện khuyến nghị, kế hoạch hành động"]
+        ] },
+        { "type": "h", "text": "Những số hiệu hay bị trích nhầm" },
+        { "type": "list", "items": [
+          "Quy tắc 12 tháng, quà tặng, xung đột lợi ích, công bố trước khi nhận tư vấn: GIAS 2.2 (không phải 2.1).",
+          "Công bố suy giảm, kể cả sau khi cuộc kiểm toán đã xong: GIAS 2.3.",
+          "HĐQT cho phép bổ nhiệm, miễn nhiệm CAE; với đánh giá, thù lao chỉ góp ý cho Ban điều hành: GIAS 7.1.",
+          "Đánh giá bên ngoài ít nhất 5 năm một lần, ít nhất một người giữ CIA: GIAS 8.4.",
+          "CAE phê duyệt chương trình kiểm toán trước khi thực hiện: GIAS 13.6. CAE duyệt báo cáo cuối cùng: GIAS 15.1.",
+          "Rủi ro được chấp nhận vượt khẩu vị: thảo luận với Ban điều hành, chưa giải quyết thì báo HĐQT: GIAS 11.5."
+        ] }
+      ]
+    },
+    {
+      "id": "ippf2017",
+      "title": "GIAS 2024 so với IPPF 2017",
+      "blocks": [
+        { "type": "p", "text": "Nhiều tài liệu ôn thi cũ dựa trên IPPF 2017. Đề thi theo syllabus 2025 dựa trên GIAS, nên cần biết các điểm thay đổi để không chọn đáp án theo quy định cũ." },
+        { "type": "table", "title": "Thay đổi chính", "columns": ["Nội dung", "IPPF 2017", "GIAS 2024"], "rows": [
+          ["Đạo đức", "Quy tắc Đạo đức riêng (4 nguyên tắc)", "Gộp vào Lĩnh vực II, 5 nguyên tắc"],
+          ["Vai trò HĐQT", "Ít đề cập trực tiếp", "Điều kiện thiết yếu cho HĐQT, Ban điều hành"],
+          ["Cấu trúc", "Chuẩn mực thuộc tính, thực hiện", "5 lĩnh vực, 15 nguyên tắc, 52 chuẩn mực"],
+          ["Thuộc tính thông tin", "Đầy đủ, đáng tin cậy, phù hợp, hữu ích", "Phù hợp, đáng tin cậy, đầy đủ (GIAS 14.1, không có 'hữu ích')"]
+        ] },
+        { "type": "note", "text": "Một số câu chữ quen thuộc là của IPPF 2017, không phải GIAS: 'không kỳ vọng có chuyên môn như người điều tra gian lận' (1210.A2), 'chỉ được tuyên bố tuân thủ khi kết quả QAIP hỗ trợ' (1321). Khi trích, ghi rõ IPPF 2017." }
+      ]
+    },
+    {
+      "id": "three-lines",
+      "title": "Mô hình Ba Tuyến (IIA, 2020)",
+      "blocks": [
+        { "type": "p", "text": "Mô hình mô tả vai trò, không bắt buộc cơ cấu: vai trò tuyến một và tuyến hai có thể kết hợp hay tách biệt tùy quy mô, nhưng kiểm toán nội bộ (tuyến ba) phải độc lập với Ban điều hành." },
+        { "type": "table", "title": "Các vai trò", "columns": ["Vai trò", "Ai", "Làm gì"], "rows": [
+          ["Cơ quan quản trị", "HĐQT, các ủy ban", "Chịu trách nhiệm giải trình với các bên liên quan về việc giám sát tổ chức"],
+          ["Tuyến một", "Ban điều hành, các bộ phận kinh doanh, vận hành", "Cung cấp sản phẩm, dịch vụ; sở hữu và quản lý rủi ro"],
+          ["Tuyến hai", "Quản lý rủi ro, tuân thủ, kiểm soát nội bộ", "Chuyên môn, hỗ trợ, giám sát, thách thức về rủi ro (vẫn thuộc Ban điều hành)"],
+          ["Tuyến ba", "Kiểm toán nội bộ", "Đảm bảo và tư vấn độc lập, khách quan; báo cáo cơ quan quản trị"],
+          ["Bên cung cấp đảm bảo bên ngoài", "Kiểm toán độc lập, cơ quan quản lý", "Đảm bảo bổ sung từ bên ngoài"]
+        ] },
+        { "type": "list", "items": [
+          "Sáu nguyên tắc: (1) Quản trị; (2) Vai trò của cơ quan quản trị; (3) Vai trò của Ban điều hành, tuyến một và tuyến hai; (4) Vai trò tuyến ba; (5) Tính độc lập của tuyến ba; (6) Tạo lập và bảo vệ giá trị.",
+          "Bẫy thường gặp: coi tuyến hai báo cáo HĐQT là 'độc lập như kiểm toán nội bộ'; giao kiểm toán nội bộ sở hữu rủi ro hay vận hành kiểm soát."
+        ] }
+      ]
+    },
+    {
+      "id": "coso-ic",
+      "title": "COSO Kiểm soát nội bộ - Khung tích hợp (2013)",
+      "blocks": [
+        { "type": "p", "text": "Kiểm soát nội bộ là quy trình do HĐQT, Ban điều hành và nhân sự thực hiện nhằm cung cấp sự đảm bảo hợp lý về đạt được ba nhóm mục tiêu: hoạt động, báo cáo (tài chính và phi tài chính, bên trong và bên ngoài), tuân thủ." },
+        { "type": "table", "title": "5 thành phần, 17 nguyên tắc", "columns": ["Thành phần", "Nguyên tắc"], "rows": [
+          ["Môi trường kiểm soát", "1 Cam kết chính trực, giá trị đạo đức; 2 HĐQT độc lập, giám sát; 3 Cơ cấu, quan hệ báo cáo, thẩm quyền và trách nhiệm; 4 Cam kết về năng lực; 5 Buộc cá nhân chịu trách nhiệm"],
+          ["Đánh giá rủi ro", "6 Xác định mục tiêu phù hợp; 7 Nhận diện, phân tích rủi ro; 8 Xem xét khả năng gian lận; 9 Nhận diện, phân tích thay đổi quan trọng"],
+          ["Hoạt động kiểm soát", "10 Lựa chọn, phát triển hoạt động kiểm soát; 11 Kiểm soát chung đối với công nghệ; 12 Triển khai qua chính sách và thủ tục"],
+          ["Thông tin và truyền thông", "13 Sử dụng thông tin phù hợp, có chất lượng; 14 Truyền thông nội bộ; 15 Truyền thông với bên ngoài"],
+          ["Hoạt động giám sát", "16 Đánh giá liên tục và/hoặc định kỳ; 17 Đánh giá và thông báo khiếm khuyết"]
+        ] },
+        { "type": "list", "items": [
+          "Hữu hiệu khi cả năm thành phần và các nguyên tắc liên quan hiện hữu, vận hành và phối hợp với nhau, không có khiếm khuyết lớn.",
+          "Hạn chế cố hữu: xét đoán sai, sai sót con người, thông đồng, Ban điều hành vượt quyền, chi phí - lợi ích. Vì vậy chỉ có đảm bảo hợp lý.",
+          "Bẫy: 'Thiết lập mục tiêu' không phải thành phần của COSO 2013 (đó là thành phần của COSO ERM 2004); trong COSO 2013 nó là nguyên tắc 6 thuộc Đánh giá rủi ro."
+        ] }
+      ]
+    },
+    {
+      "id": "coso-erm",
+      "title": "COSO ERM 2017 - Tích hợp với Chiến lược và Hiệu quả hoạt động",
+      "blocks": [
+        { "type": "p", "text": "Quản trị rủi ro doanh nghiệp là văn hóa, năng lực và thực hành gắn với việc xây dựng và thực hiện chiến lược, để tổ chức tạo lập, bảo tồn và hiện thực hóa giá trị. Điểm nhấn so với bản 2004: xem xét rủi ro ngay khi chọn chiến lược, không chỉ khi thực hiện." },
+        { "type": "table", "title": "5 thành phần, 20 nguyên tắc", "columns": ["Thành phần", "Nguyên tắc"], "rows": [
+          ["Quản trị và Văn hóa", "1 HĐQT giám sát rủi ro; 2 Thiết lập cơ cấu vận hành; 3 Xác định văn hóa mong muốn; 4 Cam kết với giá trị cốt lõi; 5 Thu hút, phát triển, giữ chân người có năng lực"],
+          ["Chiến lược và Thiết lập mục tiêu", "6 Phân tích bối cảnh kinh doanh; 7 Xác định khẩu vị rủi ro; 8 Đánh giá các chiến lược thay thế; 9 Xây dựng mục tiêu kinh doanh"],
+          ["Hiệu quả hoạt động", "10 Nhận diện rủi ro; 11 Đánh giá mức độ nghiêm trọng; 12 Ưu tiên hóa rủi ro; 13 Thực hiện ứng phó rủi ro; 14 Xây dựng góc nhìn danh mục"],
+          ["Rà soát và Điều chỉnh", "15 Đánh giá thay đổi trọng yếu; 16 Rà soát rủi ro và hiệu quả; 17 Cải tiến quản trị rủi ro doanh nghiệp"],
+          ["Thông tin, Truyền thông và Báo cáo", "18 Tận dụng thông tin và công nghệ; 19 Truyền đạt thông tin rủi ro; 20 Báo cáo về rủi ro, văn hóa và hiệu quả"]
+        ] },
+        { "type": "list", "items": [
+          "Khẩu vị rủi ro (mức sẵn sàng chấp nhận) nằm trong năng lực chịu đựng (mức tối đa còn tồn tại); ngưỡng chịu đựng là biên độ quanh mục tiêu cụ thể.",
+          "Ứng phó rủi ro: chấp nhận, né tránh, theo đuổi, giảm thiểu, chia sẻ.",
+          "Góc nhìn danh mục: rủi ro riêng lẻ trong ngưỡng nhưng tổng hợp có thể vượt khẩu vị."
+        ] }
+      ]
+    },
+    {
+      "id": "iso31000",
+      "title": "ISO 31000:2018 - Quản lý rủi ro",
+      "blocks": [
+        { "type": "p", "text": "Rủi ro là ảnh hưởng của sự không chắc chắn đến mục tiêu; ảnh hưởng có thể tích cực hoặc tiêu cực. Tiêu chuẩn gồm ba phần: Nguyên tắc, Khung, Quy trình." },
+        { "type": "table", "title": "Ba phần của ISO 31000", "columns": ["Phần", "Nội dung"], "rows": [
+          ["Nguyên tắc (8)", "Tích hợp; Có cấu trúc và toàn diện; Được điều chỉnh phù hợp; Có sự tham gia; Linh hoạt; Thông tin tốt nhất hiện có; Yếu tố con người và văn hóa; Cải tiến liên tục"],
+          ["Khung", "Lãnh đạo và cam kết (trung tâm); Tích hợp; Thiết kế; Triển khai; Đánh giá; Cải tiến"],
+          ["Quy trình", "Phạm vi, bối cảnh, tiêu chí; Đánh giá rủi ro (nhận diện, phân tích, định mức); Xử lý rủi ro; xuyên suốt: Trao đổi và tham vấn, Giám sát và rà soát, Ghi nhận và báo cáo"]
+        ] },
+        { "type": "note", "text": "So với COSO ERM: ISO 31000 ngắn gọn, áp dụng cho mọi loại tổ chức và rủi ro; COSO ERM nhấn mạnh gắn với chiến lược và hiệu quả. Đề thi có thể hỏi bước đầu tiên của quy trình (xác định phạm vi, bối cảnh, tiêu chí) hoặc nguyên tắc 'tích hợp'." }
+      ]
+    },
+    {
+      "id": "it",
+      "title": "COBIT và CoCo",
+      "blocks": [
+        { "type": "table", "title": "Hai khung kiểm soát khác", "columns": ["Khung", "Ban hành", "Ý chính"], "rows": [
+          ["COBIT", "ISACA", "Khung quản trị và quản lý CNTT doanh nghiệp; phân biệt quản trị (HĐQT: đánh giá, định hướng, giám sát) với quản lý (Ban điều hành: lập kế hoạch, xây dựng, vận hành, giám sát); gắn CNTT với mục tiêu kinh doanh"],
+          ["CoCo (Criteria of Control)", "Canada (CPA Canada)", "Nhấn mạnh yếu tố con người; nhóm tiêu chí kiểm soát theo Mục đích, Cam kết, Năng lực, Giám sát và Học hỏi"]
+        ] },
+        { "type": "list", "items": [
+          "Kiểm soát chung CNTT (ITGC): quản lý thay đổi, quản lý truy cập, vận hành, phát triển hệ thống. Kiểm soát ứng dụng: nhập liệu, xử lý, đầu ra trong từng nghiệp vụ.",
+          "Báo cáo SOC: SOC 1 về kiểm soát liên quan đến báo cáo tài chính; SOC 2 về bảo mật, sẵn sàng, toàn vẹn xử lý, bảo mật thông tin, quyền riêng tư. Type 1: thiết kế tại một thời điểm; Type 2: thiết kế và vận hành trong một kỳ."
+        ] }
+      ]
+    },
+    {
+      "id": "iesba",
+      "title": "IESBA - Các nguy cơ đối với tính khách quan",
+      "blocks": [
+        { "type": "p", "text": "Đề thi CIA hay dùng cách phân loại nguy cơ của Bộ Quy tắc Đạo đức IESBA để mô tả suy giảm khách quan. Khi trích, ghi IESBA Code, không ghi GIAS." },
+        { "type": "table", "title": "Năm nguy cơ", "columns": ["Nguy cơ", "Ví dụ trong kiểm toán nội bộ"], "rows": [
+          ["Tư lợi (self-interest)", "Sở hữu cổ phần nhà cung cấp; thưởng gắn với lợi nhuận của đơn vị được kiểm toán; đang ứng tuyển vào đơn vị đó"],
+          ["Tự kiểm tra (self-review)", "Đảm bảo cho quy trình mình từng phụ trách hoặc tự thiết kế"],
+          ["Bào chữa (advocacy)", "Đã công khai ủng hộ hệ thống, quyết định mà nay phải đánh giá"],
+          ["Quen thuộc (familiarity)", "Kiểm toán cùng đơn vị nhiều năm, quan hệ thân thiết với lãnh đạo đơn vị"],
+          ["Bị đe dọa (intimidation)", "Bị dọa khiếu nại, cho thôi việc nếu nêu phát hiện"]
+        ] },
+        { "type": "note", "text": "Biện pháp xử lý theo GIAS: tránh hoặc giảm thiểu suy giảm (2.2), công bố cho CAE hoặc người giám sát (2.3), CAE thiết lập phương pháp xử lý (kê khai, luân chuyển, rà soát giám sát)." }
+      ]
+    },
+    {
+      "id": "acfe",
+      "title": "ACFE - Phân loại và phát hiện gian lận",
+      "blocks": [
+        { "type": "table", "title": "Cây gian lận (Fraud Tree) - ba nhánh", "columns": ["Nhánh", "Ví dụ thủ đoạn"], "rows": [
+          ["Tham nhũng", "Xung đột lợi ích không công bố; hối lộ; lại quả; tống tiền kinh tế; thông đồng đấu thầu"],
+          ["Biển thủ tài sản", "Ăn chặn tiền trước khi ghi sổ (skimming); gối đầu (lapping); kiting; nhà cung cấp ma, công ty ma; nhân viên ma, khai khống giờ công; hoàn ứng khống, trùng"],
+          ["Gian lận báo cáo tài chính", "Doanh thu khống, ghi nhận sớm (bill-and-hold, nhồi kênh); định giá sai tài sản; vốn hóa chi phí; dự phòng 'hũ bánh quy'; điều chỉnh ước tính"]
+        ] },
+        { "type": "list", "items": [
+          "Tam giác gian lận: áp lực (động cơ), cơ hội, hợp lý hóa. Tổ chức kiểm soát trực tiếp nhất yếu tố cơ hội. Kim cương gian lận (Wolfe và Hermanson) bổ sung yếu tố năng lực.",
+          "Theo các nghiên cứu Report to the Nations của ACFE qua nhiều năm: biển thủ tài sản xảy ra phổ biến nhất nhưng thiệt hại trung vị thấp nhất; gian lận báo cáo tài chính hiếm hơn nhưng thiệt hại lớn nhất; tố giác là phương thức phát hiện phổ biến nhất.",
+          "Trách nhiệm chính về ngăn ngừa, phát hiện gian lận thuộc Ban điều hành, dưới sự giám sát của HĐQT; kiểm toán nội bộ đánh giá rủi ro gian lận và hiệu quả kiểm soát."
+        ] }
+      ]
+    }
+  ],
+  "sources": [
+    { "label": "IIA - Global Internal Audit Standards", "url": "https://www.theiia.org/en/standards/2024-standards/global-internal-audit-standards/" },
+    { "label": "IIA - The Three Lines Model", "url": "https://www.theiia.org/en/content/position-papers/2020/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense/" },
+    { "label": "COSO - Internal Control và Enterprise Risk Management", "url": "https://www.coso.org/" },
+    { "label": "ISO 31000:2018 Risk management - Guidelines", "url": "https://www.iso.org/standard/65694.html" },
+    { "label": "ACFE - Report to the Nations", "url": "https://www.acfe.com/fraud-resources/report-to-the-nations-archive" },
+    { "label": "IESBA - International Code of Ethics", "url": "https://www.ethicsboard.org/" }
+  ]
+}

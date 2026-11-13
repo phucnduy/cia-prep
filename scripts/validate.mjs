@@ -141,19 +141,24 @@ for (const { id: part, path } of index.parts) {
   console.log(lines.join('\n'));
 }
 
-// Guide page: section structure and the same no-typography rule.
-const guide = readJson('public/data/guide.json');
-if (!guide || !Array.isArray(guide.sections) || !guide.sections.length) errors.push('guide.json: missing sections');
-else {
+// Document pages (guide, frameworks): section structure and the same no-typography rule.
+for (const name of ['guide', 'frameworks']) {
+  const doc = readJson(`public/data/${name}.json`);
+  if (!doc || !Array.isArray(doc.sections) || !doc.sections.length) {
+    errors.push(`${name}.json: missing sections`);
+    continue;
+  }
   const blockTypes = new Set(['h', 'p', 'note', 'list', 'table', 'steps', 'faq', 'parts']);
-  for (const s of guide.sections) {
-    if (!s.id || !s.title || !Array.isArray(s.blocks)) errors.push(`guide/${s.id ?? '?'}: needs id, title, blocks`);
+  for (const s of doc.sections) {
+    if (!s.id || !s.title || !Array.isArray(s.blocks)) errors.push(`${name}/${s.id ?? '?'}: needs id, title, blocks`);
     for (const b of s.blocks || []) {
-      if (!blockTypes.has(b.type)) errors.push(`guide/${s.id}: unknown block type ${b.type}`);
-      if (b.type === 'table') for (const r of b.rows) if (r.length !== b.columns.length) errors.push(`guide/${s.id}: table row length mismatch`);
+      if (!blockTypes.has(b.type)) errors.push(`${name}/${s.id}: unknown block type ${b.type}`);
+      if (b.type === 'table') for (const r of b.rows) if (r.length !== b.columns.length) errors.push(`${name}/${s.id}: table row length mismatch`);
     }
   }
-  if (TYPOGRAPHIC.test(JSON.stringify(guide))) warnings.push('guide.json: typographic characters');
+  if (TYPOGRAPHIC.test(JSON.stringify(doc))) warnings.push(`${name}.json: typographic characters`);
+  // GIAS standard numbers cited in document pages must exist, as in questions.
+  for (const m of JSON.stringify(doc).matchAll(/GIAS (\d+\.\d+)/g)) if (!GIAS_STANDARDS.has(m[1])) errors.push(`${name}.json: unknown GIAS ${m[1]}`);
 }
 
 for (const w of warnings) console.warn(`warn: ${w}`);

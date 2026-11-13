@@ -1,15 +1,18 @@
 import { useEffect, useState } from 'react';
-import { loadGuide } from '../lib/data.js';
+import { loadDoc } from '../lib/data.js';
 import { Blueprint, sectionColor } from './ui.jsx';
 
-/** "Tìm hiểu CIA" page. Content lives in public/data/guide.json. */
-export default function Guide({ index }) {
+/**
+ * Document page built from public/data/<source>.json: "Tìm hiểu CIA" (guide)
+ * and "Khung chuẩn mực" (frameworks) share this renderer.
+ */
+export default function Guide({ index, source = 'guide', eyebrow = 'Dành cho người mới bắt đầu' }) {
   const [guide, setGuide] = useState(null);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    loadGuide().then(setGuide).catch((err) => setError(err.message));
-  }, []);
+    loadDoc(source).then(setGuide).catch((err) => setError(err.message));
+  }, [source]);
 
   if (error) return <div className="container notice notice-bad" style={{ marginTop: 32 }}>{error}</div>;
   if (!guide) return <div className="loading">Đang tải...</div>;
@@ -17,7 +20,7 @@ export default function Guide({ index }) {
   return (
     <div className="container guide">
       <header className="guide-head">
-        <div className="eyebrow">Dành cho người mới bắt đầu</div>
+        <div className="eyebrow">{eyebrow}</div>
         <h1 className="display">{guide.title}</h1>
         <p className="hero-lede">{guide.lede}</p>
         <p className="subtle">{guide.checked}</p>
@@ -26,7 +29,7 @@ export default function Guide({ index }) {
       <div className="guide-layout">
         <nav className="guide-toc" aria-label="Mục lục">
           {guide.sections.map((s, i) => (
-            <a key={s.id} href={`#/guide`} onClick={(e) => { e.preventDefault(); document.getElementById(`g-${s.id}`)?.scrollIntoView({ behavior: 'smooth' }); }}>
+            <a key={s.id} href={`#/${source}`} onClick={(e) => { e.preventDefault(); document.getElementById(`g-${s.id}`)?.scrollIntoView({ behavior: 'smooth' }); }}>
               <span className="mono">{String(i + 1).padStart(2, '0')}</span> {s.title}
             </a>
           ))}

@@ -21,8 +21,9 @@ export async function loadIndex() {
   return { ...index, manifests };
 }
 
-export function loadGuide() {
-  return getJson('data/guide.json');
+/** Load a document page (guide.json, frameworks.json) rendered by the Guide component. */
+export function loadDoc(name) {
+  return getJson(`data/${name}.json`);
 }
 
 export async function loadPart(manifest) {
