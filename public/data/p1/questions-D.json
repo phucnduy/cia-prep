@@ -1248,5 +1248,514 @@
       "CIA Part 1 D.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-D-M01",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên lập kế hoạch kiểm toán quy trình mua hàng của một công ty xây dựng có nhiều gói thầu giá trị lớn và ít nhà cung cấp cạnh tranh. Việc nào phù hợp nhất ở giai đoạn lập kế hoạch liên quan đến gian lận?",
+    "options": [
+      "Giả định không có gian lận vì chưa có tố giác nào được gửi đến.",
+      "Chờ phát hiện dấu hiệu gian lận khi thực hiện rồi mới điều chỉnh chương trình.",
+      "Nhận diện các kịch bản gian lận cụ thể (thông thầu, lại quả) và thiết kế thủ tục tương ứng.",
+      "Chuyển ngay hồ sơ mua hàng cho cơ quan điều tra để xem xét trước."
+    ],
+    "answer": 2,
+    "explanation": "Khi đánh giá rủi ro cuộc kiểm toán, kiểm toán viên phải xem xét các rủi ro cụ thể liên quan đến gian lận (GIAS 13.2). Mua hàng giá trị lớn, ít cạnh tranh có rủi ro thông thầu, lại quả cao, nên cần nhận diện kịch bản và thiết kế thủ tục phù hợp ngay từ đầu.",
+    "optionNotes": [
+      "Sai. Không có tố giác không có nghĩa là không có gian lận.",
+      "Sai. Bị động, dễ bỏ sót.",
+      "Đúng. Xem xét rủi ro gian lận cụ thể khi lập kế hoạch.",
+      "Sai. Không có cơ sở để chuyển cơ quan điều tra."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 1 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M02",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Trong các quy trình sau của một chuỗi bán lẻ, quy trình nào thường có mức độ phơi nhiễm rủi ro gian lận cao nhất?",
+    "options": [
+      "Quy trình lập lịch họp định kỳ của Ban điều hành.",
+      "Quy trình lưu trữ hồ sơ pháp lý đã hết hiệu lực.",
+      "Quy trình cập nhật nội quy lao động hằng năm.",
+      "Quy trình thu tiền mặt tại quầy và xử lý hàng trả lại."
+    ],
+    "answer": 3,
+    "explanation": "Quy trình xử lý tiền mặt và hàng trả lại có tài sản dễ chiếm đoạt, giao dịch nhiều, giá trị nhỏ lẻ và khó kiểm soát từng giao dịch, nên phơi nhiễm rủi ro gian lận cao.",
+    "optionNotes": [
+      "Sai. Không liên quan đến tài sản dễ chiếm đoạt.",
+      "Sai. Hồ sơ hết hiệu lực có rủi ro gian lận thấp.",
+      "Sai. Không có tài sản hay giao dịch dễ bị lạm dụng.",
+      "Đúng. Tiền mặt và hàng trả lại rất dễ bị lạm dụng."
+    ],
+    "refs": [
+      "CIA Part 1 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M03",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 3,
+    "stem": "Một chi nhánh đạt doanh thu vượt kế hoạch 40% trong quý cuối năm, đúng lúc thưởng của giám đốc chi nhánh gắn với doanh thu, và nhiều hợp đồng được ký vào tuần cuối năm. Kiểm toán viên nên ưu tiên điều gì?",
+    "options": [
+      "Kiểm tra hợp đồng cuối kỳ và hàng trả lại đầu kỳ sau để tìm doanh thu sai kỳ.",
+      "Khen ngợi chi nhánh và đề xuất nhân rộng mô hình bán hàng này.",
+      "Chỉ kiểm tra chi phí của chi nhánh vì doanh thu cao thì rủi ro thấp.",
+      "Bỏ qua vì doanh thu đã được kế toán trưởng xác nhận là chính xác."
+    ],
+    "answer": 0,
+    "explanation": "Áp lực thưởng gắn doanh thu (động cơ) cùng doanh thu tăng đột biến, dồn vào cuối kỳ là dấu hiệu rủi ro ghi nhận doanh thu sai kỳ hoặc giả mạo. Thủ tục phù hợp: kiểm tra hợp đồng cuối kỳ, việc giao hàng và hàng trả lại đầu kỳ sau.",
+    "optionNotes": [
+      "Đúng. Kết hợp động cơ và dấu hiệu để thiết kế thủ tục.",
+      "Sai. Bỏ qua các dấu hiệu rủi ro.",
+      "Sai. Doanh thu cao bất thường lại là rủi ro.",
+      "Sai. Xác nhận nội bộ không thay được kiểm tra độc lập."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 1 D.2",
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M04",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Khi lập kế hoạch kiểm toán nội bộ năm, trưởng kiểm toán nội bộ cân nhắc phạm vi bao phủ. Theo chuẩn mực, kế hoạch kiểm toán cần xem xét điều gì liên quan đến gian lận?",
+    "options": [
+      "Không cần xem xét gian lận vì đó là việc của cơ quan điều tra.",
+      "Xem xét bao phủ rủi ro gian lận cùng các lĩnh vực rủi ro cao khác.",
+      "Chỉ xem xét gian lận khi HĐQT yêu cầu bằng văn bản riêng.",
+      "Dành toàn bộ nguồn lực kiểm toán cho việc điều tra gian lận."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 9.4 yêu cầu trưởng kiểm toán nội bộ cân nhắc bao phủ quản trị công nghệ thông tin, rủi ro gian lận, hiệu quả chương trình tuân thủ, đạo đức và các lĩnh vực rủi ro cao khác khi lập kế hoạch kiểm toán.",
+    "optionNotes": [
+      "Sai. Rủi ro gian lận là một nội dung cần xem xét trong kế hoạch.",
+      "Đúng. Kế hoạch cân nhắc bao phủ rủi ro gian lận.",
+      "Sai. Không cần chờ yêu cầu riêng.",
+      "Sai. Mất cân đối, bỏ các rủi ro khác."
+    ],
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 1 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M05",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 3,
+    "stem": "Dấu hiệu nào sau đây là dấu hiệu cảnh báo gian lận ở cấp tổ chức, thay vì ở cấp quy trình?",
+    "options": [
+      "Một hóa đơn nhà cung cấp có số tài khoản khác lần trước.",
+      "Một phiếu chi được duyệt bởi người lập phiếu chi đó.",
+      "Ban điều hành liên tục thay kiểm toán độc lập, ép chỉ tiêu.",
+      "Một nhân viên kho không lấy ngày nghỉ phép trong năm."
+    ],
+    "answer": 2,
+    "explanation": "Dấu hiệu cấp tổ chức liên quan đến môi trường, văn hóa, lãnh đạo: thay kiểm toán độc lập thường xuyên, áp lực chỉ tiêu cực đoan, thái độ coi nhẹ kiểm soát. Các dấu hiệu còn lại gắn với một giao dịch, cá nhân hay quy trình cụ thể.",
+    "optionNotes": [
+      "Sai. Dấu hiệu cấp giao dịch, quy trình thanh toán.",
+      "Sai. Vi phạm phân nhiệm trong một quy trình.",
+      "Đúng. Dấu hiệu về lãnh đạo và văn hóa toàn tổ chức.",
+      "Sai. Dấu hiệu hành vi của một cá nhân trong quy trình."
+    ],
+    "refs": [
+      "CIA Part 1 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M06",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Trong lúc kiểm toán hàng tồn kho, kiểm toán viên phát hiện nhiều phiếu xuất kho bị sửa ngày và chữ ký có vẻ không khớp. Việc phù hợp nhất tiếp theo là gì?",
+    "options": [
+      "Tự đối chất ngay với thủ kho để làm rõ trước khi báo cáo.",
+      "Đưa phát hiện vào báo cáo kiểm toán cuối kỳ như một khuyến nghị.",
+      "Bỏ qua vì đây có thể chỉ là lỗi ghi chép thông thường.",
+      "Bảo quản bằng chứng và báo cáo kịp thời cho trưởng kiểm toán."
+    ],
+    "answer": 3,
+    "explanation": "Khi phát hiện dấu hiệu gian lận, kiểm toán viên cần ghi nhận, giữ gìn bằng chứng và báo cáo kịp thời theo kênh đã quy định (trưởng kiểm toán nội bộ), để quyết định các bước tiếp theo như điều tra. Đối chất vội có thể làm lộ thông tin và mất bằng chứng.",
+    "optionNotes": [
+      "Sai. Đối chất vội có thể khiến bằng chứng bị tiêu hủy.",
+      "Sai. Chờ báo cáo cuối kỳ là quá chậm.",
+      "Sai. Dấu hiệu nhiều và có hệ thống không nên bỏ qua.",
+      "Đúng. Bảo quản bằng chứng và báo cáo kịp thời."
+    ],
+    "refs": [
+      "CIA Part 1 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M07",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 3,
+    "stem": "Công ty có chính sách chống gian lận, đường dây nóng và đào tạo hằng năm. Tuy nhiên chưa từng đánh giá rủi ro gian lận theo từng quy trình, và các tố giác chỉ được lưu lại mà không theo dõi xử lý. Điểm yếu lớn nhất trong quản lý rủi ro gian lận là gì?",
+    "options": [
+      "Thiếu đánh giá rủi ro gian lận và xử lý tố giác.",
+      "Thiếu chính sách chống gian lận được HĐQT phê duyệt.",
+      "Chưa có đủ số lượng buổi đào tạo về đạo đức trong năm.",
+      "Đường dây nóng chưa được quảng bá rộng rãi ra bên ngoài."
+    ],
+    "answer": 0,
+    "explanation": "Chương trình quản lý rủi ro gian lận cần cả đánh giá rủi ro gian lận định kỳ và quy trình xử lý, điều tra, theo dõi tố giác. Có chính sách, đường dây nóng nhưng không đánh giá và không xử lý tố giác thì chương trình chỉ mang tính hình thức.",
+    "optionNotes": [
+      "Đúng. Hai thành phần cốt lõi bị thiếu.",
+      "Sai. Đề bài cho biết đã có chính sách.",
+      "Sai. Đào tạo đã có; số buổi không phải điểm yếu chính.",
+      "Sai. Thứ yếu so với việc tố giác không được xử lý."
+    ],
+    "refs": [
+      "CIA Part 1 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M08",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên được yêu cầu đánh giá chương trình quản lý rủi ro gian lận của công ty. Tiêu chí nào phản ánh tốt nhất chương trình đang hữu hiệu?",
+    "options": [
+      "Số lượng tài liệu chính sách về gian lận tăng lên mỗi năm.",
+      "Rủi ro gian lận được đánh giá, gắn với kiểm soát đã kiểm tra.",
+      "Không có vụ gian lận nào được phát hiện trong ba năm qua.",
+      "Mọi nhân viên đều đã ký cam kết không gian lận khi vào làm."
+    ],
+    "answer": 1,
+    "explanation": "Chương trình hữu hiệu thể hiện qua việc đánh giá rủi ro gian lận định kỳ, mỗi rủi ro có kiểm soát phòng ngừa, phát hiện tương ứng và các kiểm soát này được kiểm tra. Không phát hiện vụ nào có thể do kiểm soát phát hiện yếu.",
+    "optionNotes": [
+      "Sai. Số tài liệu không đo lường hiệu quả.",
+      "Đúng. Rủi ro gắn với kiểm soát đã được kiểm tra.",
+      "Sai. Bẫy: không phát hiện chưa chắc là không có gian lận.",
+      "Sai. Cam kết là hình thức, không chứng minh hiệu quả."
+    ],
+    "refs": [
+      "CIA Part 1 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M09",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 3,
+    "stem": "Trong quá trình kiểm toán, kiểm toán viên phát hiện dấu hiệu cho thấy chính Tổng Giám đốc có thể liên quan đến gian lận. Trưởng kiểm toán nội bộ nên báo cáo cho ai là phù hợp nhất?",
+    "options": [
+      "Chỉ báo cáo cho Tổng Giám đốc để Tổng Giám đốc tự giải trình.",
+      "Thông báo ngay cho báo chí để bảo đảm tính minh bạch.",
+      "Báo cáo cho HĐQT hoặc Ủy ban Kiểm toán theo kênh báo cáo chức năng.",
+      "Báo cáo cho trưởng phòng kế toán để điều chỉnh sổ sách."
+    ],
+    "answer": 2,
+    "explanation": "Khi người bị nghi ngờ thuộc cấp quản lý cao nhất, báo cáo cho chính người đó làm mất tính độc lập của việc xử lý. Trưởng kiểm toán nội bộ báo cáo cho HĐQT hoặc Ủy ban Kiểm toán qua kênh báo cáo chức năng.",
+    "optionNotes": [
+      "Sai. Người bị nghi ngờ không thể tự xử lý.",
+      "Sai. Công bố ra ngoài khi chưa xác minh là sai và có hại.",
+      "Đúng. Kênh báo cáo chức năng lên HĐQT.",
+      "Sai. Kế toán không có thẩm quyền xử lý."
+    ],
+    "refs": [
+      "CIA Part 1 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M10",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Phân tích dữ liệu cho thấy một nhân viên mua hàng có nhiều đơn hàng có giá trị ngay dưới ngưỡng phải xin phê duyệt cấp cao. Đây là dấu hiệu cảnh báo của hành vi nào chủ yếu?",
+    "options": [
+      "Nhân viên làm việc hiệu quả, tiết kiệm thời gian xin duyệt.",
+      "Nhà cung cấp chủ động giảm giá theo chính sách.",
+      "Lỗi hệ thống tự động làm tròn giá trị đơn hàng.",
+      "Cố ý chia nhỏ đơn hàng để né ngưỡng phê duyệt cấp cao."
+    ],
+    "answer": 3,
+    "explanation": "Nhiều giao dịch dồn ngay dưới ngưỡng phê duyệt là dấu hiệu chia nhỏ đơn hàng để né kiểm soát cấp duyệt. Kiểm toán viên nên tổng hợp theo nhà cung cấp, thời gian để xác định giao dịch bị chia nhỏ.",
+    "optionNotes": [
+      "Sai. Né phê duyệt không phải là hiệu quả.",
+      "Sai. Không có cơ sở cho giảm giá theo chính sách.",
+      "Sai. Làm tròn không giải thích được sự dồn ngay dưới ngưỡng.",
+      "Đúng. Dấu hiệu điển hình của chia nhỏ để né ngưỡng."
+    ],
+    "refs": [
+      "CIA Part 1 D.3",
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M11",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Công ty quy định trưởng phòng được duyệt chi đến 50 triệu đồng, giám đốc đến 500 triệu đồng, trên mức đó cần Tổng Giám đốc. Kiểm soát này chủ yếu giúp ngăn gian lận theo cách nào?",
+    "options": [
+      "Giới hạn quyền tự duyệt của mỗi người theo giá trị khoản chi.",
+      "Bảo đảm mọi khoản chi đều được ghi sổ đúng kỳ kế toán.",
+      "Loại bỏ hoàn toàn khả năng thông đồng giữa các cấp quản lý.",
+      "Thay thế nhu cầu đối chiếu ngân hàng định kỳ hằng tháng."
+    ],
+    "answer": 0,
+    "explanation": "Hạn mức phê duyệt giới hạn quyền của mỗi cá nhân, buộc các khoản lớn qua thêm một cấp xem xét. Kiểm soát này không loại bỏ được thông đồng và không thay thế các kiểm soát phát hiện như đối chiếu.",
+    "optionNotes": [
+      "Đúng. Giới hạn quyền tự quyết của từng người.",
+      "Sai. Ghi sổ đúng kỳ là mục tiêu khác.",
+      "Sai. Không kiểm soát nào loại bỏ hoàn toàn thông đồng.",
+      "Sai. Không thay được kiểm soát phát hiện."
+    ],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M12",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 3,
+    "stem": "Kế toán trưởng hằng tháng tự lập đối chiếu ngân hàng, rồi ký 'đã soát xét' trên chính đối chiếu đó. Kế toán trưởng cũng có quyền lập lệnh chuyển tiền. Rủi ro gian lận chủ yếu là gì?",
+    "options": [
+      "Đối chiếu sẽ chậm hơn so với thời hạn quy định của công ty.",
+      "Kế toán trưởng có thể chuyển tiền sai rồi che giấu ngay trong đối chiếu.",
+      "Ngân hàng có thể tính sai phí dịch vụ mà không ai phát hiện.",
+      "Sai sót do số học khi cộng các khoản chênh lệch nhỏ."
+    ],
+    "answer": 1,
+    "explanation": "Đối chiếu ngân hàng và soát xét của cấp trên chỉ có tác dụng phát hiện khi do người độc lập với việc chi tiền thực hiện. Người vừa chuyển tiền vừa đối chiếu vừa tự soát xét có thể che giấu khoản chi sai.",
+    "optionNotes": [
+      "Sai. Tiến độ không phải rủi ro gian lận chính.",
+      "Đúng. Thiếu độc lập giữa chi tiền, đối chiếu và soát xét.",
+      "Sai. Phí ngân hàng là rủi ro nhỏ, không phải gian lận nội bộ.",
+      "Sai. Lỗi số học không phải rủi ro chủ yếu."
+    ],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M13",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Để đường dây nóng tố giác gian lận phát huy tác dụng tốt nhất, đặc điểm nào là quan trọng nhất?",
+    "options": [
+      "Chỉ nhận tố giác có ghi rõ họ tên và chức vụ người tố giác.",
+      "Do chính trưởng bộ phận của người tố giác tiếp nhận và quyết định.",
+      "Cho phép tố giác ẩn danh, bảo vệ người tố giác và có quy trình xử lý rõ ràng.",
+      "Chỉ mở cho nhân viên nội bộ, không nhận tố giác từ bên ngoài."
+    ],
+    "answer": 2,
+    "explanation": "Đường dây nóng hiệu quả khi người tố giác được bảo vệ khỏi trả đũa, có thể ẩn danh, và mọi tố giác đều được tiếp nhận, xử lý theo quy trình độc lập. Nhận tố giác từ cả bên ngoài (nhà cung cấp, khách hàng) cũng giúp phát hiện thêm.",
+    "optionNotes": [
+      "Sai. Bắt buộc ghi tên làm người tố giác e ngại.",
+      "Sai. Trưởng bộ phận có thể là người liên quan.",
+      "Đúng. Ẩn danh, bảo vệ và quy trình xử lý.",
+      "Sai. Bên ngoài cũng là nguồn tố giác quan trọng."
+    ],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M14",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 3,
+    "stem": "Một công ty nhỏ chỉ có hai nhân viên kế toán nên không thể phân nhiệm đầy đủ giữa ghi sổ, giữ tiền và đối chiếu. Biện pháp bù đắp phù hợp nhất là gì?",
+    "options": [
+      "Chấp nhận rủi ro vì công ty nhỏ không cần kiểm soát gian lận.",
+      "Yêu cầu hai kế toán ký cam kết trung thực mỗi tháng.",
+      "Tuyển thêm năm kế toán để phân nhiệm đầy đủ theo mô hình chuẩn.",
+      "Chủ doanh nghiệp tự xem sao kê, duyệt chi và soát xét."
+    ],
+    "answer": 3,
+    "explanation": "Khi không thể phân nhiệm đầy đủ, kiểm soát bù đắp phổ biến là tăng giám sát của người có thẩm quyền độc lập: chủ doanh nghiệp tự xem sao kê, duyệt chi, soát xét định kỳ. Tuyển thêm nhiều người thường không hợp lý về chi phí.",
+    "optionNotes": [
+      "Sai. Công ty nhỏ vẫn có rủi ro gian lận.",
+      "Sai. Cam kết không phải kiểm soát thực chất.",
+      "Sai. Không hợp lý về chi phí - lợi ích.",
+      "Đúng. Giám sát của chủ doanh nghiệp bù đắp phân nhiệm."
+    ],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M15",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 2,
+    "stem": "Khi phỏng vấn một nhân viên có thể liên quan đến gian lận, thứ tự câu hỏi nào phù hợp nhất?",
+    "options": [
+      "Bắt đầu bằng câu hỏi chung, không đe dọa; câu hỏi nhạy cảm để sau cùng.",
+      "Bắt đầu bằng câu hỏi buộc tội để tạo áp lực ngay từ đầu.",
+      "Chỉ hỏi câu hỏi đóng có hoặc không để tiết kiệm thời gian.",
+      "Đưa toàn bộ bằng chứng ra ngay để người được phỏng vấn tự thừa nhận."
+    ],
+    "answer": 0,
+    "explanation": "Kỹ thuật phỏng vấn thường đi từ câu hỏi giới thiệu, chung, không đe dọa (xây dựng thiện cảm, thu thập thông tin) đến câu hỏi nhạy cảm và câu hỏi nhằm thừa nhận ở cuối. Buộc tội ngay từ đầu khiến người được hỏi phòng thủ.",
+    "optionNotes": [
+      "Đúng. Từ chung đến nhạy cảm.",
+      "Sai. Buộc tội sớm khiến người được hỏi phòng thủ, im lặng.",
+      "Sai. Câu hỏi đóng thu được ít thông tin.",
+      "Sai. Đưa hết bằng chứng sớm giúp người kia dựng chuyện."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M16",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên chuẩn bị phỏng vấn nghi phạm chính trong một vụ chiếm đoạt tiền. Cách tổ chức nào phù hợp nhất?",
+    "options": [
+      "Phỏng vấn một mình để người được hỏi thấy thoải mái hơn.",
+      "Hai người phỏng vấn ở nơi riêng tư, sau khi đã có bằng chứng.",
+      "Phỏng vấn trước mặt cả phòng để tạo áp lực từ đồng nghiệp.",
+      "Phỏng vấn nghi phạm đầu tiên, trước khi thu thập bất kỳ bằng chứng nào."
+    ],
+    "answer": 1,
+    "explanation": "Phỏng vấn nghi phạm thường thực hiện sau khi đã thu thập bằng chứng và phỏng vấn người liên quan khác; có hai người (một hỏi, một ghi chép, làm chứng) tại nơi riêng tư để bảo đảm khách quan và có bằng chứng về nội dung buổi phỏng vấn.",
+    "optionNotes": [
+      "Sai. Một người thì không có nhân chứng cho nội dung buổi phỏng vấn.",
+      "Đúng. Hai người, riêng tư, sau khi có bằng chứng.",
+      "Sai. Vi phạm quyền riêng tư, dễ bị khiếu nại.",
+      "Sai. Phỏng vấn nghi phạm sớm có thể làm lộ thông tin."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M17",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 2,
+    "stem": "Để kiểm tra khả năng có nhân viên 'ma' trong bảng lương, thủ tục nào hiệu quả nhất?",
+    "options": [
+      "Phỏng vấn trưởng phòng nhân sự về quy trình tuyển dụng.",
+      "Kiểm tra tổng quỹ lương có khớp với ngân sách năm hay không.",
+      "Đối chiếu lương với hồ sơ nhân sự, tìm tài khoản trùng.",
+      "Xem xét chính sách lương thưởng đã được HĐQT phê duyệt."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm tra nhân viên ma cần đối chiếu dữ liệu: danh sách lương với hồ sơ nhân sự, chấm công, và tìm điểm bất thường như cùng số tài khoản, địa chỉ, mã số thuế. Phân tích dữ liệu cho phép kiểm tra toàn bộ tổng thể.",
+    "optionNotes": [
+      "Sai. Phỏng vấn quy trình không phát hiện nhân viên ma cụ thể.",
+      "Sai. Tổng quỹ lương khớp vẫn có thể có nhân viên ma.",
+      "Đúng. Đối chiếu dữ liệu và tìm trùng lặp.",
+      "Sai. Chính sách không cho biết ai thực sự tồn tại."
+    ],
+    "refs": [
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M18",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Công ty có bộ phận điều tra gian lận riêng. Kiểm toán nội bộ có thể phối hợp với bộ phận này theo cách nào là hữu ích nhất cho việc lập kế hoạch kiểm toán?",
+    "options": [
+      "Tiếp nhận và trực tiếp điều hành mọi vụ điều tra thay bộ phận điều tra.",
+      "Yêu cầu bộ phận điều tra kiểm toán lại các kết luận của kiểm toán nội bộ.",
+      "Tránh mọi trao đổi với bộ phận điều tra để giữ tính độc lập.",
+      "Xem xét các vụ điều tra trước, xu hướng vụ việc và tố giác."
+    ],
+    "answer": 3,
+    "explanation": "Đề cương yêu cầu kiểm toán viên nhận biết cơ hội phối hợp với người điều tra gian lận: xem xét đánh giá rủi ro của họ, các vụ điều tra trước, xu hướng và tố giác, nhằm xác định lĩnh vực rủi ro cao và kiểm soát cần cải thiện.",
+    "optionNotes": [
+      "Sai. Kiểm toán nội bộ không thay thế bộ phận điều tra.",
+      "Sai. Đây không phải vai trò của bộ phận điều tra.",
+      "Sai. Phối hợp không làm mất độc lập.",
+      "Đúng. Dùng kết quả, xu hướng và tố giác làm đầu vào."
+    ],
+    "refs": [
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M19",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên được giao hỗ trợ điều tra một vụ gian lận nghi ngờ nhưng chưa có kinh nghiệm thu thập bằng chứng số (dữ liệu máy tính, email). Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Đề nghị dùng chuyên gia điều tra số thu thập bằng chứng.",
+      "Tự sao chép dữ liệu từ máy tính của nghi phạm bằng USB cá nhân.",
+      "Từ chối tham gia vì kiểm toán nội bộ không bao giờ hỗ trợ điều tra.",
+      "Yêu cầu nghi phạm tự gửi lại các email liên quan đến vụ việc."
+    ],
+    "answer": 0,
+    "explanation": "Bằng chứng số cần được thu thập, bảo quản theo quy trình (chuỗi lưu giữ bằng chứng) để giữ giá trị pháp lý. Khi thiếu năng lực, kiểm toán viên nên đề nghị sử dụng chuyên gia, phù hợp yêu cầu tìm kiếm tư vấn, hỗ trợ khi thiếu năng lực (IPPF 2017 1210.A1).",
+    "optionNotes": [
+      "Đúng. Dùng chuyên gia điều tra số.",
+      "Sai. Có thể làm thay đổi dữ liệu và mất giá trị bằng chứng.",
+      "Sai. Quá tuyệt đối: kiểm toán nội bộ có thể hỗ trợ điều tra.",
+      "Sai. Nghi phạm có thể sửa hoặc xóa dữ liệu."
+    ],
+    "refs": [
+      "CIA Part 1 D.5",
+      "IPPF 2017 1210.A1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M20",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Nhân viên thu ngân nhận tiền của khách nhưng không nhập giao dịch vào máy tính tiền, rồi giữ lại số tiền đó. Đây là loại gian lận nào?",
+    "options": [
+      "Gian lận báo cáo tài chính bằng cách ghi nhận doanh thu khống.",
+      "Chiếm đoạt tiền trước khi ghi sổ (skimming).",
+      "Gian lận thanh toán qua nhà cung cấp giả.",
+      "Tham nhũng dưới hình thức nhận lại quả từ đối tác."
+    ],
+    "answer": 1,
+    "explanation": "Skimming là chiếm đoạt tiền trước khi giao dịch được ghi nhận vào sổ sách, nên rất khó phát hiện qua đối chiếu sổ. Kiểm soát phù hợp: giám sát quầy, khuyến khích khách lấy hóa đơn, phân tích doanh thu theo ca.",
+    "optionNotes": [
+      "Sai. Đây không phải ghi nhận doanh thu khống.",
+      "Đúng. Lấy tiền trước khi giao dịch được ghi sổ.",
+      "Sai. Không liên quan đến nhà cung cấp.",
+      "Sai. Không có đối tác bên ngoài liên quan."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
   }
 ]
