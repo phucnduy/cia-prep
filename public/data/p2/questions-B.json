@@ -225,5 +225,530 @@
       "CIA Part 2 B.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-B-M01",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên muốn xác nhận hiểu biết của mình về quy trình phê duyệt chi phí trước khi thiết kế thủ tục kiểm tra. Phương pháp nào phù hợp nhất?",
+    "options": [
+      "Gửi bảng câu hỏi cho toàn bộ nhân viên kế toán để thu thập ý kiến.",
+      "Đọc báo cáo kiểm toán của năm trước về quy trình này là đủ.",
+      "Chọn mẫu 60 phiếu chi để kiểm tra chữ ký phê duyệt ngay từ đầu.",
+      "Theo một giao dịch thực tế đi qua toàn bộ quy trình đó."
+    ],
+    "answer": 3,
+    "explanation": "Walkthrough, tức quan sát trực tiếp một giao dịch đi qua quy trình, là thủ tục GIAS 14.1 nêu để thu thập thông tin; nó giúp xác nhận quy trình và kiểm soát trên thực tế có đúng như mô tả, làm cơ sở thiết kế thủ tục kiểm tra.",
+    "optionNotes": [
+      "Sai. Bảng câu hỏi chỉ phản ánh nhận thức của người trả lời.",
+      "Sai. Báo cáo cũ có thể đã lỗi thời.",
+      "Sai. Chọn mẫu kiểm tra là bước sau khi đã hiểu quy trình.",
+      "Đúng. Walkthrough xác nhận hiểu biết về quy trình."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M02",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Hệ thống bán hàng ghi nhận 1,2 triệu giao dịch mỗi năm. Kiểm toán viên cần xác định mọi giao dịch có chiết khấu vượt hạn mức. Cách thu thập thông tin hiệu quả nhất là gì?",
+    "options": [
+      "Trích dữ liệu và dùng phần mềm kiểm tra toàn bộ tổng thể.",
+      "Chọn ngẫu nhiên 100 giao dịch và suy rộng tỷ lệ vi phạm.",
+      "Phỏng vấn trưởng phòng bán hàng về các trường hợp ngoại lệ.",
+      "Đề nghị bộ phận bán hàng tự lập danh sách giao dịch vượt hạn mức."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.1 (Xem xét khi thực hiện) nêu kiểm toán viên nên cân nhắc kiểm tra toàn bộ tổng thể hay chọn mẫu; phần mềm phân tích dữ liệu giúp kiểm tra toàn bộ. Khi mục tiêu là tìm mọi ngoại lệ, kiểm tra toàn bộ phù hợp hơn chọn mẫu.",
+    "optionNotes": [
+      "Đúng. Kiểm tra toàn bộ tổng thể bằng phần mềm.",
+      "Sai. Chọn mẫu không tìm được mọi ngoại lệ.",
+      "Sai. Phỏng vấn là bằng chứng gián tiếp.",
+      "Sai. Danh sách do đơn vị tự lập kém tin cậy."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M03",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên quan sát thủ kho kiểm tra phiếu xuất trước khi giao hàng vào một buổi sáng và thấy thực hiện đúng. Hạn chế lớn nhất của bằng chứng này là gì?",
+    "options": [
+      "Quan sát là bằng chứng do kiểm toán viên trực tiếp thu thập nên kém tin cậy.",
+      "Chỉ phản ánh thời điểm quan sát; người bị quan sát có thể làm khác.",
+      "Quan sát không được GIAS công nhận là phương pháp thu thập thông tin.",
+      "Quan sát chỉ phù hợp với kiểm toán tài chính, không phù hợp với kho."
+    ],
+    "answer": 1,
+    "explanation": "Quan sát là phương pháp GIAS 14.1 nêu, và bằng chứng tự thu thập thường đáng tin cậy. Nhưng quan sát chỉ cho thấy tình trạng tại thời điểm quan sát; người bị quan sát có thể thay đổi hành vi, nên không chứng minh kiểm soát vận hành nhất quán trong cả kỳ.",
+    "optionNotes": [
+      "Sai. Bằng chứng tự thu thập thường đáng tin cậy hơn.",
+      "Đúng. Chỉ phản ánh một thời điểm và có thể bị ảnh hưởng.",
+      "Sai. GIAS 14.1 nêu quan sát trực tiếp là một thủ tục.",
+      "Sai. Quan sát dùng được cho nhiều loại hoạt động."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M04",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên chọn 40 hợp đồng để kiểm tra, nhưng chỉ chọn trong các hợp đồng ký tháng 12 vì hồ sơ để gần phòng làm việc. Vấn đề chính của mẫu này là gì?",
+    "options": [
+      "Cỡ mẫu 40 là quá lớn đối với một quy trình hợp đồng.",
+      "Hợp đồng tháng 12 luôn có rủi ro thấp hơn các tháng khác.",
+      "Mẫu có thể không đại diện cho hợp đồng của cả năm.",
+      "Không có vấn đề vì mẫu do kiểm toán viên tự chọn."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 14.1 (Xem xét khi thực hiện): nếu chọn mẫu, kiểm toán viên nên áp dụng phương pháp để mẫu đại diện cho toàn bộ tổng thể nhất có thể. Chọn theo sự thuận tiện làm mẫu thiên lệch, không đủ cơ sở kết luận cho cả năm.",
+    "optionNotes": [
+      "Sai. Vấn đề là tính đại diện, không phải cỡ mẫu.",
+      "Sai. Không có cơ sở cho nhận định này.",
+      "Đúng. Mẫu thiên lệch, không đại diện cho cả năm.",
+      "Sai. Tự chọn vẫn phải bảo đảm tính đại diện."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M05",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Báo cáo tồn kho dùng để kiểm toán được xuất từ hệ thống ERP, nhưng cuộc kiểm toán CNTT trước đó đã phát hiện nhiều người có quyền sửa dữ liệu tồn kho mà không được ghi vết. Ảnh hưởng chính đến bằng chứng là gì?",
+    "options": [
+      "Không ảnh hưởng, vì báo cáo được xuất trực tiếp từ hệ thống.",
+      "Phải dừng cuộc kiểm toán cho đến khi lỗi truy cập được khắc phục.",
+      "Bằng chứng trở nên không phù hợp với mục tiêu cuộc kiểm toán.",
+      "Độ tin cậy giảm, cần chứng thực thêm, ví dụ bằng kiểm kê."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 14.1: thông tin đáng tin cậy hơn khi lấy từ hệ thống có quản trị, quản lý rủi ro và kiểm soát hữu hiệu. Kiểm soát truy cập yếu làm giảm độ tin cậy của dữ liệu; kiểm toán viên cần chứng thực bằng nguồn khác, ví dụ kiểm kê thực tế.",
+    "optionNotes": [
+      "Sai. Xuất từ hệ thống không bảo đảm tin cậy nếu kiểm soát yếu.",
+      "Sai. Phản ứng quá mức; có thể bù bằng thủ tục khác.",
+      "Sai. Thông tin vẫn phù hợp; vấn đề là độ tin cậy.",
+      "Đúng. Giảm độ tin cậy, cần chứng thực thêm."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M06",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Kế toán trưởng giải thích bằng lời rằng khoản chênh lệch ngân hàng 800 triệu đồng là 'tiền đang chuyển'. Cách xử lý phù hợp nhất để tăng độ tin cậy của thông tin là gì?",
+    "options": [
+      "Chứng thực bằng sao kê ngân hàng của kỳ sau gửi trực tiếp.",
+      "Ghi nhận lời giải thích vì kế toán trưởng là người có thẩm quyền.",
+      "Yêu cầu kế toán trưởng ký xác nhận lời giải thích bằng văn bản.",
+      "Hỏi thêm một nhân viên kế toán khác trong cùng bộ phận."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.1: độ tin cậy tăng khi thông tin được chứng thực, lấy trực tiếp hoặc từ nguồn độc lập. Sao kê ngân hàng kỳ sau là nguồn độc lập chứng thực lời giải thích; chữ ký hay lời của người cùng bộ phận vẫn là nguồn nội bộ, không độc lập.",
+    "optionNotes": [
+      "Đúng. Chứng thực bằng nguồn độc lập.",
+      "Sai. Chức vụ không thay được chứng thực.",
+      "Sai. Văn bản của cùng một người vẫn không độc lập.",
+      "Sai. Người cùng bộ phận không phải nguồn độc lập."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "GIAS 4.3",
+      "CIA Part 2 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M07",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên không thể lấy được nhật ký truy cập hệ thống lương của 6 tháng đầu năm vì hệ thống chỉ lưu dữ liệu 3 tháng. Theo GIAS, kiểm toán viên cần cân nhắc điều gì?",
+    "options": [
+      "Bỏ qua 6 tháng đó và kết luận dựa trên 3 tháng gần nhất.",
+      "Có nêu việc thiếu dữ liệu nhật ký thành phát hiện hay không.",
+      "Yêu cầu bộ phận CNTT tái tạo lại nhật ký truy cập từ trí nhớ.",
+      "Kết luận kiểm soát truy cập không hữu hiệu trong cả năm."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.1 (Xem xét khi thực hiện): nếu không thể có bằng chứng phù hợp, kiểm toán viên phải xác định có nêu điều đó thành phát hiện hay không. Thời gian lưu nhật ký quá ngắn có thể là khiếm khuyết kiểm soát; đồng thời phạm vi kết luận phải phản ánh giới hạn này.",
+    "optionNotes": [
+      "Sai. Kết luận vượt quá bằng chứng có được.",
+      "Đúng. Xem xét việc thiếu bằng chứng có là phát hiện không.",
+      "Sai. Thông tin tái tạo không đáng tin cậy.",
+      "Sai. Thiếu dữ liệu chưa chứng minh kiểm soát không hữu hiệu."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "GIAS 15.1",
+      "CIA Part 2 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M08",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Trong cuộc kiểm toán quy trình mua hàng của năm nay, kiểm toán viên thu thập thêm nhiều email về một tranh chấp hợp đồng thuê văn phòng ba năm trước. Thông tin này thiếu thuộc tính nào chủ yếu?",
+    "options": [
+      "Đáng tin cậy, vì email là thông tin không chính thức.",
+      "Đầy đủ, vì số lượng email chưa đủ lớn để kết luận.",
+      "Phù hợp, vì nằm ngoài mục tiêu và phạm vi cuộc kiểm toán.",
+      "Kịp thời, vì email được gửi quá lâu so với ngày kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 14.1: thông tin phù hợp là nhất quán với mục tiêu, nằm trong phạm vi và góp phần hình thành kết quả. Tranh chấp thuê văn phòng ba năm trước nằm ngoài phạm vi cuộc kiểm toán mua hàng năm nay.",
+    "optionNotes": [
+      "Sai. Email có thể đáng tin cậy; vấn đề là phạm vi.",
+      "Sai. Đầy đủ không phải vấn đề chính.",
+      "Đúng. Không phù hợp với mục tiêu và phạm vi.",
+      "Sai. 'Kịp thời' không phải thuộc tính của bằng chứng theo GIAS 14.1."
+    ],
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M09",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 3,
+    "stem": "Sau khi phân tích đầy đủ, kiểm toán viên không thấy chênh lệch nào giữa tiêu chí và thực trạng của quy trình đối chiếu ngân hàng, và không cần phân tích thêm. Theo GIAS, kiểm toán viên phải làm gì?",
+    "options": [
+      "Không cần nêu gì về quy trình này trong kết luận.",
+      "Chuyển cuộc kiểm toán sang dạng tư vấn vì không có phát hiện.",
+      "Mở rộng phạm vi cho đến khi tìm được ít nhất một phát hiện.",
+      "Đưa ra sự đảm bảo về hiệu quả của quy trình trong kết luận."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 14.2: nếu không cần phân tích thêm và không có chênh lệch giữa tiêu chí và thực trạng, kiểm toán viên phải đưa ra sự đảm bảo trong kết luận về hiệu quả quản trị, quản lý rủi ro và kiểm soát của hoạt động.",
+    "optionNotes": [
+      "Sai. Phải nêu sự đảm bảo khi quy trình hữu hiệu.",
+      "Sai. Không đổi loại dịch vụ vì không có phát hiện.",
+      "Sai. Tìm phát hiện cho có là sai mục đích.",
+      "Đúng. Bắt buộc đưa ra sự đảm bảo."
+    ],
+    "refs": [
+      "GIAS 14.2",
+      "CIA Part 2 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M10",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 3,
+    "stem": "Kết quả ban đầu cho thấy dấu hiệu chênh lệch nhỏ ở một quy trình rủi ro thấp, nhưng muốn khẳng định cần thêm 10 ngày công trích xuất dữ liệu thủ công. Khi quyết định có phân tích thêm, yếu tố nào nên được cân nhắc?",
+    "options": [
+      "Mức quan trọng của phát hiện và chi phí so với lợi ích.",
+      "Chỉ cần xét kiểm toán viên còn thời gian trong lịch hay không.",
+      "Luôn phân tích thêm cho đến khi chắc chắn tuyệt đối về mọi chênh lệch.",
+      "Ý kiến của quản lý đơn vị về việc có nên phân tích thêm hay không."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.2 yêu cầu dùng thận trọng nghề nghiệp để quyết định có phân tích thêm. Phần Xem xét khi thực hiện nêu các yếu tố: kết quả đánh giá rủi ro, mức quan trọng của hoạt động và phát hiện, tính sẵn có và tin cậy của thông tin, mức độ hỗ trợ của phân tích, chi phí so với lợi ích.",
+    "optionNotes": [
+      "Đúng. Mức quan trọng và chi phí so với lợi ích.",
+      "Sai. Thời gian rảnh không phải tiêu chí chính.",
+      "Sai. Không đòi hỏi chắc chắn tuyệt đối.",
+      "Sai. Quyết định thuộc kiểm toán viên, không phải đơn vị."
+    ],
+    "refs": [
+      "GIAS 14.2",
+      "GIAS 4.2",
+      "CIA Part 2 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M11",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 3,
+    "stem": "Để đánh giá mức quan trọng của một phát hiện về hạn mức tín dụng, kiểm toán viên đã xác định ảnh hưởng tiềm tàng. Bước nào giúp xác định mức rủi ro thực sự còn tồn tại?",
+    "options": [
+      "Đếm số giao dịch vi phạm và so với năm trước.",
+      "Đánh giá kiểm soát hiện có để xác định rủi ro còn lại.",
+      "Hỏi Giám đốc tín dụng mức rủi ro mà ông chấp nhận được.",
+      "So sánh với số phát hiện trung bình của các cuộc kiểm toán khác."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.3 (Xem xét khi thực hiện): để xác định mức quan trọng của phát hiện, kiểm toán viên nhận diện và đánh giá kiểm soát hiện có về thiết kế và hiệu quả, rồi xác định rủi ro còn lại, là rủi ro vẫn tồn tại dù đã có kiểm soát.",
+    "optionNotes": [
+      "Sai. Số lượng vi phạm chỉ là một dữ kiện.",
+      "Đúng. Đánh giá kiểm soát để xác định rủi ro còn lại.",
+      "Sai. Ý kiến một người không thay được đánh giá.",
+      "Sai. So sánh số phát hiện không đo mức rủi ro."
+    ],
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 2 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M12",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Trong cuộc kiểm toán, ngoài 3 rủi ro đáng kể, kiểm toán viên còn thấy 5 điểm cải tiến nhỏ không đáng kể. Theo GIAS, các điểm nhỏ này được xử lý thế nào?",
+    "options": [
+      "Bắt buộc báo cáo thành phát hiện chính thức như rủi ro đáng kể.",
+      "Không được báo cáo vì GIAS chỉ cho phép nêu rủi ro đáng kể.",
+      "Có thể nêu thành phát hiện hoặc cách khác, theo phương pháp.",
+      "Phải chuyển cho bộ phận quản lý rủi ro tự xử lý."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 14.3: rủi ro đáng kể phải được ghi nhận và báo cáo là phát hiện; với các rủi ro khác, kiểm toán viên xác định có báo cáo thành phát hiện hay không dựa trên hoàn cảnh và phương pháp đã định; có thể trao đổi theo cách khác.",
+    "optionNotes": [
+      "Sai. Chỉ rủi ro đáng kể là bắt buộc nêu thành phát hiện.",
+      "Sai. GIAS không cấm nêu điểm nhỏ.",
+      "Đúng. Tùy hoàn cảnh và phương pháp.",
+      "Sai. Không có yêu cầu chuyển cho bộ phận khác."
+    ],
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 2 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M13",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Hai trưởng nhóm trong cùng phòng kiểm toán xếp hạng mức độ phát hiện theo hai thang khác nhau, khiến HĐQT khó so sánh. Theo GIAS, việc ưu tiên phát hiện cần dựa trên gì?",
+    "options": [
+      "Ý kiến riêng của từng trưởng nhóm vì họ hiểu cuộc kiểm toán rõ nhất.",
+      "Thứ tự thời gian phát hiện được trong cuộc kiểm toán.",
+      "Thang xếp hạng do từng đơn vị được kiểm toán đề xuất.",
+      "Phương pháp do CAE thiết lập để nhất quán giữa các cuộc kiểm toán."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 14.3 yêu cầu ưu tiên từng phát hiện theo mức quan trọng, dùng phương pháp do CAE thiết lập; phần Xem xét khi thực hiện nêu mục đích là bảo đảm nhất quán giữa mọi cuộc kiểm toán và giúp quản lý ưu tiên kế hoạch hành động.",
+    "optionNotes": [
+      "Sai. Thang riêng làm mất tính nhất quán.",
+      "Sai. Thời gian phát hiện không phản ánh mức quan trọng.",
+      "Sai. Đơn vị được kiểm toán không đặt thang xếp hạng.",
+      "Đúng. Phương pháp chung của CAE."
+    ],
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 2 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M14",
+    "section": "B",
+    "topic": "B7",
+    "difficulty": 2,
+    "stem": "Hồ sơ cuộc kiểm toán đã được trưởng nhóm rà soát đầy đủ. Theo GIAS, ai còn phải rà soát và phê duyệt hồ sơ này?",
+    "options": [
+      "Trưởng kiểm toán nội bộ rà soát và phê duyệt.",
+      "Quản lý đơn vị được kiểm toán, để xác nhận số liệu.",
+      "Kiểm toán viên độc lập bên ngoài trong kỳ kiểm toán năm.",
+      "Không ai, vì trưởng nhóm rà soát là đủ theo Chuẩn mực."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.6: kiểm toán viên và người giám sát rà soát hồ sơ về độ chính xác, phù hợp, đầy đủ; CAE phải rà soát và phê duyệt hồ sơ cuộc kiểm toán. CAE có thể giao việc giám sát nhưng vẫn chịu trách nhiệm (GIAS 12.3).",
+    "optionNotes": [
+      "Đúng. CAE rà soát và phê duyệt.",
+      "Sai. Đơn vị được kiểm toán không phê duyệt hồ sơ.",
+      "Sai. Kiểm toán độc lập không có vai trò này.",
+      "Sai. GIAS yêu cầu CAE phê duyệt."
+    ],
+    "refs": [
+      "GIAS 14.6",
+      "GIAS 12.3",
+      "CIA Part 2 B.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M15",
+    "section": "B",
+    "topic": "B7",
+    "difficulty": 3,
+    "stem": "Một giấy làm việc ghi 'đã kiểm tra, không có ngoại lệ' nhưng không nêu nguồn dữ liệu, tổng thể, cỡ mẫu, cách chọn mẫu hay người thực hiện. Rủi ro chính là gì?",
+    "options": [
+      "Giấy làm việc trông quá ngắn so với các giấy làm việc khác.",
+      "Người khác không thể làm lại công việc để kiểm chứng kết luận.",
+      "Đơn vị được kiểm toán có thể không hiểu nội dung giấy làm việc.",
+      "Kiểm toán viên mất thêm thời gian để in và lưu trữ giấy làm việc."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.6 yêu cầu ghi lại thông tin, bằng chứng sao cho người có hiểu biết, thận trọng làm lại được và ra cùng kết quả. Phần Xem xét khi thực hiện nêu giấy làm việc nên có nguồn dữ liệu, mục đích, tổng thể, cỡ mẫu, cách chọn, người thực hiện và người rà soát.",
+    "optionNotes": [
+      "Sai. Độ dài không phải vấn đề.",
+      "Đúng. Không làm lại được, kết luận thiếu căn cứ.",
+      "Sai. Giấy làm việc không viết cho đơn vị được kiểm toán.",
+      "Sai. Không phải rủi ro chính."
+    ],
+    "refs": [
+      "GIAS 14.6",
+      "CIA Part 2 B.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M16",
+    "section": "B",
+    "topic": "B7",
+    "difficulty": 2,
+    "stem": "Sau khi kiểm toán viên đã bổ sung bằng chứng theo yêu cầu, các ghi chú rà soát của người giám sát nên được xử lý thế nào?",
+    "options": [
+      "Giữ nguyên trong hồ sơ cuối để chứng minh có sai sót ban đầu.",
+      "Gửi cho đơn vị được kiểm toán cùng với báo cáo cuối cùng.",
+      "Xóa khỏi hồ sơ cuối, hoặc lưu riêng kèm cách xử lý.",
+      "Hủy toàn bộ cùng với các bản nháp của giấy làm việc."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 12.3 (Xem xét khi thực hiện): ghi chú rà soát thường được xóa khỏi hồ sơ cuối khi đã có đủ bằng chứng hoặc giấy làm việc đã được bổ sung; hoặc chức năng có thể lưu riêng hồ sơ ghi chú, các bước xử lý và kết quả.",
+    "optionNotes": [
+      "Sai. Thường được xóa khi đã xử lý xong.",
+      "Sai. Ghi chú nội bộ không gửi cho đơn vị.",
+      "Đúng. Xóa hoặc lưu riêng hồ sơ xử lý.",
+      "Sai. Có thể lưu riêng; không bắt buộc hủy."
+    ],
+    "refs": [
+      "GIAS 12.3",
+      "CIA Part 2 B.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M17",
+    "section": "B",
+    "topic": "B7",
+    "difficulty": 2,
+    "stem": "Khi tổ chức hồ sơ cuộc kiểm toán, cách sắp xếp nào giúp người rà soát dễ lần theo từ kết luận đến bằng chứng nhất?",
+    "options": [
+      "Sắp xếp theo ngày thu thập tài liệu, không cần tham chiếu.",
+      "Sắp xếp theo tên người cung cấp tài liệu ở đơn vị được kiểm toán.",
+      "Gộp tất cả bằng chứng vào một tệp duy nhất cho gọn.",
+      "Theo cấu trúc chương trình làm việc, có tham chiếu chéo."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 14.6 (Xem xét khi thực hiện): giấy làm việc có thể tổ chức theo cấu trúc chương trình làm việc và tham chiếu chéo với các thông tin liên quan, giúp lần theo cơ sở logic của từng bước đến kết quả.",
+    "optionNotes": [
+      "Sai. Thiếu liên kết giữa kết luận và bằng chứng.",
+      "Sai. Không phản ánh cấu trúc công việc.",
+      "Sai. Khó lần theo từng thủ tục.",
+      "Đúng. Theo chương trình, có tham chiếu chéo."
+    ],
+    "refs": [
+      "GIAS 14.6",
+      "CIA Part 2 B.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M18",
+    "section": "B",
+    "topic": "B8",
+    "difficulty": 3,
+    "stem": "Cuộc kiểm toán phát hiện 6 lỗi nhỏ ở các chi nhánh khác nhau, mỗi lỗi đều không đáng kể, nhưng tất cả cùng do chưa đào tạo quy trình mới. Khi xây dựng kết luận, kiểm toán viên nên làm gì?",
+    "options": [
+      "Đánh giá mức quan trọng của các phát hiện khi tổng hợp lại.",
+      "Kết luận quy trình hữu hiệu vì từng lỗi đều không đáng kể.",
+      "Chỉ nêu lỗi có giá trị lớn nhất và bỏ qua các lỗi khác.",
+      "Không đưa ra kết luận cho đến khi tìm được lỗi đáng kể."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.5: kết luận phải thể hiện xét đoán nghề nghiệp về mức quan trọng tổng thể của các phát hiện khi tổng hợp. Nhiều lỗi nhỏ cùng một nguyên nhân có thể cho thấy vấn đề hệ thống đáng kể.",
+    "optionNotes": [
+      "Đúng. Xét mức quan trọng khi tổng hợp.",
+      "Sai. Bỏ qua ảnh hưởng tổng hợp.",
+      "Sai. Mất thông tin về nguyên nhân chung.",
+      "Sai. Vẫn phải kết luận dựa trên kết quả có được."
+    ],
+    "refs": [
+      "GIAS 14.5",
+      "CIA Part 2 B.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M19",
+    "section": "B",
+    "topic": "B8",
+    "difficulty": 2,
+    "stem": "Một phát hiện có ảnh hưởng lớn đến mục tiêu của kho chi nhánh nhưng ảnh hưởng nhỏ ở cấp toàn công ty. Cách trình bày trong kết luận phù hợp nhất là gì?",
+    "options": [
+      "Bỏ phát hiện vì không đáng kể với toàn công ty.",
+      "Nêu bối cảnh ảnh hưởng ở cấp hoạt động và cấp tổ chức.",
+      "Xếp phát hiện ở mức nghiêm trọng nhất để gây chú ý.",
+      "Chỉ trao đổi miệng, không đưa vào kết luận chính thức."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.5 (Xem xét khi thực hiện): kết luận có thể bổ sung bối cảnh về ảnh hưởng của phát hiện, vì một số phát hiện có ảnh hưởng đáng kể ở cấp hoạt động nhưng không ở cấp tổ chức.",
+    "optionNotes": [
+      "Sai. Phát hiện vẫn quan trọng với hoạt động được kiểm toán.",
+      "Đúng. Nêu bối cảnh ở hai cấp.",
+      "Sai. Phóng đại làm mất khách quan.",
+      "Sai. Phát hiện quan trọng cần được ghi nhận chính thức."
+    ],
+    "refs": [
+      "GIAS 14.5",
+      "CIA Part 2 B.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-M20",
+    "section": "B",
+    "topic": "B8",
+    "difficulty": 2,
+    "stem": "Kết luận của một cuộc tư vấn về thiết kế quy trình phê duyệt hợp đồng nên được xây dựng thế nào?",
+    "options": [
+      "Phải đánh giá hiệu quả vận hành như một cuộc đảm bảo.",
+      "Phải dùng thang xếp hạng bốn mức như mọi cuộc đảm bảo.",
+      "Phù hợp với mục tiêu và phạm vi đã thỏa thuận trước đó.",
+      "Không cần kết luận vì tư vấn không có phát hiện."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 14.5 (Xem xét khi thực hiện): kết luận của cuộc tư vấn nên phù hợp với mục tiêu và phạm vi đã thỏa thuận. Yêu cầu kết luận về hiệu quả quản trị, rủi ro, kiểm soát áp dụng cho cuộc đảm bảo.",
+    "optionNotes": [
+      "Sai. Đánh giá vận hành là của cuộc đảm bảo.",
+      "Sai. Thang xếp hạng không bắt buộc cho tư vấn.",
+      "Đúng. Phù hợp với mục tiêu, phạm vi đã thỏa thuận.",
+      "Sai. Báo cáo tư vấn vẫn có kết luận (GIAS 15.1)."
+    ],
+    "refs": [
+      "GIAS 14.5",
+      "GIAS 15.1",
+      "CIA Part 2 B.8"
+    ],
+    "source": "original"
   }
 ]
