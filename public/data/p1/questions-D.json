@@ -1757,5 +1757,336 @@
       "CIA Part 1 D.1"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-D-M21",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Một thu ngân thường nhập giao dịch trả hàng, hoàn tiền mặt vào cuối ca dù không có khách nào trả hàng, rồi giữ lại số tiền đó. Đây là thủ đoạn gian lận nào?",
+    "options": [
+      "Hoàn tiền giả qua máy tính tiền (false refunds).",
+      "Chiếm đoạt tiền mặt trước khi ghi sổ (skimming).",
+      "Gối đầu các khoản thu của khách hàng (lapping).",
+      "Lập hóa đơn khống cho nhà cung cấp giả."
+    ],
+    "answer": 0,
+    "explanation": "Hoàn tiền giả là ghi nhận giao dịch trả hàng không có thật để rút tiền khỏi quầy; giao dịch đã được ghi sổ nên khác với skimming. Kiểm soát: trưởng ca duyệt hoàn tiền, yêu cầu thông tin khách hàng, phân tích tỷ lệ hoàn tiền theo thu ngân.",
+    "optionNotes": [
+      "Đúng. Ghi nhận trả hàng giả để rút tiền.",
+      "Sai. Skimming lấy tiền trước khi giao dịch được ghi nhận.",
+      "Sai. Lapping dùng tiền khách sau bù cho khách trước.",
+      "Sai. Không liên quan đến nhà cung cấp."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M22",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 3,
+    "stem": "Thủ kho lấy linh kiện còn tốt mang bán ra ngoài, rồi lập biên bản hủy hàng ghi các linh kiện đó là 'hỏng, không sử dụng được'. Thủ tục nào giúp phát hiện tốt nhất?",
+    "options": [
+      "Kiểm tra chữ ký trên biên bản hủy hàng có đầy đủ các cấp hay không.",
+      "Phân tích tỷ lệ hủy hàng theo người lập và chứng kiến độc lập khi hủy.",
+      "Đối chiếu số lượng trên biên bản hủy với sổ kho cuối tháng.",
+      "Phỏng vấn thủ kho về nguyên nhân linh kiện bị hỏng."
+    ],
+    "answer": 1,
+    "explanation": "Ghi giảm hàng tồn qua biên bản hủy là cách che giấu việc trộm hàng: sổ sách khớp vì đã ghi giảm. Cần phân tích bất thường (tỷ lệ hủy theo người, mặt hàng) và yêu cầu người độc lập chứng kiến việc hủy.",
+    "optionNotes": [
+      "Sai. Chữ ký đầy đủ vẫn có thể che giấu gian lận.",
+      "Đúng. Phân tích bất thường và chứng kiến độc lập.",
+      "Sai. Sổ kho đã được ghi giảm nên vẫn khớp.",
+      "Sai. Hỏi chính người nghi vấn cho bằng chứng yếu."
+    ],
+    "refs": [
+      "CIA Part 1 D.1",
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M23",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 3,
+    "stem": "Công ty phân nhiệm rõ: thủ kho giữ hàng, bảo vệ kiểm tra hàng ra cổng, kế toán ghi sổ. Tuy vậy, thủ kho và bảo vệ cùng nhau đưa hàng ra ngoài trong nhiều tháng. Nhận định nào đúng nhất?",
+    "options": [
+      "Phân nhiệm đã được thiết kế sai nên cần làm lại toàn bộ quy trình.",
+      "Vụ việc cho thấy phân nhiệm là kiểm soát không cần thiết.",
+      "Phân nhiệm không ngăn được thông đồng; cần kiểm kê đột xuất.",
+      "Chỉ cần thay bảo vệ là đủ để ngăn tái diễn."
+    ],
+    "answer": 2,
+    "explanation": "Phân nhiệm có hạn chế cố hữu là không ngăn được thông đồng. Biện pháp bổ sung: kiểm soát phát hiện độc lập (kiểm kê đột xuất do người ngoài bộ phận thực hiện, đối chiếu camera, luân chuyển nhân sự).",
+    "optionNotes": [
+      "Sai. Thiết kế phân nhiệm không sai; đó là hạn chế cố hữu.",
+      "Sai. Phân nhiệm vẫn ngăn được gian lận của một người.",
+      "Đúng. Thông đồng vượt qua phân nhiệm, cần kiểm soát phát hiện.",
+      "Sai. Không xử lý gốc rễ và rủi ro thông đồng khác."
+    ],
+    "refs": [
+      "CIA Part 1 D.1",
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M24",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 3,
+    "stem": "Tệp lệnh chi được xuất từ ERP ra bảng tính, kế toán lưu trên máy cá nhân một ngày, rồi mới tải lên cổng ngân hàng. Khi đánh giá quy trình thanh toán, rủi ro gian lận đáng chú ý nhất là gì?",
+    "options": [
+      "Tệp bảng tính chiếm nhiều dung lượng lưu trữ trên máy tính cá nhân.",
+      "Kế toán có thể quên tải tệp lên ngân hàng đúng giờ.",
+      "Cổng ngân hàng có thể quá tải vào cuối ngày làm việc.",
+      "Tệp có thể bị sửa số tài khoản, số tiền trước khi tải lên."
+    ],
+    "answer": 3,
+    "explanation": "Khoảng trống giữa ERP và ngân hàng, khi tệp lệnh chi ở dạng sửa được, là điểm phơi nhiễm gian lận lớn: người có quyền truy cập có thể đổi số tài khoản hoặc số tiền. Kiểm soát: kết nối trực tiếp, mã hóa, đối chiếu tổng tệp với ERP.",
+    "optionNotes": [
+      "Sai. Dung lượng không phải rủi ro gian lận.",
+      "Sai. Đây là sai sót, không phải gian lận.",
+      "Sai. Đây là rủi ro hoạt động nhỏ.",
+      "Đúng. Tệp sửa được là điểm phơi nhiễm."
+    ],
+    "refs": [
+      "CIA Part 1 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M25",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Sau khi phát hiện nhân viên mua hàng nhận lại quả, Ban điều hành sa thải nhân viên đó và coi vụ việc đã kết thúc. Kiểm toán viên đánh giá việc xử lý này thế nào?",
+    "options": [
+      "Chưa đủ, vì chưa sửa kiểm soát yếu đã tạo cơ hội.",
+      "Đầy đủ, vì người vi phạm đã bị xử lý nghiêm khắc.",
+      "Đầy đủ, nếu công ty đã thu hồi được toàn bộ số tiền bị mất.",
+      "Chưa đủ, vì phải sa thải cả trưởng phòng mua hàng."
+    ],
+    "answer": 0,
+    "explanation": "Quản lý rủi ro gian lận đòi hỏi phân tích nguyên nhân và khắc phục kiểm soát yếu kém đã tạo cơ hội; nếu không, người khác có thể lặp lại cùng thủ đoạn. Xử lý cá nhân là cần thiết nhưng chưa đủ.",
+    "optionNotes": [
+      "Đúng. Cần khắc phục nguyên nhân gốc.",
+      "Sai. Xử lý cá nhân không sửa được cơ hội gian lận.",
+      "Sai. Thu hồi tiền không loại bỏ cơ hội.",
+      "Sai. Không có cơ sở và vẫn chưa sửa kiểm soát."
+    ],
+    "refs": [
+      "CIA Part 1 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M26",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Ngân hàng yêu cầu mỗi thủ quỹ phải nghỉ phép liên tục ít nhất hai tuần mỗi năm, trong thời gian đó người khác làm thay toàn bộ công việc. Mục đích chính của kiểm soát này là gì?",
+    "options": [
+      "Bảo đảm sức khỏe và tinh thần làm việc của thủ quỹ.",
+      "Giúp phát hiện gian lận mà thủ quỹ đang phải liên tục che giấu.",
+      "Giảm chi phí lương làm thêm giờ cho toàn bộ nhân viên bộ phận ngân quỹ.",
+      "Đào tạo thêm người dự phòng cho vị trí thủ quỹ."
+    ],
+    "answer": 1,
+    "explanation": "Nhiều thủ đoạn gian lận (như gối đầu) cần người thực hiện can thiệp liên tục để che giấu. Bắt buộc nghỉ phép và để người khác làm thay giúp các bất thường lộ ra; đây là kiểm soát phát hiện và răn đe.",
+    "optionNotes": [
+      "Sai. Đây là lợi ích phụ, không phải mục đích kiểm soát.",
+      "Đúng. Lộ ra gian lận cần che giấu liên tục.",
+      "Sai. Không liên quan đến chi phí làm thêm.",
+      "Sai. Lợi ích phụ, không phải mục đích chính."
+    ],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M27",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 3,
+    "stem": "Một trưởng phòng kinh doanh giỏi bị phát hiện gian lận chi phí tiếp khách. Tổng Giám đốc cho người này nghỉ việc lặng lẽ với lý do 'cá nhân', không công bố và không xử lý theo quy chế. Ảnh hưởng đáng lo ngại nhất là gì?",
+    "options": [
+      "Công ty mất một nhân sự kinh doanh giỏi trong ngắn hạn.",
+      "Người lao động có thể khiếu nại về thủ tục chấm dứt hợp đồng lao động.",
+      "Nhân viên có thể nghĩ gian lận ít bị xử lý, làm giảm tác dụng răn đe.",
+      "Chi phí tuyển dụng người thay thế tăng lên đáng kể."
+    ],
+    "answer": 2,
+    "explanation": "Thông điệp từ cấp cao (tone at the top) ảnh hưởng mạnh đến khả năng xảy ra gian lận. Xử lý lặng lẽ, không nhất quán với quy chế làm nhân viên tin rằng hậu quả của gian lận là nhẹ, giảm răn đe.",
+    "optionNotes": [
+      "Sai. Đây là hệ quả kinh doanh, không phải mối lo chính.",
+      "Sai. Rủi ro thứ yếu.",
+      "Đúng. Làm suy yếu răn đe và tone at the top.",
+      "Sai. Chi phí thứ yếu."
+    ],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M28",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Quy chế quy định hạn mức phê duyệt theo cấp, nhưng trên ERP mọi trưởng phòng đều có quyền duyệt đơn hàng với bất kỳ giá trị nào. Khuyến nghị phù hợp nhất là gì?",
+    "options": [
+      "Nhắc nhở các trưởng phòng đọc lại quy chế phân quyền.",
+      "Bỏ hạn mức trong quy chế cho khớp với hệ thống.",
+      "Yêu cầu kế toán kiểm tra lại toàn bộ đơn hàng mỗi năm.",
+      "Cấu hình hạn mức phê duyệt trên ERP theo đúng quy chế."
+    ],
+    "answer": 3,
+    "explanation": "Hạn mức chỉ có trên giấy thì dễ bị vượt. Cấu hình hạn mức trên hệ thống biến chính sách thành kiểm soát phòng ngừa tự động, giúp ngăn việc vượt quyền.",
+    "optionNotes": [
+      "Sai. Nhắc nhở không ngăn được vượt quyền.",
+      "Sai. Làm yếu kiểm soát thay vì sửa.",
+      "Sai. Kiểm tra hằng năm là quá muộn.",
+      "Đúng. Kiểm soát tự động theo hạn mức."
+    ],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M29",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Két tiền của chi nhánh chỉ mở được khi có hai người cùng lúc, mỗi người giữ một phần mã khóa. Đây là kiểm soát gì và ngăn chủ yếu rủi ro nào?",
+    "options": [
+      "Kiểm soát kép, ngăn một người tự lấy tiền mà không bị phát hiện.",
+      "Kiểm soát phát hiện, giúp phát hiện sai sót khi kiểm đếm tiền cuối ngày.",
+      "Kiểm soát khắc phục, giúp khôi phục tiền sau khi bị mất.",
+      "Kiểm soát hướng dẫn, nhắc nhở nhân viên về quy định quỹ."
+    ],
+    "answer": 0,
+    "explanation": "Kiểm soát kép (dual control) yêu cầu hai người cùng tham gia để thực hiện một hành động nhạy cảm, ngăn một cá nhân tự chiếm đoạt tài sản. Hạn chế: không ngăn được khi hai người thông đồng.",
+    "optionNotes": [
+      "Đúng. Kiểm soát kép ngăn hành vi một người.",
+      "Sai. Đây là kiểm soát phòng ngừa.",
+      "Sai. Không khôi phục được tài sản.",
+      "Sai. Đây là kiểm soát vật chất, không phải hướng dẫn."
+    ],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M30",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Nghi phạm có thu nhập lương khoảng 300 triệu đồng mỗi năm nhưng trong hai năm đã mua nhà, xe, gửi tiết kiệm trị giá hơn 5 tỷ đồng. Kỹ thuật nào giúp ước tính thu nhập không giải thích được của người này?",
+    "options": [
+      "Phương pháp chọn mẫu ngẫu nhiên các giao dịch.",
+      "Phương pháp giá trị tài sản ròng (net worth).",
+      "Phương pháp phân tích tỷ số tài chính của công ty.",
+      "Phương pháp phỏng vấn đồng nghiệp của nghi phạm."
+    ],
+    "answer": 1,
+    "explanation": "Phương pháp giá trị tài sản ròng so sánh mức tăng tài sản ròng và chi tiêu với nguồn thu nhập đã biết; phần chênh lệch là thu nhập không giải thích được, có thể từ gian lận. Đây là kỹ thuật điều tra gián tiếp phổ biến.",
+    "optionNotes": [
+      "Sai. Chọn mẫu không ước tính thu nhập cá nhân.",
+      "Đúng. So sánh tăng tài sản với thu nhập đã biết.",
+      "Sai. Tỷ số của công ty không đo tài sản cá nhân.",
+      "Sai. Phỏng vấn không ước tính được số tiền."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M31",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Nghi ngờ thủ quỹ chi nhánh A dùng tiền quỹ cá nhân, kiểm toán viên định kiểm kê quỹ đột xuất. Chi nhánh A và B cùng thành phố, có thể chuyển tiền cho nhau. Cách thực hiện phù hợp nhất là gì?",
+    "options": [
+      "Báo trước một ngày cho thủ quỹ A để chuẩn bị đầy đủ chứng từ liên quan.",
+      "Kiểm kê quỹ A trước, tuần sau mới kiểm kê quỹ B.",
+      "Kiểm kê đột xuất đồng thời quỹ A và B, niêm phong trước khi đếm.",
+      "Yêu cầu thủ quỹ A tự đếm và gửi biên bản qua email."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm kê đột xuất, đồng thời các quỹ có thể chuyển cho nhau, ngăn việc lấy tiền từ quỹ khác bù vào chỗ thiếu. Niêm phong trước khi đếm và có người chứng kiến giúp bảo đảm giá trị của kết quả.",
+    "optionNotes": [
+      "Sai. Báo trước cho phép che giấu.",
+      "Sai. Tiền có thể được chuyển bù giữa hai quỹ.",
+      "Đúng. Đột xuất, đồng thời, niêm phong.",
+      "Sai. Tự đếm không phải bằng chứng độc lập."
+    ],
+    "refs": [
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M32",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên soạn báo cáo kết quả hỗ trợ điều tra một vụ chiếm đoạt tài sản. Cách trình bày nào phù hợp nhất?",
+    "options": [
+      "Kết luận rõ ràng nhân viên nào phạm tội và mức án đề xuất.",
+      "Ghi đầy đủ tin đồn từ đồng nghiệp để tham khảo thêm.",
+      "Chỉ nêu nghi ngờ cá nhân của kiểm toán viên về các đối tượng liên quan.",
+      "Trình bày dữ kiện, bằng chứng khách quan; không kết luận về tội danh."
+    ],
+    "answer": 3,
+    "explanation": "Báo cáo điều tra trình bày dữ kiện và bằng chứng khách quan, tránh ý kiến về việc ai có tội; kết luận về tội danh thuộc cơ quan có thẩm quyền. Tin đồn và ý kiến chủ quan làm giảm giá trị và có thể gây rủi ro pháp lý.",
+    "optionNotes": [
+      "Sai. Kết luận tội danh vượt thẩm quyền.",
+      "Sai. Tin đồn không có giá trị bằng chứng.",
+      "Sai. Nghi ngờ chủ quan không phải bằng chứng.",
+      "Đúng. Dữ kiện, bằng chứng, không kết luận tội."
+    ],
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-M33",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Khi lập kế hoạch kiểm toán quy trình thu hồi nợ, kiểm toán viên biết nhân viên thu hồi nợ được hưởng hoa hồng trên số tiền thu được và có quyền đề xuất xóa nợ. Rủi ro gian lận đáng lưu ý nhất là gì?",
+    "options": [
+      "Thu tiền của khách rồi đề xuất xóa nợ để chiếm đoạt.",
+      "Nhân viên làm việc quá sức để đạt hoa hồng cao.",
+      "Khách hàng phàn nàn vì bị nhắc nợ quá nhiều lần trong tháng.",
+      "Hoa hồng làm tăng chi phí bán hàng của công ty."
+    ],
+    "answer": 0,
+    "explanation": "Người vừa thu tiền vừa đề xuất xóa nợ có thể thu tiền rồi xóa khoản nợ đó để che giấu việc chiếm đoạt. Kiểm toán viên cần xem xét xác nhận độc lập với khách hàng đã được xóa nợ và phân nhiệm việc xóa nợ.",
+    "optionNotes": [
+      "Đúng. Kết hợp thu tiền và xóa nợ tạo cơ hội gian lận.",
+      "Sai. Không phải rủi ro gian lận.",
+      "Sai. Rủi ro dịch vụ khách hàng.",
+      "Sai. Chi phí không phải rủi ro gian lận."
+    ],
+    "refs": [
+      "CIA Part 1 D.2",
+      "GIAS 13.2"
+    ],
+    "source": "original"
   }
 ]

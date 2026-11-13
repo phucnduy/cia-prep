@@ -3356,5 +3356,258 @@
       "GIAS 14.1"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-C-M39",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Ngân hàng thành lập Ủy ban Rủi ro thuộc HĐQT bên cạnh Ủy ban Kiểm toán. Vai trò chính của Ủy ban Rủi ro là gì?",
+    "options": [
+      "Trực tiếp phê duyệt từng khoản cho vay của chi nhánh.",
+      "Giám sát khung quản lý rủi ro và việc tuân thủ khẩu vị rủi ro.",
+      "Thay Ủy ban Kiểm toán giám sát toàn bộ chức năng kiểm toán nội bộ.",
+      "Thực hiện kiểm tra kiểm soát nội bộ ở các chi nhánh."
+    ],
+    "answer": 1,
+    "explanation": "Ủy ban Rủi ro hỗ trợ HĐQT giám sát khung quản lý rủi ro, khẩu vị rủi ro và hồ sơ rủi ro của tổ chức. Phê duyệt từng khoản vay là việc của Ban điều hành; giám sát kiểm toán nội bộ thường thuộc Ủy ban Kiểm toán.",
+    "optionNotes": [
+      "Sai. Phê duyệt từng giao dịch là việc điều hành.",
+      "Đúng. Giám sát khung quản lý rủi ro và khẩu vị.",
+      "Sai. Thường là vai trò của Ủy ban Kiểm toán.",
+      "Sai. Kiểm tra kiểm soát là việc của tuyến hai, tuyến ba."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M40",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Nhân viên kho nhiều lần bỏ qua bước ký nhận hàng nhưng không ai bị nhắc nhở, và chỉ tiêu đánh giá nhân viên chỉ gồm tốc độ xuất hàng. Theo COSO 2013, nguyên tắc nào bị vi phạm rõ nhất?",
+    "options": [
+      "Tổ chức xác định mục tiêu đủ rõ để nhận diện rủi ro.",
+      "Tổ chức lựa chọn và phát triển kiểm soát chung về công nghệ.",
+      "Tổ chức buộc cá nhân chịu trách nhiệm giải trình về kiểm soát.",
+      "Tổ chức truyền thông thông tin với các bên bên ngoài."
+    ],
+    "answer": 2,
+    "explanation": "Nguyên tắc 5 của COSO 2013 (môi trường kiểm soát) yêu cầu tổ chức buộc cá nhân chịu trách nhiệm giải trình về kiểm soát, gồm việc gắn chỉ tiêu, khen thưởng, kỷ luật với trách nhiệm kiểm soát.",
+    "optionNotes": [
+      "Sai. Đây là nguyên tắc 6 về mục tiêu.",
+      "Sai. Đây là nguyên tắc 11 về kiểm soát CNTT.",
+      "Đúng. Nguyên tắc 5 về trách nhiệm giải trình.",
+      "Sai. Đây là nguyên tắc 15 về truyền thông bên ngoài."
+    ],
+    "refs": [
+      "COSO 2013",
+      "CIA Part 1 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M41",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Quy tắc ứng xử của một nhà máy may chỉ có bản tiếng Anh và được gửi qua email, trong khi phần lớn công nhân không đọc được tiếng Anh và không có email công ty. Điểm yếu chính của chương trình đạo đức là gì?",
+    "options": [
+      "Quy tắc ứng xử chưa được HĐQT phê duyệt.",
+      "Nhà máy chưa có bộ phận pháp chế riêng.",
+      "Quy tắc ứng xử quá ngắn gọn so với thông lệ chung của ngành.",
+      "Quy tắc chưa được truyền đạt hiệu quả tới người lao động."
+    ],
+    "answer": 3,
+    "explanation": "Chương trình đạo đức chỉ hiệu quả khi người lao động hiểu và tiếp cận được quy tắc ứng xử. Ngôn ngữ và kênh truyền đạt không phù hợp làm quy tắc mất tác dụng với phần lớn nhân viên.",
+    "optionNotes": [
+      "Sai. Không có thông tin về việc phê duyệt.",
+      "Sai. Không phải điểm yếu chính được nêu.",
+      "Sai. Độ dài không phải vấn đề.",
+      "Đúng. Truyền đạt không đến được người lao động."
+    ],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M42",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 3,
+    "stem": "Hệ thống thanh toán của một ngân hàng ngừng hoạt động một ngày do lỗi nâng cấp, khách hàng phản ứng mạnh trên mạng xã hội và ngân hàng phải bồi thường phí. Mô tả nào đúng nhất về rủi ro trong tình huống này?",
+    "options": [
+      "Rủi ro hoạt động kéo theo rủi ro uy tín và tài chính.",
+      "Chỉ là rủi ro hoạt động, các hệ quả khác không đáng kể.",
+      "Chỉ là rủi ro chiến lược do chọn sai nhà cung cấp phần mềm.",
+      "Chỉ là rủi ro tuân thủ do vi phạm cam kết dịch vụ."
+    ],
+    "answer": 0,
+    "explanation": "Các rủi ro có liên hệ với nhau: sự cố hoạt động (lỗi nâng cấp) dẫn tới rủi ro uy tín (phản ứng của khách hàng) và tài chính (bồi thường). Đánh giá rủi ro cần xem xét mối liên hệ này thay vì xem từng loại riêng lẻ.",
+    "optionNotes": [
+      "Đúng. Rủi ro hoạt động lan sang uy tín và tài chính.",
+      "Sai. Bỏ qua các hệ quả liên đới.",
+      "Sai. Không có thông tin về lựa chọn chiến lược.",
+      "Sai. Chỉ là một khía cạnh nhỏ."
+    ],
+    "refs": [
+      "CIA Part 1 C.4",
+      "COSO ERM 2017"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M43",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 2,
+    "stem": "Nhân viên pháp chế dán nội dung hợp đồng của khách hàng vào một công cụ trí tuệ nhân tạo miễn phí trên mạng để tóm tắt nhanh. Rủi ro chính cần quan tâm là gì?",
+    "options": [
+      "Bản tóm tắt có thể dài hơn so với mong muốn của người dùng.",
+      "Lộ thông tin bảo mật của khách hàng và vi phạm nghĩa vụ bảo mật.",
+      "Nhân viên tiết kiệm được quá nhiều thời gian làm việc.",
+      "Công cụ có giao diện bằng tiếng nước ngoài."
+    ],
+    "answer": 1,
+    "explanation": "Đưa dữ liệu bảo mật vào công cụ bên ngoài không được kiểm soát có thể làm lộ thông tin khách hàng, vi phạm hợp đồng và quy định về dữ liệu. Đây là rủi ro mới nổi cần chính sách và kiểm soát sử dụng công nghệ.",
+    "optionNotes": [
+      "Sai. Không phải rủi ro đáng kể.",
+      "Đúng. Lộ dữ liệu bảo mật và vi phạm nghĩa vụ.",
+      "Sai. Đây là lợi ích, không phải rủi ro.",
+      "Sai. Không phải rủi ro chính."
+    ],
+    "refs": [
+      "CIA Part 1 C.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M44",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 2,
+    "stem": "Ngân hàng có cơ sở dữ liệu ghi nhận chi tiết các tổn thất hoạt động trong năm năm qua, nhưng bộ phận quản lý rủi ro không dùng đến khi đánh giá rủi ro. Khuyến nghị phù hợp nhất là gì?",
+    "options": [
+      "Xóa cơ sở dữ liệu tổn thất vì không ai sử dụng.",
+      "Chỉ dùng dữ liệu tổn thất cho các báo cáo định kỳ gửi cơ quan quản lý.",
+      "Dùng dữ liệu tổn thất để nhận diện, đánh giá rủi ro và kiểm soát yếu.",
+      "Chuyển cơ sở dữ liệu cho kiểm toán nội bộ quản lý."
+    ],
+    "answer": 2,
+    "explanation": "Dữ liệu tổn thất thực tế là nguồn quan trọng để nhận diện rủi ro, ước tính khả năng xảy ra, mức ảnh hưởng và chỉ ra kiểm soát yếu. Không dùng dữ liệu này làm đánh giá rủi ro kém chính xác.",
+    "optionNotes": [
+      "Sai. Bỏ đi nguồn thông tin giá trị.",
+      "Sai. Hạn chế giá trị sử dụng nội bộ.",
+      "Đúng. Dùng dữ liệu tổn thất trong đánh giá rủi ro.",
+      "Sai. Kiểm toán nội bộ không quản lý dữ liệu này."
+    ],
+    "refs": [
+      "CIA Part 1 C.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M45",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Báo cáo rủi ro gửi HĐQT hằng quý chỉ liệt kê tên mười rủi ro lớn nhất và điểm số hiện tại. Cải thiện nào giúp HĐQT giám sát tốt nhất?",
+    "options": [
+      "Tăng danh sách lên một trăm rủi ro để đầy đủ hơn.",
+      "Giảm tần suất báo cáo xuống một lần mỗi năm.",
+      "Chuyển báo cáo sang định dạng trình chiếu nhiều màu sắc cho dễ xem.",
+      "Thêm xu hướng, mức so với khẩu vị và tình trạng ứng phó."
+    ],
+    "answer": 3,
+    "explanation": "Báo cáo rủi ro hữu ích cho HĐQT khi cho biết rủi ro đang tăng hay giảm, đang ở đâu so với khẩu vị rủi ro, và biện pháp ứng phó có hiệu quả không, để HĐQT ra quyết định kịp thời.",
+    "optionNotes": [
+      "Sai. Quá nhiều thông tin làm loãng trọng tâm.",
+      "Sai. Giảm tần suất làm chậm phát hiện.",
+      "Sai. Hình thức không thay được nội dung.",
+      "Đúng. Xu hướng, so với khẩu vị và tình trạng ứng phó."
+    ],
+    "refs": [
+      "CIA Part 1 C.6",
+      "COSO ERM 2017"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M46",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 2,
+    "stem": "Trước khi nhập lô 200 phiếu chi, nhân viên cộng tổng số tiền và tổng số phiếu; sau khi nhập, hệ thống in tổng để so sánh. Đây là loại kiểm soát nào?",
+    "options": [
+      "Kiểm soát tổng lô (batch total) đối với dữ liệu đầu vào.",
+      "Kiểm soát vật chất đối với chứng từ gốc.",
+      "Kiểm soát truy cập đối với hệ thống kế toán.",
+      "Kiểm soát khắc phục được thực hiện sau khi phát hiện sai sót."
+    ],
+    "answer": 0,
+    "explanation": "Tổng lô (tổng tiền, tổng số chứng từ) được tính trước và so sánh với kết quả sau khi nhập, giúp phát hiện chứng từ bị bỏ sót, nhập trùng hoặc nhập sai số tiền. Đây là kiểm soát đầu vào.",
+    "optionNotes": [
+      "Đúng. Kiểm soát tổng lô đầu vào.",
+      "Sai. Không phải bảo vệ vật chất chứng từ.",
+      "Sai. Không liên quan đến quyền truy cập.",
+      "Sai. Mục đích là phát hiện sai sót khi nhập."
+    ],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M47",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 3,
+    "stem": "Nhà máy có biên bản kiểm tra an toàn hằng tuần đầy đủ chữ ký, nhưng số vụ tai nạn lao động năm nay tăng 50%. Khi đánh giá hiệu quả kiểm soát an toàn (kiểm soát phi tài chính), kiểm toán viên nên làm gì trước tiên?",
+    "options": [
+      "Kết luận kiểm soát hữu hiệu vì biên bản kiểm tra đầy đủ chữ ký hằng tuần.",
+      "Đối chiếu nội dung kiểm tra với nguyên nhân các vụ tai nạn thực tế.",
+      "Đề nghị tăng tần suất kiểm tra an toàn lên hằng ngày.",
+      "Chuyển vấn đề cho bộ phận nhân sự vì ngoài phạm vi."
+    ],
+    "answer": 1,
+    "explanation": "Biên bản đầy đủ không chứng minh kiểm soát hữu hiệu khi kết quả (tai nạn) xấu đi. Cần xem kiểm tra có nhắm đúng các mối nguy gây tai nạn không, tức là đánh giá cả thiết kế và hiệu quả dựa trên kết quả thực tế.",
+    "optionNotes": [
+      "Sai. Hình thức đầy đủ không đồng nghĩa với hiệu quả.",
+      "Đúng. Đối chiếu kiểm soát với nguyên nhân thực tế.",
+      "Sai. Tăng tần suất trước khi hiểu nguyên nhân là chưa phù hợp.",
+      "Sai. Kiểm soát phi tài chính thuộc phạm vi kiểm toán."
+    ],
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-M48",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 1,
+    "stem": "Trong công ty cổ phần, cơ quan nào có quyền bầu và bãi nhiệm thành viên HĐQT?",
+    "options": [
+      "Ban điều hành công ty.",
+      "Ủy ban Kiểm toán thuộc HĐQT.",
+      "Đại hội đồng cổ đông.",
+      "Kiểm toán nội bộ."
+    ],
+    "answer": 2,
+    "explanation": "Cổ đông thực hiện quyền sở hữu thông qua Đại hội đồng cổ đông, trong đó có quyền bầu và bãi nhiệm thành viên HĐQT. HĐQT chịu trách nhiệm giải trình với cổ đông.",
+    "optionNotes": [
+      "Sai. Ban điều hành chịu sự giám sát của HĐQT.",
+      "Sai. Ủy ban Kiểm toán là một ủy ban thuộc HĐQT.",
+      "Đúng. Đại hội đồng cổ đông bầu thành viên HĐQT.",
+      "Sai. Kiểm toán nội bộ không có quyền này."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
   }
 ]
