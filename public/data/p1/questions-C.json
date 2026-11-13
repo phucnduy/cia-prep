@@ -1938,5 +1938,181 @@
       "CIA Part 1 C.8"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-C-N21",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Công ty chuẩn bị triển khai chiến lược chuyển đổi số lớn, nhưng HĐQT gồm toàn các thành viên có nền tảng tài chính, không ai có kinh nghiệm công nghệ. Biện pháp quản trị nào phù hợp nhất?",
+    "options": [
+      "Giao toàn bộ quyết định về chuyển đổi số cho Ban điều hành, HĐQT không cần tham gia.",
+      "Đánh giá ma trận kỹ năng HĐQT, bổ sung năng lực công nghệ qua bổ nhiệm, đào tạo.",
+      "Giao kiểm toán nội bộ thay mặt HĐQT phê duyệt các quyết định đầu tư công nghệ.",
+      "Hoãn chiến lược chuyển đổi số cho đến khi có thành viên HĐQT là chuyên gia công nghệ."
+    ],
+    "answer": 1,
+    "explanation": "HĐQT cần có đủ năng lực tập thể để giám sát chiến lược và rủi ro. Ma trận kỹ năng giúp nhận diện khoảng trống; có thể bù bằng bổ nhiệm thành viên mới, đào tạo hoặc dùng cố vấn độc lập.",
+    "optionNotes": [
+      "Sai. HĐQT vẫn phải giám sát chiến lược lớn.",
+      "Đúng. Đánh giá và bổ sung năng lực tập thể của HĐQT.",
+      "Sai. Kiểm toán nội bộ không phê duyệt quyết định đầu tư.",
+      "Sai. Hoãn chiến lược không phải giải pháp quản trị phù hợp."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N22",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Công ty tuyển gấp 50 nhân viên thu ngân mà không kiểm tra lý lịch, không xác minh tham chiếu từ nơi làm cũ. Điểm yếu này thuộc thành phần nào của COSO 2013?",
+    "options": [
+      "Môi trường kiểm soát: cam kết về chính trực và năng lực khi tuyển dụng.",
+      "Hoạt động giám sát: đánh giá định kỳ hiệu quả của các kiểm soát đang vận hành.",
+      "Thông tin và truyền thông: chất lượng thông tin dùng cho báo cáo quản trị.",
+      "Đánh giá rủi ro: nhận diện các thay đổi lớn ảnh hưởng đến hệ thống kiểm soát."
+    ],
+    "answer": 0,
+    "explanation": "Môi trường kiểm soát gồm cam kết về chính trực, giá trị đạo đức và năng lực, thể hiện qua tuyển dụng, đào tạo, giữ chân người phù hợp. Kiểm tra lý lịch là một biện pháp của thành phần này, đặc biệt với vị trí giữ tiền.",
+    "optionNotes": [
+      "Đúng. Tuyển dụng không kiểm tra lý lịch làm yếu môi trường kiểm soát.",
+      "Sai. Giám sát là đánh giá kiểm soát đang vận hành.",
+      "Sai. Không liên quan đến chất lượng thông tin.",
+      "Sai. Vấn đề không phải nhận diện thay đổi."
+    ],
+    "refs": [
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N23",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 2,
+    "stem": "Khi áp dụng ISO 31000:2018 cho dự án mở rộng sang thị trường Đông Nam Á, bước đầu tiên của quy trình quản lý rủi ro mà nhóm dự án cần làm là gì?",
+    "options": [
+      "Mua bảo hiểm cho mọi rủi ro chính trị có thể phát sinh tại thị trường mới.",
+      "Xác định phạm vi, bối cảnh bên trong, bên ngoài và tiêu chí rủi ro.",
+      "Lập ngay danh sách biện pháp xử lý cho mọi rủi ro mà nhóm có thể nghĩ đến.",
+      "Báo cáo HĐQT về các rủi ro đã xảy ra ở dự án mở rộng tại thị trường khác."
+    ],
+    "answer": 1,
+    "explanation": "Quy trình quản lý rủi ro theo ISO 31000:2018 bắt đầu bằng xác định phạm vi, bối cảnh và tiêu chí, rồi đến đánh giá rủi ro (nhận diện, phân tích, định mức), xử lý rủi ro, kèm trao đổi tham vấn, giám sát rà soát, ghi nhận báo cáo xuyên suốt.",
+    "optionNotes": [
+      "Sai. Mua bảo hiểm là xử lý rủi ro, đến sau đánh giá.",
+      "Đúng. Xác định phạm vi, bối cảnh và tiêu chí là bước đầu tiên.",
+      "Sai. Lập biện pháp xử lý trước khi đánh giá là đảo ngược trình tự.",
+      "Sai. Báo cáo không phải bước đầu tiên của quy trình."
+    ],
+    "refs": [
+      "ISO 31000:2018"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N24",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Khối Kinh doanh của một ngân hàng tung ra sản phẩm vay tiêu dùng mới trong 2 tuần để kịp mùa cao điểm, bỏ qua bước đánh giá của bộ phận Quản lý rủi ro và Pháp chế. Kiểm toán nội bộ nên nêu điểm yếu nào?",
+    "options": [
+      "Sản phẩm có lãi suất cao hơn đối thủ, có thể làm giảm khả năng cạnh tranh.",
+      "Bỏ qua quy trình phê duyệt sản phẩm mới, rủi ro chưa được đánh giá.",
+      "Thời gian ra mắt 2 tuần quá dài so với tốc độ của các công ty tài chính mới.",
+      "Khối Kinh doanh chưa có đủ nhân sự để bán sản phẩm trong mùa cao điểm."
+    ],
+    "answer": 1,
+    "explanation": "Quy trình phê duyệt sản phẩm mới là kiểm soát quan trọng để đánh giá rủi ro tín dụng, pháp lý, hoạt động, bảo vệ người tiêu dùng trước khi ra mắt. Bỏ qua tuyến thứ hai vì áp lực thời gian là điểm yếu trong quản lý rủi ro thay đổi.",
+    "optionNotes": [
+      "Sai. Giá cạnh tranh là vấn đề kinh doanh, không phải điểm yếu kiểm soát.",
+      "Đúng. Bỏ qua phê duyệt sản phẩm mới là điểm yếu quản lý rủi ro.",
+      "Sai. Tốc độ không phải vấn đề kiểm soát được mô tả.",
+      "Sai. Nhân sự bán hàng không phải điểm yếu chính."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N25",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 3,
+    "stem": "Lệnh chuyển tiền quốc tế khi đã thực hiện thì gần như không thể thu hồi. Với rủi ro chuyển nhầm hoặc chuyển gian lận số tiền lớn, loại kiểm soát nào nên được ưu tiên?",
+    "options": [
+      "Kiểm soát phát hiện: đối chiếu sao kê ngân hàng vào cuối mỗi tháng.",
+      "Phòng ngừa: phê duyệt kép và xác minh người nhận trước khi chuyển.",
+      "Kiểm soát khắc phục: quy trình liên hệ ngân hàng nhận để đề nghị hoàn tiền.",
+      "Kiểm soát chỉ dẫn: ban hành hướng dẫn chung về quy trình chuyển tiền."
+    ],
+    "answer": 1,
+    "explanation": "Khi hậu quả lớn và khó đảo ngược, kiểm soát phòng ngừa được ưu tiên vì phát hiện sau khi tiền đã đi thì khó khắc phục. Phê duyệt kép, xác minh người nhận qua kênh độc lập là biện pháp phù hợp.",
+    "optionNotes": [
+      "Sai. Phát hiện cuối tháng là quá muộn với giao dịch không thu hồi được.",
+      "Đúng. Phòng ngừa là ưu tiên khi hậu quả khó đảo ngược.",
+      "Sai. Khắc phục có thể không thành công với tiền đã chuyển đi.",
+      "Sai. Hướng dẫn chung không ngăn được giao dịch sai cụ thể."
+    ],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N26",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên phát hiện ba khiếm khuyết: (1) thiếu chữ ký trên 2 phiếu chi nhỏ; (2) không đối chiếu công nợ nhà cung cấp trong 6 tháng, số dư lớn; (3) Ban điều hành có thể sửa giá bán trên hệ thống không qua phê duyệt. Cách xếp mức độ nào hợp lý nhất?",
+    "options": [
+      "Cả ba cùng mức độ, vì đều là khiếm khuyết trong thiết kế hoặc vận hành kiểm soát.",
+      "Xếp theo khả năng và mức độ ảnh hưởng: (1) thấp; (2), (3) nghiêm trọng hơn.",
+      "Xếp theo số lần vi phạm, nên khiếm khuyết (1) với 2 phiếu chi là nghiêm trọng nhất.",
+      "Chỉ báo cáo khiếm khuyết (3), vì hai khiếm khuyết còn lại đã được đơn vị khắc phục."
+    ],
+    "answer": 1,
+    "explanation": "Mức độ nghiêm trọng của khiếm khuyết kiểm soát được đánh giá theo khả năng xảy ra sai sót và mức độ ảnh hưởng tiềm tàng (từ khiếm khuyết thông thường đến khiếm khuyết nghiêm trọng, yếu kém trọng yếu). Sai sót lẻ tẻ giá trị nhỏ ít nghiêm trọng hơn số dư lớn không đối chiếu hoặc khả năng vượt quyền.",
+    "optionNotes": [
+      "Sai. Khiếm khuyết khác nhau về mức độ nghiêm trọng.",
+      "Đúng. Xếp mức theo khả năng và mức độ ảnh hưởng.",
+      "Sai. Số lần vi phạm không quyết định mức độ nghiêm trọng.",
+      "Sai. Tình huống không nói các khiếm khuyết đã được khắc phục."
+    ],
+    "refs": [
+      "CIA Part 1 C.8",
+      "GIAS 14.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N27",
+    "section": "C",
+    "topic": "C5",
+    "difficulty": 3,
+    "stem": "Sau khi mua lại một công ty lớn ở nước ngoài, danh mục và mức độ rủi ro của tập đoàn thay đổi đáng kể. Theo COSO ERM 2017, thành phần nào đòi hỏi tổ chức xem xét lại cách quản trị rủi ro của mình trước những thay đổi trọng yếu như vậy?",
+    "options": [
+      "Rà soát và Điều chỉnh (Review and Revision).",
+      "Quản trị và Văn hóa (Governance and Culture).",
+      "Thông tin, Truyền thông và Báo cáo.",
+      "Hiệu quả hoạt động (Performance)."
+    ],
+    "answer": 0,
+    "explanation": "Thành phần Rà soát và Điều chỉnh của COSO ERM 2017 yêu cầu tổ chức đánh giá các thay đổi trọng yếu, rà soát rủi ro và hiệu quả, và cải tiến quản trị rủi ro doanh nghiệp. Một thương vụ mua lại lớn là thay đổi trọng yếu điển hình.",
+    "optionNotes": [
+      "Đúng. Đánh giá thay đổi trọng yếu thuộc Rà soát và Điều chỉnh.",
+      "Sai. Quản trị và Văn hóa bàn về giám sát, cơ cấu, giá trị.",
+      "Sai. Thành phần này bàn về thông tin và báo cáo rủi ro.",
+      "Sai. Hiệu quả hoạt động là nhận diện, đánh giá, ứng phó rủi ro cụ thể."
+    ],
+    "refs": [
+      "COSO ERM 2017"
+    ],
+    "source": "original"
   }
 ]

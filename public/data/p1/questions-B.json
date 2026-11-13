@@ -1272,5 +1272,132 @@
       "GIAS 5.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-B-N11",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Khi kiểm toán chi nhánh, kiểm toán viên ngân hàng phát hiện các giao dịch có dấu hiệu rửa tiền mà chi nhánh chưa báo cáo theo quy định. Pháp luật yêu cầu ngân hàng báo cáo giao dịch đáng ngờ trong thời hạn nhất định. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Đưa vào báo cáo kiểm toán cuối năm để chi nhánh rút kinh nghiệm trong năm sau.",
+      "Báo kịp thời theo quy trình nội bộ để ngân hàng thực hiện nghĩa vụ báo cáo đúng hạn.",
+      "Tự gửi báo cáo trực tiếp cho cơ quan quản lý mà không thông qua kênh nào của ngân hàng.",
+      "Yêu cầu Giám đốc chi nhánh tự quyết định có báo cáo hay không vì đó là trách nhiệm của họ."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán viên phải hiểu và tuân thủ luật, quy định liên quan, kể cả việc thực hiện các công bố theo yêu cầu; khi phát hiện vi phạm pháp luật phải báo cáo cho người có thẩm quyền theo luật và chính sách (GIAS 1.3). Thời hạn luật định đòi hỏi báo cáo kịp thời qua kênh quy định của ngân hàng.",
+    "optionNotes": [
+      "Sai. Chờ báo cáo cuối năm làm lỡ thời hạn luật định.",
+      "Đúng. Báo kịp thời qua kênh quy định để đáp ứng nghĩa vụ pháp lý.",
+      "Sai. Bỏ qua kênh nội bộ khi chưa có lý do; báo cáo theo quy trình đã thiết lập.",
+      "Sai. Để người có thể liên quan tự quyết là không phù hợp."
+    ],
+    "refs": [
+      "GIAS 1.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N12",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 3,
+    "stem": "Khi lập kế hoạch kiểm toán quy trình xử lý khiếu nại, trưởng nhóm chỉ trao đổi với Ban điều hành khối Dịch vụ. Theo yêu cầu về thận trọng nghề nghiệp đúng mức, kiểm toán viên còn nên cân nhắc thêm điều gì?",
+    "options": [
+      "Không cần thêm, vì Ban điều hành khối là bên duy nhất sử dụng kết quả kiểm toán.",
+      "Lợi ích của người nhận dịch vụ và các bên liên quan khác, như HĐQT, khách hàng.",
+      "Ý kiến của đối thủ cạnh tranh về chất lượng dịch vụ khách hàng của công ty.",
+      "Mong muốn của nhân viên khối Dịch vụ về phạm vi và thời gian cuộc kiểm toán."
+    ],
+    "answer": 1,
+    "explanation": "Thận trọng nghề nghiệp đúng mức gồm cân nhắc lợi ích của những người nhận dịch vụ kiểm toán nội bộ và của các bên liên quan khác (GIAS 4.2). Với quy trình khiếu nại, HĐQT và khách hàng là các bên có lợi ích quan trọng.",
+    "optionNotes": [
+      "Sai. Kết quả còn phục vụ HĐQT và ảnh hưởng đến khách hàng.",
+      "Đúng. Đúng yếu tố của thận trọng nghề nghiệp đúng mức.",
+      "Sai. Đối thủ cạnh tranh không phải bên liên quan của cuộc kiểm toán.",
+      "Sai. Mong muốn của nhân viên được kiểm toán không quyết định phạm vi."
+    ],
+    "refs": [
+      "GIAS 4.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N13",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Vợ của một kiểm toán viên mở công ty cung cấp văn phòng phẩm và đang là nhà cung cấp của chính công ty nơi anh làm việc. Anh được giao kiểm toán quy trình mua sắm năm nay. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Nhận việc, vì giá trị mua văn phòng phẩm nhỏ, không ảnh hưởng đến kết luận.",
+      "Nhận việc, và tránh kiểm tra các giao dịch với công ty của vợ mình.",
+      "Báo CAE về xung đột lợi ích để được phân công phù hợp.",
+      "Đề nghị vợ tạm ngừng cung cấp trong thời gian diễn ra cuộc kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán viên phải tránh xung đột lợi ích và không để lợi ích của mình hoặc người khác chi phối (GIAS 2.2), và phải công bố suy giảm cho CAE hoặc người giám sát (GIAS 2.3). Lợi ích kinh tế của người thân trong nhà cung cấp tạo suy giảm, dù giá trị nhỏ.",
+    "optionNotes": [
+      "Sai. Giá trị nhỏ không loại bỏ suy giảm khách quan bị cảm nhận.",
+      "Sai. Tự né một phần vẫn để kiểm toán viên đánh giá toàn quy trình liên quan.",
+      "Đúng. Công bố cho CAE để được phân công phù hợp.",
+      "Sai. Tạm ngừng không xử lý quan hệ lợi ích vẫn tồn tại."
+    ],
+    "refs": [
+      "GIAS 2.2",
+      "GIAS 2.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N14",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 2,
+    "stem": "Đơn vị được kiểm toán cung cấp bản scan hợp đồng có ngày ký sửa bằng bút xóa, nét chữ khác phần còn lại. Thể hiện hoài nghi nghề nghiệp, kiểm toán viên nên làm gì?",
+    "options": [
+      "Chấp nhận bản scan, vì đơn vị đã xác nhận đây là bản sao đúng với bản gốc.",
+      "Yêu cầu xem bản gốc và đối chiếu với nguồn độc lập trước khi dựa vào.",
+      "Kết luận ngay hợp đồng bị giả mạo và báo cáo HĐQT để xử lý kỷ luật.",
+      "Loại hợp đồng ra khỏi mẫu kiểm tra và chọn một hợp đồng khác thay thế."
+    ],
+    "answer": 1,
+    "explanation": "Hoài nghi nghề nghiệp yêu cầu đánh giá phê phán độ tin cậy của thông tin và tìm thêm bằng chứng khi thông tin có thể sai lệch (GIAS 4.3). Độ tin cậy cao hơn khi bằng chứng được đối chiếu, lấy trực tiếp hoặc từ nguồn độc lập (GIAS 14.1).",
+    "optionNotes": [
+      "Sai. Xác nhận của đơn vị không thay thế việc kiểm tra bản gốc.",
+      "Đúng. Xem bản gốc và đối chiếu nguồn độc lập.",
+      "Sai. Kết luận giả mạo khi chưa xác minh là vượt quá bằng chứng.",
+      "Sai. Thay mẫu là bỏ qua dấu hiệu bất thường."
+    ],
+    "refs": [
+      "GIAS 4.3",
+      "GIAS 14.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N15",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Theo chính sách của phòng kiểm toán, mọi kiểm toán viên kê khai lợi ích hằng năm. Một kiểm toán viên kê khai đã mua 5% cổ phần một nhà phân phối, nhưng sau đó không được hỏi gì thêm và vẫn được giao kiểm toán kênh phân phối. Điểm yếu nằm ở đâu?",
+    "options": [
+      "Không có điểm yếu, vì kiểm toán viên đã kê khai trung thực theo đúng chính sách.",
+      "Phương pháp chỉ thu kê khai mà không đánh giá, xử lý suy giảm khi phân công.",
+      "Kiểm toán viên lẽ ra không được đầu tư vào bất kỳ doanh nghiệp nào khác.",
+      "Chính sách nên chuyển sang kê khai mỗi quý thay vì mỗi năm một lần."
+    ],
+    "answer": 1,
+    "explanation": "CAE phải thiết lập phương pháp xử lý suy giảm khách quan, và kiểm toán viên phải thảo luận về suy giảm, có hành động phù hợp theo phương pháp đó (GIAS 2.2). Kê khai chỉ có giá trị khi được dùng để đánh giá và điều chỉnh phân công.",
+    "optionNotes": [
+      "Sai. Kê khai đúng nhưng không được sử dụng thì không bảo vệ khách quan.",
+      "Đúng. Thiếu bước đánh giá, xử lý trong phương pháp.",
+      "Sai. Quá tuyệt đối: đầu tư cá nhân hợp pháp, vấn đề là phân công.",
+      "Sai. Tăng tần suất không khắc phục việc không xử lý thông tin kê khai."
+    ],
+    "refs": [
+      "GIAS 2.2"
+    ],
+    "source": "original"
   }
 ]

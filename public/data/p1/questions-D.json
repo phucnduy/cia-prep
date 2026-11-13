@@ -1080,5 +1080,82 @@
       "GIAS 5.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-D-N12",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Một tổ trưởng sản xuất thường ghi thêm giờ làm thêm cho mình và hai công nhân thân thiết vào bảng chấm công giấy, rồi chia phần tiền tăng thêm. Đây là thủ đoạn gì và kiểm soát nào phù hợp?",
+    "options": [
+      "Nhân viên ma; xác minh thực tế sự tồn tại của toàn bộ công nhân.",
+      "Khai khống giờ công; chấm công tự động, duyệt làm thêm trước.",
+      "Lại quả; luân chuyển định kỳ các tổ trưởng sản xuất giữa các xưởng.",
+      "Gối đầu; đối chiếu bảng lương với sao kê ngân hàng hằng tháng."
+    ],
+    "answer": 1,
+    "explanation": "Ghi khống giờ làm là một dạng gian lận bảng lương (falsified hours). Kiểm soát phù hợp gồm chấm công tự động (thẻ, sinh trắc), phê duyệt làm thêm giờ trước khi làm, và đối chiếu với sản lượng, lịch sản xuất.",
+    "optionNotes": [
+      "Sai. Công nhân có thật; vấn đề là số giờ bị khai khống.",
+      "Đúng. Khai khống giờ công và kiểm soát chấm công phù hợp.",
+      "Sai. Không có bên ngoài chi tiền lại quả.",
+      "Sai. Gối đầu liên quan đến công nợ phải thu."
+    ],
+    "refs": [
+      "CIA Part 1 D.1",
+      "ACFE"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N13",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 3,
+    "stem": "Kiểm toán nội bộ đã xây dựng bộ quy tắc phân tích dữ liệu phát hiện thanh toán bất thường. Ban điều hành đề nghị kiểm toán nội bộ tiếp tục vận hành, xử lý cảnh báo hằng ngày như một kiểm soát của quy trình. Cách tiếp cận phù hợp nhất là gì?",
+    "options": [
+      "Kiểm toán nội bộ tiếp tục vận hành lâu dài, vì đã hiểu rõ các quy tắc nhất.",
+      "Chuyển giao cho Ban điều hành vận hành; kiểm toán nội bộ đánh giá hiệu quả.",
+      "Ngừng sử dụng bộ quy tắc, vì kiểm toán nội bộ không được tạo ra công cụ.",
+      "Giao cho kiểm toán độc lập vận hành để bảo đảm khách quan với cả hai bên."
+    ],
+    "answer": 1,
+    "explanation": "Giám sát liên tục (continuous monitoring) là trách nhiệm của Ban điều hành, như một kiểm soát của quy trình. Kiểm toán nội bộ có thể hỗ trợ xây dựng, nhưng nên chuyển giao và đánh giá hiệu quả (continuous auditing), tránh nhận trách nhiệm quản lý.",
+    "optionNotes": [
+      "Sai. Vận hành kiểm soát lâu dài là nhận trách nhiệm quản lý.",
+      "Đúng. Ban điều hành vận hành, kiểm toán nội bộ đánh giá.",
+      "Sai. Kiểm toán có thể xây dựng công cụ; vấn đề là ai vận hành.",
+      "Sai. Kiểm toán độc lập không vận hành kiểm soát của tổ chức."
+    ],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N14",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Khi lập kế hoạch kiểm toán chi nhánh, kiểm toán viên biết chỉ tiêu doanh số năm nay tăng 60% so với năm trước, thưởng của Giám đốc chi nhánh gắn hoàn toàn với chỉ tiêu này. Thông tin này nên được xử lý thế nào?",
+    "options": [
+      "Bỏ qua, vì chỉ tiêu kinh doanh là quyết định của Ban điều hành, không liên quan kiểm toán.",
+      "Coi là yếu tố áp lực làm tăng rủi ro gian lận, đưa vào đánh giá rủi ro và thủ tục.",
+      "Kết luận ngay Giám đốc chi nhánh có gian lận và báo cáo cho Ủy ban Kiểm toán.",
+      "Đề nghị Ban điều hành hạ chỉ tiêu xuống trước khi bắt đầu cuộc kiểm toán."
+    ],
+    "answer": 1,
+    "explanation": "Chỉ tiêu tăng mạnh cùng thưởng gắn hoàn toàn với chỉ tiêu là yếu tố áp lực trong Tam giác gian lận. Khi tìm hiểu hoạt động, kiểm toán viên phải đánh giá rủi ro liên quan, kể cả rủi ro gian lận, và thiết kế thủ tục tương ứng (GIAS 13.2).",
+    "optionNotes": [
+      "Sai. Áp lực từ chỉ tiêu là yếu tố rủi ro gian lận cần xem xét.",
+      "Đúng. Đưa yếu tố áp lực vào đánh giá rủi ro và thủ tục.",
+      "Sai. Áp lực không chứng minh có gian lận.",
+      "Sai. Đặt chỉ tiêu là quyết định của Ban điều hành."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 1 D.2"
+    ],
+    "source": "original"
   }
 ]

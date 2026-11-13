@@ -2308,5 +2308,131 @@
       "GIAS 9.5"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-A-N29",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Một công ty nhỏ chỉ có một kiểm toán viên nội bộ kiêm CAE. Người này cho rằng chức năng 'quá nhỏ nên được miễn' chương trình đảm bảo và nâng cao chất lượng (QAIP) cùng đánh giá chất lượng từ bên ngoài. Nhận định nào đúng nhất?",
+    "options": [
+      "Đúng, vì GIAS chỉ áp dụng đầy đủ cho các chức năng có từ ba kiểm toán viên trở lên.",
+      "Sai; QAIP vẫn bắt buộc, đánh giá ngoài có thể bằng tự đánh giá kèm xác nhận độc lập.",
+      "Đúng, nếu HĐQT đồng ý bằng văn bản và công bố trong báo cáo thường niên.",
+      "Sai; chức năng nhỏ phải thuê toàn bộ công ty kiểm toán bên ngoài thay cho chính mình."
+    ],
+    "answer": 1,
+    "explanation": "GIAS áp dụng cho mọi chức năng kiểm toán nội bộ, không phân biệt quy mô. CAE phải có QAIP bao quát mọi mặt của chức năng (GIAS 8.3); đánh giá bên ngoài ít nhất năm năm một lần có thể đáp ứng bằng tự đánh giá kèm xác nhận độc lập (GIAS 8.4), một cách tiết kiệm cho chức năng nhỏ.",
+    "optionNotes": [
+      "Sai. GIAS không đặt ngưỡng quy mô để miễn áp dụng.",
+      "Đúng. Vẫn bắt buộc, với cách đáp ứng phù hợp quy mô nhỏ.",
+      "Sai. HĐQT không thể miễn yêu cầu của Chuẩn mực.",
+      "Sai. Không bắt buộc thuê ngoài toàn bộ chức năng."
+    ],
+    "refs": [
+      "GIAS 8.3",
+      "GIAS 8.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N30",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Dự án nâng cấp hệ thống CRM đã vận hành 6 tháng. HĐQT muốn biết dự án có đạt các lợi ích nêu trong phương án đầu tư được duyệt (giảm 20% thời gian xử lý, tăng tỷ lệ giữ chân khách) hay không. Loại kiểm toán nào phù hợp nhất?",
+    "options": [
+      "Rà soát trước triển khai, đánh giá thiết kế kiểm soát của hệ thống trước khi chạy.",
+      "Rà soát sau triển khai, đánh giá lợi ích đạt được so với phương án đầu tư.",
+      "Kiểm toán tài chính, đánh giá chi phí dự án đã được ghi nhận đúng tài khoản.",
+      "Kiểm toán tuân thủ, đánh giá quy trình đấu thầu chọn nhà cung cấp phần mềm."
+    ],
+    "answer": 1,
+    "explanation": "Rà soát sau triển khai (post-implementation review) đánh giá dự án đã hoàn thành có đạt mục tiêu, lợi ích theo phương án được duyệt hay không, và rút bài học. Rà soát trước triển khai tập trung vào thiết kế trước khi vận hành.",
+    "optionNotes": [
+      "Sai. Hệ thống đã vận hành; câu hỏi là về lợi ích đạt được.",
+      "Đúng. Đánh giá lợi ích so với phương án đầu tư là rà soát sau triển khai.",
+      "Sai. Ghi nhận chi phí không trả lời câu hỏi về lợi ích.",
+      "Sai. Đấu thầu không phải mục tiêu được hỏi."
+    ],
+    "refs": [
+      "CIA Part 1 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N31",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Công ty con của một tập đoàn có bộ phận kiểm toán nội bộ riêng. Giám đốc công ty con muốn trưởng kiểm toán nội bộ chỉ báo cáo cho mình, không báo cáo cho Ủy ban Kiểm toán công ty con hay kiểm toán nội bộ tập đoàn. Rủi ro chính là gì?",
+    "options": [
+      "Không có rủi ro, vì Giám đốc công ty con là người hiểu rõ nhất hoạt động tại đây.",
+      "Thiếu độc lập: kênh báo cáo chỉ nằm trong tay Ban điều hành bị kiểm toán.",
+      "Chi phí kiểm toán của tập đoàn sẽ tăng do phải duy trì hai bộ phận kiểm toán nội bộ.",
+      "Kiểm toán độc lập của tập đoàn sẽ không thể dựa vào báo cáo của công ty con."
+    ],
+    "answer": 1,
+    "explanation": "Để độc lập, kiểm toán nội bộ cần báo cáo chức năng cho cơ quan quản trị (ở đây là Ủy ban Kiểm toán công ty con và/hoặc theo cơ chế tập đoàn), không chỉ cho Ban điều hành đang được kiểm toán (GIAS 7.1). Trong tập đoàn, kênh báo cáo thường kết hợp HĐQT công ty con và kiểm toán nội bộ tập đoàn.",
+    "optionNotes": [
+      "Sai. Hiểu biết hoạt động không thay thế được độc lập.",
+      "Đúng. Báo cáo chỉ cho Ban điều hành làm mất độc lập tổ chức.",
+      "Sai. Chi phí không phải rủi ro chính.",
+      "Sai. Đây là hệ quả có thể có, nhưng không phải rủi ro chính."
+    ],
+    "refs": [
+      "GIAS 7.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N32",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Khi CAE soạn điều lệ kiểm toán nội bộ, Ban điều hành cấp cao có vai trò gì theo điều kiện thiết yếu của GIAS?",
+    "options": [
+      "Phê duyệt điều lệ trước, sau đó trình HĐQT để thông qua chính thức.",
+      "Không có vai trò, vì điều lệ chỉ là thỏa thuận giữa CAE và HĐQT.",
+      "Trao đổi về kỳ vọng của Ban điều hành cần đưa vào điều lệ.",
+      "Soạn điều lệ thay CAE để bảo đảm phù hợp với cơ cấu tổ chức hiện hành."
+    ],
+    "answer": 2,
+    "explanation": "Ban điều hành cấp cao trao đổi với HĐQT và CAE về kỳ vọng của mình cần được xem xét đưa vào điều lệ; CAE thảo luận dự thảo với cả HĐQT và Ban điều hành; HĐQT phê duyệt (GIAS 6.2, điều kiện thiết yếu).",
+    "optionNotes": [
+      "Sai. Ban điều hành không phê duyệt điều lệ.",
+      "Sai. Ban điều hành có vai trò đóng góp kỳ vọng.",
+      "Đúng. Đúng vai trò của Ban điều hành theo điều kiện thiết yếu.",
+      "Sai. CAE soạn và duy trì điều lệ."
+    ],
+    "refs": [
+      "GIAS 6.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-A-N33",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Sau một cuộc kiểm toán có nhiều phát hiện, một số trưởng phòng công khai chỉ trích và hạn chế hợp tác với kiểm toán nội bộ. Hành động nào của HĐQT phù hợp nhất với điều kiện thiết yếu?",
+    "options": [
+      "Đứng ngoài để kiểm toán nội bộ tự giải quyết, nhằm bảo đảm tính độc lập.",
+      "Đề nghị kiểm toán nội bộ giảm số phát hiện ở các cuộc kiểm toán tiếp theo.",
+      "Ủng hộ chức năng kiểm toán và cùng Ban điều hành bảo đảm hợp tác.",
+      "Giao Tổng Giám đốc đánh giá lại tính chính xác của các phát hiện đã nêu."
+    ],
+    "answer": 2,
+    "explanation": "HĐQT ủng hộ (champion) chức năng kiểm toán nội bộ để chức năng thực hiện được mục đích và chiến lược, và cùng Ban điều hành bảo đảm quyền tiếp cận, sự hợp tác (GIAS 6.3, điều kiện thiết yếu).",
+    "optionNotes": [
+      "Sai. Độc lập không có nghĩa HĐQT đứng ngoài khi chức năng bị cản trở.",
+      "Sai. Giảm phát hiện để xoa dịu là làm sai lệch kết quả.",
+      "Đúng. Đúng vai trò hỗ trợ của HĐQT.",
+      "Sai. Để Ban điều hành đánh giá lại phát hiện làm suy giảm độc lập."
+    ],
+    "refs": [
+      "GIAS 6.3"
+    ],
+    "source": "original"
   }
 ]
