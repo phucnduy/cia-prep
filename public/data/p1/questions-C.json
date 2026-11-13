@@ -113,7 +113,9 @@
     ],
     "answer": 2,
     "explanation": "Vì Kiểm soát mềm (Soft controls) mang tính vô hình và tâm lý, KTV không thể chỉ kiểm tra chứng từ sổ sách mà phải dùng các phương pháp định tính như khảo sát ẩn danh, phỏng vấn đa chiều và hội thảo CSA.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.2"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Kiểm tra chữ ký đánh giá kiểm soát cứng.",
@@ -136,7 +138,9 @@
     ],
     "answer": 3,
     "explanation": "Feedforward control tác động vào Đầu vào (Inputs) trước khi quy trình diễn ra nhằm ngăn ngừa lỗi từ trứng nước. Concurrent control diễn ra ngay trong lúc đang vận hành (Process). Feedback control đo lường kết quả Đầu ra (Outputs) sau khi đã hoàn thành.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Kiểm soát phản hồi đánh giá đầu ra sau khi quá trình kết thúc.",
@@ -309,7 +313,9 @@
     ],
     "answer": 2,
     "explanation": "ISO 31000 được thiết kế rất tinh gọn dựa trên 3 trụ cột liên kết: (1) Các Nguyên tắc (tạo và bảo vệ giá trị), (2) Khung cơ cấu (Lãnh đạo & Cam kết: Tích hợp, Thiết kế, Thực thi, Đánh giá, Cải tiến), và (3) Quy trình quản lý rủi ro.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.5"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Đây gần với các nhóm mục tiêu, không phải cấu trúc ISO 31000.",
@@ -357,7 +363,9 @@
     ],
     "answer": 0,
     "explanation": "Trong CIA Part 1, nếu Residual Risk > Risk Appetite thì phải tăng kiểm soát; ngược lại, nếu Residual Risk quá thấp kèm chi phí kiểm soát quá cao (Over-controlling), KTNB nên khuyến nghị cắt bỏ bớt các chốt kiểm soát dư thừa để tối ưu hóa hiệu suất.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Đúng. Rủi ro còn lại thấp hơn nhiều so với khẩu vị cho thấy kiểm soát quá mức, gây lãng phí.",
@@ -405,7 +413,9 @@
     ],
     "answer": 2,
     "explanation": "Trong cấu trúc quản trị công ty chuẩn mực, Ủy ban Lương thưởng (Compensation Committee) gồm các thành viên HĐQT độc lập chịu trách nhiệm gắn kết cơ chế đãi ngộ của Ban giám đốc với hiệu quả bền vững và khẩu vị rủi ro dài hạn.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Ủy ban Kiểm toán giám sát báo cáo tài chính và kiểm soát.",
@@ -478,7 +488,9 @@
     ],
     "answer": 1,
     "explanation": "Data Minimization là nguyên tắc cốt lõi của Quản trị dữ liệu và Bảo mật quyền riêng tư (như GDPR): Không thu thập dư thừa và không lưu trữ lâu hơn thời gian cần thiết nhằm giảm thiểu thiệt hại nếu xảy ra rò rỉ dữ liệu.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Mã hóa là biện pháp bảo mật, không phải giảm thiểu dữ liệu.",
@@ -501,7 +513,9 @@
     ],
     "answer": 2,
     "explanation": "Trong quản lý rủi ro bên thứ ba: SOC 1 đánh giá các kiểm soát của nhà cung cấp dịch vụ có ảnh hưởng đến Báo cáo tài chính (ICFR) của khách hàng; còn SOC 2 đánh giá các kiểm soát về An toàn thông tin (Bảo mật, Khả dụng, Toàn vẹn xử lý, Riêng tư).",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. SOC 2 tập trung bảo mật, tính sẵn sàng, quyền riêng tư, không phải kiểm soát BCTC.",
@@ -549,7 +563,9 @@
     ],
     "answer": 0,
     "explanation": "BCP nhìn ở góc độ toàn bộ hoạt động kinh doanh (con người, quy trình, địa điểm làm việc thay thế, chăm sóc khách hàng). DRP tập trung chuyên biệt vào việc khôi phục hệ thống IT và dữ liệu (với các chỉ số RTO - Thời gian khôi phục mục tiêu và RPO - Điểm khôi phục dữ liệu mục tiêu).",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Đúng. BCP duy trì quy trình kinh doanh cốt lõi; DRP là phần khôi phục CNTT trong BCP.",
@@ -572,7 +588,9 @@
     ],
     "answer": 1,
     "explanation": "Check Digit (Chữ số kiểm tra) là một con số được tính toán bằng công thức toán học từ các chữ số đứng trước nó trong mã số (như thuật toán Luhn), giúp phát hiện ngay lỗi gõ sai hoặc đảo vị trí chữ số (transposition error) khi nhập liệu.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Kiểm tra giới hạn so sánh giá trị với ngưỡng.",
@@ -595,7 +613,9 @@
     ],
     "answer": 2,
     "explanation": "Các file Excel/Access do người dùng tự tạo (EUC) nằm ngoài hệ thống ERP chính thức nên thường thiếu kiểm soát ITGC. KTNB cần kiểm tra xem các ô công thức có bị khóa (locked cells) không, có phân quyền truy cập và có người soát xét độc lập công thức hay không.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Chi phí bản quyền không phải rủi ro chính.",
@@ -618,7 +638,9 @@
     ],
     "answer": 3,
     "explanation": "Chi phí của một chốt kiểm soát (40.000 USD/năm) không nên vượt quá lợi ích giảm thiểu rủi ro mà nó mang lại (5.000 USD/năm), trừ khi liên quan đến an toàn tính mạng hoặc yêu cầu pháp lý bắt buộc.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Không có vấn đề phân chia trách nhiệm.",
@@ -1743,20 +1765,20 @@
     "section": "C",
     "topic": "C1",
     "difficulty": 2,
-    "stem": "HĐQT muốn tiêu chí thưởng của Tổng Giám đốc được xây dựng khách quan, không do chính Ban điều hành đề xuất và tự thông qua. Cơ cấu quản trị nào phù hợp nhất cho việc này?",
+    "stem": "Hai thành viên HĐQT độc lập sắp hết nhiệm kỳ. HĐQT muốn quy trình tìm và đề xuất người thay thế khách quan, có tiêu chí rõ ràng về kỹ năng còn thiếu, không do Tổng Giám đốc tự giới thiệu. Ủy ban nào thường đảm nhận việc này?",
     "options": [
-      "Ủy ban Lương thưởng gồm thành viên độc lập xây dựng tiêu chí, trình HĐQT.",
-      "Giao bộ phận nhân sự xây dựng và Tổng Giám đốc phê duyệt tiêu chí thưởng của mình.",
-      "Giao kiểm toán nội bộ xây dựng tiêu chí để bảo đảm tính khách quan tuyệt đối.",
-      "Giao Ủy ban Kiểm toán quyết định toàn bộ tiêu chí thưởng của Ban điều hành cấp cao."
+      "Ủy ban Kiểm toán, vì phụ trách giám sát tính độc lập của HĐQT và kiểm toán.",
+      "Ủy ban Đề cử (Nomination), xác định tiêu chí và đề xuất ứng viên cho HĐQT.",
+      "Ủy ban Lương thưởng, vì quyết định thù lao cho các thành viên HĐQT mới.",
+      "Ủy ban Rủi ro, vì việc thay đổi nhân sự HĐQT là một rủi ro quản trị lớn."
     ],
-    "answer": 0,
-    "explanation": "Ủy ban Lương thưởng (thường gồm thành viên HĐQT độc lập) là cơ chế quản trị phổ biến để xây dựng chính sách thù lao cho Ban điều hành cấp cao, tránh tình trạng người quản lý tự quyết thù lao của mình. Kiểm toán nội bộ có thể đánh giá quy trình, nhưng không xây dựng tiêu chí.",
+    "answer": 1,
+    "explanation": "Ủy ban Đề cử (thường gồm thành viên độc lập) xác định tiêu chí, năng lực cần có và đề xuất ứng viên cho HĐQT và các vị trí lãnh đạo cấp cao, giúp quy trình khách quan, không bị Ban điều hành chi phối.",
     "optionNotes": [
-      "Đúng. Ủy ban Lương thưởng độc lập là cơ chế phù hợp.",
-      "Sai. Tổng Giám đốc tự phê duyệt tiêu chí thưởng của mình là xung đột lợi ích.",
-      "Sai. Xây dựng tiêu chí là trách nhiệm quản trị, làm suy giảm độc lập của kiểm toán.",
-      "Sai. Ủy ban Kiểm toán giám sát báo cáo, kiểm soát, kiểm toán; thù lao thuộc ủy ban khác."
+      "Sai. Ủy ban Kiểm toán giám sát báo cáo, kiểm soát, kiểm toán, không đề cử nhân sự.",
+      "Đúng. Đề cử nhân sự HĐQT là vai trò của Ủy ban Đề cử.",
+      "Sai. Ủy ban Lương thưởng lo chính sách thù lao, không tìm ứng viên.",
+      "Sai. Ủy ban Rủi ro giám sát rủi ro, không đề cử nhân sự."
     ],
     "refs": [
       "CIA Part 1 C.1"
@@ -2322,24 +2344,23 @@
     "section": "C",
     "topic": "C8",
     "difficulty": 3,
-    "stem": "Đề xuất kiểm soát: lắp hệ thống giám sát RFID cho kho văn phòng phẩm, chi phí 800 triệu đồng mỗi năm, trong khi tổn thất mất mát ước tính chỉ khoảng 30 triệu đồng mỗi năm. Kiểm toán nội bộ nên đánh giá đề xuất này thế nào?",
+    "stem": "Quy trình mua hàng có 14 kiểm soát. Thời gian kiểm toán có hạn, kiểm toán viên cần chọn kiểm soát để kiểm tra hiệu quả vận hành. Cách tiếp cận nào phù hợp nhất?",
     "options": [
-      "Nên triển khai, vì càng nhiều kiểm soát thì rủi ro càng thấp, bất kể chi phí.",
-      "Không hợp lý về chi phí - lợi ích; chấp nhận rủi ro hoặc dùng kiểm soát rẻ hơn.",
-      "Nên triển khai, vì mọi tổn thất tài sản đều phải được loại bỏ hoàn toàn.",
-      "Không nên đánh giá, vì quyết định đầu tư kiểm soát hoàn toàn nằm ngoài phạm vi."
+      "Kiểm tra đều cả 14 kiểm soát với cùng cỡ mẫu nhỏ để bảo đảm tính đầy đủ.",
+      "Tập trung vào các kiểm soát chính, tức những kiểm soát xử lý trực tiếp rủi ro trọng yếu.",
+      "Chọn các kiểm soát dễ kiểm tra nhất để hoàn thành nhiều thủ tục trong thời gian có hạn.",
+      "Chỉ kiểm tra các kiểm soát tự động, vì kiểm soát thủ công không thể kiểm tra được."
     ],
     "answer": 1,
-    "explanation": "Kiểm soát cần tương xứng với rủi ro: chi phí kiểm soát không nên vượt lợi ích kỳ vọng. Với tổn thất nhỏ, có thể chấp nhận rủi ro hoặc dùng kiểm soát đơn giản (kiểm kê định kỳ, khóa kho). Đánh giá chi phí - lợi ích là một khía cạnh của đánh giá thiết kế kiểm soát.",
+    "explanation": "Kiểm soát chính (key controls) là những kiểm soát mà nếu thất bại, rủi ro trọng yếu không được ngăn chặn hay phát hiện. Tập trung kiểm tra chúng giúp kết luận về hiệu quả kiểm soát với nguồn lực hạn chế; kiểm soát thứ yếu có thể kiểm tra ít hơn hoặc không cần.",
     "optionNotes": [
-      "Sai. Kiểm soát quá mức gây lãng phí và có thể cản trở hoạt động.",
-      "Đúng. Chi phí vượt xa lợi ích; cần phương án tương xứng.",
-      "Sai. Không thể và không cần loại bỏ hoàn toàn mọi tổn thất.",
-      "Sai. Kiểm toán có thể nhận xét tính hợp lý của thiết kế kiểm soát."
+      "Sai. Dàn đều nguồn lực làm giảm độ sâu ở kiểm soát quan trọng.",
+      "Đúng. Ưu tiên kiểm soát chính theo rủi ro.",
+      "Sai. Chọn theo độ dễ, không theo rủi ro, có thể bỏ sót kiểm soát quan trọng.",
+      "Sai. Kiểm soát thủ công vẫn kiểm tra được bằng chọn mẫu."
     ],
     "refs": [
-      "CIA Part 1 C.8",
-      "COSO 2013"
+      "CIA Part 1 C.8"
     ],
     "source": "original"
   },

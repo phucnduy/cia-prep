@@ -64,7 +64,9 @@
     ],
     "answer": 2,
     "explanation": "Để có tiền chi 'lại quả' (kickback) cho nhân viên mua hàng, nhà cung cấp thường phải nâng khống giá bán (inflated prices) hoặc giao hàng kém chất lượng hơn so với tiêu chuẩn.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 D.3"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Đấu thầu cạnh tranh là dấu hiệu kiểm soát tốt.",
@@ -139,7 +141,9 @@
     ],
     "answer": 1,
     "explanation": "Nộp một hóa đơn nhiều lần (hoặc vừa quẹt thẻ công ty vừa xin hoàn ứng cá nhân) là gian lận hoàn ứng chi phí phổ biến. Kiểm soát đối chiếu dữ liệu chi phí và đóng dấu hủy chứng từ gốc sau khi thanh toán sẽ chặn đứng hành vi này.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Chi phí có thật; vấn đề là hoàn ứng hai lần. Phê duyệt không phát hiện được.",
@@ -162,7 +166,9 @@
     ],
     "answer": 2,
     "explanation": "Positive Pay là một Kiểm soát phòng ngừa (Preventive Control) cực mạnh giữa doanh nghiệp và ngân hàng nhằm ngăn chặn séc giả hoặc séc bị cạo sửa số tiền trước khi tiền bị rút khỏi tài khoản.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Hai chữ ký không ngăn séc bị sửa sau khi phát hành.",
@@ -185,7 +191,9 @@
     ],
     "answer": 0,
     "explanation": "Channel Stuffing là thủ đoạn đẩy hàng ồ ạt cho nhà phân phối vào cuối kỳ kèm các điều khoản ngầm (side agreements) cho phép trả lại hàng. Dấu hiệu cảnh báo (Red flag) là doanh thu tăng vọt tháng cuối năm nhưng hàng bán bị trả lại (Sales returns) tăng đột biến vào quý 1 năm sau.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 D.1"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Đúng. Nhồi kênh phân phối thổi phồng doanh thu cuối kỳ bằng hàng vượt nhu cầu kèm quyền trả lại.",
@@ -233,7 +241,9 @@
     ],
     "answer": 2,
     "explanation": "Cookie Jar Reserves là thủ đoạn gian lận BCTC thông qua việc ghi nhận chi phí dự phòng quá cao vào năm lãi lớn rồi hoàn nhập dự phòng (giảm chi phí, tăng lãi) vào năm kinh doanh khó khăn để tạo cảm giác lợi nhuận tăng trưởng đều đặn.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 D.1"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Nhồi kênh liên quan đến doanh thu, không phải dự phòng.",
@@ -256,7 +266,9 @@
     ],
     "answer": 3,
     "explanation": "Bằng cách biến Chi phí trong kỳ (Expense) thành Tài sản cố định (Asset - phân bổ dần qua nhiều năm), kẻ gian vừa làm tăng tổng tài sản vừa làm giảm chi phí trong kỳ, từ đó thổi phồng lợi nhuận (giống vụ bê bối WorldCom kinh điển).",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 D.1"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Sai. Cả tài sản và lợi nhuận đều bị khai cao.",
@@ -279,7 +291,9 @@
     ],
     "answer": 0,
     "explanation": "Khi kẻ gian tự nghĩ ra các con số hóa đơn giả, họ thường phân bổ các chữ số đầu tiên khá đồng đều hoặc lặp lại các số sát ngưỡng phê duyệt (như 9.800, 9.900), làm lệch hoàn toàn phân phối tự nhiên theo Định luật Benford.",
-    "refs": [],
+    "refs": [
+      "CIA Part 1 D.5"
+    ],
     "source": "legacy",
     "optionNotes": [
       "Đúng. Định luật Benford so sánh phân phối chữ số đầu để phát hiện số liệu có thể bị bịa đặt.",
@@ -328,8 +342,7 @@
     "answer": 2,
     "explanation": "Theo COSO (Nguyên tắc 8) và hướng dẫn quản trị rủi ro gian lận, doanh nghiệp phải chủ động nhận diện các kịch bản gian lận cụ thể (kể cả rủi ro Management Override), đánh giá hiệu quả của kiểm soát chống gian lận hiện tại và liên tục cập nhật.",
     "refs": [
-      "GIAS Principle 8",
-      "COSO"
+      "COSO 2013 Principle 8"
     ],
     "source": "legacy",
     "optionNotes": [

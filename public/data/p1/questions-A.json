@@ -54,26 +54,26 @@
     "id": "P1-A-001",
     "section": "A",
     "topic": "A1",
-    "difficulty": 1,
-    "stem": "Theo Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS), tuyên bố về Mục đích của kiểm toán nội bộ nêu rằng kiểm toán nội bộ tăng cường khả năng của tổ chức trong việc tạo lập, bảo vệ và duy trì giá trị bằng cách cung cấp cho HĐQT và Ban điều hành điều gì?",
+    "difficulty": 2,
+    "stem": "Một thành viên HĐQT ngân hàng cho rằng kiểm toán nội bộ 'chỉ phục vụ cổ đông của ngân hàng, không liên quan đến xã hội'. Theo phần giới thiệu của GIAS về kiểm toán nội bộ và lợi ích công chúng, nhận định nào đúng nhất?",
     "options": [
-      "Đảm bảo, tư vấn, hiểu biết sâu sắc và tầm nhìn dự báo độc lập, khách quan, dựa trên rủi ro.",
-      "Ý kiến kiểm toán về tính trung thực và hợp lý của báo cáo tài chính năm của tổ chức.",
-      "Thiết kế và vận hành hệ thống kiểm soát nội bộ thay cho các bộ phận nghiệp vụ.",
-      "Sự đảm bảo tuyệt đối rằng tổ chức không còn gian lận và sai sót trọng yếu."
+      "Đúng, vì kiểm toán nội bộ chỉ chịu trách nhiệm trước HĐQT và cổ đông của tổ chức.",
+      "Sai, vì kiểm toán nội bộ phải báo cáo trực tiếp cho cơ quan quản lý nhà nước.",
+      "Sai, vì tác động của kiểm toán nội bộ vượt ra ngoài tổ chức, góp phần vào lợi ích công chúng.",
+      "Đúng, vì lợi ích công chúng là trách nhiệm riêng của kiểm toán độc lập bên ngoài."
     ],
-    "answer": 0,
-    "explanation": "Tuyên bố Mục đích (Domain I của GIAS): kiểm toán nội bộ cung cấp 'independent, risk-based, and objective assurance, advice, insight, and foresight'. Ý kiến về BCTC là việc của kiểm toán độc lập; thiết kế kiểm soát là trách nhiệm của Ban điều hành; kiểm toán chỉ cung cấp đảm bảo hợp lý, không tuyệt đối.",
-    "refs": [
-      "GIAS Domain I"
-    ],
-    "source": "original",
+    "answer": 2,
+    "explanation": "GIAS nêu: chức năng chính của kiểm toán nội bộ là tăng cường quản trị, quản lý rủi ro và kiểm soát, nhưng tác động của nó vượt ra ngoài tổ chức. Kiểm toán nội bộ góp phần vào sự ổn định, bền vững của tổ chức và nâng cao khả năng phục vụ lợi ích công chúng (nhân viên, nhà đầu tư, khách hàng, cơ quan quản lý...).",
     "optionNotes": [
-      "Đúng. Đây là nội dung tuyên bố Mục đích trong Domain I của GIAS.",
-      "Sai. Ý kiến về báo cáo tài chính là việc của kiểm toán độc lập.",
-      "Sai. Thiết kế và vận hành kiểm soát là trách nhiệm của Ban điều hành.",
-      "Sai. Kiểm toán chỉ cung cấp đảm bảo hợp lý, không bao giờ tuyệt đối."
-    ]
+      "Sai. Kiểm toán nội bộ báo cáo cho HĐQT, nhưng tác động vượt ra ngoài cổ đông.",
+      "Sai. Lợi ích công chúng không có nghĩa là báo cáo cho cơ quan quản lý.",
+      "Đúng. Đúng nội dung phần lợi ích công chúng trong GIAS.",
+      "Sai. Kiểm toán nội bộ cũng góp phần vào lợi ích công chúng."
+    ],
+    "refs": [
+      "GIAS - Fundamentals"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-002",
@@ -385,26 +385,27 @@
     "section": "A",
     "topic": "A3",
     "difficulty": 3,
-    "stem": "Trong quá trình kiểm toán, trưởng phòng mua hàng từ chối cho kiểm toán viên xem hợp đồng với nhà cung cấp, viện lý do 'thông tin mật'. Căn cứ nào giúp kiểm toán viên giải quyết tốt nhất?",
+    "stem": "Kiểm toán viên đã dẫn điều lệ do HĐQT phê duyệt về quyền tiếp cận, nhưng trưởng phòng mua hàng vẫn từ chối cung cấp hợp đồng với nhà cung cấp chính. Kiểm toán viên nên làm gì tiếp theo?",
     "options": [
-      "Quy chế bảo mật thông tin do phòng mua hàng ban hành cho bộ phận mình.",
-      "Hợp đồng lao động và bản mô tả công việc của trưởng phòng mua hàng.",
-      "Điều lệ kiểm toán nội bộ được HĐQT phê duyệt, quy định quyền tiếp cận.",
-      "Thư quản lý của kiểm toán độc lập về kiểm soát trong quy trình mua hàng."
+      "Bỏ qua phần hợp đồng và ghi kết luận dựa trên các tài liệu đã được cung cấp.",
+      "Tự vào hệ thống lưu trữ lấy hợp đồng mà không cần thông báo cho trưởng phòng.",
+      "Báo CAE để trao đổi giới hạn phạm vi với Ban điều hành và, nếu cần, với HĐQT.",
+      "Ghi nhận việc từ chối và chờ đến cuộc kiểm toán năm sau để kiểm tra lại."
     ],
     "answer": 2,
-    "explanation": "Điều lệ là nơi xác lập quyền tiếp cận đầy đủ, tự do và không hạn chế của kiểm toán nội bộ. Nếu vẫn bị từ chối, kiểm toán viên báo CAE; CAE trao đổi với Ban điều hành và báo cáo HĐQT nếu đây là giới hạn phạm vi.",
-    "refs": [
-      "GIAS 6.2",
-      "GIAS 7.1"
-    ],
-    "source": "original",
+    "explanation": "Hạn chế truy cập thông tin là giới hạn phạm vi, phải được trao đổi với Ban điều hành khi phát hiện để tìm cách giải quyết (GIAS 13.3); HĐQT cùng Ban điều hành bảo đảm quyền tiếp cận không hạn chế (GIAS 6.3). Nếu không giải quyết được, giới hạn phạm vi phải được nêu trong báo cáo cuối cùng (GIAS 15.1).",
     "optionNotes": [
-      "Sai. Quy chế của một phòng không thể hạn chế quyền tiếp cận do HĐQT trao.",
-      "Sai. Hợp đồng lao động không quy định quyền của kiểm toán nội bộ.",
-      "Đúng. Điều lệ quy định quyền tiếp cận hồ sơ, tài sản, nhân sự; nếu vẫn bị từ chối, báo CAE.",
-      "Sai. Thư quản lý của kiểm toán độc lập không tạo thẩm quyền cho kiểm toán nội bộ."
-    ]
+      "Sai. Kết luận khi thiếu hợp đồng quan trọng là bỏ qua giới hạn phạm vi.",
+      "Sai. Tự ý lấy tài liệu không theo quy trình làm mất tin cậy và có thể vi phạm chính sách.",
+      "Đúng. Báo cáo lên theo đúng trình tự để giải quyết giới hạn phạm vi.",
+      "Sai. Trì hoãn để lại khoảng trống ở khu vực rủi ro."
+    ],
+    "refs": [
+      "GIAS 13.3",
+      "GIAS 6.3",
+      "GIAS 15.1"
+    ],
+    "source": "original"
   },
   {
     "id": "P1-A-015",
@@ -1755,25 +1756,24 @@
     "id": "P1-A-N07",
     "section": "A",
     "topic": "A4",
-    "difficulty": 2,
-    "stem": "Trong một cuộc tư vấn, ai thường quyết định bản chất và phạm vi công việc, và ai chịu trách nhiệm thực hiện các đề xuất?",
+    "difficulty": 3,
+    "stem": "Báo cáo cuối cùng của một cuộc tư vấn chỉ gồm danh sách đề xuất cải tiến, không nêu mục tiêu, phạm vi và kết luận, vì trưởng nhóm cho rằng 'tư vấn thì không cần'. Theo Chuẩn mực, nhận định nào đúng nhất?",
     "options": [
-      "Phạm vi thỏa thuận với khách hàng; Ban điều hành quyết định và thực hiện.",
-      "HĐQT quyết định phạm vi, còn kiểm toán nội bộ giám sát việc triển khai từng đề xuất.",
-      "Kiểm toán nội bộ quyết định phạm vi và chịu trách nhiệm triển khai các đề xuất đã đưa ra.",
-      "Kiểm toán độc lập quyết định phạm vi để bảo đảm tính khách quan cho cuộc tư vấn nội bộ."
+      "Đúng, vì báo cáo tư vấn được tự do về nội dung theo thỏa thuận với khách hàng.",
+      "Sai, vì báo cáo cuối cùng của mọi cuộc kiểm toán phải nêu mục tiêu, phạm vi, đề xuất (nếu có) và kết luận.",
+      "Sai, vì báo cáo tư vấn phải có đầy đủ phát hiện, xếp hạng và kết luận về hiệu quả kiểm soát.",
+      "Đúng, nếu báo cáo đã được khách hàng tư vấn ký xác nhận đồng ý với các đề xuất."
     ],
-    "answer": 0,
-    "explanation": "Bản chất và phạm vi của dịch vụ tư vấn được thỏa thuận với khách hàng tư vấn. Kiểm toán nội bộ đưa ra đề xuất, nhưng việc quyết định và thực hiện thuộc Ban điều hành; kiểm toán nội bộ không nhận trách nhiệm quản lý.",
+    "answer": 1,
+    "explanation": "Với mỗi cuộc kiểm toán, báo cáo cuối cùng phải gồm mục tiêu, phạm vi, khuyến nghị và/hoặc kế hoạch hành động nếu có, và kết luận. Riêng cuộc đảm bảo còn phải có phát hiện và mức độ, giới hạn phạm vi, kết luận về hiệu quả quản trị, rủi ro, kiểm soát (GIAS 15.1).",
     "optionNotes": [
-      "Đúng. Phạm vi theo thỏa thuận; thực hiện là việc của Ban điều hành.",
-      "Sai. HĐQT không quyết định phạm vi từng cuộc tư vấn.",
-      "Sai. Kiểm toán nội bộ không chịu trách nhiệm triển khai, vì đó là trách nhiệm quản lý.",
-      "Sai. Kiểm toán độc lập không tham gia xác định phạm vi tư vấn nội bộ."
+      "Sai. Nội dung tối thiểu áp dụng cho mọi cuộc kiểm toán, kể cả tư vấn.",
+      "Đúng. Đúng nội dung tối thiểu cho mọi báo cáo cuối cùng.",
+      "Sai. Kết luận về hiệu quả kiểm soát là yêu cầu riêng của cuộc đảm bảo.",
+      "Sai. Ký xác nhận của khách hàng không miễn yêu cầu của Chuẩn mực."
     ],
     "refs": [
-      "GIAS - Glossary",
-      "CIA Part 1 A.4"
+      "GIAS 15.1"
     ],
     "source": "original"
   },

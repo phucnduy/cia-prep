@@ -35,7 +35,8 @@
     "traps": [
       "Nhầm mục đích kiểm toán nội bộ với đưa ra ý kiến về báo cáo tài chính (đó là kiểm toán độc lập).",
       "Cho rằng kiểm toán nội bộ cung cấp đảm bảo tuyệt đối hoặc chịu trách nhiệm thiết kế kiểm soát.",
-      "Chọn phương án nói chuẩn mực nghề nghiệp đứng trên luật quốc gia."
+      "Chọn phương án nói chuẩn mực nghề nghiệp đứng trên luật quốc gia.",
+      "Cho rằng chức năng thuê ngoài hoặc quy mô nhỏ được miễn áp dụng GIAS hay QAIP."
     ],
     "refs": [
       "GIAS Domain I",
@@ -70,6 +71,15 @@
           "GIAS gồm 5 Domain, 15 Nguyên tắc và 52 Chuẩn mực. Domain I: Mục đích. Domain II: Đạo đức và Tính chuyên nghiệp (Nguyên tắc 1-5). Domain III: Quản trị chức năng kiểm toán (Nguyên tắc 6-8). Domain IV: Quản lý chức năng kiểm toán (Nguyên tắc 9-12). Domain V: Thực hiện dịch vụ kiểm toán (Nguyên tắc 13-15).",
           "Mỗi chuẩn mực có phần Yêu cầu (bắt buộc, dùng 'must'), phần Xem xét khi thực hiện (thông lệ, gợi ý cách áp dụng) và Ví dụ bằng chứng tuân thủ. Domain III còn có các 'điều kiện thiết yếu' mô tả việc HĐQT và Ban điều hành cần làm.",
           "Yêu cầu theo chủ đề (Topical Requirements) là phần bắt buộc của IPPF, áp dụng cùng GIAS khi kiểm toán một chủ đề được IIA quy định. Nếu luật ngăn tuân thủ một phần GIAS, vẫn phải tuân thủ mọi phần còn lại và công bố phù hợp (GIAS 4.1)."
+        ]
+      },
+      {
+        "heading": "Bổ sung: cấu phần IPPF, phạm vi áp dụng và điều kiện thiết yếu",
+        "body": [
+          "IPPF hiện hành gồm: Chuẩn mực Kiểm toán Nội bộ Toàn cầu (GIAS) và Yêu cầu theo chủ đề là bắt buộc; Hướng dẫn toàn cầu (hướng dẫn thực hành, GTAG) là khuyến nghị, hỗ trợ áp dụng.",
+          "GIAS áp dụng cho mọi cá nhân, chức năng cung cấp dịch vụ kiểm toán nội bộ, dù tổ chức tuyển dụng trực tiếp, thuê ngoài toàn bộ hay một phần (cosourcing).",
+          "Không có ngưỡng quy mô để miễn áp dụng. Chức năng nhỏ vẫn phải có QAIP (GIAS 8.3); đánh giá bên ngoài có thể đáp ứng bằng tự đánh giá kèm xác nhận độc lập (GIAS 8.4).",
+          "Điều kiện thiết yếu (Domain III) là kỳ vọng với HĐQT và Ban điều hành. Nếu họ không thực hiện và CAE không đồng ý với lý do, CAE có thể kết luận chức năng không thể tuân thủ, ghi lại lý do và chia sẻ với HĐQT, Ban điều hành, để sẵn cho đánh giá bên ngoài."
         ]
       }
     ],
@@ -163,7 +173,8 @@
     "traps": [
       "Nhầm mandate với kế hoạch kiểm toán năm.",
       "Cho rằng CAE tự quyết định mandate hoặc Tổng Giám đốc giao mandate.",
-      "Cho rằng khi luật đã quy định mandate thì không cần điều lệ."
+      "Cho rằng khi luật đã quy định mandate thì không cần điều lệ.",
+      "Cho rằng HĐQT tự phê duyệt từng chương trình kiểm toán hay ký từng báo cáo; đó là việc của CAE (GIAS 13.6, 15.1)."
     ],
     "refs": [
       "GIAS 6.1",
@@ -198,6 +209,16 @@
         "body": [
           "Ở một số ngành (ngân hàng, bảo hiểm) và khu vực công, luật quy định một phần hoặc toàn bộ mandate. Khi đó điều lệ phải đưa các yêu cầu pháp lý của mandate vào (GIAS 6.1).",
           "Ở khu vực công, khi luật là mandate và điều lệ, CAE có thể không có quyền sửa đổi; GIAS cho phép thay việc rà soát định kỳ bằng rà soát tập trung để bảo đảm con đường tuân thủ luật được mô tả đúng."
+        ]
+      },
+      {
+        "heading": "Bổ sung: các điều kiện thiết yếu về HĐQT và báo cáo của CAE",
+        "body": [
+          "HĐQT thể hiện sự hỗ trợ bằng cách phê duyệt điều lệ, kế hoạch, ngân sách, kế hoạch nguồn lực, và hỏi Ban điều hành, CAE xem có giới hạn phạm vi hoặc nguồn lực không phù hợp hay không (GIAS 6.3).",
+          "HĐQT thảo luận với CAE ít nhất hằng năm về mức đủ của nguồn lực, cả số lượng và năng lực; nếu thiếu, CAE lập chiến lược bổ sung và báo HĐQT tác động (GIAS 8.2).",
+          "HĐQT đặt kỳ vọng với CAE về tần suất trao đổi, tiêu chí vấn đề cần báo cáo lên (ví dụ rủi ro vượt ngưỡng chịu đựng) và quy trình báo cáo vượt cấp; HĐQT thảo luận và hỗ trợ khi CAE bất đồng với Ban điều hành (GIAS 8.1).",
+          "CAE phải báo cáo HĐQT, Ban điều hành: kế hoạch, ngân sách và điều chỉnh quan trọng; thay đổi ảnh hưởng nhiệm vụ, điều lệ; khả năng suy giảm độc lập; kết quả dịch vụ, gồm kết luận và các chủ đề (themes) lặp lại; kết quả QAIP (GIAS 8.1). HĐQT trực tiếp xem xét kết quả đánh giá chất lượng bên ngoài (Nguyên tắc 8).",
+          "Khi xác lập nhiệm vụ, CAE phối hợp với các bên cung cấp đảm bảo khác để hiểu vai trò của nhau, giúp HĐQT xác định phạm vi dịch vụ (GIAS 6.1)."
         ]
       }
     ],
@@ -305,6 +326,15 @@
           "HĐQT phê duyệt điều lệ là điều kiện thiết yếu. Phê duyệt của HĐQT, cơ quan quản trị cao nhất, cho điều lệ hiệu lực trong toàn tổ chức và củng cố độc lập, vì Ban điều hành không thể tự ý thu hẹp thẩm quyền của kiểm toán nội bộ.",
           "HĐQT rà soát điều lệ cùng CAE khi có thay đổi ảnh hưởng tổ chức, ví dụ tuyển CAE mới hoặc thay đổi về loại, mức độ, mối liên hệ của các rủi ro.",
           "Điều lệ là căn cứ khi bị từ chối tiếp cận: kiểm toán viên viện dẫn điều lệ; nếu vẫn bị từ chối, CAE trao đổi với Ban điều hành và báo HĐQT về giới hạn phạm vi."
+        ]
+      },
+      {
+        "heading": "Bổ sung: điều lệ trong các tình huống thực tế",
+        "body": [
+          "Khi nhận thêm loại dịch vụ mới (ví dụ điều tra gian lận), CAE trao đổi với HĐQT, Ban điều hành để cập nhật điều lệ, HĐQT phê duyệt trước khi nhận việc (GIAS 6.2).",
+          "Ban điều hành cấp cao trao đổi với HĐQT và CAE về kỳ vọng cần đưa vào điều lệ; họ không phê duyệt điều lệ.",
+          "Quyền tiếp cận không hạn chế đến dữ liệu, hồ sơ, nhân sự, tài sản cần được nêu trong điều lệ do HĐQT phê duyệt; đây là căn cứ khi đơn vị (kể cả công ty con) từ chối cung cấp thông tin.",
+          "Cụm từ chung chung như 'theo thông lệ tốt nhất' không thay thế cam kết tuân thủ Chuẩn mực Kiểm toán Nội bộ Toàn cầu."
         ]
       }
     ],
@@ -429,6 +459,15 @@
           "Hỏi: kết quả dùng để làm gì và cho ai? Nếu HĐQT hoặc bên khác cần dựa vào một kết luận khách quan về hiệu quả kiểm soát, đó là đảm bảo. Nếu Ban điều hành cần ý kiến, hỗ trợ để cải thiện một việc đang hoặc sắp làm, đó là tư vấn.",
           "Một cuộc có thể kết hợp cả hai, nhưng phải nói rõ phần nào là đảm bảo để người dùng không hiểu nhầm mức độ tin cậy."
         ]
+      },
+      {
+        "heading": "Bổ sung: các bên tham gia, dạng đảm bảo và giới hạn của đảm bảo",
+        "body": [
+          "Đảm bảo thường có ba bên: người chịu trách nhiệm về quy trình, kiểm toán viên, người sử dụng kết quả (ví dụ HĐQT). Tư vấn thường có hai bên: kiểm toán viên và khách hàng tư vấn.",
+          "Đảm bảo trực tiếp (direct): kiểm toán viên tự đánh giá đối tượng và kết luận. Đảm bảo dựa trên khẳng định (attestation): Ban điều hành đưa ra khẳng định, kiểm toán viên cho ý kiến về khẳng định đó.",
+          "Một cuộc kiểm toán có thể kết hợp phần đảm bảo và phần tư vấn; khi đó phải phân định rõ để áp dụng yêu cầu tương ứng, vì kỳ vọng và yêu cầu Chuẩn mực khác nhau (GIAS 13.3).",
+          "Chỉ có đảm bảo hợp lý, không có đảm bảo tuyệt đối: kiểm soát có hạn chế cố hữu (sai sót con người, thông đồng, vượt quyền, chi phí - lợi ích) và kiểm toán dựa vào chọn mẫu, xét đoán."
+        ]
       }
     ],
     "compare": {
@@ -516,7 +555,8 @@
     ],
     "traps": [
       "Nhầm EQA (đánh giá chất lượng chức năng kiểm toán) với kiểm toán nhà cung cấp.",
-      "Nhầm kiểm toán hoạt động (3E) với kiểm toán tuân thủ (đối chiếu quy định)."
+      "Nhầm kiểm toán hoạt động (3E) với kiểm toán tuân thủ (đối chiếu quy định).",
+      "Xác định loại kiểm toán theo chủ đề (môi trường, CNTT) thay vì theo mục tiêu của cuộc kiểm toán."
     ],
     "refs": [
       "CIA Part 1 A.5"
@@ -558,6 +598,16 @@
         "body": [
           "Kiểm toán văn hóa đánh giá kiểm soát mềm (tone at the top, sự cởi mở, dám lên tiếng, cách xử lý vi phạm) bằng khảo sát ẩn danh, phỏng vấn, thảo luận nhóm, phân tích dữ liệu nhân sự và tố giác.",
           "Kiểm toán quy trình báo cáo quản trị kiểm tra thông tin mà Ban điều hành và HĐQT dùng để ra quyết định (KPI, báo cáo rủi ro) có đầy đủ, chính xác, kịp thời và có nguồn dữ liệu đáng tin cậy không."
+        ]
+      },
+      {
+        "heading": "Bổ sung: các dạng đảm bảo thường gặp trong đề thi",
+        "body": [
+          "Kiểm toán tích hợp: kết hợp góc độ tài chính, hoạt động, CNTT, tuân thủ trong một cuộc kiểm toán quy trình, cho cái nhìn toàn diện.",
+          "Kiểm toán dự án: rà soát trước triển khai (thiết kế, kiểm soát) và rà soát sau triển khai (lợi ích đạt được so với phương án đầu tư được duyệt).",
+          "Thẩm định (due diligence) trong mua bán, sáp nhập: đánh giá kiểm soát, rủi ro tuân thủ của doanh nghiệp mục tiêu; có thể là đảm bảo nếu đưa kết luận cho HĐQT.",
+          "Đảm bảo về thông tin phi tài chính: số liệu ESG, phát thải, KPI gắn với thưởng. Mục tiêu là độ tin cậy của thông tin được báo cáo.",
+          "Loại kiểm toán được xác định theo mục tiêu, không theo công cụ hay chủ đề: kiểm toán quyền riêng tư dữ liệu có thể dùng kỹ năng CNTT nhưng vẫn là kiểm toán tuân thủ nếu mục tiêu là đáp ứng nghĩa vụ pháp lý."
         ]
       }
     ],
@@ -686,6 +736,15 @@
           "Theo Domain V, khi tư vấn, kiểm toán viên giữ khách quan bằng cách không nhận trách nhiệm quản lý. Dấu hiệu vượt ranh giới: phê duyệt giao dịch, quyết định thiết kế, vận hành kiểm soát, sở hữu rủi ro, quản lý dự án, chịu trách nhiệm về kết quả.",
           "Nếu tư vấn cho hoạt động mình từng phụ trách, phải công bố suy giảm khách quan cho bên yêu cầu trước khi nhận việc (GIAS 2.2)."
         ]
+      },
+      {
+        "heading": "Bổ sung: các hình thức tư vấn và thời điểm tham gia",
+        "body": [
+          "Hình thức tư vấn phổ biến: đào tạo, điều phối hội thảo CSA, điều phối phân tích nguyên nhân gốc, đối chuẩn (benchmarking), góp ý dự thảo chính sách, tư vấn thiết kế kiểm soát.",
+          "Tham gia sớm vào dự án (giai đoạn thiết kế) tạo giá trị lớn vì sửa thiếu sót kiểm soát khi còn rẻ; giữ khách quan bằng cách chỉ góp ý, không quản lý dự án hay phê duyệt.",
+          "Trước khi tư vấn, thống nhất mục tiêu, phạm vi, trách nhiệm hai bên, kỳ vọng về kết quả và hình thức báo cáo (GIAS 13.3).",
+          "Khi điều phối, kiểm toán nội bộ đưa phương pháp; các bộ phận tự xác định nguyên nhân và quyết định hành động."
+        ]
       }
     ],
     "compare": {
@@ -812,6 +871,16 @@
           "Ngân sách bị cắt khiến không thể kiểm toán khu vực rủi ro cao là suy giảm độc lập nếu HĐQT không được biết. CAE phải báo HĐQT tác động của nguồn lực không đủ (GIAS 8.2, 10.1).",
           "Giới hạn phạm vi hoặc hạn chế tiếp cận (không cho xem tài liệu, loại cuộc kiểm toán khỏi kế hoạch) phải được thảo luận với Ban điều hành; nếu không giải quyết được, CAE đưa lên HĐQT (GIAS 13.3, 9.4). Hệ quả nếu im lặng: HĐQT tưởng có đảm bảo trong khi thực tế không có."
         ]
+      },
+      {
+        "heading": "Bổ sung: các điều kiện thiết yếu về độc lập",
+        "body": [
+          "HĐQT cho phép bổ nhiệm, miễn nhiệm CAE; với đánh giá và thù lao của CAE, HĐQT góp ý cho Ban điều hành (GIAS 7.1). Ban điều hành thực hiện qua quy trình nhân sự (GIAS 7.2).",
+          "HĐQT yêu cầu CAE được bố trí ở cấp đủ để làm việc không bị can thiệp; Ban điều hành bố trí theo chỉ đạo của HĐQT và phải công nhận quan hệ báo cáo trực tiếp giữa CAE và HĐQT.",
+          "Khi phê duyệt vai trò ngoài kiểm toán của CAE, HĐQT phải ghi nhận khả năng suy giảm độc lập và cùng Ban điều hành, CAE thiết lập biện pháp bảo vệ; sự tin tưởng không phải biện pháp bảo vệ.",
+          "Trong tập đoàn, kiểm toán nội bộ công ty con không được chỉ báo cáo cho Giám đốc công ty con; cần kênh báo cáo chức năng lên cơ quan quản trị và/hoặc kiểm toán nội bộ tập đoàn.",
+          "Thưởng của kiểm toán viên không được gắn với kết quả (lợi nhuận, chỉ tiêu) của đơn vị mà họ kiểm toán."
+        ]
       }
     ],
     "compare": {
@@ -932,6 +1001,15 @@
         "body": [
           "GIAS 11.5: khi CAE kết luận Ban điều hành đã chấp nhận rủi ro vượt khẩu vị hoặc ngưỡng chịu đựng, CAE thảo luận với Ban điều hành cấp cao; nếu không giải quyết được, CAE báo HĐQT. CAE không có trách nhiệm tự xử lý rủi ro."
         ]
+      },
+      {
+        "heading": "Bổ sung: mức độ trưởng thành, bản đồ đảm bảo và văn hóa rủi ro",
+        "body": [
+          "Mức độ trưởng thành của quản trị rủi ro quyết định kiểm toán nội bộ dựa được bao nhiêu vào đánh giá rủi ro của Ban điều hành: trưởng thành thì dựa nhiều hơn (sau khi đánh giá), chưa có thì tự đánh giá nhiều hơn.",
+          "Bản đồ đảm bảo (assurance map) đối chiếu rủi ro trọng yếu với các bên cung cấp đảm bảo, cho thấy trùng lặp và khoảng trống; hỗ trợ yêu cầu phối hợp (GIAS 9.5).",
+          "Hiệu quả quản trị rủi ro phụ thuộc văn hóa rủi ro: chính sách đầy đủ trên giấy chưa đủ nếu nhân viên không dám nêu rủi ro.",
+          "Kiểm toán nội bộ có thể đảm bảo về hiệu quả của các chức năng tuyến thứ hai (tuân thủ, quản lý rủi ro, kiểm định mô hình), nhưng không tiếp quản, không phê duyệt mức rủi ro hay mô hình."
+        ]
       }
     ],
     "compare": {
@@ -1045,6 +1123,16 @@
           "Hành vi hợp pháp: không tham gia hoạt động bất hợp pháp, gây mất uy tín cho tổ chức hoặc nghề, hoặc có thể gây hại cho tổ chức, nhân viên; hiểu và tuân thủ luật liên quan đến ngành và khu vực hoạt động; khi phát hiện vi phạm pháp luật, báo cho người hoặc cơ quan có thẩm quyền theo quy định.",
           "Nếu phải tuân thủ thêm quy tắc đạo đức khác (của tổ chức, của hội nghề nghiệp khác), vẫn phải tuân thủ Domain II. Một hành vi không được nêu trong chuẩn mực vẫn có thể bị coi là không chấp nhận được."
         ]
+      },
+      {
+        "heading": "Bổ sung: trung thực trong mọi hình thức trao đổi",
+        "body": [
+          "Không đưa ra tuyên bố gây hiểu lầm về phạm vi: nếu chỉ kiểm tra mẫu, báo cáo phải nêu rõ mẫu và giới hạn kết luận (GIAS 1.1, 15.1).",
+          "Trung thực cả với thông tin về bản thân: khai giờ CPE không có thật là gian dối (GIAS 1.1, 3.2).",
+          "Tôn trọng trong trao đổi: phê bình, mỉa mai người được kiểm toán trước đám đông vi phạm yêu cầu tôn trọng (GIAS 1.1).",
+          "Chỉ kỳ vọng hợp pháp và đạo đức của tổ chức mới phải đáp ứng; yêu cầu loại một khu vực khỏi kiểm toán vì lợi ích cá nhân không phải kỳ vọng chính đáng (GIAS 1.2).",
+          "Nghĩa vụ báo cáo theo luật (ví dụ giao dịch đáng ngờ về rửa tiền) phải được thực hiện kịp thời qua kênh quy định (GIAS 1.3)."
+        ]
       }
     ],
     "compare": {
@@ -1122,7 +1210,8 @@
     "traps": [
       "Trích quy tắc 12 tháng, quà tặng, xung đột lợi ích vào GIAS 2.1; thực tế là GIAS 2.2.",
       "Cho rằng người chuyển từ phòng nghiệp vụ không bao giờ được kiểm toán phòng cũ (chỉ trong 12 tháng).",
-      "Cho rằng ký cam kết khách quan là đủ loại bỏ suy giảm."
+      "Cho rằng ký cam kết khách quan là đủ loại bỏ suy giảm.",
+      "Áp quy tắc 12 tháng cho mọi loại suy giảm, kể cả quan hệ cá nhân hay lợi ích kinh tế của người thân."
     ],
     "refs": [
       "GIAS 2.1",
@@ -1149,6 +1238,14 @@
         "body": [
           "GIAS 2.2: kiểm toán viên phải tránh xung đột lợi ích và không bị ảnh hưởng không đáng có bởi lợi ích của bản thân hoặc người khác (kể cả Ban điều hành, người có thẩm quyền, môi trường chính trị).",
           "Tình huống điển hình: người thân làm ở bộ phận được kiểm toán hoặc ở nhà cung cấp, khách hàng; sở hữu cổ phần, có quan hệ tài chính với bên liên quan; đang ứng tuyển vào bộ phận được kiểm toán; nhận quà, ưu đãi; bị đe dọa về việc làm."
+        ]
+      },
+      {
+        "heading": "Bổ sung: các thiên lệch và nguy cơ thường gặp",
+        "body": [
+          "Thiên lệch neo: bám vào thông tin ban đầu (xếp hạng năm trước), điều chỉnh không đủ. Thiên lệch sẵn có: phóng đại khả năng của sự kiện vừa được nghe nhiều. Tư duy nhóm: ưu tiên đồng thuận hơn bằng chứng. Thiên lệch xác nhận: chỉ tìm bằng chứng ủng hộ kết luận có sẵn.",
+          "Nguy cơ theo phân loại IESBA: tư lợi, tự kiểm tra, bào chữa (đã công khai ủng hộ đối tượng sẽ đánh giá), quen thuộc, bị đe dọa.",
+          "Quy tắc 12 tháng (GIAS 2.2) chỉ nói về việc đảm bảo cho hoạt động mình từng phụ trách; quan hệ cá nhân thân thiết là nguồn suy giảm khác, có thể kéo dài hơn."
         ]
       }
     ],
@@ -1364,6 +1461,14 @@
           "Thuyết phục và đàm phán: quản lý bất đồng (ví dụ về phát hiện, kế hoạch hành động), hợp tác với đồng nghiệp và bên liên quan. Xây dựng quan hệ: tạo lòng tin, uy tín. Quản lý thay đổi: thích ứng với môi trường biến động. Tò mò: tìm hiểu thông tin mới, học hỏi liên tục.",
           "Nhận diện khi nào cần phát triển thêm: được giao lĩnh vực mới (an ninh mạng, ESG, trí tuệ nhân tạo), chuẩn mực thay đổi, phản hồi giám sát cho thấy thiếu kỹ năng."
         ]
+      },
+      {
+        "heading": "Bổ sung: bổ sung năng lực trong thực tế",
+        "body": [
+          "Mọi kiểm toán viên, kể cả chuyên gia CNTT, phải có hoặc phát triển kiến thức về GIAS (GIAS 3.1).",
+          "CAE bảo đảm năng lực tổng thể: lập ma trận năng lực so với nhu cầu, bù khoảng trống bằng đào tạo, tuyển dụng, thuê ngoài, đồng kiểm toán.",
+          "Năng lực ngôn ngữ, cập nhật quy định chuyên ngành (thuế, ngân hàng) là năng lực có thể bổ sung qua chuyên gia, phiên dịch tin cậy; không dựa vào đơn vị được kiểm toán giải thích."
+        ]
       }
     ],
     "compare": {
@@ -1469,6 +1574,15 @@
         "heading": "Khi không tuân thủ được GIAS (GIAS 4.1)",
         "body": [
           "CAE ghi nhận và trao đổi về hoàn cảnh, hành động thay thế, ảnh hưởng và lý do. Trong một cuộc kiểm toán, báo cáo cuối phải nêu chuẩn mực không tuân thủ, lý do và ảnh hưởng đến kết quả (GIAS 15.1). Phương pháp luận của chức năng phải phù hợp GIAS và được tuân theo."
+        ]
+      },
+      {
+        "heading": "Bổ sung: thời điểm, các bên liên quan và giám sát",
+        "body": [
+          "Thận trọng đúng mức gồm cân nhắc mức độ và thời điểm công việc: kiểm toán kiểm kê sau khi hàng đã bán hết thì không đạt mục tiêu (GIAS 4.2).",
+          "Cân nhắc lợi ích của người nhận dịch vụ và các bên liên quan khác (HĐQT, khách hàng), không chỉ Ban điều hành đơn vị.",
+          "CAE có thể ủy quyền giám sát; người giám sát phải xác nhận hồ sơ đủ căn cứ cho phát hiện, kết luận, không chỉ đánh dấu danh mục (GIAS 12.3, 14.6).",
+          "Hoài nghi với giải trình của lãnh đạo cấp cao: chức vụ không thay thế bằng chứng; vẫn thẳng thắn, tôn trọng khi đề nghị thêm chứng từ (GIAS 4.3)."
         ]
       }
     ],
@@ -1576,6 +1690,15 @@
           "Mã hóa thiết bị và tệp, phân quyền truy cập phần mềm hồ sơ kiểm toán, lưu trữ trên hệ thống được phê duyệt, chính sách bàn sạch, hủy bản sao an toàn. Quản lý rủi ro lộ thông tin vô ý (gửi nhầm email, chia sẻ màn hình).",
           "CAE bảo đảm người hỗ trợ chức năng kiểm toán (chuyên gia, bên thuê ngoài, thực tập sinh) tuân thủ cùng yêu cầu bảo vệ."
         ]
+      },
+      {
+        "heading": "Bổ sung: bảo mật trong bối cảnh mới",
+        "body": [
+          "Thông tin cần bảo vệ bao gồm cả trao đổi bằng lời; kể chuyện vụ việc với chức danh, phòng ban có thể đủ nhận diện người (Nguyên tắc 5).",
+          "Đưa dữ liệu kiểm toán vào công cụ AI công cộng chưa được phê duyệt là chuyển dữ liệu ra ngoài tổ chức, vi phạm chính sách an ninh thông tin (GIAS 5.2).",
+          "Hồ sơ phải được lưu giữ và hủy theo luật, quy định, chính sách; tự ý xóa hồ sơ sau khi phát hành báo cáo không phải là bảo vệ thông tin (GIAS 14.6, 5.2).",
+          "Không dùng thông tin kiểm toán cho giao dịch cá nhân, ví dụ bán cổ phiếu trước khi công ty công bố tin bất lợi (GIAS 5.1)."
+        ]
       }
     ],
     "compare": {
@@ -1678,6 +1801,15 @@
         "body": [
           "GIAS 9.1 nêu những gì CAE cần hiểu về quản trị: cách tổ chức đặt mục tiêu chiến lược và ra quyết định; giám sát quản lý rủi ro và kiểm soát; thúc đẩy văn hóa đạo đức; quản lý hiệu quả và trách nhiệm giải trình; cơ cấu bộ máy; truyền đạt thông tin rủi ro, kiểm soát; phối hợp giữa HĐQT, các bên đảm bảo và Ban điều hành.",
           "Đây cũng là danh sách gợi ý khi lập kế hoạch một cuộc kiểm toán quản trị: kiểm tra quy chế HĐQT, biên bản họp, quy trình phê duyệt, hệ thống KPI và lương thưởng, kênh báo cáo rủi ro, chương trình đạo đức."
+        ]
+      },
+      {
+        "heading": "Bổ sung: vấn đề đại diện, ủy ban HĐQT và giao dịch bên liên quan",
+        "body": [
+          "Vấn đề đại diện (agency): lợi ích của người quản lý khác lợi ích chủ sở hữu, ví dụ cắt R&D để tăng lợi nhuận ngắn hạn. Biện pháp: thù lao gắn với giá trị dài hạn, HĐQT độc lập giám sát.",
+          "Ủy ban Lương thưởng (thành viên độc lập) xây dựng chính sách thù lao lãnh đạo; Ủy ban Kiểm toán giám sát báo cáo, kiểm soát, kiểm toán; Ủy ban Đề cử lo nhân sự HĐQT.",
+          "Giao dịch với bên liên quan phải được công bố và phê duyệt bởi người không có lợi ích liên quan, kèm đánh giá giá trị hợp lý.",
+          "HĐQT cần đủ năng lực tập thể (dùng ma trận kỹ năng) và giám sát cả mục tiêu ESG đã công bố: phân công trách nhiệm, chỉ tiêu, báo cáo định kỳ."
         ]
       }
     ],
@@ -1797,6 +1929,15 @@
           "Quyết định tập trung: kiểm soát chặt nhưng chậm, dễ phụ thuộc vào một người, rủi ro lạm quyền. Phân quyền: linh hoạt nhưng cần kiểm soát thống nhất và giám sát tốt hơn.",
           "Áp lực chỉ tiêu quá cao, thưởng chỉ dựa trên kết quả ngắn hạn, hoặc văn hóa 'không mang tin xấu lên trên' làm tăng rủi ro vi phạm và che giấu. Kiểm toán viên nên xem cách quyết định thực sự được đưa ra, không chỉ sơ đồ tổ chức."
         ]
+      },
+      {
+        "heading": "Bổ sung: văn hóa ở nhiều cấp và cơ chế khen thưởng",
+        "body": [
+          "'Tone in the middle': nhân viên chịu ảnh hưởng mạnh nhất từ quản lý trực tiếp; thông điệp tốt ở cấp cao có thể bị vô hiệu ở cấp trung gian.",
+          "Triết lý và phong cách điều hành (chọn phương án kế toán 'mạnh tay', coi thường kiểm soát) là phần cốt lõi của môi trường kiểm soát.",
+          "COSO 2013 yêu cầu buộc cá nhân chịu trách nhiệm về kiểm soát nội bộ, kể cả qua đánh giá và khen thưởng; thưởng chỉ theo doanh số bất kể vi phạm làm yếu môi trường kiểm soát.",
+          "Cam kết về năng lực và chính trực thể hiện cả ở tuyển dụng: kiểm tra lý lịch, xác minh tham chiếu, đặc biệt với vị trí giữ tiền, tài sản."
+        ]
       }
     ],
     "compare": {
@@ -1909,6 +2050,15 @@
           "Thúc đẩy: GIAS 1.2 yêu cầu kiểm toán viên khuyến khích văn hóa đạo đức và báo cáo hành vi trái kỳ vọng đạo đức theo chính sách.",
           "Báo cáo vi phạm pháp luật: GIAS 1.3 yêu cầu báo cho người hoặc cơ quan có thẩm quyền xử lý, theo luật và chính sách. Kiểm toán nội bộ không tự quyết định kỷ luật và không công khai cáo buộc."
         ]
+      },
+      {
+        "heading": "Bổ sung: chống hối lộ, quyền riêng tư và tính độc lập của tuân thủ",
+        "body": [
+          "Rủi ro hối lộ qua bên trung gian: phí thành công cao bất thường, không có sản phẩm cụ thể, làm việc với cơ quan nhà nước. Kiểm soát: thẩm định đối tác, điều khoản chống hối lộ, phê duyệt, giám sát khoản phí bất thường.",
+          "Các nguyên tắc bảo vệ dữ liệu: giới hạn mục đích (chỉ dùng cho mục đích đã thông báo, được đồng ý), giảm thiểu dữ liệu, lưu trữ có thời hạn, bảo mật.",
+          "Kê khai xung đột lợi ích chỉ hiệu quả khi được đối chiếu với dữ liệu độc lập (sở hữu, người đại diện, tài khoản của nhà cung cấp).",
+          "Chức năng tuân thủ (tuyến hai) cần khách quan và kênh tiếp cận cấp cao; báo cáo cho người được thưởng theo doanh số làm suy yếu chức năng này."
+        ]
       }
     ],
     "compare": {
@@ -2017,6 +2167,16 @@
         "heading": "Năng lực chịu rủi ro và khẩu vị rủi ro",
         "body": [
           "Năng lực chịu rủi ro (risk capacity) là mức tối đa tổ chức có thể gánh chịu mà không đe dọa sự tồn tại. Khẩu vị rủi ro nằm dưới mức này và do HĐQT phê duyệt."
+        ]
+      },
+      {
+        "heading": "Bổ sung: rủi ro như cơ hội, ứng phó và khẩu vị đo lường được",
+        "body": [
+          "ISO 31000:2018 định nghĩa rủi ro là ảnh hưởng của sự không chắc chắn đến mục tiêu; ảnh hưởng có thể tích cực hoặc tiêu cực, nên rủi ro có thể bao gồm cơ hội.",
+          "Bốn cách ứng phó: chấp nhận, né tránh (thôi hoạt động gây rủi ro), giảm thiểu, chia sẻ (bảo hiểm, đối tác). Bảo hiểm không chuyển được rủi ro uy tín, gián đoạn.",
+          "Khẩu vị (mức sẵn sàng chấp nhận) nằm trong năng lực chịu đựng (mức tối đa còn tồn tại được); ngưỡng chịu đựng là biên độ quanh mục tiêu cụ thể.",
+          "Tuyên bố khẩu vị rủi ro tốt kết hợp định tính với chỉ tiêu đo lường được; câu chung chung không dùng được để ra quyết định.",
+          "Rủi ro tiềm tàng tăng theo độ phức tạp, khối lượng, giá trị, tính thanh khoản, mức độ thay đổi; kiểm soát chỉ ảnh hưởng rủi ro còn lại."
         ]
       }
     ],
@@ -2135,6 +2295,15 @@
           "Né tránh: rút khỏi hoạt động tạo rủi ro. Giảm thiểu: kiểm soát để giảm khả năng hoặc tác động. Chia sẻ: chuyển một phần cho bên khác (bảo hiểm, thuê ngoài, phòng ngừa rủi ro tài chính). Chấp nhận: không làm gì thêm vì rủi ro nằm trong khẩu vị. COSO ERM 2017 bổ sung Theo đuổi: chấp nhận thêm rủi ro để đạt hiệu quả cao hơn.",
           "Kiểm toán viên đánh giá phản ứng rủi ro bằng câu hỏi: rủi ro còn lại sau phản ứng có nằm trong khẩu vị không; chi phí phản ứng có tương xứng lợi ích không; phản ứng có tạo rủi ro mới không (ví dụ thuê ngoài tạo rủi ro bên thứ ba); ai sở hữu và theo dõi."
         ]
+      },
+      {
+        "heading": "Bổ sung: góc nhìn danh mục, người chịu trách nhiệm rủi ro và quy trình ISO",
+        "body": [
+          "Góc nhìn danh mục (COSO ERM): rủi ro riêng lẻ đều trong ngưỡng nhưng tổng hợp (tập trung, tương quan) có thể vượt khẩu vị; cần đánh giá ở cấp toàn tổ chức.",
+          "Người chịu trách nhiệm rủi ro (risk owner) là cấp quản lý có thẩm quyền và nguồn lực xử lý; không gán cho kiểm toán nội bộ.",
+          "Quy trình ISO 31000:2018 bắt đầu bằng xác định phạm vi, bối cảnh, tiêu chí; rồi đánh giá (nhận diện, phân tích, định mức), xử lý; kèm trao đổi tham vấn, giám sát rà soát, ghi nhận báo cáo.",
+          "Năm thành phần COSO ERM 2017: Quản trị và Văn hóa; Chiến lược và Thiết lập mục tiêu; Hiệu quả hoạt động; Rà soát và Điều chỉnh (đánh giá thay đổi trọng yếu như mua lại lớn); Thông tin, Truyền thông và Báo cáo."
+        ]
       }
     ],
     "compare": {
@@ -2249,6 +2418,17 @@
           "Bên thứ ba: thuê ngoài chuyển giao hoạt động nhưng không chuyển giao trách nhiệm giải trình. Cần thẩm định trước khi ký, điều khoản hợp đồng (SLA, quyền kiểm toán, bảo mật), giám sát liên tục, báo cáo SOC (SOC 1 cho kiểm soát liên quan BCTC; SOC 2 cho bảo mật, tính sẵn sàng, quyền riêng tư; Type 1 thiết kế tại một thời điểm, Type 2 cả hiệu quả vận hành trong kỳ).",
           "Liên tục kinh doanh: BCP duy trì quy trình kinh doanh cốt lõi khi có khủng hoảng; DRP là phần trong BCP để khôi phục CNTT và dữ liệu. Cần phân tích tác động kinh doanh, mục tiêu thời gian khôi phục, và kiểm thử định kỳ.",
           "Điện toán người dùng cuối (bảng tính tự lập): dễ thiếu kiểm soát thay đổi, phiên bản, truy cập, kiểm thử công thức; nếu dùng cho số liệu quan trọng phải được kiểm soát như hệ thống."
+        ]
+      },
+      {
+        "heading": "Bổ sung: liên tục hoạt động, bên thứ ba và rủi ro CNTT",
+        "body": [
+          "RTO: thời gian tối đa để khôi phục hệ thống. RPO: lượng dữ liệu tối đa có thể mất, tính theo thời gian từ lần sao lưu gần nhất. BCP phải được cập nhật và diễn tập định kỳ.",
+          "Mã độc tống tiền mã hóa cả ổ sao lưu luôn kết nối; cần bản sao tách biệt (offline hoặc không thể sửa đổi) và kiểm tra khôi phục.",
+          "Rủi ro bên thứ tư: nhà thầu phụ của nhà cung cấp. Hợp đồng cần yêu cầu công bố, chấp thuận, giám sát nhà thầu phụ và quyền kiểm toán.",
+          "Mô hình trách nhiệm chia sẻ trên đám mây: với IaaS, khách hàng chịu trách nhiệm hệ điều hành, ứng dụng, dữ liệu, truy cập.",
+          "Tách biệt phát triển và vận hành: lập trình viên không có quyền sửa dữ liệu thật; quyền khẩn cấp phải có thời hạn, phê duyệt, ghi nhật ký được rà soát.",
+          "Quy trình phê duyệt sản phẩm mới là kiểm soát quan trọng; bỏ qua tuyến hai vì áp lực thời gian là điểm yếu."
         ]
       }
     ],
@@ -2368,6 +2548,15 @@
         "body": [
           "Bắt đầu từ rủi ro: rủi ro gì, xảy ra ở bước nào, hệ quả ra sao. Ưu tiên kiểm soát phòng ngừa và tự động cho rủi ro lớn, xảy ra thường xuyên; dùng kiểm soát phát hiện để bắt lỗi còn sót. Phân chia bốn chức năng: phê duyệt, ghi chép, giữ tài sản, đối chiếu.",
           "Cân nhắc chi phí so với lợi ích; đề xuất kiểm soát, còn Ban điều hành quyết định và triển khai."
+        ]
+      },
+      {
+        "heading": "Bổ sung: cấp độ kiểm soát và chọn loại kiểm soát",
+        "body": [
+          "Kiểm soát cấp đơn vị (môi trường kiểm soát, quy trình đánh giá rủi ro, giám sát của HĐQT) tác động rộng; kiểm soát cấp giao dịch áp dụng cho từng nghiệp vụ.",
+          "Với hậu quả lớn, khó đảo ngược (chuyển tiền quốc tế), ưu tiên kiểm soát phòng ngừa như phê duyệt kép, xác minh người nhận.",
+          "Kiểm soát tự động vận hành nhất quán nếu kiểm soát chung CNTT hữu hiệu; khi đó có thể kiểm tra cấu hình và vài trường hợp thay vì mẫu lớn.",
+          "COBIT (ISACA) là khung quản trị và quản lý CNTT; CoCo (Canada) nhóm tiêu chí theo Mục đích, Cam kết, Năng lực, Giám sát và Học hỏi."
         ]
       }
     ],
@@ -2494,6 +2683,25 @@
           "Hạn chế cố hữu: sai sót do xét đoán, sơ suất; thông đồng giữa nhiều người làm vô hiệu phân chia trách nhiệm; Ban điều hành lạm quyền bỏ qua kiểm soát; chi phí giới hạn mức kiểm soát. Vì vậy kiểm soát chỉ cung cấp đảm bảo hợp lý.",
           "Khung kiểm soát (COSO, CoCo của Canada, COBIT cho CNTT) cung cấp tiêu chí chung, giúp thiết kế và đánh giá nhất quán, so sánh giữa các bộ phận. Theo COSO, hệ thống kiểm soát hữu hiệu khi cả 5 thành phần và các nguyên tắc liên quan hiện hữu, vận hành và phối hợp với nhau; khiếm khuyết nghiêm trọng (major deficiency) ở một thành phần làm không thể kết luận hệ thống hữu hiệu."
         ]
+      },
+      {
+        "heading": "Bổ sung: kiểm tra kiểm soát và đánh giá khiếm khuyết",
+        "body": [
+          "Sức mạnh bằng chứng khi kiểm tra vận hành: phỏng vấn < xem chữ ký, chứng từ < quan sát < thực hiện lại (re-performance).",
+          "Walkthrough một giao dịch chứng minh thiết kế và việc triển khai, chưa đủ kết luận vận hành trong cả kỳ.",
+          "Kiểm soát thủ công dựa vào báo cáo hệ thống (IPE): phải kiểm tra tính đầy đủ, chính xác của báo cáo đầu vào.",
+          "Kiểm soát rà soát phải đủ chính xác: ngưỡng điều tra cao hơn mức trọng yếu là khiếm khuyết thiết kế.",
+          "Mức độ khiếm khuyết theo khả năng và mức ảnh hưởng: khiếm khuyết thông thường, khiếm khuyết nghiêm trọng, yếu kém trọng yếu.",
+          "Chi phí kiểm soát không nên vượt lợi ích kỳ vọng; có thể chấp nhận rủi ro nhỏ hoặc dùng kiểm soát đơn giản hơn."
+        ]
+      },
+      {
+        "heading": "Bổ sung: kiểm soát chính và kiểm soát thứ yếu",
+        "body": [
+          "Kiểm soát chính (key control) là kiểm soát mà nếu thất bại, rủi ro trọng yếu không được ngăn chặn hay phát hiện kịp thời; kiểm toán viên ưu tiên kiểm tra hiệu quả vận hành của các kiểm soát này.",
+          "Kiểm soát thứ yếu hỗ trợ hoặc trùng lặp với kiểm soát chính; khi nguồn lực có hạn có thể kiểm tra ít hơn hoặc dựa vào kiểm soát chính.",
+          "Chọn kiểm soát để kiểm tra theo rủi ro, không theo mức độ dễ kiểm tra."
+        ]
       }
     ],
     "compare": {
@@ -2602,6 +2810,15 @@
           "Tham nhũng: hối lộ (bên ngoài chủ động trả), lại quả (kickback), tống tiền kinh tế (nhân viên ép bên ngoài phải chi), xung đột lợi ích không công bố, thông thầu.",
           "Gian lận báo cáo tài chính: ghi nhận doanh thu sớm hoặc khống (nhồi kênh phân phối, bill-and-hold), dự phòng hũ bánh quy để làm mượt lợi nhuận, vốn hóa chi phí sai, che giấu nợ, công bố thiếu."
         ]
+      },
+      {
+        "heading": "Bổ sung: các thủ đoạn hay bị nhầm lẫn",
+        "body": [
+          "Kiting: lợi dụng thời gian chờ thanh toán giữa hai ngân hàng để tạo số dư ảo; phát hiện bằng bảng theo dõi chuyển tiền giữa các ngân hàng quanh ngày khóa sổ. Khác lapping (gối đầu công nợ khách hàng).",
+          "Gian lận báo cáo tài chính qua định giá: không ghi giảm hàng tồn kho lỗi thời, giảm dự phòng nợ khó đòi đi ngược dữ liệu để đạt chỉ tiêu.",
+          "Tham nhũng: hối lộ (bên ngoài chủ động đưa), tống tiền kinh tế (nhân viên ép bên ngoài chi), xung đột lợi ích không công bố (kể cả khi giá hợp lý).",
+          "Gian lận bảng lương: nhân viên ma (người không có thật) khác khai khống giờ công (người thật, giờ giả)."
+        ]
       }
     ],
     "compare": {
@@ -2704,6 +2921,16 @@
         "heading": "Giới hạn trách nhiệm của kiểm toán viên",
         "body": [
           "Kiểm toán viên cần đủ hiểu biết để đánh giá rủi ro gian lận và nhận ra dấu hiệu, nhưng không cần chuyên môn của người có trách nhiệm chính là điều tra gian lận (IPPF 2017 1210.A2). Thận trọng nghề nghiệp không bảo đảm phát hiện mọi gian lận, nhưng đòi hỏi cân nhắc khả năng có gian lận trọng yếu (GIAS 4.2)."
+        ]
+      },
+      {
+        "heading": "Bổ sung: xem xét gian lận trong lập kế hoạch và thực hiện",
+        "body": [
+          "Thảo luận nhóm (brainstorming) về cách gian lận có thể xảy ra, ai có cơ hội, cách che giấu, dấu hiệu nhận biết.",
+          "Yếu tố áp lực như chỉ tiêu tăng mạnh, thưởng gắn hoàn toàn với chỉ tiêu cần đưa vào đánh giá rủi ro (GIAS 13.2).",
+          "Rủi ro Ban điều hành vượt quyền: phân tích bút toán thủ công bất thường (cuối tuần, số tròn, do lãnh đạo nhập), ước tính đi ngược dữ liệu.",
+          "Khi phát hiện dấu hiệu gian lận ngoài chương trình, điều chỉnh chương trình kiểm toán và trình CAE phê duyệt (GIAS 14.2).",
+          "Kế hoạch kiểm toán năm phải xem xét bao phủ rủi ro gian lận và chương trình đạo đức, tuân thủ (GIAS 9.4)."
         ]
       }
     ],
@@ -2813,6 +3040,14 @@
           "Cờ đỏ chỉ là dấu hiệu cần điều tra thêm, không phải bằng chứng. Kiểm toán viên ghi nhận, báo CAE kịp thời; CAE báo cho các bên phù hợp theo chính sách (Ban điều hành cấp phù hợp, pháp chế, Ủy ban Kiểm toán nếu liên quan lãnh đạo cấp cao).",
           "Không cảnh báo người bị nghi ngờ, không tự mở rộng thành điều tra khi chưa được giao, và bảo vệ bằng chứng."
         ]
+      },
+      {
+        "heading": "Bổ sung: chương trình quản lý rủi ro gian lận và răn đe",
+        "body": [
+          "Chương trình gồm: quản trị và cam kết lãnh đạo, đánh giá rủi ro gian lận, phòng ngừa, phát hiện, điều tra và hành động khắc phục, giám sát. Mục tiêu là giảm rủi ro, không loại bỏ hoàn toàn gian lận.",
+          "Yếu tố răn đe mạnh nhất là nhận thức sẽ bị phát hiện (kiểm tra đột xuất được công bố), không phải mức phạt cao.",
+          "Thông đồng đấu thầu (bid rigging): cùng nhóm nhà thầu, thay phiên thắng, giá bên thua cao hơn đều đặn."
+        ]
       }
     ],
     "compare": {
@@ -2918,6 +3153,15 @@
           "Đường dây nóng tố giác: ẩn danh, độc lập với Ban điều hành bị phản ánh, có cơ chế báo cáo vụ việc liên quan lãnh đạo lên Ủy ban Kiểm toán, cam kết không trả thù.",
           "Đối chiếu: ngân hàng, công nợ, tồn kho, tài khoản trung gian, do người độc lập thực hiện. Rà soát của cấp trên: xem báo cáo ngoại lệ, chi phí bất thường, giao dịch cuối kỳ.",
           "Bổ trợ: nghỉ phép bắt buộc và luân chuyển (làm gián đoạn thủ đoạn cần duy trì liên tục như lapping); phân tích dữ liệu liên tục; xác nhận trực tiếp với bên thứ ba; Positive Pay với ngân hàng; đóng dấu 'đã thanh toán' lên chứng từ."
+        ]
+      },
+      {
+        "heading": "Bổ sung: kiểm soát cụ thể và người vận hành",
+        "body": [
+          "Phân chia nhiệm vụ: tách phê duyệt, giữ tài sản, ghi sổ; kết hợp giữ tiền và ghi sổ công nợ là xung đột nghiêm trọng nhất.",
+          "Nghỉ phép bắt buộc và luân chuyển nhiệm vụ làm gián đoạn việc che giấu (ví dụ gối đầu).",
+          "Dấu hiệu phân tích dữ liệu: nhiều nhà cung cấp dùng chung tài khoản ngân hàng, địa chỉ trùng nhân viên, hóa đơn số liên tiếp.",
+          "Giám sát liên tục (continuous monitoring) là trách nhiệm của Ban điều hành; kiểm toán nội bộ có thể hỗ trợ xây dựng rồi chuyển giao và đánh giá (continuous auditing)."
         ]
       }
     ],
@@ -3035,6 +3279,14 @@
         "heading": "Phối hợp với người điều tra",
         "body": [
           "Kiểm toán nội bộ nên xem đánh giá rủi ro, kết quả các vụ điều tra trước, xu hướng điều tra và các khiếu nại tố giác để định hướng kế hoạch kiểm toán: khu vực nào lặp lại vấn đề, kiểm soát nào thường bị vượt qua."
+        ]
+      },
+      {
+        "heading": "Bổ sung: bằng chứng số và bảo mật điều tra",
+        "body": [
+          "Bằng chứng số: chuyên gia tạo bản sao nguyên trạng (forensic image), xác minh bằng giá trị băm, ghi chuỗi lưu giữ; không mở tệp trực tiếp trên máy gốc.",
+          "Thông tin điều tra chỉ chia sẻ cho người cần biết, theo hướng dẫn pháp chế, để bảo vệ bằng chứng và quyền của người chưa bị kết luận.",
+          "Khi có dấu hiệu gian lận, báo CAE theo quy định để quyết định cách điều tra, tham vấn pháp chế; không đối chất sớm hay tự ý điều tra."
         ]
       }
     ],
