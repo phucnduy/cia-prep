@@ -1519,16 +1519,16 @@
     "difficulty": 3,
     "stem": "Công ty yêu cầu nhân viên mua hàng kê khai xung đột lợi ích hằng năm, nhưng chưa từng phát hiện trường hợp nào dù có tin đồn. Biện pháp nào tăng hiệu quả của chính sách này nhất?",
     "options": [
-      "Tăng tần suất kê khai từ hằng năm lên hằng quý, giữ nguyên nội dung mẫu kê khai.",
       "Đối chiếu kê khai với dữ liệu sở hữu nhà cung cấp từ nguồn độc lập.",
+      "Tăng tần suất kê khai từ hằng năm lên hằng quý, giữ nguyên nội dung mẫu kê khai.",
       "Yêu cầu nhân viên ký thêm cam kết không có xung đột lợi ích trong mỗi hợp đồng mua hàng.",
       "Đưa nội dung xung đột lợi ích vào khóa đào tạo hội nhập dành cho nhân viên mới tuyển."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Kê khai chỉ dựa vào sự trung thực của người kê khai. Đối chiếu với dữ liệu độc lập (đăng ký doanh nghiệp, người đại diện, địa chỉ, tài khoản ngân hàng của nhà cung cấp) giúp phát hiện xung đột không kê khai và tăng tác dụng răn đe.",
     "optionNotes": [
-      "Sai. Kê khai nhiều lần hơn vẫn phụ thuộc người kê khai.",
       "Đúng. Đối chiếu độc lập biến kê khai thành kiểm soát có thể kiểm chứng.",
+      "Sai. Kê khai nhiều lần hơn vẫn phụ thuộc người kê khai.",
       "Sai. Thêm cam kết vẫn là tự khai, không kiểm chứng được.",
       "Sai. Đào tạo nhân viên mới không giải quyết xung đột hiện có."
     ],
@@ -1596,17 +1596,17 @@
     "stem": "Ban điều hành được thưởng cổ phiếu dựa trên giá cổ phiếu quý gần nhất; họ cắt giảm R&D để tăng lợi nhuận ngắn hạn, dù làm giảm giá trị dài hạn cho cổ đông. Vấn đề quản trị này được giải thích rõ nhất bởi khái niệm nào và biện pháp nào phù hợp?",
     "options": [
       "Rủi ro thị trường; mua công cụ phái sinh để phòng ngừa biến động giá cổ phiếu.",
-      "Vấn đề đại diện; gắn thù lao với mục tiêu dài hạn, HĐQT độc lập.",
+      "Rủi ro hoạt động; giao kiểm toán nội bộ phê duyệt ngân sách R&D hằng năm.",
       "Rủi ro tuân thủ; yêu cầu Ban điều hành ký cam kết tuân thủ quy định chứng khoán.",
-      "Rủi ro hoạt động; giao kiểm toán nội bộ phê duyệt ngân sách R&D hằng năm."
+      "Vấn đề đại diện; gắn thù lao với mục tiêu dài hạn, HĐQT độc lập."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Vấn đề đại diện phát sinh khi lợi ích của người quản lý (đại diện) khác lợi ích của chủ sở hữu. Biện pháp quản trị gồm thiết kế thù lao gắn với giá trị dài hạn (ví dụ thời gian nắm giữ, thu hồi thưởng) và HĐQT độc lập giám sát.",
     "optionNotes": [
       "Sai. Phòng ngừa giá không xử lý động cơ của Ban điều hành.",
-      "Đúng. Vấn đề đại diện và biện pháp quản trị phù hợp.",
+      "Sai. Kiểm toán nội bộ không phê duyệt ngân sách.",
       "Sai. Hành vi không vi phạm luật mà lệch lợi ích.",
-      "Sai. Kiểm toán nội bộ không phê duyệt ngân sách."
+      "Đúng. Vấn đề đại diện và biện pháp quản trị phù hợp."
     ],
     "refs": [
       "CIA Part 1 C.1"
@@ -1620,16 +1620,16 @@
     "difficulty": 3,
     "stem": "Mỗi khối kinh doanh đều báo cáo rủi ro tín dụng của mình nằm trong ngưỡng cho phép. Tuy nhiên, cả ba khối cùng cho vay tập trung vào ngành bất động sản, và tổng mức tập trung vượt khẩu vị rủi ro HĐQT đặt ra. Khái niệm nào của COSO ERM giải thích vấn đề này?",
     "options": [
-      "Rủi ro tiềm tàng, vì rủi ro của ngành bất động sản vốn đã cao trước khi có kiểm soát.",
       "Góc nhìn danh mục (portfolio view): rủi ro phải được xem xét tổng hợp toàn tổ chức.",
+      "Rủi ro tiềm tàng, vì rủi ro của ngành bất động sản vốn đã cao trước khi có kiểm soát.",
       "Ngưỡng chịu đựng, vì mỗi khối đã tự đặt ngưỡng của mình quá rộng so với thực tế.",
       "Năng lực chịu đựng, vì ngân hàng không đủ vốn để chịu mọi khoản lỗ có thể xảy ra."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "COSO ERM nhấn mạnh góc nhìn danh mục: các rủi ro riêng lẻ có thể đều chấp nhận được, nhưng khi tổng hợp (do tương quan, tập trung) lại vượt khẩu vị của tổ chức. Cần đánh giá rủi ro ở cấp toàn tổ chức, không chỉ từng đơn vị.",
     "optionNotes": [
-      "Sai. Vấn đề không phải mức tiềm tàng của một khoản, mà là tổng hợp.",
       "Đúng. Góc nhìn danh mục cho thấy rủi ro tập trung khi tổng hợp.",
+      "Sai. Vấn đề không phải mức tiềm tàng của một khoản, mà là tổng hợp.",
       "Sai. Từng khối vẫn trong ngưỡng; vấn đề nằm ở cấp tổ chức.",
       "Sai. Tình huống nói vượt khẩu vị, không nói vượt năng lực chịu đựng."
     ],
@@ -1646,17 +1646,17 @@
     "stem": "Kế hoạch duy trì hoạt động của ngân hàng yêu cầu: hệ thống thanh toán phải hoạt động lại trong vòng 2 giờ sau sự cố, và không được mất quá 15 phút dữ liệu giao dịch. Hai chỉ tiêu này lần lượt là gì?",
     "options": [
       "RPO (mục tiêu điểm khôi phục) và RTO (mục tiêu thời gian khôi phục).",
-      "RTO (mục tiêu thời gian khôi phục) và RPO (mục tiêu điểm khôi phục).",
+      "MTBF (thời gian trung bình giữa các sự cố) và KPI (chỉ số hiệu quả).",
       "SLA (thỏa thuận mức dịch vụ) và KRI (chỉ số rủi ro chính).",
-      "MTBF (thời gian trung bình giữa các sự cố) và KPI (chỉ số hiệu quả)."
+      "RTO (mục tiêu thời gian khôi phục) và RPO (mục tiêu điểm khôi phục)."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "RTO là thời gian tối đa để khôi phục hệ thống sau sự cố (2 giờ). RPO là lượng dữ liệu tối đa có thể mất, tính theo thời gian từ lần sao lưu gần nhất (15 phút). RPO quyết định tần suất sao lưu, RTO quyết định phương án khôi phục.",
     "optionNotes": [
       "Sai. Đảo ngược hai khái niệm.",
-      "Đúng. 2 giờ là RTO, 15 phút dữ liệu là RPO.",
+      "Sai. MTBF và KPI không mô tả khôi phục sau sự cố.",
       "Sai. SLA và KRI không phải chỉ tiêu khôi phục.",
-      "Sai. MTBF và KPI không mô tả khôi phục sau sự cố."
+      "Đúng. 2 giờ là RTO, 15 phút dữ liệu là RPO."
     ],
     "refs": [
       "CIA Part 1 C.6"
@@ -1745,16 +1745,16 @@
     "difficulty": 2,
     "stem": "HĐQT muốn tiêu chí thưởng của Tổng Giám đốc được xây dựng khách quan, không do chính Ban điều hành đề xuất và tự thông qua. Cơ cấu quản trị nào phù hợp nhất cho việc này?",
     "options": [
-      "Giao bộ phận nhân sự xây dựng và Tổng Giám đốc phê duyệt tiêu chí thưởng của mình.",
       "Ủy ban Lương thưởng gồm thành viên độc lập xây dựng tiêu chí, trình HĐQT.",
+      "Giao bộ phận nhân sự xây dựng và Tổng Giám đốc phê duyệt tiêu chí thưởng của mình.",
       "Giao kiểm toán nội bộ xây dựng tiêu chí để bảo đảm tính khách quan tuyệt đối.",
       "Giao Ủy ban Kiểm toán quyết định toàn bộ tiêu chí thưởng của Ban điều hành cấp cao."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Ủy ban Lương thưởng (thường gồm thành viên HĐQT độc lập) là cơ chế quản trị phổ biến để xây dựng chính sách thù lao cho Ban điều hành cấp cao, tránh tình trạng người quản lý tự quyết thù lao của mình. Kiểm toán nội bộ có thể đánh giá quy trình, nhưng không xây dựng tiêu chí.",
     "optionNotes": [
-      "Sai. Tổng Giám đốc tự phê duyệt tiêu chí thưởng của mình là xung đột lợi ích.",
       "Đúng. Ủy ban Lương thưởng độc lập là cơ chế phù hợp.",
+      "Sai. Tổng Giám đốc tự phê duyệt tiêu chí thưởng của mình là xung đột lợi ích.",
       "Sai. Xây dựng tiêu chí là trách nhiệm quản trị, làm suy giảm độc lập của kiểm toán.",
       "Sai. Ủy ban Kiểm toán giám sát báo cáo, kiểm soát, kiểm toán; thù lao thuộc ủy ban khác."
     ],
@@ -1796,17 +1796,17 @@
     "stem": "Để xin giấy phép tại một tỉnh mới, công ty thuê một 'đơn vị tư vấn thủ tục' với phí thành công rất cao, không yêu cầu bất kỳ sản phẩm tư vấn nào bằng văn bản. Rủi ro chính và kiểm soát phù hợp nhất là gì?",
     "options": [
       "Rủi ro chi phí cao; đàm phán để giảm phí thành công xuống mức thị trường.",
-      "Rủi ro hối lộ qua trung gian; thẩm định đối tác, kiểm soát phí bất thường.",
+      "Rủi ro thuế; yêu cầu đơn vị tư vấn xuất hóa đơn hợp lệ cho toàn bộ khoản phí.",
       "Rủi ro chậm tiến độ; thuê thêm một đơn vị tư vấn khác làm song song để bảo đảm.",
-      "Rủi ro thuế; yêu cầu đơn vị tư vấn xuất hóa đơn hợp lệ cho toàn bộ khoản phí."
+      "Rủi ro hối lộ qua trung gian; thẩm định đối tác, kiểm soát phí bất thường."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Phí thành công cao bất thường, không có sản phẩm cụ thể, trả cho bên trung gian làm việc với cơ quan nhà nước là dấu hiệu rủi ro hối lộ qua bên thứ ba. Chương trình chống hối lộ cần thẩm định đối tác, điều khoản chống hối lộ trong hợp đồng, phê duyệt và giám sát các khoản phí bất thường.",
     "optionNotes": [
       "Sai. Vấn đề chính không phải mức giá mà là khả năng tiền được dùng để hối lộ.",
-      "Đúng. Đúng loại rủi ro và kiểm soát phù hợp.",
+      "Sai. Hóa đơn hợp lệ không chứng minh khoản chi hợp pháp.",
       "Sai. Thuê thêm bên trung gian có thể làm rủi ro lớn hơn.",
-      "Sai. Hóa đơn hợp lệ không chứng minh khoản chi hợp pháp."
+      "Đúng. Đúng loại rủi ro và kiểm soát phù hợp."
     ],
     "refs": [
       "CIA Part 1 C.3"
@@ -1896,16 +1896,16 @@
     "difficulty": 3,
     "stem": "Công ty sao lưu dữ liệu hằng ngày lên một ổ mạng luôn kết nối với hệ thống chính. Khi đánh giá rủi ro mã độc tống tiền (ransomware), kiểm toán viên lo ngại điều gì nhất?",
     "options": [
-      "Tần suất sao lưu hằng ngày là quá thấp so với tiêu chuẩn chung của ngành tài chính.",
       "Bản sao lưu có thể bị mã hóa cùng lúc; cần bản sao tách biệt, không thể sửa đổi.",
+      "Tần suất sao lưu hằng ngày là quá thấp so với tiêu chuẩn chung của ngành tài chính.",
       "Ổ mạng sao lưu có dung lượng hạn chế, sẽ nhanh chóng bị đầy sau một thời gian.",
       "Chi phí lưu trữ sao lưu trên ổ mạng cao hơn so với dịch vụ lưu trữ đám mây."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Mã độc tống tiền thường mã hóa mọi ổ đĩa kết nối được, kể cả ổ sao lưu luôn kết nối. Biện pháp quan trọng là có bản sao tách biệt (offline hoặc không thể sửa đổi) và kiểm tra khôi phục định kỳ.",
     "optionNotes": [
-      "Sai. Tần suất có thể phù hợp; rủi ro chính là bản sao bị mã hóa cùng lúc.",
       "Đúng. Bản sao luôn kết nối không bảo vệ được trước ransomware.",
+      "Sai. Tần suất có thể phù hợp; rủi ro chính là bản sao bị mã hóa cùng lúc.",
       "Sai. Dung lượng là vấn đề vận hành, không phải rủi ro chính.",
       "Sai. Chi phí không phải mối lo ngại chính về rủi ro."
     ],
@@ -1922,17 +1922,17 @@
     "stem": "Kế toán trưởng rà soát hằng tháng báo cáo tuổi nợ do ERP xuất ra để trích lập dự phòng. Kiểm toán viên đã kiểm tra việc rà soát có thực hiện. Ngoài ra, kiểm toán viên còn cần kiểm tra điều gì để kết luận kiểm soát hữu hiệu?",
     "options": [
       "Không cần thêm gì, vì báo cáo do hệ thống ERP tự động xuất ra luôn chính xác.",
-      "Tính đầy đủ, chính xác của báo cáo tuổi nợ dùng làm đầu vào cho việc rà soát.",
+      "Chữ ký của Tổng Giám đốc trên các bảng trích lập dự phòng hằng tháng.",
       "Bằng cấp chuyên môn và số năm kinh nghiệm của Kế toán trưởng thực hiện rà soát.",
-      "Chữ ký của Tổng Giám đốc trên các bảng trích lập dự phòng hằng tháng."
+      "Tính đầy đủ, chính xác của báo cáo tuổi nợ dùng làm đầu vào cho việc rà soát."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Đây là kiểm soát thủ công phụ thuộc vào thông tin do hệ thống tạo ra. Nếu báo cáo tuổi nợ thiếu hoặc sai (do cấu hình báo cáo, tham số lọc), rà soát dù kỹ cũng cho kết quả sai. Cần kiểm tra tính đầy đủ, chính xác của báo cáo, cùng kiểm soát chung CNTT liên quan.",
     "optionNotes": [
       "Sai. Báo cáo hệ thống có thể sai do cấu hình hoặc tham số.",
-      "Đúng. Kiểm soát chỉ tốt khi thông tin đầu vào đáng tin cậy.",
+      "Sai. Chữ ký thêm không chứng minh dữ liệu đầu vào đúng.",
       "Sai. Năng lực người rà soát là yếu tố phụ so với chất lượng thông tin đầu vào.",
-      "Sai. Chữ ký thêm không chứng minh dữ liệu đầu vào đúng."
+      "Đúng. Kiểm soát chỉ tốt khi thông tin đầu vào đáng tin cậy."
     ],
     "refs": [
       "CIA Part 1 C.8"
@@ -2264,6 +2264,107 @@
     ],
     "refs": [
       "CIA Part 1 C.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N34",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "Công ty mua lô đất trị giá 200 tỷ đồng từ một công ty do em trai Chủ tịch HĐQT sở hữu. Giao dịch được Chủ tịch phê duyệt một mình. Điểm yếu quản trị chính là gì?",
+    "options": [
+      "Giá trị giao dịch quá lớn so với ngân sách đầu tư hằng năm của công ty.",
+      "Giao dịch bên liên quan thiếu phê duyệt của người không có lợi ích.",
+      "Công ty không nên mua đất từ bất kỳ công ty tư nhân nào trong mọi trường hợp.",
+      "Giao dịch chưa được kiểm toán nội bộ phê duyệt trước khi ký hợp đồng mua bán."
+    ],
+    "answer": 1,
+    "explanation": "Giao dịch với bên liên quan cần được công bố và phê duyệt bởi người không có lợi ích liên quan (thành viên HĐQT độc lập hoặc Đại hội đồng cổ đông theo quy định), kèm đánh giá giá trị hợp lý. Người có lợi ích tự phê duyệt là điểm yếu quản trị nghiêm trọng.",
+    "optionNotes": [
+      "Sai. Quy mô không phải điểm yếu chính; vấn đề là xung đột lợi ích.",
+      "Đúng. Thiếu phê duyệt độc lập với giao dịch bên liên quan.",
+      "Sai. Quá tuyệt đối: giao dịch bên liên quan được phép nếu được kiểm soát phù hợp.",
+      "Sai. Kiểm toán nội bộ không phê duyệt giao dịch."
+    ],
+    "refs": [
+      "CIA Part 1 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N35",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 2,
+    "stem": "Kế hoạch duy trì hoạt động kinh doanh (BCP) của công ty được soạn rất chi tiết từ 3 năm trước nhưng chưa từng được diễn tập, và danh bạ liên hệ khẩn cấp đã lỗi thời. Rủi ro chính kiểm toán viên cần nêu là gì?",
+    "options": [
+      "Kế hoạch dài và chi tiết quá mức cần thiết, gây khó đọc cho nhân viên.",
+      "Kế hoạch có thể thất bại khi xảy ra sự cố vì chưa diễn tập, cập nhật.",
+      "Chi phí soạn thảo kế hoạch quá cao so với lợi ích mà kế hoạch mang lại.",
+      "Kế hoạch chưa được công ty kiểm toán độc lập xác nhận tính hiệu quả."
+    ],
+    "answer": 1,
+    "explanation": "BCP chỉ có giá trị khi được cập nhật và diễn tập định kỳ để kiểm chứng khả năng khôi phục, phát hiện thiếu sót (danh bạ lỗi thời, phụ thuộc chưa nhận diện). Kế hoạch chưa diễn tập có thể thất bại đúng lúc cần.",
+    "optionNotes": [
+      "Sai. Độ dài không phải rủi ro chính.",
+      "Đúng. Chưa diễn tập, chưa cập nhật là rủi ro chính.",
+      "Sai. Chi phí soạn thảo không phải mối lo ngại chính.",
+      "Sai. Xác nhận của kiểm toán độc lập không phải yêu cầu đối với BCP."
+    ],
+    "refs": [
+      "CIA Part 1 C.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N36",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 3,
+    "stem": "Đề xuất kiểm soát: lắp hệ thống giám sát RFID cho kho văn phòng phẩm, chi phí 800 triệu đồng mỗi năm, trong khi tổn thất mất mát ước tính chỉ khoảng 30 triệu đồng mỗi năm. Kiểm toán nội bộ nên đánh giá đề xuất này thế nào?",
+    "options": [
+      "Nên triển khai, vì càng nhiều kiểm soát thì rủi ro càng thấp, bất kể chi phí.",
+      "Không hợp lý về chi phí - lợi ích; chấp nhận rủi ro hoặc dùng kiểm soát rẻ hơn.",
+      "Nên triển khai, vì mọi tổn thất tài sản đều phải được loại bỏ hoàn toàn.",
+      "Không nên đánh giá, vì quyết định đầu tư kiểm soát hoàn toàn nằm ngoài phạm vi."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm soát cần tương xứng với rủi ro: chi phí kiểm soát không nên vượt lợi ích kỳ vọng. Với tổn thất nhỏ, có thể chấp nhận rủi ro hoặc dùng kiểm soát đơn giản (kiểm kê định kỳ, khóa kho). Đánh giá chi phí - lợi ích là một khía cạnh của đánh giá thiết kế kiểm soát.",
+    "optionNotes": [
+      "Sai. Kiểm soát quá mức gây lãng phí và có thể cản trở hoạt động.",
+      "Đúng. Chi phí vượt xa lợi ích; cần phương án tương xứng.",
+      "Sai. Không thể và không cần loại bỏ hoàn toàn mọi tổn thất.",
+      "Sai. Kiểm toán có thể nhận xét tính hợp lý của thiết kế kiểm soát."
+    ],
+    "refs": [
+      "CIA Part 1 C.8",
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N37",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Tổng Giám đốc thường chọn các phương án kế toán 'mạnh tay' nhất được phép để tăng lợi nhuận, công khai chế giễu bộ phận kiểm soát là 'phanh xe', và thưởng lớn cho người 'tìm được cách lách'. Theo COSO, điều này phản ánh vấn đề gì?",
+    "options": [
+      "Triết lý, phong cách điều hành làm yếu môi trường kiểm soát.",
+      "Thiếu hoạt động kiểm soát tự động trong hệ thống kế toán của công ty.",
+      "Thiếu kênh truyền thông với cơ quan quản lý và nhà đầu tư bên ngoài.",
+      "Thiếu quy trình đánh giá rủi ro gian lận cho từng giao dịch cụ thể."
+    ],
+    "answer": 0,
+    "explanation": "Thái độ của lãnh đạo đối với rủi ro, báo cáo và kiểm soát (triết lý, phong cách điều hành) là một phần cốt lõi của môi trường kiểm soát. Lãnh đạo coi thường kiểm soát và khuyến khích 'lách' làm suy yếu toàn bộ hệ thống, kể cả khi các kiểm soát khác được thiết kế tốt.",
+    "optionNotes": [
+      "Đúng. Phong cách điều hành làm yếu môi trường kiểm soát.",
+      "Sai. Thêm kiểm soát tự động không khắc phục thái độ của lãnh đạo.",
+      "Sai. Truyền thông bên ngoài không phải vấn đề chính.",
+      "Sai. Vấn đề gốc nằm ở môi trường kiểm soát, không ở từng giao dịch."
+    ],
+    "refs": [
+      "COSO 2013"
     ],
     "source": "original"
   }
