@@ -3,7 +3,7 @@
     "id": "P3-B-L001",
     "section": "B",
     "difficulty": 2,
-    "stem": "CAE muốn sử dụng kết quả công việc của bộ phận Tuân thủ (tuyến hai) để giảm trùng lặp với kế hoạch kiểm toán. CAE phải làm gì?",
+    "stem": "CAE muốn sử dụng kết quả công việc của bộ phận Tuân thủ (tuyến hai) để giảm trùng lặp với kế hoạch kiểm toán. CAE nên làm gì trước khi dựa vào kết quả này?",
     "options": [
       "Dùng ngay kết quả nếu bên đó là công ty kiểm toán độc lập có uy tín.",
       "Chuyển trách nhiệm kết luận về phần đó sang bên cung cấp đảm bảo.",
@@ -11,7 +11,7 @@
       "Đánh giá năng lực, khách quan, thận trọng và phạm vi công việc của họ."
     ],
     "answer": 3,
-    "explanation": "Theo Chuẩn mực 9.5 về Đảm bảo kết hợp (Combined Assurance), CAE có thể dựa vào (rely on) công việc của Tuyến 2 hoặc bên ngoài để giảm trùng lặp, nhưng CAE vẫn chịu trách nhiệm cuối cùng về kết luận của KTNB nên bắt buộc phải đánh giá năng lực, tính khách quan và chất lượng công việc của họ trước.",
+    "explanation": "GIAS 9.5 (Phối hợp và dựa vào công việc của bên khác) cho phép CAE dựa vào công việc của tuyến hai hoặc bên ngoài để giảm trùng lặp, nhưng CAE phải ghi lại cơ sở cho việc dựa vào và vẫn chịu trách nhiệm về kết luận của kiểm toán nội bộ. Phần Xem xét khi thực hiện nêu cơ sở đó: đánh giá vai trò, độc lập tổ chức, năng lực, khách quan của bên cung cấp và sự thận trọng trong công việc của họ.",
     "refs": [
       "GIAS 9.5"
     ],

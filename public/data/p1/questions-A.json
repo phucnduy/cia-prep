@@ -776,9 +776,11 @@
       "Thảo luận với CFO; nếu vẫn bị giới hạn, báo cáo HĐQT về giới hạn phạm vi."
     ],
     "answer": 3,
-    "explanation": "Giới hạn phạm vi do Ban điều hành áp đặt là suy giảm độc lập. CAE phải trao đổi và, nếu không giải quyết được, báo cáo HĐQT về giới hạn và hệ quả (GIAS 7.1). Kiểm toán bí mật hay tự hoãn đều không phù hợp.",
+    "explanation": "Ban điều hành cố thu hẹp phạm vi đã được HĐQT phê duyệt là ví dụ GIAS nêu về tình huống có thể làm suy giảm độc lập (GIAS 7.1, Xem xét khi thực hiện). Kế hoạch kiểm toán trình HĐQT phải nêu các giới hạn phạm vi (GIAS 9.4), và CAE phải báo HĐQT về khả năng suy giảm độc lập (GIAS 8.1). Vì vậy CAE trao đổi với Giám đốc tài chính trước; nếu vẫn bị giới hạn thì báo HĐQT. Kiểm toán bí mật hay tự hoãn đều không phù hợp.",
     "refs": [
-      "GIAS 7.1"
+      "GIAS 7.1",
+      "GIAS 9.4",
+      "GIAS 8.1"
     ],
     "source": "original",
     "optionNotes": [
@@ -1208,7 +1210,7 @@
       "Độc lập chỉ áp dụng cho kiểm toán độc lập; khách quan chỉ cho kiểm toán nội bộ."
     ],
     "answer": 2,
-    "explanation": "Theo Glossary GIAS: Independence là sự không có các điều kiện đe dọa khả năng chức năng kiểm toán thực hiện trách nhiệm không thiên lệch (Nguyên tắc 7). Objectivity là thái độ tinh thần không thiên lệch của kiểm toán viên (Nguyên tắc 2).",
+    "explanation": "Theo Glossary GIAS: Independence là không bị các điều kiện làm suy giảm khả năng chức năng kiểm toán thực hiện trách nhiệm không thiên lệch (Nguyên tắc 7). Objectivity là thái độ tinh thần không thiên lệch của kiểm toán viên (Nguyên tắc 2).",
     "refs": [
       "GIAS - Glossary",
       "GIAS 2.1",

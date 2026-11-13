@@ -319,7 +319,7 @@
       "Rà soát giám sát hồ sơ làm việc trước khi phát hành kết quả kiểm toán."
     ],
     "answer": 2,
-    "explanation": "CAE phải thiết lập phương pháp xử lý suy giảm khách quan (GIAS 2.2). Kê khai xung đột, luân chuyển và rà soát giám sát là các biện pháp bảo vệ phổ biến. Thưởng theo số tiền phát hiện tạo động cơ thiên lệch, khiến kiểm toán viên phóng đại phát hiện.",
+    "explanation": "CAE phải thiết lập phương pháp xử lý suy giảm khách quan (GIAS 2.2). Kê khai xung đột, luân chuyển và rà soát giám sát là các biện pháp bảo vệ phổ biến. Phần Xem xét khi thực hiện của GIAS 2.2 nêu đích danh việc đo kết quả làm việc theo số phát hiện, theo số tiền tiết kiệm hay số việc làm cắt giảm tại đơn vị được kiểm toán là cơ chế có thể làm suy giảm khách quan.",
     "optionNotes": [
       "Sai. Kê khai xung đột lợi ích là biện pháp bảo vệ phù hợp.",
       "Sai. Luân chuyển giảm nguy cơ quen thuộc.",
@@ -422,10 +422,10 @@
       "Nhờ bộ phận xây dựng mô hình tự đánh giá rồi tổng hợp kết quả."
     ],
     "answer": 2,
-    "explanation": "GIAS 3.1 và 10.2: khi thiếu năng lực, CAE có thể dùng chuyên gia bên ngoài, nhưng phải đánh giá năng lực, độc lập, khách quan của họ. Nhờ người xây dựng mô hình tự đánh giá là thiếu khách quan.",
+    "explanation": "GIAS 3.1 (Xem xét khi thực hiện): khi chức năng không đủ năng lực, CAE nên cân nhắc thuê nhà cung cấp độc lập bên ngoài, và CAE vẫn chịu trách nhiệm bảo đảm chức năng có hoặc bổ sung năng lực cần thiết. Khi dựa vào công việc của bên khác, CAE nên đánh giá độc lập tổ chức, năng lực, khách quan và sự thận trọng của họ (GIAS 9.5, Xem xét khi thực hiện). Nhờ người xây dựng mô hình tự đánh giá là thiếu khách quan.",
     "refs": [
       "GIAS 3.1",
-      "GIAS 10.2"
+      "GIAS 9.5"
     ],
     "source": "original",
     "optionNotes": [
@@ -701,7 +701,7 @@
       "Được dùng mọi thông tin của công ty cũ nếu đã xóa tên công ty và tên người liên quan."
     ],
     "answer": 1,
-    "explanation": "Thông tin thu được khi làm kiểm toán chỉ được dùng cho mục đích nghề nghiệp và không vì lợi ích cá nhân hay gây hại cho tổ chức; nghĩa vụ bảo mật tiếp tục sau khi nghỉ việc (GIAS 5.1, 5.2). Kỹ năng và kinh nghiệm nghề nghiệp chung thì không phải thông tin của tổ chức.",
+    "explanation": "Thông tin thu được khi làm kiểm toán chỉ được dùng cho mục đích nghề nghiệp và không vì lợi ích cá nhân hay gây hại cho tổ chức; GIAS yêu cầu chỉ dùng thông tin cho mục đích nghề nghiệp và bảo vệ thông tin khỏi tiếp cận, công bố trái phép (Nguyên tắc 5, 5.1, 5.2); GIAS không nói riêng về thời gian sau khi nghỉ việc, nhưng thông tin bảo mật vẫn thuộc sở hữu của tổ chức cũ, và hợp đồng lao động, pháp luật thường quy định nghĩa vụ này tiếp tục. Kỹ năng và kinh nghiệm nghề nghiệp chung thì không phải thông tin của tổ chức.",
     "optionNotes": [
       "Sai. Quá tuyệt đối: kỹ năng nghề nghiệp chung thuộc về cá nhân.",
       "Đúng. Phân biệt đúng kỹ năng chung với thông tin bảo mật.",
