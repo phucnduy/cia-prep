@@ -1,7 +1,7 @@
 {
   "title": "Khung chuẩn mực trong đề thi CIA",
   "lede": "Tóm tắt các khung, chuẩn mực mà đề thi CIA dựa vào: IPPF và GIAS của IIA, Mô hình Ba Tuyến, COSO, ISO 31000, COBIT, IESBA và ACFE. Mỗi phần nêu cấu trúc, ý chính và chỗ hay bị nhầm. Đây là bản diễn đạt lại để ôn tập, không thay thế văn bản gốc.",
-  "checked": "Cấu trúc và tên các nguyên tắc, chuẩn mực GIAS đối chiếu với văn bản GIAS của IIA; các khung khác tóm tắt theo hiểu biết, nên đối chiếu thêm với tài liệu gốc.",
+  "checked": "Yêu cầu của 52 chuẩn mực GIAS đối chiếu với bản GIAS rút gọn của IIA (2026-11-13), diễn đạt lại, không phải bản dịch; các khung khác tóm tắt theo hiểu biết, nên đối chiếu thêm với tài liệu gốc.",
   "sections": [
     {
       "id": "map",
@@ -227,6 +227,324 @@
             "CAE phê duyệt chương trình kiểm toán trước khi thực hiện: GIAS 13.6. CAE duyệt báo cáo cuối cùng: GIAS 15.1.",
             "Rủi ro được chấp nhận vượt khẩu vị: thảo luận với Ban điều hành, chưa giải quyết thì báo HĐQT: GIAS 11.5."
           ]
+        }
+      ]
+    },
+    {
+      "id": "gias-detail",
+      "title": "GIAS 2024 chi tiết - yêu cầu của từng chuẩn mực",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Phần này tóm tắt bằng lời của trang web các yêu cầu bắt buộc (Requirements) của 52 chuẩn mực, kèm điểm hay bị hỏi bẫy. Đây không phải bản dịch: khi cần trích dẫn chính xác, đọc văn bản gốc của IIA (link ở mục Văn bản gốc chính thức)."
+        },
+        {
+          "type": "table",
+          "title": "Nguyên tắc 1-5: Đạo đức và tính chuyên nghiệp",
+          "columns": [
+            "Chuẩn mực",
+            "Yêu cầu chính (diễn đạt lại)",
+            "Bẫy hay gặp khi thi"
+          ],
+          "rows": [
+            [
+              "1.1 Trung thực và dũng khí nghề nghiệp",
+              "Trung thực, chính xác, rõ ràng, tôn trọng trong mọi trao đổi; không đưa thông tin sai lệch, không che giấu phát hiện; công bố mọi sự kiện trọng yếu có thể ảnh hưởng quyết định; dám nói thật và hành động khi chịu áp lực.",
+              "Hoãn báo cáo vấn đề trọng yếu theo đề nghị của Ban điều hành là vi phạm, kể cả khi 'chỉ chậm một tháng'."
+            ],
+            [
+              "1.2 Kỳ vọng đạo đức của tổ chức",
+              "Hiểu, tôn trọng và góp phần vào kỳ vọng đạo đức chính đáng của tổ chức; thúc đẩy văn hóa dựa trên đạo đức; hành vi trái kỳ vọng thì báo cáo theo chính sách.",
+              "Kiểm toán viên thúc đẩy văn hóa đạo đức, nhưng không làm chủ chương trình đạo đức."
+            ],
+            [
+              "1.3 Hành xử hợp pháp và đạo đức",
+              "Không tham gia hoạt động bất hợp pháp hoặc làm mất uy tín tổ chức, nghề nghiệp; tuân thủ luật áp dụng; phát hiện vi phạm pháp luật thì báo cáo cho người có thẩm quyền xử lý theo luật và chính sách.",
+              "Kỹ thuật thu thập bằng chứng (ghi âm, truy cập thiết bị) cũng phải hợp pháp."
+            ],
+            [
+              "2.1 Khách quan cá nhân",
+              "Giữ thái độ vô tư, không thiên lệch trong mọi khía cạnh công việc; xét đoán dựa trên đánh giá cân bằng; nhận biết và quản lý các thiên kiến của mình.",
+              "2.1 chỉ nói về tư duy và thiên kiến; quy tắc 12 tháng, quà tặng, xung đột lợi ích nằm ở 2.2."
+            ],
+            [
+              "2.2 Bảo vệ tính khách quan",
+              "Nhận biết và tránh hoặc giảm thiểu suy giảm khách quan thực tế, tiềm ẩn, bị nhận thấy; không nhận quà, phần thưởng, ưu đãi có thể làm suy giảm; tránh xung đột lợi ích; không đánh giá hoạt động mình từng phụ trách (thường trong 12 tháng); tư vấn về hoạt động mình từng phụ trách thì công bố trước khi nhận; CAE lập phương pháp xử lý suy giảm.",
+              "Quy tắc 12 tháng là của dịch vụ bảo đảm; với tư vấn thì phải công bố trước khi nhận, không bị cấm."
+            ],
+            [
+              "2.3 Công bố suy giảm khách quan",
+              "Suy giảm thực tế hay bề ngoài phải được công bố kịp thời: kiểm toán viên báo CAE hoặc người giám sát; CAE trao đổi với quản lý đơn vị, HĐQT, Ban điều hành để quyết định xử lý; nếu suy giảm ảnh hưởng độ tin cậy của kết quả đã phát hành thì trao đổi lại với các bên.",
+              "Phát hiện suy giảm sau khi báo cáo đã phát hành vẫn phải công bố, không chỉ ghi nội bộ."
+            ],
+            [
+              "3.1 Năng lực",
+              "Có hoặc đạt được năng lực cần thiết; hiểu GIAS; chỉ nhận dịch vụ mình có hoặc đạt được năng lực; CAE bảo đảm chức năng có đủ năng lực tổng thể (kể cả dùng chuyên gia).",
+              "Thiếu năng lực thì bổ sung hoặc dùng chuyên gia, không thu hẹp phạm vi để né."
+            ],
+            [
+              "3.2 Phát triển nghề nghiệp liên tục",
+              "Duy trì và phát triển năng lực qua đào tạo; người có chứng chỉ phải đáp ứng yêu cầu CPE của chứng chỉ đó.",
+              "Cắt ngân sách đào tạo không miễn trách nhiệm CPE cá nhân."
+            ],
+            [
+              "4.1 Tuân thủ GIAS",
+              "Lập và làm theo phương pháp phù hợp GIAS; nếu dùng kèm chuẩn mực khác thì nêu trong báo cáo; nếu luật cấm tuân thủ một phần GIAS thì vẫn tuân thủ phần còn lại và công bố.",
+              "Luật cấm một phần không có nghĩa là bỏ GIAS toàn bộ."
+            ],
+            [
+              "4.2 Thận trọng nghề nghiệp đúng mức",
+              "Cân nhắc: chiến lược và mục tiêu; lợi ích các bên; hiệu quả quản trị, rủi ro, kiểm soát; chi phí so với lợi ích; mức độ, tính kịp thời của công việc; độ phức tạp, trọng yếu; khả năng sai sót, gian lận, vi phạm; kỹ thuật và công cụ phù hợp.",
+              "Thận trọng không có nghĩa là không bao giờ sai sót (ý này nằm ở IPPF 2017 1220)."
+            ],
+            [
+              "4.3 Hoài nghi nghề nghiệp",
+              "Có tinh thần ham tìm hiểu; đánh giá phê phán độ tin cậy của thông tin; thẳng thắn khi hỏi về thông tin mâu thuẫn; tìm thêm bằng chứng khi thông tin có thể thiếu, sai hoặc gây hiểu lầm.",
+              "Chấp nhận giải thích vì người nói có chức vụ cao là thiếu hoài nghi."
+            ],
+            [
+              "5.1 Sử dụng thông tin",
+              "Dùng thông tin theo chính sách, luật; không dùng để mưu lợi cá nhân hoặc gây hại cho mục tiêu chính đáng của tổ chức.",
+              "Mua cổ phiếu dựa trên thông tin biết được khi kiểm toán là vi phạm."
+            ],
+            [
+              "5.2 Bảo vệ thông tin",
+              "Tôn trọng tính bảo mật, quyền riêng tư và quyền sở hữu thông tin; tuân thủ luật, chính sách về bảo mật, an ninh thông tin; quản lý lưu giữ, cung cấp, hủy hồ sơ kiểm toán theo quy định.",
+              "Cung cấp hồ sơ cho bên ngoài (kể cả cơ quan nhà nước) phải theo chính sách và thẩm quyền, không tự quyết."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Nguyên tắc 6-8: Quản trị chức năng kiểm toán nội bộ (có Điều kiện thiết yếu cho HĐQT, Ban điều hành)",
+          "columns": [
+            "Chuẩn mực",
+            "Yêu cầu chính (diễn đạt lại)",
+            "Bẫy hay gặp khi thi"
+          ],
+          "rows": [
+            [
+              "6.1 Nhiệm vụ kiểm toán nội bộ",
+              "CAE cung cấp thông tin để HĐQT xác lập nhiệm vụ; nếu luật quy định nhiệm vụ thì điều lệ phải gồm các yêu cầu pháp lý đó; CAE phối hợp với các bên bảo đảm khác để đề xuất phạm vi, loại dịch vụ.",
+              "HĐQT xác lập nhiệm vụ; CAE không tự đặt, Tổng Giám đốc không giao."
+            ],
+            [
+              "6.2 Điều lệ kiểm toán nội bộ",
+              "Tối thiểu nêu: Mục đích; cam kết tuân thủ GIAS; nhiệm vụ (phạm vi, loại dịch vụ, trách nhiệm của HĐQT); vị trí và quan hệ báo cáo. CAE thảo luận dự thảo với HĐQT và Ban điều hành; HĐQT phê duyệt và rà soát khi tổ chức thay đổi.",
+              "Ban điều hành góp ý kỳ vọng, không phê duyệt điều lệ."
+            ],
+            [
+              "6.3 Sự hỗ trợ của HĐQT và Ban điều hành",
+              "CAE cung cấp thông tin để HĐQT, Ban điều hành hỗ trợ và nâng cao sự công nhận đối với chức năng; phối hợp nội dung trình HĐQT với Ban điều hành. HĐQT ủng hộ, bảo đảm quyền tiếp cận không hạn chế, giao tiếp trực tiếp với CAE.",
+              "Phối hợp trình HĐQT không có nghĩa là để Tổng Giám đốc sửa nội dung báo cáo."
+            ],
+            [
+              "7.1 Độc lập về tổ chức",
+              "CAE xác nhận tính độc lập với HĐQT ít nhất hằng năm, kể cả các sự việc làm suy giảm và biện pháp bảo vệ; ghi quan hệ báo cáo trong điều lệ; trao đổi với HĐQT về các vai trò ngoài kiểm toán có thể làm suy giảm độc lập. HĐQT phê duyệt bổ nhiệm, miễn nhiệm CAE.",
+              "Về đánh giá và lương của CAE, HĐQT chỉ góp ý cho Ban điều hành."
+            ],
+            [
+              "7.2 Trình độ của CAE",
+              "CAE giúp HĐQT hiểu trình độ, năng lực cần có của CAE; tự duy trì và nâng cao năng lực theo kỳ vọng của HĐQT.",
+              "HĐQT (không phải Tổng Giám đốc) xác định tiêu chuẩn CAE."
+            ],
+            [
+              "8.1 Tương tác với HĐQT",
+              "CAE cung cấp thông tin để HĐQT giám sát: kế hoạch, ngân sách và thay đổi đáng kể; thay đổi ảnh hưởng nhiệm vụ, điều lệ; suy giảm độc lập; kết quả dịch vụ; kết quả chương trình chất lượng. Khi bất đồng với Ban điều hành về phạm vi, phát hiện..., CAE cung cấp dữ kiện để HĐQT xem xét.",
+              "HĐQT họp định kỳ với CAE trong phiên không có Ban điều hành (điều kiện thiết yếu)."
+            ],
+            [
+              "8.2 Nguồn lực",
+              "CAE đánh giá nguồn lực có đủ thực hiện nhiệm vụ và kế hoạch không; nếu thiếu thì lập chiến lược bổ sung và báo HĐQT về ảnh hưởng.",
+              "Đủ số người theo định biên chưa chắc đủ năng lực; thiếu thì báo cáo, không âm thầm cắt phạm vi."
+            ],
+            [
+              "8.3 Chất lượng",
+              "CAE lập chương trình bảo đảm và cải tiến chất lượng (đánh giá trong và ngoài); báo cáo kết quả đánh giá trong ít nhất hằng năm, đánh giá ngoài khi hoàn thành. HĐQT phê duyệt mục tiêu hoạt động của chức năng ít nhất hằng năm.",
+              "Chỉ được tuyên bố tuân thủ GIAS khi có kết quả chương trình chất lượng hỗ trợ (ý này diễn đạt tương tự IPPF 2017 1321)."
+            ],
+            [
+              "8.4 Đánh giá chất lượng từ bên ngoài",
+              "Ít nhất 5 năm một lần, do người hoặc nhóm đủ năng lực, độc lập; có thể là tự đánh giá có xác nhận độc lập; ít nhất một người có chứng chỉ CIA đang hiệu lực. HĐQT phê duyệt kế hoạch đánh giá (phạm vi, tần suất, năng lực, độc lập).",
+              "Đánh giá ngoài không do người trong tổ chức thực hiện; báo cáo đầy đủ, không chỉ tóm tắt miệng."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Nguyên tắc 9-12: Quản lý chức năng kiểm toán nội bộ",
+          "columns": [
+            "Chuẩn mực",
+            "Yêu cầu chính (diễn đạt lại)",
+            "Bẫy hay gặp khi thi"
+          ],
+          "rows": [
+            [
+              "9.1 Hiểu quản trị, rủi ro, kiểm soát",
+              "Để lập chiến lược và kế hoạch, CAE hiểu cách tổ chức đặt mục tiêu, ra quyết định, giám sát rủi ro, thúc đẩy văn hóa đạo đức, giao trách nhiệm, truyền thông thông tin rủi ro và phối hợp giữa các bên bảo đảm.",
+              "Hiểu tổ chức là bước trước khi lập kế hoạch năm."
+            ],
+            [
+              "9.2 Chiến lược kiểm toán nội bộ",
+              "CAE lập chiến lược (tầm nhìn, mục tiêu chiến lược, sáng kiến) hỗ trợ mục tiêu tổ chức, phù hợp kỳ vọng các bên; rà soát định kỳ với HĐQT.",
+              "Chiến lược dài hạn khác với kế hoạch kiểm toán năm."
+            ],
+            [
+              "9.3 Phương pháp",
+              "CAE lập phương pháp làm việc có hệ thống; đánh giá, cập nhật khi cần; đào tạo kiểm toán viên về phương pháp.",
+              "Phương pháp là trách nhiệm của CAE, không do từng trưởng nhóm tự đặt."
+            ],
+            [
+              "9.4 Kế hoạch kiểm toán nội bộ",
+              "Dựa trên đánh giá chiến lược, mục tiêu, rủi ro có lập văn bản, ít nhất hằng năm, có ý kiến của HĐQT và Ban điều hành; cân nhắc bao phủ quản trị CNTT, gian lận, tuân thủ, đạo đức; nêu ảnh hưởng của hạn chế nguồn lực, phạm vi; trao đổi kế hoạch và thay đổi đáng kể giữa kỳ, HĐQT phê duyệt.",
+              "Kế hoạch phải linh hoạt khi rủi ro thay đổi; thay đổi đáng kể cần HĐQT duyệt."
+            ],
+            [
+              "9.5 Phối hợp và dựa vào bên khác",
+              "Phối hợp với các bên bảo đảm trong và ngoài, cân nhắc dựa vào công việc của họ; không phối hợp được thì nêu lo ngại với Ban điều hành, khi cần với HĐQT; khi dựa vào thì ghi lại cơ sở và CAE vẫn chịu trách nhiệm về kết luận.",
+              "Dựa vào bên khác không chuyển trách nhiệm kết luận."
+            ],
+            [
+              "10.1 Nguồn lực tài chính",
+              "CAE lập và quản lý ngân sách (gồm đào tạo, công nghệ), xin HĐQT phê duyệt; báo kịp thời ảnh hưởng khi thiếu kinh phí.",
+              "HĐQT phê duyệt ngân sách kiểm toán nội bộ."
+            ],
+            [
+              "10.2 Nhân sự",
+              "CAE có cách tuyển dụng, phát triển, giữ chân người đủ năng lực; nguồn lực phải phù hợp (kỹ năng), đủ (số lượng) và được phân bổ hiệu quả; báo HĐQT, Ban điều hành về ảnh hưởng nếu thiếu.",
+              "Phù hợp, đủ, phân bổ hiệu quả là ba khía cạnh khác nhau."
+            ],
+            [
+              "10.3 Công nghệ",
+              "CAE cố gắng bảo đảm có công nghệ hỗ trợ; đánh giá công nghệ thường xuyên; đào tạo khi đưa công nghệ mới; phối hợp với bộ phận CNTT, an ninh thông tin; báo ảnh hưởng của hạn chế công nghệ.",
+              "Không dùng công cụ của đơn vị được kiểm toán thay cho năng lực phân tích của mình."
+            ],
+            [
+              "11.1 Xây dựng quan hệ, trao đổi với các bên",
+              "CAE xây dựng quan hệ, niềm tin với HĐQT, Ban điều hành, quản lý tác nghiệp, cơ quan quản lý, các bên bảo đảm; thúc đẩy trao đổi chính thức và không chính thức.",
+              "Quan hệ tốt giúp đơn vị chia sẻ thông tin, không làm mất khách quan."
+            ],
+            [
+              "11.2 Trao đổi hiệu quả",
+              "Thông tin kiểm toán phải chính xác, khách quan, rõ ràng, súc tích, mang tính xây dựng, đầy đủ và kịp thời.",
+              "Báo cáo dài, khó nắm ý chính vi phạm yêu cầu súc tích, rõ ràng."
+            ],
+            [
+              "11.3 Trao đổi kết quả",
+              "CAE báo cáo kết quả cho HĐQT, Ban điều hành định kỳ và theo từng cuộc; kết quả có thể gồm kết luận cuộc kiểm toán, chủ đề chung, nguyên nhân gốc, kết luận ở cấp đơn vị hay tổ chức; CAE duyệt báo cáo cuối và quyết định gửi cho ai.",
+              "Tổng hợp nguyên nhân gốc chung của nhiều cuộc là giá trị gia tăng thường được hỏi."
+            ],
+            [
+              "11.4 Sai sót và thiếu sót",
+              "Nếu báo cáo cuối có sai sót, thiếu sót đáng kể, CAE gửi thông tin đã sửa kịp thời cho mọi bên đã nhận bản gốc; mức đáng kể theo tiêu chí thống nhất với HĐQT.",
+              "Sửa trong hồ sơ hoặc chờ kỳ sau là không đủ."
+            ],
+            [
+              "11.5 Trao đổi về việc chấp nhận rủi ro",
+              "Nếu Ban điều hành chấp nhận rủi ro vượt khẩu vị, dung sai, CAE trao đổi với Ban điều hành; chưa giải quyết thì báo lên HĐQT. CAE không có trách nhiệm tự xử lý rủi ro đó.",
+              "CAE báo cáo, không tự quyết định hay tự khắc phục rủi ro."
+            ],
+            [
+              "12.1 Đánh giá chất lượng nội bộ",
+              "Gồm giám sát liên tục và tự đánh giá định kỳ (hoặc do người trong tổ chức am hiểu kiểm toán thực hiện); báo cáo kết quả cho HĐQT, Ban điều hành.",
+              "Đánh giá nội bộ không thay được đánh giá ngoài 5 năm một lần."
+            ],
+            [
+              "12.2 Đo lường hiệu quả hoạt động",
+              "CAE đặt mục tiêu hoạt động (có ý kiến HĐQT, Ban điều hành), lập phương pháp đo, xin phản hồi và có kế hoạch khắc phục.",
+              "Mục tiêu hoạt động do CAE đề xuất, HĐQT phê duyệt (8.3)."
+            ],
+            [
+              "12.3 Giám sát và nâng cao chất lượng cuộc kiểm toán",
+              "CAE hoặc người giám sát hướng dẫn trong suốt cuộc kiểm toán, kiểm tra chương trình đã hoàn thành, hồ sơ đủ hỗ trợ kết luận; kiểm tra việc tuân thủ phương pháp; phản hồi để phát triển năng lực.",
+              "Giám sát là trong suốt cuộc kiểm toán, không chỉ ký duyệt cuối."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Nguyên tắc 13-15: Thực hiện dịch vụ kiểm toán nội bộ",
+          "columns": [
+            "Chuẩn mực",
+            "Yêu cầu chính (diễn đạt lại)",
+            "Bẫy hay gặp khi thi"
+          ],
+          "rows": [
+            [
+              "13.1 Trao đổi trong cuộc kiểm toán",
+              "Trao đổi mục tiêu, phạm vi, thời gian với quản lý đơn vị; thay đổi thì báo kịp thời. Cuối cuộc, nếu quản lý không đồng ý với kết quả thì thảo luận để đạt hiểu biết chung; không bắt buộc sửa kết quả nếu không có lý do xác đáng.",
+              "Quản lý phản đối không phải lý do để sửa hay bỏ phát hiện."
+            ],
+            [
+              "13.2 Đánh giá rủi ro cuộc kiểm toán",
+              "Hiểu hoạt động được kiểm toán để đánh giá rủi ro: chiến lược, mục tiêu, rủi ro; dung sai rủi ro; đánh giá rủi ro của kế hoạch năm; quản trị, rủi ro, kiểm soát của hoạt động; khung, quy định áp dụng; xem xét cả rủi ro gian lận. Với tư vấn có thể không cần đánh giá chính thức.",
+              "Không có tố giác không có nghĩa là bỏ qua rủi ro gian lận."
+            ],
+            [
+              "13.3 Mục tiêu và phạm vi",
+              "Lập và ghi lại mục tiêu, phạm vi cho từng cuộc (hoạt động, địa điểm, hệ thống, kỳ...); xác định là bảo đảm hay tư vấn; thay đổi phạm vi thì trao đổi.",
+              "Ban điều hành muốn thu hẹp phạm vi thì cần cơ sở và trao đổi, có thể báo HĐQT."
+            ],
+            [
+              "13.4 Tiêu chí đánh giá",
+              "Xác định tiêu chí phù hợp nhất; đánh giá tiêu chí của Ban điều hành có đủ không; đủ thì dùng, không đủ thì xác định tiêu chí phù hợp qua trao đổi.",
+              "Không tự đặt tiêu chí khi tiêu chí của tổ chức đã đầy đủ."
+            ],
+            [
+              "13.5 Nguồn lực cuộc kiểm toán",
+              "Xác định loại và số lượng nguồn lực theo tính chất, độ phức tạp, thời hạn; thiếu thì trao đổi với CAE.",
+              "Thiếu chuyên môn thì xin bổ sung, không tự làm phần mình không đủ năng lực."
+            ],
+            [
+              "13.6 Chương trình kiểm toán",
+              "Lập và ghi lại chương trình: tiêu chí, công việc, phương pháp và công cụ, người thực hiện; CAE duyệt trước khi thực hiện và duyệt kịp thời khi thay đổi.",
+              "Duyệt trước khi thực hiện, không phải sau."
+            ],
+            [
+              "14.1 Thu thập thông tin",
+              "Thông tin phải phù hợp (relevant), đáng tin cậy (reliable) và đầy đủ (sufficient). Tin cậy hơn khi kiểm toán viên tự thu thập hoặc từ nguồn độc lập, được đối chiếu, hoặc từ hệ thống có kiểm soát tốt.",
+              "Ba thuộc tính của GIAS; 'hữu ích' (useful) là của IPPF 2017."
+            ],
+            [
+              "14.2 Phân tích và phát hiện tiềm năng",
+              "Phân tích để so sánh tiêu chí với thực trạng (condition); chênh lệch là phát hiện tiềm năng; với tư vấn có thể không cần thu thập bằng chứng như bảo đảm.",
+              "Phát hiện = chênh lệch giữa tiêu chí và thực trạng."
+            ],
+            [
+              "14.3 Đánh giá phát hiện",
+              "Đánh giá mức độ quan trọng từng phát hiện; cùng quản lý tìm nguyên nhân gốc, xác định ảnh hưởng; xét khả năng xảy ra và mức ảnh hưởng; rủi ro đáng kể thì ghi nhận và báo cáo; xếp ưu tiên.",
+              "Nguyên nhân gốc được xác định cùng quản lý, không chỉ dựa vào ý kiến kiểm toán viên."
+            ],
+            [
+              "14.4 Khuyến nghị và kế hoạch hành động",
+              "Quyết định đưa khuyến nghị, yêu cầu kế hoạch hành động hoặc cùng quản lý thống nhất hành động; trao đổi khuyến nghị với quản lý; bất đồng thì xử lý theo phương pháp đã lập và nêu quan điểm hai bên.",
+              "Bất đồng với quản lý không được bỏ phát hiện, mà ghi nhận quan điểm hai bên."
+            ],
+            [
+              "14.5 Kết luận cuộc kiểm toán",
+              "Tổng hợp xét đoán về mức độ quan trọng chung của các phát hiện; kết luận bảo đảm phải nêu đánh giá về hiệu quả quản trị, rủi ro, kiểm soát, kể cả ghi nhận khi quy trình hữu hiệu.",
+              "Kết luận tích cực cũng phải được nêu, không chỉ nêu điểm yếu."
+            ],
+            [
+              "14.6 Hồ sơ cuộc kiểm toán",
+              "Ghi lại thông tin, bằng chứng sao cho người có hiểu biết, thận trọng làm lại được và ra cùng kết quả; người giám sát rà soát; CAE duyệt hồ sơ; lưu giữ theo luật và chính sách.",
+              "Tư vấn vẫn cần hồ sơ; xóa hồ sơ sớm để 'bảo mật' là sai."
+            ],
+            [
+              "15.1 Báo cáo cuối cùng",
+              "Gồm mục tiêu, phạm vi, khuyến nghị hoặc kế hoạch hành động, kết luận; với bảo đảm còn có phát hiện và mức ưu tiên, giới hạn phạm vi, kết luận về hiệu quả; nêu người chịu trách nhiệm và thời hạn khắc phục.",
+              "Có giới hạn phạm vi thì phải nêu và giới hạn kết luận tương ứng."
+            ],
+            [
+              "15.2 Xác nhận việc thực hiện khuyến nghị",
+              "Theo dõi theo phương pháp đã lập: hỏi tiến độ, kiểm tra lại dựa trên rủi ro, cập nhật hệ thống theo dõi; quá hạn thì lấy và ghi lại giải thích, báo CAE; CAE xác định việc chậm trễ có phải là chấp nhận rủi ro vượt dung sai không (khi đó áp dụng 11.5).",
+              "Theo dõi là trách nhiệm của kiểm toán nội bộ, mức độ tùy tầm quan trọng của phát hiện."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Nội dung trên được đối chiếu với văn bản GIAS bản rút gọn (condensed) của IIA ngày 2026-11-13. Bản rút gọn có phần Yêu cầu và Điều kiện thiết yếu; phần Xem xét khi thực hiện và Ví dụ bằng chứng chỉ có trong bản đầy đủ."
         }
       ]
     },
@@ -819,6 +1137,67 @@
           ]
         }
       ]
+    },
+    {
+      "id": "official",
+      "title": "Văn bản gốc chính thức và tài liệu tiếng Việt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Các văn bản dưới đây có bản quyền của tổ chức ban hành nên trang web chỉ tóm tắt và dẫn link, không chép toàn văn."
+        },
+        {
+          "type": "table",
+          "title": "Nơi lấy văn bản gốc",
+          "columns": [
+            "Văn bản",
+            "Ngôn ngữ, cách lấy",
+            "Ghi chú"
+          ],
+          "rows": [
+            [
+              "GIAS 2024 (bản đầy đủ và bản rút gọn)",
+              "Tiếng Anh; tải miễn phí trên theiia.org (cần tạo tài khoản)",
+              "Chưa có bản dịch tiếng Việt chính thức tại thời điểm biên soạn."
+            ],
+            [
+              "IPPF 2017 (chuẩn mực cũ)",
+              "Tiếng Anh; vẫn có trên theiia.org để tham khảo",
+              "IIA ghi rằng không còn cho phép dịch bộ chuẩn mực 2017."
+            ],
+            [
+              "Bảng thuật ngữ chính thức của IIA",
+              "Có bản tiếng Việt do IIA phát hành",
+              "Nên kiểm tra thuật ngữ có khớp GIAS 2024 không trước khi dùng."
+            ],
+            [
+              "Mô hình Ba tuyến (2020)",
+              "Tiếng Anh; miễn phí trên theiia.org",
+              ""
+            ],
+            [
+              "COSO 2013 và COSO ERM 2017",
+              "Tiếng Anh; bản tóm tắt (executive summary) miễn phí trên coso.org, bản đầy đủ phải mua",
+              "Không có bản tiếng Việt chính thức."
+            ],
+            [
+              "ISO 31000:2018",
+              "Có bản tiếng Việt chính thức TCVN ISO 31000:2018 (tương đương hoàn toàn)",
+              "Mua hoặc tra cứu qua cơ quan tiêu chuẩn, thư viện pháp luật."
+            ],
+            [
+              "IESBA Code",
+              "Tiếng Anh; miễn phí trên ethicsboard.org",
+              ""
+            ],
+            [
+              "ACFE Occupational Fraud (Report to the Nations)",
+              "Tiếng Anh; miễn phí trên acfe.com",
+              "Số liệu thay đổi theo từng kỳ báo cáo."
+            ]
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -845,6 +1224,14 @@
     {
       "label": "IESBA - International Code of Ethics",
       "url": "https://www.ethicsboard.org/"
+    },
+    {
+      "label": "IIA - Bảng thuật ngữ chính thức tiếng Việt",
+      "url": "https://www.theiia.org/globalassets/documents/certifications/the-iia-official-glossary/official-iia-glossary-vietnamese.pdf"
+    },
+    {
+      "label": "TCVN ISO 31000:2018 Quản lý rủi ro - Hướng dẫn",
+      "url": "https://thuvienphapluat.vn/TCVN/Linh-vuc-khac/TCVN-ISO-31000-2018-ISO-31000-2018-Quan-ly-rui-ro-Huong-dan-917889.aspx"
     }
   ]
 }
