@@ -139,7 +139,7 @@
           ["Part 2", "280", "415"],
           ["Part 3", "280", "415"],
           ["Tổng (ghi danh + 3 phần)", "990", "1.515"],
-          ["Ghi danh Challenge Exam", "150", "380"],
+          ["Ghi danh Challenge Exam (bài thi chuyển đổi cho người có chứng chỉ khác)", "150", "380"],
           ["Challenge Exam", "845", "1.245"]
         ] },
         { "type": "table", "title": "Quy đổi chi phí bắt buộc ra VNĐ (tỷ giá 26.500 VNĐ/USD)", "columns": ["Khoản phí", "Hội viên", "Không phải hội viên"], "rows": [

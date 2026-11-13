@@ -22,7 +22,7 @@ export default function Home({ index }) {
     <div className="container">
       <section className="hero" aria-labelledby="hero-title">
         <div>
-          <div className="eyebrow">Certified Internal Auditor · Syllabus 2025</div>
+          <div className="eyebrow">Chứng chỉ Kiểm toán viên nội bộ (CIA) · Đề cương 2025</div>
           <h1 id="hero-title" className="display" style={{ marginTop: 12 }}>
             Ôn đúng trọng tâm. <em>Thi như thật.</em>
           </h1>

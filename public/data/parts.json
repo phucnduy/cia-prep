@@ -5,7 +5,7 @@
     "scaledMin": 250,
     "scaledMax": 750,
     "scaledPass": 600,
-    "note": "IIA cham diem theo thang quy doi 250-750, dat tu 600. Cach quy doi khong duoc cong bo nen ung dung chi hien thi ty le dung."
+    "note": "IIA chấm điểm theo thang quy đổi 250-750, đạt từ 600. Cách quy đổi không được công bố nên ứng dụng chỉ hiển thị tỷ lệ đúng."
   },
   "practicePassPercent": 75,
   "parts": [

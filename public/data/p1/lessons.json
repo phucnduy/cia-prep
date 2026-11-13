@@ -2307,10 +2307,10 @@
       }
     ],
     "compare": {
-      "title": "COSO Internal Control và COSO ERM",
+      "title": "COSO Kiểm soát nội bộ và COSO ERM",
       "columns": [
         "Tiêu chí",
-        "COSO Internal Control 2013",
+        "COSO Kiểm soát nội bộ 2013",
         "COSO ERM 2017"
       ],
       "rows": [
@@ -3134,7 +3134,7 @@
     ],
     "details": [
       {
-        "heading": "Tone at the top",
+        "heading": "Tông giọng từ lãnh đạo cấp cao (tone at the top)",
         "body": [
           "Hành vi của lãnh đạo ảnh hưởng trực tiếp đến khả năng xảy ra gian lận: lãnh đạo tuân thủ quy trình, xử lý vi phạm nhất quán (kể cả với người giỏi kinh doanh), không đặt chỉ tiêu phi thực tế sẽ giảm áp lực và hợp lý hóa. Ngược lại, lãnh đạo bỏ qua kiểm soát tạo tín hiệu cho toàn tổ chức."
         ]
