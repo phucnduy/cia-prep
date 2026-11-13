@@ -1016,5 +1016,81 @@
       "GIAS 1.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-B-N01",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 2,
+    "stem": "Một chuyên gia an ninh mạng vừa được tuyển vào phòng kiểm toán nội bộ cho rằng mình chỉ cần giỏi kỹ thuật, không cần tìm hiểu Chuẩn mực Kiểm toán Nội bộ Toàn cầu. Nhận định nào đúng?",
+    "options": [
+      "Đúng, vì chuyên gia kỹ thuật chỉ cần năng lực thuộc lĩnh vực chuyên môn của mình.",
+      "Đúng, nếu trưởng nhóm kiểm toán là người đã nắm vững Chuẩn mực và rà soát công việc.",
+      "Sai, vì mọi kiểm toán viên nội bộ phải có hoặc phát triển kiến thức về Chuẩn mực.",
+      "Sai, vì chuyên gia phải có chứng chỉ CIA trong vòng một năm kể từ khi được tuyển."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán viên nội bộ phải có hoặc phát triển kiến thức về Chuẩn mực Kiểm toán Nội bộ Toàn cầu của IIA, bên cạnh năng lực phù hợp với vị trí (GIAS 3.1). Chuẩn mực không bắt buộc chứng chỉ CIA.",
+    "optionNotes": [
+      "Sai. Kiến thức về Chuẩn mực là yêu cầu chung với mọi kiểm toán viên nội bộ.",
+      "Sai. Sự rà soát của trưởng nhóm không thay thế yêu cầu cá nhân.",
+      "Đúng. Đúng yêu cầu của chuẩn mực về năng lực.",
+      "Sai. GIAS không bắt buộc có chứng chỉ CIA."
+    ],
+    "refs": [
+      "GIAS 3.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N02",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 3,
+    "stem": "CAE muốn bảo đảm chức năng kiểm toán nội bộ có đủ năng lực tổng thể để thực hiện các dịch vụ trong điều lệ, trong bối cảnh tổ chức đang chuyển đổi số mạnh. Cách làm nào phù hợp nhất?",
+    "options": [
+      "Chỉ tuyển người đã có chứng chỉ CIA, vì chứng chỉ chứng minh đủ năng lực cho mọi dịch vụ.",
+      "Lập ma trận năng lực, rồi bù khoảng trống bằng đào tạo, tuyển hoặc thuê ngoài.",
+      "Để từng kiểm toán viên tự chọn khóa học, vì phát triển năng lực là trách nhiệm cá nhân.",
+      "Bỏ các dịch vụ CNTT khỏi kế hoạch cho đến khi đội ngũ hiện tại tự học được kỹ năng mới."
+    ],
+    "answer": 1,
+    "explanation": "CAE phải bảo đảm chức năng có đủ năng lực tổng thể để thực hiện các dịch vụ trong điều lệ, hoặc bổ sung năng lực cần thiết (GIAS 3.1). So sánh năng lực hiện có với nhu cầu rồi bù khoảng trống (đào tạo, tuyển, thuê ngoài hoặc cosourcing) là cách tiếp cận có hệ thống.",
+    "optionNotes": [
+      "Sai. Chứng chỉ CIA không bao phủ mọi năng lực chuyên sâu như CNTT.",
+      "Đúng. Đánh giá khoảng trống và bù đắp có hệ thống.",
+      "Sai. Cá nhân có trách nhiệm phát triển, nhưng CAE chịu trách nhiệm năng lực tổng thể.",
+      "Sai. Bỏ dịch vụ ở khu vực rủi ro cao tạo khoảng trống đảm bảo."
+    ],
+    "refs": [
+      "GIAS 3.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-N03",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Sau khi phát hành báo cáo, một kiểm toán viên xóa toàn bộ hồ sơ làm việc có dữ liệu cá nhân trên máy 'để bảo vệ thông tin khách hàng'. Đánh giá nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì xóa dữ liệu ngay khi hết dùng là cách bảo vệ thông tin tốt nhất.",
+      "Phù hợp, nếu báo cáo cuối cùng đã được Ban điều hành chấp nhận đầy đủ.",
+      "Chưa phù hợp; hồ sơ phải được lưu giữ theo luật, quy định và chính sách lưu trữ.",
+      "Chưa phù hợp; hồ sơ phải được lưu giữ vĩnh viễn để phục vụ các cuộc kiểm toán sau."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán viên phải lưu giữ hồ sơ theo luật, quy định và chính sách của chức năng, tổ chức (GIAS 14.6), và tuân thủ quy định về lưu giữ, hủy hồ sơ (GIAS 5.2). Bảo vệ dữ liệu được thực hiện qua kiểm soát truy cập, không phải tự ý xóa hồ sơ.",
+    "optionNotes": [
+      "Sai. Tự ý xóa vi phạm yêu cầu lưu giữ hồ sơ.",
+      "Sai. Sự chấp nhận của Ban điều hành không thay đổi yêu cầu lưu giữ.",
+      "Đúng. Lưu giữ và hủy theo luật, quy định, chính sách.",
+      "Sai. Quá tuyệt đối: thời hạn lưu giữ do quy định, không phải vĩnh viễn."
+    ],
+    "refs": [
+      "GIAS 14.6",
+      "GIAS 5.2"
+    ],
+    "source": "original"
   }
 ]

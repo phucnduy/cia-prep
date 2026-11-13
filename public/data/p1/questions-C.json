@@ -1435,5 +1435,157 @@
       "CIA Part 1 C.1"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-C-N01",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "HĐQT của một công ty gồm 5 thành viên, tất cả đều giữ chức vụ điều hành trong công ty, và HĐQT không có ủy ban nào. Theo COSO 2013, điểm yếu này ảnh hưởng chủ yếu đến nguyên tắc nào của môi trường kiểm soát?",
+    "options": [
+      "HĐQT độc lập với Ban điều hành và giám sát việc phát triển, vận hành kiểm soát nội bộ.",
+      "Tổ chức xác định mục tiêu đủ rõ ràng để nhận diện và đánh giá các rủi ro liên quan.",
+      "Tổ chức lựa chọn và triển khai các kiểm soát chung đối với hệ thống công nghệ thông tin.",
+      "Tổ chức đánh giá và truyền đạt kịp thời các khiếm khuyết kiểm soát cho người có trách nhiệm."
+    ],
+    "answer": 0,
+    "explanation": "Một nguyên tắc của thành phần Môi trường kiểm soát trong COSO 2013 là HĐQT thể hiện sự độc lập với Ban điều hành và giám sát kiểm soát nội bộ. HĐQT toàn thành viên điều hành tự giám sát chính mình.",
+    "optionNotes": [
+      "Đúng. HĐQT thiếu độc lập làm yếu chức năng giám sát.",
+      "Sai. Đây là nguyên tắc thuộc Đánh giá rủi ro.",
+      "Sai. Đây là nguyên tắc thuộc Hoạt động kiểm soát.",
+      "Sai. Đây là nguyên tắc thuộc Hoạt động giám sát."
+    ],
+    "refs": [
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N02",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Trong một công ty đang tăng trưởng nhanh, không có ma trận phân quyền; nhiều trưởng phòng tự ký hợp đồng vượt mức họ nghĩ là được phép, và ai chịu trách nhiệm cuối cùng thường không rõ. Điều này phản ánh điểm yếu nào trong môi trường kiểm soát?",
+    "options": [
+      "Thiếu cơ cấu, quan hệ báo cáo, thẩm quyền và trách nhiệm được xác lập rõ ràng.",
+      "Thiếu các thủ tục đối chiếu số liệu định kỳ giữa các phòng ban và kế toán.",
+      "Thiếu kênh truyền thông với cơ quan quản lý và các bên liên quan bên ngoài.",
+      "Thiếu hoạt động giám sát liên tục đối với các giao dịch có giá trị nhỏ hằng ngày."
+    ],
+    "answer": 0,
+    "explanation": "Môi trường kiểm soát bao gồm việc Ban điều hành, dưới sự giám sát của HĐQT, thiết lập cơ cấu, quan hệ báo cáo, thẩm quyền và trách nhiệm phù hợp (một nguyên tắc của COSO 2013). Không có ma trận phân quyền là điểm yếu nền tảng ở chỗ này.",
+    "optionNotes": [
+      "Đúng. Thẩm quyền và trách nhiệm không rõ là điểm yếu của môi trường kiểm soát.",
+      "Sai. Đối chiếu là hoạt động kiểm soát, không phải nguyên nhân gốc ở đây.",
+      "Sai. Truyền thông bên ngoài không liên quan đến tình huống.",
+      "Sai. Vấn đề là thẩm quyền ký hợp đồng lớn, không phải giao dịch nhỏ."
+    ],
+    "refs": [
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N03",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 3,
+    "stem": "Trưởng bộ phận Tuân thủ của một công ty bảo hiểm báo cáo cho Giám đốc khối Kinh doanh, người được thưởng theo doanh số. Rủi ro chính kiểm toán nội bộ cần nêu là gì?",
+    "options": [
+      "Bộ phận Tuân thủ có thể thiếu khách quan khi giám sát khối chịu chỉ tiêu.",
+      "Bộ phận Tuân thủ sẽ thiếu kỹ năng bán hàng để hiểu được các sản phẩm bảo hiểm mới.",
+      "Kiểm toán nội bộ sẽ không thể dựa vào bất kỳ công việc nào của bộ phận Tuân thủ.",
+      "Chi phí vận hành của bộ phận Tuân thủ sẽ bị tính vào chi phí của khối Kinh doanh."
+    ],
+    "answer": 0,
+    "explanation": "Chức năng tuân thủ (tuyến thứ hai) cần đủ khách quan và có kênh tiếp cận cấp cao, HĐQT để giám sát và thách thức tuyến thứ nhất. Báo cáo cho người được thưởng theo doanh số tạo xung đột với việc giám sát tuân thủ của chính khối đó.",
+    "optionNotes": [
+      "Đúng. Quan hệ báo cáo này làm suy yếu tính khách quan của tuyến thứ hai.",
+      "Sai. Kỹ năng bán hàng không phải rủi ro chính.",
+      "Sai. Quá tuyệt đối: kiểm toán nội bộ vẫn có thể đánh giá và cân nhắc dựa vào một phần.",
+      "Sai. Phân bổ chi phí không phải rủi ro chính được mô tả."
+    ],
+    "refs": [
+      "CIA Part 1 C.3",
+      "IIA Three Lines Model"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N04",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 3,
+    "stem": "Công ty yêu cầu nhân viên mua hàng kê khai xung đột lợi ích hằng năm, nhưng chưa từng phát hiện trường hợp nào dù có tin đồn. Biện pháp nào tăng hiệu quả của chính sách này nhất?",
+    "options": [
+      "Tăng tần suất kê khai từ hằng năm lên hằng quý, giữ nguyên nội dung mẫu kê khai.",
+      "Đối chiếu kê khai với dữ liệu sở hữu nhà cung cấp từ nguồn độc lập.",
+      "Yêu cầu nhân viên ký thêm cam kết không có xung đột lợi ích trong mỗi hợp đồng mua hàng.",
+      "Đưa nội dung xung đột lợi ích vào khóa đào tạo hội nhập dành cho nhân viên mới tuyển."
+    ],
+    "answer": 1,
+    "explanation": "Kê khai chỉ dựa vào sự trung thực của người kê khai. Đối chiếu với dữ liệu độc lập (đăng ký doanh nghiệp, người đại diện, địa chỉ, tài khoản ngân hàng của nhà cung cấp) giúp phát hiện xung đột không kê khai và tăng tác dụng răn đe.",
+    "optionNotes": [
+      "Sai. Kê khai nhiều lần hơn vẫn phụ thuộc người kê khai.",
+      "Đúng. Đối chiếu độc lập biến kê khai thành kiểm soát có thể kiểm chứng.",
+      "Sai. Thêm cam kết vẫn là tự khai, không kiểm chứng được.",
+      "Sai. Đào tạo nhân viên mới không giải quyết xung đột hiện có."
+    ],
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N05",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 2,
+    "stem": "Sau khi đánh giá rủi ro cấm vận ngày càng tăng, HĐQT quyết định ngừng hẳn việc xuất khẩu sang một thị trường. Đây là phương án ứng phó rủi ro nào?",
+    "options": [
+      "Chấp nhận rủi ro, vì công ty đã đánh giá và biết rõ mức độ rủi ro.",
+      "Giảm thiểu rủi ro, vì quy mô xuất khẩu chung của công ty sẽ thấp hơn.",
+      "Chia sẻ rủi ro, vì đối tác nhập khẩu sẽ gánh một phần thiệt hại.",
+      "Né tránh rủi ro, vì công ty thôi hẳn hoạt động làm phát sinh rủi ro."
+    ],
+    "answer": 3,
+    "explanation": "Né tránh rủi ro là thôi thực hiện hoạt động làm phát sinh rủi ro. Chấp nhận là không hành động thêm; giảm thiểu là giảm khả năng hoặc ảnh hưởng; chia sẻ là chuyển một phần cho bên khác (bảo hiểm, đối tác).",
+    "optionNotes": [
+      "Sai. Chấp nhận là tiếp tục hoạt động mà không hành động thêm.",
+      "Sai. Giảm thiểu là tiếp tục hoạt động với biện pháp làm giảm rủi ro.",
+      "Sai. Không có bên nào nhận chia sẻ rủi ro trong tình huống.",
+      "Đúng. Ngừng hẳn hoạt động là né tránh rủi ro."
+    ],
+    "refs": [
+      "CIA Part 1 C.4",
+      "COSO ERM 2017"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-N06",
+    "section": "C",
+    "topic": "C4",
+    "difficulty": 3,
+    "stem": "Theo ISO 31000:2018, rủi ro được định nghĩa là 'ảnh hưởng của sự không chắc chắn đến các mục tiêu'. Trong buổi đào tạo, nhận định nào sau đây phản ánh đúng định nghĩa này?",
+    "options": [
+      "Rủi ro chỉ gồm các sự kiện gây tổn thất, nên mục tiêu là giảm rủi ro xuống bằng không.",
+      "Rủi ro chỉ tồn tại khi đã có sự kiện bất lợi xảy ra và gây thiệt hại thực tế cho tổ chức.",
+      "Ảnh hưởng có thể tích cực hoặc tiêu cực, nên rủi ro có thể bao gồm cả cơ hội.",
+      "Rủi ro chỉ liên quan đến mục tiêu tài chính, không áp dụng cho mục tiêu hoạt động."
+    ],
+    "answer": 2,
+    "explanation": "ISO 31000:2018 định nghĩa rủi ro là ảnh hưởng của sự không chắc chắn đến mục tiêu; ảnh hưởng là độ lệch so với kỳ vọng, có thể tích cực, tiêu cực hoặc cả hai, nên có thể tạo ra cả cơ hội lẫn nguy cơ.",
+    "optionNotes": [
+      "Sai. Định nghĩa không giới hạn ở tổn thất, và rủi ro không thể giảm về không.",
+      "Sai. Rủi ro là sự không chắc chắn trước khi sự kiện xảy ra.",
+      "Đúng. Ảnh hưởng có thể tích cực hoặc tiêu cực.",
+      "Sai. Định nghĩa áp dụng cho mọi loại mục tiêu."
+    ],
+    "refs": [
+      "ISO 31000:2018"
+    ],
+    "source": "original"
   }
 ]

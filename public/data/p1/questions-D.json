@@ -796,5 +796,211 @@
       "CIA Part 1 D.1"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-D-N01",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Khi lập kế hoạch kiểm toán quy trình thu tiền tại 30 cửa hàng, trưởng nhóm muốn nhận diện rủi ro gian lận một cách có hệ thống. Cách làm nào hiệu quả nhất ở giai đoạn này?",
+    "options": [
+      "Chờ đến khi kiểm tra chi tiết, nếu thấy bất thường thì mới bắt đầu xem xét đến gian lận.",
+      "Cả nhóm thảo luận (brainstorming) các kịch bản gian lận và cách che giấu.",
+      "Yêu cầu các cửa hàng trưởng ký cam kết không gian lận trước khi cuộc kiểm toán bắt đầu.",
+      "Chỉ xem xét gian lận ở các cửa hàng đã từng có vụ việc trong ba năm vừa qua."
+    ],
+    "answer": 1,
+    "explanation": "Thảo luận nhóm về cách gian lận có thể xảy ra, ai có cơ hội, cách che giấu và dấu hiệu nhận biết giúp đưa rủi ro gian lận vào đánh giá rủi ro và thiết kế thủ tục ngay từ đầu (GIAS 13.2; CIA Part 1 D.2).",
+    "optionNotes": [
+      "Sai. Xem xét gian lận phải bắt đầu từ lập kế hoạch, không chờ tình cờ phát hiện.",
+      "Đúng. Brainstorming là kỹ thuật phổ biến để nhận diện kịch bản gian lận.",
+      "Sai. Cam kết không gian lận không giúp nhận diện rủi ro.",
+      "Sai. Không có tiền sử không có nghĩa là không có rủi ro."
+    ],
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 1 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N02",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 3,
+    "stem": "Đang kiểm toán hiệu quả quy trình tồn kho (không nhằm tìm gian lận), kiểm toán viên thấy nhiều phiếu điều chỉnh giảm tồn kho do cùng một người lập, ngay trước các đợt kiểm kê. Chương trình kiểm toán không có thủ tục cho việc này. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Ghi chú lại để đưa vào kế hoạch năm sau, vì vấn đề nằm ngoài chương trình đã được duyệt.",
+      "Tự mở rộng kiểm tra chi tiết toàn bộ phiếu điều chỉnh mà không cần thông báo cho ai.",
+      "Điều chỉnh chương trình để phân tích thêm và trình CAE phê duyệt thay đổi đó.",
+      "Đối chất ngay với người lập phiếu để yêu cầu giải trình về các khoản điều chỉnh."
+    ],
+    "answer": 2,
+    "explanation": "Nếu phân tích ban đầu chưa đủ bằng chứng, kiểm toán viên phải thận trọng nghề nghiệp để xác định có cần phân tích thêm không; nếu cần, chương trình kiểm toán phải được điều chỉnh và CAE phê duyệt (GIAS 14.2). Dấu hiệu gian lận không thể bỏ qua chỉ vì nằm ngoài chương trình ban đầu.",
+    "optionNotes": [
+      "Sai. Hoãn sang năm sau bỏ qua dấu hiệu gian lận đang có.",
+      "Sai. Thay đổi chương trình phải được CAE phê duyệt.",
+      "Đúng. Điều chỉnh chương trình và xin CAE phê duyệt.",
+      "Sai. Đối chất sớm có thể làm lộ việc nghi ngờ và mất bằng chứng."
+    ],
+    "refs": [
+      "GIAS 14.2",
+      "GIAS 13.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N03",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 3,
+    "stem": "Để đánh giá rủi ro Ban điều hành vượt quyền kiểm soát nhằm điều chỉnh kết quả cuối năm, thủ tục nào kiểm toán viên nên ưu tiên?",
+    "options": [
+      "Phân tích bút toán thủ công bất thường do lãnh đạo cấp cao nhập.",
+      "Kiểm tra chọn mẫu các hóa đơn bán hàng có giá trị nhỏ do nhân viên kế toán lập hằng ngày.",
+      "Gửi thư xác nhận số dư tiền gửi tại tất cả các ngân hàng vào ngày cuối năm tài chính.",
+      "Phỏng vấn Tổng Giám đốc về các rủi ro gian lận mà Ban điều hành đã nhận diện được."
+    ],
+    "answer": 0,
+    "explanation": "Vượt quyền thường thể hiện qua bút toán thủ công, điều chỉnh cuối kỳ, ước tính chủ quan. Phân tích bút toán bất thường (thời điểm, người nhập, số tròn, tài khoản ít dùng) là thủ tục trực tiếp nhất. Phỏng vấn chính người có thể vượt quyền ít giá trị bằng chứng.",
+    "optionNotes": [
+      "Đúng. Nhắm trực tiếp vào cách vượt quyền thường được thực hiện.",
+      "Sai. Hóa đơn nhỏ do nhân viên lập không phản ánh rủi ro vượt quyền của lãnh đạo.",
+      "Sai. Xác nhận số dư ngân hàng không phát hiện điều chỉnh bút toán.",
+      "Sai. Phỏng vấn người có thể vượt quyền không đủ tin cậy."
+    ],
+    "refs": [
+      "CIA Part 1 D.2",
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N04",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "CAE trình kế hoạch kiểm toán năm gồm 20 cuộc kiểm toán về hiệu quả hoạt động, không cuộc nào xem xét rủi ro gian lận hay chương trình đạo đức, tuân thủ. Nhận xét nào đúng nhất theo Chuẩn mực?",
+    "options": [
+      "Phù hợp, vì phát hiện gian lận là trách nhiệm của Ban điều hành, không phải kiểm toán nội bộ.",
+      "Phù hợp, vì rủi ro gian lận sẽ được kiểm toán độc lập xem xét khi kiểm toán báo cáo tài chính.",
+      "Chưa phù hợp; kế hoạch phải xem xét rủi ro gian lận và chương trình đạo đức.",
+      "Chưa phù hợp, vì mọi cuộc kiểm toán đều phải có mục tiêu chính là phát hiện gian lận."
+    ],
+    "answer": 2,
+    "explanation": "Kế hoạch kiểm toán nội bộ phải xem xét độ bao phủ quản trị CNTT, rủi ro gian lận, hiệu quả chương trình tuân thủ và đạo đức, cùng các khu vực rủi ro cao khác (GIAS 9.4).",
+    "optionNotes": [
+      "Sai. Ban điều hành chịu trách nhiệm chính, nhưng kế hoạch kiểm toán vẫn phải xem xét rủi ro gian lận.",
+      "Sai. Kiểm toán độc lập có phạm vi và mục tiêu khác, không thay thế kiểm toán nội bộ.",
+      "Đúng. Đúng yêu cầu về nội dung kế hoạch.",
+      "Sai. Quá tuyệt đối: không phải mọi cuộc kiểm toán đều nhằm phát hiện gian lận."
+    ],
+    "refs": [
+      "GIAS 9.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N05",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Một chương trình quản lý rủi ro gian lận toàn diện thường gồm các cấu phần sau. Cấu phần nào KHÔNG phải là mục tiêu thực tế của chương trình?",
+    "options": [
+      "Quản trị và cam kết của lãnh đạo đối với việc quản lý rủi ro gian lận.",
+      "Đánh giá rủi ro gian lận định kỳ, kèm các biện pháp phòng ngừa và phát hiện.",
+      "Bảo đảm tổ chức hoàn toàn không xảy ra vụ gian lận nào trong tương lai.",
+      "Điều tra, xử lý vi phạm và giám sát hiệu quả của chương trình theo thời gian."
+    ],
+    "answer": 2,
+    "explanation": "Chương trình quản lý rủi ro gian lận gồm quản trị, đánh giá rủi ro, phòng ngừa, phát hiện, điều tra và hành động khắc phục, giám sát. Không chương trình nào loại bỏ hoàn toàn được gian lận; mục tiêu là giảm rủi ro về mức chấp nhận được.",
+    "optionNotes": [
+      "Sai. Quản trị và cam kết lãnh đạo là cấu phần nền tảng.",
+      "Sai. Đánh giá rủi ro, phòng ngừa và phát hiện là cấu phần cốt lõi.",
+      "Đúng. Loại bỏ hoàn toàn gian lận không phải mục tiêu thực tế.",
+      "Sai. Điều tra, xử lý và giám sát là cấu phần của chương trình."
+    ],
+    "refs": [
+      "CIA Part 1 D.3",
+      "ACFE"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N06",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 3,
+    "stem": "Công ty muốn răn đe gian lận ở 200 cửa hàng với chi phí thấp. Biện pháp nào thường có tác dụng răn đe mạnh nhất?",
+    "options": [
+      "Tăng mức phạt ghi trong quy chế, dù hiếm khi có vụ việc nào bị phát hiện và xử lý.",
+      "Kiểm tra đột xuất được công bố, tăng nhận thức sẽ bị phát hiện.",
+      "Yêu cầu toàn bộ nhân viên cửa hàng ký lại bản cam kết tuân thủ mỗi năm một lần.",
+      "Lắp đặt thêm camera nhưng không thông báo và không ai xem lại dữ liệu ghi hình."
+    ],
+    "answer": 1,
+    "explanation": "Răn đe gian lận phụ thuộc nhiều nhất vào nhận thức của nhân viên rằng hành vi sẽ bị phát hiện. Kiểm tra đột xuất, được biết đến rộng rãi, làm tăng nhận thức này với chi phí thấp. Mức phạt cao ít tác dụng khi khả năng bị phát hiện thấp.",
+    "optionNotes": [
+      "Sai. Phạt nặng mà khó bị phát hiện thì răn đe yếu.",
+      "Đúng. Nhận thức sẽ bị phát hiện là yếu tố răn đe mạnh nhất.",
+      "Sai. Ký cam kết hằng năm ít thay đổi hành vi.",
+      "Sai. Camera không ai biết và không ai xem không tạo nhận thức bị phát hiện."
+    ],
+    "refs": [
+      "CIA Part 1 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N07",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 3,
+    "stem": "Công ty lo ngại kế toán công nợ có thể che giấu việc gối đầu (lapping) các khoản thu khách hàng trong thời gian dài. Kiểm soát nào giúp lộ ra thủ đoạn này hiệu quả nhất?",
+    "options": [
+      "Yêu cầu kế toán công nợ ký cam kết bảo mật thông tin khách hàng hằng năm.",
+      "Bắt buộc nghỉ phép liên tục và luân chuyển định kỳ nhiệm vụ theo dõi công nợ.",
+      "Tăng hạn mức phê duyệt chiết khấu để giảm số giao dịch cần Kế toán trưởng phê duyệt.",
+      "Lưu trữ toàn bộ chứng từ thu tiền tại phòng kế toán thay vì tại các chi nhánh."
+    ],
+    "answer": 1,
+    "explanation": "Gối đầu cần người thực hiện liên tục điều chỉnh để che giấu. Khi người đó nghỉ phép bắt buộc hoặc bị luân chuyển, người khác xử lý công nợ sẽ thấy các khoản ghi có sai khách hàng, chênh lệch tuổi nợ, khiếu nại của khách.",
+    "optionNotes": [
+      "Sai. Cam kết bảo mật không liên quan đến việc phát hiện gối đầu.",
+      "Đúng. Nghỉ phép bắt buộc và luân chuyển làm gián đoạn việc che giấu.",
+      "Sai. Nới hạn mức phê duyệt làm yếu kiểm soát.",
+      "Sai. Nơi lưu chứng từ không làm lộ thủ đoạn."
+    ],
+    "refs": [
+      "CIA Part 1 D.4",
+      "ACFE"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-N08",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Ở một công ty nhỏ, cần phân công lại nhiệm vụ trong quy trình thu tiền. Việc giao cho cùng một người hai nhiệm vụ nào tạo rủi ro gian lận cao nhất?",
+    "options": [
+      "Lập hóa đơn bán hàng và gửi hóa đơn cho khách hàng qua email.",
+      "Nhận tiền mặt từ khách hàng và ghi sổ công nợ phải thu của khách đó.",
+      "Lập báo cáo doanh thu tháng và gửi báo cáo cho Ban điều hành xem xét.",
+      "Cập nhật danh mục khách hàng và theo dõi thông tin liên hệ của khách."
+    ],
+    "answer": 1,
+    "explanation": "Nguyên tắc phân chia nhiệm vụ tách các chức năng phê duyệt, giữ tài sản và ghi sổ. Một người vừa giữ tiền vừa ghi sổ công nợ có thể lấy tiền và điều chỉnh sổ để che giấu (ví dụ gối đầu, xóa nợ giả).",
+    "optionNotes": [
+      "Sai. Lập và gửi hóa đơn ít tạo cơ hội chiếm đoạt tài sản.",
+      "Đúng. Kết hợp giữ tài sản và ghi sổ là xung đột nhiệm vụ nghiêm trọng nhất.",
+      "Sai. Lập và gửi báo cáo không liên quan đến giữ tài sản.",
+      "Sai. Cập nhật danh mục và thông tin liên hệ ít rủi ro hơn nhiều."
+    ],
+    "refs": [
+      "CIA Part 1 D.4",
+      "COSO 2013"
+    ],
+    "source": "original"
   }
 ]
