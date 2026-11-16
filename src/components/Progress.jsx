@@ -2,6 +2,7 @@ import { useMemo, useRef, useState } from 'react';
 import { exportProgress, importProgress, keys, load } from '../lib/storage.js';
 import { parseProgressFile, progressSummary, WEAK_ACCURACY, WEAK_MIN_ANSWERED } from '../lib/progress.js';
 import { startWeakPractice } from '../lib/adaptive.js';
+import { Icon, ProgressRing } from './ui.jsx';
 
 /** "Tiến độ" tab: study path, progress by topic, weak topics, export and import. */
 export default function Progress({ index, manifest, data }) {
@@ -91,11 +92,22 @@ export default function Progress({ index, manifest, data }) {
         {!summary.next && <p className="notice notice-ok">Bạn đã hoàn thành lộ trình. Tiếp tục làm đề thi thử để giữ nhịp.</p>}
       </section>
 
+      <div className="progress-rings panel">
+        <ProgressRing value={pctOf(summary.learned)} label="Bài học đã học" />
+        <ProgressRing value={pctOf(summary.seen)} label="Câu hỏi đã gặp" tone="var(--sec-c)" />
+        <ProgressRing
+          value={summary.mocks.best || 0}
+          label="Đề thi thử cao nhất"
+          tone={(summary.mocks.best || 0) >= index.practicePassPercent ? 'var(--ok)' : 'var(--gold)'}
+        />
+      </div>
+
       <div className="progress-stats">
-        <Stat label="Bài học đã học" value={`${summary.learned.done}/${summary.learned.total}`} />
-        <Stat label="Câu hỏi đã gặp" value={`${summary.seen.done}/${summary.seen.total}`} />
-        <Stat label="Câu còn sai" value={summary.wrongCount} />
+        <Stat icon="book" label="Bài học đã học" value={`${summary.learned.done}/${summary.learned.total}`} />
+        <Stat icon="target" label="Câu hỏi đã gặp" value={`${summary.seen.done}/${summary.seen.total}`} />
+        <Stat icon="redo" label="Câu còn sai" value={summary.wrongCount} />
         <Stat
+          icon="timer"
           label="Đề thi thử đầy đủ"
           value={summary.mocks.count ? `${summary.mocks.best}%` : '-'}
           hint={summary.mocks.count ? `cao nhất, ${summary.mocks.count} lần` : 'chưa làm'}
@@ -178,9 +190,18 @@ export default function Progress({ index, manifest, data }) {
   );
 }
 
-function Stat({ label, value, hint }) {
+function pctOf({ done, total }) {
+  return total ? (done / total) * 100 : 0;
+}
+
+function Stat({ icon, label, value, hint }) {
   return (
     <div className="stat-card">
+      {icon && (
+        <span className="stat-icon" aria-hidden="true">
+          <Icon name={icon} size={18} />
+        </span>
+      )}
       <span className="stat-value">{value}</span>
       <span className="stat-label">{label}</span>
       {hint && <span className="subtle">{hint}</span>}

@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { buildItems, shuffle } from '../lib/exam.js';
 import { keys, load, save } from '../lib/storage.js';
 import { newSeed, practiceSession, startSession, topicStats } from '../lib/session.js';
-import { SectionChip, sectionColor } from './ui.jsx';
+import { Icon, SectionIcon, sectionColor } from './ui.jsx';
 
 const TOPIC_PRACTICE_SIZE = 10;
 
@@ -68,7 +68,7 @@ export default function Study({ manifest, data, topicId }) {
               href={`#/${manifest.id}/study/${s.id}`}
               aria-current={!topic && section.id === s.id ? 'page' : undefined}
             >
-              <SectionChip manifest={manifest} id={s.id} />
+              <SectionIcon manifest={manifest} id={s.id} size={28} />
               <span>
                 {s.nameVi}
                 <span className="subtle" style={{ display: 'block' }}>
@@ -131,13 +131,18 @@ function accuracyLabel(stat) {
 function SectionOverview({ manifest, section, lessons, questionsByTopic, stats, learned, cards }) {
   return (
     <>
-      <div className="eyebrow">
-        Phần {section.id} · {section.weight}% đề thi
-      </div>
-      <h2 className="display study-title">{section.nameVi}</h2>
-      <p className="subtle" style={{ marginTop: 0 }}>
-        {section.name}
-      </p>
+      <header className="lesson-head">
+        <SectionIcon manifest={manifest} id={section.id} size={56} />
+        <div>
+          <div className="eyebrow">
+            Phần {section.id} · {section.weight}% đề thi
+          </div>
+          <h2 className="display study-title">{section.nameVi}</h2>
+          <p className="subtle" style={{ marginTop: 0 }}>
+            {section.name}
+          </p>
+        </div>
+      </header>
 
       <div className="topic-grid">
         {section.topics.map((t) => {
@@ -188,13 +193,18 @@ function SectionOverview({ manifest, section, lessons, questionsByTopic, stats, 
 function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggleLearned, onPractice, prev, next }) {
   return (
     <article className="lesson">
-      <div className="eyebrow">
-        Phần {topic.section.id} · {topic.section.nameVi} · {topic.id}
-      </div>
-      <h2 className="display study-title">{topic.vi}</h2>
-      <p className="subtle" style={{ marginTop: 0 }}>
-        {topic.en}
-      </p>
+      <header className="lesson-head">
+        <SectionIcon manifest={manifest} id={topic.section.id} size={56} />
+        <div>
+          <div className="eyebrow">
+            Phần {topic.section.id} · {topic.section.nameVi} · {topic.id}
+          </div>
+          <h2 className="display study-title">{topic.vi}</h2>
+          <p className="subtle" style={{ marginTop: 0 }}>
+            {topic.en}
+          </p>
+        </div>
+      </header>
 
       <div className="lesson-actions">
         <div>
@@ -220,7 +230,7 @@ function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggl
 
           {lesson.details?.length > 0 && (
             <>
-              <h3 className="study-h3">Giải thích chi tiết</h3>
+              <h3 className="study-h3 has-icon"><Icon name="book" size={16} />Giải thích chi tiết</h3>
               <div className="lesson-details">
                 {lesson.details.map((d) => (
                   <section key={d.heading}>
@@ -236,7 +246,7 @@ function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggl
 
           {lesson.compare && (
             <>
-              <h3 className="study-h3">{lesson.compare.title}</h3>
+              <h3 className="study-h3 has-icon"><Icon name="table" size={16} />{lesson.compare.title}</h3>
               <div className="compare-wrap">
                 <table className="compare">
                   <thead>
@@ -260,7 +270,7 @@ function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggl
 
           {lesson.example && (
             <aside className="lesson-example">
-              <div className="eyebrow">Ví dụ tình huống</div>
+              <div className="eyebrow has-icon"><Icon name="bulb" size={16} />Ví dụ tình huống</div>
               <h4>{lesson.example.title}</h4>
               <p>{lesson.example.scenario}</p>
               <p className="analysis">
@@ -270,7 +280,7 @@ function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggl
             </aside>
           )}
 
-          <h3 className="study-h3">Ý chính cần nhớ</h3>
+          <h3 className="study-h3 has-icon"><Icon name="list" size={16} />Ý chính cần nhớ</h3>
           <ol className="lesson-points">
             {lesson.points.map((p, i) => (
               <li key={i}>{p}</li>
@@ -279,7 +289,7 @@ function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggl
 
           {lesson.terms?.length > 0 && (
             <>
-              <h3 className="study-h3">Thuật ngữ</h3>
+              <h3 className="study-h3 has-icon"><Icon name="tag" size={16} />Thuật ngữ</h3>
               <dl className="terms">
                 {lesson.terms.map((t) => (
                   <div key={t.term}>
@@ -295,7 +305,7 @@ function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggl
 
           {lesson.traps?.length > 0 && (
             <>
-              <h3 className="study-h3">Bẫy thường gặp khi thi</h3>
+              <h3 className="study-h3 has-icon is-warn"><Icon name="alert" size={16} />Bẫy thường gặp khi thi</h3>
               <ul className="traps">
                 {lesson.traps.map((t, i) => (
                   <li key={i}>{t}</li>
@@ -306,7 +316,7 @@ function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggl
 
           {lesson.checks?.length > 0 && (
             <>
-              <h3 className="study-h3">Tự kiểm tra</h3>
+              <h3 className="study-h3 has-icon"><Icon name="help" size={16} />Tự kiểm tra</h3>
               <div className="checks">
                 {lesson.checks.map((c, i) => (
                   <details className="check" key={i}>

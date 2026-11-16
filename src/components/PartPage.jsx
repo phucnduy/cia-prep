@@ -3,7 +3,7 @@ import { countBySection, loadPart } from '../lib/data.js';
 import { buildExam, buildItems, shuffle } from '../lib/exam.js';
 import { keys, load, save } from '../lib/storage.js';
 import { newSeed, startSession } from '../lib/session.js';
-import { SectionChip, StatusBadge, sectionColor } from './ui.jsx';
+import { SectionIcon, StatusBadge, sectionColor } from './ui.jsx';
 import Study from './Study.jsx';
 import Progress from './Progress.jsx';
 import Flashcards from './Flashcards.jsx';
@@ -286,7 +286,7 @@ function Overview({ index, manifest, data }) {
           const have = counts[s.id] || 0;
           return (
             <div className="section-row" key={s.id}>
-              <SectionChip manifest={manifest} id={s.id} />
+              <SectionIcon manifest={manifest} id={s.id} size={30} />
               <div>
                 <div className="name">{s.nameVi}</div>
                 <div className="subtle" style={{ fontSize: 'var(--text-xs)' }}>
