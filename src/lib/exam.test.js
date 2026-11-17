@@ -150,6 +150,12 @@ describe('validateImport', () => {
     expect(validateImport([{ ...good, optionNotes: notes.slice(0, 3) }], ['A']).errors).toHaveLength(1);
   });
 
+  test('keeps a trap note and rejects one that is too short', () => {
+    const trap = 'Nhầm quản lý hành chính với quyền phê duyệt ngân sách.';
+    expect(validateImport([{ ...good, trap }], ['A']).valid[0].trap).toBe(trap);
+    expect(validateImport([{ ...good, trap: 'ngắn' }], ['A']).errors).toHaveLength(1);
+  });
+
   test('rejects duplicate ids and non-array payloads', () => {
     expect(validateImport([good, good], ['A']).errors).toHaveLength(1);
     expect(validateImport({}, ['A']).errors).toHaveLength(1);

@@ -6,6 +6,8 @@ import { TYPOGRAPHIC } from './text.mjs';
 
 const LENGTH_TELL_RATIO = 1.2;
 const MAX_LONGEST_CORRECT_SHARE = 0.4;
+/** Easy questions may be at most this share of a part (CLAUDE.md, Difficulty). */
+const MAX_EASY_SHARE = 0.1;
 // The 52 standards of GIAS 2024 (Principle.Standard). Any other "GIAS x.y" is a typo or invention.
 const GIAS_STANDARDS = new Set(
   Object.entries({ 1: 3, 2: 3, 3: 2, 4: 3, 5: 2, 6: 3, 7: 2, 8: 4, 9: 5, 10: 3, 11: 5, 12: 3, 13: 6, 14: 6, 15: 2 })
@@ -36,6 +38,7 @@ for (const { id: part, path } of index.parts) {
   const positions = [0, 0, 0, 0];
   let total = 0;
   let longestCorrect = 0;
+  let easy = 0;
   const missingNotes = [];
   const lines = [];
 
@@ -64,6 +67,7 @@ for (const { id: part, path } of index.parts) {
         if (m) errors.push(`${where}: refers to an option by letter or position ("${m[0]}"); options are shuffled`);
       }
       if (Number.isInteger(q.answer)) positions[q.answer] += 1;
+      if (q.difficulty === 1) easy += 1;
       // Length tell: a correct option much longer than every distractor gives the answer away.
       if (Array.isArray(q.options) && Number.isInteger(q.answer)) {
         const lengths = q.options.map((o) => String(o).length);
@@ -80,6 +84,10 @@ for (const { id: part, path } of index.parts) {
     if (manifest.status === 'ready' && list.length < needed) {
       errors.push(`${part}: section ${section.id} has ${list.length} questions, a full exam needs ${needed}`);
     }
+  }
+
+  if (total && easy / total > MAX_EASY_SHARE) {
+    warnings.push(`${part}: ${Math.round((easy / total) * 100)}% easy questions (max ${MAX_EASY_SHARE * 100}%)`);
   }
 
   // The app shuffles options at runtime; skew here only matters for exported data.

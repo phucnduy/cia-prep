@@ -104,22 +104,23 @@
     "id": "P3-A-N01",
     "section": "A",
     "topic": "A2",
-    "difficulty": 1,
-    "stem": "Ngân sách hằng năm của chức năng kiểm toán nội bộ, gồm cả chi phí đào tạo và công cụ, phải được ai phê duyệt?",
+    "difficulty": 2,
+    "stem": "CAE báo cáo hành chính cho Giám đốc tài chính. Giám đốc tài chính đề nghị từ năm tới sẽ tự phê duyệt ngân sách kiểm toán nội bộ như các phòng ban khác, HĐQT chỉ được thông báo. Nhận định nào đúng nhất?",
     "options": [
-      "Tổng Giám đốc, vì ngân sách là một phần kế hoạch tài chính chung của công ty.",
-      "Giám đốc tài chính, người mà CAE báo cáo hành chính và quản lý chi phí.",
-      "HĐQT (thường qua Ủy ban Kiểm toán), sau khi CAE xây dựng và trình duyệt.",
-      "Chính CAE, vì CAE chịu trách nhiệm quản lý nguồn lực tài chính của chức năng."
+      "Phù hợp, vì người quản lý hành chính của CAE có quyền phê duyệt chi phí của bộ phận.",
+      "Phù hợp, nếu Giám đốc tài chính cam kết không cắt giảm ngân sách đào tạo và công cụ.",
+      "Không phù hợp, vì CAE phải trình HĐQT phê duyệt ngân sách của chức năng kiểm toán nội bộ.",
+      "Không phù hợp, vì ngân sách kiểm toán nội bộ phải do Đại hội đồng cổ đông thông qua hằng năm."
     ],
     "answer": 2,
-    "explanation": "GIAS 10.1 yêu cầu CAE xây dựng ngân sách đủ để thực hiện chiến lược và kế hoạch kiểm toán, quản lý hoạt động theo ngân sách và phải trình HĐQT phê duyệt ngân sách. Để Ban điều hành quyết định ngân sách sẽ tạo cơ hội giới hạn nguồn lực, làm ảnh hưởng tính độc lập.",
+    "explanation": "GIAS 10.1 yêu cầu CAE xây dựng ngân sách đủ để thực hiện chiến lược và kế hoạch kiểm toán, và phải trình HĐQT phê duyệt ngân sách. Quan hệ báo cáo hành chính giúp CAE tiếp cận Ban điều hành, nhưng không trao cho Ban điều hành quyền quyết định nguồn lực của chức năng, vì quyền đó có thể dùng để giới hạn phạm vi kiểm toán.",
     "optionNotes": [
-      "Sai. Tổng Giám đốc có thể góp ý, nhưng GIAS 10.1 yêu cầu ngân sách được HĐQT phê duyệt.",
-      "Sai. Quan hệ báo cáo hành chính không trao quyền phê duyệt ngân sách kiểm toán nội bộ.",
-      "Đúng. CAE xây dựng ngân sách và phải trình HĐQT phê duyệt (GIAS 10.1).",
-      "Sai. CAE quản lý ngân sách nhưng không tự phê duyệt; quyền phê duyệt thuộc HĐQT."
+      "Sai. Đây là bẫy: báo cáo hành chính không bao gồm quyền phê duyệt ngân sách kiểm toán nội bộ (GIAS 10.1).",
+      "Sai. Cam kết không cắt giảm không thay được yêu cầu HĐQT phê duyệt ngân sách.",
+      "Đúng. GIAS 10.1 yêu cầu CAE trình HĐQT phê duyệt ngân sách.",
+      "Sai. GIAS giao việc phê duyệt cho HĐQT, không phải Đại hội đồng cổ đông."
     ],
+    "trap": "Nhầm quan hệ báo cáo hành chính với quyền phê duyệt ngân sách kiểm toán nội bộ.",
     "refs": [
       "GIAS 10.1",
       "CIA Part 3 A.2"
@@ -146,6 +147,7 @@
       "Sai. Kết nối phân tán, không kiểm soát làm tăng rủi ro bảo mật; triển khai cần thống nhất và có phối hợp.",
       "Sai. Báo cáo HĐQT không thay việc phối hợp kỹ thuật; để nhà cung cấp tự kết nối là thiếu kiểm soát."
     ],
+    "trap": "Dùng thử công cụ trên dữ liệu thật trước khi phối hợp với CNTT và an ninh thông tin.",
     "refs": [
       "GIAS 10.3",
       "CIA Part 3 A.2"
@@ -172,6 +174,7 @@
       "Đúng. GIAS 9.2 yêu cầu rà soát chiến lược định kỳ với HĐQT và Ban điều hành cấp cao.",
       "Sai. Đơn vị được kiểm toán là bên liên quan cần hiểu kỳ vọng, nhưng không phải bên rà soát chiến lược."
     ],
+    "trap": "Cho rằng chỉ cần rà soát chiến lược với người quản lý hành chính của CAE.",
     "refs": [
       "GIAS 9.2",
       "CIA Part 3 A.3"
@@ -198,6 +201,7 @@
       "Sai. Khách hàng và nhà cung cấp không thuộc nhóm bên liên quan chính mà GIAS 11.1 liệt kê.",
       "Sai. Chỉ tiêu số cuộc gặp là cách đo hình thức, không khắc phục việc bỏ sót các bên liên quan chính."
     ],
+    "trap": "Chỉ coi HĐQT và Ban điều hành cấp cao là bên liên quan chính.",
     "refs": [
       "GIAS 11.1",
       "CIA Part 3 A.4"

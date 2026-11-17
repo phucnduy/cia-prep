@@ -24,6 +24,9 @@ export function questionProblems(q, sectionIds) {
     problems.push('"explanation" quá ngắn hoặc thiếu');
   }
   if (q.refs !== undefined && !Array.isArray(q.refs)) problems.push('"refs" phải là mảng');
+  if (q.trap !== undefined && (typeof q.trap !== 'string' || q.trap.trim().length < 10)) {
+    problems.push('"trap" (nếu có) phải là câu mô tả ngộ nhận, ít nhất 10 ký tự');
+  }
   if (
     q.optionNotes !== undefined &&
     (!Array.isArray(q.optionNotes) ||
@@ -61,6 +64,7 @@ export function validateImport(payload, sectionIds) {
       answer: q.answer,
       explanation: q.explanation.trim(),
       ...(q.optionNotes ? { optionNotes: q.optionNotes.map((n) => n.trim()) } : {}),
+      ...(q.trap ? { trap: q.trap.trim() } : {}),
       refs: Array.isArray(q.refs) ? q.refs.filter((r) => typeof r === 'string') : [],
       source: 'custom',
     });

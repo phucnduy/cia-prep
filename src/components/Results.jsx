@@ -192,7 +192,14 @@ export default function Results({ index, manifest, data, attemptId }) {
                   </li>
                 ))}
               </ol>
-              <div className="explain">{q.explanation}</div>
+              <div className="explain">
+                {q.explanation}
+                {q.trap && (
+                  <p className="trap-line">
+                    <b>Bẫy của câu này:</b> {q.trap}
+                  </p>
+                )}
+              </div>
             </article>
           );
         })}

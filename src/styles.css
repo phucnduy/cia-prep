@@ -850,3 +850,7 @@ body {
 .match-col .game-option span { color: var(--ink); font-size: var(--text-sm); }
 .game-done h3 { margin-top: 0; }
 @media (max-width: 600px) { .match-grid { gap: 8px; } .game-option { padding: 10px; } }
+
+/* Trap note shown after a question is checked */
+.trap-line { margin: 10px 0 0; padding: 8px 12px; border-left: 3px solid var(--bad); border-radius: 0 8px 8px 0; background: color-mix(in oklab, var(--bad) 8%, transparent); font-size: var(--text-sm); }
+.trap-line b { color: var(--bad); }

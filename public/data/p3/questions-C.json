@@ -131,22 +131,23 @@
     "id": "P3-C-N01",
     "section": "C",
     "topic": "C1",
-    "difficulty": 1,
-    "stem": "Theo GIAS, phương pháp đánh giá chất lượng nội bộ của chức năng kiểm toán nội bộ gồm hai cấu phần nào?",
+    "difficulty": 2,
+    "stem": "Để tiết kiệm chi phí, CAE đề xuất: vì đã thuê đánh giá chất lượng bên ngoài năm năm một lần, chức năng không cần tự đánh giá định kỳ trong khoảng giữa các kỳ đó. Nhận định nào đúng nhất?",
     "options": [
-      "Đánh giá chất lượng bên ngoài và tự đánh giá định kỳ.",
-      "Khảo sát đơn vị được kiểm toán và bộ chỉ số KPI.",
-      "Giám sát thường xuyên và tự đánh giá định kỳ.",
-      "Giám sát thường xuyên và soát xét của kiểm toán độc lập."
+      "Phù hợp, vì đánh giá bên ngoài đã bao quát toàn bộ yêu cầu về chất lượng của chức năng.",
+      "Phù hợp, nếu HĐQT đồng ý bằng văn bản và kỳ đánh giá bên ngoài được làm sớm hơn.",
+      "Không phù hợp, vì giám sát thường xuyên và tự đánh giá định kỳ là bắt buộc.",
+      "Không phù hợp, vì khi không tự đánh giá thì đánh giá bên ngoài phải làm mỗi năm một lần."
     ],
     "answer": 2,
-    "explanation": "GIAS 12.1 yêu cầu phương pháp đánh giá nội bộ gồm giám sát thường xuyên việc tuân thủ Chuẩn mực và tiến độ đạt mục tiêu, và tự đánh giá định kỳ (hoặc do người khác trong tổ chức có đủ hiểu biết thực hiện), kèm trao đổi kết quả với HĐQT và Ban điều hành cấp cao.",
+    "explanation": "GIAS 12.1 yêu cầu CAE xây dựng và thực hiện đánh giá nội bộ gồm giám sát thường xuyên và tự đánh giá định kỳ, trao đổi kết quả với HĐQT và Ban điều hành cấp cao. Kết quả đánh giá nội bộ còn phải được đưa vào đánh giá chất lượng bên ngoài. Hai loại đánh giá bổ sung cho nhau, không thay thế nhau.",
     "optionNotes": [
-      "Sai. Đánh giá bên ngoài là cấu phần riêng của QAIP (GIAS 8.4), không thuộc đánh giá nội bộ.",
-      "Sai. Khảo sát và KPI là công cụ có thể dùng, nhưng không phải hai cấu phần GIAS 12.1 quy định.",
-      "Đúng. GIAS 12.1 nêu giám sát thường xuyên và tự đánh giá định kỳ.",
-      "Sai. Kiểm toán độc lập báo cáo tài chính không thực hiện đánh giá chất lượng nội bộ."
+      "Sai. Đây là bẫy: đánh giá bên ngoài không thay thế đánh giá nội bộ (GIAS 12.1, 8.4).",
+      "Sai. Sự đồng ý của HĐQT không miễn được yêu cầu bắt buộc của GIAS 12.1.",
+      "Đúng. GIAS 12.1 yêu cầu cả giám sát thường xuyên và tự đánh giá định kỳ.",
+      "Sai. GIAS không có quy định đổi tự đánh giá lấy đánh giá bên ngoài hằng năm."
     ],
+    "trap": "Cho rằng đánh giá chất lượng bên ngoài thay thế được đánh giá nội bộ.",
     "refs": [
       "GIAS 12.1",
       "CIA Part 3 C.1"
@@ -173,6 +174,7 @@
       "Sai. Tính kịp thời là một mục tiêu hợp lý; bỏ chỉ số không xử lý nguyên nhân chậm trễ.",
       "Đúng. GIAS 12.2 yêu cầu lập kế hoạch hành động cho vấn đề và cơ hội cải tiến."
     ],
+    "trap": "Sửa chỉ tiêu cho đạt thay vì xử lý nguyên nhân của kết quả kém.",
     "refs": [
       "GIAS 12.2",
       "CIA Part 3 C.3"

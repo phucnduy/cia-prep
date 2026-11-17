@@ -771,6 +771,7 @@
       "Sai. Giao dịch bất thường được phát hiện bằng phân tích dữ liệu hoặc thủ tục phân tích.",
       "Đúng. RACI cho thấy vai trò của từng người, nên phát hiện được xung đột phân chia nhiệm vụ."
     ],
+    "trap": "Nhầm ma trận RACI với lưu đồ thời gian xử lý hoặc với phân tích dữ liệu.",
     "refs": [
       "CIA Part 2 B.4"
     ],
@@ -796,6 +797,7 @@
       "Sai. Dự báo hướng tới tương lai; tình huống đang tìm nguyên nhân của điều đã xảy ra.",
       "Sai. Kiểm toán viên không chỉ tổng hợp mà đang tìm nguyên nhân."
     ],
+    "trap": "Nhầm phân tích chẩn đoán (vì sao đã xảy ra) với phân tích dự báo (điều gì sẽ xảy ra).",
     "refs": [
       "CIA Part 2 B.4"
     ],
@@ -821,6 +823,7 @@
       "Sai. Chưa có kết quả đáng tin cậy để gửi; dữ liệu chưa được kiểm tra và chuẩn hóa.",
       "Sai. Bỏ một hệ thống làm mất phạm vi, có thể bỏ sót chính các hóa đơn trùng giữa hai hệ thống."
     ],
+    "trap": "Chạy phân tích trước khi kiểm tra tính đầy đủ và chuẩn hóa dữ liệu.",
     "refs": [
       "CIA Part 2 B.4",
       "GIAS 14.1"
@@ -847,6 +850,7 @@
       "Đúng. Quản lý tự theo dõi và xử lý ngoại lệ là giám sát liên tục.",
       "Sai. Tình huống không nói đến robot thực hiện các bước lặp lại thay con người."
     ],
+    "trap": "Nhầm giám sát liên tục của Ban điều hành với kiểm toán liên tục của kiểm toán viên.",
     "refs": [
       "CIA Part 2 B.3"
     ],
@@ -872,6 +876,7 @@
       "Sai. Tỷ số khả năng sinh lời (ví dụ biên lợi nhuận) đo lợi nhuận so với doanh thu hoặc vốn.",
       "Đúng. Vòng quay hàng tồn kho đo hiệu quả sử dụng tài sản."
     ],
+    "trap": "Nhầm vòng quay hàng tồn kho với tỷ số thanh khoản vì cùng liên quan tài sản ngắn hạn.",
     "refs": [
       "CIA Part 2 B.5"
     ],
@@ -897,6 +902,7 @@
       "Sai. Biến động bất thường chỉ là tín hiệu; cần điều tra trước khi kết luận.",
       "Sai. Nằm trong tổng ngân sách không giải thích được mối quan hệ bất hợp lý giữa hai chỉ số."
     ],
+    "trap": "Kết luận sai phạm ngay khi thấy biến động bất thường, chưa điều tra nguyên nhân.",
     "refs": [
       "CIA Part 2 B.5",
       "GIAS 14.2"

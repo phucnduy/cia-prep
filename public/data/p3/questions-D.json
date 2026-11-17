@@ -255,22 +255,23 @@
     "id": "P3-D-N01",
     "section": "D",
     "topic": "D5",
-    "difficulty": 1,
-    "stem": "Trong Glossary của GIAS, rủi ro còn lại (residual risk) được hiểu là gì?",
+    "difficulty": 2,
+    "stem": "Dự thảo báo cáo ghi: 'Rủi ro còn lại của quy trình mua hàng ở mức cao vì quy trình có nhiều giao dịch giá trị lớn', trong khi nhóm chưa xét đến các kiểm soát đang áp dụng. Nhận xét nào đúng nhất?",
     "options": [
-      "Phần rủi ro tiềm tàng còn lại sau khi các hành động của Ban điều hành được thực hiện.",
-      "Rủi ro của một hoạt động khi chưa có bất kỳ biện pháp kiểm soát nào được áp dụng.",
-      "Mức rủi ro tối đa mà HĐQT chấp nhận để theo đuổi các mục tiêu của tổ chức.",
-      "Rủi ro kiểm toán viên đưa ra kết luận sai do thủ tục kiểm toán không đầy đủ."
+      "Mô tả đúng, vì rủi ro còn lại được đánh giá chủ yếu dựa trên quy mô giao dịch.",
+      "Dùng sai thuật ngữ; đó là rủi ro tiềm tàng, rủi ro còn lại phải xét sau kiểm soát.",
+      "Dùng sai thuật ngữ; đó là khẩu vị rủi ro, mức rủi ro tổ chức sẵn sàng chấp nhận.",
+      "Mô tả đúng, nếu Ban điều hành đã xác nhận mức rủi ro này trong bảng tự đánh giá."
     ],
-    "answer": 0,
-    "explanation": "Glossary của GIAS định nghĩa rủi ro còn lại là phần rủi ro tiềm tàng còn lại sau khi các hành động của Ban điều hành được thực hiện. Khi đánh giá phát hiện, kiểm toán viên đánh giá kiểm soát hiện có rồi xác định mức rủi ro còn lại (GIAS 14.3).",
+    "answer": 1,
+    "explanation": "Glossary của GIAS định nghĩa rủi ro còn lại là phần rủi ro tiềm tàng còn lại sau khi các hành động của Ban điều hành được thực hiện. Mức rủi ro đánh giá khi chưa xét kiểm soát là rủi ro tiềm tàng. Khi đánh giá phát hiện, kiểm toán viên đánh giá kiểm soát hiện có rồi mới xác định rủi ro còn lại (GIAS 14.3).",
     "optionNotes": [
-      "Đúng. Đây là định nghĩa trong Glossary của GIAS.",
-      "Sai. Đó là rủi ro tiềm tàng (inherent risk), trước khi có hành động của Ban điều hành.",
-      "Sai. Đó là khẩu vị rủi ro (risk appetite), mức rủi ro tổ chức sẵn sàng chấp nhận.",
-      "Sai. Đó là khái niệm rủi ro kiểm toán, không phải rủi ro còn lại của hoạt động."
+      "Sai. Đây là bẫy: quy mô giao dịch phản ánh rủi ro tiềm tàng; rủi ro còn lại phải xét sau kiểm soát.",
+      "Đúng. Chưa xét kiểm soát thì đó là rủi ro tiềm tàng (GIAS Glossary).",
+      "Sai. Khẩu vị rủi ro là mức tổ chức sẵn sàng chấp nhận, không phải mức rủi ro của quy trình.",
+      "Sai. Xác nhận của Ban điều hành không biến rủi ro tiềm tàng thành rủi ro còn lại."
     ],
+    "trap": "Nhầm rủi ro tiềm tàng (trước kiểm soát) với rủi ro còn lại (sau kiểm soát).",
     "refs": [
       "GIAS Glossary",
       "GIAS 14.3",
@@ -298,6 +299,7 @@
       "Sai. Kết quả tự đánh giá của Ban điều hành chỉ là đầu vào; kiểm toán viên phải tự đánh giá.",
       "Sai. Mức độ quan trọng dựa trên khả năng xảy ra và tác động tiềm ẩn, không cần chờ tổn thất."
     ],
+    "trap": "Xếp hạng phát hiện theo vi phạm hình thức trước khi xét kiểm soát và rủi ro còn lại.",
     "refs": [
       "GIAS 14.3",
       "CIA Part 3 D.5"
@@ -324,6 +326,7 @@
       "Đúng. Ghi nhận kiểm soát hữu hiệu và so rủi ro còn lại với ngưỡng chịu đựng.",
       "Sai. Hạ xếp hạng khi không có bằng chứng yếu kém làm kết luận thiếu khách quan."
     ],
+    "trap": "Cho rằng kiểm soát hữu hiệu làm rủi ro còn lại bằng 0.",
     "refs": [
       "GIAS 14.5",
       "GIAS 14.3",
@@ -351,6 +354,7 @@
       "Sai. Thông tin ngành có thể hỗ trợ lập luận, nhưng không phải nội dung ghi nhận chính.",
       "Đúng. Đây là các nội dung GIAS 11.5 (phần hướng dẫn) nêu cho việc ghi nhận chấp nhận rủi ro."
     ],
+    "trap": "Ghi nhận việc chấp nhận rủi ro mà không nêu ai chấp nhận, vì sao và khi nào.",
     "refs": [
       "GIAS 11.5",
       "CIA Part 3 D.6"
@@ -377,6 +381,7 @@
       "Sai. GIAS 11.5 nêu xử lý rủi ro không phải trách nhiệm của CAE.",
       "Sai. GIAS 11.5 không yêu cầu CAE báo cáo cơ quan quản lý khi HĐQT đã quyết định chấp nhận rủi ro."
     ],
+    "trap": "Cho rằng CAE phải tự xử lý rủi ro mà Ban điều hành và HĐQT đã chấp nhận.",
     "refs": [
       "GIAS 11.5",
       "CIA Part 3 D.6"
@@ -403,6 +408,7 @@
       "Sai. Kiểm toán viên không tự gia hạn thay Ban điều hành; phải lấy giải trình và báo CAE.",
       "Sai. Việc xác định có chấp nhận rủi ro hay không thuộc về CAE, sau khi có giải trình."
     ],
+    "trap": "Báo HĐQT ngay hoặc tự kết luận \"chấp nhận rủi ro\" khi chưa có giải trình của Ban điều hành.",
     "refs": [
       "GIAS 15.2",
       "GIAS 11.5",

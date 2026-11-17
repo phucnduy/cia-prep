@@ -7,7 +7,7 @@ const THIN_TOPIC = 10;
 const THROWAWAY_RATIO = 0.35;
 const MIN_ANSWER_FOR_RATIO = 40;
 /** Rough target mix (percent) for difficulty 1/2/3, see CLAUDE.md "Difficulty". */
-const TARGET_MIX = { 1: 20, 2: 50, 3: 30 };
+const TARGET_MIX = { 1: 10, 2: 50, 3: 40 };
 
 /** A stem with a set-up sentence before the question is a scenario, whatever its last words are. */
 const isScenario = (stem) => stem.trim().split(/(?<=[.:;])\s+/).length >= 2 || stem.length > 160;
@@ -38,6 +38,7 @@ for (const { id: part, path } of index.parts) {
   let recall = 0;
   let scenario = 0;
   let sequence = 0;
+  let traps = 0;
   const byTopic = {};
 
   for (const q of questions) {
@@ -47,6 +48,7 @@ for (const { id: part, path } of index.parts) {
     if (recallStem) recall += 1;
     if (isScenario(q.stem)) scenario += 1;
     if (SEQUENCE.test(q.stem)) sequence += 1;
+    if (q.trap) traps += 1;
 
     const flags = [];
     if (STANDARD_IN_STEM.test(q.stem)) flags.push('standard number in stem');
@@ -66,9 +68,10 @@ for (const { id: part, path } of index.parts) {
   console.log(`\n${part} - ${n} questions`);
   console.log(
     `  difficulty  easy ${pct(diff[1], n)}% / medium ${pct(diff[2], n)}% / hard ${pct(diff[3], n)}%` +
-      `  (target about ${TARGET_MIX[1]}/${TARGET_MIX[2]}/${TARGET_MIX[3]})`,
+      `  (easy max ${TARGET_MIX[1]}%, hard about ${TARGET_MIX[3]}%)`,
   );
   console.log(`  stem types  scenario ${pct(scenario, n)}%, recall ${pct(recall, n)}%, sequence ("first/next") ${sequence}`);
+  console.log(`  trap-tagged ${pct(traps, n)}% (${traps}); target 60% of each new batch`);
   console.log(`  thin topics (< ${THIN_TOPIC})  ${thin.length ? thin.join(' ') : 'none'}`);
   const partFlags = flagged.filter((f) => f.part === part);
   const kinds = {};

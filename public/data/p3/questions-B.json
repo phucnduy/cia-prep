@@ -178,22 +178,23 @@
     "id": "P3-B-N01",
     "section": "B",
     "topic": "B2",
-    "difficulty": 1,
-    "stem": "Đánh giá có văn bản về chiến lược, mục tiêu và rủi ro của tổ chức, dùng làm cơ sở cho kế hoạch kiểm toán nội bộ, phải được thực hiện tối thiểu bao lâu một lần?",
+    "difficulty": 2,
+    "stem": "CAE lập đánh giá rủi ro toàn diện cho kế hoạch ba năm 2026-2028 và đề xuất không làm lại đánh giá rủi ro trong ba năm đó, chỉ cập nhật kế hoạch khi có sự kiện lớn. Điểm chưa phù hợp chính của đề xuất là gì?",
     "options": [
-      "Ba năm một lần, theo chu kỳ kiểm toán của các đơn vị.",
-      "Ít nhất mỗi năm một lần, làm cơ sở cho kế hoạch năm.",
-      "Năm năm một lần, cùng đợt đánh giá chất lượng bên ngoài.",
-      "Chỉ khi HĐQT yêu cầu hoặc có thay đổi lớn về tổ chức."
+      "Kế hoạch nhiều năm không được phép; kế hoạch kiểm toán chỉ được lập riêng cho từng năm.",
+      "Đánh giá rủi ro làm cơ sở cho kế hoạch phải được thực hiện ít nhất mỗi năm một lần.",
+      "Kế hoạch phải được cập nhật hằng quý, bất kể rủi ro của tổ chức có thay đổi hay không.",
+      "Đánh giá rủi ro phải do một bên độc lập bên ngoài thực hiện thì mới đủ khách quan."
     ],
     "answer": 1,
-    "explanation": "GIAS 9.4 yêu cầu kế hoạch kiểm toán dựa trên đánh giá có văn bản về chiến lược, mục tiêu và rủi ro của tổ chức, có ý kiến của HĐQT và Ban điều hành cấp cao, và đánh giá này phải thực hiện ít nhất mỗi năm một lần. Kế hoạch còn phải được cập nhật kịp thời khi rủi ro thay đổi.",
+    "explanation": "GIAS 9.4 yêu cầu kế hoạch kiểm toán dựa trên đánh giá có văn bản về chiến lược, mục tiêu và rủi ro của tổ chức, và đánh giá này phải thực hiện ít nhất mỗi năm một lần. GIAS không cấm kế hoạch nhiều năm, nhưng có kế hoạch dài hạn không miễn việc đánh giá lại hằng năm; kế hoạch còn phải được cập nhật kịp thời khi rủi ro thay đổi.",
     "optionNotes": [
-      "Sai. Chu kỳ ba năm có thể dùng để phân bổ cuộc kiểm toán, nhưng đánh giá rủi ro phải làm hằng năm.",
+      "Sai. GIAS không cấm kế hoạch nhiều năm; vấn đề là thiếu đánh giá rủi ro hằng năm.",
       "Đúng. GIAS 9.4 yêu cầu đánh giá ít nhất hằng năm.",
-      "Sai. Năm năm là chu kỳ tối đa của đánh giá chất lượng bên ngoài (GIAS 8.4), không phải đánh giá rủi ro.",
-      "Sai. Thay đổi lớn đòi hỏi cập nhật kế hoạch, nhưng không thay thế yêu cầu đánh giá hằng năm."
+      "Sai. GIAS yêu cầu cập nhật kịp thời khi có thay đổi, không quy định tần suất cố định hằng quý.",
+      "Sai. CAE thực hiện đánh giá, có ý kiến của HĐQT và Ban điều hành; không bắt buộc bên ngoài."
     ],
+    "trap": "Cho rằng đã có kế hoạch nhiều năm thì không cần đánh giá lại rủi ro hằng năm.",
     "refs": [
       "GIAS 9.4",
       "CIA Part 3 B.2"
@@ -220,6 +221,7 @@
       "Đúng. Đây là các lĩnh vực GIAS 9.4 yêu cầu kế hoạch phải cân nhắc.",
       "Sai. Nhân viên mới có thể là một yếu tố rủi ro, nhưng không phải nhóm chủ đề GIAS yêu cầu cân nhắc."
     ],
+    "trap": "Chọn cuộc kiểm toán theo thời gian chưa kiểm toán hoặc ý muốn lãnh đạo thay vì theo rủi ro.",
     "refs": [
       "GIAS 9.4",
       "CIA Part 3 B.1"
@@ -246,6 +248,7 @@
       "Sai. Chấp nhận trùng lặp bỏ qua mục đích phối hợp và yêu cầu nêu quan ngại của GIAS 9.5.",
       "Sai. Dùng kiểm toán như biện pháp gây sức ép không giải quyết việc phối hợp và có thể làm mất khách quan."
     ],
+    "trap": "Báo cáo vượt cấp lên HĐQT ngay, bỏ qua bước nêu quan ngại với Ban điều hành cấp cao.",
     "refs": [
       "GIAS 9.5",
       "CIA Part 3 B.3"
@@ -272,6 +275,7 @@
       "Sai. GIAS 9.5 cho phép, thậm chí khuyến khích cân nhắc dựa vào công việc của bên khác.",
       "Sai. Sự chấp thuận của HĐQT không làm thay đổi trách nhiệm của CAE đối với kết luận."
     ],
+    "trap": "Cho rằng dựa vào công việc của bên khác thì trách nhiệm kết luận chuyển sang bên đó.",
     "refs": [
       "GIAS 9.5",
       "CIA Part 3 B.3"

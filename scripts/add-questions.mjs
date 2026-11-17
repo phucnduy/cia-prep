@@ -85,6 +85,7 @@ for (const raw of incoming) {
     answer: q.answer,
     explanation: q.explanation,
     ...(q.optionNotes ? { optionNotes: q.optionNotes } : {}),
+    ...(q.trap ? { trap: q.trap } : {}),
     refs: q.refs ?? [],
     source: q.source ?? 'original',
   });

@@ -41,7 +41,13 @@ Every rule below exists because the mistake it prevents already happened once in
 - **1 Easy**: recall or recognize one rule, definition or purpose. Distractors must still be plausible.
 - **2 Medium**: apply one rule to a short concrete scenario.
 - **3 Hard**: judgment between several defensible actions (what to do *first* or *next*), combining two or more rules, or a nuance such as perceived vs actual impairment, or must vs should.
-- Rate by what the learner has to do, not by stem length. Target mix per part is about 20/50/30. Check with `npm run audit:bank`, which also lists thin topics.
+- Rate by what the learner has to do, not by stem length. **Easy questions are capped at 10% of each part** (user decision, 2026-11-17); the validator warns above that. Aim for at least 40% hard. Check with `npm run audit:bank`, which also lists thin topics.
+
+### Trap questions (`trap`)
+
+- A trap question is one whose most tempting distractor is a known misconception: board vs management roles, administrative vs functional reporting, must vs should, GIAS 2024 vs IPPF 2017, perceived vs actual, first step vs a later step, reasonable vs absolute assurance, a lesson's `traps` entry. It still has **exactly one defensible answer**; a trap is never a trick of wording.
+- Record the misconception in `trap` (one short Vietnamese sentence, e.g. "Nhầm quan hệ báo cáo hành chính với quyền phê duyệt ngân sách."). The app shows it to the learner after checking an answer.
+- At least 60% of each new batch should be trap questions. The `optionNotes` entry of the trap distractor explains why the misconception is wrong.
 
 ### Patterns worth using (from reviewing other free CIA banks, 2026-11-17)
 

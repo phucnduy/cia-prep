@@ -243,6 +243,11 @@ export default function Session({ index, manifest, data }) {
                   : `Chưa đúng. Đáp án đúng: ${LETTERS[item.order.indexOf(question.answer)]}`}
               </h4>
               <p>{question.explanation}</p>
+              {question.trap && (
+                <p className="trap-line">
+                  <b>Bẫy của câu này:</b> {question.trap}
+                </p>
+              )}
               {question.refs?.length > 0 && (
                 <div className="refs">
                   {question.refs.map((r) => (
