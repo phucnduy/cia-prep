@@ -4,7 +4,7 @@
     "section": "A",
     "title": "Mục đích của Kiểm toán Nội bộ (GIAS Domain I)",
     "rule": "Tăng cường khả năng tạo lập, bảo vệ và duy trì giá trị của tổ chức thông qua việc cung cấp dịch vụ đảm bảo và tư vấn độc lập, khách quan dựa trên rủi ro.",
-    "action": "Trình bày rõ sứ mệnh và giá trị gia tăng của KTNB trong Điều lệ kiểm toán trình HĐQT phê duyệt.",
+    "action": "Trình bày rõ sứ mệnh và giá trị gia tăng của KTNB trong Quy chế kiểm toán trình HĐQT phê duyệt.",
     "violation": "Biến bộ phận KTNB thành bộ phận trực tiếp phê duyệt chứng từ kế toán hàng ngày thay cho Ban điều hành.",
     "trap": "KTNB chịu trách nhiệm chính trong việc thiết kế và vận hành hệ thống kiểm soát nội bộ của doanh nghiệp.",
     "distinction": "Dịch vụ đảm bảo đưa ra đánh giá độc lập của KTV, còn dịch vụ tư vấn đưa ra lời khuyên theo yêu cầu mà không nhận trách nhiệm quản lý."
@@ -12,19 +12,19 @@
   {
     "id": "P1-A-K002",
     "section": "A",
-    "title": "Điều lệ Kiểm toán Nội bộ (Internal Audit Charter - Chuẩn mực 6.2)",
+    "title": "Quy chế Kiểm toán Nội bộ (Internal Audit Charter - Chuẩn mực 6.2)",
     "rule": "Là văn bản chính thức xác định mục đích, quyền hạn, trách nhiệm và vị thế của bộ phận KTNB trong tổ chức, được HĐQT/Ủy ban Kiểm toán phê duyệt.",
-    "action": "CAE định kỳ rà soát Điều lệ với Ban điều hành cấp cao và trình HĐQT phê duyệt lại khi có thay đổi lớn.",
-    "violation": "Cho phép Giám đốc Tài chính (CFO) tự ý sửa đổi Điều lệ KTNB để giới hạn quyền truy cập hồ sơ của KTV.",
-    "trap": "Điều lệ KTNB chỉ cần chữ ký của Tổng Giám đốc (CEO) mà không cần thông qua Ủy ban Kiểm toán.",
-    "distinction": "Điều lệ quy định cả dịch vụ đảm bảo và dịch vụ tư vấn, đồng thời xác lập quyền tiếp cận không giới hạn với hồ sơ, nhân sự và tài sản."
+    "action": "CAE định kỳ rà soát Quy chế với Ban điều hành cấp cao và trình HĐQT phê duyệt lại khi có thay đổi lớn.",
+    "violation": "Cho phép Giám đốc Tài chính (CFO) tự ý sửa đổi Quy chế KTNB để giới hạn quyền truy cập hồ sơ của KTV.",
+    "trap": "Quy chế KTNB chỉ cần chữ ký của Tổng Giám đốc (CEO) mà không cần thông qua Ủy ban Kiểm toán.",
+    "distinction": "Quy chế quy định cả dịch vụ đảm bảo và dịch vụ tư vấn, đồng thời xác lập quyền tiếp cận không giới hạn với hồ sơ, nhân sự và tài sản."
   },
   {
     "id": "P1-A-K003",
     "section": "A",
     "title": "Ủy quyền Kiểm toán Nội bộ (Internal Audit Mandate - Chuẩn mực 6.1)",
     "rule": "Trao cho bộ phận KTNB thẩm quyền chính thức từ HĐQT hoặc pháp luật để thực hiện chức năng kiểm toán độc lập.",
-    "action": "CAE nhắc lại thẩm quyền trong Điều lệ và báo cáo lên Ủy ban Kiểm toán nếu một phòng ban từ chối cung cấp tài liệu.",
+    "action": "CAE nhắc lại thẩm quyền trong Quy chế và báo cáo lên Ủy ban Kiểm toán nếu một phòng ban từ chối cung cấp tài liệu.",
     "violation": "Đơn vị được kiểm toán viện lý do bí mật kinh doanh nội bộ để cấm KTNB xem xét hợp đồng mua sắm.",
     "trap": "KTNB chỉ được kiểm toán các phòng ban khi có sự đồng ý bằng văn bản của trưởng phòng ban đó.",
     "distinction": "Mandate là nguồn gốc quyền lực do HĐQT trao, còn Charter là văn bản hóa quyền lực và phạm vi hoạt động đó."
@@ -87,7 +87,7 @@
     "action": "Đào tạo toàn bộ đội ngũ KTV nắm vững 5 Domains: Mục đích KTNB, Đạo đức & Chuyên nghiệp, Quản trị KTNB, Quản lý KTNB, và Thực hiện dịch vụ KTNB.",
     "violation": "Chỉ áp dụng các chuẩn mực về thực hiện cuộc kiểm toán mà bỏ qua các chuẩn mực về đạo đức và quản trị chất lượng.",
     "trap": "Hướng dẫn bổ sung (Global Guidance) có tính bắt buộc pháp lý ngang bằng với 15 Nguyên tắc của GIAS.",
-    "distinction": "Chuẩn mực GIAS và Topical Requirements là bắt buộc (Mandatory), còn Global Guidance là tài liệu hướng dẫn khuyến nghị."
+    "distinction": "Chuẩn mực GIAS và Topical Requirements là bắt buộc (Mandatory), còn Global Guidance là tài liệu hướng dẫn kiến nghị."
   },
   {
     "id": "P1-A-K010",
@@ -104,7 +104,7 @@
     "section": "A",
     "title": "Tính Độc lập về mặt Tổ chức (Organizational Independence - Chuẩn mực 7.1)",
     "rule": "Tính độc lập đạt được hiệu quả nhất khi CAE báo cáo trực tiếp về mặt chức năng (Functionally) cho Hội đồng Quản trị/Ủy ban Kiểm toán và về mặt hành chính (Administratively) cho CEO.",
-    "action": "Đảm bảo Ủy ban Kiểm toán trực tiếp phê duyệt Điều lệ, Kế hoạch kiểm toán dựa trên rủi ro, ngân sách và quyết định bổ nhiệm/miễn nhiệm CAE.",
+    "action": "Đảm bảo Ủy ban Kiểm toán trực tiếp phê duyệt Quy chế, Kế hoạch kiểm toán dựa trên rủi ro, ngân sách và quyết định bổ nhiệm/miễn nhiệm CAE.",
     "violation": "Giao cho Giám đốc Tài chính (CFO) quyền quyết định mức thưởng cuối năm và quyền sa thải Giám đốc Kiểm toán Nội bộ (CAE).",
     "trap": "Báo cáo hành chính cho CEO bao gồm cả việc CEO có quyền cắt bỏ các cuộc kiểm toán nhạy cảm khỏi kế hoạch năm.",
     "distinction": "Báo cáo hành chính chỉ phục vụ vận hành nội bộ (duyệt nghỉ phép, chi tiêu hành chính hàng ngày), còn báo cáo chức năng bảo vệ sự độc lập."
@@ -174,10 +174,10 @@
     "section": "B",
     "title": "Suy giảm tính khách quan do Thiết kế Hệ thống Kiểm soát",
     "rule": "Nếu kiểm toán viên trực tiếp thiết kế hoặc cài đặt quy trình kiểm soát cho một hệ thống thì tính khách quan sẽ bị suy giảm nếu chính họ kiểm toán đảm bảo hệ thống đó.",
-    "action": "Kiểm toán viên chỉ đưa ra khuyến nghị về tiêu chuẩn kiểm soát cần có, còn việc thiết kế chi tiết và vận hành thuộc về Ban điều hành.",
+    "action": "Kiểm toán viên chỉ đưa ra kiến nghị về tiêu chuẩn kiểm soát cần có, còn việc thiết kế chi tiết và vận hành thuộc về Ban điều hành.",
     "violation": "KTV trực tiếp viết quy trình và cài đặt cấu hình phân quyền ERP rồi tháng sau lại ký báo cáo đảm bảo rằng hệ thống phân quyền đó hoàn hảo.",
-    "trap": "Việc kiểm toán viên đưa ra khuyến nghị khắc phục sau cuộc kiểm toán cũng làm mất tính khách quan.",
-    "distinction": "Đưa ra khuyến nghị kiểm soát là chức năng bình thường của KTNB, nhưng trực tiếp thiết kế/cài đặt thay cho Tuyến 1 sẽ gây nguy cơ tự kiểm tra (Self-review)."
+    "trap": "Việc kiểm toán viên đưa ra kiến nghị khắc phục sau cuộc kiểm toán cũng làm mất tính khách quan.",
+    "distinction": "Đưa ra kiến nghị kiểm soát là chức năng bình thường của KTNB, nhưng trực tiếp thiết kế/cài đặt thay cho Tuyến 1 sẽ gây nguy cơ tự kiểm tra (Self-review)."
   },
   {
     "id": "P1-B-K019",
@@ -197,7 +197,7 @@
     "action": "Thiết lập kế hoạch luân chuyển KTV phụ trách các mảng kiểm toán định kỳ 2-3 năm một lần kết hợp soát xét chéo giấy tờ làm việc.",
     "violation": "Để một KTV duy nhất kiểm toán độc quyền cùng một chi nhánh suốt 10 năm liên tục dù chi nhánh đó có quan hệ thân hữu với KTV.",
     "trap": "Luân chuyển công việc chỉ áp dụng cho kế toán viên chứ không cần thiết đối với kiểm toán viên nội bộ.",
-    "distinction": "Khi phòng KTNB quá nhỏ không thể luân chuyển hết, CAE cần tăng cường giám sát và soát xét độc lập hồ sơ làm việc."
+    "distinction": "Khi phòng KTNB quá nhỏ không thể luân chuyển hết, CAE cần tăng cường giám sát và soát xét độc lập hồ sơ kiểm toán."
   },
   {
     "id": "P1-B-K021",
@@ -213,7 +213,7 @@
     "id": "P1-B-K022",
     "section": "B",
     "title": "Năng lực chuyên môn tập thể của Bộ phận KTNB (Chuẩn mực 3.1 & 10.2)",
-    "rule": "Bộ phận KTNB tính trên tổng thể (Collectively) phải sở hữu hoặc tiếp cận được đầy đủ kiến thức, kỹ năng và năng lực cần thiết để hoàn thành Điều lệ kiểm toán.",
+    "rule": "Bộ phận KTNB tính trên tổng thể (Collectively) phải sở hữu hoặc tiếp cận được đầy đủ kiến thức, kỹ năng và năng lực cần thiết để hoàn thành Quy chế kiểm toán.",
     "action": "Khi thiếu chuyên gia nội bộ cho mảng kiểm toán chuyên sâu (như An ninh mạng, Định phí bảo hiểm), CAE thuê chuyên gia bên ngoài hỗ trợ (Co-sourcing).",
     "violation": "Nhận thực hiện kiểm toán đảm bảo hệ thống trí tuệ nhân tạo phức tạp khi cả phòng không ai có chuyên môn và cũng không thuê chuyên gia.",
     "trap": "Mỗi một cá nhân kiểm toán viên trong phòng bắt buộc phải giỏi tất cả mọi lĩnh vực từ kế toán, CNTT, pháp lý đến kỹ thuật xây dựng.",
@@ -225,7 +225,7 @@
     "title": "Thuê ngoài dịch vụ Kiểm toán Nội bộ (Co-sourcing & Outsourcing)",
     "rule": "Dù thuê nhà cung cấp bên ngoài thực hiện một phần hay toàn bộ công việc KTNB, trách nhiệm giám sát chất lượng và đảm bảo sự phù hợp với Chuẩn mực vẫn thuộc về CAE/Tổ chức.",
     "action": "CAE đánh giá năng lực, tính độc lập của đơn vị tư vấn bên ngoài và trực tiếp phê duyệt phạm vi, soát xét kết quả công việc của họ.",
-    "violation": "Giao khoán trắng toàn bộ cuộc kiểm toán cho công ty bên ngoài mà không kiểm tra tính độc lập hay chất lượng hồ sơ làm việc của họ.",
+    "violation": "Giao khoán trắng toàn bộ cuộc kiểm toán cho công ty bên ngoài mà không kiểm tra tính độc lập hay chất lượng hồ sơ kiểm toán của họ.",
     "trap": "Một công ty kiểm toán độc lập đang làm kiểm toán BCTC bắt buộc (External Audit) cho công ty thì vẫn được nhận làm Outsourcing toàn bộ KTNB cho công ty đó.",
     "distinction": "Co-sourcing giúp chuyển giao kiến thức (Knowledge transfer) từ chuyên gia bên ngoài cho đội ngũ kiểm toán viên nội bộ của công ty."
   },
@@ -234,7 +234,7 @@
     "section": "B",
     "title": "Bốn yếu tố của một Phát hiện Kiểm toán (4 Cs of Audit Findings)",
     "rule": "Một phát hiện kiểm toán chuẩn mực bao gồm: Tiêu chí (Criteria - cái nên là), Hiện trạng (Condition - cái đang là), Nguyên nhân (Cause - lý do sai lệch) và Hậu quả (Effect - tác động/rủi ro).",
-    "action": "Trình bày đầy đủ 4 yếu tố và tập trung khắc phục Nguyên nhân gốc rễ (Root Cause) khi đưa ra khuyến nghị kiểm toán.",
+    "action": "Trình bày đầy đủ 4 yếu tố và tập trung khắc phục Nguyên nhân gốc rễ (Root Cause) khi đưa ra kiến nghị kiểm toán.",
     "violation": "Chỉ nêu hiện tượng lỗi trên báo cáo mà không đối chiếu với quy định chuẩn (Criteria) và không đánh giá mức độ thiệt hại (Effect).",
     "trap": "Nguyên nhân (Cause) là số tiền thiệt hại thực tế mà công ty đã phải gánh chịu do lỗi kiểm soát.",
     "distinction": "Khoảng cách giữa Criteria và Condition tạo ra phát hiện; Cause giải thích tại sao khoảng cách đó tồn tại; Effect cho biết mức độ trọng yếu."
@@ -277,7 +277,7 @@
     "action": "Thực hiện đánh giá khoảng cách năng lực (Skills Gap Analysis) hàng năm để xây dựng kế hoạch đào tạo cá nhân cho từng KTV.",
     "violation": "Chỉ tuyển dụng và đào tạo kỹ năng định khoản kế toán mà bỏ qua hoàn toàn kỹ năng phân tích rủi ro CNTT và giao tiếp chiến lược.",
     "trap": "Kỹ năng mềm như giao tiếp, thương lượng và giải quyết xung đột không nằm trong yêu cầu năng lực của kiểm toán viên nội bộ.",
-    "distinction": "Kỹ năng giao tiếp tốt giúp KTV thu thập thông tin phỏng vấn hiệu quả hơn và thuyết phục Ban điều hành thực hiện khuyến nghị."
+    "distinction": "Kỹ năng giao tiếp tốt giúp KTV thu thập thông tin phỏng vấn hiệu quả hơn và thuyết phục Ban điều hành thực hiện kiến nghị."
   },
   {
     "id": "P1-B-K029",

@@ -166,14 +166,14 @@
         "body": [
           "Tiêu chí đầy đủ: phù hợp, gắn với mục tiêu của tổ chức và hoạt động, cho phép so sánh tin cậy; nên cụ thể và thực tế, thể hiện trạng thái mong muốn.",
           "Nên xem xét tổ chức đã xác định rõ dung sai rủi ro (kể cả ngưỡng trọng yếu cho từng bộ phận) và mức kiểm soát 'đạt yêu cầu' chưa, ví dụ một tỷ lệ giao dịch phải đúng thủ tục.",
-          "Khi tiêu chí chưa đủ hoặc không có: kiểm toán viên có thể giúp quản lý xây dựng, tham khảo chuyên gia, hoặc khuyến nghị quản lý áp dụng tiêu chí do kiểm toán xác định; việc thiếu tiêu chí có thể dẫn tới quyết định chuyển sang dịch vụ tư vấn."
+          "Khi tiêu chí chưa đủ hoặc không có: kiểm toán viên có thể giúp quản lý xây dựng, tham khảo chuyên gia, hoặc kiến nghị quản lý áp dụng tiêu chí do kiểm toán xác định; việc thiếu tiêu chí có thể dẫn tới quyết định chuyển sang dịch vụ tư vấn."
         ]
       }
     ],
     "example": {
       "title": "Thiếu tiêu chí về thời gian xử lý khiếu nại",
       "scenario": "Mục tiêu cuộc kiểm toán là đánh giá hiệu quả xử lý khiếu nại khách hàng, nhưng công ty không có quy định thời hạn xử lý.",
-      "analysis": "Không dừng cuộc kiểm toán và cũng không tự áp con số của đối thủ. Kiểm toán viên trao đổi với Ban điều hành để xác định tiêu chí phù hợp (ví dụ cam kết dịch vụ trong hợp đồng, quy định bảo vệ người tiêu dùng, thông lệ ngành), ghi lại tiêu chí đã thống nhất, rồi so sánh với thực trạng. Có thể khuyến nghị công ty ban hành thời hạn chính thức."
+      "analysis": "Không dừng cuộc kiểm toán và cũng không tự áp con số của đối thủ. Kiểm toán viên trao đổi với Ban điều hành để xác định tiêu chí phù hợp (ví dụ cam kết dịch vụ trong hợp đồng, quy định bảo vệ người tiêu dùng, thông lệ ngành), ghi lại tiêu chí đã thống nhất, rồi so sánh với thực trạng. Có thể kiến nghị công ty ban hành thời hạn chính thức."
     },
     "checks": [
       {
@@ -266,7 +266,7 @@
       {
         "heading": "3a. Áp dụng Yêu cầu theo chủ đề khi lập kế hoạch",
         "body": [
-          "Khi cuộc kiểm toán có chủ đề thuộc một Topical Requirement (ví dụ an ninh mạng), hoặc chủ đề đó được nhận diện trong lúc lập kế hoạch, kiểm toán viên dùng đánh giá rủi ro để xác định yêu cầu con nào đưa vào phạm vi và chương trình làm việc.",
+          "Khi cuộc kiểm toán có chủ đề thuộc một Topical Requirement (ví dụ an ninh mạng), hoặc chủ đề đó được nhận diện trong lúc lập kế hoạch, kiểm toán viên dùng đánh giá rủi ro để xác định yêu cầu con nào đưa vào phạm vi và chương trình kiểm toán.",
           "Phải ghi lại việc đã xem xét từng yêu cầu và lý do loại trừ phần không áp dụng; đoàn đánh giá chất lượng kiểm tra việc này khi xem xét GIAS 13.2 và 13.3 (theo hỏi đáp chính thức của IIA về Topical Requirement an ninh mạng).",
           "Hướng dẫn sử dụng của IIA có bảng đối chiếu Topical Requirement an ninh mạng với NIST CSF 2.0, COBIT 2019 và NIST 800-53; kiểm toán viên nên đối chiếu chương trình hiện có với yêu cầu để bảo đảm đủ phạm vi."
         ]
@@ -364,7 +364,7 @@
         "heading": "Cách thu thập thông tin để đánh giá rủi ro cuộc kiểm toán (13.2, nên làm)",
         "body": [
           "Bắt đầu từ kế hoạch kiểm toán: lý do cuộc kiểm toán được đưa vào kế hoạch (đánh giá rủi ro toàn tổ chức hay yêu cầu của các bên), và hỏi xem có thay đổi gì từ khi lập kế hoạch.",
-          "Nguồn: các đánh giá rủi ro gần đây của kiểm toán nội bộ, quản lý, bên ngoài; báo cáo các cuộc kiểm toán, tư vấn trước; hồ sơ làm việc cũ; hướng dẫn của IIA, luật, quy định; sơ đồ tổ chức, mô tả công việc; quan sát tài sản, quy trình; phỏng vấn, khảo sát; gặp các bên đảm bảo khác.",
+          "Nguồn: các đánh giá rủi ro gần đây của kiểm toán nội bộ, quản lý, bên ngoài; báo cáo các cuộc kiểm toán, tư vấn trước; hồ sơ kiểm toán cũ; hướng dẫn của IIA, luật, quy định; sơ đồ tổ chức, mô tả công việc; quan sát tài sản, quy trình; phỏng vấn, khảo sát; gặp các bên đảm bảo khác.",
           "Nên tham khảo người giám sát cuộc kiểm toán khi lập kế hoạch, và lấy ý kiến quản lý đơn vị về mục tiêu, rủi ro, kiểm soát: hiểu biết chung về rủi ro làm đánh giá rủi ro hữu ích hơn."
         ]
       },
@@ -402,7 +402,7 @@
   },
   {
     "topic": "A6",
-    "summary": "Chương trình làm việc mô tả các bước cụ thể để đạt mục tiêu cuộc kiểm toán. Chương trình phải được lập thành văn bản và CAE phê duyệt trước khi thực hiện (GIAS 13.6).",
+    "summary": "Chương trình kiểm toán mô tả các bước cụ thể để đạt mục tiêu cuộc kiểm toán. Chương trình phải được lập thành văn bản và CAE phê duyệt trước khi thực hiện (GIAS 13.6).",
     "points": [
       "Chương trình phải nêu: tiêu chí đánh giá từng mục tiêu; công việc cần làm; phương pháp (kể cả thủ tục phân tích) và công cụ; người được phân công từng công việc.",
       "Chương trình dựa trên thông tin thu thập khi lập kế hoạch, kể cả kết quả đánh giá rủi ro.",
@@ -414,7 +414,7 @@
     "terms": [
       {
         "term": "Engagement work program",
-        "vi": "Chương trình làm việc",
+        "vi": "Chương trình kiểm toán",
         "def": "Tài liệu nêu các công việc cần làm để đạt mục tiêu cuộc kiểm toán, phương pháp và công cụ, người thực hiện; được xây dựng từ thông tin thu thập khi lập kế hoạch. (Glossary GIAS)"
       },
       {
@@ -440,7 +440,7 @@
     ],
     "details": [
       {
-        "heading": "6a-6d. Chương trình làm việc theo GIAS 13.6",
+        "heading": "6a-6d. Chương trình kiểm toán theo GIAS 13.6",
         "body": [
           "Bắt buộc: lập, ghi lại chương trình dựa trên thông tin lập kế hoạch và kết quả đánh giá rủi ro; nêu tiêu chí cho từng mục tiêu, công việc, phương pháp (kể cả thủ tục phân tích) và công cụ, người thực hiện từng việc; CAE duyệt trước khi thực hiện và duyệt kịp thời mọi thay đổi.",
           "Nên: chương trình có chỗ ghi tên người làm, ngày hoàn thành và dấu hiệu rà soát, phê duyệt; công việc lập kế hoạch được ghi vào hồ sơ và tham chiếu trong chương trình.",
@@ -453,7 +453,7 @@
     ],
     "checks": [
       {
-        "q": "Bốn nội dung bắt buộc của chương trình làm việc?",
+        "q": "Bốn nội dung bắt buộc của chương trình kiểm toán?",
         "a": "Tiêu chí cho từng mục tiêu; công việc cần làm; phương pháp và công cụ (kể cả thủ tục phân tích); người được phân công."
       },
       {
@@ -598,7 +598,7 @@
         "body": [
           "Phù hợp (relevant): nhất quán với mục tiêu, trong phạm vi, góp phần hình thành kết quả.",
           "Đáng tin cậy (reliable): đúng sự thật và cập nhật. Tăng khi: do kiểm toán viên tự thu thập hoặc từ nguồn độc lập; được chứng thực bằng nhiều nguồn; lấy từ hệ thống có quản trị, quản lý rủi ro và kiểm soát hữu hiệu.",
-          "Đầy đủ (sufficient): đủ để phân tích, đánh giá, và để một người thận trọng, có hiểu biết, có năng lực thực hiện lại chương trình làm việc và đi đến cùng kết luận.",
+          "Đầy đủ (sufficient): đủ để phân tích, đánh giá, và để một người thận trọng, có hiểu biết, có năng lực thực hiện lại chương trình kiểm toán và đi đến cùng kết luận.",
           "Bắt buộc: đánh giá thông tin có đủ ba thuộc tính để làm cơ sở hợp lý cho phát hiện và kết luận; nếu chưa đủ thì quyết định có thu thập thêm; nếu không thể có bằng chứng phù hợp thì quyết định có nêu điều đó thành phát hiện không.",
           "Lưu ý: GIAS 2024 không có thuộc tính 'hữu ích' (useful); đó là của IPPF 2017."
         ]
@@ -807,11 +807,11 @@
     "summary": "Phát hiện là chênh lệch giữa tiêu chí và thực trạng. Kiểm toán viên đánh giá mức độ trọng yếu của từng phát hiện, cùng Ban điều hành tìm nguyên nhân gốc rễ, và ưu tiên phát hiện (GIAS 14.2, 14.3).",
     "points": [
       "Xác định thực trạng bằng bằng chứng, rồi so với tiêu chí. Không có chênh lệch thì phải đưa ra đảm bảo về hiệu quả trong kết luận.",
-      "Nếu bằng chứng ban đầu chưa đủ, cân nhắc phân tích thêm; khi đó chương trình làm việc phải được điều chỉnh và CAE phê duyệt.",
+      "Nếu bằng chứng ban đầu chưa đủ, cân nhắc phân tích thêm; khi đó chương trình kiểm toán phải được điều chỉnh và CAE phê duyệt.",
       "Mức trọng yếu dựa trên khả năng xảy ra và mức độ ảnh hưởng của rủi ro.",
       "Phối hợp với Ban điều hành để tìm nguyên nhân gốc rễ (5 Whys, biểu đồ xương cá) và ảnh hưởng tiềm ẩn.",
       "Rủi ro trọng yếu phải được ghi nhận và báo cáo là phát hiện; ưu tiên phát hiện theo phương pháp của CAE.",
-      "Một phát hiện đầy đủ gồm: tiêu chí, thực trạng, nguyên nhân, ảnh hưởng, kèm khuyến nghị hoặc kế hoạch hành động."
+      "Một phát hiện đầy đủ gồm: tiêu chí, thực trạng, nguyên nhân, ảnh hưởng, kèm kiến nghị hoặc kế hoạch hành động."
     ],
     "terms": [
       {
@@ -836,7 +836,7 @@
       }
     ],
     "traps": [
-      "Khuyến nghị xử lý triệu chứng thay vì nguyên nhân gốc rễ.",
+      "Kiến nghị xử lý triệu chứng thay vì nguyên nhân gốc rễ.",
       "Cho rằng ảnh hưởng chỉ được nêu khi định lượng được bằng tiền.",
       "Không đưa ra đảm bảo khi không có phát hiện."
     ],
@@ -880,19 +880,19 @@
   },
   {
     "topic": "B7",
-    "summary": "Hồ sơ làm việc ghi nhận thông tin và bằng chứng hỗ trợ kết quả cuộc kiểm toán. Hồ sơ phải đủ để một người có hiểu biết, thận trọng thực hiện lại công việc và đạt cùng kết quả (GIAS 14.6).",
+    "summary": "Hồ sơ kiểm toán ghi nhận thông tin và bằng chứng hỗ trợ kết quả cuộc kiểm toán. Hồ sơ phải đủ để một người có hiểu biết, thận trọng thực hiện lại công việc và đạt cùng kết quả (GIAS 14.6).",
     "points": [
       "Ghi nhận phân tích, đánh giá và thông tin hỗ trợ, có liên kết rõ với phát hiện và kết luận.",
       "Kiểm toán viên và người giám sát rà soát hồ sơ về tính chính xác, phù hợp và đầy đủ; CAE rà soát và phê duyệt hồ sơ.",
       "Hồ sơ được tổ chức nhất quán: mục tiêu, nguồn, thủ tục, kết quả, kết luận, tham chiếu chéo, người lập và người rà soát.",
-      "Lưu giữ theo luật, quy định và chính sách của chức năng kiểm toán và tổ chức.",
+      "Lưu giữ theo luật, quy định và chính sách của bộ phận kiểm toán và tổ chức.",
       "Việc tiếp cận và phát hành hồ sơ cho bên khác phải theo chính sách, thường cần tham vấn pháp chế (GIAS 5.2)."
     ],
     "terms": [
       {
         "term": "Workpapers",
-        "vi": "Hồ sơ làm việc",
-        "def": "Tài liệu ghi lại công việc kiểm toán khi lập kế hoạch và thực hiện, làm cơ sở cho phát hiện và kết luận. (Glossary GIAS)"
+        "vi": "Hồ sơ kiểm toán (giấy tờ làm việc)",
+        "def": "Tài liệu ghi lại công việc kiểm toán khi lập kế hoạch và thực hiện, làm cơ sở cho phát hiện và kết luận. (Glossary GIAS) Nghị định 05/2019/NĐ-CP (Điều 18) gọi là \"hồ sơ, tài liệu kiểm toán\"."
       },
       {
         "term": "Retention policy",
@@ -913,7 +913,7 @@
     ],
     "details": [
       {
-        "heading": "7a-7d. Hồ sơ làm việc theo GIAS 14.6",
+        "heading": "7a-7d. Hồ sơ kiểm toán theo GIAS 14.6",
         "body": [
           "Bắt buộc: ghi lại thông tin, bằng chứng sao cho người có hiểu biết, thận trọng làm lại được và ra cùng kết quả; kiểm toán viên và người giám sát rà soát về độ chính xác, phù hợp, đầy đủ; CAE rà soát và phê duyệt; lưu giữ theo luật và chính sách.",
           "Hồ sơ nên gồm: ngày hoặc kỳ kiểm toán; đánh giá rủi ro; mục tiêu, phạm vi; chương trình; mô tả phân tích (thủ tục, nguồn dữ liệu); kết quả; tên hoặc chữ ký tắt người thực hiện và người giám sát; bằng chứng đã trao đổi với các bên.",
@@ -980,10 +980,10 @@
   },
   {
     "topic": "C1",
-    "summary": "Giám sát bảo đảm cuộc kiểm toán đạt mục tiêu, có chất lượng và giúp kiểm toán viên phát triển. Mức độ giám sát tùy độ trưởng thành của chức năng kiểm toán, năng lực, kinh nghiệm của kiểm toán viên và độ phức tạp của cuộc kiểm toán (GIAS 12.3).",
+    "summary": "Giám sát bảo đảm cuộc kiểm toán đạt mục tiêu, có chất lượng và giúp kiểm toán viên phát triển. Mức độ giám sát tùy độ trưởng thành của bộ phận kiểm toán, năng lực, kinh nghiệm của kiểm toán viên và độ phức tạp của cuộc kiểm toán (GIAS 12.3).",
     "points": [
       "Giám sát diễn ra suốt cuộc kiểm toán, kể cả khi lập kế hoạch.",
-      "CAE hoặc người giám sát hướng dẫn kiểm toán viên, xác minh chương trình làm việc được hoàn thành và hồ sơ hỗ trợ đầy đủ cho phát hiện, kết luận, khuyến nghị.",
+      "CAE hoặc người giám sát hướng dẫn kiểm toán viên, xác minh chương trình kiểm toán được hoàn thành và hồ sơ hỗ trợ đầy đủ cho phát hiện, kết luận, kiến nghị.",
       "Người giám sát điều phối phân công công việc, rà soát hồ sơ và kết luận, đánh giá và phản hồi về hiệu quả làm việc của kiểm toán viên.",
       "CAE có thể giao việc giám sát cho người phù hợp nhưng vẫn chịu trách nhiệm cuối cùng, kể cả khi công việc do bên cung cấp dịch vụ thực hiện.",
       "Bằng chứng giám sát phải được ghi nhận và lưu giữ theo phương pháp đã thiết lập."
@@ -1007,7 +1007,7 @@
       {
         "heading": "1a-1d. Giám sát theo GIAS 12.3",
         "body": [
-          "Bắt buộc: CAE lập phương pháp giám sát, đảm bảo chất lượng và phát triển năng lực; CAE hoặc người giám sát hướng dẫn suốt cuộc kiểm toán, xác minh chương trình đã hoàn thành, xác nhận hồ sơ đủ hỗ trợ phát hiện, kết luận, khuyến nghị; phản hồi cho kiểm toán viên về kết quả làm việc; lưu bằng chứng giám sát.",
+          "Bắt buộc: CAE lập phương pháp giám sát, đảm bảo chất lượng và phát triển năng lực; CAE hoặc người giám sát hướng dẫn suốt cuộc kiểm toán, xác minh chương trình đã hoàn thành, xác nhận hồ sơ đủ hỗ trợ phát hiện, kết luận, kiến nghị; phản hồi cho kiểm toán viên về kết quả làm việc; lưu bằng chứng giám sát.",
           "Mức độ giám sát tùy độ trưởng thành của chức năng, năng lực, kinh nghiệm của kiểm toán viên và độ phức tạp của cuộc kiểm toán. CAE chịu trách nhiệm giám sát cả khi công việc do bên ngoài thực hiện; có thể giao việc giám sát nhưng vẫn chịu trách nhiệm cuối cùng.",
           "Khi lập kế hoạch (nên): người giám sát rà soát mục tiêu, phê duyệt chương trình; tiêu chí chính để duyệt là chương trình có đạt mục tiêu một cách hiệu quả không; theo dõi việc hoàn thành và phê duyệt thay đổi.",
           "Khi rà soát hồ sơ (nên): đánh giá thông tin, kiểm tra và bằng chứng có phù hợp, đáng tin cậy, đầy đủ để đạt mục tiêu và hỗ trợ kết luận; rà soát cả thông tin trao đổi theo các yêu cầu của 11.2; có thể yêu cầu thêm bằng chứng hoặc giải thích.",
@@ -1062,7 +1062,7 @@
           "Trao đổi gồm: ban đầu, liên tục, kết thúc và báo cáo cuối cùng; dùng nhiều hình thức: chính thức, không chính thức, viết, nói; qua họp, thuyết trình, email, trao đổi không chính thức.",
           "Thông báo trước cuộc kiểm toán cho quản lý và nhân viên liên quan: lý do, thời điểm bắt đầu, thời gian dự kiến, để tránh trùng sự kiện quan trọng; đồng thời yêu cầu tài liệu cần cho đánh giá rủi ro.",
           "Họp khởi động: trao đổi kết quả đánh giá rủi ro, mục tiêu, phạm vi, thời gian; xác nhận quản lý hiểu và ủng hộ; thống nhất tần suất trao đổi và ai nhận báo cáo; ghi lại trong hồ sơ.",
-          "Họp kết thúc (exit conference): hoàn thiện kết quả trước khi phát hành báo cáo, thảo luận bất đồng với mục tiêu đạt đồng thuận; trao đổi tính khả thi của khuyến nghị, kế hoạch hành động, thời hạn và người chịu trách nhiệm."
+          "Họp kết thúc (exit conference): hoàn thiện kết quả trước khi phát hành báo cáo, thảo luận bất đồng với mục tiêu đạt đồng thuận; trao đổi tính khả thi của kiến nghị, kế hoạch hành động, thời hạn và người chịu trách nhiệm."
         ]
       },
       {
@@ -1071,7 +1071,7 @@
           "Vấn đề quản trị, rủi ro, kiểm soát cần xử lý ngay phải được báo kịp thời, không chờ báo cáo cuối (13.1).",
           "Các tình huống thường phải báo lên cấp cao hơn: giới hạn phạm vi không giải quyết được với quản lý (CAE đưa lên HĐQT, 13.3); quản lý chấp nhận rủi ro vượt dung sai (11.5); bất đồng về kết quả không giải quyết được (CAE làm việc với Ban điều hành, 14.4).",
           "Bắt buộc khi bất đồng: thảo luận để hiểu nhau; không bắt buộc sửa kết quả nếu không có lý do xác đáng; theo phương pháp để hai bên nêu quan điểm và lý do (13.1, 14.4).",
-          "Khuyến nghị nên được trao đổi với cấp quản lý có thẩm quyền thay đổi hoạt động (14.4)."
+          "Kiến nghị nên được trao đổi với cấp quản lý có thẩm quyền thay đổi hoạt động (14.4)."
         ]
       }
     ],

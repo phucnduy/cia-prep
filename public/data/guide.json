@@ -22,7 +22,7 @@
         ] },
         { "type": "h", "text": "CIA là gì" },
         { "type": "p", "text": "CIA (Certified Internal Auditor) là chứng chỉ kiểm toán nội bộ do The Institute of Internal Auditors (IIA) cấp. IIA thành lập năm 1941; chứng chỉ CIA được cấp lần đầu năm 1974. Theo IIA, hiện có hơn 220.000 người giữ chứng chỉ CIA tại 170 quốc gia, và IIA giới thiệu CIA là chứng chỉ kiểm toán nội bộ duy nhất được công nhận toàn cầu." },
-        { "type": "p", "text": "Nội dung CIA tập trung vào chính nghề kiểm toán nội bộ: vai trò và chuẩn mực nghề nghiệp (GIAS), quản trị, quản lý rủi ro, kiểm soát, gian lận, cách thực hiện một cuộc kiểm toán và cách quản lý chức năng kiểm toán nội bộ." },
+        { "type": "p", "text": "Nội dung CIA tập trung vào chính nghề kiểm toán nội bộ: vai trò và chuẩn mực nghề nghiệp (GIAS), quản trị, quản lý rủi ro, kiểm soát, gian lận, cách thực hiện một cuộc kiểm toán và cách quản lý bộ phận kiểm toán nội bộ." },
         { "type": "h", "text": "KTNB tại Việt Nam" },
         { "type": "list", "items": [
           "Nghị định 05/2019/NĐ-CP yêu cầu một số nhóm doanh nghiệp phải tổ chức công tác kiểm toán nội bộ, như công ty niêm yết và một số doanh nghiệp có vốn nhà nước.",
@@ -111,7 +111,7 @@
           "Ngoài lộ trình ba phần thi, người đã có một số chứng chỉ nghề nghiệp theo danh sách của IIA có thể chọn một bài thi duy nhất (Challenge Exam)."
         ] },
         { "type": "h", "text": "Nên thi phần nào trước" },
-        { "type": "p", "text": "IIA không bắt buộc thứ tự thi. Với người mới, thứ tự Part 1, Part 2, Part 3 hợp lý nhất: đi từ nền tảng nghề, đến cách thực hiện một cuộc kiểm toán, rồi nâng lên góc nhìn quản lý chức năng KTNB, nên kiến thức phần trước làm nền cho phần sau. Nếu đã có kinh nghiệm ở một mảng, có thể đổi thứ tự; hãy đọc syllabus từng phần trước khi quyết định." },
+        { "type": "p", "text": "IIA không bắt buộc thứ tự thi. Với người mới, thứ tự Part 1, Part 2, Part 3 hợp lý nhất: đi từ nền tảng nghề, đến cách thực hiện một cuộc kiểm toán, rồi nâng lên góc nhìn quản lý bộ phận KTNB, nên kiến thức phần trước làm nền cho phần sau. Nếu đã có kinh nghiệm ở một mảng, có thể đổi thứ tự; hãy đọc syllabus từng phần trước khi quyết định." },
         { "type": "note", "text": "Mẹo được chia sẻ nhiều trong cộng đồng tự ôn CIA: nộp phí và đặt lịch thi để biến dự định thành cam kết, vì khi đã trả tiền, trì hoãn là mất tiền. Chỉ nên làm vậy khi đã có kế hoạch học rõ ràng, vì đổi lịch và gia hạn đều tốn phí." }
       ]
     },

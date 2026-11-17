@@ -4,12 +4,12 @@
     "section": "C",
     "topic": "C2",
     "difficulty": 2,
-    "stem": "Chức năng kiểm toán nội bộ chưa từng thực hiện đánh giá chất lượng bên ngoài. CAE KHÔNG nên làm điều gì?",
+    "stem": "Bộ phận kiểm toán nội bộ chưa từng thực hiện đánh giá chất lượng bên ngoài. CAE KHÔNG nên làm điều gì?",
     "options": [
       "Trình kế hoạch kiểm toán năm cho HĐQT phê duyệt.",
       "Dựa vào công việc của các bên cung cấp đảm bảo khác.",
       "Thực hiện các cuộc tư vấn theo yêu cầu trong năm.",
-      "Tuyên bố chức năng kiểm toán nội bộ tuân thủ GIAS."
+      "Tuyên bố bộ phận kiểm toán nội bộ tuân thủ GIAS."
     ],
     "answer": 3,
     "explanation": "Tuyên bố 'tuân thủ Chuẩn mực' chỉ nên đưa ra khi có cơ sở từ kết quả QAIP (GIAS 15.1, phần Xem xét khi thực hiện), bao gồm đánh giá bên ngoài ít nhất 5 năm một lần (GIAS 8.4). GIAS 15.1 (phần Xem xét khi thực hiện) nêu chỉ nên ghi cuộc kiểm toán tuân thủ Chuẩn mực khi kết quả giám sát cuộc kiểm toán và chương trình QAIP hỗ trợ (IPPF 2017 1321 có quy định tương tự). Các phương án còn lại không phụ thuộc vào việc đã có EQA hay chưa.",
@@ -30,7 +30,7 @@
     "section": "C",
     "topic": "C3",
     "difficulty": 2,
-    "stem": "CAE nên xây dựng bộ chỉ số đo lường hiệu quả (KPI) cho chức năng kiểm toán nội bộ như thế nào?",
+    "stem": "CAE nên xây dựng bộ chỉ số đo lường hiệu quả (KPI) cho bộ phận kiểm toán nội bộ như thế nào?",
     "options": [
       "Bộ chỉ số cân bằng định lượng và định tính, có ý kiến HĐQT và Ban điều hành.",
       "Chủ yếu đo số lượng phát hiện để khuyến khích kiểm toán viên tìm nhiều lỗi.",
@@ -38,16 +38,16 @@
       "Dùng nguyên bộ KPI của các phòng nghiệp vụ để bảo đảm nhất quán."
     ],
     "answer": 0,
-    "explanation": "Đo lường hiệu suất KTNB không nên chỉ đếm số lỗi (dễ gây tâm lý soi mói vụn vặt), mà phải cân bằng giữa: Mức độ hoàn thành kế hoạch, Chất lượng khuyến nghị, Sự hài lòng của các bên liên quan và Phát triển năng lực đội ngũ.",
+    "explanation": "Đo lường hiệu suất KTNB không nên chỉ đếm số lỗi (dễ gây tâm lý soi mói vụn vặt), mà phải cân bằng giữa: Mức độ hoàn thành kế hoạch, Chất lượng kiến nghị, Sự hài lòng của các bên liên quan và Phát triển năng lực đội ngũ.",
     "refs": [
       "GIAS 12.2"
     ],
     "source": "legacy",
     "optionNotes": [
-      "Đúng. Bộ chỉ số cân bằng, có ý kiến HĐQT và Ban điều hành, phản ánh mục tiêu của chức năng kiểm toán.",
+      "Đúng. Bộ chỉ số cân bằng, có ý kiến HĐQT và Ban điều hành, phản ánh mục tiêu của bộ phận kiểm toán.",
       "Sai. Đo số phát hiện tạo động cơ sai lệch.",
       "Sai. Một chỉ số không phản ánh chất lượng và giá trị tạo ra.",
-      "Sai. KPI của phòng nghiệp vụ không phù hợp với chức năng kiểm toán."
+      "Sai. KPI của phòng nghiệp vụ không phù hợp với bộ phận kiểm toán."
     ]
   },
   {
@@ -81,7 +81,7 @@
     "section": "C",
     "topic": "C1",
     "difficulty": 2,
-    "stem": "Đánh giá chất lượng bên ngoài (EQA) của chức năng kiểm toán nội bộ phải đáp ứng yêu cầu nào?",
+    "stem": "Đánh giá chất lượng bên ngoài (EQA) của bộ phận kiểm toán nội bộ phải đáp ứng yêu cầu nào?",
     "options": [
       "Mỗi năm một lần, do công ty kiểm toán báo cáo tài chính thực hiện.",
       "Khi Ban điều hành yêu cầu, không có tần suất tối thiểu.",
@@ -106,7 +106,7 @@
     "section": "C",
     "topic": "C2",
     "difficulty": 3,
-    "stem": "Chức năng kiểm toán nội bộ đã 7 năm chưa có đánh giá chất lượng từ bên ngoài vì thiếu ngân sách, nhưng báo cáo năm vẫn ghi 'tuân thủ Chuẩn mực Kiểm toán Nội bộ Toàn cầu'. CAE cần làm gì?",
+    "stem": "Bộ phận kiểm toán nội bộ đã 7 năm chưa có đánh giá chất lượng từ bên ngoài vì thiếu ngân sách, nhưng báo cáo năm vẫn ghi 'tuân thủ Chuẩn mực Kiểm toán Nội bộ Toàn cầu'. CAE cần làm gì?",
     "options": [
       "Giữ nguyên tuyên bố, vì tự đánh giá nội bộ hằng năm đều cho kết quả tốt.",
       "Bỏ tuyên bố khỏi báo cáo năm, không cần thông báo thêm cho ai để tránh gây lo ngại.",

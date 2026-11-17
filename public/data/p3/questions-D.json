@@ -4,7 +4,7 @@
     "section": "D",
     "topic": "D1",
     "difficulty": 2,
-    "stem": "Phương pháp trao đổi của chức năng kiểm toán nội bộ cần thúc đẩy những đặc điểm nào của thông tin trao đổi?",
+    "stem": "Phương pháp trao đổi của bộ phận kiểm toán nội bộ cần thúc đẩy những đặc điểm nào của thông tin trao đổi?",
     "options": [
       "Càng dài càng tốt để thể hiện khối lượng công việc đã làm.",
       "Chính xác, khách quan, rõ ràng, súc tích, xây dựng, đầy đủ và kịp thời.",
@@ -54,7 +54,7 @@
     "section": "D",
     "topic": "D3",
     "difficulty": 2,
-    "stem": "Khi có phát hiện, ngoài việc đưa ra khuyến nghị, kiểm toán viên còn có thể làm gì?",
+    "stem": "Khi có phát hiện, ngoài việc đưa ra kiến nghị, kiểm toán viên còn có thể làm gì?",
     "options": [
       "Đề nghị Ban điều hành lập kế hoạch hành động và đánh giá kế hoạch đó.",
       "Tự thực hiện khắc phục thay Ban điều hành để tiết kiệm thời gian.",
@@ -62,7 +62,7 @@
       "Yêu cầu HĐQT phê duyệt từng biện pháp khắc phục trước khi làm."
     ],
     "answer": 0,
-    "explanation": "GIAS 14.4: kiểm toán viên xây dựng khuyến nghị hoặc đề nghị Ban điều hành lập kế hoạch hành động; trao đổi với Ban điều hành; và đánh giá kế hoạch có xử lý nguyên nhân gốc rễ không. Khắc phục là trách nhiệm quản lý.",
+    "explanation": "GIAS 14.4: kiểm toán viên xây dựng kiến nghị hoặc đề nghị Ban điều hành lập kế hoạch hành động; trao đổi với Ban điều hành; và đánh giá kế hoạch có xử lý nguyên nhân gốc rễ không. Khắc phục là trách nhiệm quản lý.",
     "refs": [
       "GIAS 14.4"
     ],
@@ -70,7 +70,7 @@
     "optionNotes": [
       "Đúng. GIAS 14.4: có thể đề nghị Ban điều hành lập kế hoạch hành động và đánh giá kế hoạch đó.",
       "Sai. Khắc phục là trách nhiệm của Ban điều hành.",
-      "Sai. Phát hiện cần đi kèm khuyến nghị hoặc kế hoạch hành động.",
+      "Sai. Phát hiện cần đi kèm kiến nghị hoặc kế hoạch hành động.",
       "Sai. HĐQT không phê duyệt từng biện pháp khắc phục."
     ]
   },
@@ -82,21 +82,21 @@
     "stem": "Trao đổi kết quả cuối cùng của một cuộc kiểm toán phải bao gồm những nội dung nào?",
     "options": [
       "Danh sách nhân viên vi phạm và đề xuất hình thức kỷ luật.",
-      "Toàn bộ hồ sơ làm việc và bằng chứng đã thu thập được.",
+      "Toàn bộ hồ sơ kiểm toán và bằng chứng đã thu thập được.",
       "Chỉ kết luận tổng thể, không cần nêu mục tiêu và phạm vi.",
-      "Mục tiêu, phạm vi, phát hiện, khuyến nghị và kết luận."
+      "Mục tiêu, phạm vi, phát hiện, kiến nghị và kết luận."
     ],
     "answer": 3,
-    "explanation": "GIAS 15.1: trao đổi cuối cùng gồm mục tiêu và phạm vi, phát hiện, khuyến nghị và/hoặc kế hoạch hành động, kết luận, và giới hạn phạm vi nếu có. Hồ sơ làm việc không gửi kèm.",
+    "explanation": "GIAS 15.1: trao đổi cuối cùng gồm mục tiêu và phạm vi, phát hiện, kiến nghị và/hoặc kế hoạch hành động, kết luận, và giới hạn phạm vi nếu có. Hồ sơ kiểm toán không gửi kèm.",
     "refs": [
       "GIAS 15.1"
     ],
     "source": "original",
     "optionNotes": [
       "Sai. Kiểm toán nội bộ không đề xuất kỷ luật trong báo cáo.",
-      "Sai. Hồ sơ làm việc không được gửi kèm báo cáo.",
+      "Sai. Hồ sơ kiểm toán không được gửi kèm báo cáo.",
       "Sai. Mục tiêu và phạm vi là nội dung bắt buộc.",
-      "Đúng. GIAS 15.1: mục tiêu, phạm vi, phát hiện, khuyến nghị hoặc kế hoạch hành động, và kết luận."
+      "Đúng. GIAS 15.1: mục tiêu, phạm vi, phát hiện, kiến nghị hoặc kế hoạch hành động, và kết luận."
     ]
   },
   {
@@ -137,7 +137,7 @@
       "Yêu cầu kiểm toán độc lập xác nhận từng kế hoạch hành động."
     ],
     "answer": 2,
-    "explanation": "GIAS 15.2: kiểm toán viên phải xác nhận Ban điều hành đã thực hiện khuyến nghị hoặc kế hoạch hành động theo phương pháp CAE thiết lập; CAE báo cáo tình trạng theo dõi, đặc biệt các kế hoạch quá hạn, cho HĐQT.",
+    "explanation": "GIAS 15.2: kiểm toán viên phải xác nhận Ban điều hành đã thực hiện kiến nghị hoặc kế hoạch hành động theo phương pháp CAE thiết lập; CAE báo cáo tình trạng theo dõi, đặc biệt các kế hoạch quá hạn, cho HĐQT.",
     "refs": [
       "GIAS 15.2"
     ],
@@ -180,7 +180,7 @@
     "section": "D",
     "topic": "D7",
     "difficulty": 3,
-    "stem": "Chức năng kiểm toán đang theo dõi 300 kế hoạch hành động, phần lớn cho phát hiện rủi ro thấp. Một trưởng nhóm đề xuất kiểm tra lại toàn bộ bằng thủ tục chi tiết như một cuộc kiểm toán mới. Cách tiếp cận nào phù hợp nhất?",
+    "stem": "Bộ phận kiểm toán đang theo dõi 300 kế hoạch hành động, phần lớn cho phát hiện rủi ro thấp. Một trưởng nhóm đề xuất kiểm tra lại toàn bộ bằng thủ tục chi tiết như một cuộc kiểm toán mới. Cách tiếp cận nào phù hợp nhất?",
     "options": [
       "Kiểm tra lại toàn bộ bằng thủ tục chi tiết, vì mọi kế hoạch hành động đều phải xác minh như nhau.",
       "Chỉ hỏi Ban điều hành về tiến độ, vì xác minh việc thực hiện là trách nhiệm của Ban điều hành.",
@@ -230,18 +230,18 @@
     "section": "D",
     "topic": "D3",
     "difficulty": 3,
-    "stem": "Khi trao đổi phát hiện về việc thiếu đối chiếu công nợ, Ban điều hành đã chủ động đề xuất một kế hoạch hành động cụ thể, có người chịu trách nhiệm, thời hạn, và xử lý đúng nguyên nhân gốc. Kiểm toán viên vẫn muốn viết khuyến nghị riêng khác đi. Nhận định nào phù hợp nhất?",
+    "stem": "Khi trao đổi phát hiện về việc thiếu đối chiếu công nợ, Ban điều hành đã chủ động đề xuất một kế hoạch hành động cụ thể, có người chịu trách nhiệm, thời hạn, và xử lý đúng nguyên nhân gốc. Kiểm toán viên vẫn muốn viết kiến nghị riêng khác đi. Nhận định nào phù hợp nhất?",
     "options": [
       "Có thể chấp nhận kế hoạch hành động của Ban điều hành, vì kế hoạch đã xử lý đúng nguyên nhân gốc.",
-      "Phải viết khuyến nghị riêng, vì báo cáo kiểm toán luôn phải có khuyến nghị của kiểm toán viên.",
-      "Phải viết khuyến nghị riêng, để bảo đảm tính độc lập của kiểm toán nội bộ với Ban điều hành.",
+      "Phải viết kiến nghị riêng, vì báo cáo kiểm toán luôn phải có kiến nghị của kiểm toán viên.",
+      "Phải viết kiến nghị riêng, để bảo đảm tính độc lập của kiểm toán nội bộ với Ban điều hành.",
       "Bỏ phát hiện khỏi báo cáo, vì Ban điều hành đã có kế hoạch khắc phục trước khi phát hành."
     ],
     "answer": 0,
-    "explanation": "Kiểm toán viên xác định nên đưa ra khuyến nghị, đề nghị Ban điều hành lập kế hoạch hành động, hay phối hợp để thống nhất hành động (GIAS 14.4). Nếu kế hoạch của Ban điều hành xử lý được nguyên nhân gốc, có người chịu trách nhiệm và thời hạn, chấp nhận là phù hợp; phát hiện vẫn được báo cáo kèm ghi nhận hành động của Ban điều hành (GIAS 15.1).",
+    "explanation": "Kiểm toán viên xác định nên đưa ra kiến nghị, đề nghị Ban điều hành lập kế hoạch hành động, hay phối hợp để thống nhất hành động (GIAS 14.4). Nếu kế hoạch của Ban điều hành xử lý được nguyên nhân gốc, có người chịu trách nhiệm và thời hạn, chấp nhận là phù hợp; phát hiện vẫn được báo cáo kèm ghi nhận hành động của Ban điều hành (GIAS 15.1).",
     "optionNotes": [
       "Đúng. Chuẩn mực cho phép dùng kế hoạch hành động của Ban điều hành.",
-      "Sai. Không có yêu cầu báo cáo luôn phải có khuyến nghị riêng của kiểm toán viên.",
+      "Sai. Không có yêu cầu báo cáo luôn phải có kiến nghị riêng của kiểm toán viên.",
       "Sai. Chấp nhận kế hoạch hợp lý của Ban điều hành không làm mất tính độc lập.",
       "Sai. Phát hiện vẫn phải báo cáo; hành động của Ban điều hành được ghi nhận kèm theo."
     ],
@@ -339,15 +339,15 @@
     "section": "D",
     "topic": "D6",
     "difficulty": 2,
-    "stem": "Ban điều hành quyết định không triển khai khuyến nghị về sao lưu dữ liệu và chấp nhận rủi ro mà CAE cho là vượt khẩu vị. Khi ghi nhận sự việc, hồ sơ của kiểm toán nội bộ nên có thêm thông tin nào quan trọng nhất?",
+    "stem": "Ban điều hành quyết định không triển khai kiến nghị về sao lưu dữ liệu và chấp nhận rủi ro mà CAE cho là vượt khẩu vị. Khi ghi nhận sự việc, hồ sơ của kiểm toán nội bộ nên có thêm thông tin nào quan trọng nhất?",
     "options": [
-      "Ước tính chi phí kiểm toán nội bộ đã bỏ ra cho phát hiện và khuyến nghị liên quan.",
+      "Ước tính chi phí kiểm toán nội bộ đã bỏ ra cho phát hiện và kiến nghị liên quan.",
       "Cam kết của CAE sẽ tự triển khai giải pháp sao lưu nếu sự cố thực sự xảy ra.",
       "Danh sách các công ty cùng ngành đã gặp sự cố mất dữ liệu trong năm năm gần đây.",
-      "Tên người chấp nhận rủi ro, lý do không thực hiện khuyến nghị và ngày trao đổi."
+      "Tên người chấp nhận rủi ro, lý do không thực hiện kiến nghị và ngày trao đổi."
     ],
     "answer": 3,
-    "explanation": "Phần hướng dẫn của GIAS 11.5 nêu phương pháp của kiểm toán nội bộ nên quy định việc ghi nhận các trao đổi và hành động, gồm mô tả rủi ro, lý do quan ngại, lý do Ban điều hành không thực hiện khuyến nghị, tên người chịu trách nhiệm chấp nhận rủi ro và ngày trao đổi.",
+    "explanation": "Phần hướng dẫn của GIAS 11.5 nêu phương pháp của kiểm toán nội bộ nên quy định việc ghi nhận các trao đổi và hành động, gồm mô tả rủi ro, lý do quan ngại, lý do Ban điều hành không thực hiện kiến nghị, tên người chịu trách nhiệm chấp nhận rủi ro và ngày trao đổi.",
     "optionNotes": [
       "Sai. Chi phí kiểm toán không giúp xác định trách nhiệm chấp nhận rủi ro.",
       "Sai. CAE không có trách nhiệm xử lý rủi ro; việc tự triển khai còn làm suy giảm tính khách quan.",

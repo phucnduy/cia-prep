@@ -133,7 +133,7 @@
     "difficulty": 3,
     "stem": "Giám đốc tài chính nhờ một kiểm toán viên nội bộ có kinh nghiệm thuế giúp soạn văn bản giải trình gửi cơ quan thuế, trong đó trình bày một khoản thu nhập chưa kê khai như 'khoản ứng trước'. Kiểm toán viên nên làm gì?",
     "options": [
-      "Giúp soạn, nhưng ghi chú ý kiến không đồng ý của mình vào hồ sơ làm việc.",
+      "Giúp soạn, nhưng ghi chú ý kiến không đồng ý của mình vào hồ sơ kiểm toán.",
       "Từ chối tham gia và báo cáo sự việc theo chính sách, thủ tục của tổ chức.",
       "Giúp soạn, vì người ký và chịu trách nhiệm văn bản là Giám đốc tài chính.",
       "Tự thuê luật sư bên ngoài tư vấn trước khi quyết định có giúp soạn hay không."
@@ -171,7 +171,7 @@
     ],
     "source": "original",
     "optionNotes": [
-      "Sai. Hồ sơ sai ảnh hưởng đến độ tin cậy kết luận của cả chức năng kiểm toán.",
+      "Sai. Hồ sơ sai ảnh hưởng đến độ tin cậy kết luận của cả bộ phận kiểm toán.",
       "Sai. Tự sửa và im lặng là che giấu hành vi thiếu trung thực.",
       "Sai. Vượt cấp lên Tổng Giám đốc không đúng kênh; vấn đề thuộc quản lý của CAE.",
       "Đúng. Báo trưởng nhóm hoặc CAE để đánh giá ảnh hưởng và xử lý."
@@ -311,12 +311,12 @@
     "section": "B",
     "topic": "B3",
     "difficulty": 2,
-    "stem": "CAE xây dựng phương pháp quản lý các suy giảm tính khách quan cho chức năng kiểm toán nội bộ. Biện pháp nào sau đây KHÔNG phù hợp với mục tiêu này?",
+    "stem": "CAE xây dựng phương pháp quản lý các suy giảm tính khách quan cho bộ phận kiểm toán nội bộ. Biện pháp nào sau đây KHÔNG phù hợp với mục tiêu này?",
     "options": [
       "Yêu cầu kiểm toán viên kê khai xung đột lợi ích hằng năm và trước mỗi cuộc kiểm toán.",
       "Luân chuyển phân công để tránh một người kiểm toán cùng đơn vị nhiều năm liền.",
       "Thưởng cho kiểm toán viên theo số tiền tiết kiệm được phát hiện tại các đơn vị.",
-      "Rà soát giám sát hồ sơ làm việc trước khi phát hành kết quả kiểm toán."
+      "Rà soát giám sát hồ sơ kiểm toán trước khi phát hành kết quả kiểm toán."
     ],
     "answer": 2,
     "explanation": "CAE phải thiết lập phương pháp xử lý suy giảm khách quan (GIAS 2.2). Kê khai xung đột, luân chuyển và rà soát giám sát là các biện pháp bảo vệ phổ biến. Phần Xem xét khi thực hiện của GIAS 2.2 nêu đích danh việc đo kết quả làm việc theo số phát hiện, theo số tiền tiết kiệm hay số việc làm cắt giảm tại đơn vị được kiểm toán là cơ chế có thể làm suy giảm khách quan.",
@@ -617,7 +617,7 @@
     "section": "B",
     "topic": "B6",
     "difficulty": 3,
-    "stem": "Đoàn đánh giá chất lượng từ bên ngoài đề nghị xem một số hồ sơ làm việc có chứa dữ liệu cá nhân của khách hàng. CAE nên xử lý thế nào là phù hợp nhất?",
+    "stem": "Đoàn đánh giá chất lượng từ bên ngoài đề nghị xem một số hồ sơ kiểm toán có chứa dữ liệu cá nhân của khách hàng. CAE nên xử lý thế nào là phù hợp nhất?",
     "options": [
       "Từ chối, vì hồ sơ có dữ liệu cá nhân không được cung cấp cho bất kỳ bên ngoài nào.",
       "Cung cấp toàn bộ hồ sơ ngay, vì đánh giá chất lượng là yêu cầu bắt buộc của Chuẩn mực.",
@@ -667,7 +667,7 @@
     "section": "B",
     "topic": "B6",
     "difficulty": 3,
-    "stem": "Cơ quan thuế đề nghị kiểm toán nội bộ cung cấp hồ sơ làm việc của một cuộc kiểm toán. Hướng xử lý phù hợp nhất là gì?",
+    "stem": "Cơ quan thuế đề nghị kiểm toán nội bộ cung cấp hồ sơ kiểm toán của một cuộc kiểm toán. Hướng xử lý phù hợp nhất là gì?",
     "options": [
       "Từ chối mọi yêu cầu vì hồ sơ kiểm toán nội bộ là tài liệu tuyệt mật.",
       "Cung cấp ngay toàn bộ hồ sơ để thể hiện thiện chí hợp tác.",
@@ -746,7 +746,7 @@
     "difficulty": 2,
     "stem": "Trong kiểm toán quy trình thanh toán, kiểm toán viên dùng phần mềm phân tích dữ liệu để rà soát 100% giao dịch thay vì chọn mẫu. Việc này liên quan nhất đến yếu tố nào của thận trọng nghề nghiệp?",
     "options": [
-      "Tính độc lập của chức năng kiểm toán nội bộ trong tổ chức.",
+      "Tính độc lập của bộ phận kiểm toán nội bộ trong tổ chức.",
       "Cân nhắc sử dụng công nghệ và phân tích dữ liệu phù hợp.",
       "Nghĩa vụ bảo mật thông tin giao dịch của đơn vị được kiểm toán.",
       "Yêu cầu về chứng chỉ nghề nghiệp đối với kiểm toán viên CNTT."
@@ -825,7 +825,7 @@
     "options": [
       "Giữ bảo mật, vì thông tin thu được khi kiểm toán chỉ được dùng cho mục đích của cuộc kiểm toán.",
       "Chờ đến quý sau kiểm tra lại, nếu nhà máy chưa khắc phục thì mới đưa vào báo cáo kiểm toán.",
-      "Ghi vào hồ sơ làm việc, vì xử lý vi phạm pháp luật là trách nhiệm của Ban điều hành nhà máy.",
+      "Ghi vào hồ sơ kiểm toán, vì xử lý vi phạm pháp luật là trách nhiệm của Ban điều hành nhà máy.",
       "Báo cáo vi phạm cho người, cơ quan có thẩm quyền xử lý theo quy định pháp luật và chính sách."
     ],
     "answer": 3,
@@ -1048,7 +1048,7 @@
     "section": "B",
     "topic": "B4",
     "difficulty": 3,
-    "stem": "CAE muốn bảo đảm chức năng kiểm toán nội bộ có đủ năng lực tổng thể để thực hiện các dịch vụ trong điều lệ, trong bối cảnh tổ chức đang chuyển đổi số mạnh. Cách làm nào phù hợp nhất?",
+    "stem": "CAE muốn bảo đảm bộ phận kiểm toán nội bộ có đủ năng lực tổng thể để thực hiện các dịch vụ trong quy chế, trong bối cảnh tổ chức đang chuyển đổi số mạnh. Cách làm nào phù hợp nhất?",
     "options": [
       "Chỉ tuyển người đã có chứng chỉ CIA, vì chứng chỉ chứng minh đủ năng lực cho mọi dịch vụ.",
       "Bỏ các dịch vụ CNTT khỏi kế hoạch cho đến khi đội ngũ hiện tại tự học được kỹ năng mới.",
@@ -1056,7 +1056,7 @@
       "Lập ma trận năng lực, rồi bù khoảng trống bằng đào tạo, tuyển hoặc thuê ngoài."
     ],
     "answer": 3,
-    "explanation": "CAE phải bảo đảm chức năng có đủ năng lực tổng thể để thực hiện các dịch vụ trong điều lệ, hoặc bổ sung năng lực cần thiết (GIAS 3.1). So sánh năng lực hiện có với nhu cầu rồi bù khoảng trống (đào tạo, tuyển, thuê ngoài hoặc cosourcing) là cách tiếp cận có hệ thống.",
+    "explanation": "CAE phải bảo đảm chức năng có đủ năng lực tổng thể để thực hiện các dịch vụ trong quy chế, hoặc bổ sung năng lực cần thiết (GIAS 3.1). So sánh năng lực hiện có với nhu cầu rồi bù khoảng trống (đào tạo, tuyển, thuê ngoài hoặc cosourcing) là cách tiếp cận có hệ thống.",
     "optionNotes": [
       "Sai. Chứng chỉ CIA không bao phủ mọi năng lực chuyên sâu như CNTT.",
       "Sai. Bỏ dịch vụ ở khu vực rủi ro cao tạo khoảng trống đảm bảo.",
@@ -1073,7 +1073,7 @@
     "section": "B",
     "topic": "B6",
     "difficulty": 2,
-    "stem": "Sau khi phát hành báo cáo, một kiểm toán viên xóa toàn bộ hồ sơ làm việc có dữ liệu cá nhân trên máy 'để bảo vệ thông tin khách hàng'. Đánh giá nào đúng nhất?",
+    "stem": "Sau khi phát hành báo cáo, một kiểm toán viên xóa toàn bộ hồ sơ kiểm toán có dữ liệu cá nhân trên máy 'để bảo vệ thông tin khách hàng'. Đánh giá nào đúng nhất?",
     "options": [
       "Chưa phù hợp; hồ sơ phải được lưu giữ theo luật, quy định và chính sách lưu trữ.",
       "Phù hợp, nếu báo cáo cuối cùng đã được Ban điều hành chấp nhận đầy đủ.",
@@ -1489,7 +1489,7 @@
       "Chưa đủ, vì CAE không được ủy quyền giám sát cuộc kiểm toán cho người khác."
     ],
     "answer": 2,
-    "explanation": "CAE có thể làm người giám sát hoặc ủy quyền (GIAS - Glossary). Người giám sát phải hướng dẫn kiểm toán viên, xác minh chương trình đã hoàn thành và xác nhận hồ sơ đủ căn cứ cho phát hiện, kết luận, khuyến nghị (GIAS 12.3); hồ sơ phải được rà soát về độ chính xác, phù hợp, đầy đủ (GIAS 14.6).",
+    "explanation": "CAE có thể làm người giám sát hoặc ủy quyền (GIAS - Glossary). Người giám sát phải hướng dẫn kiểm toán viên, xác minh chương trình đã hoàn thành và xác nhận hồ sơ đủ căn cứ cho phát hiện, kết luận, kiến nghị (GIAS 12.3); hồ sơ phải được rà soát về độ chính xác, phù hợp, đầy đủ (GIAS 14.6).",
     "optionNotes": [
       "Sai. Ủy quyền không làm giảm yêu cầu về chất lượng giám sát.",
       "Sai. Danh mục đã duyệt không thay việc xem căn cứ của phát hiện.",
@@ -1826,7 +1826,7 @@
       "Để CAE tự thực hiện vì CAE hiểu rõ nhất mục đích sử dụng phần mềm."
     ],
     "answer": 2,
-    "explanation": "Khi chức năng kiểm toán nội bộ đánh giá hoạt động do chính mình phụ trách, mọi thành viên đều có nguy cơ tự kiểm tra. Thuê ngoài việc thực hiện hoặc giám sát cuộc kiểm toán là biện pháp phù hợp; với chức năng thuộc trách nhiệm của CAE, việc đảm bảo phải do bên độc lập ngoài chức năng giám sát (GIAS 2.2).",
+    "explanation": "Khi bộ phận kiểm toán nội bộ đánh giá hoạt động do chính mình phụ trách, mọi thành viên đều có nguy cơ tự kiểm tra. Thuê ngoài việc thực hiện hoặc giám sát cuộc kiểm toán là biện pháp phù hợp; với chức năng thuộc trách nhiệm của CAE, việc đảm bảo phải do bên độc lập ngoài chức năng giám sát (GIAS 2.2).",
     "optionNotes": [
       "Sai. Mọi thành viên trong phòng đều thuộc chức năng đang vận hành phần mềm.",
       "Sai. Bỏ qua tạo khoảng trống nếu phần mềm có rủi ro.",
@@ -1927,7 +1927,7 @@
       "Không cần báo, vì kiểm toán viên tự đánh giá là vẫn khách quan.",
       "Chỉ cần báo nếu em gái giữ vị trí quản lý tại chi nhánh đó.",
       "Vẫn phải báo CAE, vì suy giảm về hình thức cũng cần công bố.",
-      "Chỉ cần ghi chú trong hồ sơ làm việc để đánh giá chất lượng xem xét."
+      "Chỉ cần ghi chú trong hồ sơ kiểm toán để đánh giá chất lượng xem xét."
     ],
     "answer": 2,
     "explanation": "Suy giảm khách quan cần được công bố khi tồn tại trên thực tế hoặc về hình thức (GIAS 2.3); kiểm toán viên phải nhận biết suy giảm thực tế, tiềm ẩn và bị cảm nhận (GIAS 2.2). Người khác có thể nhìn nhận khác với tự đánh giá của kiểm toán viên.",
@@ -2135,7 +2135,7 @@
       "CAE vẫn chịu trách nhiệm giám sát và bảo đảm chất lượng công việc."
     ],
     "answer": 3,
-    "explanation": "Khi thuê ngoài thực hiện cuộc kiểm toán, CAE vẫn chịu trách nhiệm về chức năng kiểm toán nội bộ: đánh giá năng lực, tính độc lập của bên cung cấp, giám sát công việc và bảo đảm kết quả đáp ứng Chuẩn mực.",
+    "explanation": "Khi thuê ngoài thực hiện cuộc kiểm toán, CAE vẫn chịu trách nhiệm về bộ phận kiểm toán nội bộ: đánh giá năng lực, tính độc lập của bên cung cấp, giám sát công việc và bảo đảm kết quả đáp ứng Chuẩn mực.",
     "optionNotes": [
       "Sai. Thuê ngoài không chuyển trách nhiệm của CAE.",
       "Sai. Ủy ban Kiểm toán giám sát CAE, không thay CAE.",
@@ -2157,7 +2157,7 @@
       "Công bố khả năng suy giảm khách quan với bên đề nghị trước khi nhận.",
       "Nhận ngay vì quy tắc 12 tháng chỉ áp dụng cho dịch vụ bảo đảm.",
       "Từ chối cuộc tư vấn vì kiểm toán viên chưa đủ 12 tháng.",
-      "Chỉ cần ghi chú vào hồ sơ làm việc sau khi cuộc tư vấn đã kết thúc."
+      "Chỉ cần ghi chú vào hồ sơ kiểm toán sau khi cuộc tư vấn đã kết thúc."
     ],
     "answer": 0,
     "explanation": "GIAS 2.2 yêu cầu: nếu kiểm toán viên cung cấp dịch vụ tư vấn liên quan đến hoạt động mình từng phụ trách, họ phải công bố khả năng suy giảm khách quan với bên đề nghị dịch vụ trước khi nhận cuộc tư vấn.",

@@ -33,9 +33,9 @@
     "id": "P2-B-K002",
     "section": "B",
     "title": "Năm yếu tố của phát hiện kiểm toán",
-    "rule": "Phát hiện gồm tiêu chí, thực trạng, nguyên nhân, ảnh hưởng, kèm khuyến nghị hoặc kế hoạch hành động.",
-    "action": "Phân tích nguyên nhân gốc rễ (5 Whys, xương cá) trước khi đưa ra khuyến nghị.",
-    "violation": "Khuyến nghị chỉ xử lý triệu chứng (sửa giao dịch lỗi) mà không xử lý nguyên nhân (thiếu kiểm soát).",
+    "rule": "Phát hiện gồm tiêu chí, thực trạng, nguyên nhân, ảnh hưởng, kèm kiến nghị hoặc kế hoạch hành động.",
+    "action": "Phân tích nguyên nhân gốc rễ (5 Whys, xương cá) trước khi đưa ra kiến nghị.",
+    "violation": "Kiến nghị chỉ xử lý triệu chứng (sửa giao dịch lỗi) mà không xử lý nguyên nhân (thiếu kiểm soát).",
     "trap": "Ảnh hưởng (effect) chỉ được nêu khi có thể định lượng bằng tiền.",
     "distinction": "Nguyên nhân giải thích vì sao có chênh lệch; ảnh hưởng là rủi ro hoặc hệ quả của chênh lệch."
   },
@@ -44,8 +44,8 @@
     "section": "C",
     "title": "Giám sát cuộc kiểm toán (GIAS 12.3)",
     "rule": "Cuộc kiểm toán phải được giám sát phù hợp để đạt mục tiêu, bảo đảm chất lượng và phát triển nhân sự; bằng chứng giám sát phải được ghi nhận.",
-    "action": "Rà soát hồ sơ làm việc, phê duyệt chương trình, hướng dẫn kiểm toán viên mới chặt hơn.",
-    "violation": "Phát hành báo cáo khi hồ sơ làm việc chưa được người có thẩm quyền rà soát.",
+    "action": "Rà soát hồ sơ kiểm toán, phê duyệt chương trình, hướng dẫn kiểm toán viên mới chặt hơn.",
+    "violation": "Phát hành báo cáo khi hồ sơ kiểm toán chưa được người có thẩm quyền rà soát.",
     "trap": "Kiểm toán viên có kinh nghiệm thì không cần được giám sát.",
     "distinction": "Mức độ giám sát thay đổi theo năng lực người thực hiện và độ phức tạp công việc."
   }

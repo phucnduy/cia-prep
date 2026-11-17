@@ -80,7 +80,7 @@
     "section": "A",
     "topic": "A6",
     "difficulty": 2,
-    "stem": "Chương trình làm việc (work program) của cuộc kiểm toán phải được xử lý như thế nào?",
+    "stem": "Chương trình kiểm toán (work program) của cuộc kiểm toán phải được xử lý như thế nào?",
     "options": [
       "Lập sau khi hoàn thành thực địa để phản ánh đúng công việc đã làm.",
       "Gửi đơn vị được kiểm toán phê duyệt trước khi bắt đầu thực địa.",
@@ -88,7 +88,7 @@
       "Lập thành văn bản, phê duyệt trước; điều chỉnh được phê duyệt kịp thời."
     ],
     "answer": 3,
-    "explanation": "GIAS 13.6: chương trình làm việc nêu các thủ tục để đạt mục tiêu, phải được lập bằng văn bản và phê duyệt trước khi thực hiện; các điều chỉnh phải được phê duyệt kịp thời. Đơn vị được kiểm toán không phê duyệt chương trình.",
+    "explanation": "GIAS 13.6: chương trình kiểm toán nêu các thủ tục để đạt mục tiêu, phải được lập bằng văn bản và phê duyệt trước khi thực hiện; các điều chỉnh phải được phê duyệt kịp thời. Đơn vị được kiểm toán không phê duyệt chương trình.",
     "refs": [
       "GIAS 13.6"
     ],
@@ -108,7 +108,7 @@
     "stem": "Nhóm kiểm toán thiếu kỹ năng phân tích dữ liệu lớn cần thiết cho cuộc kiểm toán. Cách xử lý phù hợp nhất là gì?",
     "options": [
       "Bổ sung nguồn lực có kỹ năng phù hợp, kể cả chuyên gia bên ngoài.",
-      "Bỏ các thủ tục phân tích dữ liệu khỏi chương trình làm việc.",
+      "Bỏ các thủ tục phân tích dữ liệu khỏi chương trình kiểm toán.",
       "Yêu cầu đơn vị được kiểm toán tự phân tích và gửi kết quả.",
       "Kéo dài thời gian kiểm toán để nhóm tự học trong quá trình làm."
     ],
@@ -318,7 +318,7 @@
       "Không, vì Topical Requirement chỉ áp dụng cho tổ chức tài chính."
     ],
     "answer": 1,
-    "explanation": "IIA nêu Topical Requirements không bắt buộc chức năng kiểm toán phải kiểm toán một chủ đề cụ thể; chúng áp dụng khi chủ đề nằm trong phạm vi một cuộc kiểm toán. Kế hoạch kiểm toán vẫn lập theo đánh giá rủi ro của tổ chức (GIAS 9.4).",
+    "explanation": "IIA nêu Topical Requirements không bắt buộc bộ phận kiểm toán phải kiểm toán một chủ đề cụ thể; chúng áp dụng khi chủ đề nằm trong phạm vi một cuộc kiểm toán. Kế hoạch kiểm toán vẫn lập theo đánh giá rủi ro của tổ chức (GIAS 9.4).",
     "optionNotes": [
       "Sai. Không có yêu cầu kiểm toán chủ đề hằng năm.",
       "Đúng. Áp dụng khi chủ đề nằm trong phạm vi; kế hoạch theo rủi ro.",
@@ -651,7 +651,7 @@
     "section": "A",
     "topic": "A6",
     "difficulty": 2,
-    "stem": "Kiểm toán nội bộ nhận cuộc tư vấn cải tiến quy trình đối chiếu công nợ theo đề nghị của Giám đốc tài chính. Chương trình làm việc nên được xây dựng thế nào?",
+    "stem": "Kiểm toán nội bộ nhận cuộc tư vấn cải tiến quy trình đối chiếu công nợ theo đề nghị của Giám đốc tài chính. Chương trình kiểm toán nên được xây dựng thế nào?",
     "options": [
       "Kiểm toán viên tự lập như một cuộc đảm bảo, không cần trao đổi.",
       "Không cần chương trình vì đây không phải cuộc đảm bảo.",
@@ -662,7 +662,7 @@
     "explanation": "GIAS 13.6 yêu cầu lập chương trình cho mỗi cuộc kiểm toán; phần Xem xét khi thực hiện nêu với dịch vụ tư vấn, chương trình nên được xây dựng cùng các bên đã đề nghị dịch vụ. CAE vẫn phê duyệt chương trình.",
     "optionNotes": [
       "Sai. Tư vấn nên phối hợp với bên đề nghị.",
-      "Sai. Tư vấn vẫn cần chương trình làm việc.",
+      "Sai. Tư vấn vẫn cần chương trình kiểm toán.",
       "Đúng. Xây dựng cùng bên đề nghị dịch vụ.",
       "Sai. Kiểm toán viên không giao việc lập chương trình cho quản lý."
     ],
@@ -908,7 +908,7 @@
     "section": "A",
     "topic": "A4",
     "difficulty": 3,
-    "stem": "Một nhóm kiểm toán theo cách tiếp cận agile đề xuất bỏ lập hồ sơ làm việc và bỏ khâu rà soát của người giám sát để 'đi nhanh hơn'. Nhận định nào đúng nhất?",
+    "stem": "Một nhóm kiểm toán theo cách tiếp cận agile đề xuất bỏ lập hồ sơ kiểm toán và bỏ khâu rà soát của người giám sát để 'đi nhanh hơn'. Nhận định nào đúng nhất?",
     "options": [
       "Không phù hợp; agile không miễn các yêu cầu của Chuẩn mực.",
       "Hợp lý, vì agile ưu tiên tốc độ hơn quy trình.",

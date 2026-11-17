@@ -362,7 +362,7 @@
       "Rủi ro tiềm tàng của quy trình đã được loại bỏ hoàn toàn."
     ],
     "answer": 0,
-    "explanation": "Trong CIA Part 1, nếu Residual Risk > Risk Appetite thì phải tăng kiểm soát; ngược lại, nếu Residual Risk quá thấp kèm chi phí kiểm soát quá cao (Over-controlling), KTNB nên khuyến nghị cắt bỏ bớt các chốt kiểm soát dư thừa để tối ưu hóa hiệu suất.",
+    "explanation": "Trong CIA Part 1, nếu Residual Risk > Risk Appetite thì phải tăng kiểm soát; ngược lại, nếu Residual Risk quá thấp kèm chi phí kiểm soát quá cao (Over-controlling), KTNB nên kiến nghị cắt bỏ bớt các chốt kiểm soát dư thừa để tối ưu hóa hiệu suất.",
     "refs": [
       "CIA Part 1 C.8"
     ],
@@ -1155,7 +1155,7 @@
     "section": "C",
     "topic": "C8",
     "difficulty": 3,
-    "stem": "Một kiểm soát yêu cầu ba cấp phê duyệt cho mọi khoản thanh toán trên 1 triệu đồng, khiến thời gian thanh toán kéo dài 15 ngày và nhà cung cấp phạt chậm trả. Kiểm toán nội bộ nên khuyến nghị gì?",
+    "stem": "Một kiểm soát yêu cầu ba cấp phê duyệt cho mọi khoản thanh toán trên 1 triệu đồng, khiến thời gian thanh toán kéo dài 15 ngày và nhà cung cấp phạt chậm trả. Kiểm toán nội bộ nên kiến nghị gì?",
     "options": [
       "Giữ nguyên, vì càng nhiều cấp phê duyệt thì kiểm soát càng an toàn.",
       "Bãi bỏ toàn bộ phê duyệt để thanh toán đúng hạn cho nhà cung cấp.",
@@ -1163,7 +1163,7 @@
       "Điều chỉnh ngưỡng và cấp phê duyệt theo rủi ro, cân bằng chi phí - lợi ích."
     ],
     "answer": 3,
-    "explanation": "Kiểm soát cần hiệu lực và hiệu quả: chi phí kiểm soát không nên vượt lợi ích. Phê duyệt quá mức với giao dịch nhỏ gây lãng phí. Khuyến nghị dựa trên rủi ro (ngưỡng hợp lý, phê duyệt phân cấp). Kiểm toán nội bộ không được tham gia phê duyệt.",
+    "explanation": "Kiểm soát cần hiệu lực và hiệu quả: chi phí kiểm soát không nên vượt lợi ích. Phê duyệt quá mức với giao dịch nhỏ gây lãng phí. Kiến nghị dựa trên rủi ro (ngưỡng hợp lý, phê duyệt phân cấp). Kiểm toán nội bộ không được tham gia phê duyệt.",
     "refs": [
       "CIA Part 1 C.8"
     ],
@@ -2955,7 +2955,7 @@
     "section": "C",
     "topic": "C1",
     "difficulty": 2,
-    "stem": "HĐQT của một công ty chưa từng đánh giá hiệu quả hoạt động của chính mình, dù vài thành viên thường vắng họp và ít đóng góp. Khuyến nghị phù hợp nhất là gì?",
+    "stem": "HĐQT của một công ty chưa từng đánh giá hiệu quả hoạt động của chính mình, dù vài thành viên thường vắng họp và ít đóng góp. Kiến nghị phù hợp nhất là gì?",
     "options": [
       "Đánh giá định kỳ HĐQT, các ủy ban và từng thành viên.",
       "Giao kiểm toán nội bộ chấm điểm từng thành viên HĐQT hằng năm.",
@@ -3059,13 +3059,13 @@
     "difficulty": 2,
     "stem": "Kiểm toán viên phát hiện công nhân thường làm thêm giờ vượt giới hạn của luật lao động để kịp đơn hàng xuất khẩu. Giám đốc nhà máy nói 'công nhân tự nguyện làm'. Đánh giá phù hợp nhất là gì?",
     "options": [
-      "Vẫn là vi phạm pháp luật; cần báo cáo và khuyến nghị kiểm soát giờ làm.",
+      "Vẫn là vi phạm pháp luật; cần báo cáo và kiến nghị kiểm soát giờ làm.",
       "Không phải vấn đề vì công nhân đã đồng ý làm thêm.",
       "Chỉ là vấn đề nhân sự, nằm ngoài phạm vi của kiểm toán nội bộ.",
       "Đề nghị tăng lương làm thêm giờ để bù cho công nhân."
     ],
     "answer": 0,
-    "explanation": "Sự đồng ý của người lao động không miễn trách nhiệm tuân thủ giới hạn làm thêm giờ theo luật. Đây là rủi ro tuân thủ và uy tín (với khách hàng xuất khẩu), cần báo cáo và khuyến nghị kiểm soát kế hoạch sản xuất, giám sát giờ làm.",
+    "explanation": "Sự đồng ý của người lao động không miễn trách nhiệm tuân thủ giới hạn làm thêm giờ theo luật. Đây là rủi ro tuân thủ và uy tín (với khách hàng xuất khẩu), cần báo cáo và kiến nghị kiểm soát kế hoạch sản xuất, giám sát giờ làm.",
     "optionNotes": [
       "Đúng. Rủi ro tuân thủ cần được báo cáo và kiểm soát.",
       "Sai. Sự đồng ý không làm hợp pháp việc vượt giới hạn luật.",
@@ -3090,7 +3090,7 @@
       "Chỉ xử lý các vi phạm nghiêm trọng, các phần khác giao Nhân sự."
     ],
     "answer": 1,
-    "explanation": "Kiểm toán nội bộ đánh giá và đưa ra khuyến nghị về chương trình đạo đức của tổ chức. Làm chủ chương trình (thiết kế, vận hành, xử lý vi phạm) là trách nhiệm quản lý và sẽ làm suy giảm tính khách quan khi đánh giá.",
+    "explanation": "Kiểm toán nội bộ đánh giá và đưa ra kiến nghị về chương trình đạo đức của tổ chức. Làm chủ chương trình (thiết kế, vận hành, xử lý vi phạm) là trách nhiệm quản lý và sẽ làm suy giảm tính khách quan khi đánh giá.",
     "optionNotes": [
       "Sai. Làm chủ chương trình là nhận trách nhiệm quản lý.",
       "Đúng. Đánh giá, không làm chủ.",
@@ -3366,7 +3366,7 @@
     "options": [
       "Trực tiếp phê duyệt từng khoản cho vay của chi nhánh.",
       "Giám sát khung quản lý rủi ro và việc tuân thủ khẩu vị rủi ro.",
-      "Thay Ủy ban Kiểm toán giám sát toàn bộ chức năng kiểm toán nội bộ.",
+      "Thay Ủy ban Kiểm toán giám sát toàn bộ bộ phận kiểm toán nội bộ.",
       "Thực hiện kiểm tra kiểm soát nội bộ ở các chi nhánh."
     ],
     "answer": 1,
@@ -3489,7 +3489,7 @@
     "section": "C",
     "topic": "C5",
     "difficulty": 2,
-    "stem": "Ngân hàng có cơ sở dữ liệu ghi nhận chi tiết các tổn thất hoạt động trong năm năm qua, nhưng bộ phận quản lý rủi ro không dùng đến khi đánh giá rủi ro. Khuyến nghị phù hợp nhất là gì?",
+    "stem": "Ngân hàng có cơ sở dữ liệu ghi nhận chi tiết các tổn thất hoạt động trong năm năm qua, nhưng bộ phận quản lý rủi ro không dùng đến khi đánh giá rủi ro. Kiến nghị phù hợp nhất là gì?",
     "options": [
       "Xóa cơ sở dữ liệu tổn thất vì không ai sử dụng.",
       "Chỉ dùng dữ liệu tổn thất cho các báo cáo định kỳ gửi cơ quan quản lý.",
@@ -3877,7 +3877,7 @@
       "Cần kiểm tra hiệu quả vận hành trước khi kết luận về thiết kế."
     ],
     "answer": 2,
-    "explanation": "Ma trận rủi ro - kiểm soát giúp nhận diện rủi ro chưa có kiểm soát. Rủi ro đáng kể không có kiểm soát tương ứng là khiếm khuyết thiết kế; kiểm toán viên cần xác nhận qua trao đổi và kiểm tra, rồi khuyến nghị khắc phục.",
+    "explanation": "Ma trận rủi ro - kiểm soát giúp nhận diện rủi ro chưa có kiểm soát. Rủi ro đáng kể không có kiểm soát tương ứng là khiếm khuyết thiết kế; kiểm toán viên cần xác nhận qua trao đổi và kiểm tra, rồi kiến nghị khắc phục.",
     "optionNotes": [
       "Sai. Rủi ro tín dụng khách hàng thường đáng kể.",
       "Sai. Không có cơ sở để giả định.",

@@ -29,7 +29,7 @@
     "section": "A",
     "topic": "A2",
     "difficulty": 2,
-    "stem": "CAE có trách nhiệm gì đối với nguồn lực công nghệ của chức năng kiểm toán nội bộ?",
+    "stem": "CAE có trách nhiệm gì đối với nguồn lực công nghệ của bộ phận kiểm toán nội bộ?",
     "options": [
       "Tự phát triển phần mềm kiểm toán riêng thay vì dùng giải pháp sẵn có.",
       "Dùng chung hệ thống CNTT của các phòng ban để giảm chi phí.",
@@ -37,7 +37,7 @@
       "Chuyển toàn bộ trách nhiệm công nghệ cho phòng CNTT của tổ chức."
     ],
     "answer": 2,
-    "explanation": "GIAS 10.3: CAE phải nỗ lực bảo đảm chức năng kiểm toán có công nghệ hỗ trợ quy trình (quản lý hồ sơ, phân tích dữ liệu...), đào tạo nhân sự sử dụng hiệu quả, và trao đổi với HĐQT nếu hạn chế công nghệ ảnh hưởng đến mandate.",
+    "explanation": "GIAS 10.3: CAE phải nỗ lực bảo đảm bộ phận kiểm toán có công nghệ hỗ trợ quy trình (quản lý hồ sơ, phân tích dữ liệu...), đào tạo nhân sự sử dụng hiệu quả, và trao đổi với HĐQT nếu hạn chế công nghệ ảnh hưởng đến mandate.",
     "refs": [
       "GIAS 10.3"
     ],
@@ -57,7 +57,7 @@
     "stem": "CAE muốn hiểu kỳ vọng của các bên liên quan để điều chỉnh chiến lược kiểm toán. Cách làm nào phù hợp nhất?",
     "options": [
       "Phỏng vấn, khảo sát HĐQT và Ban điều hành, xem xét chiến lược và rủi ro của tổ chức.",
-      "Sao chép chiến lược của chức năng kiểm toán ở doanh nghiệp cùng ngành.",
+      "Sao chép chiến lược của bộ phận kiểm toán nội bộ ở doanh nghiệp cùng ngành.",
       "Chỉ dựa trên ý kiến của nhân viên trong phòng kiểm toán.",
       "Chờ HĐQT yêu cầu thay đổi rồi mới điều chỉnh."
     ],
@@ -109,7 +109,7 @@
     "options": [
       "Phù hợp, vì người quản lý hành chính của CAE có quyền phê duyệt chi phí của bộ phận.",
       "Phù hợp, nếu Giám đốc tài chính cam kết không cắt giảm ngân sách đào tạo và công cụ.",
-      "Không phù hợp, vì CAE phải trình HĐQT phê duyệt ngân sách của chức năng kiểm toán nội bộ.",
+      "Không phù hợp, vì CAE phải trình HĐQT phê duyệt ngân sách của bộ phận kiểm toán nội bộ.",
       "Không phù hợp, vì ngân sách kiểm toán nội bộ phải do Đại hội đồng cổ đông thông qua hằng năm."
     ],
     "answer": 2,

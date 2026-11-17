@@ -24,7 +24,7 @@
     "section": "C",
     "title": "Tự đánh giá Định kỳ (Periodic Self-Assessment trong QAIP)",
     "rule": "Là các cuộc rà soát định kỳ (thường thực hiện hàng năm) do nhân sự cấp cao trong bộ phận KTNB hoặc nhóm chuyên trách thực hiện để đánh giá sự tuân thủ toàn diện với GIAS.",
-    "action": "Hàng năm, CAE tổ chức rà soát lại Điều lệ, sổ tay kiểm toán, mẫu hồ sơ kiểm toán và trình kết quả tự đánh giá cho Ủy ban Kiểm toán.",
+    "action": "Hàng năm, CAE tổ chức rà soát lại Quy chế, sổ tay kiểm toán, mẫu hồ sơ kiểm toán và trình kết quả tự đánh giá cho Ủy ban Kiểm toán.",
     "violation": "Bỏ qua hoạt động tự đánh giá định kỳ suốt 4 năm liền vì cho rằng đã có trưởng nhóm soát xét từng báo cáo riêng lẻ.",
     "trap": "Tự đánh giá định kỳ có thể thay thế hoàn toàn cho Đánh giá độc lập bên ngoài (External Assessment).",
     "distinction": "Trong khi Ongoing Monitoring nhìn vào chất lượng từng cuộc kiểm toán cụ thể, Periodic Self-Assessment nhìn vào chất lượng tổng thể của cả hoạt động KTNB."
@@ -103,7 +103,7 @@
     "id": "P3-D-K002",
     "section": "D",
     "title": "Theo dõi thực hiện kế hoạch hành động (GIAS 15.2)",
-    "rule": "Kiểm toán viên xác nhận việc thực hiện khuyến nghị hoặc kế hoạch hành động theo phương pháp CAE thiết lập; tình trạng được báo cáo cho HĐQT.",
+    "rule": "Kiểm toán viên xác nhận việc thực hiện kiến nghị hoặc kế hoạch hành động theo phương pháp CAE thiết lập; tình trạng được báo cáo cho HĐQT.",
     "action": "Theo dõi theo thời hạn cam kết, kiểm tra bằng chứng khắc phục, escalation khi quá hạn.",
     "violation": "Đóng phát hiện chỉ dựa vào email xác nhận 'đã xong' của đơn vị.",
     "trap": "Theo dõi khắc phục là trách nhiệm của Ban điều hành nên kiểm toán nội bộ không cần làm.",

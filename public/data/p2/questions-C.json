@@ -131,7 +131,7 @@
     "section": "C",
     "topic": "C1",
     "difficulty": 3,
-    "stem": "Người giám sát đang rà soát chương trình làm việc của một cuộc kiểm toán trước khi phê duyệt. Theo GIAS, tiêu chí chính để phê duyệt chương trình là gì?",
+    "stem": "Người giám sát đang rà soát chương trình kiểm toán của một cuộc kiểm toán trước khi phê duyệt. Theo GIAS, tiêu chí chính để phê duyệt chương trình là gì?",
     "options": [
       "Chương trình có đạt được mục tiêu cuộc kiểm toán một cách hiệu quả không.",
       "Chương trình có nhiều thủ tục hơn cuộc kiểm toán năm trước.",
@@ -139,7 +139,7 @@
       "Chương trình dùng đúng mẫu biểu chuẩn của phòng kiểm toán."
     ],
     "answer": 0,
-    "explanation": "GIAS 12.3 (Xem xét khi thực hiện): khi lập kế hoạch, người giám sát phê duyệt chương trình làm việc; tiêu chí chính để phê duyệt là chương trình có đạt mục tiêu cuộc kiểm toán một cách hiệu quả hay không.",
+    "explanation": "GIAS 12.3 (Xem xét khi thực hiện): khi lập kế hoạch, người giám sát phê duyệt chương trình kiểm toán; tiêu chí chính để phê duyệt là chương trình có đạt mục tiêu cuộc kiểm toán một cách hiệu quả hay không.",
     "optionNotes": [
       "Đúng. Đạt mục tiêu một cách hiệu quả.",
       "Sai. Số lượng thủ tục không phải tiêu chí.",
@@ -316,18 +316,18 @@
     "section": "C",
     "topic": "C2",
     "difficulty": 2,
-    "stem": "Kiểm toán viên cần trao đổi một khuyến nghị về thay đổi quy trình duyệt chi. Theo GIAS, nên trao đổi với ai?",
+    "stem": "Kiểm toán viên cần trao đổi một kiến nghị về thay đổi quy trình duyệt chi. Theo GIAS, nên trao đổi với ai?",
     "options": [
       "Nhân viên trực tiếp thực hiện quy trình duyệt chi.",
-      "Chỉ HĐQT, vì khuyến nghị cần được HĐQT phê duyệt.",
+      "Chỉ HĐQT, vì kiến nghị cần được HĐQT phê duyệt.",
       "Bất kỳ ai trong đơn vị có thời gian tham gia cuộc họp.",
       "Cấp quản lý có thẩm quyền thay đổi hoạt động đó."
     ],
     "answer": 3,
-    "explanation": "GIAS 14.4 (Xem xét khi thực hiện): kiểm toán viên nên kịp thời trao đổi phát hiện và khuyến nghị với cấp quản lý có thẩm quyền thực hiện và giám sát thay đổi hoạt động được kiểm toán; CAE có thể quy định cấp quản lý phù hợp.",
+    "explanation": "GIAS 14.4 (Xem xét khi thực hiện): kiểm toán viên nên kịp thời trao đổi phát hiện và kiến nghị với cấp quản lý có thẩm quyền thực hiện và giám sát thay đổi hoạt động được kiểm toán; CAE có thể quy định cấp quản lý phù hợp.",
     "optionNotes": [
       "Sai. Nhân viên thực hiện không có thẩm quyền thay đổi.",
-      "Sai. HĐQT không duyệt từng khuyến nghị.",
+      "Sai. HĐQT không duyệt từng kiến nghị.",
       "Sai. Phải là người có thẩm quyền.",
       "Đúng. Cấp quản lý có thẩm quyền thay đổi."
     ],
@@ -342,18 +342,18 @@
     "section": "C",
     "topic": "C2",
     "difficulty": 3,
-    "stem": "Quản lý đơn vị và kiểm toán viên không thống nhất được về một khuyến nghị dù đã thảo luận nhiều lần. Theo GIAS, bước tiếp theo phù hợp nhất của CAE là gì?",
+    "stem": "Quản lý đơn vị và kiểm toán viên không thống nhất được về một kiến nghị dù đã thảo luận nhiều lần. Theo GIAS, bước tiếp theo phù hợp nhất của CAE là gì?",
     "options": [
       "Làm việc với Ban điều hành để tạo điều kiện giải quyết bất đồng.",
-      "Rút khuyến nghị để giữ quan hệ tốt với đơn vị được kiểm toán về sau.",
+      "Rút kiến nghị để giữ quan hệ tốt với đơn vị được kiểm toán về sau.",
       "Báo ngay cho cơ quan quản lý nhà nước về bất đồng.",
-      "Tự triển khai khuyến nghị thay cho quản lý đơn vị."
+      "Tự triển khai kiến nghị thay cho quản lý đơn vị."
     ],
     "answer": 0,
     "explanation": "GIAS 14.4: khi bất đồng, theo phương pháp đã định để hai bên nêu quan điểm, lý do và tìm giải pháp. Phần Xem xét khi thực hiện nêu CAE nên làm việc với Ban điều hành để tạo điều kiện giải quyết; có thể đính kèm ý kiến chính thức của mỗi bên vào báo cáo.",
     "optionNotes": [
       "Đúng. CAE làm việc với Ban điều hành.",
-      "Sai. Không rút khuyến nghị chỉ để giữ quan hệ.",
+      "Sai. Không rút kiến nghị chỉ để giữ quan hệ.",
       "Sai. Không có cơ sở báo cơ quan quản lý.",
       "Sai. Thực hiện là trách nhiệm của quản lý."
     ],

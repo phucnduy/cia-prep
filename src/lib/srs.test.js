@@ -57,7 +57,7 @@ describe('dueQueue', () => {
 
 describe('buildDeck', () => {
   test('turns lesson terms, self-checks and knowledge cards into flashcards', () => {
-    const lessons = [{ topic: 'A1', terms: [{ term: 'Charter', vi: 'Điều lệ', def: 'Văn bản...' }], checks: [{ q: 'Hỏi?', a: 'Đáp.' }] }];
+    const lessons = [{ topic: 'A1', terms: [{ term: 'Charter', vi: 'Quy chế', def: 'Văn bản...' }], checks: [{ q: 'Hỏi?', a: 'Đáp.' }] }];
     const cards = [{ id: 'P1-A-K001', section: 'A', title: 'Tiêu đề', rule: 'Quy tắc', trap: 'Bẫy' }];
     const deck = buildDeck(lessons, cards);
     expect(deck.map((c) => c.kind).sort()).toEqual(['check', 'rule', 'term']);

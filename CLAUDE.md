@@ -23,6 +23,24 @@ Every rule below exists because the mistake it prevents already happened once in
 - **The CIA handbook behind `guide.json`**: the user has permission to use its content. The site must not name or credit the handbook or its publisher (user decision, 2026-11-12): attribute each fact to its original source (IIA, IIA Vietnam, VietnamWorks) or state it neutrally as reference information. Still rephrase rather than paste, and check rules and fees against theiia.org. Known errors in it, never carry over: Part 3 section D 20% (official 45%); pass mark "600/750 = about 80%" (IIA publishes no conversion); final-year students and "5 years of internal audit experience" as enrollment routes (use the official eligibility); "internal audit belongs to the board" (it reports functionally to the board); "CIA is the cheapest certificate"; its VND fee table (310 x 26,500 = 8,215,000, not 8,210,000). Its 100 USD exam-extension and 275 USD program-extension fees are not in the IIA Candidate Handbook; label them as unverified.
 - **Questions are original.** Never copy or paraphrase IIA questions (sample questions, practice questions, retired exam items); they are copyrighted.
 
+## 1b. Vietnamese terminology (Decree 05/2019/ND-CP and professional usage)
+
+User decision, 2026-11-17: use the Vietnamese professional terms of Nghị định 05/2019/NĐ-CP on internal audit, not literal calques of the English. Checked against the decree text (Điều 3, 12, 16, 18-28).
+
+| English (GIAS) | Use | Do not use |
+|---|---|---|
+| Internal audit charter | Quy chế kiểm toán nội bộ (Điều 12) | Điều lệ kiểm toán nội bộ |
+| Internal audit function | Bộ phận kiểm toán nội bộ | Chức năng kiểm toán nội bộ |
+| Recommendation | Kiến nghị | Khuyến nghị |
+| Engagement workpapers | Hồ sơ kiểm toán (giấy tờ làm việc); the decree says "hồ sơ, tài liệu kiểm toán" | Hồ sơ làm việc |
+| Engagement work program | Chương trình kiểm toán | Chương trình làm việc |
+| QAIP | Chương trình đảm bảo và cải tiến chất lượng | ... và nâng cao chất lượng |
+
+- **CAE** stays as the exam acronym. Introduce it as "Trưởng kiểm toán nội bộ (CAE)"; the decree's term is "người phụ trách kiểm toán nội bộ", and credit institutions use "Trưởng kiểm toán nội bộ".
+- Keep "Ban điều hành" for senior management, "hữu hiệu" for effective (internal control), "kiểm toán viên nội bộ" for internal auditor; all are established Vietnamese usage. The decree's "người làm công tác kiểm toán nội bộ" may be used when quoting the decree.
+- "Dựa trên rủi ro" and the decree's "định hướng theo rủi ro" are both acceptable for risk-based.
+- "Điều lệ" is correct only for a company's charter (Điều lệ công ty, vốn điều lệ).
+
 ## 2. Exam style (follow IIA's official sample questions)
 
 - **No standard numbers in the stem** ("Theo GIAS 13.6, ..."). Citations go only in `explanation` and `refs`.

@@ -19,7 +19,7 @@
         { "id": "A3", "en": "Planning to assess key risks and controls", "vi": "Lập kế hoạch đánh giá rủi ro và kiểm soát chính" },
         { "id": "A4", "en": "Engagement approach", "vi": "Phương pháp tiếp cận cuộc kiểm toán" },
         { "id": "A5", "en": "Detailed risk assessment of each activity", "vi": "Đánh giá rủi ro chi tiết từng hoạt động" },
-        { "id": "A6", "en": "Engagement procedures and work program", "vi": "Thủ tục kiểm toán và chương trình làm việc" },
+        { "id": "A6", "en": "Engagement procedures and work program", "vi": "Thủ tục kiểm toán và chương trình kiểm toán" },
         { "id": "A7", "en": "Resources and skills needed", "vi": "Nguồn lực và kỹ năng cần thiết" }
       ]
     },
@@ -35,7 +35,7 @@
         { "id": "B4", "en": "Analytical approaches and process mapping", "vi": "Phương pháp phân tích và lưu đồ quy trình" },
         { "id": "B5", "en": "Analytical review techniques", "vi": "Kỹ thuật phân tích soát xét" },
         { "id": "B6", "en": "Criteria vs. condition (findings)", "vi": "Chênh lệch giữa tiêu chí và thực trạng (phát hiện)" },
-        { "id": "B7", "en": "Workpapers", "vi": "Hồ sơ làm việc" },
+        { "id": "B7", "en": "Workpapers", "vi": "Hồ sơ kiểm toán" },
         { "id": "B8", "en": "Engagement conclusions", "vi": "Kết luận cuộc kiểm toán" }
       ]
     },

@@ -670,7 +670,7 @@
       "Báo ngay cho cơ quan công an, vì hành vi thông đồng với nhà cung cấp có dấu hiệu hình sự."
     ],
     "answer": 2,
-    "explanation": "Khi có dấu hiệu gian lận, kiểm toán viên báo cho CAE theo điều lệ và chính sách của tổ chức. CAE quyết định có điều tra hay không, ai thực hiện (có thể cần chuyên gia điều tra), tham vấn pháp chế và báo cáo ai. Đối chất sớm có thể làm mất bằng chứng; tự ý điều tra hoặc báo bên ngoài vượt quá thẩm quyền.",
+    "explanation": "Khi có dấu hiệu gian lận, kiểm toán viên báo cho CAE theo quy chế và chính sách của tổ chức. CAE quyết định có điều tra hay không, ai thực hiện (có thể cần chuyên gia điều tra), tham vấn pháp chế và báo cáo ai. Đối chất sớm có thể làm mất bằng chứng; tự ý điều tra hoặc báo bên ngoài vượt quá thẩm quyền.",
     "optionNotes": [
       "Sai. Đối chất sớm với nghi phạm có thể làm lộ việc nghi ngờ, dẫn đến tiêu hủy bằng chứng.",
       "Sai. Tự ý điều tra mà không báo cấp trên vượt quá thẩm quyền và có thể ảnh hưởng giá trị pháp lý của bằng chứng.",
@@ -1386,7 +1386,7 @@
     "stem": "Trong lúc kiểm toán hàng tồn kho, kiểm toán viên phát hiện nhiều phiếu xuất kho bị sửa ngày và chữ ký có vẻ không khớp. Việc phù hợp nhất tiếp theo là gì?",
     "options": [
       "Tự đối chất ngay với thủ kho để làm rõ trước khi báo cáo.",
-      "Đưa phát hiện vào báo cáo kiểm toán cuối kỳ như một khuyến nghị.",
+      "Đưa phát hiện vào báo cáo kiểm toán cuối kỳ như một kiến nghị.",
       "Bỏ qua vì đây có thể chỉ là lỗi ghi chép thông thường.",
       "Bảo quản bằng chứng và báo cáo kịp thời cho trưởng kiểm toán."
     ],
@@ -1941,7 +1941,7 @@
     "section": "D",
     "topic": "D4",
     "difficulty": 2,
-    "stem": "Quy chế quy định hạn mức phê duyệt theo cấp, nhưng trên ERP mọi trưởng phòng đều có quyền duyệt đơn hàng với bất kỳ giá trị nào. Khuyến nghị phù hợp nhất là gì?",
+    "stem": "Quy chế quy định hạn mức phê duyệt theo cấp, nhưng trên ERP mọi trưởng phòng đều có quyền duyệt đơn hàng với bất kỳ giá trị nào. Kiến nghị phù hợp nhất là gì?",
     "options": [
       "Nhắc nhở các trưởng phòng đọc lại quy chế phân quyền.",
       "Bỏ hạn mức trong quy chế cho khớp với hệ thống.",

@@ -82,20 +82,20 @@
     "difficulty": 2,
     "stem": "Một phát hiện kiểm toán đầy đủ thường gồm những thành phần nào?",
     "options": [
-      "Tiêu chí, thực trạng, nguyên nhân, ảnh hưởng, khuyến nghị.",
+      "Tiêu chí, thực trạng, nguyên nhân, ảnh hưởng, kiến nghị.",
       "Tên người vi phạm, mức phạt đề xuất và thời hạn nộp phạt.",
       "Mục tiêu, phạm vi, ngân sách và nhân sự của cuộc kiểm toán.",
       "Ý kiến của kiểm toán độc lập và của cơ quan quản lý ngành."
     ],
     "answer": 0,
-    "explanation": "GIAS 14.2-14.4: phát hiện là chênh lệch giữa tiêu chí (criteria) và thực trạng (condition), được phân tích nguyên nhân (cause) và ảnh hưởng (effect), kèm khuyến nghị hoặc kế hoạch hành động.",
+    "explanation": "GIAS 14.2-14.4: phát hiện là chênh lệch giữa tiêu chí (criteria) và thực trạng (condition), được phân tích nguyên nhân (cause) và ảnh hưởng (effect), kèm kiến nghị hoặc kế hoạch hành động.",
     "refs": [
       "GIAS 14.2",
       "GIAS 14.4"
     ],
     "source": "original",
     "optionNotes": [
-      "Đúng. Phát hiện gồm tiêu chí, thực trạng, nguyên nhân, ảnh hưởng và khuyến nghị hoặc kế hoạch hành động.",
+      "Đúng. Phát hiện gồm tiêu chí, thực trạng, nguyên nhân, ảnh hưởng và kiến nghị hoặc kế hoạch hành động.",
       "Sai. Kiểm toán nội bộ không đề xuất mức phạt.",
       "Sai. Đây là thông tin kế hoạch cuộc kiểm toán.",
       "Sai. Ý kiến bên ngoài không phải thành phần của phát hiện."
@@ -131,7 +131,7 @@
     "section": "B",
     "topic": "B7",
     "difficulty": 1,
-    "stem": "Hồ sơ làm việc (workpapers) của cuộc kiểm toán phải đáp ứng yêu cầu nào?",
+    "stem": "Hồ sơ kiểm toán (workpapers) của cuộc kiểm toán phải đáp ứng yêu cầu nào?",
     "options": [
       "Chỉ lưu bằng chứng có phát hiện, bỏ các phần không có ngoại lệ.",
       "Đủ để kiểm toán viên khác hiểu công việc và ủng hộ kết luận.",
@@ -185,7 +185,7 @@
     "options": [
       "Phù hợp, vì kết luận chỉ cần thiết khi có phát hiện cần Ban điều hành xử lý.",
       "Chưa phù hợp, vì kết luận phải nêu đánh giá về hiệu quả quy trình, kể cả khi quy trình hữu hiệu.",
-      "Chưa phù hợp, vì báo cáo không được phát hành khi không có ít nhất một khuyến nghị.",
+      "Chưa phù hợp, vì báo cáo không được phát hành khi không có ít nhất một kiến nghị.",
       "Phù hợp, nếu Ban điều hành đã xác nhận đồng ý với kết quả của cuộc kiểm toán."
     ],
     "answer": 1,
@@ -193,7 +193,7 @@
     "optionNotes": [
       "Sai. Kết luận là yêu cầu cho mọi cuộc đảm bảo, không phụ thuộc có phát hiện.",
       "Đúng. Phải nêu kết luận về hiệu quả, kể cả ghi nhận quy trình hữu hiệu.",
-      "Sai. Không có yêu cầu phải có khuyến nghị mới được phát hành báo cáo.",
+      "Sai. Không có yêu cầu phải có kiến nghị mới được phát hành báo cáo.",
       "Sai. Đồng ý của Ban điều hành không thay thế kết luận của kiểm toán viên."
     ],
     "refs": [
@@ -656,10 +656,10 @@
       "Sắp xếp theo ngày thu thập tài liệu, không cần tham chiếu.",
       "Sắp xếp theo tên người cung cấp tài liệu ở đơn vị được kiểm toán.",
       "Gộp tất cả bằng chứng vào một tệp duy nhất cho gọn.",
-      "Theo cấu trúc chương trình làm việc, có tham chiếu chéo."
+      "Theo cấu trúc chương trình kiểm toán, có tham chiếu chéo."
     ],
     "answer": 3,
-    "explanation": "GIAS 14.6 (Xem xét khi thực hiện): giấy làm việc có thể tổ chức theo cấu trúc chương trình làm việc và tham chiếu chéo với các thông tin liên quan, giúp lần theo cơ sở logic của từng bước đến kết quả.",
+    "explanation": "GIAS 14.6 (Xem xét khi thực hiện): giấy làm việc có thể tổ chức theo cấu trúc chương trình kiểm toán và tham chiếu chéo với các thông tin liên quan, giúp lần theo cơ sở logic của từng bước đến kết quả.",
     "optionNotes": [
       "Sai. Thiếu liên kết giữa kết luận và bằng chứng.",
       "Sai. Không phản ánh cấu trúc công việc.",

@@ -169,6 +169,26 @@ for (const name of ['guide', 'frameworks']) {
   for (const m of JSON.stringify(doc).matchAll(/GIAS (\d+\.\d+)/g)) if (!GIAS_STANDARDS.has(m[1])) errors.push(`${name}.json: unknown GIAS ${m[1]}`);
 }
 
+// Vietnamese terminology (CLAUDE.md 1b): calques replaced by the wording of Decree 05/2019.
+const OLD_TERMS = [
+  [/điều lệ kiểm toán|điều lệ KTNB/i, 'Quy chế kiểm toán nội bộ'],
+  [/chức năng (kiểm toán nội bộ|KTNB)/i, 'bộ phận kiểm toán nội bộ'],
+  [/khuyến nghị/i, 'kiến nghị'],
+  [/hồ sơ làm việc/i, 'hồ sơ kiểm toán'],
+  [/chương trình làm việc/i, 'chương trình kiểm toán'],
+];
+const dataFiles = index.parts.flatMap(({ path }) =>
+  ['manifest', 'lessons', 'study', 'questions-A', 'questions-B', 'questions-C', 'questions-D'].map((f) => `public/${path}/${f}.json`),
+);
+for (const file of [...dataFiles, 'public/data/guide.json', 'public/data/frameworks.json']) {
+  if (!existsSync(file)) continue;
+  const text = readFileSync(file, 'utf8');
+  for (const [re, use] of OLD_TERMS) {
+    const m = text.match(re);
+    if (m) errors.push(`${file}: "${m[0]}" - use "${use}" (CLAUDE.md 1b)`);
+  }
+}
+
 for (const w of warnings) console.warn(`warn: ${w}`);
 for (const e of errors) console.error(`error: ${e}`);
 if (errors.length) {
