@@ -173,5 +173,109 @@
       "GIAS 9.4"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-B-N01",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 1,
+    "stem": "Đánh giá có văn bản về chiến lược, mục tiêu và rủi ro của tổ chức, dùng làm cơ sở cho kế hoạch kiểm toán nội bộ, phải được thực hiện tối thiểu bao lâu một lần?",
+    "options": [
+      "Ba năm một lần, theo chu kỳ kiểm toán của các đơn vị.",
+      "Ít nhất mỗi năm một lần, làm cơ sở cho kế hoạch năm.",
+      "Năm năm một lần, cùng đợt đánh giá chất lượng bên ngoài.",
+      "Chỉ khi HĐQT yêu cầu hoặc có thay đổi lớn về tổ chức."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 9.4 yêu cầu kế hoạch kiểm toán dựa trên đánh giá có văn bản về chiến lược, mục tiêu và rủi ro của tổ chức, có ý kiến của HĐQT và Ban điều hành cấp cao, và đánh giá này phải thực hiện ít nhất mỗi năm một lần. Kế hoạch còn phải được cập nhật kịp thời khi rủi ro thay đổi.",
+    "optionNotes": [
+      "Sai. Chu kỳ ba năm có thể dùng để phân bổ cuộc kiểm toán, nhưng đánh giá rủi ro phải làm hằng năm.",
+      "Đúng. GIAS 9.4 yêu cầu đánh giá ít nhất hằng năm.",
+      "Sai. Năm năm là chu kỳ tối đa của đánh giá chất lượng bên ngoài (GIAS 8.4), không phải đánh giá rủi ro.",
+      "Sai. Thay đổi lớn đòi hỏi cập nhật kế hoạch, nhưng không thay thế yêu cầu đánh giá hằng năm."
+    ],
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-N02",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Dự thảo kế hoạch năm gồm kiểm toán chi nhánh, mua hàng và quyết toán thuế. Khi rà soát nguồn hình thành các cuộc kiểm toán, CAE cần cân nhắc bổ sung nhóm chủ đề nào nhất?",
+    "options": [
+      "Các đơn vị chưa được kiểm toán trong năm năm gần nhất, bất kể mức rủi ro.",
+      "Các dự án mà Tổng Giám đốc quan tâm nhất trong năm tài chính hiện tại.",
+      "Quản trị CNTT, rủi ro gian lận và hiệu quả chương trình tuân thủ, đạo đức.",
+      "Các phòng ban có tỷ lệ nhân viên mới cao nhất trong toàn tổ chức."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 9.4 yêu cầu kế hoạch kiểm toán cân nhắc việc bao quát quản trị CNTT, rủi ro gian lận, hiệu quả các chương trình tuân thủ và đạo đức, cùng các lĩnh vực rủi ro cao khác. Thời gian từ lần kiểm toán trước hay mối quan tâm của một lãnh đạo chỉ là yếu tố tham khảo, không thay thế đánh giá rủi ro.",
+    "optionNotes": [
+      "Sai. Thời gian chưa kiểm toán là yếu tố tham khảo; chọn 'bất kể mức rủi ro' trái với kế hoạch dựa trên rủi ro.",
+      "Sai. Ý kiến Ban điều hành là đầu vào, nhưng kế hoạch dựa trên đánh giá rủi ro chứ không theo mức quan tâm cá nhân.",
+      "Đúng. Đây là các lĩnh vực GIAS 9.4 yêu cầu kế hoạch phải cân nhắc.",
+      "Sai. Nhân viên mới có thể là một yếu tố rủi ro, nhưng không phải nhóm chủ đề GIAS yêu cầu cân nhắc."
+    ],
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-N03",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Bộ phận Quản lý rủi ro từ chối chia sẻ sổ đăng ký rủi ro và lịch kiểm tra của mình, khiến hai bên dự kiến cùng kiểm tra một quy trình trong quý tới. Hai bên đã trao đổi nhưng không có kết quả. CAE nên làm gì trước tiên?",
+    "options": [
+      "Nêu quan ngại về việc không phối hợp được với Ban điều hành cấp cao.",
+      "Báo cáo thẳng HĐQT để HĐQT yêu cầu bộ phận Quản lý rủi ro hợp tác ngay.",
+      "Giữ nguyên kế hoạch riêng và chấp nhận trùng lặp vì đã cố gắng phối hợp.",
+      "Đưa bộ phận Quản lý rủi ro vào kế hoạch kiểm toán năm như một ưu tiên."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 9.5 yêu cầu CAE phối hợp với các bên cung cấp dịch vụ đảm bảo trong và ngoài tổ chức. Nếu không đạt được mức phối hợp phù hợp, CAE phải nêu quan ngại với Ban điều hành cấp cao và, nếu cần, với HĐQT. Thứ tự là Ban điều hành cấp cao trước, HĐQT sau khi vẫn chưa giải quyết được.",
+    "optionNotes": [
+      "Đúng. GIAS 9.5 yêu cầu nêu quan ngại với Ban điều hành cấp cao trước, rồi HĐQT nếu cần.",
+      "Sai. HĐQT là bước tiếp theo nếu cần; bước đầu tiên theo GIAS 9.5 là Ban điều hành cấp cao.",
+      "Sai. Chấp nhận trùng lặp bỏ qua mục đích phối hợp và yêu cầu nêu quan ngại của GIAS 9.5.",
+      "Sai. Dùng kiểm toán như biện pháp gây sức ép không giải quyết việc phối hợp và có thể làm mất khách quan."
+    ],
+    "refs": [
+      "GIAS 9.5",
+      "CIA Part 3 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-N04",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "Báo cáo kiểm toán nội bộ về kiểm soát công nợ ghi: 'Kết luận dựa trên kết quả của kiểm toán độc lập, nên trách nhiệm về kết luận thuộc về kiểm toán độc lập.' Nhận định nào đúng nhất?",
+    "options": [
+      "Đúng, vì khi dựa vào công việc của bên khác thì trách nhiệm kết luận chuyển sang bên đó.",
+      "Sai, CAE phải ghi nhận cơ sở để dựa vào và vẫn chịu trách nhiệm về kết luận của kiểm toán nội bộ.",
+      "Sai, vì kiểm toán nội bộ không được dựa vào công việc của kiểm toán độc lập dưới mọi hình thức.",
+      "Đúng, nếu kiểm toán độc lập đã được HĐQT chấp thuận làm bên cung cấp dịch vụ đảm bảo."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 9.5 cho phép CAE cân nhắc dựa vào công việc của bên cung cấp dịch vụ đảm bảo khác. Khi dựa vào, CAE phải ghi nhận cơ sở cho việc dựa vào đó và vẫn chịu trách nhiệm về các kết luận của chức năng kiểm toán nội bộ.",
+    "optionNotes": [
+      "Sai. Trách nhiệm kết luận không chuyển sang bên khác (GIAS 9.5).",
+      "Đúng. CAE ghi nhận cơ sở dựa vào và vẫn chịu trách nhiệm kết luận (GIAS 9.5).",
+      "Sai. GIAS 9.5 cho phép, thậm chí khuyến khích cân nhắc dựa vào công việc của bên khác.",
+      "Sai. Sự chấp thuận của HĐQT không làm thay đổi trách nhiệm của CAE đối với kết luận."
+    ],
+    "refs": [
+      "GIAS 9.5",
+      "CIA Part 3 B.3"
+    ],
+    "source": "original"
   }
 ]

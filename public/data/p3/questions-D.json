@@ -250,5 +250,164 @@
       "GIAS 15.1"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-D-N01",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 1,
+    "stem": "Trong Glossary của GIAS, rủi ro còn lại (residual risk) được hiểu là gì?",
+    "options": [
+      "Phần rủi ro tiềm tàng còn lại sau khi các hành động của Ban điều hành được thực hiện.",
+      "Rủi ro của một hoạt động khi chưa có bất kỳ biện pháp kiểm soát nào được áp dụng.",
+      "Mức rủi ro tối đa mà HĐQT chấp nhận để theo đuổi các mục tiêu của tổ chức.",
+      "Rủi ro kiểm toán viên đưa ra kết luận sai do thủ tục kiểm toán không đầy đủ."
+    ],
+    "answer": 0,
+    "explanation": "Glossary của GIAS định nghĩa rủi ro còn lại là phần rủi ro tiềm tàng còn lại sau khi các hành động của Ban điều hành được thực hiện. Khi đánh giá phát hiện, kiểm toán viên đánh giá kiểm soát hiện có rồi xác định mức rủi ro còn lại (GIAS 14.3).",
+    "optionNotes": [
+      "Đúng. Đây là định nghĩa trong Glossary của GIAS.",
+      "Sai. Đó là rủi ro tiềm tàng (inherent risk), trước khi có hành động của Ban điều hành.",
+      "Sai. Đó là khẩu vị rủi ro (risk appetite), mức rủi ro tổ chức sẵn sàng chấp nhận.",
+      "Sai. Đó là khái niệm rủi ro kiểm toán, không phải rủi ro còn lại của hoạt động."
+    ],
+    "refs": [
+      "GIAS Glossary",
+      "GIAS 14.3",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-N02",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên phát hiện hạn mức tín dụng của 15 khách hàng được nâng mà không có phê duyệt cấp hai. Để xác định mức độ quan trọng của phát hiện này, kiểm toán viên nên làm gì trước tiên?",
+    "options": [
+      "Xếp hạng phát hiện ở mức cao ngay, vì thiếu phê duyệt là vi phạm quy định nội bộ.",
+      "Đánh giá thiết kế và hiệu quả của các kiểm soát hiện có để xác định rủi ro còn lại.",
+      "Dùng mức rủi ro còn lại trong bảng tự đánh giá của Ban điều hành để xếp hạng phát hiện.",
+      "Chờ đến khi có tổn thất thực tế từ các khách hàng này rồi mới đánh giá mức độ quan trọng."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.3 yêu cầu đánh giá mức độ quan trọng của phát hiện dựa trên khả năng xảy ra và tác động của rủi ro. Phần hướng dẫn nêu trình tự: xác định và đánh giá thiết kế, hiệu quả của kiểm soát hiện có, rồi xác định mức rủi ro còn lại, sau đó cân nhắc ngưỡng chịu đựng rủi ro để ưu tiên phát hiện theo phương pháp của CAE.",
+    "optionNotes": [
+      "Sai. Xếp hạng khi chưa xem kiểm soát bù đắp và rủi ro còn lại có thể làm sai mức độ quan trọng.",
+      "Đúng. Đánh giá kiểm soát hiện có để xác định rủi ro còn lại là bước đầu (GIAS 14.3).",
+      "Sai. Kết quả tự đánh giá của Ban điều hành chỉ là đầu vào; kiểm toán viên phải tự đánh giá.",
+      "Sai. Mức độ quan trọng dựa trên khả năng xảy ra và tác động tiềm ẩn, không cần chờ tổn thất."
+    ],
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-N03",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 2,
+    "stem": "Kiểm soát của quy trình thu tiền được đánh giá là thiết kế phù hợp và vận hành hữu hiệu. Trưởng nhóm muốn kết luận rằng quy trình 'không còn rủi ro'. Cách kết luận phù hợp nhất là gì?",
+    "options": [
+      "Giữ nguyên câu 'không còn rủi ro', vì kiểm soát hữu hiệu đã loại bỏ hoàn toàn rủi ro.",
+      "Không đưa kết luận, vì báo cáo chỉ cần nêu các phát hiện về kiểm soát yếu kém.",
+      "Ghi kiểm soát hữu hiệu và rủi ro còn lại nằm trong ngưỡng chịu đựng của tổ chức.",
+      "Ghi quy trình 'cần cải thiện' để Ban điều hành không chủ quan với rủi ro còn lại."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm soát hữu hiệu chỉ giảm rủi ro xuống mức còn lại, không đưa rủi ro về 0. GIAS 14.5 yêu cầu kết luận của cuộc đảm bảo nêu đánh giá về hiệu quả quy trình, kể cả ghi nhận khi quy trình hiệu quả. Rủi ro còn lại được so với ngưỡng chịu đựng rủi ro khi đánh giá (GIAS 14.3).",
+    "optionNotes": [
+      "Sai. Kiểm soát chỉ cung cấp đảm bảo hợp lý; rủi ro còn lại luôn tồn tại.",
+      "Sai. GIAS 14.5 yêu cầu kết luận và ghi nhận cả khi quy trình hiệu quả.",
+      "Đúng. Ghi nhận kiểm soát hữu hiệu và so rủi ro còn lại với ngưỡng chịu đựng.",
+      "Sai. Hạ xếp hạng khi không có bằng chứng yếu kém làm kết luận thiếu khách quan."
+    ],
+    "refs": [
+      "GIAS 14.5",
+      "GIAS 14.3",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-N04",
+    "section": "D",
+    "topic": "D6",
+    "difficulty": 2,
+    "stem": "Ban điều hành quyết định không triển khai khuyến nghị về sao lưu dữ liệu và chấp nhận rủi ro mà CAE cho là vượt khẩu vị. Khi ghi nhận sự việc, hồ sơ của kiểm toán nội bộ nên có thêm thông tin nào quan trọng nhất?",
+    "options": [
+      "Ước tính chi phí kiểm toán nội bộ đã bỏ ra cho phát hiện và khuyến nghị liên quan.",
+      "Cam kết của CAE sẽ tự triển khai giải pháp sao lưu nếu sự cố thực sự xảy ra.",
+      "Danh sách các công ty cùng ngành đã gặp sự cố mất dữ liệu trong năm năm gần đây.",
+      "Tên người chấp nhận rủi ro, lý do không thực hiện khuyến nghị và ngày trao đổi."
+    ],
+    "answer": 3,
+    "explanation": "Phần hướng dẫn của GIAS 11.5 nêu phương pháp của kiểm toán nội bộ nên quy định việc ghi nhận các trao đổi và hành động, gồm mô tả rủi ro, lý do quan ngại, lý do Ban điều hành không thực hiện khuyến nghị, tên người chịu trách nhiệm chấp nhận rủi ro và ngày trao đổi.",
+    "optionNotes": [
+      "Sai. Chi phí kiểm toán không giúp xác định trách nhiệm chấp nhận rủi ro.",
+      "Sai. CAE không có trách nhiệm xử lý rủi ro; việc tự triển khai còn làm suy giảm tính khách quan.",
+      "Sai. Thông tin ngành có thể hỗ trợ lập luận, nhưng không phải nội dung ghi nhận chính.",
+      "Đúng. Đây là các nội dung GIAS 11.5 (phần hướng dẫn) nêu cho việc ghi nhận chấp nhận rủi ro."
+    ],
+    "refs": [
+      "GIAS 11.5",
+      "CIA Part 3 D.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-N05",
+    "section": "D",
+    "topic": "D6",
+    "difficulty": 2,
+    "stem": "Sau khi CAE báo cáo vượt cấp, HĐQT vẫn đồng ý với Ban điều hành chấp nhận rủi ro về sao lưu dữ liệu. CAE đề xuất để kiểm toán nội bộ tự xây dựng giải pháp sao lưu dự phòng. Nhận định nào đúng nhất?",
+    "options": [
+      "Không phù hợp, vì CAE không chịu trách nhiệm xử lý rủi ro mà Ban điều hành đã chấp nhận.",
+      "Phù hợp, nếu chi phí của giải pháp nằm trong ngân sách đã được HĐQT phê duyệt.",
+      "Phù hợp, vì CAE có trách nhiệm bảo đảm rủi ro được đưa về trong khẩu vị rủi ro.",
+      "Không phù hợp, vì CAE phải tiếp tục báo cáo lên cơ quan quản lý cho đến khi rủi ro được xử lý."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 11.5 yêu cầu CAE trao đổi về mức rủi ro không thể chấp nhận; phần hướng dẫn nêu rõ CAE thảo luận với Ban điều hành cấp cao, báo cáo HĐQT nếu chưa giải quyết, và việc xử lý rủi ro không phải trách nhiệm của CAE. Tự xây dựng giải pháp còn biến kiểm toán nội bộ thành người vận hành kiểm soát, làm suy giảm khách quan.",
+    "optionNotes": [
+      "Đúng. Sau khi đã trao đổi và báo cáo, quyết định chấp nhận rủi ro thuộc về Ban điều hành và HĐQT.",
+      "Sai. Ngân sách không thay đổi vai trò; tự triển khai giải pháp vẫn là đảm nhận trách nhiệm quản lý.",
+      "Sai. GIAS 11.5 nêu xử lý rủi ro không phải trách nhiệm của CAE.",
+      "Sai. GIAS 11.5 không yêu cầu CAE báo cáo cơ quan quản lý khi HĐQT đã quyết định chấp nhận rủi ro."
+    ],
+    "refs": [
+      "GIAS 11.5",
+      "CIA Part 3 D.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-N06",
+    "section": "D",
+    "topic": "D8",
+    "difficulty": 3,
+    "stem": "Đến hạn hoàn thành, kế hoạch hành động khắc phục phân quyền hệ thống thanh toán vẫn chưa được thực hiện và Ban điều hành chưa giải thích lý do. Kiểm toán viên phụ trách theo dõi nên làm gì trước tiên?",
+    "options": [
+      "Báo cáo HĐQT ngay, vì Ban điều hành đã không thực hiện đúng cam kết khắc phục.",
+      "Lấy và lưu giải trình của Ban điều hành, sau đó trao đổi vấn đề này với CAE.",
+      "Tự gia hạn thêm ba tháng trong hệ thống theo dõi để chờ Ban điều hành thực hiện.",
+      "Đóng phát hiện với trạng thái 'Ban điều hành chấp nhận rủi ro' rồi báo cáo CAE."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 15.2 yêu cầu khi Ban điều hành không thực hiện đúng hạn, kiểm toán viên phải lấy và lưu giải trình của Ban điều hành và trao đổi với CAE. CAE chịu trách nhiệm xác định liệu Ban điều hành cấp cao, do chậm trễ hay không hành động, đã chấp nhận rủi ro vượt ngưỡng chịu đựng hay chưa (xem GIAS 11.5).",
+    "optionNotes": [
+      "Sai. Báo cáo HĐQT là bước sau, khi CAE xác định có chấp nhận rủi ro vượt ngưỡng mà chưa giải quyết.",
+      "Đúng. Đây là bước GIAS 15.2 yêu cầu khi kế hoạch hành động trễ hạn.",
+      "Sai. Kiểm toán viên không tự gia hạn thay Ban điều hành; phải lấy giải trình và báo CAE.",
+      "Sai. Việc xác định có chấp nhận rủi ro hay không thuộc về CAE, sau khi có giải trình."
+    ],
+    "refs": [
+      "GIAS 15.2",
+      "GIAS 11.5",
+      "CIA Part 3 D.8"
+    ],
+    "source": "original"
   }
 ]

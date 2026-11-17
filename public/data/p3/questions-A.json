@@ -99,5 +99,109 @@
       "Sai. Quan hệ không thay thế các cuộc họp chính thức.",
       "Đúng. GIAS 11.1: xây dựng lòng tin, hiểu nhu cầu và trao đổi hiệu quả."
     ]
+  },
+  {
+    "id": "P3-A-N01",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 1,
+    "stem": "Ngân sách hằng năm của chức năng kiểm toán nội bộ, gồm cả chi phí đào tạo và công cụ, phải được ai phê duyệt?",
+    "options": [
+      "Tổng Giám đốc, vì ngân sách là một phần kế hoạch tài chính chung của công ty.",
+      "Giám đốc tài chính, người mà CAE báo cáo hành chính và quản lý chi phí.",
+      "HĐQT (thường qua Ủy ban Kiểm toán), sau khi CAE xây dựng và trình duyệt.",
+      "Chính CAE, vì CAE chịu trách nhiệm quản lý nguồn lực tài chính của chức năng."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 10.1 yêu cầu CAE xây dựng ngân sách đủ để thực hiện chiến lược và kế hoạch kiểm toán, quản lý hoạt động theo ngân sách và phải trình HĐQT phê duyệt ngân sách. Để Ban điều hành quyết định ngân sách sẽ tạo cơ hội giới hạn nguồn lực, làm ảnh hưởng tính độc lập.",
+    "optionNotes": [
+      "Sai. Tổng Giám đốc có thể góp ý, nhưng GIAS 10.1 yêu cầu ngân sách được HĐQT phê duyệt.",
+      "Sai. Quan hệ báo cáo hành chính không trao quyền phê duyệt ngân sách kiểm toán nội bộ.",
+      "Đúng. CAE xây dựng ngân sách và phải trình HĐQT phê duyệt (GIAS 10.1).",
+      "Sai. CAE quản lý ngân sách nhưng không tự phê duyệt; quyền phê duyệt thuộc HĐQT."
+    ],
+    "refs": [
+      "GIAS 10.1",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-N02",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "HĐQT đã duyệt ngân sách mua phần mềm phân tích dữ liệu sẽ kết nối trực tiếp vào hệ thống ERP để kiểm tra toàn bộ giao dịch. Trước khi đưa phần mềm vào sử dụng, CAE nên làm gì trước tiên?",
+    "options": [
+      "Phối hợp với bộ phận CNTT và an ninh thông tin để thiết lập kết nối, phân quyền truy cập an toàn.",
+      "Cho chạy thử ngay trên dữ liệu thật của một cuộc kiểm toán đang làm để chứng minh hiệu quả.",
+      "Giao mỗi kiểm toán viên tự cài đặt và kết nối phần mềm từ máy của mình để chủ động hơn.",
+      "Báo cáo HĐQT về lợi ích của phần mềm, rồi để nhà cung cấp tự kết nối vào hệ thống ERP."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 10.3 yêu cầu CAE phối hợp với chức năng CNTT và an ninh thông tin để triển khai nguồn lực công nghệ đúng cách, và tổ chức đào tạo phù hợp khi đưa công nghệ mới vào sử dụng. Công cụ kết nối thẳng vào ERP có rủi ro về bảo mật và toàn vẹn dữ liệu, nên phối hợp kỹ thuật phải đi trước việc sử dụng.",
+    "optionNotes": [
+      "Đúng. GIAS 10.3 yêu cầu phối hợp với CNTT và an ninh thông tin khi triển khai công nghệ.",
+      "Sai. Chạy thử trên dữ liệu thật trước khi thiết lập kết nối và phân quyền an toàn tạo rủi ro cho hệ thống.",
+      "Sai. Kết nối phân tán, không kiểm soát làm tăng rủi ro bảo mật; triển khai cần thống nhất và có phối hợp.",
+      "Sai. Báo cáo HĐQT không thay việc phối hợp kỹ thuật; để nhà cung cấp tự kết nối là thiếu kiểm soát."
+    ],
+    "refs": [
+      "GIAS 10.3",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-N03",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 1,
+    "stem": "CAE phải định kỳ rà soát chiến lược kiểm toán nội bộ cùng với những ai?",
+    "options": [
+      "Tổng Giám đốc, người phụ trách quan hệ báo cáo hành chính của CAE.",
+      "Nhóm đánh giá chất lượng bên ngoài trong mỗi lần đánh giá năm năm.",
+      "HĐQT và Ban điều hành cấp cao, những bên mà chiến lược phải đáp ứng kỳ vọng.",
+      "Trưởng các đơn vị được kiểm toán nhiều nhất trong năm trước."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 9.2 yêu cầu CAE xây dựng chiến lược phù hợp với kỳ vọng của HĐQT, Ban điều hành cấp cao và các bên liên quan chính, và phải định kỳ rà soát chiến lược với HĐQT và Ban điều hành cấp cao.",
+    "optionNotes": [
+      "Sai. Chỉ rà soát với Tổng Giám đốc là thiếu HĐQT, bên mà chức năng chịu trách nhiệm trực tiếp.",
+      "Sai. Đánh giá chất lượng bên ngoài có thể góp ý, nhưng không phải bên cùng rà soát chiến lược theo yêu cầu.",
+      "Đúng. GIAS 9.2 yêu cầu rà soát chiến lược định kỳ với HĐQT và Ban điều hành cấp cao.",
+      "Sai. Đơn vị được kiểm toán là bên liên quan cần hiểu kỳ vọng, nhưng không phải bên rà soát chiến lược."
+    ],
+    "refs": [
+      "GIAS 9.2",
+      "CIA Part 3 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-N04",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Kế hoạch xây dựng quan hệ của CAE mới chỉ gồm các buổi họp định kỳ với HĐQT và Ban điều hành cấp cao. Thiếu sót đáng kể nhất của kế hoạch này là gì?",
+    "options": [
+      "Bỏ sót quản lý cấp tác nghiệp, cơ quan quản lý và các bên cung cấp dịch vụ đảm bảo trong, ngoài tổ chức.",
+      "Chưa có lịch họp riêng với từng thành viên HĐQT ngoài các phiên họp chính thức của Ủy ban Kiểm toán.",
+      "Chưa đưa các khách hàng lớn và nhà cung cấp chiến lược vào danh sách đối tượng cần trao đổi thường xuyên.",
+      "Chưa giao cho từng kiểm toán viên chỉ tiêu số cuộc gặp gỡ với đơn vị được kiểm toán trong mỗi quý."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 11.1 yêu cầu CAE có cách tiếp cận xây dựng quan hệ và niềm tin với các bên liên quan chính, gồm HĐQT, Ban điều hành cấp cao, quản lý cấp tác nghiệp, cơ quan quản lý, các bên cung cấp dịch vụ đảm bảo trong và ngoài tổ chức và các nhà tư vấn khác.",
+    "optionNotes": [
+      "Đúng. GIAS 11.1 nêu cụ thể các nhóm này trong danh sách bên liên quan chính.",
+      "Sai. Trao đổi riêng với HĐQT là hữu ích, nhưng thiếu sót lớn hơn là bỏ sót cả nhóm bên liên quan chính.",
+      "Sai. Khách hàng và nhà cung cấp không thuộc nhóm bên liên quan chính mà GIAS 11.1 liệt kê.",
+      "Sai. Chỉ tiêu số cuộc gặp là cách đo hình thức, không khắc phục việc bỏ sót các bên liên quan chính."
+    ],
+    "refs": [
+      "GIAS 11.1",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
   }
 ]

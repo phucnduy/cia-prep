@@ -750,5 +750,157 @@
       "CIA Part 2 B.8"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-B-N01",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 1,
+    "stem": "Khi tìm hiểu quy trình, kiểm toán viên lập ma trận phân công trách nhiệm (RACI) cho từng bước. Công cụ này giúp nhận diện điều gì rõ nhất?",
+    "options": [
+      "Thời gian xử lý trung bình của mỗi bước và các điểm gây tắc nghẽn quy trình.",
+      "Mức độ tuân thủ của quy trình so với chuẩn mực kế toán đang áp dụng.",
+      "Các giao dịch có số tiền bất thường so với xu hướng của các kỳ trước.",
+      "Xung đột trong phân công, như cùng một người vừa thực hiện vừa phê duyệt."
+    ],
+    "answer": 3,
+    "explanation": "Ma trận RACI ghi ai thực hiện, ai chịu trách nhiệm cuối cùng, ai được hỏi ý kiến và ai được thông báo ở từng bước. Nhờ đó kiểm toán viên thấy được xung đột phân chia nhiệm vụ hoặc bước không có người chịu trách nhiệm. Đây là kiến thức chung về phân tích quy trình theo đề cương CIA Part 2 B.4.",
+    "optionNotes": [
+      "Sai. Thời gian xử lý và điểm nghẽn thường thấy qua lưu đồ hoặc dữ liệu vận hành, không phải RACI.",
+      "Sai. RACI không đánh giá việc tuân thủ chuẩn mực kế toán.",
+      "Sai. Giao dịch bất thường được phát hiện bằng phân tích dữ liệu hoặc thủ tục phân tích.",
+      "Đúng. RACI cho thấy vai trò của từng người, nên phát hiện được xung đột phân chia nhiệm vụ."
+    ],
+    "refs": [
+      "CIA Part 2 B.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-N02",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 2,
+    "stem": "Tỷ lệ hàng bị trả lại trong quý 3 tăng gấp đôi. Kiểm toán viên kết hợp dữ liệu lô sản xuất, nhà vận chuyển và lý do trả hàng để tìm vì sao tỷ lệ này tăng. Đây là loại phân tích nào?",
+    "options": [
+      "Phân tích chẩn đoán, tìm nguyên nhân dẫn đến kết quả đã xảy ra.",
+      "Phân tích đề xuất, đưa ra phương án xử lý tối ưu cho Ban điều hành.",
+      "Phân tích dự báo, ước tính tỷ lệ hàng trả lại của các quý tiếp theo.",
+      "Phân tích mô tả, chỉ tổng hợp số lượng hàng trả lại theo từng tháng."
+    ],
+    "answer": 0,
+    "explanation": "Phân tích chẩn đoán trả lời câu hỏi 'vì sao điều này đã xảy ra' bằng cách liên kết nhiều nguồn dữ liệu để tìm nguyên nhân. Phân tích dự báo ước tính điều có thể xảy ra, còn phân tích đề xuất gợi ý nên làm gì. Đây là kiến thức chung về phân tích dữ liệu theo đề cương CIA Part 2 B.4.",
+    "optionNotes": [
+      "Đúng. Tìm 'vì sao' bằng cách kết hợp dữ liệu là phân tích chẩn đoán.",
+      "Sai. Đề xuất phương án là bước sau khi đã hiểu nguyên nhân.",
+      "Sai. Dự báo hướng tới tương lai; tình huống đang tìm nguyên nhân của điều đã xảy ra.",
+      "Sai. Kiểm toán viên không chỉ tổng hợp mà đang tìm nguyên nhân."
+    ],
+    "refs": [
+      "CIA Part 2 B.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-N03",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 3,
+    "stem": "Nhóm kiểm toán nhận dữ liệu bán hàng ba năm từ hai hệ thống có định dạng mã khách hàng và ngày tháng khác nhau. Mục tiêu là tìm hóa đơn trùng lặp. Trước khi chạy phép kiểm tra trùng, nhóm nên làm gì trước tiên?",
+    "options": [
+      "Chạy phép kiểm tra trùng ngay trên dữ liệu gốc, rồi làm sạch những dòng bị báo lỗi.",
+      "Đối chiếu tổng số dòng, tổng tiền với hệ thống nguồn và chuẩn hóa định dạng dữ liệu.",
+      "Gửi kết quả sơ bộ cho Ban điều hành để họ xác nhận các hóa đơn có thể bị trùng.",
+      "Chỉ dùng dữ liệu của hệ thống lớn hơn để tránh phải xử lý khác biệt về định dạng."
+    ],
+    "answer": 1,
+    "explanation": "Quy trình phân tích dữ liệu gồm xác định mục tiêu, lấy dữ liệu phù hợp, chuẩn hóa và làm sạch dữ liệu, phân tích, rồi trao đổi kết quả. Với hai nguồn khác định dạng, cần kiểm tra tính đầy đủ, chính xác so với nguồn và chuẩn hóa trước, nếu không phép kiểm tra trùng sẽ bỏ sót hoặc báo sai. GIAS 14.1 yêu cầu thông tin dùng cho phân tích phải đáng tin cậy.",
+    "optionNotes": [
+      "Sai. Khác định dạng làm phép kiểm tra bỏ sót trùng lặp thật; làm sạch phải đi trước.",
+      "Đúng. Kiểm tra tính đầy đủ và chuẩn hóa dữ liệu là bước trước phân tích.",
+      "Sai. Chưa có kết quả đáng tin cậy để gửi; dữ liệu chưa được kiểm tra và chuẩn hóa.",
+      "Sai. Bỏ một hệ thống làm mất phạm vi, có thể bỏ sót chính các hóa đơn trùng giữa hai hệ thống."
+    ],
+    "refs": [
+      "CIA Part 2 B.4",
+      "GIAS 14.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-N04",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "Trưởng phòng Tín dụng cho chạy báo cáo ngoại lệ hằng ngày về các khoản vay giải ngân vượt hạn mức và tự xử lý từng cảnh báo. Hoạt động này được gọi chính xác là gì?",
+    "options": [
+      "Kiểm toán liên tục do kiểm toán nội bộ thực hiện.",
+      "Module kiểm toán nhúng trong hệ thống tín dụng.",
+      "Giám sát liên tục, một hoạt động của Ban điều hành.",
+      "Tự động hóa quy trình bằng robot của kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "Giám sát liên tục là hoạt động của Ban điều hành nhằm theo dõi việc kiểm soát vận hành đúng, còn kiểm toán liên tục là kiểm toán viên kiểm tra giao dịch gần thời gian thực để phục vụ đảm bảo. Ở đây người vận hành và xử lý cảnh báo là trưởng phòng Tín dụng. Đây là kiến thức chung về công nghệ kiểm toán theo đề cương CIA Part 2 B.3.",
+    "optionNotes": [
+      "Sai. Kiểm toán liên tục do kiểm toán viên thực hiện, không phải do quản lý nghiệp vụ.",
+      "Sai. Module kiểm toán nhúng là đoạn chương trình ghi lại giao dịch để kiểm toán viên rà soát.",
+      "Đúng. Quản lý tự theo dõi và xử lý ngoại lệ là giám sát liên tục.",
+      "Sai. Tình huống không nói đến robot thực hiện các bước lặp lại thay con người."
+    ],
+    "refs": [
+      "CIA Part 2 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-N05",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 1,
+    "stem": "Khi thực hiện thủ tục phân tích, kiểm toán viên tính vòng quay hàng tồn kho của ba năm. Tỷ số này thuộc nhóm nào?",
+    "options": [
+      "Tỷ số thanh khoản.",
+      "Tỷ số đòn bẩy.",
+      "Tỷ số khả năng sinh lời.",
+      "Tỷ số hiệu quả hoạt động."
+    ],
+    "answer": 3,
+    "explanation": "Vòng quay hàng tồn kho (giá vốn hàng bán chia hàng tồn kho bình quân) đo mức độ sử dụng tài sản hiệu quả, nên thuộc nhóm tỷ số hiệu quả hoạt động. Đây là kiến thức chung về thủ tục phân tích theo đề cương CIA Part 2 B.5.",
+    "optionNotes": [
+      "Sai. Tỷ số thanh khoản (ví dụ tỷ số thanh toán hiện hành) đo khả năng trả nợ ngắn hạn.",
+      "Sai. Tỷ số đòn bẩy (ví dụ nợ trên vốn chủ sở hữu) đo cơ cấu vốn.",
+      "Sai. Tỷ số khả năng sinh lời (ví dụ biên lợi nhuận) đo lợi nhuận so với doanh thu hoặc vốn.",
+      "Đúng. Vòng quay hàng tồn kho đo hiệu quả sử dụng tài sản."
+    ],
+    "refs": [
+      "CIA Part 2 B.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-N06",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 2,
+    "stem": "Chi phí điện của nhà máy năm nay tăng 30% trong khi số giờ máy chạy giảm 10% và giá điện không đổi. Kiểm toán viên nên nhìn nhận kết quả phân tích này như thế nào?",
+    "options": [
+      "Coi đây là biến động bất hợp lý cần điều tra nguyên nhân, chưa phải kết luận.",
+      "Bỏ qua vì số giờ máy chạy là dữ liệu phi tài chính, không đủ làm bằng chứng.",
+      "Kết luận ngay có gian lận về chi phí điện và đưa vào báo cáo kiểm toán.",
+      "Chấp nhận vì chi phí điện vẫn nằm trong tổng ngân sách sản xuất được duyệt."
+    ],
+    "answer": 0,
+    "explanation": "Thủ tục phân tích so sánh số liệu với kỳ vọng, có thể dùng cả dữ liệu tài chính và phi tài chính. Mối quan hệ bất hợp lý giữa chi phí điện và giờ máy chạy là tín hiệu cần điều tra (hỏi nguyên nhân, chứng thực giải trình, kiểm tra chứng từ), chưa đủ để kết luận sai phạm. Đây là kiến thức chung theo đề cương CIA Part 2 B.5; GIAS 14.2 yêu cầu phân tích thông tin phù hợp, đáng tin cậy, đầy đủ để hình thành phát hiện, và cân nhắc phân tích bổ sung khi phân tích ban đầu chưa đủ bằng chứng.",
+    "optionNotes": [
+      "Đúng. Biến động bất hợp lý là tín hiệu cần điều tra, chưa phải kết luận.",
+      "Sai. Dữ liệu phi tài chính giúp tạo kỳ vọng hợp lý cho thủ tục phân tích.",
+      "Sai. Biến động bất thường chỉ là tín hiệu; cần điều tra trước khi kết luận.",
+      "Sai. Nằm trong tổng ngân sách không giải thích được mối quan hệ bất hợp lý giữa hai chỉ số."
+    ],
+    "refs": [
+      "CIA Part 2 B.5",
+      "GIAS 14.2"
+    ],
+    "source": "original"
   }
 ]
