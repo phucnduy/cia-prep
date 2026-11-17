@@ -40,6 +40,7 @@ User decision, 2026-11-17: use the Vietnamese professional terms of Nghị đị
 - Keep "Ban điều hành" for senior management, "hữu hiệu" for effective (internal control), "kiểm toán viên nội bộ" for internal auditor; all are established Vietnamese usage. The decree's "người làm công tác kiểm toán nội bộ" may be used when quoting the decree.
 - "Dựa trên rủi ro" and the decree's "định hướng theo rủi ro" are both acceptable for risk-based.
 - "Điều lệ" is correct only for a company's charter (Điều lệ công ty, vốn điều lệ).
+- "Kiến nghị" is the audit result. For IIA Global Guidance (non-mandatory), write "hướng dẫn tham khảo, không bắt buộc", not "kiến nghị"; the validator rejects "khuyến nghị" everywhere.
 
 ## 2. Exam style (follow IIA's official sample questions)
 
