@@ -97,6 +97,12 @@ describe('term games', () => {
     }
   });
 
+  test('guessRounds never asks a definition that contains its own term', () => {
+    const leaky = [...pool, { term: 'Risk', vi: 'Rủi ro', def: 'Rủi ro là khả năng...', section: 'A' }];
+    const asked = guessRounds(leaky, 20, 1).map((r) => r.answer.term);
+    expect(asked).not.toContain('Risk');
+  });
+
   test('matchBoard pairs the same terms on both sides', () => {
     const board = matchBoard(pool, 4, 3);
     expect(board.left).toHaveLength(4);

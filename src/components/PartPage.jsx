@@ -13,11 +13,13 @@ import Bank from './Bank.jsx';
 import Session from './Session.jsx';
 import Results from './Results.jsx';
 import Diagnostic from './Diagnostic.jsx';
+import QuickReview from './QuickReview.jsx';
 
 const TABS = [
   ['overview', 'Tổng quan'],
   ['study', 'Học lý thuyết'],
   ['cards', 'Thẻ ghi nhớ'],
+  ['review', 'Ôn nhanh'],
   ['progress', 'Tiến độ'],
   ['bank', 'Ngân hàng câu hỏi'],
   ['history', 'Lịch sử làm bài'],
@@ -47,7 +49,7 @@ export default function PartPage({ index, manifest, route }) {
 
   return (
     <div className="container">
-      <div className="part-head">
+      <div className="part-head no-print">
         <div>
           <div className="eyebrow">
             {manifest.code} · {manifest.title}
@@ -62,7 +64,7 @@ export default function PartPage({ index, manifest, route }) {
         <StatusBadge status={manifest.status} />
       </div>
 
-      <nav className="tabs" aria-label="Chức năng">
+      <nav className="tabs no-print" aria-label="Chức năng">
         {TABS.map(([id, label]) => (
           <a
             key={id}
@@ -82,6 +84,7 @@ export default function PartPage({ index, manifest, route }) {
       {route.view === 'diagnostic' && <Diagnostic index={index} manifest={manifest} data={data} />}
       {route.view === 'study' && <Study manifest={manifest} data={data} topicId={route.arg} />}
       {route.view === 'cards' && <Flashcards manifest={manifest} data={data} />}
+      {route.view === 'review' && <QuickReview manifest={manifest} data={data} mode={route.arg} />}
       {route.view === 'progress' && <Progress index={index} manifest={manifest} data={data} />}
       {route.view === 'bank' && <Bank manifest={manifest} data={data} onChange={reload} />}
       {route.view === 'history' && <History manifest={manifest} />}

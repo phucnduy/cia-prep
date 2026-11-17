@@ -116,7 +116,12 @@ export function termPool(lessons, manifest) {
  */
 export function guessRounds(terms, count, seed) {
   const rng = createRng(seed);
-  const picked = shuffle(terms, rng).slice(0, count);
+  // A definition that names its own term gives the answer away; never ask it.
+  const fair = terms.filter((t) => {
+    const def = t.def.toLowerCase();
+    return !def.includes(t.term.toLowerCase()) && !(t.vi && def.includes(t.vi.toLowerCase()));
+  });
+  const picked = shuffle(fair, rng).slice(0, count);
   return picked.map((answer) => {
     const others = terms.filter((t) => t.term !== answer.term);
     const same = shuffle(others.filter((t) => t.section === answer.section), rng);
