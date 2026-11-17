@@ -57,6 +57,23 @@ export default function Home({ index }) {
         <Icon name="arrow" />
       </a>
 
+      <section className="home-diag" aria-labelledby="home-diag-title">
+        <span className="diag-link-icon" aria-hidden="true">
+          <Icon name="target" size={22} />
+        </span>
+        <div>
+          <h2 id="home-diag-title">Chưa biết bắt đầu từ đâu?</h2>
+          <p className="subtle">Làm bài chẩn đoán 12 câu (khoảng 14 phút, không cần đăng ký) để biết phần nào cần học trước.</p>
+        </div>
+        <div className="row">
+          {index.manifests.map((m) => (
+            <a key={m.id} className="btn btn-sm btn-ghost" href={`#/${m.id}/diagnostic`}>
+              Chẩn đoán {m.code}
+            </a>
+          ))}
+        </div>
+      </section>
+
       <section className="parts" aria-label="Các phần thi">
         {index.manifests.map((m, i) => {
           const history = load(keys.history(m.id), []);

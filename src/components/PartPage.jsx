@@ -1,16 +1,18 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { countBySection, loadPart } from '../lib/data.js';
-import { buildExam, buildItems, shuffle } from '../lib/exam.js';
+import { buildExam } from '../lib/exam.js';
 import { keys, load, save } from '../lib/storage.js';
 import { newSeed, startSession } from '../lib/session.js';
-import { SectionIcon, StatusBadge, sectionColor } from './ui.jsx';
+import { Icon, SectionIcon, StatusBadge, sectionColor } from './ui.jsx';
 import Study from './Study.jsx';
 import Progress from './Progress.jsx';
 import Flashcards from './Flashcards.jsx';
 import { startWeakPractice } from '../lib/adaptive.js';
+import { POOL_FILTERS, filterPool } from '../lib/practice.js';
 import Bank from './Bank.jsx';
 import Session from './Session.jsx';
 import Results from './Results.jsx';
+import Diagnostic from './Diagnostic.jsx';
 
 const TABS = [
   ['overview', 'Tổng quan'],
@@ -22,6 +24,7 @@ const TABS = [
 ];
 
 const PRACTICE_SIZES = [10, 20, 40];
+const POOL_LABEL = { new: 'chưa làm', wrong: 'đã làm sai' };
 const MINI_EXAM_SIZE = 50;
 
 export default function PartPage({ index, manifest, route }) {
@@ -64,7 +67,11 @@ export default function PartPage({ index, manifest, route }) {
           <a
             key={id}
             href={id === 'overview' ? `#/${manifest.id}` : `#/${manifest.id}/${id}`}
-            aria-current={route.view === id || (route.view === 'result' && id === 'history') ? 'page' : undefined}
+            aria-current={
+              route.view === id || (route.view === 'result' && id === 'history') || (route.view === 'diagnostic' && id === 'overview')
+                ? 'page'
+                : undefined
+            }
           >
             {label}
           </a>
@@ -72,6 +79,7 @@ export default function PartPage({ index, manifest, route }) {
       </nav>
 
       {route.view === 'overview' && <Overview index={index} manifest={manifest} data={data} />}
+      {route.view === 'diagnostic' && <Diagnostic index={index} manifest={manifest} data={data} />}
       {route.view === 'study' && <Study manifest={manifest} data={data} topicId={route.arg} />}
       {route.view === 'cards' && <Flashcards manifest={manifest} data={data} />}
       {route.view === 'progress' && <Progress index={index} manifest={manifest} data={data} />}
@@ -86,12 +94,18 @@ function Overview({ index, manifest, data }) {
   const counts = useMemo(() => countBySection(data.questions), [data.questions]);
   const active = load(keys.activeSession(manifest.id), null);
   const wrongBook = load(keys.wrong(manifest.id), {});
-  const wrongIds = Object.keys(wrongBook).filter((id) => data.byId[id]);
   const fullReady = data.questions.length >= manifest.questionCount;
 
   const [sections, setSections] = useState(manifest.sections.map((s) => s.id));
   const [size, setSize] = useState(20);
-  const practicePool = data.questions.filter((q) => sections.includes(q.section)).length;
+  const [poolFilter, setPoolFilter] = useState('all');
+  const history = load(keys.history(manifest.id), []);
+  const pool = filterPool(data.questions, poolFilter, { history, wrong: wrongBook });
+  const poolSizes = Object.fromEntries(
+    POOL_FILTERS.map(([id]) => [id, filterPool(data.questions, id, { history, wrong: wrongBook }).length]),
+  );
+  const sectionCounts = countBySection(pool);
+  const practicePool = pool.filter((q) => sections.includes(q.section)).length;
 
   const toggleSection = (id) =>
     setSections((cur) => (cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id]));
@@ -122,7 +136,7 @@ function Overview({ index, manifest, data }) {
   const startPractice = () => {
     const seed = newSeed();
     const items = buildExam({
-      questions: data.questions,
+      questions: pool,
       sections: manifest.sections,
       count: size,
       seed,
@@ -132,25 +146,8 @@ function Overview({ index, manifest, data }) {
     startSession(manifest, {
       id: `${Date.now()}`,
       mode: 'practice',
-      title: `Luyện tập ${items.length} câu · Phần ${sections.join(', ')}`,
+      title: `Luyện tập ${items.length} câu${poolFilter === 'all' ? '' : ` ${POOL_LABEL[poolFilter]}`} · Phần ${sections.join(', ')}`,
       items,
-      answers: {},
-      flags: {},
-      struck: {},
-      checked: {},
-      current: 0,
-      startedAt: Date.now(),
-      deadline: null,
-    });
-  };
-
-  const startWrong = () => {
-    const list = shuffle(wrongIds.map((id) => data.byId[id])).slice(0, 40);
-    startSession(manifest, {
-      id: `${Date.now()}`,
-      mode: 'practice',
-      title: `Ôn ${list.length} câu đã làm sai`,
-      items: buildItems(list, newSeed()),
       answers: {},
       flags: {},
       struck: {},
@@ -227,6 +224,17 @@ function Overview({ index, manifest, data }) {
           )}
         </section>
 
+        <a className="diag-link" href={`#/${manifest.id}/diagnostic`}>
+          <span className="diag-link-icon">
+            <Icon name="target" size={20} />
+          </span>
+          <span>
+            <b>Mới bắt đầu? Làm bài chẩn đoán 12 câu</b>
+            <span className="subtle">Khoảng 14 phút, biết ngay phần nào cần học trước.</span>
+          </span>
+          <Icon name="arrow" size={18} />
+        </a>
+
         <section className="panel" aria-labelledby="practice-title">
           <h3 id="practice-title">Luyện tập theo chuyên đề</h3>
           <p className="subtle" style={{ margin: 0 }}>
@@ -243,7 +251,17 @@ function Overview({ index, manifest, data }) {
                     aria-pressed={sections.includes(s.id)}
                     onClick={() => toggleSection(s.id)}
                   >
-                    {s.id}. {s.nameVi} ({counts[s.id] || 0})
+                    {s.id}. {s.nameVi} ({sectionCounts[s.id] || 0})
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div>
+              <span className="field-label">Nguồn câu hỏi</span>
+              <div className="chips">
+                {POOL_FILTERS.map(([id, label]) => (
+                  <button key={id} className="chip" aria-pressed={poolFilter === id} onClick={() => setPoolFilter(id)}>
+                    {label} ({poolSizes[id]})
                   </button>
                 ))}
               </div>
@@ -261,9 +279,6 @@ function Overview({ index, manifest, data }) {
             <div className="row">
               <button className="btn btn-primary" onClick={startPractice} disabled={!sections.length || !practicePool}>
                 Bắt đầu luyện ({Math.min(size, practicePool)} câu)
-              </button>
-              <button className="btn btn-ghost" onClick={startWrong} disabled={!wrongIds.length}>
-                Ôn câu sai ({wrongIds.length})
               </button>
               <button className="btn btn-accent" onClick={() => startWeakPractice(manifest, data)} disabled={!data.questions.length}>
                 Luyện điểm yếu (20 câu)

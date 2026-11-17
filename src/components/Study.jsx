@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { buildItems, shuffle } from '../lib/exam.js';
 import { keys, load, save } from '../lib/storage.js';
 import { newSeed, practiceSession, startSession, topicStats } from '../lib/session.js';
-import { Icon, SectionIcon, sectionColor } from './ui.jsx';
+import { DifficultyMix, Icon, SectionIcon, sectionColor } from './ui.jsx';
 
 const TOPIC_PRACTICE_SIZE = 10;
 
@@ -99,7 +99,7 @@ export default function Study({ manifest, data, topicId }) {
             manifest={manifest}
             topic={topic}
             lesson={lessons[topic.id]}
-            questionCount={(questionsByTopic[topic.id] || []).length}
+            questions={questionsByTopic[topic.id] || []}
             stat={stats[topic.id]}
             learned={!!learned[topic.id]}
             onToggleLearned={() => toggleLearned(topic.id)}
@@ -190,7 +190,8 @@ function SectionOverview({ manifest, section, lessons, questionsByTopic, stats, 
   );
 }
 
-function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggleLearned, onPractice, prev, next }) {
+function Lesson({ manifest, topic, lesson, questions, stat, learned, onToggleLearned, onPractice, prev, next }) {
+  const questionCount = questions.length;
   return (
     <article className="lesson">
       <header className="lesson-head">
@@ -209,6 +210,7 @@ function Lesson({ manifest, topic, lesson, questionCount, stat, learned, onToggl
       <div className="lesson-actions">
         <div>
           <b>{questionCount} câu hỏi</b> về chủ đề này
+          {questionCount > 0 && <DifficultyMix questions={questions} />}
           <span className="subtle" style={{ display: 'block' }}>
             {accuracyLabel(stat)}
           </span>

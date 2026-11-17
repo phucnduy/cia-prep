@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { formatClock, scoreAttempt } from '../lib/exam.js';
 import { keys, load, pushHistory, save, updateWrongBook } from '../lib/storage.js';
-import { Icon, LETTERS } from './ui.jsx';
+import { DifficultyTag, Icon, LETTERS } from './ui.jsx';
 import Calculator from './Calculator.jsx';
+import LiveAccuracy from './LiveAccuracy.jsx';
 
 const LOW_TIME_SECONDS = 5 * 60;
 
@@ -27,7 +28,8 @@ export default function Session({ index, manifest, data }) {
     if (session) save(keys.activeSession(manifest.id), session);
   }, [session, manifest.id]);
 
-  const isExam = session?.mode === 'exam';
+  // Exams and the diagnostic are timed and feedback-free until submission.
+  const isExam = !!session && session.mode !== 'practice';
   const remaining = isExam ? Math.round((session.deadline - now) / 1000) : null;
 
   const finish = useCallback(
@@ -172,11 +174,12 @@ export default function Session({ index, manifest, data }) {
         </div>
       </div>
 
-      <div className="console-body">
+      <div className={`console-body ${isExam ? '' : 'with-live'}`}>
         <div className="question-wrap">
           <div className="q-head">
             <span className="q-num">Câu {session.current + 1}</span>
             {!isExam && <span className="tag">Phần {question.section} · {sectionMeta?.nameVi}</span>}
+            {!isExam && <DifficultyTag level={question.difficulty} />}
             {session.flags[item.qid] && <span className="tag" style={{ background: 'var(--flag-soft)', color: 'var(--flag)' }}>Đã đánh dấu</span>}
           </div>
           <p className="q-stem">{question.stem}</p>
@@ -252,6 +255,7 @@ export default function Session({ index, manifest, data }) {
             </div>
           )}
         </div>
+        {!isExam && <LiveAccuracy manifest={manifest} session={session} byId={data.byId} />}
       </div>
 
       <div className="console-bottom">

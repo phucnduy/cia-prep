@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
 import { keys, load } from '../lib/storage.js';
 import { formatClock } from '../lib/exam.js';
-import { LETTERS, SectionChip, sectionColor } from './ui.jsx';
+import { readinessBand } from '../lib/practice.js';
+import { DifficultyTag, LETTERS, SectionChip, sectionColor } from './ui.jsx';
 
 const FILTERS = [
   ['wrong', 'Câu sai / bỏ trống'],
@@ -22,6 +23,8 @@ export default function Results({ index, manifest, data, attemptId }) {
 
   const { score } = attempt;
   const target = index.practicePassPercent;
+  const isDiag = attempt.mode === 'diagnostic';
+  const band = isDiag ? readinessBand(score.percent, target) : null;
   const circumference = 2 * Math.PI * 70;
   const rows = attempt.items
     .map((it, i) => ({ it, i, q: data.byId[it.qid] }))
@@ -59,10 +62,18 @@ export default function Results({ index, manifest, data, attemptId }) {
           </div>
         </div>
         <div>
-          <div className="eyebrow">{attempt.mode === 'exam' ? 'Kết quả thi thử' : 'Kết quả luyện tập'}</div>
+          <div className="eyebrow">
+            {isDiag ? 'Kết quả bài chẩn đoán' : attempt.mode === 'exam' ? 'Kết quả thi thử' : 'Kết quả luyện tập'}
+          </div>
           <h2 className="verdict" style={{ marginTop: 6 }}>
-            {attempt.passed ? 'Đạt mục tiêu luyện tập' : 'Chưa đạt mục tiêu'} ({target}%)
+            {isDiag ? band.label : `${attempt.passed ? 'Đạt mục tiêu luyện tập' : 'Chưa đạt mục tiêu'} (${target}%)`}
           </h2>
+          {isDiag && (
+            <p className="muted" style={{ margin: '8px 0 0', maxWidth: '62ch' }}>
+              {band.text} Bài chỉ có {score.total} câu nên mỗi câu chiếm khoảng {Math.round(100 / score.total)}% điểm; đây là tín
+              hiệu định hướng, không phải dự đoán điểm thi.
+            </p>
+          )}
           <p className="muted" style={{ margin: '8px 0 16px' }}>
             {attempt.title} · {formatClock(attempt.durationSec)} · {score.answered}/{score.total} câu đã trả lời
             {attempt.reason === 'timeout' ? ' · hết giờ, bài tự động nộp' : ''}
@@ -127,11 +138,11 @@ export default function Results({ index, manifest, data, attemptId }) {
               .slice(0, 2)
               .map((s) => (
                 <li key={s.id}>
-                  Phần {s.id} ({s.nameVi}) đang yếu nhất. Đọc lại thẻ kiến thức ở mục{' '}
-                  <a href={`#/${manifest.id}/study`}>Học lý thuyết</a> rồi luyện riêng phần này.
+                  Phần {s.id} ({s.nameVi}) đang yếu nhất. Đọc lại{' '}
+                  <a href={`#/${manifest.id}/study/${s.id}`}>bài học phần {s.id}</a> rồi luyện riêng phần này.
                 </li>
               ))}
-            <li>Các câu sai đã được thêm vào mục &quot;Ôn câu sai&quot; ở trang tổng quan.</li>
+            <li>Các câu sai đã được lưu. Ở trang tổng quan, chọn nguồn &quot;Làm sai&quot; trong Luyện tập để ôn lại.</li>
           </ul>
         </section>
       </div>
@@ -157,6 +168,7 @@ export default function Results({ index, manifest, data, attemptId }) {
               <div className="row">
                 <span className="tag">Câu {i + 1}</span>
                 <span className="tag">Phần {q.section}</span>
+                <DifficultyTag level={q.difficulty} />
                 {given === undefined && <span className="pill pill-bad">Bỏ trống</span>}
                 {given !== undefined && given !== q.answer && <span className="pill pill-bad">Sai</span>}
                 {given === q.answer && <span className="pill pill-ok">Đúng</span>}

@@ -1,4 +1,5 @@
 // Small shared UI pieces: icons, section colors, status badge.
+import { DIFFICULTY, difficultyCounts } from '../lib/practice.js';
 
 const PATHS = {
   flag: <path d="M4 22V4m0 0h13l-2 4 2 4H4" />,
@@ -256,6 +257,27 @@ export function Blueprint({ manifest }) {
         <span key={s.id} style={{ width: `${s.weight}%`, background: sectionColor(manifest, s.id) }} />
       ))}
     </div>
+  );
+}
+
+/** Difficulty label for one question (1 easy, 2 medium, 3 hard). */
+export function DifficultyTag({ level }) {
+  const d = DIFFICULTY[level];
+  if (!d) return null;
+  return <span className={`diff diff-${d.tone}`}>{d.label}</span>;
+}
+
+/** Difficulty mix of a question list, e.g. "Dễ 2 · Trung bình 10 · Khó 8". */
+export function DifficultyMix({ questions }) {
+  const counts = difficultyCounts(questions);
+  return (
+    <span className="diff-mix">
+      {[1, 2, 3].map((lv) => (
+        <span key={lv} className={`diff diff-${DIFFICULTY[lv].tone}`}>
+          {DIFFICULTY[lv].label} <b className="mono">{counts[lv]}</b>
+        </span>
+      ))}
+    </span>
   );
 }
 

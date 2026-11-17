@@ -746,3 +746,42 @@ body {
 .part-blueprint { gap: 12px; }
 .legend .section-icon { flex: 0 0 auto; }
 .progress-ring figcaption { font-size: var(--text-sm); font-weight: 600; color: var(--ink); }
+
+/* Difficulty labels */
+.diff { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: 999px; font-size: var(--text-xs); font-weight: 600; white-space: nowrap; }
+.diff-easy { background: color-mix(in oklab, var(--ok) 16%, transparent); color: var(--ok); }
+.diff-medium { background: color-mix(in oklab, var(--gold) 22%, transparent); color: var(--copper); }
+.diff-hard { background: color-mix(in oklab, var(--bad) 14%, transparent); color: var(--bad); }
+.diff-mix { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+
+/* Live accuracy in practice sessions: right column on wide screens, below the question otherwise */
+.console-body.with-live { display: grid; grid-template-columns: minmax(0, 1fr); align-content: start; }
+.live-acc { width: min(820px, 100% - 32px); margin: 0 auto 32px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); font-size: var(--text-sm); }
+.live-acc-head { display: flex; justify-content: space-between; align-items: baseline; font-weight: 600; color: var(--heading); }
+.live-acc-head b { font-size: var(--text-xl); color: var(--copper); }
+.live-acc-sub { margin: 2px 0 10px; font-size: var(--text-xs); }
+.live-acc-sec { padding-top: 10px; border-top: 1px dashed var(--line); margin-top: 10px; }
+.live-acc-row { display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 6px; }
+.live-acc ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 4px; }
+.live-acc li { display: flex; justify-content: space-between; gap: 10px; font-size: var(--text-xs); color: var(--ink-2, var(--ink)); }
+.live-acc li span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.live-acc li .is-miss { color: var(--bad); font-weight: 600; }
+@media (min-width: 1180px) {
+  .console-body.with-live { grid-template-columns: minmax(0, 820px) 280px; justify-content: center; gap: 28px; }
+  .console-body.with-live .question-wrap { margin: 0; width: 100%; }
+  .live-acc { width: auto; margin: clamp(20px, 4vw, 44px) 0 32px; position: sticky; top: 20px; align-self: start; }
+}
+
+/* Diagnostic quiz entry points and intro */
+.diag-link, .home-diag { display: flex; align-items: center; gap: 14px; padding: 14px 18px; margin-bottom: 18px; border: 1px solid var(--line-strong); border-radius: 14px; background: color-mix(in oklab, var(--gold) 10%, var(--surface)); color: var(--ink); text-decoration: none; transition: border-color 150ms, transform 150ms; }
+.diag-link:hover { border-color: var(--gold); transform: translateY(-1px); }
+.diag-link > span:nth-child(2) { flex: 1; display: grid; gap: 2px; }
+.diag-link-icon { flex: none; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; background: var(--gold); color: var(--navy); }
+.home-diag { margin: 0 0 28px; flex-wrap: wrap; }
+.home-diag > div:nth-child(2) { flex: 1 1 280px; }
+.home-diag h2 { font-size: var(--text-lg); margin: 0; }
+.home-diag p { margin: 2px 0 0; }
+.diag-intro { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: start; }
+.diag-facts { list-style: none; padding: 0; margin: 14px 0; display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: var(--text-sm); font-weight: 600; }
+.diag-facts li { display: inline-flex; align-items: center; gap: 6px; color: var(--copper); }
+@media (max-width: 600px) { .diag-intro { grid-template-columns: 1fr; } .diag-art { justify-self: center; } }
