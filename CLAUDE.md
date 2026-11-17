@@ -55,7 +55,7 @@ These are style lessons only. Never copy or paraphrase another site's questions 
 
 - A standard number or "Considerations for Implementation of Standard x.y" in the stem.
 - Throwaway distractors such as "Ten years of experience", "A CPA license", or "guarantees no fraud ever occurs". Replace them with a half-truth or a role confusion.
-- Citing the wrong standard. One site cited 7.1 for disclosing an independence impairment; the disclosure requirement is in GIAS 2.3, which refers to 7.1 only as "See also". Never trust another site's citation without grepping GIAS.
+- Mixing up the two kinds of impairment. Impairments to the **function's independence** (management interference, scope or resource limits, CAE roles beyond auditing) go under **GIAS 7.1**: the CAE confirms independence to the board at least annually and communicates incidents where it may have been impaired. Impairments to an **individual auditor's objectivity** go under **GIAS 2.3**: disclose to the CAE or a supervisor, and to the board when the impairment affects the reliability of results. Grep the Requirements block of the standard before citing; a "See also" cross-reference is not the requirement.
 
 ## 3. Explanations
 
