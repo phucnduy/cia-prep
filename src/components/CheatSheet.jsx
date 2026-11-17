@@ -60,14 +60,13 @@ export default function CheatSheet({ manifest, data }) {
                     </ul>
                   )}
                   {l.terms?.length > 0 && (
-                    <dl className="cheat-terms">
+                    <ul className="cheat-terms">
                       {l.terms.map((term) => (
-                        <div key={term.term}>
-                          <dt>{term.vi}</dt>
-                          <dd>{term.term}</dd>
-                        </div>
+                        <li key={term.term}>
+                          <b>{term.vi}</b> <i>{term.term}</i>
+                        </li>
                       ))}
-                    </dl>
+                    </ul>
                   )}
                   {l.traps?.length > 0 && (
                     <ul className="cheat-traps">

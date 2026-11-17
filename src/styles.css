@@ -799,16 +799,15 @@ body {
 .cheat-section-head span:nth-child(2) { flex: 1; }
 .cheat-section-head b { color: var(--sc); }
 .cheat-grid { columns: 3 300px; column-gap: 14px; }
-.cheat-card { break-inside: avoid; display: inline-block; width: 100%; margin: 0 0 14px; padding: 12px 14px; border: 1px solid var(--line); border-left: 3px solid var(--sc); border-radius: 10px; background: var(--surface); font-size: var(--text-xs); line-height: 1.5; }
+.cheat-card { break-inside: avoid; display: block; width: 100%; margin: 0 0 14px; padding: 12px 14px; border: 1px solid var(--line); border-left: 3px solid var(--sc); border-radius: 10px; background: var(--surface); font-size: var(--text-xs); line-height: 1.5; }
 .cheat-card h4 { margin: 0 0 6px; font-size: var(--text-sm); color: var(--heading); }
 .cheat-card h4 code { color: var(--sc); font-weight: 700; margin-right: 4px; }
 .cheat-summary { margin: 0 0 6px; }
 .cheat-card ul { margin: 0 0 6px; padding-left: 16px; }
 .cheat-card li { margin-bottom: 2px; }
-.cheat-terms { margin: 6px 0; display: grid; gap: 2px; }
-.cheat-terms div { display: flex; gap: 6px; flex-wrap: wrap; }
-.cheat-terms dt { font-weight: 700; color: var(--ink); }
-.cheat-terms dd { margin: 0; color: var(--ink-3); font-style: italic; }
+.cheat-card ul.cheat-terms { list-style: none; padding-left: 0; margin: 6px 0; }
+.cheat-terms b { color: var(--ink); }
+.cheat-terms i { color: var(--ink-3); }
 .cheat-traps { list-style: none; padding-left: 0 !important; }
 .cheat-traps li { padding-left: 16px; position: relative; color: var(--bad); }
 .cheat-traps li::before { content: '!'; position: absolute; left: 4px; font-weight: 800; }
@@ -825,7 +824,7 @@ body {
   .cheat-grid { columns: 3; column-gap: 8px; }
   .cheat-card { background: #fff !important; color: #111 !important; padding: 6px 8px; margin-bottom: 6px; font-size: 7.5pt; line-height: 1.35; border-color: #bbb; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .cheat-card h4 { font-size: 8.5pt; color: #111; }
-  .cheat-terms dd { color: #444; }
+  .cheat-terms i { color: #444; }
   .cheat-section { break-inside: auto; margin-bottom: 8px; }
   .cheat-section-head { font-size: 10pt; color: #111; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .cheat-section-head .section-icon { display: none; }
