@@ -1708,7 +1708,7 @@
     "id": "P1-A-N05",
     "section": "A",
     "topic": "A4",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Về số bên tham gia, điểm khác biệt điển hình giữa dịch vụ đảm bảo và dịch vụ tư vấn của kiểm toán nội bộ là gì?",
     "options": [
       "Đảm bảo thường có ba bên (thêm người sử dụng kết quả); tư vấn có hai bên.",
@@ -3030,21 +3030,21 @@
     "id": "P1-A-M10",
     "section": "A",
     "topic": "A6",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Lợi ích chính của việc kiểm toán nội bộ hỗ trợ lập lưu đồ quy trình trước khi đánh giá kiểm soát là gì?",
     "options": [
-      "Thay thế hoàn toàn việc kiểm tra chọn mẫu các giao dịch của quy trình.",
-      "Bảo đảm quy trình đạt chuẩn ISO mà không cần thêm đánh giá nào khác.",
+      "Thay thế bước kiểm tra chọn mẫu, vì lưu đồ đã cho thấy kiểm soát vận hành đúng.",
+      "Chứng minh thiết kế kiểm soát đầy đủ, không cần đối chiếu với rủi ro của quy trình.",
       "Làm rõ các bước, người thực hiện, điểm chuyển giao để thấy khoảng trống kiểm soát.",
-      "Giúp kiểm toán nội bộ trở thành người sở hữu quy trình trong tổ chức."
+      "Chuyển trách nhiệm mô tả và duy trì quy trình từ Ban điều hành sang kiểm toán nội bộ."
     ],
     "answer": 2,
     "explanation": "Lưu đồ giúp hiểu quy trình đầu đến cuối, ai làm gì, ở đâu có chuyển giao hay phê duyệt, nhờ đó nhận diện điểm rủi ro, thiếu tách biệt nhiệm vụ, kiểm soát thiếu hoặc trùng lặp. Nó hỗ trợ, không thay thế kiểm tra.",
     "optionNotes": [
-      "Sai. Lưu đồ không thay thế kiểm tra hiệu quả vận hành.",
-      "Sai. Lưu đồ không bảo đảm đạt chuẩn ISO.",
+      "Sai. Lưu đồ mô tả thiết kế quy trình; muốn kết luận kiểm soát vận hành hữu hiệu vẫn phải kiểm tra.",
+      "Sai. Đánh giá thiết kế phải gắn với rủi ro; lưu đồ chỉ cho thấy kiểm soát nằm ở đâu.",
       "Đúng. Lưu đồ làm rõ quy trình để nhận diện khoảng trống kiểm soát.",
-      "Sai. Kiểm toán nội bộ không sở hữu quy trình."
+      "Sai. Ban điều hành vẫn sở hữu quy trình và tài liệu quy trình; kiểm toán nội bộ chỉ hỗ trợ."
     ],
     "refs": [
       "CIA Part 1 A.6"

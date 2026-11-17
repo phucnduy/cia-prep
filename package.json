@@ -9,7 +9,8 @@
     "build": "npm run validate && vite build",
     "preview": "vite preview --port 4173",
     "validate": "node scripts/validate.mjs",
-    "test": "vitest run"
+    "test": "vitest run",
+    "audit:bank": "node scripts/audit-bank.mjs"
   },
   "dependencies": {
     "react": "18.3.1",

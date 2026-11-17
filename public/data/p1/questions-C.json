@@ -2725,20 +2725,20 @@
     "id": "P1-C-M14",
     "section": "C",
     "topic": "C8",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Lợi ích chính khi Ban điều hành và kiểm toán nội bộ cùng dùng một khung kiểm soát nội bộ được công nhận (ví dụ COSO 2013) để đánh giá kiểm soát là gì?",
     "options": [
-      "Bảo đảm tổ chức không bao giờ xảy ra gian lận hay sai sót.",
-      "Cho phép kiểm toán nội bộ vận hành kiểm soát thay Ban điều hành.",
-      "Miễn cho tổ chức nghĩa vụ kiểm toán độc lập báo cáo tài chính.",
+      "Kiểm toán nội bộ có thể dựa nguyên vào kết quả tự đánh giá của Ban điều hành.",
+      "Trách nhiệm thiết kế và vận hành kiểm soát được chia đều cho hai bên.",
+      "Kiểm soát được xem là hữu hiệu khi đã có văn bản cho đủ 17 nguyên tắc.",
       "Có tiêu chí chung, nhất quán để đánh giá và trao đổi về hiệu quả kiểm soát."
     ],
     "answer": 3,
     "explanation": "Khung kiểm soát được công nhận cung cấp tiêu chí và ngôn ngữ chung (thành phần, nguyên tắc), giúp đánh giá nhất quán, so sánh được và trao đổi rõ ràng giữa Ban điều hành, kiểm toán nội bộ, HĐQT.",
     "optionNotes": [
-      "Sai. Khung không bảo đảm tuyệt đối do hạn chế cố hữu.",
-      "Sai. Vận hành kiểm soát vẫn là trách nhiệm quản lý.",
-      "Sai. Khung không thay thế kiểm toán độc lập.",
+      "Sai. Khung chung giúp so sánh kết quả, nhưng kiểm toán nội bộ vẫn phải tự thu thập đủ bằng chứng để kết luận.",
+      "Sai. Thiết kế và vận hành kiểm soát là trách nhiệm của Ban điều hành; dùng chung khung không đổi vai trò.",
+      "Sai. Theo COSO 2013, các thành phần và nguyên tắc phải hiện diện và vận hành, không chỉ được ghi thành văn bản.",
       "Đúng. Tiêu chí chung là lợi ích chính."
     ],
     "refs": [

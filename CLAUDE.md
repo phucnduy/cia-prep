@@ -36,6 +36,27 @@ Every rule below exists because the mistake it prevents already happened once in
 - **No pairs that give each other away**: two questions on the same concept or scenario, or one whose option answers another. Before adding a question, search the bank for its concept.
 - Only one option may cite a standard if the others don't; that difference alone gives the answer away.
 
+### Difficulty (`difficulty`, shown to learners in practice)
+
+- **1 Easy**: recall or recognize one rule, definition or purpose. Distractors must still be plausible.
+- **2 Medium**: apply one rule to a short concrete scenario.
+- **3 Hard**: judgment between several defensible actions (what to do *first* or *next*), combining two or more rules, or a nuance such as perceived vs actual impairment, or must vs should.
+- Rate by what the learner has to do, not by stem length. Target mix per part is about 20/50/30. Check with `npm run audit:bank`, which also lists thin topics.
+
+### Patterns worth using (from reviewing other free CIA banks, 2026-11-17)
+
+These are style lessons only. Never copy or paraphrase another site's questions or explanations.
+- **Sequence stems**: "Kiểm toán viên nên làm gì *trước tiên*?" Each distractor is a real action, just in the wrong order (act before notifying, resolve informally first, wait for proof). Our bank has very few of these.
+- **Concrete options for classification**: ask "which of these is a preventive control" and describe four concrete controls. Do not list four labels.
+- **Nuance hinges**: perceived vs actual impairment, "most likely to impair", and exceptions to a rule.
+- **The explanation gives the reason behind the rule** (why perception matters, why the board rather than management), plus the source. A bare citation is not enough.
+
+### Patterns to avoid (seen on other free banks)
+
+- A standard number or "Considerations for Implementation of Standard x.y" in the stem.
+- Throwaway distractors such as "Ten years of experience", "A CPA license", or "guarantees no fraud ever occurs". Replace them with a half-truth or a role confusion.
+- Citing the wrong standard. One site cited 7.1 for disclosing an independence impairment; the disclosure requirement is in GIAS 2.3, which refers to 7.1 only as "See also". Never trust another site's citation without grepping GIAS.
+
 ## 3. Explanations
 
 - `explanation`: why the correct answer is right, plus the source.
