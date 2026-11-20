@@ -685,7 +685,7 @@
           "Bắt buộc: quyết định đưa kiến nghị, yêu cầu quản lý lập kế hoạch hành động, hay cùng quản lý thống nhất hành động, nhằm: giảm rủi ro về mức chấp nhận được; xử lý nguyên nhân gốc; cải thiện hoạt động; giải quyết chênh lệch giữa tiêu chí và thực trạng. Phải trao đổi kiến nghị với quản lý.",
           "Bất đồng: theo phương pháp đã định để hai bên nêu quan điểm, lý do và tìm giải pháp; nên để CAE làm việc với Ban điều hành; có thể đính kèm ý kiến chính thức của mỗi bên vào báo cáo.",
           "Nên: trao đổi kịp thời với cấp quản lý có thẩm quyền thay đổi; có thể nêu một biện pháp cụ thể, nhiều phương án, hoặc đề nghị quản lý tự nghiên cứu; một phát hiện có thể có nhiều hành động.",
-          "Đánh giá kế hoạch hành động: tính khả thi, hợp lý, chi phí so với lợi ích, có xử lý rủi ro trong dung sai và có giải quyết nguyên nhân gốc không. Thực hiện là trách nhiệm của quản lý."
+          "Đánh giá kế hoạch hành động: tính khả thi, hợp lý, chi phí so với lợi ích, có xử lý rủi ro trong ngưỡng chịu đựng và có giải quyết nguyên nhân gốc không. Thực hiện là trách nhiệm của quản lý."
         ]
       }
     ],
@@ -784,7 +784,7 @@
       {
         "heading": "5a-5c. Đánh giá rủi ro còn lại và xếp hạng (GIAS 14.3, 14.5)",
         "body": [
-          "Để xác định mức quan trọng của phát hiện: đánh giá thiết kế và hiệu quả vận hành của kiểm soát hiện có, rồi xác định rủi ro còn lại (rủi ro còn tồn tại dù đã có kiểm soát), xét ảnh hưởng, khả năng xảy ra và dung sai rủi ro (14.3).",
+          "Để xác định mức quan trọng của phát hiện: đánh giá thiết kế và hiệu quả vận hành của kiểm soát hiện có, rồi xác định rủi ro còn lại (rủi ro còn tồn tại dù đã có kiểm soát), xét ảnh hưởng, khả năng xảy ra và ngưỡng chịu đựng rủi ro (14.3).",
           "Ưu tiên phát hiện theo phương pháp của CAE để nhất quán giữa các cuộc kiểm toán; xếp hạng giúp truyền đạt mức quan trọng và giúp quản lý ưu tiên hành động.",
           "Tổng hợp phát hiện: kết luận phải thể hiện xét đoán về mức quan trọng chung; nhiều phát hiện nhỏ cùng nguyên nhân có thể là vấn đề lớn (14.5).",
           "Thang xếp hạng tổng thể (ví dụ đạt, đạt một phần, cần cải thiện, không đạt) thể hiện có hay không sự đảm bảo hợp lý về hiệu quả kiểm soát, giúp người đọc nắm nhanh kết luận và so sánh giữa các cuộc."
@@ -825,8 +825,8 @@
       {
         "heading": "6a-6c. Báo cáo việc chấp nhận rủi ro (GIAS 11.5)",
         "body": [
-          "Xác định rủi ro không chấp nhận được: so với khẩu vị và dung sai rủi ro của tổ chức; CAE hiểu mức chấp nhận qua trao đổi với HĐQT, Ban điều hành, quan hệ với các bên và kết quả kiểm toán; nếu có quy trình quản lý rủi ro chính thức, hiểu chính sách chấp nhận rủi ro của quản lý.",
-          "Trình tự bắt buộc: khi kết luận quản lý đã chấp nhận rủi ro vượt khẩu vị hoặc dung sai, CAE thảo luận với Ban điều hành; nếu Ban điều hành không giải quyết, CAE báo HĐQT. CAE không có trách nhiệm tự xử lý rủi ro.",
+          "Xác định rủi ro không chấp nhận được: so với khẩu vị và ngưỡng chịu đựng rủi ro của tổ chức; CAE hiểu mức chấp nhận qua trao đổi với HĐQT, Ban điều hành, quan hệ với các bên và kết quả kiểm toán; nếu có quy trình quản lý rủi ro chính thức, hiểu chính sách chấp nhận rủi ro của quản lý.",
+          "Trình tự bắt buộc: khi kết luận quản lý đã chấp nhận rủi ro vượt khẩu vị hoặc ngưỡng chịu đựng, CAE thảo luận với Ban điều hành; nếu Ban điều hành không giải quyết, CAE báo HĐQT. CAE không có trách nhiệm tự xử lý rủi ro.",
           "Nên: thống nhất với HĐQT phương pháp ghi nhận, báo cáo việc chấp nhận rủi ro (thời hạn, cấp báo cáo, có cần hỏi pháp chế, tuân thủ); ghi lại mô tả rủi ro, lý do lo ngại, lý do quản lý không thực hiện kiến nghị, người chịu trách nhiệm."
         ]
       }
@@ -908,7 +908,7 @@
       {
         "heading": "8a-8b. Báo vượt cấp khi không thực hiện (GIAS 15.2, 11.5)",
         "body": [
-          "Trình tự: quá hạn mà chưa tiến triển thì kiểm toán viên phải lấy và ghi lại giải thích của quản lý, trao đổi với CAE; CAE xác định Ban điều hành có chấp nhận rủi ro vượt dung sai do chậm trễ hoặc không hành động không (15.2); nếu có, CAE thảo luận với Ban điều hành, chưa giải quyết thì báo HĐQT (11.5).",
+          "Trình tự: quá hạn mà chưa tiến triển thì kiểm toán viên phải lấy và ghi lại giải thích của quản lý, trao đổi với CAE; CAE xác định Ban điều hành có chấp nhận rủi ro vượt ngưỡng chịu đựng do chậm trễ hoặc không hành động không (15.2); nếu có, CAE thảo luận với Ban điều hành, chưa giải quyết thì báo HĐQT (11.5).",
           "Các bên liên quan: quản lý đơn vị (giải thích), kiểm toán viên và CAE (đánh giá), Ban điều hành (giải quyết), HĐQT (cấp cuối cùng). Kiểm toán nội bộ không tự khắc phục thay quản lý và không tự đóng phát hiện khi chưa có bằng chứng."
         ]
       }

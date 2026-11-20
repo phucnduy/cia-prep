@@ -106,25 +106,27 @@
     "section": "C",
     "topic": "C2",
     "difficulty": 2,
-    "stem": "Khi kiểm toán viên nội bộ muốn đánh giá tính hiệu quả của các 'Kiểm soát mềm' (Soft Controls) như văn hóa đạo đức và sự cởi mở trong giao tiếp của tổ chức, kỹ thuật thu thập bằng chứng nào sau đây là PHÙ HỢP NHẤT?",
+    "stem": "Công ty có quy tắc ứng xử, kênh tố giác hoạt động tốt và nhận nhiều tin báo. Tuy nhiên, các vụ vi phạm đã xác minh thường mất hơn một năm mới có kết luận, và nhân viên không bao giờ biết vụ việc được xử lý ra sao. Theo COSO 2013, ảnh hưởng chủ yếu đến môi trường kiểm soát là gì?",
     "options": [
-      "Chọn mẫu chứng từ và kiểm tra chữ ký phê duyệt theo hạn mức.",
-      "Gửi thư xác nhận cho bên thứ ba về việc tuân thủ quy trình.",
-      "Khảo sát ẩn danh, phỏng vấn, hội thảo CSA và quan sát hành vi.",
-      "Thực hiện lại các thủ tục đối chiếu của bộ phận kế toán."
+      "Không ảnh hưởng đáng kể, vì kênh tố giác vẫn nhận được nhiều tin báo mỗi năm.",
+      "Sai lệch không được xử lý kịp thời làm nhân viên mất niềm tin vào cam kết đạo đức.",
+      "Kênh tố giác bị quá tải, nên cần thu hẹp phạm vi các vấn đề được phép báo cáo.",
+      "Rủi ro báo cáo tài chính tăng, vì các khoản phạt vi phạm chưa được ghi nhận kịp."
     ],
-    "answer": 2,
-    "explanation": "Vì Kiểm soát mềm (Soft controls) mang tính vô hình và tâm lý, KTV không thể chỉ kiểm tra chứng từ sổ sách mà phải dùng các phương pháp định tính như khảo sát ẩn danh, phỏng vấn đa chiều và hội thảo CSA.",
+    "answer": 1,
+    "explanation": "Nguyên tắc 1 của COSO 2013 (cam kết về chính trực và giá trị đạo đức) không dừng ở việc ban hành chuẩn mực ứng xử và tiếp nhận tin báo: tổ chức còn phải đánh giá việc tuân thủ và xử lý sai lệch kịp thời. Khi vi phạm kéo dài không có kết luận và không ai biết kết quả, nhân viên hiểu rằng vi phạm không bị xử lý, nên kênh tố giác và quy tắc ứng xử mất dần tác dụng.",
+    "optionNotes": [
+      "Sai. Nhiều tin báo chỉ cho thấy kênh được dùng; nếu vi phạm không được xử lý, người báo sẽ dần thôi lên tiếng.",
+      "Đúng. Xử lý sai lệch kịp thời là một phần của cam kết đạo đức; chậm và im lặng làm nhân viên mất niềm tin vào chương trình.",
+      "Sai. Thu hẹp phạm vi báo cáo làm yếu thêm kênh tố giác; vấn đề nằm ở khâu xử lý chậm, không phải số lượng tin báo.",
+      "Sai. Ảnh hưởng đến số liệu phạt là thứ yếu; điều đáng lo là môi trường kiểm soát bị suy yếu khi vi phạm không bị xử lý."
+    ],
+    "trap": "Coi số tin báo nhiều là dấu hiệu chương trình đạo đức hiệu quả, bỏ qua việc xử lý vi phạm chậm và không phản hồi.",
     "refs": [
+      "COSO 2013",
       "CIA Part 1 C.2"
     ],
-    "source": "legacy",
-    "optionNotes": [
-      "Sai. Kiểm tra chữ ký đánh giá kiểm soát cứng.",
-      "Sai. Xác nhận bên thứ ba không phản ánh văn hóa nội bộ.",
-      "Đúng. Kiểm soát mềm được đánh giá qua khảo sát, phỏng vấn, hội thảo và quan sát.",
-      "Sai. Thực hiện lại đối chiếu đánh giá kiểm soát cứng."
-    ]
+    "source": "original"
   },
   {
     "id": "P1-C-L006",
@@ -3850,26 +3852,26 @@
     "section": "C",
     "topic": "C5",
     "difficulty": 3,
-    "stem": "Công ty logistics đặt mục tiêu giao hàng trong 24 giờ, và chấp nhận một số đơn giao chậm nhưng không quá 30 giờ. Mức 30 giờ thể hiện khái niệm nào?",
+    "stem": "Để giảm rủi ro thất thoát tiền mặt tại 200 cửa hàng, công ty chuyển sang thanh toán không dùng tiền mặt qua một cổng thanh toán bên ngoài, và thất thoát tiền mặt giảm mạnh. Theo ISO 31000:2018, nhóm quản lý rủi ro cần làm gì tiếp theo?",
     "options": [
-      "Khẩu vị rủi ro tổng thể của toàn công ty.",
-      "Dung sai rủi ro (risk tolerance) đối với mục tiêu cụ thể.",
-      "Rủi ro tiềm tàng của quy trình giao hàng.",
-      "Năng lực chịu đựng rủi ro tối đa của công ty (risk capacity)."
+      "Chuyển toàn bộ trách nhiệm về rủi ro thanh toán sang cổng thanh toán theo hợp đồng.",
+      "Đóng hồ sơ rủi ro thất thoát tiền mặt, vì biện pháp xử lý đã loại bỏ được rủi ro này.",
+      "Nhận diện và quản lý các rủi ro mới do biện pháp xử lý tạo ra, như phụ thuộc vào cổng thanh toán.",
+      "Chỉ theo dõi rủi ro thất thoát tiền mặt còn lại, các rủi ro khác thuộc bộ phận CNTT."
     ],
-    "answer": 1,
-    "explanation": "Dung sai rủi ro là mức biến động chấp nhận được quanh một mục tiêu cụ thể, thường đo lường được (24 giờ, chấp nhận đến 30 giờ). Khẩu vị rủi ro là mức rủi ro tổng thể tổ chức sẵn sàng chấp nhận; năng lực chịu đựng là mức tối đa trước khi không thể tồn tại.",
+    "answer": 2,
+    "explanation": "ISO 31000:2018 lưu ý rằng xử lý rủi ro có thể tạo ra rủi ro mới hoặc làm thay đổi rủi ro hiện có, và các rủi ro này cũng phải được nhận diện, đánh giá và theo dõi. Chuyển sang thanh toán qua bên ngoài làm giảm thất thoát tiền mặt nhưng tạo rủi ro gián đoạn dịch vụ, an ninh mạng và phụ thuộc nhà cung cấp. Biện pháp xử lý cũng hiếm khi xóa hẳn rủi ro gốc, nên rủi ro còn lại vẫn cần được giám sát.",
     "optionNotes": [
-      "Sai. Khẩu vị là mức tổng thể, không gắn một mục tiêu cụ thể.",
-      "Đúng. Biến động chấp nhận được quanh mục tiêu.",
-      "Sai. Rủi ro tiềm tàng là rủi ro trước kiểm soát.",
-      "Sai. Năng lực chịu đựng là giới hạn sống còn."
+      "Sai. Hợp đồng có thể chia sẻ một phần hậu quả, nhưng công ty vẫn chịu trách nhiệm về rủi ro trong hoạt động của mình.",
+      "Sai. Biện pháp xử lý giảm chứ hiếm khi xóa hẳn rủi ro; rủi ro còn lại và rủi ro mới vẫn cần được theo dõi.",
+      "Đúng. Biện pháp xử lý có thể tạo rủi ro mới; các rủi ro này cũng phải được nhận diện, đánh giá và theo dõi.",
+      "Sai. Rủi ro mới phát sinh từ chính quyết định xử lý của nhóm; giao hết cho CNTT là bỏ sót góc nhìn tổng thể."
     ],
+    "trap": "Cho rằng biện pháp xử lý rủi ro chỉ làm giảm rủi ro, bỏ qua các rủi ro mới mà nó tạo ra.",
     "refs": [
-      "COSO ERM 2017",
+      "ISO 31000:2018",
       "CIA Part 1 C.5"
     ],
-    "trap": "Nhầm dung sai cho một mục tiêu cụ thể với khẩu vị rủi ro tổng thể hoặc năng lực chịu đựng.",
     "source": "original"
   },
   {

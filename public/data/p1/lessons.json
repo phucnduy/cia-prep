@@ -2539,7 +2539,7 @@
         "body": [
           "Nhận diện rủi ro: hội thảo với các bộ phận liên quan, phân tích kịch bản, dữ liệu tổn thất thực tế, rà soát xu hướng bên ngoài và ý kiến chuyên gia (cho rủi ro mới nổi). Chỉ ghi nhận từ sự cố đã xảy ra là bị động.",
           "Ngoài khả năng xảy ra và mức ảnh hưởng, COSO ERM 2017 dùng thêm tiêu chí như tốc độ tác động (velocity): rủi ro tác động trong vài giờ để lại ít thời gian ứng phó nên thường được ưu tiên.",
-          "Ba mức: năng lực chịu đựng rủi ro (capacity) là mức tối đa tổ chức chịu được; khẩu vị rủi ro là mức tổng thể sẵn sàng chấp nhận; dung sai (tolerance) là biến động chấp nhận được quanh một mục tiêu cụ thể (giao trong 24 giờ, chấp nhận đến 30 giờ).",
+          "Ba mức: năng lực chịu đựng rủi ro (capacity) là mức tối đa tổ chức chịu được; khẩu vị rủi ro là mức tổng thể sẵn sàng chấp nhận; ngưỡng chịu đựng (tolerance) là biến động chấp nhận được quanh một mục tiêu cụ thể (giao trong 24 giờ, chấp nhận đến 30 giờ).",
           "Thuê ngoài là chia sẻ rủi ro: trách nhiệm giải trình với khách hàng và cơ quan quản lý vẫn thuộc tổ chức."
         ]
       }
@@ -2764,7 +2764,7 @@
       {
         "term": "Control processes",
         "vi": "Quy trình kiểm soát",
-        "def": "Chính sách, thủ tục và hoạt động được thiết kế, vận hành để giữ rủi ro trong mức dung sai rủi ro của tổ chức. (Glossary GIAS)"
+        "def": "Chính sách, thủ tục và hoạt động được thiết kế, vận hành để giữ rủi ro trong ngưỡng chịu đựng rủi ro của tổ chức. (Glossary GIAS)"
       }
     ],
     "traps": [

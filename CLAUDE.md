@@ -35,6 +35,7 @@ User decision, 2026-11-17: use the Vietnamese professional terms of Nghị đị
 | Engagement workpapers | Hồ sơ kiểm toán (giấy tờ làm việc); the decree says "hồ sơ, tài liệu kiểm toán" | Hồ sơ làm việc |
 | Engagement work program | Chương trình kiểm toán | Chương trình làm việc |
 | QAIP | Chương trình đảm bảo và cải tiến chất lượng | ... và nâng cao chất lượng |
+| Risk tolerance | Ngưỡng chịu đựng rủi ro (P1 glossary; 2026-11-20) | Dung sai rủi ro |
 
 - **CAE** stays as the exam acronym (user decision, 2026-11-17: do not replace it across the bank). Introduce it as "Trưởng kiểm toán nội bộ (CAE)"; the decree's term is "người phụ trách kiểm toán nội bộ", and credit institutions use "Trưởng kiểm toán nội bộ".
 - Keep "Ban điều hành" for senior management, "hữu hiệu" for effective (internal control), "kiểm toán viên nội bộ" for internal auditor; all are established Vietnamese usage. The decree's "người làm công tác kiểm toán nội bộ" may be used when quoting the decree.
