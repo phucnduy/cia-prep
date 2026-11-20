@@ -41,7 +41,7 @@ Two sessions must not edit the same `public/data/<part>/questions-<section>.json
 
 ## Done (recent)
 
-- 2026-11-20: quality pass after comparing with Gleim's Part 1 quiz: 72 questions got real wrong-option notes (why wrong, what is right), 19 throwaway distractors replaced with plausible misconceptions, giveaway pair P1-C-M43 / P1-B-N10 removed (M43 rewritten), one typo fixed; validator now warns on wrong-option notes under 35 characters.
+- 2026-11-20: quality pass after comparing with Gleim's Part 1 quiz: 72 questions got real wrong-option notes (why wrong, what is right), 27 throwaway distractors in 18 questions replaced with plausible misconceptions, giveaway pair P1-C-M43 / P1-B-N10 removed (M43 rewritten), one typo fixed; validator now warns on wrong-option notes under 35 characters.
 - 2026-11-20: guide facts re-checked on theiia.org after reviewing Gleim's resource pages: online proctoring ended 28/5/2025, no immediate unofficial score from 1/4/2026, Challenge Exam format (150 questions, 180 minutes, 5 sections from June 2026). Pass rates left out: IIA's pass-rate page no longer shows them.
 - 2026-11-17: Vietnamese terms follow Decree 05/2019 (Quy chế, bộ phận KTNB, kiến nghị, hồ sơ kiểm toán); validator rejects the old terms.
 - 2026-11-17: trap field and trap notes; easy capped at 10%; 22 new P2/P3 questions; diagnostic quiz, live accuracy, pool filter, difficulty labels, cheat sheet, term games.
