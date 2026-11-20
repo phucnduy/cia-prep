@@ -2541,27 +2541,27 @@
     "id": "P1-B-M34",
     "section": "B",
     "topic": "B1",
-    "difficulty": 3,
-    "stem": "Tổng Giám đốc đề nghị CAE hoãn trình HĐQT báo cáo về sai phạm trọng yếu trong quản lý dòng tiền đến sau đợt phát hành trái phiếu tháng tới, để 'không ảnh hưởng nhà đầu tư'. CAE nên làm gì?",
+    "difficulty": 2,
+    "stem": "Một kiểm toán viên đã đỗ hai trong ba phần thi CIA. Để báo cáo 'có trọng lượng hơn', anh ký tên kèm danh hiệu 'CIA' trên các báo cáo kiểm toán, vì 'chỉ còn một phần nữa là đạt'. Nhận định nào đúng nhất?",
     "options": [
-      "Báo cáo kịp thời cho HĐQT theo kênh báo cáo chức năng.",
-      "Đồng ý hoãn vì chỉ chậm một tháng và có lợi cho công ty.",
-      "Gửi báo cáo trực tiếp cho các nhà đầu tư trái phiếu.",
-      "Hoãn báo cáo nhưng ghi lại yêu cầu của Tổng Giám đốc."
+      "Được, vì kiểm toán viên đã chứng minh phần lớn năng lực qua hai phần thi đã đỗ.",
+      "Không được; ghi danh hiệu chưa có là thông tin sai lệch, trái yêu cầu trung thực.",
+      "Được, nếu báo cáo chỉ lưu hành nội bộ và không gửi cho bên ngoài tổ chức.",
+      "Được, nếu CAE đồng ý và ghi chú việc này vào hồ sơ nhân sự của kiểm toán viên."
     ],
-    "answer": 0,
-    "explanation": "Chính trực và dũng khí nghề nghiệp đòi hỏi CAE báo cáo kịp thời những vấn đề trọng yếu cho HĐQT, dù chịu áp lực từ Ban điều hành. Việc công bố ra bên ngoài là quyết định của HĐQT và Ban điều hành theo quy định.",
+    "answer": 1,
+    "explanation": "GIAS 1.1 yêu cầu kiểm toán viên không đưa ra tuyên bố sai, gây hiểu lầm hoặc lừa dối. Ký kèm danh hiệu CIA khi chưa được cấp chứng chỉ khiến người đọc tin vào một năng lực đã được xác nhận mà thực tế chưa có, nên là thông tin sai lệch dù kiểm toán viên sắp đạt. Phạm vi lưu hành hay sự đồng ý của CAE không làm thay đổi điều đó; danh hiệu chỉ được dùng sau khi được cấp chứng chỉ.",
     "optionNotes": [
-      "Đúng. Báo cáo kịp thời cho HĐQT.",
-      "Sai. Trì hoãn để che giấu với nhà đầu tư là thiếu chính trực.",
-      "Sai. Kiểm toán nội bộ không tự công bố ra bên ngoài.",
-      "Sai. Ghi lại không thay được việc báo cáo kịp thời."
+      "Sai. Đỗ hai phần thi chưa phải là được cấp chứng chỉ; danh hiệu chỉ dùng khi đã đạt đủ điều kiện và được cấp.",
+      "Đúng. Ghi danh hiệu chưa được cấp là tuyên bố gây hiểu lầm, trái yêu cầu không đưa thông tin sai lệch của GIAS 1.1.",
+      "Sai. Báo cáo nội bộ vẫn được HĐQT và Ban điều hành dựa vào; thông tin sai về năng lực vẫn gây hiểu lầm cho người đọc nội bộ.",
+      "Sai. CAE không có quyền cho phép dùng danh hiệu chưa được cấp; sự đồng ý của cấp trên không làm thông tin sai trở thành đúng."
     ],
+    "trap": "Cho rằng sắp đạt, chỉ dùng nội bộ hoặc được cấp trên đồng ý thì ghi danh hiệu chưa có không phải là thiếu trung thực.",
     "refs": [
       "GIAS 1.1",
       "CIA Part 1 B.1"
     ],
-    "trap": "Cho rằng hoãn báo cáo ngắn hạn vì lợi ích công ty là chấp nhận được.",
     "source": "original"
   },
   {

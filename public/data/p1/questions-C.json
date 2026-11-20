@@ -158,23 +158,25 @@
     "section": "C",
     "topic": "C7",
     "difficulty": 2,
-    "stem": "Khi đánh giá môi trường kiểm soát theo COSO 2013, kiểm toán viên thấy công ty có tỷ lệ nghỉ việc 45% ở bộ phận kế toán, không có kế hoạch kế nhiệm và đào tạo rất ít. Phát hiện này liên quan trực tiếp nhất đến nguyên tắc nào?",
+    "stem": "Công ty vừa chuyển toàn bộ kế toán sang ERP mới và sáp nhập hai chi nhánh. Không ai phân tích các rủi ro mới phát sinh từ những thay đổi này, và ma trận rủi ro vẫn là bản lập trước khi thay đổi. Theo COSO 2013, phát hiện này liên quan trực tiếp nhất đến nguyên tắc nào?",
     "options": [
-      "Tổ chức thể hiện cam kết thu hút, phát triển và giữ chân người có năng lực.",
-      "Tổ chức xác định mục tiêu đủ rõ ràng để nhận diện và đánh giá rủi ro.",
-      "Tổ chức lựa chọn và phát triển các hoạt động kiểm soát để giảm rủi ro.",
-      "Tổ chức truyền đạt với các bên bên ngoài về các vấn đề ảnh hưởng đến kiểm soát."
+      "Tổ chức nhận diện và đánh giá những thay đổi có thể ảnh hưởng đáng kể đến kiểm soát nội bộ.",
+      "Tổ chức lựa chọn và phát triển các kiểm soát chung đối với công nghệ thông tin.",
+      "Tổ chức đánh giá liên tục hoặc định kỳ để xác định các thành phần còn hiện hữu.",
+      "Tổ chức thiết lập cơ cấu, quan hệ báo cáo, thẩm quyền và trách nhiệm phù hợp."
     ],
     "answer": 0,
-    "explanation": "Cam kết về năng lực (thu hút, phát triển, giữ chân người có năng lực) là một nguyên tắc của thành phần Môi trường kiểm soát trong COSO 2013. Các phương án khác là nguyên tắc của thành phần Đánh giá rủi ro, Hoạt động kiểm soát, Thông tin và truyền thông.",
+    "explanation": "Nguyên tắc 9 của COSO 2013, thuộc thành phần Đánh giá rủi ro, yêu cầu tổ chức nhận diện và đánh giá những thay đổi có thể ảnh hưởng đáng kể đến hệ thống kiểm soát nội bộ, như hệ thống mới, sáp nhập, thay đổi mô hình kinh doanh hay lãnh đạo. Ở đây vấn đề nằm ở bước đầu: rủi ro mới chưa từng được nhận diện, nên kiểm soát CNTT hay hoạt động giám sát chưa có căn cứ để xử lý.",
     "optionNotes": [
-      "Đúng. Nghỉ việc cao, thiếu kế nhiệm và đào tạo là vấn đề cam kết về năng lực.",
-      "Sai. Đây là nguyên tắc thuộc Đánh giá rủi ro.",
-      "Sai. Đây là nguyên tắc thuộc Hoạt động kiểm soát.",
-      "Sai. Đây là nguyên tắc thuộc Thông tin và truyền thông."
+      "Đúng. Không phân tích rủi ro phát sinh từ ERP mới và sáp nhập là vi phạm nguyên tắc nhận diện, đánh giá thay đổi (nguyên tắc 9).",
+      "Sai. Kiểm soát chung CNTT có thể cần điều chỉnh, nhưng phát hiện nói về việc không ai phân tích rủi ro mới, một bước đứng trước việc chọn kiểm soát.",
+      "Sai. Giám sát kiểm tra kiểm soát hiện có còn vận hành không; ở đây rủi ro mới chưa được nhận diện nên chưa có gì để giám sát.",
+      "Sai. Cơ cấu và thẩm quyền thuộc môi trường kiểm soát; tình huống không cho thấy trách nhiệm bị phân định sai."
     ],
+    "trap": "Gắn phát hiện với kiểm soát CNTT hay giám sát vì có ERP mới, bỏ qua nguyên tắc nhận diện và đánh giá thay đổi.",
     "refs": [
-      "COSO 2013"
+      "COSO 2013",
+      "CIA Part 1 C.7"
     ],
     "source": "original"
   },
@@ -1137,25 +1139,26 @@
     "section": "C",
     "topic": "C7",
     "difficulty": 2,
-    "stem": "Công ty đặt mục tiêu 'số liệu phát thải và an toàn lao động trong báo cáo phát triển bền vững gửi nhà đầu tư phải đáng tin cậy'. Theo COSO 2013, đây là loại mục tiêu nào?",
+    "stem": "Ban điều hành đặt mục tiêu 'báo cáo tiến độ dự án gửi HĐQT hằng tháng phải chính xác và kịp thời'. Báo cáo này chỉ dùng nội bộ và không chứa số liệu tài chính. Theo COSO 2013, đây là loại mục tiêu nào?",
     "options": [
-      "Mục tiêu hoạt động, vì liên quan đến hoạt động sản xuất của các nhà máy.",
-      "Mục tiêu báo cáo, vì liên quan độ tin cậy của thông tin báo cáo ra bên ngoài.",
-      "Mục tiêu tuân thủ, vì liên quan đến các quy định về môi trường và lao động.",
-      "Không thuộc COSO 2013, vì khung chỉ áp dụng cho báo cáo tài chính."
+      "Mục tiêu báo cáo, vì COSO 2013 bao gồm cả báo cáo nội bộ và phi tài chính.",
+      "Mục tiêu hoạt động, vì liên quan đến việc thực hiện dự án của tổ chức.",
+      "Mục tiêu tuân thủ, vì báo cáo phải nộp theo quy chế nội bộ của HĐQT.",
+      "Không thuộc COSO 2013, vì khung chỉ áp dụng cho báo cáo tài chính công bố."
     ],
-    "answer": 1,
-    "explanation": "COSO 2013 chia mục tiêu thành hoạt động, báo cáo, tuân thủ; nhóm báo cáo gồm cả báo cáo phi tài chính, bên trong và bên ngoài. Độ tin cậy của số liệu bền vững gửi nhà đầu tư là mục tiêu báo cáo bên ngoài, phi tài chính.",
+    "answer": 0,
+    "explanation": "COSO 2013 chia mục tiêu thành ba nhóm: hoạt động, báo cáo và tuân thủ. Nhóm báo cáo gồm cả báo cáo tài chính và phi tài chính, cả báo cáo ra bên ngoài lẫn báo cáo nội bộ. Yêu cầu báo cáo tiến độ gửi HĐQT phải chính xác, kịp thời là mục tiêu báo cáo nội bộ phi tài chính. Việc thực hiện dự án là mục tiêu hoạt động, nhưng độ tin cậy của báo cáo về dự án là mục tiêu báo cáo.",
     "optionNotes": [
-      "Sai. Mục tiêu nói về độ tin cậy của báo cáo, không phải hiệu quả sản xuất.",
-      "Đúng. Đây là mục tiêu báo cáo bên ngoài, phi tài chính.",
-      "Sai. Bẫy cùng chủ đề: tuân thủ quy định khác với độ tin cậy số liệu báo cáo.",
-      "Sai. COSO 2013 mở rộng mục tiêu báo cáo sang thông tin phi tài chính."
+      "Đúng. Nhóm mục tiêu báo cáo của COSO 2013 bao gồm cả báo cáo nội bộ và báo cáo phi tài chính.",
+      "Sai. Thực hiện dự án là mục tiêu hoạt động, nhưng yêu cầu báo cáo về dự án phải chính xác là mục tiêu báo cáo.",
+      "Sai. Quy chế nội bộ không biến yêu cầu thành mục tiêu tuân thủ; mục tiêu tuân thủ gắn với luật và quy định áp dụng cho tổ chức.",
+      "Sai. COSO 2013 đã mở rộng nhóm báo cáo ra ngoài báo cáo tài chính công bố, gồm cả báo cáo nội bộ và phi tài chính."
     ],
+    "trap": "Cho rằng mục tiêu báo cáo của COSO 2013 chỉ gồm báo cáo tài chính công bố ra bên ngoài.",
     "refs": [
-      "COSO 2013"
+      "COSO 2013",
+      "CIA Part 1 C.7"
     ],
-    "trap": "Cho rằng COSO 2013 chỉ áp dụng cho báo cáo tài chính, hoặc xếp mục tiêu theo nội dung hoạt động.",
     "source": "original"
   },
   {
@@ -2942,25 +2945,25 @@
     "section": "C",
     "topic": "C3",
     "difficulty": 2,
-    "stem": "Kiểm toán nội bộ một ngân hàng được giao đánh giá việc tuân thủ quy định phòng chống rửa tiền. Vai trò phù hợp nhất của kiểm toán nội bộ là gì?",
+    "stem": "Trước Tết, phòng Kinh doanh gửi quà trị giá 15 triệu đồng mỗi phần cho các cán bộ của cơ quan đang xét cấp phép mở rộng nhà máy cho công ty, với lý do 'theo phong tục'. Công ty chưa có quy định về quà tặng. Rủi ro và kiến nghị phù hợp nhất là gì?",
     "options": [
-      "Đánh giá hiệu quả chương trình tuân thủ (chính sách, nhận biết khách hàng, báo cáo giao dịch).",
-      "Đưa ra ý kiến pháp lý chính thức về việc ngân hàng có vi phạm luật hay không.",
-      "Trực tiếp báo cáo các giao dịch đáng ngờ lên cơ quan quản lý thay bộ phận tuân thủ.",
-      "Thiết kế lại toàn bộ quy trình phòng chống rửa tiền cho ngân hàng."
+      "Rủi ro hối lộ; ban hành chính sách quà tặng có ngưỡng, sổ theo dõi và cấm tặng khi đang chờ quyết định.",
+      "Không có rủi ro đáng kể, vì tặng quà dịp Tết là phong tục phổ biến và được xã hội chấp nhận.",
+      "Rủi ro thuế; bảo đảm có hóa đơn hợp lệ để khoản chi quà tặng được tính vào chi phí được trừ.",
+      "Rủi ro uy tín; chỉ cần chuyển sang tặng quà có in logo để thể hiện đây là quà của công ty."
     ],
     "answer": 0,
-    "explanation": "Kiểm toán nội bộ cần nhận biết các yêu cầu pháp lý áp dụng và đánh giá hiệu quả chương trình tuân thủ (chính sách, quy trình, kiểm soát, đào tạo, giám sát). Kiểm toán nội bộ không đưa ý kiến pháp lý thay luật sư và không vận hành chức năng tuân thủ.",
+    "explanation": "Quà có giá trị lớn gửi cho cán bộ đang xử lý một quyết định có lợi cho công ty có thể bị coi là đưa hối lộ, dù được gọi là phong tục. Rủi ro nằm ở thời điểm và người nhận, không ở hình thức gói quà hay hóa đơn. Kiểm soát phù hợp là chính sách quà tặng và tiếp khách có ngưỡng giá trị, sổ theo dõi, phê duyệt của bộ phận tuân thủ, và cấm tặng quà cho người đang có quyết định liên quan đến công ty.",
     "optionNotes": [
-      "Đúng. Đánh giá hiệu quả chương trình tuân thủ.",
-      "Sai. Ý kiến pháp lý chính thức thuộc chuyên gia pháp lý.",
-      "Sai. Báo cáo giao dịch đáng ngờ là trách nhiệm của bộ phận tuân thủ.",
-      "Sai. Thiết kế quy trình là trách nhiệm quản lý."
+      "Đúng. Quà lớn cho người đang xét cấp phép tạo rủi ro hối lộ; chính sách có ngưỡng, sổ theo dõi và lệnh cấm theo thời điểm xử lý được rủi ro này.",
+      "Sai. Phong tục không làm thay đổi bản chất pháp lý; quà lớn cho người đang ra quyết định có lợi cho công ty vẫn có thể bị coi là hối lộ.",
+      "Sai. Hóa đơn hợp lệ chỉ giải quyết chuyện thuế; khoản chi vẫn có thể là hối lộ dù được hạch toán đúng.",
+      "Sai. In logo không thay đổi giá trị hay mục đích của quà; rủi ro chính là hối lộ, không phải hình ảnh công ty."
     ],
+    "trap": "Coi quà Tết cho cán bộ đang xét hồ sơ là phong tục hay vấn đề thuế, bỏ qua rủi ro hối lộ.",
     "refs": [
       "CIA Part 1 C.3"
     ],
-    "trap": "Cho rằng kiểm toán nội bộ đưa ý kiến pháp lý hoặc báo cáo thay bộ phận tuân thủ.",
     "source": "original"
   },
   {

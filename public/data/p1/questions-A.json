@@ -1420,33 +1420,6 @@
     "source": "original"
   },
   {
-    "id": "P1-A-H03",
-    "section": "A",
-    "topic": "A7",
-    "difficulty": 3,
-    "stem": "CAE đồng thời phụ trách bộ phận Quản lý rủi ro doanh nghiệp (ERM) theo quyết định của HĐQT; quy chế đã ghi rõ vai trò này và các biện pháp bảo vệ. Kế hoạch năm nay có cuộc kiểm toán đảm bảo về hiệu quả quy trình ERM. Cách thực hiện nào phù hợp nhất?",
-    "options": [
-      "Đội kiểm toán nội bộ thực hiện, CAE tránh duyệt chương trình và báo cáo của cuộc kiểm toán này.",
-      "CAE trực tiếp chủ trì để đảm bảo chất lượng, vì đã được HĐQT chấp thuận vai trò kiêm nhiệm.",
-      "Đưa cuộc kiểm toán ERM ra khỏi kế hoạch, vì kiểm toán nội bộ không thể khách quan với mảng này.",
-      "Cuộc kiểm toán được một bên độc lập ngoài bộ phận kiểm toán nội bộ giám sát và chịu trách nhiệm."
-    ],
-    "answer": 3,
-    "explanation": "Cuộc kiểm toán đảm bảo cho chức năng mà CAE chịu trách nhiệm phải được một bên độc lập ngoài bộ phận kiểm toán nội bộ giám sát; với vai trò kiêm nhiệm lâu dài, cần có quy trình đảm bảo thay thế, ví dụ thuê bên đảm bảo có năng lực, báo cáo độc lập cho HĐQT (GIAS 2.2, 7.1).",
-    "optionNotes": [
-      "Sai. Đội kiểm toán vẫn báo cáo cho CAE; CAE tránh duyệt không biến cuộc kiểm toán thành độc lập với CAE.",
-      "Sai. HĐQT chấp thuận vai trò kiêm nhiệm không cho phép CAE tự đảm bảo cho mảng mình phụ trách.",
-      "Sai. Bỏ khỏi kế hoạch để lại lỗ hổng đảm bảo; chuẩn mực yêu cầu thiết lập nguồn đảm bảo thay thế.",
-      "Đúng. Đây là yêu cầu khi đảm bảo cho chức năng thuộc trách nhiệm của CAE."
-    ],
-    "refs": [
-      "GIAS 2.2",
-      "GIAS 7.1"
-    ],
-    "trap": "Cho rằng HĐQT đã chấp thuận kiêm nhiệm thì CAE vẫn tự đảm bảo được cho mảng mình phụ trách.",
-    "source": "original"
-  },
-  {
     "id": "P1-A-H04",
     "section": "A",
     "topic": "A7",
@@ -3807,33 +3780,6 @@
       "IIA Three Lines Model",
       "CIA Part 1 A.8"
     ],
-    "source": "original"
-  },
-  {
-    "id": "P1-A-M36",
-    "section": "A",
-    "topic": "A8",
-    "difficulty": 3,
-    "stem": "Do thiếu người, trưởng kiểm toán nội bộ được giao kiêm nhiệm phụ trách bộ phận tuân thủ trong một năm. Biện pháp bảo vệ nào phù hợp nhất?",
-    "options": [
-      "Báo cáo HĐQT và giao bên độc lập đánh giá mảng tuân thủ.",
-      "Kiểm toán nội bộ tự đánh giá bộ phận tuân thủ như bình thường.",
-      "Không cần biện pháp gì vì chỉ kiêm nhiệm tạm thời.",
-      "Ngừng toàn bộ hoạt động kiểm toán nội bộ cho đến khi hết kiêm nhiệm."
-    ],
-    "answer": 0,
-    "explanation": "Khi trưởng kiểm toán nội bộ đảm nhận vai trò ngoài kiểm toán (như tuân thủ thuộc tuyến thứ hai), HĐQT cần được biết và thiết lập biện pháp bảo vệ (GIAS 7.1), chẳng hạn giao việc đánh giá lĩnh vực đó cho bên độc lập với trưởng kiểm toán nội bộ.",
-    "optionNotes": [
-      "Đúng. Thông báo HĐQT và đánh giá bởi bên độc lập.",
-      "Sai. Tự đánh giá lĩnh vực mình phụ trách là tự kiểm tra.",
-      "Sai. Kiêm nhiệm tạm thời vẫn có thể làm suy giảm độc lập.",
-      "Sai. Ngừng toàn bộ kiểm toán là phản ứng quá mức; chỉ cần biện pháp bảo vệ cho mảng tuân thủ, như giao bên độc lập đánh giá."
-    ],
-    "refs": [
-      "GIAS 7.1",
-      "CIA Part 1 A.8"
-    ],
-    "trap": "Cho rằng kiêm nhiệm tạm thời thì không cần biện pháp bảo vệ.",
     "source": "original"
   },
   {
