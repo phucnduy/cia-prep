@@ -1,7 +1,7 @@
 {
   "title": "Tìm hiểu về chứng chỉ CIA",
   "lede": "Những điều cần biết trước khi bắt đầu: nghề kiểm toán nội bộ, CIA là gì và phù hợp với ai, quy trình ghi danh và thi, chi phí, cách học và đi thi. Quy định và lệ phí được đối chiếu với trang chính thức của IIA. Phần kinh nghiệm học, thi và số liệu thị trường mang tính tham khảo. Quy định có thể thay đổi, hãy kiểm tra lại trước khi đăng ký.",
-  "checked": "Quy định và lệ phí đối chiếu với theiia.org ngày 12/11/2026",
+  "checked": "Quy định và lệ phí đối chiếu với theiia.org ngày 20/11/2026",
   "sections": [
     {
       "id": "cia",
@@ -105,10 +105,10 @@
         { "type": "parts" },
         { "type": "list", "items": [
           "Toàn bộ là câu trắc nghiệm, mỗi câu có một đáp án đúng nhất. Đề có thể gồm một số câu thử nghiệm không tính điểm.",
-          "Thi trên máy tại trung tâm Pearson VUE (hoặc hình thức IIA cho phép tại thời điểm đăng ký).",
+          "Thi trên máy tại trung tâm Pearson VUE. IIA đã ngừng hẳn hình thức thi trực tuyến có giám sát từ ngày 28/5/2025.",
           "Điểm theo thang quy đổi 250-750, đạt từ 600. IIA không công bố cách quy đổi sang số câu đúng, nên không có tỷ lệ phần trăm chính thức cho điểm đạt.",
           "Thời gian trung bình khoảng 72 giây mỗi câu ở cả ba phần (150 phút cho 125 câu; 120 phút cho 100 câu).",
-          "Ngoài lộ trình ba phần thi, người đã có một số chứng chỉ nghề nghiệp theo danh sách của IIA có thể chọn một bài thi duy nhất (Challenge Exam)."
+          "Ngoài lộ trình ba phần thi, người có CPA/CA hoặc CISA còn hiệu lực có thể chọn Challenge Exam: một bài 150 câu trong 180 phút, bám theo GIAS 2024, với syllabus riêng từ tháng 6/2026 gồm 5 phần (Tính chuyên nghiệp và chất lượng KTNB 20%; Vận hành và kế hoạch KTNB 15%; Lập kế hoạch cuộc kiểm toán 20%; Thực hiện cuộc kiểm toán 25%; Kết quả và theo dõi 20%). Hiện thi bằng tiếng Anh, Pháp, Tây Ban Nha. Lộ trình thí điểm cho người có từ 10 năm kinh nghiệm đã đóng nhận hồ sơ."
         ] },
         { "type": "h", "text": "Nên thi phần nào trước" },
         { "type": "p", "text": "IIA không bắt buộc thứ tự thi. Với người mới, thứ tự Part 1, Part 2, Part 3 hợp lý nhất: đi từ nền tảng nghề, đến cách thực hiện một cuộc kiểm toán, rồi nâng lên góc nhìn quản lý bộ phận KTNB, nên kiến thức phần trước làm nền cho phần sau. Nếu đã có kinh nghiệm ở một mảng, có thể đổi thứ tự; hãy đọc syllabus từng phần trước khi quyết định." },
@@ -121,7 +121,7 @@
       "blocks": [
         { "type": "steps", "items": [
           { "title": "Ghi danh chương trình", "text": "Tạo hồ sơ trên hệ thống CCMS của IIA (ccms.theiia.org), nộp giấy tờ (bằng cấp, giấy tờ tùy thân) và phí ghi danh. Người có bằng cử nhân hoặc thạc sĩ ghi danh trực tiếp. Sinh viên hoặc người chưa có bằng đại học theo quy định hiện hành phải thi đạt chứng chỉ IAP trong vòng 2 năm, rồi ghi danh CIA với tư cách người giữ IAP. Người có CPA/CA hoặc CISA có thể chọn bài thi Challenge Exam thay cho ba phần thi. Kết quả xét duyệt thường được gửi qua email sau khoảng 1-2 tuần." },
-          { "title": "Đăng ký và thi từng phần", "text": "Chọn phần thi và thanh toán trên CCMS, rồi đặt ngày, giờ, địa điểm, ngôn ngữ thi trên hệ thống Pearson VUE. Mỗi lượt đăng ký thi có hiệu lực 180 ngày (hoặc đến khi chương trình hết hạn, tùy mốc nào sớm hơn); có thể mua gia hạn một lần thêm 75 ngày. Không thi trong thời hạn thì mất lệ phí. Đổi hoặc hủy lịch được làm đến 48 giờ trước giờ thi, mỗi lần đổi lịch mất 75 USD. Kết quả chính thức được gửi trong vòng 3 tuần sau ngày thi." },
+          { "title": "Đăng ký và thi từng phần", "text": "Chọn phần thi và thanh toán trên CCMS, rồi đặt ngày, giờ, địa điểm, ngôn ngữ thi trên hệ thống Pearson VUE. Mỗi lượt đăng ký thi có hiệu lực 180 ngày (hoặc đến khi chương trình hết hạn, tùy mốc nào sớm hơn); có thể mua gia hạn một lần thêm 75 ngày. Không thi trong thời hạn thì mất lệ phí. Đổi hoặc hủy lịch được làm đến 48 giờ trước giờ thi, mỗi lần đổi lịch mất 75 USD. Kết quả chính thức được gửi trong vòng 3 tuần sau ngày thi; từ ngày 1/4/2026, IIA không còn đưa điểm tạm thời ngay khi thi xong." },
           { "title": "Hoàn thành trong thời hạn chương trình", "text": "Bạn có 3 năm kể từ khi được duyệt để hoàn thành các yêu cầu của chương trình; có thể mua gia hạn chương trình một lần thêm 1 năm, và phải làm trên CCMS trước ngày hết hạn. Nếu hết hạn mà chưa xong, phải ghi danh lại và thi lại cả những phần đã đạt." },
           { "title": "Xác nhận kinh nghiệm và nhận chứng chỉ", "text": "Sau khi đạt đủ ba phần, khai người xác nhận kinh nghiệm trên CCMS (thường là quản lý hiện tại, quản lý cũ hoặc một người có CIA); hệ thống gửi email để người đó xác nhận. Cần 1 năm nếu có bằng thạc sĩ, 2 năm nếu có bằng cử nhân, 5 năm nếu là người giữ IAP không có bằng đại học; kinh nghiệm có thể thuộc KTNB, đảm bảo chất lượng, quản lý rủi ro, tuân thủ, kiểm toán độc lập, kiểm soát nội bộ. Không cần kinh nghiệm mới được đi thi. Chứng chỉ bản điện tử tải trên CCMS; bản in đặt mua thêm." },
           { "title": "Duy trì chứng chỉ", "text": "Người giữ CIA đang hành nghề cần 40 giờ đào tạo liên tục (CPE) mỗi năm, trong đó 2 giờ về đạo đức; người không hành nghề cần 20 giờ. Báo cáo trước 31/12 hằng năm trên CCMS." }

@@ -22,7 +22,7 @@ Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audi
 4. **Tag `trap` on existing P1 questions.** Needs a read of each question; do it by section (A, then B, C, D), one session per section.
 5. **More "what first" sequence questions.** P1 has 8 of 500.
 6. **Topical Requirements lessons** (third-party, organizational behavior), from IIA's published Topical Requirements.
-7. **`guide.json` fees**: IIA changes fees from 4 January 2027; re-check on theiia.org then.
+7. **`guide.json` fees**: IIA changes fees from 4 January 2027; re-check on theiia.org then. Also confirm the reschedule notice period: the guide says 48 hours, a third-party page says 24 hours; check the current IIA Candidate Handbook.
 8. **Content review by a CIA holder.** Nobody holding a CIA has reviewed the content yet.
 
 ## How to run one question batch
@@ -41,6 +41,7 @@ Two sessions must not edit the same `public/data/<part>/questions-<section>.json
 
 ## Done (recent)
 
+- 2026-11-20: guide facts re-checked on theiia.org after reviewing Gleim's resource pages: online proctoring ended 28/5/2025, no immediate unofficial score from 1/4/2026, Challenge Exam format (150 questions, 180 minutes, 5 sections from June 2026). Pass rates left out: IIA's pass-rate page no longer shows them.
 - 2026-11-17: Vietnamese terms follow Decree 05/2019 (Quy chế, bộ phận KTNB, kiến nghị, hồ sơ kiểm toán); validator rejects the old terms.
 - 2026-11-17: trap field and trap notes; easy capped at 10%; 22 new P2/P3 questions; diagnostic quiz, live accuracy, pool filter, difficulty labels, cheat sheet, term games.
 - 2026-11-16: graphic layer (section icons, hero art, weight donuts, progress rings).
