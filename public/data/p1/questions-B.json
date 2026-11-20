@@ -322,7 +322,7 @@
     "explanation": "CAE phải thiết lập phương pháp xử lý suy giảm khách quan (GIAS 2.2). Kê khai xung đột, luân chuyển và rà soát giám sát là các biện pháp bảo vệ phổ biến. Phần Xem xét khi thực hiện của GIAS 2.2 nêu đích danh việc đo kết quả làm việc theo số phát hiện, theo số tiền tiết kiệm hay số việc làm cắt giảm tại đơn vị được kiểm toán là cơ chế có thể làm suy giảm khách quan.",
     "optionNotes": [
       "Sai. Kê khai xung đột lợi ích là biện pháp bảo vệ phù hợp.",
-      "Sai. Luân chuyển giảm nguy cơ quen thuộc.",
+      "Sai. Luân chuyển phân công là biện pháp phù hợp, vì giảm nguy cơ quen thuộc khi một người kiểm toán cùng đơn vị nhiều năm.",
       "Đúng. Cơ chế thưởng này tạo động cơ tư lợi, làm suy giảm khách quan.",
       "Sai. Rà soát giám sát giúp phát hiện và hạn chế thiên lệch."
     ],
@@ -762,7 +762,7 @@
       "Sai. Không liên quan đến độc lập của chức năng.",
       "Đúng. GIAS 4.2 yêu cầu cân nhắc kỹ thuật, công cụ và công nghệ phù hợp.",
       "Sai. Bảo mật là nghĩa vụ riêng, không phải điểm chính của tình huống.",
-      "Sai. Không liên quan đến yêu cầu chứng chỉ."
+      "Sai. Dùng phân tích dữ liệu không đòi hỏi chứng chỉ CNTT; GIAS 4.2 yêu cầu cân nhắc dùng công nghệ khi lập kế hoạch và thực hiện."
     ]
   },
   {
@@ -1036,7 +1036,7 @@
       "Đúng. Đúng yêu cầu của chuẩn mực về năng lực.",
       "Sai. Sự rà soát của trưởng nhóm không thay thế yêu cầu cá nhân.",
       "Sai. Kiến thức về Chuẩn mực là yêu cầu chung với mọi kiểm toán viên nội bộ.",
-      "Sai. GIAS không bắt buộc có chứng chỉ CIA."
+      "Sai. GIAS không bắt buộc chứng chỉ CIA; yêu cầu là mọi kiểm toán viên nội bộ có hoặc phát triển kiến thức về Chuẩn mực."
     ],
     "refs": [
       "GIAS 3.1"
@@ -1085,7 +1085,7 @@
     "optionNotes": [
       "Đúng. Lưu giữ và hủy theo luật, quy định, chính sách.",
       "Sai. Sự chấp nhận của Ban điều hành không thay đổi yêu cầu lưu giữ.",
-      "Sai. Tự ý xóa vi phạm yêu cầu lưu giữ hồ sơ.",
+      "Sai. Tự ý xóa vi phạm yêu cầu lưu giữ hồ sơ theo luật và chính sách; dữ liệu được bảo vệ bằng kiểm soát truy cập, không phải xóa sớm.",
       "Sai. Quá tuyệt đối: thời hạn lưu giữ do quy định, không phải vĩnh viễn."
     ],
     "refs": [
@@ -1190,7 +1190,7 @@
     "optionNotes": [
       "Đúng. Sự kiện nổi bật gần đây làm méo đánh giá rủi ro.",
       "Sai. Tình huống không nói đến việc bám vào xếp hạng cũ.",
-      "Sai. Không có dấu hiệu áp lực đồng thuận.",
+      "Sai. Tư duy nhóm cần có áp lực giữ đồng thuận, điều đề bài không nêu; ở đây đánh giá bị kéo theo một sự kiện vừa được báo chí đưa tin.",
       "Sai. Không có kết luận của Ban điều hành nào được ủng hộ."
     ],
     "refs": [
@@ -1214,7 +1214,7 @@
     "explanation": "Thận trọng nghề nghiệp đúng mức bao gồm cân nhắc mức độ và thời điểm công việc cần thiết để đạt mục tiêu (GIAS 4.2). Kiểm toán quy trình kiểm kê sau khi hàng đã bán hết thì không thể quan sát hay đối chiếu được, nên thời điểm là yếu tố bị bỏ qua.",
     "optionNotes": [
       "Đúng. Thời điểm không phù hợp khiến không đạt được mục tiêu.",
-      "Sai. Vấn đề chính không phải chi phí.",
+      "Sai. Vấn đề không phải chi phí mà là thời điểm: kiểm toán sau khi hàng đã bán hết thì không còn quan sát hay đối chiếu được.",
       "Sai. Lợi ích các bên liên quan không phải yếu tố bị bỏ qua rõ nhất.",
       "Sai. Chiến lược tổ chức không liên quan trực tiếp đến lịch kiểm toán."
     ],
@@ -1368,7 +1368,7 @@
       "Đúng. Xem bản gốc và đối chiếu nguồn độc lập.",
       "Sai. Xác nhận của đơn vị không thay thế việc kiểm tra bản gốc.",
       "Sai. Kết luận giả mạo khi chưa xác minh là vượt quá bằng chứng.",
-      "Sai. Thay mẫu là bỏ qua dấu hiệu bất thường."
+      "Sai. Thay mẫu là bỏ qua dấu hiệu bất thường; hoài nghi nghề nghiệp đòi hỏi tìm thêm bằng chứng cho chính hợp đồng này."
     ],
     "refs": [
       "GIAS 4.3",
@@ -1494,7 +1494,7 @@
       "Sai. Ủy quyền không làm giảm yêu cầu về chất lượng giám sát.",
       "Sai. Danh mục đã duyệt không thay việc xem căn cứ của phát hiện.",
       "Đúng. Giám sát phải kiểm tra căn cứ, không chỉ hình thức.",
-      "Sai. CAE được phép ủy quyền giám sát."
+      "Sai. CAE được phép ủy quyền giám sát; vấn đề là người được ủy quyền phải xác nhận hồ sơ đủ căn cứ, không chỉ xem danh mục."
     ],
     "refs": [
       "GIAS 12.3",
@@ -1545,7 +1545,7 @@
     "optionNotes": [
       "Sai. Tự đọc sau không biến việc khai không có thật thành trung thực.",
       "Sai. Ghi chú riêng không sửa được việc ký xác nhận sai.",
-      "Sai. Khai sai một phần vẫn là gian dối.",
+      "Sai. Khai sai một phần vẫn là gian dối; chỉ được báo cáo số giờ CPE thực tế đã tham dự.",
       "Đúng. Báo cáo trung thực và hoàn thành CPE đúng cách."
     ],
     "refs": [
@@ -1570,7 +1570,7 @@
     "explanation": "Hoài nghi nghề nghiệp yêu cầu đánh giá phê phán độ tin cậy của thông tin, thẳng thắn đặt câu hỏi và tìm thêm bằng chứng khi giải trình có thể chưa đầy đủ (GIAS 4.3). Chức vụ của người giải trình không thay thế bằng chứng; cũng không kết luận khi chưa đủ căn cứ.",
     "optionNotes": [
       "Đúng. Tìm thêm bằng chứng một cách thẳng thắn, tôn trọng.",
-      "Sai. Thẩm quyền không thay thế bằng chứng.",
+      "Sai. Thẩm quyền phê duyệt không thay thế bằng chứng; giải trình của lãnh đạo vẫn phải được xác minh bằng chứng từ và kết quả công việc.",
       "Sai. Kết luận gian lận khi chưa có bằng chứng là vội vàng.",
       "Sai. Bỏ qua bước thu thập bằng chứng và kênh báo cáo phù hợp qua CAE."
     ],
@@ -1620,7 +1620,7 @@
     "answer": 2,
     "explanation": "Truyền đạt hiệu quả với cấp quản trị cần đi thẳng vào điều quan trọng: tóm tắt kết luận, phát hiện ưu tiên, tác động, rồi mới đến chi tiết. Báo cáo phải rõ ràng, súc tích (GIAS 11.2).",
     "optionNotes": [
-      "Sai. Thêm chi tiết làm vấn đề khó nắm hơn.",
+      "Sai. Thêm phụ lục làm báo cáo dài hơn và càng khó thấy điều quan trọng; cần đưa kết luận và phát hiện ưu tiên lên đầu.",
       "Sai. Bảng số liệu không thay được thông điệp và kết luận.",
       "Đúng. Tóm tắt điều quan trọng trước giúp người đọc nắm nhanh.",
       "Sai. Giải thích riêng từng người không khắc phục chất lượng báo cáo."
@@ -1674,7 +1674,7 @@
     "optionNotes": [
       "Đúng. Nguồn gốc, chính thức và tham vấn chuyên gia.",
       "Sai. Tóm tắt của đơn vị được kiểm toán có thể thiếu hoặc lệch.",
-      "Sai. Tiêu chí lỗi thời dẫn đến kết luận sai.",
+      "Sai. Tiêu chí của thông tư cũ có thể đã thay đổi; dùng tiêu chí lỗi thời dẫn đến kết luận sai về tuân thủ quy định hiện hành.",
       "Sai. Bài báo không phải nguồn tiêu chí chính thức."
     ],
     "refs": [
@@ -1724,7 +1724,7 @@
     "answer": 2,
     "explanation": "Xây dựng quan hệ tin cậy dựa trên trao đổi sớm, lắng nghe, minh bạch về mục tiêu và cách làm, công nhận điều làm tốt (GIAS 11.1), mà không đánh đổi tính khách quan hay nghĩa vụ báo cáo.",
     "optionNotes": [
-      "Sai. Giảm phát hiện là làm sai lệch kết quả.",
+      "Sai. Giảm phát hiện để lấy lòng là làm sai lệch kết quả và mất khách quan; lòng tin phải xây bằng trao đổi minh bạch.",
       "Sai. Chỉ làm việc qua văn bản làm khoảng cách lớn hơn.",
       "Đúng. Minh bạch và trao đổi hai chiều xây dựng lòng tin.",
       "Sai. Hứa không báo cáo lên là trái với nghĩa vụ báo cáo."
@@ -1882,7 +1882,7 @@
     "optionNotes": [
       "Đúng. Phân công lại xử lý trực tiếp suy giảm.",
       "Sai. Phản ứng quá mức khi có thể phân công lại.",
-      "Sai. Công bố không loại bỏ suy giảm.",
+      "Sai. Công bố quan hệ là cần thiết nhưng không tự loại bỏ suy giảm khách quan; CAE vẫn phải có biện pháp như phân công lại.",
       "Sai. Cam kết của bên kia không xử lý suy giảm từ phía kiểm toán viên."
     ],
     "refs": [
@@ -2088,7 +2088,7 @@
     "optionNotes": [
       "Đúng. Báo cáo trung thực theo kênh quản trị phù hợp.",
       "Sai. Thẩm quyền không cho phép che giấu phát hiện về chính người đó.",
-      "Sai. Trì hoãn là che giấu thông tin.",
+      "Sai. Hoãn sang năm sau khi Chủ tịch hết nhiệm kỳ là che giấu thông tin; phát hiện có căn cứ phải được báo cáo kịp thời.",
       "Sai. Báo chí không phải kênh phù hợp và vi phạm bảo mật."
     ],
     "refs": [
@@ -2163,7 +2163,7 @@
     "explanation": "GIAS 2.2 yêu cầu: nếu kiểm toán viên cung cấp dịch vụ tư vấn liên quan đến hoạt động mình từng phụ trách, họ phải công bố khả năng suy giảm khách quan với bên đề nghị dịch vụ trước khi nhận cuộc tư vấn.",
     "optionNotes": [
       "Đúng. Công bố với bên đề nghị trước khi nhận.",
-      "Sai. Vẫn phải công bố trước khi nhận tư vấn.",
+      "Sai. Quy tắc 12 tháng áp dụng cho đảm bảo, nhưng với tư vấn vẫn phải công bố khả năng suy giảm khách quan với bên đề nghị trước khi nhận.",
       "Sai. Tư vấn không bị cấm, nhưng phải công bố.",
       "Sai. Công bố phải thực hiện trước, không phải sau."
     ],
@@ -2190,7 +2190,7 @@
     "optionNotes": [
       "Sai. Bỏ qua bất thường là thiếu hoài nghi và tò mò.",
       "Đúng. Tìm hiểu và trao đổi để quyết định mở rộng.",
-      "Sai. Mở rộng phạm vi cần được phê duyệt.",
+      "Sai. Kiểm toán viên không tự mở rộng phạm vi; thay đổi phạm vi phải được trao đổi và phê duyệt theo phương pháp của bộ phận.",
       "Sai. Kết luận tích cực khi chưa tìm hiểu nguyên nhân."
     ],
     "refs": [
@@ -2241,8 +2241,8 @@
     "explanation": "Bảo mật danh tính người tố giác là yêu cầu cốt lõi của kênh tố giác và của nguyên tắc bảo mật. Tiết lộ, kể cả gián tiếp, có thể dẫn đến trả đũa và làm mất niềm tin vào kênh tố giác.",
     "optionNotes": [
       "Sai. Vi phạm bảo mật và có thể dẫn đến trả đũa.",
-      "Sai. Nhân sự cũng không được tiết lộ.",
-      "Sai. Gợi ý gián tiếp cũng là tiết lộ.",
+      "Sai. Chuyển cho Nhân sự không giải quyết được vấn đề; không ai được tiết lộ thông tin có thể nhận ra người tố giác.",
+      "Sai. Gợi ý vài người có thể là người tố giác cũng là tiết lộ gián tiếp, có thể dẫn tới trả đũa.",
       "Đúng. Bảo vệ danh tính người tố giác."
     ],
     "refs": [
@@ -2267,8 +2267,8 @@
     "optionNotes": [
       "Đúng. Trục lợi từ thông tin bảo mật.",
       "Sai. Nguồn tiền không quan trọng; thông tin mới là vấn đề.",
-      "Sai. Quy mô không làm hành vi hợp lệ.",
-      "Sai. Báo sau không làm hành vi hợp lệ."
+      "Sai. Quy mô giao dịch không làm hành vi hợp lệ; dùng thông tin chưa công bố để mua cổ phiếu là trục lợi ở bất kỳ quy mô nào.",
+      "Sai. Báo cho CAE sau khi đã mua không làm hành vi hợp lệ; vi phạm đã xảy ra khi dùng thông tin để giao dịch."
     ],
     "refs": [
       "GIAS 5.2",
@@ -2320,7 +2320,7 @@
       "Sai. Áp lực thời gian không cho phép vi phạm bảo mật.",
       "Sai. Xóa sau không loại bỏ rủi ro đã phát sinh.",
       "Đúng. Dùng kênh được phép hoặc chấp nhận trễ hạn.",
-      "Sai. Ứng dụng nhắn tin cũng không được phép."
+      "Sai. Ứng dụng nhắn tin cũng là kênh không được phép, có nguy cơ làm lộ dữ liệu khách hàng như email cá nhân."
     ],
     "refs": [
       "GIAS 5.2",
@@ -2449,7 +2449,7 @@
     "optionNotes": [
       "Sai. Lãi suất ưu đãi đặc biệt vẫn là lợi ích từ đơn vị được kiểm toán.",
       "Sai. Xung đột tồn tại bất kể tình trạng trả nợ.",
-      "Sai. Không loại bỏ được lợi ích đã nhận.",
+      "Sai. Trả lãi đúng hợp đồng không xóa được lợi ích đặc biệt đã nhận từ chính đơn vị sẽ được kiểm toán.",
       "Đúng. Cần công bố và cân nhắc phân công lại."
     ],
     "refs": [
@@ -2501,7 +2501,7 @@
     "optionNotes": [
       "Sai. Bằng chứng thu trái phép có thể mất giá trị.",
       "Đúng. Kiểm tra cơ sở pháp lý trước khi làm.",
-      "Sai. Hành vi ghi âm đã có thể vi phạm.",
+      "Sai. Hành vi ghi âm bí mật đã có thể vi phạm pháp luật hoặc chính sách; xóa sau khi bị phản đối không khắc phục được.",
       "Sai. Nhờ người khác cài thiết bị vẫn là ghi âm bí mật, còn kéo thêm người vào một hành vi có thể trái pháp luật hoặc chính sách."
     ],
     "refs": [
@@ -2525,10 +2525,10 @@
     "answer": 2,
     "explanation": "GIAS 11.4 yêu cầu: nếu báo cáo cuối cùng có sai sót hoặc bỏ sót đáng kể, CAE phải nhanh chóng gửi thông tin đã sửa cho tất cả các bên đã nhận báo cáo gốc.",
     "optionNotes": [
-      "Sai. Người đọc vẫn dựa vào thông tin sai.",
-      "Sai. Chờ quá lâu với sai sót đáng kể.",
+      "Sai. Sửa trong hồ sơ nội bộ thì người đọc vẫn dựa vào con số sai; thông tin đã sửa phải được gửi cho mọi bên đã nhận.",
+      "Sai. Chờ đến năm sau làm người đọc đánh giá sai mức độ nghiêm trọng quá lâu; sai sót đáng kể phải được sửa kịp thời.",
       "Đúng. Gửi thông tin đã sửa cho mọi bên đã nhận.",
-      "Sai. Không đến được tất cả người nhận."
+      "Sai. Thông báo miệng cho một người không đến được tất cả các bên đã nhận báo cáo gốc."
     ],
     "refs": [
       "GIAS 11.4",
@@ -2553,7 +2553,7 @@
     "optionNotes": [
       "Sai. Mức độ phổ biến không phản ánh độ tin cậy.",
       "Sai. Diễn đàn là nguồn thứ cấp chưa kiểm chứng.",
-      "Sai. Đơn vị được kiểm toán không độc lập.",
+      "Sai. Nhân viên của đơn vị đang được kiểm toán không phải nguồn độc lập để xác định tiêu chí; cần văn bản gốc và hướng dẫn chính thức.",
       "Đúng. Nguồn gốc chính thức."
     ],
     "refs": [

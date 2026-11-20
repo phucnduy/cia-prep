@@ -85,8 +85,16 @@ These are style lessons only. Never copy or paraphrase another site's questions 
 ## 3. Explanations
 
 - `explanation`: why the correct answer is right, plus the source.
-- `optionNotes`: required. One note per option, in `options` order, starting with "Đúng." or "Sai.", giving the reason or the misconception. A wrong-option note says **why it is wrong and what the right understanding is** (one or two sentences); "Sai. Quá tuyệt đối." is not enough. The validator warns below 35 characters. (Lesson from comparing with a commercial bank, 2026-11-20: per-option explanations are where learners learn most.)
+- `optionNotes`: required. One note per option, in `options` order, starting with "Đúng." or "Sai.", giving the reason or the misconception. A wrong-option note says **why it is wrong and what the right understanding is** (one or two sentences); "Sai. Quá tuyệt đối." is not enough. The validator warns below 45 characters. (Lesson from comparing with a commercial bank, 2026-11-20: per-option explanations are where learners learn most.)
 - `refs`: `GIAS x.y`, `CIA Part n X.y` (syllabus section; not the old Roman numerals I-IV), `IPPF 2017 nnnn`, `COSO 2013`, `IESBA Code`...
+
+## 3a. Writing and review standard
+
+The full standard, in Vietnamese for authors and reviewers, is [docs/nguyen-tac-bien-soan-ra-soat.md](docs/nguyen-tac-bien-soan-ra-soat.md) (user decision, 2026-11-20). Follow it for every new or edited question. In short:
+- Distractors are plausible misconceptions: role mix-ups, cause vs consequence, true-but-secondary, right action in the wrong order, absolutes, near concepts, superseded IPPF 2017 rules. Never a throwaway option.
+- Every wrong-option note explains the error and the right understanding (45 characters or more).
+- Review each question against the checklist in section 6.1 of that document; the tools catch form, not substance.
+- Tools: `scripts/batch-check.mjs` (before adding a batch), `npm run validate` (every build), `npm run audit:bank` (periodic), `scripts/review-notes.mjs list|apply` (find and fix thin notes without touching the correct option).
 
 ## 3b. Lessons (`lessons.json`)
 

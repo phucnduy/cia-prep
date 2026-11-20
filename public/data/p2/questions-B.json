@@ -20,7 +20,7 @@
     "topic": "B6",
     "optionNotes": [
       "Sai. Tiêu chí là chuẩn để so sánh, không cần công cụ phân tích nguyên nhân.",
-      "Sai. Thực trạng là những gì quan sát được.",
+      "Sai. Thực trạng là những gì quan sát được; 5 Whys và biểu đồ xương cá đi tiếp để tìm vì sao thực trạng khác tiêu chí.",
       "Đúng. 5 Whys và biểu đồ xương cá dùng để tìm nguyên nhân gốc rễ.",
       "Sai. Ảnh hưởng là hệ quả, không phải nguyên nhân."
     ]
@@ -47,7 +47,7 @@
       "Sai. Ký xác nhận từng trang không phải thuộc tính của thông tin.",
       "Đúng. GIAS 14.1: thông tin phải phù hợp, đáng tin cậy và đầy đủ.",
       "Sai. Hình thức lưu trữ không quyết định chất lượng thông tin.",
-      "Sai. Thông tin nội bộ vẫn có thể đủ tin cậy."
+      "Sai. Thông tin nội bộ vẫn có thể đủ tin cậy; GIAS yêu cầu thông tin phù hợp, đáng tin cậy và đầy đủ, không bắt buộc từ bên thứ ba."
     ]
   },
   {
@@ -69,9 +69,9 @@
     ],
     "source": "original",
     "optionNotes": [
-      "Sai. Giải trình bằng lời kém tin cậy nhất.",
+      "Sai. Giải trình bằng lời là bằng chứng kém tin cậy nhất vì chưa được chứng thực và dễ sai lệch.",
       "Sai. Bản sao do đơn vị cung cấp kém tin cậy hơn bằng chứng từ bên ngoài.",
-      "Sai. Báo cáo tự lập có nguy cơ thiên lệch.",
+      "Sai. Báo cáo do chính bộ phận được kiểm toán lập có nguy cơ thiên lệch, kém tin cậy hơn xác nhận từ bên thứ ba.",
       "Đúng. Bằng chứng từ bên thứ ba độc lập gửi trực tiếp cho kiểm toán viên tin cậy nhất."
     ]
   },
@@ -242,7 +242,7 @@
     "explanation": "Walkthrough, tức quan sát trực tiếp một giao dịch đi qua quy trình, là thủ tục GIAS 14.1 nêu để thu thập thông tin; nó giúp xác nhận quy trình và kiểm soát trên thực tế có đúng như mô tả, làm cơ sở thiết kế thủ tục kiểm tra.",
     "optionNotes": [
       "Sai. Bảng câu hỏi chỉ phản ánh nhận thức của người trả lời.",
-      "Sai. Báo cáo cũ có thể đã lỗi thời.",
+      "Sai. Báo cáo năm trước có thể đã lỗi thời; cần theo một giao dịch thực tế để xác nhận quy trình hiện tại.",
       "Sai. Chọn mẫu kiểm tra là bước sau khi đã hiểu quy trình.",
       "Đúng. Walkthrough xác nhận hiểu biết về quy trình."
     ],
@@ -268,9 +268,9 @@
     "explanation": "GIAS 14.1 (Xem xét khi thực hiện) nêu kiểm toán viên nên cân nhắc kiểm tra toàn bộ tổng thể hay chọn mẫu; phần mềm phân tích dữ liệu giúp kiểm tra toàn bộ. Khi mục tiêu là tìm mọi ngoại lệ, kiểm tra toàn bộ phù hợp hơn chọn mẫu.",
     "optionNotes": [
       "Đúng. Kiểm tra toàn bộ tổng thể bằng phần mềm.",
-      "Sai. Chọn mẫu không tìm được mọi ngoại lệ.",
-      "Sai. Phỏng vấn là bằng chứng gián tiếp.",
-      "Sai. Danh sách do đơn vị tự lập kém tin cậy."
+      "Sai. Chọn mẫu chỉ ước tính tỷ lệ, không tìm được mọi giao dịch vượt hạn mức như mục tiêu đặt ra.",
+      "Sai. Phỏng vấn là bằng chứng gián tiếp và không liệt kê được mọi ngoại lệ trong 1,2 triệu giao dịch.",
+      "Sai. Danh sách do chính đơn vị tự lập kém tin cậy; kiểm toán viên cần tự trích và phân tích dữ liệu."
     ],
     "refs": [
       "GIAS 14.1",
@@ -320,9 +320,9 @@
     "explanation": "GIAS 14.1 (Xem xét khi thực hiện): nếu chọn mẫu, kiểm toán viên nên áp dụng phương pháp để mẫu đại diện cho toàn bộ tổng thể nhất có thể. Chọn theo sự thuận tiện làm mẫu thiên lệch, không đủ cơ sở kết luận cho cả năm.",
     "optionNotes": [
       "Sai. Vấn đề là tính đại diện, không phải cỡ mẫu.",
-      "Sai. Không có cơ sở cho nhận định này.",
+      "Sai. Không có cơ sở cho rằng hợp đồng tháng 12 rủi ro thấp hơn; thậm chí cuối năm thường có rủi ro cao hơn.",
       "Đúng. Mẫu thiên lệch, không đại diện cho cả năm.",
-      "Sai. Tự chọn vẫn phải bảo đảm tính đại diện."
+      "Sai. Kiểm toán viên tự chọn vẫn phải bảo đảm tính đại diện; chọn theo sự thuận tiện làm mẫu thiên lệch."
     ],
     "refs": [
       "GIAS 14.1",
@@ -372,7 +372,7 @@
     "explanation": "GIAS 14.1: độ tin cậy tăng khi thông tin được chứng thực, lấy trực tiếp hoặc từ nguồn độc lập. Sao kê ngân hàng kỳ sau là nguồn độc lập chứng thực lời giải thích; chữ ký hay lời của người cùng bộ phận vẫn là nguồn nội bộ, không độc lập.",
     "optionNotes": [
       "Đúng. Chứng thực bằng nguồn độc lập.",
-      "Sai. Chức vụ không thay được chứng thực.",
+      "Sai. Chức vụ không thay được chứng thực; lời giải thích cần được kiểm tra với nguồn độc lập như sao kê ngân hàng.",
       "Sai. Văn bản của cùng một người vẫn không độc lập.",
       "Sai. Người cùng bộ phận không phải nguồn độc lập."
     ],
@@ -398,9 +398,9 @@
     "answer": 1,
     "explanation": "GIAS 14.1 (Xem xét khi thực hiện): nếu không thể có bằng chứng phù hợp, kiểm toán viên phải xác định có nêu điều đó thành phát hiện hay không. Thời gian lưu nhật ký quá ngắn có thể là khiếm khuyết kiểm soát; đồng thời phạm vi kết luận phải phản ánh giới hạn này.",
     "optionNotes": [
-      "Sai. Kết luận vượt quá bằng chứng có được.",
+      "Sai. Kết luận cho cả năm dựa trên 3 tháng là vượt quá bằng chứng có được.",
       "Đúng. Xem xét việc thiếu bằng chứng có là phát hiện không.",
-      "Sai. Thông tin tái tạo không đáng tin cậy.",
+      "Sai. Nhật ký tái tạo từ trí nhớ không đáng tin cậy; việc không lưu đủ nhật ký mới là điều cần cân nhắc nêu thành phát hiện.",
       "Sai. Thiếu dữ liệu chưa chứng minh kiểm soát không hữu hiệu."
     ],
     "refs": [
@@ -426,7 +426,7 @@
     "explanation": "GIAS 14.1: thông tin phù hợp là nhất quán với mục tiêu, nằm trong phạm vi và góp phần hình thành kết quả. Tranh chấp thuê văn phòng ba năm trước nằm ngoài phạm vi cuộc kiểm toán mua hàng năm nay.",
     "optionNotes": [
       "Sai. Email có thể đáng tin cậy; vấn đề là phạm vi.",
-      "Sai. Đầy đủ không phải vấn đề chính.",
+      "Sai. Vấn đề không phải số lượng email; dù nhiều đến đâu, thông tin nằm ngoài phạm vi cuộc kiểm toán vẫn không phù hợp.",
       "Đúng. Không phù hợp với mục tiêu và phạm vi.",
       "Sai. 'Kịp thời' không phải thuộc tính của bằng chứng theo GIAS 14.1."
     ],
@@ -453,7 +453,7 @@
     "optionNotes": [
       "Sai. Phải nêu sự đảm bảo khi quy trình hữu hiệu.",
       "Sai. Không đổi loại dịch vụ vì không có phát hiện.",
-      "Sai. Tìm phát hiện cho có là sai mục đích.",
+      "Sai. Mở rộng phạm vi chỉ để tìm phát hiện là sai mục đích; khi không có chênh lệch, kết luận phải nêu quy trình hiệu quả.",
       "Đúng. Bắt buộc đưa ra sự đảm bảo."
     ],
     "refs": [
@@ -479,7 +479,7 @@
     "optionNotes": [
       "Đúng. Mức quan trọng và chi phí so với lợi ích.",
       "Sai. Thời gian rảnh không phải tiêu chí chính.",
-      "Sai. Không đòi hỏi chắc chắn tuyệt đối.",
+      "Sai. Kiểm toán không đòi hỏi chắc chắn tuyệt đối; quyết định phân tích thêm cân nhắc mức quan trọng và chi phí so với lợi ích.",
       "Sai. Quyết định thuộc kiểm toán viên, không phải đơn vị."
     ],
     "refs": [
@@ -504,7 +504,7 @@
     "answer": 1,
     "explanation": "GIAS 14.3 (Xem xét khi thực hiện): để xác định mức quan trọng của phát hiện, kiểm toán viên nhận diện và đánh giá kiểm soát hiện có về thiết kế và hiệu quả, rồi xác định rủi ro còn lại, là rủi ro vẫn tồn tại dù đã có kiểm soát.",
     "optionNotes": [
-      "Sai. Số lượng vi phạm chỉ là một dữ kiện.",
+      "Sai. Số lượng vi phạm chỉ là một dữ kiện; mức rủi ro còn lại được xác định sau khi đánh giá kiểm soát hiện có.",
       "Đúng. Đánh giá kiểm soát để xác định rủi ro còn lại.",
       "Sai. Ý kiến một người không thay được đánh giá.",
       "Sai. So sánh số phát hiện không đo mức rủi ro."
@@ -556,7 +556,7 @@
     "answer": 3,
     "explanation": "GIAS 14.3 yêu cầu ưu tiên từng phát hiện theo mức quan trọng, dùng phương pháp do CAE thiết lập; phần Xem xét khi thực hiện nêu mục đích là bảo đảm nhất quán giữa mọi cuộc kiểm toán và giúp quản lý ưu tiên kế hoạch hành động.",
     "optionNotes": [
-      "Sai. Thang riêng làm mất tính nhất quán.",
+      "Sai. Mỗi trưởng nhóm dùng thang riêng làm mất tính nhất quán; phương pháp xếp hạng phải do CAE thiết lập chung.",
       "Sai. Thời gian phát hiện không phản ánh mức quan trọng.",
       "Sai. Đơn vị được kiểm toán không đặt thang xếp hạng.",
       "Đúng. Phương pháp chung của CAE."
@@ -635,10 +635,10 @@
     "answer": 2,
     "explanation": "GIAS 12.3 (Xem xét khi thực hiện): ghi chú rà soát thường được xóa khỏi hồ sơ cuối khi đã có đủ bằng chứng hoặc giấy làm việc đã được bổ sung; hoặc chức năng có thể lưu riêng hồ sơ ghi chú, các bước xử lý và kết quả.",
     "optionNotes": [
-      "Sai. Thường được xóa khi đã xử lý xong.",
-      "Sai. Ghi chú nội bộ không gửi cho đơn vị.",
+      "Sai. Ghi chú rà soát thường được xóa khỏi hồ sơ cuối khi đã xử lý xong, hoặc lưu riêng kèm cách xử lý; không cần giữ để chứng minh sai sót.",
+      "Sai. Ghi chú rà soát là trao đổi nội bộ của bộ phận kiểm toán, không gửi cho đơn vị được kiểm toán.",
       "Đúng. Xóa hoặc lưu riêng hồ sơ xử lý.",
-      "Sai. Có thể lưu riêng; không bắt buộc hủy."
+      "Sai. Không bắt buộc hủy; bộ phận có thể lưu riêng ghi chú rà soát cùng cách đã xử lý."
     ],
     "refs": [
       "GIAS 12.3",
@@ -739,7 +739,7 @@
     "answer": 2,
     "explanation": "GIAS 14.5 (Xem xét khi thực hiện): kết luận của cuộc tư vấn nên phù hợp với mục tiêu và phạm vi đã thỏa thuận. Yêu cầu kết luận về hiệu quả quản trị, rủi ro, kiểm soát áp dụng cho cuộc đảm bảo.",
     "optionNotes": [
-      "Sai. Đánh giá vận hành là của cuộc đảm bảo.",
+      "Sai. Đánh giá hiệu quả vận hành là yêu cầu của cuộc đảm bảo; kết luận tư vấn phù hợp với mục tiêu và phạm vi đã thỏa thuận.",
       "Sai. Thang xếp hạng không bắt buộc cho tư vấn.",
       "Đúng. Phù hợp với mục tiêu, phạm vi đã thỏa thuận.",
       "Sai. Báo cáo tư vấn vẫn có kết luận (GIAS 15.1)."

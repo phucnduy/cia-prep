@@ -9,7 +9,7 @@ const MAX_LONGEST_CORRECT_SHARE = 0.4;
 /** Easy questions may be at most this share of a part (CLAUDE.md, Difficulty). */
 const MAX_EASY_SHARE = 0.1;
 /** A wrong-option note shorter than this rarely explains the misconception (CLAUDE.md section 3). */
-const MIN_WRONG_NOTE = 35;
+const MIN_WRONG_NOTE = 45;
 // The 52 standards of GIAS 2024 (Principle.Standard). Any other "GIAS x.y" is a typo or invention.
 const GIAS_STANDARDS = new Set(
   Object.entries({ 1: 3, 2: 3, 3: 2, 4: 3, 5: 2, 6: 3, 7: 2, 8: 4, 9: 5, 10: 3, 11: 5, 12: 3, 13: 6, 14: 6, 15: 2 })

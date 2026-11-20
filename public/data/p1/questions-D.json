@@ -39,7 +39,7 @@
     "answer": 2,
     "explanation": "Trong nhóm tham nhũng của ACFE: hối lộ là khi bên ngoài chủ động đưa giá trị để tác động quyết định; tống tiền kinh tế là khi nhân viên đòi hỏi, ép buộc bên ngoài phải chi trả, nếu không sẽ gây bất lợi. Ở đây nhân viên là bên chủ động đòi.",
     "optionNotes": [
-      "Sai. Nhà thầu không chủ động; họ bị ép.",
+      "Sai. Hối lộ là khi bên ngoài chủ động đưa tiền để tác động quyết định; ở đây nhà thầu bị nhân viên ép phải chi.",
       "Sai. Lại quả là thỏa thuận chia lại phần tiền nâng giá; ở đây là bị ép chi.",
       "Đúng. Nhân viên đòi tiền dưới đe dọa gây bất lợi là tống tiền kinh tế.",
       "Sai. Tiền do nhà thầu chi, không trực tiếp lấy từ tài sản công ty."
@@ -148,7 +148,7 @@
     "optionNotes": [
       "Sai. Chi phí có thật; vấn đề là hoàn ứng hai lần. Phê duyệt không phát hiện được.",
       "Đúng. Đây là hoàn ứng trùng; đóng dấu đã thanh toán và đối chiếu sao kê thẻ công ty ngăn chặn được.",
-      "Sai. Lapping liên quan đến công nợ phải thu.",
+      "Sai. Lapping là gối đầu các khoản thu khách hàng trong công nợ phải thu; tình huống là dùng một hóa đơn để được hoàn tiền hai lần.",
       "Sai. Số tiền không bị thổi phồng; hạn mức không ngăn hoàn ứng hai lần."
     ]
   },
@@ -199,7 +199,7 @@
       "Đúng. Nhồi kênh phân phối thổi phồng doanh thu cuối kỳ bằng hàng vượt nhu cầu kèm quyền trả lại.",
       "Sai. Bill-and-hold là ghi doanh thu khi hàng vẫn ở kho của người bán.",
       "Sai. Cookie jar là làm mượt lợi nhuận bằng dự phòng.",
-      "Sai. Không liên quan đến hợp đồng nhiều kỳ."
+      "Sai. Hợp đồng nhiều kỳ không có trong tình huống; đây là đẩy hàng cho đại lý cuối kỳ kèm cam kết ngầm cho trả lại."
     ]
   },
   {
@@ -273,7 +273,7 @@
     "optionNotes": [
       "Sai. Cả tài sản và lợi nhuận đều bị khai cao.",
       "Sai. Chi phí bị chuyển thành tài sản nên lợi nhuận tăng.",
-      "Sai. Nợ phải trả không bị ảnh hưởng.",
+      "Sai. Vốn hóa sai chi phí làm tài sản và lợi nhuận bị khai cao; nợ phải trả không thay đổi vì không phát sinh nghĩa vụ mới.",
       "Đúng. Vốn hóa sai làm tài sản khai cao và chi phí kỳ đó khai thấp, nên lợi nhuận khai cao."
     ]
   },
@@ -450,7 +450,7 @@
       "Sai. Kiting liên quan đến séc giữa ngân hàng, không phải công nợ khách hàng.",
       "Đúng. Đây là lapping; xác nhận công nợ trực tiếp, nghỉ phép bắt buộc và luân chuyển làm lộ chuỗi gối đầu.",
       "Sai. Công ty vỏ bọc liên quan đến nhà cung cấp, không phải công nợ khách hàng.",
-      "Sai. Nhân viên ma liên quan đến bảng lương."
+      "Sai. Nhân viên ma là gian lận bảng lương; tình huống là dùng tiền khách hàng sau để ghi có cho khách hàng trước, tức lapping."
     ]
   },
   {
@@ -982,7 +982,7 @@
       "Sai. Cam kết bảo mật không liên quan đến việc phát hiện gối đầu.",
       "Đúng. Nghỉ phép bắt buộc và luân chuyển làm gián đoạn việc che giấu.",
       "Sai. Nới hạn mức phê duyệt làm yếu kiểm soát.",
-      "Sai. Nơi lưu chứng từ không làm lộ thủ đoạn."
+      "Sai. Gom chứng từ về một nơi không làm lộ thủ đoạn; lapping chỉ lộ khi người khác tiếp quản việc theo dõi công nợ."
     ],
     "refs": [
       "CIA Part 1 D.4",
@@ -1059,7 +1059,7 @@
     "optionNotes": [
       "Sai. Lại quả có thể đi kèm, nhưng mẫu hình mô tả là thông đồng giữa các nhà thầu.",
       "Đúng. Xoay vòng thắng thầu và giá bảo vệ là dấu hiệu thông đồng.",
-      "Sai. Không có dấu hiệu chia nhỏ gói thầu.",
+      "Sai. Chia nhỏ gói thầu có dấu hiệu khác (nhiều gói nhỏ sát ngưỡng); ở đây là cùng nhóm nhà thầu thay phiên nhau thắng.",
       "Sai. Các nhà thầu được mô tả là có thật, tham dự thường xuyên."
     ],
     "refs": [
@@ -1111,8 +1111,8 @@
     "optionNotes": [
       "Sai. Công nhân có thật; vấn đề là số giờ bị khai khống.",
       "Đúng. Khai khống giờ công và kiểm soát chấm công phù hợp.",
-      "Sai. Không có bên ngoài chi tiền lại quả.",
-      "Sai. Gối đầu liên quan đến công nợ phải thu."
+      "Sai. Lại quả cần một bên ngoài chi tiền cho người nội bộ; ở đây tổ trưởng tự ghi khống giờ công để nhận thêm lương.",
+      "Sai. Gối đầu là thủ đoạn với các khoản thu khách hàng; khai khống giờ làm thêm là gian lận bảng lương."
     ],
     "refs": [
       "CIA Part 1 D.1",
@@ -1162,7 +1162,7 @@
     "optionNotes": [
       "Sai. Áp lực từ chỉ tiêu là yếu tố rủi ro gian lận cần xem xét.",
       "Đúng. Đưa yếu tố áp lực vào đánh giá rủi ro và thủ tục.",
-      "Sai. Áp lực không chứng minh có gian lận.",
+      "Sai. Áp lực chỉ tiêu làm tăng rủi ro gian lận nhưng không chứng minh có gian lận; cần đưa vào đánh giá rủi ro và thiết kế thủ tục.",
       "Sai. Đặt chỉ tiêu là quyết định của Ban điều hành."
     ],
     "refs": [
@@ -1214,7 +1214,7 @@
     "optionNotes": [
       "Sai. Có thể có lý do hợp lệ, nhưng phải xác minh, không bỏ qua.",
       "Đúng. Xác minh dấu hiệu bất thường trước khi kết luận.",
-      "Sai. Kết luận khi chưa xác minh là vội vàng.",
+      "Sai. Kết luận khi chưa xác minh là vội vàng; dùng chung tài khoản có thể có lý do hợp lệ, cần kiểm tra chủ tài khoản trước.",
       "Sai. Xóa nhà cung cấp làm mất dấu vết và không xử lý nguyên nhân."
     ],
     "refs": [
@@ -1369,7 +1369,7 @@
     "explanation": "Dấu hiệu cấp tổ chức liên quan đến môi trường, văn hóa, lãnh đạo: thay kiểm toán độc lập thường xuyên, áp lực chỉ tiêu cực đoan, thái độ coi nhẹ kiểm soát. Các dấu hiệu còn lại gắn với một giao dịch, cá nhân hay quy trình cụ thể.",
     "optionNotes": [
       "Sai. Dấu hiệu cấp giao dịch, quy trình thanh toán.",
-      "Sai. Vi phạm phân nhiệm trong một quy trình.",
+      "Sai. Người lập tự duyệt phiếu chi là vi phạm phân nhiệm trong một quy trình cụ thể, không phải dấu hiệu ở cấp tổ chức.",
       "Đúng. Dấu hiệu về lãnh đạo và văn hóa toàn tổ chức.",
       "Sai. Dấu hiệu hành vi của một cá nhân trong quy trình."
     ],
@@ -1394,7 +1394,7 @@
     "explanation": "Khi phát hiện dấu hiệu gian lận, kiểm toán viên cần ghi nhận, giữ gìn bằng chứng và báo cáo kịp thời theo kênh đã quy định (trưởng kiểm toán nội bộ), để quyết định các bước tiếp theo như điều tra. Đối chất vội có thể làm lộ thông tin và mất bằng chứng.",
     "optionNotes": [
       "Sai. Đối chất vội có thể khiến bằng chứng bị tiêu hủy.",
-      "Sai. Chờ báo cáo cuối kỳ là quá chậm.",
+      "Sai. Dấu hiệu gian lận cần được báo kịp thời để giữ bằng chứng và quyết định điều tra; chờ đến báo cáo cuối kỳ là quá chậm.",
       "Sai. Dấu hiệu nhiều và có hệ thống không nên bỏ qua.",
       "Đúng. Bảo quản bằng chứng và báo cáo kịp thời."
     ],
@@ -1419,7 +1419,7 @@
     "explanation": "Chương trình quản lý rủi ro gian lận cần cả đánh giá rủi ro gian lận định kỳ và quy trình xử lý, điều tra, theo dõi tố giác. Có chính sách, đường dây nóng nhưng không đánh giá và không xử lý tố giác thì chương trình chỉ mang tính hình thức.",
     "optionNotes": [
       "Đúng. Hai thành phần cốt lõi bị thiếu.",
-      "Sai. Đề bài cho biết đã có chính sách.",
+      "Sai. Đề bài cho biết công ty đã có chính sách; điểm yếu là chưa đánh giá rủi ro gian lận và không xử lý các tố giác nhận được.",
       "Sai. Đào tạo đã có; số buổi không phải điểm yếu chính.",
       "Sai. Thứ yếu so với việc tố giác không được xử lý."
     ],
@@ -1443,7 +1443,7 @@
     "answer": 1,
     "explanation": "Chương trình hữu hiệu thể hiện qua việc đánh giá rủi ro gian lận định kỳ, mỗi rủi ro có kiểm soát phòng ngừa, phát hiện tương ứng và các kiểm soát này được kiểm tra. Không phát hiện vụ nào có thể do kiểm soát phát hiện yếu.",
     "optionNotes": [
-      "Sai. Số tài liệu không đo lường hiệu quả.",
+      "Sai. Số tài liệu chính sách không đo được hiệu quả; chương trình hữu hiệu khi rủi ro được đánh giá và kiểm soát được kiểm tra.",
       "Đúng. Rủi ro gắn với kiểm soát đã được kiểm tra.",
       "Sai. Bẫy: không phát hiện chưa chắc là không có gian lận.",
       "Sai. Cam kết là hình thức, không chứng minh hiệu quả."
@@ -1461,17 +1461,17 @@
     "stem": "Trong quá trình kiểm toán, kiểm toán viên phát hiện dấu hiệu cho thấy chính Tổng Giám đốc có thể liên quan đến gian lận. Trưởng kiểm toán nội bộ nên báo cáo cho ai là phù hợp nhất?",
     "options": [
       "Chỉ báo cáo cho Tổng Giám đốc để Tổng Giám đốc tự giải trình.",
-      "Thông báo ngay cho báo chí để bảo đảm tính minh bạch.",
+      "Báo cáo cho cơ quan công an trước khi báo cho HĐQT.",
       "Báo cáo cho HĐQT hoặc Ủy ban Kiểm toán theo kênh báo cáo chức năng.",
       "Báo cáo cho trưởng phòng kế toán để điều chỉnh sổ sách."
     ],
     "answer": 2,
     "explanation": "Khi người bị nghi ngờ thuộc cấp quản lý cao nhất, báo cáo cho chính người đó làm mất tính độc lập của việc xử lý. Trưởng kiểm toán nội bộ báo cáo cho HĐQT hoặc Ủy ban Kiểm toán qua kênh báo cáo chức năng.",
     "optionNotes": [
-      "Sai. Người bị nghi ngờ không thể tự xử lý.",
-      "Sai. Công bố ra ngoài khi chưa xác minh là sai và có hại.",
+      "Sai. Người bị nghi ngờ không thể tự giải trình và xử lý vụ việc liên quan đến chính mình; cần báo cáo lên HĐQT hoặc Ủy ban Kiểm toán.",
+      "Sai. Việc báo cơ quan pháp luật (nếu cần) do HĐQT quyết định sau khi được báo cáo; CAE trước hết báo qua kênh báo cáo chức năng.",
       "Đúng. Kênh báo cáo chức năng lên HĐQT.",
-      "Sai. Kế toán không có thẩm quyền xử lý."
+      "Sai. Kế toán không có thẩm quyền xử lý nghi vấn gian lận của Tổng Giám đốc và còn chịu sự điều hành của chính người đó."
     ],
     "refs": [
       "CIA Part 1 D.3"
@@ -1493,7 +1493,7 @@
     "answer": 3,
     "explanation": "Nhiều giao dịch dồn ngay dưới ngưỡng phê duyệt là dấu hiệu chia nhỏ đơn hàng để né kiểm soát cấp duyệt. Kiểm toán viên nên tổng hợp theo nhà cung cấp, thời gian để xác định giao dịch bị chia nhỏ.",
     "optionNotes": [
-      "Sai. Né phê duyệt không phải là hiệu quả.",
+      "Sai. Đơn hàng dồn sát ngưỡng là dấu hiệu né kiểm soát phê duyệt, không phải làm việc hiệu quả.",
       "Sai. Không có cơ sở cho giảm giá theo chính sách.",
       "Sai. Làm tròn không giải thích được sự dồn ngay dưới ngưỡng.",
       "Đúng. Dấu hiệu điển hình của chia nhỏ để né ngưỡng."
@@ -1520,9 +1520,9 @@
     "explanation": "Hạn mức phê duyệt giới hạn quyền của mỗi cá nhân, buộc các khoản lớn qua thêm một cấp xem xét. Kiểm soát này không loại bỏ được thông đồng và không thay thế các kiểm soát phát hiện như đối chiếu.",
     "optionNotes": [
       "Đúng. Giới hạn quyền tự quyết của từng người.",
-      "Sai. Ghi sổ đúng kỳ là mục tiêu khác.",
+      "Sai. Ghi sổ đúng kỳ là mục tiêu của kiểm soát khác; hạn mức phê duyệt giới hạn quyền tự duyệt của mỗi người.",
       "Sai. Không kiểm soát nào loại bỏ hoàn toàn thông đồng.",
-      "Sai. Không thay được kiểm soát phát hiện."
+      "Sai. Hạn mức phê duyệt là kiểm soát phòng ngừa, không thay được kiểm soát phát hiện như đối chiếu ngân hàng."
     ],
     "refs": [
       "CIA Part 1 D.4"
@@ -1547,7 +1547,7 @@
       "Sai. Tiến độ không phải rủi ro gian lận chính.",
       "Đúng. Thiếu độc lập giữa chi tiền, đối chiếu và soát xét.",
       "Sai. Phí ngân hàng là rủi ro nhỏ, không phải gian lận nội bộ.",
-      "Sai. Lỗi số học không phải rủi ro chủ yếu."
+      "Sai. Lỗi số học là sai sót vô ý, không phải rủi ro gian lận chủ yếu khi một người vừa chuyển tiền vừa đối chiếu."
     ],
     "refs": [
       "CIA Part 1 D.4"
@@ -1594,9 +1594,9 @@
     "answer": 3,
     "explanation": "Khi không thể phân nhiệm đầy đủ, kiểm soát bù đắp phổ biến là tăng giám sát của người có thẩm quyền độc lập: chủ doanh nghiệp tự xem sao kê, duyệt chi, soát xét định kỳ. Tuyển thêm nhiều người thường không hợp lý về chi phí.",
     "optionNotes": [
-      "Sai. Công ty nhỏ vẫn có rủi ro gian lận.",
-      "Sai. Cam kết không phải kiểm soát thực chất.",
-      "Sai. Không hợp lý về chi phí - lợi ích.",
+      "Sai. Công ty nhỏ vẫn có rủi ro gian lận, thậm chí cao hơn do không phân nhiệm được; cần kiểm soát bù đắp.",
+      "Sai. Cam kết trung thực không phải kiểm soát thực chất; cần sự giám sát độc lập của chủ doanh nghiệp.",
+      "Sai. Tuyển thêm năm người vượt xa lợi ích với công ty nhỏ; kiểm soát bù đắp như chủ doanh nghiệp tự soát xét hợp lý hơn.",
       "Đúng. Giám sát của chủ doanh nghiệp bù đắp phân nhiệm."
     ],
     "refs": [
@@ -1621,7 +1621,7 @@
     "optionNotes": [
       "Đúng. Từ chung đến nhạy cảm.",
       "Sai. Buộc tội sớm khiến người được hỏi phòng thủ, im lặng.",
-      "Sai. Câu hỏi đóng thu được ít thông tin.",
+      "Sai. Câu hỏi đóng chỉ thu được có hoặc không; câu hỏi mở ở đầu giúp thu thông tin và tạo thiện cảm.",
       "Sai. Đưa hết bằng chứng sớm giúp người kia dựng chuyện."
     ],
     "refs": [
@@ -1698,7 +1698,7 @@
     "optionNotes": [
       "Sai. Kiểm toán nội bộ không thay thế bộ phận điều tra.",
       "Sai. Đây không phải vai trò của bộ phận điều tra.",
-      "Sai. Phối hợp không làm mất độc lập.",
+      "Sai. Trao đổi thông tin với bộ phận điều tra không làm mất độc lập; nó giúp kiểm toán nội bộ xác định lĩnh vực rủi ro cao.",
       "Đúng. Dùng kết quả, xu hướng và tố giác làm đầu vào."
     ],
     "refs": [
@@ -1724,7 +1724,7 @@
       "Đúng. Dùng chuyên gia điều tra số.",
       "Sai. Có thể làm thay đổi dữ liệu và mất giá trị bằng chứng.",
       "Sai. Quá tuyệt đối: kiểm toán nội bộ có thể hỗ trợ điều tra.",
-      "Sai. Nghi phạm có thể sửa hoặc xóa dữ liệu."
+      "Sai. Nghi phạm tự gửi email có thể sửa hoặc xóa dữ liệu; bằng chứng số phải được chuyên gia thu thập theo quy trình."
     ],
     "refs": [
       "CIA Part 1 D.5",
@@ -1747,9 +1747,9 @@
     "answer": 1,
     "explanation": "Không ghi nhận hóa đơn, nghĩa vụ đã phát sinh trong kỳ làm chi phí và nợ phải trả bị ghi thiếu, lợi nhuận bị thổi phồng. Đây là gian lận báo cáo tài chính (che giấu nợ phải trả và chi phí). Thủ tục phát hiện: kiểm tra hóa đơn, thanh toán đầu kỳ sau (tìm nợ chưa ghi nhận).",
     "optionNotes": [
-      "Sai. Không có tiền mặt bị chiếm đoạt.",
+      "Sai. Không có tiền mặt bị chiếm đoạt; hóa đơn bị giữ lại để chi phí và nợ phải trả kỳ này bị ghi thiếu.",
       "Đúng. Không ghi nhận hóa đơn làm giảm chi phí, nợ phải trả: gian lận báo cáo tài chính.",
-      "Sai. Không liên quan đến chi phí công tác.",
+      "Sai. Hoàn ứng công tác phí là gian lận khác; tình huống là che giấu hóa đơn nhà cung cấp để làm đẹp lợi nhuận.",
       "Sai. Không có lợi ích cá nhân từ nhà cung cấp."
     ],
     "refs": [
@@ -1776,7 +1776,7 @@
       "Đúng. Ghi nhận trả hàng giả để rút tiền.",
       "Sai. Skimming lấy tiền trước khi giao dịch được ghi nhận.",
       "Sai. Lapping dùng tiền khách sau bù cho khách trước.",
-      "Sai. Không liên quan đến nhà cung cấp."
+      "Sai. Hóa đơn khống cho nhà cung cấp giả là gian lận thanh toán; tình huống là ghi nhận trả hàng không có thật tại quầy thu ngân."
     ],
     "refs": [
       "ACFE",
@@ -1801,7 +1801,7 @@
     "optionNotes": [
       "Sai. Chữ ký đầy đủ vẫn có thể che giấu gian lận.",
       "Đúng. Phân tích bất thường và chứng kiến độc lập.",
-      "Sai. Sổ kho đã được ghi giảm nên vẫn khớp.",
+      "Sai. Sổ kho đã được ghi giảm theo biên bản hủy nên vẫn khớp; đối chiếu này không phát hiện được hàng tốt bị khai là hỏng.",
       "Sai. Hỏi chính người nghi vấn cho bằng chứng yếu."
     ],
     "refs": [
@@ -1878,7 +1878,7 @@
     "optionNotes": [
       "Đúng. Cần khắc phục nguyên nhân gốc.",
       "Sai. Xử lý cá nhân không sửa được cơ hội gian lận.",
-      "Sai. Thu hồi tiền không loại bỏ cơ hội.",
+      "Sai. Thu hồi tiền không loại bỏ cơ hội; kiểm soát yếu đã tạo cơ hội vẫn còn nên người khác có thể lặp lại.",
       "Sai. Không có cơ sở và vẫn chưa sửa kiểm soát."
     ],
     "refs": [
@@ -1951,9 +1951,9 @@
     "answer": 3,
     "explanation": "Hạn mức chỉ có trên giấy thì dễ bị vượt. Cấu hình hạn mức trên hệ thống biến chính sách thành kiểm soát phòng ngừa tự động, giúp ngăn việc vượt quyền.",
     "optionNotes": [
-      "Sai. Nhắc nhở không ngăn được vượt quyền.",
-      "Sai. Làm yếu kiểm soát thay vì sửa.",
-      "Sai. Kiểm tra hằng năm là quá muộn.",
+      "Sai. Nhắc nhở không ngăn được vượt quyền khi hệ thống vẫn cho phép duyệt đơn hàng ở mọi giá trị.",
+      "Sai. Bỏ hạn mức cho khớp hệ thống là làm yếu kiểm soát thay vì sửa hệ thống cho đúng quy chế.",
+      "Sai. Kiểm tra lại mỗi năm là phát hiện quá muộn; cần kiểm soát phòng ngừa ngay trên hệ thống.",
       "Đúng. Kiểm soát tự động theo hạn mức."
     ],
     "refs": [
@@ -2004,7 +2004,7 @@
       "Sai. Chọn mẫu không ước tính thu nhập cá nhân.",
       "Đúng. So sánh tăng tài sản với thu nhập đã biết.",
       "Sai. Tỷ số của công ty không đo tài sản cá nhân.",
-      "Sai. Phỏng vấn không ước tính được số tiền."
+      "Sai. Phỏng vấn đồng nghiệp có thể cho thông tin bối cảnh nhưng không ước tính được số tiền thu nhập không giải thích được."
     ],
     "refs": [
       "ACFE",
@@ -2052,8 +2052,8 @@
     "answer": 3,
     "explanation": "Báo cáo điều tra trình bày dữ kiện và bằng chứng khách quan, tránh ý kiến về việc ai có tội; kết luận về tội danh thuộc cơ quan có thẩm quyền. Tin đồn và ý kiến chủ quan làm giảm giá trị và có thể gây rủi ro pháp lý.",
     "optionNotes": [
-      "Sai. Kết luận tội danh vượt thẩm quyền.",
-      "Sai. Tin đồn không có giá trị bằng chứng.",
+      "Sai. Kết luận tội danh và mức án thuộc cơ quan có thẩm quyền; báo cáo kiểm toán chỉ trình bày dữ kiện và bằng chứng.",
+      "Sai. Tin đồn không có giá trị bằng chứng và có thể gây hại cho người bị nhắc tên; báo cáo chỉ nêu dữ kiện có căn cứ.",
       "Sai. Nghi ngờ chủ quan không phải bằng chứng.",
       "Đúng. Dữ kiện, bằng chứng, không kết luận tội."
     ],

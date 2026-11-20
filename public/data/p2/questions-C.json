@@ -20,7 +20,7 @@
     "optionNotes": [
       "Sai. Thâm niên của trưởng đơn vị không quyết định mức giám sát.",
       "Sai. HĐQT không quyết định mức giám sát từng cuộc kiểm toán.",
-      "Sai. Độ dài báo cáo không liên quan.",
+      "Sai. Độ dài báo cáo không quyết định mức giám sát; mức giám sát tùy năng lực kiểm toán viên và độ phức tạp công việc.",
       "Đúng. GIAS 12.3: mức giám sát tùy năng lực, kinh nghiệm của kiểm toán viên và độ phức tạp công việc."
     ]
   },
@@ -45,7 +45,7 @@
     "source": "original",
     "optionNotes": [
       "Đúng. Vấn đề cần xử lý ngay phải được trao đổi kịp thời với quản lý phù hợp.",
-      "Sai. Giữ lại gây chậm trễ và tăng thiệt hại.",
+      "Sai. Giữ lại vấn đề nghiêm trọng để tạo bất ngờ gây chậm trễ và có thể làm thiệt hại tăng lên.",
       "Sai. Ban điều hành cần được trao đổi trước, trừ khi chính họ liên quan.",
       "Sai. Nhân viên thực hiện không có thẩm quyền xử lý."
     ]
@@ -142,8 +142,8 @@
     "explanation": "GIAS 12.3 (Xem xét khi thực hiện): khi lập kế hoạch, người giám sát phê duyệt chương trình kiểm toán; tiêu chí chính để phê duyệt là chương trình có đạt mục tiêu cuộc kiểm toán một cách hiệu quả hay không.",
     "optionNotes": [
       "Đúng. Đạt mục tiêu một cách hiệu quả.",
-      "Sai. Số lượng thủ tục không phải tiêu chí.",
-      "Sai. Đơn vị không phê duyệt chương trình.",
+      "Sai. Nhiều thủ tục hơn không có nghĩa là tốt hơn; tiêu chí là chương trình đạt mục tiêu cuộc kiểm toán một cách hiệu quả.",
+      "Sai. Đơn vị được kiểm toán không phê duyệt chương trình kiểm toán; việc đó thuộc người giám sát và CAE.",
       "Sai. Mẫu biểu là hình thức, không phải tiêu chí chính."
     ],
     "refs": [
@@ -168,10 +168,10 @@
     "answer": 1,
     "explanation": "GIAS 12.3 (Xem xét khi thực hiện): ở chức năng không có người giám sát riêng, CAE có thể dùng danh mục kiểm tra hoặc công cụ tự động để hỗ trợ giám sát việc tuân thủ Chuẩn mực trong từng cuộc kiểm toán. Bằng chứng giám sát vẫn phải được lưu.",
     "optionNotes": [
-      "Sai. Chuẩn mực áp dụng cho mọi quy mô.",
+      "Sai. Chuẩn mực áp dụng cho bộ phận ở mọi quy mô; phòng nhỏ dùng công cụ như danh mục kiểm tra để hỗ trợ giám sát.",
       "Đúng. Danh mục kiểm tra, công cụ tự động.",
       "Sai. Đơn vị được kiểm toán không giám sát kiểm toán viên.",
-      "Sai. Mọi cuộc kiểm toán đều cần giám sát."
+      "Sai. Mọi cuộc kiểm toán đều cần giám sát, không chỉ cuộc có phát hiện nghiêm trọng."
     ],
     "refs": [
       "GIAS 12.3",
@@ -221,7 +221,7 @@
     "explanation": "GIAS 12.3 yêu cầu CAE phản hồi cho kiểm toán viên về kết quả làm việc và cơ hội cải thiện. Phần Xem xét khi thực hiện nêu người giám sát trao đổi trong suốt cuộc kiểm toán và có thể họp sau cuộc kiểm toán, tạo cơ hội đào tạo, phát triển, đánh giá.",
     "optionNotes": [
       "Sai. Làm thay không giúp kiểm toán viên phát triển.",
-      "Sai. Không tạo cơ hội học cho người khác.",
+      "Sai. Giao hết việc khó cho người giỏi nhất không tạo cơ hội học cho người khác; người giám sát nên trao đổi và rút kinh nghiệm cùng nhóm.",
       "Sai. Chấm theo số phát hiện có thể làm suy giảm khách quan.",
       "Đúng. Trao đổi liên tục và họp rút kinh nghiệm."
     ],
@@ -274,7 +274,7 @@
     "answer": 1,
     "explanation": "GIAS 13.1 (Xem xét khi thực hiện): thông báo trước nên nêu lý do của cuộc kiểm toán, thời điểm bắt đầu và thời gian dự kiến, để đơn vị sắp xếp lịch không trùng sự kiện quan trọng; đồng thời yêu cầu tài liệu cần cho đánh giá rủi ro.",
     "optionNotes": [
-      "Sai. Chưa có phát hiện khi mới bắt đầu.",
+      "Sai. Khi mới bắt đầu chưa có phát hiện; thông báo trước nêu lý do kiểm toán, thời điểm và thời gian dự kiến.",
       "Đúng. Lý do, thời điểm, thời gian dự kiến.",
       "Sai. Kết luận năm trước không phải nội dung thông báo.",
       "Sai. Không phù hợp và có thể ảnh hưởng điều tra."
@@ -327,7 +327,7 @@
     "explanation": "GIAS 14.4 (Xem xét khi thực hiện): kiểm toán viên nên kịp thời trao đổi phát hiện và kiến nghị với cấp quản lý có thẩm quyền thực hiện và giám sát thay đổi hoạt động được kiểm toán; CAE có thể quy định cấp quản lý phù hợp.",
     "optionNotes": [
       "Sai. Nhân viên thực hiện không có thẩm quyền thay đổi.",
-      "Sai. HĐQT không duyệt từng kiến nghị.",
+      "Sai. HĐQT không duyệt từng kiến nghị; kiến nghị được trao đổi với cấp quản lý có thẩm quyền thay đổi hoạt động.",
       "Sai. Kiến nghị phải được trao đổi với người có thẩm quyền thay đổi hoạt động, không phải bất kỳ ai có mặt.",
       "Đúng. Cấp quản lý có thẩm quyền thay đổi."
     ],
@@ -353,9 +353,9 @@
     "explanation": "GIAS 14.4: khi bất đồng, theo phương pháp đã định để hai bên nêu quan điểm, lý do và tìm giải pháp. Phần Xem xét khi thực hiện nêu CAE nên làm việc với Ban điều hành để tạo điều kiện giải quyết; có thể đính kèm ý kiến chính thức của mỗi bên vào báo cáo.",
     "optionNotes": [
       "Đúng. CAE làm việc với Ban điều hành.",
-      "Sai. Không rút kiến nghị chỉ để giữ quan hệ.",
-      "Sai. Không có cơ sở báo cơ quan quản lý.",
-      "Sai. Thực hiện là trách nhiệm của quản lý."
+      "Sai. Rút kiến nghị chỉ để giữ quan hệ là thiếu khách quan; bất đồng phải được giải quyết theo phương pháp đã định.",
+      "Sai. Bất đồng về kiến nghị là việc nội bộ, không có cơ sở báo cơ quan quản lý; CAE làm việc với Ban điều hành để giải quyết.",
+      "Sai. Thực hiện kiến nghị là trách nhiệm của quản lý; kiểm toán nội bộ tự triển khai sẽ mất khách quan."
     ],
     "refs": [
       "GIAS 14.4",
@@ -380,8 +380,8 @@
     "optionNotes": [
       "Sai. CAE phê duyệt báo cáo cuối, không phải đơn vị.",
       "Đúng. Hoàn thiện kết quả, thảo luận bất đồng, tính khả thi.",
-      "Sai. Thu thập bằng chứng diễn ra trước đó.",
-      "Sai. Không phải mục đích của họp kết thúc."
+      "Sai. Thu thập bằng chứng diễn ra trước họp kết thúc; cuộc họp này để hoàn thiện kết quả và thảo luận bất đồng.",
+      "Sai. Kế hoạch kiểm toán năm sau không phải nội dung của họp kết thúc một cuộc kiểm toán cụ thể."
     ],
     "refs": [
       "GIAS 13.1",
@@ -408,7 +408,7 @@
       "Sai. Phải thông báo kịp thời, không đợi báo cáo cuối.",
       "Sai. Phê duyệt nội bộ không thay việc thông báo.",
       "Đúng. Thông báo kịp thời các thay đổi.",
-      "Sai. Thông báo là trách nhiệm chủ động."
+      "Sai. Thông báo thay đổi là trách nhiệm chủ động của kiểm toán viên, không chờ quản lý hỏi."
     ],
     "refs": [
       "GIAS 13.1",

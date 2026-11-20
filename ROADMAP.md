@@ -27,7 +27,7 @@ Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audi
 
 ## How to run one question batch
 
-1. Pick topics from `npm run audit:bank` (thin topics first). Read the lesson and search the bank for the concept to avoid giveaway pairs.
+1. Pick topics from `npm run audit:bank` (thin topics first). Read the lesson and search the bank for the concept to avoid giveaway pairs. Write to the standard in `docs/nguyen-tac-bien-soan-ra-soat.md` and self-review with its checklist (section 6.1).
 2. Check every GIAS citation: `node scripts/gias-req.mjs 9.5 11.5` prints the Requirements text (`--full` adds Considerations).
 3. Write the batch as JSON in a temp file (ids like `P3-D-N07`, with `topic`, `difficulty`, `optionNotes`, `refs`, and `trap` for trap questions).
 4. `node scripts/batch-check.mjs <part> <file>`: balances answer positions, flags length tells, misaligned notes and near-duplicates. Fix and re-run until "no problems".
@@ -41,6 +41,7 @@ Two sessions must not edit the same `public/data/<part>/questions-<section>.json
 
 ## Done (recent)
 
+- 2026-11-20: all wrong-option notes now explain the error (240 notes in 182 questions rewritten; none under 45 characters), 9 more throwaway distractors replaced; writing and review standard published in docs/nguyen-tac-bien-soan-ra-soat.md; validator bar raised to 45 characters; scripts/review-notes.mjs added.
 - 2026-11-20: quality pass after comparing with Gleim's Part 1 quiz: 72 questions got real wrong-option notes (why wrong, what is right), 27 throwaway distractors in 18 questions replaced with plausible misconceptions, giveaway pair P1-C-M43 / P1-B-N10 removed (M43 rewritten), one typo fixed; validator now warns on wrong-option notes under 35 characters.
 - 2026-11-20: guide facts re-checked on theiia.org after reviewing Gleim's resource pages: online proctoring ended 28/5/2025, no immediate unofficial score from 1/4/2026, Challenge Exam format (150 questions, 180 minutes, 5 sections from June 2026). Pass rates left out: IIA's pass-rate page no longer shows them.
 - 2026-11-17: Vietnamese terms follow Decree 05/2019 (Quy chế, bộ phận KTNB, kiến nghị, hồ sơ kiểm toán); validator rejects the old terms.

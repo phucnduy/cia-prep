@@ -371,7 +371,7 @@
     "optionNotes": [
       "Sai. Quyết định của Ban điều hành yếu hơn và làm phụ thuộc vào Ban điều hành.",
       "Đúng. Quy chế do HĐQT phê duyệt là nền tảng thẩm quyền tiếp cận.",
-      "Sai. Thư của CAE không tạo ra thẩm quyền.",
+      "Sai. Thư của CAE chỉ là đề nghị hợp tác, không tạo thẩm quyền; quyền tiếp cận phải dựa trên quy chế được HĐQT phê duyệt.",
       "Sai. Chấp nhận ngay là hạn chế phạm vi bỏ qua căn cứ có thể giải quyết vấn đề."
     ],
     "refs": [
@@ -602,7 +602,7 @@
     "optionNotes": [
       "Sai. Phê duyệt danh sách nhà cung cấp là quyết định quản lý.",
       "Đúng. Điều phối CSA giữ trách nhiệm đánh giá ở các phòng ban.",
-      "Sai. Quản lý dự án là trách nhiệm quản lý.",
+      "Sai. Quản lý dự án thay Giám đốc dự án là nhận trách nhiệm quản lý, làm suy giảm khách quan khi sau này kiểm toán hệ thống đó.",
       "Sai. Vận hành kênh tố giác là hoạt động của tuyến hai, không phải kiểm toán nội bộ."
     ],
     "refs": [
@@ -1010,7 +1010,7 @@
     "explanation": "Để xây dựng chiến lược và kế hoạch hiệu quả, CAE phải hiểu quy trình quản trị, quản lý rủi ro và kiểm soát của tổ chức (GIAS 9.1). Thiếu hiểu biết này, kế hoạch dễ chỉ lặp lại năm cũ và bỏ sót rủi ro mới hoặc trọng yếu.",
     "optionNotes": [
       "Đúng. Đây là lý do chuẩn mực yêu cầu CAE hiểu các quy trình này trước.",
-      "Sai. Chi phí không phải rủi ro chủ yếu.",
+      "Sai. Chi phí lập kế hoạch không phải điểm đáng lo; rủi ro chủ yếu là kế hoạch không dựa trên hiểu biết về rủi ro thực tế của tổ chức.",
       "Sai. Sự đồng ý của Ban điều hành không phải căn cứ chính của kế hoạch.",
       "Sai. Thời gian thực hiện là vấn đề nguồn lực, không phải hậu quả chính."
     ],
@@ -1060,7 +1060,7 @@
     "explanation": "Trong Mô hình Ba Tuyến, cơ quan quản trị chịu trách nhiệm giải trình với các bên liên quan về việc giám sát tổ chức. Ban điều hành đảm nhận vai trò tuyến một (quản lý hoạt động, rủi ro) và tuyến hai (chuyên môn, giám sát, thách thức); kiểm toán nội bộ cung cấp đảm bảo độc lập.",
     "optionNotes": [
       "Sai. Đây là vai trò của kiểm toán nội bộ (tuyến thứ ba).",
-      "Sai. Đây là vai trò của Ban điều hành.",
+      "Sai. Thiết lập và duy trì quy trình, cơ cấu quản lý hoạt động và rủi ro là vai trò của Ban điều hành (tuyến một và hai), không phải HĐQT.",
       "Đúng. Trách nhiệm giải trình về giám sát thuộc cơ quan quản trị.",
       "Sai. Đây là vai trò tuyến thứ hai, thuộc Ban điều hành."
     ],
@@ -1189,7 +1189,7 @@
     "optionNotes": [
       "Sai. Kế hoạch, ngân sách và điều chỉnh quan trọng là nội dung bắt buộc.",
       "Sai. Khả năng suy giảm độc lập là nội dung bắt buộc.",
-      "Sai. Kết quả QAIP là nội dung bắt buộc.",
+      "Sai. Kết quả QAIP thuộc nội dung CAE phải báo cáo; chi tiết từng cuộc như chương trình kiểm toán và mẫu chọn mới không thuộc danh mục.",
       "Đúng. Chương trình kiểm toán chi tiết không thuộc danh mục báo cáo bắt buộc."
     ],
     "refs": [
@@ -1895,7 +1895,7 @@
     "answer": 3,
     "explanation": "Đào tạo, điều phối hội thảo, góp ý dự thảo là các hình thức tư vấn phổ biến. Ký duyệt khoản chi là thực hiện kiểm soát, tức nhận trách nhiệm quản lý, không phải tư vấn.",
     "optionNotes": [
-      "Sai. Đào tạo là hình thức tư vấn phổ biến.",
+      "Sai. Đào tạo về rủi ro và kiểm soát là hình thức tư vấn phổ biến, vì kiểm toán nội bộ chỉ chia sẻ kiến thức, không thực hiện kiểm soát.",
       "Sai. Điều phối hội thảo CSA là hình thức tư vấn.",
       "Sai. Góp ý dự thảo chính sách là hình thức tư vấn.",
       "Đúng. Ký duyệt chi là trách nhiệm quản lý, không phải tư vấn."
@@ -2024,7 +2024,7 @@
     "explanation": "Khi phê duyệt vai trò ngoài kiểm toán cho CAE, HĐQT phải ghi nhận khả năng suy giảm độc lập và phối hợp với Ban điều hành, CAE để thiết lập biện pháp bảo vệ phù hợp (GIAS 7.1, điều kiện thiết yếu). Sự tin tưởng không thay thế biện pháp bảo vệ.",
     "optionNotes": [
       "Sai. Tin tưởng cá nhân không phải là biện pháp bảo vệ.",
-      "Sai. Gộp lâu dài làm vấn đề trầm trọng hơn.",
+      "Sai. Gộp bộ phận Kiểm soát nội bộ vào kiểm toán nội bộ lâu dài làm suy giảm độc lập trầm trọng hơn; cần biện pháp bảo vệ chứ không phải sáp nhập.",
       "Sai. CAE tự đánh giá mảng mình phụ trách chính là suy giảm độc lập.",
       "Đúng. Đúng hai việc HĐQT cần làm khi phê duyệt vai trò kiêm nhiệm."
     ],
@@ -2151,7 +2151,7 @@
     "explanation": "HĐQT yêu cầu CAE được bố trí ở cấp đủ để thực hiện dịch vụ và trách nhiệm mà không bị Ban điều hành can thiệp, có thẩm quyền và vị thế để đưa vấn đề lên HĐQT; Ban điều hành bố trí theo chỉ đạo của HĐQT (GIAS 7.1, điều kiện thiết yếu).",
     "optionNotes": [
       "Đúng. Vị trí thấp làm mất thẩm quyền và dễ bị can thiệp.",
-      "Sai. Chi phí không phải rủi ro chủ yếu.",
+      "Sai. Chi phí quản lý không phải mối lo chính; vấn đề là CAE ở vị trí quá thấp, phụ thuộc người khác nên khó làm việc không bị can thiệp.",
       "Sai. Vấn đề là thẩm quyền chung, không chỉ một đơn vị.",
       "Sai. Dự họp không bù được việc bị đặt dưới các cấp quản lý."
     ],
@@ -2203,7 +2203,7 @@
       "Đúng. Lĩnh vực III và các điều kiện thiết yếu dành cho HĐQT, Ban điều hành.",
       "Sai. Lĩnh vực II về hành vi của kiểm toán viên.",
       "Sai. Lĩnh vực IV về cách CAE quản lý chức năng.",
-      "Sai. Lĩnh vực V về thực hiện cuộc kiểm toán."
+      "Sai. Lĩnh vực V hướng dẫn thực hiện cuộc kiểm toán (lập kế hoạch, thực hiện, trao đổi kết quả), không mô tả trách nhiệm của HĐQT và Ban điều hành."
     ],
     "refs": [
       "GIAS Domain III"
@@ -2353,7 +2353,7 @@
     "explanation": "Rà soát sau triển khai (post-implementation review) đánh giá dự án đã hoàn thành có đạt mục tiêu, lợi ích theo phương án được duyệt hay không, và rút bài học. Rà soát trước triển khai tập trung vào thiết kế trước khi vận hành.",
     "optionNotes": [
       "Sai. Hệ thống đã vận hành; câu hỏi là về lợi ích đạt được.",
-      "Sai. Đấu thầu không phải mục tiêu được hỏi.",
+      "Sai. Đánh giá đấu thầu là kiểm toán tuân thủ về khâu chọn nhà cung cấp; HĐQT đang hỏi về lợi ích đạt được sau khi dự án đã vận hành.",
       "Sai. Ghi nhận chi phí không trả lời câu hỏi về lợi ích.",
       "Đúng. Đánh giá lợi ích so với phương án đầu tư là rà soát sau triển khai."
     ],
@@ -2379,7 +2379,7 @@
     "optionNotes": [
       "Đúng. Báo cáo chỉ cho Ban điều hành làm mất độc lập tổ chức.",
       "Sai. Hiểu biết hoạt động không thay thế được độc lập.",
-      "Sai. Chi phí không phải rủi ro chính.",
+      "Sai. Chi phí duy trì hai bộ phận không phải rủi ro chính; vấn đề là kênh báo cáo chỉ nằm trong tay Ban điều hành đang được kiểm toán.",
       "Sai. Đây là hệ quả có thể có, nhưng không phải rủi ro chính."
     ],
     "refs": [
@@ -2479,8 +2479,8 @@
     "optionNotes": [
       "Đúng. Đây là các nội dung cần thống nhất trước cuộc tư vấn.",
       "Sai. Thiếu thỏa thuận về mục tiêu, phạm vi dễ dẫn đến hiểu nhầm.",
-      "Sai. Phát hiện chưa thể biết trước khi làm.",
-      "Sai. Tư vấn không đưa ra mức độ đảm bảo."
+      "Sai. Phát hiện chỉ hình thành trong quá trình làm việc, không thể liệt kê trước; trước cuộc tư vấn cần thống nhất mục tiêu, phạm vi và kỳ vọng.",
+      "Sai. Tư vấn không đưa ra mức độ đảm bảo; nếu khách hàng cần kết luận về hiệu quả của quy trình thì đó là một cuộc đảm bảo khác."
     ],
     "refs": [
       "GIAS 13.3"
@@ -2554,7 +2554,7 @@
     "explanation": "Kiểm toán nội bộ (tuyến thứ ba) cung cấp đảm bảo độc lập về quản trị, quản lý rủi ro và kiểm soát, bao gồm hiệu quả của các chức năng tuyến thứ hai. Kế hoạch kiểm toán cũng phải xem xét hiệu quả chương trình tuân thủ và đạo đức (GIAS 9.4).",
     "optionNotes": [
       "Đúng. Đảm bảo về hiệu quả tuyến thứ hai là vai trò của kiểm toán nội bộ.",
-      "Sai. Tiếp quản là nhận trách nhiệm quản lý.",
+      "Sai. Tiếp quản việc giám sát tuân thủ là nhận trách nhiệm quản lý của tuyến thứ hai, làm mất khả năng đánh giá độc lập chính chương trình đó.",
       "Sai. Kiểm toán nội bộ đánh giá cả tuyến một và tuyến hai.",
       "Sai. Dựa hoàn toàn vào tự đánh giá là thiếu cơ sở, không có đảm bảo độc lập."
     ],
@@ -2915,7 +2915,7 @@
     "optionNotes": [
       "Sai. Chi tiêu đúng không cho biết chương trình đạt mục tiêu hay không.",
       "Sai. Hệ thống dữ liệu chỉ là một phần, không phải mục tiêu tổng thể.",
-      "Sai. Tuân thủ mua sắm là mục tiêu khác.",
+      "Sai. Tuân thủ quy định mua sắm là một mục tiêu khác; câu hỏi là chương trình có đạt mục tiêu bao phủ với nguồn lực đã cấp hay không.",
       "Đúng. Đánh giá việc đạt mục tiêu với nguồn lực là kiểm toán hiệu quả hoạt động."
     ],
     "refs": [
@@ -2965,7 +2965,7 @@
     "explanation": "Trong dịch vụ tư vấn về quyền riêng tư dữ liệu, kiểm toán nội bộ góp ý về rủi ro và kiểm soát (ví dụ thu thập tối thiểu, đồng ý, bảo mật) ngay trong thiết kế, nhưng không nhận vai trò quản lý như DPO hay phê duyệt.",
     "optionNotes": [
       "Sai. Làm DPO là vai trò quản lý, làm suy giảm khách quan khi đánh giá sau này.",
-      "Sai. Phê duyệt là quyết định quản lý.",
+      "Sai. Phê duyệt danh mục dữ liệu là quyết định quản lý; kiểm toán nội bộ góp ý về rủi ro và kiểm soát, còn Ban điều hành quyết định.",
       "Đúng. Tư vấn sớm mà không nhận trách nhiệm quản lý.",
       "Sai. Kiểm toán nội bộ có thể tư vấn về quyền riêng tư."
     ],
@@ -2992,7 +2992,7 @@
     "optionNotes": [
       "Sai. Phạm vi tư vấn không cho phép bỏ qua rủi ro tuân thủ đáng kể.",
       "Sai. Xóa dữ liệu là hành động quản lý, có thể vi phạm chính sách lưu trữ.",
-      "Sai. Trì hoãn để vi phạm tiếp diễn.",
+      "Sai. Chờ đến năm sau là để vi phạm pháp luật tiếp diễn; rủi ro tuân thủ đáng kể cần được báo CAE để trao đổi kịp thời với cấp phù hợp.",
       "Đúng. Báo cáo lên để có người có thẩm quyền xử lý."
     ],
     "refs": [
@@ -3094,8 +3094,8 @@
     "optionNotes": [
       "Đúng. Cần làm rõ trách nhiệm kiểm soát thuộc Ban điều hành.",
       "Sai. Độ dài nội dung không phải rủi ro về vai trò.",
-      "Sai. Không có yêu cầu chứng chỉ sư phạm.",
-      "Sai. Đào tạo không làm mất độc lập."
+      "Sai. Không có yêu cầu chứng chỉ sư phạm để đào tạo nội bộ; điều cần lưu ý là không để học viên hiểu nhầm về trách nhiệm kiểm soát.",
+      "Sai. Đào tạo là dịch vụ tư vấn hợp lệ và không tự làm mất độc lập; rủi ro là học viên nghĩ kiểm toán nội bộ vận hành kiểm soát thay họ."
     ],
     "refs": [
       "CIA Part 1 A.6"
@@ -3120,7 +3120,7 @@
       "Sai. Không thể đảm bảo về vận hành khi chưa vận hành.",
       "Đúng. Tư vấn về thiết kế, nêu rõ giới hạn.",
       "Sai. Từ chối bỏ lỡ cơ hội sửa sớm với chi phí thấp.",
-      "Sai. Ký duyệt là quyết định quản lý."
+      "Sai. Ký duyệt thiết kế là quyết định quản lý; kiểm toán nội bộ chỉ góp ý về thiết kế, còn quyết định đưa quy trình vào dùng thuộc Ban điều hành."
     ],
     "refs": [
       "CIA Part 1 A.6",
@@ -3224,8 +3224,8 @@
     "optionNotes": [
       "Sai. Che giấu giới hạn là trình bày gây hiểu lầm.",
       "Đúng. Giới hạn phạm vi phải được nêu trong báo cáo.",
-      "Sai. Kết luận vượt quá bằng chứng thu được.",
-      "Sai. Người đọc báo cáo cần biết giới hạn."
+      "Sai. Kết luận như đã phỏng vấn đầy đủ là vượt quá bằng chứng thu được và gây hiểu nhầm cho người đọc báo cáo.",
+      "Sai. Giới hạn ảnh hưởng đến kết luận nên phải nêu trong báo cáo; chỉ ghi vào hồ sơ thì người đọc không biết kết luận bị giới hạn."
     ],
     "refs": [
       "GIAS 15.1",
@@ -3249,7 +3249,7 @@
     "explanation": "Báo cáo chức năng phải cho cơ quan quản trị (HĐQT, Ủy ban Kiểm toán, hoặc cơ quan tương ứng theo luật ở khu vực công). Báo cáo chức năng cho Giám đốc tài chính đặt kiểm toán nội bộ dưới quyền bên bị kiểm toán, không bảo đảm độc lập (GIAS 7.1).",
     "optionNotes": [
       "Sai. Đây là quan hệ báo cáo chức năng phù hợp.",
-      "Sai. HĐQT là cơ quan quản trị phù hợp.",
+      "Sai. Khi không có Ủy ban Kiểm toán, HĐQT chính là cơ quan quản trị nhận báo cáo chức năng, nên đây là quan hệ phù hợp.",
       "Đúng. Báo cáo chức năng cho Ban điều hành bị kiểm toán là không phù hợp.",
       "Sai. Ở khu vực công, cơ quan quản trị theo luật là phù hợp."
     ],
@@ -3353,7 +3353,7 @@
       "Sai. Kiểm toán độc lập không phê duyệt quy chế kiểm toán nội bộ.",
       "Sai. Áp dụng khi chưa được duyệt là sai trình tự.",
       "Đúng. Trao đổi để thống nhất hiểu biết và kỳ vọng.",
-      "Sai. Không phải yêu cầu của chuẩn mực."
+      "Sai. Lấy ý kiến cổ đông không phải yêu cầu; GIAS yêu cầu thảo luận dự thảo với HĐQT và Ban điều hành trước khi HĐQT phê duyệt."
     ],
     "refs": [
       "GIAS 6.2",
@@ -3404,8 +3404,8 @@
     "optionNotes": [
       "Đúng. Quy chế ghi nhận nhiệm vụ.",
       "Sai. Nhiệm vụ do HĐQT xác lập; CAE soạn quy chế.",
-      "Sai. Cả hai bao trùm mọi loại dịch vụ.",
-      "Sai. Kế hoạch kiểm toán là tài liệu khác."
+      "Sai. Cả nhiệm vụ và quy chế đều bao trùm mọi loại dịch vụ (đảm bảo và tư vấn), không chia theo loại dịch vụ.",
+      "Sai. Kế hoạch kiểm toán năm là tài liệu khác, liệt kê các cuộc kiểm toán; nhiệm vụ và quy chế xác định thẩm quyền, vai trò, trách nhiệm."
     ],
     "refs": [
       "GIAS 6.1",
@@ -3456,7 +3456,7 @@
     "answer": 2,
     "explanation": "Do hạn chế cố hữu của kiểm soát và của việc chọn mẫu, không ai đưa ra được bảo đảm tuyệt đối. Kiểm toán nội bộ đưa ra bảo đảm hợp lý (mức cao, phạm vi rộng hơn) hoặc bảo đảm hạn chế, và cần thống nhất mức phù hợp với Ủy ban.",
     "optionNotes": [
-      "Sai. Bảo đảm tuyệt đối là không thể.",
+      "Sai. Bảo đảm tuyệt đối là không thể do hạn chế cố hữu của kiểm soát và việc chọn mẫu, kể cả khi kiểm tra toàn bộ.",
       "Sai. Kiểm toán độc lập cũng không đưa bảo đảm tuyệt đối.",
       "Đúng. Giải thích các mức bảo đảm và thống nhất.",
       "Sai. Bảo đảm là dịch vụ chính của kiểm toán nội bộ."
@@ -3481,7 +3481,7 @@
     "answer": 3,
     "explanation": "Bảo đảm hợp lý là mức cao nhưng không tuyệt đối, cần nhiều thủ tục hơn, kết luận ở dạng khẳng định. Bảo đảm hạn chế có thủ tục ít hơn (thường là phỏng vấn, phân tích), kết luận ở dạng phủ định: không phát hiện điều gì khiến cho rằng có vấn đề.",
     "optionNotes": [
-      "Sai. Vẫn cần bằng chứng, chỉ ít hơn.",
+      "Sai. Bảo đảm hạn chế vẫn cần bằng chứng, chỉ là ít thủ tục hơn (thường là phỏng vấn, phân tích) so với bảo đảm hợp lý.",
       "Sai. Mức bảo đảm không phụ thuộc kinh nghiệm người thực hiện.",
       "Sai. Bẫy: mức tin cậy của bảo đảm hạn chế thấp hơn.",
       "Đúng. Ít thủ tục hơn, kết luận dạng phủ định."
@@ -3534,7 +3534,7 @@
     "optionNotes": [
       "Sai. Kiến nghị có thể đi kèm, nhưng nhu cầu chính là kết luận.",
       "Đúng. Cần đánh giá và kết luận độc lập.",
-      "Sai. Đào tạo không cho kết luận về hiệu quả.",
+      "Sai. Đào tạo giúp nhân viên hiểu quy định nhưng không cho kết luận độc lập về hiệu quả của hệ thống kiểm soát hiện tại.",
       "Sai. Thiết kế lại kiểm soát là trách nhiệm quản lý."
     ],
     "refs": [
@@ -3557,7 +3557,7 @@
     "answer": 2,
     "explanation": "Khi tư vấn xây dựng chính sách rồi lại đánh giá chính sách đó, nguy cơ tự kiểm tra lại công việc của mình làm suy giảm khách quan. Nên tách rõ hai loại dịch vụ, cân nhắc người thực hiện và thời gian để bảo vệ tính khách quan.",
     "optionNotes": [
-      "Sai. Kiểm toán nội bộ có thể làm tư vấn.",
+      "Sai. Kiểm toán nội bộ được làm tư vấn; vấn đề là phải tách tư vấn và bảo đảm để tránh tự đánh giá lại công việc của mình.",
       "Sai. Cùng nhóm vừa xây dựng vừa đánh giá gây mất khách quan.",
       "Đúng. Tách dịch vụ và quản lý tác động đến khách quan.",
       "Sai. Ban điều hành tự đánh giá không phải bảo đảm độc lập."
@@ -3661,10 +3661,10 @@
     "answer": 2,
     "explanation": "GIAS không bắt buộc mọi tổ chức phải có kiểm toán nội bộ; lợi ích phụ thuộc vào quy mô, độ phức tạp và rủi ro. Tổ chức nhỏ có thể cân nhắc thuê ngoài hoặc đồng cung cấp dịch vụ.",
     "optionNotes": [
-      "Sai. Quá tuyệt đối về chi phí - lợi ích.",
-      "Sai. GIAS không quy định bắt buộc thành lập.",
+      "Sai. Lợi ích so với chi phí tùy quy mô và rủi ro; không thể khẳng định kiểm toán nội bộ luôn có lợi ở mọi tổ chức.",
+      "Sai. GIAS quy định cách thực hiện kiểm toán nội bộ, không bắt buộc doanh nghiệp phải thành lập; nghĩa vụ đó (nếu có) do pháp luật quy định.",
       "Đúng. Cân nhắc theo rủi ro, có thể thuê ngoài.",
-      "Sai. Quá tuyệt đối theo chiều ngược lại."
+      "Sai. Tổ chức nhỏ vẫn có thể có rủi ro đáng kể; khẳng định không bao giờ cần là quá tuyệt đối theo chiều ngược lại."
     ],
     "refs": [
       "CIA Part 1 A.1"
@@ -3715,7 +3715,7 @@
       "Đúng. Thông báo HĐQT và đánh giá bởi bên độc lập.",
       "Sai. Tự đánh giá lĩnh vực mình phụ trách là tự kiểm tra.",
       "Sai. Kiêm nhiệm tạm thời vẫn có thể làm suy giảm độc lập.",
-      "Sai. Phản ứng quá mức, không cần thiết."
+      "Sai. Ngừng toàn bộ kiểm toán là phản ứng quá mức; chỉ cần biện pháp bảo vệ cho mảng tuân thủ, như giao bên độc lập đánh giá."
     ],
     "refs": [
       "GIAS 7.1",
@@ -3896,7 +3896,7 @@
     "optionNotes": [
       "Sai. Thuê ngoài toàn bộ không giải quyết năng lực lâu dài.",
       "Sai. Nhân viên luân phiên có thể mất khách quan.",
-      "Sai. Hạn chế nguồn lực phải được báo cáo.",
+      "Sai. Hạn chế nguồn lực ảnh hưởng đến độ bao phủ phải được báo cáo HĐQT và Ban điều hành, không được tự cắt phạm vi trong im lặng.",
       "Đúng. Tuyển dụng, phát triển, giữ chân nhân sự."
     ],
     "refs": [
@@ -3921,9 +3921,9 @@
     "explanation": "Khi dựa vào báo cáo kiểm soát của tổ chức dịch vụ, cần xem kỳ báo cáo có bao phủ kỳ quan tâm không, phạm vi hệ thống, các ngoại lệ được nêu, và các kiểm soát mà người dùng phải tự thực hiện (complementary user entity controls).",
     "optionNotes": [
       "Đúng. Kỳ, phạm vi, ngoại lệ và kiểm soát phía người dùng.",
-      "Sai. Tên đơn vị phát hành không đủ.",
+      "Sai. Tên công ty kiểm toán không cho biết báo cáo có bao phủ đúng kỳ, đúng hệ thống hay có ngoại lệ nào cần xem xét.",
       "Sai. Người dùng vẫn phải có kiểm soát bổ sung.",
-      "Sai. Không cần thiết và không thực tế."
+      "Sai. Đòi mã nguồn vừa không thực tế vừa không cần; báo cáo kiểm soát của tổ chức dịch vụ được lập để tránh việc này."
     ],
     "refs": [
       "CIA Part 1 A.5"
@@ -3947,7 +3947,7 @@
     "optionNotes": [
       "Sai. Phản ứng quá mức khi chưa có bằng chứng sai phạm.",
       "Đúng. Bổ sung quyền kiểm toán vào hợp đồng.",
-      "Sai. Tự xác nhận không đủ độ tin cậy.",
+      "Sai. Nhà thầu tự xác nhận chi phí là bằng chứng do chính bên được kiểm tra lập, độ tin cậy thấp; cần quyền tiếp cận hồ sơ gốc.",
       "Sai. Ước tính không thay được kiểm tra thực tế."
     ],
     "refs": [
@@ -4016,15 +4016,15 @@
       "Thiếu thỏa thuận xử lý dữ liệu ràng buộc mục đích, bảo mật và quyền kiểm tra.",
       "Đơn vị tiếp thị có giá dịch vụ cao hơn mức thị trường.",
       "Dữ liệu khách hàng được lưu theo định dạng bảng tính thay vì cơ sở dữ liệu.",
-      "Đơn vị tiếp thị chưa có văn phòng đại diện tại Việt Nam."
+      "Đơn vị tiếp thị yêu cầu thanh toán trước toàn bộ phí dịch vụ."
     ],
     "answer": 0,
     "explanation": "Khi chia sẻ dữ liệu cá nhân cho bên thứ ba xử lý, rủi ro chính là bên đó dùng sai mục đích hoặc để lộ dữ liệu. Cần thỏa thuận xử lý dữ liệu quy định mục đích, biện pháp bảo mật và quyền kiểm tra của công ty.",
     "optionNotes": [
       "Đúng. Thiếu ràng buộc pháp lý với bên xử lý dữ liệu.",
-      "Sai. Giá không phải rủi ro quyền riêng tư.",
-      "Sai. Định dạng lưu không phải rủi ro chính.",
-      "Sai. Văn phòng đại diện không quyết định rủi ro dữ liệu."
+      "Sai. Giá dịch vụ là vấn đề hiệu quả chi tiêu, không phải rủi ro về quyền riêng tư dữ liệu khách hàng.",
+      "Sai. Định dạng lưu trữ là chi tiết kỹ thuật; rủi ro chính là bên thứ ba dùng sai mục đích hoặc làm lộ dữ liệu.",
+      "Sai. Yêu cầu thanh toán trước là vấn đề tài chính của hợp đồng, không phải rủi ro về quyền riêng tư dữ liệu."
     ],
     "refs": [
       "CIA Part 1 A.5"
@@ -4048,7 +4048,7 @@
     "optionNotes": [
       "Sai. Doanh thu không liên quan yêu cầu pháp lý.",
       "Đúng. Kiểm toán tuân thủ quy định.",
-      "Sai. Số dư tiền không phải trọng tâm.",
+      "Sai. Số dư tiền mặt không liên quan đến giấy phép và dược sĩ phụ trách; yêu cầu pháp luật được đánh giá bằng kiểm toán tuân thủ.",
       "Sai. Thái độ nhân viên không đánh giá được giấy phép."
     ],
     "refs": [
@@ -4071,10 +4071,10 @@
     "answer": 2,
     "explanation": "Kiểm toán tài chính của kiểm toán nội bộ đánh giá kiểm soát và độ tin cậy của thông tin tài chính để phục vụ Ban điều hành, HĐQT. Ý kiến về báo cáo tài chính cho cổ đông thuộc kiểm toán độc lập.",
     "optionNotes": [
-      "Sai. Ý kiến về BCTC thuộc kiểm toán độc lập.",
+      "Sai. Ý kiến về báo cáo tài chính cho cổ đông thuộc kiểm toán độc lập; kiểm toán nội bộ phục vụ Ban điều hành và HĐQT.",
       "Sai. Kiểm toán nội bộ có thể kiểm tra số liệu tài chính.",
       "Đúng. Tập trung kiểm soát, phục vụ quản trị nội bộ.",
-      "Sai. Không thay thế kiểm toán độc lập."
+      "Sai. Kiểm toán nội bộ không thay thế kiểm toán độc lập theo luật; kiểm toán độc lập chỉ có thể cân nhắc dựa vào một phần công việc."
     ],
     "refs": [
       "CIA Part 1 A.5"
@@ -4115,7 +4115,7 @@
     "options": [
       "Cách định nghĩa chỉ số và chi phí không tương đồng.",
       "Số lượng đối thủ được chọn để so sánh quá ít.",
-      "Dữ liệu của đối thủ được trình bày bằng tiếng Anh.",
+      "Dữ liệu của đối thủ lấy từ báo cáo năm trước, chưa cập nhật.",
       "Ban điều hành không thích kết quả so sánh."
     ],
     "answer": 0,
@@ -4123,8 +4123,8 @@
     "optionNotes": [
       "Đúng. Thiếu tính so sánh được là rủi ro lớn nhất.",
       "Sai. Ít đối tượng vẫn có thể hữu ích nếu tương đồng.",
-      "Sai. Ngôn ngữ không làm sai bản chất số liệu.",
-      "Sai. Không phải rủi ro về tính đúng đắn."
+      "Sai. Dữ liệu cũ một năm có thể làm lệch, nhưng sai lệch lớn nhất đến từ việc mỗi bên định nghĩa chỉ số và chi phí khác nhau.",
+      "Sai. Ban điều hành thích hay không không làm kết quả sai; rủi ro về tính đúng nằm ở dữ liệu không so sánh được với nhau."
     ],
     "refs": [
       "CIA Part 1 A.6"

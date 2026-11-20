@@ -24,7 +24,7 @@ Nguồn: [CIA Exam: Why and How It's Changing (IIA)](https://www.theiia.org/glob
 
 Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành `"ready"` trong `public/data/<part>/manifest.json`.
 
-Việc tiếp theo, số liệu từng phần và cách chạy một lô câu hỏi: xem [ROADMAP.md](ROADMAP.md). Quy tắc nội dung: [CLAUDE.md](CLAUDE.md).
+Việc tiếp theo, số liệu từng phần và cách chạy một lô câu hỏi: xem [ROADMAP.md](ROADMAP.md). Quy tắc nội dung: [CLAUDE.md](CLAUDE.md). Nguyên tắc biên soạn và rà soát câu hỏi: [docs/nguyen-tac-bien-soan-ra-soat.md](docs/nguyen-tac-bien-soan-ra-soat.md).
 
 ## Tính năng
 

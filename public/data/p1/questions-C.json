@@ -66,7 +66,7 @@
     "optionNotes": [
       "Đúng. COBIT được thiết kế cho đúng nhu cầu này.",
       "Sai. COSO ERM là khung quản trị rủi ro tổng thể, không chuyên về quản trị CNTT.",
-      "Sai. ISO 31000 về quản lý rủi ro nói chung.",
+      "Sai. ISO 31000 hướng dẫn quản lý rủi ro nói chung, không chuyên về quản trị CNTT hay phân định trách nhiệm HĐQT và Ban điều hành về CNTT.",
       "Sai. Mô hình Ba Tuyến phân vai trò đảm bảo, không phải khung quản trị CNTT."
     ],
     "refs": [
@@ -321,7 +321,7 @@
       "Sai. Đây gần với các nhóm mục tiêu, không phải cấu trúc ISO 31000.",
       "Sai. Đây là một phần trong Quy trình, không phải ba trụ cột.",
       "Đúng. ISO 31000:2018 gồm Nguyên tắc, Khung và Quy trình.",
-      "Sai. Đây là các thành phần của COSO."
+      "Sai. Môi trường kiểm soát, hoạt động kiểm soát và giám sát là thành phần của COSO 2013, không phải cấu trúc của ISO 31000."
     ]
   },
   {
@@ -465,7 +465,7 @@
     "explanation": "Phóng đại hoặc trình bày chọn lọc thành tích môi trường làm người đọc hiểu sai là tẩy xanh, gây rủi ro uy tín và pháp lý. Kiểm toán nội bộ có thể đánh giá quản trị, kiểm soát và dữ liệu ESG được công bố. Thuật ngữ gốc: greenwashing.",
     "optionNotes": [
       "Đúng. Trình bày chọn lọc, phóng đại là tẩy xanh.",
-      "Sai. Tình huống không nêu vấn đề giấy phép.",
+      "Sai. Đề bài không nêu vấn đề giấy phép; rủi ro được mô tả là công bố chọn lọc làm người đọc hiểu sai thành tích môi trường.",
       "Sai. Chi phí sản xuất không phải vấn đề được mô tả.",
       "Sai. Vấn đề là công bố gây hiểu lầm, không phải nhu cầu thị trường."
     ],
@@ -643,7 +643,7 @@
     ],
     "source": "legacy",
     "optionNotes": [
-      "Sai. Không có vấn đề phân chia trách nhiệm.",
+      "Sai. Đề xuất không liên quan đến phân chia trách nhiệm; vấn đề là chi phí kiểm soát (40.000 USD) vượt xa thiệt hại cần giảm (5.000 USD).",
       "Sai. Bảo vệ tài sản là mục tiêu hợp lý; vấn đề là chi phí.",
       "Sai. Đảm bảo hợp lý chỉ việc không thể đạt đảm bảo tuyệt đối.",
       "Đúng. Chi phí 40.000 USD/năm vượt xa tổn thất 5.000 USD/năm, vi phạm chi phí - lợi ích."
@@ -718,7 +718,7 @@
     ],
     "source": "original",
     "optionNotes": [
-      "Sai. Đây là một phần rất nhỏ của quản trị.",
+      "Sai. Bổ nhiệm HĐQT và thủ tục đại hội chỉ là một phần nhỏ; đánh giá quản trị xem cả ra quyết định, giám sát rủi ro, đạo đức, giải trình.",
       "Sai. Kiểm toán lại BCTC không phải đánh giá quản trị.",
       "Sai. Đánh giá năng lực để miễn nhiệm thành viên HĐQT không thuộc vai trò kiểm toán nội bộ.",
       "Đúng. Đánh giá quản trị gồm ra quyết định, giám sát rủi ro, đạo đức, trách nhiệm giải trình và truyền thông."
@@ -1195,7 +1195,7 @@
     "source": "original",
     "optionNotes": [
       "Đúng. Rà soát độc lập của chủ sở hữu là kiểm soát bù đắp điển hình khi thiếu phân chia trách nhiệm.",
-      "Sai. Tăng lương không phải kiểm soát.",
+      "Sai. Tăng lương có thể giảm động cơ nhưng không phải kiểm soát; kiểm soát bù đắp phải là hoạt động rà soát, đối chiếu độc lập.",
       "Sai. Bảo hiểm là chuyển giao rủi ro, không phải kiểm soát.",
       "Sai. Két sắt bảo vệ chứng từ, không bù đắp việc thiếu phân chia trách nhiệm."
     ]
@@ -1976,7 +1976,7 @@
     "answer": 1,
     "explanation": "HĐQT cần có đủ năng lực tập thể để giám sát chiến lược và rủi ro. Ma trận kỹ năng giúp nhận diện khoảng trống; có thể bù bằng bổ nhiệm thành viên mới, đào tạo hoặc dùng cố vấn độc lập.",
     "optionNotes": [
-      "Sai. HĐQT vẫn phải giám sát chiến lược lớn.",
+      "Sai. HĐQT vẫn phải giám sát chiến lược lớn; thiếu năng lực công nghệ phải được bù đắp chứ không phải rút khỏi việc giám sát.",
       "Đúng. Đánh giá và bổ sung năng lực tập thể của HĐQT.",
       "Sai. Kiểm toán nội bộ không phê duyệt quyết định đầu tư.",
       "Sai. Hoãn chiến lược không phải giải pháp quản trị phù hợp."
@@ -2004,7 +2004,7 @@
       "Đúng. Tuyển dụng không kiểm tra lý lịch làm yếu môi trường kiểm soát.",
       "Sai. Giám sát là đánh giá kiểm soát đang vận hành.",
       "Sai. Không liên quan đến chất lượng thông tin.",
-      "Sai. Vấn đề không phải nhận diện thay đổi."
+      "Sai. Đánh giá rủi ro là nhận diện rủi ro và thay đổi; tuyển dụng không kiểm tra lý lịch là điểm yếu về cam kết chính trực và năng lực."
     ],
     "refs": [
       "COSO 2013"
@@ -2205,7 +2205,7 @@
     "optionNotes": [
       "Sai. Phức tạp và xét đoán làm tăng rủi ro tiềm tàng.",
       "Sai. Khối lượng, giá trị và tính thanh khoản làm tăng rủi ro tiềm tàng.",
-      "Sai. Thay đổi lớn làm tăng rủi ro tiềm tàng.",
+      "Sai. Thay đổi lớn về hệ thống hoặc nhân sự làm tăng rủi ro tiềm tàng; chỉ có kiểm soát tốt là không ảnh hưởng đến rủi ro tiềm tàng.",
       "Đúng. Kiểm soát ảnh hưởng rủi ro còn lại, không phải rủi ro tiềm tàng."
     ],
     "refs": [
@@ -2222,15 +2222,15 @@
     "options": [
       "Rủi ro chậm sửa lỗi; tăng thêm lập trình viên để xử lý sự cố nhanh hơn nữa.",
       "Thiếu tách biệt phát triển và vận hành; hạn chế, giám sát quyền khẩn cấp.",
-      "Rủi ro chi phí bản quyền; chuyển sang phần mềm mã nguồn mở để tiết kiệm chi phí.",
+      "Rủi ro sai sót khi sửa; yêu cầu lập trình viên tự kiểm tra lại trước khi sửa.",
       "Rủi ro mất dữ liệu; tăng tần suất sao lưu cơ sở dữ liệu lên mỗi giờ một lần."
     ],
     "answer": 1,
     "explanation": "Lập trình viên có quyền sửa dữ liệu thật vi phạm nguyên tắc tách biệt phát triển và vận hành, tạo rủi ro sửa đổi trái phép, gian lận không bị phát hiện. Kiểm soát phù hợp: hạn chế quyền truy cập môi trường thật, cấp quyền khẩn cấp có thời hạn, có phê duyệt và ghi nhật ký được rà soát.",
     "optionNotes": [
-      "Sai. Tốc độ sửa lỗi không phải rủi ro chính.",
+      "Sai. Tốc độ sửa lỗi là lý do của việc cấp quyền, không phải rủi ro; rủi ro là dữ liệu thật bị sửa mà không qua kiểm soát.",
       "Đúng. Đúng rủi ro và kiểm soát chung CNTT phù hợp.",
-      "Sai. Chi phí bản quyền không liên quan.",
+      "Sai. Tự kiểm tra lại không thay được tách biệt nhiệm vụ; người có quyền sửa dữ liệu thật vẫn có thể sửa trái phép mà không bị phát hiện.",
       "Sai. Sao lưu không ngăn được sửa đổi trái phép."
     ],
     "refs": [
@@ -2282,7 +2282,7 @@
       "Sai. Phỏng vấn đơn thuần là bằng chứng yếu nhất.",
       "Sai. Chữ ký chứng minh có thực hiện, không chứng minh thực hiện đúng.",
       "Đúng. Thực hiện lại là bằng chứng mạnh nhất về vận hành.",
-      "Sai. Đọc quy trình chỉ cho biết thiết kế."
+      "Sai. Đọc quy trình chỉ cho biết thiết kế của kiểm soát, không chứng minh việc đối chiếu được thực hiện đúng hằng tháng."
     ],
     "refs": [
       "CIA Part 1 C.8"
@@ -2329,7 +2329,7 @@
     "answer": 1,
     "explanation": "BCP chỉ có giá trị khi được cập nhật và diễn tập định kỳ để kiểm chứng khả năng khôi phục, phát hiện thiếu sót (danh bạ lỗi thời, phụ thuộc chưa nhận diện). Kế hoạch chưa diễn tập có thể thất bại đúng lúc cần.",
     "optionNotes": [
-      "Sai. Độ dài không phải rủi ro chính.",
+      "Sai. Độ dài không phải rủi ro chính; kế hoạch chưa diễn tập và danh bạ lỗi thời có thể thất bại đúng lúc cần dùng.",
       "Đúng. Chưa diễn tập, chưa cập nhật là rủi ro chính.",
       "Sai. Chi phí soạn thảo không phải mối lo ngại chính.",
       "Sai. Xác nhận của kiểm toán độc lập không phải yêu cầu đối với BCP."
@@ -2481,7 +2481,7 @@
     "optionNotes": [
       "Sai. Không chỉ là bảo trì; nguồn rủi ro là khí hậu và yêu cầu thị trường.",
       "Đúng. Rủi ro khí hậu vật lý và rủi ro chuyển đổi.",
-      "Sai. Chi phí bảo hiểm chỉ là một hệ quả.",
+      "Sai. Chi phí bảo hiểm chỉ là một hệ quả; ngập lụt là rủi ro khí hậu vật lý và yêu cầu báo cáo carbon là rủi ro chuyển đổi.",
       "Sai. Yêu cầu đến từ nhà nhập khẩu nước ngoài, không phải luật đất đai."
     ],
     "refs": [
@@ -2507,7 +2507,7 @@
       "Sai. Rủi ro thay đổi nên quy trình không kết thúc.",
       "Sai. Chờ cuối năm làm chậm việc phát hiện thay đổi.",
       "Đúng. Giám sát, rà soát và báo cáo là bước tiếp theo.",
-      "Sai. Theo dõi rủi ro là trách nhiệm quản lý."
+      "Sai. Theo dõi rủi ro là trách nhiệm của Ban điều hành; kiểm toán nội bộ đánh giá quy trình đó chứ không nhận trách nhiệm thay."
     ],
     "refs": [
       "ISO 31000:2018",
@@ -2557,9 +2557,9 @@
     "explanation": "COSO ERM 2017 gồm các phương án: chấp nhận, né tránh, theo đuổi, giảm thiểu, chia sẻ. Theo đuổi là chủ động chấp nhận rủi ro cao hơn để đạt hiệu quả tốt hơn khi rủi ro hiện tại thấp hơn khẩu vị.",
     "optionNotes": [
       "Đúng. Tăng đầu tư để tận dụng cơ hội trong khẩu vị là theo đuổi.",
-      "Sai. Né tránh là thôi hoạt động gây rủi ro.",
-      "Sai. Không có bên nào nhận chia sẻ rủi ro.",
-      "Sai. Không có biện pháp làm giảm rủi ro."
+      "Sai. Né tránh là thôi hoạt động gây rủi ro; ở đây HĐQT lại tăng vốn đầu tư, tức chủ động nhận thêm rủi ro.",
+      "Sai. Chia sẻ rủi ro cần một bên khác nhận một phần rủi ro (bảo hiểm, đối tác); đề bài không có bên nào như vậy.",
+      "Sai. Giảm thiểu là áp dụng biện pháp hạ rủi ro; quyết định tăng gấp đôi vốn làm tăng mức rủi ro chủ động nhận."
     ],
     "refs": [
       "COSO ERM 2017"
@@ -2583,7 +2583,7 @@
     "optionNotes": [
       "Sai. Không cần loại bỏ mọi rủi ro bất kể chi phí.",
       "Đúng. Chấp nhận khi trong khẩu vị và chi phí vượt lợi ích.",
-      "Sai. Phản ứng quá mức với rủi ro nhỏ.",
+      "Sai. Đóng cửa văn phòng là phản ứng quá mức với rủi ro nhỏ, đã nằm trong khẩu vị và có thiệt hại tối đa thấp.",
       "Sai. Phí bảo hiểm cao hơn thiệt hại tối đa là không hợp lý."
     ],
     "refs": [
@@ -2608,7 +2608,7 @@
     "explanation": "Quy trình quản lý rủi ro hữu hiệu thể hiện qua kết quả vận hành: mỗi rủi ro có người chịu trách nhiệm, chỉ số rủi ro được theo dõi, vượt ngưỡng được báo cáo và xử lý kịp thời. Tài liệu dày, chữ ký đọc chính sách hay thiết kế bởi tư vấn chỉ là hình thức.",
     "optionNotes": [
       "Sai. Độ dày và cập nhật đúng hạn không chứng minh hiệu quả.",
-      "Sai. Chữ ký đọc chính sách là hình thức.",
+      "Sai. Chữ ký đọc chính sách là hình thức, không cho thấy rủi ro được theo dõi và xử lý trong thực tế.",
       "Đúng. Trách nhiệm, theo dõi và báo cáo vượt ngưỡng cho thấy vận hành thực chất.",
       "Sai. Thiết kế tốt chưa chứng minh vận hành hiệu quả."
     ],
@@ -2635,7 +2635,7 @@
     "optionNotes": [
       "Sai. Không khung nào loại bỏ hoàn toàn rủi ro.",
       "Sai. Mục tiêu không phải giảm số rủi ro báo cáo.",
-      "Sai. Trách nhiệm vẫn thuộc các khối.",
+      "Sai. Khung chung không chuyển trách nhiệm; các khối vẫn sở hữu và quản lý rủi ro của mình, kiểm toán nội bộ chỉ đánh giá.",
       "Đúng. Tính nhất quán, so sánh được là lợi ích chính."
     ],
     "refs": [
@@ -2689,7 +2689,7 @@
       "Sai. Không có kiểm soát thực sự với việc ra vào và đối chiếu.",
       "Đúng. Phòng ngừa kết hợp phát hiện.",
       "Sai. Thuê ngoài không chấm dứt trách nhiệm theo dõi tài sản.",
-      "Sai. Một lần mỗi năm phát hiện quá muộn."
+      "Sai. Kiểm kê một lần mỗi năm phát hiện hao hụt quá muộn và không ngăn được việc người ra vào kho tự do."
     ],
     "refs": [
       "CIA Part 1 C.7"
@@ -2765,7 +2765,7 @@
       "Đúng. Trùng lặp làm giảm cả hiệu suất lẫn hiệu quả.",
       "Sai. Bẫy: nhiều cấp không đồng nghĩa với kiểm soát chặt.",
       "Sai. Nhắc nhở không sửa được thiết kế dàn mỏng trách nhiệm.",
-      "Sai. Thêm cấp làm vấn đề trầm trọng hơn."
+      "Sai. Thêm cấp phê duyệt làm trách nhiệm dàn mỏng hơn; cần ít cấp hơn với trách nhiệm từng cấp rõ ràng."
     ],
     "refs": [
       "CIA Part 1 C.8"
@@ -2787,7 +2787,7 @@
     "answer": 1,
     "explanation": "Tự động khớp giao dịch và để nhân viên tập trung xử lý ngoại lệ giữ được độ bao phủ đầy đủ (hiệu quả) với ít nguồn lực hơn (hiệu suất). Bỏ hoặc giảm đối chiếu làm yếu kiểm soát.",
     "optionNotes": [
-      "Sai. Bỏ kiểm soát quan trọng tạo rủi ro lớn.",
+      "Sai. Đối chiếu ngân hàng là kiểm soát quan trọng; bỏ đi để tiết kiệm thời gian tạo rủi ro sai sót và gian lận không bị phát hiện.",
       "Đúng. Tự động hóa giữ độ bao phủ và tăng hiệu suất.",
       "Sai. Đối chiếu một phần bỏ sót phần lớn giao dịch.",
       "Sai. Kiểm toán nội bộ không vận hành kiểm soát của quy trình."
@@ -2940,9 +2940,9 @@
     "answer": 3,
     "explanation": "Mô hình hướng đến các bên liên quan yêu cầu HĐQT cân nhắc lợi ích của người lao động, khách hàng, cộng đồng, môi trường cùng với lợi ích cổ đông. HĐQT vẫn là bên ra quyết định.",
     "optionNotes": [
-      "Sai. Chính quyền không thay HĐQT quyết định.",
+      "Sai. Chính quyền địa phương là bên liên quan cần được cân nhắc, nhưng không thay HĐQT ra quyết định.",
       "Sai. Đó là cách tiếp cận chỉ ưu tiên cổ đông.",
-      "Sai. Quyền quyết định vẫn thuộc HĐQT.",
+      "Sai. Người lao động là bên liên quan cần được cân nhắc, nhưng quyền quyết định vẫn thuộc HĐQT.",
       "Đúng. Cân nhắc lợi ích của nhiều bên liên quan."
     ],
     "refs": [
@@ -2967,7 +2967,7 @@
     "optionNotes": [
       "Đúng. Đánh giá định kỳ HĐQT, ủy ban và thành viên.",
       "Sai. Kiểm toán nội bộ không nên chấm điểm người mình báo cáo.",
-      "Sai. Không giải quyết vấn đề hiệu quả.",
+      "Sai. Giảm số cuộc họp không giải quyết việc HĐQT chưa từng đánh giá hiệu quả của chính mình và các thành viên.",
       "Sai. Người bị giám sát đánh giá người giám sát là xung đột."
     ],
     "refs": [
@@ -3016,7 +3016,7 @@
     "answer": 2,
     "explanation": "Văn hóa coi nhẹ kiểm soát làm các kiểm soát phê duyệt kém tin cậy, nên rủi ro cuộc kiểm toán tăng. Kiểm toán viên cần ít dựa vào phê duyệt và tăng kiểm tra trực tiếp chứng từ, bằng chứng gốc.",
     "optionNotes": [
-      "Sai. Phê duyệt hình thức không đáng tin cậy.",
+      "Sai. Văn hóa 'sếp duyệt là xong' làm phê duyệt chỉ còn hình thức, nên không thể dựa vào đó để giảm kiểm tra chi tiết.",
       "Sai. Bằng chứng từ phỏng vấn người duyệt là yếu.",
       "Đúng. Tăng đánh giá rủi ro và kiểm tra trực tiếp.",
       "Sai. Văn hóa ảnh hưởng trực tiếp đến rủi ro và kiểm soát."
@@ -3036,15 +3036,15 @@
     "options": [
       "Khách hàng vay phải chờ lâu hơn để nhận được tiền giải ngân.",
       "Các cuộc họp hội đồng tín dụng kéo dài hơn mức cần thiết.",
-      "Ngân hàng sẽ bị từ chối mọi khoản vay tái cấp vốn.",
+      "Kiểm toán viên không thể kiểm tra được hồ sơ tín dụng của khách hàng.",
       "Khó truy trách nhiệm và kiểm tra sự phù hợp khẩu vị rủi ro."
     ],
     "answer": 3,
     "explanation": "Quy trình ra quyết định thiếu lưu vết lý do và phản biện làm suy yếu trách nhiệm giải trình và khả năng giám sát: không biết quyết định có cân nhắc đủ rủi ro, có phù hợp khẩu vị rủi ro hay không.",
     "optionNotes": [
       "Sai. Không liên quan đến thời gian giải ngân.",
-      "Sai. Thời lượng họp không phải vấn đề chính.",
-      "Sai. Không có cơ sở cho hệ quả này.",
+      "Sai. Thời lượng họp không phải vấn đề; thiếu lưu vết lý do và phản biện làm không truy được trách nhiệm cho từng quyết định.",
+      "Sai. Hồ sơ tín dụng của khách hàng vẫn kiểm tra được; điều thiếu là lý do và các rủi ro đã cân nhắc khi hội đồng ra quyết định.",
       "Đúng. Mất trách nhiệm giải trình và khả năng giám sát."
     ],
     "refs": [
@@ -3070,7 +3070,7 @@
       "Đúng. Rủi ro tuân thủ cần được báo cáo và kiểm soát.",
       "Sai. Sự đồng ý không làm hợp pháp việc vượt giới hạn luật.",
       "Sai. Tuân thủ pháp luật nằm trong phạm vi kiểm toán.",
-      "Sai. Trả thêm tiền không sửa được vi phạm."
+      "Sai. Trả thêm tiền không sửa được vi phạm giới hạn giờ làm theo luật; cần kiểm soát kế hoạch sản xuất và giờ làm."
     ],
     "refs": [
       "CIA Part 1 C.3"
@@ -3095,7 +3095,7 @@
       "Sai. Làm chủ chương trình là nhận trách nhiệm quản lý.",
       "Đúng. Đánh giá, không làm chủ.",
       "Sai. Đạo đức là một nội dung quan trọng của quản trị.",
-      "Sai. Xử lý vi phạm là trách nhiệm quản lý."
+      "Sai. Xử lý vi phạm là trách nhiệm quản lý; nếu kiểm toán nội bộ làm thì sẽ mất khách quan khi đánh giá chương trình đạo đức."
     ],
     "refs": [
       "CIA Part 1 C.3"
@@ -3120,7 +3120,7 @@
       "Sai. Hoạt động xuyên biên giới có thể chịu luật nước ngoài.",
       "Sai. Cần nhận diện yêu cầu trước khi có sự cố.",
       "Đúng. GDPR có phạm vi áp dụng ngoài lãnh thổ.",
-      "Sai. Không có ngưỡng doanh thu như vậy."
+      "Sai. Không có ngưỡng doanh thu như vậy; luật bảo vệ dữ liệu của EU có thể áp dụng ngay khi bán hàng và xử lý dữ liệu của người ở EU."
     ],
     "refs": [
       "CIA Part 1 C.3"
@@ -3170,7 +3170,7 @@
       "Đúng. Vi phạm nghĩa vụ pháp lý là rủi ro tuân thủ.",
       "Sai. Không liên quan đến định hướng chiến lược.",
       "Sai. Không liên quan đến biến động giá thị trường.",
-      "Sai. Không liên quan đến môi trường."
+      "Sai. Rủi ro môi trường liên quan đến tác động sinh thái; nộp tờ khai thuế trễ hạn và bị phạt là không đáp ứng nghĩa vụ pháp luật."
     ],
     "refs": [
       "CIA Part 1 C.4"
@@ -3194,7 +3194,7 @@
     "optionNotes": [
       "Sai. Khẩu vị không phân biệt đặc tính hai rủi ro này.",
       "Đúng. Tốc độ tác động khác nhau rõ rệt.",
-      "Sai. Không phải thuộc tính của rủi ro.",
+      "Sai. Số người chịu trách nhiệm là cách tổ chức quản lý, không phải thuộc tính dùng để đánh giá mức nghiêm trọng của rủi ro.",
       "Sai. Chi phí bảo hiểm không phải tiêu chí đánh giá."
     ],
     "refs": [
@@ -3245,7 +3245,7 @@
     "explanation": "Quản lý rủi ro dự án hữu hiệu khi rủi ro được rà soát, cập nhật ở mỗi giai đoạn và báo cáo cho cấp ra quyết định để kịp ứng phó. Lập một lần, thuê tư vấn hay dự phòng lớn chưa chứng minh quá trình vận hành.",
     "optionNotes": [
       "Sai. Dự phòng lớn có thể che giấu rủi ro chưa được quản lý.",
-      "Sai. Rủi ro dự án thay đổi theo thời gian.",
+      "Sai. Rủi ro dự án thay đổi qua từng giai đoạn; danh sách lập một lần khi phê duyệt nhanh chóng lỗi thời.",
       "Sai. Thuê tư vấn không chứng minh quản lý rủi ro.",
       "Đúng. Cập nhật liên tục và báo cáo."
     ],
@@ -3299,7 +3299,7 @@
       "Sai. Mật khẩu mạnh ngăn truy cập trái phép trước khi xảy ra, nên là kiểm soát phòng ngừa, không phải khắc phục.",
       "Đúng. Khắc phục hậu quả sau sự cố.",
       "Sai. Báo cáo ngoại lệ giúp nhận ra giao dịch bất thường sau khi phát sinh, nên là kiểm soát phát hiện; nó chưa sửa hậu quả.",
-      "Sai. Đây là kiểm soát hướng dẫn (directive)."
+      "Sai. Đào tạo hướng nhân viên làm đúng từ trước, nên là kiểm soát hướng dẫn (directive); nó không sửa hậu quả sau sự cố."
     ],
     "refs": [
       "CIA Part 1 C.7"
@@ -3324,7 +3324,7 @@
       "Sai. Tạo báo cáo chưa đủ nếu không xử lý kịp.",
       "Sai. Nên sửa cách vận hành, không bỏ kiểm soát.",
       "Đúng. Thiếu tính kịp thời làm giảm hiệu quả.",
-      "Sai. Xem muộn làm mất tác dụng phát hiện."
+      "Sai. Xem báo cáo sau ba tháng làm mất tác dụng phát hiện: sai phạm có thể đã lặp lại nhiều lần và khó thu hồi."
     ],
     "refs": [
       "CIA Part 1 C.7"
@@ -3374,7 +3374,7 @@
     "optionNotes": [
       "Sai. Phê duyệt từng giao dịch là việc điều hành.",
       "Đúng. Giám sát khung quản lý rủi ro và khẩu vị.",
-      "Sai. Thường là vai trò của Ủy ban Kiểm toán.",
+      "Sai. Giám sát bộ phận kiểm toán nội bộ thường là vai trò của Ủy ban Kiểm toán; Ủy ban Rủi ro giám sát khung quản lý rủi ro.",
       "Sai. Kiểm tra kiểm soát là việc của tuyến hai, tuyến ba."
     ],
     "refs": [
@@ -3397,8 +3397,8 @@
     "answer": 2,
     "explanation": "Nguyên tắc 5 của COSO 2013 (môi trường kiểm soát) yêu cầu tổ chức buộc cá nhân chịu trách nhiệm giải trình về kiểm soát, gồm việc gắn chỉ tiêu, khen thưởng, kỷ luật với trách nhiệm kiểm soát.",
     "optionNotes": [
-      "Sai. Đây là nguyên tắc 6 về mục tiêu.",
-      "Sai. Đây là nguyên tắc 11 về kiểm soát CNTT.",
+      "Sai. Nguyên tắc 6 về xác định mục tiêu rõ ràng; vấn đề ở đây là không ai bị nhắc nhở và chỉ tiêu không gắn với kiểm soát.",
+      "Sai. Nguyên tắc 11 về kiểm soát chung CNTT; tình huống là kiểm soát thủ công bị bỏ qua mà không ai chịu trách nhiệm.",
       "Đúng. Nguyên tắc 5 về trách nhiệm giải trình.",
       "Sai. Đây là nguyên tắc 15 về truyền thông bên ngoài."
     ],
@@ -3500,8 +3500,8 @@
     "answer": 2,
     "explanation": "Dữ liệu tổn thất thực tế là nguồn quan trọng để nhận diện rủi ro, ước tính khả năng xảy ra, mức ảnh hưởng và chỉ ra kiểm soát yếu. Không dùng dữ liệu này làm đánh giá rủi ro kém chính xác.",
     "optionNotes": [
-      "Sai. Bỏ đi nguồn thông tin giá trị.",
-      "Sai. Hạn chế giá trị sử dụng nội bộ.",
+      "Sai. Xóa dữ liệu là bỏ đi nguồn thông tin quý để ước tính khả năng xảy ra và mức ảnh hưởng của rủi ro.",
+      "Sai. Chỉ dùng cho báo cáo gửi cơ quan quản lý là lãng phí giá trị nội bộ; dữ liệu nên được dùng để đánh giá rủi ro.",
       "Đúng. Dùng dữ liệu tổn thất trong đánh giá rủi ro.",
       "Sai. Kiểm toán nội bộ không quản lý dữ liệu này."
     ],
@@ -3526,8 +3526,8 @@
     "explanation": "Báo cáo rủi ro hữu ích cho HĐQT khi cho biết rủi ro đang tăng hay giảm, đang ở đâu so với khẩu vị rủi ro, và biện pháp ứng phó có hiệu quả không, để HĐQT ra quyết định kịp thời.",
     "optionNotes": [
       "Sai. Quá nhiều thông tin làm loãng trọng tâm.",
-      "Sai. Giảm tần suất làm chậm phát hiện.",
-      "Sai. Hình thức không thay được nội dung.",
+      "Sai. Giảm tần suất làm HĐQT nhận thông tin chậm hơn; vấn đề là nội dung thiếu xu hướng và so sánh với khẩu vị.",
+      "Sai. Hình thức trình bày không thay được nội dung; HĐQT cần biết xu hướng, mức so với khẩu vị và tình trạng ứng phó.",
       "Đúng. Xu hướng, so với khẩu vị và tình trạng ứng phó."
     ],
     "refs": [
@@ -3552,9 +3552,9 @@
     "explanation": "Tổng lô (tổng tiền, tổng số chứng từ) được tính trước và so sánh với kết quả sau khi nhập, giúp phát hiện chứng từ bị bỏ sót, nhập trùng hoặc nhập sai số tiền. Đây là kiểm soát đầu vào. Thuật ngữ gốc: batch total.",
     "optionNotes": [
       "Đúng. Kiểm soát tổng lô đầu vào.",
-      "Sai. Không phải bảo vệ vật chất chứng từ.",
-      "Sai. Không liên quan đến quyền truy cập.",
-      "Sai. Mục đích là phát hiện sai sót khi nhập."
+      "Sai. Kiểm soát vật chất là bảo vệ chứng từ, tài sản; so sánh tổng trước và sau khi nhập là kiểm soát dữ liệu đầu vào.",
+      "Sai. Kiểm soát truy cập giới hạn ai được vào hệ thống; tổng lô kiểm tra tính đầy đủ, chính xác của dữ liệu được nhập.",
+      "Sai. Tổng lô giúp phát hiện sai sót ngay khi nhập; kiểm soát khắc phục là bước sửa chữa sau khi sai sót đã được phát hiện."
     ],
     "refs": [
       "CIA Part 1 C.7"
@@ -3596,7 +3596,7 @@
       "Ban điều hành công ty.",
       "Ủy ban Kiểm toán thuộc HĐQT.",
       "Đại hội đồng cổ đông.",
-      "Kiểm toán nội bộ."
+      "Ban kiểm soát."
     ],
     "answer": 2,
     "explanation": "Cổ đông thực hiện quyền sở hữu thông qua Đại hội đồng cổ đông, trong đó có quyền bầu và bãi nhiệm thành viên HĐQT. HĐQT chịu trách nhiệm giải trình với cổ đông.",
@@ -3604,7 +3604,7 @@
       "Sai. Ban điều hành chịu sự giám sát của HĐQT.",
       "Sai. Ủy ban Kiểm toán là một ủy ban thuộc HĐQT.",
       "Đúng. Đại hội đồng cổ đông bầu thành viên HĐQT.",
-      "Sai. Kiểm toán nội bộ không có quyền này."
+      "Sai. Ban kiểm soát giám sát HĐQT và Ban điều hành nhưng không có quyền bầu, bãi nhiệm thành viên HĐQT; quyền này thuộc Đại hội đồng cổ đông."
     ],
     "refs": [
       "CIA Part 1 C.1"
@@ -3629,7 +3629,7 @@
       "Đúng. Đầu vào đánh giá rủi ro và theo dõi khắc phục.",
       "Sai. Kết quả thanh tra là thông tin rủi ro quan trọng.",
       "Sai. Kế hoạch vẫn dựa trên đánh giá rủi ro toàn diện.",
-      "Sai. Khắc phục là trách nhiệm quản lý."
+      "Sai. Thực hiện kiến nghị thanh tra là trách nhiệm của Ban điều hành; kiểm toán nội bộ theo dõi và đánh giá việc khắc phục."
     ],
     "refs": [
       "CIA Part 1 C.1",
@@ -3680,7 +3680,7 @@
       "Sai. Lợi ích cho ngành không làm thỏa thuận hợp pháp.",
       "Sai. Tuân thủ pháp luật thuộc phạm vi kiểm toán.",
       "Đúng. Rủi ro vi phạm luật cạnh tranh.",
-      "Sai. Thỏa thuận miệng vẫn có thể vi phạm."
+      "Sai. Thỏa thuận miệng vẫn có thể vi phạm pháp luật về cạnh tranh; hình thức văn bản không quyết định tính hợp pháp."
     ],
     "refs": [
       "CIA Part 1 C.3"
@@ -3721,17 +3721,17 @@
     "stem": "Công ty dùng các khoản vay ngắn hạn 6 tháng để tài trợ cho dự án nhà máy có thời gian hoàn vốn 8 năm. Rủi ro nổi bật nhất là gì?",
     "options": [
       "Rủi ro thanh khoản do không đáp ứng được nợ đến hạn.",
-      "Rủi ro uy tín do khách hàng không hài lòng với sản phẩm.",
-      "Rủi ro tuân thủ do vi phạm luật xây dựng nhà máy.",
-      "Rủi ro môi trường do khí thải từ nhà máy mới."
+      "Rủi ro tín dụng do khách hàng của nhà máy chậm thanh toán.",
+      "Rủi ro hoạt động do dự án xây dựng chậm tiến độ.",
+      "Rủi ro chiến lược do nhà máy mới có thể không đạt công suất."
     ],
     "answer": 0,
     "explanation": "Lệch kỳ hạn giữa nguồn vốn ngắn hạn và tài sản dài hạn tạo rủi ro thanh khoản (một dạng rủi ro tài chính): công ty có thể không đủ tiền trả nợ đến hạn nếu không tái cấp vốn được.",
     "optionNotes": [
       "Đúng. Lệch kỳ hạn gây rủi ro thanh khoản.",
-      "Sai. Không liên quan đến khách hàng.",
-      "Sai. Không có thông tin về vi phạm luật.",
-      "Sai. Không liên quan đến nguồn vốn."
+      "Sai. Khách hàng chậm thanh toán là rủi ro tín dụng, không liên quan đến việc dùng vốn ngắn hạn tài trợ tài sản dài hạn.",
+      "Sai. Chậm tiến độ là rủi ro có thể có nhưng đề bài không nêu; điểm nổi bật là lệch kỳ hạn giữa khoản vay 6 tháng và dự án 8 năm.",
+      "Sai. Công suất là rủi ro kinh doanh của dự án; trước đó, công ty có thể không trả được nợ đến hạn vì vốn vay quá ngắn."
     ],
     "refs": [
       "CIA Part 1 C.4"
@@ -3805,8 +3805,8 @@
     "answer": 3,
     "explanation": "Người làm chủ rủi ro cần có thẩm quyền, nguồn lực để quyết định và triển khai biện pháp ứng phó. Giao cho người thiếu thẩm quyền khiến rủi ro không được xử lý kịp thời dù có tên trên sổ đăng ký.",
     "optionNotes": [
-      "Sai. Chứng chỉ không phải vấn đề chính.",
-      "Sai. Kiểm toán nội bộ không làm chủ rủi ro.",
+      "Sai. Chứng chỉ không phải vấn đề chính; người chủ rủi ro cần thẩm quyền và nguồn lực để quyết định ứng phó.",
+      "Sai. Kiểm toán nội bộ không làm chủ rủi ro vì sẽ mất khách quan; trách nhiệm phải giao cho người có thẩm quyền trong Ban điều hành.",
       "Sai. Mọi rủi ro trọng yếu cần người chịu trách nhiệm.",
       "Đúng. Thiếu thẩm quyền và nguồn lực."
     ],
@@ -3831,9 +3831,9 @@
     "explanation": "Theo dõi chỉ số chỉ có tác dụng khi việc vượt ngưỡng kích hoạt báo cáo đến đúng cấp trong thời hạn rõ ràng để ra quyết định ứng phó. Thiếu cơ chế báo cáo vượt cấp làm cảnh báo không dẫn đến hành động. Thuật ngữ gốc: escalation.",
     "optionNotes": [
       "Đúng. Thiếu cơ chế báo cáo vượt cấp.",
-      "Sai. Không có thông tin cho thấy ngưỡng sai.",
-      "Sai. Công cụ không phải vấn đề chính.",
-      "Sai. Theo dõi tại chi nhánh là cần thiết."
+      "Sai. Đề bài không cho thấy ngưỡng đặt sai; vấn đề là vượt ngưỡng rồi nhưng không biết báo cáo cho ai và khi nào.",
+      "Sai. Chi nhánh đã phát hiện được chỉ số vượt ngưỡng, nên công cụ không phải vấn đề; thiếu là cơ chế báo cáo vượt cấp.",
+      "Sai. Theo dõi tại chi nhánh là cần thiết để phát hiện sớm; điều thiếu là quy định báo cáo lên cấp ra quyết định."
     ],
     "refs": [
       "CIA Part 1 C.6"
@@ -3858,7 +3858,7 @@
       "Sai. Kiểm tra giới hạn so sánh với ngưỡng số.",
       "Đúng. So với danh mục giá trị hợp lệ.",
       "Sai. Tổng lô so sánh tổng trước và sau khi nhập.",
-      "Sai. Kiểm soát này phòng ngừa ngay khi nhập."
+      "Sai. Hệ thống từ chối ngay khi nhập nên đây là kiểm soát phòng ngừa, không phải phát hiện qua đối chiếu cuối tháng."
     ],
     "refs": [
       "CIA Part 1 C.7"
