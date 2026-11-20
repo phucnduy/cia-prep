@@ -74,6 +74,7 @@
     "refs": [
       "GIAS 1.1"
     ],
+    "trap": "Cho rằng bảo vệ kiểm toán viên quan trọng hơn việc trình bày kết quả dựa trên bằng chứng.",
     "source": "original"
   },
   {
@@ -93,6 +94,7 @@
     "refs": [
       "GIAS 1.1"
     ],
+    "trap": "Cho rằng có thể hạ mức hoặc hoãn phát hiện để giữ quan hệ hợp tác với đơn vị.",
     "source": "original",
     "optionNotes": [
       "Sai. Bỏ phát hiện khỏi báo cáo là bóp méo kết quả.",
@@ -124,6 +126,7 @@
     "refs": [
       "GIAS 1.2"
     ],
+    "trap": "Cho rằng đạo đức và văn hóa doanh nghiệp là việc riêng của bộ phận nhân sự.",
     "source": "original"
   },
   {
@@ -149,6 +152,7 @@
     "refs": [
       "GIAS 1.3"
     ],
+    "trap": "Cho rằng người ký văn bản chịu trách nhiệm nên kiểm toán viên giúp soạn vẫn không sao.",
     "source": "original"
   },
   {
@@ -169,6 +173,7 @@
       "GIAS 1.1",
       "GIAS 12.3"
     ],
+    "trap": "Tự khắc phục thay đồng nghiệp hoặc báo vượt cấp, thay vì báo trưởng nhóm hoặc CAE.",
     "source": "original",
     "optionNotes": [
       "Sai. Hồ sơ sai ảnh hưởng đến độ tin cậy kết luận của cả bộ phận kiểm toán.",
@@ -201,6 +206,7 @@
       "GIAS 2.2",
       "IESBA Code"
     ],
+    "trap": "Bỏ qua lợi ích tương lai (ứng tuyển vào đơn vị được kiểm toán) như một nguồn suy giảm khách quan.",
     "source": "original"
   },
   {
@@ -220,6 +226,7 @@
     "refs": [
       "GIAS 2.2"
     ],
+    "trap": "Cho rằng am hiểu quy trình là lợi thế, bỏ qua quy tắc 12 tháng với người từng phụ trách hoạt động.",
     "source": "original",
     "optionNotes": [
       "Sai. Am hiểu quy trình không bù được nguy cơ tự kiểm tra công việc của mình.",
@@ -252,6 +259,7 @@
       "GIAS 2.2",
       "GIAS 2.3"
     ],
+    "trap": "Cho rằng quà đã lỡ nhận thì chỉ cần chia cho nhóm hoặc bù bằng kết luận khắt khe hơn.",
     "source": "original"
   },
   {
@@ -272,6 +280,7 @@
       "GIAS 2.2",
       "IESBA Code"
     ],
+    "trap": "Nhầm nguy cơ quen thuộc với nguy cơ tự kiểm tra hoặc tư lợi.",
     "source": "original",
     "optionNotes": [
       "Sai. Tự kiểm tra là khi đánh giá công việc của chính mình.",
@@ -298,6 +307,7 @@
       "GIAS 2.2",
       "GIAS 2.3"
     ],
+    "trap": "Tự loại khách hàng khỏi mẫu mà không công bố xung đột lợi ích cho CAE.",
     "source": "original",
     "optionNotes": [
       "Sai. Quan hệ gia đình tạo suy giảm khách quan bề ngoài, bất kể loại bằng chứng.",
@@ -355,6 +365,7 @@
       "GIAS 2.3",
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng CAE công bố suy giảm của mình cho Tổng Giám đốc, hoặc giao người khác làm là đủ.",
     "source": "original"
   },
   {
@@ -382,6 +393,7 @@
       "GIAS 1.1",
       "IESBA Code"
     ],
+    "trap": "Nhầm nguy cơ bị đe dọa với nguy cơ tư lợi hoặc bào chữa.",
     "source": "original"
   },
   {
@@ -407,6 +419,7 @@
     "refs": [
       "GIAS 3.1"
     ],
+    "trap": "Cho rằng năng lực là trách nhiệm riêng của CAE, kiểm toán viên không cần tự đánh giá mình.",
     "source": "original"
   },
   {
@@ -427,6 +440,7 @@
       "GIAS 3.1",
       "GIAS 9.5"
     ],
+    "trap": "Cho rằng thiếu chuyên môn thì phải từ chối, hoặc nhờ chính bên xây dựng mô hình tự đánh giá.",
     "source": "original",
     "optionNotes": [
       "Sai. CAE có thể bổ sung năng lực thay vì từ chối.",
@@ -458,6 +472,7 @@
     "refs": [
       "GIAS 3.2"
     ],
+    "trap": "Cho rằng yêu cầu CPE phụ thuộc vào việc tổ chức có tài trợ hay không.",
     "source": "original"
   },
   {
@@ -509,6 +524,7 @@
     "refs": [
       "GIAS 4.2"
     ],
+    "trap": "Nhầm thận trọng nghề nghiệp với việc kiểm tra toàn bộ giao dịch bất kể chi phí.",
     "source": "original"
   },
   {
@@ -534,6 +550,7 @@
     "refs": [
       "GIAS 4.2"
     ],
+    "trap": "Ưu tiên tính nhất quán của chương trình chuẩn hơn việc điều chỉnh theo rủi ro.",
     "source": "original"
   },
   {
@@ -559,6 +576,7 @@
     "refs": [
       "GIAS 4.3"
     ],
+    "trap": "Chấp nhận giải thích vì kinh nghiệm của người giải trình, hoặc kết luận gian lận ngay.",
     "source": "original"
   },
   {
@@ -579,6 +597,7 @@
       "GIAS 4.2",
       "GIAS 4.3"
     ],
+    "trap": "Chấp nhận giải thích vì người giải thích có thẩm quyền, thay vì mở rộng thủ tục.",
     "source": "original",
     "optionNotes": [
       "Đúng. Dấu hiệu bất thường cần thu thập thêm bằng chứng trước khi kết luận.",
@@ -610,6 +629,7 @@
     "refs": [
       "GIAS 4.1"
     ],
+    "trap": "Cho rằng GIAS có hiệu lực cao hơn quy định trong nước nên chỉ cần nêu GIAS.",
     "source": "original"
   },
   {
@@ -635,6 +655,7 @@
     "refs": [
       "GIAS 5.2"
     ],
+    "trap": "Cho rằng dữ liệu cá nhân thì tuyệt đối không cung cấp, hoặc đánh giá bắt buộc thì cung cấp toàn bộ.",
     "source": "original"
   },
   {
@@ -660,6 +681,7 @@
     "refs": [
       "GIAS 5.2"
     ],
+    "trap": "Nhầm vi phạm bảo mật với vi phạm chính trực.",
     "source": "original"
   },
   {
@@ -680,6 +702,7 @@
       "GIAS 5.2",
       "GIAS 14.6"
     ],
+    "trap": "Cho rằng hồ sơ kiểm toán nội bộ tuyệt mật nên từ chối mọi yêu cầu, kể cả yêu cầu theo luật.",
     "source": "original",
     "optionNotes": [
       "Sai. Có thể có nghĩa vụ pháp lý phải cung cấp; không được từ chối máy móc.",
@@ -712,6 +735,7 @@
       "GIAS 5.1",
       "GIAS 5.2"
     ],
+    "trap": "Cho rằng nghĩa vụ bảo mật hết hạn sau khi nghỉ việc, hoặc ẩn tên là đủ.",
     "source": "original"
   },
   {
@@ -737,6 +761,7 @@
     "refs": [
       "GIAS 2.1"
     ],
+    "trap": "Nhầm tư duy nhóm với thiên lệch neo.",
     "source": "original"
   },
   {
@@ -782,6 +807,7 @@
     "refs": [
       "GIAS Domain II"
     ],
+    "trap": "Cho rằng GIAS giữ nguyên bốn nguyên tắc đạo đức của IPPF 2017.",
     "source": "original",
     "optionNotes": [
       "Sai. GIAS giữ nội dung đạo đức như yêu cầu bắt buộc.",
@@ -808,6 +834,7 @@
       "GIAS 2.2",
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng Tổng Giám đốc là cấp quản lý hành chính nên CAE chấp nhận cử người ngay.",
     "source": "original",
     "optionNotes": [
       "Sai. Quan hệ hành chính không cho phép bỏ qua suy giảm khách quan.",
@@ -840,6 +867,7 @@
       "GIAS 1.3",
       "GIAS 1.1"
     ],
+    "trap": "Cho rằng nghĩa vụ bảo mật cho phép giữ kín vi phạm pháp luật.",
     "source": "original"
   },
   {
@@ -865,6 +893,7 @@
     "refs": [
       "GIAS 1.1"
     ],
+    "trap": "Cho rằng vấn đề đã khắc phục trong lúc kiểm toán thì không cần nêu trong báo cáo.",
     "source": "original"
   },
   {
@@ -890,6 +919,7 @@
     "refs": [
       "GIAS 2.2"
     ],
+    "trap": "Cho rằng cuộc kiểm toán đã kết thúc hoặc lợi ích là đào tạo thì nhận quà không ảnh hưởng khách quan.",
     "source": "original"
   },
   {
@@ -915,6 +945,7 @@
     "refs": [
       "GIAS 2.2"
     ],
+    "trap": "Cho rằng đã qua 12 tháng thì không cần công bố gì trước khi nhận cuộc tư vấn.",
     "source": "original"
   },
   {
@@ -966,6 +997,7 @@
       "GIAS 5.1",
       "GIAS 5.2"
     ],
+    "trap": "Cho rằng ẩn danh là đủ để dùng thông tin kiểm toán bên ngoài tổ chức.",
     "source": "original"
   },
   {
@@ -991,6 +1023,7 @@
     "refs": [
       "GIAS 2.1"
     ],
+    "trap": "Nhầm thiên lệch neo với thiên lệch xác nhận.",
     "source": "original"
   },
   {
@@ -1016,6 +1049,7 @@
     "refs": [
       "GIAS 1.2"
     ],
+    "trap": "Cho rằng sự việc ngoài phạm vi kiểm toán thì kiểm toán viên không cần báo.",
     "source": "original"
   },
   {
@@ -1041,6 +1075,7 @@
     "refs": [
       "GIAS 3.1"
     ],
+    "trap": "Cho rằng chuyên gia kỹ thuật chỉ cần năng lực chuyên ngành, không cần hiểu Chuẩn mực.",
     "source": "original"
   },
   {
@@ -1066,6 +1101,7 @@
     "refs": [
       "GIAS 3.1"
     ],
+    "trap": "Cho rằng chứng chỉ CIA đủ chứng minh năng lực cho mọi dịch vụ.",
     "source": "original"
   },
   {
@@ -1092,6 +1128,7 @@
       "GIAS 14.6",
       "GIAS 5.2"
     ],
+    "trap": "Cho rằng xóa hồ sơ ngay là cách bảo vệ dữ liệu tốt nhất, bỏ qua nghĩa vụ lưu trữ.",
     "source": "original"
   },
   {
@@ -1118,6 +1155,7 @@
       "GIAS 1.2",
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng mọi kỳ vọng của tổ chức đều phải đáp ứng, kể cả khi không chính đáng.",
     "source": "original"
   },
   {
@@ -1145,6 +1183,7 @@
       "GIAS 2.3",
       "IESBA Code"
     ],
+    "trap": "Nhầm nguy cơ bào chữa với nguy cơ tự kiểm tra.",
     "source": "original"
   },
   {
@@ -1171,6 +1210,7 @@
       "GIAS 1.1",
       "GIAS 15.1"
     ],
+    "trap": "Cho rằng không phát hiện sai sót trong mẫu thì có thể kết luận cho toàn bộ tổng thể.",
     "source": "original"
   },
   {
@@ -1196,6 +1236,7 @@
     "refs": [
       "GIAS 2.1"
     ],
+    "trap": "Nhầm thiên lệch sẵn có với thiên lệch neo.",
     "source": "original"
   },
   {
@@ -1247,6 +1288,7 @@
       "GIAS 5.1",
       "GIAS 1.3"
     ],
+    "trap": "Nhầm việc dùng thông tin vì lợi ích cá nhân với vấn đề khách quan.",
     "source": "original"
   },
   {
@@ -1272,6 +1314,7 @@
     "refs": [
       "GIAS 5.2"
     ],
+    "trap": "Cho rằng kiểm tra lại nội dung là đủ, bỏ qua việc dữ liệu đã rời khỏi tổ chức.",
     "source": "original"
   },
   {
@@ -1297,6 +1340,7 @@
     "refs": [
       "GIAS 1.3"
     ],
+    "trap": "Để đến báo cáo cuối năm hoặc tự báo ra ngoài, bỏ qua kênh nội bộ để kịp thời hạn luật định.",
     "source": "original"
   },
   {
@@ -1322,6 +1366,7 @@
     "refs": [
       "GIAS 4.2"
     ],
+    "trap": "Cho rằng Ban điều hành đơn vị là bên duy nhất sử dụng kết quả kiểm toán.",
     "source": "original"
   },
   {
@@ -1348,6 +1393,7 @@
       "GIAS 2.2",
       "GIAS 2.3"
     ],
+    "trap": "Cho rằng giá trị giao dịch nhỏ hoặc né phần liên quan là đủ để xử lý xung đột lợi ích.",
     "source": "original"
   },
   {
@@ -1374,6 +1420,7 @@
       "GIAS 4.3",
       "GIAS 14.1"
     ],
+    "trap": "Chấp nhận xác nhận của đơn vị thay cho bằng chứng độc lập khi tài liệu có dấu hiệu bị sửa.",
     "source": "original"
   },
   {
@@ -1399,6 +1446,7 @@
     "refs": [
       "GIAS 2.2"
     ],
+    "trap": "Cho rằng thu kê khai đầy đủ là đã quản lý xong suy giảm khách quan.",
     "source": "original"
   },
   {
@@ -1449,6 +1497,7 @@
     "refs": [
       "GIAS 3.1"
     ],
+    "trap": "Cho rằng thiếu năng lực thì phải hủy cuộc kiểm toán, thay vì bổ sung năng lực.",
     "source": "original"
   },
   {
@@ -1474,6 +1523,7 @@
     "refs": [
       "GIAS 5.2"
     ],
+    "trap": "Cho rằng không nêu tên thì không vi phạm bảo mật.",
     "source": "original"
   },
   {
@@ -1500,6 +1550,7 @@
       "GIAS 12.3",
       "GIAS 14.6"
     ],
+    "trap": "Cho rằng ủy quyền giám sát là chuyển hẳn trách nhiệm, hoặc giám sát chỉ là kiểm danh mục.",
     "source": "original"
   },
   {
@@ -1526,6 +1577,7 @@
       "GIAS 2.2",
       "GIAS 2.3"
     ],
+    "trap": "Áp quy tắc 12 tháng một cách máy móc, bỏ qua quan hệ thân thiết vẫn còn.",
     "source": "original"
   },
   {
@@ -1577,6 +1629,7 @@
     "refs": [
       "GIAS 4.3"
     ],
+    "trap": "Chấp nhận giải trình vì người giải trình là lãnh đạo cấp cao có thẩm quyền.",
     "source": "original"
   },
   {
@@ -1655,6 +1708,7 @@
       "CIA Part 1 B.4",
       "GIAS 4.3"
     ],
+    "trap": "Kết luận gian lận ngay từ một chênh lệch lớn mà chưa loại trừ các giả thuyết khác.",
     "source": "original"
   },
   {
@@ -1681,6 +1735,7 @@
       "CIA Part 1 B.4",
       "GIAS 3.1"
     ],
+    "trap": "Dựa vào bản tóm tắt của chính đơn vị được kiểm toán làm tiêu chí kiểm toán.",
     "source": "original"
   },
   {
@@ -1707,6 +1762,7 @@
       "CIA Part 1 B.4",
       "GIAS 11.5"
     ],
+    "trap": "Chấp nhận thời hạn dài hoặc hạ mức phát hiện để giữ quan hệ với đơn vị.",
     "source": "original"
   },
   {
@@ -1733,6 +1789,7 @@
       "GIAS 11.1",
       "CIA Part 1 B.4"
     ],
+    "trap": "Cho rằng muốn xây dựng lòng tin thì phải giảm phát hiện hoặc chỉ báo cáo cho đơn vị.",
     "source": "original"
   },
   {
@@ -1785,6 +1842,7 @@
       "CIA Part 1 B.4",
       "GIAS 4.3"
     ],
+    "trap": "Coi việc đặt câu hỏi ngoài danh mục kiểm tra là thiếu tập trung, thay vì tò mò nghề nghiệp.",
     "source": "original"
   },
   {
@@ -1837,6 +1895,7 @@
       "GIAS 2.2",
       "CIA Part 1 B.3"
     ],
+    "trap": "Cho rằng người ít dùng phần mềm nhất trong phòng đủ khách quan để kiểm toán công cụ của chính phòng.",
     "source": "original"
   },
   {
@@ -1863,6 +1922,7 @@
       "GIAS 2.2",
       "CIA Part 1 B.3"
     ],
+    "trap": "Cho rằng CAE rà soát thêm bù được việc giao người mới rời hoạt động dưới 12 tháng làm trưởng nhóm.",
     "source": "original"
   },
   {
@@ -1889,6 +1949,7 @@
       "GIAS 2.2",
       "GIAS 2.3"
     ],
+    "trap": "Cho rằng đã công bố quan hệ trung thực là đủ, không cần đổi phân công.",
     "source": "original"
   },
   {
@@ -1915,6 +1976,7 @@
       "GIAS 2.2",
       "CIA Part 1 B.3"
     ],
+    "trap": "Cho rằng mọi món quà từ nhà cung cấp đều bị cấm, kể cả quà nhỏ phát chung đúng chính sách.",
     "source": "original"
   },
   {
@@ -1941,6 +2003,7 @@
       "GIAS 2.3",
       "GIAS 2.2"
     ],
+    "trap": "Cho rằng tự thấy mình khách quan thì không cần công bố suy giảm về hình thức.",
     "source": "original"
   },
   {
@@ -2017,6 +2080,7 @@
       "GIAS 5.2",
       "GIAS 4.1"
     ],
+    "trap": "Cho rằng chỉ vi phạm khi dữ liệu thực sự bị lộ.",
     "source": "original"
   },
   {
@@ -2043,6 +2107,7 @@
       "GIAS 5.1",
       "GIAS 5.2"
     ],
+    "trap": "Cho rằng quyền tiếp cận không hạn chế cho phép dùng thông tin ngoài mục đích công việc.",
     "source": "original"
   },
   {
@@ -2094,6 +2159,7 @@
     "refs": [
       "GIAS 1.1"
     ],
+    "trap": "Cho rằng người có thẩm quyền cao nhất được quyết định bỏ phát hiện về chính mình.",
     "source": "original"
   },
   {
@@ -2120,6 +2186,7 @@
       "GIAS 2.2",
       "IESBA Code"
     ],
+    "trap": "Cho rằng tư vấn và đảm bảo là hai dịch vụ khác nhau nên không có nguy cơ tự kiểm tra.",
     "source": "original"
   },
   {
@@ -2145,6 +2212,7 @@
     "refs": [
       "CIA Part 1 B.3"
     ],
+    "trap": "Cho rằng thuê ngoài thì trách nhiệm về cuộc kiểm toán chuyển sang bên ngoài.",
     "source": "original"
   },
   {
@@ -2171,6 +2239,7 @@
       "GIAS 2.2",
       "CIA Part 1 B.3"
     ],
+    "trap": "Cho rằng quy tắc 12 tháng chỉ áp dụng cho đảm bảo nên không cần công bố gì khi nhận tư vấn.",
     "source": "original"
   },
   {
@@ -2197,6 +2266,7 @@
       "CIA Part 1 B.4",
       "GIAS 4.3"
     ],
+    "trap": "Tự mở rộng phạm vi hoặc bỏ qua vì ngoài chương trình, thay vì trao đổi với trưởng nhóm.",
     "source": "original"
   },
   {
@@ -2223,6 +2293,7 @@
       "GIAS 2.2",
       "CIA Part 1 B.3"
     ],
+    "trap": "Cho rằng ứng tuyển là quyền cá nhân nên không ảnh hưởng đến khách quan.",
     "source": "original"
   },
   {
@@ -2300,6 +2371,7 @@
       "GIAS 5.2",
       "CIA Part 1 B.6"
     ],
+    "trap": "Cho rằng có quyền truy cập hợp lệ thì được xem mọi thông tin trong hệ thống.",
     "source": "original"
   },
   {
@@ -2352,6 +2424,7 @@
       "GIAS 4.2",
       "CIA Part 1 B.5"
     ],
+    "trap": "Cho rằng thận trọng nghề nghiệp đòi hỏi phát hiện mọi sai sót.",
     "source": "original"
   },
   {
@@ -2378,6 +2451,7 @@
       "GIAS 4.2",
       "CIA Part 1 B.5"
     ],
+    "trap": "Ưu tiên tính nhất quán, dùng chung chương trình bất kể độ phức tạp và trọng yếu.",
     "source": "original"
   },
   {
@@ -2404,6 +2478,7 @@
       "CIA Part 1 B.2",
       "GIAS 4.3"
     ],
+    "trap": "Nhầm thiên kiến uy quyền với thiên kiến xác nhận.",
     "source": "original"
   },
   {
@@ -2430,6 +2505,7 @@
       "GIAS 2.2",
       "CIA Part 1 B.2"
     ],
+    "trap": "Cho rằng việc ngoài giờ là việc riêng, không tạo xung đột lợi ích.",
     "source": "original"
   },
   {
@@ -2456,6 +2532,7 @@
       "GIAS 2.2",
       "CIA Part 1 B.2"
     ],
+    "trap": "Cho rằng khoản vay duyệt đúng quy trình thì không tạo xung đột lợi ích.",
     "source": "original"
   },
   {
@@ -2482,6 +2559,7 @@
       "GIAS 1.1",
       "CIA Part 1 B.1"
     ],
+    "trap": "Cho rằng hoãn báo cáo ngắn hạn vì lợi ích công ty là chấp nhận được.",
     "source": "original"
   },
   {
@@ -2534,6 +2612,7 @@
       "GIAS 11.4",
       "CIA Part 1 B.1"
     ],
+    "trap": "Cho rằng sửa trong hồ sơ nội bộ là đủ khi báo cáo đã phát hành có sai sót đáng kể.",
     "source": "original"
   },
   {
@@ -2557,33 +2636,6 @@
       "Đúng. Nguồn gốc chính thức."
     ],
     "refs": [
-      "CIA Part 1 B.4"
-    ],
-    "source": "original"
-  },
-  {
-    "id": "P1-B-S02",
-    "section": "B",
-    "topic": "B4",
-    "difficulty": 3,
-    "stem": "HĐQT yêu cầu một cuộc đảm bảo về mô hình định giá các công cụ phái sinh, trong khi bộ phận kiểm toán nội bộ chưa có ai có chuyên môn này. CAE nên làm gì trước tiên?",
-    "options": [
-      "Nhận cuộc kiểm toán và để nhóm vừa làm vừa tự học về định giá phái sinh.",
-      "Từ chối ngay, vì kiểm toán nội bộ chỉ được nhận việc thuộc chuyên môn hiện có.",
-      "Xác định năng lực còn thiếu và cách bổ sung, như mời chuyên gia, trước khi nhận việc.",
-      "Đề nghị bộ phận Quản lý rủi ro tự đánh giá mô hình rồi gửi kết quả cho kiểm toán."
-    ],
-    "answer": 2,
-    "explanation": "GIAS 3.1 yêu cầu kiểm toán viên chỉ nhận dịch vụ mà mình có hoặc có thể đạt được năng lực cần thiết, và CAE phải bảo đảm bộ phận có đủ năng lực tập thể hoặc bổ sung năng lực còn thiếu. Vì vậy bước đầu là xác định năng lực thiếu và cách bổ sung (chuyên gia, thuê ngoài, đồng kiểm toán), không phải từ chối ngay hay nhận việc khi chưa đủ năng lực.",
-    "optionNotes": [
-      "Sai. Nhận việc khi chưa có năng lực và chưa có kế hoạch bổ sung là trái yêu cầu chỉ nhận dịch vụ mình có hoặc có thể đạt được năng lực.",
-      "Sai. GIAS 3.1 cho phép nhận việc nếu có thể đạt được năng lực cần thiết, ví dụ bằng chuyên gia bên ngoài; từ chối ngay là quá vội.",
-      "Đúng. Xác định khoảng trống và cách bổ sung năng lực trước khi nhận việc đúng với GIAS 3.1.",
-      "Sai. Tự đánh giá của bộ phận Quản lý rủi ro không phải đảm bảo độc lập mà HĐQT yêu cầu, và không giải quyết việc thiếu năng lực."
-    ],
-    "trap": "Cho rằng thiếu năng lực thì phải từ chối, trong khi GIAS cho phép bổ sung năng lực cần thiết.",
-    "refs": [
-      "GIAS 3.1",
       "CIA Part 1 B.4"
     ],
     "source": "original"
