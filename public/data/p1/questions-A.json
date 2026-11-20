@@ -4156,5 +4156,32 @@
       "CIA Part 1 A.1"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-A-S01",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 3,
+    "stem": "Năm ngoái, một nhóm kiểm toán nội bộ đã tư vấn thiết kế quy trình phê duyệt chi phí. Năm nay HĐQT yêu cầu một cuộc đảm bảo về chính quy trình đó. Trước khi giao việc, CAE nên làm gì trước tiên?",
+    "options": [
+      "Xác nhận tính chất cuộc tư vấn không làm suy giảm khách quan và bố trí người phù hợp.",
+      "Từ chối cuộc đảm bảo, vì bộ phận kiểm toán nội bộ đã từng tư vấn chính quy trình này.",
+      "Giao lại cho chính nhóm đã tư vấn, vì họ hiểu rõ quy trình và rủi ro hơn ai hết.",
+      "Chờ đủ 12 tháng kể từ khi kết thúc cuộc tư vấn rồi mới bắt đầu cuộc đảm bảo."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 2.2 cho phép bộ phận kiểm toán nội bộ đảm bảo cho hoạt động mình đã tư vấn, với điều kiện CAE xác nhận tính chất cuộc tư vấn không làm suy giảm khách quan và bố trí nguồn lực để quản lý khách quan của từng kiểm toán viên. Quy tắc 12 tháng áp dụng cho người từng chịu trách nhiệm về hoạt động, không phải cho việc từng tư vấn.",
+    "optionNotes": [
+      "Đúng. Đây là hai việc GIAS 2.2 yêu cầu CAE làm khi đảm bảo cho hoạt động đã từng tư vấn.",
+      "Sai. Đã từng tư vấn không cấm việc đảm bảo; GIAS 2.2 chỉ yêu cầu CAE xác nhận khách quan và bố trí người phù hợp.",
+      "Sai. Giao cho chính nhóm đã thiết kế dễ dẫn tới tự kiểm tra lại công việc của mình; CAE phải bố trí người để quản lý khách quan.",
+      "Sai. Quy tắc 12 tháng dành cho người từng chịu trách nhiệm vận hành hoạt động, không áp dụng cho việc từng tư vấn."
+    ],
+    "trap": "Nhầm quy tắc 12 tháng (người từng phụ trách hoạt động) với trường hợp bộ phận từng tư vấn cho hoạt động đó.",
+    "refs": [
+      "GIAS 2.2",
+      "CIA Part 1 A.6"
+    ],
+    "source": "original"
   }
 ]

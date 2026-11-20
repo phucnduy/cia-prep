@@ -2088,5 +2088,58 @@
       "GIAS 13.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-D-S01",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 3,
+    "stem": "Kiểm toán phát hiện nhân viên mua hàng và nhân viên nhận hàng thông đồng lập phiếu nhập kho khống cho hàng không giao, dù hai việc đã được tách cho hai người. Kiểm soát bổ sung nào phù hợp nhất?",
+    "options": [
+      "Tách thêm việc ký phiếu nhập kho sang một người thứ ba trong cùng bộ phận kho.",
+      "Kiểm kê đột xuất, đối chiếu tồn kho và phân tích nhà cung cấp bất thường.",
+      "Tăng mức kỷ luật trong quy chế đối với hành vi gian lận mua hàng.",
+      "Yêu cầu hai nhân viên ký cam kết trung thực và không thông đồng hằng quý."
+    ],
+    "answer": 1,
+    "explanation": "Tách biệt nhiệm vụ không ngăn được thông đồng. Khi hai người cùng tham gia, cần các kiểm soát phát hiện độc lập với họ: kiểm kê đột xuất đối chiếu với sổ, phân tích dữ liệu mua hàng theo nhà cung cấp, luân chuyển nhiệm vụ. Các kiểm soát này làm lộ hàng ghi nhận nhưng không có thật.",
+    "optionNotes": [
+      "Sai. Thêm một người trong cùng bộ phận vẫn có thể bị kéo vào thông đồng; cần kiểm soát phát hiện độc lập.",
+      "Đúng. Kiểm soát phát hiện độc lập với những người thông đồng làm lộ hàng ghi nhận nhưng không có thật.",
+      "Sai. Kỷ luật nặng hơn có tác dụng răn đe nhưng không phát hiện được phiếu nhập khống đang diễn ra.",
+      "Sai. Cam kết trung thực không phải kiểm soát thực chất và không ngăn hay phát hiện được thông đồng."
+    ],
+    "trap": "Cho rằng tách thêm nhiệm vụ sẽ xử lý được thông đồng, trong khi cần kiểm soát phát hiện độc lập.",
+    "refs": [
+      "CIA Part 1 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-D-S02",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Để đạt mức thưởng cá nhân, giám đốc chi nhánh ghi nhận doanh thu của các hợp đồng tháng 1 năm sau vào tháng 12 năm nay. Hành vi này thuộc loại gian lận nào?",
+    "options": [
+      "Biển thủ tài sản, vì giám đốc nhận thêm tiền thưởng nhờ hành vi này.",
+      "Tham nhũng, vì giám đốc dùng chức vụ để mưu lợi cho bản thân.",
+      "Gian lận báo cáo tài chính, vì số liệu doanh thu bị trình bày sai kỳ.",
+      "Không phải gian lận, vì doanh thu đó cuối cùng vẫn được ghi nhận đủ."
+    ],
+    "answer": 2,
+    "explanation": "Theo phân loại của ACFE, gian lận báo cáo tài chính là cố ý trình bày sai thông tin tài chính, như ghi nhận doanh thu sai kỳ. Động cơ là thưởng cá nhân không làm hành vi trở thành biển thủ: giám đốc không trực tiếp chiếm đoạt tài sản, mà làm sai lệch số liệu để đạt chỉ tiêu.",
+    "optionNotes": [
+      "Sai. Biển thủ là chiếm đoạt tài sản của tổ chức; ở đây số liệu bị làm sai, còn tiền thưởng chỉ là động cơ.",
+      "Sai. Tham nhũng (theo ACFE) gồm hối lộ, xung đột lợi ích, lại quả với bên ngoài; tình huống không có yếu tố này.",
+      "Đúng. Ghi nhận doanh thu sai kỳ có chủ ý là gian lận báo cáo tài chính.",
+      "Sai. Ghi doanh thu sai kỳ có chủ ý làm báo cáo từng kỳ sai lệch; doanh thu cuối cùng được ghi đủ không làm hành vi hợp lệ."
+    ],
+    "trap": "Phân loại theo động cơ (thưởng cá nhân) thay vì theo bản chất hành vi (trình bày sai báo cáo).",
+    "refs": [
+      "ACFE",
+      "CIA Part 1 D.1"
+    ],
+    "source": "original"
   }
 ]

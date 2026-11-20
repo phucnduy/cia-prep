@@ -2560,5 +2560,113 @@
       "CIA Part 1 B.4"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-B-S01",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Hai tháng sau khi phát hành báo cáo kiểm toán quy trình đấu thầu, CAE biết một thành viên trong nhóm có cổ phần ở một nhà thầu đã trúng thầu trong kỳ được kiểm toán nhưng không kê khai. CAE nên làm gì trước tiên?",
+    "options": [
+      "Không cần xử lý, vì báo cáo đã phát hành và Ban điều hành đã chấp nhận kết luận.",
+      "Trao đổi với quản lý đơn vị, HĐQT hoặc Ban điều hành để xác định cách xử lý độ tin cậy của kết quả.",
+      "Thu hồi báo cáo và tự làm lại toàn bộ cuộc kiểm toán trước khi thông báo cho bất kỳ ai.",
+      "Chỉ xử lý kỷ luật thành viên đó theo quy chế nội bộ và lưu việc này vào hồ sơ nhân sự."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 2.3 yêu cầu: nếu sau khi cuộc kiểm toán kết thúc mới phát hiện suy giảm khách quan có thể ảnh hưởng đến độ tin cậy (hoặc độ tin cậy được cảm nhận) của phát hiện, kiến nghị, kết luận, CAE phải trao đổi với quản lý đơn vị được kiểm toán, HĐQT, Ban điều hành và/hoặc các bên liên quan khác để xác định hành động phù hợp.",
+    "optionNotes": [
+      "Sai. Báo cáo đã phát hành không làm vấn đề biến mất; GIAS 2.3 yêu cầu xử lý cả suy giảm phát hiện sau khi cuộc kiểm toán đã kết thúc.",
+      "Đúng. Trao đổi với các bên liên quan để quyết định cách xử lý là yêu cầu của GIAS 2.3.",
+      "Sai. Làm lại có thể là một biện pháp, nhưng phải được quyết định sau khi trao đổi với các bên liên quan, không tự làm trước khi thông báo.",
+      "Sai. Kỷ luật cá nhân không trả lời câu hỏi kết quả kiểm toán còn đáng tin cậy hay không; đó mới là điều phải xử lý."
+    ],
+    "trap": "Cho rằng báo cáo đã phát hành thì suy giảm khách quan không còn phải xử lý.",
+    "refs": [
+      "GIAS 2.3",
+      "CIA Part 1 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-S02",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 3,
+    "stem": "HĐQT yêu cầu một cuộc đảm bảo về mô hình định giá các công cụ phái sinh, trong khi bộ phận kiểm toán nội bộ chưa có ai có chuyên môn này. CAE nên làm gì trước tiên?",
+    "options": [
+      "Nhận cuộc kiểm toán và để nhóm vừa làm vừa tự học về định giá phái sinh.",
+      "Từ chối ngay, vì kiểm toán nội bộ chỉ được nhận việc thuộc chuyên môn hiện có.",
+      "Xác định năng lực còn thiếu và cách bổ sung, như mời chuyên gia, trước khi nhận việc.",
+      "Đề nghị bộ phận Quản lý rủi ro tự đánh giá mô hình rồi gửi kết quả cho kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 3.1 yêu cầu kiểm toán viên chỉ nhận dịch vụ mà mình có hoặc có thể đạt được năng lực cần thiết, và CAE phải bảo đảm bộ phận có đủ năng lực tập thể hoặc bổ sung năng lực còn thiếu. Vì vậy bước đầu là xác định năng lực thiếu và cách bổ sung (chuyên gia, thuê ngoài, đồng kiểm toán), không phải từ chối ngay hay nhận việc khi chưa đủ năng lực.",
+    "optionNotes": [
+      "Sai. Nhận việc khi chưa có năng lực và chưa có kế hoạch bổ sung là trái yêu cầu chỉ nhận dịch vụ mình có hoặc có thể đạt được năng lực.",
+      "Sai. GIAS 3.1 cho phép nhận việc nếu có thể đạt được năng lực cần thiết, ví dụ bằng chuyên gia bên ngoài; từ chối ngay là quá vội.",
+      "Đúng. Xác định khoảng trống và cách bổ sung năng lực trước khi nhận việc đúng với GIAS 3.1.",
+      "Sai. Tự đánh giá của bộ phận Quản lý rủi ro không phải đảm bảo độc lập mà HĐQT yêu cầu, và không giải quyết việc thiếu năng lực."
+    ],
+    "trap": "Cho rằng thiếu năng lực thì phải từ chối, trong khi GIAS cho phép bổ sung năng lực cần thiết.",
+    "refs": [
+      "GIAS 3.1",
+      "CIA Part 1 B.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-S03",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 2,
+    "stem": "Một trưởng nhóm mới dặn cả nhóm: 'Hoài nghi nghề nghiệp nghĩa là coi mọi giải trình của quản lý là không trung thực cho đến khi chứng minh được điều ngược lại.' Nhận định nào đúng nhất?",
+    "options": [
+      "Đúng, vì giả định quản lý thiếu trung thực giúp kiểm toán viên không bỏ sót gian lận.",
+      "Chưa đúng; hoài nghi chỉ cần áp dụng khi đã có dấu hiệu gian lận rõ ràng.",
+      "Đúng, nếu cuộc kiểm toán thuộc lĩnh vực được xếp hạng rủi ro gian lận cao.",
+      "Chưa đúng; hoài nghi là đánh giá phê phán độ tin cậy và tìm thêm bằng chứng khi cần."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 4.3 yêu cầu kiểm toán viên duy trì thái độ tò mò, đánh giá phê phán độ tin cậy của thông tin, thẳng thắn nêu câu hỏi khi thông tin không nhất quán và tìm thêm bằng chứng khi thông tin có thể không đầy đủ, mâu thuẫn hoặc sai lệch. Hoài nghi không phải là mặc định người khác không trung thực, và cũng không chỉ áp dụng khi đã có dấu hiệu gian lận.",
+    "optionNotes": [
+      "Sai. Mặc định quản lý không trung thực là định kiến, trái với tính khách quan; hoài nghi là đánh giá độ tin cậy dựa trên bằng chứng.",
+      "Sai. GIAS 4.3 yêu cầu hoài nghi khi lập kế hoạch và thực hiện mọi dịch vụ, không chờ đến khi có dấu hiệu gian lận.",
+      "Sai. Mức rủi ro có thể làm tăng mức độ kiểm tra, nhưng không biến hoài nghi thành việc mặc định người khác không trung thực.",
+      "Đúng. Đây là nội dung của hoài nghi nghề nghiệp theo GIAS 4.3."
+    ],
+    "trap": "Nhầm hoài nghi nghề nghiệp với việc mặc định người khác không trung thực, hoặc chỉ hoài nghi khi đã có dấu hiệu gian lận.",
+    "refs": [
+      "GIAS 4.3",
+      "CIA Part 1 B.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-B-S04",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 3,
+    "stem": "Một kiểm toán viên bị mất máy tính xách tay của công ty trên taxi; máy chứa hồ sơ kiểm toán có dữ liệu cá nhân của khách hàng. Kiểm toán viên nên làm gì trước tiên?",
+    "options": [
+      "Báo ngay theo quy trình xử lý sự cố an ninh thông tin của công ty và báo CAE.",
+      "Tự khôi phục hồ sơ từ bản sao lưu cho xong việc, rồi mới báo cáo sự việc.",
+      "Chờ vài ngày xem tài xế có trả lại máy hay không trước khi báo cho ai.",
+      "Chỉ trình báo công an, vì đây là vụ mất tài sản chứ không phải vấn đề bảo mật."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 5.2 yêu cầu kiểm toán viên hiểu và tuân thủ luật, quy định, chính sách về bảo mật, quyền riêng tư và an ninh thông tin áp dụng cho tổ chức và bộ phận kiểm toán nội bộ. Mất thiết bị chứa dữ liệu cá nhân là sự cố an ninh thông tin; báo cáo ngay theo quy trình giúp tổ chức kịp khóa truy cập, đánh giá ảnh hưởng và thực hiện nghĩa vụ thông báo nếu có.",
+    "optionNotes": [
+      "Đúng. Báo ngay theo quy trình sự cố là tuân thủ chính sách an ninh thông tin (GIAS 5.2) và giúp hạn chế thiệt hại.",
+      "Sai. Khôi phục hồ sơ giải quyết việc của kiểm toán viên nhưng không xử lý dữ liệu đã có thể bị lộ; báo cáo phải làm trước.",
+      "Sai. Chờ đợi làm mất thời gian khóa truy cập và đánh giá ảnh hưởng; sự cố phải được báo ngay.",
+      "Sai. Trình báo công an có thể cần, nhưng thiết bị chứa dữ liệu cá nhân thì đây còn là sự cố bảo mật phải báo theo quy trình nội bộ."
+    ],
+    "trap": "Coi mất thiết bị chỉ là mất tài sản, bỏ qua nghĩa vụ xử lý sự cố bảo mật dữ liệu.",
+    "refs": [
+      "GIAS 5.2",
+      "CIA Part 1 B.6"
+    ],
+    "source": "original"
   }
 ]

@@ -3914,5 +3914,110 @@
       "CIA Part 1 C.8"
     ],
     "source": "original"
+  },
+  {
+    "id": "P1-C-S01",
+    "section": "C",
+    "topic": "C8",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên được giao kiểm tra kiểm soát phê duyệt hạn mức tín dụng vừa được thiết kế lại. Trước khi chọn mẫu kiểm tra hiệu quả vận hành, kiểm toán viên nên làm gì trước tiên?",
+    "options": [
+      "Chọn ngay một mẫu lớn để có kết luận nhanh về hiệu quả vận hành của kiểm soát.",
+      "Đánh giá thiết kế, ví dụ theo một giao dịch, xem kiểm soát có xử lý được rủi ro không.",
+      "Kiểm tra lại toàn bộ khoản vay đã giải ngân trong năm thay cho việc kiểm tra kiểm soát.",
+      "Phỏng vấn người thực hiện và kết luận kiểm soát hữu hiệu nếu họ mô tả đúng quy trình."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm tra hiệu quả vận hành chỉ có ý nghĩa khi kiểm soát được thiết kế phù hợp để xử lý rủi ro. Vì vậy kiểm toán viên đánh giá thiết kế trước, thường bằng cách theo một giao dịch đi qua quy trình (walkthrough). Nếu thiết kế đã yếu, kiểm toán viên nêu khiếm khuyết thiết kế thay vì tốn công kiểm tra vận hành.",
+    "optionNotes": [
+      "Sai. Kiểm tra vận hành của một kiểm soát thiết kế sai vẫn không xử lý được rủi ro; phải đánh giá thiết kế trước.",
+      "Đúng. Đánh giá thiết kế là bước trước khi kiểm tra hiệu quả vận hành.",
+      "Sai. Kiểm tra chi tiết toàn bộ khoản vay là thủ tục khác, tốn kém và không trả lời câu hỏi kiểm soát có hữu hiệu không.",
+      "Sai. Phỏng vấn chỉ cho biết người thực hiện mô tả gì; không đủ để kết luận về thiết kế hay hiệu quả vận hành."
+    ],
+    "trap": "Kiểm tra vận hành trước khi xác định kiểm soát có được thiết kế để xử lý rủi ro hay không.",
+    "refs": [
+      "CIA Part 1 C.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-S02",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Khi đánh giá chương trình tuân thủ, kiểm toán viên thấy công ty chưa có danh mục văn bản pháp luật áp dụng và không ai được giao theo dõi quy định mới ban hành. Điểm yếu chính của chương trình là gì?",
+    "options": [
+      "Chưa có đường dây nóng để nhân viên tố giác các hành vi vi phạm pháp luật.",
+      "Chưa thuê công ty luật bên ngoài rà soát toàn bộ hợp đồng của công ty mỗi năm.",
+      "Thiếu cơ chế nhận diện, cập nhật nghĩa vụ pháp lý nên vi phạm có thể xảy ra mà không ai biết.",
+      "Chưa tổ chức đào tạo quy tắc ứng xử cho nhân viên mới trong tháng đầu làm việc."
+    ],
+    "answer": 2,
+    "explanation": "Chương trình tuân thủ bắt đầu từ việc biết tổ chức phải tuân thủ những gì: nhận diện văn bản pháp luật áp dụng, giao người theo dõi và cập nhật khi có quy định mới. Thiếu bước này thì các kiểm soát khác (đào tạo, tố giác, rà soát) không có căn cứ đầy đủ, và vi phạm có thể phát sinh từ quy định mới mà không ai biết.",
+    "optionNotes": [
+      "Sai. Kênh tố giác là một cấu phần có ích, nhưng nó không giúp công ty biết mình phải tuân thủ những quy định nào.",
+      "Sai. Thuê luật sư rà soát hợp đồng có thể hữu ích nhưng không thay thế việc nhận diện và theo dõi các quy định áp dụng.",
+      "Đúng. Không nhận diện và cập nhật nghĩa vụ pháp lý là lỗ hổng nền tảng của chương trình tuân thủ.",
+      "Sai. Đào tạo quy tắc ứng xử là cấu phần khác; điểm yếu được mô tả là không biết và không theo dõi nghĩa vụ pháp lý."
+    ],
+    "trap": "Coi kênh tố giác hay đào tạo là trọng tâm, bỏ qua bước nhận diện nghĩa vụ pháp lý.",
+    "refs": [
+      "CIA Part 1 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-S03",
+    "section": "C",
+    "topic": "C7",
+    "difficulty": 2,
+    "stem": "Hệ thống kiểm tra hạn mức tín dụng tự động ngừng ba ngày để nâng cấp. Trong ba ngày đó, các khoản giải ngân vẫn được duyệt như thường nhưng không ai đối chiếu hạn mức. Điểm yếu kiểm soát chính là gì?",
+    "options": [
+      "Hạn mức tín dụng của khách hàng được đặt quá cao so với khẩu vị rủi ro.",
+      "Công ty không nên nâng cấp hệ thống trong năm tài chính đang kiểm toán.",
+      "Bộ phận CNTT đã không thông báo lịch nâng cấp cho kiểm toán nội bộ.",
+      "Thiếu kiểm soát thay thế thủ công khi kiểm soát tự động ngừng hoạt động."
+    ],
+    "answer": 3,
+    "explanation": "Khi kiểm soát tự động tạm ngừng, rủi ro mà nó xử lý vẫn còn. Thiết kế tốt cần có kiểm soát thay thế (ví dụ đối chiếu hạn mức thủ công, nâng cấp phê duyệt) trong thời gian ngừng. Thiếu kiểm soát này, các khoản vay vượt hạn mức có thể được giải ngân mà không bị phát hiện.",
+    "optionNotes": [
+      "Sai. Đề bài không nói hạn mức đặt sai; điểm yếu là trong ba ngày không ai kiểm tra việc tuân thủ hạn mức.",
+      "Sai. Nâng cấp hệ thống là hoạt động bình thường; vấn đề là không có biện pháp kiểm soát trong lúc hệ thống ngừng.",
+      "Sai. Kiểm toán nội bộ không phải bên thực hiện kiểm soát; việc thông báo cho kiểm toán không thay được kiểm soát thay thế.",
+      "Đúng. Rủi ro vẫn tồn tại khi kiểm soát tự động ngừng; phải có kiểm soát thay thế trong thời gian đó."
+    ],
+    "trap": "Tìm lỗi ở việc nâng cấp hay thông báo, bỏ qua việc thiếu kiểm soát thay thế khi kiểm soát tự động ngừng.",
+    "refs": [
+      "CIA Part 1 C.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P1-C-S04",
+    "section": "C",
+    "topic": "C6",
+    "difficulty": 3,
+    "stem": "Trong cuộc kiểm toán quy trình nhập khẩu, kiểm toán viên nhận diện một rủi ro đáng kể về thay đổi thuế quan chưa có trong sổ đăng ký rủi ro của công ty. Kiểm toán viên nên làm gì là phù hợp nhất?",
+    "options": [
+      "Trao đổi với người chịu trách nhiệm và nêu thành phát hiện về nhận diện rủi ro.",
+      "Bỏ qua vì rủi ro này nằm ngoài danh sách mà Ban điều hành đã đánh giá.",
+      "Tự bổ sung rủi ro vào sổ đăng ký rủi ro để sổ được đầy đủ ngay.",
+      "Chờ đến kỳ cập nhật sổ đăng ký rủi ro năm sau để bộ phận quản lý rủi ro tự xử lý."
+    ],
+    "answer": 0,
+    "explanation": "Nhận diện và cập nhật rủi ro là trách nhiệm của Ban điều hành; kiểm toán nội bộ đánh giá quy trình quản lý rủi ro. Khi thấy rủi ro đáng kể chưa được nhận diện, kiểm toán viên trao đổi với người chịu trách nhiệm và nêu như một phát hiện về hiệu quả của quy trình nhận diện rủi ro, để Ban điều hành bổ sung và có biện pháp ứng phó.",
+    "optionNotes": [
+      "Đúng. Trao đổi với người chịu trách nhiệm và nêu thành phát hiện là đúng vai trò của kiểm toán nội bộ.",
+      "Sai. Rủi ro đáng kể chưa được nhận diện chính là dấu hiệu quy trình quản lý rủi ro có lỗ hổng; không được bỏ qua.",
+      "Sai. Tự cập nhật sổ đăng ký rủi ro là làm thay trách nhiệm quản lý và làm suy giảm khách quan khi đánh giá quy trình này.",
+      "Sai. Chờ đến năm sau để rủi ro đáng kể không được xử lý quá lâu; phát hiện cần được trao đổi kịp thời."
+    ],
+    "trap": "Kiểm toán nội bộ tự sửa sổ đăng ký rủi ro thay vì nêu phát hiện để Ban điều hành xử lý.",
+    "refs": [
+      "CIA Part 1 C.6",
+      "IIA Three Lines Model"
+    ],
+    "source": "original"
   }
 ]
