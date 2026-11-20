@@ -19,10 +19,12 @@ Nguồn: [CIA Exam: Why and How It's Changing (IIA)](https://www.theiia.org/glob
 | Phần | Câu hỏi | Bài học | Thẻ kiến thức | Trạng thái |
 |---|---|---|---|---|
 | Part 1 | 500 (phần lớn dạng tình huống; 230 câu khó) | 27/27 chủ đề, bài chi tiết (khoảng 950 từ/bài, ví dụ, bảng so sánh, tự kiểm tra) | 53 | Sẵn sàng: đủ câu cho đề 125 câu theo đúng tỷ trọng |
-| Part 2 | 23 (8 câu khó) | 17/17 chủ đề | 5 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
-| Part 3 | 26 (7 câu khó) | 18/18 chủ đề | 11 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
+| Part 2 | 89 (34 câu khó) | 17/17 chủ đề, bài chi tiết | 5 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
+| Part 3 | 42 (11 câu khó) | 18/18 chủ đề, bài chi tiết | 11 | Đang biên soạn: có đề rút gọn, chưa đủ đề đầy đủ |
 
 Khi một phần đủ câu cho mọi section, đổi `"status": "draft"` thành `"ready"` trong `public/data/<part>/manifest.json`.
+
+Việc tiếp theo, số liệu từng phần và cách chạy một lô câu hỏi: xem [ROADMAP.md](ROADMAP.md). Quy tắc nội dung: [CLAUDE.md](CLAUDE.md).
 
 ## Tính năng
 
@@ -96,9 +98,10 @@ legacy/cia-part1-legacy.html  bản HTML ban đầu, giữ để đối chiếu
 
 ## Thêm câu hỏi
 
-1. Soạn câu hỏi vào một file JSON (mảng các câu như trên).
-2. Chạy `node scripts/add-questions.mjs p1 duong-dan/file.json`. Script chuẩn hóa ký tự, kiểm tra cấu trúc, từ chối id trùng và ghi vào đúng file section.
-3. Chạy `npm run validate`.
+1. Soạn câu hỏi vào một file JSON (mảng các câu như trên). Kiểm tra trích dẫn GIAS bằng `node scripts/gias-req.mjs 9.5` (in nguyên văn phần Requirements).
+2. Chạy `node scripts/batch-check.mjs p1 duong-dan/file.json`: cân vị trí đáp án, báo đáp án dài/ngắn bất thường, ghi chú lệch, câu gần trùng.
+3. Chạy `node scripts/add-questions.mjs p1 duong-dan/file.json`. Script chuẩn hóa ký tự, kiểm tra cấu trúc, từ chối id trùng và ghi vào đúng file section.
+4. Chạy `npm run validate` và `npm run audit:bank`.
 
 Bộ kiểm tra (`npm run validate`) sẽ báo lỗi nếu:
 
