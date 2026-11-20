@@ -10,6 +10,7 @@ Every rule below exists because the mistake it prevents already happened once in
   - Attributing "not expected to have the expertise of a fraud investigator" to GIAS. It is IPPF 2017 1210.A2.
   - Calling "may claim conformance only if QAIP results support it" a GIAS requirement. It is IPPF 2017 1321; GIAS repeats it only as guidance (15.1 Considerations, "should").
   - The full GIAS (with Considerations, Evidence of Conformance and Glossary) is in `~/.claude/skills/internal-audit/references/gias-official-full.txt`; grep it before citing.
+- **Must vs should.** Before writing "GIAS yêu cầu" or "phải", check the rule's class in `~/.claude/skills/internal-audit/references/gias-must-should.md` (built by `node scripts/gias-must-should.mjs`; kept outside the repo because GIAS is copyrighted). Requirements ("must") may be tested as rules; Considerations ("should") are guidance and take "nên"; Essential Conditions are duties of the board and senior management, not of internal auditors. Example already confused: a conformance statement in the final communication is a 15.1 "should".
 - **GIAS numbers that were cited wrong before:**
   - 2.1 covers objectivity, mindset and bias only.
   - **2.2** covers the 12-month rule, gifts, conflicts of interest, and the duty to disclose to the client before accepting an advisory engagement.
