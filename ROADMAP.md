@@ -19,7 +19,7 @@ Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audi
 1. **P3 to a full exam (100), then 200.** Biggest gaps: section D (16 of 45 needed for one exam) and A (8 of 25). Every P3 topic has fewer than 10 questions.
 2. **P2 to a full exam (100), then 200.** Section A needs 12 more for one exam; 17 topics have fewer than 10.
 3. **Raise hard share and traps.** P3 hard is 26% (aim 40%). New batches: at least 60% trap, easy at most 10%.
-4. **Fix three near-pairs found while tagging P1 section D**: P1-D-004 / P1-D-N07 (lapping; same remedy, mandatory leave and rotation), P1-D-H05 / P1-D-M19 (digital evidence; both answer 'use a forensic specialist'), P1-C-022 / P1-D-M14 (small business, owner review as compensating control). Rewrite one of each.
+4. **Cross-section repeat check for P1.** Tagging went section by section, so repeats across sections can remain (one, P1-C-022 / P1-D-M14, was found by chance). Read P1 by concept (fraud controls, compensating controls, independence vs objectivity) across A-D.
 5. **More "what first" sequence questions.** P1 has 11 of 507.
 6. **Topical Requirements lessons** (third-party, organizational behavior), from IIA's published Topical Requirements.
 7. **`guide.json` fees**: IIA changes fees from 4 January 2027; re-check on theiia.org then. Also confirm the reschedule notice period: the guide says 48 hours, a third-party page says 24 hours; check the current IIA Candidate Handbook.
@@ -41,6 +41,7 @@ Two sessions must not edit the same `public/data/<part>/questions-<section>.json
 
 ## Done (recent)
 
+- 2026-11-20: section D near-pairs fixed by rewriting one of each (same ids): P1-D-N07 (repeated P1-D-004 on lapping) now covers a payroll clerk raising their own pay (master-data change approval and log review); P1-D-M19 (repeated P1-D-H05 on digital evidence) now covers sizing the full loss before closing an investigation; P1-D-M14 (repeated P1-C-022 on owner review) now covers a signature stamp used by the person who prepares payments.
 - 2026-11-20: P1 section D trap-tagged (68 more; 69 of 83). P1 trap tagging finished: 389 of 507 (77%); untagged ones are recall items or have no clear misconception distractor. Removed P1-D-S01: it repeated the collusion scenario of P1-D-M23.
 - 2026-11-20: section C near-pairs fixed. P1-C-L005 (repeated P1-C-L004 on soft-control evidence) now covers deviations not addressed in time (COSO 2013 principle 1); P1-C-M54 (repeated P1-C-010 on risk tolerance) now covers new risks created by a risk treatment (ISO 31000). 'Dung sai rủi ro' replaced by 'ngưỡng chịu đựng rủi ro' across P1-P3 lessons, frameworks and questions; term added to CLAUDE.md 1b.
 - 2026-11-20: P1 section C trap-tagged (112 more; 117 of 159). P1-C-S01: correct option no longer says 'theo một giao dịch', which gave away P1-C-020 (walkthrough shows design only).

@@ -999,26 +999,26 @@
     "section": "D",
     "topic": "D4",
     "difficulty": 3,
-    "stem": "Công ty lo ngại kế toán công nợ có thể che giấu việc gối đầu (lapping) các khoản thu khách hàng trong thời gian dài. Kiểm soát nào giúp lộ ra thủ đoạn này hiệu quả nhất?",
+    "stem": "Nhân viên tính lương có quyền sửa mức lương trên hệ thống và đã tự tăng lương cho mình 15% trong nhiều tháng mà không ai phát hiện. Tổng quỹ lương vẫn nằm trong ngân sách. Kiểm soát nào ngăn chặn hoặc phát hiện thủ đoạn này hiệu quả nhất?",
     "options": [
-      "Yêu cầu kế toán công nợ ký cam kết bảo mật thông tin khách hàng hằng năm.",
-      "Bắt buộc nghỉ phép liên tục và luân chuyển định kỳ nhiệm vụ theo dõi công nợ.",
-      "Tăng hạn mức phê duyệt chiết khấu để giảm số giao dịch cần Kế toán trưởng phê duyệt.",
-      "Lưu trữ toàn bộ chứng từ thu tiền tại phòng kế toán thay vì tại các chi nhánh."
+      "Kế toán trưởng so sánh tổng quỹ lương hằng tháng với ngân sách đã được phê duyệt.",
+      "Thay đổi dữ liệu lương phải do bộ phận nhân sự duyệt, kèm rà soát độc lập nhật ký thay đổi.",
+      "Chuyển lương qua ngân hàng thay vì trả tiền mặt để có dấu vết của mọi giao dịch.",
+      "Yêu cầu nhân viên tính lương ký cam kết bảo mật thông tin lương mỗi năm một lần."
     ],
     "answer": 1,
-    "explanation": "Gối đầu cần người thực hiện liên tục điều chỉnh để che giấu. Khi người đó nghỉ phép bắt buộc hoặc bị luân chuyển, người khác xử lý công nợ sẽ thấy các khoản ghi có sai khách hàng, chênh lệch tuổi nợ, khiếu nại của khách.",
+    "explanation": "Thủ đoạn sửa dữ liệu gốc (mức lương) cho chính mình chỉ bị chặn khi người sửa không tự phê duyệt được thay đổi: thay đổi dữ liệu lương cần người có thẩm quyền ở bộ phận nhân sự duyệt, và nhật ký thay đổi được người độc lập rà soát định kỳ. So tổng quỹ lương với ngân sách không thấy được một khoản tăng nằm gọn trong tổng, còn chuyển khoản chỉ để lại dấu vết của khoản đã trả sai.",
     "optionNotes": [
-      "Sai. Cam kết bảo mật không liên quan đến việc phát hiện gối đầu.",
-      "Đúng. Nghỉ phép bắt buộc và luân chuyển làm gián đoạn việc che giấu.",
-      "Sai. Nới hạn mức phê duyệt làm yếu kiểm soát.",
-      "Sai. Gom chứng từ về một nơi không làm lộ thủ đoạn; lapping chỉ lộ khi người khác tiếp quản việc theo dõi công nợ."
+      "Sai. Một khoản tăng sai nằm gọn trong tổng quỹ lương nên so với ngân sách không phát hiện được.",
+      "Đúng. Tách người sửa dữ liệu lương khỏi người duyệt và rà soát nhật ký thay đổi chặn được việc tự tăng lương.",
+      "Sai. Chuyển khoản tạo dấu vết thanh toán nhưng số tiền chuyển vẫn là mức lương đã bị sửa; nó không chặn việc sửa dữ liệu.",
+      "Sai. Cam kết bảo mật không liên quan đến việc ai được sửa và duyệt mức lương trên hệ thống."
     ],
+    "trap": "Dựa vào so sánh tổng quỹ lương với ngân sách, trong khi khoản tăng sai nằm gọn trong tổng.",
     "refs": [
       "CIA Part 1 D.4",
-      "ACFE"
+      "COSO 2013"
     ],
-    "trap": "Dùng cam kết hay quy định lưu trữ, thay vì buộc nghỉ phép và luân chuyển để lộ thủ đoạn gối đầu.",
     "source": "original"
   },
   {
@@ -1635,25 +1635,26 @@
     "section": "D",
     "topic": "D4",
     "difficulty": 3,
-    "stem": "Một công ty nhỏ chỉ có hai nhân viên kế toán nên không thể phân nhiệm đầy đủ giữa ghi sổ, giữ tiền và đối chiếu. Biện pháp bù đắp phù hợp nhất là gì?",
+    "stem": "Giám đốc tài chính để con dấu chữ ký của mình trong ngăn bàn không khóa, và kế toán thanh toán thường tự đóng dấu lên ủy nhiệm chi khi Giám đốc đi công tác 'cho kịp tiến độ'. Kiểm soát nào xử lý rủi ro gian lận này phù hợp nhất?",
     "options": [
-      "Chấp nhận rủi ro vì công ty nhỏ không cần kiểm soát gian lận.",
-      "Yêu cầu hai kế toán ký cam kết trung thực mỗi tháng.",
-      "Tuyển thêm năm kế toán để phân nhiệm đầy đủ theo mô hình chuẩn.",
-      "Chủ doanh nghiệp tự xem sao kê, duyệt chi và soát xét."
+      "Yêu cầu kế toán thanh toán ký cam kết chỉ dùng con dấu cho các khoản chi hợp lệ.",
+      "Cất giữ con dấu có kiểm soát, ghi sổ mỗi lần dùng và phân quyền duyệt thay khi vắng mặt.",
+      "Kế toán trưởng rà soát danh sách ủy nhiệm chi đã đóng dấu vào cuối mỗi quý.",
+      "Chuyển sang đóng dấu bằng mực khó tẩy xóa để chống làm giả chữ ký về sau."
     ],
-    "answer": 3,
-    "explanation": "Khi không thể phân nhiệm đầy đủ, kiểm soát bù đắp phổ biến là tăng giám sát của người có thẩm quyền độc lập: chủ doanh nghiệp tự xem sao kê, duyệt chi, soát xét định kỳ. Tuyển thêm nhiều người thường không hợp lý về chi phí.",
+    "answer": 1,
+    "explanation": "Con dấu chữ ký có giá trị như chữ ký của người duyệt chi. Khi người lập chứng từ tự đóng dấu, chức năng phê duyệt bị gộp vào chức năng thực hiện: một người có thể tự lập và tự 'duyệt' khoản chi. Kiểm soát phù hợp là cất giữ con dấu an toàn, ghi lại mỗi lần sử dụng và quy định người được ủy quyền duyệt thay khi vắng mặt. Rà soát cuối quý phát hiện quá muộn, còn cam kết không phải kiểm soát thực chất.",
     "optionNotes": [
-      "Sai. Công ty nhỏ vẫn có rủi ro gian lận, thậm chí cao hơn do không phân nhiệm được; cần kiểm soát bù đắp.",
-      "Sai. Cam kết trung thực không phải kiểm soát thực chất; cần sự giám sát độc lập của chủ doanh nghiệp.",
-      "Sai. Tuyển thêm năm người vượt xa lợi ích với công ty nhỏ; kiểm soát bù đắp như chủ doanh nghiệp tự soát xét hợp lý hơn.",
-      "Đúng. Giám sát của chủ doanh nghiệp bù đắp phân nhiệm."
+      "Sai. Cam kết chỉ là lời hứa; người lập chứng từ vẫn tự 'duyệt' được khoản chi của chính mình.",
+      "Đúng. Cất giữ an toàn, ghi sổ sử dụng và ủy quyền duyệt thay khôi phục việc tách người lập khỏi người duyệt.",
+      "Sai. Rà soát cuối quý là kiểm soát phát hiện muộn; tiền đã chuyển đi khó thu hồi, trong khi rủi ro có thể chặn từ đầu.",
+      "Sai. Mực khó tẩy chống sửa chứng từ, không xử lý việc người không có thẩm quyền sử dụng con dấu."
     ],
+    "trap": "Coi việc dùng con dấu thay chữ ký là thủ tục hành chính, bỏ qua việc người lập tự duyệt khoản chi.",
     "refs": [
-      "CIA Part 1 D.4"
+      "CIA Part 1 D.4",
+      "COSO 2013"
     ],
-    "trap": "Chấp nhận rủi ro hoặc dựa vào cam kết, thay vì kiểm soát bù đắp của chủ doanh nghiệp.",
     "source": "original"
   },
   {
@@ -1767,26 +1768,26 @@
     "section": "D",
     "topic": "D5",
     "difficulty": 3,
-    "stem": "Kiểm toán viên được giao hỗ trợ điều tra một vụ gian lận nghi ngờ nhưng chưa có kinh nghiệm thu thập bằng chứng số (dữ liệu máy tính, email). Cách xử lý phù hợp nhất là gì?",
+    "stem": "Điều tra xác nhận một nhân viên mua hàng đã lập 5 hóa đơn khống trong tháng 6, tổng 400 triệu đồng. Nhân viên này phụ trách mảng mua hàng đó đã ba năm. Trưởng nhóm đề nghị kết thúc điều tra và báo cáo thiệt hại 400 triệu đồng. Cách xử lý phù hợp nhất là gì?",
     "options": [
-      "Đề nghị dùng chuyên gia điều tra số thu thập bằng chứng.",
-      "Tự sao chép dữ liệu từ máy tính của nghi phạm bằng USB cá nhân.",
-      "Từ chối tham gia vì kiểm toán nội bộ không bao giờ hỗ trợ điều tra.",
-      "Yêu cầu nghi phạm tự gửi lại các email liên quan đến vụ việc."
+      "Mở rộng phạm vi để xác định toàn bộ thời gian, giá trị thiệt hại và người có liên quan.",
+      "Kết thúc điều tra, vì đã có đủ bằng chứng để xử lý kỷ luật nhân viên này.",
+      "Yêu cầu nhân viên tự khai các hóa đơn khống khác và ký xác nhận tổng số tiền.",
+      "Chuyển ngay toàn bộ hồ sơ cho kiểm toán độc lập để điều chỉnh báo cáo tài chính."
     ],
     "answer": 0,
-    "explanation": "Bằng chứng số cần được thu thập, bảo quản theo quy trình (chuỗi lưu giữ bằng chứng) để giữ giá trị pháp lý. Khi thiếu năng lực, kiểm toán viên nên đề nghị sử dụng chuyên gia, phù hợp GIAS 3.1: chỉ nhận dịch vụ mà mình có hoặc đạt được năng lực, và CAE phải bổ sung năng lực còn thiếu cho chức năng.",
+    "explanation": "Điều tra gian lận không chỉ nhằm chứng minh một vài vi phạm mà còn xác định quy mô: thủ đoạn bắt đầu từ khi nào, tổng thiệt hại bao nhiêu, có ai khác tham gia, và kiểm soát nào đã bị vượt qua. Người phụ trách mảng này ba năm có thể đã lặp lại thủ đoạn nhiều kỳ, nên chỉ báo cáo các khoản tìm thấy trong một tháng sẽ đánh giá thấp thiệt hại và làm yếu việc thu hồi, xử lý và sửa kiểm soát.",
     "optionNotes": [
-      "Đúng. Dùng chuyên gia điều tra số.",
-      "Sai. Có thể làm thay đổi dữ liệu và mất giá trị bằng chứng.",
-      "Sai. Quá tuyệt đối: kiểm toán nội bộ có thể hỗ trợ điều tra.",
-      "Sai. Nghi phạm tự gửi email có thể sửa hoặc xóa dữ liệu; bằng chứng số phải được chuyên gia thu thập theo quy trình."
+      "Đúng. Điều tra cần xác định thời gian, quy mô thiệt hại và người liên quan để thu hồi, xử lý và sửa kiểm soát.",
+      "Sai. Đủ bằng chứng để kỷ luật chưa phải là đủ để biết thiệt hại; thủ đoạn có thể đã lặp lại trong ba năm.",
+      "Sai. Lời tự khai của người vi phạm không đáng tin để xác định quy mô; phải dựa vào phân tích chứng từ và dữ liệu độc lập.",
+      "Sai. Kiểm toán độc lập không thay được việc điều tra xác định thiệt hại; việc điều chỉnh sổ sách đến sau khi có kết quả."
     ],
+    "trap": "Dừng điều tra khi đã đủ bằng chứng để xử lý một cá nhân, bỏ qua việc xác định toàn bộ quy mô thiệt hại.",
     "refs": [
       "CIA Part 1 D.5",
-      "GIAS 3.1"
+      "ACFE"
     ],
-    "trap": "Tự sao chép dữ liệu hoặc nhờ nghi phạm gửi lại, làm mất giá trị pháp lý của bằng chứng.",
     "source": "original"
   },
   {
