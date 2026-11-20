@@ -41,7 +41,8 @@ Two sessions must not edit the same `public/data/<part>/questions-<section>.json
 
 ## Done (recent)
 
-- 2026-11-20: P1 section B trap-tagged (79 more; 81 of 102). Removed P1-B-S02: it repeated the derivatives-model scenario of P1-B-015. Noted near-pairs left in place: P1-B-H04 / P1-B-M22 (former manager, advisory, disclose first) and P1-B-006 / P1-B-M24 (auditor applying for a job in the audited unit); review whether to rewrite one of each.
+- 2026-11-20: P1 section B trap-tagged (79 more; 81 of 102). Removed P1-B-S02: it repeated the derivatives-model scenario of P1-B-015. 
+- 2026-11-20: two near-pairs fixed by rewriting one question of each: P1-B-M22 (was a repeat of P1-B-H04) now covers negative bias from a personal conflict; P1-B-M24 (was a repeat of P1-B-006) now covers the familiarity threat after long tenure and rotation as a safeguard. Same ids, so sessions in progress are not affected.
 - 2026-11-20: P1 section A trap-tagged (121 of 163; the other 42 have no clear misconception distractor). Removed P1-A-S01 and P1-B-S01 from batch S: they repeated the scenarios of P1-A-H02 and P1-A-H05 (batch-check did not flag them, so search the bank by concept, not only by wording).
 - 2026-11-20: P1 batch S (11 questions, all trap-tagged, 7 hard, 7 "what first" stems): advisory-then-assurance (2.2), impairment found after the report (2.3), missing expertise (3.1), skepticism (4.3), lost laptop (5.2), design before operating tests, compliance obligations inventory, compensating control, unregistered risk, collusion, revenue cut-off fraud.
 - 2026-11-20: all wrong-option notes now explain the error (240 notes in 182 questions rewritten; none under 45 characters), 9 more throwaway distractors replaced; writing and review standard published in docs/nguyen-tac-bien-soan-ra-soat.md; validator bar raised to 45 characters; scripts/review-notes.mjs added.

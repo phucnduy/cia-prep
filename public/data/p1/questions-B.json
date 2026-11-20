@@ -2220,26 +2220,27 @@
     "section": "B",
     "topic": "B3",
     "difficulty": 3,
-    "stem": "Bộ phận Kho đề nghị kiểm toán nội bộ tư vấn cải tiến quy trình. Một kiểm toán viên được dự kiến giao việc từng là phó phòng Kho cho đến tám tháng trước. Việc cần làm trước khi nhận cuộc tư vấn là gì?",
+    "stem": "Năm ngoái, kiểm toán viên Hà tranh cãi gay gắt với Trưởng phòng Kế toán về một phát hiện, và từ đó hai người vẫn tránh mặt nhau. Nay CAE dự kiến giao chị Hà kiểm toán phòng Kế toán. Chị Hà nên làm gì trước tiên?",
     "options": [
-      "Công bố khả năng suy giảm khách quan với bên đề nghị trước khi nhận.",
-      "Nhận ngay vì quy tắc 12 tháng chỉ áp dụng cho dịch vụ bảo đảm.",
-      "Từ chối cuộc tư vấn vì kiểm toán viên chưa đủ 12 tháng.",
-      "Chỉ cần ghi chú vào hồ sơ kiểm toán sau khi cuộc tư vấn đã kết thúc."
+      "Báo CAE về mâu thuẫn này, vì định kiến tiêu cực cũng có thể làm suy giảm khách quan.",
+      "Nhận việc, vì chị không có lợi ích cá nhân hay quan hệ thân thiết nào với phòng Kế toán.",
+      "Nhận việc và tự kiểm tra kỹ hơn thường lệ để chứng minh mình đánh giá công bằng.",
+      "Đề nghị Trưởng phòng Kế toán xác nhận bằng văn bản là hai bên không còn mâu thuẫn."
     ],
     "answer": 0,
-    "explanation": "GIAS 2.2 yêu cầu: nếu kiểm toán viên cung cấp dịch vụ tư vấn liên quan đến hoạt động mình từng phụ trách, họ phải công bố khả năng suy giảm khách quan với bên đề nghị dịch vụ trước khi nhận cuộc tư vấn.",
+    "explanation": "Khách quan đòi hỏi tư duy không thiên lệch, và kiểm toán viên phải nhận biết, quản lý thiên kiến của mình (GIAS 2.1). Suy giảm không chỉ đến từ lợi ích hay quan hệ thân thiết: một mâu thuẫn cá nhân có thể khiến kiểm toán viên khắt khe quá mức, hoặc khiến đơn vị coi kết luận là thiếu công bằng. Theo GIAS 2.3, khi biết một suy giảm có thể ảnh hưởng đến khách quan, kiểm toán viên phải công bố cho CAE hoặc người giám sát được chỉ định để CAE quyết định cách xử lý.",
     "optionNotes": [
-      "Đúng. Công bố với bên đề nghị trước khi nhận.",
-      "Sai. Quy tắc 12 tháng áp dụng cho đảm bảo, nhưng với tư vấn vẫn phải công bố khả năng suy giảm khách quan với bên đề nghị trước khi nhận.",
-      "Sai. Tư vấn không bị cấm, nhưng phải công bố.",
-      "Sai. Công bố phải thực hiện trước, không phải sau."
+      "Đúng. Công bố cho CAE là bước đầu theo GIAS 2.3; CAE đánh giá và quyết định có phân công lại hay không.",
+      "Sai. Suy giảm khách quan không chỉ đến từ lợi ích cá nhân; định kiến tiêu cực với người được kiểm toán cũng là một nguồn suy giảm.",
+      "Sai. Kiểm tra khắt khe hơn để chứng minh công bằng chính là biểu hiện của thiên kiến; kiểm toán viên không tự xử lý mà phải công bố cho CAE.",
+      "Sai. Xác nhận của đơn vị được kiểm toán không loại bỏ được định kiến của kiểm toán viên và không thay cho việc công bố cho CAE."
     ],
+    "trap": "Cho rằng suy giảm khách quan chỉ đến từ lợi ích hoặc quan hệ thân thiết, bỏ qua định kiến tiêu cực.",
     "refs": [
-      "GIAS 2.2",
+      "GIAS 2.1",
+      "GIAS 2.3",
       "CIA Part 1 B.3"
     ],
-    "trap": "Cho rằng quy tắc 12 tháng chỉ áp dụng cho đảm bảo nên không cần công bố gì khi nhận tư vấn.",
     "source": "original"
   },
   {
@@ -2273,27 +2274,28 @@
     "id": "P1-B-M24",
     "section": "B",
     "topic": "B3",
-    "difficulty": 2,
-    "stem": "Giữa cuộc kiểm toán phòng Marketing, CAE biết kiểm toán viên trưởng nhóm vừa nộp đơn ứng tuyển vị trí phó phòng chính tại phòng Marketing. Việc phù hợp nhất là gì?",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên Tuấn đã làm trưởng nhóm kiểm toán quy trình thẻ tín dụng sáu năm liền, rất am hiểu quy trình và thường ăn trưa cùng lãnh đạo bộ phận Thẻ. CAE muốn giữ được kiến thức của anh nhưng vẫn bảo vệ tính khách quan. Biện pháp phù hợp nhất là gì?",
     "options": [
-      "Giữ nguyên vì việc ứng tuyển là quyền cá nhân của nhân viên.",
-      "Yêu cầu kiểm toán viên rút đơn ứng tuyển rồi tiếp tục cuộc kiểm toán.",
-      "Thay trưởng nhóm và rà soát lại công việc người này đã thực hiện.",
-      "Ghi chú việc ứng tuyển vào báo cáo cuối cùng là đủ."
+      "Giữ nguyên phân công, vì kinh nghiệm sáu năm giúp cuộc kiểm toán hiệu quả hơn hẳn.",
+      "Giữ nguyên phân công và yêu cầu anh Tuấn ký cam kết khách quan trước khi bắt đầu.",
+      "Để người khác chủ trì cuộc kiểm toán, anh Tuấn hỗ trợ chuyên môn, có rà soát độc lập.",
+      "Loại anh Tuấn khỏi mọi cuộc kiểm toán liên quan đến bộ phận Thẻ trong ba năm tới."
     ],
     "answer": 2,
-    "explanation": "Kiểm toán viên đang tìm việc tại đơn vị được kiểm toán có xung đột lợi ích rõ ràng. CAE nên phân công lại và rà soát công việc đã làm để bảo đảm kết quả không bị ảnh hưởng.",
+    "explanation": "Gắn bó lâu năm với cùng một đơn vị và có quan hệ thân với lãnh đạo đơn vị tạo nguy cơ quen thuộc: kiểm toán viên dễ tin vào giải trình của người quen và bớt đặt câu hỏi (phân loại nguy cơ theo IESBA Code). Kiểm toán viên phải nhận biết và quản lý thiên kiến (GIAS 2.1), và CAE dùng các biện pháp như luân chuyển vai trò, phân công lại, tăng giám sát. Đổi người chủ trì nhưng giữ anh Tuấn ở vai trò hỗ trợ vừa giảm nguy cơ vừa giữ được kiến thức.",
     "optionNotes": [
-      "Sai. Quyền ứng tuyển không loại bỏ xung đột lợi ích.",
-      "Sai. Rút đơn chưa loại bỏ được ảnh hưởng đã có.",
-      "Đúng. Phân công lại và rà soát công việc đã làm.",
-      "Sai. Ghi chú không xử lý được suy giảm khách quan."
+      "Sai. Kinh nghiệm là lợi thế thật, nhưng sáu năm liền cùng quan hệ thân với lãnh đạo bộ phận tạo nguy cơ quen thuộc cần được xử lý.",
+      "Sai. Cam kết khách quan chỉ là lời hứa; nó không làm giảm xu hướng tin người quen, nên không phải biện pháp bảo vệ thực chất.",
+      "Đúng. Luân chuyển vai trò chủ trì và rà soát độc lập giảm nguy cơ quen thuộc mà vẫn tận dụng được kiến thức của anh Tuấn.",
+      "Sai. Loại hẳn trong ba năm là quá mức và làm mất kiến thức chuyên môn, trong khi luân chuyển vai trò đã đủ giảm nguy cơ."
     ],
+    "trap": "Cho rằng kinh nghiệm lâu năm với đơn vị chỉ là lợi thế, bỏ qua nguy cơ quen thuộc.",
     "refs": [
-      "GIAS 2.2",
+      "GIAS 2.1",
+      "IESBA Code",
       "CIA Part 1 B.3"
     ],
-    "trap": "Cho rằng ứng tuyển là quyền cá nhân nên không ảnh hưởng đến khách quan.",
     "source": "original"
   },
   {
