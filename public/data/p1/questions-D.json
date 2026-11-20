@@ -297,9 +297,9 @@
     "source": "legacy",
     "optionNotes": [
       "Đúng. Định luật Benford so sánh phân phối chữ số đầu để phát hiện số liệu có thể bị bịa đặt.",
-      "Sai. Đó là kiểm tra trùng lặp.",
-      "Sai. Đó là kiểm tra khoảng trống số thứ tự.",
-      "Sai. Đó là kiểm tra hạn mức."
+      "Sai. Tìm hóa đơn trùng dựa trên số hóa đơn, số tiền, nhà cung cấp là phép kiểm tra trùng lặp, không phải định luật Benford.",
+      "Sai. Tìm khoảng trống trong dãy số chứng từ là kiểm tra tính liên tục, không dựa trên phân phối chữ số đầu.",
+      "Sai. So sánh giá trị với hạn mức phê duyệt là kiểm tra hạn mức; Benford chỉ cho biết phân phối chữ số có bất thường hay không."
     ]
   },
   {
@@ -1265,7 +1265,7 @@
     "explanation": "Khi đánh giá rủi ro cuộc kiểm toán, kiểm toán viên phải xem xét các rủi ro cụ thể liên quan đến gian lận (GIAS 13.2). Mua hàng giá trị lớn, ít cạnh tranh có rủi ro thông thầu, lại quả cao, nên cần nhận diện kịch bản và thiết kế thủ tục phù hợp ngay từ đầu.",
     "optionNotes": [
       "Sai. Không có tố giác không có nghĩa là không có gian lận.",
-      "Sai. Bị động, dễ bỏ sót.",
+      "Sai. Chờ thấy dấu hiệu mới điều chỉnh là bị động; rủi ro gian lận phải được xem xét ngay khi đánh giá rủi ro cuộc kiểm toán.",
       "Đúng. Xem xét rủi ro gian lận cụ thể khi lập kế hoạch.",
       "Sai. Không có cơ sở để chuyển cơ quan điều tra."
     ],
@@ -1308,7 +1308,7 @@
     "stem": "Một chi nhánh đạt doanh thu vượt kế hoạch 40% trong quý cuối năm, đúng lúc thưởng của giám đốc chi nhánh gắn với doanh thu, và nhiều hợp đồng được ký vào tuần cuối năm. Kiểm toán viên nên ưu tiên điều gì?",
     "options": [
       "Kiểm tra hợp đồng cuối kỳ và hàng trả lại đầu kỳ sau để tìm doanh thu sai kỳ.",
-      "Khen ngợi chi nhánh và đề xuất nhân rộng mô hình bán hàng này.",
+      "Kiểm tra các khoản chi phí bán hàng bất thường trong quý cuối năm.",
       "Chỉ kiểm tra chi phí của chi nhánh vì doanh thu cao thì rủi ro thấp.",
       "Bỏ qua vì doanh thu đã được kế toán trưởng xác nhận là chính xác."
     ],
@@ -1316,8 +1316,8 @@
     "explanation": "Áp lực thưởng gắn doanh thu (động cơ) cùng doanh thu tăng đột biến, dồn vào cuối kỳ là dấu hiệu rủi ro ghi nhận doanh thu sai kỳ hoặc giả mạo. Thủ tục phù hợp: kiểm tra hợp đồng cuối kỳ, việc giao hàng và hàng trả lại đầu kỳ sau.",
     "optionNotes": [
       "Đúng. Kết hợp động cơ và dấu hiệu để thiết kế thủ tục.",
-      "Sai. Bỏ qua các dấu hiệu rủi ro.",
-      "Sai. Doanh thu cao bất thường lại là rủi ro.",
+      "Sai. Chi phí có thể xem thêm, nhưng dấu hiệu nổi bật là doanh thu tăng đột biến dồn vào cuối kỳ khi thưởng gắn với doanh thu.",
+      "Sai. Doanh thu cao bất thường gắn với động cơ thưởng lại là dấu hiệu rủi ro; bỏ qua doanh thu là bỏ qua rủi ro chính.",
       "Sai. Xác nhận nội bộ không thay được kiểm tra độc lập."
     ],
     "refs": [
@@ -1332,7 +1332,7 @@
     "section": "D",
     "topic": "D2",
     "difficulty": 2,
-    "stem": "Khi lập kế hoạch kiểm toán nội bộ năm, trưởng kiểm toán nội bộ cân nhắc phạm vi bao phủ. Theo chuẩn mực, kế hoạch kiểm toán cần xem xét điều gì liên quan đến gian lận?",
+    "stem": "Khi lập kế hoạch kiểm toán nội bộ năm, trưởng kiểm toán nội bộ cân nhắc phạm vi bao phủ. Theo Chuẩn mực, kế hoạch kiểm toán cần xem xét điều gì liên quan đến gian lận?",
     "options": [
       "Không cần xem xét gian lận vì đó là việc của cơ quan điều tra.",
       "Xem xét bao phủ rủi ro gian lận cùng các lĩnh vực rủi ro cao khác.",
@@ -1344,8 +1344,8 @@
     "optionNotes": [
       "Sai. Rủi ro gian lận là một nội dung cần xem xét trong kế hoạch.",
       "Đúng. Kế hoạch cân nhắc bao phủ rủi ro gian lận.",
-      "Sai. Không cần chờ yêu cầu riêng.",
-      "Sai. Mất cân đối, bỏ các rủi ro khác."
+      "Sai. Kế hoạch phải cân nhắc bao phủ rủi ro gian lận như một nội dung thường xuyên, không chờ HĐQT yêu cầu riêng.",
+      "Sai. Dồn toàn bộ nguồn lực cho gian lận làm bỏ trống các lĩnh vực rủi ro cao khác mà kế hoạch cũng phải bao phủ."
     ],
     "refs": [
       "GIAS 9.4",
@@ -1843,17 +1843,17 @@
     "difficulty": 3,
     "stem": "Tệp lệnh chi được xuất từ ERP ra bảng tính, kế toán lưu trên máy cá nhân một ngày, rồi mới tải lên cổng ngân hàng. Khi đánh giá quy trình thanh toán, rủi ro gian lận đáng chú ý nhất là gì?",
     "options": [
-      "Tệp bảng tính chiếm nhiều dung lượng lưu trữ trên máy tính cá nhân.",
+      "Tệp có thể bị mất nếu máy tính cá nhân hỏng trước khi tải lên.",
       "Kế toán có thể quên tải tệp lên ngân hàng đúng giờ.",
-      "Cổng ngân hàng có thể quá tải vào cuối ngày làm việc.",
+      "Ngân hàng có thể từ chối tệp vì sai định dạng so với quy định.",
       "Tệp có thể bị sửa số tài khoản, số tiền trước khi tải lên."
     ],
     "answer": 3,
     "explanation": "Khoảng trống giữa ERP và ngân hàng, khi tệp lệnh chi ở dạng sửa được, là điểm phơi nhiễm gian lận lớn: người có quyền truy cập có thể đổi số tài khoản hoặc số tiền. Kiểm soát: kết nối trực tiếp, mã hóa, đối chiếu tổng tệp với ERP.",
     "optionNotes": [
-      "Sai. Dung lượng không phải rủi ro gian lận.",
-      "Sai. Đây là sai sót, không phải gian lận.",
-      "Sai. Đây là rủi ro hoạt động nhỏ.",
+      "Sai. Mất tệp là rủi ro sẵn sàng của dữ liệu, có thể khắc phục bằng xuất lại từ ERP; câu hỏi hỏi về rủi ro gian lận.",
+      "Sai. Quên tải tệp là sai sót vô ý, không phải gian lận; điểm phơi nhiễm gian lận là tệp có thể bị sửa trước khi tải lên.",
+      "Sai. Tệp bị từ chối là lỗi xử lý, được phát hiện ngay; nó không tạo cơ hội chiếm đoạt tiền như việc sửa số tài khoản.",
       "Đúng. Tệp sửa được là điểm phơi nhiễm."
     ],
     "refs": [
@@ -1903,8 +1903,8 @@
     "optionNotes": [
       "Sai. Thuộc quy trình thu tiền, không phải thanh toán.",
       "Đúng. Đối chiếu ba chiều ngăn thanh toán hàng không có thật.",
-      "Sai. Thuộc quy trình lương.",
-      "Sai. Thuộc quy trình thu tiền."
+      "Sai. Kê khống giờ làm thêm thuộc quy trình lương; đối chiếu ba chiều chỉ kiểm soát việc thanh toán cho nhà cung cấp.",
+      "Sai. Gối đầu khoản thu là gian lận trong quy trình thu tiền từ khách hàng, không liên quan đến thanh toán hóa đơn nhà cung cấp."
     ],
     "refs": [
       "CIA Part 1 D.4"
@@ -1927,9 +1927,9 @@
     "explanation": "Thông điệp từ cấp cao (tone at the top) ảnh hưởng mạnh đến khả năng xảy ra gian lận. Xử lý lặng lẽ, không nhất quán với quy chế làm nhân viên tin rằng hậu quả của gian lận là nhẹ, giảm răn đe.",
     "optionNotes": [
       "Sai. Đây là hệ quả kinh doanh, không phải mối lo chính.",
-      "Sai. Rủi ro thứ yếu.",
+      "Sai. Rủi ro tranh chấp lao động là thứ yếu; mối lo lớn hơn là thông điệp ngầm rằng gian lận không bị xử lý nghiêm.",
       "Đúng. Làm suy yếu răn đe và tone at the top.",
-      "Sai. Chi phí thứ yếu."
+      "Sai. Chi phí tuyển dụng là hệ quả nhỏ; ảnh hưởng đáng lo nhất là răn đe gian lận bị suy yếu trong toàn công ty."
     ],
     "refs": [
       "CIA Part 1 D.4"
@@ -1977,9 +1977,9 @@
     "explanation": "Kiểm soát kép (dual control) yêu cầu hai người cùng tham gia để thực hiện một hành động nhạy cảm, ngăn một cá nhân tự chiếm đoạt tài sản. Hạn chế: không ngăn được khi hai người thông đồng.",
     "optionNotes": [
       "Đúng. Kiểm soát kép ngăn hành vi một người.",
-      "Sai. Đây là kiểm soát phòng ngừa.",
-      "Sai. Không khôi phục được tài sản.",
-      "Sai. Đây là kiểm soát vật chất, không phải hướng dẫn."
+      "Sai. Yêu cầu hai người mới mở được két ngăn hành vi trước khi xảy ra, nên là kiểm soát phòng ngừa, không phải phát hiện.",
+      "Sai. Kiểm soát kép không khôi phục được tiền đã mất; nó ngăn một người tự lấy tiền ngay từ đầu.",
+      "Sai. Đây là kiểm soát vật chất bắt buộc hai người cùng tham gia, không phải lời nhắc nhở hay hướng dẫn quy định."
     ],
     "refs": [
       "CIA Part 1 D.4"
@@ -2027,10 +2027,10 @@
     "answer": 2,
     "explanation": "Kiểm kê đột xuất, đồng thời các quỹ có thể chuyển cho nhau, ngăn việc lấy tiền từ quỹ khác bù vào chỗ thiếu. Niêm phong trước khi đếm và có người chứng kiến giúp bảo đảm giá trị của kết quả.",
     "optionNotes": [
-      "Sai. Báo trước cho phép che giấu.",
-      "Sai. Tiền có thể được chuyển bù giữa hai quỹ.",
+      "Sai. Báo trước cho thủ quỹ thời gian bù tiền hoặc che giấu chỗ thiếu, làm mất tác dụng của kiểm kê đột xuất.",
+      "Sai. Kiểm kê lệch thời gian cho phép chuyển tiền từ quỹ B sang bù quỹ A; hai quỹ phải được kiểm kê đồng thời.",
       "Đúng. Đột xuất, đồng thời, niêm phong.",
-      "Sai. Tự đếm không phải bằng chứng độc lập."
+      "Sai. Thủ quỹ tự đếm không phải bằng chứng độc lập; kiểm toán viên phải trực tiếp chứng kiến kiểm kê."
     ],
     "refs": [
       "CIA Part 1 D.5"
@@ -2071,17 +2071,17 @@
     "stem": "Khi lập kế hoạch kiểm toán quy trình thu hồi nợ, kiểm toán viên biết nhân viên thu hồi nợ được hưởng hoa hồng trên số tiền thu được và có quyền đề xuất xóa nợ. Rủi ro gian lận đáng lưu ý nhất là gì?",
     "options": [
       "Thu tiền của khách rồi đề xuất xóa nợ để chiếm đoạt.",
-      "Nhân viên làm việc quá sức để đạt hoa hồng cao.",
-      "Khách hàng phàn nàn vì bị nhắc nợ quá nhiều lần trong tháng.",
+      "Đề xuất xóa nợ cho khách quen để giữ quan hệ làm ăn tốt.",
+      "Kê khống số tiền thu được để nhận hoa hồng cao hơn thực tế.",
       "Hoa hồng làm tăng chi phí bán hàng của công ty."
     ],
     "answer": 0,
     "explanation": "Người vừa thu tiền vừa đề xuất xóa nợ có thể thu tiền rồi xóa khoản nợ đó để che giấu việc chiếm đoạt. Kiểm toán viên cần xem xét xác nhận độc lập với khách hàng đã được xóa nợ và phân nhiệm việc xóa nợ.",
     "optionNotes": [
       "Đúng. Kết hợp thu tiền và xóa nợ tạo cơ hội gian lận.",
-      "Sai. Không phải rủi ro gian lận.",
-      "Sai. Rủi ro dịch vụ khách hàng.",
-      "Sai. Chi phí không phải rủi ro gian lận."
+      "Sai. Ưu ái khách quen là vấn đề tuân thủ chính sách tín dụng; rủi ro gian lận lớn nhất là thu tiền rồi xóa nợ để chiếm đoạt.",
+      "Sai. Kê khống tiền thu dễ bị phát hiện khi đối chiếu tiền vào tài khoản; quyền xóa nợ mới tạo cơ hội che giấu việc chiếm đoạt.",
+      "Sai. Hoa hồng làm tăng chi phí là vấn đề hiệu quả, không phải rủi ro gian lận."
     ],
     "refs": [
       "CIA Part 1 D.2",

@@ -8,6 +8,8 @@ const LENGTH_TELL_RATIO = 1.2;
 const MAX_LONGEST_CORRECT_SHARE = 0.4;
 /** Easy questions may be at most this share of a part (CLAUDE.md, Difficulty). */
 const MAX_EASY_SHARE = 0.1;
+/** A wrong-option note shorter than this rarely explains the misconception (CLAUDE.md section 3). */
+const MIN_WRONG_NOTE = 35;
 // The 52 standards of GIAS 2024 (Principle.Standard). Any other "GIAS x.y" is a typo or invention.
 const GIAS_STANDARDS = new Set(
   Object.entries({ 1: 3, 2: 3, 3: 2, 4: 3, 5: 2, 6: 3, 7: 2, 8: 4, 9: 5, 10: 3, 11: 5, 12: 3, 13: 6, 14: 6, 15: 2 })
@@ -61,6 +63,10 @@ for (const { id: part, path } of index.parts) {
       // Options are shuffled at display time, so text that names a letter or
       // relies on option order ("cả A và B") is wrong by construction.
       if (!q.optionNotes) missingNotes.push(q.id);
+      else {
+        const thin = q.optionNotes.filter((n, i) => i !== q.answer && typeof n === 'string' && n.length < MIN_WRONG_NOTE);
+        if (thin.length) warnings.push(`${where}: ${thin.length} wrong-option note(s) under ${MIN_WRONG_NOTE} characters; say why the option is wrong and what is right`);
+      }
       for (const s of unknownGiasCitations(q)) errors.push(`${where}: cites GIAS ${s}, which does not exist`);
       for (const text of [q.stem, q.explanation, ...(q.options || []), ...(q.optionNotes || [])]) {
         const m = typeof text === 'string' && text.match(LETTER_REFERENCE);

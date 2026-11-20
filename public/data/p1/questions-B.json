@@ -1238,7 +1238,7 @@
     "answer": 3,
     "explanation": "Thông tin thu được khi kiểm toán không được dùng vì lợi ích cá nhân hoặc trái với mục tiêu hợp pháp của tổ chức (GIAS 5.1). Hành vi này còn có thể vi phạm pháp luật về giao dịch nội gián (GIAS 1.3).",
     "optionNotes": [
-      "Sai. Vấn đề không phải năng lực.",
+      "Sai. Hành vi không liên quan đến năng lực chuyên môn; vấn đề là dùng thông tin có được khi kiểm toán để kiếm lợi cho bản thân.",
       "Sai. Vấn đề trực tiếp là dùng thông tin, không phải việc sở hữu cổ phiếu.",
       "Sai. Không liên quan đến lập kế hoạch kiểm toán.",
       "Đúng. Dùng thông tin kiểm toán cho giao dịch cá nhân."
@@ -1856,7 +1856,7 @@
     "optionNotes": [
       "Sai. Rà soát thêm không gỡ suy giảm mặc định của quy tắc 12 tháng.",
       "Sai. Tự đánh giá của đơn vị không phải đảm bảo độc lập.",
-      "Sai. Đề bài nói không thể hoãn.",
+      "Sai. Đề bài nói cuộc kiểm toán không thể hoãn; kể cả khi hoãn được, chờ qua mốc 12 tháng cũng không giải quyết nhu cầu kiểm toán hiện tại.",
       "Đúng. Thuê ngoài, hạn chế vai trò của người có suy giảm."
     ],
     "refs": [
@@ -2293,7 +2293,7 @@
     "optionNotes": [
       "Sai. Quyền truy cập không cho phép dùng sai mục đích.",
       "Đúng. Chỉ sử dụng thông tin cho mục tiêu kiểm toán.",
-      "Sai. Hành vi xem đã là vi phạm.",
+      "Sai. Vi phạm xảy ra ngay khi dùng quyền truy cập ngoài mục tiêu kiểm toán; việc giữ kín sau đó không làm hành vi trở nên phù hợp.",
       "Sai. Nguyên tắc áp dụng cho mọi thông tin, không chỉ thông tin mật."
     ],
     "refs": [
@@ -2345,7 +2345,7 @@
     "optionNotes": [
       "Sai. Thận trọng không bảo đảm phát hiện mọi sai sót.",
       "Sai. Kiểm toán viên vẫn chịu trách nhiệm về sự thận trọng.",
-      "Sai. Quá tuyệt đối.",
+      "Sai. Sai sót được che giấu bằng thông đồng và làm giả tinh vi có thể không bị phát hiện dù kiểm toán viên đủ năng lực và thận trọng.",
       "Đúng. Thận trọng không đồng nghĩa với không sai sót."
     ],
     "refs": [
@@ -2372,7 +2372,7 @@
       "Đúng. Điều chỉnh theo độ phức tạp và trọng yếu.",
       "Sai. Nhất quán không thay được việc điều chỉnh theo rủi ro.",
       "Sai. Tần suất không giải quyết được khối lượng công việc.",
-      "Sai. Quá tuyệt đối."
+      "Sai. Chi nhánh nhỏ vẫn có thể cần kiểm toán tùy rủi ro; vấn đề là khối lượng công việc phải điều chỉnh theo độ phức tạp và mức trọng yếu."
     ],
     "refs": [
       "GIAS 4.2",
@@ -2413,18 +2413,18 @@
     "difficulty": 2,
     "stem": "Ngoài giờ làm, một kiểm toán viên nội bộ làm tư vấn bán thời gian có thù lao cho một công ty là khách hàng lớn của chính công ty mình. Vấn đề chính là gì?",
     "options": [
-      "Kiểm toán viên có thể bị mệt mỏi do làm việc quá nhiều giờ.",
+      "Vi phạm bảo mật, vì có thể tiết lộ thông tin của công ty cho khách hàng.",
       "Thù lao tư vấn phải được kê khai đầy đủ để tính thuế thu nhập cá nhân.",
       "Xung đột lợi ích làm suy giảm khách quan khi kiểm toán.",
-      "Kiểm toán viên vi phạm quy định về giờ làm việc tối đa."
+      "Chỉ là việc riêng ngoài giờ, miễn không dùng thời gian làm việc."
     ],
     "answer": 2,
     "explanation": "Quan hệ tài chính với khách hàng lớn của tổ chức tạo xung đột lợi ích, có thể ảnh hưởng đến khách quan khi kiểm toán các quy trình liên quan đến khách hàng đó (bán hàng, công nợ). Cần kê khai và xử lý theo chính sách.",
     "optionNotes": [
-      "Sai. Không phải vấn đề đạo đức chính.",
-      "Sai. Vấn đề thuế không phải trọng tâm.",
+      "Sai. Đề bài không nêu việc tiết lộ thông tin; vấn đề nằm ở quan hệ tài chính với khách hàng lớn, tạo xung đột lợi ích ngay cả khi không lộ thông tin.",
+      "Sai. Kê khai thuế là nghĩa vụ cá nhân, không giải quyết xung đột lợi ích khi kiểm toán các quy trình liên quan đến khách hàng này.",
       "Đúng. Xung đột lợi ích làm suy giảm khách quan.",
-      "Sai. Không phải vấn đề chính."
+      "Sai. Làm ngoài giờ không xóa được quan hệ tài chính với khách hàng lớn của công ty; chính quan hệ này tạo xung đột lợi ích cần kê khai."
     ],
     "refs": [
       "GIAS 2.2",
@@ -2502,7 +2502,7 @@
       "Sai. Bằng chứng thu trái phép có thể mất giá trị.",
       "Đúng. Kiểm tra cơ sở pháp lý trước khi làm.",
       "Sai. Hành vi ghi âm đã có thể vi phạm.",
-      "Sai. Vẫn là ghi âm bí mật."
+      "Sai. Nhờ người khác cài thiết bị vẫn là ghi âm bí mật, còn kéo thêm người vào một hành vi có thể trái pháp luật hoặc chính sách."
     ],
     "refs": [
       "GIAS 1.3",

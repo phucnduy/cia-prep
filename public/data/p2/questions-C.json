@@ -197,7 +197,7 @@
       "Sai. Không có bằng chứng thì không chứng minh được.",
       "Sai. Giám sát được phép giao cho người phù hợp.",
       "Đúng. Phải ghi lại và lưu bằng chứng giám sát.",
-      "Sai. Không cần đơn vị xác nhận."
+      "Sai. Bằng chứng giám sát là việc nội bộ của kiểm toán; không cần đơn vị được kiểm toán ký xác nhận."
     ],
     "refs": [
       "GIAS 12.3",
@@ -248,9 +248,9 @@
     "explanation": "Người giám sát rà soát thông tin trao đổi theo các thuộc tính của GIAS 11.2 (12.3). Theo 11.2, khách quan là vô tư, cân bằng; kiểm toán viên nên tránh từ ngữ có thể bị coi là thiên vị và tập trung vào dữ kiện.",
     "optionNotes": [
       "Đúng. Từ ngữ mang tính phán xét làm mất khách quan.",
-      "Sai. Vấn đề không phải độ dài.",
-      "Sai. Không liên quan đến thời điểm.",
-      "Sai. Không liên quan đến số liệu."
+      "Sai. Vấn đề không nằm ở độ dài câu chữ mà ở từ ngữ mang tính phán xét về con người.",
+      "Sai. Thời điểm nêu phát hiện không liên quan; vấn đề là cách diễn đạt thiếu khách quan.",
+      "Sai. Thiếu số liệu không phải điều đề bài nêu; từ ngữ phán xét mới là vấn đề cần sửa."
     ],
     "refs": [
       "GIAS 11.2",
@@ -301,9 +301,9 @@
     "explanation": "GIAS 13.1 (Xem xét khi thực hiện): cuộc họp khởi động giúp xác nhận quản lý đơn vị hiểu và ủng hộ mục tiêu, phạm vi, thời gian; điều chỉnh cách tiếp cận nếu cần; thống nhất tần suất trao đổi và ai nhận báo cáo cuối. Nội dung nên được ghi vào hồ sơ.",
     "optionNotes": [
       "Sai. CAE phê duyệt chương trình, không phải đơn vị.",
-      "Sai. Phát hiện chưa có ở giai đoạn này.",
+      "Sai. Ở cuộc họp khởi động chưa có phát hiện của cuộc kiểm toán này; mục đích là thống nhất mục tiêu, phạm vi và cách trao đổi.",
       "Đúng. Hiểu, ủng hộ và thống nhất cách trao đổi.",
-      "Sai. Mẫu do kiểm toán viên chọn."
+      "Sai. Kiểm toán viên tự chọn mẫu để tránh thiên lệch; đơn vị được kiểm toán không chọn mẫu."
     ],
     "refs": [
       "GIAS 13.1",
@@ -328,7 +328,7 @@
     "optionNotes": [
       "Sai. Nhân viên thực hiện không có thẩm quyền thay đổi.",
       "Sai. HĐQT không duyệt từng kiến nghị.",
-      "Sai. Phải là người có thẩm quyền.",
+      "Sai. Kiến nghị phải được trao đổi với người có thẩm quyền thay đổi hoạt động, không phải bất kỳ ai có mặt.",
       "Đúng. Cấp quản lý có thẩm quyền thay đổi."
     ],
     "refs": [

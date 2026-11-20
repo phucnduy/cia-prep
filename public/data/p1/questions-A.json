@@ -1218,7 +1218,7 @@
     ],
     "source": "original",
     "optionNotes": [
-      "Sai. Định nghĩa bị đảo ngược.",
+      "Sai. Định nghĩa bị đảo ngược: độc lập gắn với vị trí tổ chức của bộ phận kiểm toán nội bộ, còn khách quan là thái độ không thiên lệch của từng kiểm toán viên.",
       "Sai. Hai khái niệm khác nhau: một ở cấp chức năng, một ở cấp cá nhân.",
       "Đúng. Độc lập ở cấp chức năng (Nguyên tắc 7); khách quan là thái độ không thiên lệch của cá nhân (Nguyên tắc 2).",
       "Sai. Cả hai khái niệm đều áp dụng cho kiểm toán nội bộ."
@@ -1720,9 +1720,9 @@
     "explanation": "Dịch vụ đảm bảo thường có ba bên: người hoặc nhóm chịu trách nhiệm về quy trình, kiểm toán viên đưa ra đánh giá, và người sử dụng kết quả (ví dụ HĐQT). Dịch vụ tư vấn thường có hai bên: kiểm toán viên và khách hàng tư vấn.",
     "optionNotes": [
       "Đúng. Đây là cách phân biệt kinh điển theo số bên tham gia.",
-      "Sai. Đảo ngược số bên của hai loại dịch vụ.",
+      "Sai. Đảo ngược số bên: chính đảm bảo mới có thêm bên thứ ba là người sử dụng kết quả; tư vấn chỉ gồm kiểm toán viên và khách hàng tư vấn.",
       "Sai. Số bên khác nhau, và tư vấn vẫn phải lập hồ sơ.",
-      "Sai. Đảm bảo không chỉ có một bên."
+      "Sai. Đảm bảo luôn có ít nhất bên chịu trách nhiệm về quy trình và kiểm toán viên, thường thêm người sử dụng kết quả; không thể chỉ có một bên."
     ],
     "refs": [
       "CIA Part 1 A.4"
@@ -2402,9 +2402,9 @@
     "answer": 3,
     "explanation": "Ban điều hành cấp cao trao đổi với HĐQT và CAE về kỳ vọng của mình cần được xem xét đưa vào quy chế; CAE thảo luận dự thảo với cả HĐQT và Ban điều hành; HĐQT phê duyệt (GIAS 6.2, điều kiện thiết yếu).",
     "optionNotes": [
-      "Sai. Ban điều hành không phê duyệt quy chế.",
+      "Sai. Quyền phê duyệt quy chế thuộc HĐQT; Ban điều hành chỉ trao đổi kỳ vọng và góp ý vào dự thảo, không phải cấp phê duyệt trung gian.",
       "Sai. Ban điều hành có vai trò đóng góp kỳ vọng.",
-      "Sai. CAE soạn và duy trì quy chế.",
+      "Sai. CAE là người soạn và duy trì quy chế; nếu Ban điều hành soạn thay thì vị trí độc lập của bộ phận kiểm toán nội bộ dễ bị ảnh hưởng.",
       "Đúng. Đúng vai trò của Ban điều hành theo điều kiện thiết yếu."
     ],
     "refs": [
@@ -2453,7 +2453,7 @@
     "explanation": "Trong đảm bảo trực tiếp (direct engagement), kiểm toán viên tự đánh giá đối tượng và đưa ra kết luận. Trong đảm bảo dựa trên khẳng định (attestation), bên chịu trách nhiệm đưa ra khẳng định và kiểm toán viên cho ý kiến về khẳng định đó. Cả hai đều là dịch vụ đảm bảo.",
     "optionNotes": [
       "Sai. X cũng là đảm bảo vì có kết luận về hiệu quả kiểm soát.",
-      "Sai. Đảo ngược hai khái niệm.",
+      "Sai. Đảo ngược hai khái niệm: X do kiểm toán viên tự đánh giá là đảm bảo trực tiếp; Y cho ý kiến về khẳng định của Ban điều hành mới là đảm bảo dựa trên khẳng định.",
       "Sai. Cả hai đều đưa ra kết luận đảm bảo, không phải tư vấn.",
       "Đúng. Phân biệt đúng hai dạng đảm bảo."
     ],
@@ -2580,8 +2580,8 @@
     "explanation": "IPPF hiện hành gồm Chuẩn mực Kiểm toán Nội bộ Toàn cầu và Yêu cầu theo chủ đề (bắt buộc), cùng Hướng dẫn toàn cầu như hướng dẫn thực hành, GTAG (tham khảo, hỗ trợ áp dụng).",
     "optionNotes": [
       "Sai. Hướng dẫn toàn cầu chỉ để tham khảo, không bắt buộc.",
-      "Sai. Hướng dẫn thực hành không bắt buộc.",
-      "Sai. GIAS là bắt buộc.",
+      "Sai. Hướng dẫn thực hành thuộc Hướng dẫn toàn cầu, chỉ để tham khảo; nó giúp áp dụng chuẩn mực nhưng không tạo nghĩa vụ bắt buộc.",
+      "Sai. GIAS là phần bắt buộc của IPPF hiện hành, không phải thông lệ tốt; Yêu cầu theo chủ đề cũng bắt buộc khi chủ đề nằm trong phạm vi công việc.",
       "Đúng. Phân biệt đúng phần bắt buộc và phần hướng dẫn."
     ],
     "refs": [
@@ -3584,7 +3584,7 @@
     "explanation": "Mục đích kiểm toán nội bộ theo GIAS là tăng cường khả năng của tổ chức trong việc tạo, bảo vệ và duy trì giá trị, bằng cách cung cấp cho HĐQT và Ban điều hành dịch vụ bảo đảm, tư vấn, hiểu biết và tầm nhìn độc lập, dựa trên rủi ro và khách quan.",
     "optionNotes": [
       "Sai. Xử phạt không phải mục đích của kiểm toán nội bộ.",
-      "Sai. Không có bảo đảm tuyệt đối.",
+      "Sai. Kiểm toán nội bộ chỉ đưa ra mức đảm bảo hợp lý, không thể bảo đảm tuyệt đối do hạn chế cố hữu của kiểm soát và việc chọn mẫu.",
       "Sai. Kiểm toán nội bộ không thay thế kiểm toán độc lập.",
       "Đúng. Đúng với tuyên bố mục đích của GIAS."
     ],
@@ -3610,8 +3610,8 @@
     "explanation": "Kiểm toán nội bộ hiệu quả khi thực hiện theo chuẩn mực, được HĐQT giám sát hữu hiệu và có đủ nguồn lực. GIAS nêu rõ các 'Điều kiện thiết yếu' của HĐQT và Ban điều hành, như hỗ trợ, bảo đảm nguồn lực và tương tác trực tiếp với trưởng kiểm toán nội bộ.",
     "optionNotes": [
       "Đúng. Thiếu giám sát và hỗ trợ từ HĐQT, Ban điều hành.",
-      "Sai. Công cụ không phải vấn đề chính.",
-      "Sai. Đề bài cho biết đội ngũ giỏi.",
+      "Sai. Đề bài không nêu vấn đề công cụ; điều đang thiếu là sự tương tác của HĐQT và nguồn lực, những điều kiện thiết yếu mà công cụ không thay được.",
+      "Sai. Đề bài đã cho biết đội ngũ giỏi, nên năng lực không phải điều kiện đang thiếu; vấn đề nằm ở sự hỗ trợ từ HĐQT và Ban điều hành.",
       "Sai. Số cuộc kiểm toán là hệ quả, không phải điều kiện."
     ],
     "refs": [
@@ -3687,8 +3687,8 @@
     "explanation": "Theo Mô hình Ba tuyến (IIA, 2020), vai trò tuyến thứ hai gồm chuyên môn, hỗ trợ, giám sát và thách thức về rủi ro, như quản lý rủi ro, tuân thủ. Tuyến thứ nhất cung cấp sản phẩm, dịch vụ; kiểm toán nội bộ là tuyến thứ ba.",
     "optionNotes": [
       "Sai. Tuyến thứ nhất là các đơn vị kinh doanh.",
-      "Sai. Đây là bộ phận nội bộ.",
-      "Sai. Tuyến thứ ba là kiểm toán nội bộ.",
+      "Sai. Bộ phận quản lý rủi ro và tuân thủ nằm trong tổ chức, báo cáo cho Ban điều hành; bên đảm bảo bên ngoài là kiểm toán độc lập hoặc cơ quan quản lý.",
+      "Sai. Tuyến thứ ba là kiểm toán nội bộ, độc lập với Ban điều hành; quản lý rủi ro và tuân thủ thuộc Ban điều hành nên ở tuyến thứ hai.",
       "Đúng. Quản lý rủi ro và tuân thủ thuộc tuyến thứ hai."
     ],
     "refs": [
@@ -3792,7 +3792,7 @@
     "optionNotes": [
       "Sai. HĐQT có vai trò phê duyệt mục tiêu hoạt động.",
       "Sai. Phê duyệt hằng năm, không chờ đánh giá bên ngoài.",
-      "Sai. Đây là trách nhiệm của HĐQT.",
+      "Sai. Phê duyệt mục tiêu hoạt động của bộ phận kiểm toán nội bộ là điều kiện thiết yếu của HĐQT; giao cho Tổng Giám đốc làm suy yếu quan hệ báo cáo chức năng.",
       "Đúng. Phê duyệt ít nhất hằng năm."
     ],
     "refs": [
@@ -3809,17 +3809,17 @@
     "stem": "CAE chuẩn bị kế hoạch cho cuộc đánh giá chất lượng bên ngoài sắp tới và chọn đơn vị đánh giá. Theo GIAS, HĐQT cần xem xét và phê duyệt điều gì tối thiểu?",
     "options": [
       "Phạm vi, tần suất đánh giá và năng lực, tính độc lập của người đánh giá.",
-      "Chỉ phí thuê đơn vị đánh giá, vì đó là chi phí lớn.",
+      "Chi phí thuê đơn vị đánh giá, vì đây là khoản chi lớn của năm.",
       "Danh sách các giấy làm việc sẽ được cung cấp cho đoàn đánh giá.",
-      "Không cần phê duyệt vì CAE chịu trách nhiệm toàn bộ về chất lượng."
+      "Chỉ cần được thông báo kết quả sau khi cuộc đánh giá kết thúc."
     ],
     "answer": 0,
     "explanation": "Theo GIAS 8.4, HĐQT xem xét và phê duyệt kế hoạch đánh giá chất lượng bên ngoài của CAE, tối thiểu gồm phạm vi, tần suất đánh giá và năng lực, tính độc lập của người hoặc nhóm đánh giá.",
     "optionNotes": [
       "Đúng. Phạm vi, tần suất, năng lực và độc lập.",
-      "Sai. Chi phí không phải nội dung phê duyệt tối thiểu.",
+      "Sai. Chi phí có thể được trao đổi khi duyệt ngân sách, nhưng không phải nội dung tối thiểu của kế hoạch đánh giá bên ngoài mà HĐQT cần xem xét.",
       "Sai. Chi tiết tác nghiệp không cần HĐQT duyệt.",
-      "Sai. HĐQT có vai trò phê duyệt kế hoạch này."
+      "Sai. HĐQT phải tham gia từ khi lập kế hoạch (phạm vi, tần suất, người đánh giá), không chỉ nhận kết quả sau khi đánh giá xong."
     ],
     "refs": [
       "GIAS 8.4",
@@ -3845,7 +3845,7 @@
       "Sai. Thay đổi đáng kể cần trao đổi và phê duyệt.",
       "Đúng. Trao đổi và trình HĐQT phê duyệt.",
       "Sai. Kế hoạch cần thay đổi khi rủi ro thay đổi.",
-      "Sai. Thiếu trao đổi với HĐQT."
+      "Sai. Email cho Tổng Giám đốc chưa đủ: thay đổi đáng kể của kế hoạch phải được trao đổi với cả HĐQT và Ban điều hành, và HĐQT phê duyệt."
     ],
     "refs": [
       "GIAS 9.4",
@@ -3861,15 +3861,15 @@
     "stem": "Phòng kiểm toán nội bộ vẫn dùng bảng tính thủ công cho mọi cuộc kiểm toán, trong khi công ty đã chuyển sang dữ liệu lớn trên hệ thống mới. Theo GIAS, trách nhiệm của CAE là gì?",
     "options": [
       "Chờ Ban điều hành chủ động cấp phần mềm khi cần thiết.",
-      "Từ chối kiểm toán các quy trình đã chuyển lên hệ thống mới.",
-      "Thường xuyên đánh giá công nghệ của chức năng và cải thiện.",
+      "Thuê chuyên gia bên ngoài theo từng cuộc thay cho việc đánh giá công nghệ.",
+      "Thường xuyên đánh giá công nghệ của bộ phận và tìm cơ hội cải thiện hiệu quả.",
       "Yêu cầu bộ phận CNTT thực hiện phân tích dữ liệu thay kiểm toán."
     ],
     "answer": 2,
     "explanation": "GIAS 10.3 yêu cầu CAE cố gắng bảo đảm chức năng có công nghệ hỗ trợ quy trình kiểm toán và thường xuyên đánh giá công nghệ đang dùng, tìm cơ hội cải thiện hiệu quả, hiệu suất.",
     "optionNotes": [
-      "Sai. CAE phải chủ động đánh giá và đề xuất.",
-      "Sai. Né tránh rủi ro quan trọng.",
+      "Sai. GIAS 10.3 đặt trách nhiệm cho CAE: chủ động đánh giá công nghệ và báo cáo ảnh hưởng của hạn chế công nghệ, không chờ Ban điều hành cấp.",
+      "Sai. Thuê chuyên gia có thể giúp từng cuộc, nhưng không thay trách nhiệm thường xuyên đánh giá và cải thiện công nghệ của bộ phận theo GIAS 10.3.",
       "Đúng. Đánh giá công nghệ thường xuyên và cải thiện.",
       "Sai. Phụ thuộc bộ phận được kiểm toán làm giảm khách quan."
     ],
@@ -3965,15 +3965,15 @@
       "Phỏng vấn trưởng phòng CNTT về chính sách vá lỗi của công ty.",
       "Xem bản chính sách vá lỗi đã được Tổng Giám đốc ký ban hành.",
       "Đối chiếu bản vá khẩn cấp của hãng với ngày cài đặt thực tế.",
-      "Hỏi người dùng xem máy tính có chạy chậm sau khi cập nhật không."
+      "Kiểm tra danh sách máy chủ đã cài phần mềm diệt virus có bản quyền."
     ],
     "answer": 2,
     "explanation": "Đối chiếu bản vá quan trọng do nhà sản xuất phát hành với ngày cài đặt thực tế trên máy chủ cho bằng chứng trực tiếp về việc vá có kịp thời không. Phỏng vấn và chính sách chỉ cho biết thiết kế.",
     "optionNotes": [
-      "Sai. Phỏng vấn cho bằng chứng yếu.",
-      "Sai. Chính sách chỉ chứng minh thiết kế.",
+      "Sai. Phỏng vấn chỉ cho biết người được hỏi nói gì về quy trình; cần bằng chứng trực tiếp về việc bản vá có được cài kịp thời hay không.",
+      "Sai. Chính sách đã ký chỉ chứng minh thiết kế của kiểm soát, không cho biết các bản vá thực tế có được cài đúng hạn hay không.",
       "Đúng. Bằng chứng trực tiếp về việc thực hiện.",
-      "Sai. Không liên quan đến việc vá lỗ hổng."
+      "Sai. Phần mềm diệt virus là kiểm soát khác; có bản quyền đầy đủ cũng không chứng minh các lỗ hổng phần mềm đã được vá."
     ],
     "refs": [
       "CIA Part 1 A.5",
@@ -3997,7 +3997,7 @@
     "explanation": "Sao lưu thành công chưa chứng minh dữ liệu khôi phục được. Thử khôi phục thực tế (restore test) là bằng chứng trực tiếp nhất về khả năng phục hồi dữ liệu.",
     "optionNotes": [
       "Sai. Thêm nhật ký vẫn chỉ chứng minh việc sao lưu.",
-      "Sai. Phỏng vấn cho bằng chứng yếu.",
+      "Sai. Phỏng vấn là bằng chứng kém tin cậy và vẫn chỉ nói về việc sao lưu; khả năng khôi phục phải được chứng minh bằng thử khôi phục thực tế.",
       "Sai. Dung lượng không chứng minh khả năng khôi phục.",
       "Đúng. Thử khôi phục chứng minh khả năng phục hồi."
     ],
@@ -4098,7 +4098,7 @@
     "optionNotes": [
       "Sai. Đầu vào đào tạo không chứng minh thay đổi hành vi.",
       "Sai. Hoàn thành khóa học chưa chứng minh hiệu quả.",
-      "Sai. Cam kết là hình thức.",
+      "Sai. Chữ ký cam kết chỉ cho thấy nhân viên đã đọc chính sách, không đo được hành vi thực tế khi gặp email lừa đảo.",
       "Đúng. Đo trực tiếp hành vi của nhân viên."
     ],
     "refs": [
@@ -4146,9 +4146,9 @@
     "answer": 1,
     "explanation": "Tuyên bố mục đích của GIAS nêu kiểm toán nội bộ cung cấp bảo đảm, tư vấn, hiểu biết sâu (insight) và tầm nhìn (foresight). Tầm nhìn thể hiện qua việc nhận diện, cảnh báo sớm rủi ro mới nổi và xu hướng tương lai.",
     "optionNotes": [
-      "Sai. Đây là nhìn lại quá khứ.",
+      "Sai. Liệt kê phát hiện năm trước là nhìn lại quá khứ; tầm nhìn (foresight) hướng tới rủi ro và xu hướng có thể xảy ra trong tương lai.",
       "Đúng. Cảnh báo rủi ro mới nổi là tầm nhìn.",
-      "Sai. Đây là theo dõi thực hiện kiến nghị.",
+      "Sai. Đếm kiến nghị đã thực hiện là theo dõi kết quả quá khứ; nó hữu ích nhưng không thể hiện tầm nhìn về rủi ro sắp tới.",
       "Sai. Kiểm tra lại chứng từ không phải tầm nhìn."
     ],
     "refs": [

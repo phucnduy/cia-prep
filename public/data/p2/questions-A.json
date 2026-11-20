@@ -499,15 +499,15 @@
       "Rà soát và cập nhật đánh giá rủi ro của cuộc kiểm toán trước.",
       "Thực hiện lại toàn bộ đánh giá rủi ro từ đầu như lần đầu tiên.",
       "Không cần đánh giá rủi ro vì đã có kết quả năm ngoái.",
-      "Dùng nguyên đánh giá rủi ro năm ngoái, không cần xem lại."
+      "Giao đơn vị được kiểm toán tự cập nhật rủi ro rồi gửi lại."
     ],
     "answer": 0,
     "explanation": "GIAS 13.2: khi rủi ro của hoạt động đã được nhận diện trong các cuộc kiểm toán trước, chỉ cần rà soát và cập nhật đánh giá rủi ro trước đó. Không rà soát thì có thể bỏ sót thay đổi mới.",
     "optionNotes": [
       "Đúng. Rà soát và cập nhật là yêu cầu tối thiểu.",
-      "Sai. Không bắt buộc làm lại từ đầu.",
-      "Sai. Vẫn phải rà soát và cập nhật.",
-      "Sai. Phải xem lại để phát hiện thay đổi."
+      "Sai. GIAS chỉ yêu cầu rà soát và cập nhật khi rủi ro đã được nhận diện ở cuộc trước; làm lại từ đầu là không bắt buộc.",
+      "Sai. Kết quả năm ngoái có thể đã cũ; vẫn phải rà soát và cập nhật để phát hiện thay đổi trong quy trình.",
+      "Sai. Đơn vị được kiểm toán có thể cung cấp thông tin, nhưng đánh giá rủi ro cuộc kiểm toán là trách nhiệm của kiểm toán viên."
     ],
     "refs": [
       "GIAS 13.2",
@@ -637,8 +637,8 @@
     "optionNotes": [
       "Sai. Đó là thông tin chi tiết khi thực hiện, không phải thiết kế mẫu.",
       "Đúng. Bốn nội dung GIAS nêu về chọn mẫu.",
-      "Sai. Cỡ mẫu thôi chưa đủ.",
-      "Sai. Mẫu do đơn vị đề xuất có thể thiên lệch."
+      "Sai. Cỡ mẫu thôi chưa đủ: cần cả phương pháp chọn, tổng thể và khả năng suy rộng để người khác đánh giá được kết luận từ mẫu.",
+      "Sai. Mẫu do đơn vị được kiểm toán đề xuất có thể bị thiên lệch; kiểm toán viên phải tự chọn mẫu theo phương pháp đã định."
     ],
     "refs": [
       "GIAS 13.6",
@@ -793,8 +793,8 @@
     "answer": 3,
     "explanation": "Kiểm soát chung CNTT như quản lý thay đổi bảo đảm kiểm soát ứng dụng hoạt động nhất quán. Khi quản lý thay đổi yếu, logic tính lương có thể bị thay đổi mà không ai biết, nên không thể dựa vào việc kiểm tra kiểm soát tự động một lần; cần thêm thủ tục.",
     "optionNotes": [
-      "Sai. Bỏ qua rủi ro hệ thống.",
-      "Sai. Phản ứng quá mức; có thể điều chỉnh thủ tục.",
+      "Sai. Chứng từ gốc không cho biết logic tính lương trên ERP có bị thay đổi hay không; rủi ro hệ thống phải được đưa vào kế hoạch.",
+      "Sai. Phản ứng quá mức: chỉ cần điều chỉnh thủ tục (thêm kiểm tra chi tiết, kiểm tra lại logic tính), không phải đổi thành kiểm toán CNTT hoàn toàn.",
       "Sai. Không thể suy rộng kết quả kiểm tra một lần.",
       "Đúng. ITGC yếu làm kiểm soát tự động kém tin cậy."
     ],
@@ -819,9 +819,9 @@
     "explanation": "Thời gian khôi phục mục tiêu (RTO) là thời gian tối đa để khôi phục hoạt động sau sự cố; điểm khôi phục mục tiêu (RPO) là lượng dữ liệu tối đa có thể mất, tính bằng thời gian. Hai chỉ số này được xác định qua phân tích tác động kinh doanh.",
     "optionNotes": [
       "Đúng. 4 giờ là RTO, 15 phút dữ liệu là RPO.",
-      "Sai. Nhầm với khái niệm khẩu vị và chịu đựng rủi ro.",
-      "Sai. Đảo ngược thứ tự hai chỉ số.",
-      "Sai. Không phải KPI hay KRI."
+      "Sai. Nhầm với khái niệm của quản trị rủi ro: khẩu vị và mức chịu đựng rủi ro không đo thời gian khôi phục hay lượng dữ liệu mất.",
+      "Sai. Đảo ngược thứ tự: 4 giờ để hệ thống chạy lại là thời gian khôi phục mục tiêu, 15 phút dữ liệu là điểm khôi phục mục tiêu.",
+      "Sai. KPI đo hiệu quả hoạt động, KRI cảnh báo rủi ro; hai chỉ tiêu trong đề bài là chỉ tiêu khôi phục sau sự cố."
     ],
     "refs": [
       "CIA Part 2 A.3"
@@ -860,18 +860,18 @@
     "difficulty": 3,
     "stem": "Kho của công ty điện tử có nhiều mặt hàng tồn trên 18 tháng, trong khi mẫu mã thay đổi mỗi năm. Khi lập kế hoạch, rủi ro tài chính nào cần chú ý nhất?",
     "options": [
-      "Nợ phải trả dài hạn bị ghi nhận sai kỳ kế toán của năm.",
-      "Vốn chủ sở hữu tăng quá nhanh so với doanh thu.",
+      "Hàng tồn kho bị ghi thiếu số lượng do mất mát tại kho.",
+      "Giá vốn hàng bán bị ghi nhận cao hơn thực tế.",
       "Hàng tồn kho bị đánh giá cao hơn giá trị có thể thu hồi.",
-      "Đầu tư dài hạn bị phân loại thành ngắn hạn."
+      "Doanh thu bị ghi nhận trước khi giao hàng cho khách."
     ],
     "answer": 2,
     "explanation": "Hàng tồn lâu trong ngành thay đổi mẫu mã nhanh có nguy cơ lỗi thời, giá trị thu hồi thấp hơn giá trị ghi sổ. Kiểm toán viên cần xem xét việc trích lập dự phòng giảm giá và kiểm soát nhận diện hàng chậm luân chuyển.",
     "optionNotes": [
-      "Sai. Không liên quan đến tồn kho lâu ngày.",
-      "Sai. Không liên quan trực tiếp.",
+      "Sai. Mất mát hàng là rủi ro về số lượng; dấu hiệu trong đề bài là hàng tồn lâu, mẫu mã lỗi thời, tức rủi ro về giá trị.",
+      "Sai. Ngược hướng: hàng lỗi thời chưa trích dự phòng làm tài sản bị ghi cao, không làm giá vốn bị ghi cao hơn thực tế.",
       "Đúng. Rủi ro tồn kho bị đánh giá quá cao.",
-      "Sai. Không liên quan đến tình huống."
+      "Sai. Đề bài không có dấu hiệu về thời điểm ghi nhận doanh thu; vấn đề là hàng tồn lâu có giá trị thu hồi thấp hơn giá trị ghi sổ."
     ],
     "refs": [
       "CIA Part 2 A.3"
@@ -937,18 +937,18 @@
     "difficulty": 2,
     "stem": "Cuộc kiểm toán từ xa dựa chủ yếu vào ảnh chụp chứng từ do đơn vị gửi qua email. Rủi ro chính cần quản lý là gì?",
     "options": [
-      "Chi phí đi lại của nhóm kiểm toán tăng lên.",
+      "Cuộc kiểm toán kéo dài hơn do phải chờ đơn vị gửi chứng từ.",
       "Độ tin cậy của bằng chứng thấp hơn, khó xác minh bản gốc.",
-      "Đơn vị được kiểm toán không biết cuộc kiểm toán đang diễn ra.",
+      "Hồ sơ kiểm toán khó lưu trữ vì gồm rất nhiều tệp ảnh.",
       "Kiểm toán viên không thể dùng phân tích dữ liệu."
     ],
     "answer": 1,
     "explanation": "Kiểm toán từ xa tiết kiệm chi phí nhưng bằng chứng như ảnh chụp do đơn vị cung cấp có độ tin cậy thấp hơn, vì khó xác minh bản gốc và có thể bị chỉnh sửa. Cần thủ tục bổ sung như truy cập trực tiếp hệ thống hoặc xác nhận độc lập (GIAS 14.1).",
     "optionNotes": [
-      "Sai. Từ xa thường giảm chi phí đi lại.",
+      "Sai. Chậm trễ có thể xảy ra nhưng quản lý được bằng kế hoạch; rủi ro chính là bằng chứng do đơn vị tự chụp gửi có độ tin cậy thấp.",
       "Đúng. Độ tin cậy của bằng chứng thấp hơn.",
-      "Sai. Đơn vị vẫn được thông báo.",
-      "Sai. Vẫn có thể phân tích dữ liệu từ xa."
+      "Sai. Lưu trữ tệp ảnh là vấn đề kỹ thuật nhỏ; rủi ro chính là không xác minh được bản gốc của chứng từ.",
+      "Sai. Phân tích dữ liệu vẫn làm được từ xa nếu có quyền truy cập hệ thống; vấn đề nằm ở độ tin cậy của ảnh chụp chứng từ."
     ],
     "refs": [
       "GIAS 14.1",
@@ -972,9 +972,9 @@
     "explanation": "Kiểm toán tích hợp kết hợp nhiều khía cạnh (hoạt động, tài chính, CNTT, tuân thủ) của cùng một quy trình trong một cuộc, giảm làm phiền đơn vị và thấy được rủi ro liên đới giữa các khía cạnh.",
     "optionNotes": [
       "Sai. Làm phiền đơn vị nhiều lần, khó thấy rủi ro liên đới.",
-      "Sai. Bỏ sót các mục tiêu khác.",
+      "Sai. Chỉ kiểm toán tài chính bỏ sót các mục tiêu khác mà công ty muốn đánh giá: hiệu quả, kiểm soát ERP và tuân thủ đấu thầu.",
       "Đúng. Kiểm toán tích hợp.",
-      "Sai. Không đáp ứng yêu cầu đánh giá toàn diện."
+      "Sai. Chia cho bộ phận tuân thủ làm một phần không cho đánh giá toàn diện, và kiểm toán nội bộ vẫn phải xem xét có dựa được vào kết quả đó không."
     ],
     "refs": [
       "CIA Part 2 A.4"

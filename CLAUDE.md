@@ -85,7 +85,7 @@ These are style lessons only. Never copy or paraphrase another site's questions 
 ## 3. Explanations
 
 - `explanation`: why the correct answer is right, plus the source.
-- `optionNotes`: required. One note per option, in `options` order, starting with "Đúng." or "Sai.", giving the reason or the misconception.
+- `optionNotes`: required. One note per option, in `options` order, starting with "Đúng." or "Sai.", giving the reason or the misconception. A wrong-option note says **why it is wrong and what the right understanding is** (one or two sentences); "Sai. Quá tuyệt đối." is not enough. The validator warns below 35 characters. (Lesson from comparing with a commercial bank, 2026-11-20: per-option explanations are where learners learn most.)
 - `refs`: `GIAS x.y`, `CIA Part n X.y` (syllabus section; not the old Roman numerals I-IV), `IPPF 2017 nnnn`, `COSO 2013`, `IESBA Code`...
 
 ## 3b. Lessons (`lessons.json`)

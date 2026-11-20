@@ -531,9 +531,9 @@
     "explanation": "GIAS 14.3: rủi ro đáng kể phải được ghi nhận và báo cáo là phát hiện; với các rủi ro khác, kiểm toán viên xác định có báo cáo thành phát hiện hay không dựa trên hoàn cảnh và phương pháp đã định; có thể trao đổi theo cách khác.",
     "optionNotes": [
       "Sai. Chỉ rủi ro đáng kể là bắt buộc nêu thành phát hiện.",
-      "Sai. GIAS không cấm nêu điểm nhỏ.",
+      "Sai. GIAS không cấm nêu các điểm nhỏ; kiểm toán viên xác định có báo cáo chúng thành phát hiện hay trao đổi cách khác theo phương pháp.",
       "Đúng. Tùy hoàn cảnh và phương pháp.",
-      "Sai. Không có yêu cầu chuyển cho bộ phận khác."
+      "Sai. Không có yêu cầu chuyển điểm nhỏ cho bộ phận quản lý rủi ro; kiểm toán viên tự quyết cách trao đổi theo phương pháp đã định."
     ],
     "refs": [
       "GIAS 14.3",
@@ -583,9 +583,9 @@
     "explanation": "GIAS 14.6: kiểm toán viên và người giám sát rà soát hồ sơ về độ chính xác, phù hợp, đầy đủ; CAE phải rà soát và phê duyệt hồ sơ cuộc kiểm toán. CAE có thể giao việc giám sát nhưng vẫn chịu trách nhiệm (GIAS 12.3).",
     "optionNotes": [
       "Đúng. CAE rà soát và phê duyệt.",
-      "Sai. Đơn vị được kiểm toán không phê duyệt hồ sơ.",
-      "Sai. Kiểm toán độc lập không có vai trò này.",
-      "Sai. GIAS yêu cầu CAE phê duyệt."
+      "Sai. Đơn vị được kiểm toán không phê duyệt hồ sơ kiểm toán; việc đó thuộc người giám sát và CAE.",
+      "Sai. Kiểm toán độc lập không có vai trò rà soát hồ sơ của từng cuộc kiểm toán nội bộ.",
+      "Sai. Rà soát của trưởng nhóm chưa đủ: GIAS yêu cầu CAE rà soát và phê duyệt hồ sơ cuộc kiểm toán."
     ],
     "refs": [
       "GIAS 14.6",
@@ -601,18 +601,18 @@
     "difficulty": 3,
     "stem": "Một giấy làm việc ghi 'đã kiểm tra, không có ngoại lệ' nhưng không nêu nguồn dữ liệu, tổng thể, cỡ mẫu, cách chọn mẫu hay người thực hiện. Rủi ro chính là gì?",
     "options": [
-      "Giấy làm việc trông quá ngắn so với các giấy làm việc khác.",
+      "Kết luận có thể sai vì cỡ mẫu được chọn chưa đủ lớn.",
       "Người khác không thể làm lại công việc để kiểm chứng kết luận.",
       "Đơn vị được kiểm toán có thể không hiểu nội dung giấy làm việc.",
-      "Kiểm toán viên mất thêm thời gian để in và lưu trữ giấy làm việc."
+      "Giấy làm việc vi phạm quy định bảo mật vì thiếu tên người thực hiện."
     ],
     "answer": 1,
     "explanation": "GIAS 14.6 yêu cầu ghi lại thông tin, bằng chứng sao cho người có hiểu biết, thận trọng làm lại được và ra cùng kết quả. Phần Xem xét khi thực hiện nêu giấy làm việc nên có nguồn dữ liệu, mục đích, tổng thể, cỡ mẫu, cách chọn, người thực hiện và người rà soát.",
     "optionNotes": [
-      "Sai. Độ dài không phải vấn đề.",
+      "Sai. Đề bài không cho biết cỡ mẫu, nên không thể nói mẫu nhỏ; vấn đề là thiếu thông tin để người khác làm lại và kiểm chứng kết luận.",
       "Đúng. Không làm lại được, kết luận thiếu căn cứ.",
-      "Sai. Giấy làm việc không viết cho đơn vị được kiểm toán.",
-      "Sai. Không phải rủi ro chính."
+      "Sai. Giấy làm việc phục vụ người rà soát và đánh giá chất lượng, không viết cho đơn vị được kiểm toán đọc.",
+      "Sai. Thiếu tên người thực hiện là thiếu sót tài liệu, không phải vi phạm bảo mật; hậu quả là không ai làm lại được công việc."
     ],
     "refs": [
       "GIAS 14.6",
@@ -662,8 +662,8 @@
     "explanation": "GIAS 14.6 (Xem xét khi thực hiện): giấy làm việc có thể tổ chức theo cấu trúc chương trình kiểm toán và tham chiếu chéo với các thông tin liên quan, giúp lần theo cơ sở logic của từng bước đến kết quả.",
     "optionNotes": [
       "Sai. Thiếu liên kết giữa kết luận và bằng chứng.",
-      "Sai. Không phản ánh cấu trúc công việc.",
-      "Sai. Khó lần theo từng thủ tục.",
+      "Sai. Sắp theo người cung cấp không phản ánh cấu trúc công việc, nên khó lần từ kết luận về thủ tục và bằng chứng.",
+      "Sai. Gộp một tệp làm mất liên kết giữa từng thủ tục và bằng chứng, người rà soát khó lần theo.",
       "Đúng. Theo chương trình, có tham chiếu chéo."
     ],
     "refs": [
@@ -688,9 +688,9 @@
     "explanation": "GIAS 14.5: kết luận phải thể hiện xét đoán nghề nghiệp về mức quan trọng tổng thể của các phát hiện khi tổng hợp. Nhiều lỗi nhỏ cùng một nguyên nhân có thể cho thấy vấn đề hệ thống đáng kể.",
     "optionNotes": [
       "Đúng. Xét mức quan trọng khi tổng hợp.",
-      "Sai. Bỏ qua ảnh hưởng tổng hợp.",
-      "Sai. Mất thông tin về nguyên nhân chung.",
-      "Sai. Vẫn phải kết luận dựa trên kết quả có được."
+      "Sai. Từng lỗi nhỏ nhưng cùng một nguyên nhân có thể cho thấy vấn đề hệ thống; phải xét mức quan trọng khi tổng hợp.",
+      "Sai. Chỉ nêu lỗi lớn nhất làm mất thông tin về nguyên nhân chung (chưa đào tạo quy trình mới).",
+      "Sai. Kết luận phải dựa trên kết quả đã có; không cần chờ tìm thấy lỗi đáng kể mới kết luận."
     ],
     "refs": [
       "GIAS 14.5",
@@ -715,8 +715,8 @@
     "optionNotes": [
       "Sai. Phát hiện vẫn quan trọng với hoạt động được kiểm toán.",
       "Đúng. Nêu bối cảnh ở hai cấp.",
-      "Sai. Phóng đại làm mất khách quan.",
-      "Sai. Phát hiện quan trọng cần được ghi nhận chính thức."
+      "Sai. Phóng đại mức nghiêm trọng để gây chú ý làm mất khách quan; nên nêu đúng bối cảnh ở từng cấp.",
+      "Sai. Phát hiện có ảnh hưởng lớn đến hoạt động được kiểm toán cần được ghi nhận chính thức, không chỉ trao đổi miệng."
     ],
     "refs": [
       "GIAS 14.5",

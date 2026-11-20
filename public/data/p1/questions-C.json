@@ -569,7 +569,7 @@
     "source": "legacy",
     "optionNotes": [
       "Đúng. BCP duy trì quy trình kinh doanh cốt lõi; DRP là phần khôi phục CNTT trong BCP.",
-      "Sai. BCP rộng hơn DRP.",
+      "Sai. Ngược lại: BCP rộng hơn, bao gồm con người, quy trình, truyền thông; DRP là phần khôi phục hệ thống CNTT và dữ liệu nằm trong BCP.",
       "Sai. BCP thuộc toàn tổ chức; DRP thường do CNTT phụ trách.",
       "Sai. DRP áp dụng cho mọi sự cố làm gián đoạn CNTT, không chỉ thiên tai."
     ]
@@ -934,7 +934,7 @@
     "options": [
       "Rủi ro tuân thủ pháp luật về cạnh tranh.",
       "Rủi ro báo cáo tài chính về giá vốn.",
-      "Rủi ro thị trường do biến động lãi suất.",
+      "Rủi ro thanh khoản do tồn kho quá lớn.",
       "Rủi ro hoạt động / tập trung chuỗi cung ứng."
     ],
     "answer": 3,
@@ -945,8 +945,8 @@
     "source": "original",
     "optionNotes": [
       "Sai. Không có vấn đề pháp luật cạnh tranh trong tình huống.",
-      "Sai. Không có sai sót ghi nhận giá vốn.",
-      "Sai. Không liên quan đến lãi suất.",
+      "Sai. Đề bài không nói đến sai sót ghi nhận giá vốn; phụ thuộc nhà cung cấp ảnh hưởng hoạt động mua hàng, không phải báo cáo tài chính.",
+      "Sai. Đề bài không nói tồn kho hay dòng tiền; vấn đề là phụ thuộc một nhà cung cấp, tức rủi ro tập trung trong hoạt động cung ứng.",
       "Đúng. Phụ thuộc một nhà cung cấp là rủi ro hoạt động, tập trung trong chuỗi cung ứng."
     ]
   },
@@ -1675,9 +1675,9 @@
     "answer": 3,
     "explanation": "RTO là thời gian tối đa để khôi phục hệ thống sau sự cố (2 giờ). RPO là lượng dữ liệu tối đa có thể mất, tính theo thời gian từ lần sao lưu gần nhất (15 phút). RPO quyết định tần suất sao lưu, RTO quyết định phương án khôi phục.",
     "optionNotes": [
-      "Sai. Đảo ngược hai khái niệm.",
+      "Sai. Đảo ngược: thời gian để hệ thống chạy lại (2 giờ) là RTO, còn lượng dữ liệu tối đa được phép mất (15 phút) là RPO.",
       "Sai. MTBF và KPI không mô tả khôi phục sau sự cố.",
-      "Sai. SLA và KRI không phải chỉ tiêu khôi phục.",
+      "Sai. SLA là cam kết mức dịch vụ, KRI là chỉ số cảnh báo rủi ro; cả hai không đo thời gian khôi phục hay lượng dữ liệu bị mất.",
       "Đúng. 2 giờ là RTO, 15 phút dữ liệu là RPO."
     ],
     "refs": [
@@ -2399,15 +2399,15 @@
       "Rủi ro hoạt động, vì liên quan đến việc vận hành cửa hàng hằng ngày.",
       "Rủi ro tuân thủ, vì liên quan đến quy định về thương mại điện tử.",
       "Rủi ro chiến lược, vì đe dọa mô hình kinh doanh và khả năng đạt mục tiêu dài hạn.",
-      "Rủi ro tài chính, vì liên quan đến biến động lãi suất vay ngân hàng."
+      "Rủi ro tài chính, vì doanh thu giảm làm dòng tiền và lợi nhuận suy yếu."
     ],
     "answer": 2,
     "explanation": "Rủi ro chiến lược phát sinh từ thay đổi môi trường kinh doanh, đối thủ, công nghệ làm mô hình hoặc chiến lược hiện tại mất hiệu lực. Ở đây thị trường dịch chuyển đe dọa chính mô hình kinh doanh.",
     "optionNotes": [
-      "Sai. Vận hành cửa hàng không phải nguồn rủi ro.",
-      "Sai. Không có vấn đề tuân thủ quy định.",
+      "Sai. Cửa hàng vẫn vận hành bình thường; nguồn rủi ro là thị trường dịch chuyển làm mô hình kinh doanh hiện tại mất sức cạnh tranh.",
+      "Sai. Đề bài không nêu vi phạm hay quy định mới nào; khách bỏ đi vì đối thủ có mô hình rẻ hơn, đó là rủi ro chiến lược.",
       "Đúng. Thay đổi thị trường đe dọa chiến lược và mô hình kinh doanh.",
-      "Sai. Không liên quan đến lãi suất."
+      "Sai. Doanh thu và dòng tiền giảm là hệ quả; nguồn gốc là thị trường dịch chuyển làm mô hình kinh doanh mất hiệu lực, tức rủi ro chiến lược."
     ],
     "refs": [
       "CIA Part 1 C.4"
@@ -2422,7 +2422,7 @@
     "stem": "Một video quay cảnh nhân viên nhà hàng vi phạm vệ sinh thực phẩm lan truyền trên mạng xã hội, doanh thu toàn chuỗi giảm 30% trong một tuần. Hậu quả nổi bật nhất thuộc loại rủi ro nào?",
     "options": [
       "Rủi ro môi trường, vì liên quan đến việc xử lý chất thải của nhà hàng.",
-      "Rủi ro tài chính, vì liên quan đến biến động tỷ giá ngoại tệ của chuỗi.",
+      "Rủi ro hoạt động, vì nhân viên không tuân thủ quy trình vệ sinh thực phẩm.",
       "Rủi ro chiến lược, vì chuỗi đã lựa chọn sai thị trường mục tiêu ban đầu.",
       "Rủi ro uy tín, ảnh hưởng đến niềm tin của khách hàng với thương hiệu."
     ],
@@ -2430,7 +2430,7 @@
     "explanation": "Rủi ro uy tín là khả năng mất niềm tin của khách hàng, đối tác, công chúng, thường lan rộng nhanh qua mạng xã hội. Nguyên nhân gốc là rủi ro hoạt động (vệ sinh), nhưng hậu quả nổi bật là uy tín.",
     "optionNotes": [
       "Sai. Vệ sinh thực phẩm không phải vấn đề chất thải môi trường.",
-      "Sai. Không liên quan đến tỷ giá.",
+      "Sai. Vi phạm vệ sinh là nguyên nhân gốc (rủi ro hoạt động), nhưng câu hỏi hỏi về hậu quả nổi bật: niềm tin khách hàng sụt giảm, tức rủi ro uy tín.",
       "Sai. Không có dấu hiệu lựa chọn sai thị trường.",
       "Đúng. Mất niềm tin của khách hàng là rủi ro uy tín."
     ],
@@ -2711,10 +2711,10 @@
     "answer": 2,
     "explanation": "Kiểm soát ứng dụng tự động (kiểm tra trùng khi nhập) ngăn lỗi ngay từ đầu với chi phí thấp. Rà soát cuối quý hay dựa vào khách hàng là phát hiện muộn; kỷ luật không ngăn được lỗi vô ý.",
     "optionNotes": [
-      "Sai. Kỷ luật không ngăn lỗi vô ý.",
-      "Sai. Phát hiện muộn sau khi đã giao hàng.",
+      "Sai. Kỷ luật xử lý sau khi lỗi đã xảy ra và không ngăn được lỗi vô ý; kiểm soát tự động ngay khi nhập liệu hiệu quả hơn.",
+      "Sai. Rà soát cuối quý là kiểm soát phát hiện muộn, khi hàng đã giao và hóa đơn đã xuất hai lần.",
       "Đúng. Kiểm soát phòng ngừa tự động tại khâu nhập.",
-      "Sai. Dựa vào khách hàng là không chủ động."
+      "Sai. Dựa vào khách hàng để phát hiện lỗi là bị động và làm giảm uy tín; kiểm soát phải nằm trong quy trình của công ty."
     ],
     "refs": [
       "CIA Part 1 C.7"
@@ -2908,7 +2908,7 @@
     "stem": "Ủy ban Kiểm toán của một công ty niêm yết gồm ba người: Giám đốc tài chính, Phó Tổng Giám đốc kinh doanh và một thành viên HĐQT độc lập không có chuyên môn tài chính. Điểm yếu lớn nhất về quản trị là gì?",
     "options": [
       "Số thành viên của Ủy ban Kiểm toán quá ít so với quy mô công ty.",
-      "Ủy ban Kiểm toán không có thành viên đến từ cơ quan nhà nước.",
+      "Chủ tịch Ủy ban Kiểm toán không đồng thời là Chủ tịch HĐQT.",
       "Thiếu tính độc lập và thiếu chuyên môn tài chính - kế toán.",
       "Ủy ban Kiểm toán họp quá thường xuyên với kiểm toán nội bộ."
     ],
@@ -2916,9 +2916,9 @@
     "explanation": "Thông lệ quản trị tốt yêu cầu Ủy ban Kiểm toán gồm các thành viên độc lập, không điều hành, và có ít nhất một người có chuyên môn tài chính - kế toán. Người điều hành ngồi trong Ủy ban thì tự giám sát công việc của chính mình.",
     "optionNotes": [
       "Sai. Ba thành viên có thể đủ nếu độc lập và có năng lực.",
-      "Sai. Không phải yêu cầu của thông lệ quản trị.",
+      "Sai. Không có yêu cầu Chủ tịch HĐQT làm Chủ tịch Ủy ban Kiểm toán; điều quan trọng là thành viên độc lập và có chuyên môn tài chính.",
       "Đúng. Thiếu độc lập và chuyên môn là điểm yếu chính.",
-      "Sai. Họp thường xuyên là điều tốt."
+      "Sai. Ủy ban Kiểm toán họp thường xuyên với kiểm toán nội bộ là thông lệ tốt, giúp giám sát hữu hiệu; đây không phải điểm yếu."
     ],
     "refs": [
       "CIA Part 1 C.1"
@@ -2993,7 +2993,7 @@
       "Sai. Hoạt động kiểm soát là các chính sách, thủ tục cụ thể.",
       "Đúng. Năng lực và trách nhiệm giải trình là nguyên tắc 4 và 5.",
       "Sai. Thông tin và truyền thông là nguyên tắc 13-15.",
-      "Sai. Giám sát là nguyên tắc 16-17."
+      "Sai. Hoạt động giám sát (nguyên tắc 16-17) là đánh giá liên tục và định kỳ các kiểm soát; năng lực và trách nhiệm giải trình thuộc môi trường kiểm soát."
     ],
     "refs": [
       "COSO 2013",
@@ -3134,17 +3134,17 @@
     "difficulty": 2,
     "stem": "Một nhà cung cấp gia công của hãng thời trang bị báo chí phát hiện sử dụng lao động trẻ em. Đối với hãng thời trang, đây là ví dụ rõ nhất của loại rủi ro nào?",
     "options": [
-      "Rủi ro chiến lược do lựa chọn sai dòng sản phẩm.",
+      "Rủi ro tuân thủ, vì chính hãng thời trang vi phạm luật lao động.",
       "Rủi ro tài chính do biến động giá nguyên liệu vải.",
-      "Rủi ro hoạt động do máy móc nhà xưởng hỏng hóc.",
+      "Rủi ro hoạt động, vì nhà cung cấp có thể bị đình chỉ sản xuất.",
       "Rủi ro trách nhiệm xã hội trong chuỗi cung ứng."
     ],
     "answer": 3,
     "explanation": "Vi phạm quyền lao động ở nhà cung cấp là rủi ro môi trường, bền vững và trách nhiệm xã hội (phần xã hội), có thể kéo theo rủi ro uy tín cho hãng dù hãng không trực tiếp sử dụng lao động đó.",
     "optionNotes": [
-      "Sai. Không liên quan đến lựa chọn sản phẩm.",
-      "Sai. Không liên quan đến giá nguyên liệu.",
-      "Sai. Không liên quan đến máy móc.",
+      "Sai. Hãng không trực tiếp sử dụng lao động trẻ em; vi phạm nằm ở nhà cung cấp, nên với hãng đây là rủi ro trách nhiệm xã hội trong chuỗi cung ứng.",
+      "Sai. Giá nguyên liệu không liên quan đến sự việc; vấn đề là vi phạm quyền lao động ở nhà cung cấp.",
+      "Sai. Gián đoạn sản xuất chỉ là hệ quả có thể xảy ra; bản chất sự việc là vi phạm quyền lao động trong chuỗi cung ứng, kéo theo rủi ro uy tín.",
       "Đúng. Rủi ro trách nhiệm xã hội trong chuỗi cung ứng."
     ],
     "refs": [
@@ -3218,8 +3218,8 @@
     "answer": 2,
     "explanation": "Thuê ngoài là chia sẻ rủi ro: nhà cung cấp vận hành, nhưng công ty vẫn chịu trách nhiệm giải trình với khách hàng, cơ quan quản lý và phải giám sát nhà cung cấp. Điều khoản phạt chỉ bù đắp một phần thiệt hại.",
     "optionNotes": [
-      "Sai. Trách nhiệm giải trình không chuyển được.",
-      "Sai. Quá tuyệt đối.",
+      "Sai. Thuê ngoài chỉ chuyển việc vận hành; trách nhiệm giải trình với khách hàng và cơ quan quản lý vẫn thuộc công ty.",
+      "Sai. Thuê ngoài không làm rủi ro tăng gấp đôi một cách tất yếu; nó đổi dạng rủi ro (phụ thuộc nhà cung cấp) và vẫn cần được giám sát.",
       "Đúng. Chia sẻ một phần, vẫn chịu trách nhiệm.",
       "Sai. Tiền phạt không chuyển được trách nhiệm."
     ],
@@ -3262,7 +3262,7 @@
     "stem": "Sổ đăng ký rủi ro của công ty liệt kê 150 rủi ro với điểm số chi tiết, nhưng không rủi ro nào được gắn với mục tiêu chiến lược hay mục tiêu hoạt động cụ thể. Hạn chế chính trong thiết kế là gì?",
     "options": [
       "Khó xác định rủi ro nào quan trọng với mục tiêu để ưu tiên ứng phó.",
-      "Sổ đăng ký có quá nhiều rủi ro nên khó in ấn và lưu trữ.",
+      "Danh sách quá dài nên cần rút gọn còn khoảng 20 rủi ro chính.",
       "Thang điểm chi tiết làm việc đánh giá rủi ro thiếu chính xác.",
       "Sổ đăng ký cần được kiểm toán độc lập xác nhận hằng năm."
     ],
@@ -3270,9 +3270,9 @@
     "explanation": "Rủi ro là ảnh hưởng của sự không chắc chắn đến mục tiêu. Không gắn rủi ro với mục tiêu thì không đánh giá được mức quan trọng, khó ưu tiên ứng phó và phân bổ nguồn lực.",
     "optionNotes": [
       "Đúng. Thiếu liên kết với mục tiêu.",
-      "Sai. Số lượng không phải hạn chế chính.",
-      "Sai. Thang điểm chi tiết không phải vấn đề.",
-      "Sai. Không phải yêu cầu."
+      "Sai. Rút gọn danh sách không giải quyết vấn đề gốc: rủi ro chưa gắn với mục tiêu thì vẫn không biết rủi ro nào quan trọng để ưu tiên.",
+      "Sai. Thang điểm chi tiết không làm sai kết quả; điểm số chỉ có ý nghĩa khi biết rủi ro ảnh hưởng tới mục tiêu nào.",
+      "Sai. Không có yêu cầu kiểm toán độc lập xác nhận sổ đăng ký rủi ro; trách nhiệm thiết kế và duy trì thuộc Ban điều hành."
     ],
     "refs": [
       "ISO 31000:2018",
@@ -3296,9 +3296,9 @@
     "answer": 1,
     "explanation": "Kiểm soát khắc phục sửa chữa hậu quả sau khi sự cố đã xảy ra và được phát hiện, như khôi phục dữ liệu từ bản sao lưu. Mật khẩu là phòng ngừa, báo cáo ngoại lệ là phát hiện, đào tạo là kiểm soát hướng dẫn.",
     "optionNotes": [
-      "Sai. Đây là kiểm soát phòng ngừa.",
+      "Sai. Mật khẩu mạnh ngăn truy cập trái phép trước khi xảy ra, nên là kiểm soát phòng ngừa, không phải khắc phục.",
       "Đúng. Khắc phục hậu quả sau sự cố.",
-      "Sai. Đây là kiểm soát phát hiện.",
+      "Sai. Báo cáo ngoại lệ giúp nhận ra giao dịch bất thường sau khi phát sinh, nên là kiểm soát phát hiện; nó chưa sửa hậu quả.",
       "Sai. Đây là kiểm soát hướng dẫn (directive)."
     ],
     "refs": [
@@ -3346,7 +3346,7 @@
     "answer": 3,
     "explanation": "Để kết luận cho cả năm, mẫu cần đại diện cho toàn kỳ. Chỉ chọn một tháng không chứng minh kiểm soát vận hành trong các tháng khác; mẫu do người được kiểm toán chọn có thể bị thiên lệch.",
     "optionNotes": [
-      "Sai. Không đại diện cho cả năm.",
+      "Sai. Mẫu chỉ trong một tháng không cho biết kiểm soát có vận hành ở các tháng khác, nên không đủ để kết luận cho cả năm.",
       "Sai. Không đại diện và bỏ qua giao dịch rủi ro.",
       "Sai. Người được kiểm toán chọn mẫu gây thiên lệch.",
       "Đúng. Mẫu trải đều cả kỳ."
@@ -3423,9 +3423,9 @@
     "answer": 3,
     "explanation": "Chương trình đạo đức chỉ hiệu quả khi người lao động hiểu và tiếp cận được quy tắc ứng xử. Ngôn ngữ và kênh truyền đạt không phù hợp làm quy tắc mất tác dụng với phần lớn nhân viên.",
     "optionNotes": [
-      "Sai. Không có thông tin về việc phê duyệt.",
-      "Sai. Không phải điểm yếu chính được nêu.",
-      "Sai. Độ dài không phải vấn đề.",
+      "Sai. Đề bài không nêu việc phê duyệt; điểm yếu được mô tả là công nhân không đọc được và không nhận được quy tắc.",
+      "Sai. Thiếu bộ phận pháp chế không phải điều đề bài nêu; vấn đề là quy tắc không đến được người lao động.",
+      "Sai. Độ dài không quyết định hiệu quả; quy tắc ngắn vẫn hiệu quả nếu người lao động đọc và hiểu được.",
       "Đúng. Truyền đạt không đến được người lao động."
     ],
     "refs": [
@@ -3449,9 +3449,9 @@
     "explanation": "Các rủi ro có liên hệ với nhau: sự cố hoạt động (lỗi nâng cấp) dẫn tới rủi ro uy tín (phản ứng của khách hàng) và tài chính (bồi thường). Đánh giá rủi ro cần xem xét mối liên hệ này thay vì xem từng loại riêng lẻ.",
     "optionNotes": [
       "Đúng. Rủi ro hoạt động lan sang uy tín và tài chính.",
-      "Sai. Bỏ qua các hệ quả liên đới.",
-      "Sai. Không có thông tin về lựa chọn chiến lược.",
-      "Sai. Chỉ là một khía cạnh nhỏ."
+      "Sai. Bỏ qua mối liên hệ giữa các rủi ro: sự cố hoạt động đã kéo theo phản ứng của khách hàng (uy tín) và tiền bồi thường (tài chính).",
+      "Sai. Đề bài không nói gì về việc chọn nhà cung cấp; nguồn gốc là lỗi nâng cấp hệ thống, tức rủi ro hoạt động.",
+      "Sai. Vi phạm cam kết dịch vụ chỉ là một khía cạnh; mô tả đúng nhất phải thấy chuỗi hệ quả từ hoạt động sang uy tín và tài chính."
     ],
     "refs": [
       "CIA Part 1 C.4",
@@ -3464,21 +3464,22 @@
     "section": "C",
     "topic": "C4",
     "difficulty": 2,
-    "stem": "Nhân viên pháp chế dán nội dung hợp đồng của khách hàng vào một công cụ trí tuệ nhân tạo miễn phí trên mạng để tóm tắt nhanh. Rủi ro chính cần quan tâm là gì?",
+    "stem": "Bộ phận chăm sóc khách hàng đưa một chatbot trí tuệ nhân tạo vào trả lời khách về điều kiện bảo hành, không có người rà soát câu trả lời trước khi gửi. Rủi ro chính cần quan tâm là gì?",
     "options": [
-      "Bản tóm tắt có thể dài hơn so với mong muốn của người dùng.",
-      "Lộ thông tin bảo mật của khách hàng và vi phạm nghĩa vụ bảo mật.",
-      "Nhân viên tiết kiệm được quá nhiều thời gian làm việc.",
-      "Công cụ có giao diện bằng tiếng nước ngoài."
+      "Chi phí bản quyền chatbot vượt ngân sách năm của bộ phận chăm sóc khách hàng.",
+      "Chatbot trả lời sai điều kiện bảo hành, gây khiếu nại và tranh chấp với khách hàng.",
+      "Nhân viên chăm sóc khách hàng lo ngại bị thay thế nên giảm động lực làm việc.",
+      "Khách hàng phải chờ lâu hơn khi chatbot quá tải vào các giờ cao điểm trong ngày."
     ],
     "answer": 1,
-    "explanation": "Đưa dữ liệu bảo mật vào công cụ bên ngoài không được kiểm soát có thể làm lộ thông tin khách hàng, vi phạm hợp đồng và quy định về dữ liệu. Đây là rủi ro mới nổi cần chính sách và kiểm soát sử dụng công nghệ.",
+    "explanation": "Công cụ trí tuệ nhân tạo tạo sinh có thể đưa ra câu trả lời nghe hợp lý nhưng sai. Khi không có người rà soát, câu trả lời sai về điều kiện bảo hành trở thành cam kết với khách hàng, dẫn tới khiếu nại, tranh chấp và ảnh hưởng uy tín. Đây là rủi ro mới nổi cần kiểm soát như giới hạn phạm vi trả lời, rà soát mẫu và kênh chuyển sang nhân viên.",
     "optionNotes": [
-      "Sai. Không phải rủi ro đáng kể.",
-      "Đúng. Lộ dữ liệu bảo mật và vi phạm nghĩa vụ.",
-      "Sai. Đây là lợi ích, không phải rủi ro.",
-      "Sai. Không phải rủi ro chính."
+      "Sai. Chi phí là vấn đề ngân sách có thể dự tính trước; rủi ro chính đến từ nội dung trả lời sai khi không có người kiểm tra.",
+      "Đúng. Câu trả lời sai không được rà soát trở thành cam kết với khách, gây khiếu nại, tranh chấp và ảnh hưởng uy tín.",
+      "Sai. Tâm lý nhân viên là vấn đề quản trị nhân sự cần quan tâm, nhưng không phải rủi ro chính của việc để chatbot trả lời mà không rà soát.",
+      "Sai. Thời gian chờ là vấn đề công suất, có thể xử lý bằng hạ tầng; rủi ro lớn hơn là thông tin sai được gửi tới khách hàng."
     ],
+    "trap": "Coi chi phí hay công suất là rủi ro chính của AI, bỏ qua việc nội dung sai được gửi đi khi không có người rà soát.",
     "refs": [
       "CIA Part 1 C.4"
     ],
@@ -3646,15 +3647,15 @@
       "Sơ đồ tổ chức và bảng mô tả công việc của các phòng ban.",
       "Các giá trị, niềm tin và hành vi chung định hình cách mọi người làm việc.",
       "Bộ quy chế, quy trình được Ban điều hành ban hành bằng văn bản chính thức.",
-      "Các hoạt động văn nghệ, thể thao do công đoàn tổ chức."
+      "Khẩu hiệu và tuyên bố sứ mệnh được treo tại các văn phòng."
     ],
     "answer": 1,
     "explanation": "Văn hóa tổ chức là tập hợp giá trị, niềm tin, thái độ và hành vi chung, ảnh hưởng đến cách nhân viên ra quyết định và hành xử. Văn hóa là nền tảng của môi trường kiểm soát, khác với cơ cấu hay quy chế bằng văn bản.",
     "optionNotes": [
-      "Sai. Đó là cơ cấu tổ chức.",
+      "Sai. Sơ đồ tổ chức và mô tả công việc là cơ cấu tổ chức; văn hóa là giá trị và hành vi chung, không nằm trên sơ đồ.",
       "Đúng. Giá trị, niềm tin và hành vi chung.",
-      "Sai. Đó là các kiểm soát chính thức.",
-      "Sai. Đó chỉ là hoạt động phong trào."
+      "Sai. Quy chế bằng văn bản là kiểm soát chính thức; văn hóa là cách mọi người thực sự hành xử, có thể khác với quy chế.",
+      "Sai. Khẩu hiệu chỉ là giá trị được tuyên bố; văn hóa thể hiện qua giá trị, niềm tin và hành vi mà mọi người thực sự chia sẻ."
     ],
     "refs": [
       "CIA Part 1 C.2"
@@ -3702,8 +3703,8 @@
     "explanation": "Rủi ro còn lại phản ánh rủi ro sau khi tính đến kiểm soát, nên dựa trên giả định kiểm soát hoạt động hữu hiệu. Nếu chỉ dựa vào đó, quy trình có rủi ro tiềm tàng cao nhưng kiểm soát yếu (chưa được kiểm chứng) có thể bị bỏ sót.",
     "optionNotes": [
       "Sai. Rủi ro còn lại thường thấp hơn rủi ro tiềm tàng.",
-      "Sai. Áp dụng cho mọi loại rủi ro.",
-      "Sai. Ban điều hành có trách nhiệm đánh giá rủi ro.",
+      "Sai. Khái niệm rủi ro còn lại áp dụng cho mọi loại rủi ro (hoạt động, tuân thủ, chiến lược...), không chỉ rủi ro tài chính.",
+      "Sai. Ban điều hành có trách nhiệm đánh giá rủi ro; vấn đề là kết quả đó dựa trên giả định kiểm soát hữu hiệu chưa được kiểm chứng.",
       "Đúng. Hiệu quả kiểm soát cần được kiểm chứng."
     ],
     "refs": [
@@ -3778,10 +3779,10 @@
     "answer": 2,
     "explanation": "Rủi ro mới nổi thường chưa từng gây sự cố. Rà soát định kỳ xu hướng công nghệ, pháp lý, thị trường, xã hội và tham khảo ý kiến chuyên gia giúp nhận diện sớm trước khi rủi ro xảy ra.",
     "optionNotes": [
-      "Sai. Chỉ nhìn lại quá khứ.",
-      "Sai. Không đặc thù cho công ty.",
+      "Sai. Sự cố đã xảy ra chỉ phản ánh rủi ro quá khứ; rủi ro mới nổi thường chưa từng gây sự cố nên cần quét xu hướng bên ngoài.",
+      "Sai. Sổ rủi ro của đối thủ không phản ánh mục tiêu, mô hình kinh doanh và bối cảnh riêng của công ty.",
       "Đúng. Quét xu hướng bên ngoài và ý kiến chuyên gia.",
-      "Sai. Bị động và chậm."
+      "Sai. Chờ quy định mới là bị động và chậm; nhiều rủi ro mới nổi (công nghệ, thị trường) xuất hiện trước khi có quy định."
     ],
     "refs": [
       "CIA Part 1 C.5",
@@ -3879,8 +3880,8 @@
     "answer": 2,
     "explanation": "Ma trận rủi ro - kiểm soát giúp nhận diện rủi ro chưa có kiểm soát. Rủi ro đáng kể không có kiểm soát tương ứng là khiếm khuyết thiết kế; kiểm toán viên cần xác nhận qua trao đổi và kiểm tra, rồi kiến nghị khắc phục.",
     "optionNotes": [
-      "Sai. Rủi ro tín dụng khách hàng thường đáng kể.",
-      "Sai. Không có cơ sở để giả định.",
+      "Sai. Giao hàng vượt hạn mức tín dụng có thể gây nợ khó đòi lớn; không có cơ sở để coi rủi ro này là không đáng kể.",
+      "Sai. Kiểm toán viên không được giả định có kiểm soát khi chưa có bằng chứng; cần xác nhận qua trao đổi và kiểm tra.",
       "Đúng. Khoảng trống thiết kế.",
       "Sai. Không có kiểm soát thì không có gì để kiểm tra vận hành."
     ],
@@ -3904,9 +3905,9 @@
     "answer": 3,
     "explanation": "Thiết kế kiểm soát cần xác định người thực hiện có đủ năng lực, thẩm quyền và có tiêu chí rõ ràng. Giao cho người thiếu chuyên môn, không có danh mục kiểm tra thì kiểm soát khó phát hiện điều khoản bất lợi.",
     "optionNotes": [
-      "Sai. Có người được giao chưa đủ.",
-      "Sai. HĐQT không rà soát từng hợp đồng.",
-      "Sai. Thiết kế yếu thì kiểm tra vận hành ít ý nghĩa.",
+      "Sai. Có người được giao chưa đủ; thiết kế phải bảo đảm người thực hiện có năng lực và có tiêu chí rà soát rõ ràng.",
+      "Sai. HĐQT giám sát ở cấp chiến lược, không rà soát từng hợp đồng; vấn đề là người được giao thiếu năng lực và tiêu chí.",
+      "Sai. Thiết kế đã yếu thì kiểm tra vận hành ít ý nghĩa: kiểm soát chạy đúng như thiết kế vẫn không phát hiện được điều khoản bất lợi.",
       "Đúng. Thiếu năng lực và tiêu chí."
     ],
     "refs": [
