@@ -22,6 +22,7 @@
     "refs": [
       "IPPF - Topical Requirements"
     ],
+    "trap": "Coi Yêu cầu theo chủ đề là hướng dẫn tham khảo, trong khi chúng bắt buộc khi chủ đề nằm trong phạm vi cuộc kiểm toán.",
     "source": "original"
   },
   {
@@ -48,6 +49,7 @@
       "GIAS 6.1",
       "GIAS - Public Sector"
     ],
+    "trap": "Cho rằng khu vực công không áp dụng được GIAS vì không có HĐQT đúng nghĩa.",
     "source": "original"
   },
   {
@@ -73,6 +75,7 @@
     "refs": [
       "GIAS - Fundamentals"
     ],
+    "trap": "Nghĩ kiểm toán nội bộ chỉ phục vụ HĐQT và cổ đông, bỏ qua đóng góp cho lợi ích công chúng.",
     "source": "original"
   },
   {
@@ -123,6 +126,7 @@
     "refs": [
       "GIAS Domain I"
     ],
+    "trap": "Nhầm mục đích của kiểm toán nội bộ với việc phát hiện sai phạm hoặc xác nhận báo cáo tài chính.",
     "source": "original"
   },
   {
@@ -148,6 +152,7 @@
     "refs": [
       "GIAS - Fundamentals"
     ],
+    "trap": "Coi phần Xem xét khi thực hiện là bắt buộc như phần Yêu cầu.",
     "source": "original"
   },
   {
@@ -167,6 +172,7 @@
     "refs": [
       "GIAS - Applying the Standards"
     ],
+    "trap": "Cho rằng GIAS có hiệu lực cao hơn luật quốc gia.",
     "source": "original",
     "optionNotes": [
       "Đúng. GIAS 4.1: nếu luật ngăn tuân thủ một phần, vẫn phải tuân thủ mọi phần khác và công bố phù hợp.",
@@ -199,6 +205,7 @@
       "GIAS 6.1",
       "GIAS 7.1"
     ],
+    "trap": "Coi kiểm tra trước khi thanh toán là kiểm soát hữu ích nên nhận, bỏ qua việc nó làm suy giảm độc lập.",
     "source": "original"
   },
   {
@@ -224,6 +231,7 @@
     "refs": [
       "GIAS 6.1"
     ],
+    "trap": "Cho rằng CAE tự quyết định nhiệm vụ, trong khi HĐQT xác lập nhiệm vụ và CAE cung cấp thông tin.",
     "source": "original"
   },
   {
@@ -251,6 +259,7 @@
       "GIAS 13.6",
       "GIAS 15.1"
     ],
+    "trap": "Nhầm vai trò giám sát của HĐQT với việc can thiệp vào từng cuộc kiểm toán.",
     "source": "original"
   },
   {
@@ -271,6 +280,7 @@
       "GIAS 6.1",
       "GIAS 6.2"
     ],
+    "trap": "Cho rằng khi luật đã quy định thì không cần quy chế hoặc không cần tuân thủ GIAS nữa.",
     "source": "original",
     "optionNotes": [
       "Đúng. GIAS 6.1-6.2: mandate có thể đến từ luật; CAE vẫn trao đổi với HĐQT và ghi nhận trong quy chế.",
@@ -302,6 +312,7 @@
     "refs": [
       "GIAS 7.1"
     ],
+    "trap": "Nhầm quan hệ báo cáo hành chính cho Tổng Giám đốc với quyền miễn nhiệm CAE.",
     "source": "original"
   },
   {
@@ -327,6 +338,7 @@
     "refs": [
       "GIAS 6.2"
     ],
+    "trap": "Nhầm nội dung bắt buộc của quy chế với nội dung của kế hoạch kiểm toán.",
     "source": "original"
   },
   {
@@ -352,6 +364,7 @@
     "refs": [
       "GIAS 6.2"
     ],
+    "trap": "Cho rằng loại Ban điều hành khỏi việc soạn quy chế giúp bảo vệ tính độc lập.",
     "source": "original"
   },
   {
@@ -378,6 +391,7 @@
       "GIAS 6.2",
       "GIAS 6.3"
     ],
+    "trap": "Dựa vào văn bản riêng cho từng cuộc kiểm toán thay vì quyền tiếp cận đã được HĐQT phê duyệt trong quy chế.",
     "source": "original"
   },
   {
@@ -431,6 +445,7 @@
       "GIAS - Glossary",
       "CIA Part 1 A.4"
     ],
+    "trap": "Phân loại dịch vụ theo tên gọi hoặc người đề nghị, thay vì theo bản chất công việc.",
     "source": "original"
   },
   {
@@ -457,6 +472,7 @@
       "GIAS - Glossary",
       "CIA Part 1 A.4"
     ],
+    "trap": "Cho rằng Ủy ban cần kết luận dứt khoát nên luôn đưa đảm bảo hợp lý, dù thủ tục chỉ đủ cho đảm bảo có giới hạn.",
     "source": "original"
   },
   {
@@ -476,6 +492,7 @@
     "refs": [
       "GIAS 13.3"
     ],
+    "trap": "Nhầm tư vấn với đảm bảo, hoặc cho rằng kiểm toán viên được sở hữu quy trình mình đã tư vấn.",
     "source": "original",
     "optionNotes": [
       "Sai. Hỗ trợ thiết kế theo yêu cầu không phải dịch vụ đảm bảo.",
@@ -502,6 +519,7 @@
       "GIAS 4.2",
       "GIAS 11.3"
     ],
+    "trap": "Cho rằng vấn đề ngoài phạm vi tư vấn đã thỏa thuận thì có thể bỏ qua.",
     "source": "original",
     "optionNotes": [
       "Sai. Thận trọng nghề nghiệp đòi hỏi không bỏ qua rủi ro đáng kể, kể cả ngoài phạm vi.",
@@ -533,6 +551,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Chọn loại kiểm toán theo nơi lưu dữ liệu thay vì theo mục tiêu là đáp ứng nghĩa vụ pháp lý.",
     "source": "original"
   },
   {
@@ -583,6 +602,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Chọn kiểm toán tuân thủ định mức, trong khi câu hỏi về tính kinh tế và hiệu suất là kiểm toán hoạt động.",
     "source": "original"
   },
   {
@@ -608,6 +628,7 @@
     "refs": [
       "GIAS 2.2"
     ],
+    "trap": "Coi việc phê duyệt hoặc vận hành thay cho quản lý là một dạng tư vấn.",
     "source": "original"
   },
   {
@@ -627,6 +648,7 @@
     "refs": [
       "GIAS 2.2"
     ],
+    "trap": "Cho rằng mọi hình thức tham gia dự án đều làm mất độc lập, hoặc ngược lại cần quyền biểu quyết.",
     "source": "original",
     "optionNotes": [
       "Sai. Quyền biểu quyết biến kiểm toán viên thành người ra quyết định.",
@@ -659,6 +681,7 @@
       "GIAS - Glossary",
       "CIA Part 1 A.6"
     ],
+    "trap": "Cho rằng việc nằm trong phạm vi cuộc tư vấn thì kiểm toán viên được làm thay công việc của quản lý.",
     "source": "original"
   },
   {
@@ -685,6 +708,7 @@
       "GIAS 14.6",
       "GIAS 15.1"
     ],
+    "trap": "Cho rằng yêu cầu về hồ sơ và phê duyệt báo cáo chỉ áp dụng cho dịch vụ đảm bảo.",
     "source": "original"
   },
   {
@@ -710,6 +734,7 @@
     "refs": [
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng giữ kênh báo cáo chức năng là đủ, bỏ qua ảnh hưởng qua kênh báo cáo hành chính.",
     "source": "original"
   },
   {
@@ -761,6 +786,7 @@
       "GIAS 7.1",
       "GIAS 2.2"
     ],
+    "trap": "Nhầm suy giảm khách quan của cá nhân với suy giảm độc lập của bộ phận kiểm toán nội bộ.",
     "source": "original"
   },
   {
@@ -782,6 +808,7 @@
       "GIAS 9.4",
       "GIAS 8.1"
     ],
+    "trap": "Cho rằng Ban điều hành được loại lĩnh vực rủi ro cao khỏi kế hoạch mà không cần báo HĐQT.",
     "source": "original",
     "optionNotes": [
       "Sai. Để Ban điều hành quyết định phạm vi là giới hạn độc lập.",
@@ -814,6 +841,7 @@
       "GIAS 7.1",
       "GIAS 8.1"
     ],
+    "trap": "Cho rằng Ban điều hành có quyền dự mọi buổi làm việc giữa CAE và Ủy ban Kiểm toán.",
     "source": "original"
   },
   {
@@ -839,6 +867,7 @@
     "refs": [
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng sự việc đã giải quyết xong thì không cần nêu khi xác nhận tính độc lập.",
     "source": "original"
   },
   {
@@ -889,6 +918,7 @@
     "refs": [
       "GIAS 7.2"
     ],
+    "trap": "Cho rằng CAE báo cáo hành chính cho Tổng Giám đốc nên Tổng Giám đốc đặt tiêu chuẩn tuyển CAE.",
     "source": "original"
   },
   {
@@ -909,6 +939,7 @@
       "GIAS 7.1",
       "GIAS 2.2"
     ],
+    "trap": "Cho rằng chứng chỉ hoặc cam kết khách quan bù được việc tự kiểm toán và báo cáo cho bên bị kiểm toán.",
     "source": "original",
     "optionNotes": [
       "Sai. Không có miễn trừ yêu cầu độc lập cho công ty nhỏ.",
@@ -940,6 +971,7 @@
     "refs": [
       "IIA Three Lines Model"
     ],
+    "trap": "Cho rằng bộ phận rủi ro báo cáo trực tiếp HĐQT thì trở thành tuyến thứ ba.",
     "source": "original"
   },
   {
@@ -960,6 +992,7 @@
       "GIAS 9.1",
       "IIA Position Paper on ERM"
     ],
+    "trap": "Cho rằng điều phối hội thảo đánh giá rủi ro là vai trò kiểm toán nội bộ không được làm.",
     "source": "original",
     "optionNotes": [
       "Sai. Đánh giá hiệu quả quy trình ERM là vai trò cốt lõi của kiểm toán nội bộ.",
@@ -986,6 +1019,7 @@
       "GIAS 2.2",
       "IIA Position Paper on ERM"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ không được tham gia bất kỳ hoạt động quản trị rủi ro nào.",
     "source": "original",
     "optionNotes": [
       "Sai. Kiểm toán nội bộ có thể tư vấn về ERM nếu có biện pháp bảo vệ.",
@@ -1036,6 +1070,7 @@
     "refs": [
       "GIAS 11.5"
     ],
+    "trap": "Báo ra bên ngoài ngay, bỏ qua bước trao đổi với Ban điều hành rồi mới báo HĐQT.",
     "source": "original",
     "optionNotes": [
       "Đúng. GIAS 11.5: thảo luận với Ban điều hành trước; nếu không giải quyết được, báo cáo HĐQT.",
@@ -1067,6 +1102,7 @@
     "refs": [
       "IIA Three Lines Model"
     ],
+    "trap": "Nhầm vai trò của HĐQT với vai trò của tuyến thứ hai hoặc thứ ba trong Mô hình Ba Tuyến.",
     "source": "original"
   },
   {
@@ -1094,6 +1130,7 @@
       "GIAS 15.1",
       "GIAS 4.1"
     ],
+    "trap": "Cho rằng kết luận vẫn đúng thì không cần công bố việc không tuân thủ trong báo cáo.",
     "source": "original"
   },
   {
@@ -1144,6 +1181,7 @@
     "refs": [
       "GIAS 9.5"
     ],
+    "trap": "Cho rằng phối hợp với các bên đảm bảo khác là không bắt buộc.",
     "source": "original"
   },
   {
@@ -1164,6 +1202,7 @@
       "GIAS 13.3",
       "GIAS 14.5"
     ],
+    "trap": "Đưa ý kiến về hiệu quả vận hành khi mới có thiết kế, chưa có dữ liệu vận hành.",
     "source": "original",
     "optionNotes": [
       "Sai. Chưa có bằng chứng vận hành thì không thể kết luận hiệu quả vận hành.",
@@ -1216,6 +1255,7 @@
       "GIAS 2.1",
       "GIAS 7.1"
     ],
+    "trap": "Đảo ngược hai khái niệm: độc lập thuộc bộ phận, khách quan thuộc cá nhân.",
     "source": "original",
     "optionNotes": [
       "Sai. Định nghĩa bị đảo ngược: độc lập gắn với vị trí tổ chức của bộ phận kiểm toán nội bộ, còn khách quan là thái độ không thiên lệch của từng kiểm toán viên.",
@@ -1272,6 +1312,7 @@
     "refs": [
       "GIAS 9.1"
     ],
+    "trap": "Đánh giá quản trị rủi ro theo hình thức (đúng hạn, đủ chữ ký) thay vì kết quả nhận diện rủi ro.",
     "source": "original"
   },
   {
@@ -1297,6 +1338,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Cho rằng số liệu công bố ra bên ngoài thì thuộc kiểm toán báo cáo tài chính.",
     "source": "original"
   },
   {
@@ -1322,6 +1364,7 @@
     "refs": [
       "GIAS - Glossary"
     ],
+    "trap": "Cho rằng việc liên quan đến tuân thủ hoặc có báo cáo lên Ủy ban Kiểm toán thì là dịch vụ đảm bảo.",
     "source": "original"
   },
   {
@@ -1347,6 +1390,7 @@
     "refs": [
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng CAE đứng ngoài cuộc kiểm toán là đủ, trong khi mảng CAE kiêm nhiệm cần bên độc lập đảm bảo.",
     "source": "original"
   },
   {
@@ -1372,6 +1416,7 @@
     "refs": [
       "GIAS 2.2"
     ],
+    "trap": "Nhầm hai trường hợp: người từng phụ trách hoạt động dưới 12 tháng và bộ phận từng tư vấn cho hoạt động.",
     "source": "original"
   },
   {
@@ -1398,6 +1443,7 @@
       "GIAS 2.2",
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng HĐQT đã chấp thuận kiêm nhiệm thì CAE vẫn tự đảm bảo được cho mảng mình phụ trách.",
     "source": "original"
   },
   {
@@ -1423,6 +1469,7 @@
     "refs": [
       "GIAS 2.3"
     ],
+    "trap": "Báo thẳng Ủy ban Kiểm toán hoặc tự đổi việc, bỏ qua bước báo CAE hoặc người giám sát trước.",
     "source": "original"
   },
   {
@@ -1449,6 +1496,7 @@
       "GIAS 2.3",
       "GIAS 11.4"
     ],
+    "trap": "Cho rằng báo cáo đã phát hành thì suy giảm khách quan chỉ cần ghi nhận nội bộ.",
     "source": "original"
   },
   {
@@ -1474,6 +1522,7 @@
     "refs": [
       "GIAS 9.5"
     ],
+    "trap": "Cho rằng dựa vào công việc của bên khác thì trách nhiệm về kết luận chuyển sang bên đó.",
     "source": "original"
   },
   {
@@ -1499,6 +1548,7 @@
     "refs": [
       "GIAS 8.4"
     ],
+    "trap": "Cho rằng chứng chỉ CPA, CISA thay được yêu cầu có người đánh giá giữ chứng chỉ CIA hiệu lực.",
     "source": "original"
   },
   {
@@ -1524,6 +1574,7 @@
     "refs": [
       "GIAS 8.2"
     ],
+    "trap": "Cho rằng Ban điều hành có quyền cắt ngân sách nên CAE chỉ cần chấp nhận và thu hẹp phạm vi.",
     "source": "original"
   },
   {
@@ -1549,6 +1600,7 @@
     "refs": [
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng không có Ủy ban Kiểm toán thì không thể tuân thủ Chuẩn mực.",
     "source": "original"
   },
   {
@@ -1576,6 +1628,7 @@
       "GIAS 7.1",
       "GIAS 8.1"
     ],
+    "trap": "Hiểu sai việc phối hợp với Ban điều hành thành để Ban điều hành biên tập nội dung trình HĐQT.",
     "source": "original"
   },
   {
@@ -1601,6 +1654,7 @@
     "refs": [
       "GIAS 6.2"
     ],
+    "trap": "Cho rằng CAE tự cập nhật hoặc Ban điều hành phê duyệt quy chế, trong khi HĐQT phê duyệt.",
     "source": "original"
   },
   {
@@ -1626,6 +1680,7 @@
     "refs": [
       "GIAS - Fundamentals"
     ],
+    "trap": "Cho rằng GIAS chỉ áp dụng cho kiểm toán viên là nhân viên của tổ chức, không áp dụng khi thuê ngoài.",
     "source": "original"
   },
   {
@@ -1651,6 +1706,7 @@
     "refs": [
       "GIAS Domain III"
     ],
+    "trap": "Cho rằng điều kiện thiết yếu là việc của HĐQT nên không ảnh hưởng đến việc bộ phận tuân thủ Chuẩn mực.",
     "source": "original"
   },
   {
@@ -1676,6 +1732,7 @@
     "refs": [
       "GIAS 6.2"
     ],
+    "trap": "Cho rằng điều tra gian lận nằm sẵn trong dịch vụ đảm bảo, hoặc Tổng Giám đốc tự giao thêm được.",
     "source": "original"
   },
   {
@@ -1752,6 +1809,7 @@
     "refs": [
       "GIAS 13.3"
     ],
+    "trap": "Cho rằng không được kết hợp đảm bảo và tư vấn trong cùng một cuộc kiểm toán.",
     "source": "original"
   },
   {
@@ -1777,6 +1835,7 @@
     "refs": [
       "GIAS 15.1"
     ],
+    "trap": "Cho rằng báo cáo tư vấn được tự do nội dung, không cần mục tiêu, phạm vi và kết luận.",
     "source": "original"
   },
   {
@@ -1827,6 +1886,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ không được đánh giá doanh nghiệp chưa thuộc tổ chức.",
     "source": "original"
   },
   {
@@ -1852,6 +1912,7 @@
     "refs": [
       "CIA Part 1 A.6"
     ],
+    "trap": "Cho rằng dùng số liệu khách quan từ bên ngoài thì là dịch vụ đảm bảo.",
     "source": "original"
   },
   {
@@ -1878,6 +1939,7 @@
       "CIA Part 1 A.6",
       "GIAS 2.2"
     ],
+    "trap": "Cho rằng muốn giữ khách quan thì phải chờ hệ thống vận hành rồi mới tham gia.",
     "source": "original"
   },
   {
@@ -1929,6 +1991,7 @@
       "GIAS 9.1",
       "CIA Part 1 A.8"
     ],
+    "trap": "Áp một cách tiếp cận cho mọi tổ chức, bất kể mức trưởng thành của quản trị rủi ro.",
     "source": "original"
   },
   {
@@ -1955,6 +2018,7 @@
       "GIAS 9.5",
       "CIA Part 1 A.8"
     ],
+    "trap": "Nhầm bản đồ đảm bảo với ma trận nhiệt rủi ro.",
     "source": "original"
   },
   {
@@ -1980,6 +2044,7 @@
     "refs": [
       "CIA Part 1 A.8"
     ],
+    "trap": "Cho rằng vì độc lập nên kiểm toán nội bộ phù hợp để chấm điểm và phê duyệt rủi ro thay Ban điều hành.",
     "source": "original"
   },
   {
@@ -2006,6 +2071,7 @@
       "GIAS 7.1",
       "GIAS 7.2"
     ],
+    "trap": "Nhầm quy định cũ của IPPF 2017 (HĐQT phê duyệt thù lao CAE) với GIAS 2024 (HĐQT góp ý cho Ban điều hành).",
     "source": "original"
   },
   {
@@ -2031,6 +2097,7 @@
     "refs": [
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng sự tin tưởng của HĐQT thay được biện pháp bảo vệ khi CAE kiêm nhiệm.",
     "source": "original"
   },
   {
@@ -2057,6 +2124,7 @@
       "GIAS 6.3",
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng người quản lý hành chính của CAE được kiểm soát kênh liên lạc giữa CAE và HĐQT.",
     "source": "original"
   },
   {
@@ -2082,6 +2150,7 @@
     "refs": [
       "GIAS 8.2"
     ],
+    "trap": "Đánh giá nguồn lực chỉ theo số người, bỏ qua năng lực so với kế hoạch.",
     "source": "original"
   },
   {
@@ -2133,6 +2202,7 @@
       "GIAS 8.1",
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng phạm vi cuộc kiểm toán chỉ là việc giữa CAE và Ban điều hành, HĐQT đứng ngoài.",
     "source": "original"
   },
   {
@@ -2158,6 +2228,7 @@
     "refs": [
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng được dự họp Ủy ban Kiểm toán là đủ, bỏ qua vị trí tổ chức quá thấp của bộ phận.",
     "source": "original"
   },
   {
@@ -2208,6 +2279,7 @@
     "refs": [
       "GIAS Domain III"
     ],
+    "trap": "Nhầm Lĩnh vực III (trách nhiệm của HĐQT, Ban điều hành) với Lĩnh vực IV (quản lý bộ phận, dành cho CAE).",
     "source": "original"
   },
   {
@@ -2258,6 +2330,7 @@
     "refs": [
       "GIAS Domain I"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ chỉ nhìn lại quá khứ, không đưa ra tầm nhìn về rủi ro mới nổi.",
     "source": "original"
   },
   {
@@ -2309,6 +2382,7 @@
       "GIAS 6.1",
       "GIAS 9.5"
     ],
+    "trap": "Cho rằng nhiệm vụ do HĐQT quyết định nên CAE không cần phối hợp với các bên đảm bảo khác.",
     "source": "original"
   },
   {
@@ -2335,6 +2409,7 @@
       "GIAS 8.3",
       "GIAS 8.4"
     ],
+    "trap": "Cho rằng bộ phận nhỏ được miễn chương trình đảm bảo chất lượng và đánh giá bên ngoài.",
     "source": "original"
   },
   {
@@ -2360,6 +2435,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Nhầm rà soát sau triển khai (lợi ích đạt được) với rà soát trước triển khai (thiết kế kiểm soát).",
     "source": "original"
   },
   {
@@ -2410,6 +2486,7 @@
     "refs": [
       "GIAS 6.2"
     ],
+    "trap": "Cho rằng Ban điều hành cấp cao phê duyệt quy chế trước rồi mới trình HĐQT.",
     "source": "original"
   },
   {
@@ -2435,6 +2512,7 @@
     "refs": [
       "GIAS 6.3"
     ],
+    "trap": "Cho rằng HĐQT đứng ngoài thì mới bảo đảm được độc lập cho kiểm toán nội bộ.",
     "source": "original"
   },
   {
@@ -2460,6 +2538,7 @@
     "refs": [
       "CIA Part 1 A.4"
     ],
+    "trap": "Đảo ngược đảm bảo trực tiếp và đảm bảo dựa trên khẳng định của Ban điều hành.",
     "source": "original"
   },
   {
@@ -2485,6 +2564,7 @@
     "refs": [
       "GIAS 13.3"
     ],
+    "trap": "Cho rằng cuộc tư vấn cũng đưa ra mức độ đảm bảo về hiệu quả của quy trình.",
     "source": "original"
   },
   {
@@ -2511,6 +2591,7 @@
       "CIA Part 1 A.8",
       "COSO ERM 2017"
     ],
+    "trap": "Đánh giá quản trị rủi ro theo văn bản và thủ tục, bỏ qua văn hóa rủi ro.",
     "source": "original"
   },
   {
@@ -2562,6 +2643,7 @@
       "IIA Three Lines Model",
       "GIAS 9.4"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ chỉ đánh giá tuyến thứ nhất, không đánh giá tuyến thứ hai.",
     "source": "original"
   },
   {
@@ -2588,6 +2670,7 @@
       "IPPF - Topical Requirements",
       "GIAS - Fundamentals"
     ],
+    "trap": "Không phân biệt cấu phần bắt buộc (GIAS, Yêu cầu theo chủ đề) với Hướng dẫn toàn cầu chỉ để tham khảo.",
     "source": "original"
   },
   {
@@ -2639,6 +2722,7 @@
       "GIAS 8.1",
       "GIAS 6.1"
     ],
+    "trap": "Cho rằng trách nhiệm do luật giao thì cứ tự thực hiện, không cần báo HĐQT và cập nhật quy chế.",
     "source": "original"
   },
   {
@@ -2665,6 +2749,7 @@
       "CIA Part 1 A.4",
       "COSO 2013"
     ],
+    "trap": "Cho rằng đảm bảo chỉ là hợp lý vì thiếu nhân sự, thay vì do hạn chế cố hữu của kiểm soát và kiểm toán.",
     "source": "original"
   },
   {
@@ -2691,6 +2776,7 @@
       "GIAS 8.1",
       "GIAS 8.4"
     ],
+    "trap": "Coi báo cáo đánh giá chất lượng bên ngoài là tài liệu nội bộ, chỉ cần tóm tắt miệng cho HĐQT.",
     "source": "original"
   },
   {
@@ -2716,6 +2802,7 @@
     "refs": [
       "CIA Part 1 A.6"
     ],
+    "trap": "Cho rằng tư vấn nghĩa là kiểm toán nội bộ tự kết luận và quyết định biện pháp cho các bộ phận.",
     "source": "original"
   },
   {
@@ -2743,6 +2830,7 @@
       "IIA Three Lines Model",
       "GIAS 3.1"
     ],
+    "trap": "Cho rằng vì độc lập với khối Tín dụng nên kiểm toán nội bộ được xây dựng hoặc phê duyệt mô hình.",
     "source": "original"
   },
   {
@@ -2793,6 +2881,7 @@
     "refs": [
       "GIAS 2.2"
     ],
+    "trap": "Cho rằng khoản thưởng được phê duyệt và công khai thì không làm suy giảm khách quan.",
     "source": "original"
   },
   {
@@ -2819,6 +2908,7 @@
       "CIA Part 1 A.5",
       "CIA Part 1 C.2"
     ],
+    "trap": "Đánh giá văn hóa chỉ qua văn bản chính sách, bỏ qua hành vi và động cơ thực tế.",
     "source": "original"
   },
   {
@@ -2845,6 +2935,7 @@
       "GIAS 14.1",
       "CIA Part 1 A.5"
     ],
+    "trap": "Cho rằng văn hóa nằm ngoài phạm vi kiểm toán nội bộ hoặc kết luận cần đơn vị đồng ý.",
     "source": "original"
   },
   {
@@ -2870,6 +2961,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Nhầm độ tin cậy của số liệu với mức hoàn thành chỉ tiêu kinh doanh.",
     "source": "original"
   },
   {
@@ -2921,6 +3013,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Chọn kiểm toán tài chính hay tuân thủ, trong khi câu hỏi là đạt mục tiêu với nguồn lực đã cấp.",
     "source": "original"
   },
   {
@@ -2947,6 +3040,7 @@
       "CIA Part 1 A.5",
       "CIA Part 1 A.6"
     ],
+    "trap": "Coi tự đánh giá của đơn vị (RCSA) tương đương đảm bảo độc lập của kiểm toán nội bộ.",
     "source": "original"
   },
   {
@@ -2973,6 +3067,7 @@
       "CIA Part 1 A.6",
       "GIAS 2.2"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ có thể làm người phụ trách hoặc phê duyệt, hoặc ngược lại phải từ chối hẳn.",
     "source": "original"
   },
   {
@@ -2999,6 +3094,7 @@
       "CIA Part 1 A.6",
       "GIAS 1.3"
     ],
+    "trap": "Cho rằng vấn đề ngoài phạm vi tư vấn thì có thể bỏ qua hoặc tự khắc phục thay quản lý.",
     "source": "original"
   },
   {
@@ -3024,6 +3120,7 @@
     "refs": [
       "CIA Part 1 A.6"
     ],
+    "trap": "Cho rằng vẽ lưu đồ chỉ làm trong cuộc đảm bảo, hoặc kiểm toán nội bộ được ban hành quy trình.",
     "source": "original"
   },
   {
@@ -3075,6 +3172,7 @@
       "CIA Part 1 A.6",
       "CIA Part 1 A.4"
     ],
+    "trap": "Cho rằng giao dịch chưa hoàn tất thì ngoài phạm vi kiểm toán nội bộ, hoặc buộc phải là cuộc đảm bảo.",
     "source": "original"
   },
   {
@@ -3126,6 +3224,7 @@
       "CIA Part 1 A.6",
       "CIA Part 1 A.4"
     ],
+    "trap": "Đưa ý kiến đảm bảo về hiệu quả vận hành cho quy trình chưa chạy thật.",
     "source": "original"
   },
   {
@@ -3152,6 +3251,7 @@
       "GIAS 8.2",
       "GIAS 7.1"
     ],
+    "trap": "Coi cắt ngân sách là quyết định chi phí thông thường, bỏ qua việc thu hẹp phạm vi và nghĩa vụ báo HĐQT.",
     "source": "original"
   },
   {
@@ -3205,6 +3305,7 @@
       "GIAS 8.1",
       "GIAS 6.2"
     ],
+    "trap": "Cho rằng Tổng Giám đốc vẫn có thể đồng ý từng lần thì không phải là hạn chế truy cập.",
     "source": "original"
   },
   {
@@ -3231,6 +3332,7 @@
       "GIAS 15.1",
       "GIAS 13.3"
     ],
+    "trap": "Cho rằng giới hạn phạm vi chỉ cần ghi trong hồ sơ, không cần nêu trong báo cáo.",
     "source": "original"
   },
   {
@@ -3282,6 +3384,7 @@
       "GIAS 2.2",
       "GIAS 7.1"
     ],
+    "trap": "Cho rằng hỗ trợ tuyến thứ hai ngắn hạn thì không cần biện pháp bảo vệ.",
     "source": "original"
   },
   {
@@ -3308,6 +3411,7 @@
       "IIA Three Lines Model",
       "CIA Part 1 A.8"
     ],
+    "trap": "Cho rằng điều phối hội thảo rủi ro là việc làm suy giảm độc lập như vận hành khung khẩu vị rủi ro.",
     "source": "original"
   },
   {
@@ -3359,6 +3463,7 @@
       "GIAS 6.2",
       "CIA Part 1 A.3"
     ],
+    "trap": "Cho rằng chỉ cần HĐQT phê duyệt, không cần trao đổi dự thảo quy chế với Ban điều hành.",
     "source": "original"
   },
   {
@@ -3385,6 +3490,7 @@
       "GIAS 6.2",
       "CIA Part 1 A.3"
     ],
+    "trap": "Cho rằng CAE hoặc Ban điều hành tự sửa quy chế, không qua HĐQT.",
     "source": "original"
   },
   {
@@ -3464,6 +3570,7 @@
     "refs": [
       "CIA Part 1 A.4"
     ],
+    "trap": "Cho rằng kiểm tra toàn bộ hoặc thuê kiểm toán độc lập thì có được bảo đảm tuyệt đối.",
     "source": "original"
   },
   {
@@ -3489,6 +3596,7 @@
     "refs": [
       "CIA Part 1 A.4"
     ],
+    "trap": "Cho rằng bảo đảm hạn chế có độ tin cậy cao hơn vì phạm vi hẹp hơn.",
     "source": "original"
   },
   {
@@ -3540,6 +3648,7 @@
     "refs": [
       "CIA Part 1 A.4"
     ],
+    "trap": "Cho rằng có đề xuất cải tiến thì là tư vấn, dù mục tiêu là kết luận về hiệu quả kiểm soát.",
     "source": "original"
   },
   {
@@ -3566,6 +3675,7 @@
       "CIA Part 1 A.4",
       "GIAS 2.2"
     ],
+    "trap": "Giao cùng một nhóm vừa viết chính sách vừa đánh giá nó, bỏ qua tác động đến tính khách quan.",
     "source": "original"
   },
   {
@@ -3592,6 +3702,7 @@
       "GIAS Domain I",
       "CIA Part 1 A.1"
     ],
+    "trap": "Nhầm mục đích của kiểm toán nội bộ với phát hiện sai phạm hoặc bảo đảm tuyệt đối.",
     "source": "original"
   },
   {
@@ -3669,6 +3780,7 @@
     "refs": [
       "CIA Part 1 A.1"
     ],
+    "trap": "Cho rằng GIAS bắt buộc mọi doanh nghiệp phải có kiểm toán nội bộ.",
     "source": "original"
   },
   {
@@ -3721,6 +3833,7 @@
       "GIAS 7.1",
       "CIA Part 1 A.8"
     ],
+    "trap": "Cho rằng kiêm nhiệm tạm thời thì không cần biện pháp bảo vệ.",
     "source": "original"
   },
   {
@@ -3747,6 +3860,7 @@
       "IIA Three Lines Model",
       "CIA Part 1 A.8"
     ],
+    "trap": "Cho rằng quản lý rủi ro là việc riêng của tuyến thứ hai, không phải của tuyến thứ nhất.",
     "source": "original"
   },
   {
@@ -3799,6 +3913,7 @@
       "GIAS 8.3",
       "CIA Part 1 A.2"
     ],
+    "trap": "Cho rằng mục tiêu hoạt động của bộ phận là việc nội bộ của CAE, không cần HĐQT phê duyệt.",
     "source": "original"
   },
   {
@@ -3851,6 +3966,7 @@
       "GIAS 9.4",
       "CIA Part 1 A.2"
     ],
+    "trap": "Cho rằng CAE có toàn quyền điều chỉnh kế hoạch đã được HĐQT phê duyệt.",
     "source": "original"
   },
   {
@@ -3928,6 +4044,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Cho rằng có báo cáo SOC thì không cần xem ngoại lệ và kiểm soát phía người dùng.",
     "source": "original"
   },
   {
@@ -3979,6 +4096,7 @@
       "CIA Part 1 A.5",
       "GIAS 14.1"
     ],
+    "trap": "Coi phỏng vấn hoặc chính sách là bằng chứng tốt, trong khi bằng chứng tốt nhất là đối chiếu thực tế.",
     "source": "original"
   },
   {
@@ -4004,6 +4122,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Coi nhật ký sao lưu là đủ, trong khi chỉ thử khôi phục mới chứng minh dữ liệu dùng được.",
     "source": "original"
   },
   {
@@ -4079,6 +4198,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Nhầm kiểm toán tài chính của kiểm toán nội bộ với kiểm toán độc lập báo cáo tài chính.",
     "source": "original"
   },
   {
@@ -4104,6 +4224,7 @@
     "refs": [
       "CIA Part 1 A.5"
     ],
+    "trap": "Đo đầu vào (giờ học, tỷ lệ hoàn thành) thay vì kết quả thay đổi hành vi.",
     "source": "original"
   },
   {
@@ -4154,33 +4275,6 @@
     "refs": [
       "GIAS Domain I",
       "CIA Part 1 A.1"
-    ],
-    "source": "original"
-  },
-  {
-    "id": "P1-A-S01",
-    "section": "A",
-    "topic": "A6",
-    "difficulty": 3,
-    "stem": "Năm ngoái, một nhóm kiểm toán nội bộ đã tư vấn thiết kế quy trình phê duyệt chi phí. Năm nay HĐQT yêu cầu một cuộc đảm bảo về chính quy trình đó. Trước khi giao việc, CAE nên làm gì trước tiên?",
-    "options": [
-      "Xác nhận tính chất cuộc tư vấn không làm suy giảm khách quan và bố trí người phù hợp.",
-      "Từ chối cuộc đảm bảo, vì bộ phận kiểm toán nội bộ đã từng tư vấn chính quy trình này.",
-      "Giao lại cho chính nhóm đã tư vấn, vì họ hiểu rõ quy trình và rủi ro hơn ai hết.",
-      "Chờ đủ 12 tháng kể từ khi kết thúc cuộc tư vấn rồi mới bắt đầu cuộc đảm bảo."
-    ],
-    "answer": 0,
-    "explanation": "GIAS 2.2 cho phép bộ phận kiểm toán nội bộ đảm bảo cho hoạt động mình đã tư vấn, với điều kiện CAE xác nhận tính chất cuộc tư vấn không làm suy giảm khách quan và bố trí nguồn lực để quản lý khách quan của từng kiểm toán viên. Quy tắc 12 tháng áp dụng cho người từng chịu trách nhiệm về hoạt động, không phải cho việc từng tư vấn.",
-    "optionNotes": [
-      "Đúng. Đây là hai việc GIAS 2.2 yêu cầu CAE làm khi đảm bảo cho hoạt động đã từng tư vấn.",
-      "Sai. Đã từng tư vấn không cấm việc đảm bảo; GIAS 2.2 chỉ yêu cầu CAE xác nhận khách quan và bố trí người phù hợp.",
-      "Sai. Giao cho chính nhóm đã thiết kế dễ dẫn tới tự kiểm tra lại công việc của mình; CAE phải bố trí người để quản lý khách quan.",
-      "Sai. Quy tắc 12 tháng dành cho người từng chịu trách nhiệm vận hành hoạt động, không áp dụng cho việc từng tư vấn."
-    ],
-    "trap": "Nhầm quy tắc 12 tháng (người từng phụ trách hoạt động) với trường hợp bộ phận từng tư vấn cho hoạt động đó.",
-    "refs": [
-      "GIAS 2.2",
-      "CIA Part 1 A.6"
     ],
     "source": "original"
   }

@@ -2562,33 +2562,6 @@
     "source": "original"
   },
   {
-    "id": "P1-B-S01",
-    "section": "B",
-    "topic": "B3",
-    "difficulty": 3,
-    "stem": "Hai tháng sau khi phát hành báo cáo kiểm toán quy trình đấu thầu, CAE biết một thành viên trong nhóm có cổ phần ở một nhà thầu đã trúng thầu trong kỳ được kiểm toán nhưng không kê khai. CAE nên làm gì trước tiên?",
-    "options": [
-      "Không cần xử lý, vì báo cáo đã phát hành và Ban điều hành đã chấp nhận kết luận.",
-      "Trao đổi với quản lý đơn vị, HĐQT hoặc Ban điều hành để xác định cách xử lý độ tin cậy của kết quả.",
-      "Thu hồi báo cáo và tự làm lại toàn bộ cuộc kiểm toán trước khi thông báo cho bất kỳ ai.",
-      "Chỉ xử lý kỷ luật thành viên đó theo quy chế nội bộ và lưu việc này vào hồ sơ nhân sự."
-    ],
-    "answer": 1,
-    "explanation": "GIAS 2.3 yêu cầu: nếu sau khi cuộc kiểm toán kết thúc mới phát hiện suy giảm khách quan có thể ảnh hưởng đến độ tin cậy (hoặc độ tin cậy được cảm nhận) của phát hiện, kiến nghị, kết luận, CAE phải trao đổi với quản lý đơn vị được kiểm toán, HĐQT, Ban điều hành và/hoặc các bên liên quan khác để xác định hành động phù hợp.",
-    "optionNotes": [
-      "Sai. Báo cáo đã phát hành không làm vấn đề biến mất; GIAS 2.3 yêu cầu xử lý cả suy giảm phát hiện sau khi cuộc kiểm toán đã kết thúc.",
-      "Đúng. Trao đổi với các bên liên quan để quyết định cách xử lý là yêu cầu của GIAS 2.3.",
-      "Sai. Làm lại có thể là một biện pháp, nhưng phải được quyết định sau khi trao đổi với các bên liên quan, không tự làm trước khi thông báo.",
-      "Sai. Kỷ luật cá nhân không trả lời câu hỏi kết quả kiểm toán còn đáng tin cậy hay không; đó mới là điều phải xử lý."
-    ],
-    "trap": "Cho rằng báo cáo đã phát hành thì suy giảm khách quan không còn phải xử lý.",
-    "refs": [
-      "GIAS 2.3",
-      "CIA Part 1 B.3"
-    ],
-    "source": "original"
-  },
-  {
     "id": "P1-B-S02",
     "section": "B",
     "topic": "B4",
