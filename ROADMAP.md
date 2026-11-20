@@ -8,7 +8,7 @@ Live site: https://phucnduy.github.io/cia-prep/ (GitHub Pages, deployed by pushi
 
 | Part | Questions | Full exam needs | Easy / medium / hard | Trap-tagged | Status |
 |---|---|---|---|---|---|
-| P1 Internal Audit Fundamentals | 511 | 125 (A44 B25 C37 D19) | 1 / 52 / 47% | 11 | ready |
+| P1 Internal Audit Fundamentals | 511 | 125 (A44 B25 C37 D19) | 1 / 52 / 46% | 12 | ready |
 | P2 Internal Audit Engagement | 89 | 100 (A50 B40 C10); now A38 B35 C16 | 7 / 55 / 38% | 6 | draft |
 | P3 Internal Audit Function | 42 | 100 (A25 B15 C15 D45); now A8 B11 C7 D16 | 5 / 69 / 26% | 16 | draft |
 
