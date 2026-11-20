@@ -22,6 +22,7 @@
     "refs": [
       "CIA Part 1 D.1"
     ],
+    "trap": "Áp tam giác gian lận, bỏ qua yếu tố năng lực (vị trí, kỹ năng che giấu) trong kim cương gian lận.",
     "source": "original"
   },
   {
@@ -48,6 +49,7 @@
       "ACFE",
       "CIA Part 1 D.1"
     ],
+    "trap": "Nhầm tống tiền kinh tế với hối lộ chỉ vì nhà thầu là bên chi tiền.",
     "source": "original"
   },
   {
@@ -99,6 +101,7 @@
       "ACFE",
       "CIA Part 1 D.1"
     ],
+    "trap": "Cho rằng hàng đủ, giá thị trường thì xung đột lợi ích không công bố không phải gian lận.",
     "source": "original"
   },
   {
@@ -125,6 +128,7 @@
       "ACFE",
       "CIA Part 1 D.4"
     ],
+    "trap": "Dùng kiểm soát tổng thể (ký tổng quỹ lương, so ngân sách) thay vì tách nhiệm vụ và xác minh nhân sự thực tế.",
     "source": "original"
   },
   {
@@ -194,6 +198,7 @@
     "refs": [
       "CIA Part 1 D.1"
     ],
+    "trap": "Nhầm nhồi kênh phân phối với lập hóa đơn nhưng giữ hàng (bill-and-hold).",
     "source": "legacy",
     "optionNotes": [
       "Đúng. Nhồi kênh phân phối thổi phồng doanh thu cuối kỳ bằng hàng vượt nhu cầu kèm quyền trả lại.",
@@ -225,6 +230,7 @@
     "refs": [
       "CIA Part 1 D.1"
     ],
+    "trap": "Nhầm lập hóa đơn nhưng giữ hàng (bill-and-hold) với nhồi kênh phân phối.",
     "source": "original"
   },
   {
@@ -269,6 +275,7 @@
     "refs": [
       "CIA Part 1 D.1"
     ],
+    "trap": "Cho rằng vốn hóa sai chi phí chỉ làm tăng tài sản mà không làm tăng lợi nhuận.",
     "source": "legacy",
     "optionNotes": [
       "Sai. Cả tài sản và lợi nhuận đều bị khai cao.",
@@ -294,6 +301,7 @@
     "refs": [
       "CIA Part 1 D.5"
     ],
+    "trap": "Nhầm định luật Benford với kiểm tra trùng lặp hay khoảng trống số thứ tự.",
     "source": "legacy",
     "optionNotes": [
       "Đúng. Định luật Benford so sánh phân phối chữ số đầu để phát hiện số liệu có thể bị bịa đặt.",
@@ -325,6 +333,7 @@
     "refs": [
       "CIA Part 1 D.5"
     ],
+    "trap": "Cho rằng điều tra không cần được ủy quyền, hoặc chỉ công an mới được điều tra.",
     "source": "original"
   },
   {
@@ -375,6 +384,7 @@
     "refs": [
       "CIA Part 1 D.1"
     ],
+    "trap": "Nhầm áp lực hoặc hợp lý hóa (khó tác động) với cơ hội, yếu tố tổ chức kiểm soát được nhiều nhất.",
     "source": "original"
   },
   {
@@ -426,6 +436,7 @@
       "ACFE",
       "CIA Part 1 D.1"
     ],
+    "trap": "Cho rằng đối chiếu tiền nộp với doanh thu đã ghi phát hiện được skimming, dù tiền bị lấy chưa từng được ghi sổ.",
     "source": "original"
   },
   {
@@ -445,6 +456,7 @@
     "refs": [
       "ACFE Fraud Tree"
     ],
+    "trap": "Nhầm gối đầu (lapping) với kiting.",
     "source": "original",
     "optionNotes": [
       "Sai. Kiting liên quan đến séc giữa ngân hàng, không phải công nợ khách hàng.",
@@ -478,6 +490,7 @@
       "GIAS 9.4",
       "IPPF 2017 1210.A2"
     ],
+    "trap": "Cho rằng kiểm toán viên nội bộ phải có trình độ như chuyên gia điều tra gian lận.",
     "source": "original"
   },
   {
@@ -503,6 +516,7 @@
     "refs": [
       "GIAS 13.2"
     ],
+    "trap": "Cho rằng chưa có tiền sử gian lận thì rủi ro gian lận thấp.",
     "source": "original"
   },
   {
@@ -529,6 +543,7 @@
       "ACFE",
       "CIA Part 1 D.3"
     ],
+    "trap": "Cho rằng kiểm toán là cách phát hiện gian lận phổ biến nhất, thay vì tố giác.",
     "source": "original"
   },
   {
@@ -555,6 +570,7 @@
       "ACFE",
       "CIA Part 1 D.3"
     ],
+    "trap": "Coi làm thêm giờ hay đề nghị tăng lương là dấu hiệu, bỏ qua việc từ chối nghỉ phép và giữ riêng hồ sơ.",
     "source": "original"
   },
   {
@@ -580,6 +596,7 @@
     "refs": [
       "CIA Part 1 D.3"
     ],
+    "trap": "Cho rằng ngăn ngừa và phát hiện gian lận là trách nhiệm chính của kiểm toán nội bộ.",
     "source": "original"
   },
   {
@@ -605,6 +622,7 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
+    "trap": "Nhầm kiểm soát phòng ngừa (đối chiếu ba bên) với kiểm soát phát hiện các khoản trùng đã xảy ra.",
     "source": "original"
   },
   {
@@ -655,6 +673,7 @@
     "refs": [
       "CIA Part 1 D.5"
     ],
+    "trap": "Phỏng vấn nghi phạm trước để tránh tiêu hủy bằng chứng, thay vì đi từ người trung lập đến nghi phạm.",
     "source": "original"
   },
   {
@@ -681,6 +700,7 @@
       "CIA Part 1 D.5",
       "CIA Part 1 D.2"
     ],
+    "trap": "Tự mở rộng kiểm tra hoặc phỏng vấn nghi phạm ngay, bỏ qua bước báo CAE.",
     "source": "original"
   },
   {
@@ -707,6 +727,7 @@
       "CIA Part 1 D.1",
       "ACFE"
     ],
+    "trap": "Nhầm công ty ma (không có giao dịch thật) với nhà cung cấp trung gian hoặc lại quả.",
     "source": "original"
   },
   {
@@ -732,6 +753,7 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
+    "trap": "Nhầm kiểm soát phát hiện (rà soát, phân tích dữ liệu) với kiểm soát phòng ngừa.",
     "source": "original"
   },
   {
@@ -758,6 +780,7 @@
       "ACFE",
       "CIA Part 1 D.1"
     ],
+    "trap": "Xếp doanh thu khống vào biển thủ tài sản thay vì gian lận báo cáo tài chính.",
     "source": "original"
   },
   {
@@ -783,6 +806,7 @@
     "refs": [
       "CIA Part 1 D.5"
     ],
+    "trap": "Tự mở máy xem hoặc nhờ người khác chép tệp, làm mất giá trị pháp lý của bằng chứng.",
     "source": "original"
   },
   {
@@ -808,6 +832,7 @@
     "refs": [
       "CIA Part 1 D.1"
     ],
+    "trap": "Nhầm hợp lý hóa với áp lực chỉ vì câu nói có nhắc đến tiền.",
     "source": "original"
   },
   {
@@ -834,6 +859,7 @@
       "GIAS 13.2",
       "CIA Part 1 D.2"
     ],
+    "trap": "Chờ thấy bất thường mới xem xét gian lận, thay vì nhận diện kịch bản ngay từ khi lập kế hoạch.",
     "source": "original"
   },
   {
@@ -860,6 +886,7 @@
       "GIAS 14.2",
       "GIAS 13.6"
     ],
+    "trap": "Tự mở rộng thủ tục mà không trình CAE, hoặc gác lại vì ngoài chương trình.",
     "source": "original"
   },
   {
@@ -886,6 +913,7 @@
       "CIA Part 1 D.2",
       "COSO 2013"
     ],
+    "trap": "Kiểm tra giao dịch thường ngày cấp nhân viên, bỏ qua bút toán thủ công của lãnh đạo.",
     "source": "original"
   },
   {
@@ -911,6 +939,7 @@
     "refs": [
       "GIAS 9.4"
     ],
+    "trap": "Cho rằng gian lận là việc của Ban điều hành hoặc kiểm toán độc lập nên kế hoạch không cần xét.",
     "source": "original"
   },
   {
@@ -962,6 +991,7 @@
     "refs": [
       "CIA Part 1 D.3"
     ],
+    "trap": "Tin rằng mức phạt nặng răn đe mạnh hơn khả năng bị phát hiện.",
     "source": "original"
   },
   {
@@ -988,6 +1018,7 @@
       "CIA Part 1 D.4",
       "ACFE"
     ],
+    "trap": "Dùng cam kết hay quy định lưu trữ, thay vì buộc nghỉ phép và luân chuyển để lộ thủ đoạn gối đầu.",
     "source": "original"
   },
   {
@@ -1014,6 +1045,7 @@
       "CIA Part 1 D.4",
       "COSO 2013"
     ],
+    "trap": "Không nhận ra cặp nhiệm vụ không tương thích: giữ tiền và ghi sổ công nợ.",
     "source": "original"
   },
   {
@@ -1040,6 +1072,7 @@
       "CIA Part 1 D.1",
       "ACFE"
     ],
+    "trap": "Cho rằng ước tính chủ quan thì cố ý không trích lập dự phòng không phải gian lận.",
     "source": "original"
   },
   {
@@ -1066,6 +1099,7 @@
       "CIA Part 1 D.3",
       "ACFE"
     ],
+    "trap": "Nhầm thông thầu giữa các nhà thầu với lại quả cho nhân viên mua hàng.",
     "source": "original"
   },
   {
@@ -1092,6 +1126,7 @@
       "CIA Part 1 D.5",
       "GIAS 5.2"
     ],
+    "trap": "Cho rằng minh bạch hay đánh dấu 'mật' cho phép chia sẻ tên người bị nghi ngờ rộng rãi.",
     "source": "original"
   },
   {
@@ -1118,6 +1153,7 @@
       "CIA Part 1 D.1",
       "ACFE"
     ],
+    "trap": "Nhầm khai khống giờ công với nhân viên ma.",
     "source": "original"
   },
   {
@@ -1143,6 +1179,7 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ xây công cụ thì nên vận hành nó như kiểm soát của quy trình.",
     "source": "original"
   },
   {
@@ -1169,6 +1206,7 @@
       "GIAS 13.2",
       "CIA Part 1 D.2"
     ],
+    "trap": "Coi chỉ tiêu kinh doanh là việc của Ban điều hành, bỏ qua yếu tố áp lực trong rủi ro gian lận.",
     "source": "original"
   },
   {
@@ -1195,6 +1233,7 @@
       "CIA Part 1 D.1",
       "ACFE"
     ],
+    "trap": "Nhầm kiting với gối đầu (lapping).",
     "source": "original"
   },
   {
@@ -1221,6 +1260,7 @@
       "CIA Part 1 D.4",
       "ACFE"
     ],
+    "trap": "Kết luận gian lận ngay hoặc xóa trùng lặp, thay vì xác minh dấu hiệu bất thường.",
     "source": "original"
   },
   {
@@ -1247,6 +1287,7 @@
       "GIAS 13.2",
       "CIA Part 1 D.2"
     ],
+    "trap": "Cho rằng ước tính là quyền xét đoán của Ban điều hành nên không cần kiểm chứng giả định.",
     "source": "original"
   },
   {
@@ -1273,6 +1314,7 @@
       "GIAS 13.2",
       "CIA Part 1 D.2"
     ],
+    "trap": "Giả định không có gian lận vì chưa có tố giác nào.",
     "source": "original"
   },
   {
@@ -1325,6 +1367,7 @@
       "CIA Part 1 D.2",
       "CIA Part 1 D.1"
     ],
+    "trap": "Cho rằng doanh thu cao thì rủi ro thấp, hoặc tập trung vào chi phí thay vì doanh thu sai kỳ.",
     "source": "original"
   },
   {
@@ -1376,6 +1419,7 @@
     "refs": [
       "CIA Part 1 D.3"
     ],
+    "trap": "Nhầm dấu hiệu cấp quy trình (một chứng từ bất thường) với dấu hiệu cấp tổ chức.",
     "source": "original"
   },
   {
@@ -1401,6 +1445,7 @@
     "refs": [
       "CIA Part 1 D.3"
     ],
+    "trap": "Đối chất ngay với người bị nghi ngờ, bỏ qua việc bảo quản bằng chứng và báo CAE.",
     "source": "original"
   },
   {
@@ -1426,6 +1471,7 @@
     "refs": [
       "CIA Part 1 D.3"
     ],
+    "trap": "Cho rằng có chính sách, đường dây nóng và đào tạo là đủ, bỏ qua đánh giá rủi ro và xử lý tố giác.",
     "source": "original"
   },
   {
@@ -1451,6 +1497,7 @@
     "refs": [
       "CIA Part 1 D.3"
     ],
+    "trap": "Coi việc không phát hiện vụ gian lận nào là bằng chứng chương trình hữu hiệu.",
     "source": "original"
   },
   {
@@ -1476,6 +1523,7 @@
     "refs": [
       "CIA Part 1 D.3"
     ],
+    "trap": "Báo cho chính Tổng Giám đốc hoặc ra bên ngoài trước, bỏ qua kênh báo cáo lên HĐQT.",
     "source": "original"
   },
   {
@@ -1527,6 +1575,7 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
+    "trap": "Cho rằng phân cấp hạn mức phê duyệt loại bỏ được thông đồng.",
     "source": "original"
   },
   {
@@ -1552,6 +1601,7 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
+    "trap": "Coi chậm trễ là rủi ro chính, bỏ qua việc người lập và người soát xét là một.",
     "source": "original"
   },
   {
@@ -1577,6 +1627,7 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
+    "trap": "Cho rằng yêu cầu danh tính giúp kênh tố giác đáng tin hơn.",
     "source": "original"
   },
   {
@@ -1602,6 +1653,7 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
+    "trap": "Chấp nhận rủi ro hoặc dựa vào cam kết, thay vì kiểm soát bù đắp của chủ doanh nghiệp.",
     "source": "original"
   },
   {
@@ -1628,6 +1680,7 @@
       "ACFE",
       "CIA Part 1 D.5"
     ],
+    "trap": "Mở đầu bằng buộc tội hoặc đưa hết bằng chứng ngay để tạo áp lực.",
     "source": "original"
   },
   {
@@ -1654,6 +1707,7 @@
       "ACFE",
       "CIA Part 1 D.5"
     ],
+    "trap": "Phỏng vấn nghi phạm một mình hoặc trước khi có bằng chứng.",
     "source": "original"
   },
   {
@@ -1679,6 +1733,7 @@
     "refs": [
       "CIA Part 1 D.5"
     ],
+    "trap": "Kiểm tra tổng quỹ lương so ngân sách, trong khi nhân viên ma nằm gọn trong tổng đó.",
     "source": "original"
   },
   {
@@ -1704,6 +1759,7 @@
     "refs": [
       "CIA Part 1 D.5"
     ],
+    "trap": "Cho rằng phải tránh trao đổi với bộ phận điều tra để giữ độc lập.",
     "source": "original"
   },
   {
@@ -1730,6 +1786,7 @@
       "CIA Part 1 D.5",
       "GIAS 3.1"
     ],
+    "trap": "Tự sao chép dữ liệu hoặc nhờ nghi phạm gửi lại, làm mất giá trị pháp lý của bằng chứng.",
     "source": "original"
   },
   {
@@ -1756,6 +1813,7 @@
       "ACFE",
       "CIA Part 1 D.1"
     ],
+    "trap": "Nhầm che giấu nợ phải trả (gian lận báo cáo tài chính) với chiếm đoạt tiền.",
     "source": "original"
   },
   {
@@ -1782,6 +1840,7 @@
       "ACFE",
       "CIA Part 1 D.1"
     ],
+    "trap": "Nhầm hoàn tiền giả (có ghi giao dịch) với skimming (không ghi giao dịch).",
     "source": "original"
   },
   {
@@ -1808,6 +1867,7 @@
       "CIA Part 1 D.1",
       "CIA Part 1 D.5"
     ],
+    "trap": "Kiểm tra chữ ký hay số lượng trên biên bản, trong khi chính biên bản hủy là chứng từ giả.",
     "source": "original"
   },
   {
@@ -1834,6 +1894,7 @@
       "CIA Part 1 D.1",
       "CIA Part 1 D.4"
     ],
+    "trap": "Cho rằng thông đồng chứng tỏ phân nhiệm thiết kế sai hoặc không cần thiết.",
     "source": "original"
   },
   {
@@ -1859,6 +1920,7 @@
     "refs": [
       "CIA Part 1 D.2"
     ],
+    "trap": "Coi mất tệp hay sai định dạng là rủi ro chính, bỏ qua khả năng tệp lệnh chi bị sửa.",
     "source": "original"
   },
   {
@@ -1884,6 +1946,7 @@
     "refs": [
       "CIA Part 1 D.3"
     ],
+    "trap": "Cho rằng xử lý người vi phạm là đủ, bỏ qua việc sửa kiểm soát đã tạo cơ hội.",
     "source": "original"
   },
   {
@@ -1934,6 +1997,7 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
+    "trap": "Coi mất nhân sự giỏi là rủi ro chính, bỏ qua tác động răn đe khi gian lận không bị xử lý.",
     "source": "original"
   },
   {
@@ -1959,6 +2023,7 @@
     "refs": [
       "CIA Part 1 D.4"
     ],
+    "trap": "Sửa quy chế cho khớp hệ thống hoặc chỉ nhắc nhở, thay vì cấu hình hệ thống theo quy chế.",
     "source": "original"
   },
   {
@@ -2035,6 +2100,7 @@
     "refs": [
       "CIA Part 1 D.5"
     ],
+    "trap": "Kiểm kê từng quỹ lần lượt, để tiền được chuyển qua lại che giấu thiếu hụt.",
     "source": "original"
   },
   {
@@ -2061,6 +2127,7 @@
       "ACFE",
       "CIA Part 1 D.5"
     ],
+    "trap": "Kết luận về tội danh trong báo cáo, thay vì trình bày dữ kiện khách quan.",
     "source": "original"
   },
   {
@@ -2087,32 +2154,7 @@
       "CIA Part 1 D.2",
       "GIAS 13.2"
     ],
-    "source": "original"
-  },
-  {
-    "id": "P1-D-S01",
-    "section": "D",
-    "topic": "D4",
-    "difficulty": 3,
-    "stem": "Kiểm toán phát hiện nhân viên mua hàng và nhân viên nhận hàng thông đồng lập phiếu nhập kho khống cho hàng không giao, dù hai việc đã được tách cho hai người. Kiểm soát bổ sung nào phù hợp nhất?",
-    "options": [
-      "Tách thêm việc ký phiếu nhập kho sang một người thứ ba trong cùng bộ phận kho.",
-      "Kiểm kê đột xuất, đối chiếu tồn kho và phân tích nhà cung cấp bất thường.",
-      "Tăng mức kỷ luật trong quy chế đối với hành vi gian lận mua hàng.",
-      "Yêu cầu hai nhân viên ký cam kết trung thực và không thông đồng hằng quý."
-    ],
-    "answer": 1,
-    "explanation": "Tách biệt nhiệm vụ không ngăn được thông đồng. Khi hai người cùng tham gia, cần các kiểm soát phát hiện độc lập với họ: kiểm kê đột xuất đối chiếu với sổ, phân tích dữ liệu mua hàng theo nhà cung cấp, luân chuyển nhiệm vụ. Các kiểm soát này làm lộ hàng ghi nhận nhưng không có thật.",
-    "optionNotes": [
-      "Sai. Thêm một người trong cùng bộ phận vẫn có thể bị kéo vào thông đồng; cần kiểm soát phát hiện độc lập.",
-      "Đúng. Kiểm soát phát hiện độc lập với những người thông đồng làm lộ hàng ghi nhận nhưng không có thật.",
-      "Sai. Kỷ luật nặng hơn có tác dụng răn đe nhưng không phát hiện được phiếu nhập khống đang diễn ra.",
-      "Sai. Cam kết trung thực không phải kiểm soát thực chất và không ngăn hay phát hiện được thông đồng."
-    ],
-    "trap": "Cho rằng tách thêm nhiệm vụ sẽ xử lý được thông đồng, trong khi cần kiểm soát phát hiện độc lập.",
-    "refs": [
-      "CIA Part 1 D.4"
-    ],
+    "trap": "Thấy rủi ro kê khống hoa hồng, bỏ qua cặp quyền thu tiền và đề xuất xóa nợ.",
     "source": "original"
   },
   {
