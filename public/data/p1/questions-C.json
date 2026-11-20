@@ -22,6 +22,7 @@
     "refs": [
       "IIA Three Lines Model"
     ],
+    "trap": "Cho rằng tuyến thứ nhất và tuyến thứ hai luôn phải là hai bộ phận tách biệt.",
     "source": "original"
   },
   {
@@ -97,6 +98,7 @@
     "refs": [
       "CIA Part 1 C.2"
     ],
+    "trap": "Đo kiểm soát mềm bằng văn bản hoặc số liệu thô, thay vì bằng chứng về hành vi thực tế.",
     "source": "original"
   },
   {
@@ -191,6 +193,7 @@
     "refs": [
       "COSO"
     ],
+    "trap": "Xếp nguyên tắc về rủi ro gian lận vào môi trường kiểm soát thay vì đánh giá rủi ro.",
     "source": "legacy",
     "optionNotes": [
       "Sai. Môi trường kiểm soát gồm Nguyên tắc 1-5.",
@@ -222,6 +225,7 @@
     "refs": [
       "COSO 2013"
     ],
+    "trap": "Cho rằng bốn trên năm thành phần đạt là đủ để kết luận hệ thống hữu hiệu.",
     "source": "original"
   },
   {
@@ -272,6 +276,7 @@
     "refs": [
       "COSO 2013"
     ],
+    "trap": "Nhầm chất lượng thông tin (thông tin và truyền thông) với hoạt động giám sát.",
     "source": "original"
   },
   {
@@ -297,6 +302,7 @@
     "refs": [
       "COSO ERM 2017"
     ],
+    "trap": "Coi rủi ro chỉ là điều tiêu cực cần giảm tối đa, bỏ qua vai trò tạo giá trị.",
     "source": "original"
   },
   {
@@ -316,6 +322,7 @@
     "refs": [
       "CIA Part 1 C.5"
     ],
+    "trap": "Nhầm ba trụ cột của ISO 31000 với các bước của quy trình quản lý rủi ro.",
     "source": "legacy",
     "optionNotes": [
       "Sai. Đây gần với các nhóm mục tiêu, không phải cấu trúc ISO 31000.",
@@ -347,6 +354,7 @@
     "refs": [
       "COSO ERM 2017"
     ],
+    "trap": "Đảo ngược khẩu vị rủi ro và năng lực chịu đựng rủi ro.",
     "source": "original"
   },
   {
@@ -366,6 +374,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Cho rằng càng nhiều kiểm soát càng tốt, bỏ qua việc kiểm soát quá mức so với khẩu vị.",
     "source": "legacy",
     "optionNotes": [
       "Đúng. Rủi ro còn lại thấp hơn nhiều so với khẩu vị cho thấy kiểm soát quá mức, gây lãng phí.",
@@ -416,6 +425,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Giao việc giám sát lương thưởng cho Ủy ban Kiểm toán thay vì Ủy ban Lương thưởng.",
     "source": "legacy",
     "optionNotes": [
       "Sai. Ủy ban Kiểm toán giám sát báo cáo tài chính và kiểm soát.",
@@ -447,6 +457,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Cho rằng người tiếp nhận quan ngại cũng nên quyết định kỷ luật.",
     "source": "original"
   },
   {
@@ -472,6 +483,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Nhầm rủi ro tẩy xanh (công bố gây hiểu lầm) với rủi ro tuân thủ về môi trường.",
     "source": "original"
   },
   {
@@ -491,6 +503,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Nhầm giảm thiểu dữ liệu với mã hóa hoặc giới hạn truy cập.",
     "source": "legacy",
     "optionNotes": [
       "Sai. Mã hóa là biện pháp bảo mật, không phải giảm thiểu dữ liệu.",
@@ -516,6 +529,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Nhầm SOC 1 (kiểm soát liên quan báo cáo tài chính) với SOC 2 (bảo mật, tính sẵn sàng).",
     "source": "legacy",
     "optionNotes": [
       "Sai. SOC 2 tập trung bảo mật, tính sẵn sàng, quyền riêng tư, không phải kiểm soát BCTC.",
@@ -547,6 +561,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Cho rằng báo cáo SOC 1 Type 1 đủ để kết luận về kiểm soát vận hành cả năm.",
     "source": "original"
   },
   {
@@ -566,6 +581,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Cho rằng DRP rộng hơn BCP.",
     "source": "legacy",
     "optionNotes": [
       "Đúng. BCP duy trì quy trình kinh doanh cốt lõi; DRP là phần khôi phục CNTT trong BCP.",
@@ -616,6 +632,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Coi chi phí hay tốc độ là rủi ro chính của bảng tính, bỏ qua thiếu kiểm soát thay đổi và kiểm thử.",
     "source": "legacy",
     "optionNotes": [
       "Sai. Chi phí bản quyền không phải rủi ro chính.",
@@ -641,6 +658,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Cho rằng kiểm soát mạnh nhất luôn là tốt nhất, bỏ qua nguyên tắc chi phí - lợi ích.",
     "source": "legacy",
     "optionNotes": [
       "Sai. Đề xuất không liên quan đến phân chia trách nhiệm; vấn đề là chi phí kiểm soát (40.000 USD) vượt xa thiệt hại cần giảm (5.000 USD).",
@@ -697,6 +715,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Nhầm vai trò giám sát của Ủy ban Kiểm toán với việc trực tiếp vận hành kiểm soát.",
     "source": "original"
   },
   {
@@ -747,6 +766,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ hiểu mọi bộ phận nên được soạn báo cáo do Ban điều hành chịu trách nhiệm.",
     "source": "original"
   },
   {
@@ -772,6 +792,7 @@
     "refs": [
       "COSO 2013 Principle 1"
     ],
+    "trap": "Cho rằng có quy tắc ứng xử và đào tạo là đủ, bỏ qua tác động của hành vi lãnh đạo.",
     "source": "original"
   },
   {
@@ -817,6 +838,7 @@
       "COSO 2013 Principle 1",
       "COSO 2013 Principle 5"
     ],
+    "trap": "Cho rằng có quy tắc ứng xử bằng văn bản hoặc đạt doanh số thì rủi ro thấp.",
     "source": "original",
     "optionNotes": [
       "Sai. Quy tắc trên giấy không thay thế được văn hóa thực tế.",
@@ -842,6 +864,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ quyết định kỷ luật trong vụ vi phạm đạo đức.",
     "source": "original",
     "optionNotes": [
       "Sai. Quyết định kỷ luật là trách nhiệm quản lý.",
@@ -873,6 +896,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Đánh giá chương trình tuân thủ theo số quy định ban hành, bỏ qua đào tạo, kênh báo cáo và kỷ luật.",
     "source": "original"
   },
   {
@@ -898,6 +922,7 @@
     "refs": [
       "COSO ERM 2017"
     ],
+    "trap": "Nhầm ngưỡng chịu đựng rủi ro với khẩu vị rủi ro hoặc năng lực chịu đựng rủi ro.",
     "source": "original"
   },
   {
@@ -923,6 +948,7 @@
     "refs": [
       "CIA Part 1 C.4"
     ],
+    "trap": "Cho rằng kiểm soát hữu hiệu là đủ, dù rủi ro còn lại vẫn vượt khẩu vị.",
     "source": "original"
   },
   {
@@ -998,6 +1024,7 @@
     "refs": [
       "COSO ERM 2017"
     ],
+    "trap": "Cho rằng quản trị rủi ro chỉ phục vụ thực hiện chiến lược, không tham gia lựa chọn chiến lược.",
     "source": "original"
   },
   {
@@ -1023,6 +1050,7 @@
     "refs": [
       "CIA Part 1 C.5"
     ],
+    "trap": "Xử lý các rủi ro như nhau vì cùng điểm, bỏ qua rủi ro khả năng thấp nhưng hậu quả cực lớn.",
     "source": "original"
   },
   {
@@ -1048,6 +1076,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Nhầm chỉ số rủi ro chính (báo hiệu trước) với chỉ số hoạt động hay chi phí.",
     "source": "original"
   },
   {
@@ -1098,6 +1127,7 @@
     "refs": [
       "CIA Part 1 C.7"
     ],
+    "trap": "Nhầm kiểm soát khắc phục với kiểm soát phát hiện vì quy trình bắt đầu từ báo cáo ngoại lệ.",
     "source": "original"
   },
   {
@@ -1123,6 +1153,7 @@
     "refs": [
       "COSO 2013"
     ],
+    "trap": "Cho rằng COSO 2013 chỉ áp dụng cho báo cáo tài chính, hoặc xếp mục tiêu theo nội dung hoạt động.",
     "source": "original"
   },
   {
@@ -1148,6 +1179,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Cho rằng theo một giao dịch qua quy trình (walkthrough) là đủ để kết luận kiểm soát vận hành hữu hiệu cả kỳ.",
     "source": "original"
   },
   {
@@ -1167,6 +1199,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Cho rằng càng nhiều cấp phê duyệt thì kiểm soát càng an toàn.",
     "source": "original",
     "optionNotes": [
       "Sai. Kiểm soát quá mức gây lãng phí và chi phí phạt.",
@@ -1192,6 +1225,7 @@
     "refs": [
       "CIA Part 1 C.7"
     ],
+    "trap": "Nhầm biện pháp giảm động cơ hay chuyển giao rủi ro (tăng lương, bảo hiểm) với kiểm soát bù đắp.",
     "source": "original",
     "optionNotes": [
       "Đúng. Rà soát độc lập của chủ sở hữu là kiểm soát bù đắp điển hình khi thiếu phân chia trách nhiệm.",
@@ -1224,6 +1258,7 @@
       "CIA Part 1 C.8",
       "COSO 2013"
     ],
+    "trap": "Coi chữ ký rà soát đúng hạn là bằng chứng kiểm soát vận hành hữu hiệu.",
     "source": "original"
   },
   {
@@ -1250,6 +1285,7 @@
       "CIA Part 1 C.4",
       "COSO ERM 2017"
     ],
+    "trap": "Cho rằng bảo hiểm chuyển giao toàn bộ rủi ro, hoặc xếp bảo hiểm vào nhóm giảm thiểu.",
     "source": "original"
   },
   {
@@ -1276,6 +1312,7 @@
       "COSO 2013",
       "CIA Part 1 C.7"
     ],
+    "trap": "Nhầm thành phần của khung quản trị rủi ro (thiết lập mục tiêu) với thành phần của COSO 2013.",
     "source": "original"
   },
   {
@@ -1301,6 +1338,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Nhầm kiểm soát ứng dụng tự động với kiểm soát chung về công nghệ thông tin.",
     "source": "original"
   },
   {
@@ -1353,6 +1391,7 @@
       "CIA Part 1 C.3",
       "COSO 2013"
     ],
+    "trap": "Cho rằng thêm đào tạo hoặc thưởng sẽ tăng tin báo, bỏ qua việc kênh tiếp nhận không độc lập.",
     "source": "original"
   },
   {
@@ -1379,6 +1418,7 @@
       "IIA Three Lines Model",
       "CIA Part 1 C.1"
     ],
+    "trap": "Lo về kênh báo cáo hay việc dự họp, bỏ qua cơ chế thưởng gắn với tăng trưởng của tuyến thứ hai.",
     "source": "original"
   },
   {
@@ -1405,6 +1445,7 @@
       "COSO ERM 2017",
       "CIA Part 1 C.5"
     ],
+    "trap": "Nhầm thành phần Hiệu quả hoạt động với Chiến lược và thiết lập mục tiêu.",
     "source": "original"
   },
   {
@@ -1430,6 +1471,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Cho rằng hạ tầng đặt ở nhà cung cấp thì nhà cung cấp chịu mọi trách nhiệm, kể cả với IaaS.",
     "source": "original"
   },
   {
@@ -1456,6 +1498,7 @@
       "COSO 2013",
       "CIA Part 1 C.1"
     ],
+    "trap": "Tăng kiểm soát cấp giao dịch để xử lý rủi ro lãnh đạo vượt quyền, trong khi lãnh đạo có thể vượt qua chúng.",
     "source": "original"
   },
   {
@@ -1532,6 +1575,7 @@
       "CIA Part 1 C.3",
       "IIA Three Lines Model"
     ],
+    "trap": "Coi kỹ năng nghiệp vụ là vấn đề chính, bỏ qua khách quan của tuyến thứ hai khi báo cáo cho bên chịu chỉ tiêu.",
     "source": "original"
   },
   {
@@ -1557,6 +1601,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Tăng tần suất kê khai hoặc thêm cam kết, thay vì đối chiếu kê khai với nguồn độc lập.",
     "source": "original"
   },
   {
@@ -1583,6 +1628,7 @@
       "CIA Part 1 C.4",
       "COSO ERM 2017"
     ],
+    "trap": "Nhầm né tránh rủi ro với giảm thiểu rủi ro.",
     "source": "original"
   },
   {
@@ -1608,6 +1654,7 @@
     "refs": [
       "ISO 31000:2018"
     ],
+    "trap": "Cho rằng rủi ro chỉ gồm các sự kiện gây tổn thất, không bao gồm cơ hội.",
     "source": "original"
   },
   {
@@ -1633,6 +1680,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Thấy rủi ro hoạt động hay thị trường, bỏ qua vấn đề đại diện giữa Ban điều hành và cổ đông.",
     "source": "original"
   },
   {
@@ -1658,6 +1706,7 @@
     "refs": [
       "COSO ERM 2017"
     ],
+    "trap": "Cho rằng từng khối nằm trong ngưỡng là đủ, bỏ qua góc nhìn danh mục toàn tổ chức.",
     "source": "original"
   },
   {
@@ -1683,6 +1732,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Đảo ngược RTO (thời gian khôi phục) và RPO (lượng dữ liệu được phép mất).",
     "source": "original"
   },
   {
@@ -1708,6 +1758,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Không nhận ra rủi ro bên thứ tư từ nhà thầu phụ của nhà cung cấp.",
     "source": "original"
   },
   {
@@ -1733,6 +1784,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Cho rằng có ngưỡng định lượng là thiết kế phù hợp, bỏ qua độ chính xác của ngưỡng.",
     "source": "original"
   },
   {
@@ -1758,6 +1810,7 @@
     "refs": [
       "CIA Part 1 C.7"
     ],
+    "trap": "Kiểm tra kiểm soát tự động như kiểm soát thủ công, hoặc cho rằng tự động thì không cần kiểm tra.",
     "source": "original"
   },
   {
@@ -1783,6 +1836,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Nhầm Ủy ban Đề cử với Ủy ban Kiểm toán hoặc Ủy ban Lương thưởng.",
     "source": "original"
   },
   {
@@ -1808,6 +1862,7 @@
     "refs": [
       "COSO 2013"
     ],
+    "trap": "Tìm giải pháp kỹ thuật, bỏ qua cơ chế khen thưởng không gắn với trách nhiệm về kiểm soát.",
     "source": "original"
   },
   {
@@ -1833,6 +1888,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Coi chi phí hay thuế là rủi ro chính, bỏ qua dấu hiệu hối lộ qua trung gian.",
     "source": "original"
   },
   {
@@ -1858,6 +1914,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Nhầm giới hạn mục đích với giảm thiểu dữ liệu.",
     "source": "original"
   },
   {
@@ -1883,6 +1940,7 @@
     "refs": [
       "COSO ERM 2017"
     ],
+    "trap": "Cho rằng khẩu vị rủi ro chỉ cần một câu định tính, ngắn gọn.",
     "source": "original"
   },
   {
@@ -1909,6 +1967,7 @@
       "CIA Part 1 C.5",
       "IIA Three Lines Model"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ độc lập nên phù hợp làm người chịu trách nhiệm rủi ro.",
     "source": "original"
   },
   {
@@ -1934,6 +1993,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Chú ý tần suất hay dung lượng sao lưu, bỏ qua việc bản sao lưu kết nối thường trực có thể bị mã hóa cùng.",
     "source": "original"
   },
   {
@@ -1959,6 +2019,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Cho rằng báo cáo do hệ thống xuất ra luôn chính xác, không cần kiểm tra dữ liệu đầu vào của việc rà soát.",
     "source": "original"
   },
   {
@@ -1984,6 +2045,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Giao quyết định cho Ban điều hành hoặc hoãn chiến lược, thay vì bổ sung năng lực cho HĐQT.",
     "source": "original"
   },
   {
@@ -2034,6 +2096,7 @@
     "refs": [
       "ISO 31000:2018"
     ],
+    "trap": "Bắt đầu bằng xử lý rủi ro, bỏ qua bước xác lập phạm vi, bối cảnh và tiêu chí rủi ro.",
     "source": "original"
   },
   {
@@ -2084,6 +2147,7 @@
     "refs": [
       "CIA Part 1 C.7"
     ],
+    "trap": "Ưu tiên kiểm soát phát hiện hoặc khắc phục cho giao dịch gần như không thể đảo ngược.",
     "source": "original"
   },
   {
@@ -2110,6 +2174,7 @@
       "CIA Part 1 C.8",
       "GIAS 14.3"
     ],
+    "trap": "Xếp mức độ theo số lần vi phạm thay vì theo khả năng xảy ra và mức độ ảnh hưởng.",
     "source": "original"
   },
   {
@@ -2135,6 +2200,7 @@
     "refs": [
       "COSO ERM 2017"
     ],
+    "trap": "Nhầm thành phần Rà soát và Điều chỉnh với Hiệu quả hoạt động.",
     "source": "original"
   },
   {
@@ -2160,6 +2226,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ nên nhận theo dõi mục tiêu thay cho sự giám sát của HĐQT.",
     "source": "original"
   },
   {
@@ -2186,6 +2253,7 @@
       "CIA Part 1 C.2",
       "COSO 2013"
     ],
+    "trap": "Cho rằng thông điệp tốt từ cấp cao là đủ, bỏ qua thông điệp ở cấp quản lý trung gian.",
     "source": "original"
   },
   {
@@ -2211,6 +2279,7 @@
     "refs": [
       "CIA Part 1 C.4"
     ],
+    "trap": "Nhầm rủi ro tiềm tàng (trước kiểm soát) với rủi ro còn lại (sau kiểm soát).",
     "source": "original"
   },
   {
@@ -2236,6 +2305,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Cho rằng lập trình viên tự kiểm tra lại là đủ, bỏ qua tách biệt phát triển và vận hành.",
     "source": "original"
   },
   {
@@ -2262,6 +2332,7 @@
       "CIA Part 1 C.7",
       "COSO 2013"
     ],
+    "trap": "Nhầm kiểm soát cấp đơn vị với kiểm soát cấp giao dịch.",
     "source": "original"
   },
   {
@@ -2287,6 +2358,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Coi chữ ký phê duyệt là bằng chứng mạnh nhất, trong khi thực hiện lại cho bằng chứng tốt hơn.",
     "source": "original"
   },
   {
@@ -2312,6 +2384,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Cho rằng vấn đề là giá trị giao dịch lớn hay thiếu phê duyệt của kiểm toán nội bộ.",
     "source": "original"
   },
   {
@@ -2337,6 +2410,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Cho rằng kế hoạch chi tiết là đủ, bỏ qua việc diễn tập và cập nhật.",
     "source": "original"
   },
   {
@@ -2362,6 +2436,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Chia đều nguồn lực cho mọi kiểm soát thay vì tập trung vào kiểm soát chính.",
     "source": "original"
   },
   {
@@ -2387,6 +2462,7 @@
     "refs": [
       "COSO 2013"
     ],
+    "trap": "Tìm lỗi ở một hoạt động kiểm soát cụ thể, bỏ qua triết lý và phong cách điều hành.",
     "source": "original"
   },
   {
@@ -2412,6 +2488,7 @@
     "refs": [
       "CIA Part 1 C.4"
     ],
+    "trap": "Nhầm rủi ro chiến lược với rủi ro hoạt động hoặc tài chính.",
     "source": "original"
   },
   {
@@ -2437,6 +2514,7 @@
     "refs": [
       "CIA Part 1 C.4"
     ],
+    "trap": "Nhầm nguyên nhân (vi phạm vệ sinh, rủi ro hoạt động) với hậu quả nổi bật (rủi ro uy tín).",
     "source": "original"
   },
   {
@@ -2564,6 +2642,7 @@
     "refs": [
       "COSO ERM 2017"
     ],
+    "trap": "Cho rằng ứng phó rủi ro chỉ gồm giảm, tránh, chia sẻ, bỏ qua phương án theo đuổi rủi ro.",
     "source": "original"
   },
   {
@@ -2590,6 +2669,7 @@
       "COSO ERM 2017",
       "CIA Part 1 C.5"
     ],
+    "trap": "Cho rằng mọi rủi ro mất dữ liệu đều phải được loại bỏ bất kể chi phí.",
     "source": "original"
   },
   {
@@ -2616,6 +2696,7 @@
       "CIA Part 1 C.6",
       "GIAS 9.1"
     ],
+    "trap": "Đánh giá quản lý rủi ro theo khối lượng văn bản thay vì việc rủi ro được giám sát và xử lý.",
     "source": "original"
   },
   {
@@ -2669,6 +2750,7 @@
       "CIA Part 1 C.7",
       "CIA Part 1 D.4"
     ],
+    "trap": "Xác minh qua chính kênh kẻ gian dùng (email), hoặc dựa vào kiểm soát phát hiện sau khi tiền đã đi.",
     "source": "original"
   },
   {
@@ -2719,6 +2801,7 @@
     "refs": [
       "CIA Part 1 C.7"
     ],
+    "trap": "Ưu tiên phạt hoặc rà soát muộn, thay vì chặn sai sót ngay khi nhập liệu.",
     "source": "original"
   },
   {
@@ -2770,6 +2853,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Cho rằng nhiều cấp phê duyệt thì kiểm soát càng chặt, bỏ qua việc trách nhiệm bị dàn mỏng.",
     "source": "original"
   },
   {
@@ -2821,6 +2905,7 @@
       "GIAS 13.2",
       "CIA Part 1 C.2"
     ],
+    "trap": "Cho rằng rủi ro cấp cuộc kiểm toán giống hệt sổ đăng ký rủi ro của tổ chức.",
     "source": "original"
   },
   {
@@ -2847,6 +2932,7 @@
       "CIA Part 1 C.2",
       "CIA Part 1 C.1"
     ],
+    "trap": "Cho rằng quyết định nhanh và có lãi trong quá khứ chứng tỏ rủi ro thấp.",
     "source": "original"
   },
   {
@@ -2872,6 +2958,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ đưa ý kiến pháp lý hoặc báo cáo thay bộ phận tuân thủ.",
     "source": "original"
   },
   {
@@ -2923,6 +3010,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Coi số lượng thành viên là vấn đề chính, bỏ qua tính độc lập và chuyên môn của Ủy ban Kiểm toán.",
     "source": "original"
   },
   {
@@ -2973,6 +3061,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Giao kiểm toán nội bộ hoặc Tổng Giám đốc đánh giá HĐQT, thay vì HĐQT tự đánh giá định kỳ.",
     "source": "original"
   },
   {
@@ -3025,6 +3114,7 @@
       "CIA Part 1 C.2",
       "GIAS 13.2"
     ],
+    "trap": "Cho rằng có phê duyệt của cấp trên thì giảm được thử nghiệm, dù văn hóa cho thấy phê duyệt không thực chất.",
     "source": "original"
   },
   {
@@ -3075,6 +3165,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Cho rằng người lao động tự nguyện thì vi phạm luật không còn là vấn đề.",
     "source": "original"
   },
   {
@@ -3100,6 +3191,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Cho rằng kiểm toán nội bộ am hiểu đạo đức nên làm chủ chương trình đạo đức.",
     "source": "original"
   },
   {
@@ -3125,6 +3217,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Cho rằng công ty đăng ký ở Việt Nam thì chỉ cần tuân thủ luật Việt Nam.",
     "source": "original"
   },
   {
@@ -3150,6 +3243,7 @@
     "refs": [
       "CIA Part 1 C.4"
     ],
+    "trap": "Cho rằng vi phạm của nhà cung cấp là rủi ro tuân thủ của chính hãng thời trang.",
     "source": "original"
   },
   {
@@ -3201,6 +3295,7 @@
       "COSO ERM 2017",
       "CIA Part 1 C.5"
     ],
+    "trap": "Bỏ qua tốc độ tác động khi hai rủi ro có cùng khả năng và mức ảnh hưởng.",
     "source": "original"
   },
   {
@@ -3227,6 +3322,7 @@
       "COSO ERM 2017",
       "CIA Part 1 C.5"
     ],
+    "trap": "Cho rằng thuê ngoài chuyển toàn bộ rủi ro và trách nhiệm sang nhà cung cấp.",
     "source": "original"
   },
   {
@@ -3252,6 +3348,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Cho rằng lập danh sách rủi ro một lần hoặc có dự phòng lớn là đủ.",
     "source": "original"
   },
   {
@@ -3279,6 +3376,7 @@
       "COSO ERM 2017",
       "CIA Part 1 C.6"
     ],
+    "trap": "Cho rằng vấn đề là danh sách quá dài, bỏ qua việc rủi ro không gắn với mục tiêu.",
     "source": "original"
   },
   {
@@ -3329,6 +3427,7 @@
     "refs": [
       "CIA Part 1 C.7"
     ],
+    "trap": "Cho rằng báo cáo ngoại lệ được tạo đều đặn là kiểm soát hữu hiệu, bỏ qua thời điểm xử lý.",
     "source": "original"
   },
   {
@@ -3380,6 +3479,7 @@
     "refs": [
       "CIA Part 1 C.1"
     ],
+    "trap": "Nhầm vai trò giám sát của Ủy ban Rủi ro với việc phê duyệt từng khoản vay.",
     "source": "original"
   },
   {
@@ -3431,6 +3531,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Tìm lỗi ở thủ tục phê duyệt, bỏ qua việc quy tắc không đến được người lao động.",
     "source": "original"
   },
   {
@@ -3457,6 +3558,7 @@
       "CIA Part 1 C.4",
       "COSO ERM 2017"
     ],
+    "trap": "Chỉ nhìn rủi ro gốc, bỏ qua các rủi ro kéo theo (uy tín, tài chính).",
     "source": "original"
   },
   {
@@ -3584,6 +3686,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Coi biên bản đủ chữ ký là bằng chứng kiểm soát hữu hiệu dù kết quả xấu đi.",
     "source": "original"
   },
   {
@@ -3635,6 +3738,7 @@
       "CIA Part 1 C.1",
       "GIAS 9.5"
     ],
+    "trap": "Thay toàn bộ kế hoạch bằng kiến nghị thanh tra hoặc tự thực hiện thay Ban điều hành.",
     "source": "original"
   },
   {
@@ -3685,6 +3789,7 @@
     "refs": [
       "CIA Part 1 C.3"
     ],
+    "trap": "Cho rằng thỏa thuận có lợi cho ngành hoặc không ghi thành văn bản thì không vi phạm luật cạnh tranh.",
     "source": "original"
   },
   {
@@ -3711,6 +3816,7 @@
       "CIA Part 1 C.4",
       "GIAS 9.4"
     ],
+    "trap": "Dựa vào rủi ro còn lại do Ban điều hành tự đánh giá mà không kiểm chứng kiểm soát.",
     "source": "original"
   },
   {
@@ -3736,6 +3842,7 @@
     "refs": [
       "CIA Part 1 C.4"
     ],
+    "trap": "Nhầm rủi ro thanh khoản (lệch kỳ hạn) với rủi ro tín dụng hoặc hoạt động.",
     "source": "original"
   },
   {
@@ -3762,6 +3869,7 @@
       "COSO ERM 2017",
       "CIA Part 1 C.5"
     ],
+    "trap": "Nhầm dung sai cho một mục tiêu cụ thể với khẩu vị rủi ro tổng thể hoặc năng lực chịu đựng.",
     "source": "original"
   },
   {
@@ -3813,6 +3921,7 @@
     "refs": [
       "CIA Part 1 C.6"
     ],
+    "trap": "Cho rằng vấn đề là chứng chỉ, bỏ qua việc người chủ rủi ro thiếu thẩm quyền.",
     "source": "original"
   },
   {
@@ -3863,6 +3972,7 @@
     "refs": [
       "CIA Part 1 C.7"
     ],
+    "trap": "Nhầm kiểm tra tính hợp lệ với kiểm tra giới hạn.",
     "source": "original"
   },
   {
@@ -3888,6 +3998,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Cho rằng phải kiểm tra vận hành trước khi kết luận về thiết kế, dù rủi ro không có kiểm soát nào.",
     "source": "original"
   },
   {
@@ -3913,6 +4024,7 @@
     "refs": [
       "CIA Part 1 C.8"
     ],
+    "trap": "Cho rằng đã giao người thực hiện là thiết kế phù hợp, bỏ qua năng lực và tiêu chí rà soát.",
     "source": "original"
   },
   {
@@ -3923,12 +4035,12 @@
     "stem": "Kiểm toán viên được giao kiểm tra kiểm soát phê duyệt hạn mức tín dụng vừa được thiết kế lại. Trước khi chọn mẫu kiểm tra hiệu quả vận hành, kiểm toán viên nên làm gì trước tiên?",
     "options": [
       "Chọn ngay một mẫu lớn để có kết luận nhanh về hiệu quả vận hành của kiểm soát.",
-      "Đánh giá thiết kế, ví dụ theo một giao dịch, xem kiểm soát có xử lý được rủi ro không.",
+      "Đánh giá thiết kế trước: kiểm soát mới có đủ để xử lý rủi ro cần kiểm soát không.",
       "Kiểm tra lại toàn bộ khoản vay đã giải ngân trong năm thay cho việc kiểm tra kiểm soát.",
       "Phỏng vấn người thực hiện và kết luận kiểm soát hữu hiệu nếu họ mô tả đúng quy trình."
     ],
     "answer": 1,
-    "explanation": "Kiểm tra hiệu quả vận hành chỉ có ý nghĩa khi kiểm soát được thiết kế phù hợp để xử lý rủi ro. Vì vậy kiểm toán viên đánh giá thiết kế trước, thường bằng cách theo một giao dịch đi qua quy trình (walkthrough). Nếu thiết kế đã yếu, kiểm toán viên nêu khiếm khuyết thiết kế thay vì tốn công kiểm tra vận hành.",
+    "explanation": "Kiểm tra hiệu quả vận hành chỉ có ý nghĩa khi kiểm soát được thiết kế phù hợp để xử lý rủi ro. Vì vậy kiểm toán viên đánh giá thiết kế trước: đối chiếu kiểm soát với rủi ro mà nó phải xử lý. Nếu thiết kế đã yếu, kiểm toán viên nêu khiếm khuyết thiết kế thay vì tốn công kiểm tra vận hành.",
     "optionNotes": [
       "Sai. Kiểm tra vận hành của một kiểm soát thiết kế sai vẫn không xử lý được rủi ro; phải đánh giá thiết kế trước.",
       "Đúng. Đánh giá thiết kế là bước trước khi kiểm tra hiệu quả vận hành.",
