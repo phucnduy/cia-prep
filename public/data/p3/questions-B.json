@@ -78,26 +78,27 @@
     "id": "P3-B-003",
     "section": "B",
     "topic": "B2",
-    "difficulty": 3,
-    "stem": "Giữa năm, tổ chức mua lại một công ty con ở nước ngoài có rủi ro tuân thủ cao. Kế hoạch kiểm toán năm đã được HĐQT phê duyệt. CAE nên làm gì?",
+    "difficulty": 2,
+    "stem": "Kế hoạch kiểm toán năm phân bổ 100% thời gian của bộ phận cho 30 cuộc đảm bảo đã định, không dành phần nào cho việc phát sinh. Năm nào kế hoạch cũng bị xáo trộn vì yêu cầu đột xuất và rủi ro mới. Cải thiện nào phù hợp nhất khi lập kế hoạch năm sau?",
     "options": [
-      "Đánh giá lại rủi ro, điều chỉnh kế hoạch, trình HĐQT duyệt.",
-      "Giữ nguyên kế hoạch vì HĐQT đã phê duyệt cho cả năm tài chính.",
-      "Tự bổ sung cuộc kiểm toán và báo cáo HĐQT vào cuối năm.",
-      "Đề nghị Tổng Giám đốc phê duyệt thay đổi để kịp thời gian."
+      "Dành một phần nguồn lực dự phòng cho rủi ro mới và yêu cầu đột xuất, có tiêu chí dùng.",
+      "Giữ phân bổ 100%, vì kế hoạch kín lịch cho thấy bộ phận sử dụng nguồn lực hiệu quả nhất.",
+      "Từ chối mọi yêu cầu đột xuất trong năm, vì kế hoạch đã được HĐQT phê duyệt từ đầu năm.",
+      "Tăng số cuộc kiểm toán lên 40 để có thể hủy bớt khi phát sinh việc mới trong năm."
     ],
     "answer": 0,
-    "explanation": "GIAS 9.4: kế hoạch phải linh hoạt; khi có thay đổi đáng kể về rủi ro, CAE cập nhật kế hoạch và trao đổi, trình HĐQT phê duyệt các thay đổi đáng kể.",
-    "refs": [
-      "GIAS 9.4"
-    ],
-    "source": "original",
+    "explanation": "Kế hoạch dựa trên rủi ro phải linh hoạt trước thay đổi của tổ chức. Dành sẵn một phần nguồn lực, kèm tiêu chí khi nào dùng và ai duyệt, giúp bộ phận xử lý rủi ro mới nổi và yêu cầu đột xuất mà không phải hủy các cuộc kiểm toán rủi ro cao. Các thay đổi đáng kể của kế hoạch vẫn phải được trao đổi với HĐQT.",
     "optionNotes": [
-      "Đúng. GIAS 9.4: đánh giá lại rủi ro và trình HĐQT phê duyệt thay đổi đáng kể của kế hoạch.",
-      "Sai. Kế hoạch phải linh hoạt khi rủi ro thay đổi.",
-      "Sai. Thay đổi đáng kể phải được HĐQT phê duyệt, không chỉ báo cáo cuối năm.",
-      "Sai. Tổng Giám đốc không có thẩm quyền phê duyệt kế hoạch kiểm toán."
-    ]
+      "Đúng. Nguồn lực dự phòng có tiêu chí sử dụng giúp kế hoạch linh hoạt mà vẫn bảo vệ các cuộc kiểm toán rủi ro cao.",
+      "Sai. Kín lịch không đồng nghĩa với hiệu quả; khi rủi ro mới xuất hiện, các cuộc kiểm toán quan trọng sẽ bị hủy hoặc làm vội.",
+      "Sai. Kế hoạch được phê duyệt vẫn phải đáp ứng rủi ro mới; từ chối mọi yêu cầu có thể bỏ sót rủi ro trọng yếu.",
+      "Sai. Đưa thêm cuộc kiểm toán để hủy dần làm kế hoạch thiếu trung thực và không cho HĐQT biết bộ phận thực sự sẽ làm gì."
+    ],
+    "trap": "Cho rằng kế hoạch kín lịch là hiệu quả nhất, bỏ qua nhu cầu linh hoạt trước rủi ro mới.",
+    "refs": [
+      "CIA Part 3 B.2"
+    ],
+    "source": "original"
   },
   {
     "id": "P3-B-H01",

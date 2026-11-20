@@ -257,23 +257,23 @@
     "section": "B",
     "topic": "B1",
     "difficulty": 2,
-    "stem": "Hệ thống bán hàng ghi nhận 1,2 triệu giao dịch mỗi năm. Kiểm toán viên cần xác định mọi giao dịch có chiết khấu vượt hạn mức. Cách thu thập thông tin hiệu quả nhất là gì?",
+    "stem": "Kiểm toán viên cần tìm hiểu nhanh kiểm soát thu tiền tại 40 chi nhánh trước khi chọn nơi kiểm tra trực tiếp, nên gửi bảng câu hỏi kiểm soát nội bộ cho các giám đốc chi nhánh. Cách dùng kết quả nào phù hợp nhất?",
     "options": [
-      "Trích dữ liệu và dùng phần mềm kiểm tra toàn bộ tổng thể.",
-      "Chọn ngẫu nhiên 100 giao dịch và suy rộng tỷ lệ vi phạm.",
-      "Phỏng vấn trưởng phòng bán hàng về các trường hợp ngoại lệ.",
-      "Đề nghị bộ phận bán hàng tự lập danh sách giao dịch vượt hạn mức."
+      "Bỏ bảng câu hỏi, vì thông tin do chính đơn vị được kiểm toán cung cấp luôn vô giá trị.",
+      "Coi câu trả lời 'có' là bằng chứng kiểm soát đang vận hành hữu hiệu tại chi nhánh đó.",
+      "Chỉ kiểm tra trực tiếp những chi nhánh trả lời 'không' cho nhiều câu hỏi nhất.",
+      "Dùng câu trả lời để định hướng, rồi kiểm chứng tại các chi nhánh được chọn theo rủi ro."
     ],
-    "answer": 0,
-    "explanation": "GIAS 14.1 (Xem xét khi thực hiện) nêu kiểm toán viên nên cân nhắc kiểm tra toàn bộ tổng thể hay chọn mẫu; phần mềm phân tích dữ liệu giúp kiểm tra toàn bộ. Khi mục tiêu là tìm mọi ngoại lệ, kiểm tra toàn bộ phù hợp hơn chọn mẫu.",
+    "answer": 3,
+    "explanation": "Bảng câu hỏi kiểm soát nội bộ giúp thu thập hiểu biết ban đầu trên diện rộng với chi phí thấp, nhưng câu trả lời là tự khai của người quản lý nên chưa phải bằng chứng về vận hành. Kiểm toán viên dùng nó để nhận diện khu vực rủi ro, rồi kiểm chứng bằng quan sát, kiểm tra chứng từ tại các chi nhánh được chọn. Chi nhánh trả lời 'có' cho mọi câu chưa chắc đã kiểm soát tốt.",
     "optionNotes": [
-      "Đúng. Kiểm tra toàn bộ tổng thể bằng phần mềm.",
-      "Sai. Chọn mẫu chỉ ước tính tỷ lệ, không tìm được mọi giao dịch vượt hạn mức như mục tiêu đặt ra.",
-      "Sai. Phỏng vấn là bằng chứng gián tiếp và không liệt kê được mọi ngoại lệ trong 1,2 triệu giao dịch.",
-      "Sai. Danh sách do chính đơn vị tự lập kém tin cậy; kiểm toán viên cần tự trích và phân tích dữ liệu."
+      "Sai. Thông tin tự khai có độ tin cậy thấp hơn nhưng vẫn hữu ích để định hướng; cần kiểm chứng chứ không bỏ hẳn.",
+      "Sai. Câu trả lời 'có' chỉ là tự khai của quản lý; nó chưa chứng minh kiểm soát được thực hiện trên thực tế.",
+      "Sai. Chi nhánh trả lời 'có' hết cũng có thể đang che giấu yếu kém; chọn nơi kiểm tra phải xét cả rủi ro, không chỉ câu trả lời.",
+      "Đúng. Bảng câu hỏi cho hiểu biết ban đầu; kết luận phải dựa trên kiểm chứng tại các chi nhánh được chọn theo rủi ro."
     ],
+    "trap": "Coi câu trả lời tự khai trong bảng câu hỏi là bằng chứng kiểm soát vận hành hữu hiệu.",
     "refs": [
-      "GIAS 14.1",
       "CIA Part 2 B.1"
     ],
     "source": "original"
@@ -440,24 +440,24 @@
     "id": "P2-B-M09",
     "section": "B",
     "topic": "B6",
-    "difficulty": 3,
-    "stem": "Sau khi phân tích đầy đủ, kiểm toán viên không thấy chênh lệch nào giữa tiêu chí và thực trạng của quy trình đối chiếu ngân hàng, và không cần phân tích thêm. Theo GIAS, kiểm toán viên phải làm gì?",
+    "difficulty": 2,
+    "stem": "Phân tích dữ liệu phát hiện 14 khoản thanh toán trùng cho nhà cung cấp trong năm, do hệ thống không chặn hóa đơn trùng số. Dự thảo kiến nghị chỉ ghi: 'Thu hồi 14 khoản đã trả trùng.' Nhận xét nào đúng nhất về kiến nghị này?",
     "options": [
-      "Không cần nêu gì về quy trình này trong kết luận.",
-      "Chuyển cuộc kiểm toán sang dạng tư vấn vì không có phát hiện.",
-      "Mở rộng phạm vi cho đến khi tìm được ít nhất một phát hiện.",
-      "Đưa ra sự đảm bảo về hiệu quả của quy trình trong kết luận."
+      "Chưa đủ; cần thêm kiến nghị xử lý nguyên nhân, như cấu hình chặn hóa đơn trùng.",
+      "Đủ, vì thu hồi toàn bộ số tiền đã trả trùng là kết quả quan trọng nhất.",
+      "Chưa đủ; cần đề xuất kỷ luật kế toán thanh toán đã nhập các hóa đơn trùng.",
+      "Đủ, nếu Ban điều hành cam kết thu hồi xong trong vòng một tháng tới."
     ],
-    "answer": 3,
-    "explanation": "GIAS 14.2: nếu không cần phân tích thêm và không có chênh lệch giữa tiêu chí và thực trạng, kiểm toán viên phải đưa ra sự đảm bảo trong kết luận về hiệu quả quản trị, quản lý rủi ro và kiểm soát của hoạt động.",
+    "answer": 0,
+    "explanation": "Kiến nghị có giá trị khi xử lý nguyên nhân của phát hiện, không chỉ hậu quả. Thu hồi 14 khoản là cần thiết, nhưng nếu hệ thống vẫn không chặn hóa đơn trùng thì lỗi sẽ lặp lại. Kiến nghị nên gồm cả việc khắc phục nguyên nhân (cấu hình kiểm tra trùng, rà soát định kỳ) để rủi ro thực sự giảm.",
     "optionNotes": [
-      "Sai. Phải nêu sự đảm bảo khi quy trình hữu hiệu.",
-      "Sai. Không đổi loại dịch vụ vì không có phát hiện.",
-      "Sai. Mở rộng phạm vi chỉ để tìm phát hiện là sai mục đích; khi không có chênh lệch, kết luận phải nêu quy trình hiệu quả.",
-      "Đúng. Bắt buộc đưa ra sự đảm bảo."
+      "Đúng. Thu hồi xử lý hậu quả; chặn hóa đơn trùng trên hệ thống mới xử lý nguyên nhân và ngăn lỗi lặp lại.",
+      "Sai. Thu hồi tiền là cần, nhưng nếu không sửa hệ thống thì các khoản trả trùng mới sẽ tiếp tục phát sinh.",
+      "Sai. Nguyên nhân là hệ thống không chặn trùng, không phải lỗi cố ý của một người; kỷ luật không ngăn được lỗi lặp lại.",
+      "Sai. Cam kết thu hồi nhanh vẫn chỉ xử lý hậu quả; nguyên nhân trên hệ thống vẫn còn nguyên."
     ],
+    "trap": "Kiến nghị chỉ xử lý hậu quả (thu hồi tiền), bỏ qua nguyên nhân gây ra phát hiện.",
     "refs": [
-      "GIAS 14.2",
       "CIA Part 2 B.6"
     ],
     "source": "original"
@@ -599,7 +599,7 @@
     "section": "B",
     "topic": "B7",
     "difficulty": 3,
-    "stem": "Một giấy làm việc ghi 'đã kiểm tra, không có ngoại lệ' nhưng không nêu nguồn dữ liệu, tổng thể, cỡ mẫu, cách chọn mẫu hay người thực hiện. Rủi ro chính là gì?",
+    "stem": "Một giấy làm việc chỉ có một dòng ghi 'đã kiểm tra, không có ngoại lệ', không kèm thông tin nào khác về công việc đã làm. Rủi ro chính là gì?",
     "options": [
       "Kết luận có thể sai vì cỡ mẫu được chọn chưa đủ lớn.",
       "Người khác không thể làm lại công việc để kiểm chứng kết luận.",

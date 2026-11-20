@@ -284,23 +284,24 @@
     "section": "A",
     "topic": "A1",
     "difficulty": 2,
-    "stem": "Đoàn đánh giá chất lượng bên ngoài thấy một cuộc kiểm toán an ninh mạng đã không đề cập phần quản trị an ninh mạng trong Topical Requirement và không có giải thích. Nhận định nào đúng nhất?",
+    "stem": "Bản kế hoạch cuộc kiểm toán ghi: 'Mục tiêu: kiểm tra các chi nhánh miền Bắc, giao dịch từ tháng 1 đến tháng 9'. Người rà soát yêu cầu viết lại mục này. Lý do phù hợp nhất là gì?",
     "options": [
-      "Là khoảng trống, có thể dẫn đến kết luận không tuân thủ.",
-      "Hợp lý, vì Topical Requirement chỉ là hướng dẫn không bắt buộc.",
-      "Hợp lý nếu kết luận cuộc kiểm toán vẫn là kiểm soát hữu hiệu.",
-      "Chỉ là vấn đề nếu HĐQT đã yêu cầu kiểm toán phần quản trị."
+      "Câu đó mô tả phạm vi; mục tiêu phải nêu cuộc kiểm toán nhằm đánh giá điều gì.",
+      "Câu đó quá ngắn; mục tiêu phải liệt kê đủ mọi thủ tục sẽ làm tại các chi nhánh.",
+      "Câu đó thiếu tên kiểm toán viên phụ trách và số ngày công của từng chi nhánh.",
+      "Câu đó phải được Giám đốc các chi nhánh ký xác nhận trước khi đưa vào kế hoạch."
     ],
     "answer": 0,
-    "explanation": "Theo IIA, khi chủ đề nằm trong cuộc kiểm toán, kiểm toán viên phải đánh giá các yêu cầu; phần nằm ngoài phạm vi phải có lý do được ghi lại. Bỏ qua hoàn toàn hoặc không có lý do là khoảng trống, có thể góp phần vào đánh giá không tuân thủ Chuẩn mực.",
+    "explanation": "Theo GIAS 13.3, mục tiêu nêu mục đích của cuộc kiểm toán và những gì cụ thể cần đạt được, ví dụ đánh giá kiểm soát phê duyệt tín dụng có ngăn được khoản vay vượt hạn mức hay không. Phạm vi xác định trọng tâm và ranh giới: hoạt động, địa điểm, quy trình, hệ thống, thời kỳ. 'Các chi nhánh miền Bắc, tháng 1 đến tháng 9' là ranh giới, tức phạm vi; thiếu mục tiêu thì không biết thủ tục nào là đủ.",
     "optionNotes": [
-      "Đúng. Thiếu lý do loại trừ là khoảng trống tuân thủ.",
-      "Sai. Topical Requirements là phần bắt buộc của IPPF.",
-      "Sai. Kết luận tốt không thay được việc ghi lại lý do.",
-      "Sai. Yêu cầu áp dụng khi chủ đề nằm trong phạm vi, không chờ HĐQT."
+      "Đúng. Địa điểm và thời kỳ là phạm vi; mục tiêu phải nêu cuộc kiểm toán nhằm đánh giá điều gì.",
+      "Sai. Thủ tục thuộc chương trình kiểm toán, không phải mục tiêu; mục tiêu nêu điều cần đạt, thủ tục là cách để đạt.",
+      "Sai. Nhân sự và ngày công thuộc kế hoạch nguồn lực; lỗi ở đây là nhầm phạm vi với mục tiêu.",
+      "Sai. Mục tiêu do kiểm toán nội bộ xác lập và được phê duyệt trong bộ phận; đơn vị được kiểm toán không ký xác nhận mục tiêu."
     ],
+    "trap": "Nhầm phạm vi (địa điểm, thời kỳ) với mục tiêu (điều cuộc kiểm toán nhằm đánh giá).",
     "refs": [
-      "IIA Topical Requirements",
+      "GIAS 13.3",
       "CIA Part 2 A.1"
     ],
     "source": "original"
@@ -336,22 +337,23 @@
     "id": "P2-A-M04",
     "section": "A",
     "topic": "A1",
-    "difficulty": 2,
-    "stem": "Khi lập kế hoạch một cuộc tư vấn thiết kế quy trình phê duyệt hợp đồng, mục tiêu và phạm vi thường được xác định thế nào là phù hợp nhất?",
+    "difficulty": 3,
+    "stem": "Mục tiêu cuộc kiểm toán là đánh giá kiểm soát chống hoàn tiền giả tại toàn bộ 40 cửa hàng. Để kịp tiến độ, trưởng nhóm đề xuất phạm vi chỉ gồm 2 cửa hàng gần trụ sở trong một tháng. Nhận định nào đúng nhất?",
     "options": [
-      "Do kiểm toán viên tự xác định, quản lý chỉ được thông báo sau.",
-      "Do HĐQT quyết định trực tiếp cho từng cuộc tư vấn cụ thể.",
-      "Do kiểm toán viên và quản lý đơn vị cùng thống nhất xác lập.",
-      "Do quản lý đơn vị tự quyết định, kiểm toán viên làm theo."
+      "Phù hợp, nếu kết quả của 2 cửa hàng được suy rộng cho toàn bộ 40 cửa hàng.",
+      "Phù hợp, vì phạm vi do trưởng nhóm quyết định theo nguồn lực sẵn có của nhóm.",
+      "Chưa phù hợp; phạm vi phải đủ để đạt mục tiêu, nếu không thì phải điều chỉnh mục tiêu.",
+      "Chưa phù hợp; phạm vi luôn phải bao gồm toàn bộ cửa hàng trong cả năm tài chính."
     ],
     "answer": 2,
-    "explanation": "Theo phần Xem xét khi thực hiện của GIAS 13.3, mục tiêu và phạm vi cuộc đảm bảo chủ yếu do kiểm toán viên xác định, còn với cuộc tư vấn thường do kiểm toán viên và quản lý đơn vị cùng xác lập. CAE vẫn phê duyệt mục tiêu và phạm vi.",
+    "explanation": "GIAS 13.3 yêu cầu phạm vi đủ để đạt mục tiêu của cuộc kiểm toán. Hai cửa hàng được chọn vì gần trụ sở, trong một tháng, không đủ cơ sở để kết luận về kiểm soát của cả 40 cửa hàng. Nếu nguồn lực có hạn, nhóm có thể chọn mẫu cửa hàng theo rủi ro, hoặc thu hẹp mục tiêu cho khớp với phạm vi và nêu rõ điều đó; không thể giữ mục tiêu lớn với phạm vi quá hẹp.",
     "optionNotes": [
-      "Sai. Kiểm toán viên tự xác định là đặc điểm của cuộc đảm bảo; với tư vấn, mục tiêu và phạm vi thường được thống nhất với quản lý.",
-      "Sai. HĐQT không quyết định từng cuộc tư vấn; mục tiêu và phạm vi được kiểm toán viên và quản lý đơn vị cùng thống nhất.",
-      "Đúng. Tư vấn: hai bên cùng xác lập.",
-      "Sai. Kiểm toán viên vẫn tham gia xác lập và CAE phê duyệt."
+      "Sai. Hai cửa hàng chọn vì gần trụ sở không đại diện cho 40 cửa hàng, nên suy rộng kết quả là không có cơ sở.",
+      "Sai. Nguồn lực là ràng buộc thật, nhưng phạm vi vẫn phải đủ cho mục tiêu; nếu không thì phải điều chỉnh mục tiêu và nêu rõ.",
+      "Đúng. Phạm vi và mục tiêu phải khớp nhau: hoặc mở rộng phạm vi (chọn mẫu theo rủi ro), hoặc thu hẹp mục tiêu.",
+      "Sai. Phạm vi không bắt buộc bao phủ toàn bộ; chọn mẫu cửa hàng theo rủi ro vẫn có thể đủ cho mục tiêu."
     ],
+    "trap": "Cho rằng phạm vi chỉ cần vừa với nguồn lực, bỏ qua yêu cầu phạm vi phải đủ để đạt mục tiêu.",
     "refs": [
       "GIAS 13.3",
       "CIA Part 2 A.1"

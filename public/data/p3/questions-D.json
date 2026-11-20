@@ -54,25 +54,26 @@
     "section": "D",
     "topic": "D3",
     "difficulty": 2,
-    "stem": "Khi có phát hiện, ngoài việc đưa ra kiến nghị, kiểm toán viên còn có thể làm gì?",
+    "stem": "Quỹ tiền mặt lặt vặt 5 triệu đồng của một văn phòng đại diện không được kiểm đếm định kỳ. Dự thảo kiến nghị đề xuất tuyển một thủ quỹ chuyên trách và lắp két sắt có camera giám sát. Nhận xét nào đúng nhất về kiến nghị này?",
     "options": [
-      "Đề nghị Ban điều hành lập kế hoạch hành động và đánh giá kế hoạch đó.",
-      "Tự thực hiện khắc phục thay Ban điều hành để tiết kiệm thời gian.",
-      "Chỉ nêu phát hiện, không cần giải pháp hay kế hoạch hành động.",
-      "Yêu cầu HĐQT phê duyệt từng biện pháp khắc phục trước khi làm."
+      "Chưa tương xứng; nên đề xuất biện pháp hợp rủi ro, như kiểm đếm đột xuất.",
+      "Phù hợp, vì kiến nghị càng mạnh thì rủi ro mất tiền càng được loại bỏ triệt để.",
+      "Phù hợp, nếu Ban điều hành đồng ý cấp đủ ngân sách để tuyển thủ quỹ chuyên trách.",
+      "Chưa phù hợp; kiểm toán nội bộ không được đưa kiến nghị về khoản tiền giá trị nhỏ."
     ],
     "answer": 0,
-    "explanation": "GIAS 14.4: kiểm toán viên xây dựng kiến nghị hoặc đề nghị Ban điều hành lập kế hoạch hành động; trao đổi với Ban điều hành; và đánh giá kế hoạch có xử lý nguyên nhân gốc rễ không. Khắc phục là trách nhiệm quản lý.",
-    "refs": [
-      "GIAS 14.4"
-    ],
-    "source": "original",
+    "explanation": "Kiến nghị cần tương xứng với mức rủi ro và cân nhắc chi phí, lợi ích. Với quỹ 5 triệu đồng, tuyển thủ quỹ và lắp camera tốn kém hơn nhiều so với thiệt hại có thể xảy ra. Một biện pháp nhẹ hơn, như người quản lý kiểm đếm đột xuất và ký xác nhận hằng tháng, đủ đưa rủi ro về mức chấp nhận được. Kiến nghị không tương xứng còn dễ bị Ban điều hành từ chối, khiến phát hiện không được xử lý.",
     "optionNotes": [
-      "Đúng. GIAS 14.4: có thể đề nghị Ban điều hành lập kế hoạch hành động và đánh giá kế hoạch đó.",
-      "Sai. Khắc phục là trách nhiệm của Ban điều hành.",
-      "Sai. Phát hiện cần đi kèm kiến nghị hoặc kế hoạch hành động.",
-      "Sai. HĐQT không phê duyệt từng biện pháp khắc phục."
-    ]
+      "Đúng. Kiến nghị phải tương xứng với rủi ro; kiểm đếm đột xuất là biện pháp đủ hiệu quả với chi phí thấp.",
+      "Sai. Kiến nghị mạnh nhất không phải là tốt nhất; chi phí vượt xa thiệt hại có thể xảy ra là lãng phí nguồn lực.",
+      "Sai. Có ngân sách không làm kiến nghị trở nên hợp lý; vấn đề là chi phí không tương xứng với rủi ro của quỹ nhỏ.",
+      "Sai. Khoản tiền nhỏ vẫn có thể được kiến nghị; điều cần là biện pháp tương xứng, không phải bỏ qua phát hiện."
+    ],
+    "trap": "Cho rằng kiến nghị càng mạnh càng tốt, bỏ qua sự tương xứng với rủi ro và chi phí.",
+    "refs": [
+      "CIA Part 3 D.3"
+    ],
+    "source": "original"
   },
   {
     "id": "P3-D-004",
@@ -366,7 +367,7 @@
     "section": "D",
     "topic": "D6",
     "difficulty": 2,
-    "stem": "Sau khi CAE báo cáo vượt cấp, HĐQT vẫn đồng ý với Ban điều hành chấp nhận rủi ro về sao lưu dữ liệu. CAE đề xuất để kiểm toán nội bộ tự xây dựng giải pháp sao lưu dự phòng. Nhận định nào đúng nhất?",
+    "stem": "Ban điều hành đã chấp nhận rủi ro về sao lưu dữ liệu, và quyết định này đã được xem xét đầy đủ theo quy trình của tổ chức về chấp nhận rủi ro. CAE đề xuất để kiểm toán nội bộ tự xây dựng giải pháp sao lưu dự phòng. Nhận định nào đúng nhất?",
     "options": [
       "Không phù hợp, vì CAE không chịu trách nhiệm xử lý rủi ro mà Ban điều hành đã chấp nhận.",
       "Phù hợp, nếu chi phí của giải pháp nằm trong ngân sách đã được HĐQT phê duyệt.",

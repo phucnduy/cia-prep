@@ -4,26 +4,27 @@
     "section": "C",
     "topic": "C2",
     "difficulty": 2,
-    "stem": "Bộ phận kiểm toán nội bộ chưa từng thực hiện đánh giá chất lượng bên ngoài. CAE KHÔNG nên làm điều gì?",
+    "stem": "Chuẩn bị cho đợt đánh giá chất lượng bên ngoài, CAE định không cung cấp cho đoàn đánh giá các hồ sơ tự đánh giá nội bộ của ba năm qua, để đoàn 'đánh giá độc lập, không bị ảnh hưởng'. Nhận định nào đúng nhất?",
     "options": [
-      "Trình kế hoạch kiểm toán năm cho HĐQT phê duyệt.",
-      "Dựa vào công việc của các bên cung cấp đảm bảo khác.",
-      "Thực hiện các cuộc tư vấn theo yêu cầu trong năm.",
-      "Tuyên bố bộ phận kiểm toán nội bộ tuân thủ GIAS."
+      "Không phù hợp, vì đoàn đánh giá bên ngoài sẽ dùng lại nguyên kết quả tự đánh giá nội bộ.",
+      "Phù hợp, vì đoàn đánh giá bên ngoài phải tự thu thập mọi thông tin để giữ tính độc lập.",
+      "Phù hợp, nếu CAE gửi cho đoàn bản tóm tắt kết luận của các lần tự đánh giá nội bộ.",
+      "Không phù hợp; hồ sơ đánh giá nội bộ phải được đưa vào nội dung đánh giá bên ngoài."
     ],
     "answer": 3,
-    "explanation": "Tuyên bố 'tuân thủ Chuẩn mực' chỉ nên đưa ra khi có cơ sở từ kết quả QAIP (GIAS 15.1, phần Xem xét khi thực hiện), bao gồm đánh giá bên ngoài ít nhất 5 năm một lần (GIAS 8.4). GIAS 15.1 (phần Xem xét khi thực hiện) nêu chỉ nên ghi cuộc kiểm toán tuân thủ Chuẩn mực khi kết quả giám sát cuộc kiểm toán và chương trình QAIP hỗ trợ (IPPF 2017 1321 có quy định tương tự). Các phương án còn lại không phụ thuộc vào việc đã có EQA hay chưa.",
-    "refs": [
-      "GIAS 8.4",
-      "GIAS 15.1"
-    ],
-    "source": "legacy",
+    "explanation": "GIAS 12.1 yêu cầu các đánh giá nội bộ phải được lập thành văn bản và đưa vào nội dung mà bên thứ ba độc lập đánh giá trong đợt đánh giá chất lượng bên ngoài. Đoàn cần xem cả kết quả tự đánh giá và các kế hoạch khắc phục để đánh giá chương trình đảm bảo và cải tiến chất lượng có vận hành thực chất không. Xem hồ sơ tự đánh giá không làm mất độc lập của đoàn, vì đoàn vẫn tự xét đoán.",
     "optionNotes": [
-      "Sai. CAE vẫn phải trình kế hoạch kiểm toán năm.",
-      "Sai. Việc dựa vào công việc của bên đảm bảo khác vẫn được phép khi chưa có đánh giá bên ngoài, miễn CAE ghi nhận cơ sở để dựa vào.",
-      "Sai. Dịch vụ tư vấn không phụ thuộc vào việc đã có đánh giá chất lượng bên ngoài hay chưa.",
-      "Đúng. Chưa có kết quả QAIP (gồm EQA) hỗ trợ thì không được tuyên bố tuân thủ GIAS."
-    ]
+      "Sai. Kết luận đúng nhưng lý do sai: đoàn không dùng lại nguyên kết quả mà đánh giá chúng như một nội dung bắt buộc.",
+      "Sai. Độc lập của đoàn đánh giá nằm ở việc tự xét đoán, không phải ở việc không được xem tài liệu của bộ phận.",
+      "Sai. Bản tóm tắt không thay được hồ sơ đầy đủ; đoàn cần xem chi tiết để đánh giá chất lượng của chính việc tự đánh giá.",
+      "Đúng. Theo GIAS 12.1, hồ sơ đánh giá nội bộ là một phần nội dung mà đánh giá bên ngoài phải xem xét."
+    ],
+    "trap": "Cho rằng giữ độc lập nghĩa là không cho đoàn đánh giá bên ngoài xem hồ sơ tự đánh giá nội bộ.",
+    "refs": [
+      "GIAS 12.1",
+      "CIA Part 3 C.2"
+    ],
+    "source": "original"
   },
   {
     "id": "P3-C-L002",
