@@ -2313,5 +2313,351 @@
       "CIA Part 2 A.5"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-A-W01",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Mục tiêu cuộc kiểm toán là đánh giá nhà cung cấp dịch vụ vệ sinh có thực hiện đúng cam kết với công ty hay không. Nguồn tiêu chí nào phù hợp nhất?",
+    "options": [
+      "Thông lệ chung của ngành vệ sinh công nghiệp tại Việt Nam.",
+      "Tiêu chuẩn dịch vụ của nhà cung cấp vệ sinh có giá thấp nhất trên thị trường.",
+      "Ý kiến đánh giá của nhân viên văn phòng về mức độ sạch sẽ hằng ngày.",
+      "Các điều khoản về phạm vi, tần suất, chất lượng dịch vụ trong hợp đồng."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.4 yêu cầu kiểm toán viên xác định tiêu chí phù hợp nhất với khía cạnh được đánh giá theo mục tiêu cuộc kiểm toán. Khi mục tiêu là việc thực hiện đúng cam kết, tiêu chí phù hợp nhất là chính các điều khoản hợp đồng đã thống nhất: phạm vi, tần suất, chất lượng dịch vụ và chế tài. Thông lệ ngành có thể bổ sung, nhưng không phải là cam kết của nhà cung cấp.",
+    "optionNotes": [
+      "Sai. Thông lệ ngành không ràng buộc nhà cung cấp; cam kết của họ nằm trong hợp đồng.",
+      "Sai. Tiêu chuẩn của nhà cung cấp khác không phải là cam kết của nhà cung cấp đang được đánh giá.",
+      "Sai. Ý kiến nhân viên là thông tin bổ trợ, mang tính chủ quan, không phải tiêu chí cam kết.",
+      "Đúng. Điều khoản hợp đồng là tiêu chí trực tiếp để đánh giá việc thực hiện cam kết."
+    ],
+    "trap": "Dùng thông lệ chung hay ý kiến chủ quan thay cho tiêu chí cam kết trong hợp đồng.",
+    "refs": [
+      "GIAS 13.4",
+      "CIA Part 2 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W02",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Khi lập kế hoạch kiểm toán an ninh mạng, kiểm toán viên tìm hiểu các chỉ số của bộ phận CNTT. Chỉ số nào dưới đây đóng vai trò chỉ số rủi ro chính (KRI), cảnh báo sớm rủi ro bị tấn công?",
+    "options": [
+      "Số máy chủ có lỗ hổng nghiêm trọng chưa được vá quá 30 ngày.",
+      "Tổng chi phí đầu tư cho an ninh thông tin trong năm tài chính.",
+      "Số nhân viên CNTT có chứng chỉ chuyên môn về an ninh mạng.",
+      "Tỷ lệ hài lòng của người dùng với bộ phận hỗ trợ CNTT."
+    ],
+    "answer": 0,
+    "explanation": "Chỉ số rủi ro chính (KRI) đo mức độ phơi nhiễm rủi ro và cảnh báo sớm khi rủi ro tăng; chỉ số hiệu quả (KPI) đo kết quả đạt mục tiêu. Số máy chủ có lỗ hổng nghiêm trọng chưa vá tăng lên báo hiệu khả năng bị tấn công tăng. Chi phí, chứng chỉ hay mức hài lòng là chỉ số đầu vào hoặc hiệu quả, không cảnh báo trực tiếp rủi ro. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Lỗ hổng nghiêm trọng chưa vá là chỉ số cảnh báo sớm khả năng bị tấn công.",
+      "Sai. Chi phí đầu tư là chỉ số đầu vào; chi nhiều không cho biết mức phơi nhiễm rủi ro hiện tại.",
+      "Sai. Chứng chỉ là chỉ số năng lực, không đo trực tiếp mức độ phơi nhiễm rủi ro của hệ thống.",
+      "Sai. Mức hài lòng là chỉ số hiệu quả dịch vụ, không phải chỉ số rủi ro an ninh mạng."
+    ],
+    "trap": "Nhầm chỉ số rủi ro chính (KRI) với chỉ số đầu vào hoặc chỉ số hiệu quả (KPI).",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W03",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Ở một công ty nhỏ, cùng một nhân viên vừa thêm nhân viên mới vào hồ sơ nhân sự, vừa nhập bảng lương và gửi lệnh chuyển lương cho ngân hàng. Khi lập kế hoạch kiểm toán quy trình tiền lương, rủi ro gian lận nào nên được ưu tiên?",
+    "options": [
+      "Tính sai thuế thu nhập cá nhân do nhập nhầm mức giảm trừ gia cảnh.",
+      "Trả lương cho nhân viên không có thật vào tài khoản do người đó kiểm soát.",
+      "Chuyển lương chậm vài ngày do ngân hàng xử lý lệnh chuyển tiền vào dịp cuối tháng.",
+      "Nhân viên mới không được phổ biến đầy đủ nội quy lao động của công ty."
+    ],
+    "answer": 1,
+    "explanation": "Khi một người vừa tạo hồ sơ nhân viên vừa lập bảng lương và chuyển tiền, người đó có thể tạo nhân viên không có thật (nhân viên ma) hoặc giữ lại nhân viên đã nghỉ để nhận lương. Kiểm soát phù hợp là tách việc quản lý hồ sơ nhân sự khỏi việc lập và chuyển lương, và đối chiếu danh sách lương với hồ sơ nhân sự. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Tính sai thuế là sai sót, không phải rủi ro gian lận phát sinh từ việc kiêm nhiệm.",
+      "Đúng. Kiêm nhiệm hồ sơ nhân sự và chuyển lương tạo cơ hội trả lương cho nhân viên ma.",
+      "Sai. Chuyển lương chậm do ngân hàng là vấn đề vận hành, không liên quan đến việc kiêm nhiệm.",
+      "Sai. Phổ biến nội quy là vấn đề quản trị nhân sự, không phải rủi ro gian lận của quy trình lương."
+    ],
+    "trap": "Không nhận ra rủi ro nhân viên ma khi hồ sơ nhân sự và chuyển lương do một người làm.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W04",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Chính sách của công ty quy định xóa dữ liệu cá nhân của khách hàng 5 năm sau khi tài khoản đóng. Khi lập kế hoạch, kiểm toán viên được biết hệ thống CRM chưa từng xóa bản ghi nào trong 12 năm hoạt động. Rủi ro nào nên được đưa vào đánh giá?",
+    "options": [
+      "Hệ thống CRM chạy chậm do dung lượng cơ sở dữ liệu lớn.",
+      "Bộ phận Marketing có ít dữ liệu lịch sử hơn để phân tích hành vi mua hàng của khách hàng.",
+      "Vi phạm chính sách lưu giữ dữ liệu, và thiệt hại lớn hơn nếu bị rò rỉ.",
+      "Chi phí lưu trữ dữ liệu tăng làm vượt ngân sách CNTT hằng năm."
+    ],
+    "answer": 2,
+    "explanation": "Lưu giữ có thời hạn là một nguyên tắc phổ biến về quyền riêng tư. Giữ dữ liệu quá thời hạn trái với chính sách của chính công ty và có thể vi phạm quy định về bảo vệ dữ liệu cá nhân. Nếu xảy ra rò rỉ, lượng dữ liệu bị lộ lớn hơn nhiều so với mức cần thiết. Hiệu năng hay chi phí lưu trữ là vấn đề thứ yếu. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Hiệu năng là vấn đề kỹ thuật, nhỏ hơn rủi ro tuân thủ và rò rỉ dữ liệu cá nhân.",
+      "Sai. Marketing thực tế có nhiều dữ liệu hơn chứ không ít hơn; và đây không phải rủi ro chính.",
+      "Đúng. Giữ dữ liệu quá thời hạn trái chính sách và làm tăng thiệt hại khi bị rò rỉ.",
+      "Sai. Chi phí lưu trữ là ảnh hưởng tài chính nhỏ so với rủi ro vi phạm và rò rỉ dữ liệu."
+    ],
+    "trap": "Coi việc giữ dữ liệu quá hạn chỉ là vấn đề chi phí hay hiệu năng, bỏ qua rủi ro quyền riêng tư.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W05",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Các máy chủ web công khai của công ty chưa được cài các bản vá bảo mật nghiêm trọng đã phát hành từ 9 tháng trước, vì bộ phận CNTT 'sợ ảnh hưởng đến hệ thống đang chạy'. Khi lập kế hoạch kiểm toán, rủi ro nào nổi bật nhất?",
+    "options": [
+      "Giao diện trang web có thể không hiển thị tốt trên các trình duyệt mới.",
+      "Bộ phận CNTT bị quá tải khi phải cài nhiều bản vá cùng lúc sau này.",
+      "Nhà cung cấp phần mềm có thể ngừng hỗ trợ kỹ thuật cho công ty.",
+      "Kẻ tấn công khai thác lỗ hổng đã biết để xâm nhập hệ thống."
+    ],
+    "answer": 3,
+    "explanation": "Lỗ hổng đã công bố và có bản vá thường bị kẻ tấn công khai thác nhanh, nhất là trên máy chủ kết nối internet. Không vá trong 9 tháng làm hệ thống phơi nhiễm lâu dài. Lo ngại ảnh hưởng hệ thống nên được xử lý bằng quy trình quản lý bản vá có thử nghiệm trước, không phải bằng cách không vá. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Hiển thị giao diện là vấn đề trải nghiệm, nhỏ hơn rất nhiều so với rủi ro bị xâm nhập.",
+      "Sai. Khối lượng công việc dồn lại là hệ quả vận hành, không phải rủi ro an ninh chính.",
+      "Sai. Ngừng hỗ trợ có thể xảy ra nhưng không phải rủi ro trực tiếp và lớn nhất ở đây.",
+      "Đúng. Lỗ hổng đã biết trên máy chủ công khai là mục tiêu khai thác phổ biến."
+    ],
+    "trap": "Chấp nhận trì hoãn vá lỗ hổng vì lo ảnh hưởng vận hành, bỏ qua rủi ro bị khai thác.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W06",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Công ty nhập khẩu nguyên liệu, có khoản phải trả lớn bằng USD thanh toán sau 6 tháng, trong khi toàn bộ doanh thu bằng VND và công ty không có biện pháp phòng ngừa nào. Khi lập kế hoạch kiểm toán quản lý tài chính, rủi ro nào nên được xem xét?",
+    "options": [
+      "Rủi ro tỷ giá: chi phí tính bằng VND tăng nếu USD lên giá.",
+      "Rủi ro tín dụng do khách hàng trong nước chậm thanh toán.",
+      "Rủi ro lãi suất do công ty không có khoản vay nào bằng USD.",
+      "Rủi ro hàng tồn kho lỗi thời do nhập khẩu với số lượng lớn."
+    ],
+    "answer": 0,
+    "explanation": "Khi nghĩa vụ trả nợ bằng ngoại tệ nhưng nguồn thu bằng nội tệ, công ty chịu rủi ro tỷ giá: USD tăng giá thì số VND phải trả tăng. Không có biện pháp phòng ngừa (như hợp đồng kỳ hạn) thì toàn bộ biến động tỷ giá ảnh hưởng chi phí. Đây là kiến thức tài chính chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Phải trả USD với nguồn thu VND và không phòng ngừa tạo rủi ro tỷ giá.",
+      "Sai. Rủi ro tín dụng liên quan đến phải thu; đề bài nói về phải trả bằng ngoại tệ.",
+      "Sai. Không có khoản vay USD thì không có rủi ro lãi suất USD; vấn đề là tỷ giá của khoản phải trả.",
+      "Sai. Đề không có dấu hiệu tồn kho lỗi thời; rủi ro nổi bật đến từ khoản phải trả ngoại tệ."
+    ],
+    "trap": "Không nhận ra rủi ro tỷ giá khi phải trả bằng ngoại tệ mà doanh thu bằng nội tệ.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W07",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Phân tích trong giai đoạn lập kế hoạch cho thấy công ty mua bao bì từ một nhà cung cấp do em rể của Tổng Giám đốc sở hữu, với đơn giá cao hơn khoảng 20% so với báo giá của các nhà cung cấp khác, và không qua chào giá cạnh tranh. Rủi ro nào nên được ưu tiên?",
+    "options": [
+      "Chất lượng bao bì có thể không đồng đều so với hàng của các nhà cung cấp còn lại.",
+      "Giao dịch với bên liên quan không theo giá thị trường, có thể là gian lận.",
+      "Nhà cung cấp có thể giao hàng chậm vì quy mô sản xuất nhỏ hơn các nhà cung cấp khác.",
+      "Chi phí vận chuyển bao bì tăng do nhà cung cấp ở xa nhà máy."
+    ],
+    "answer": 1,
+    "explanation": "Giao dịch với bên liên quan của lãnh đạo, giá cao hơn thị trường và không qua chào giá cạnh tranh là dấu hiệu xung đột lợi ích và có thể là gian lận (chuyển lợi ích ra ngoài). Kế hoạch nên xét quy trình nhận diện, phê duyệt và công bố giao dịch với bên liên quan, và việc người có lợi ích có tham gia quyết định hay không. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Chất lượng có thể là một vấn đề, nhưng dấu hiệu chính là giá cao bất thường từ bên liên quan.",
+      "Đúng. Giá cao hơn thị trường từ bên liên quan, không chào giá, là dấu hiệu xung đột lợi ích và gian lận.",
+      "Sai. Đề không có thông tin về giao hàng chậm; rủi ro nổi bật nằm ở quan hệ và giá cả.",
+      "Sai. Chi phí vận chuyển không được nêu; khoản chênh lệch 20% đến từ đơn giá mua."
+    ],
+    "trap": "Bỏ qua dấu hiệu xung đột lợi ích trong giao dịch với bên liên quan của lãnh đạo.",
+    "refs": [
+      "CIA Part 2 A.3",
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W08",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 3,
+    "stem": "Trong cuộc kiểm toán từ xa, đơn vị gửi danh sách 20 nghìn khách hàng kèm số căn cước và số tài khoản qua email cá nhân của kiểm toán viên, vì hộp thư công ty giới hạn dung lượng tệp. Trưởng nhóm nên xử lý thế nào?",
+    "options": [
+      "Chấp nhận, vì dữ liệu được dùng cho mục đích kiểm toán hợp lệ.",
+      "Chấp nhận, nhưng yêu cầu kiểm toán viên xóa toàn bộ email và tệp đính kèm sau khi kết thúc cuộc kiểm toán.",
+      "Dừng nhận qua email cá nhân, dùng kênh truyền dữ liệu an toàn và chỉ lấy trường dữ liệu cần thiết.",
+      "Hủy phần kiểm tra dữ liệu khách hàng, vì kiểm toán từ xa không được tiếp cận dữ liệu nhạy cảm."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm toán từ xa cần chú ý bảo mật dữ liệu. GIAS 5.2 yêu cầu kiểm toán viên bảo vệ thông tin khỏi tiếp cận hoặc công bố trái phép, theo chính sách và quy định về bảo mật, quyền riêng tư. Email cá nhân nằm ngoài kiểm soát của tổ chức; dữ liệu nên đi qua kênh an toàn được phê duyệt và chỉ gồm các trường cần cho thủ tục kiểm toán.",
+    "optionNotes": [
+      "Sai. Mục đích hợp lệ không biện minh cho việc truyền dữ liệu nhạy cảm qua kênh không an toàn.",
+      "Sai. Xóa sau khi xong không xử lý được rủi ro dữ liệu đã nằm trên hệ thống email cá nhân.",
+      "Đúng. Dùng kênh an toàn và chỉ lấy dữ liệu cần thiết bảo vệ thông tin theo GIAS 5.2.",
+      "Sai. Kiểm toán từ xa vẫn có thể dùng dữ liệu nhạy cảm nếu được truyền và lưu trữ an toàn."
+    ],
+    "trap": "Coi mục đích kiểm toán hợp lệ là đủ để nhận dữ liệu nhạy cảm qua kênh không an toàn.",
+    "refs": [
+      "GIAS 5.2",
+      "CIA Part 2 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W09",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Khi phỏng vấn lập kế hoạch, một nhân viên kho nói: 'Lương thấp mà làm nhiều, lấy ít vật tư dư về nhà thì cũng như công ty bù lương thôi.' Theo tam giác gian lận, câu nói này thể hiện yếu tố nào?",
+    "options": [
+      "Áp lực, vì nhân viên đang gặp khó khăn tài chính cá nhân.",
+      "Cơ hội, vì kiểm soát tại kho đang yếu và dễ lấy vật tư.",
+      "Năng lực, vì nhân viên có kỹ năng che giấu hành vi lấy vật tư.",
+      "Hợp lý hóa, vì nhân viên tự biện minh cho hành vi sai."
+    ],
+    "answer": 3,
+    "explanation": "Tam giác gian lận (theo Donald Cressey, được ACFE sử dụng phổ biến) gồm áp lực, cơ hội và hợp lý hóa. Câu nói 'cũng như công ty bù lương' là cách tự biện minh cho hành vi sai, tức hợp lý hóa. Nhận diện các yếu tố này khi lập kế hoạch giúp kiểm toán viên đánh giá rủi ro gian lận cụ thể, như GIAS 13.2 yêu cầu.",
+    "optionNotes": [
+      "Sai. Lương thấp có thể gợi áp lực, nhưng câu nói chủ yếu là lời tự biện minh cho hành vi.",
+      "Sai. Đề không nói về kiểm soát yếu; cơ hội là điều kiện cho phép thực hiện, không phải lời biện minh.",
+      "Sai. Năng lực thuộc mô hình mở rộng (kim cương gian lận); câu nói ở đây là lời biện minh.",
+      "Đúng. Tự cho rằng hành vi là chấp nhận được là yếu tố hợp lý hóa."
+    ],
+    "trap": "Nhầm lời tự biện minh (hợp lý hóa) với áp lực hoặc cơ hội trong tam giác gian lận.",
+    "refs": [
+      "GIAS 13.2",
+      "ACFE",
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W10",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 3,
+    "stem": "Mục tiêu của một thủ tục trong chương trình kiểm toán là xác minh các tài sản ghi trong sổ tài sản cố định có tồn tại thực tế hay không. Cách chọn mẫu và hướng kiểm tra nào phù hợp nhất?",
+    "options": [
+      "Chọn mẫu từ sổ tài sản cố định rồi đến tận nơi quan sát tài sản đó.",
+      "Chọn tài sản đang có tại nhà xưởng rồi đối chiếu ngược lên sổ tài sản cố định.",
+      "Chọn mẫu hóa đơn mua sắm trong năm rồi đối chiếu với sổ tài sản cố định.",
+      "Phỏng vấn trưởng các bộ phận về tài sản họ đang quản lý và sử dụng."
+    ],
+    "answer": 0,
+    "explanation": "Để kiểm tra tính hiện hữu (tài sản ghi sổ có thật), kiểm toán viên chọn mẫu từ sổ sách rồi tìm bằng chứng thực tế. Hướng ngược lại, từ tài sản thực tế lên sổ, kiểm tra tính đầy đủ (tài sản có thật đã được ghi sổ chưa). Phỏng vấn không cung cấp bằng chứng trực tiếp về sự tồn tại. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Chọn từ sổ rồi quan sát thực tế là hướng kiểm tra tính hiện hữu.",
+      "Sai. Đi từ thực tế lên sổ kiểm tra tính đầy đủ, không kiểm tra tài sản ghi sổ có tồn tại hay không.",
+      "Sai. Đối chiếu hóa đơn với sổ kiểm tra việc ghi nhận mua sắm, không chứng minh tài sản còn tồn tại.",
+      "Sai. Phỏng vấn là bằng chứng gián tiếp, kém tin cậy hơn quan sát trực tiếp tài sản."
+    ],
+    "trap": "Đảo ngược hướng kiểm tra giữa tính hiện hữu và tính đầy đủ.",
+    "refs": [
+      "CIA Part 2 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W11",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Chương trình kiểm toán có mục tiêu kiểm tra kiểm soát 'mọi khoản chi trên 50 triệu đồng phải được Giám đốc tài chính duyệt' có vận hành trong năm hay không. Thủ tục nào phù hợp nhất?",
+    "options": [
+      "Phỏng vấn Giám đốc tài chính về cách thức duyệt các khoản chi lớn trong năm.",
+      "Chọn mẫu các khoản chi trên 50 triệu trong năm và kiểm tra dấu hiệu duyệt hợp lệ.",
+      "Đọc quy chế chi tiêu để xác nhận quy định duyệt chi đã được ban hành đúng thẩm quyền.",
+      "Quan sát Giám đốc tài chính duyệt một khoản chi trong ngày kiểm toán viên có mặt."
+    ],
+    "answer": 1,
+    "explanation": "Thử nghiệm hiệu quả vận hành của kiểm soát cần bằng chứng kiểm soát đã được thực hiện nhất quán trong kỳ. Chọn mẫu từ tổng thể các khoản chi trên ngưỡng và kiểm tra dấu hiệu phê duyệt cho bằng chứng trực tiếp. Phỏng vấn và đọc quy chế chỉ cho biết thiết kế; quan sát một lần không chứng minh kiểm soát vận hành cả năm. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Phỏng vấn cho biết cách làm dự kiến, không chứng minh kiểm soát đã được thực hiện trong năm.",
+      "Đúng. Kiểm tra dấu hiệu duyệt trên mẫu cả năm là thử nghiệm vận hành phù hợp.",
+      "Sai. Đọc quy chế đánh giá thiết kế, không cho biết kiểm soát có được thực hiện hay không.",
+      "Sai. Quan sát một lần khi có kiểm toán viên không chứng minh kiểm soát vận hành ở các thời điểm khác."
+    ],
+    "trap": "Dùng phỏng vấn, đọc quy chế hay quan sát một lần để kết luận kiểm soát vận hành cả năm.",
+    "refs": [
+      "CIA Part 2 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W12",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Phòng kế toán nhận email có vẻ từ một nhà cung cấp quen, đề nghị chuyển các khoản thanh toán sắp tới sang số tài khoản mới. Quy trình hiện tại cho phép kế toán cập nhật số tài khoản ngay theo email. Khi lập kế hoạch, kiểm soát nào nên được tìm hiểu trước hết?",
+    "options": [
+      "Yêu cầu nhà cung cấp gửi lại đề nghị thay đổi bằng một email khác có kèm chữ ký điện tử.",
+      "Chỉ chấp nhận thay đổi tài khoản nếu email được gửi từ tên miền của nhà cung cấp.",
+      "Gọi lại xác minh qua số điện thoại đã lưu trước đó, có người thứ hai duyệt thay đổi.",
+      "Kế toán trưởng rà soát danh sách tài khoản nhà cung cấp vào cuối mỗi quý."
+    ],
+    "answer": 2,
+    "explanation": "Lừa đảo giả mạo email nhà cung cấp để đổi tài khoản nhận tiền là hình thức phổ biến. Email, kể cả có vẻ từ đúng tên miền, có thể bị giả mạo hoặc hộp thư của nhà cung cấp bị chiếm quyền. Kiểm soát hiệu quả là xác minh qua kênh độc lập (số điện thoại đã lưu từ trước, không lấy từ email) và có người thứ hai duyệt thay đổi dữ liệu gốc. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Email từ hộp thư bị chiếm quyền vẫn có thể kèm chữ ký; xác minh phải qua kênh độc lập.",
+      "Sai. Tên miền có thể bị giả mạo hoặc hộp thư thật bị chiếm quyền; kiểm tra tên miền không đủ.",
+      "Đúng. Xác minh qua kênh độc lập đã lưu trước và duyệt hai người ngăn đổi tài khoản giả mạo.",
+      "Sai. Rà soát cuối quý là kiểm soát phát hiện muộn, tiền có thể đã bị chuyển sai nhiều lần."
+    ],
+    "trap": "Tin vào dấu hiệu trong chính email (tên miền, chữ ký) thay vì xác minh qua kênh độc lập.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-W13",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "HĐQT yêu cầu kiểm toán nội bộ đánh giá tổng thể hệ thống kiểm soát nội bộ của công ty có hữu hiệu hay không. Ban điều hành chưa ban hành bộ tiêu chí riêng. Nguồn tiêu chí nào phù hợp nhất để đề xuất thống nhất với HĐQT và Ban điều hành?",
+    "options": [
+      "Danh mục kiểm tra do trưởng nhóm kiểm toán tự soạn theo kinh nghiệm cá nhân.",
+      "Ý kiến tự đánh giá của các trưởng phòng về kiểm soát của bộ phận mình.",
+      "Số phát hiện của các cuộc kiểm toán trong năm so với năm trước.",
+      "Khung kiểm soát nội bộ được thừa nhận rộng rãi, như COSO 2013."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.4 yêu cầu khi tiêu chí chưa đầy đủ, kiểm toán viên xác định tiêu chí phù hợp qua trao đổi với HĐQT hoặc Ban điều hành; GIAS 13.2 yêu cầu tìm hiểu các khung, hướng dẫn có thể dùng để đánh giá. Với đánh giá tổng thể kiểm soát nội bộ, khung COSO 2013 (5 thành phần, 17 nguyên tắc) là tiêu chí được thừa nhận rộng rãi và có thể thống nhất làm căn cứ.",
+    "optionNotes": [
+      "Sai. Danh mục tự soạn theo kinh nghiệm cá nhân thiếu căn cứ được thừa nhận và dễ bị phản bác.",
+      "Sai. Tự đánh giá là thông tin đầu vào, không phải tiêu chí độc lập để đánh giá hữu hiệu.",
+      "Sai. Số phát hiện là kết quả, không phải tiêu chí mô tả trạng thái kiểm soát mong muốn.",
+      "Đúng. Khung COSO 2013 là tiêu chí được thừa nhận rộng rãi cho đánh giá kiểm soát nội bộ."
+    ],
+    "trap": "Dùng tiêu chí tự soạn hay kết quả kiểm toán thay cho khung kiểm soát được thừa nhận.",
+    "refs": [
+      "GIAS 13.4",
+      "GIAS 13.2",
+      "COSO 2013",
+      "CIA Part 2 A.2"
+    ],
+    "source": "original"
   }
 ]
