@@ -1066,5 +1066,345 @@
       "CIA Part 2 B.5"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-B-X01",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Khi phỏng vấn kế toán thanh toán, kiểm toán viên hỏi: 'Chị luôn đối chiếu hóa đơn với phiếu nhập kho trước khi trình duyệt, đúng không?' Vấn đề của câu hỏi này là gì?",
+    "options": [
+      "Câu hỏi dẫn dắt, gợi sẵn câu trả lời mong muốn nên dễ nhận câu 'đúng'.",
+      "Câu hỏi quá dài nên người được phỏng vấn khó nhớ hết nội dung.",
+      "Câu hỏi đóng nên chỉ phù hợp khi phỏng vấn trưởng phòng, không phải nhân viên.",
+      "Câu hỏi nhắc đến chứng từ cụ thể nên làm lộ thủ tục kiểm toán sắp thực hiện."
+    ],
+    "answer": 0,
+    "explanation": "Câu hỏi dẫn dắt gợi ý câu trả lời mà kiểm toán viên mong đợi, nên người được hỏi dễ trả lời 'đúng' dù thực tế khác. Cách tốt hơn là câu hỏi mở, ví dụ 'Chị mô tả các bước trước khi trình duyệt một khoản thanh toán?', rồi chứng thực bằng bằng chứng khác. Đây là kỹ năng phỏng vấn chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Câu hỏi dẫn dắt gợi sẵn câu trả lời nên thông tin thu được kém tin cậy.",
+      "Sai. Độ dài không phải vấn đề chính; câu hỏi ngắn vẫn có thể dẫn dắt người trả lời.",
+      "Sai. Câu hỏi đóng dùng được với mọi người khi cần xác nhận; vấn đề ở đây là gợi ý câu trả lời.",
+      "Sai. Nhắc đến chứng từ không làm hỏng thủ tục; vấn đề là cách hỏi khiến câu trả lời thiếu khách quan."
+    ],
+    "trap": "Dùng câu hỏi dẫn dắt khi phỏng vấn rồi coi câu trả lời 'đúng' là bằng chứng.",
+    "refs": [
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X02",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Ủy ban Kiểm toán muốn báo cáo nêu 'tỷ lệ hồ sơ vay thiếu chứng từ trên toàn bộ 12 nghìn hồ sơ', kèm mức tin cậy có thể định lượng. Cách chọn mẫu nào phù hợp nhất?",
+    "options": [
+      "Chọn mẫu theo xét đoán, tập trung vào các hồ sơ có giá trị lớn nhất.",
+      "Chọn mẫu thống kê ngẫu nhiên để suy rộng và định lượng rủi ro chọn mẫu.",
+      "Chọn các hồ sơ dễ lấy nhất ở chi nhánh gần trụ sở để tiết kiệm thời gian.",
+      "Chọn 25 hồ sơ theo thông lệ của bộ phận, không phụ thuộc vào quy mô tổng thể."
+    ],
+    "answer": 1,
+    "explanation": "Chọn mẫu thống kê (chọn ngẫu nhiên, cỡ mẫu tính theo mức tin cậy và sai sót chấp nhận được) cho phép suy rộng tỷ lệ lỗi của mẫu cho tổng thể và định lượng rủi ro chọn mẫu. Chọn mẫu theo xét đoán có thể hữu ích để tìm vấn đề, nhưng không cho phép suy rộng có định lượng. Hướng dẫn của GIAS 13.6 nêu chương trình nên ghi phương pháp chọn mẫu và kết quả có suy rộng được hay không.",
+    "optionNotes": [
+      "Sai. Mẫu xét đoán hữu ích để tìm lỗi lớn, nhưng không cho phép suy rộng có định lượng cho tổng thể.",
+      "Đúng. Mẫu thống kê ngẫu nhiên cho phép suy rộng và định lượng mức tin cậy.",
+      "Sai. Chọn theo sự tiện lợi tạo mẫu không đại diện, kết quả không suy rộng được.",
+      "Sai. Cỡ mẫu cố định theo thông lệ không gắn với mức tin cậy yêu cầu nên không định lượng được."
+    ],
+    "trap": "Dùng mẫu xét đoán hoặc mẫu tiện lợi rồi suy rộng kết quả cho toàn bộ tổng thể.",
+    "refs": [
+      "GIAS 13.6",
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X03",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Khi thiết kế mẫu thống kê để kiểm tra kiểm soát phê duyệt, thay đổi nào dưới đây làm cỡ mẫu cần thiết tăng lên, nếu các yếu tố khác giữ nguyên?",
+    "options": [
+      "Tăng tỷ lệ sai lệch có thể chấp nhận từ 5% lên 10%.",
+      "Giảm tỷ lệ sai lệch dự kiến trong tổng thể từ 2% xuống 1%.",
+      "Tăng mức tin cậy yêu cầu của kết luận từ 90% lên 95%.",
+      "Chuyển từ kiểm tra cả năm sang kiểm tra 6 tháng cuối năm."
+    ],
+    "answer": 2,
+    "explanation": "Trong chọn mẫu thống kê, cỡ mẫu tăng khi mức tin cậy yêu cầu tăng, khi tỷ lệ sai lệch chấp nhận được giảm, hoặc khi tỷ lệ sai lệch dự kiến tăng. Tăng mức tin cậy từ 90% lên 95% đòi hỏi nhiều mẫu hơn. Với tổng thể lớn, quy mô tổng thể ảnh hưởng ít đến cỡ mẫu. Đây là kiến thức chọn mẫu chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Chấp nhận sai lệch lớn hơn thì cần ít mẫu hơn, không phải nhiều hơn.",
+      "Sai. Sai lệch dự kiến thấp hơn thì cần ít mẫu hơn để đạt cùng kết luận.",
+      "Đúng. Mức tin cậy yêu cầu cao hơn làm cỡ mẫu tăng.",
+      "Sai. Thu hẹp kỳ làm thay đổi tổng thể, nhưng với tổng thể lớn cỡ mẫu gần như không tăng; phạm vi kết luận cũng hẹp hơn."
+    ],
+    "trap": "Nhầm chiều tác động của mức tin cậy và sai lệch chấp nhận được lên cỡ mẫu.",
+    "refs": [
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X04",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Tổng thể 5 nghìn khoản chi gồm 30 khoản trên 1 tỷ đồng (chiếm 60% tổng giá trị) và phần còn lại là các khoản nhỏ. Kiểm toán viên cần kết luận về tính hợp lệ của khoản chi. Cách chọn mẫu hiệu quả nhất là gì?",
+    "options": [
+      "Chọn ngẫu nhiên đơn giản 60 khoản từ toàn bộ tổng thể 5 nghìn khoản chi trong năm.",
+      "Chọn các khoản phát sinh vào tháng 12 vì đó là thời điểm rủi ro nhất.",
+      "Chỉ kiểm tra 30 khoản lớn, vì chúng đã chiếm phần lớn tổng giá trị.",
+      "Kiểm tra toàn bộ 30 khoản lớn và chọn mẫu ngẫu nhiên từ các khoản nhỏ."
+    ],
+    "answer": 3,
+    "explanation": "Khi tổng thể có ít khoản rất lớn chiếm phần lớn giá trị, phân tầng giúp kiểm tra hiệu quả: kiểm tra toàn bộ tầng giá trị lớn và chọn mẫu ở tầng còn lại. Chọn ngẫu nhiên đơn giản có thể bỏ sót hầu hết khoản lớn; chỉ kiểm tra khoản lớn bỏ ngỏ 40% giá trị và rủi ro chia nhỏ khoản chi. Đây là kiến thức chọn mẫu chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Mẫu ngẫu nhiên đơn giản có thể chọn rất ít khoản lớn, trong khi chúng chiếm 60% giá trị.",
+      "Sai. Chọn theo thời điểm có thể hữu ích cho rủi ro khóa sổ, nhưng không đại diện cho cả năm.",
+      "Sai. Bỏ qua 40% giá trị còn lại không cho phép kết luận cho toàn bộ tổng thể, và bỏ sót chi chia nhỏ.",
+      "Đúng. Phân tầng: kiểm tra hết khoản lớn, chọn mẫu khoản nhỏ."
+    ],
+    "trap": "Dùng mẫu ngẫu nhiên đơn giản cho tổng thể có vài khoản rất lớn, hoặc chỉ kiểm tra khoản lớn.",
+    "refs": [
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X05",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên muốn ước tính tỷ lệ đơn hàng được giao mà thiếu chữ ký xác nhận của khách hàng, để kết luận kiểm soát xác nhận giao hàng có vận hành hay không. Loại chọn mẫu nào phù hợp nhất?",
+    "options": [
+      "Chọn mẫu thuộc tính, để ước tính tỷ lệ sai lệch của kiểm soát trong tổng thể.",
+      "Chọn mẫu theo đơn vị tiền tệ, để các đơn hàng giá trị lớn có xác suất được chọn cao hơn.",
+      "Chọn mẫu biến số, để ước tính tổng giá trị sai lệch tính bằng tiền trong tổng thể.",
+      "Chọn mẫu theo khối, lấy toàn bộ đơn hàng của một tuần bất kỳ trong năm."
+    ],
+    "answer": 0,
+    "explanation": "Chọn mẫu thuộc tính dùng để ước tính tỷ lệ xuất hiện của một đặc điểm (có hay không có chữ ký), phù hợp với thử nghiệm kiểm soát. Chọn mẫu biến số và chọn mẫu theo đơn vị tiền tệ dùng để ước tính giá trị bằng tiền, phù hợp với kiểm tra chi tiết số dư. Mẫu theo khối một tuần không đại diện cho cả năm. Đây là kiến thức chọn mẫu chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Mẫu thuộc tính ước tính tỷ lệ sai lệch, phù hợp thử nghiệm kiểm soát.",
+      "Sai. Mẫu theo đơn vị tiền tệ dùng để ước tính sai sót bằng tiền, không phải tỷ lệ sai lệch kiểm soát.",
+      "Sai. Mẫu biến số ước tính giá trị tiền, không phải tỷ lệ có hay không có chữ ký.",
+      "Sai. Một tuần không đại diện cho cả năm; kiểm soát có thể vận hành khác ở các thời điểm khác."
+    ],
+    "trap": "Nhầm chọn mẫu thuộc tính (tỷ lệ) với chọn mẫu biến số hoặc theo đơn vị tiền tệ (giá trị).",
+    "refs": [
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X06",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Để tìm các khoản phải trả bị ghi thiếu, kiểm toán viên định dùng chọn mẫu theo đơn vị tiền tệ trên danh sách số dư phải trả nhà cung cấp đã ghi sổ. Hạn chế chính của cách làm này là gì?",
+    "options": [
+      "Mẫu sẽ quá lớn vì chọn mẫu theo đơn vị tiền tệ luôn cần nhiều mẫu hơn các cách khác.",
+      "Khoản ghi thiếu hoặc số dư bằng 0 hầu như không được chọn vào mẫu.",
+      "Phương pháp này không cho phép suy rộng kết quả cho tổng thể số dư phải trả.",
+      "Kiểm toán viên không thể dùng phần mềm để chọn mẫu theo đơn vị tiền tệ."
+    ],
+    "answer": 1,
+    "explanation": "Chọn mẫu theo đơn vị tiền tệ cho mỗi đồng ghi sổ cơ hội được chọn ngang nhau, nên số dư lớn dễ được chọn, còn số dư nhỏ, bằng 0 hoặc khoản chưa ghi sổ gần như không được chọn. Vì vậy phương pháp phù hợp để tìm ghi thừa, nhưng kém để tìm ghi thiếu. Để tìm phải trả ghi thiếu, nên kiểm tra từ nguồn khác như hóa đơn, thanh toán sau ngày khóa sổ. Đây là kiến thức chọn mẫu chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Chọn mẫu theo đơn vị tiền tệ thường hiệu quả về cỡ mẫu; vấn đề là hướng của sai sót.",
+      "Đúng. Khoản nhỏ, bằng 0 hoặc chưa ghi sổ gần như không được chọn, nên khó tìm ghi thiếu.",
+      "Sai. Phương pháp này có cho phép suy rộng giá trị sai sót; hạn chế nằm ở loại sai sót tìm được.",
+      "Sai. Phần mềm kiểm toán phổ biến hỗ trợ chọn mẫu theo đơn vị tiền tệ."
+    ],
+    "trap": "Dùng chọn mẫu theo đơn vị tiền tệ để tìm số dư bị ghi thiếu.",
+    "refs": [
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X07",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên tạo một chi nhánh giả trong hệ thống tín dụng đang vận hành và định kỳ đưa các giao dịch giả của chi nhánh này chạy cùng giao dịch thật, rồi so kết quả xử lý với kết quả dự kiến. Kỹ thuật này là gì?",
+    "options": [
+      "Dữ liệu thử nghiệm chạy trên bản sao của chương trình, tách khỏi hệ thống thật.",
+      "Mô phỏng song song, chạy lại dữ liệu thật bằng chương trình của kiểm toán viên.",
+      "Phương tiện kiểm tra tích hợp, dùng thực thể giả trong hệ thống thật.",
+      "Module kiểm toán nhúng, tự ghi lại các giao dịch thật thỏa điều kiện định sẵn."
+    ],
+    "answer": 2,
+    "explanation": "Phương tiện kiểm tra tích hợp (ITF) dùng một thực thể giả (chi nhánh, khách hàng) trong hệ thống đang vận hành để đưa giao dịch giả chạy cùng giao dịch thật, rồi so kết quả. Dữ liệu thử nghiệm thường chạy tách khỏi xử lý thật; mô phỏng song song xử lý lại dữ liệu thật bằng chương trình riêng; module nhúng ghi lại giao dịch thật. ITF cần quy trình loại bỏ giao dịch giả khỏi sổ sách. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Dữ liệu thử nghiệm thường xử lý tách khỏi giao dịch thật, không dùng thực thể giả trong hệ thống đang chạy.",
+      "Sai. Mô phỏng song song dùng dữ liệu thật và chương trình của kiểm toán viên, không dùng giao dịch giả.",
+      "Đúng. Thực thể giả trong hệ thống đang vận hành là đặc trưng của phương tiện kiểm tra tích hợp.",
+      "Sai. Module nhúng ghi lại giao dịch thật theo điều kiện, không đưa giao dịch giả vào hệ thống."
+    ],
+    "trap": "Nhầm phương tiện kiểm tra tích hợp với dữ liệu thử nghiệm, mô phỏng song song hoặc module nhúng.",
+    "refs": [
+      "CIA Part 2 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X08",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Để phân tích dữ liệu, bộ phận CNTT đề nghị cấp cho kiểm toán viên quyền quản trị trực tiếp trên cơ sở dữ liệu thanh toán đang vận hành, 'cho tiện truy vấn'. Cách xử lý phù hợp nhất của kiểm toán viên là gì?",
+    "options": [
+      "Nhận quyền quản trị, vì quyền càng rộng thì phân tích càng đầy đủ.",
+      "Nhận quyền quản trị nhưng hứa không thay đổi bất kỳ dữ liệu nào trên hệ thống.",
+      "Từ chối mọi truy cập dữ liệu và chỉ dùng báo cáo in sẵn do đơn vị cung cấp.",
+      "Đề nghị quyền chỉ đọc hoặc một bản trích xuất dữ liệu để phân tích."
+    ],
+    "answer": 3,
+    "explanation": "Quyền quản trị trên hệ thống đang vận hành cho phép sửa dữ liệu, có thể vô tình làm thay đổi hoặc hỏng dữ liệu, và làm kiểm toán viên mang quyền như người vận hành, ảnh hưởng tính khách quan (GIAS 2.1). Quyền chỉ đọc hoặc bản trích xuất đủ cho phân tích mà vẫn bảo vệ dữ liệu.",
+    "optionNotes": [
+      "Sai. Phân tích chỉ cần đọc dữ liệu; quyền quản trị tạo rủi ro thay đổi dữ liệu không cần thiết.",
+      "Sai. Lời hứa không thay thế được kiểm soát; quyền quản trị vẫn tạo rủi ro và không truy vết rõ trách nhiệm.",
+      "Sai. Báo cáo in sẵn do đơn vị chọn có độ tin cậy thấp hơn và hạn chế khả năng phân tích toàn bộ.",
+      "Đúng. Quyền chỉ đọc hoặc trích xuất đủ cho phân tích và bảo vệ dữ liệu."
+    ],
+    "trap": "Nhận quyền quản trị trên hệ thống đang vận hành để phân tích dữ liệu.",
+    "refs": [
+      "GIAS 2.1",
+      "CIA Part 2 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X09",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 2,
+    "stem": "Lưu đồ quy trình mua hàng do kiểm toán viên vẽ cho thấy: nhân viên mua hàng có thể thêm nhà cung cấp mới vào hệ thống, và không có bước nào trong quy trình để người khác rà soát thay đổi này. Lưu đồ đã giúp kiểm toán viên nhận ra điều gì?",
+    "options": [
+      "Khoảng trống kiểm soát: thay đổi dữ liệu nhà cung cấp không được rà soát.",
+      "Quy trình có quá nhiều bước, cần được rút gọn để tăng hiệu suất.",
+      "Nhân viên mua hàng chưa được đào tạo đầy đủ về quy trình của công ty.",
+      "Hệ thống mua hàng hiện tại cần được thay thế bằng một phần mềm hiện đại và tự động hơn."
+    ],
+    "answer": 0,
+    "explanation": "Lưu đồ quy trình giúp thấy dòng công việc, người thực hiện và điểm kiểm soát, nên làm lộ các bước thiếu kiểm soát. Ở đây, việc người mua hàng tự thêm nhà cung cấp mà không ai rà soát là khoảng trống kiểm soát đối với dữ liệu gốc. Kiểm toán viên vẫn cần xác nhận lưu đồ đúng với thực tế, ví dụ bằng cách theo một giao dịch qua quy trình. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Lưu đồ làm lộ khoảng trống kiểm soát đối với thay đổi dữ liệu gốc nhà cung cấp.",
+      "Sai. Đề không cho thấy quy trình quá nhiều bước; vấn đề là thiếu một bước kiểm soát.",
+      "Sai. Lưu đồ mô tả quy trình, không cho biết mức đào tạo của nhân viên.",
+      "Sai. Khoảng trống có thể khắc phục bằng thêm bước rà soát; không cần kết luận phải thay hệ thống."
+    ],
+    "trap": "Không dùng lưu đồ để tìm khoảng trống kiểm soát, mà chỉ để mô tả quy trình.",
+    "refs": [
+      "CIA Part 2 B.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X10",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên dùng mô hình dựa trên dữ liệu lịch sử để ước tính chi nhánh nào có khả năng có tỷ lệ nợ xấu tăng mạnh trong quý tới, nhằm chọn chi nhánh kiểm toán. Đây là loại phân tích nào?",
+    "options": [
+      "Phân tích mô tả, tóm tắt những gì đã xảy ra trong các quý trước.",
+      "Phân tích dự báo, ước tính điều có thể xảy ra sau này.",
+      "Phân tích chẩn đoán, tìm nguyên nhân của kết quả đã xảy ra.",
+      "Phân tích đề xuất, đưa ra hành động tối ưu nên thực hiện."
+    ],
+    "answer": 1,
+    "explanation": "Phân tích mô tả trả lời 'điều gì đã xảy ra'; chẩn đoán trả lời 'vì sao xảy ra'; dự báo trả lời 'điều gì có khả năng xảy ra'; đề xuất trả lời 'nên làm gì'. Ước tính chi nhánh có khả năng tăng nợ xấu trong quý tới là phân tích dự báo. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Phân tích mô tả tóm tắt quá khứ, không ước tính điều sẽ xảy ra trong quý tới.",
+      "Đúng. Ước tính khả năng xảy ra trong tương lai là phân tích dự báo.",
+      "Sai. Phân tích chẩn đoán tìm nguyên nhân của kết quả đã có, không dự đoán tương lai.",
+      "Sai. Phân tích đề xuất đưa ra hành động nên làm; ở đây chỉ ước tính khả năng xảy ra."
+    ],
+    "trap": "Nhầm phân tích dự báo với phân tích mô tả, chẩn đoán hoặc đề xuất.",
+    "refs": [
+      "CIA Part 2 B.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X11",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên muốn tìm dấu hiệu nhân viên hứa hẹn lãi suất trái quy định trong 40 nghìn email và tin nhắn trao đổi với khách hàng. Dữ liệu này thuộc loại nào và cần kỹ thuật gì?",
+    "options": [
+      "Dữ liệu có cấu trúc, phân tích bằng phép kiểm tra trùng lặp và khoảng trống.",
+      "Dữ liệu có cấu trúc, phân tích bằng tỷ số tài chính so với kỳ trước.",
+      "Dữ liệu phi cấu trúc, cần kỹ thuật phân tích văn bản như tìm từ khóa.",
+      "Dữ liệu phi cấu trúc, chỉ có thể đọc thủ công toàn bộ từng email một."
+    ],
+    "answer": 2,
+    "explanation": "Dữ liệu có cấu trúc được tổ chức theo trường, bảng (như giao dịch kế toán); dữ liệu phi cấu trúc là văn bản tự do, email, hình ảnh, âm thanh. Email và tin nhắn là dữ liệu phi cấu trúc; kỹ thuật phân tích văn bản (tìm từ khóa, cụm từ, mẫu ngôn ngữ) giúp lọc ra các trao đổi cần đọc kỹ. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Email là văn bản tự do, không phải dữ liệu có cấu trúc theo trường để kiểm tra trùng hay khoảng trống.",
+      "Sai. Tỷ số tài chính dùng cho số liệu, không áp dụng cho nội dung trao đổi bằng chữ.",
+      "Đúng. Email là dữ liệu phi cấu trúc; phân tích văn bản giúp lọc nhanh nội dung đáng ngờ.",
+      "Sai. Đọc thủ công 40 nghìn tin là không khả thi; phân tích văn bản giúp chọn ra phần cần đọc."
+    ],
+    "trap": "Nhầm dữ liệu phi cấu trúc với có cấu trúc, hoặc nghĩ dữ liệu văn bản chỉ đọc được thủ công.",
+    "refs": [
+      "CIA Part 2 B.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X12",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 2,
+    "stem": "Doanh thu bán chịu cả năm gần như không đổi, nhưng số ngày thu tiền bình quân tăng từ 45 lên 90 ngày. Kiểm toán viên nên hiểu biến động này thế nào khi phân tích?",
+    "options": [
+      "Công ty thu tiền nhanh hơn, cho thấy quản lý công nợ đã cải thiện rõ rệt.",
+      "Công ty đang thiếu hàng tồn kho để bán, làm doanh thu chậm lại.",
+      "Biến động không đáng quan tâm vì doanh thu cả năm không thay đổi.",
+      "Có thể có vấn đề thu hồi nợ hoặc doanh thu không có thật."
+    ],
+    "answer": 3,
+    "explanation": "Số ngày thu tiền bình quân tăng gấp đôi khi doanh thu không đổi nghĩa là nợ phải thu tăng mạnh: khách trả chậm, nợ khó đòi tăng, hoặc có doanh thu ghi khống chưa bao giờ thu được tiền. Thủ tục phân tích chỉ ra biến động bất thường; kiểm toán viên phải tìm nguyên nhân và kiểm tra thêm. Đây là kiến thức tài chính chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Số ngày thu tiền tăng nghĩa là thu chậm hơn, không phải nhanh hơn.",
+      "Sai. Số ngày thu tiền đo tốc độ thu nợ, không liên quan đến việc thiếu hàng tồn kho.",
+      "Sai. Doanh thu ổn định nhưng phải thu tăng gấp đôi là biến động bất thường đáng quan tâm.",
+      "Đúng. Ngày thu tiền tăng mạnh khi doanh thu ổn định là dấu hiệu cần điều tra."
+    ],
+    "trap": "Hiểu ngược ý nghĩa của số ngày thu tiền bình quân tăng.",
+    "refs": [
+      "CIA Part 2 B.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-X13",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 3,
+    "stem": "Để phân tích chi phí thuê văn phòng, kiểm toán viên so năm nay với năm trước và thấy tăng 40%, rồi định ghi thành biến động bất thường. Đơn vị cho biết từ tháng 4 đã mở thêm 3 chi nhánh mới. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Điều chỉnh kỳ vọng theo số chi nhánh và thời gian thuê mới, rồi so lại.",
+      "Giữ nguyên kết luận bất thường, vì mức tăng 40% vượt ngưỡng 10% của bộ phận.",
+      "Chấp nhận ngay giải thích của đơn vị và kết luận chi phí thuê là hợp lý.",
+      "Bỏ thủ tục phân tích, chuyển sang kiểm tra chi tiết toàn bộ hợp đồng thuê văn phòng trong năm."
+    ],
+    "answer": 0,
+    "explanation": "Thủ tục phân tích chỉ có ý nghĩa khi mức kỳ vọng phản ánh đúng thay đổi đã biết của hoạt động. Mở thêm chi nhánh làm số năm trước không còn là kỳ vọng phù hợp; kiểm toán viên nên điều chỉnh kỳ vọng (số chi nhánh, số tháng thuê, đơn giá) rồi so lại. Giải thích của đơn vị vẫn phải được kiểm chứng, ví dụ bằng hợp đồng thuê mới. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Điều chỉnh kỳ vọng theo thay đổi đã biết rồi so lại và kiểm chứng là cách làm đúng.",
+      "Sai. Ngưỡng chỉ dùng được khi kỳ vọng đúng; kỳ vọng chưa tính chi nhánh mới thì kết luận bất thường là sai.",
+      "Sai. Giải thích của đơn vị phải được kiểm chứng bằng bằng chứng, như hợp đồng thuê mới.",
+      "Sai. Phân tích vẫn hữu ích khi kỳ vọng được điều chỉnh; bỏ hẳn là không cần thiết."
+    ],
+    "trap": "So với kỳ trước mà không điều chỉnh kỳ vọng theo thay đổi đã biết của hoạt động.",
+    "refs": [
+      "CIA Part 2 B.5"
+    ],
+    "source": "original"
   }
 ]
