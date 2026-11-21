@@ -908,5 +908,141 @@
       "GIAS 14.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-B-S01",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Để kiểm tra nhà cung cấp khống trong năm nay, kiểm toán viên dùng danh sách nhà cung cấp xuất từ hệ thống vào tháng 1 năm ngoái vì 'đã có sẵn'. Thông tin này thiếu thuộc tính nào chủ yếu?",
+    "options": [
+      "Phù hợp, vì danh sách nhà cung cấp không liên quan đến mục tiêu tìm nhà cung cấp khống.",
+      "Đáng tin cậy, vì thông tin không còn hiện hành so với kỳ đang được kiểm toán.",
+      "Đầy đủ, vì danh sách chưa có chữ ký xác nhận của bộ phận Mua hàng.",
+      "Khách quan, vì danh sách do chính bộ phận được kiểm toán xuất ra."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.1 yêu cầu thông tin dùng để phân tích phải phù hợp, đáng tin cậy và đầy đủ; thông tin đáng tin cậy là thông tin xác thực và hiện hành. Danh sách từ tháng 1 năm ngoái không có các nhà cung cấp được tạo sau đó, chính là nơi nhà cung cấp khống mới có thể nằm. Cần trích danh sách hiện hành và đối chiếu với lịch sử thay đổi.",
+    "optionNotes": [
+      "Sai. Danh sách nhà cung cấp liên quan trực tiếp đến mục tiêu; vấn đề là nó đã cũ.",
+      "Đúng. Thông tin đáng tin cậy phải xác thực và hiện hành; danh sách cũ không phản ánh kỳ đang kiểm toán.",
+      "Sai. Đầy đủ là đủ để phân tích và kết luận; chữ ký xác nhận không phải điều kiện của tính đầy đủ.",
+      "Sai. Khách quan không phải một trong ba thuộc tính của thông tin theo GIAS 14.1 (phù hợp, đáng tin cậy, đầy đủ)."
+    ],
+    "trap": "Dùng thông tin có sẵn mà không xét nó còn hiện hành với kỳ đang được kiểm toán hay không.",
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-S02",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "Phép kiểm tra trùng hóa đơn chỉ tìm các dòng khớp chính xác số hóa đơn, số tiền và mã nhà cung cấp, và không tìm thấy trường hợp nào. Sau đó phát hiện nhiều hóa đơn bị nhập hai lần với số hóa đơn thêm hậu tố như 'A' hoặc dấu gạch. Bài học chính khi thiết kế phép kiểm tra là gì?",
+    "options": [
+      "Kết quả 'không có trùng' là đáng tin cậy, vì phép kiểm tra đã chạy trên toàn bộ dữ liệu.",
+      "Nên bỏ phân tích dữ liệu và quay lại chọn mẫu thủ công, vì phần mềm dễ bỏ sót.",
+      "Nên dùng thêm phép so khớp gần đúng, vì thủ đoạn trùng thường làm biến dạng nhẹ dữ liệu.",
+      "Nên yêu cầu bộ phận kế toán tự kiểm tra trùng và gửi xác nhận cho kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 14.2 nêu kiểm toán viên nên hiểu và dùng công nghệ giúp phân tích hiệu quả. Kiểm tra toàn bộ tổng thể chỉ có giá trị khi phép kiểm tra được thiết kế đúng: trùng lặp có chủ ý hay do lỗi thường làm biến dạng nhẹ dữ liệu (thêm ký tự, đổi định dạng), nên chỉ so khớp chính xác dễ bỏ sót. Cần kết hợp so khớp gần đúng, chuẩn hóa dữ liệu và kiểm tra theo tổ hợp trường.",
+    "optionNotes": [
+      "Sai. Chạy trên toàn bộ dữ liệu không bù được phép kiểm tra thiết kế quá hẹp; 'không có trùng' có thể là kết quả sai.",
+      "Sai. Vấn đề nằm ở thiết kế phép kiểm tra, không ở công nghệ; chọn mẫu thủ công còn bao phủ ít hơn.",
+      "Đúng. So khớp gần đúng và chuẩn hóa dữ liệu bắt được các trường hợp trùng đã bị biến dạng nhẹ.",
+      "Sai. Bộ phận được kiểm toán tự kiểm tra không thay được kiểm tra độc lập của kiểm toán viên."
+    ],
+    "trap": "Tin rằng phân tích toàn bộ dữ liệu luôn cho kết quả đúng, bất kể phép kiểm tra được thiết kế thế nào.",
+    "refs": [
+      "GIAS 14.2",
+      "CIA Part 2 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-S03",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Chạy phép kiểm tra toàn bộ giao dịch chi phí, kiểm toán viên nhận được 1200 ngoại lệ. Trưởng nhóm định đưa cả 1200 trường hợp vào báo cáo như các phát hiện. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Đưa cả 1200 trường hợp vào báo cáo, vì mỗi ngoại lệ đều là một sai phạm đã được chứng minh.",
+      "Bỏ phép kiểm tra, vì số ngoại lệ quá lớn cho thấy phép kiểm tra không có giá trị sử dụng.",
+      "Gửi cả 1200 trường hợp cho đơn vị tự giải trình, rồi chấp nhận giải trình làm kết luận.",
+      "Phân tích và phân nhóm ngoại lệ, kiểm tra thêm để xác định nguyên nhân, ảnh hưởng, mức độ."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 14.2 nêu khi phân tích cho thấy khác biệt giữa tiêu chí và thực trạng, kiểm toán viên nên áp dụng thủ tục tiếp theo để xác định nguyên nhân, ảnh hưởng và mức độ quan trọng. Ngoại lệ do máy lọc ra chỉ là dấu hiệu: nhiều trường hợp có thể do tham số chưa chuẩn hoặc có lý do hợp lệ. Phân nhóm, chọn kiểm tra và tìm nguyên nhân chung giúp biến ngoại lệ thành phát hiện có căn cứ.",
+    "optionNotes": [
+      "Sai. Ngoại lệ chưa phải sai phạm đã được chứng minh; nhiều trường hợp có thể hợp lệ hoặc do tham số chưa chuẩn.",
+      "Sai. Nhiều ngoại lệ là lý do để phân tích và tinh chỉnh, không phải để bỏ phép kiểm tra.",
+      "Sai. Giải trình của đơn vị cần được kiểm chứng; chấp nhận nguyên làm kết luận là thiếu hoài nghi nghề nghiệp.",
+      "Đúng. Phân nhóm và kiểm tra thêm để xác định nguyên nhân, ảnh hưởng, mức độ là bước tiếp theo phù hợp."
+    ],
+    "trap": "Coi mọi ngoại lệ do phân tích dữ liệu lọc ra là phát hiện đã được chứng minh.",
+    "refs": [
+      "GIAS 14.2",
+      "GIAS 14.3",
+      "CIA Part 2 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-S04",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên muốn tìm các xe giao hàng có chi phí nhiên liệu bất thường trong đội 200 xe, mỗi xe chạy quãng đường khác nhau. Cách phân tích nào phù hợp nhất?",
+    "options": [
+      "Ước tính chi phí kỳ vọng theo quãng đường (hồi quy), rồi xem xe lệch nhiều.",
+      "So chi phí nhiên liệu của từng xe với mức trung bình chung của cả đội xe.",
+      "Chỉ xem các xe có tổng chi phí nhiên liệu cao nhất trong năm để kiểm tra.",
+      "Chọn ngẫu nhiên 20 xe và kiểm tra toàn bộ hóa đơn nhiên liệu của chúng."
+    ],
+    "answer": 0,
+    "explanation": "Khi một chi phí phụ thuộc vào một yếu tố đo được (quãng đường), phân tích hồi quy giúp ước tính mức kỳ vọng cho từng xe; các xe lệch xa mức kỳ vọng là dấu hiệu bất thường cần điều tra. So với trung bình chung hay chỉ xem xe tốn nhiều nhất sẽ đánh dấu nhầm xe chạy nhiều và bỏ sót xe chạy ít nhưng tốn bất thường.",
+    "optionNotes": [
+      "Đúng. Hồi quy theo quãng đường cho mức kỳ vọng từng xe, nên xe lệch nhiều mới là bất thường thật.",
+      "Sai. Trung bình chung bỏ qua khác biệt quãng đường; xe chạy nhiều bị đánh dấu nhầm, xe chạy ít tốn bất thường bị bỏ sót.",
+      "Sai. Tổng chi phí cao có thể chỉ do chạy nhiều; cách này bỏ sót xe chạy ít mà tốn nhiên liệu bất thường.",
+      "Sai. Mẫu ngẫu nhiên 20 xe có thể không chứa xe bất thường; phân tích cả đội hiệu quả hơn để khoanh vùng."
+    ],
+    "trap": "So với mức trung bình chung hoặc tổng chi phí, bỏ qua yếu tố làm chi phí thay đổi (quãng đường).",
+    "refs": [
+      "GIAS 14.2",
+      "CIA Part 2 B.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-S05",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 2,
+    "stem": "Chi phí lương tháng ghi sổ là 9,6 tỷ đồng. Công ty có 400 nhân viên, lương bình quân theo bảng lương được duyệt khoảng 20 triệu đồng mỗi người. Thủ tục phân tích này gọi là gì và kết quả gợi ý điều gì?",
+    "options": [
+      "Phân tích xu hướng; chi phí lương tăng đều theo thời gian nên không cần kiểm tra thêm.",
+      "Kiểm tra tính hợp lý; mức kỳ vọng 8 tỷ đồng thấp hơn số ghi sổ 1,6 tỷ, cần tìm nguyên nhân.",
+      "Phân tích tỷ số; tỷ lệ lương trên doanh thu đang nằm trong mức trung bình của ngành.",
+      "Kiểm tra chi tiết; cần đối chiếu từng phiếu lương của cả 400 nhân viên ngay lập tức."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm tra tính hợp lý là lập mức kỳ vọng từ dữ liệu độc lập (400 người x 20 triệu đồng = 8 tỷ đồng) rồi so với số ghi sổ (9,6 tỷ đồng). Chênh lệch 1,6 tỷ đồng (20%) là bất thường cần tìm hiểu: có thể do làm thêm giờ, thưởng, nhân viên khống hay sai sót. Hướng dẫn của GIAS 14.2 nêu khi phân tích cho thấy khác biệt, kiểm toán viên nên áp dụng thủ tục tiếp theo để xác định nguyên nhân và ảnh hưởng.",
+    "optionNotes": [
+      "Sai. Đây không phải so theo thời gian; thủ tục lập mức kỳ vọng từ số người và lương bình quân là kiểm tra tính hợp lý.",
+      "Đúng. Mức kỳ vọng 8 tỷ so với 9,6 tỷ ghi sổ cho chênh lệch 1,6 tỷ cần tìm nguyên nhân.",
+      "Sai. Đề bài không dùng doanh thu hay số liệu ngành; thủ tục ở đây là lập mức kỳ vọng từ dữ liệu vận hành.",
+      "Sai. Thủ tục đã làm là phân tích; kiểm tra chi tiết là bước tiếp theo có chọn lọc, không phải mô tả của thủ tục này."
+    ],
+    "trap": "Nhầm kiểm tra tính hợp lý (lập mức kỳ vọng từ dữ liệu độc lập) với phân tích xu hướng hoặc tỷ số.",
+    "refs": [
+      "GIAS 14.2",
+      "CIA Part 2 B.5"
+    ],
+    "source": "original"
   }
 ]

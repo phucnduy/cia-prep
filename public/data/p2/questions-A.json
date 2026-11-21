@@ -982,5 +982,333 @@
       "CIA Part 2 A.4"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-A-S01",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Mục tiêu của bộ phận Giao hàng là giao đúng hạn 98% đơn hàng. Kế hoạch kiểm toán quy trình giao hàng chỉ đặt một mục tiêu: 'kiểm tra phiếu giao hàng có đủ chữ ký theo mẫu'. Nhận xét nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì kiểm tra chữ ký là thủ tục khách quan và dễ đo lường nhất.",
+      "Nên gắn mục tiêu kiểm toán với mục tiêu của hoạt động và của tổ chức.",
+      "Phù hợp, nếu quản lý bộ phận Giao hàng đã đồng ý với mục tiêu này.",
+      "Nên thay bằng mục tiêu đánh giá toàn bộ chuỗi cung ứng của công ty."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 13.3 yêu cầu mục tiêu cuộc kiểm toán nêu mục đích và các mục tiêu cụ thể cần đạt. Hướng dẫn của chuẩn mực nêu kiểm toán viên nên gắn mục tiêu cuộc kiểm toán với mục tiêu kinh doanh của hoạt động được kiểm toán và của tổ chức. Chỉ kiểm tra chữ ký không cho biết rủi ro giao trễ có được kiểm soát không, nên kết quả ít giá trị với người quản lý.",
+    "optionNotes": [
+      "Sai. Dễ đo lường không làm mục tiêu có giá trị; mục tiêu cần trả lời rủi ro đối với điều hoạt động muốn đạt được.",
+      "Đúng. Mục tiêu cuộc kiểm toán nên gắn với mục tiêu của hoạt động (giao đúng hạn) và của tổ chức.",
+      "Sai. Quản lý đồng ý không làm mục tiêu phù hợp hơn; mục tiêu vẫn phải gắn với rủi ro đối với mục tiêu của hoạt động.",
+      "Sai. Mở rộng ra toàn chuỗi cung ứng vượt quá hoạt động được kiểm toán; cần gắn đúng với mục tiêu của bộ phận Giao hàng."
+    ],
+    "trap": "Đặt mục tiêu theo thủ tục dễ kiểm tra thay vì theo mục tiêu mà hoạt động cần đạt được.",
+    "refs": [
+      "GIAS 13.3",
+      "CIA Part 2 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S02",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Giám đốc vận hành đề nghị kiểm toán nội bộ 'xem giúp' quy trình xử lý khiếu nại: kiểm tra mẫu hồ sơ, kết luận kiểm soát có hữu hiệu không và gửi kết luận cho Ủy ban Kiểm toán. Khi lập kế hoạch, việc cần xác định trước tiên là gì?",
+    "options": [
+      "Số ngày công tối đa mà Giám đốc vận hành chấp nhận cho kiểm toán viên làm việc.",
+      "Danh sách hồ sơ khiếu nại sẽ được chọn mẫu để gửi trước cho đơn vị chuẩn bị.",
+      "Đây là cuộc đảm bảo hay tư vấn, vì kỳ vọng và yêu cầu của Chuẩn mực khác nhau.",
+      "Mẫu báo cáo mà Ủy ban Kiểm toán thường dùng cho các cuộc kiểm toán trước đây."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.3 yêu cầu kiểm toán viên xem xét cuộc kiểm toán nhằm cung cấp đảm bảo hay tư vấn, vì kỳ vọng của các bên và yêu cầu của Chuẩn mực khác nhau theo loại dịch vụ. Đề nghị được gọi là 'xem giúp', nhưng đánh giá khách quan bằng chứng để kết luận cho Ủy ban Kiểm toán là dịch vụ đảm bảo, kéo theo yêu cầu về tiêu chí, đánh giá rủi ro, kết luận và báo cáo của cuộc đảm bảo.",
+    "optionNotes": [
+      "Sai. Nguồn lực được xác định theo mục tiêu và phạm vi; giới hạn do đơn vị đặt ra có thể là giới hạn phạm vi.",
+      "Sai. Chọn mẫu đến sau khi đã xác định loại dịch vụ, mục tiêu và rủi ro; gửi trước danh sách mẫu còn làm giảm giá trị kiểm tra.",
+      "Đúng. Loại dịch vụ quyết định kỳ vọng và các yêu cầu áp dụng, nên phải xác định trước tiên.",
+      "Sai. Mẫu báo cáo là chuyện hình thức; điều quyết định nội dung báo cáo là loại dịch vụ và mục tiêu cuộc kiểm toán."
+    ],
+    "trap": "Xác định loại dịch vụ theo cách gọi của bên đề nghị ('xem giúp') thay vì theo bản chất công việc.",
+    "refs": [
+      "GIAS 13.3",
+      "CIA Part 2 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S03",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên đánh giá quy trình đối chiếu công nợ theo một bộ tiêu chí tự soạn nhưng không thông báo cho đơn vị. Đến họp kết thúc, Kế toán trưởng phản đối vì 'chưa từng biết có tiêu chí này' và mọi phát hiện bị tranh cãi. Lẽ ra kiểm toán viên nên làm gì?",
+    "options": [
+      "Giữ tiêu chí kín đến cuối để đơn vị không đối phó trong lúc kiểm toán.",
+      "Bỏ các phát hiện bị phản đối, vì tiêu chí chưa được đơn vị phê duyệt chính thức.",
+      "Để Kế toán trưởng tự đặt tiêu chí, vì đó là người hiểu quy trình rõ nhất.",
+      "Thông báo tiêu chí cho quản lý đơn vị từ đầu và ghi lại tiêu chí đã thống nhất."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 13.4 nêu kiểm toán viên nên thông báo cho quản lý của hoạt động được kiểm toán về tiêu chí sẽ dùng, và nên ghi lại tiêu chí đã thống nhất để tránh hiểu sai hoặc tranh cãi. GIAS 13.4 cũng yêu cầu xem tiêu chí của quản lý có đầy đủ không, và nếu chưa thì xác định tiêu chí phù hợp qua trao đổi. Thống nhất tiêu chí từ đầu giúp cuộc tranh luận ở cuối tập trung vào thực trạng, không vào tiêu chí.",
+    "optionNotes": [
+      "Sai. Tiêu chí không phải điều cần giữ bí mật; giấu tiêu chí khiến phát hiện dễ bị tranh cãi ở cuối.",
+      "Sai. Phát hiện có bằng chứng không bị bỏ vì quy trình thống nhất tiêu chí có thiếu sót; cần rút kinh nghiệm cho các cuộc sau.",
+      "Sai. Quản lý góp ý về tiêu chí, nhưng kiểm toán viên phải xét tiêu chí có đầy đủ không, không giao hẳn cho đơn vị.",
+      "Đúng. Thông báo và ghi lại tiêu chí đã thống nhất từ đầu là hướng dẫn của GIAS 13.4."
+    ],
+    "trap": "Cho rằng nên giữ kín tiêu chí đánh giá với đơn vị cho đến khi có kết quả.",
+    "refs": [
+      "GIAS 13.4",
+      "CIA Part 2 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S04",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Công ty thuê một nhà cung cấp bên ngoài tính lương và chuyển lương cho nhân viên. Bản kế hoạch kiểm toán quy trình lương ghi phạm vi: 'phòng Nhân sự, tháng 1 đến tháng 12'. Phạm vi này thiếu sót chủ yếu ở điểm nào?",
+    "options": [
+      "Chưa nêu phần việc thuê ngoài và hệ thống liên quan, nên có thể không đạt mục tiêu.",
+      "Phạm vi quá rộng, vì kiểm toán cả 12 tháng tốn nhiều nguồn lực hơn mức cần thiết.",
+      "Thiếu tên các kiểm toán viên được phân công và ngày bắt đầu làm việc tại đơn vị.",
+      "Phạm vi phải do nhà cung cấp tính lương phê duyệt vì họ thực hiện phần lớn công việc."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 13.3 yêu cầu phạm vi xác định trọng tâm và ranh giới của cuộc kiểm toán bằng cách nêu rõ hoạt động, địa điểm, quy trình, hệ thống, cấu phần, thời kỳ và các yếu tố khác cần xem xét, và phải đủ để đạt mục tiêu. Khi việc tính và chuyển lương nằm ở nhà cung cấp bên ngoài, phạm vi chỉ nêu phòng Nhân sự sẽ bỏ sót phần rủi ro lớn nhất: kiểm soát tại nhà cung cấp, dữ liệu trao đổi và giám sát của công ty đối với họ.",
+    "optionNotes": [
+      "Đúng. Phạm vi phải nêu cả quy trình, hệ thống và cấu phần liên quan, gồm phần thuê ngoài, để đủ đạt mục tiêu.",
+      "Sai. Thời kỳ 12 tháng không phải vấn đề; thiếu sót là phạm vi bỏ qua phần việc do bên ngoài thực hiện.",
+      "Sai. Nhân sự và lịch làm việc thuộc kế hoạch nguồn lực, không phải nội dung xác định ranh giới của phạm vi.",
+      "Sai. Phạm vi do kiểm toán nội bộ xác lập và CAE phê duyệt; nhà cung cấp không phê duyệt phạm vi kiểm toán."
+    ],
+    "trap": "Xác định phạm vi theo đơn vị trong tổ chức, bỏ qua phần quy trình và hệ thống đã thuê ngoài.",
+    "refs": [
+      "GIAS 13.3",
+      "CIA Part 2 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S05",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Công ty đặt ngưỡng trọng yếu cho sai lệch đơn giá mua hàng là 50 triệu đồng mỗi hợp đồng. Khi lập kế hoạch, trưởng nhóm muốn coi mọi sai lệch từ 1 triệu đồng là phát hiện đáng kể 'để thể hiện sự chặt chẽ'. Cách làm phù hợp hơn là gì?",
+    "options": [
+      "Giữ mức 1 triệu đồng, vì không chấp nhận sai lệch nào là cách tốt nhất để kiểm soát rủi ro.",
+      "Dùng ngưỡng chịu đựng rủi ro của công ty khi xác định rủi ro và mức độ đáng kể cần tập trung.",
+      "Để từng kiểm toán viên tự quyết mức sai lệch đáng kể khi thấy trong lúc kiểm tra hồ sơ.",
+      "Bỏ qua mọi sai lệch dưới 50 triệu đồng, vì chúng nằm trong ngưỡng công ty đã chấp nhận."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 13.2 yêu cầu khi tìm hiểu hoạt động, kiểm toán viên thu thập thông tin về ngưỡng chịu đựng rủi ro của tổ chức nếu có; hướng dẫn của GIAS 13.4 nêu kiểm toán viên nên xem tổ chức đã xác định ngưỡng chịu đựng, gồm ngưỡng trọng yếu, hay chưa. Dùng ngưỡng này giúp tập trung vào sai lệch có ý nghĩa. Sai lệch nhỏ vẫn có thể đáng chú ý khi lặp lại có hệ thống hoặc có dấu hiệu gian lận, nên không bỏ qua hoàn toàn.",
+    "optionNotes": [
+      "Sai. Coi mọi sai lệch nhỏ là đáng kể làm loãng báo cáo và bỏ qua mức rủi ro tổ chức đã chấp nhận.",
+      "Đúng. Ngưỡng chịu đựng rủi ro của tổ chức là căn cứ để xác định rủi ro và mức độ đáng kể cần tập trung.",
+      "Sai. Mỗi người một mức làm kết quả không nhất quán; mức độ đáng kể phải dựa trên ngưỡng và phương pháp chung.",
+      "Sai. Ngưỡng giúp xác định mức đáng kể, nhưng sai lệch nhỏ lặp lại có hệ thống hoặc có dấu hiệu gian lận vẫn cần xem xét."
+    ],
+    "trap": "Cho rằng không chấp nhận bất kỳ sai lệch nào là cách lập kế hoạch chặt chẽ nhất.",
+    "refs": [
+      "GIAS 13.2",
+      "GIAS 13.4",
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S06",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Khi lập kế hoạch kiểm toán quy trình xử lý khiếu nại khách hàng, nhóm kiểm toán chưa hỏi quản lý dùng chỉ số nào để biết quy trình có đạt mục tiêu hay không. Việc cần bổ sung trong giai đoạn này là gì?",
+    "options": [
+      "Bỏ qua chỉ số, vì kiểm toán chỉ cần kiểm tra hồ sơ có đủ chữ ký phê duyệt.",
+      "Tự xây dựng chỉ số mới cho quy trình, vì chỉ số của quản lý có thể thiên lệch.",
+      "Xác định tiêu chí mà quản lý dùng để đo việc đạt mục tiêu, như thời gian xử lý.",
+      "Chờ đến họp kết thúc mới hỏi chỉ số, để quản lý không chuẩn bị số liệu trước."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.2 yêu cầu kiểm toán viên xác định các tiêu chí mà quản lý dùng để đo xem hoạt động có đạt mục tiêu hay không. Biết chỉ số của quản lý (ví dụ tỷ lệ khiếu nại được giải quyết trong 48 giờ) giúp nhận diện rủi ro chính và thiết kế thủ tục. Kiểm toán viên sau đó vẫn đánh giá chỉ số đó có phù hợp không (GIAS 13.4).",
+    "optionNotes": [
+      "Sai. Kiểm tra chữ ký không cho biết quy trình có đạt mục tiêu không; thiếu chỉ số thì không nhận diện đúng rủi ro.",
+      "Sai. Chỉ số của quản lý là điểm xuất phát bắt buộc; kiểm toán viên đánh giá nó, không bỏ qua để tự làm lại từ đầu.",
+      "Đúng. GIAS 13.2 yêu cầu xác định tiêu chí quản lý dùng để đo việc đạt mục tiêu.",
+      "Sai. Tiêu chí đo lường cần cho giai đoạn lập kế hoạch; hỏi ở họp kết thúc là quá muộn để thiết kế thủ tục."
+    ],
+    "trap": "Bỏ qua tiêu chí đo lường của quản lý khi lập kế hoạch, chỉ tập trung vào chứng từ và chữ ký.",
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S07",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Ngân hàng xử lý hàng trăm nghìn giao dịch thẻ mỗi ngày, rủi ro gian lận thay đổi nhanh và Ủy ban Kiểm toán muốn biết sớm khi có bất thường. Cách tiếp cận kiểm toán nào phù hợp nhất?",
+    "options": [
+      "Kiểm toán định kỳ mỗi năm một lần, chọn mẫu giao dịch của tháng gần nhất.",
+      "Giao bộ phận Thẻ tự giám sát và chỉ gửi báo cáo tổng hợp cuối năm cho kiểm toán.",
+      "Chờ bộ phận Thẻ báo cáo sự cố rồi mới thực hiện cuộc kiểm toán đột xuất.",
+      "Kiểm toán liên tục bằng các phép kiểm tra tự động chạy thường xuyên trên dữ liệu."
+    ],
+    "answer": 3,
+    "explanation": "Kiểm toán liên tục dùng các phép kiểm tra tự động chạy thường xuyên trên dữ liệu, phù hợp với giao dịch khối lượng lớn, rủi ro thay đổi nhanh và nhu cầu phát hiện sớm. Hướng dẫn của GIAS 14.2 nêu kiểm toán viên nên hiểu và dùng công nghệ giúp phân tích hiệu quả, như kiểm tra toàn bộ tổng thể. Kiểm toán mỗi năm một lần phát hiện quá muộn.",
+    "optionNotes": [
+      "Sai. Mỗi năm một lần với mẫu một tháng phát hiện bất thường quá muộn so với tốc độ thay đổi của rủi ro.",
+      "Sai. Giám sát của bộ phận Thẻ là trách nhiệm của quản lý, không thay được đảm bảo độc lập của kiểm toán nội bộ.",
+      "Sai. Chờ sự cố là phản ứng thụ động; kiểm toán nội bộ cần chủ động đánh giá rủi ro thay đổi nhanh.",
+      "Đúng. Kiểm toán liên tục bằng phép kiểm tra tự động phù hợp với khối lượng lớn và nhu cầu phát hiện sớm."
+    ],
+    "trap": "Áp dụng cách kiểm toán định kỳ truyền thống cho rủi ro thay đổi nhanh và giao dịch khối lượng lớn.",
+    "refs": [
+      "GIAS 14.2",
+      "CIA Part 2 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S08",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 3,
+    "stem": "Cuộc kiểm toán quy trình thu tiền mặt ở 30 cửa hàng dùng chung một hệ thống bán hàng. Kế hoạch dự kiến cử nhóm đến cả 30 cửa hàng, mỗi nơi 3 ngày. Cách tiếp cận nào hiệu quả hơn mà vẫn đạt mục tiêu?",
+    "options": [
+      "Phân tích dữ liệu tập trung cho cả 30 cửa hàng, rồi đến kiểm tra các cửa hàng bất thường.",
+      "Chỉ đến 3 cửa hàng gần trụ sở nhất và suy rộng kết quả cho 30 cửa hàng còn lại.",
+      "Giữ nguyên, vì chỉ đến tận nơi ở mọi cửa hàng mới có bằng chứng đáng tin cậy.",
+      "Gửi bảng câu hỏi cho 30 cửa hàng trưởng và dùng câu trả lời làm bằng chứng chính."
+    ],
+    "answer": 0,
+    "explanation": "Hướng dẫn của GIAS 13.5 nêu khi lập kế hoạch, kiểm toán viên nên cân nhắc cách sử dụng nguồn lực tài chính, nhân lực và công nghệ hiệu quả nhất. Vì 30 cửa hàng dùng chung hệ thống, phân tích dữ liệu tập trung giúp bao phủ toàn bộ, rồi chọn cửa hàng có dấu hiệu bất thường để kiểm tra tại chỗ (kiểm quỹ, quan sát). Cách này giữ được độ tin cậy với chi phí thấp hơn nhiều.",
+    "optionNotes": [
+      "Đúng. Phân tích tập trung kết hợp kiểm tra tại chỗ theo rủi ro là cách dùng nguồn lực hiệu quả.",
+      "Sai. Ba cửa hàng chọn vì gần không đại diện cho 30 cửa hàng; suy rộng là không có cơ sở.",
+      "Sai. Kiểm tra tại chỗ cần thiết ở nơi có rủi ro, nhưng đến cả 30 cửa hàng là dùng nguồn lực kém hiệu quả.",
+      "Sai. Câu trả lời tự khai là thông tin định hướng, không đủ làm bằng chứng chính về kiểm soát tiền mặt."
+    ],
+    "trap": "Cho rằng chỉ đến tận nơi ở mọi địa điểm mới có bằng chứng đáng tin cậy.",
+    "refs": [
+      "GIAS 13.5",
+      "GIAS 14.2",
+      "CIA Part 2 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S09",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Đánh giá rủi ro của cuộc kiểm toán quy trình tính lương chỉ xét rủi ro tính sai số tiền. Nhóm chưa xét việc tuân thủ luật lao động và thuế, quyền truy cập hệ thống lương, và khả năng tạo nhân viên khống. Cải thiện phù hợp nhất là gì?",
+    "options": [
+      "Giữ nguyên, vì tính đúng số tiền lương là mục tiêu quan trọng nhất của quy trình.",
+      "Mở rộng đánh giá sang các nhóm mục tiêu tuân thủ, CNTT và gian lận của quy trình.",
+      "Chuyển phần tuân thủ và CNTT cho bộ phận Pháp chế và CNTT tự đánh giá riêng.",
+      "Chỉ thêm rủi ro gian lận, vì các rủi ro khác đã có kiểm soát tự động trên hệ thống."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 13.2 yêu cầu kiểm toán viên nhận diện các rủi ro có thể đáng kể đối với mục tiêu của hoạt động, gồm xem xét rủi ro gian lận cụ thể. Hướng dẫn của chuẩn mực nêu các mục tiêu cần xét gồm tuân thủ, báo cáo tài chính, hoạt động, gian lận, công nghệ thông tin và chiến lược. Chỉ xét tính đúng số tiền bỏ sót các rủi ro đáng kể khác của quy trình lương.",
+    "optionNotes": [
+      "Sai. Tính đúng là một mục tiêu, nhưng vi phạm luật, truy cập trái phép và nhân viên khống đều có thể gây thiệt hại lớn.",
+      "Đúng. Đánh giá rủi ro nên xét đủ các nhóm mục tiêu: tuân thủ, tài chính, hoạt động, gian lận, CNTT.",
+      "Sai. Các bộ phận này có thể đóng góp, nhưng rủi ro của quy trình được kiểm toán phải nằm trong đánh giá của kiểm toán viên.",
+      "Sai. Gian lận là một phần; có kiểm soát tự động không có nghĩa là bỏ qua đánh giá rủi ro tuân thủ và CNTT."
+    ],
+    "trap": "Đánh giá rủi ro cuộc kiểm toán chỉ theo một nhóm mục tiêu (tài chính), bỏ qua tuân thủ, CNTT và gian lận.",
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S10",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Trong giai đoạn lập kế hoạch, nhóm đã phân tích dữ liệu và phỏng vấn quản lý, nhưng kết quả chỉ nằm rải rác trong email và ghi chép cá nhân. Người rà soát không lần được từ chương trình kiểm toán về các phân tích này. Cách khắc phục phù hợp nhất là gì?",
+    "options": [
+      "Không cần, vì công việc lập kế hoạch không phải là bằng chứng của cuộc kiểm toán.",
+      "Gửi toàn bộ email cho người rà soát để người đó tự tổng hợp khi cần xem xét.",
+      "Lưu công việc lập kế hoạch vào hồ sơ kiểm toán và tham chiếu trong chương trình.",
+      "Tóm tắt kết quả lập kế hoạch bằng miệng trong buổi họp nhóm trước khi thực địa."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 13.6 yêu cầu chương trình kiểm toán dựa trên thông tin thu được khi lập kế hoạch. Hướng dẫn của chuẩn mực nêu công việc ở giai đoạn lập kế hoạch nên được lưu trong hồ sơ kiểm toán và tham chiếu trong chương trình; GIAS 14.6 yêu cầu ghi lại thông tin và bằng chứng hỗ trợ kết quả. Không có hồ sơ, người rà soát không kiểm tra được vì sao thủ tục được chọn như vậy.",
+    "optionNotes": [
+      "Sai. Công việc lập kế hoạch là cơ sở cho chương trình và thủ tục; thiếu hồ sơ thì không chứng minh được thủ tục nhắm đúng rủi ro.",
+      "Sai. Đẩy email cho người rà soát không phải là lập hồ sơ; thông tin vẫn rời rạc và khó kiểm chứng.",
+      "Đúng. Lưu công việc lập kế hoạch vào hồ sơ và tham chiếu trong chương trình giúp lần được căn cứ của thủ tục.",
+      "Sai. Trao đổi miệng không để lại dấu vết; người rà soát và đánh giá chất lượng sau này không kiểm tra được."
+    ],
+    "trap": "Cho rằng chỉ công việc thực địa mới cần lưu hồ sơ, còn công việc lập kế hoạch thì không.",
+    "refs": [
+      "GIAS 13.6",
+      "GIAS 14.6",
+      "CIA Part 2 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S11",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 2,
+    "stem": "HĐQT cần kết quả kiểm toán dự án đầu tư trước kỳ họp sau 3 tuần. Trưởng nhóm lập kế hoạch 2 kiểm toán viên làm trong 8 tuần như các cuộc thông thường. Vấn đề chính trong kế hoạch nguồn lực là gì?",
+    "options": [
+      "Không có vấn đề, vì HĐQT có thể chờ kết quả ở kỳ họp tiếp theo.",
+      "Số kiểm toán viên quá ít, vì mọi cuộc kiểm toán dự án đều cần ít nhất 4 người.",
+      "Thời gian 8 tuần quá ngắn so với độ phức tạp của một dự án đầu tư lớn.",
+      "Chưa xét khung thời gian cần hoàn thành khi xác định loại và lượng nguồn lực."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.5 yêu cầu khi lập kế hoạch, kiểm toán viên xác định loại và lượng nguồn lực cần thiết, có xét bản chất và độ phức tạp của cuộc kiểm toán, khung thời gian phải hoàn thành, và nguồn lực sẵn có có phù hợp, đủ không; nếu không đủ thì phải trao đổi với CAE. Kế hoạch 8 tuần cho một hạn 3 tuần cho thấy chưa xét khung thời gian; cần tăng người hoặc cùng CAE điều chỉnh phạm vi.",
+    "optionNotes": [
+      "Sai. Nhu cầu của HĐQT là một phần của mục tiêu; bỏ qua thời hạn làm kết quả mất giá trị cho quyết định.",
+      "Sai. Không có số người tối thiểu cố định; số người phụ thuộc phạm vi, độ phức tạp và thời hạn.",
+      "Sai. Vấn đề không phải 8 tuần là ít, mà là kế hoạch không khớp với thời hạn 3 tuần HĐQT cần.",
+      "Đúng. Khung thời gian là yếu tố GIAS 13.5 yêu cầu xét khi xác định nguồn lực."
+    ],
+    "trap": "Lập kế hoạch nguồn lực theo thói quen, bỏ qua thời hạn mà bên sử dụng kết quả cần.",
+    "refs": [
+      "GIAS 13.5",
+      "CIA Part 2 A.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-S12",
+    "section": "A",
+    "topic": "A7",
+    "difficulty": 3,
+    "stem": "Để kiểm toán mô hình tính dự phòng rủi ro tín dụng, trưởng nhóm định mượn một chuyên gia định lượng của bộ phận Quản lý rủi ro, người đã xây dựng chính mô hình này. Nhận định nào đúng nhất?",
+    "options": [
+      "Chưa phù hợp; chuyên gia này thiếu khách quan, nên tìm người khác có năng lực phù hợp.",
+      "Phù hợp, nếu chuyên gia ký cam kết khách quan trước khi tham gia cuộc kiểm toán.",
+      "Phù hợp, vì người xây dựng mô hình hiểu rõ nhất các giả định và giới hạn của nó.",
+      "Chưa phù hợp; kiểm toán nội bộ không bao giờ được dùng chuyên gia trong tổ chức."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 13.5 yêu cầu xác định nguồn lực phù hợp cho cuộc kiểm toán; nguồn lực phù hợp gồm cả năng lực và tính khách quan. Người đã xây dựng mô hình sẽ đánh giá chính công việc của mình, tức nguy cơ tự kiểm tra. Chuyên gia trong tổ chức vẫn có thể được dùng nếu không có quan hệ với đối tượng kiểm toán; CAE vẫn chịu trách nhiệm đánh giá năng lực và khách quan của họ.",
+    "optionNotes": [
+      "Đúng. Nguồn lực phù hợp gồm cả năng lực và khách quan; người xây dựng mô hình không đáp ứng phần khách quan.",
+      "Sai. Cam kết không loại bỏ được việc tự đánh giá công việc của mình; cần chọn người khác.",
+      "Sai. Hiểu rõ mô hình là lợi thế, nhưng người tự xây dựng khó phát hiện lỗi của chính mình; đó là nguy cơ tự kiểm tra.",
+      "Sai. Chuyên gia trong tổ chức có thể được dùng nếu đủ năng lực và khách quan với đối tượng kiểm toán."
+    ],
+    "trap": "Cho rằng người xây dựng đối tượng kiểm toán là chuyên gia phù hợp nhất vì hiểu nó rõ nhất.",
+    "refs": [
+      "GIAS 13.5",
+      "GIAS 2.2",
+      "CIA Part 2 A.7"
+    ],
+    "source": "original"
   }
 ]
