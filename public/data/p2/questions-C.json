@@ -428,5 +428,115 @@
     ],
     "trap": "Cho rằng thay đổi phạm vi đã được CAE duyệt thì không cần thông báo cho quản lý đơn vị.",
     "source": "original"
+  },
+  {
+    "id": "P2-C-T01",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "Trưởng nhóm được giao giám sát đã đọc dự thảo báo cáo, thấy văn phong tốt và các phát hiện hợp lý nên ký duyệt, nhưng chưa mở giấy làm việc nào. Nhận định nào đúng nhất về việc giám sát này?",
+    "options": [
+      "Chưa đủ; phải xác nhận hồ sơ hỗ trợ được phát hiện và kết luận.",
+      "Đủ, vì báo cáo cuối cùng còn được CAE phê duyệt thêm một lần nữa.",
+      "Đủ, nếu các kiểm toán viên trong nhóm đều đã có trên 3 năm kinh nghiệm.",
+      "Chưa đủ; người giám sát phải tự làm lại toàn bộ các thủ tục kiểm toán."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 12.3 yêu cầu CAE hoặc người giám sát hướng dẫn kiểm toán viên trong suốt cuộc kiểm toán, xác minh chương trình đã hoàn thành và xác nhận hồ sơ kiểm toán hỗ trợ đầy đủ cho phát hiện, kết luận và kiến nghị. Báo cáo viết tốt không chứng minh phát hiện có bằng chứng; phê duyệt của CAE sau đó không thay trách nhiệm giám sát ở cấp cuộc kiểm toán.",
+    "optionNotes": [
+      "Đúng. Người giám sát phải xác nhận hồ sơ hỗ trợ phát hiện và kết luận.",
+      "Sai. Phê duyệt của CAE không thay được việc người giám sát xác nhận hồ sơ hỗ trợ kết luận.",
+      "Sai. Kinh nghiệm ảnh hưởng mức độ giám sát, nhưng không miễn việc xác nhận hồ sơ hỗ trợ kết luận.",
+      "Sai. Giám sát là rà soát và xác nhận, không đòi hỏi tự làm lại toàn bộ thủ tục."
+    ],
+    "trap": "Coi việc đọc và duyệt dự thảo báo cáo là đủ, không xác nhận hồ sơ hỗ trợ kết luận.",
+    "refs": [
+      "GIAS 12.3",
+      "CIA Part 2 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-T02",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Ở một bộ phận kiểm toán, người giám sát thường chỉ rà soát hồ sơ sau khi báo cáo cuối cùng đã phát hành, 'cho đỡ ảnh hưởng tiến độ'. Rủi ro chính của cách làm này là gì?",
+    "options": [
+      "Người giám sát phải làm thêm giờ vào cuối mỗi quý để rà soát dồn hồ sơ.",
+      "Sai sót trong kết luận chỉ được phát hiện khi báo cáo đã phát hành.",
+      "Kiểm toán viên không biết ai là người giám sát cuộc kiểm toán.",
+      "Hồ sơ kiểm toán sẽ không được lưu trữ đúng thời hạn quy định."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 12.3 yêu cầu hướng dẫn kiểm toán viên trong suốt cuộc kiểm toán và xác nhận hồ sơ hỗ trợ kết luận; hướng dẫn của chuẩn mực nêu người giám sát nên rà soát mục tiêu khi lập kế hoạch và trao đổi thường xuyên với nhóm. Rà soát sau khi phát hành là quá muộn: kết luận sai đã được trao đổi, phải sửa và gửi lại (GIAS 11.4), làm giảm uy tín của bộ phận.",
+    "optionNotes": [
+      "Sai. Khối lượng công việc là vấn đề phụ; rủi ro chính là sai sót đến tay người nhận báo cáo.",
+      "Đúng. Rà soát sau phát hành để sai sót trong kết luận đến tay người nhận trước khi được sửa.",
+      "Sai. Thời điểm rà soát không làm kiểm toán viên không biết ai là người giám sát.",
+      "Sai. Lưu trữ là vấn đề khác; thời điểm rà soát không quyết định thời hạn lưu hồ sơ."
+    ],
+    "trap": "Coi giám sát là việc làm sau khi báo cáo đã phát hành.",
+    "refs": [
+      "GIAS 12.3",
+      "GIAS 11.4",
+      "CIA Part 2 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-T03",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Giữa cuộc kiểm toán, nhóm phát hiện dấu hiệu chính Trưởng phòng mua hàng, người làm đầu mối làm việc với nhóm, nhận tiền từ một nhà cung cấp. Theo kế hoạch, mọi trao đổi với đơn vị đều qua người này. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Trao đổi ngay với Trưởng phòng mua hàng để nghe giải trình trước khi làm gì khác.",
+      "Tạm dừng cuộc kiểm toán cho đến khi Trưởng phòng mua hàng tự nguyện cung cấp thông tin.",
+      "Báo người giám sát và CAE để trao đổi với cấp cao hơn, không qua người này.",
+      "Ghi nhận vào hồ sơ và chỉ nêu trong báo cáo cuối cùng sau khi kết thúc cuộc kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "Khi người liên quan đến dấu hiệu gian lận lại là đầu mối trao đổi, trao đổi với người đó có thể làm mất bằng chứng hoặc cảnh báo họ. Kiểm toán viên nên báo người giám sát và CAE để trao đổi với cấp quản lý cao hơn không liên quan, và xử lý theo quy trình về gian lận của tổ chức. Hướng dẫn của GIAS 13.1 nêu vấn đề quan trọng cần được trao đổi kịp thời với người phù hợp, không chờ đến báo cáo cuối cùng.",
+    "optionNotes": [
+      "Sai. Trao đổi với chính người có dấu hiệu liên quan có thể cảnh báo họ và làm mất bằng chứng.",
+      "Sai. Chờ người liên quan tự cung cấp thông tin là không thực tế và làm chậm việc xử lý.",
+      "Đúng. Báo người giám sát và CAE để trao đổi với cấp cao hơn, không qua người liên quan.",
+      "Sai. Dấu hiệu gian lận cần được trao đổi kịp thời, không chờ đến báo cáo cuối cùng."
+    ],
+    "trap": "Trao đổi dấu hiệu gian lận với chính người có liên quan vì người đó là đầu mối theo kế hoạch.",
+    "refs": [
+      "GIAS 13.1",
+      "CIA Part 2 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-C-T04",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Trong cuộc kiểm toán, nhóm trao đổi miệng 5 phát hiện sơ bộ với trưởng phòng và được đồng ý. Đến họp kết thúc, trưởng phòng nói chưa từng nghe đến 2 phát hiện. Bài học chính cho các cuộc sau là gì?",
+    "options": [
+      "Không trao đổi phát hiện sơ bộ, chỉ trình bày tất cả tại họp kết thúc.",
+      "Chỉ trao đổi phát hiện sơ bộ với cấp phó để tránh tranh cãi với trưởng phòng.",
+      "Yêu cầu trưởng phòng ký vào từng giấy làm việc của kiểm toán viên.",
+      "Ghi lại các trao đổi quan trọng bằng biên bản hoặc email xác nhận."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.1 yêu cầu trao đổi hiệu quả trong suốt cuộc kiểm toán; hướng dẫn của chuẩn mực nêu trao đổi có thể chính thức hoặc không chính thức, bằng lời hoặc bằng văn bản. Với nội dung quan trọng như phát hiện sơ bộ, ghi lại bằng văn bản (biên bản, email xác nhận) giúp tránh hiểu lầm và là bằng chứng trao đổi trong hồ sơ (GIAS 14.6).",
+    "optionNotes": [
+      "Sai. Dồn mọi phát hiện đến họp kết thúc làm quản lý mất cơ hội làm rõ và khắc phục sớm.",
+      "Sai. Trao đổi phải với cấp có thẩm quyền; né trưởng phòng làm mất hiệu quả trao đổi.",
+      "Sai. Giấy làm việc là hồ sơ của kiểm toán; đơn vị không cần ký vào từng giấy làm việc.",
+      "Đúng. Ghi lại trao đổi quan trọng bằng văn bản giúp tránh tranh chấp về nội dung đã trao đổi."
+    ],
+    "trap": "Chỉ trao đổi miệng các phát hiện quan trọng mà không ghi lại bằng văn bản.",
+    "refs": [
+      "GIAS 13.1",
+      "GIAS 14.6",
+      "CIA Part 2 C.2"
+    ],
+    "source": "original"
   }
 ]
