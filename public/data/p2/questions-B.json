@@ -1755,5 +1755,384 @@
       "CIA Part 2 B.5"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-B-Z01",
+    "section": "B",
+    "topic": "B8",
+    "difficulty": 2,
+    "stem": "Mục tiêu cuộc kiểm toán là đánh giá kiểm soát có bảo đảm thanh toán cho nhà cung cấp đúng hạn hay không. Dự thảo phần kết luận chỉ ghi: 'Cuộc kiểm toán có 7 phát hiện, chi tiết ở phần sau.' Vấn đề chính là gì?",
+    "options": [
+      "Kết luận quá ngắn, cần liệt kê đầy đủ cả 7 phát hiện ngay trong phần kết luận.",
+      "Kết luận cần ghi rõ tên những người chịu trách nhiệm về từng phát hiện.",
+      "Kết luận chưa nêu nhận định kiểm soát có đạt mục tiêu hay không.",
+      "Kết luận chỉ được viết sau khi đơn vị đã khắc phục xong toàn bộ 7 phát hiện."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 14.5 yêu cầu kết luận tóm tắt kết quả so với mục tiêu cuộc kiểm toán và mục tiêu của quản lý, và nêu nhận định chuyên môn về mức quan trọng tổng thể của các phát hiện. Với cuộc đảm bảo, kết luận phải gồm nhận định về hiệu quả của quy trình được kiểm toán. Đếm số phát hiện không cho người đọc biết kiểm soát có bảo đảm thanh toán đúng hạn hay không.",
+    "optionNotes": [
+      "Sai. Liệt kê lại phát hiện không thay được nhận định tổng thể so với mục tiêu.",
+      "Sai. Người chịu trách nhiệm thuộc phần kế hoạch hành động, không phải nội dung chính của kết luận.",
+      "Đúng. Kết luận phải trả lời mục tiêu cuộc kiểm toán, không chỉ đếm số phát hiện.",
+      "Sai. Kết luận phản ánh tình trạng trong kỳ kiểm toán, không chờ đơn vị khắc phục xong."
+    ],
+    "trap": "Coi việc đếm số phát hiện là kết luận cuộc kiểm toán.",
+    "refs": [
+      "GIAS 14.5",
+      "CIA Part 2 B.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z02",
+    "section": "B",
+    "topic": "B8",
+    "difficulty": 2,
+    "stem": "Phương pháp của bộ phận quy định: có ít nhất một phát hiện mức 'cao' thì kết luận tối đa là 'Cần cải thiện'. Cuộc kiểm toán có 1 phát hiện cao và nhiều kiểm soát tốt; trưởng nhóm định xếp 'Đạt' vì 'phần lớn kiểm soát vận hành tốt'. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì số kiểm soát tốt nhiều hơn số kiểm soát có vấn đề.",
+      "Chưa phù hợp; có phát hiện cao thì kết luận phải là 'Không đạt' trong mọi trường hợp.",
+      "Phù hợp, nếu đơn vị cam kết khắc phục phát hiện cao trong tháng tới.",
+      "Chưa phù hợp; xếp hạng phải theo định nghĩa trong phương pháp."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 14.5 nêu phương pháp của bộ phận có thể đưa ra thang xếp hạng cho kết luận, và GIAS 14.3 yêu cầu xếp ưu tiên phát hiện theo phương pháp của CAE. Thang có định nghĩa rõ giúp các cuộc kiểm toán nhất quán; trưởng nhóm không tự đổi cách xếp vì đa số kiểm soát tốt.",
+    "optionNotes": [
+      "Sai. Một phát hiện cao có thể quan trọng hơn nhiều kiểm soát tốt; phương pháp đã quy định cách xếp.",
+      "Sai. Phương pháp quy định tối đa 'Cần cải thiện', không bắt buộc 'Không đạt' trong mọi trường hợp.",
+      "Sai. Cam kết khắc phục không thay đổi tình trạng trong kỳ được kiểm toán.",
+      "Đúng. Kết luận phải theo định nghĩa của thang xếp hạng trong phương pháp."
+    ],
+    "trap": "Tự đổi xếp hạng kết luận theo cảm nhận, không theo định nghĩa của phương pháp.",
+    "refs": [
+      "GIAS 14.5",
+      "GIAS 14.3",
+      "CIA Part 2 B.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z03",
+    "section": "B",
+    "topic": "B8",
+    "difficulty": 3,
+    "stem": "Cuộc kiểm toán kiểm soát cho vay của 10 chi nhánh; một chi nhánh không cung cấp được dữ liệu dù đã trao đổi với quản lý và báo CAE. Chín chi nhánh còn lại đều có kiểm soát vận hành tốt. Kết luận phù hợp nhất là gì?",
+    "options": [
+      "Kết luận cho 9 chi nhánh đã kiểm tra, nêu rõ giới hạn phạm vi.",
+      "Kiểm soát cho vay của cả 10 chi nhánh vận hành hữu hiệu.",
+      "Không đưa kết luận nào, vì phạm vi cuộc kiểm toán không được thực hiện đầy đủ.",
+      "Kiểm soát của cả 10 chi nhánh không hữu hiệu, vì có một chi nhánh không hợp tác."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.5 yêu cầu kết luận phản ánh kết quả so với mục tiêu và phạm vi. GIAS 15.1 yêu cầu báo cáo cuộc đảm bảo giải thích giới hạn phạm vi. Kết luận nên giới hạn ở phần đã kiểm tra và nêu rõ giới hạn, không suy rộng cho chi nhánh chưa kiểm tra, cũng không bỏ kết luận cho phần đã có đủ bằng chứng.",
+    "optionNotes": [
+      "Đúng. Kết luận cho phần đã kiểm tra và nêu rõ giới hạn phạm vi.",
+      "Sai. Không có bằng chứng cho chi nhánh thứ 10 nên không thể kết luận cho cả 10.",
+      "Sai. Phần đã kiểm tra có đủ bằng chứng thì vẫn kết luận được, kèm giới hạn phạm vi.",
+      "Sai. Không hợp tác là giới hạn phạm vi, không phải bằng chứng kiểm soát yếu ở cả 10 chi nhánh."
+    ],
+    "trap": "Suy rộng kết luận cho phần chưa kiểm tra, hoặc bỏ kết luận vì có giới hạn phạm vi.",
+    "refs": [
+      "GIAS 14.5",
+      "GIAS 15.1",
+      "CIA Part 2 B.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z04",
+    "section": "B",
+    "topic": "B8",
+    "difficulty": 3,
+    "stem": "Kiểm toán quy trình duyệt chi cho năm 2026 cho thấy kiểm soát duyệt hạn mức không vận hành từ tháng 1 đến tháng 10. Đơn vị đã sửa cấu hình hệ thống từ tuần trước. Kết luận về kỳ kiểm toán nên được viết thế nào?",
+    "options": [
+      "Kiểm soát hữu hiệu, vì lỗi đã được khắc phục trước khi phát hành báo cáo.",
+      "Kiểm soát không vận hành phần lớn kỳ; ghi nhận việc đã khắc phục.",
+      "Không kết luận về kỳ đã qua, chỉ kết luận về tình trạng sau khi đơn vị sửa cấu hình.",
+      "Bỏ phát hiện khỏi báo cáo, vì vấn đề không còn tồn tại vào thời điểm báo cáo."
+    ],
+    "answer": 1,
+    "explanation": "Kết luận phản ánh kết quả so với mục tiêu và phạm vi, ở đây là kỳ năm 2026 (GIAS 14.5). GIAS 15.1 yêu cầu ghi nhận trong báo cáo hành động quản lý đã thực hiện trước khi phát hành. Việc sửa gần đây không thay đổi việc kiểm soát đã không vận hành trong 10 tháng; hiệu quả của cấu hình mới còn cần được xác nhận khi theo dõi.",
+    "optionNotes": [
+      "Sai. Sửa gần đây không làm kiểm soát hữu hiệu trong 10 tháng đã qua của kỳ kiểm toán.",
+      "Đúng. Kết luận theo kỳ, đồng thời ghi nhận hành động khắc phục của đơn vị.",
+      "Sai. Phạm vi là kỳ năm 2026; chỉ kết luận sau khi sửa là thay đổi phạm vi đã duyệt.",
+      "Sai. Phát hiện vẫn phải báo cáo; việc khắc phục được ghi nhận chứ không làm phát hiện biến mất."
+    ],
+    "trap": "Kết luận kiểm soát hữu hiệu hoặc bỏ phát hiện vì đơn vị vừa khắc phục.",
+    "refs": [
+      "GIAS 14.5",
+      "GIAS 15.1",
+      "CIA Part 2 B.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z05",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 3,
+    "stem": "Phân tích dữ liệu cho thấy các chi nhánh có nhiều giờ đào tạo hơn thì có ít sai sót giao dịch hơn. Trưởng nhóm định kết luận 'thiếu đào tạo là nguyên nhân gốc của sai sót' và kiến nghị tăng đào tạo cho mọi chi nhánh. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì mối tương quan rõ ràng đã chứng minh quan hệ nhân quả.",
+      "Phù hợp, nếu hệ số tương quan lớn hơn 0,5 theo thông lệ thống kê.",
+      "Chưa phù hợp; tương quan chưa chứng minh được quan hệ nhân quả.",
+      "Chưa phù hợp; dữ liệu về đào tạo không được dùng trong kiểm toán hoạt động."
+    ],
+    "answer": 2,
+    "explanation": "Hai biến đi cùng nhau không có nghĩa biến này gây ra biến kia: có thể chi nhánh lớn vừa có ngân sách đào tạo vừa có hệ thống tốt hơn, hoặc có quản lý giỏi hơn. Trước khi kết luận nguyên nhân gốc, kiểm toán viên cần thêm bằng chứng (phỏng vấn, xem loại sai sót, so sánh các chi nhánh tương đồng). GIAS 14.3 yêu cầu xác định nguyên nhân gốc cùng quản lý khi có thể.",
+    "optionNotes": [
+      "Sai. Tương quan không chứng minh nhân quả; có thể có yếu tố thứ ba ảnh hưởng cả hai.",
+      "Sai. Hệ số tương quan cao vẫn không chứng minh được quan hệ nhân quả.",
+      "Đúng. Cần thêm bằng chứng trước khi coi một yếu tố tương quan là nguyên nhân gốc.",
+      "Sai. Dữ liệu đào tạo có thể hữu ích; vấn đề là cách diễn giải kết quả phân tích."
+    ],
+    "trap": "Coi mối tương quan trong dữ liệu là bằng chứng của quan hệ nhân quả.",
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 2 B.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z06",
+    "section": "B",
+    "topic": "B4",
+    "difficulty": 2,
+    "stem": "Để đánh giá đơn giá mua thép có hợp lý không, kiểm toán viên định so với bảng giá thị trường lấy từ một trang web không rõ đơn vị quản lý, không ghi ngày cập nhật. Vấn đề chính là gì?",
+    "options": [
+      "Dữ liệu bên ngoài không bao giờ được dùng làm cơ sở so sánh trong kiểm toán.",
+      "Kiểm toán viên phải dùng bảng giá do chính nhà cung cấp thép gửi cho công ty.",
+      "Giá thép biến động nên mọi so sánh với giá thị trường đều không có ý nghĩa.",
+      "Độ tin cậy của nguồn dữ liệu bên ngoài chưa được đánh giá."
+    ],
+    "answer": 3,
+    "explanation": "Dữ liệu bên ngoài hữu ích để so sánh, nhưng phải đánh giá độ tin cậy của nguồn: ai công bố, phương pháp thu thập, thời điểm cập nhật. Hướng dẫn của GIAS 14.1 nêu kiểm toán viên nên đánh giá thông tin có phải dữ kiện, có hiện hành và có từ nguồn độc lập hay không. Nguồn không rõ và không có ngày có thể cho kết luận sai.",
+    "optionNotes": [
+      "Sai. Dữ liệu bên ngoài dùng được nếu nguồn tin cậy; vấn đề là nguồn này chưa được đánh giá.",
+      "Sai. Bảng giá của chính nhà cung cấp không độc lập, kém phù hợp để đánh giá tính hợp lý của giá.",
+      "Sai. So sánh với giá cùng thời điểm vẫn có ý nghĩa; cần nguồn tin cậy và đúng thời điểm.",
+      "Đúng. Nguồn không rõ, không có ngày cập nhật làm độ tin cậy của so sánh chưa được bảo đảm."
+    ],
+    "trap": "Dùng dữ liệu bên ngoài làm chuẩn so sánh mà không đánh giá độ tin cậy của nguồn.",
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z07",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 2,
+    "stem": "Giá bán và giá mua nguyên liệu của công ty gần như không đổi so với năm trước, nhưng tỷ suất lợi nhuận gộp giảm từ 30% xuống 22%. Khi phân tích, kiểm toán viên nên xem xét khả năng nào trước?",
+    "options": [
+      "Có thể có thất thoát tồn kho, sai giá vốn hoặc ghi thiếu doanh thu.",
+      "Công ty đã tăng giá bán nên khách hàng mua ít hơn.",
+      "Chi phí bán hàng và quản lý tăng làm lợi nhuận gộp giảm.",
+      "Lãi vay ngân hàng tăng làm tỷ suất lợi nhuận gộp giảm."
+    ],
+    "answer": 0,
+    "explanation": "Tỷ suất lợi nhuận gộp = (doanh thu - giá vốn) / doanh thu. Khi giá bán và giá mua ổn định mà tỷ suất giảm mạnh, các khả năng cần xem gồm thất thoát hàng tồn kho (giá vốn tăng), sai sót tính giá vốn, hoặc doanh thu bị ghi thiếu. Chi phí bán hàng, quản lý và lãi vay nằm dưới lợi nhuận gộp nên không ảnh hưởng chỉ số này. Đây là kiến thức tài chính chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Giá ổn định mà biên gộp giảm gợi ý thất thoát, sai giá vốn hoặc ghi thiếu doanh thu.",
+      "Sai. Đề cho biết giá bán gần như không đổi; giả định tăng giá trái với dữ kiện.",
+      "Sai. Chi phí bán hàng và quản lý không nằm trong tính lợi nhuận gộp.",
+      "Sai. Lãi vay là chi phí tài chính, không ảnh hưởng tỷ suất lợi nhuận gộp."
+    ],
+    "trap": "Gán biến động lợi nhuận gộp cho các chi phí nằm dưới dòng lợi nhuận gộp.",
+    "refs": [
+      "CIA Part 2 B.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z08",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 3,
+    "stem": "Tổng chi phí hoa hồng cả năm của 20 chi nhánh chỉ lệch 2% so với kỳ vọng, nên kiểm toán viên định kết luận không có bất thường. Khi tách theo tháng và chi nhánh, có chi nhánh vượt 60% trong khi chi nhánh khác thấp hơn 50%. Bài học chính là gì?",
+    "options": [
+      "Phân tích tổng hợp cả năm đủ tin cậy, nên không cần tách chi tiết.",
+      "Số tổng có thể che giấu biến động bù trừ; kỳ vọng chi tiết chính xác hơn.",
+      "Chênh lệch 2% luôn nằm trong ngưỡng chấp nhận nên không cần phân tích tiếp.",
+      "Nên bỏ thủ tục phân tích, chuyển sang kiểm tra 100% chứng từ hoa hồng."
+    ],
+    "answer": 1,
+    "explanation": "Thủ tục phân tích ở mức tổng hợp có thể bị các biến động ngược chiều bù trừ nhau, nên che giấu bất thường lớn ở từng đơn vị hay từng tháng. Xây dựng kỳ vọng ở mức chi tiết hơn (theo chi nhánh, theo tháng) làm phép phân tích chính xác hơn và chỉ ra nơi cần kiểm tra thêm. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Số tổng có thể khớp trong khi từng chi nhánh có biến động lớn bù trừ nhau.",
+      "Đúng. Phân tích chi tiết hơn giúp thấy biến động bị che giấu trong số tổng.",
+      "Sai. Ngưỡng ở mức tổng không phát hiện được biến động lớn ở từng thành phần.",
+      "Sai. Phân tích chi tiết đã chỉ ra nơi cần kiểm tra; không cần bỏ phân tích hay kiểm tra toàn bộ."
+    ],
+    "trap": "Kết luận không có bất thường chỉ dựa trên phân tích số tổng hợp.",
+    "refs": [
+      "CIA Part 2 B.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z09",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Một kiểm toán viên dùng công cụ trí tuệ nhân tạo công cộng để tóm tắt 200 hợp đồng tín dụng, rồi đưa nguyên bản tóm tắt vào giấy làm việc làm bằng chứng. Vấn đề chính là gì?",
+    "options": [
+      "Công cụ AI làm việc nhanh nên kiểm toán viên sẽ có quá nhiều thời gian rảnh.",
+      "Kiểm toán nội bộ không được phép dùng bất kỳ công nghệ mới nào trong cuộc kiểm toán.",
+      "Bản tóm tắt chưa được đối chiếu với hợp đồng gốc, và dữ liệu khách hàng đã ra ngoài.",
+      "Bản tóm tắt bằng AI không thể lưu trữ được trong phần mềm quản lý hồ sơ kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 14.2 khuyến khích dùng công nghệ giúp phân tích hiệu quả hơn, nhưng kiểm toán viên vẫn phải bảo vệ thông tin (GIAS 5.2) và bảo đảm thông tin dùng làm cơ sở là phù hợp, đáng tin cậy, đầy đủ (GIAS 14.1). Dán hợp đồng vào công cụ công cộng có thể làm lộ dữ liệu khách hàng; tóm tắt của AI có thể sai hoặc bỏ sót điều khoản, nên phải được kiểm chứng với hợp đồng gốc.",
+    "optionNotes": [
+      "Sai. Hiệu suất không phải vấn đề; vấn đề là bảo mật và độ tin cậy của bằng chứng.",
+      "Sai. Chuẩn mực khuyến khích dùng công nghệ phù hợp; vấn đề là cách dùng trong tình huống này.",
+      "Đúng. Rủi ro lộ thông tin và kết quả chưa kiểm chứng là hai vấn đề chính.",
+      "Sai. Lưu trữ không phải vấn đề; nội dung chưa kiểm chứng mới làm hồ sơ kém tin cậy."
+    ],
+    "trap": "Dùng kết quả của công cụ AI làm bằng chứng mà không kiểm chứng và không xét bảo mật.",
+    "refs": [
+      "GIAS 14.2",
+      "GIAS 14.1",
+      "GIAS 5.2",
+      "CIA Part 2 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z10",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên muốn tìm nhân viên có thể là chủ sở hữu ngầm của nhà cung cấp. Phép phân tích dữ liệu nào phù hợp nhất?",
+    "options": [
+      "Tính tổng giá trị mua hàng theo từng nhà cung cấp trong năm.",
+      "Sắp xếp nhà cung cấp theo ngày được tạo trên hệ thống mua hàng.",
+      "Phân tích phân phối chữ số đầu của giá trị các hóa đơn mua hàng.",
+      "Ghép dữ liệu nhân viên và nhà cung cấp theo tài khoản, địa chỉ."
+    ],
+    "answer": 3,
+    "explanation": "Ghép (join) hai bảng dữ liệu nhân viên và nhà cung cấp theo các trường như số tài khoản ngân hàng, địa chỉ, số điện thoại, mã số thuế giúp tìm trường hợp trùng, là dấu hiệu nhân viên có lợi ích trong nhà cung cấp. Các phép khác có ích cho mục đích khác nhưng không trực tiếp chỉ ra mối liên hệ này. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Tổng giá trị mua cho biết quy mô, không cho biết nhà cung cấp có liên quan đến nhân viên.",
+      "Sai. Ngày tạo nhà cung cấp có thể gợi ý rủi ro, nhưng không cho thấy liên hệ với nhân viên.",
+      "Sai. Phân tích chữ số đầu tìm bất thường số tiền, không chỉ ra quan hệ nhân viên - nhà cung cấp.",
+      "Đúng. Ghép dữ liệu nhân viên và nhà cung cấp tìm thông tin trùng, dấu hiệu xung đột lợi ích."
+    ],
+    "trap": "Chọn phép phân tích tổng quát thay vì ghép dữ liệu để tìm quan hệ nhân viên - nhà cung cấp.",
+    "refs": [
+      "CIA Part 2 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z11",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Mục tiêu thủ tục là kiểm tra mọi khoản chi trên 100 triệu đồng có được duyệt đúng thẩm quyền. Kiểm toán viên thu thập bản sao hóa đơn và phiếu nhập kho của 40 khoản chi. Vấn đề chính của bằng chứng là gì?",
+    "options": [
+      "Chưa phù hợp, vì hóa đơn và phiếu nhập không cho thấy ai đã duyệt chi.",
+      "Bằng chứng chưa đủ, vì 40 khoản là quá ít so với tổng số khoản chi trong năm.",
+      "Bằng chứng kém tin cậy, vì bản sao luôn có giá trị thấp hơn bản gốc.",
+      "Không có vấn đề, vì hóa đơn và phiếu nhập là chứng từ hợp lệ của khoản chi."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.1 yêu cầu thông tin phù hợp, tức gắn với mục tiêu cuộc kiểm toán và nằm trong phạm vi. Hóa đơn và phiếu nhập chứng minh khoản chi có thật và đã nhận hàng, nhưng không cho biết khoản chi được ai duyệt và có đúng thẩm quyền không. Bằng chứng phù hợp là chứng từ duyệt chi đối chiếu với ma trận phân quyền.",
+    "optionNotes": [
+      "Đúng. Hóa đơn và phiếu nhập không chứng minh được việc duyệt đúng thẩm quyền.",
+      "Sai. Cỡ mẫu có thể cần xem lại, nhưng vấn đề lớn hơn là loại bằng chứng không trả lời mục tiêu.",
+      "Sai. Bản sao có thể dùng được nếu nguồn đáng tin; vấn đề là nội dung bằng chứng không phù hợp.",
+      "Sai. Chứng từ hợp lệ nhưng không liên quan đến mục tiêu kiểm tra phê duyệt."
+    ],
+    "trap": "Thu thập bằng chứng hợp lệ nhưng không liên quan đến mục tiêu thủ tục.",
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z12",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Trong bộ hồ sơ thanh toán, kiểm toán viên thấy một hợp đồng có trang ghi giá trị dùng phông chữ và khoảng cách dòng khác hẳn các trang còn lại. Kế toán giải thích 'do in lại bản sửa'. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Chấp nhận giải thích, vì in lại tài liệu là việc bình thường trong văn phòng.",
+      "Kiểm chứng với bản gốc từ nguồn độc lập, như bản lưu của pháp chế.",
+      "Kết luận ngay đây là gian lận và báo cáo cơ quan công an.",
+      "Loại hợp đồng này khỏi mẫu và chọn một hợp đồng khác thay thế."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 14.1 nêu khi áp dụng thái độ hoài nghi nghề nghiệp, kiểm toán viên nên đánh giá thông tin có phải là dữ kiện, có được thu thập trực tiếp hoặc từ nguồn độc lập với người chịu trách nhiệm hay không. Dấu hiệu chỉnh sửa trên trang giá trị cần được kiểm chứng với bản gốc độc lập trước khi kết luận; vội kết luận gian lận hay bỏ qua đều không phù hợp.",
+    "optionNotes": [
+      "Sai. Dấu hiệu chỉnh sửa ở trang giá trị cần được kiểm chứng, không thể chấp nhận chỉ bằng lời giải thích.",
+      "Đúng. Kiểm chứng với bản gốc từ nguồn độc lập là bước phù hợp khi có dấu hiệu chỉnh sửa.",
+      "Sai. Chưa đủ bằng chứng để kết luận gian lận; cần kiểm chứng trước và xử lý theo quy trình.",
+      "Sai. Thay mẫu là bỏ qua dấu hiệu bất thường, làm mẫu mất tính đại diện và che giấu rủi ro."
+    ],
+    "trap": "Chấp nhận lời giải thích hoặc bỏ qua tài liệu có dấu hiệu chỉnh sửa, thay vì kiểm chứng với nguồn độc lập.",
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z13",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên muốn biết nhân viên có cảm thấy an toàn khi báo cáo sai phạm của cấp trên hay không, trong một công ty 600 người. Cách thu thập thông tin nào phù hợp nhất?",
+    "options": [
+      "Phỏng vấn từng trưởng phòng về mức độ cởi mở của nhân viên phòng mình.",
+      "Xem số vụ tố giác qua đường dây nóng trong năm để kết luận về văn hóa.",
+      "Khảo sát ẩn danh toàn bộ nhân viên, kết hợp phỏng vấn sâu một số người.",
+      "Yêu cầu mỗi nhân viên ký cam kết đã đọc chính sách tố giác của công ty."
+    ],
+    "answer": 2,
+    "explanation": "Với chủ đề nhạy cảm, khảo sát ẩn danh giúp nhân viên trả lời thẳng thắn hơn và bao quát được nhiều người; phỏng vấn sâu một số người giúp hiểu lý do phía sau. Hướng dẫn của GIAS 14.1 liệt kê khảo sát và phỏng vấn là các phương pháp thu thập thông tin. Hỏi cấp trên về cấp dưới, hoặc chỉ đếm số vụ tố giác, đều dễ cho kết quả lệch. Đây là kỹ năng thu thập thông tin chung.",
+    "optionNotes": [
+      "Sai. Trưởng phòng là đối tượng nhân viên có thể cần tố giác, nên ý kiến của họ khó khách quan.",
+      "Sai. Ít tố giác có thể do nhân viên sợ, không phải do ít sai phạm; con số không đủ để kết luận.",
+      "Đúng. Khảo sát ẩn danh kết hợp phỏng vấn sâu phù hợp với chủ đề nhạy cảm.",
+      "Sai. Ký cam kết cho biết nhân viên đã đọc chính sách, không cho biết họ có cảm thấy an toàn khi báo cáo."
+    ],
+    "trap": "Hỏi người có lợi ích liên quan hoặc dùng số liệu gián tiếp để đánh giá chủ đề nhạy cảm.",
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Z14",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Để kiểm tra kiểm soát đối chiếu ngân hàng hằng tháng có thực sự phát hiện chênh lệch, kiểm toán viên cách nào sau đây cho bằng chứng mạnh nhất?",
+    "options": [
+      "Xem chữ ký của kế toán trưởng trên bảng đối chiếu của từng tháng.",
+      "Đọc quy trình đối chiếu ngân hàng đã được Tổng Giám đốc ban hành.",
+      "Phỏng vấn kế toán ngân hàng về các bước thực hiện đối chiếu hằng tháng.",
+      "Tự lập lại đối chiếu của một số tháng rồi so với bảng của đơn vị."
+    ],
+    "answer": 3,
+    "explanation": "Thực hiện lại (reperformance) là kiểm toán viên tự làm lại kiểm soát để xem kết quả có đúng không. Nó cho bằng chứng mạnh hơn việc chỉ xem chữ ký (chỉ chứng minh có người ký) hay phỏng vấn, đọc quy trình (chỉ cho biết thiết kế). Nếu bảng do kiểm toán viên lập khác bảng của đơn vị, kiểm soát có thể không phát hiện được chênh lệch. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Chữ ký chỉ cho thấy bảng đã được ký, không chứng minh việc đối chiếu được làm đúng.",
+      "Sai. Đọc quy trình đánh giá thiết kế, không cho biết kiểm soát vận hành hiệu quả.",
+      "Sai. Phỏng vấn cho biết cách làm dự kiến, không chứng minh kết quả đối chiếu đúng.",
+      "Đúng. Thực hiện lại đối chiếu cho bằng chứng trực tiếp về việc kiểm soát có vận hành đúng."
+    ],
+    "trap": "Coi chữ ký trên bảng đối chiếu là bằng chứng kiểm soát đã được thực hiện đúng.",
+    "refs": [
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
   }
 ]
