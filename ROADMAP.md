@@ -9,7 +9,7 @@ Live site: https://phucnduy.github.io/cia-prep/ (GitHub Pages, deployed by pushi
 | Part | Questions | Full exam needs | Easy / medium / hard | Trap-tagged | Status |
 |---|---|---|---|---|---|
 | P1 Internal Audit Fundamentals | 505 | 125 (A44 B25 C37 D19) | 1 / 53 / 46% | 388 | ready |
-| P2 Internal Audit Engagement | 106 | 100 (A50 B40 C10); now A50 B40 C16 | 6 / 56 / 39% | 27 | draft (one full exam) |
+| P2 Internal Audit Engagement | 106 | 100 (A50 B40 C10); now A50 B40 C16 | 6 / 56 / 39% | 27 | ready (one full exam) |
 | P3 Internal Audit Function | 100 | 100 (A25 B15 C15 D45); now A25 B15 C15 D45 | 2 / 58 / 40% | 76 | ready (one full exam) |
 
 Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audit:bank` for current numbers and thin topics.
@@ -41,6 +41,7 @@ Two sessions must not edit the same `public/data/<part>/questions-<section>.json
 
 ## Done (recent)
 
+- 2026-11-21: P2 manifest status set to ready (user decision); all three parts now show 'Sẵn sàng thi thử'.
 - 2026-11-21: P2 reaches one full exam (A50 B40 C16). Batch S of 17 (all trap, 7 hard): objectives aligned with the activity's goals, assurance vs advisory decided by substance, scope must name outsourced processes and systems (13.3); sharing criteria up front (13.4); risk tolerance and management's own measures in planning (13.2, 13.4); continuous auditing, multi-site approach (14.2, 13.5); risk assessment across compliance, IT and fraud (13.2); planning work in workpapers (13.6); resources vs deadline, an internal expert who built the model (13.5); information must be current (14.1); fuzzy duplicate matching, triaging 1200 exceptions, regression, reasonableness test (14.2). One criteria question was replaced: it repeated P2-A-M08.
 - 2026-11-21: P3 manifest status set to ready (user decision); the validator checks every section has enough questions for a full exam.
 - 2026-11-21: P3 reaches one full exam (100: A25 B15 C15 D45; hard 40%, trap 76%). Final batch of 18 (B 4, A 6, D 8): risk assessment down to auditable units, scheduling around regulators and external audit, listing the next engagements if more resources, re-evaluating reliance (9.4, 9.5); feedback to auditors (12.3, 10.2), co-sourcing vs hiring, technology limitations (10.3), recruiting for new risks, deploying staff by risk, reviewing the mandate after listing (6.1); acknowledging good performance, plain language for the board, disagreement methodology (14.4), acknowledging management actions (15.1), qualitative significance (14.3), acceptance that breaks the risk policy (11.5), an inadequate alternative plan (15.2), facts and circumstances to the board (8.1).
