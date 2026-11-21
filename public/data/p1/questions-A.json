@@ -2060,7 +2060,7 @@
       "Ghi nhận khả năng suy giảm độc lập và cùng Ban điều hành, CAE thiết lập biện pháp bảo vệ."
     ],
     "answer": 3,
-    "explanation": "Khi phê duyệt vai trò ngoài kiểm toán cho CAE, HĐQT phải ghi nhận khả năng suy giảm độc lập và phối hợp với Ban điều hành, CAE để thiết lập biện pháp bảo vệ phù hợp (GIAS 7.1, điều kiện thiết yếu). Sự tin tưởng không thay thế biện pháp bảo vệ.",
+    "explanation": "Khi phê duyệt vai trò ngoài kiểm toán cho CAE, HĐQT cần ghi nhận khả năng suy giảm độc lập và phối hợp với Ban điều hành, CAE để thiết lập biện pháp bảo vệ phù hợp (GIAS 7.1, điều kiện thiết yếu). Sự tin tưởng không thay thế biện pháp bảo vệ.",
     "optionNotes": [
       "Sai. Tin tưởng cá nhân không phải là biện pháp bảo vệ.",
       "Sai. Gộp bộ phận Kiểm soát nội bộ vào kiểm toán nội bộ lâu dài làm suy giảm độc lập trầm trọng hơn; cần biện pháp bảo vệ chứ không phải sáp nhập.",
@@ -2080,13 +2080,13 @@
     "difficulty": 2,
     "stem": "Tổng Giám đốc yêu cầu CAE không được liên hệ trực tiếp với Chủ tịch Ủy ban Kiểm toán ngoài các cuộc họp chính thức, mọi trao đổi phải qua văn phòng Tổng Giám đốc. Nhận định nào đúng nhất?",
     "options": [
-      "Không phù hợp; Ban điều hành phải công nhận kênh báo cáo trực tiếp với HĐQT.",
+      "Không phù hợp; Ban điều hành cần công nhận kênh báo cáo trực tiếp với HĐQT.",
       "Phù hợp, nếu CAE vẫn được trình bày đầy đủ tại các kỳ họp chính thức.",
       "Phù hợp, vì Tổng Giám đốc là người quản lý hành chính trực tiếp của CAE.",
       "Không phù hợp, vì CAE phải báo cáo cả hành chính lẫn chức năng cho HĐQT."
     ],
     "answer": 0,
-    "explanation": "HĐQT thiết lập quan hệ báo cáo trực tiếp với CAE, hỗ trợ CAE bằng trao đổi thường xuyên, trực tiếp; Ban điều hành phải công nhận quan hệ báo cáo trực tiếp này (GIAS 6.3, 7.1, điều kiện thiết yếu). Quan hệ hành chính không cho phép chặn kênh này.",
+    "explanation": "HĐQT thiết lập quan hệ báo cáo trực tiếp với CAE, hỗ trợ CAE bằng trao đổi thường xuyên, trực tiếp; Ban điều hành cần công nhận quan hệ báo cáo trực tiếp này (GIAS 6.3, 7.1, điều kiện thiết yếu). Quan hệ hành chính không cho phép chặn kênh này.",
     "optionNotes": [
       "Đúng. Đúng nghĩa vụ của Ban điều hành theo điều kiện thiết yếu.",
       "Sai. Trao đổi trực tiếp, thường xuyên không chỉ giới hạn trong các kỳ họp.",
@@ -2116,7 +2116,7 @@
     "explanation": "HĐQT cần thảo luận với CAE ít nhất hằng năm về mức đủ của nguồn lực, cả về số lượng lẫn năng lực, để thực hiện nhiệm vụ và kế hoạch (GIAS 8.2, điều kiện thiết yếu). Đủ người mà thiếu kỹ năng CNTT thì vẫn không đủ cho kế hoạch.",
     "optionNotes": [
       "Sai. Định biên đủ không có nghĩa là đủ năng lực.",
-      "Sai. HĐQT phải thảo luận về nguồn lực với CAE.",
+      "Sai. HĐQT cần thảo luận về nguồn lực với CAE.",
       "Sai. So sánh ngành có thể tham khảo, nhưng không giải quyết thiếu năng lực.",
       "Đúng. Phải đánh giá cả số lượng và năng lực."
     ],
@@ -3880,7 +3880,7 @@
       "Đúng. Phạm vi, tần suất, năng lực và độc lập.",
       "Sai. Chi phí có thể được trao đổi khi duyệt ngân sách, nhưng không phải nội dung tối thiểu của kế hoạch đánh giá bên ngoài mà HĐQT cần xem xét.",
       "Sai. Chi tiết tác nghiệp không cần HĐQT duyệt.",
-      "Sai. HĐQT phải tham gia từ khi lập kế hoạch (phạm vi, tần suất, người đánh giá), không chỉ nhận kết quả sau khi đánh giá xong."
+      "Sai. HĐQT cần tham gia từ khi lập kế hoạch (phạm vi, tần suất, người đánh giá), không chỉ nhận kết quả sau khi đánh giá xong."
     ],
     "refs": [
       "GIAS 8.4",

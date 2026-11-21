@@ -114,6 +114,9 @@ const md = [
 for (const st of standards) {
   const req = statements(st.req);
   const con = statements(st.con);
+  // In some pages (e.g. 3.2, 11.5) the PDF places the "Considerations" heading before part of the
+  // requirement text, so it lands under Considerations: move the leading "must" sentences back, marked.
+  while (con.length && has('must')(con[0])) req.push(`${con.shift()} [moved: printed after the Considerations heading]`);
   const must = req.filter(has('must'));
   const should = con.filter(has('should'));
   const odd = [...req.filter(has('should')).map((s) => `(Requirements) ${s}`), ...con.filter(has('must')).map((s) => `(Considerations) ${s}`)];

@@ -1199,7 +1199,7 @@
       "Gây hiểu lầm về phạm vi; phải nêu rõ mẫu và giới hạn kết luận."
     ],
     "answer": 3,
-    "explanation": "Kiểm toán viên không được đưa ra tuyên bố sai, gây hiểu lầm hoặc lừa dối, và phải trung thực, chính xác, rõ ràng (GIAS 1.1). Câu này khiến người đọc nghĩ toàn bộ khoản thanh toán đã được kiểm tra; báo cáo phải nêu rõ phạm vi, mẫu và giới hạn (GIAS 15.1).",
+    "explanation": "Kiểm toán viên không được đưa ra tuyên bố sai, gây hiểu lầm hoặc lừa dối, và phải trung thực, chính xác, rõ ràng (GIAS 1.1). Câu này khiến người đọc nghĩ toàn bộ khoản thanh toán đã được kiểm tra; báo cáo phải nêu phạm vi và giải thích giới hạn phạm vi (GIAS 15.1); ghi rõ mẫu đã kiểm tra là cách trình bày phạm vi trung thực.",
     "optionNotes": [
       "Sai. Kết quả mẫu đúng nhưng cách diễn đạt gây hiểu sai phạm vi.",
       "Sai. Khẳng định cho cả năm là sai lệch nghiêm trọng hơn.",
@@ -1671,7 +1671,7 @@
       "Gửi riêng báo cáo cho từng thành viên Ủy ban để giải thích trực tiếp từng người."
     ],
     "answer": 2,
-    "explanation": "Truyền đạt hiệu quả với cấp quản trị cần đi thẳng vào điều quan trọng: tóm tắt kết luận, phát hiện ưu tiên, tác động, rồi mới đến chi tiết. Báo cáo phải rõ ràng, súc tích (GIAS 11.2).",
+    "explanation": "Truyền đạt hiệu quả với cấp quản trị cần đi thẳng vào điều quan trọng: tóm tắt kết luận, phát hiện ưu tiên, tác động, rồi mới đến chi tiết. Báo cáo cuối cùng phải rõ ràng, súc tích (GIAS 15.1), và phương pháp của bộ phận phải thúc đẩy các thuộc tính này (GIAS 11.2).",
     "optionNotes": [
       "Sai. Thêm phụ lục làm báo cáo dài hơn và càng khó thấy điều quan trọng; cần đưa kết luận và phát hiện ưu tiên lên đầu.",
       "Sai. Bảng số liệu không thay được thông điệp và kết luận.",
@@ -1680,7 +1680,8 @@
     ],
     "refs": [
       "GIAS 11.2",
-      "CIA Part 1 B.4"
+      "CIA Part 1 B.4",
+      "GIAS 15.1"
     ],
     "source": "original"
   },
@@ -1884,7 +1885,7 @@
       "Để CAE tự thực hiện vì CAE hiểu rõ nhất mục đích sử dụng phần mềm."
     ],
     "answer": 2,
-    "explanation": "Khi bộ phận kiểm toán nội bộ đánh giá hoạt động do chính mình phụ trách, mọi thành viên đều có nguy cơ tự kiểm tra. Thuê ngoài việc thực hiện hoặc giám sát cuộc kiểm toán là biện pháp phù hợp; với chức năng thuộc trách nhiệm của CAE, việc đảm bảo phải do bên độc lập ngoài chức năng giám sát (GIAS 2.2).",
+    "explanation": "Khi bộ phận kiểm toán nội bộ đánh giá hoạt động do chính mình phụ trách, mọi thành viên đều có nguy cơ tự kiểm tra. Thuê ngoài việc thực hiện hoặc giám sát cuộc kiểm toán là biện pháp phù hợp; với chức năng thuộc trách nhiệm của CAE, việc đảm bảo phải do bên độc lập ngoài chức năng giám sát (GIAS 7.1).",
     "optionNotes": [
       "Sai. Mọi thành viên trong phòng đều thuộc chức năng đang vận hành phần mềm.",
       "Sai. Bỏ qua tạo khoảng trống nếu phần mềm có rủi ro.",
@@ -1893,7 +1894,8 @@
     ],
     "refs": [
       "GIAS 2.2",
-      "CIA Part 1 B.3"
+      "CIA Part 1 B.3",
+      "GIAS 7.1"
     ],
     "trap": "Cho rằng người ít dùng phần mềm nhất trong phòng đủ khách quan để kiểm toán công cụ của chính phòng.",
     "source": "original"
