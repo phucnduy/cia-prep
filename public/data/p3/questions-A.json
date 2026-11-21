@@ -509,5 +509,171 @@
       "CIA Part 3 A.4"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-A-T01",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "CAE chỉ đánh giá kiểm toán viên một lần vào cuối năm, dựa trên số phát hiện mỗi người tìm được, không trao đổi gì trong năm. Nhiều kiểm toán viên trẻ không biết mình cần cải thiện điểm nào. Thiếu sót chính là gì?",
+    "options": [
+      "Đánh giá một lần mỗi năm là quá thưa; nên chấm điểm mỗi quý theo số phát hiện.",
+      "Việc đánh giá kiểm toán viên nên giao hoàn toàn cho bộ phận Nhân sự thực hiện.",
+      "CAE chưa phản hồi về kết quả làm việc và cơ hội cải thiện cho kiểm toán viên.",
+      "Số phát hiện là thước đo khách quan nhất; chỉ cần công bố kết quả cho cả phòng."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 12.3 yêu cầu CAE, để phát triển năng lực, phải phản hồi cho kiểm toán viên về kết quả làm việc và cơ hội cải thiện; GIAS 10.2 yêu cầu CAE đánh giá năng lực từng kiểm toán viên và phối hợp phát triển năng lực qua đào tạo, phản hồi của người giám sát, kèm cặp. Chấm điểm theo số phát hiện mà không phản hồi không giúp ai tiến bộ, còn có thể khuyến khích nêu phát hiện vụn vặt.",
+    "optionNotes": [
+      "Sai. Chấm điểm thường hơn theo cùng thước đo vẫn không phải phản hồi; vấn đề là thiếu trao đổi về cách cải thiện.",
+      "Sai. Nhân sự hỗ trợ quy trình, nhưng đánh giá năng lực và phản hồi chuyên môn là trách nhiệm của CAE.",
+      "Đúng. Phản hồi về kết quả và cơ hội cải thiện là yêu cầu của GIAS 12.3, 10.2.",
+      "Sai. Đếm số phát hiện dễ khuyến khích phát hiện vụn vặt và không phản ánh chất lượng công việc."
+    ],
+    "trap": "Coi việc chấm điểm định kỳ theo số phát hiện là đủ để phát triển năng lực kiểm toán viên.",
+    "refs": [
+      "GIAS 12.3",
+      "GIAS 10.2",
+      "CIA Part 3 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-T02",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Kế hoạch có hai cuộc kiểm toán CNTT chuyên sâu mỗi năm. CAE định tuyển hai kiểm toán viên CNTT toàn thời gian, dù phần lớn thời gian còn lại của họ sẽ không có việc phù hợp. Cách cân nhắc phù hợp nhất là gì?",
+    "options": [
+      "Tuyển toàn thời gian, vì nhân sự nội bộ luôn độc lập hơn chuyên gia thuê ngoài.",
+      "Thuê ngoài toàn bộ bộ phận kiểm toán nội bộ để tiết kiệm chi phí nhân sự.",
+      "Bỏ hai cuộc kiểm toán CNTT, vì bộ phận chưa có người có chuyên môn phù hợp.",
+      "So chi phí và tính linh hoạt của các cách bố trí nhân sự, như đồng kiểm toán."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 10.2 nêu khi xây dựng cách quản lý nhân sự, CAE nên cân nhắc ngân sách, hiệu quả chi phí và tính linh hoạt của các cách bố trí (tuyển nhân viên hay thuê bên cung cấp dịch vụ), và trao đổi với HĐQT, Ban điều hành để thống nhất. Với nhu cầu chuyên sâu nhưng ít, đồng kiểm toán hoặc thuê chuyên gia theo cuộc thường hiệu quả hơn; dù chọn cách nào, CAE vẫn chịu trách nhiệm về chất lượng.",
+    "optionNotes": [
+      "Sai. Thuê ngoài vẫn có thể độc lập nếu được đánh giá và giám sát; độc lập không phải lý do để tuyển người không đủ việc.",
+      "Sai. Chuyển toàn bộ bộ phận đi là quá mức so với nhu cầu chuyên môn ở hai cuộc kiểm toán.",
+      "Sai. Thiếu chuyên môn thì bổ sung bằng cách phù hợp; bỏ cuộc kiểm toán CNTT là bỏ sót rủi ro.",
+      "Đúng. So hiệu quả chi phí và tính linh hoạt của các cách bố trí là điều GIAS 10.2 hướng dẫn."
+    ],
+    "trap": "Cho rằng nhân sự nội bộ toàn thời gian luôn là lựa chọn tốt nhất vì độc lập hơn.",
+    "refs": [
+      "GIAS 10.2",
+      "CIA Part 3 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-T03",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Phần mềm kiểm toán của bộ phận đã lỗi thời, không xử lý được tệp dữ liệu lớn, nên kiểm toán viên chỉ chọn mẫu nhỏ ở các quy trình có hàng triệu giao dịch. CAE chấp nhận tình trạng này và không báo cáo ai. CAE còn thiếu việc gì?",
+    "options": [
+      "Báo HĐQT và Ban điều hành về tác động của hạn chế công nghệ đến hiệu quả kiểm toán.",
+      "Không thiếu gì, vì chọn mẫu là phương pháp được chấp nhận trong mọi cuộc kiểm toán.",
+      "Tự viết phần mềm phân tích dữ liệu riêng của bộ phận để thay phần mềm đã lỗi thời.",
+      "Đề nghị các đơn vị được kiểm toán tự lọc dữ liệu bất thường gửi cho kiểm toán viên."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 10.3 yêu cầu CAE phải thường xuyên đánh giá công nghệ của bộ phận, tìm cơ hội cải thiện, và phải trao đổi với HĐQT và Ban điều hành về tác động của hạn chế công nghệ đến hiệu lực hoặc hiệu quả của bộ phận. Chọn mẫu nhỏ ở quy trình có hàng triệu giao dịch làm giảm mức đảm bảo; HĐQT cần biết để cân nhắc đầu tư.",
+    "optionNotes": [
+      "Đúng. Tác động của hạn chế công nghệ phải được báo cho HĐQT và Ban điều hành theo GIAS 10.3.",
+      "Sai. Chọn mẫu hợp lệ, nhưng chọn mẫu nhỏ vì công cụ yếu làm giảm mức đảm bảo; đó là tác động cần được báo.",
+      "Sai. Tự viết phần mềm tốn nguồn lực và rủi ro; cách phù hợp là báo tác động và đề xuất đầu tư qua kênh phê duyệt.",
+      "Sai. Để đơn vị được kiểm toán tự lọc dữ liệu làm giảm độ tin cậy của bằng chứng và tính độc lập của kiểm toán."
+    ],
+    "trap": "Chấp nhận hạn chế công nghệ như một điều bình thường mà không báo tác động cho HĐQT.",
+    "refs": [
+      "GIAS 10.3",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-T04",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Rủi ro của ngân hàng chuyển mạnh sang an ninh mạng, dữ liệu và mô hình chấm điểm tín dụng, nhưng CAE vẫn chỉ tuyển kiểm toán viên có nền tảng kế toán vì 'dễ đào tạo theo cách làm cũ'. Hướng tuyển dụng phù hợp hơn là gì?",
+    "options": [
+      "Giữ tiêu chí cũ, vì kiến thức kế toán là nền tảng chung của mọi cuộc kiểm toán.",
+      "Cùng Nhân sự xây dựng mô tả công việc theo năng lực cần có, cân nhắc nền tảng đa dạng.",
+      "Để bộ phận Nhân sự tự đặt tiêu chí tuyển, vì đây là việc chuyên môn của Nhân sự.",
+      "Chỉ tuyển người đã có chứng chỉ CIA, bất kể chuyên môn nền tảng của họ là gì."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 10.2 nêu để tuyển kiểm toán viên có năng lực, CAE nên phối hợp với bộ phận Nhân sự xây dựng mô tả công việc phù hợp GIAS 3.1 và khung năng lực nghề nghiệp, và cân nhắc lợi ích của việc tuyển người có nền tảng, kinh nghiệm, góc nhìn đa dạng. Khi rủi ro chuyển sang công nghệ và dữ liệu, tiêu chí chỉ dành cho kế toán khiến bộ phận thiếu năng lực tập thể.",
+    "optionNotes": [
+      "Sai. Kế toán vẫn cần, nhưng chỉ tuyển một nền tảng khiến bộ phận thiếu năng lực cho các rủi ro mới.",
+      "Đúng. Mô tả công việc theo năng lực cần có và cân nhắc nền tảng đa dạng là hướng dẫn của GIAS 10.2.",
+      "Sai. Nhân sự hỗ trợ quy trình tuyển, nhưng năng lực cần có phải do CAE xác định theo nhu cầu của bộ phận.",
+      "Sai. CIA chứng minh hiểu biết về kiểm toán nội bộ, không thay được chuyên môn công nghệ, dữ liệu hay mô hình."
+    ],
+    "trap": "Tiếp tục tuyển theo một nền tảng chuyên môn cũ dù rủi ro của tổ chức đã đổi.",
+    "refs": [
+      "GIAS 10.2",
+      "GIAS 3.1",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-T05",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Theo thông lệ thâm niên, các kiểm toán viên giàu kinh nghiệm nhất được giao các cuộc kiểm toán văn phòng phẩm và tài sản cố định, còn kiểm toán viên mới vào được giao kiểm toán chuyển tiền quốc tế rủi ro cao. Vấn đề chính là gì?",
+    "options": [
+      "Không có vấn đề, vì kiểm toán viên mới cần được giao việc khó để nhanh tiến bộ.",
+      "Kiểm toán viên giàu kinh nghiệm cần được giảm tải để chuẩn bị nghỉ hưu sớm hơn.",
+      "Nhân lực chưa được bố trí hiệu quả theo rủi ro và năng lực cần cho từng cuộc.",
+      "Cuộc kiểm toán rủi ro cao nên được thuê ngoài toàn bộ thay vì giao cho nội bộ."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 10.2 yêu cầu CAE cố gắng bảo đảm nhân lực phù hợp, đủ và được bố trí hiệu quả để thực hiện kế hoạch đã duyệt; GIAS 13.5 yêu cầu xác định nguồn lực phù hợp cho từng cuộc theo tính chất và độ phức tạp. Giao cuộc rủi ro cao nhất cho người ít kinh nghiệm nhất là bố trí ngược với rủi ro. Kiểm toán viên mới có thể tham gia để học, dưới sự giám sát của người có kinh nghiệm.",
+    "optionNotes": [
+      "Sai. Học hỏi là cần, nhưng nên tham gia dưới sự giám sát; giao chính cuộc rủi ro cao cho người mới là bố trí sai.",
+      "Sai. Đề bài không nói về nghỉ hưu; vấn đề là người có năng lực cao đang làm cuộc rủi ro thấp.",
+      "Đúng. Nhân lực phải được bố trí theo rủi ro và năng lực cần cho từng cuộc, không theo thâm niên.",
+      "Sai. Thuê ngoài là một lựa chọn, nhưng bộ phận đã có người có kinh nghiệm; vấn đề là phân công sai."
+    ],
+    "trap": "Phân công theo thâm niên hoặc thói quen thay vì theo rủi ro và năng lực cần cho từng cuộc.",
+    "refs": [
+      "GIAS 10.2",
+      "GIAS 13.5",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-T06",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Công ty vừa niêm yết trên sàn chứng khoán. Nhà đầu tư, Ủy ban Chứng khoán và các thành viên HĐQT độc lập mới có kỳ vọng khác trước về quản trị và công bố thông tin. Quy chế và nhiệm vụ của kiểm toán nội bộ vẫn là bản trước khi niêm yết. CAE nên làm gì?",
+    "options": [
+      "Giữ nguyên, vì nhiệm vụ đã được HĐQT phê duyệt và chỉ thay đổi khi HĐQT yêu cầu.",
+      "Tự sửa quy chế cho phù hợp với yêu cầu niêm yết, rồi thông báo cho HĐQT sau.",
+      "Đề nghị Ủy ban Chứng khoán quy định nhiệm vụ mới cho kiểm toán nội bộ của công ty.",
+      "Xem xét các thay đổi này và trao đổi với HĐQT, Ban điều hành về nhiệm vụ, quy chế."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 6.1 yêu cầu CAE định kỳ đánh giá xem thay đổi trong hoàn cảnh có cần trao đổi với HĐQT và Ban điều hành về nhiệm vụ không; nếu có, CAE phải trao đổi để xem thẩm quyền, vai trò, trách nhiệm còn giúp bộ phận đạt được chiến lược và mục tiêu không. Niêm yết là thay đổi lớn về các bên liên quan và yêu cầu pháp lý. HĐQT phê duyệt quy chế, nên CAE không tự sửa.",
+    "optionNotes": [
+      "Sai. CAE phải chủ động đánh giá thay đổi và đề nghị trao đổi; không chờ HĐQT tự nhận ra.",
+      "Sai. Quy chế do HĐQT phê duyệt; CAE trao đổi và đề xuất thay đổi, không tự sửa rồi báo sau.",
+      "Sai. Cơ quan quản lý có thể đặt yêu cầu, nhưng nhiệm vụ do HĐQT xác lập với thông tin từ CAE và Ban điều hành.",
+      "Đúng. Thay đổi lớn trong hoàn cảnh đòi hỏi CAE trao đổi với HĐQT, Ban điều hành về nhiệm vụ và quy chế."
+    ],
+    "trap": "Chờ HĐQT yêu cầu mới xem lại nhiệm vụ, dù tổ chức đã thay đổi lớn về các bên liên quan.",
+    "refs": [
+      "GIAS 6.1",
+      "GIAS 6.2",
+      "CIA Part 3 A.3"
+    ],
+    "source": "original"
   }
 ]

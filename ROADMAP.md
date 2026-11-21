@@ -10,13 +10,13 @@ Live site: https://phucnduy.github.io/cia-prep/ (GitHub Pages, deployed by pushi
 |---|---|---|---|---|---|
 | P1 Internal Audit Fundamentals | 505 | 125 (A44 B25 C37 D19) | 1 / 53 / 46% | 388 | ready |
 | P2 Internal Audit Engagement | 89 | 100 (A50 B40 C10); now A38 B35 C16 | 7 / 55 / 38% | 6 | draft |
-| P3 Internal Audit Function | 82 | 100 (A25 B15 C15 D45); now A19 B11 C15 D37 | 2 / 59 / 39% | 58 | draft |
+| P3 Internal Audit Function | 100 | 100 (A25 B15 C15 D45); now A25 B15 C15 D45 | 2 / 58 / 40% | 76 | draft (one full exam) |
 
 Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audit:bank` for current numbers and thin topics.
 
 ## Next work, in priority order
 
-1. **P3 to a full exam (100), then 200.** Still needed for one exam: D 8, A 6, B 4; C is complete (15). Every P3 topic has fewer than 10 questions.
+1. **P3 from one full exam (100) to 200.** Every mock exam now draws the same 100 questions (shuffled); a second set is needed before mock results mean much. Thin topics: B1, B3, C3, D8 (4 each).
 2. **P2 to a full exam (100), then 200.** Section A needs 12 more for one exam; 17 topics have fewer than 10.
 3. **Raise hard share and traps.** P3 hard is 26% (aim 40%). New batches: at least 60% trap, easy at most 10%.
 4. **Cross-part repeats** (same concept in P1 and P2/P3, lower priority since parts are separate exams): P2-A-M22 / P1-C-N09 (RTO and RPO), P2-B-H03 / P1-D-L013 (Benford), P2-C-M01 / P1-B-M21 (outsourced engagement, CAE still responsible), P3-D-003 / P1-C-L027 (cost-benefit). Also P2-A-005 / P2-A-M19 (missing analytics skills) is a mild hint pair.
@@ -41,6 +41,7 @@ Two sessions must not edit the same `public/data/<part>/questions-<section>.json
 
 ## Done (recent)
 
+- 2026-11-21: P3 reaches one full exam (100: A25 B15 C15 D45; hard 40%, trap 76%). Final batch of 18 (B 4, A 6, D 8): risk assessment down to auditable units, scheduling around regulators and external audit, listing the next engagements if more resources, re-evaluating reliance (9.4, 9.5); feedback to auditors (12.3, 10.2), co-sourcing vs hiring, technology limitations (10.3), recruiting for new risks, deploying staff by risk, reviewing the mandate after listing (6.1); acknowledging good performance, plain language for the board, disagreement methodology (14.4), acknowledging management actions (15.1), qualitative significance (14.3), acceptance that breaks the risk policy (11.5), an inadequate alternative plan (15.2), facts and circumstances to the board (8.1).
 - 2026-11-21: P3 batch T for section D (9 questions, 5 hard, all trap): timeliness and completeness of communications (repeat findings), balanced assessment when new evidence arrives late (11.2), naming individuals and dates (15.1), CAE approval before issue (15.1, 11.3), management owns implementation (14.4), several versions for different audiences (15.1), mandatory filing with a regulator overrides waiting for legal review (11.3), a justified delay needs no escalation (15.2). Two dropped as repeats (P3-D-006 tracking and board reporting; P3-D-007 repeated postponement); T10's answer reworded so it no longer copies P3-D-N06.
 - 2026-11-21: P3 batch S for section C (8 questions, 4 hard, all trap; C now 15, enough for one exam): independence of an external assessor who wrote the methodology (8.4), a sham self-assessment with independent validation (8.4), QAIP covers the whole function (8.3, 12.1), ongoing monitoring vs periodic self-assessment, minor self-assessment gaps vs function-level nonconformance (12.1), reporting external assessment results when completed (8.3), validating KPI accuracy (12.2), performance objectives that follow the strategy (12.2). Dropped one on board feedback: P3-C-L002's answer already gives it away.
 - 2026-11-21: P3 batch S for section A (11 questions, 6 hard, all trap; citations checked against the must/should list): updating methodologies after significant change (9.3), outsourced work follows the function's methodology (4.1, 9.3), mandated public-sector HR frameworks (10.2), rotation programs and the 12-month rule (10.2, 2.2), CAE succession with the board (10.2), budget variances (10.1), adjusting strategy when the organization changes course and prioritizing initiatives (9.2), CAE attending management meetings (11.1), what to tell the CEO after a private session about the CEO (6.3), discussing disagreements with senior management before the board (8.1). Dropped one on subsidiary audit heads talking to local management: same misconception (independence means no contact) as P3-A-S10 and P3-D-S05.

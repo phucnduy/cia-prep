@@ -993,5 +993,222 @@
       "CIA Part 3 D.8"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-D-U01",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Cuộc kiểm toán quy trình mua hàng có 2 phát hiện nhỏ, còn phần lớn kiểm soát vận hành tốt, gồm một quy trình chọn nhà cung cấp được thiết kế rất chặt. Dự thảo báo cáo chỉ nêu 2 phát hiện. CAE nên khuyến khích bổ sung gì?",
+    "options": [
+      "Ghi nhận các điểm làm tốt, đồng thời giữ nguyên mức độ của 2 phát hiện.",
+      "Không cần bổ sung, vì báo cáo chỉ nên nêu các vấn đề cần khắc phục.",
+      "Hạ mức độ của 2 phát hiện, vì đơn vị nhìn chung đã làm tốt công việc.",
+      "Bỏ 2 phát hiện nhỏ, để báo cáo phản ánh đúng kết quả tích cực của đơn vị."
+    ],
+    "answer": 0,
+    "explanation": "Hướng dẫn của GIAS 11.3 nêu CAE nên khuyến khích kiểm toán viên ghi nhận kết quả làm việc tốt trong báo cáo; GIAS 11.2 hướng tới trao đổi mang tính xây dựng và cân bằng. Ghi nhận điểm tốt giúp đơn vị biết nên duy trì gì và tăng hợp tác, nhưng không được làm nhẹ đi các phát hiện đã có bằng chứng.",
+    "optionNotes": [
+      "Đúng. Ghi nhận điểm tốt và giữ nguyên mức độ phát hiện tạo nên một báo cáo cân bằng.",
+      "Sai. Báo cáo chỉ nêu điểm yếu thiếu cân bằng; ghi nhận điểm làm tốt là điều CAE nên khuyến khích.",
+      "Sai. Mức độ phát hiện dựa trên rủi ro của chính phát hiện đó, không phụ thuộc phần còn lại làm tốt.",
+      "Sai. Phát hiện có bằng chứng phải được báo cáo; bỏ đi làm báo cáo không đầy đủ và thiếu trung thực."
+    ],
+    "trap": "Cho rằng ghi nhận điểm làm tốt nghĩa là được làm nhẹ hoặc bỏ bớt các phát hiện.",
+    "refs": [
+      "GIAS 11.3",
+      "GIAS 11.2",
+      "CIA Part 3 D.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-U02",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Báo cáo gửi Ủy ban Kiểm toán về kiểm toán an ninh mạng dùng dày đặc thuật ngữ như 'SIEM', 'lateral movement', 'IAM drift' mà không giải thích. Các thành viên Ủy ban nói không hiểu rủi ro chính là gì. Cách cải thiện phù hợp nhất là gì?",
+    "options": [
+      "Giữ nguyên thuật ngữ, vì đó là ngôn ngữ chuẩn của lĩnh vực an ninh mạng.",
+      "Dùng ngôn ngữ người đọc hiểu được, giải thích các thuật ngữ cần thiết.",
+      "Gửi thêm tài liệu đào tạo về an ninh mạng cho các thành viên Ủy ban.",
+      "Bỏ phần an ninh mạng khỏi báo cáo gửi Ủy ban, chỉ gửi cho bộ phận CNTT."
+    ],
+    "answer": 1,
+    "explanation": "Theo GIAS 11.2, trao đổi rõ ràng là dễ hiểu với người nhận và tránh ngôn ngữ kỹ thuật không cần thiết. Hướng dẫn của chuẩn mực nêu kiểm toán viên nên tránh thuật ngữ kỹ thuật không cần thiết và giải thích các thuật ngữ quan trọng mà người đọc ít gặp. Ủy ban cần hiểu rủi ro để giám sát; báo cáo phải viết cho người đọc đó.",
+    "optionNotes": [
+      "Sai. Thuật ngữ chuẩn của ngành vẫn có thể làm người đọc không hiểu; trao đổi phải rõ với người nhận cụ thể.",
+      "Đúng. Ngôn ngữ dễ hiểu và giải thích thuật ngữ cần thiết là yêu cầu về tính rõ ràng của trao đổi.",
+      "Sai. Đào tạo có thể hữu ích về lâu dài, nhưng không thay được việc viết báo cáo dễ hiểu cho người đọc.",
+      "Sai. Rủi ro an ninh mạng là thông tin Ủy ban cần để giám sát; bỏ đi làm báo cáo không đầy đủ."
+    ],
+    "trap": "Cho rằng dùng đúng thuật ngữ chuyên ngành là đủ rõ ràng, bất kể người đọc là ai.",
+    "refs": [
+      "GIAS 11.2",
+      "CIA Part 3 D.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-U03",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên và Giám đốc kho không thống nhất được về kiến nghị lắp camera tại khu hàng giá trị cao; Giám đốc cho rằng kiểm kê đột xuất hằng tuần là đủ. Hai bên đã trao đổi nhiều lần. Cách xử lý theo GIAS là gì?",
+    "options": [
+      "Bỏ kiến nghị khỏi báo cáo, vì kiến nghị phải được đơn vị đồng ý mới được đưa vào.",
+      "Giữ kiến nghị và không nhắc ý kiến của Giám đốc kho để báo cáo được rõ ràng hơn.",
+      "Theo phương pháp đã thiết lập, để cả hai bên trình bày quan điểm, lý do và tìm cách giải quyết.",
+      "Báo thẳng HĐQT ngay để HĐQT quyết định có lắp camera tại khu hàng giá trị cao hay không."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 14.4 yêu cầu khi kiểm toán viên và Ban điều hành không thống nhất về kiến nghị hoặc kế hoạch hành động, kiểm toán viên phải theo phương pháp đã thiết lập để cả hai bên trình bày quan điểm và lý do, và xác định cách giải quyết. Hướng dẫn nêu CAE nên phối hợp với Ban điều hành cấp cao để tạo điều kiện giải quyết. Báo thẳng HĐQT là bỏ qua các bước này.",
+    "optionNotes": [
+      "Sai. Kiến nghị không cần đơn vị đồng ý mới được nêu; bất đồng được xử lý theo phương pháp, không phải bằng cách bỏ.",
+      "Sai. Bỏ quan điểm của đơn vị làm báo cáo thiếu cân bằng; phương pháp phải cho cả hai bên trình bày.",
+      "Đúng. Phương pháp xử lý bất đồng cho cả hai bên trình bày quan điểm, lý do và tìm cách giải quyết.",
+      "Sai. Bất đồng về một kiến nghị trước hết được xử lý theo phương pháp, có Ban điều hành cấp cao tham gia khi cần."
+    ],
+    "trap": "Xử lý bất đồng về kiến nghị bằng cách bỏ kiến nghị, giấu quan điểm của đơn vị, hoặc báo thẳng HĐQT.",
+    "refs": [
+      "GIAS 14.4",
+      "CIA Part 3 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-U04",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Trong lúc kiểm toán, đơn vị đã khóa các tài khoản dùng chung trên hệ thống kế toán ngay khi được thông báo. Trưởng nhóm định chỉ ghi phát hiện như chưa có hành động nào, 'để báo cáo nhất quán với bằng chứng ban đầu'. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì báo cáo phản ánh tình trạng tại thời điểm kiểm toán viên kiểm tra.",
+      "Phù hợp, nếu hành động của đơn vị được nêu riêng trong một thư gửi Ban điều hành.",
+      "Chưa phù hợp; phát hiện đã được khắc phục thì phải bỏ ra khỏi báo cáo cuối cùng.",
+      "Chưa phù hợp; báo cáo phải ghi nhận hành động đơn vị đã thực hiện trước khi phát hành."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 15.1 yêu cầu khi kiểm toán viên biết Ban điều hành đã bắt đầu hoặc hoàn thành hành động xử lý một phát hiện trước khi có báo cáo cuối cùng, hành động đó phải được ghi nhận trong báo cáo. Phát hiện vẫn được nêu, vì nó cho thấy kiểm soát đã yếu trong kỳ, kèm ghi nhận hành động của đơn vị.",
+    "optionNotes": [
+      "Sai. GIAS 15.1 yêu cầu ghi nhận hành động đã có trước khi phát hành; bỏ qua làm báo cáo không đầy đủ.",
+      "Sai. Yêu cầu là ghi nhận trong báo cáo cuối cùng, không phải trong một thư riêng.",
+      "Sai. Phát hiện vẫn được nêu vì kiểm soát đã yếu trong kỳ; ghi nhận hành động không có nghĩa là bỏ phát hiện.",
+      "Đúng. Báo cáo nêu phát hiện và ghi nhận hành động đơn vị đã thực hiện."
+    ],
+    "trap": "Bỏ qua hành động khắc phục của đơn vị trước khi phát hành, hoặc ngược lại bỏ luôn phát hiện đã được khắc phục.",
+    "refs": [
+      "GIAS 15.1",
+      "CIA Part 3 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-U05",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Kiểm toán phát hiện bộ phận chăm sóc khách hàng gửi nhầm 12 email chứa thông tin tài khoản sang khách hàng khác. Thiệt hại tài chính trực tiếp gần như bằng không. Trưởng nhóm định xếp mức 'thấp' vì số tiền nhỏ. Nhận định nào đúng nhất?",
+    "options": [
+      "Chưa đúng; mức độ phải xét khả năng xảy ra và ảnh hưởng, gồm pháp lý và uy tín.",
+      "Đúng, vì chỉ có 12 trường hợp trong hàng chục nghìn email được gửi đi mỗi năm.",
+      "Chưa đúng; phải xếp mức 'cao nhất', vì mọi vi phạm dữ liệu đều có mức độ như nhau.",
+      "Đúng, vì mức độ quan trọng của phát hiện được xác định chủ yếu theo số tiền thiệt hại."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.3 yêu cầu đánh giá mức độ quan trọng của phát hiện dựa trên khả năng xảy ra rủi ro và ảnh hưởng của rủi ro đối với tổ chức. Ảnh hưởng không chỉ là tiền: lộ thông tin khách hàng có thể dẫn tới xử phạt theo quy định bảo vệ dữ liệu, mất uy tín và mất khách hàng. Số tiền trực tiếp nhỏ không làm phát hiện này trở thành 'thấp'.",
+    "optionNotes": [
+      "Đúng. Mức độ quan trọng xét cả khả năng xảy ra và ảnh hưởng, gồm pháp lý và uy tín.",
+      "Sai. Tỷ lệ nhỏ không quyết định mức độ; mỗi lần lộ dữ liệu có thể gây hệ quả pháp lý và uy tín đáng kể.",
+      "Sai. Mức độ vẫn phải đánh giá theo khả năng và ảnh hưởng cụ thể; không phải mọi sự cố dữ liệu đều cùng một mức.",
+      "Sai. Ảnh hưởng gồm cả hệ quả pháp lý, uy tín và quan hệ khách hàng, không chỉ thiệt hại tài chính trực tiếp."
+    ],
+    "trap": "Đánh giá mức độ quan trọng của phát hiện chỉ theo số tiền thiệt hại trực tiếp.",
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-U06",
+    "section": "D",
+    "topic": "D6",
+    "difficulty": 3,
+    "stem": "Chính sách quản lý rủi ro quy định chấp nhận rủi ro mức cao phải có chữ ký của Giám đốc rủi ro. Giám đốc khối Kinh doanh một mình ký chấp nhận rủi ro về hạn mức tín dụng vượt khẩu vị, không qua Giám đốc rủi ro. CAE nên nhìn nhận thế nào?",
+    "options": [
+      "Coi rủi ro đã được chấp nhận hợp lệ, vì Giám đốc khối là người phụ trách hoạt động.",
+      "Coi đây chưa phải chấp nhận hợp lệ theo chính sách, và xử lý rủi ro theo GIAS 11.5.",
+      "Tự ký thay Giám đốc rủi ro để hoàn tất thủ tục chấp nhận rủi ro theo chính sách.",
+      "Đóng phát hiện, vì việc tuân thủ chính sách chấp nhận rủi ro là việc của tuyến hai."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 11.5 nêu nếu tổ chức có quy trình quản lý rủi ro chính thức, CAE nên hiểu chính sách của Ban điều hành về chấp nhận rủi ro. Chấp nhận không đúng thẩm quyền theo chính sách thì chưa phải chấp nhận hợp lệ. Khi CAE kết luận rủi ro vượt khẩu vị, GIAS 11.5 yêu cầu thảo luận với Ban điều hành cấp cao, và báo HĐQT nếu không được giải quyết.",
+    "optionNotes": [
+      "Sai. Người phụ trách hoạt động không có thẩm quyền chấp nhận rủi ro mức cao theo chính sách; chữ ký của họ chưa đủ.",
+      "Đúng. Chấp nhận sai thẩm quyền chưa hợp lệ; rủi ro vượt khẩu vị được xử lý theo trình tự GIAS 11.5.",
+      "Sai. CAE không ký chấp nhận rủi ro; làm vậy là nhận trách nhiệm quản lý và làm suy giảm độc lập.",
+      "Sai. Tuyến hai có vai trò, nhưng rủi ro vượt khẩu vị là việc CAE phải trao đổi theo GIAS 11.5, không được đóng phát hiện."
+    ],
+    "trap": "Coi chữ ký chấp nhận rủi ro của người phụ trách hoạt động là hợp lệ, dù sai thẩm quyền theo chính sách.",
+    "refs": [
+      "GIAS 11.5",
+      "CIA Part 3 D.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-U07",
+    "section": "D",
+    "topic": "D7",
+    "difficulty": 3,
+    "stem": "Kế hoạch đã thống nhất là tách quyền tạo và duyệt nhà cung cấp trên ERP. Khi theo dõi, kiểm toán viên thấy Ban điều hành tự đổi sang cách khác: Kế toán trưởng xem lại danh sách nhà cung cấp mới mỗi quý. Kiểm toán viên đánh giá cách này không đủ chặn nhà cung cấp giả. Bước phù hợp nhất là gì?",
+    "options": [
+      "Đóng phát hiện, vì Ban điều hành có quyền chọn cách khắc phục khác với kế hoạch ban đầu.",
+      "Theo dõi cách mới đến khi hoàn thành, vì Ban điều hành đã thực hiện một hành động.",
+      "Chưa đóng; trao đổi với Ban điều hành vì cách mới chưa xử lý đủ rủi ro, rồi báo CAE.",
+      "Báo ngay HĐQT rằng Ban điều hành đã tự ý thay đổi kế hoạch hành động đã cam kết."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 15.2 yêu cầu xác nhận Ban điều hành đã thực hiện kiến nghị hoặc kế hoạch hành động theo phương pháp đã thiết lập. Hướng dẫn chỉ nêu theo dõi kế hoạch thay thế khi kiểm toán viên đồng ý nó đạt yêu cầu hoặc tốt hơn. Rà soát hằng quý là kiểm soát phát hiện muộn, không thay được việc tách quyền; phát hiện chưa được xử lý, nên kiểm toán viên trao đổi với Ban điều hành và báo CAE để quyết định bước tiếp theo.",
+    "optionNotes": [
+      "Sai. Ban điều hành có thể chọn cách khác, nhưng phát hiện chỉ đóng khi cách đó xử lý đủ rủi ro.",
+      "Sai. Theo dõi kế hoạch thay thế chỉ phù hợp khi kiểm toán viên thấy nó đạt yêu cầu; ở đây nó chưa đạt.",
+      "Đúng. Cách thay thế chưa xử lý đủ rủi ro thì phát hiện chưa đóng; cần trao đổi với Ban điều hành và báo CAE.",
+      "Sai. Đổi giải pháp chưa phải là lý do báo HĐQT ngay; bước đầu là trao đổi với Ban điều hành và CAE."
+    ],
+    "trap": "Coi mọi kế hoạch thay thế do Ban điều hành tự chọn là chấp nhận được, kể cả khi nó không xử lý đủ rủi ro.",
+    "refs": [
+      "GIAS 15.2",
+      "CIA Part 3 D.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-U08",
+    "section": "D",
+    "topic": "D8",
+    "difficulty": 3,
+    "stem": "CAE và Tổng Giám đốc bất đồng về việc Tổng Giám đốc thu hẹp phạm vi cuộc kiểm toán dự án đầu tư, và bất đồng này ảnh hưởng đến khả năng thực hiện nhiệm vụ của kiểm toán nội bộ. Khi báo cáo lên HĐQT, CAE nên trình bày gì là phù hợp nhất?",
+    "options": [
+      "Thông báo kiểm toán nội bộ sẽ tự mở rộng phạm vi, không cần HĐQT quyết định thêm.",
+      "Đề nghị HĐQT kỷ luật Tổng Giám đốc vì đã cản trở hoạt động của kiểm toán nội bộ.",
+      "Chỉ quan điểm của kiểm toán nội bộ, vì quan điểm của Tổng Giám đốc đã rõ trong cuộc họp.",
+      "Dữ kiện và hoàn cảnh của bất đồng, để HĐQT xem xét có cần can thiệp hay không."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 8.1 yêu cầu khi CAE bất đồng với Ban điều hành cấp cao về phạm vi, phát hiện hay khía cạnh khác có thể ảnh hưởng đến khả năng thực hiện trách nhiệm của bộ phận, CAE phải cung cấp cho HĐQT dữ kiện và hoàn cảnh để HĐQT xem xét, trong vai trò giám sát, có nên can thiệp với Ban điều hành hay không. Quyết định xử lý thuộc HĐQT; vai trò của CAE là cung cấp thông tin khách quan, đầy đủ.",
+    "optionNotes": [
+      "Sai. Phạm vi bị hạn chế là vấn đề cần HĐQT xem xét; CAE không tự mở rộng bất chấp mà không báo.",
+      "Sai. CAE không đề xuất kỷ luật; HĐQT tự quyết định sau khi có đủ dữ kiện.",
+      "Sai. Chỉ nêu một phía làm thông tin trình HĐQT thiếu cân bằng; HĐQT cần đủ hoàn cảnh để quyết định.",
+      "Đúng. GIAS 8.1 yêu cầu cung cấp dữ kiện và hoàn cảnh để HĐQT tự xem xét việc can thiệp."
+    ],
+    "trap": "Cho rằng khi báo HĐQT về bất đồng, CAE nên đề xuất xử lý người liên quan thay vì cung cấp dữ kiện.",
+    "refs": [
+      "GIAS 8.1",
+      "CIA Part 3 D.8"
+    ],
+    "source": "original"
   }
 ]

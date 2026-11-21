@@ -282,5 +282,114 @@
       "CIA Part 3 B.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-B-T01",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Đánh giá rủi ro cho kế hoạch năm chỉ xét 10 rủi ro hàng đầu ở cấp toàn ngân hàng. Kết quả là không cuộc kiểm toán nào nhắm vào quy trình giải ngân của 120 chi nhánh, nơi đã có nhiều sai sót. Điểm yếu chính của cách đánh giá này là gì?",
+    "options": [
+      "Đánh giá rủi ro nên do Ban điều hành chi nhánh thực hiện thay cho kiểm toán nội bộ.",
+      "Số rủi ro được xét quá ít; danh sách nên có ít nhất 50 rủi ro để bảo đảm đầy đủ.",
+      "Chỉ xét mục tiêu ở cấp tổ chức, chưa xét đến các đơn vị và quy trình có thể kiểm toán.",
+      "Rủi ro chi nhánh thuộc trách nhiệm của tuyến thứ hai, nên không cần đưa vào kế hoạch."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 9.4 yêu cầu kế hoạch dựa trên đánh giá có văn bản về chiến lược, mục tiêu và rủi ro của tổ chức. Hướng dẫn của chuẩn mực nêu khi đánh giá rủi ro toàn tổ chức, CAE nên xét mục tiêu và chiến lược không chỉ ở cấp tổ chức mà cả ở cấp từng đơn vị có thể kiểm toán. Chỉ nhìn 10 rủi ro cấp ngân hàng làm sót rủi ro tập trung ở quy trình chi nhánh.",
+    "optionNotes": [
+      "Sai. Đánh giá rủi ro cho kế hoạch là việc của CAE; ý kiến của Ban điều hành là đầu vào, không thay việc đánh giá.",
+      "Sai. Vấn đề không nằm ở số lượng rủi ro mà ở cấp độ xem xét; 50 rủi ro cấp tổ chức vẫn có thể sót rủi ro chi nhánh.",
+      "Đúng. Đánh giá phải xuống tới cấp đơn vị và quy trình có thể kiểm toán, không chỉ rủi ro cấp tổ chức.",
+      "Sai. Có tuyến thứ hai không loại rủi ro khỏi phạm vi xem xét; kế hoạch vẫn phải xét cả việc dựa vào công việc của họ."
+    ],
+    "trap": "Cho rằng đánh giá các rủi ro lớn nhất ở cấp tổ chức là đủ, bỏ qua cấp đơn vị và quy trình có thể kiểm toán.",
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-T02",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Dự thảo kế hoạch năm xếp cuộc kiểm toán quy trình tín dụng vào tháng 9, đúng lúc thanh tra Ngân hàng Nhà nước làm việc với chính khối Tín dụng và kiểm toán độc lập bắt đầu kiểm toán giữa niên độ. Điều chỉnh nào phù hợp nhất?",
+    "options": [
+      "Giữ nguyên lịch, vì kiểm toán nội bộ độc lập với các bên kiểm tra khác.",
+      "Hủy cuộc kiểm toán năm nay, vì thanh tra đã kiểm tra khối Tín dụng rồi.",
+      "Gộp nhóm kiểm toán vào đoàn thanh tra để làm cùng lúc cho đỡ tốn thời gian.",
+      "Dời lịch có xét lịch kiểm tra bên ngoài và khả năng tiếp cận đơn vị."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 9.4 nêu khi lên lịch các cuộc kiểm toán, CAE nên xét ưu tiên hoạt động của tổ chức, lịch của kiểm toán độc lập và cơ quan quản lý, năng lực và lịch của kiểm toán viên, và khả năng tiếp cận đơn vị. Kiểm toán cùng lúc với thanh tra làm đơn vị quá tải và khó tiếp cận tài liệu; hủy hẳn thì bỏ sót rủi ro, vì thanh tra không thay được đảm bảo của kiểm toán nội bộ.",
+    "optionNotes": [
+      "Sai. Độc lập không có nghĩa là bỏ qua lịch của bên khác; trùng lịch làm đơn vị quá tải và giảm hiệu quả cuộc kiểm toán.",
+      "Sai. Thanh tra có mục tiêu riêng; kết quả của họ có thể là đầu vào, nhưng không tự động thay cuộc kiểm toán rủi ro cao.",
+      "Sai. Làm cùng đoàn thanh tra làm mờ ranh giới vai trò và ảnh hưởng tính độc lập của kiểm toán nội bộ.",
+      "Đúng. Lịch kiểm toán nên xét lịch của kiểm toán độc lập, cơ quan quản lý và khả năng tiếp cận đơn vị."
+    ],
+    "trap": "Cho rằng vì độc lập nên kiểm toán nội bộ lên lịch không cần xét các cuộc kiểm tra khác.",
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-T03",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Một thành viên Ủy ban Kiểm toán hỏi: 'Nếu chúng tôi cấp thêm 20% ngân sách, bộ phận sẽ kiểm toán thêm những gì?'. Dự thảo kế hoạch năm không có thông tin này. CAE nên bổ sung gì vào kế hoạch đề xuất?",
+    "options": [
+      "Danh sách các cuộc kiểm toán tiếp theo sẽ làm nếu có thêm nguồn lực.",
+      "Không cần, vì kế hoạch chỉ nêu những cuộc kiểm toán chắc chắn sẽ thực hiện.",
+      "Toàn bộ danh mục kiểm toán (audit universe), không phân biệt mức rủi ro.",
+      "Một đề nghị tăng ngân sách 20% để thực hiện mọi cuộc đang có trong danh mục."
+    ],
+    "answer": 0,
+    "explanation": "Hướng dẫn của GIAS 9.4 nêu kế hoạch kiểm toán đề xuất nên gồm các cuộc kiểm toán tiếp theo sẽ thực hiện nếu có thêm nguồn lực. Thông tin này giúp HĐQT thấy phần rủi ro chưa được bao phủ và cân nhắc nguồn lực. Liệt kê toàn bộ danh mục không cho thấy thứ tự ưu tiên, còn tự đề nghị tăng ngân sách không trả lời câu hỏi.",
+    "optionNotes": [
+      "Đúng. Danh sách các cuộc tiếp theo nếu có thêm nguồn lực là nội dung nên có trong kế hoạch đề xuất.",
+      "Sai. Kế hoạch đề xuất nên cho HĐQT thấy cả phần chưa bao phủ, để HĐQT quyết định về nguồn lực.",
+      "Sai. Toàn bộ danh mục không phân biệt rủi ro không cho thấy cuộc nào sẽ được ưu tiên khi có thêm nguồn lực.",
+      "Sai. Câu hỏi là thêm nguồn lực sẽ kiểm toán gì; đề nghị tăng ngân sách không cung cấp thông tin đó."
+    ],
+    "trap": "Cho rằng kế hoạch chỉ cần nêu các cuộc sẽ làm, không cần cho HĐQT thấy phần chưa bao phủ.",
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-T04",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Ba năm trước, CAE đánh giá và quyết định dựa vào kết quả kiểm tra của bộ phận Tuân thủ về phòng chống rửa tiền. Từ đó chưa đánh giá lại, dù bộ phận Tuân thủ đã thay toàn bộ nhân sự và đổi phương pháp kiểm tra. Nhận định nào đúng nhất?",
+    "options": [
+      "Vẫn dựa vào được, vì đánh giá ban đầu đã được lập hồ sơ đầy đủ theo phương pháp.",
+      "Cần đánh giá lại việc dựa vào, vì nhân sự và phương pháp của bên kia đã thay đổi.",
+      "Không được dựa vào nữa, vì đã quá ba năm kể từ lần đánh giá đầu tiên của CAE.",
+      "Vẫn dựa vào được, nếu Trưởng bộ phận Tuân thủ xác nhận chất lượng không đổi."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 9.5 yêu cầu CAE lập hồ sơ về cơ sở cho việc dựa vào công việc của bên khác và vẫn chịu trách nhiệm về kết luận. Hướng dẫn nêu CAE nên có kế hoạch đánh giá lại việc dựa vào theo định kỳ (GIAS 9.4), và khi dựa vào lâu dài thì các bên nên lập văn bản về quan hệ đã thống nhất (GIAS 9.5). Thay toàn bộ nhân sự và phương pháp làm cơ sở ban đầu không còn đúng.",
+    "optionNotes": [
+      "Sai. Hồ sơ ban đầu phản ánh tình hình ba năm trước; khi năng lực và phương pháp của bên kia đổi, cơ sở dựa vào phải được xét lại.",
+      "Đúng. Việc dựa vào nên được đánh giá lại định kỳ, nhất là khi nhân sự và phương pháp của bên kia thay đổi.",
+      "Sai. GIAS không đặt thời hạn cứng ba năm; điều cần là đánh giá lại, sau đó có thể vẫn tiếp tục dựa vào.",
+      "Sai. Bên được dựa vào tự xác nhận chất lượng không thay được đánh giá của CAE, người vẫn chịu trách nhiệm về kết luận."
+    ],
+    "trap": "Cho rằng một lần đánh giá ban đầu là đủ để dựa vào công việc của bên khác mãi mãi.",
+    "refs": [
+      "GIAS 9.5",
+      "GIAS 9.4",
+      "CIA Part 3 B.3"
+    ],
+    "source": "original"
   }
 ]
