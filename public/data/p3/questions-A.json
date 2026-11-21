@@ -1032,5 +1032,306 @@
       "CIA Part 3 A.4"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-A-Z13",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 3,
+    "stem": "Từ khi được bổ nhiệm 3 năm trước, CAE chưa lần nào xác nhận chính thức với HĐQT về tính độc lập của bộ phận kiểm toán, vì 'HĐQT đã biết CAE báo cáo chức năng trực tiếp cho HĐQT' và chưa có sự việc nào làm suy giảm. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì việc xác nhận chỉ cần khi có sự việc làm suy giảm tính độc lập của bộ phận.",
+      "Phù hợp, vì đánh giá chất lượng bên ngoài 5 năm một lần đã bao gồm việc xác nhận độc lập.",
+      "Chưa phù hợp; CAE phải xác nhận với HĐQT về tính độc lập của bộ phận ít nhất mỗi năm một lần.",
+      "Chưa phù hợp; CAE phải xác nhận tính độc lập với Tổng Giám đốc trước mỗi cuộc kiểm toán."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 7.1 yêu cầu CAE xác nhận với HĐQT về tính độc lập về tổ chức của bộ phận kiểm toán nội bộ ít nhất hằng năm, và trao đổi các sự việc có thể đã làm suy giảm tính độc lập cùng biện pháp xử lý. Xác nhận định kỳ là yêu cầu riêng, không phụ thuộc việc có sự cố, và cơ cấu báo cáo đúng không thay được xác nhận đó.",
+    "optionNotes": [
+      "Sai. Xác nhận hằng năm là yêu cầu định kỳ; sự việc làm suy giảm thì phải trao đổi thêm, không thay cho xác nhận.",
+      "Sai. Đánh giá bên ngoài 5 năm một lần (GIAS 8.4) là việc khác, không thay xác nhận hằng năm của CAE.",
+      "Đúng. GIAS 7.1 yêu cầu xác nhận tính độc lập với HĐQT ít nhất hằng năm.",
+      "Sai. Xác nhận độc lập về tổ chức được gửi HĐQT, không phải Tổng Giám đốc, và theo năm chứ không theo từng cuộc."
+    ],
+    "trap": "Cho rằng chỉ cần xác nhận độc lập khi có sự cố, hoặc cơ cấu báo cáo đúng là đủ.",
+    "refs": [
+      "GIAS 7.1",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z14",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 3,
+    "stem": "Đoàn thanh tra Ngân hàng Nhà nước đề nghị gặp CAE để tìm hiểu cách kiểm toán nội bộ đánh giá rủi ro tín dụng. Tổng Giám đốc yêu cầu mọi tiếp xúc với cơ quan quản lý phải qua văn phòng Tổng Giám đốc và CAE không gặp trực tiếp. CAE nên làm gì?",
+    "options": [
+      "Từ chối gặp đoàn thanh tra, vì Tổng Giám đốc là người đại diện của ngân hàng trước cơ quan quản lý.",
+      "Gặp đoàn thanh tra mà không báo ai, để bảo đảm tính độc lập của bộ phận kiểm toán nội bộ.",
+      "Gửi toàn bộ hồ sơ kiểm toán tín dụng cho đoàn thanh tra thay cho việc gặp trực tiếp.",
+      "Gặp đoàn thanh tra, giữ bảo mật phù hợp và báo Ban điều hành; nếu bị cản trở thì báo HĐQT."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 11.1 yêu cầu CAE xây dựng quan hệ và lòng tin với các bên liên quan chủ chốt, gồm cả cơ quan quản lý. Hướng dẫn của chuẩn mực nêu ở các ngành chịu quản lý chặt, việc CAE gặp kiểm toán độc lập và cơ quan quản lý có thể phù hợp. CAE vẫn giữ bảo mật (GIAS 5.2) và minh bạch với Ban điều hành; nếu bị hạn chế tiếp cận, đó là vấn đề cần báo HĐQT.",
+    "optionNotes": [
+      "Sai. Cơ quan quản lý là bên liên quan mà CAE phải xây dựng quan hệ; chặn tiếp xúc làm suy yếu vai trò của kiểm toán nội bộ.",
+      "Sai. Độc lập không có nghĩa là bí mật với Ban điều hành; gặp mà không báo làm mất lòng tin hai phía.",
+      "Sai. Gửi toàn bộ hồ sơ vượt quá yêu cầu và có thể vi phạm bảo mật; đoàn cần trao đổi về phương pháp.",
+      "Đúng. Gặp cơ quan quản lý là phù hợp; giữ bảo mật, minh bạch với Ban điều hành và báo HĐQT nếu bị cản trở."
+    ],
+    "trap": "Nghĩ mọi tiếp xúc với cơ quan quản lý phải qua Tổng Giám đốc, hoặc độc lập là được giữ bí mật với Ban điều hành.",
+    "refs": [
+      "GIAS 11.1",
+      "GIAS 5.2",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z15",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Để chuẩn bị đánh giá rủi ro gian lận cho kế hoạch năm, CAE muốn thu thập ý kiến rộng rãi từ 40 chi nhánh về các dấu hiệu và tình huống dễ xảy ra gian lận. Cách làm phù hợp nhất là gì?",
+    "options": [
+      "Khảo sát và tổ chức hội thảo nhóm với quản lý, nhân viên chi nhánh, kết hợp phỏng vấn trọng điểm.",
+      "Chỉ dùng các phát hiện gian lận của kiểm toán năm trước làm căn cứ, vì đó là dữ liệu đã được kiểm chứng.",
+      "Đề nghị Giám đốc tài chính cung cấp danh sách rủi ro gian lận cho toàn bộ 40 chi nhánh.",
+      "Chờ các tố giác qua đường dây nóng trong năm rồi mới xác định rủi ro gian lận cần kiểm toán."
+    ],
+    "answer": 0,
+    "explanation": "Hướng dẫn của GIAS 11.1 nêu thảo luận với quản lý và HĐQT, cùng khảo sát, phỏng vấn và hội thảo nhóm, là công cụ hữu ích để thu thập ý kiến, đặc biệt về gian lận và rủi ro mới nổi. Với 40 chi nhánh, khảo sát và hội thảo giúp tiếp cận rộng; phỏng vấn trọng điểm giúp đi sâu ở nơi có dấu hiệu rủi ro.",
+    "optionNotes": [
+      "Đúng. Khảo sát, hội thảo và phỏng vấn là công cụ phù hợp để thu thập ý kiến rộng về gian lận.",
+      "Sai. Phát hiện năm trước chỉ phản ánh điều đã thấy; rủi ro gian lận mới hoặc chưa bị phát hiện sẽ bị bỏ sót.",
+      "Sai. Một nguồn duy nhất ở trụ sở thiếu hiểu biết thực tế tại chi nhánh và có thể không khách quan.",
+      "Sai. Chờ tố giác là phản ứng sau sự việc; đánh giá rủi ro cho kế hoạch cần chủ động nhận diện trước."
+    ],
+    "trap": "Chỉ dựa vào phát hiện cũ hoặc một nguồn duy nhất để nhận diện rủi ro gian lận.",
+    "refs": [
+      "GIAS 11.1",
+      "GIAS 9.4",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z16",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Nhiều năm nay, CAE chỉ giao các cuộc kiểm toán nghiệp vụ nguồn vốn cho hai kiểm toán viên lâu năm. Hai người này sắp nghỉ hưu, còn các kiểm toán viên trẻ chưa từng tham gia mảng này. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Giữ nguyên cách giao việc đến khi hai người nghỉ hưu, rồi thuê ngoài toàn bộ mảng nguồn vốn.",
+      "Giao kiểm toán viên trẻ tham gia các cuộc nguồn vốn dưới sự giám sát và kèm cặp của người lâu năm.",
+      "Giao ngay cho kiểm toán viên trẻ tự thực hiện để họ học qua thực tế, không cần người kèm.",
+      "Yêu cầu kiểm toán viên trẻ tự học vào thời gian riêng, vì phát triển năng lực là trách nhiệm cá nhân."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 3.2 nêu kiểm toán viên tự chịu trách nhiệm phát triển năng lực, nhưng CAE chịu trách nhiệm về năng lực của cả bộ phận; kiểm toán viên có thể học kiến thức mới khi được giám sát phù hợp và được giao những lĩnh vực họ còn ít kinh nghiệm. GIAS 10.2 yêu cầu CAE cùng kiểm toán viên phát triển năng lực qua đào tạo, phản hồi của người giám sát hoặc kèm cặp.",
+    "optionNotes": [
+      "Sai. Chờ đến khi mất người mới xử lý là để lại lỗ hổng năng lực; thuê ngoài toàn bộ không xây dựng được năng lực.",
+      "Đúng. Giao việc có giám sát và kèm cặp giúp chuyển giao năng lực mà vẫn giữ chất lượng công việc.",
+      "Sai. Giao lĩnh vực mới mà không giám sát làm chất lượng cuộc kiểm toán có rủi ro; học qua việc cần có người kèm.",
+      "Sai. Kiểm toán viên có trách nhiệm tự học, nhưng CAE vẫn chịu trách nhiệm về năng lực của cả bộ phận."
+    ],
+    "trap": "Nghĩ phát triển năng lực là việc riêng của từng kiểm toán viên, CAE không có trách nhiệm.",
+    "refs": [
+      "GIAS 3.2",
+      "GIAS 10.2",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z17",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Ngân sách đào tạo năm nay được chia đều cho từng kiểm toán viên tự chọn khóa học (ngoại ngữ, MBA, kỹ năng mềm). Trong khi đó, kế hoạch năm có 4 cuộc kiểm toán CNTT mà bộ phận chưa ai đủ năng lực. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì tôn trọng nguyện vọng cá nhân giúp giữ chân kiểm toán viên giỏi lâu dài.",
+      "Chưa phù hợp; toàn bộ ngân sách đào tạo phải dành cho năng lực CNTT trong năm nay.",
+      "Chưa phù hợp; kế hoạch đào tạo nên cân đối nhu cầu năng lực của bộ phận và mục tiêu cá nhân.",
+      "Phù hợp, nếu mỗi kiểm toán viên đạt đủ số giờ đào tạo tối thiểu của chứng chỉ mình đang giữ."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 3.2 nêu CAE nên bảo đảm kế hoạch và ngân sách đào tạo cân đối giữa đầu tư phát triển năng lực của cả bộ phận và cơ hội để kiểm toán viên đạt mục tiêu phát triển cá nhân. Để mọi người tự chọn khiến năng lực CNTT mà kế hoạch cần không được bù đắp.",
+    "optionNotes": [
+      "Sai. Nguyện vọng cá nhân quan trọng, nhưng bỏ qua nhu cầu năng lực của bộ phận khiến kế hoạch khó hoàn thành.",
+      "Sai. Dồn toàn bộ cho CNTT bỏ qua mục tiêu cá nhân và các năng lực khác; hướng dẫn nói về cân đối.",
+      "Đúng. Đào tạo nên cân đối giữa năng lực bộ phận cần và mục tiêu phát triển của từng người.",
+      "Sai. Đủ giờ đào tạo của chứng chỉ không bảo đảm bộ phận có năng lực CNTT mà kế hoạch cần."
+    ],
+    "trap": "Phân bổ đào tạo theo lựa chọn cá nhân hoặc số giờ chứng chỉ, bỏ qua năng lực bộ phận cần.",
+    "refs": [
+      "GIAS 3.2",
+      "GIAS 10.2",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z18",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Trong bộ phận, chỉ hai người có chứng chỉ CIA tham gia đào tạo về đạo đức nghề nghiệp hằng năm. Những người còn lại không tham gia vì cho rằng 'đào tạo đạo đức là yêu cầu của chứng chỉ, mình không có chứng chỉ nên không cần'. Nhận định nào đúng nhất?",
+    "options": [
+      "Đúng, vì yêu cầu đào tạo đạo đức chỉ gắn với người giữ chứng chỉ của IIA.",
+      "Đúng, nếu những người này đã ký cam kết tuân thủ Quy tắc đạo đức khi được tuyển dụng.",
+      "Chưa đúng; người không có chứng chỉ phải đào tạo đạo đức nhiều giờ hơn người có chứng chỉ.",
+      "Chưa đúng; mọi kiểm toán viên nên được đào tạo hoặc cập nhật về đạo đức một cách thường xuyên."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 3.2 nêu IIA yêu cầu người giữ chứng chỉ của IIA hoàn thành đào tạo về đạo đức trong phần cập nhật kiến thức bắt buộc; dù yêu cầu này gắn với chứng chỉ, mọi người làm kiểm toán nội bộ nên được đào tạo về đạo đức thường xuyên. Đây là hướng dẫn ('nên'), áp dụng cho cả người không có chứng chỉ.",
+    "optionNotes": [
+      "Sai. Yêu cầu bắt buộc gắn với chứng chỉ, nhưng hướng dẫn của GIAS 3.2 khuyến khích mọi kiểm toán viên đào tạo đạo đức.",
+      "Sai. Ký cam kết một lần khi tuyển dụng không thay việc cập nhật đạo đức thường xuyên.",
+      "Sai. Chuẩn mực không quy định người không có chứng chỉ phải học nhiều giờ hơn; điểm chính là mọi người đều nên học.",
+      "Đúng. Mọi kiểm toán viên nên được đào tạo về đạo đức thường xuyên, không chỉ người có chứng chỉ."
+    ],
+    "trap": "Cho rằng đào tạo đạo đức chỉ dành cho người giữ chứng chỉ IIA.",
+    "refs": [
+      "GIAS 3.2",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z19",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "CAE lập ngân sách năm tới bằng cách lấy ngân sách năm nay cộng 5%. Trong khi đó, chiến lược mới đặt mục tiêu triển khai kiểm toán liên tục và kế hoạch năm có thêm 3 cuộc kiểm toán an ninh mạng cần chuyên gia thuê ngoài. Vấn đề chính là gì?",
+    "options": [
+      "Ngân sách không xuất phát từ nhu cầu của chiến lược và kế hoạch, gồm công nghệ và chuyên gia.",
+      "Mức tăng 5% thấp hơn tỷ lệ lạm phát nên chưa đủ bù cho chi phí tăng của năm tới.",
+      "Ngân sách của bộ phận kiểm toán phải do Giám đốc tài chính lập để bảo đảm tính chính xác.",
+      "CAE phải đề nghị ngân sách không giới hạn để bảo đảm tính độc lập của bộ phận kiểm toán."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 10.1 yêu cầu CAE lập ngân sách giúp thực hiện thành công chiến lược kiểm toán nội bộ và đạt kế hoạch; ngân sách gồm các nguồn lực cần cho hoạt động của bộ phận, kể cả đào tạo và mua công nghệ, công cụ. Lấy năm trước cộng tỷ lệ cố định bỏ qua nhu cầu mới của chiến lược và kế hoạch.",
+    "optionNotes": [
+      "Đúng. Ngân sách phải xuất phát từ nhu cầu để thực hiện chiến lược và kế hoạch, gồm công nghệ và chuyên gia.",
+      "Sai. Lạm phát là yếu tố phụ; vấn đề là ngân sách không gắn với nhu cầu mới của chiến lược và kế hoạch.",
+      "Sai. CAE lập ngân sách của bộ phận theo GIAS 10.1; Giám đốc tài chính lập thay làm ảnh hưởng tính độc lập.",
+      "Sai. Ngân sách phải hợp lý theo nhu cầu; độc lập không có nghĩa là không giới hạn chi tiêu."
+    ],
+    "trap": "Lập ngân sách theo số năm trước cộng tỷ lệ cố định, không gắn với chiến lược và kế hoạch.",
+    "refs": [
+      "GIAS 10.1",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z20",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "CAE chuẩn bị kế hoạch phát triển năng lực năm tới cho 12 kiểm toán viên nhưng chưa biết rõ ai đang thiếu kỹ năng gì so với yêu cầu của chiến lược và kế hoạch kiểm toán. Việc nên làm trước tiên là gì?",
+    "options": [
+      "Đăng ký cho cả 12 người cùng một khóa đào tạo tổng quát về kiểm toán nội bộ.",
+      "Đánh giá năng lực từng kiểm toán viên so với năng lực mà chiến lược và kế hoạch đòi hỏi.",
+      "Đề nghị mỗi kiểm toán viên tự đề xuất khóa học mình thích để CAE tổng hợp và phê duyệt.",
+      "Tuyển thêm người có kinh nghiệm để không phải đầu tư đào tạo cho nhân sự hiện có."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 10.2 yêu cầu CAE đánh giá năng lực của từng kiểm toán viên và khuyến khích phát triển nghề nghiệp, đồng thời cùng kiểm toán viên phát triển năng lực qua đào tạo, phản hồi và kèm cặp. Phải biết khoảng cách năng lực của từng người so với yêu cầu trước, thì kế hoạch đào tạo mới nhắm đúng chỗ thiếu.",
+    "optionNotes": [
+      "Sai. Đào tạo chung cho mọi người không xử lý được khoảng cách năng lực khác nhau của từng kiểm toán viên.",
+      "Đúng. Đánh giá năng lực từng người so với yêu cầu là bước đầu để kế hoạch phát triển nhắm đúng.",
+      "Sai. Ý kiến cá nhân là đầu vào, nhưng thiếu đánh giá so với yêu cầu thì kế hoạch có thể lệch nhu cầu.",
+      "Sai. Tuyển thêm có thể cần, nhưng không thay trách nhiệm đánh giá và phát triển năng lực của nhân sự hiện có."
+    ],
+    "trap": "Lập kế hoạch đào tạo trước khi đánh giá năng lực từng người so với yêu cầu.",
+    "refs": [
+      "GIAS 10.2",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z21",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Khi rà soát, CAE thấy hai kiểm toán viên có chứng chỉ CIA đã hai năm không ghi nhận giờ cập nhật kiến thức theo quy định của IIA. Hai người nói 'đã đi làm kiểm toán nhiều thì coi như đã học'. Rủi ro chính và cách xử lý phù hợp là gì?",
+    "options": [
+      "Không có rủi ro, vì kinh nghiệm thực tế tự động được tính thay cho giờ cập nhật kiến thức.",
+      "Bộ phận bị coi là không tuân thủ Chuẩn mực và phải báo ngay cho cơ quan quản lý nhà nước.",
+      "Hai người có thể mất quyền sử dụng chứng chỉ; CAE nên có kế hoạch yêu cầu loại và số giờ cập nhật.",
+      "Hai người phải thi lại chứng chỉ CIA ngay trong năm nay để tiếp tục làm kiểm toán viên."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 3.2 yêu cầu người có chứng chỉ phải tuân thủ chính sách cập nhật kiến thức của chứng chỉ đó. Hướng dẫn của chuẩn mực nêu không đáp ứng có thể dẫn đến hệ quả như mất quyền sử dụng chứng chỉ, và CAE nên xem xét áp dụng kế hoạch yêu cầu kiểm toán viên đạt loại và số giờ cập nhật kiến thức cụ thể.",
+    "optionNotes": [
+      "Sai. Học qua công việc có thể là một hình thức phát triển, nhưng giờ cập nhật phải đáp ứng và được ghi nhận theo quy định của IIA.",
+      "Sai. Đây là vấn đề của hai cá nhân với tổ chức cấp chứng chỉ, không phải báo cáo cơ quan quản lý nhà nước.",
+      "Đúng. Không đáp ứng có thể làm mất quyền dùng chứng chỉ; CAE nên có kế hoạch yêu cầu cập nhật kiến thức.",
+      "Sai. Hệ quả do chính sách của tổ chức cấp chứng chỉ quy định; thi lại ngay không phải yêu cầu của Chuẩn mực."
+    ],
+    "trap": "Cho rằng kinh nghiệm làm việc tự động thay cho yêu cầu cập nhật kiến thức của chứng chỉ.",
+    "refs": [
+      "GIAS 3.2",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z22",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Khảo sát nội bộ cho thấy phần lớn nhân viên coi kiểm toán nội bộ là 'đội đi bắt lỗi' và ngại liên hệ khi thấy rủi ro. CAE muốn thay đổi nhận thức này. Cách làm phù hợp nhất là gì?",
+    "options": [
+      "Giữ khoảng cách với nhân viên để bảo vệ tính độc lập và khách quan của bộ phận kiểm toán.",
+      "Đề nghị Ban điều hành khen thưởng nhân viên mỗi khi đơn vị không có phát hiện kiểm toán nào.",
+      "Giảm mức độ nghiêm trọng của các phát hiện để nhân viên thấy kiểm toán nội bộ thân thiện hơn.",
+      "Giới thiệu vai trò và lợi ích của kiểm toán nội bộ qua trang nội bộ, bản tin và các buổi trình bày."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 11.1 nêu trang web nội bộ, bản tin, các buổi trình bày và hình thức trao đổi khác có thể giúp chia sẻ vai trò và lợi ích của kiểm toán nội bộ với nhân viên và các bên liên quan. Hiểu đúng vai trò giúp nhân viên chủ động trao đổi về rủi ro thay vì né tránh.",
+    "optionNotes": [
+      "Sai. Độc lập không đòi hỏi xa cách; trao đổi với nhân viên giúp xây dựng lòng tin và hiểu biết về tổ chức.",
+      "Sai. Thưởng khi không có phát hiện tạo động cơ che giấu vấn đề, đi ngược mục đích của kiểm toán.",
+      "Sai. Hạ mức độ phát hiện làm sai lệch kết quả kiểm toán; đó là vi phạm tính trung thực, không phải truyền thông.",
+      "Đúng. Truyền thông về vai trò và lợi ích giúp nhân viên hiểu và chủ động liên hệ với kiểm toán nội bộ."
+    ],
+    "trap": "Nghĩ kiểm toán nội bộ phải giữ khoảng cách với nhân viên để bảo đảm độc lập.",
+    "refs": [
+      "GIAS 11.1",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z23",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "CAE mới chỉ định gặp HĐQT trong các phiên họp chính thức hằng quý và gặp Ban điều hành trong giao ban tuần. Để hiểu sâu mối quan tâm và góc nhìn của từng lãnh đạo, CAE nên bổ sung gì?",
+    "options": [
+      "Gặp riêng từng thành viên HĐQT và từng lãnh đạo cấp cao để tìm hiểu mối quan tâm của họ.",
+      "Gửi phiếu khảo sát một lần mỗi năm cho HĐQT thay cho mọi cuộc gặp ngoài phiên họp chính thức.",
+      "Đề nghị HĐQT họp hằng tháng thay vì hằng quý để CAE có thêm thời gian trình bày kết quả.",
+      "Chỉ gặp riêng Chủ tịch HĐQT, vì đây là người quyết định mọi vấn đề của Hội đồng."
+    ],
+    "answer": 0,
+    "explanation": "Hướng dẫn của GIAS 11.1 nêu các cuộc gặp riêng với từng lãnh đạo cấp cao và thành viên HĐQT giúp CAE xây dựng quan hệ và tìm hiểu mối quan tâm, góc nhìn của họ. Họp chính thức có chương trình định sẵn, ít khi cho thấy hết các mối quan tâm riêng của từng người.",
+    "optionNotes": [
+      "Đúng. Gặp riêng từng thành viên HĐQT và lãnh đạo giúp hiểu mối quan tâm và xây dựng quan hệ.",
+      "Sai. Khảo sát hữu ích nhưng một lần mỗi năm không thay được trao đổi trực tiếp để xây dựng quan hệ.",
+      "Sai. Tần suất họp HĐQT không do CAE quyết; vấn đề là thiếu trao đổi riêng, không phải thiếu thời gian trình bày.",
+      "Sai. Mỗi thành viên HĐQT có góc nhìn riêng; chỉ gặp Chủ tịch bỏ sót mối quan tâm của các thành viên khác."
+    ],
+    "trap": "Cho rằng các phiên họp chính thức là đủ để hiểu mối quan tâm của HĐQT và lãnh đạo.",
+    "refs": [
+      "GIAS 11.1",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
   }
 ]
