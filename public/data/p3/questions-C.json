@@ -756,5 +756,59 @@
       "CIA Part 3 C.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-C-Q13",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Khi tự đánh giá hoạt động năm của bộ phận, CAE chỉ dùng số liệu nội bộ: tỷ lệ hoàn thành kế hoạch, thời gian phát hành báo cáo, số giờ đào tạo. Bước nào còn thiếu theo yêu cầu của Chuẩn mực?",
+    "options": [
+      "Công bố kết quả đánh giá hoạt động lên trang thông tin nội bộ cho toàn công ty.",
+      "Thuê một đơn vị bên ngoài kiểm toán lại toàn bộ số liệu của các chỉ số hoạt động.",
+      "Lấy ý kiến phản hồi của HĐQT và Ban điều hành về hoạt động của bộ phận.",
+      "So sánh số phát hiện mỗi kiểm toán viên tìm được để xếp hạng hiệu quả từng người."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 12.2 yêu cầu khi đánh giá hoạt động của bộ phận, CAE phải lấy ý kiến phản hồi của HĐQT và Ban điều hành khi phù hợp, và lập kế hoạch hành động cho các vấn đề, cơ hội cải thiện. Số liệu nội bộ cho biết hiệu suất, nhưng không cho biết bộ phận có đáp ứng kỳ vọng của những người dùng kết quả kiểm toán hay không.",
+    "optionNotes": [
+      "Sai. Công bố rộng không phải yêu cầu; kết quả được trao đổi với HĐQT và Ban điều hành.",
+      "Sai. Kiểm chứng số liệu nên làm định kỳ, nhưng thuê kiểm toán lại toàn bộ không phải yêu cầu của Chuẩn mực.",
+      "Đúng. Lấy ý kiến phản hồi của HĐQT và Ban điều hành là yêu cầu khi đánh giá hoạt động.",
+      "Sai. Đếm phát hiện theo người dễ tạo động cơ sai; đó cũng không phải bước còn thiếu ở đây."
+    ],
+    "trap": "Đánh giá hoạt động bộ phận chỉ bằng số liệu nội bộ, không lấy ý kiến HĐQT và Ban điều hành.",
+    "refs": [
+      "GIAS 12.2",
+      "CIA Part 3 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q14",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "CAE đề xuất với HĐQT dùng hình thức tự đánh giá có xác nhận độc lập thay cho đánh giá chất lượng bên ngoài đầy đủ trong kỳ tới. Khi phê duyệt kế hoạch này, HĐQT cần xem xét tối thiểu điều gì?",
+    "options": [
+      "Chỉ cần xem chi phí, vì hai hình thức có giá trị tương đương theo Chuẩn mực.",
+      "Ý kiến của kiểm toán độc lập về việc lựa chọn hình thức đánh giá chất lượng của bộ phận.",
+      "Danh sách hồ sơ mà người xác nhận độc lập sẽ chọn để kiểm tra trong đợt đánh giá.",
+      "Lý do chọn hình thức này, cùng phạm vi, tần suất, năng lực và tính độc lập của người xác nhận."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 8.4 yêu cầu CAE lập kế hoạch đánh giá ngoài và trao đổi với HĐQT. Theo các Điều kiện thiết yếu của chuẩn mực, HĐQT cần rà soát và phê duyệt kế hoạch, tối thiểu về phạm vi và tần suất, năng lực và tính độc lập của người đánh giá, và lý do chọn tự đánh giá có xác nhận độc lập thay cho đánh giá ngoài đầy đủ.",
+    "optionNotes": [
+      "Sai. Chi phí là một yếu tố, nhưng HĐQT cần hiểu lý do chọn và các điều kiện về người xác nhận.",
+      "Sai. Kiểm toán độc lập không có vai trò phê duyệt hình thức đánh giá chất lượng của kiểm toán nội bộ.",
+      "Sai. Chọn hồ sơ là việc của người đánh giá; HĐQT phê duyệt ở mức kế hoạch, không đến từng mẫu.",
+      "Đúng. HĐQT cần xem lý do chọn hình thức này, cùng phạm vi, tần suất, năng lực và độc lập."
+    ],
+    "trap": "Nghĩ tự đánh giá có xác nhận độc lập chỉ là lựa chọn về chi phí, HĐQT không cần biết lý do.",
+    "refs": [
+      "GIAS 8.4",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
   }
 ]

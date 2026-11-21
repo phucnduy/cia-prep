@@ -1333,5 +1333,32 @@
       "CIA Part 3 A.4"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-A-Z24",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Phần mềm kiểm toán của bộ phận vẫn chạy ổn định và chưa gây trở ngại gì, nhưng đã 5 năm chưa ai xem lại. Nhiều bộ phận kiểm toán cùng ngành đã chuyển sang giám sát liên tục dữ liệu giao dịch. CAE nên làm gì?",
+    "options": [
+      "Giữ nguyên, vì công nghệ chỉ cần xem lại khi phần mềm hiện tại bắt đầu gặp lỗi.",
+      "Định kỳ đánh giá công nghệ đang dùng và tìm cơ hội nâng hiệu quả, hiệu suất của bộ phận.",
+      "Mua ngay hệ thống giám sát liên tục giống các đơn vị cùng ngành để không bị tụt hậu.",
+      "Giao toàn bộ việc lựa chọn công nghệ cho bộ phận CNTT, vì đó là chuyên môn của họ."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 10.3 yêu cầu CAE thường xuyên đánh giá công nghệ bộ phận đang dùng và tìm cơ hội nâng hiệu quả, hiệu suất, đồng thời phối hợp với bộ phận CNTT và an ninh thông tin khi triển khai. Việc đánh giá diễn ra định kỳ, không chờ đến khi công cụ hỏng; quyết định đầu tư vẫn cần dựa trên nhu cầu của bộ phận, không chỉ theo xu hướng.",
+    "optionNotes": [
+      "Sai. GIAS 10.3 yêu cầu đánh giá công nghệ thường xuyên, không chỉ khi có lỗi.",
+      "Đúng. Đánh giá định kỳ và tìm cơ hội cải thiện là yêu cầu của GIAS 10.3.",
+      "Sai. Mua theo xu hướng mà chưa đánh giá nhu cầu và lợi ích có thể không phù hợp với bộ phận.",
+      "Sai. CAE phải phối hợp với CNTT, nhưng vẫn chịu trách nhiệm về công nghệ phục vụ kiểm toán nội bộ."
+    ],
+    "trap": "Cho rằng công nghệ chỉ cần xem lại khi công cụ hiện tại hỏng.",
+    "refs": [
+      "GIAS 10.3",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
   }
 ]
