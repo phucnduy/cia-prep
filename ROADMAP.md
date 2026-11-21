@@ -10,13 +10,13 @@ Live site: https://phucnduy.github.io/cia-prep/ (GitHub Pages, deployed by pushi
 |---|---|---|---|---|---|
 | P1 Internal Audit Fundamentals | 505 | 125 (A44 B25 C37 D19) | 1 / 53 / 46% | 388 | ready |
 | P2 Internal Audit Engagement | 89 | 100 (A50 B40 C10); now A38 B35 C16 | 7 / 55 / 38% | 6 | draft |
-| P3 Internal Audit Function | 73 | 100 (A25 B15 C15 D45); now A19 B11 C15 D28 | 3 / 60 / 37% | 49 | draft |
+| P3 Internal Audit Function | 82 | 100 (A25 B15 C15 D45); now A19 B11 C15 D37 | 2 / 59 / 39% | 58 | draft |
 
 Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audit:bank` for current numbers and thin topics.
 
 ## Next work, in priority order
 
-1. **P3 to a full exam (100), then 200.** Still needed for one exam: D 17 (D8 has only 2), A 6, B 4; C is complete (15). Every P3 topic has fewer than 10 questions.
+1. **P3 to a full exam (100), then 200.** Still needed for one exam: D 8, A 6, B 4; C is complete (15). Every P3 topic has fewer than 10 questions.
 2. **P2 to a full exam (100), then 200.** Section A needs 12 more for one exam; 17 topics have fewer than 10.
 3. **Raise hard share and traps.** P3 hard is 26% (aim 40%). New batches: at least 60% trap, easy at most 10%.
 4. **Cross-part repeats** (same concept in P1 and P2/P3, lower priority since parts are separate exams): P2-A-M22 / P1-C-N09 (RTO and RPO), P2-B-H03 / P1-D-L013 (Benford), P2-C-M01 / P1-B-M21 (outsourced engagement, CAE still responsible), P3-D-003 / P1-C-L027 (cost-benefit). Also P2-A-005 / P2-A-M19 (missing analytics skills) is a mild hint pair.
@@ -41,6 +41,7 @@ Two sessions must not edit the same `public/data/<part>/questions-<section>.json
 
 ## Done (recent)
 
+- 2026-11-21: P3 batch T for section D (9 questions, 5 hard, all trap): timeliness and completeness of communications (repeat findings), balanced assessment when new evidence arrives late (11.2), naming individuals and dates (15.1), CAE approval before issue (15.1, 11.3), management owns implementation (14.4), several versions for different audiences (15.1), mandatory filing with a regulator overrides waiting for legal review (11.3), a justified delay needs no escalation (15.2). Two dropped as repeats (P3-D-006 tracking and board reporting; P3-D-007 repeated postponement); T10's answer reworded so it no longer copies P3-D-N06.
 - 2026-11-21: P3 batch S for section C (8 questions, 4 hard, all trap; C now 15, enough for one exam): independence of an external assessor who wrote the methodology (8.4), a sham self-assessment with independent validation (8.4), QAIP covers the whole function (8.3, 12.1), ongoing monitoring vs periodic self-assessment, minor self-assessment gaps vs function-level nonconformance (12.1), reporting external assessment results when completed (8.3), validating KPI accuracy (12.2), performance objectives that follow the strategy (12.2). Dropped one on board feedback: P3-C-L002's answer already gives it away.
 - 2026-11-21: P3 batch S for section A (11 questions, 6 hard, all trap; citations checked against the must/should list): updating methodologies after significant change (9.3), outsourced work follows the function's methodology (4.1, 9.3), mandated public-sector HR frameworks (10.2), rotation programs and the 12-month rule (10.2, 2.2), CAE succession with the board (10.2), budget variances (10.1), adjusting strategy when the organization changes course and prioritizing initiatives (9.2), CAE attending management meetings (11.1), what to tell the CEO after a private session about the CEO (6.3), discussing disagreements with senior management before the board (8.1). Dropped one on subsidiary audit heads talking to local management: same misconception (independence means no contact) as P3-A-S10 and P3-D-S05.
 - 2026-11-21: P3 batch S for section D (12 questions, 7 hard, 11 trap; every GIAS citation checked against the must/should list): external release needs legal or senior management advice (11.3), precise wording (11.2), only significant errors must be re-sent (11.4), tracking an alternative action plan (15.2), discussing recommendations with management (14.4), content of an overall conclusion (11.3), unacceptable risk without a formal appetite statement (11.5), accepted risk within appetite needs no escalation, implemented but ineffective action plans, prioritizing findings (15.1, 14.3), board reporting per agreed expectations, timely communication of themes. A 13th (CEO-owned overdue plan) was dropped: it repeated P3-D-007.
