@@ -1979,5 +1979,469 @@
       "CIA Part 3 D.1"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-D-R01",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Báo cáo cuối cùng đã phát hành ghi nhầm số tổn thất ước tính là 12 tỷ đồng thay vì 1,2 tỷ đồng. CAE đã gửi thông tin sửa đổi cho tất cả những người nhận báo cáo ban đầu. Việc nên làm tiếp theo là gì?",
+    "options": [
+      "Tìm nguyên nhân của sai sót và có biện pháp khắc phục để ngăn tình huống tương tự.",
+      "Không cần làm gì thêm, vì thông tin đúng đã đến được tất cả người nhận báo cáo.",
+      "Kỷ luật ngay kiểm toán viên lập báo cáo để làm gương cho các thành viên khác.",
+      "Thu hồi và rà soát lại toàn bộ báo cáo đã phát hành trong năm trước khi làm việc khác."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 11.4 yêu cầu CAE kịp thời gửi thông tin đã sửa cho mọi bên đã nhận báo cáo khi có sai sót hoặc bỏ sót đáng kể. Hướng dẫn của chuẩn mực nêu ngoài việc gửi thông tin sửa, CAE nên xác định nguyên nhân của sai sót và có biện pháp khắc phục để ngăn tình huống tương tự, ví dụ tăng bước đối chiếu số liệu khi rà soát.",
+    "optionNotes": [
+      "Đúng. Tìm nguyên nhân và khắc phục giúp ngăn sai sót tương tự trong các báo cáo sau.",
+      "Sai. Gửi bản sửa mới xử lý hệ quả; nếu không tìm nguyên nhân, sai sót tương tự có thể lặp lại.",
+      "Sai. Kỷ luật ngay không xác định được nguyên nhân; sai sót có thể do quy trình rà soát chứ không riêng một người.",
+      "Sai. Rà soát lại toàn bộ báo cáo cả năm là quá mức khi chưa có dấu hiệu sai sót có tính hệ thống."
+    ],
+    "trap": "Cho rằng gửi bản sửa là xong, không cần tìm nguyên nhân sai sót.",
+    "refs": [
+      "GIAS 11.4",
+      "CIA Part 3 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R02",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 3,
+    "stem": "Người rà soát chất lượng nội bộ kết luận một báo cáo cuối cùng 'vi phạm yêu cầu bắt buộc' vì không có câu nêu cuộc kiểm toán được thực hiện theo Chuẩn mực. Trên thực tế, cuộc kiểm toán đã tuân thủ đầy đủ. Nhận định nào đúng nhất?",
+    "options": [
+      "Đúng, vì mọi báo cáo cuối cùng bắt buộc phải có câu tuyên bố tuân thủ Chuẩn mực.",
+      "Chưa đúng; câu tuyên bố tuân thủ là hướng dẫn nên có, không phải yêu cầu bắt buộc.",
+      "Đúng, và báo cáo phải được thu hồi, phát hành lại có bổ sung câu tuyên bố tuân thủ.",
+      "Chưa đúng; báo cáo không nên nêu Chuẩn mực để tránh trách nhiệm cho bộ phận kiểm toán."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 15.1 nêu báo cáo cuối cùng nên có câu tuyên bố cuộc kiểm toán thực hiện theo GIAS; đây là 'nên', không phải yêu cầu. Yêu cầu bắt buộc của GIAS 15.1 là khi cuộc kiểm toán không tuân thủ Chuẩn mực thì báo cáo phải công bố chi tiết việc không tuân thủ. Thiếu câu tuyên bố ở một cuộc đã tuân thủ là điểm cần cải thiện, không phải vi phạm.",
+    "optionNotes": [
+      "Sai. Câu tuyên bố tuân thủ thuộc hướng dẫn ('nên') của GIAS 15.1, không phải yêu cầu bắt buộc.",
+      "Đúng. Câu tuyên bố là hướng dẫn nên có; yêu cầu bắt buộc là công bố khi không tuân thủ.",
+      "Sai. Không phải vi phạm nên không cần thu hồi; có thể bổ sung câu tuyên bố trong các báo cáo sau.",
+      "Sai. Nêu việc tuân thủ Chuẩn mực được khuyến khích; né tránh nhắc Chuẩn mực không có cơ sở."
+    ],
+    "trap": "Coi câu tuyên bố tuân thủ là yêu cầu bắt buộc, nhầm với nghĩa vụ công bố khi không tuân thủ.",
+    "refs": [
+      "GIAS 15.1",
+      "CIA Part 3 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R03",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Khi rà soát dự thảo báo cáo cuối cùng, CAE chỉ sửa chính tả, bố cục rồi ký duyệt. Việc rà soát này nên xác minh thêm điều gì?",
+    "options": [
+      "Đơn vị được kiểm toán đã ký xác nhận đồng ý với từng câu chữ trong dự thảo báo cáo.",
+      "Báo cáo có số trang ít hơn mức tối đa quy định trong sổ tay phương pháp của bộ phận.",
+      "Công việc phù hợp mục tiêu, phạm vi, Chuẩn mực và kết quả có thông tin đủ, tin cậy hỗ trợ.",
+      "Số phát hiện trong báo cáo năm nay bằng hoặc nhiều hơn số phát hiện của năm trước."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 15.1 yêu cầu báo cáo cuối cùng được CAE rà soát, phê duyệt trước khi phát hành. Hướng dẫn của chuẩn mực nêu việc rà soát nên xác minh công việc đã thực hiện và ghi nhận phù hợp mục tiêu, phạm vi và Chuẩn mực; kết quả được nêu rõ và có thông tin phù hợp, tin cậy, đủ hỗ trợ; các yêu cầu trao đổi với quản lý đơn vị đã được đáp ứng.",
+    "optionNotes": [
+      "Sai. Đơn vị không cần đồng ý từng câu chữ; bất đồng được xử lý theo phương pháp và có thể nêu trong báo cáo.",
+      "Sai. Độ dài là hình thức; báo cáo cần súc tích nhưng rà soát chủ yếu là về nội dung và bằng chứng.",
+      "Đúng. Rà soát nên xác minh sự phù hợp của công việc và bằng chứng hỗ trợ kết quả, không chỉ hình thức.",
+      "Sai. Số phát hiện không phải thước đo chất lượng; mỗi cuộc kiểm toán có kết quả riêng theo thực tế."
+    ],
+    "trap": "Coi rà soát báo cáo của CAE chỉ là sửa hình thức trình bày.",
+    "refs": [
+      "GIAS 15.1",
+      "GIAS 14.1",
+      "CIA Part 3 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R04",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Ở một phòng giao dịch, kiểm soát kiểm đếm quỹ cuối ngày không vận hành và có chênh lệch nhiều lần. Số dư quỹ của phòng này chỉ khoảng 0,05% tổng tài sản ngân hàng. Kết luận cuộc kiểm toán phòng giao dịch phù hợp nhất là gì?",
+    "options": [
+      "Kiểm soát nội bộ của toàn ngân hàng không hữu hiệu, vì quy trình quỹ là quy trình chung.",
+      "Không đưa kết luận, chỉ liệt kê các lần chênh lệch quỹ để Ban điều hành tự đánh giá.",
+      "Kiểm soát của phòng giao dịch hữu hiệu, vì số tiền không trọng yếu với ngân hàng.",
+      "Kiểm soát của phòng giao dịch cần cải thiện, kèm nhận xét rằng ảnh hưởng ở cấp ngân hàng hạn chế."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 14.5 yêu cầu kết luận tổng hợp kết quả so với mục tiêu cuộc kiểm toán, và cuộc đảm bảo phải có kết luận về hiệu quả kiểm soát của hoạt động được kiểm toán. Hướng dẫn của chuẩn mực nêu kết luận có thể nêu thêm bối cảnh: một số phát hiện có ảnh hưởng lớn ở cấp hoạt động nhưng không lớn ở cấp tổ chức. Phạm vi ở đây là phòng giao dịch, nên kết luận ở cấp đó, kèm bối cảnh.",
+    "optionNotes": [
+      "Sai. Một cuộc kiểm toán phòng giao dịch không đủ căn cứ kết luận cho toàn ngân hàng.",
+      "Sai. Cuộc đảm bảo phải có kết luận về hiệu quả kiểm soát; chỉ liệt kê dữ kiện là chưa đủ.",
+      "Sai. Mức độ được đánh giá theo hoạt động được kiểm toán; kiểm soát không vận hành thì không thể là hữu hiệu.",
+      "Đúng. Kết luận theo phạm vi phòng giao dịch, nêu thêm bối cảnh ảnh hưởng ở cấp tổ chức."
+    ],
+    "trap": "Nhầm ảnh hưởng ở cấp hoạt động với cấp tổ chức khi đưa ra kết luận cuộc kiểm toán.",
+    "refs": [
+      "GIAS 14.5",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R05",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Hai phát hiện có ước tính thiệt hại tiềm tàng tương đương nhau. Phát hiện A: chậm nộp báo cáo bắt buộc cho cơ quan quản lý, lĩnh vực HĐQT đặt ngưỡng chịu đựng rủi ro rất thấp. Phát hiện B: sai sót phân bổ chi phí giữa các phòng ban. Cách xếp ưu tiên phù hợp nhất là gì?",
+    "options": [
+      "Xếp A cao hơn, vì mức độ quan trọng xét cả ngưỡng chịu đựng rủi ro của tổ chức.",
+      "Xếp B cao hơn, vì sai sót phân bổ chi phí ảnh hưởng trực tiếp đến số liệu tài chính.",
+      "Xếp ngang nhau, vì mức độ quan trọng được quyết định bởi ước tính thiệt hại tiềm tàng.",
+      "Để từng đơn vị tự xếp mức độ phát hiện của mình, vì họ hiểu rõ ảnh hưởng nhất."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.3 yêu cầu đánh giá mức độ quan trọng dựa trên khả năng xảy ra và ảnh hưởng, và xếp ưu tiên theo phương pháp của CAE. Hướng dẫn của chuẩn mực nêu khi xác định mức độ, kiểm toán viên nên xét cả ngưỡng chịu đựng rủi ro, tiêu chí và các yếu tố quan trọng khác với tổ chức. Cùng ước tính thiệt hại, phát hiện ở lĩnh vực có ngưỡng chịu đựng rất thấp được ưu tiên cao hơn.",
+    "optionNotes": [
+      "Đúng. Ngưỡng chịu đựng rủi ro rất thấp làm phát hiện A được ưu tiên cao hơn.",
+      "Sai. Phân bổ nội bộ không làm sai tổng số liệu; rủi ro tuân thủ với ngưỡng chịu đựng thấp quan trọng hơn.",
+      "Sai. Ước tính thiệt hại là một yếu tố; ngưỡng chịu đựng rủi ro cũng ảnh hưởng mức độ quan trọng.",
+      "Sai. Kiểm toán viên xếp mức độ theo phương pháp của CAE; đơn vị góp ý nhưng không tự xếp."
+    ],
+    "trap": "Xếp mức độ phát hiện chỉ theo số tiền thiệt hại, bỏ qua ngưỡng chịu đựng rủi ro.",
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R06",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 2,
+    "stem": "Trong cuộc kiểm toán, nhóm thấy vài điểm nhỏ, rủi ro thấp: dùng mẫu biểu cũ, 2 trên 80 chứng từ thiếu ngày ký. Trưởng nhóm phân vân có bắt buộc đưa các điểm này thành phát hiện trong báo cáo hay không. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Mọi điểm phát hiện được, dù nhỏ, đều phải đưa thành phát hiện trong báo cáo cuối cùng.",
+      "Quyết định theo phương pháp đã thiết lập; có thể trao đổi riêng với quản lý đơn vị.",
+      "Không được nhắc đến các điểm nhỏ, vì báo cáo chỉ dành cho rủi ro đáng kể.",
+      "Đưa vào báo cáo và xếp mức cao để quản lý đơn vị chú ý khắc phục nhanh hơn."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.3 yêu cầu rủi ro đáng kể phải được ghi nhận và trao đổi thành phát hiện; với các rủi ro khác, kiểm toán viên quyết định có nêu thành phát hiện hay không dựa trên hoàn cảnh và phương pháp đã thiết lập. Điểm nhỏ, rủi ro thấp thường có thể trao đổi riêng với quản lý thay vì đưa vào báo cáo, nếu phương pháp cho phép.",
+    "optionNotes": [
+      "Sai. Chỉ rủi ro đáng kể bắt buộc thành phát hiện; điểm nhỏ được xử lý theo phương pháp đã thiết lập.",
+      "Đúng. Rủi ro thấp được xử lý theo phương pháp, có thể trao đổi riêng với quản lý.",
+      "Sai. Điểm nhỏ vẫn có thể được nêu hoặc trao đổi; không có quy định cấm nhắc đến.",
+      "Sai. Thổi phồng mức độ làm sai lệch đánh giá và làm giảm độ tin cậy của báo cáo."
+    ],
+    "trap": "Cho rằng mọi điểm nhỏ đều bắt buộc thành phát hiện, hoặc ngược lại bị cấm nhắc đến.",
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R07",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Kiểm toán viên tự kết luận nguyên nhân gốc của tỷ lệ sai sót hóa đơn cao là 'nhân viên thiếu cẩn thận' và ghi vào dự thảo mà chưa trao đổi với ai. Trưởng phòng phản đối, cho rằng nguyên nhân là phần mềm thiếu kiểm tra tự động. Cách làm phù hợp nhất là gì?",
+    "options": [
+      "Giữ nguyên nguyên nhân đã ghi, vì kiểm toán viên độc lập nên không cần quản lý đồng ý.",
+      "Để trưởng phòng tự viết phần nguyên nhân, vì quản lý hiểu rõ quy trình hơn kiểm toán viên.",
+      "Cùng quản lý tìm nguyên nhân gốc khi có thể, rồi đánh giá mức độ của phát hiện.",
+      "Bỏ phần nguyên nhân khỏi dự thảo, vì có bất đồng thì chỉ cần nêu điều kiện và tiêu chí."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 14.3 yêu cầu khi đánh giá phát hiện, kiểm toán viên phải phối hợp với quản lý để xác định nguyên nhân gốc khi có thể, xác định ảnh hưởng tiềm tàng và đánh giá mức độ quan trọng. Phối hợp không làm mất độc lập: kiểm toán viên vẫn tự kết luận dựa trên bằng chứng, nhưng nguyên nhân được xác định kỹ hơn và kiến nghị nhắm đúng chỗ.",
+    "optionNotes": [
+      "Sai. Độc lập không loại trừ phối hợp; GIAS 14.3 yêu cầu phối hợp với quản lý để tìm nguyên nhân gốc.",
+      "Sai. Phối hợp không có nghĩa là giao cho quản lý; kiểm toán viên vẫn đánh giá và kết luận dựa trên bằng chứng.",
+      "Đúng. Phối hợp với quản lý tìm nguyên nhân gốc là yêu cầu khi đánh giá phát hiện.",
+      "Sai. Nguyên nhân gốc giúp kiến nghị nhắm đúng; bất đồng cần được làm rõ, không phải bỏ đi."
+    ],
+    "trap": "Nghĩ kiểm toán viên độc lập phải tự xác định nguyên nhân gốc, không cần phối hợp với quản lý.",
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R08",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "CAE đang tổng hợp các chủ đề chung từ 20 cuộc kiểm toán trong năm để báo cáo HĐQT. Bộ phận Tuân thủ cũng ghi nhận cùng lỗi phân quyền hệ thống ở 8 chi nhánh không nằm trong kế hoạch kiểm toán năm nay. CAE nên xử lý thông tin này thế nào?",
+    "options": [
+      "Chỉ dùng kết quả của kiểm toán nội bộ, để chủ đề phản ánh đúng công việc của bộ phận.",
+      "Bỏ qua, vì 8 chi nhánh đó không thuộc phạm vi kiểm toán của năm nay.",
+      "Đề nghị bộ phận Tuân thủ tự báo cáo riêng cho HĐQT về lỗi phân quyền ở các chi nhánh.",
+      "Xem xét thông tin của bên đảm bảo khác khi xác định chủ đề, có ghi rõ nguồn."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 11.3 yêu cầu CAE trao đổi kịp thời các chủ đề chung về quản trị, rủi ro và kiểm soát. Hướng dẫn của chuẩn mực nêu khi xác định chủ đề, CAE nên xét cả thông tin từ các bên cung cấp đảm bảo khác (liên hệ GIAS 9.5). Lỗi lặp lại ở thêm 8 chi nhánh cho thấy chủ đề có tính hệ thống rộng hơn những gì kiểm toán nội bộ đã thấy.",
+    "optionNotes": [
+      "Sai. Thông tin của bên đảm bảo khác giúp nhận diện chủ đề đầy đủ hơn; chỉ dùng kết quả nội bộ làm sót bức tranh chung.",
+      "Sai. Chủ đề chung được xác định trên toàn tổ chức; giới hạn ở phạm vi năm nay làm mất tính hệ thống của vấn đề.",
+      "Sai. Tuân thủ có thể báo cáo theo kênh riêng, nhưng CAE vẫn nên đưa thông tin vào việc xác định chủ đề.",
+      "Đúng. Nên xét thông tin của các bên đảm bảo khác khi xác định chủ đề chung."
+    ],
+    "trap": "Chỉ dựa vào kết quả kiểm toán nội bộ khi xác định chủ đề chung, bỏ qua bên đảm bảo khác.",
+    "refs": [
+      "GIAS 11.3",
+      "GIAS 9.5",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R09",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 2,
+    "stem": "HĐQT đề nghị CAE đưa ra kết luận tổng thể hằng năm về quản trị, rủi ro và kiểm soát. Dự thảo của CAE chỉ thống kê số phát hiện theo từng mức độ. Nội dung nào nên bổ sung để kết luận có giá trị hơn với HĐQT?",
+    "options": [
+      "Liên hệ kết luận với chiến lược, mục tiêu và các rủi ro chính của tổ chức.",
+      "Họ tên người chịu trách nhiệm của từng phát hiện trong năm, sắp theo thứ tự đơn vị.",
+      "So sánh số phát hiện của bộ phận với số phát hiện của các ngân hàng khác.",
+      "Bảng xếp hạng từng chi nhánh theo tổng số lỗi phát hiện được trong năm."
+    ],
+    "answer": 0,
+    "explanation": "Hướng dẫn của GIAS 11.3 nêu khi trao đổi kết luận ở cấp đơn vị hoặc toàn tổ chức, CAE nên xét kết luận liên quan thế nào đến chiến lược, mục tiêu và rủi ro của tổ chức, và kết luận có giải quyết vấn đề, tạo giá trị hoặc giúp các bên tin tưởng về một chủ đề chung hay không. Thống kê số phát hiện chưa cho HĐQT biết ảnh hưởng đến mục tiêu.",
+    "optionNotes": [
+      "Đúng. Gắn kết luận với chiến lược, mục tiêu và rủi ro giúp HĐQT thấy ý nghĩa của kết quả.",
+      "Sai. Tên người chịu trách nhiệm thuộc báo cáo từng cuộc; nó không làm kết luận tổng thể có ý nghĩa hơn.",
+      "Sai. So sánh số phát hiện giữa các tổ chức ít ý nghĩa, vì phạm vi và phương pháp khác nhau.",
+      "Sai. Xếp hạng theo số lỗi không cho thấy rủi ro với mục tiêu và dễ gây hiểu sai về mức độ."
+    ],
+    "trap": "Coi kết luận tổng thể chỉ là thống kê số phát hiện theo mức độ.",
+    "refs": [
+      "GIAS 11.3",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R10",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 2,
+    "stem": "Báo cáo quý của CAE cho Ủy ban Kiểm toán liệt kê 25 yếu kém kiểm soát quan trọng, mỗi yếu kém một dòng, nhưng không phân tích vì sao chúng xảy ra. Bổ sung nào có giá trị nhất cho Ủy ban?",
+    "options": [
+      "Họ tên nhân viên gây ra từng lỗi để Ủy ban Kiểm toán biết người chịu trách nhiệm.",
+      "Phân tích nguyên nhân gốc kỹ lưỡng cho các yếu kém kiểm soát quan trọng.",
+      "Toàn văn 25 báo cáo kiểm toán liên quan được đính kèm làm phụ lục cho Ủy ban.",
+      "Ý kiến riêng của từng đơn vị về việc họ có đồng ý với mức độ quan trọng hay không."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 11.3 nêu trao đổi với HĐQT và Ban điều hành nên gồm các yếu kém kiểm soát đáng kể cùng phân tích nguyên nhân gốc kỹ lưỡng, và các vấn đề mang tính chủ đề, hệ thống qua nhiều cuộc kiểm toán. Biết nguyên nhân, Ủy ban mới thấy được vấn đề chung và giám sát việc khắc phục tận gốc.",
+    "optionNotes": [
+      "Sai. Nêu tên cá nhân không giúp Ủy ban hiểu vấn đề hệ thống, và dễ biến báo cáo thành quy lỗi.",
+      "Đúng. Nguyên nhân gốc của yếu kém đáng kể là nội dung nên có khi báo cáo HĐQT.",
+      "Sai. Đính kèm toàn văn làm tài liệu quá dài; Ủy ban cần thông tin tổng hợp có phân tích.",
+      "Sai. Ý kiến của đơn vị đã được xét khi đánh giá phát hiện; nó không thay phân tích nguyên nhân."
+    ],
+    "trap": "Báo cáo HĐQT danh sách yếu kém mà không có phân tích nguyên nhân gốc.",
+    "refs": [
+      "GIAS 11.3",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R11",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Phát hiện: thủ kho xuất hàng không có chứng từ trong nhiều tháng, do không có kiểm soát đối chiếu giữa phiếu xuất và đơn hàng. Dự thảo kiến nghị duy nhất là 'Kỷ luật thủ kho'. Vấn đề chính của kiến nghị là gì?",
+    "options": [
+      "Kiến nghị đúng, vì có cá nhân vi phạm thì phải đề nghị xử lý kỷ luật người đó.",
+      "Kỷ luật không thuộc thẩm quyền của kiểm toán nội bộ nên phát hiện phải được bỏ đi.",
+      "Kiến nghị nhắm vào cá nhân, chưa xử lý điểm yếu kiểm soát đã cho phép sai phạm xảy ra.",
+      "Kiến nghị còn nhẹ; nên đề nghị chấm dứt hợp đồng lao động để răn đe các nhân viên khác."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 14.4 yêu cầu kiến nghị hoặc kế hoạch hành động nhằm xử lý nguyên nhân gốc và giảm rủi ro về mức chấp nhận được. Nguyên nhân ở đây là thiếu kiểm soát đối chiếu; kỷ luật một người không ngăn người khác lặp lại. Trao đổi cũng cần tính xây dựng (GIAS 11.2), tập trung vào cải thiện kiểm soát.",
+    "optionNotes": [
+      "Sai. Xử lý cá nhân thuộc thẩm quyền của quản lý; kiến nghị của kiểm toán cần nhắm vào nguyên nhân là kiểm soát.",
+      "Sai. Phát hiện vẫn phải báo cáo; chỉ cần sửa kiến nghị cho đúng nguyên nhân.",
+      "Đúng. Kiến nghị cần xử lý điểm yếu kiểm soát gây ra phát hiện, không chỉ quy trách nhiệm cá nhân.",
+      "Sai. Mức kỷ luật nặng hơn vẫn không xử lý được việc thiếu kiểm soát đối chiếu."
+    ],
+    "trap": "Kiến nghị kỷ luật cá nhân thay vì xử lý điểm yếu kiểm soát gây ra phát hiện.",
+    "refs": [
+      "GIAS 14.4",
+      "GIAS 11.2",
+      "CIA Part 3 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R12",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Trưởng nhóm định dùng buổi họp kết thúc chỉ để trao cho đơn vị báo cáo đã hoàn chỉnh và ký biên bản nhận, không thảo luận gì thêm. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì nội dung đã được thống nhất dần trong suốt quá trình kiểm toán.",
+      "Chưa phù hợp; họp kết thúc phải có HĐQT tham dự để phê duyệt báo cáo cuối cùng.",
+      "Phù hợp, nếu đơn vị có thể gửi ý kiến bằng văn bản trong vòng một tháng sau buổi họp.",
+      "Chưa phù hợp; họp kết thúc là để trao đổi phát hiện và kế hoạch hành động trước khi hoàn thiện."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.1 yêu cầu trao đổi hiệu quả trong suốt cuộc kiểm toán; hướng dẫn của chuẩn mực nêu họp kết thúc là dịp trao đổi phát hiện, kiến nghị, kết luận, làm rõ hiểu lầm và thống nhất kế hoạch hành động trước khi hoàn thiện báo cáo. Trao báo cáo đã hoàn chỉnh khiến đơn vị không còn cơ hội góp ý.",
+    "optionNotes": [
+      "Sai. Trao đổi trong quá trình là cần, nhưng họp kết thúc vẫn là bước để thống nhất tổng thể trước khi hoàn thiện.",
+      "Sai. HĐQT không tham dự họp kết thúc từng cuộc; báo cáo cuối cùng do CAE phê duyệt.",
+      "Sai. Nhận ý kiến sau khi báo cáo đã hoàn chỉnh là muộn; việc trao đổi nên diễn ra trước khi phát hành.",
+      "Đúng. Họp kết thúc để thảo luận phát hiện và kế hoạch hành động trước khi báo cáo được hoàn thiện."
+    ],
+    "trap": "Coi họp kết thúc chỉ là thủ tục bàn giao báo cáo đã hoàn chỉnh.",
+    "refs": [
+      "GIAS 13.1",
+      "GIAS 15.1",
+      "CIA Part 3 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R13",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 3,
+    "stem": "Cuộc kiểm toán quy trình phê duyệt chi có 6 phát hiện, mỗi phát hiện đều xếp mức 'thấp': thiếu chữ ký, vượt hạn mức nhỏ, duyệt sau khi đã chi, duyệt thay không ủy quyền... Trưởng nhóm kết luận quy trình 'hữu hiệu'. Nhận định nào đúng nhất?",
+    "options": [
+      "Chưa đúng; cần xét mức độ khi tổng hợp, vì nhiều điểm cùng quy trình có thể là yếu kém lớn.",
+      "Chưa đúng; quy trình có từ 5 phát hiện trở lên thì phải kết luận là không hữu hiệu.",
+      "Đúng, vì mọi phát hiện đều ở mức thấp nên quy trình vẫn được coi là hữu hiệu.",
+      "Chưa đúng; phải nâng mức từng phát hiện lên 'cao' để kết luận phản ánh đúng thực tế."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 14.5 yêu cầu kết luận cuộc kiểm toán tóm tắt nhận định chuyên môn về mức độ quan trọng tổng thể của các phát hiện khi tổng hợp lại. Sáu điểm cùng làm suy yếu việc phê duyệt cho thấy kiểm soát phê duyệt nhìn chung không vận hành; kết luận phải xét tổng thể, không chỉ từng điểm riêng lẻ.",
+    "optionNotes": [
+      "Đúng. Mức độ khi tổng hợp các phát hiện quyết định kết luận, không chỉ mức từng phát hiện.",
+      "Sai. Không có ngưỡng số lượng cố định; kết luận là nhận định chuyên môn về mức độ tổng hợp.",
+      "Sai. Kết luận dựa trên mức độ tổng hợp; nhiều điểm nhỏ cùng loại có thể tạo yếu kém đáng kể.",
+      "Sai. Từng phát hiện giữ mức đúng của nó; điều chỉnh là ở nhận định tổng thể, không phải đổi từng mức."
+    ],
+    "trap": "Kết luận quy trình hữu hiệu vì từng phát hiện đều nhỏ, bỏ qua mức độ khi tổng hợp.",
+    "refs": [
+      "GIAS 14.5",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R14",
+    "section": "D",
+    "topic": "D5",
+    "difficulty": 2,
+    "stem": "Dự thảo kết luận một cuộc kiểm toán đảm bảo ghi: 'Kiểm soát của quy trình thanh toán bảo đảm không có sai sót hay gian lận.' Người rà soát yêu cầu sửa. Lý do phù hợp nhất là gì?",
+    "options": [
+      "Kết luận không được nhắc đến gian lận, vì gian lận thuộc trách nhiệm của bộ phận Pháp chế.",
+      "Kết luận cần nêu đảm bảo hợp lý, vì kiểm soát và kiểm toán không thể đảm bảo tuyệt đối.",
+      "Kết luận cuộc đảm bảo chỉ nêu số mẫu đã kiểm tra, không đưa ra nhận định về kiểm soát.",
+      "Kết luận cần ghi 'đảm bảo tuyệt đối trong phạm vi mẫu đã kiểm tra' để chính xác hơn."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 14.5 nêu thang xếp hạng của bộ phận có thể cho biết có đảm bảo hợp lý về hiệu quả kiểm soát hay không. Kiểm soát nội bộ chỉ đem lại đảm bảo hợp lý do giới hạn vốn có (sai sót của con người, thông đồng, vượt quyền), và kiểm toán dựa trên mẫu; 'bảo đảm không có sai sót' là cam kết tuyệt đối không có cơ sở.",
+    "optionNotes": [
+      "Sai. Rủi ro gian lận thuộc phạm vi đánh giá kiểm soát; vấn đề ở đây là cam kết tuyệt đối.",
+      "Đúng. Kết luận cần nêu mức đảm bảo hợp lý, không cam kết tuyệt đối.",
+      "Sai. Cuộc đảm bảo phải có kết luận về hiệu quả kiểm soát (GIAS 14.5, 15.1), không chỉ nêu số mẫu.",
+      "Sai. Đảm bảo tuyệt đối không có, kể cả trong mẫu; kết luận dựa trên mẫu là suy rộng có giới hạn."
+    ],
+    "trap": "Viết kết luận như cam kết tuyệt đối, nhầm đảm bảo hợp lý với đảm bảo tuyệt đối.",
+    "refs": [
+      "GIAS 14.5",
+      "CIA Part 3 D.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R15",
+    "section": "D",
+    "topic": "D7",
+    "difficulty": 2,
+    "stem": "Sau đợt thanh tra, Ngân hàng Nhà nước đưa ra 12 kiến nghị và yêu cầu ngân hàng báo cáo định kỳ tình hình thực hiện. Tổng Giám đốc đề nghị kiểm toán nội bộ theo dõi việc thực hiện. Nhận định nào đúng nhất?",
+    "options": [
+      "Từ chối, vì kiểm toán nội bộ chỉ theo dõi các kiến nghị do chính mình đưa ra.",
+      "Nhận và trực tiếp thực hiện các kiến nghị để bảo đảm hoàn thành đúng hạn với cơ quan quản lý.",
+      "Có thể nhận nếu thuộc nhiệm vụ trong Quy chế KTNB; Ban điều hành vẫn chịu trách nhiệm thực hiện.",
+      "Chỉ bộ phận Pháp chế được theo dõi kiến nghị của cơ quan quản lý nhà nước."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 15.2 nêu trong một số trường hợp cơ quan quản lý có thể yêu cầu báo cáo về kế hoạch hành động của Ban điều hành. Kiểm toán nội bộ có thể theo dõi, xác nhận việc thực hiện nếu việc đó thuộc nhiệm vụ trong Quy chế KTNB, nhưng thực hiện kiến nghị là trách nhiệm của Ban điều hành; kiểm toán viên tự thực hiện là đảm nhận trách nhiệm quản lý (GIAS 2.1, 14.4).",
+    "optionNotes": [
+      "Sai. Chuẩn mực không giới hạn việc theo dõi ở kiến nghị của chính kiểm toán nội bộ; phạm vi do Quy chế KTNB xác định.",
+      "Sai. Trực tiếp thực hiện kiến nghị là làm thay quản lý, làm suy giảm tính khách quan khi kiểm toán sau này.",
+      "Đúng. Có thể theo dõi nếu thuộc nhiệm vụ, còn trách nhiệm thực hiện vẫn thuộc Ban điều hành.",
+      "Sai. Không có quy định chỉ Pháp chế được theo dõi; việc phân công tùy tổ chức và Quy chế KTNB."
+    ],
+    "trap": "Nghĩ kiểm toán nội bộ chỉ được theo dõi kiến nghị của mình, hoặc phải tự thực hiện kiến nghị.",
+    "refs": [
+      "GIAS 15.2",
+      "GIAS 14.4",
+      "CIA Part 3 D.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R16",
+    "section": "D",
+    "topic": "D6",
+    "difficulty": 3,
+    "stem": "Năm ngoái, Ban điều hành chấp nhận rủi ro đối chiếu công nợ thủ công vì số giao dịch ít, và kiểm toán nội bộ đã ghi nhận việc này. Năm nay số giao dịch tăng gấp ba và đã có hai lần sai sót lớn. Kiểm toán nội bộ nên làm gì?",
+    "options": [
+      "Không xem lại, vì rủi ro đã được Ban điều hành chấp nhận chính thức từ năm ngoái.",
+      "Tự thiết kế và triển khai kiểm soát đối chiếu tự động thay cho Ban điều hành.",
+      "Đề nghị Ban điều hành ký lại văn bản chấp nhận rủi ro để cập nhật hồ sơ năm nay.",
+      "Đánh giá lại mức rủi ro; nếu vượt ngưỡng chịu đựng thì trao đổi lại theo trình tự."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 11.5 yêu cầu CAE trao đổi khi Ban điều hành chấp nhận mức rủi ro vượt khẩu vị hoặc ngưỡng chịu đựng của tổ chức. Một quyết định chấp nhận dựa trên điều kiện cũ có thể không còn phù hợp khi khối lượng tăng và sai sót lớn đã xảy ra; rủi ro cần được đánh giá lại, và nếu vượt ngưỡng thì trao đổi với Ban điều hành, chưa giải quyết thì lên HĐQT.",
+    "optionNotes": [
+      "Sai. Chấp nhận dựa trên điều kiện cũ; khi điều kiện thay đổi lớn, mức rủi ro cần được đánh giá lại.",
+      "Sai. Thiết kế và triển khai kiểm soát là trách nhiệm của Ban điều hành; kiểm toán nội bộ làm thay là mất khách quan.",
+      "Sai. Ký lại mà không đánh giá lại chỉ là hình thức, không cho biết rủi ro còn chấp nhận được hay không.",
+      "Đúng. Điều kiện thay đổi thì đánh giá lại rủi ro và trao đổi lại nếu vượt ngưỡng chịu đựng."
+    ],
+    "trap": "Coi quyết định chấp nhận rủi ro trước đây là có hiệu lực mãi, dù điều kiện đã thay đổi lớn.",
+    "refs": [
+      "GIAS 11.5",
+      "CIA Part 3 D.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-R17",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Phát hiện về thời gian xử lý hồ sơ vay quá dài có nhiều nguyên nhân, và chưa có một cách khắc phục rõ ràng nào. Người rà soát yêu cầu mỗi phát hiện chỉ được có đúng một kiến nghị cụ thể. Nhận định nào đúng nhất?",
+    "options": [
+      "Chưa đúng; có thể nêu vài phương án, hoặc đề nghị quản lý nghiên cứu cách xử lý phù hợp.",
+      "Đúng, vì mỗi phát hiện chỉ được gắn với một kiến nghị duy nhất để dễ theo dõi.",
+      "Chưa đúng; khi chưa có cách khắc phục rõ ràng thì nên bỏ phần kiến nghị khỏi báo cáo.",
+      "Đúng, và kiểm toán viên nên tự chọn một phương án rồi trực tiếp triển khai cùng đơn vị."
+    ],
+    "answer": 0,
+    "explanation": "Hướng dẫn của GIAS 14.4 nêu nếu xác định được hành động khắc phục cụ thể, kiểm toán viên có thể nêu thành kiến nghị; hoặc có thể đưa ra vài phương án để quản lý cân nhắc; hoặc đề nghị quản lý nghiên cứu và tự xác định cách xử lý phù hợp. Một phát hiện có thể có nhiều kiến nghị hay hành động khắc phục.",
+    "optionNotes": [
+      "Đúng. Có thể nêu vài phương án hoặc đề nghị quản lý nghiên cứu cách xử lý.",
+      "Sai. Hướng dẫn nêu rõ một phát hiện có thể có nhiều kiến nghị hoặc hành động khắc phục.",
+      "Sai. GIAS 14.4 yêu cầu có kiến nghị hoặc kế hoạch hành động; chưa rõ cách thì vẫn có thể nêu phương án.",
+      "Sai. Thực hiện khắc phục là trách nhiệm của Ban điều hành; kiểm toán viên tự triển khai là làm thay quản lý."
+    ],
+    "trap": "Nghĩ mỗi phát hiện chỉ được có đúng một kiến nghị cụ thể.",
+    "refs": [
+      "GIAS 14.4",
+      "CIA Part 3 D.3"
+    ],
+    "source": "original"
   }
 ]
