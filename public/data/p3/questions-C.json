@@ -181,5 +181,225 @@
       "CIA Part 3 C.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-C-S01",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "Ba đơn vị chào giá đánh giá chất lượng bên ngoài. Đơn vị rẻ nhất có trưởng đoàn giữ chứng chỉ CIA, là CAE cũ của chính công ty, nghỉ việc 18 tháng trước và là người soạn sổ tay phương pháp hiện hành. Khi chọn đơn vị, CAE nên cân nhắc điều gì nhất?",
+    "options": [
+      "Chọn đơn vị này, vì trưởng đoàn có CIA và hiểu rõ bộ phận nên đánh giá sẽ sát thực tế hơn.",
+      "Đánh giá tính độc lập của trưởng đoàn, vì người này sẽ đánh giá chính phương pháp mình soạn.",
+      "Chọn đơn vị này, vì đã qua 12 tháng kể từ khi trưởng đoàn rời công ty nên không còn suy giảm.",
+      "Chọn theo giá, vì chỉ cần có một người giữ chứng chỉ CIA là đáp ứng đủ yêu cầu của Chuẩn mực."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 8.4 yêu cầu đánh giá bên ngoài do người đánh giá có năng lực và độc lập thực hiện, có ít nhất một người giữ chứng chỉ CIA còn hiệu lực. Hướng dẫn của chuẩn mực nêu CAE nên xem xét khả năng suy giảm độc lập của người đánh giá do quan hệ quá khứ, hiện tại hoặc dự kiến với tổ chức, và nếu người đánh giá là nhân viên cũ thì nên đánh giá thời gian người đó đã độc lập. Ở đây trưởng đoàn sẽ đánh giá phương pháp do chính mình soạn, tức nguy cơ tự kiểm tra; chứng chỉ CIA hay giá thấp không giải quyết được điều này.",
+    "optionNotes": [
+      "Sai. Hiểu rõ bộ phận là lợi thế, nhưng người đánh giá phương pháp do chính mình soạn khó khách quan; độc lập phải được xem xét trước.",
+      "Đúng. Quan hệ quá khứ, nhất là việc tự soạn phương pháp, tạo nguy cơ tự kiểm tra cần được đánh giá khi chọn người đánh giá.",
+      "Sai. Mốc 12 tháng là quy tắc cho kiểm toán viên nội bộ; với người đánh giá bên ngoài, cần xét bản chất quan hệ, không chỉ thời gian.",
+      "Sai. Có người giữ CIA là điều kiện bắt buộc nhưng chưa đủ; người đánh giá còn phải độc lập và có năng lực."
+    ],
+    "trap": "Cho rằng có chứng chỉ CIA hoặc đã qua 12 tháng là đủ, bỏ qua tính độc lập của người đánh giá bên ngoài.",
+    "refs": [
+      "GIAS 8.4",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-S02",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "Để tiết kiệm chi phí, CAE chọn hình thức tự đánh giá có xác nhận độc lập. Bộ phận điền một bảng kiểm 2 trang, rồi nhờ một người quen giữ CIA ở công ty khác ký xác nhận mà không xem hồ sơ. Điểm yếu chính là gì?",
+    "options": [
+      "Người xác nhận phải là công ty kiểm toán độc lập đang kiểm toán báo cáo tài chính của tổ chức.",
+      "Tự đánh giá có xác nhận độc lập không được phép, vì Chuẩn mực chỉ chấp nhận đánh giá bên ngoài.",
+      "Tự đánh giá chưa đầy đủ, và người xác nhận không kiểm tra việc tự đánh giá có đúng, đủ hay không.",
+      "Không có điểm yếu, vì người xác nhận giữ CIA và không làm việc cho tổ chức nên đủ độc lập."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 8.4 mô tả tự đánh giá có xác nhận độc lập gồm: một đánh giá nội bộ toàn diện, được lập hồ sơ đầy đủ, mô phỏng quy trình đánh giá bên ngoài; và việc xác nhận của người đánh giá bên ngoài có năng lực, độc lập, nhằm xác định việc tự đánh giá đã được làm đầy đủ và chính xác. Bảng kiểm 2 trang và chữ ký không xem hồ sơ không đáp ứng cả hai. HĐQT cũng cần xem xét lý do chọn hình thức này khi duyệt kế hoạch đánh giá bên ngoài.",
+    "optionNotes": [
+      "Sai. Người xác nhận phải có năng lực và độc lập, không bắt buộc là công ty kiểm toán báo cáo tài chính của tổ chức.",
+      "Sai. Tự đánh giá có xác nhận độc lập là một cách hợp lệ để thực hiện đánh giá bên ngoài, nếu được làm đúng.",
+      "Đúng. Cả hai phần đều thiếu: tự đánh giá không toàn diện, và việc xác nhận không kiểm tra được gì.",
+      "Sai. Độc lập chưa đủ; người xác nhận phải thực sự kiểm tra việc tự đánh giá, và bản thân việc tự đánh giá phải toàn diện."
+    ],
+    "trap": "Coi chữ ký của một người độc lập có CIA là đủ cho tự đánh giá có xác nhận độc lập, bỏ qua chất lượng của việc đánh giá.",
+    "refs": [
+      "GIAS 8.4",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-S03",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Chương trình đảm bảo và cải tiến chất lượng (QAIP) của bộ phận chỉ gồm việc rà soát hồ sơ của các cuộc kiểm toán đã xong. Quy chế, chiến lược, phương pháp và mục tiêu hoạt động của bộ phận không được xem xét. Nhận định nào đúng nhất?",
+    "options": [
+      "Đủ, vì chất lượng của bộ phận được thể hiện chủ yếu qua chất lượng hồ sơ kiểm toán.",
+      "Chưa đủ; QAIP phải do một đơn vị bên ngoài thực hiện hằng năm để bảo đảm khách quan.",
+      "Đủ, nếu việc rà soát hồ sơ được một người ngoài nhóm kiểm toán thực hiện độc lập.",
+      "Chưa đủ; QAIP phải bao quát mọi khía cạnh của bộ phận, không chỉ hồ sơ từng cuộc."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 8.3 yêu cầu CAE xây dựng, thực hiện và duy trì QAIP bao quát mọi khía cạnh của bộ phận kiểm toán nội bộ. GIAS 12.1 yêu cầu đánh giá nội bộ xem xét việc tuân thủ Chuẩn mực và tiến độ đạt mục tiêu hoạt động. Rà soát hồ sơ là một phần, nhưng QAIP còn phải xem quy chế, chiến lược, phương pháp, nguồn lực và mục tiêu hoạt động của bộ phận.",
+    "optionNotes": [
+      "Sai. Hồ sơ tốt không cho biết quy chế, chiến lược hay phương pháp có phù hợp không; QAIP phải bao quát toàn bộ bộ phận.",
+      "Sai. Đánh giá bên ngoài chỉ bắt buộc ít nhất năm năm một lần; đánh giá nội bộ do CAE thực hiện, không cần bên ngoài hằng năm.",
+      "Sai. Người rà soát độc lập làm việc rà soát hồ sơ tốt hơn, nhưng phạm vi vẫn thiếu các khía cạnh khác của bộ phận.",
+      "Đúng. GIAS 8.3 yêu cầu QAIP bao quát mọi khía cạnh của bộ phận kiểm toán nội bộ."
+    ],
+    "trap": "Coi QAIP chỉ là rà soát hồ sơ của từng cuộc kiểm toán.",
+    "refs": [
+      "GIAS 8.3",
+      "GIAS 12.1",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-S04",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Trong QAIP, đánh giá nội bộ gồm giám sát thường xuyên và tự đánh giá định kỳ. Hoạt động nào sau đây là giám sát thường xuyên?",
+    "options": [
+      "Người giám sát rà soát và ký duyệt hồ sơ của từng cuộc kiểm toán theo danh mục chuẩn.",
+      "Nhóm chất lượng của bộ phận tự đánh giá mức tuân thủ Chuẩn mực mỗi năm một lần.",
+      "Đoàn đánh giá độc lập bên ngoài đánh giá toàn bộ bộ phận theo chu kỳ năm năm một lần.",
+      "HĐQT cùng Ban điều hành đánh giá hằng năm về CAE và về hiệu quả của bộ phận kiểm toán."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 12.1 yêu cầu phương pháp đánh giá nội bộ gồm giám sát thường xuyên việc tuân thủ Chuẩn mực và tiến độ đạt mục tiêu, cùng tự đánh giá định kỳ. Giám sát thường xuyên gắn với công việc hằng ngày, như rà soát của người giám sát trên từng cuộc kiểm toán. Tự đánh giá hằng năm là định kỳ; đánh giá năm năm một lần là đánh giá bên ngoài; HĐQT đánh giá CAE là điều kiện thiết yếu ở GIAS 8.3, không phải giám sát thường xuyên.",
+    "optionNotes": [
+      "Đúng. Rà soát của người giám sát trên từng cuộc kiểm toán là hoạt động giám sát thường xuyên.",
+      "Sai. Tự đánh giá mỗi năm một lần là đánh giá định kỳ, không phải giám sát thường xuyên.",
+      "Sai. Đây là đánh giá chất lượng bên ngoài theo GIAS 8.4, không thuộc đánh giá nội bộ.",
+      "Sai. HĐQT và Ban điều hành đánh giá CAE là điều kiện thiết yếu, không phải hoạt động giám sát thường xuyên của QAIP."
+    ],
+    "trap": "Nhầm tự đánh giá định kỳ hoặc đánh giá bên ngoài với giám sát thường xuyên.",
+    "refs": [
+      "GIAS 12.1",
+      "GIAS 12.3",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-S05",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Tự đánh giá định kỳ phát hiện hai thiếu sót nhỏ: một số giấy làm việc thiếu ngày rà soát, và sổ tay chưa cập nhật mẫu thư thông báo kiểm toán. Không thiếu sót nào ảnh hưởng đến phạm vi hay hoạt động tổng thể của bộ phận. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Ngừng tuyên bố tuân thủ Chuẩn mực trong mọi báo cáo cho đến khi khắc phục xong hai thiếu sót.",
+      "Lập kế hoạch hành động có mốc thời gian và báo kết quả tự đánh giá cùng kế hoạch cho HĐQT.",
+      "Chỉ ghi nhận trong hồ sơ nội bộ, vì thiếu sót nhỏ không cần báo cáo cho HĐQT hay Ban điều hành.",
+      "Công bố ngay cho HĐQT việc bộ phận không tuân thủ Chuẩn mực và tác động tổng thể của việc này."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 12.1 yêu cầu từ kết quả tự đánh giá định kỳ, CAE lập kế hoạch hành động cho các điểm không tuân thủ và cơ hội cải tiến, kèm mốc thời gian, và báo kết quả cùng kế hoạch cho HĐQT và Ban điều hành cấp cao. Việc công bố không tuân thủ và tác động của nó là yêu cầu riêng cho trường hợp ảnh hưởng đến phạm vi hoặc hoạt động tổng thể của bộ phận. Thiếu sót nhỏ vẫn phải báo, nhưng qua kết quả tự đánh giá và kế hoạch hành động.",
+    "optionNotes": [
+      "Sai. Thiếu sót nhỏ được xử lý bằng kế hoạch hành động; chúng không làm bộ phận mất khả năng hoạt động theo Chuẩn mực.",
+      "Đúng. Kết quả tự đánh giá và kế hoạch hành động có mốc thời gian phải được báo cho HĐQT và Ban điều hành.",
+      "Sai. Kết quả tự đánh giá định kỳ, kể cả thiếu sót nhỏ, phải được báo cho HĐQT và Ban điều hành cùng kế hoạch hành động.",
+      "Sai. Công bố không tuân thủ tổng thể dành cho trường hợp ảnh hưởng đến phạm vi hoặc hoạt động tổng thể; ở đây không phải vậy."
+    ],
+    "trap": "Coi mọi thiếu sót trong tự đánh giá là không tuân thủ tổng thể phải công bố, hoặc ngược lại không cần báo HĐQT.",
+    "refs": [
+      "GIAS 12.1",
+      "CIA Part 3 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-S06",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Đoàn đánh giá bên ngoài vừa kết luận bộ phận 'tuân thủ một phần' Chuẩn mực, với ba điểm cần cải thiện. CAE định chờ khắc phục xong cả ba điểm, khoảng 6 tháng nữa, rồi mới báo kết quả cho HĐQT. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì báo cáo kèm kết quả đã khắc phục giúp HĐQT yên tâm hơn về bộ phận.",
+      "Phù hợp, nếu CAE gửi trước cho Tổng Giám đốc để Ban điều hành biết về kết quả.",
+      "Chưa phù hợp; kết quả đánh giá bên ngoài phải được báo khi hoàn thành, kèm kế hoạch hành động.",
+      "Chưa phù hợp; kết quả phải được công bố công khai cho cổ đông ngay khi đoàn kết luận."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 8.3 yêu cầu kết quả đánh giá chất lượng bên ngoài phải được báo cho HĐQT và Ban điều hành cấp cao khi hoàn thành. Hướng dẫn của chuẩn mực nêu báo cáo nên gồm kế hoạch hành động cho các thiếu sót, được thống nhất với HĐQT, và tiến độ thực hiện. Chờ khắc phục xong mới báo khiến HĐQT không thể giám sát việc khắc phục.",
+    "optionNotes": [
+      "Sai. HĐQT cần biết kết quả để giám sát việc khắc phục; báo sau 6 tháng là trái yêu cầu báo khi hoàn thành.",
+      "Sai. Kết quả phải được báo cho cả HĐQT và Ban điều hành cấp cao khi hoàn thành; báo riêng Tổng Giám đốc là chưa đủ.",
+      "Đúng. GIAS 8.3 yêu cầu báo kết quả khi hoàn thành; kế hoạch hành động nên được thống nhất với HĐQT.",
+      "Sai. GIAS không yêu cầu công bố công khai cho cổ đông; người nhận là HĐQT và Ban điều hành cấp cao."
+    ],
+    "trap": "Cho rằng nên khắc phục xong rồi mới báo kết quả đánh giá bên ngoài cho HĐQT.",
+    "refs": [
+      "GIAS 8.3",
+      "CIA Part 3 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-S07",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 3,
+    "stem": "Chỉ số 'tỷ lệ kế hoạch hành động đã hoàn thành' báo cáo cho Ủy ban Kiểm toán đạt 95%. Số liệu lấy từ hệ thống theo dõi, nơi các đơn vị tự cập nhật trạng thái 'đã xong'. Kiểm toán viên chưa kiểm tra lại mẫu nào. Rủi ro chính và cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Không có rủi ro, vì hệ thống theo dõi là nguồn dữ liệu chính thức đã được phê duyệt.",
+      "Rủi ro là đơn vị phản đối; nên bỏ chỉ số này khỏi báo cáo gửi Ủy ban Kiểm toán.",
+      "Rủi ro là chỉ số quá cao; nên hạ mục tiêu xuống 80% để chỉ số trông thực tế hơn.",
+      "Chỉ số có thể không chính xác; nên định kỳ kiểm chứng số liệu, ví dụ kiểm tra lại một mẫu."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 12.2 nêu CAE nên có phương pháp định kỳ kiểm chứng độ chính xác của các chỉ số được báo cáo. Trạng thái do đơn vị tự cập nhật mà không được kiểm tra lại có thể khiến chỉ số phóng đại; GIAS 15.2 cũng yêu cầu theo dõi theo phương pháp có đánh giá dựa trên rủi ro, không chỉ hỏi tiến độ. Báo chỉ số chưa kiểm chứng cho Ủy ban có thể làm Ủy ban yên tâm sai.",
+    "optionNotes": [
+      "Sai. Hệ thống chính thức vẫn chứa dữ liệu tự khai; nguồn chính thức không đảm bảo trạng thái 'đã xong' là đúng.",
+      "Sai. Bỏ chỉ số làm mất thông tin hữu ích cho Ủy ban; cách đúng là kiểm chứng để chỉ số đáng tin cậy.",
+      "Sai. Hạ mục tiêu không làm số liệu chính xác hơn; vấn đề là độ tin cậy của dữ liệu, không phải mức mục tiêu.",
+      "Đúng. Chỉ số dựa trên dữ liệu tự cập nhật nên được kiểm chứng định kỳ trước khi báo cáo."
+    ],
+    "trap": "Tin vào chỉ số lấy từ hệ thống chính thức mà không kiểm chứng dữ liệu do đơn vị tự cập nhật.",
+    "refs": [
+      "GIAS 12.2",
+      "GIAS 15.2",
+      "CIA Part 3 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-S09",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Chiến lược kiểm toán nội bộ năm nay đặt trọng tâm vào phân tích dữ liệu và kiểm toán liên tục. Bộ mục tiêu hoạt động của bộ phận vẫn giữ nguyên các chỉ số cũ về số cuộc kiểm toán và thời gian phát hành báo cáo. Nhận xét nào đúng nhất?",
+    "options": [
+      "Chưa phù hợp; mục tiêu hoạt động nên phản ánh trọng tâm của chiến lược hiện tại.",
+      "Phù hợp, vì mục tiêu hoạt động cần ổn định qua các năm để so sánh được kết quả.",
+      "Phù hợp, vì phân tích dữ liệu là công cụ nội bộ, không cần đo lường trong mục tiêu hoạt động.",
+      "Chưa phù hợp; nên thay toàn bộ chỉ số cũ bằng một chỉ số duy nhất về phân tích dữ liệu."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 12.2 yêu cầu CAE xây dựng mục tiêu để đánh giá hiệu quả của bộ phận và phương pháp đo tiến độ. Hướng dẫn của chuẩn mực nêu mục tiêu hoạt động nên xét đến kết quả mong muốn trong các Nguyên tắc của GIAS, quy chế và chiến lược của bộ phận, nên cân bằng giữa các lĩnh vực, và có chỉ tiêu cả định lượng và định tính. Chiến lược mới không được đo thì không biết có đang thực hiện hay không.",
+    "optionNotes": [
+      "Đúng. Mục tiêu hoạt động nên phản ánh chiến lược, để HĐQT theo dõi được tiến độ của các trọng tâm mới.",
+      "Sai. Ổn định giúp so sánh, nhưng mục tiêu không phản ánh chiến lược mới thì không đo được tiến độ của chiến lược.",
+      "Sai. Phân tích dữ liệu là trọng tâm của chiến lược; không đo thì HĐQT không biết chiến lược có tiến triển không.",
+      "Sai. Một chỉ số duy nhất làm mất cân bằng; mục tiêu nên cân bằng nhiều lĩnh vực, không chỉ thay toàn bộ."
+    ],
+    "trap": "Giữ nguyên chỉ số cũ khi chiến lược đã đổi, khiến mục tiêu hoạt động không đo được chiến lược mới.",
+    "refs": [
+      "GIAS 12.2",
+      "GIAS 9.2",
+      "CIA Part 3 C.3"
+    ],
+    "source": "original"
   }
 ]
