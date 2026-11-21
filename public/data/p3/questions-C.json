@@ -455,5 +455,306 @@
       "CIA Part 3 C.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-C-Q02",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "CAE tự chọn đơn vị đánh giá chất lượng bên ngoài, ký hợp đồng và quyết định phạm vi, rồi thông báo cho HĐQT khi đoàn đánh giá đã bắt đầu làm việc. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì đánh giá chất lượng là trách nhiệm riêng của CAE trong QAIP của bộ phận.",
+      "Chưa phù hợp; kế hoạch đánh giá ngoài phải được trao đổi với HĐQT trước khi thực hiện.",
+      "Phù hợp, nếu người đánh giá độc lập và có ít nhất một người giữ chứng chỉ CIA còn hiệu lực.",
+      "Chưa phù hợp; HĐQT phải tự chọn đơn vị đánh giá, CAE không được tham gia vào việc chọn."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 8.4 yêu cầu CAE lập kế hoạch đánh giá chất lượng bên ngoài và trao đổi kế hoạch đó với HĐQT. Theo các Điều kiện thiết yếu của chuẩn mực, HĐQT cần rà soát và phê duyệt kế hoạch, tối thiểu về phạm vi, tần suất, năng lực và tính độc lập của người đánh giá. Thông báo khi đã bắt đầu làm HĐQT mất vai trò giám sát này.",
+    "optionNotes": [
+      "Sai. CAE chịu trách nhiệm về QAIP, nhưng kế hoạch đánh giá ngoài phải được trao đổi với HĐQT.",
+      "Đúng. CAE phải trao đổi kế hoạch đánh giá ngoài với HĐQT trước khi thực hiện.",
+      "Sai. Độc lập và có CIA là điều kiện về người đánh giá; chúng không thay việc trao đổi kế hoạch với HĐQT trước.",
+      "Sai. CAE lập kế hoạch và đề xuất người đánh giá; HĐQT rà soát, phê duyệt chứ không loại CAE khỏi việc chọn."
+    ],
+    "trap": "Nghĩ CAE tự quyết toàn bộ đánh giá ngoài, chỉ cần báo HĐQT kết quả.",
+    "refs": [
+      "GIAS 8.4",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q03",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Báo cáo đánh giá chất lượng bên ngoài dài 60 trang được gửi cho CAE. CAE định trình HĐQT bản tóm tắt 2 trang do mình soạn, bỏ các điểm 'nhỏ'. Cách làm phù hợp hơn là gì?",
+    "options": [
+      "Gửi bản tóm tắt cho Chủ tịch HĐQT, để Chủ tịch quyết định có trình toàn thể Hội đồng hay không.",
+      "Trình bản tóm tắt 2 trang, vì HĐQT chỉ cần biết kết luận chung về mức độ tuân thủ của bộ phận.",
+      "HĐQT nhận toàn bộ kết quả đánh giá trực tiếp từ người đánh giá, kèm kế hoạch hành động của CAE.",
+      "Gửi toàn bộ báo cáo cho Ban điều hành, để Ban điều hành quyết định nội dung nào trình HĐQT."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 8.4 yêu cầu báo cáo kết quả đánh giá ngoài khi hoàn thành. Theo các Điều kiện thiết yếu của chuẩn mực, HĐQT cần yêu cầu nhận toàn bộ kết quả trực tiếp từ người đánh giá, và rà soát, phê duyệt kế hoạch hành động của CAE. Tóm tắt do chính CAE soạn và tự bỏ bớt làm HĐQT không thấy đầy đủ, khách quan kết quả về bộ phận mà CAE phụ trách.",
+    "optionNotes": [
+      "Sai. Kết quả đánh giá ngoài trình HĐQT; để một cá nhân lọc thông tin làm Hội đồng không nhận đầy đủ kết quả.",
+      "Sai. Tóm tắt do CAE tự soạn và lược bỏ làm mất tính khách quan; HĐQT cần thấy toàn bộ kết quả.",
+      "Đúng. HĐQT nhận toàn bộ kết quả trực tiếp từ người đánh giá, cùng kế hoạch hành động.",
+      "Sai. Báo cáo đánh giá ngoài gửi HĐQT; Ban điều hành không lọc nội dung trình HĐQT về chất lượng kiểm toán."
+    ],
+    "trap": "Để CAE tự tóm tắt và lược bỏ kết quả đánh giá ngoài trước khi trình HĐQT.",
+    "refs": [
+      "GIAS 8.4",
+      "GIAS 8.3",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q04",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Bảng câu hỏi tự đánh giá định kỳ của bộ phận chỉ kiểm tra từng yêu cầu của Chuẩn mực (có tuân thủ hay không). Theo GIAS, nội dung bắt buộc nào của đánh giá nội bộ còn thiếu?",
+    "options": [
+      "So sánh chi phí của bộ phận với các bộ phận kiểm toán của doanh nghiệp cùng ngành.",
+      "Ý kiến của kiểm toán độc lập về chất lượng hồ sơ của từng cuộc kiểm toán đã thực hiện.",
+      "Danh sách khen thưởng, kỷ luật kiểm toán viên trong kỳ tự đánh giá định kỳ.",
+      "Tiến độ đạt các mục tiêu hoạt động của bộ phận kiểm toán nội bộ đã đặt ra."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 12.1 yêu cầu CAE xây dựng và thực hiện đánh giá nội bộ về việc tuân thủ Chuẩn mực và tiến độ đạt các mục tiêu hoạt động. Bảng câu hỏi chỉ về tuân thủ bỏ sót vế thứ hai; kết quả đánh giá nội bộ cần cho thấy bộ phận đang tiến tới mục tiêu hoạt động (GIAS 12.2) đến đâu.",
+    "optionNotes": [
+      "Sai. So sánh với bên ngoài có thể hữu ích, nhưng không phải nội dung bắt buộc của đánh giá nội bộ.",
+      "Sai. Kiểm toán độc lập không tham gia đánh giá nội bộ chất lượng của bộ phận kiểm toán nội bộ.",
+      "Sai. Khen thưởng, kỷ luật là quản lý nhân sự, không phải nội dung bắt buộc của đánh giá nội bộ.",
+      "Đúng. Đánh giá nội bộ phải xét cả tiến độ đạt mục tiêu hoạt động, không chỉ tuân thủ."
+    ],
+    "trap": "Cho rằng đánh giá nội bộ chỉ cần kiểm tra việc tuân thủ Chuẩn mực.",
+    "refs": [
+      "GIAS 12.1",
+      "GIAS 12.2",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q05",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 3,
+    "stem": "Quy định của cơ quan quản lý ngành yêu cầu bộ phận kiểm toán nội bộ của ngân hàng được đánh giá độc lập 3 năm một lần. CAE lập kế hoạch đánh giá ngoài 5 năm một lần, vì 'GIAS chỉ yêu cầu 5 năm'. Nhận định nào đúng nhất?",
+    "options": [
+      "Chưa phù hợp; 5 năm là mức tối thiểu, tần suất còn phải xét yêu cầu của cơ quan quản lý.",
+      "Phù hợp, vì GIAS là chuẩn mực nghề nghiệp toàn cầu nên được ưu tiên áp dụng.",
+      "Phù hợp, nếu giữa hai kỳ bộ phận thực hiện tự đánh giá định kỳ đầy đủ theo GIAS.",
+      "Chưa phù hợp; mọi ngân hàng phải được đánh giá ngoài hằng năm theo Chuẩn mực mới."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 8.4 yêu cầu đánh giá ngoài ít nhất 5 năm một lần, tức đây là mức tối thiểu. Theo các Điều kiện thiết yếu, HĐQT cần cùng Ban điều hành và CAE xác định phạm vi, tần suất, có xét trách nhiệm và yêu cầu pháp lý của bộ phận nêu trong Quy chế KTNB. GIAS 1.3 cũng yêu cầu tuân thủ pháp luật áp dụng, nên yêu cầu 3 năm của cơ quan quản lý phải được đáp ứng.",
+    "optionNotes": [
+      "Đúng. 5 năm là tối thiểu; tần suất phải xét cả yêu cầu của cơ quan quản lý.",
+      "Sai. Chuẩn mực không thay pháp luật; khi quy định chặt hơn, bộ phận phải đáp ứng quy định đó.",
+      "Sai. Tự đánh giá định kỳ là bắt buộc riêng, không thay được đánh giá độc lập theo chu kỳ quy định yêu cầu.",
+      "Sai. GIAS không yêu cầu đánh giá ngoài hằng năm; yêu cầu là ít nhất 5 năm một lần."
+    ],
+    "trap": "Coi 5 năm là đủ trong mọi trường hợp, bỏ qua yêu cầu chặt hơn của cơ quan quản lý.",
+    "refs": [
+      "GIAS 8.4",
+      "GIAS 1.3",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q06",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "Hợp đồng đánh giá chất lượng bên ngoài chỉ giao đoàn đánh giá chọn mẫu 15 hồ sơ kiểm toán để kiểm tra việc tuân thủ Chuẩn mực. Phạm vi này còn hạn chế chủ yếu ở điểm nào?",
+    "options": [
+      "Số hồ sơ được chọn quá ít, cần tăng lên ít nhất 50 hồ sơ để đủ tin cậy về thống kê.",
+      "Chưa xét quy chế, chiến lược, phương pháp, kế hoạch, năng lực và đóng góp của bộ phận.",
+      "Chưa có ý kiến của kiểm toán độc lập về báo cáo tài chính của công ty trong năm đó.",
+      "Đoàn đánh giá cần tự thực hiện lại một cuộc kiểm toán để so sánh kết quả với bộ phận."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 8.4 nêu đánh giá ngoài nên rà soát toàn diện mức đầy đủ của bộ phận: tuân thủ Chuẩn mực; nhiệm vụ, Quy chế KTNB, chiến lược, phương pháp, quy trình, đánh giá rủi ro và kế hoạch; tuân thủ pháp luật; chỉ số hoạt động; năng lực; vị trí trong quản trị và đóng góp cho quản trị, rủi ro, kiểm soát. Chỉ kiểm tra hồ sơ là quá hẹp.",
+    "optionNotes": [
+      "Sai. Vấn đề chính không phải cỡ mẫu hồ sơ, mà là phạm vi chỉ giới hạn ở hồ sơ từng cuộc.",
+      "Đúng. Đánh giá ngoài nên xét toàn diện bộ phận, không chỉ hồ sơ từng cuộc kiểm toán.",
+      "Sai. Ý kiến kiểm toán báo cáo tài chính không thuộc phạm vi đánh giá chất lượng kiểm toán nội bộ.",
+      "Sai. Thực hiện lại một cuộc kiểm toán không phải nội dung thông thường của đánh giá ngoài."
+    ],
+    "trap": "Nghĩ đánh giá chất lượng bên ngoài chỉ là kiểm tra hồ sơ các cuộc kiểm toán.",
+    "refs": [
+      "GIAS 8.4",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q07",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Luật áp dụng cho một tổ chức khu vực công yêu cầu bộ phận kiểm toán nội bộ trực tiếp tham gia phê duyệt một số khoản chi lớn, điều làm suy giảm tính khách quan theo Chuẩn mực. CAE nên xử lý thế nào về việc tuân thủ Chuẩn mực?",
+    "options": [
+      "Tuyên bố bộ phận không áp dụng GIAS nữa, vì luật đã không cho tuân thủ đầy đủ.",
+      "Từ chối tham gia phê duyệt, vì Chuẩn mực nghề nghiệp được ưu tiên hơn luật áp dụng.",
+      "Tuân thủ mọi phần còn lại của Chuẩn mực và công bố phù hợp về phần không thể tuân thủ.",
+      "Tham gia phê duyệt như luật yêu cầu và không cần công bố gì thêm, vì đây là quy định bắt buộc."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 4.1 yêu cầu khi luật hoặc quy định cấm bộ phận kiểm toán tuân thủ một phần Chuẩn mực, bộ phận vẫn phải tuân thủ mọi phần khác và công bố phù hợp. CAE nên có biện pháp bảo vệ (ví dụ không giao người tham gia phê duyệt kiểm toán khoản chi đó) và báo HĐQT về tác động.",
+    "optionNotes": [
+      "Sai. Không tuân thủ được một phần không cho phép bỏ toàn bộ Chuẩn mực; các phần khác vẫn phải tuân thủ.",
+      "Sai. Bộ phận phải tuân thủ luật; Chuẩn mực xử lý xung đột bằng công bố, không bằng vi phạm luật.",
+      "Đúng. Tuân thủ mọi phần còn lại và công bố phù hợp phần bị luật ngăn cản.",
+      "Sai. Tuân thủ luật là cần, nhưng GIAS 4.1 yêu cầu công bố phù hợp phần không tuân thủ được."
+    ],
+    "trap": "Cho rằng khi luật ngăn tuân thủ một phần thì bỏ toàn bộ Chuẩn mực, hoặc không cần công bố.",
+    "refs": [
+      "GIAS 4.1",
+      "CIA Part 3 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q08",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Giữa cuộc kiểm toán, trưởng nhóm nhận ra không thể thực hiện một yêu cầu của Chuẩn mực vì đơn vị không cung cấp được dữ liệu trong thời hạn. Trưởng nhóm nên làm gì trước tiên?",
+    "options": [
+      "Báo ngay cho HĐQT việc không tuân thủ, trước khi trao đổi với CAE về sự việc.",
+      "Ghi vào báo cáo cuối cùng rằng cuộc kiểm toán 'tuân thủ Chuẩn mực' như thường lệ.",
+      "Tự quyết định bỏ yêu cầu đó và tiếp tục thực hiện các phần còn lại của chương trình.",
+      "Trao đổi với CAE hoặc người giám sát về lý do và ảnh hưởng của việc không tuân thủ."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 4.1 nêu khi không thể tuân thủ một chuẩn mực trong cuộc kiểm toán, kiểm toán viên nên trao đổi với CAE hoặc người giám sát được chỉ định về lý do và ảnh hưởng; CAE hoặc người giám sát hướng dẫn cần báo cho ai và báo thế nào. CAE phải ghi nhận và trao đổi hoàn cảnh, biện pháp thay thế, tác động và lý do (GIAS 4.1).",
+    "optionNotes": [
+      "Sai. CAE quyết định cách và đối tượng trao đổi; báo HĐQT trước khi bàn với CAE là sai trình tự.",
+      "Sai. Tuyên bố tuân thủ khi thực tế không tuân thủ là sai sự thật và làm người đọc hiểu nhầm.",
+      "Sai. Trưởng nhóm không tự quyết bỏ yêu cầu; việc không tuân thủ phải được trao đổi, ghi nhận và xử lý.",
+      "Đúng. Bước đầu là trao đổi với CAE hoặc người giám sát về lý do và ảnh hưởng."
+    ],
+    "trap": "Tự xử lý hoặc báo vượt cấp khi không tuân thủ được Chuẩn mực, thay vì trao đổi với CAE trước.",
+    "refs": [
+      "GIAS 4.1",
+      "CIA Part 3 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q09",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 2,
+    "stem": "Bộ phận kiểm toán nội bộ của một doanh nghiệp nhà nước thực hiện công việc theo cả GIAS và Nghị định 05/2019/NĐ-CP về kiểm toán nội bộ. Báo cáo kiểm toán chỉ ghi 'thực hiện theo GIAS'. Nhận định nào đúng nhất?",
+    "options": [
+      "Chưa phù hợp; báo cáo phải ghi cả việc áp dụng các yêu cầu của Nghị định khi phù hợp.",
+      "Phù hợp, vì GIAS là chuẩn mực cao hơn nên không cần nhắc đến Nghị định 05/2019/NĐ-CP.",
+      "Chưa phù hợp; báo cáo chỉ được ghi Nghị định, vì luật trong nước ưu tiên hơn GIAS.",
+      "Phù hợp, nếu Quy chế KTNB đã nêu rõ bộ phận áp dụng đồng thời cả hai bộ quy định."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 4.1 yêu cầu khi Chuẩn mực được áp dụng cùng yêu cầu của cơ quan có thẩm quyền khác, các trao đổi của kiểm toán nội bộ cũng phải nêu việc áp dụng các yêu cầu đó khi phù hợp. Người đọc báo cáo cần biết công việc dựa trên những yêu cầu nào; Quy chế KTNB nêu việc áp dụng không thay việc ghi trong báo cáo.",
+    "optionNotes": [
+      "Đúng. Báo cáo phải nêu cả việc áp dụng yêu cầu của cơ quan có thẩm quyền khác khi phù hợp.",
+      "Sai. Không có thứ bậc 'cao hơn' ở đây; GIAS 4.1 yêu cầu nêu cả các yêu cầu khác được áp dụng.",
+      "Sai. Bộ phận áp dụng cả hai; ghi riêng Nghị định bỏ sót việc áp dụng Chuẩn mực.",
+      "Sai. Quy chế nêu việc áp dụng là cần, nhưng không thay yêu cầu nêu trong trao đổi kết quả (GIAS 4.1)."
+    ],
+    "trap": "Chỉ ghi GIAS trong báo cáo dù công việc còn theo yêu cầu của cơ quan có thẩm quyền khác.",
+    "refs": [
+      "GIAS 4.1",
+      "CIA Part 3 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q10",
+    "section": "C",
+    "topic": "C2",
+    "difficulty": 3,
+    "stem": "Cuộc kiểm toán năm nay có phạm vi gồm an ninh mạng, một chủ đề đã có Yêu cầu theo chủ đề (Topical Requirement) của IIA. Trưởng nhóm định bỏ qua yêu cầu này vì cho rằng 'chỉ GIAS là bắt buộc, còn lại là hướng dẫn'. Nhận định nào đúng nhất?",
+    "options": [
+      "Đúng, vì chỉ các chuẩn mực có số trong GIAS mới bắt buộc, các tài liệu khác là tham khảo.",
+      "Chưa đúng; Yêu cầu theo chủ đề là bắt buộc khi phạm vi cuộc kiểm toán có chủ đề đó.",
+      "Đúng, nếu CAE ghi vào hồ sơ lý do không áp dụng Yêu cầu theo chủ đề cho cuộc này.",
+      "Chưa đúng; Yêu cầu theo chủ đề bắt buộc kiểm toán an ninh mạng mỗi năm ở mọi tổ chức."
+    ],
+    "answer": 1,
+    "explanation": "Theo khung IPPF đi kèm GIAS, Yêu cầu theo chủ đề (Topical Requirements) thuộc nhóm bắt buộc: kiểm toán viên phải tuân thủ các yêu cầu liên quan khi phạm vi cuộc kiểm toán có một trong các chủ đề đã xác định. Hướng dẫn toàn cầu (Global Guidance) mới là tài liệu tham khảo, không bắt buộc. Yêu cầu này không buộc tổ chức kiểm toán chủ đề đó hằng năm.",
+    "optionNotes": [
+      "Sai. Trong IPPF, Yêu cầu theo chủ đề cũng bắt buộc khi áp dụng; chỉ Hướng dẫn toàn cầu là tham khảo.",
+      "Đúng. Yêu cầu theo chủ đề bắt buộc khi phạm vi cuộc kiểm toán bao gồm chủ đề đó.",
+      "Sai. Khi phạm vi có chủ đề đó, việc tuân thủ là bắt buộc; ghi lý do không thay được việc tuân thủ.",
+      "Sai. Yêu cầu áp dụng khi phạm vi có chủ đề; nó không buộc mọi tổ chức kiểm toán chủ đề đó hằng năm."
+    ],
+    "trap": "Nhầm Yêu cầu theo chủ đề (bắt buộc khi áp dụng) với Hướng dẫn toàn cầu (tham khảo).",
+    "refs": [
+      "GIAS 4.1",
+      "CIA Part 3 C.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q11",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "CAE tự đặt các mục tiêu hoạt động cho bộ phận kiểm toán nội bộ, theo dõi trong nội bộ và chưa bao giờ trình HĐQT. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì mục tiêu hoạt động là công cụ quản lý nội bộ của riêng CAE.",
+      "Phù hợp, nếu kết quả đạt mục tiêu được nêu trong báo cáo tổng kết cuối năm.",
+      "Chưa phù hợp; HĐQT cần phê duyệt mục tiêu hoạt động của bộ phận ít nhất hằng năm.",
+      "Chưa phù hợp; mục tiêu hoạt động của bộ phận phải do Tổng Giám đốc phê duyệt."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 12.2 yêu cầu CAE xây dựng mục tiêu đánh giá hoạt động của bộ phận, có xét ý kiến và kỳ vọng của HĐQT và Ban điều hành. Theo các Điều kiện thiết yếu (GIAS 8.3), HĐQT cần phê duyệt mục tiêu hoạt động của bộ phận ít nhất hằng năm, còn Ban điều hành góp ý kiến. Mục tiêu không qua HĐQT thì không phản ánh được kỳ vọng của HĐQT.",
+    "optionNotes": [
+      "Sai. Mục tiêu hoạt động phải xét kỳ vọng của HĐQT và Ban điều hành, và cần được HĐQT phê duyệt.",
+      "Sai. Báo kết quả cuối năm không thay việc HĐQT phê duyệt mục tiêu từ đầu.",
+      "Đúng. HĐQT cần phê duyệt mục tiêu hoạt động của bộ phận ít nhất hằng năm.",
+      "Sai. Ban điều hành góp ý kiến; việc phê duyệt mục tiêu hoạt động thuộc HĐQT theo quan hệ báo cáo chức năng."
+    ],
+    "trap": "Nghĩ mục tiêu hoạt động là việc nội bộ của CAE, hoặc do Tổng Giám đốc phê duyệt.",
+    "refs": [
+      "GIAS 12.2",
+      "GIAS 8.3",
+      "CIA Part 3 C.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-Q12",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Chỉ tiêu 'phát hành báo cáo trong 30 ngày sau họp kết thúc' đạt 100% suốt ba năm liền, với mức đặt ra là 80%. CAE đề xuất giữ nguyên chỉ tiêu cho năm tới. Nhận định nào phù hợp nhất?",
+    "options": [
+      "Chưa phù hợp; nên bỏ hẳn chỉ tiêu này vì đã đạt, và chỉ giữ các chỉ tiêu chưa đạt.",
+      "Phù hợp, vì đạt chỉ tiêu liên tục chứng tỏ bộ phận đã hoạt động ở mức tốt nhất.",
+      "Phù hợp, vì giữ chỉ tiêu ổn định giúp so sánh kết quả giữa các năm dễ dàng hơn.",
+      "Chưa phù hợp; nên xem xét nâng chỉ tiêu, vì mức hiện tại không còn thúc đẩy cải tiến."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 12.2 yêu cầu phương pháp đo lường hoạt động nhằm đánh giá tiến độ và thúc đẩy cải tiến liên tục. Hướng dẫn của chuẩn mực nêu CAE nên có phương pháp định kỳ kiểm chứng số liệu và nâng kỳ vọng về hoạt động. Chỉ tiêu luôn đạt vượt xa không còn tạo động lực cải tiến.",
+    "optionNotes": [
+      "Sai. Thời gian phát hành vẫn quan trọng; bỏ chỉ tiêu làm mất khả năng phát hiện chất lượng đi xuống.",
+      "Sai. Đạt chỉ tiêu thấp không chứng minh mức tốt nhất; có thể chỉ tiêu đặt quá dễ.",
+      "Sai. So sánh qua các năm vẫn làm được khi nâng chỉ tiêu; giữ mức thấp làm mất tác dụng thúc đẩy cải tiến.",
+      "Đúng. Nâng chỉ tiêu khi luôn đạt vượt giúp duy trì cải tiến liên tục."
+    ],
+    "trap": "Giữ nguyên chỉ tiêu dễ đạt vì nghĩ đạt liên tục là đã tốt nhất.",
+    "refs": [
+      "GIAS 12.2",
+      "CIA Part 3 C.3"
+    ],
+    "source": "original"
   }
 ]
