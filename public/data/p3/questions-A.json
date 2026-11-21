@@ -207,5 +207,307 @@
       "CIA Part 3 A.4"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-A-S01",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Bộ phận kiểm toán đã chuyển sang kiểm toán từ xa và làm theo vòng ngắn, nhưng sổ tay phương pháp vẫn là bản năm 2019. Mỗi trưởng nhóm tự điều chỉnh cách làm hồ sơ và rà soát theo ý mình. Việc CAE cần làm là gì?",
+    "options": [
+      "Để các trưởng nhóm tiếp tục tự điều chỉnh, vì họ hiểu rõ nhất yêu cầu của từng cuộc kiểm toán.",
+      "Giữ nguyên sổ tay cũ đến kỳ đánh giá chất lượng bên ngoài, rồi sửa một lần theo kiến nghị của đoàn.",
+      "Đánh giá lại và cập nhật phương pháp cho cách làm mới, rồi đào tạo kiểm toán viên áp dụng thống nhất.",
+      "Yêu cầu quay lại kiểm toán tại chỗ như trước, vì sổ tay phương pháp chưa đề cập cách làm từ xa."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 9.3 yêu cầu CAE thiết lập phương pháp để bộ phận làm việc có hệ thống và kỷ luật, phải đánh giá hiệu quả phương pháp và cập nhật khi cần để đáp ứng thay đổi đáng kể, và phải đào tạo kiểm toán viên về phương pháp. Chuyển sang kiểm toán từ xa và theo vòng ngắn là thay đổi đáng kể; để mỗi nhóm tự làm khiến chất lượng không nhất quán và khó chứng minh tuân thủ Chuẩn mực.",
+    "optionNotes": [
+      "Sai. Mỗi nhóm một cách làm khiến hồ sơ và rà soát không nhất quán; phương pháp phải do CAE thiết lập và cập nhật.",
+      "Sai. Nghĩa vụ cập nhật phương pháp phát sinh khi có thay đổi đáng kể, không chờ đến kỳ đánh giá bên ngoài.",
+      "Đúng. Thay đổi đáng kể đòi hỏi CAE cập nhật phương pháp và đào tạo kiểm toán viên theo GIAS 9.3.",
+      "Sai. Phương pháp phải theo kịp cách làm của bộ phận; quay lại cách cũ chỉ vì sổ tay lạc hậu là đi ngược vấn đề."
+    ],
+    "trap": "Cho rằng phương pháp chỉ cần cập nhật theo kiến nghị của đánh giá bên ngoài, hoặc để từng nhóm tự điều chỉnh.",
+    "refs": [
+      "GIAS 9.3",
+      "CIA Part 3 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-S02",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Công ty thuê một hãng kiểm toán thực hiện 6 cuộc kiểm toán trong kế hoạch. Hãng dùng mẫu hồ sơ và thang xếp hạng phát hiện riêng, khác với phương pháp của bộ phận kiểm toán nội bộ. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì hãng bên ngoài chịu trách nhiệm tuân thủ Chuẩn mực cho các cuộc do họ thực hiện.",
+      "Phù hợp, nếu hợp đồng thuê ngoài ghi rõ hãng được dùng phương pháp và thang xếp hạng riêng.",
+      "Chưa phù hợp; vì vậy toàn bộ 6 cuộc kiểm toán phải chuyển về cho đội nội bộ tự thực hiện.",
+      "Chưa phù hợp; công việc thuê ngoài cũng phải theo Chuẩn mực và phương pháp của bộ phận."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 4.1 yêu cầu kiểm toán viên tuân thủ Chuẩn mực và phương pháp của bộ phận khi lập kế hoạch, thực hiện và báo cáo; GIAS 9.3 yêu cầu CAE thiết lập phương pháp để bộ phận làm việc có hệ thống. Bên cung cấp dịch vụ thuê ngoài thực hiện dịch vụ kiểm toán nội bộ nên cũng chịu các yêu cầu này, và CAE vẫn chịu trách nhiệm. Thang xếp hạng khác nhau khiến HĐQT không so sánh được kết quả giữa các cuộc.",
+    "optionNotes": [
+      "Sai. Thuê ngoài không chuyển trách nhiệm của CAE; cuộc kiểm toán vẫn phải theo Chuẩn mực và phương pháp của bộ phận.",
+      "Sai. Hợp đồng không miễn được yêu cầu của Chuẩn mực; nó chỉ nên quy định bên ngoài áp dụng phương pháp của bộ phận.",
+      "Sai. Thuê ngoài là cách bổ sung nguồn lực hợp lệ; vấn đề là thống nhất phương pháp, không phải bỏ thuê ngoài.",
+      "Đúng. Mọi dịch vụ kiểm toán nội bộ, kể cả thuê ngoài, phải theo Chuẩn mực và phương pháp thống nhất của bộ phận."
+    ],
+    "trap": "Cho rằng thuê ngoài chuyển trách nhiệm tuân thủ Chuẩn mực và phương pháp sang nhà cung cấp.",
+    "refs": [
+      "GIAS 4.1",
+      "GIAS 9.3",
+      "CIA Part 3 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-S04",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 3,
+    "stem": "Ở một doanh nghiệp nhà nước, thang lương bắt buộc khiến bộ phận kiểm toán không tuyển được kiểm toán viên CNTT, dù kế hoạch năm có 4 cuộc kiểm toán hệ thống. CAE nên xử lý thế nào là phù hợp nhất?",
+    "options": [
+      "Tìm cách trong khuôn khổ quy định (như đồng kiểm toán), và báo HĐQT, Ban điều hành về tác động.",
+      "Đề xuất trả lương ngoài thang cho kiểm toán viên CNTT, vì Chuẩn mực ưu tiên hơn quy định nội bộ.",
+      "Bỏ 4 cuộc kiểm toán hệ thống khỏi kế hoạch và không cần báo cáo, vì nguyên nhân nằm ngoài tầm kiểm soát.",
+      "Giao 4 cuộc cho kiểm toán viên tài chính thực hiện, vì họ đã quen với quy trình của doanh nghiệp."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 10.2 yêu cầu CAE xác định cách có được nguồn nhân lực cần thiết hoặc báo kịp thời cho HĐQT và Ban điều hành về tác động khi thiếu nhân lực. Hướng dẫn của chuẩn mực này nêu ở khu vực công, CAE nên tuân thủ khung nhân sự bắt buộc, hiểu kỹ để tận dụng các lựa chọn trong khung, và nên báo HĐQT, Ban điều hành khi khung đó làm giảm khả năng đáp ứng nhu cầu nhân lực. Đồng kiểm toán hoặc thuê chuyên gia là các lựa chọn thường gặp.",
+    "optionNotes": [
+      "Đúng. Làm trong khuôn khổ quy định và báo tác động cho HĐQT, Ban điều hành đúng với GIAS 10.2.",
+      "Sai. Chuẩn mực không cho phép vượt quy định bắt buộc; CAE nên làm trong khung và báo tác động khi khung gây hạn chế.",
+      "Sai. Bỏ cuộc kiểm toán rủi ro mà không báo là trái yêu cầu trao đổi về thiếu nguồn lực và lý do không đưa khu vực rủi ro cao vào kế hoạch.",
+      "Sai. Giao việc cho người thiếu năng lực vi phạm yêu cầu chỉ nhận việc khi có hoặc có thể đạt năng lực cần thiết."
+    ],
+    "trap": "Cho rằng khi quy định nhân sự gây hạn chế thì có thể bỏ việc mà không báo, hoặc vượt quy định vì Chuẩn mực.",
+    "refs": [
+      "GIAS 10.2",
+      "GIAS 3.1",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-S05",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Ngân hàng triển khai chương trình luân chuyển: nhân viên các khối sang làm kiểm toán nội bộ 6 tháng để học hỏi. Một nhân viên từ khối Mua sắm được dự kiến giao kiểm toán quy trình mua sắm. CAE nên làm gì?",
+    "options": [
+      "Giao như dự kiến, vì nhân viên luân chuyển hiểu quy trình mua sắm hơn kiểm toán viên khác.",
+      "Không giao người đó kiểm toán khối cũ, và áp dụng biện pháp bảo vệ cho chương trình luân chuyển.",
+      "Giao như dự kiến, nếu nhân viên ký cam kết khách quan trước khi tham gia cuộc kiểm toán.",
+      "Hủy chương trình luân chuyển, vì nhân viên các khối luôn làm suy giảm khách quan của bộ phận."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 10.2 nêu khi dùng mô hình luân chuyển, CAE nên nhận biết khả năng suy giảm khách quan và áp dụng biện pháp bảo vệ. GIAS 2.2 yêu cầu kiểm toán viên không đánh giá hoạt động mình từng phụ trách; khách quan bị coi là suy giảm nếu đảm bảo cho hoạt động mình phụ trách trong 12 tháng trước đó. Chương trình luân chuyển vẫn có giá trị nếu phân công tránh khối cũ của người được luân chuyển.",
+    "optionNotes": [
+      "Sai. Am hiểu quy trình không bù được việc người đó vừa làm ở khối Mua sắm; đó là suy giảm khách quan theo GIAS 2.2.",
+      "Đúng. Tránh giao khối cũ và có biện pháp bảo vệ cho người luân chuyển là cách GIAS 2.2, 10.2 hướng tới.",
+      "Sai. Cam kết không loại bỏ được suy giảm do vừa phụ trách hoạt động; cần phân công người khác.",
+      "Sai. Luân chuyển là cách bổ sung nhân lực hợp lệ; chỉ cần phân công tránh khối cũ và có biện pháp bảo vệ."
+    ],
+    "trap": "Cho rằng hiểu biết của người luân chuyển là lợi thế khi giao họ kiểm toán chính khối cũ.",
+    "refs": [
+      "GIAS 10.2",
+      "GIAS 2.2",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-S06",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "CAE sẽ nghỉ hưu sau 18 tháng. Bộ phận chưa có ai được chuẩn bị để kế nhiệm, và Ban điều hành dự định giao bộ phận Nhân sự tự tuyển người thay khi CAE nghỉ. Việc phù hợp nhất CAE nên làm lúc này là gì?",
+    "options": [
+      "Để bộ phận Nhân sự chủ động tuyển, vì tuyển dụng là việc của Nhân sự, không phải của CAE.",
+      "Tự chỉ định một phó phòng làm người kế nhiệm và thông báo cho HĐQT khi đã quyết định xong.",
+      "Trao đổi với HĐQT về kế hoạch kế nhiệm vị trí CAE, gồm năng lực cần có và cách chuẩn bị.",
+      "Chờ đến tháng cuối mới bàn chuyện kế nhiệm để không ảnh hưởng tinh thần làm việc của bộ phận."
+    ],
+    "answer": 2,
+    "explanation": "Theo hướng dẫn của GIAS 10.2, khi xây dựng cách quản lý nhân sự, CAE nên cân nhắc kế hoạch kế nhiệm cho vị trí CAE, gồm trao đổi với HĐQT. Việc bổ nhiệm và miễn nhiệm CAE do HĐQT cho phép (điều kiện thiết yếu ở GIAS 7.1), nên để Nhân sự tự tuyển hoặc CAE tự chỉ định đều bỏ qua vai trò của HĐQT.",
+    "optionNotes": [
+      "Sai. Nhân sự có thể hỗ trợ, nhưng kế nhiệm CAE cần HĐQT tham gia vì HĐQT cho phép việc bổ nhiệm CAE.",
+      "Sai. CAE không tự quyết người kế nhiệm; HĐQT cho phép việc bổ nhiệm, CAE chỉ chuẩn bị và đề xuất.",
+      "Đúng. Kế hoạch kế nhiệm nên được trao đổi sớm với HĐQT, gồm năng lực cần có và cách chuẩn bị người thay.",
+      "Sai. Để đến phút cuối thì không đủ thời gian chuẩn bị; bộ phận có thể bị gián đoạn khi thiếu người lãnh đạo."
+    ],
+    "trap": "Coi kế nhiệm CAE là việc tuyển dụng thông thường của Nhân sự, bỏ qua vai trò của HĐQT.",
+    "refs": [
+      "GIAS 10.2",
+      "GIAS 7.1",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-S07",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Đến tháng 6, chi phí công tác của bộ phận kiểm toán đã dùng hết 80% ngân sách cả năm do giá vé tăng và thêm hai cuộc kiểm toán đột xuất. Cách xử lý phù hợp nhất của CAE là gì?",
+    "options": [
+      "Chuyển chi phí công tác sang ngân sách của các đơn vị được kiểm toán để không bị vượt.",
+      "Tạm dừng mọi cuộc kiểm toán cần đi công tác đến cuối năm, không cần báo cáo cho ai.",
+      "Tiếp tục chi như kế hoạch, cuối năm giải trình phần vượt ngân sách với bộ phận tài chính.",
+      "Phân tích chênh lệch, điều chỉnh kế hoạch sử dụng, và báo tác động nếu ngân sách không đủ."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 10.1 yêu cầu CAE quản lý nguồn lực tài chính của bộ phận và phải báo kịp thời cho HĐQT và Ban điều hành về tác động khi thiếu nguồn lực tài chính. Hướng dẫn của chuẩn mực nêu CAE nên định kỳ so sánh ngân sách kế hoạch với thực tế và phân tích chênh lệch đáng kể để xem có cần điều chỉnh. Dừng kiểm toán âm thầm hay để đơn vị được kiểm toán trả chi phí đều tạo rủi ro cho phạm vi và tính độc lập.",
+    "optionNotes": [
+      "Sai. Để đơn vị được kiểm toán trả chi phí tạo phụ thuộc tài chính vào bên bị kiểm toán, làm suy giảm độc lập.",
+      "Sai. Dừng kiểm toán âm thầm làm thu hẹp phạm vi mà HĐQT không biết; tác động của thiếu nguồn lực phải được báo kịp thời.",
+      "Sai. Đợi cuối năm mới giải trình là quá muộn; chênh lệch đáng kể cần được phân tích và xử lý trong năm.",
+      "Đúng. Phân tích chênh lệch, điều chỉnh và báo tác động khi thiếu là cách quản lý ngân sách theo GIAS 10.1."
+    ],
+    "trap": "Xử lý thiếu ngân sách bằng cách âm thầm cắt kiểm toán hoặc để bên bị kiểm toán trả chi phí.",
+    "refs": [
+      "GIAS 10.1",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-S08",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Chiến lược kiểm toán nội bộ 2025-2027 tập trung vào mạng lưới chi nhánh. Năm 2026, HĐQT quyết định chuyển ngân hàng sang mô hình số, đóng một nửa chi nhánh. CAE định giữ chiến lược đến hết năm 2027 rồi mới xây dựng chiến lược mới. Nhận định nào đúng nhất?",
+    "options": [
+      "Chưa phù hợp; chiến lược nên được điều chỉnh khi mục tiêu chiến lược của tổ chức thay đổi.",
+      "Phù hợp, vì chiến lược đã được HĐQT xem xét thì nên giữ ổn định đến hết kỳ ba năm.",
+      "Phù hợp, vì thay đổi mô hình kinh doanh chỉ ảnh hưởng đến kế hoạch kiểm toán năm, không ảnh hưởng chiến lược.",
+      "Chưa phù hợp; chiến lược kiểm toán nội bộ phải được lập lại mỗi năm để luôn bám sát tổ chức."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 9.2 yêu cầu chiến lược kiểm toán nội bộ hỗ trợ mục tiêu chiến lược của tổ chức và phù hợp kỳ vọng của HĐQT, Ban điều hành, và CAE phải định kỳ rà soát chiến lược với họ. Hướng dẫn của chuẩn mực nêu chiến lược nên được điều chỉnh khi mục tiêu chiến lược của tổ chức hoặc kỳ vọng của các bên liên quan thay đổi. Chuyển sang ngân hàng số làm thay đổi năng lực cần có, công nghệ và trọng tâm của bộ phận.",
+    "optionNotes": [
+      "Đúng. Chiến lược nên được điều chỉnh khi mục tiêu chiến lược của tổ chức thay đổi, không chờ hết kỳ.",
+      "Sai. Ổn định không phải mục tiêu của chiến lược; giữ trọng tâm chi nhánh khi tổ chức chuyển sang số làm chiến lược mất giá trị.",
+      "Sai. Đổi mô hình kinh doanh ảnh hưởng cả năng lực, công nghệ và tầm nhìn của bộ phận, tức là ảnh hưởng chiến lược.",
+      "Sai. Không có yêu cầu lập lại chiến lược mỗi năm; yêu cầu là rà soát định kỳ và điều chỉnh khi có thay đổi."
+    ],
+    "trap": "Cho rằng chiến lược kiểm toán nội bộ phải giữ nguyên đến hết kỳ, dù tổ chức đã đổi hướng chiến lược.",
+    "refs": [
+      "GIAS 9.2",
+      "CIA Part 3 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-S09",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Chiến lược kiểm toán nội bộ mới liệt kê 15 sáng kiến (phân tích dữ liệu, đào tạo, kiểm toán liên tục...) nhưng không có thứ tự ưu tiên hay mốc thời gian. Ủy ban Kiểm toán nói họ không biết theo dõi tiến độ thế nào. Cải thiện phù hợp nhất là gì?",
+    "options": [
+      "Bổ sung thêm sáng kiến để chiến lược thể hiện tham vọng lớn hơn của bộ phận.",
+      "Ưu tiên các sáng kiến và gắn mốc thời gian, để rà soát tiến độ với HĐQT định kỳ.",
+      "Chuyển các sáng kiến thành danh sách cuộc kiểm toán để đưa vào kế hoạch năm.",
+      "Giữ nguyên, vì chiến lược chỉ cần nêu định hướng, không cần đo được tiến độ."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 9.2 yêu cầu chiến lược gồm tầm nhìn, mục tiêu chiến lược và sáng kiến hỗ trợ, và CAE phải định kỳ rà soát chiến lược với HĐQT và Ban điều hành cấp cao. Hướng dẫn của chuẩn mực nêu các hành động nên được ưu tiên và gắn mốc thời gian, và việc rà soát định kỳ nên gồm trao đổi về tiến độ của các sáng kiến. Không có ưu tiên và mốc thời gian thì không theo dõi được.",
+    "optionNotes": [
+      "Sai. Nhiều sáng kiến hơn mà không có ưu tiên càng khó thực hiện và theo dõi; vấn đề là thiếu thứ tự và mốc thời gian.",
+      "Đúng. Ưu tiên và mốc thời gian giúp HĐQT theo dõi tiến độ, đúng với hướng dẫn của GIAS 9.2.",
+      "Sai. Chiến lược khác kế hoạch kiểm toán năm; sáng kiến nhằm phát triển bộ phận, không phải danh sách cuộc kiểm toán.",
+      "Sai. Chiến lược phải được rà soát định kỳ với HĐQT; không đo được tiến độ thì việc rà soát không có ý nghĩa."
+    ],
+    "trap": "Nhầm chiến lược với danh sách định hướng chung hoặc với kế hoạch kiểm toán năm.",
+    "refs": [
+      "GIAS 9.2",
+      "CIA Part 3 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-S10",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 3,
+    "stem": "Tổng Giám đốc mới ngừng mời CAE dự các cuộc họp Ban điều hành và Ủy ban Rủi ro, vì 'kiểm toán nội bộ nên đứng ngoài để giữ độc lập'. Nhận định nào đúng nhất?",
+    "options": [
+      "Đúng, vì dự họp điều hành khiến CAE gắn với các quyết định của Ban điều hành.",
+      "Đúng, nếu CAE vẫn được gửi biên bản các cuộc họp sau mỗi quý để tham khảo.",
+      "Chưa đúng; CAE nên dự các cuộc họp chính để nắm thay đổi, nhưng không tham gia quyết định.",
+      "Chưa đúng; CAE phải có quyền biểu quyết trong Ban điều hành để bảo vệ kiểm soát nội bộ."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 11.1 nêu CAE nên được đưa vào các kênh thông tin của tổ chức để nắm kịp các thay đổi lớn có thể ảnh hưởng mục tiêu và rủi ro, và nên dự các cuộc họp của HĐQT, các ủy ban quản trị chính, Ban điều hành và các nhóm báo cáo trực tiếp cho Ban điều hành. Độc lập được giữ khi CAE không ra quyết định quản lý; dự họp để nắm thông tin không làm mất độc lập.",
+    "optionNotes": [
+      "Sai. Dự họp để nắm thông tin khác với tham gia quyết định; chỉ việc ra quyết định quản lý mới làm suy giảm độc lập.",
+      "Sai. Biên bản theo quý đến quá muộn để CAE điều chỉnh kế hoạch kịp thời trước rủi ro mới.",
+      "Đúng. CAE nên dự các cuộc họp chính để nắm thay đổi, với vai trò không ra quyết định.",
+      "Sai. Quyền biểu quyết khiến CAE gánh trách nhiệm quản lý và làm suy giảm độc lập."
+    ],
+    "trap": "Cho rằng giữ độc lập nghĩa là CAE không được dự các cuộc họp điều hành.",
+    "refs": [
+      "GIAS 11.1",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-S11",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 3,
+    "stem": "CAE vừa họp riêng với Ủy ban Kiểm toán, không có Ban điều hành, về dấu hiệu bất thường trong chi phí tiếp khách của chính Tổng Giám đốc. Sau đó Tổng Giám đốc hỏi CAE đã trao đổi những gì. CAE nên xử lý thế nào?",
+    "options": [
+      "Kể lại đầy đủ nội dung, vì CAE luôn phải báo Ban điều hành mọi nội dung đã trao đổi riêng.",
+      "Từ chối thừa nhận có cuộc họp riêng, vì mọi phiên họp riêng đều phải giữ bí mật tuyệt đối.",
+      "Kể lại nội dung nhưng bỏ phần liên quan đến chi phí tiếp khách để tránh căng thẳng với Tổng Giám đốc.",
+      "Không chia sẻ nội dung, vì báo cho Ban điều hành trong trường hợp này là không phù hợp."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 6.3 nêu dù họp riêng với HĐQT là quan trọng, CAE nên thông báo cho Ban điều hành về các cuộc trao đổi đó, trừ khi làm vậy là không phù hợp, ví dụ khi nội dung liên quan đến chính Ban điều hành. Ở đây nội dung liên quan trực tiếp đến Tổng Giám đốc, nên chia sẻ có thể ảnh hưởng đến việc xem xét của Ủy ban. CAE không cần chối cuộc họp, chỉ không chia sẻ nội dung.",
+    "optionNotes": [
+      "Sai. Thông báo cho Ban điều hành là thông lệ nên làm, nhưng có ngoại lệ khi nội dung liên quan đến chính người hỏi.",
+      "Sai. Chối có cuộc họp là không trung thực; cuộc họp riêng không phải bí mật, chỉ nội dung nhạy cảm là không chia sẻ.",
+      "Sai. Kể một phần và giấu phần quan trọng là gây hiểu lầm, trái yêu cầu trung thực của GIAS 1.1.",
+      "Đúng. Nội dung liên quan đến Tổng Giám đốc thuộc trường hợp không phù hợp để chia sẻ với Ban điều hành."
+    ],
+    "trap": "Cho rằng CAE luôn phải kể lại cho Ban điều hành mọi nội dung đã trao đổi riêng với Ủy ban Kiểm toán.",
+    "refs": [
+      "GIAS 6.3",
+      "GIAS 1.1",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-S12",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Giám đốc tài chính không đồng ý với một phát hiện về dự phòng nợ xấu. CAE định trình thẳng phát hiện này tại cuộc họp Ủy ban Kiểm toán tuần tới mà không trao đổi lại với Giám đốc tài chính, để 'Ủy ban nghe ý kiến khách quan'. Cách làm phù hợp hơn là gì?",
+    "options": [
+      "Trao đổi lại với Ban điều hành cấp cao trước, để thông tin trình Ủy ban có cả quan điểm của họ.",
+      "Bỏ phát hiện khỏi chương trình họp cho đến khi Giám đốc tài chính đồng ý với phát hiện.",
+      "Giữ kế hoạch, vì trao đổi trước có thể khiến Giám đốc tài chính chuẩn bị phản bác.",
+      "Gửi phát hiện cho từng thành viên Ủy ban qua email riêng, không đưa vào cuộc họp chính thức."
+    ],
+    "answer": 0,
+    "explanation": "Hướng dẫn của GIAS 8.1 nêu bất đồng giữa CAE và Ban điều hành cấp cao thường nên được trao đổi với Ban điều hành cấp cao trước, để thông tin trình HĐQT chính xác và phản ánh cả quan điểm của Ban điều hành. Trao đổi trước không có nghĩa là bỏ phát hiện: nếu vẫn bất đồng, CAE vẫn trình bày với HĐQT, kèm quan điểm của cả hai bên.",
+    "optionNotes": [
+      "Đúng. Trao đổi với Ban điều hành cấp cao trước giúp thông tin trình Ủy ban chính xác và đủ quan điểm.",
+      "Sai. Phát hiện không cần sự đồng ý của Ban điều hành mới được báo cáo; bất đồng vẫn được trình bày với HĐQT.",
+      "Sai. Không trao đổi trước khiến Ủy ban chỉ nghe một phía; thông tin trình HĐQT nên phản ánh cả quan điểm của Ban điều hành.",
+      "Sai. Email riêng làm vấn đề thiếu minh bạch và không có cơ hội thảo luận; vấn đề quan trọng nên được trình chính thức."
+    ],
+    "trap": "Cho rằng muốn khách quan thì phải trình bất đồng lên Ủy ban mà không trao đổi lại với Ban điều hành.",
+    "refs": [
+      "GIAS 8.1",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
   }
 ]
