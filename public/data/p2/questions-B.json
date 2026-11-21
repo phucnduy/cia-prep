@@ -1406,5 +1406,354 @@
       "CIA Part 2 B.5"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-B-Y01",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Để kết luận kiểm soát phê duyệt chiết khấu vận hành tốt cả năm, kiểm toán viên kiểm tra 2 trên tổng số 300 phiếu chiết khấu, cả 2 đều có chữ ký duyệt. Vấn đề chính của bằng chứng này là gì?",
+    "options": [
+      "Thiếu tính phù hợp, vì phiếu chiết khấu không liên quan đến kiểm soát phê duyệt.",
+      "Chưa đủ, vì 2 mẫu không đủ để người thận trọng khác đi đến cùng kết luận.",
+      "Thiếu độ tin cậy, vì chữ ký duyệt luôn có thể bị làm giả trên phiếu chiết khấu.",
+      "Không có vấn đề, vì cả 2 mẫu đều không có ngoại lệ nào về chữ ký duyệt."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.1 yêu cầu thông tin phù hợp, đáng tin cậy và đầy đủ. Thông tin đầy đủ khi đủ về thực chất và số lượng để một người thận trọng, có hiểu biết đi đến cùng kết luận như kiểm toán viên. Hai mẫu trong 300 phiếu quá ít để kết luận kiểm soát vận hành cả năm, dù không có ngoại lệ.",
+    "optionNotes": [
+      "Sai. Phiếu chiết khấu có chữ ký duyệt là bằng chứng phù hợp với kiểm soát phê duyệt; vấn đề là số lượng.",
+      "Đúng. Hai mẫu không đủ để người thận trọng khác đi đến cùng kết luận cho cả năm.",
+      "Sai. Khả năng làm giả không làm mọi chữ ký kém tin cậy; vấn đề chính ở đây là mẫu quá ít.",
+      "Sai. Không có ngoại lệ trong mẫu quá nhỏ không đủ cơ sở kết luận cho toàn bộ tổng thể."
+    ],
+    "trap": "Coi mẫu nhỏ không có ngoại lệ là đủ để kết luận kiểm soát vận hành cả năm.",
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y02",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Kế toán tài sản đề nghị kiểm toán viên dùng luôn bảng tính khấu hao của phòng để tiết kiệm thời gian. Để có cơ sở tin cậy nhất về chi phí khấu hao năm nay, kiểm toán viên nên dựa vào nguồn nào?",
+    "options": [
+      "Bảng tính khấu hao do kế toán tài sản lập và gửi cho kiểm toán viên.",
+      "Email của Giám đốc tài chính xác nhận chi phí khấu hao đã được tính đúng quy định.",
+      "Kết quả kiểm toán viên tự tính lại từ nguyên giá và thời gian sử dụng đã kiểm chứng.",
+      "Thư giải trình của Ban điều hành cam kết số liệu khấu hao là chính xác."
+    ],
+    "answer": 2,
+    "explanation": "Bằng chứng do kiểm toán viên trực tiếp tạo ra (như tự tính lại từ dữ liệu đầu vào đã kiểm chứng) thường tin cậy hơn bằng chứng do đơn vị lập hoặc lời xác nhận của chính người chịu trách nhiệm. Hướng dẫn của GIAS 14.1 nêu kiểm toán viên nên đánh giá thông tin có phải là dữ kiện, có hiện hành và được thu thập trực tiếp hay từ nguồn độc lập hay không.",
+    "optionNotes": [
+      "Sai. Bảng tính do đơn vị lập có thể sai hoặc bị điều chỉnh; cần kiểm chứng chứ không tin cậy cao nhất.",
+      "Sai. Xác nhận của người chịu trách nhiệm số liệu không phải nguồn độc lập.",
+      "Đúng. Kiểm toán viên tự tính lại từ dữ liệu đã kiểm chứng là bằng chứng trực tiếp, tin cậy cao.",
+      "Sai. Thư giải trình là cam kết của chính Ban điều hành, không thay được bằng chứng trực tiếp."
+    ],
+    "trap": "Tin vào bảng tính hoặc xác nhận của đơn vị hơn bằng chứng kiểm toán viên tự tạo ra.",
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y03",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Để kiểm tra doanh thu bán lẻ hằng ngày của cả năm, kiểm toán viên chọn mẫu hệ thống: bắt đầu từ ngày Chủ nhật đầu tiên rồi cứ cách 7 ngày lấy một ngày. Rủi ro chính của cách chọn này là gì?",
+    "options": [
+      "Mẫu quá lớn so với tổng thể 365 ngày nên tốn nhiều thời gian kiểm tra.",
+      "Kiểm toán viên không chọn được các ngày lễ trong năm vào mẫu.",
+      "Chọn mẫu hệ thống không thể dùng cho dữ liệu doanh thu theo ngày.",
+      "Mẫu chỉ gồm ngày Chủ nhật nên không đại diện cho các ngày khác."
+    ],
+    "answer": 3,
+    "explanation": "Chọn mẫu hệ thống dễ bị lệch khi tổng thể có chu kỳ trùng với khoảng cách chọn. Khoảng cách 7 ngày bắt đầu từ Chủ nhật làm mọi mẫu đều là Chủ nhật, có thể có doanh thu và kiểm soát khác ngày thường. Hướng dẫn của GIAS 14.1 nêu khi chọn mẫu, kiểm toán viên nên áp dụng cách làm để mẫu đại diện tốt nhất cho tổng thể, ví dụ chọn nhiều điểm bắt đầu ngẫu nhiên.",
+    "optionNotes": [
+      "Sai. Khoảng 52 ngày không phải là mẫu quá lớn; vấn đề là mẫu bị lệch về một ngày trong tuần.",
+      "Sai. Ngày lễ có thể rơi vào mẫu hoặc không; rủi ro lớn hơn là cả mẫu lệch về một ngày cố định.",
+      "Sai. Chọn mẫu hệ thống dùng được, nhưng phải tránh khoảng cách trùng với chu kỳ của dữ liệu.",
+      "Đúng. Khoảng cách trùng chu kỳ tuần làm mẫu chỉ gồm Chủ nhật, không đại diện."
+    ],
+    "trap": "Không nhận ra mẫu hệ thống bị lệch khi khoảng cách chọn trùng với chu kỳ của tổng thể.",
+    "refs": [
+      "GIAS 14.1",
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y04",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên đứng trước tủ hồ sơ và rút 30 bộ hồ sơ 'bất kỳ, không theo quy tắc nào', rồi định dùng công thức thống kê để suy rộng tỷ lệ lỗi cho toàn bộ hồ sơ. Nhận định nào đúng nhất?",
+    "options": [
+      "Chưa phù hợp; đây là chọn mẫu tùy tiện nên không suy rộng thống kê được.",
+      "Phù hợp, vì chọn không theo quy tắc nào chính là chọn mẫu ngẫu nhiên.",
+      "Phù hợp, nếu số hồ sơ được rút ra lớn hơn 25 bộ theo thông lệ của bộ phận kiểm toán.",
+      "Chưa phù hợp; mẫu thống kê chỉ được chọn từ dữ liệu điện tử, không chọn từ hồ sơ giấy."
+    ],
+    "answer": 0,
+    "explanation": "Chọn mẫu tùy tiện (haphazard) là chọn theo cảm nhận, dễ bị lệch về hồ sơ dễ lấy hoặc nằm ở vị trí thuận tay, nên không bảo đảm mỗi phần tử có cơ hội được chọn như nhau. Vì vậy không dùng được công thức thống kê để suy rộng. Muốn suy rộng thống kê, cần chọn ngẫu nhiên thật (bảng số ngẫu nhiên, phần mềm) trên danh sách đầy đủ. Đây là kiến thức chọn mẫu chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Chọn mẫu tùy tiện không cho phép suy rộng bằng công thức thống kê.",
+      "Sai. 'Không theo quy tắc' là chọn tùy tiện, không phải ngẫu nhiên theo nghĩa thống kê.",
+      "Sai. Cỡ mẫu lớn hơn không sửa được cách chọn thiếu ngẫu nhiên.",
+      "Sai. Mẫu thống kê chọn được từ hồ sơ giấy nếu có danh sách đầy đủ và cách chọn ngẫu nhiên."
+    ],
+    "trap": "Nhầm chọn mẫu tùy tiện với chọn mẫu ngẫu nhiên thống kê.",
+    "refs": [
+      "CIA Part 2 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y05",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Quy định của công ty giới hạn làm thêm giờ tối đa 40 giờ mỗi tháng cho mỗi nhân viên. Để đánh giá việc tuân thủ, kiểm toán viên so tổng giờ làm thêm của chi nhánh với số nhân viên rồi kết luận 'trung bình 25 giờ, tuân thủ tốt'. Vấn đề của phân tích là gì?",
+    "options": [
+      "Không có vấn đề, vì mức trung bình 25 giờ thấp hơn giới hạn 40 giờ.",
+      "Phép so sánh không khớp tiêu chí, vì giới hạn áp dụng cho từng người, từng tháng.",
+      "Phân tích cần tính thêm chi phí làm thêm giờ so với ngân sách của chi nhánh.",
+      "Phân tích nên dùng số liệu của cả năm thay vì từng tháng để chính xác hơn."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 14.2 nêu phân tích nên tạo ra phép so sánh có ý nghĩa giữa tiêu chí và thực trạng. Tiêu chí là giới hạn cho từng nhân viên từng tháng, nên mức trung bình chung có thể che giấu những người làm 80 giờ. Phép so sánh phù hợp là so giờ làm thêm của từng người, từng tháng với 40 giờ.",
+    "optionNotes": [
+      "Sai. Trung bình thấp vẫn có thể có nhiều người vượt giới hạn; trung bình che giấu vi phạm cá nhân.",
+      "Đúng. Phân tích phải so đúng đơn vị của tiêu chí: từng người, từng tháng.",
+      "Sai. Chi phí so với ngân sách là câu hỏi khác; nó không trả lời việc tuân thủ giới hạn giờ.",
+      "Sai. Gộp cả năm càng làm mất khả năng thấy vi phạm theo tháng như tiêu chí quy định."
+    ],
+    "trap": "So sánh số trung bình với tiêu chí áp dụng cho từng cá nhân, che giấu vi phạm.",
+    "refs": [
+      "GIAS 14.2",
+      "CIA Part 2 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y06",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 2,
+    "stem": "Trong dự thảo phát hiện về hồ sơ khách hàng, câu nào dưới đây mô tả thành phần 'ảnh hưởng' (effect) của phát hiện?",
+    "options": [
+      "Quy định yêu cầu mọi hồ sơ mở tài khoản phải có xác minh nhân thân trước khi kích hoạt.",
+      "18 trên 60 hồ sơ được kích hoạt trước khi hoàn tất xác minh nhân thân.",
+      "Ngân hàng có thể bị phạt và bị lợi dụng để rửa tiền qua các tài khoản chưa xác minh.",
+      "Hệ thống cho phép kích hoạt tài khoản mà không cần trạng thái 'đã xác minh'."
+    ],
+    "answer": 2,
+    "explanation": "Một phát hiện thường gồm tiêu chí (điều phải có), thực trạng (điều đang có), nguyên nhân (vì sao có chênh lệch) và ảnh hưởng (rủi ro hoặc thiệt hại tiềm tàng). Khả năng bị phạt và bị lợi dụng rửa tiền là ảnh hưởng. Hướng dẫn của GIAS 14.3 nêu mẫu ghi nhận phát hiện có thể gồm thực trạng, nguyên nhân gốc, ảnh hưởng (rủi ro hoặc phơi nhiễm tiềm tàng), mức quan trọng và thứ tự ưu tiên.",
+    "optionNotes": [
+      "Sai. Đây là tiêu chí: điều quy định yêu cầu phải có.",
+      "Sai. Đây là thực trạng: điều kiểm toán viên quan sát được.",
+      "Đúng. Khả năng bị phạt và bị lợi dụng rửa tiền là ảnh hưởng của phát hiện.",
+      "Sai. Đây là nguyên nhân: điểm yếu của hệ thống dẫn đến chênh lệch."
+    ],
+    "trap": "Nhầm các thành phần tiêu chí, thực trạng, nguyên nhân và ảnh hưởng của phát hiện.",
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 2 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y07",
+    "section": "B",
+    "topic": "B6",
+    "difficulty": 3,
+    "stem": "Phát hiện: 25% phiếu chi thiếu chứng từ gốc. Dự thảo ghi nguyên nhân là 'Nhân viên kế toán không tuân thủ quy định về chứng từ.' Người rà soát yêu cầu viết lại. Lý do phù hợp nhất là gì?",
+    "options": [
+      "Nguyên nhân không được nêu đích danh bộ phận kế toán trong báo cáo kiểm toán.",
+      "Nguyên nhân phải do Ban điều hành tự viết, kiểm toán viên không được nêu.",
+      "Nguyên nhân phải được nêu bằng số liệu, ví dụ tỷ lệ phần trăm phiếu chi bị lỗi.",
+      "Câu này chỉ nhắc lại thực trạng; cần tìm vì sao việc không tuân thủ xảy ra."
+    ],
+    "answer": 3,
+    "explanation": "'Không tuân thủ quy định' chỉ mô tả lại chênh lệch giữa thực trạng và tiêu chí, chưa phải nguyên nhân. Nguyên nhân gốc trả lời vì sao: hệ thống cho phép chi khi chưa đính kèm chứng từ, quy định không rõ, áp lực thời hạn, không có rà soát. GIAS 14.3 yêu cầu phối hợp với quản lý để xác định nguyên nhân gốc khi có thể; kỹ thuật như hỏi 'vì sao' nhiều lần giúp đi đến nguyên nhân.",
+    "optionNotes": [
+      "Sai. Nêu bộ phận liên quan không bị cấm; vấn đề là câu này chưa giải thích được nguyên nhân.",
+      "Sai. Kiểm toán viên xác định nguyên nhân cùng quản lý; không phải để Ban điều hành tự viết.",
+      "Sai. Số liệu thuộc phần thực trạng; nguyên nhân giải thích lý do chứ không đo lường.",
+      "Đúng. Câu nguyên nhân chỉ nhắc lại thực trạng, cần đào sâu vì sao xảy ra."
+    ],
+    "trap": "Ghi lại thực trạng dưới dạng 'không tuân thủ' và coi đó là nguyên nhân gốc.",
+    "refs": [
+      "GIAS 14.3",
+      "CIA Part 2 B.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y09",
+    "section": "B",
+    "topic": "B7",
+    "difficulty": 3,
+    "stem": "Sau cuộc kiểm toán, Giám đốc chi nhánh đề nghị được xem toàn bộ hồ sơ kiểm toán, kể cả biên bản phỏng vấn các nhân viên của chi nhánh, để 'hiểu rõ vì sao có phát hiện'. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Xử lý theo quy định tiếp cận hồ sơ của bộ phận; CAE quyết định phần được cung cấp.",
+      "Cung cấp toàn bộ, vì hồ sơ kiểm toán nói về chính chi nhánh của Giám đốc.",
+      "Từ chối mọi yêu cầu, vì hồ sơ kiểm toán không bao giờ được cung cấp cho bất kỳ ai.",
+      "Để trưởng nhóm tự quyết định cung cấp, vì trưởng nhóm hiểu rõ hồ sơ nhất."
+    ],
+    "answer": 0,
+    "explanation": "Hồ sơ kiểm toán thuộc quyền quản lý của bộ phận kiểm toán nội bộ; việc lưu giữ và cung cấp hồ sơ theo phương pháp của bộ phận và chính sách của tổ chức (GIAS 14.6, hướng dẫn của GIAS 9.3). Biên bản phỏng vấn nhân viên có thể nhạy cảm, nên việc cung cấp cần được cân nhắc để bảo vệ người cung cấp thông tin (GIAS 5.2). CAE quyết định theo quy định, có thể cung cấp phần phù hợp.",
+    "optionNotes": [
+      "Đúng. Việc cung cấp hồ sơ theo quy định của bộ phận, do CAE quyết định.",
+      "Sai. Đơn vị được kiểm toán không đương nhiên được xem toàn bộ hồ sơ; có phần nhạy cảm cần bảo vệ.",
+      "Sai. Hồ sơ có thể được cung cấp có kiểm soát; từ chối tuyệt đối không phải yêu cầu của Chuẩn mực.",
+      "Sai. Cung cấp hồ sơ theo phương pháp đã thiết lập và thẩm quyền của CAE, không do trưởng nhóm tự quyết."
+    ],
+    "trap": "Cho rằng đơn vị được kiểm toán đương nhiên được xem toàn bộ hồ sơ, hoặc hồ sơ tuyệt đối không được cung cấp.",
+    "refs": [
+      "GIAS 14.6",
+      "GIAS 9.3",
+      "GIAS 5.2",
+      "CIA Part 2 B.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y10",
+    "section": "B",
+    "topic": "B7",
+    "difficulty": 2,
+    "stem": "Tại họp kết thúc, Giám đốc khối đã đồng ý với ba phát hiện và hạn khắc phục, nhưng nhóm không lưu biên bản hay email xác nhận nào. Hồ sơ kiểm toán còn thiếu nội dung gì?",
+    "options": [
+      "Đánh giá năng lực của các thành viên nhóm kiểm toán.",
+      "Bằng chứng về việc trao đổi kết quả với các bên phù hợp.",
+      "Bản sao toàn bộ quy trình nội bộ của khối được kiểm toán.",
+      "Ý kiến của kiểm toán độc lập về các phát hiện đã trao đổi."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 14.6 nêu hồ sơ cuộc kiểm toán nên gồm bằng chứng đã trao đổi với các bên phù hợp, bên cạnh mục tiêu, phạm vi, chương trình, mô tả phân tích, kết quả và người thực hiện, giám sát. Không lưu biên bản hay xác nhận thì khó chứng minh đơn vị đã đồng ý phát hiện và hạn khắc phục khi có tranh chấp sau này.",
+    "optionNotes": [
+      "Sai. Đánh giá năng lực nhân viên thuộc quản lý nhân sự, không phải nội dung hồ sơ cuộc kiểm toán.",
+      "Đúng. Hồ sơ nên có bằng chứng trao đổi kết quả với các bên phù hợp.",
+      "Sai. Lưu toàn bộ quy trình của khối không cần thiết; hồ sơ chỉ cần thông tin liên quan đến công việc.",
+      "Sai. Kiểm toán độc lập không tham gia xác nhận phát hiện của kiểm toán nội bộ."
+    ],
+    "trap": "Không lưu bằng chứng về việc trao đổi và thống nhất kết quả với đơn vị.",
+    "refs": [
+      "GIAS 14.6",
+      "CIA Part 2 B.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y11",
+    "section": "B",
+    "topic": "B7",
+    "difficulty": 2,
+    "stem": "Sau khi CAE đã rà soát và phê duyệt hồ sơ, một kiểm toán viên mở lại giấy làm việc trên phần mềm và sửa số liệu cho khớp với báo cáo, không để lại dấu vết gì. Vấn đề chính là gì?",
+    "options": [
+      "Không có vấn đề, vì số liệu sau khi sửa đã khớp với báo cáo cuối cùng.",
+      "Phần mềm kiểm toán phải được thay bằng hồ sơ giấy để tránh bị sửa.",
+      "Hồ sơ đã duyệt bị sửa không kiểm soát, nên việc rà soát mất giá trị.",
+      "Kiểm toán viên phải in giấy làm việc ra trước khi sửa để giữ bản gốc."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 14.6 yêu cầu CAE rà soát và phê duyệt hồ sơ cuộc kiểm toán. Sửa hồ sơ sau khi duyệt mà không có dấu vết làm phần đã duyệt không còn là phần được rà soát, và có thể che giấu sai lệch giữa bằng chứng và báo cáo. Thay đổi sau phê duyệt nên được kiểm soát: ghi lý do, người sửa, thời điểm và được duyệt lại.",
+    "optionNotes": [
+      "Sai. Khớp số không chứng minh số mới đúng; có thể bằng chứng mới là cái bị sửa cho khớp báo cáo.",
+      "Sai. Hồ sơ điện tử có thể kiểm soát tốt hơn; vấn đề là thiếu kiểm soát thay đổi, không phải công cụ.",
+      "Đúng. Thay đổi không kiểm soát sau phê duyệt làm mất giá trị của việc rà soát.",
+      "Sai. In ra không giải quyết vấn đề; điều cần là thay đổi được ghi vết và duyệt lại."
+    ],
+    "trap": "Sửa hồ sơ đã duyệt cho khớp báo cáo mà không ghi vết và không duyệt lại.",
+    "refs": [
+      "GIAS 14.6",
+      "CIA Part 2 B.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y12",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Nhóm kiểm toán đã chạy phép kiểm tra trên 100% giao dịch chi phí và không thấy ngoại lệ. Trưởng nhóm định kết luận 'kiểm toán nội bộ bảo đảm tuyệt đối không có chi phí sai'. Nhận định nào đúng nhất?",
+    "options": [
+      "Chưa đúng; phân tích toàn bộ giao dịch không được dùng làm bằng chứng kiểm toán.",
+      "Đúng, vì kiểm tra toàn bộ tổng thể đã loại bỏ mọi rủi ro của cuộc kiểm toán.",
+      "Đúng, nếu dữ liệu được lấy trực tiếp từ hệ thống kế toán của công ty.",
+      "Chưa đúng; chỉ loại bỏ rủi ro chọn mẫu, vẫn còn rủi ro về dữ liệu và phép kiểm tra."
+    ],
+    "answer": 3,
+    "explanation": "Kiểm tra toàn bộ tổng thể bằng công nghệ loại bỏ rủi ro chọn mẫu, nhưng kết luận vẫn phụ thuộc vào tính đầy đủ, chính xác của dữ liệu, vào việc phép kiểm tra có bao quát mọi dạng sai sót hay không, và vào sai phạm không để lại dấu vết trong dữ liệu (như thông đồng, chứng từ giả hợp lệ về hình thức). Vì vậy kết luận chỉ là đảm bảo hợp lý. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Phân tích toàn bộ giao dịch là bằng chứng hợp lệ và thường hữu ích hơn chọn mẫu.",
+      "Sai. Vẫn còn rủi ro dữ liệu sai và rủi ro mà phép kiểm tra không được thiết kế để phát hiện.",
+      "Sai. Dữ liệu từ hệ thống vẫn có thể thiếu hoặc sai; nguồn không làm kết luận thành tuyệt đối.",
+      "Đúng. Kiểm tra toàn bộ chỉ loại bỏ rủi ro chọn mẫu; kết luận vẫn là đảm bảo hợp lý."
+    ],
+    "trap": "Cho rằng phân tích 100% giao dịch đem lại đảm bảo tuyệt đối.",
+    "refs": [
+      "CIA Part 2 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y13",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "Kiểm toán viên muốn biết có phiếu thu nào được đánh số trong năm nhưng không có trên hệ thống kế toán, có thể do bị hủy hoặc thu tiền không ghi sổ. Phép kiểm tra dữ liệu nào phù hợp nhất?",
+    "options": [
+      "Kiểm tra khoảng trống trong dãy số phiếu thu.",
+      "Kiểm tra trùng lặp số phiếu thu trong năm.",
+      "Phân tích phân phối chữ số đầu của số tiền thu.",
+      "Phân tầng phiếu thu theo giá trị để chọn mẫu."
+    ],
+    "answer": 0,
+    "explanation": "Kiểm tra khoảng trống (gap test) tìm các số bị thiếu trong một dãy đánh số liên tục, như phiếu thu, hóa đơn, séc. Số bị thiếu có thể do phiếu bị hủy hợp lệ, cần chứng từ hủy, hoặc do thu tiền không ghi sổ. Kiểm tra trùng tìm số lặp; phân tích chữ số đầu tìm bất thường về phân phối số tiền. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Kiểm tra khoảng trống tìm số bị thiếu trong dãy đánh số liên tục.",
+      "Sai. Kiểm tra trùng tìm số xuất hiện nhiều lần, không tìm được số bị thiếu.",
+      "Sai. Phân tích chữ số đầu tìm bất thường của số tiền, không phát hiện phiếu bị thiếu.",
+      "Sai. Phân tầng là cách chọn mẫu, không phải phép kiểm tra tìm số thứ tự bị thiếu."
+    ],
+    "trap": "Nhầm kiểm tra khoảng trống với kiểm tra trùng lặp hoặc phân tích chữ số đầu.",
+    "refs": [
+      "CIA Part 2 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-B-Y14",
+    "section": "B",
+    "topic": "B5",
+    "difficulty": 3,
+    "stem": "Chi phí bảo trì máy móc năm nay thấp hơn ngân sách 45%, trong khi sản lượng tăng. Báo cáo của đơn vị gọi đây là 'tiết kiệm chi phí đáng khen'. Kiểm toán viên nên hiểu chênh lệch này thế nào?",
+    "options": [
+      "Chênh lệch thuận lợi nên không cần tìm hiểu thêm, chỉ ghi nhận thành tích.",
+      "Cần tìm nguyên nhân, vì bảo trì có thể bị hoãn hoặc bị ghi sang khoản khác.",
+      "Ngân sách năm sau nên được giảm 45% theo mức thực tế của năm nay.",
+      "Chỉ chênh lệch vượt ngân sách mới thuộc phạm vi phân tích của kiểm toán."
+    ],
+    "answer": 1,
+    "explanation": "Phân tích chênh lệch xét cả chênh lệch thuận lợi lẫn bất lợi. Chi phí bảo trì giảm mạnh khi sản lượng tăng là bất thường: có thể bảo trì bị hoãn (rủi ro hỏng máy, chi phí lớn hơn sau này) hoặc chi phí bị ghi sang khoản khác (như vốn hóa). Kiểm toán viên cần tìm nguyên nhân và kiểm chứng. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Chênh lệch thuận lợi lớn bất thường cũng có thể che giấu rủi ro hoặc sai sót.",
+      "Đúng. Chênh lệch lớn, ngược chiều với sản lượng, cần được tìm nguyên nhân.",
+      "Sai. Chưa biết nguyên nhân thì không thể kết luận mức chi thực tế là phù hợp để làm ngân sách.",
+      "Sai. Phân tích chênh lệch xét cả hai chiều; chênh lệch thuận lợi cũng có thể là dấu hiệu rủi ro."
+    ],
+    "trap": "Bỏ qua chênh lệch thuận lợi lớn vì nghĩ chỉ chênh lệch bất lợi mới cần điều tra.",
+    "refs": [
+      "CIA Part 2 B.5"
+    ],
+    "source": "original"
   }
 ]
