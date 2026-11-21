@@ -42,6 +42,7 @@
       "GIAS 13.1",
       "GIAS 11.2"
     ],
+    "trap": "Giữ vấn đề nghiêm trọng đến báo cáo cuối, hoặc báo thẳng HĐQT bỏ qua Ban điều hành.",
     "source": "original",
     "optionNotes": [
       "Đúng. Vấn đề cần xử lý ngay phải được trao đổi kịp thời với quản lý phù hợp.",
@@ -98,6 +99,7 @@
     "refs": [
       "GIAS 13.1"
     ],
+    "trap": "Bỏ hoặc hạ mức phát hiện vì đơn vị không đồng ý, dù không có bằng chứng mới.",
     "source": "original"
   },
   {
@@ -124,6 +126,7 @@
       "GIAS 12.3",
       "CIA Part 2 C.1"
     ],
+    "trap": "Cho rằng thuê ngoài thì trách nhiệm giám sát cuộc kiểm toán chuyển sang bên ngoài.",
     "source": "original"
   },
   {
@@ -151,6 +154,7 @@
       "GIAS 13.6",
       "CIA Part 2 C.1"
     ],
+    "trap": "Duyệt chương trình theo số thủ tục hay mẫu biểu, thay vì theo khả năng đạt mục tiêu.",
     "source": "original"
   },
   {
@@ -177,6 +181,7 @@
       "GIAS 12.3",
       "CIA Part 2 C.1"
     ],
+    "trap": "Cho rằng bộ phận nhỏ được bỏ qua yêu cầu giám sát.",
     "source": "original"
   },
   {
@@ -203,6 +208,7 @@
       "GIAS 12.3",
       "CIA Part 2 C.1"
     ],
+    "trap": "Cho rằng đã rà soát thực tế là đủ, không cần ghi lại bằng chứng giám sát.",
     "source": "original"
   },
   {
@@ -257,6 +263,7 @@
       "GIAS 12.3",
       "CIA Part 2 C.1"
     ],
+    "trap": "Nhầm lỗi về tính khách quan trong cách viết với lỗi về tính súc tích hay đầy đủ.",
     "source": "original"
   },
   {
@@ -283,6 +290,7 @@
       "GIAS 13.1",
       "CIA Part 2 C.2"
     ],
+    "trap": "Đưa phát hiện dự kiến hoặc kết luận sơ bộ vào thông báo kiểm toán.",
     "source": "original"
   },
   {
@@ -309,6 +317,7 @@
       "GIAS 13.1",
       "CIA Part 2 C.2"
     ],
+    "trap": "Cho rằng họp khởi động là để đơn vị duyệt chương trình hoặc chọn mẫu cho kiểm toán viên.",
     "source": "original"
   },
   {
@@ -335,6 +344,7 @@
       "GIAS 14.4",
       "CIA Part 2 C.2"
     ],
+    "trap": "Trao đổi kiến nghị với nhân viên thực hiện hoặc chỉ với HĐQT, thay vì cấp có thẩm quyền thay đổi.",
     "source": "original"
   },
   {
@@ -361,6 +371,7 @@
       "GIAS 14.4",
       "CIA Part 2 C.2"
     ],
+    "trap": "Rút kiến nghị để giữ quan hệ hoặc báo ra bên ngoài, thay vì CAE làm việc với Ban điều hành.",
     "source": "original"
   },
   {
@@ -415,6 +426,7 @@
       "GIAS 13.3",
       "CIA Part 2 C.2"
     ],
+    "trap": "Cho rằng thay đổi phạm vi đã được CAE duyệt thì không cần thông báo cho quản lý đơn vị.",
     "source": "original"
   }
 ]

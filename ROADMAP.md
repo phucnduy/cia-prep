@@ -9,7 +9,7 @@ Live site: https://phucnduy.github.io/cia-prep/ (GitHub Pages, deployed by pushi
 | Part | Questions | Full exam needs | Easy / medium / hard | Trap-tagged | Status |
 |---|---|---|---|---|---|
 | P1 Internal Audit Fundamentals | 505 | 125 (A44 B25 C37 D19) | 1 / 53 / 46% | 388 | ready |
-| P2 Internal Audit Engagement | 106 | 100 (A50 B40 C10); now A50 B40 C16 | 6 / 56 / 39% | 27 | ready (one full exam) |
+| P2 Internal Audit Engagement | 106 | 100 (A50 B40 C10); now A50 B40 C16 | 6 / 56 / 39% | 92 | ready (one full exam) |
 | P3 Internal Audit Function | 100 | 100 (A25 B15 C15 D45); now A25 B15 C15 D45 | 2 / 58 / 40% | 76 | ready (one full exam) |
 
 Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audit:bank` for current numbers and thin topics.
@@ -17,7 +17,7 @@ Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audi
 ## Next work, in priority order
 
 1. **P3 from one full exam (100) to 200.** Every mock exam now draws the same 100 questions (shuffled); a second set is needed before mock results mean much. Thin topics: B1, B3, C3, D8 (4 each).
-2. **P2 to 200, and trap-tag the older P2 questions** (only 27 of 106 tagged). Thin topics: B1, B3, B4, B5, B8 (4 each).
+2. **P2 to 200.** Trap tagging done (92 of 106). Thin topics: B1, B3, B4, B5, B8 (4 each).
 3. **Raise hard share and traps.** P3 hard is 26% (aim 40%). New batches: at least 60% trap, easy at most 10%.
 4. **Cross-part repeats** (same concept in P1 and P2/P3, lower priority since parts are separate exams): P2-A-M22 / P1-C-N09 (RTO and RPO), P2-B-H03 / P1-D-L013 (Benford), P2-C-M01 / P1-B-M21 (outsourced engagement, CAE still responsible), P3-D-003 / P1-C-L027 (cost-benefit). Also P2-A-005 / P2-A-M19 (missing analytics skills) is a mild hint pair.
 5. **More "what first" sequence questions.** P1 has 11 of 505.
@@ -41,6 +41,7 @@ Two sessions must not edit the same `public/data/<part>/questions-<section>.json
 
 ## Done (recent)
 
+- 2026-11-21: P2 older questions trap-tagged (65 more; 92 of 106, 87%). Untagged ones are recall items. Noted near-pair left in place: P2-A-002 / P2-A-M09 (no criteria; M09 adds the advisory option).
 - 2026-11-21: P2 manifest status set to ready (user decision); all three parts now show 'Sẵn sàng thi thử'.
 - 2026-11-21: P2 reaches one full exam (A50 B40 C16). Batch S of 17 (all trap, 7 hard): objectives aligned with the activity's goals, assurance vs advisory decided by substance, scope must name outsourced processes and systems (13.3); sharing criteria up front (13.4); risk tolerance and management's own measures in planning (13.2, 13.4); continuous auditing, multi-site approach (14.2, 13.5); risk assessment across compliance, IT and fraud (13.2); planning work in workpapers (13.6); resources vs deadline, an internal expert who built the model (13.5); information must be current (14.1); fuzzy duplicate matching, triaging 1200 exceptions, regression, reasonableness test (14.2). One criteria question was replaced: it repeated P2-A-M08.
 - 2026-11-21: P3 manifest status set to ready (user decision); the validator checks every section has enough questions for a full exam.

@@ -17,6 +17,7 @@
       "GIAS 13.2",
       "GIAS 13.3"
     ],
+    "trap": "Đặt mục tiêu theo chương trình năm trước, mong muốn của đơn vị hay ngân sách còn lại, thay vì kết quả đánh giá rủi ro.",
     "source": "original",
     "optionNotes": [
       "Đúng. GIAS 13.3: mục tiêu và phạm vi phản ánh kết quả đánh giá rủi ro cuộc kiểm toán.",
@@ -42,6 +43,7 @@
     "refs": [
       "GIAS 13.4"
     ],
+    "trap": "Dừng kiểm toán hoặc kết luận không hiệu quả khi thiếu tiêu chí, thay vì xác định và thống nhất tiêu chí phù hợp.",
     "source": "original",
     "optionNotes": [
       "Sai. Tiêu chí phải phù hợp và được trao đổi, không áp đặt.",
@@ -92,6 +94,7 @@
     "refs": [
       "GIAS 13.6"
     ],
+    "trap": "Cho rằng chương trình kiểm toán lập sau thực địa, do đơn vị duyệt, hoặc không được điều chỉnh.",
     "source": "original",
     "optionNotes": [
       "Sai. Chương trình phải có trước khi thực hiện công việc.",
@@ -142,6 +145,7 @@
     "refs": [
       "GIAS 14.1"
     ],
+    "trap": "Chọn mẫu nhỏ hoặc phỏng vấn trong khi có thể phân tích toàn bộ giao dịch.",
     "source": "original",
     "optionNotes": [
       "Sai. Phỏng vấn chỉ cho biết chính sách được mô tả thế nào, không chứng minh giao dịch nào vượt hạn mức trong 2 triệu giao dịch.",
@@ -174,6 +178,7 @@
       "GIAS 13.3",
       "GIAS 15.1"
     ],
+    "trap": "Tự thu hẹp phạm vi hoặc báo thẳng HĐQT, bỏ qua bước trao đổi giới hạn phạm vi với Ban điều hành.",
     "source": "original"
   },
   {
@@ -199,6 +204,7 @@
     "refs": [
       "GIAS 13.3"
     ],
+    "trap": "Cho rằng mục tiêu chỉ dựa trên đánh giá rủi ro, bỏ qua các mục tiêu do pháp luật, quy định yêu cầu.",
     "source": "original"
   },
   {
@@ -224,6 +230,7 @@
     "refs": [
       "GIAS 13.2"
     ],
+    "trap": "Cho rằng mọi cuộc tư vấn đều phải có đánh giá rủi ro chính thức như cuộc đảm bảo.",
     "source": "original"
   },
   {
@@ -250,6 +257,7 @@
       "GIAS 13.2",
       "GIAS 4.3"
     ],
+    "trap": "Dùng nguyên kết quả tự đánh giá của đơn vị thay cho đánh giá rủi ro của kiểm toán viên.",
     "source": "original"
   },
   {
@@ -277,6 +285,7 @@
       "GIAS 13.2",
       "CIA Part 2 A.1"
     ],
+    "trap": "Cho rằng Yêu cầu theo chủ đề chỉ áp dụng khi chủ đề là tên của cuộc kiểm toán.",
     "source": "original"
   },
   {
@@ -331,6 +340,7 @@
       "GIAS 9.4",
       "CIA Part 2 A.1"
     ],
+    "trap": "Cho rằng Yêu cầu theo chủ đề bắt buộc kiểm toán chủ đề đó mỗi năm.",
     "source": "original"
   },
   {
@@ -384,6 +394,7 @@
       "GIAS 13.3",
       "CIA Part 2 A.1"
     ],
+    "trap": "Chấp nhận ngay đề nghị rút ngắn thời gian mà không xét đó có phải là giới hạn phạm vi.",
     "source": "original"
   },
   {
@@ -411,6 +422,7 @@
       "GIAS 13.1",
       "CIA Part 2 A.1"
     ],
+    "trap": "Cho rằng trưởng nhóm hoặc đơn vị được kiểm toán quyết định thay đổi phạm vi.",
     "source": "original"
   },
   {
@@ -437,6 +449,7 @@
       "GIAS 13.4",
       "CIA Part 2 A.2"
     ],
+    "trap": "Cho rằng không có quy trình bằng văn bản thì không thể đánh giá.",
     "source": "original"
   },
   {
@@ -463,6 +476,7 @@
       "GIAS 13.4",
       "CIA Part 2 A.2"
     ],
+    "trap": "Cho rằng tiêu chí do Ban điều hành ban hành, hoặc chỉ tiêu càng cao, thì luôn đầy đủ.",
     "source": "original"
   },
   {
@@ -489,6 +503,7 @@
       "GIAS 13.4",
       "CIA Part 2 A.2"
     ],
+    "trap": "Hủy kiểm toán hoặc tự đặt tiêu chí khi chưa có tiêu chí, thay vì trao đổi với quản lý.",
     "source": "original"
   },
   {
@@ -515,6 +530,7 @@
       "GIAS 13.2",
       "CIA Part 2 A.5"
     ],
+    "trap": "Cho rằng phải làm lại toàn bộ đánh giá rủi ro, hoặc không cần đánh giá vì đã có kết quả năm trước.",
     "source": "original"
   },
   {
@@ -541,6 +557,7 @@
       "GIAS 13.2",
       "CIA Part 2 A.5"
     ],
+    "trap": "Áp dụng ngay chương trình chuẩn mà không tìm hiểu vì sao cuộc kiểm toán có trong kế hoạch.",
     "source": "original"
   },
   {
@@ -567,6 +584,7 @@
       "GIAS 13.2",
       "CIA Part 2 A.5"
     ],
+    "trap": "Cho rằng lấy ý kiến quản lý làm mất khách quan, hoặc để quản lý tự xếp hạng rủi ro.",
     "source": "original"
   },
   {
@@ -594,6 +612,7 @@
       "GIAS 13.6",
       "CIA Part 2 A.5"
     ],
+    "trap": "Cho rằng đánh giá thiết kế thay được kiểm tra vận hành, hoặc nhằm để quản lý kịp sửa.",
     "source": "original"
   },
   {
@@ -620,6 +639,7 @@
       "GIAS 13.2",
       "CIA Part 2 A.5"
     ],
+    "trap": "Kiểm tra đều mọi rủi ro hoặc chọn rủi ro dễ kiểm tra, thay vì xếp hạng theo ảnh hưởng và khả năng xảy ra.",
     "source": "original"
   },
   {
@@ -646,6 +666,7 @@
       "GIAS 13.6",
       "CIA Part 2 A.6"
     ],
+    "trap": "Chỉ ghi cỡ mẫu, bỏ qua phương pháp chọn mẫu, tổng thể và khả năng suy rộng.",
     "source": "original"
   },
   {
@@ -672,6 +693,7 @@
       "GIAS 13.6",
       "CIA Part 2 A.6"
     ],
+    "trap": "Cho rằng cuộc tư vấn không cần chương trình, hoặc kiểm toán viên tự lập như cuộc đảm bảo.",
     "source": "original"
   },
   {
@@ -699,6 +721,7 @@
       "GIAS 12.3",
       "CIA Part 2 A.6"
     ],
+    "trap": "Coi thông tin người thực hiện, ngày hoàn thành và dấu rà soát là hình thức không cần thiết.",
     "source": "original"
   },
   {
@@ -725,6 +748,7 @@
       "GIAS 13.6",
       "CIA Part 2 A.6"
     ],
+    "trap": "Dùng danh sách thủ tục chuẩn không liên kết với rủi ro và kiểm soát đã nhận diện.",
     "source": "original"
   },
   {
@@ -752,6 +776,7 @@
       "GIAS 8.2",
       "CIA Part 2 A.7"
     ],
+    "trap": "Giữ nguyên phạm vi hoặc hoãn kiểm toán mà không trao đổi hệ quả của thiếu nguồn lực với HĐQT.",
     "source": "original"
   },
   {
@@ -803,6 +828,7 @@
     "refs": [
       "CIA Part 2 A.3"
     ],
+    "trap": "Cho rằng kiểm soát tự động luôn tin cậy dù kiểm soát quản lý thay đổi chương trình yếu.",
     "source": "original"
   },
   {
@@ -828,6 +854,7 @@
     "refs": [
       "CIA Part 2 A.3"
     ],
+    "trap": "Đảo ngược RTO (thời gian khôi phục) và RPO (lượng dữ liệu được phép mất).",
     "source": "original"
   },
   {
@@ -878,6 +905,7 @@
     "refs": [
       "CIA Part 2 A.3"
     ],
+    "trap": "Nhầm rủi ro đánh giá giá trị hàng tồn kho với rủi ro số lượng hoặc ghi nhận doanh thu.",
     "source": "original"
   },
   {
@@ -903,6 +931,7 @@
     "refs": [
       "CIA Part 2 A.4"
     ],
+    "trap": "Áp dụng cách kiểm toán truyền thống, báo cáo muộn, cho dự án có rủi ro thay đổi hằng tháng.",
     "source": "original"
   },
   {
@@ -930,6 +959,7 @@
       "GIAS 12.3",
       "CIA Part 2 A.4"
     ],
+    "trap": "Cho rằng cách làm agile được miễn yêu cầu về hồ sơ và giám sát của Chuẩn mực.",
     "source": "original"
   },
   {
@@ -956,6 +986,7 @@
       "GIAS 14.1",
       "CIA Part 2 A.4"
     ],
+    "trap": "Coi ảnh chụp chứng từ qua email có độ tin cậy như bản gốc.",
     "source": "original"
   },
   {

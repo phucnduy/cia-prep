@@ -42,6 +42,7 @@
     "refs": [
       "GIAS 14.1"
     ],
+    "trap": "Thêm thuộc tính 'hữu ích' (IPPF 2017), hoặc đòi chữ ký, nguồn bên thứ ba cho mọi thông tin.",
     "source": "original",
     "optionNotes": [
       "Sai. Ký xác nhận từng trang không phải thuộc tính của thông tin.",
@@ -67,6 +68,7 @@
     "refs": [
       "GIAS 14.1"
     ],
+    "trap": "Cho rằng tài liệu nội bộ hoặc giải trình miệng đáng tin cậy ngang xác nhận gửi thẳng từ bên thứ ba.",
     "source": "original",
     "optionNotes": [
       "Sai. Giải trình bằng lời là bằng chứng kém tin cậy nhất vì chưa được chứng thực và dễ sai lệch.",
@@ -118,6 +120,7 @@
     "refs": [
       "GIAS 14.2"
     ],
+    "trap": "Kết luận sai sót ngay từ kết quả phân tích, thay vì tìm nguyên nhân và kiểm tra thêm.",
     "source": "original",
     "optionNotes": [
       "Sai. Biến động bất thường là tín hiệu cần điều tra, chưa phải kết luận.",
@@ -174,6 +177,7 @@
     "refs": [
       "GIAS 14.3"
     ],
+    "trap": "Tự kết luận nguyên nhân và xếp mức độ chỉ theo tỷ lệ lỗi, không cùng quản lý tìm nguyên nhân gốc.",
     "source": "original"
   },
   {
@@ -199,6 +203,7 @@
     "refs": [
       "GIAS 14.5"
     ],
+    "trap": "Cho rằng không có phát hiện thì không cần kết luận về hiệu quả của quy trình.",
     "source": "original"
   },
   {
@@ -224,6 +229,7 @@
     "refs": [
       "CIA Part 2 B.3"
     ],
+    "trap": "Nhầm phân tích Benford với kiểm tra khoảng trống số thứ tự hay chọn mẫu phân tầng.",
     "source": "original"
   },
   {
@@ -250,6 +256,7 @@
       "GIAS 14.1",
       "CIA Part 2 B.1"
     ],
+    "trap": "Chọn mẫu kiểm tra ngay hoặc dựa vào báo cáo năm trước, bỏ qua bước theo một giao dịch để xác nhận hiểu biết.",
     "source": "original"
   },
   {
@@ -302,6 +309,7 @@
       "GIAS 14.1",
       "CIA Part 2 B.1"
     ],
+    "trap": "Cho rằng quan sát một lần chứng minh kiểm soát vận hành ở mọi thời điểm.",
     "source": "original"
   },
   {
@@ -328,6 +336,7 @@
       "GIAS 14.1",
       "CIA Part 2 B.1"
     ],
+    "trap": "Chọn mẫu theo sự tiện lợi, khiến mẫu không đại diện cho tổng thể.",
     "source": "original"
   },
   {
@@ -354,6 +363,7 @@
       "GIAS 14.1",
       "CIA Part 2 B.2"
     ],
+    "trap": "Cho rằng báo cáo xuất từ hệ thống luôn tin cậy, dù quyền sửa dữ liệu không được kiểm soát.",
     "source": "original"
   },
   {
@@ -381,6 +391,7 @@
       "GIAS 4.3",
       "CIA Part 2 B.2"
     ],
+    "trap": "Chấp nhận giải trình miệng của người có thẩm quyền mà không chứng thực bằng nguồn độc lập.",
     "source": "original"
   },
   {
@@ -408,6 +419,7 @@
       "GIAS 15.1",
       "CIA Part 2 B.2"
     ],
+    "trap": "Kết luận trên phần dữ liệu còn lại hoặc kết luận yếu cả năm, thay vì xét nêu việc thiếu dữ liệu thành phát hiện.",
     "source": "original"
   },
   {
@@ -434,6 +446,7 @@
       "GIAS 14.1",
       "CIA Part 2 B.2"
     ],
+    "trap": "Nhầm thiếu tính phù hợp với thiếu độ tin cậy hoặc thiếu kịp thời.",
     "source": "original"
   },
   {
@@ -487,6 +500,7 @@
       "GIAS 4.2",
       "CIA Part 2 B.6"
     ],
+    "trap": "Cho rằng phải phân tích thêm đến khi chắc chắn tuyệt đối, bỏ qua mức quan trọng và chi phí - lợi ích.",
     "source": "original"
   },
   {
@@ -513,6 +527,7 @@
       "GIAS 14.3",
       "CIA Part 2 B.6"
     ],
+    "trap": "Đánh giá mức độ phát hiện theo số vi phạm, bỏ qua kiểm soát hiện có và rủi ro còn lại.",
     "source": "original"
   },
   {
@@ -539,6 +554,7 @@
       "GIAS 14.3",
       "CIA Part 2 B.6"
     ],
+    "trap": "Cho rằng mọi điểm nhỏ đều phải báo thành phát hiện, hoặc ngược lại không được nêu.",
     "source": "original"
   },
   {
@@ -565,6 +581,7 @@
       "GIAS 14.3",
       "CIA Part 2 B.6"
     ],
+    "trap": "Để mỗi trưởng nhóm tự dùng thang xếp hạng riêng thay vì phương pháp chung do CAE thiết lập.",
     "source": "original"
   },
   {
@@ -592,6 +609,7 @@
       "GIAS 12.3",
       "CIA Part 2 B.7"
     ],
+    "trap": "Cho rằng rà soát của trưởng nhóm là đủ, CAE không cần rà soát và phê duyệt hồ sơ.",
     "source": "original"
   },
   {
@@ -618,6 +636,7 @@
       "GIAS 14.6",
       "CIA Part 2 B.7"
     ],
+    "trap": "Cho rằng một dòng ghi 'đã kiểm tra, không có ngoại lệ' là đủ làm hồ sơ kiểm toán.",
     "source": "original"
   },
   {
@@ -696,6 +715,7 @@
       "GIAS 14.5",
       "CIA Part 2 B.8"
     ],
+    "trap": "Kết luận quy trình hữu hiệu vì từng lỗi đều nhỏ, bỏ qua mức độ khi tổng hợp các phát hiện.",
     "source": "original"
   },
   {
@@ -722,6 +742,7 @@
       "GIAS 14.5",
       "CIA Part 2 B.8"
     ],
+    "trap": "Bỏ phát hiện vì nhỏ ở cấp toàn công ty, hoặc thổi phồng mức độ để gây chú ý.",
     "source": "original"
   },
   {
@@ -749,6 +770,7 @@
       "GIAS 15.1",
       "CIA Part 2 B.8"
     ],
+    "trap": "Cho rằng kết luận cuộc tư vấn phải theo khuôn mẫu đánh giá của cuộc đảm bảo.",
     "source": "original"
   },
   {
