@@ -1341,5 +1341,346 @@
       "CIA Part 2 A.7"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-A-T01",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Khi lập kế hoạch kiểm toán hệ thống bán hàng, kiểm toán viên phát hiện 14 tài khoản của nhân viên đã nghỉ việc từ ba tháng trước vẫn đăng nhập được. Đây là dấu hiệu yếu kém của nhóm kiểm soát chung CNTT nào?",
+    "options": [
+      "Quản lý thay đổi chương trình, vì cấu hình hệ thống chưa được cập nhật kịp thời.",
+      "Vận hành hệ thống, vì quy trình sao lưu và xử lý sự cố chưa bao gồm các tài khoản cũ.",
+      "Quản lý truy cập, vì quyền của người nghỉ việc không được thu hồi kịp thời.",
+      "Phát triển hệ thống, vì hệ thống mới chưa có chức năng tự khóa tài khoản."
+    ],
+    "answer": 2,
+    "explanation": "Kiểm soát chung CNTT (ITGC) thường gồm quản lý truy cập, quản lý thay đổi chương trình, vận hành hệ thống và phát triển hệ thống. Cấp, rà soát định kỳ và thu hồi quyền khi nhân viên nghỉ việc thuộc quản lý truy cập. Tài khoản còn hoạt động tạo rủi ro truy cập trái phép và làm giảm độ tin cậy của các kiểm soát ứng dụng dựa vào phân quyền. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Quản lý thay đổi chương trình liên quan đến sửa đổi phần mềm, cấu hình; không phải việc thu hồi quyền người dùng.",
+      "Sai. Vận hành gồm sao lưu, lập lịch xử lý, xử lý sự cố; tài khoản người nghỉ việc thuộc quản lý truy cập.",
+      "Đúng. Không thu hồi quyền khi nhân viên nghỉ việc là yếu kém của quản lý truy cập.",
+      "Sai. Chức năng tự khóa có thể hỗ trợ, nhưng nguyên nhân chính là quy trình thu hồi quyền khi nghỉ việc không vận hành."
+    ],
+    "trap": "Nhầm các nhóm kiểm soát chung CNTT với nhau khi phân loại yếu kém về quyền truy cập.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T02",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Bộ phận CNTT cho biết dữ liệu khách hàng được sao lưu tự động hằng đêm và lưu ở hai địa điểm, nhưng chưa bao giờ thử khôi phục từ bản sao lưu. Khi lập kế hoạch kiểm toán, rủi ro nào nên được ưu tiên xem xét nhất?",
+    "options": [
+      "Chi phí lưu trữ hai bản sao lưu ở hai địa điểm có thể cao hơn mức cần thiết.",
+      "Nhân viên CNTT có thể sao lưu thêm dữ liệu không cần thiết vào bản sao lưu.",
+      "Sao lưu hằng đêm có thể làm chậm hệ thống vào giờ làm việc của ngày hôm sau.",
+      "Bản sao lưu có thể không khôi phục được hoặc khôi phục quá chậm khi có sự cố."
+    ],
+    "answer": 3,
+    "explanation": "Bản sao lưu chỉ có giá trị khi khôi phục được trong thời gian yêu cầu. Chưa từng thử khôi phục thì không có bằng chứng dữ liệu đầy đủ, không bị lỗi, và việc khôi phục đáp ứng được thời gian khôi phục mục tiêu (RTO). Vì vậy kiểm toán viên nên xem xét việc thử nghiệm khôi phục định kỳ. Đây là kiến thức nghiệp vụ chung về liên tục kinh doanh, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Chi phí là vấn đề hiệu suất, nhỏ hơn nhiều so với rủi ro không khôi phục được dữ liệu khi có sự cố.",
+      "Sai. Dữ liệu thừa trong bản sao lưu là vấn đề nhỏ so với việc chưa biết bản sao lưu có khôi phục được không.",
+      "Sai. Sao lưu ban đêm thường nhằm tránh ảnh hưởng giờ làm việc; đây không phải rủi ro chính.",
+      "Đúng. Chưa thử khôi phục thì không biết bản sao lưu có dùng được và kịp thời hay không."
+    ],
+    "trap": "Cho rằng có bản sao lưu là đủ mà không cần thử khôi phục.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T03",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Tài liệu nào dưới đây mô tả đúng nhất một kế hoạch khắc phục thảm họa (DRP), phân biệt với kế hoạch liên tục kinh doanh (BCP)?",
+    "options": [
+      "Quy trình khôi phục máy chủ, cơ sở dữ liệu và mạng tại trung tâm dữ liệu dự phòng.",
+      "Quy trình chuyển nhân viên giao dịch sang chi nhánh dự phòng và phục vụ khách bằng phiếu giấy.",
+      "Danh sách người liên hệ với báo chí và khách hàng khi hoạt động bị gián đoạn kéo dài.",
+      "Phân tích các quy trình quan trọng và thời gian gián đoạn tối đa chấp nhận được của từng quy trình."
+    ],
+    "answer": 0,
+    "explanation": "Kế hoạch liên tục kinh doanh (BCP) nhằm duy trì các hoạt động thiết yếu của tổ chức khi có gián đoạn, gồm con người, địa điểm, quy trình thay thế và truyền thông. Kế hoạch khắc phục thảm họa (DRP) là phần tập trung khôi phục hệ thống và hạ tầng CNTT. Phân tích quy trình quan trọng và thời gian gián đoạn chấp nhận được là phân tích tác động kinh doanh (BIA). Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Khôi phục máy chủ, dữ liệu, mạng là trọng tâm của kế hoạch khắc phục thảm họa.",
+      "Sai. Chuyển địa điểm và dùng quy trình thủ công để duy trì phục vụ là nội dung của BCP.",
+      "Sai. Truyền thông khi khủng hoảng thuộc BCP hoặc kế hoạch quản lý khủng hoảng, không phải DRP.",
+      "Sai. Đây là phân tích tác động kinh doanh (BIA), làm cơ sở cho cả BCP và DRP."
+    ],
+    "trap": "Nhầm kế hoạch khắc phục thảm họa với kế hoạch liên tục kinh doanh hoặc phân tích tác động kinh doanh.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T04",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Công ty đặt thời gian khôi phục mục tiêu (RTO) là 4 giờ cho tất cả 60 hệ thống, từ hệ thống thanh toán đến hệ thống đặt phòng họp, mà chưa có phân tích tác động kinh doanh. Khi lập kế hoạch kiểm toán, vấn đề chính là gì?",
+    "options": [
+      "RTO 4 giờ là quá dài đối với mọi hệ thống của một tổ chức hiện đại.",
+      "RTO không dựa trên mức độ quan trọng của từng quy trình, nên có thể đặt sai.",
+      "RTO phải được đặt bằng 0 cho mọi hệ thống để bảo đảm không gián đoạn hoạt động.",
+      "RTO chỉ cần cho hệ thống thanh toán, các hệ thống còn lại không cần đặt mục tiêu khôi phục."
+    ],
+    "answer": 1,
+    "explanation": "Phân tích tác động kinh doanh (BIA) xác định quy trình nào quan trọng và mức gián đoạn chấp nhận được, làm cơ sở để đặt RTO và RPO riêng cho từng hệ thống. Đặt chung 4 giờ có thể chưa đủ nhanh cho thanh toán, nhưng lại tốn kém không cần thiết cho hệ thống ít quan trọng. Đây là kiến thức nghiệp vụ chung về liên tục kinh doanh, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Mức 4 giờ có thể phù hợp với một số hệ thống; vấn đề là không phân biệt theo mức quan trọng.",
+      "Đúng. Không có BIA thì RTO không gắn với mức quan trọng của từng quy trình.",
+      "Sai. RTO bằng 0 cho mọi hệ thống là phi thực tế và quá tốn kém; mục tiêu phải tương xứng với tác động.",
+      "Sai. Các hệ thống khác vẫn cần mục tiêu khôi phục phù hợp với mức quan trọng của chúng."
+    ],
+    "trap": "Đặt một RTO chung cho mọi hệ thống mà không dựa vào phân tích tác động kinh doanh.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T05",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Để đăng ký nhận bản tin khuyến mãi qua email, khách hàng phải tải lên ảnh hai mặt căn cước và nhập số tài khoản ngân hàng. Khi lập kế hoạch kiểm toán về quyền riêng tư, rủi ro nổi bật nhất là gì?",
+    "options": [
+      "Hệ thống gửi email có thể bị quá tải khi số người đăng ký tăng nhanh.",
+      "Khách hàng có thể nhập sai địa chỉ email nên không nhận được bản tin.",
+      "Thu thập dữ liệu cá nhân vượt quá mức cần thiết cho mục đích gửi bản tin.",
+      "Bộ phận Marketing có thể gửi bản tin không đúng lịch đã cam kết với khách."
+    ],
+    "answer": 2,
+    "explanation": "Nguyên tắc phổ biến về quyền riêng tư là chỉ thu thập dữ liệu tối thiểu, đúng mục đích, có cơ sở pháp lý, được bảo mật và lưu giữ có thời hạn. Gửi bản tin chỉ cần email; thu thập ảnh căn cước và số tài khoản làm tăng rủi ro rò rỉ, vi phạm quy định về bảo vệ dữ liệu cá nhân và tổn hại uy tín. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Quá tải hệ thống là rủi ro vận hành, không liên quan trực tiếp đến quyền riêng tư của khách hàng.",
+      "Sai. Nhập sai email là rủi ro vận hành nhỏ, không phải rủi ro quyền riêng tư nổi bật.",
+      "Đúng. Thu thập căn cước và số tài khoản cho bản tin là vượt mức cần thiết, trái nguyên tắc tối thiểu.",
+      "Sai. Gửi sai lịch là vấn đề chất lượng dịch vụ, nhỏ hơn nhiều so với việc thu thập dữ liệu nhạy cảm."
+    ],
+    "trap": "Bỏ qua nguyên tắc thu thập dữ liệu tối thiểu khi đánh giá rủi ro quyền riêng tư.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T06",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Trong quy trình mua hàng, kiểm soát nào dưới đây ngăn ngừa hiệu quả nhất việc thanh toán cho hàng hóa chưa được nhận?",
+    "options": [
+      "Kế toán trưởng rà soát danh sách tất cả các khoản đã thanh toán vào cuối mỗi tháng.",
+      "Nhà cung cấp ký cam kết chỉ xuất hóa đơn sau khi đã giao hàng đầy đủ.",
+      "Kiểm toán nội bộ chọn mẫu kiểm tra các khoản thanh toán lớn mỗi quý một lần.",
+      "Hệ thống chỉ cho thanh toán khi đơn đặt hàng, phiếu nhập kho và hóa đơn khớp nhau."
+    ],
+    "answer": 3,
+    "explanation": "Đối chiếu ba chiều (đơn đặt hàng, phiếu nhập kho, hóa đơn) trước khi thanh toán là kiểm soát phòng ngừa: khoản thanh toán không được thực hiện nếu chưa có bằng chứng nhận hàng. Rà soát cuối tháng là kiểm soát phát hiện; kiểm toán nội bộ không phải kiểm soát của quy trình. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Rà soát cuối tháng là kiểm soát phát hiện, chỉ thấy vấn đề sau khi tiền đã được chi.",
+      "Sai. Cam kết của nhà cung cấp không phải kiểm soát nội bộ, và không ngăn được hóa đơn sai hay gian lận.",
+      "Sai. Kiểm toán nội bộ đánh giá kiểm soát chứ không phải kiểm soát của quy trình, và chỉ chọn mẫu sau sự việc.",
+      "Đúng. Đối chiếu ba chiều trước thanh toán ngăn việc trả tiền khi chưa nhận hàng."
+    ],
+    "trap": "Nhầm kiểm soát phát hiện, hoặc công việc của kiểm toán nội bộ, với kiểm soát phòng ngừa.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T07",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Ở một công ty nhỏ, cùng một nhân viên vừa tạo và sửa thông tin nhà cung cấp trên hệ thống, vừa lập đề nghị thanh toán. Khi lập kế hoạch kiểm toán quy trình phải trả, rủi ro gian lận nào nên được ưu tiên nhất?",
+    "options": [
+      "Tạo nhà cung cấp giả hoặc đổi số tài khoản để chuyển tiền cho mình.",
+      "Thanh toán trùng một hóa đơn do kế toán nhập liệu hai lần vì sơ suất trong lúc xử lý.",
+      "Hạch toán sai kỳ chi phí do hóa đơn của nhà cung cấp về muộn sau ngày khóa sổ.",
+      "Trả chậm cho nhà cung cấp làm phát sinh tiền phạt hợp đồng."
+    ],
+    "answer": 0,
+    "explanation": "Khi một người vừa quản lý dữ liệu gốc nhà cung cấp vừa đề nghị thanh toán, người đó có thể tạo nhà cung cấp giả hoặc đổi số tài khoản nhận tiền mà không ai phát hiện. Đây là rủi ro gian lận điển hình do thiếu phân nhiệm. Các phương án khác là sai sót hoặc rủi ro vận hành, không phải gian lận phát sinh từ việc kiêm nhiệm này. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Kiêm nhiệm dữ liệu gốc và đề nghị thanh toán tạo cơ hội tạo nhà cung cấp giả.",
+      "Sai. Thanh toán trùng do sơ suất là sai sót, không phải rủi ro gian lận phát sinh từ việc kiêm nhiệm.",
+      "Sai. Sai kỳ do hóa đơn về muộn là vấn đề khóa sổ, không gắn với việc kiêm nhiệm nêu trong đề.",
+      "Sai. Trả chậm là rủi ro vận hành; nó không liên quan đến cơ hội gian lận từ việc kiêm nhiệm."
+    ],
+    "trap": "Nhầm rủi ro gian lận do thiếu phân nhiệm với sai sót vận hành thông thường.",
+    "refs": [
+      "CIA Part 2 A.3",
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T08",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Nhân viên bán hàng được thưởng theo doanh số ký hợp đồng trong tháng, không phụ thuộc việc khách có thanh toán hay không. Khi lập kế hoạch kiểm toán quy trình bán chịu, rủi ro nào nên được chú ý nhất?",
+    "options": [
+      "Doanh số ghi nhận thấp hơn thực tế do nhân viên không muốn ký hợp đồng.",
+      "Bán chịu cho khách có khả năng thanh toán kém, làm tăng nợ phải thu khó đòi.",
+      "Chi phí vận chuyển hàng tăng do nhân viên ký với nhiều khách hàng ở xa hơn trước đây.",
+      "Hàng tồn kho tăng do nhân viên bán hàng không đạt chỉ tiêu tháng."
+    ],
+    "answer": 1,
+    "explanation": "Chỉ số thưởng chỉ gắn với doanh số mà không gắn với thu tiền khuyến khích nhân viên ký với cả khách hàng có rủi ro tín dụng cao. Đây là ví dụ chỉ số hiệu quả lệch khỏi mục tiêu của tổ chức (doanh thu thu được tiền). Khi lập kế hoạch, kiểm toán viên nên xét kiểm soát xét duyệt hạn mức tín dụng và tuổi nợ. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Thưởng theo doanh số khuyến khích ký nhiều hơn, không làm nhân viên ngại ký hợp đồng.",
+      "Đúng. Thưởng không gắn thu tiền khuyến khích bán cho khách rủi ro, làm tăng nợ khó đòi.",
+      "Sai. Chi phí vận chuyển không có quan hệ trực tiếp với cơ chế thưởng nêu trong đề.",
+      "Sai. Cơ chế thưởng đẩy doanh số lên; tồn kho tăng không phải rủi ro chính từ cơ chế này."
+    ],
+    "trap": "Bỏ qua việc chỉ số thưởng lệch khỏi mục tiêu có thể khuyến khích hành vi rủi ro.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T09",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Công ty sẽ chuyển từ phần mềm kế toán cũ sang hệ thống ERP mới vào tháng tới, gồm chuyển 8 năm dữ liệu công nợ và tồn kho. Kiểm toán nội bộ được yêu cầu lập kế hoạch cuộc kiểm toán trước khi vận hành chính thức. Rủi ro nào nên được ưu tiên nhất?",
+    "options": [
+      "Nhân viên cần thời gian làm quen với giao diện và các màn hình nhập liệu mới của hệ thống ERP.",
+      "Chi phí bản quyền ERP có thể tăng vào năm thứ hai sau khi triển khai.",
+      "Dữ liệu chuyển sang sai hoặc thiếu, và kiểm soát tự động chưa được cấu hình đúng.",
+      "Nhà cung cấp phần mềm cũ có thể ngừng hỗ trợ sau khi công ty chuyển đổi."
+    ],
+    "answer": 2,
+    "explanation": "Chuyển đổi hệ thống là thay đổi lớn làm tăng rủi ro: số dư chuyển sang có thể sai, thiếu hoặc trùng, và các kiểm soát tự động (phân quyền, hạn mức, đối chiếu) có thể chưa được cấu hình. Sai lệch ở số dư đầu kỳ sẽ lan sang mọi kỳ sau. Kế hoạch nên xét việc đối chiếu số dư trước và sau chuyển đổi và kiểm tra cấu hình kiểm soát. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Làm quen giao diện là rủi ro đào tạo, nhỏ hơn nhiều so với sai lệch dữ liệu và kiểm soát.",
+      "Sai. Chi phí bản quyền là vấn đề ngân sách, không phải rủi ro trọng yếu của việc chuyển đổi dữ liệu.",
+      "Đúng. Dữ liệu chuyển đổi sai và kiểm soát chưa cấu hình là rủi ro chính khi chuyển hệ thống.",
+      "Sai. Hỗ trợ phần mềm cũ ít quan trọng sau khi đã chuyển; rủi ro chính nằm ở dữ liệu và hệ thống mới."
+    ],
+    "trap": "Tập trung vào rủi ro người dùng hay chi phí, bỏ qua rủi ro dữ liệu và kiểm soát khi chuyển đổi hệ thống.",
+    "refs": [
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T10",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Để giảm chi phí, công ty gộp vị trí thủ quỹ và kế toán thanh toán ở các phòng giao dịch nhỏ thành một người. Khi lập kế hoạch kiểm toán các phòng giao dịch, thay đổi này làm tăng chủ yếu rủi ro nào?",
+    "options": [
+      "Thời gian phục vụ khách hàng tại quầy giao dịch có thể kéo dài hơn so với trước đây.",
+      "Chi phí đào tạo tăng do phải đào tạo lại nhân viên kiêm nhiệm.",
+      "Nhân viên kiêm nhiệm phải học thêm nghiệp vụ mới nên có thể dễ nghỉ việc hơn trước.",
+      "Mất phân nhiệm: một người vừa giữ tiền vừa ghi sổ nên có thể che giấu sai lệch."
+    ],
+    "answer": 3,
+    "explanation": "Tái cấu trúc có thể làm mất phân nhiệm. Khi một người vừa giữ tài sản (tiền) vừa ghi sổ, người đó có thể lấy tiền và sửa sổ để che giấu mà không ai phát hiện. Kế hoạch kiểm toán nên xét kiểm soát bù đắp như kiểm quỹ đột xuất hoặc rà soát của cấp trên. Đây là kiến thức nghiệp vụ chung về rủi ro do thay đổi, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Thời gian phục vụ là vấn đề hiệu suất, không phải rủi ro kiểm soát chính từ việc gộp vị trí.",
+      "Sai. Chi phí đào tạo là ảnh hưởng tài chính nhỏ; vấn đề chính là kiểm soát bị suy yếu.",
+      "Sai. Nghỉ việc có thể xảy ra, nhưng rủi ro kiểm soát trực tiếp và lớn hơn là mất phân nhiệm.",
+      "Đúng. Gộp giữ tiền và ghi sổ làm mất phân nhiệm, tạo cơ hội che giấu sai lệch."
+    ],
+    "trap": "Bỏ qua rủi ro mất phân nhiệm khi tái cấu trúc gộp các vị trí.",
+    "refs": [
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T11",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Khi phỏng vấn lập kế hoạch, Giám đốc khối nhiều lần nói 'quy trình chỉ là thủ tục, quan trọng là đạt số' và nhân viên kể thường duyệt sau, làm trước. Thông tin này nên ảnh hưởng thế nào đến đánh giá rủi ro cuộc kiểm toán?",
+    "options": [
+      "Đánh giá rủi ro cao hơn và dự kiến ít dựa vào kiểm soát chính thức hơn.",
+      "Không ảnh hưởng, vì đánh giá rủi ro chỉ dựa trên quy trình bằng văn bản và số liệu.",
+      "Giảm phạm vi, vì Giám đốc khối đã thẳng thắn nên ít có khả năng che giấu.",
+      "Báo ngay cho HĐQT về thái độ của Giám đốc khối trước khi lập kế hoạch tiếp."
+    ],
+    "answer": 0,
+    "explanation": "Văn hóa và thông điệp từ cấp quản lý ảnh hưởng đến môi trường kiểm soát (thành phần đầu tiên của khung COSO 2013). Khi lãnh đạo coi nhẹ kiểm soát và việc 'làm trước, duyệt sau' phổ biến, kiểm soát chính thức kém tin cậy hơn. Vì vậy rủi ro cuộc kiểm toán nên được đánh giá cao hơn, và thủ tục nên dựa nhiều hơn vào kiểm tra chi tiết.",
+    "optionNotes": [
+      "Đúng. Văn hóa coi nhẹ kiểm soát làm tăng rủi ro và giảm mức có thể dựa vào kiểm soát.",
+      "Sai. Văn hóa và môi trường kiểm soát là yếu tố quan trọng của đánh giá rủi ro, không chỉ quy trình văn bản.",
+      "Sai. Thẳng thắn không làm kiểm soát tốt hơn; thông tin này cho thấy rủi ro cao hơn chứ không thấp hơn.",
+      "Sai. Đây là thông tin đầu vào cho đánh giá rủi ro, chưa phải phát hiện có bằng chứng để báo HĐQT."
+    ],
+    "trap": "Bỏ qua yếu tố văn hóa và thông điệp từ cấp quản lý khi đánh giá rủi ro cuộc kiểm toán.",
+    "refs": [
+      "CIA Part 2 A.5",
+      "COSO 2013"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T12",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Tập đoàn có 15 công ty con, mỗi công ty tự ban hành quy trình mua hàng riêng. Kế hoạch kiểm toán quy trình mua hàng của tập đoàn chỉ dự kiến chọn mẫu tại trụ sở chính. Hạn chế chủ yếu của kế hoạch là gì?",
+    "options": [
+      "Chọn mẫu tại trụ sở tốn nhiều thời gian hơn chọn mẫu tại các công ty con.",
+      "Kiểm soát ở các công ty con có thể khác nhau, nên mẫu ở trụ sở không đại diện được.",
+      "Trụ sở chính luôn có kiểm soát yếu hơn nên kết quả sẽ bi quan hơn thực tế.",
+      "Các công ty con không thuộc phạm vi mà kiểm toán nội bộ của tập đoàn được kiểm toán."
+    ],
+    "answer": 1,
+    "explanation": "Cơ cấu phân quyền giúp các đơn vị linh hoạt, nhưng kiểm soát dễ không đồng đều giữa đơn vị. Khi mỗi công ty con có quy trình riêng, mẫu chọn tại trụ sở không phản ánh được kiểm soát ở nơi khác, nên kết luận cho cả tập đoàn thiếu căn cứ. Kế hoạch nên xét sự khác biệt giữa các đơn vị khi chọn phạm vi và mẫu. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Thời gian không phải vấn đề chính; vấn đề là mẫu không đại diện cho các quy trình khác nhau.",
+      "Đúng. Quy trình khác nhau giữa các công ty con làm mẫu tại trụ sở không đại diện được.",
+      "Sai. Không có cơ sở cho rằng trụ sở luôn kiểm soát yếu hơn; vấn đề là tính đại diện của mẫu.",
+      "Sai. Phạm vi kiểm toán do Quy chế KTNB xác định; công ty con thường nằm trong phạm vi của tập đoàn."
+    ],
+    "trap": "Dùng mẫu ở một đơn vị để kết luận cho nhiều đơn vị có quy trình khác nhau.",
+    "refs": [
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-T13",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Cuộc kiểm toán dự kiến 6 tuần đang ở tuần thứ hai thì đơn vị báo sẽ chậm 2 tuần mới cung cấp được dữ liệu giao dịch, phần việc chiếm nhiều thời gian nhất. Trưởng nhóm nên xử lý thế nào trước tiên?",
+    "options": [
+      "Chờ đủ dữ liệu rồi mới làm tiếp, dù cuộc kiểm toán có kéo dài bao lâu.",
+      "Bỏ phần kiểm tra dữ liệu giao dịch để giữ đúng mốc 6 tuần đã cam kết với đơn vị và CAE.",
+      "Trao đổi sớm với người giám sát và đơn vị, điều chỉnh lịch và phân công công việc.",
+      "Tự lấy dữ liệu trực tiếp từ hệ thống mà không cần đơn vị đồng ý."
+    ],
+    "answer": 2,
+    "explanation": "Quản lý dự án trong cuộc kiểm toán gồm theo dõi tiến độ so với kế hoạch và xử lý vướng mắc sớm. Đơn vị chậm cung cấp dữ liệu là rủi ro dự án thường gặp; cách xử lý là trao đổi kịp thời, điều chỉnh kế hoạch có phê duyệt và xét xem đó có phải giới hạn phạm vi cần trao đổi với quản lý hay không (GIAS 13.3).",
+    "optionNotes": [
+      "Sai. Chờ thụ động làm cuộc kiểm toán trễ hạn; cần sắp xếp lại công việc và trao đổi kịp thời.",
+      "Sai. Bỏ phần quan trọng nhất làm mục tiêu không đạt được; thay đổi phạm vi cần được CAE phê duyệt.",
+      "Đúng. Trao đổi sớm, điều chỉnh có phê duyệt và xét giới hạn phạm vi là cách xử lý phù hợp.",
+      "Sai. Tiếp cận dữ liệu theo Quy chế KTNB vẫn cần phối hợp phù hợp; tự lấy có thể sai dữ liệu và gây xung đột."
+    ],
+    "trap": "Bỏ thủ tục quan trọng hoặc chờ thụ động khi cuộc kiểm toán gặp vướng mắc về dữ liệu.",
+    "refs": [
+      "GIAS 13.3",
+      "CIA Part 2 A.4"
+    ],
+    "source": "original"
   }
 ]
