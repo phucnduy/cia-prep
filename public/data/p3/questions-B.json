@@ -500,5 +500,303 @@
       "CIA Part 3 B.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-B-Y01",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 3,
+    "stem": "Đầu tháng 3, công ty phát hiện dấu hiệu gian lận lớn ở mảng thu mua và Tổng Giám đốc đề nghị kiểm toán ngay, thay cho một cuộc kiểm toán rủi ro cao đã có trong kế hoạch. Phiên họp HĐQT gần nhất là tháng 6. CAE nên xử lý thế nào?",
+    "options": [
+      "Thực hiện ngay theo đề nghị của Tổng Giám đốc, rồi báo cáo thay đổi trong báo cáo tổng kết cuối năm.",
+      "Để Ban điều hành phê duyệt thay đổi, vì yêu cầu kiểm toán xuất phát từ Tổng Giám đốc.",
+      "Hoãn cuộc kiểm toán gian lận đến phiên họp tháng 6 để HĐQT phê duyệt thay đổi kế hoạch.",
+      "Thông báo ngay cho HĐQT về thay đổi và xin phê duyệt chính thức sớm nhất có thể."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 9.4 yêu cầu HĐQT phê duyệt kế hoạch và các thay đổi quan trọng. Hướng dẫn của chuẩn mực nêu khi rủi ro mới đòi hỏi sửa kế hoạch trước khi kịp họp chính thức với HĐQT, CAE nên thông báo ngay cho HĐQT và có phê duyệt chính thức sớm nhất có thể. Cách này vừa xử lý kịp rủi ro gian lận, vừa giữ thẩm quyền phê duyệt của HĐQT.",
+    "optionNotes": [
+      "Sai. Thay thế một cuộc kiểm toán rủi ro cao là thay đổi quan trọng; HĐQT phải được biết ngay và phê duyệt, không phải đến cuối năm.",
+      "Sai. Thay đổi quan trọng của kế hoạch do HĐQT phê duyệt; người đề nghị là Ban điều hành không làm thay đổi thẩm quyền này.",
+      "Sai. Chờ ba tháng làm rủi ro gian lận tiếp diễn; hướng dẫn cho phép báo ngay rồi phê duyệt chính thức sau.",
+      "Đúng. Báo ngay cho HĐQT và có phê duyệt chính thức sớm nhất là cách xử lý thay đổi khẩn cấp theo hướng dẫn của GIAS 9.4."
+    ],
+    "trap": "Cho rằng thay đổi kế hoạch khẩn cấp phải chờ phiên họp HĐQT, hoặc chỉ cần Ban điều hành đồng ý.",
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-Y02",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "CAE, HĐQT và Ban điều hành đang thống nhất tiêu chí xác định 'thay đổi quan trọng' của kế hoạch kiểm toán, tức loại thay đổi cần HĐQT phê duyệt. Thay đổi nào dưới đây nên thuộc nhóm này nhất?",
+    "options": [
+      "Hoãn sang năm sau cuộc kiểm toán liên quan đến một mục tiêu chiến lược trọng yếu.",
+      "Thay trưởng nhóm của một cuộc kiểm toán bằng kiểm toán viên khác có năng lực tương đương.",
+      "Dời cuộc kiểm toán quy trình chi phí văn phòng từ tháng 4 sang tháng 5 vì trùng lịch nghỉ lễ.",
+      "Tăng thêm năm ngày công cho cuộc kiểm toán hàng tồn kho do khối lượng mẫu lớn hơn dự kiến."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 9.4 yêu cầu HĐQT phê duyệt kế hoạch và các thay đổi quan trọng. Hướng dẫn của chuẩn mực nêu CAE, HĐQT và Ban điều hành nên thống nhất tiêu chí xác định thay đổi quan trọng và đưa vào phương pháp của bộ phận; ví dụ là hủy hoặc hoãn cuộc kiểm toán liên quan đến rủi ro đáng kể hay mục tiêu chiến lược trọng yếu. Các điều chỉnh vận hành nhỏ do CAE quản lý.",
+    "optionNotes": [
+      "Đúng. Hoãn cuộc kiểm toán gắn với mục tiêu chiến lược trọng yếu là ví dụ điển hình của thay đổi quan trọng.",
+      "Sai. Phân công nhân sự trong cuộc kiểm toán là việc CAE quản lý, không làm thay đổi phạm vi bao phủ của kế hoạch.",
+      "Sai. Dời một tháng cuộc kiểm toán rủi ro thấp là điều chỉnh lịch thông thường, không làm thay đổi độ bao phủ rủi ro.",
+      "Sai. Điều chỉnh nhỏ về ngày công trong một cuộc kiểm toán là quản lý nguồn lực thường ngày của CAE."
+    ],
+    "trap": "Coi mọi điều chỉnh lịch hay nhân sự đều là thay đổi quan trọng cần HĐQT phê duyệt.",
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-Y03",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Để lập đánh giá rủi ro toàn tổ chức, CAE định dùng nguyên danh sách rủi ro trọng yếu trong sổ đăng ký của bộ phận Quản lý rủi ro. Bộ phận kiểm toán chưa từng đánh giá quy trình quản lý rủi ro của công ty. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì bộ phận Quản lý rủi ro là tuyến hai có chuyên môn sâu hơn về nhận diện rủi ro.",
+      "Chưa phù hợp; nên tự đối chiếu các rủi ro trọng yếu, vì chưa kết luận quy trình quản lý rủi ro hữu hiệu.",
+      "Chưa phù hợp; kiểm toán nội bộ không được dùng thông tin rủi ro của Ban điều hành khi lập kế hoạch.",
+      "Phù hợp, nếu Trưởng bộ phận Quản lý rủi ro ký xác nhận danh sách là đầy đủ và chính xác."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 9.4 nêu bộ phận kiểm toán nội bộ nên tự rà soát và xác nhận các rủi ro trọng yếu được nhận diện trong hệ thống quản lý rủi ro, và chỉ nên dựa vào thông tin rủi ro của Ban điều hành khi đã kết luận quy trình quản lý rủi ro là hữu hiệu. Chưa đánh giá quy trình đó thì chưa có cơ sở để dùng nguyên danh sách.",
+    "optionNotes": [
+      "Sai. Chuyên môn của tuyến hai không thay được kết luận của kiểm toán nội bộ rằng quy trình quản lý rủi ro hữu hiệu.",
+      "Đúng. Khi chưa kết luận quy trình quản lý rủi ro hữu hiệu, kiểm toán nội bộ nên tự rà soát, xác nhận các rủi ro trọng yếu.",
+      "Sai. Thông tin rủi ro của Ban điều hành là đầu vào hữu ích; vấn đề là mức độ dựa vào, không phải cấm sử dụng.",
+      "Sai. Chữ ký xác nhận của người lập danh sách không phải bằng chứng độc lập về chất lượng quy trình quản lý rủi ro."
+    ],
+    "trap": "Dùng nguyên sổ đăng ký rủi ro của Ban điều hành mà chưa kết luận quy trình quản lý rủi ro hữu hiệu.",
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-Y04",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Dự thảo kế hoạch năm dự kiến dùng phân tích dữ liệu toàn bộ giao dịch cho 6 cuộc kiểm toán, nhưng bộ phận chưa có phần mềm phân tích và chưa ai được đào tạo. Kế hoạch chỉ ghi số ngày công. Nội dung nào kế hoạch còn thiếu chủ yếu?",
+    "options": [
+      "Danh sách họ tên các kiểm toán viên sẽ được giao thực hiện từng cuộc kiểm toán trong năm tới.",
+      "Chương trình kiểm toán chi tiết của cả 6 cuộc kiểm toán có sử dụng phân tích dữ liệu.",
+      "Nguồn lực tài chính và công nghệ cần thiết, gồm phần mềm và đào tạo, để hoàn thành kế hoạch.",
+      "Cam kết của Ban điều hành về việc cung cấp toàn bộ dữ liệu giao dịch đúng hạn cho bộ phận."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 9.4 yêu cầu kế hoạch kiểm toán xác định nguồn lực con người, tài chính và công nghệ cần thiết để hoàn thành kế hoạch. Kế hoạch dựa vào phân tích dữ liệu nhưng không có phần mềm và kỹ năng thì không khả thi; chỉ ghi ngày công là mới nêu nguồn lực con người. GIAS 10.1 cũng yêu cầu ngân sách gồm đào tạo và mua công nghệ, công cụ.",
+    "optionNotes": [
+      "Sai. Phân công cụ thể từng người thường quyết định khi lập kế hoạch từng cuộc; thiếu sót lớn hơn là nguồn lực công nghệ.",
+      "Sai. Chương trình kiểm toán được lập khi lập kế hoạch từng cuộc kiểm toán, không thuộc kế hoạch kiểm toán năm.",
+      "Đúng. Kế hoạch phải xác định cả nguồn lực tài chính và công nghệ, không chỉ ngày công.",
+      "Sai. Quyền tiếp cận dữ liệu do Quy chế KTNB bảo đảm; vấn đề ở đây là bộ phận thiếu công cụ và kỹ năng."
+    ],
+    "trap": "Cho rằng nguồn lực của kế hoạch chỉ là số ngày công của kiểm toán viên.",
+    "refs": [
+      "GIAS 9.4",
+      "GIAS 10.1",
+      "CIA Part 3 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-Y05",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "CAE lập một ma trận: hàng là các nhóm rủi ro trọng yếu, cột là các bên cung cấp đảm bảo (kiểm toán nội bộ, Tuân thủ, Quản lý rủi ro, kiểm toán độc lập), mỗi ô ghi mức đảm bảo hiện có. Lợi ích chính của công cụ này là gì?",
+    "options": [
+      "Thay thế đánh giá rủi ro toàn tổ chức mà bộ phận kiểm toán nội bộ phải thực hiện ít nhất hằng năm.",
+      "Chuyển trách nhiệm về kết luận đảm bảo của từng nhóm rủi ro sang bên cung cấp phụ trách.",
+      "Xếp hạng năng lực của từng bên cung cấp đảm bảo để báo cáo cho Ban điều hành cấp cao.",
+      "Cho thấy chỗ trống và chỗ trùng lặp trong độ bao phủ đảm bảo đối với các rủi ro trọng yếu."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 9.5 mô tả bản đồ đảm bảo (assurance map) là ma trận liên kết các nhóm rủi ro trọng yếu với các nguồn đảm bảo và đánh giá mức đảm bảo cho từng nhóm. Vì bao quát toàn bộ, nó cho thấy chỗ trống và trùng lặp, giúp CAE đánh giá mức đủ của dịch vụ đảm bảo ở từng lĩnh vực và thống nhất phối hợp với các bên.",
+    "optionNotes": [
+      "Sai. Bản đồ đảm bảo hỗ trợ phối hợp, không thay đánh giá rủi ro hằng năm làm cơ sở cho kế hoạch (GIAS 9.4).",
+      "Sai. Khi dựa vào bên khác, CAE vẫn chịu trách nhiệm về kết luận của kiểm toán nội bộ (GIAS 9.5).",
+      "Sai. Ma trận ghi mức đảm bảo theo rủi ro, không nhằm xếp hạng năng lực của các bên cung cấp.",
+      "Đúng. Bản đồ đảm bảo làm lộ chỗ trống và trùng lặp trong độ bao phủ đảm bảo."
+    ],
+    "trap": "Nghĩ bản đồ đảm bảo thay được đánh giá rủi ro hoặc chuyển trách nhiệm kết luận sang bên khác.",
+    "refs": [
+      "GIAS 9.5",
+      "CIA Part 3 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-Y06",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Trong hai tháng, chi nhánh Đà Nẵng tiếp lần lượt đoàn Tuân thủ, đoàn Quản lý rủi ro và đoàn kiểm toán nội bộ, cả ba đều kiểm tra quy trình giải ngân. Giám đốc chi nhánh phàn nàn công việc bị gián đoạn. Cách xử lý phù hợp nhất của CAE là gì?",
+    "options": [
+      "Phối hợp với các bên về nội dung, phạm vi và thời điểm kiểm tra để giảm trùng lặp.",
+      "Đề nghị HĐQT yêu cầu Tuân thủ và Quản lý rủi ro ngừng kiểm tra tại các chi nhánh.",
+      "Giữ nguyên kế hoạch, vì kiểm toán nội bộ độc lập nên không cần phối hợp với tuyến hai.",
+      "Bỏ các cuộc kiểm toán chi nhánh của kiểm toán nội bộ, vì hai tuyến hai đã kiểm tra đủ."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 9.5 yêu cầu CAE phối hợp với các bên cung cấp đảm bảo trong và ngoài tổ chức, nhằm giảm trùng lặp và làm rõ chỗ trống. Hướng dẫn của chuẩn mực nêu các cách phối hợp như đồng bộ nội dung, phạm vi và thời điểm công việc, và cách tiếp cận đảm bảo kết hợp (combined assurance) để giảm tần suất, trùng lặp các cuộc kiểm tra.",
+    "optionNotes": [
+      "Đúng. Đồng bộ nội dung, phạm vi và thời điểm kiểm tra là cách phối hợp để giảm trùng lặp.",
+      "Sai. Tuân thủ và Quản lý rủi ro có vai trò riêng; vấn đề cần giải quyết là phối hợp, không phải dừng hoạt động của họ.",
+      "Sai. Độc lập không loại trừ phối hợp; GIAS 9.5 yêu cầu CAE phối hợp với các bên cung cấp đảm bảo.",
+      "Sai. Bỏ hẳn kiểm toán mà chưa đánh giá công việc của tuyến hai là dựa vào khi chưa có cơ sở."
+    ],
+    "trap": "Nghĩ tính độc lập khiến kiểm toán nội bộ không cần phối hợp với tuyến hai.",
+    "refs": [
+      "GIAS 9.5",
+      "CIA Part 3 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-Y07",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "Giám đốc Tài chính thuê một công ty tư vấn đánh giá kiểm soát trong quy trình lập báo cáo tài chính; công ty tư vấn do Giám đốc Tài chính chọn, trả phí và nhận báo cáo. CAE xét dựa vào kết quả này. Yếu tố nào cần cân nhắc kỹ nhất?",
+    "options": [
+      "Công ty tư vấn dùng phương pháp, mẫu biểu và thang xếp hạng khác với phương pháp của kiểm toán nội bộ.",
+      "Quan hệ báo cáo và xung đột lợi ích khi bên tư vấn báo cáo cho chính người phụ trách quy trình.",
+      "Báo cáo của công ty tư vấn được lập bằng tiếng Anh, chưa có bản dịch tiếng Việt.",
+      "Nhóm tư vấn không có thành viên nào có chứng chỉ CIA đang còn hiệu lực."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 9.5 nêu phương pháp đánh giá việc dựa vào bên khác nên xét xung đột lợi ích tiềm tàng hoặc thực tế, quan hệ báo cáo và tác động của nó, kinh nghiệm và chứng chỉ, phương pháp và sự thận trọng, và tính hợp lý của kết luận. Bên tư vấn do người phụ trách quy trình chọn, trả phí và nhận báo cáo có nguy cơ thiếu khách quan; đây là yếu tố ảnh hưởng nhất đến việc dựa vào.",
+    "optionNotes": [
+      "Sai. Phương pháp khác không phải vấn đề nếu được áp dụng thận trọng và kết luận có bằng chứng đủ, tin cậy.",
+      "Đúng. Bên tư vấn báo cáo cho chính người phụ trách quy trình tạo nguy cơ lớn về tính khách quan.",
+      "Sai. Ngôn ngữ báo cáo là vấn đề thực hành, không ảnh hưởng đến độ tin cậy của công việc.",
+      "Sai. Chứng chỉ là một yếu tố về năng lực, nhưng không bắt buộc phải là CIA; khách quan là vấn đề lớn hơn ở đây."
+    ],
+    "trap": "Chú trọng chứng chỉ hay hình thức của bên cung cấp, bỏ qua quan hệ báo cáo và xung đột lợi ích.",
+    "refs": [
+      "GIAS 9.5",
+      "CIA Part 3 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-Y08",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "Sau khi đánh giá, CAE kết luận không thể dựa vào kết quả kiểm tra hàng tồn kho của bộ phận Kiểm soát nội bộ tài chính, vì mẫu chọn không đại diện và không có hồ sơ rà soát. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Vẫn dùng kết quả nhưng ghi chú trong báo cáo rằng kiểm toán nội bộ không chịu trách nhiệm về phần đó.",
+      "Loại lĩnh vực hàng tồn kho khỏi kế hoạch, vì đã có một bộ phận khác kiểm tra trong năm.",
+      "Kiểm tra lại, thu thập thêm bằng chứng hoặc tự thực hiện công việc đảm bảo cho lĩnh vực này.",
+      "Yêu cầu bộ phận Kiểm soát nội bộ tài chính làm lại và dùng kết quả mới mà không đánh giá lại."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 9.5 nêu khi CAE xác định không thể dựa vào công việc của bên khác, kiểm toán viên có thể kiểm tra lại và thu thập thêm thông tin, hoặc tự thực hiện dịch vụ đảm bảo. Không thể vừa dùng kết quả vừa từ chối trách nhiệm, vì CAE vẫn chịu trách nhiệm về kết luận của kiểm toán nội bộ.",
+    "optionNotes": [
+      "Sai. Khi đã dùng kết quả, CAE vẫn chịu trách nhiệm về kết luận; ghi chú từ chối trách nhiệm không thay được bằng chứng.",
+      "Sai. Bỏ lĩnh vực vì đã có bên kiểm tra là dựa vào công việc mà chính CAE vừa kết luận không đáng tin.",
+      "Đúng. Kiểm tra lại, thu thập thêm hoặc tự thực hiện là các lựa chọn khi không dựa vào được.",
+      "Sai. Kết quả làm lại vẫn phải được đánh giá trước khi dựa vào; nếu không, vấn đề cũ có thể lặp lại."
+    ],
+    "trap": "Cho rằng có thể dùng kết quả không đáng tin kèm ghi chú từ chối trách nhiệm.",
+    "refs": [
+      "GIAS 9.5",
+      "CIA Part 3 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-Y09",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 2,
+    "stem": "CAE dự định dựa vào kết quả kiểm tra hằng năm của bộ phận An ninh thông tin về quản lý quyền truy cập trong ba năm tới, thay cho kiểm toán riêng của bộ phận. Ngoài việc đánh giá ban đầu, điều gì nên được thực hiện?",
+    "options": [
+      "Chuyển trách nhiệm kết luận về quản lý quyền truy cập cho Giám đốc An ninh thông tin trong ba năm.",
+      "Đề nghị bộ phận An ninh thông tin chuyển về báo cáo trực tiếp cho CAE trong ba năm đó.",
+      "Ghi vào Quy chế KTNB rằng quản lý quyền truy cập không thuộc phạm vi của kiểm toán nội bộ.",
+      "Lập văn bản thỏa thuận về đặc điểm công việc đảm bảo, thủ tục kiểm tra và bằng chứng cần có."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 9.5 nêu nếu bộ phận kiểm toán định dựa vào công việc của bên khác một cách thường xuyên hoặc lâu dài, các bên nên lập văn bản về quan hệ đã thống nhất, đặc điểm của công việc đảm bảo, thủ tục kiểm tra và bằng chứng cần có. Thỏa thuận này giúp CAE đánh giá được công việc mỗi năm; CAE vẫn chịu trách nhiệm về kết luận.",
+    "optionNotes": [
+      "Sai. Khi dựa vào bên khác, CAE vẫn chịu trách nhiệm về kết luận của kiểm toán nội bộ (GIAS 9.5).",
+      "Sai. Đổi quan hệ báo cáo không cần thiết và làm kiểm toán nội bộ gánh trách nhiệm quản lý của tuyến hai.",
+      "Sai. Dựa vào bên khác không loại lĩnh vực khỏi phạm vi kiểm toán; CAE vẫn chịu trách nhiệm về độ bao phủ.",
+      "Đúng. Dựa vào lâu dài nên có thỏa thuận bằng văn bản về công việc, thủ tục và bằng chứng."
+    ],
+    "trap": "Nghĩ dựa vào bên khác lâu dài là giao luôn lĩnh vực và trách nhiệm kết luận cho họ.",
+    "refs": [
+      "GIAS 9.5",
+      "CIA Part 3 B.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-Y10",
+    "section": "B",
+    "topic": "B2",
+    "difficulty": 2,
+    "stem": "Ủy ban Kiểm toán nhận dự thảo kế hoạch năm chỉ gồm tên 22 cuộc kiểm toán và tháng thực hiện. Một thành viên hỏi: 'Vì sao lại là những cuộc này?' CAE nên bổ sung nội dung nào vào kế hoạch đề xuất?",
+    "options": [
+      "Lý do chọn từng cuộc, như mức độ rủi ro, yêu cầu pháp luật hay thời gian từ lần kiểm toán trước.",
+      "Họ tên và chứng chỉ chuyên môn của kiểm toán viên được giao cho từng cuộc kiểm toán.",
+      "Chương trình kiểm toán chi tiết và cỡ mẫu dự kiến của từng cuộc kiểm toán có trong kế hoạch năm.",
+      "Danh sách phát hiện dự kiến của từng cuộc để Ủy ban Kiểm toán đánh giá giá trị của cuộc đó."
+    ],
+    "answer": 0,
+    "explanation": "Hướng dẫn của GIAS 9.4 nêu kế hoạch đề xuất nên gồm lý do chọn từng cuộc kiểm toán (mức độ rủi ro, chủ đề hoặc nguyên nhân chung, yêu cầu pháp luật, thời gian từ lần kiểm toán trước), mục đích chung và phạm vi sơ bộ. Lý do chọn giúp HĐQT thấy kế hoạch dựa trên rủi ro, không chỉ là danh sách lặp lại.",
+    "optionNotes": [
+      "Đúng. Lý do chọn từng cuộc kiểm toán cho thấy kế hoạch dựa trên rủi ro.",
+      "Sai. Phân công nhân sự thuộc quản lý từng cuộc; nó không trả lời vì sao các cuộc kiểm toán được chọn.",
+      "Sai. Chương trình và cỡ mẫu được lập khi lập kế hoạch từng cuộc, không thuộc kế hoạch năm.",
+      "Sai. Phát hiện chỉ có sau khi thực hiện; nêu trước phát hiện dự kiến là định kiến về kết quả kiểm toán."
+    ],
+    "trap": "Nhầm nội dung của kế hoạch năm với nội dung kế hoạch từng cuộc kiểm toán.",
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-Y11",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Hai đơn vị có mức rủi ro tiềm tàng như nhau. Đơn vị P có kiểm soát vừa được kiểm toán nội bộ đánh giá là hữu hiệu năm ngoái; đơn vị Q chưa từng được đánh giá và vừa thay toàn bộ ban lãnh đạo. Nguồn lực chỉ đủ cho một cuộc. CAE nên ưu tiên thế nào?",
+    "options": [
+      "Ưu tiên P, vì kết quả năm ngoái tốt nên cần kiểm toán lại để xác nhận kiểm soát vẫn duy trì.",
+      "Ưu tiên Q, vì rủi ro so với mức hữu hiệu đã biết của kiểm soát cao hơn và có thay đổi lớn.",
+      "Chia đôi nguồn lực cho cả hai đơn vị, vì rủi ro tiềm tàng của hai đơn vị là như nhau.",
+      "Hoãn cả hai đơn vị đến năm sau, chờ đánh giá rủi ro mới của bộ phận Quản lý rủi ro."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 9.4 nêu khi lập kế hoạch, CAE xét mức rủi ro của từng đơn vị được kiểm toán so với mức hữu hiệu đã biết của kiểm soát, và nên có quy trình nhận diện rủi ro mới, đáng kể. Q chưa có đảm bảo nào về kiểm soát lại vừa thay ban lãnh đạo, nên rủi ro còn lại chưa biết và có thể cao hơn P.",
+    "optionNotes": [
+      "Sai. Kiểm soát của P đã có đảm bảo gần đây; dùng nguồn lực hiếm cho P bỏ ngỏ đơn vị có rủi ro chưa được đánh giá.",
+      "Đúng. Ưu tiên theo rủi ro so với mức hữu hiệu đã biết của kiểm soát, cộng với thay đổi lớn ở Q.",
+      "Sai. Chia đôi có thể làm cả hai cuộc không đủ phạm vi; rủi ro tiềm tàng giống nhau không có nghĩa rủi ro còn lại giống nhau.",
+      "Sai. Hoãn cả hai bỏ ngỏ rủi ro; kế hoạch phải linh hoạt và cập nhật kịp thời theo thay đổi của tổ chức."
+    ],
+    "trap": "Xếp ưu tiên chỉ theo rủi ro tiềm tàng, bỏ qua mức hữu hiệu đã biết của kiểm soát và thay đổi lớn.",
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.1"
+    ],
+    "source": "original"
   }
 ]
