@@ -1649,5 +1649,335 @@
       "CIA Part 3 D.4"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-D-X01",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Cuộc kiểm toán chuỗi cung ứng kéo dài 4 tháng. Ngay tháng đầu, nhóm phát hiện kiểm soát chọn nhà cung cấp có lỗ hổng lớn, nhưng định giữ lại để trình bày một lần ở họp kết thúc. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì trình bày một lần ở cuối giúp quản lý có cái nhìn tổng thể hơn.",
+      "Phù hợp, nếu nhóm ghi lại thời điểm phát hiện trong hồ sơ kiểm toán.",
+      "Chưa phù hợp; phải báo ngay HĐQT trước khi trao đổi với quản lý của đơn vị được kiểm toán.",
+      "Chưa phù hợp; nên trao đổi sớm phát hiện với cấp quản lý có thẩm quyền thay đổi."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.1 yêu cầu kiểm toán viên trao đổi hiệu quả trong suốt cuộc kiểm toán. Hướng dẫn của GIAS 14.4 nêu kiểm toán viên nên kịp thời trao đổi phát hiện và kiến nghị tiềm năng với cấp quản lý có thẩm quyền thay đổi hoạt động. Giữ một lỗ hổng lớn đến cuối 4 tháng khiến rủi ro tồn tại lâu hơn và quản lý mất cơ hội khắc phục sớm.",
+    "optionNotes": [
+      "Sai. Cái nhìn tổng thể vẫn có ở cuối; giữ lại phát hiện lớn làm rủi ro kéo dài không cần thiết.",
+      "Sai. Ghi hồ sơ không thay được việc trao đổi kịp thời để quản lý có thể hành động.",
+      "Sai. Phát hiện được trao đổi trước với quản lý phù hợp; báo HĐQT là bước dành cho vấn đề không được giải quyết.",
+      "Đúng. Trao đổi sớm với cấp quản lý có thẩm quyền giúp khắc phục kịp thời."
+    ],
+    "trap": "Giữ phát hiện quan trọng đến họp kết thúc thay vì trao đổi sớm với quản lý.",
+    "refs": [
+      "GIAS 13.1",
+      "GIAS 14.4",
+      "CIA Part 3 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X02",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Ở họp kết thúc, phía đơn vị chỉ có hai nhân viên kế toán tham dự; trưởng phòng và giám đốc khối đều vắng. Hai nhân viên đồng ý với mọi phát hiện và kế hoạch hành động. Vấn đề chính là gì?",
+    "options": [
+      "Người tham dự không có thẩm quyền quyết định thay đổi và cam kết kế hoạch hành động.",
+      "Không có vấn đề, vì đơn vị đã đồng ý với toàn bộ phát hiện và kế hoạch hành động.",
+      "Họp kết thúc phải có đại diện HĐQT tham dự thì kết quả cuộc họp mới có giá trị pháp lý.",
+      "Kiểm toán viên nên gửi báo cáo cuối cùng ngay để tránh phải tổ chức họp lại."
+    ],
+    "answer": 0,
+    "explanation": "Họp kết thúc nhằm hoàn thiện kết quả, bàn bất đồng và thống nhất tính khả thi của kế hoạch hành động, thời hạn và người chịu trách nhiệm. Hướng dẫn của GIAS 14.4 nêu kiểm toán viên nên trao đổi phát hiện và kiến nghị với cấp quản lý có thẩm quyền thay đổi và giám sát hoạt động. Nhân viên không có thẩm quyền thì sự đồng ý của họ không bảo đảm kế hoạch được thực hiện.",
+    "optionNotes": [
+      "Đúng. Phát hiện và kế hoạch hành động cần được thống nhất với cấp quản lý có thẩm quyền thay đổi.",
+      "Sai. Đồng ý của người không có thẩm quyền không bảo đảm kế hoạch hành động được cam kết và thực hiện.",
+      "Sai. HĐQT không tham dự họp kết thúc từng cuộc; người cần có mặt là quản lý có thẩm quyền của đơn vị.",
+      "Sai. Bỏ qua việc thống nhất với quản lý có thẩm quyền làm báo cáo dễ bị phản đối và kế hoạch không được thực hiện."
+    ],
+    "trap": "Coi sự đồng ý của người không có thẩm quyền là đủ để chốt phát hiện và kế hoạch hành động.",
+    "refs": [
+      "GIAS 14.4",
+      "GIAS 13.1",
+      "CIA Part 3 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X03",
+    "section": "D",
+    "topic": "D6",
+    "difficulty": 2,
+    "stem": "Ban điều hành quyết định không thực hiện bốn kiến nghị dưới đây. Trường hợp nào CAE cần coi là có thể vượt khẩu vị rủi ro và phải trao đổi theo trình tự báo cáo rủi ro không chấp nhận được?",
+    "options": [
+      "Không đổi nhà cung cấp văn phòng phẩm hiện tại sang một đơn vị khác rẻ hơn khoảng 3%.",
+      "Không khắc phục lỗ hổng có thể gây sai sót trọng yếu trên báo cáo tài chính.",
+      "Hoãn một tháng khóa đào tạo kỹ năng mềm cho nhân viên mới tuyển.",
+      "Giữ quy trình duyệt nghỉ phép bằng giấy thay vì chuyển sang phần mềm."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 11.5 yêu cầu CAE trao đổi về mức rủi ro không chấp nhận được. Hướng dẫn của chuẩn mực liệt kê các tác động khi rủi ro vượt khẩu vị, như tổn hại uy tín, phạt nặng của cơ quan quản lý, sai sót trọng yếu, gian lận, cản trở lớn tới mục tiêu chiến lược. Không khắc phục lỗ hổng có thể gây sai sót trọng yếu thuộc nhóm này; các trường hợp còn lại là quyết định quản lý thông thường với rủi ro nhỏ.",
+    "optionNotes": [
+      "Sai. Chênh lệch chi phí nhỏ là quyết định kinh doanh thông thường, không phải rủi ro vượt khẩu vị.",
+      "Đúng. Rủi ro sai sót trọng yếu trên báo cáo tài chính là tác động điển hình của rủi ro vượt khẩu vị.",
+      "Sai. Hoãn ngắn một khóa đào tạo kỹ năng mềm có ảnh hưởng nhỏ, nằm trong thẩm quyền quản lý.",
+      "Sai. Giữ quy trình giấy kém hiệu suất nhưng hiếm khi là rủi ro vượt khẩu vị cần báo vượt cấp."
+    ],
+    "trap": "Coi mọi kiến nghị không được thực hiện đều là rủi ro vượt khẩu vị, hoặc không nhận ra tác động trọng yếu.",
+    "refs": [
+      "GIAS 11.5",
+      "CIA Part 3 D.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X04",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 2,
+    "stem": "Dự thảo kiến nghị cho phát hiện 'khoản tạm ứng quá hạn không được theo dõi' chỉ ghi: 'Đơn vị cần tăng cường kiểm soát đối với tạm ứng.' Người rà soát yêu cầu viết lại. Lý do phù hợp nhất là gì?",
+    "options": [
+      "Kiến nghị quá ngắn; cần thêm trích dẫn đầy đủ các văn bản pháp luật liên quan.",
+      "Kiến nghị phải do Ban điều hành tự viết, kiểm toán viên không được đưa kiến nghị.",
+      "Kiến nghị chung chung, không chỉ ra hành động cụ thể xử lý nguyên nhân của phát hiện.",
+      "Kiến nghị nên bỏ, vì phát hiện về tạm ứng thường có mức độ quan trọng thấp."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 14.4 yêu cầu kiến nghị hoặc kế hoạch hành động nhằm giảm rủi ro về mức chấp nhận được, xử lý nguyên nhân gốc, cải thiện hoạt động và giải quyết chênh lệch giữa tiêu chí và thực trạng. 'Tăng cường kiểm soát' không nói làm gì, ai làm, xử lý nguyên nhân nào; kiến nghị cần cụ thể, ví dụ báo cáo tuổi tạm ứng hằng tháng và chặn tạm ứng mới khi còn khoản quá hạn.",
+    "optionNotes": [
+      "Sai. Độ dài hay trích dẫn văn bản không phải vấn đề; kiến nghị thiếu hành động cụ thể.",
+      "Sai. Kiểm toán viên có thể đưa kiến nghị, đề nghị quản lý lập kế hoạch, hoặc cùng thống nhất hành động (GIAS 14.4).",
+      "Đúng. Kiến nghị cần cụ thể, nhắm vào nguyên nhân để quản lý biết phải làm gì.",
+      "Sai. Mức độ quan trọng phải được đánh giá; không thể bỏ kiến nghị chỉ vì chủ đề thường ít rủi ro."
+    ],
+    "trap": "Cho rằng kiến nghị chung chung như 'tăng cường kiểm soát' là đủ.",
+    "refs": [
+      "GIAS 14.4",
+      "CIA Part 3 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X05",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 3,
+    "stem": "Phát hiện: hệ thống cho phép một người vừa tạo vừa duyệt lệnh chi. Kế hoạch hành động Ban điều hành đề xuất: 'Gửi thông báo nhắc nhân viên không tự duyệt lệnh chi của mình.' Kiểm toán viên nên đánh giá kế hoạch này thế nào?",
+    "options": [
+      "Chấp nhận, vì Ban điều hành có quyền tự chọn cách khắc phục phát hiện của mình.",
+      "Chấp nhận, nếu thông báo được gửi đến toàn bộ nhân viên trong vòng một tuần.",
+      "Chưa đạt; kiểm toán viên nên tự cấu hình lại hệ thống để xử lý dứt điểm.",
+      "Chưa đạt; kế hoạch không xử lý nguyên nhân là hệ thống cho phép tự duyệt."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 14.4 yêu cầu hành động nhằm giảm rủi ro về mức chấp nhận được và xử lý nguyên nhân gốc. Hướng dẫn của chuẩn mực nêu kiểm toán viên nên đánh giá và trao đổi với quản lý về tính khả thi, hợp lý của kế hoạch, và việc kế hoạch có xử lý rủi ro thỏa đáng theo ngưỡng chịu đựng hay không. Nhắc nhở không thay đổi việc hệ thống vẫn cho phép tự duyệt, nên rủi ro gần như không giảm.",
+    "optionNotes": [
+      "Sai. Ban điều hành chọn cách khắc phục, nhưng kiểm toán viên phải đánh giá cách đó có xử lý được rủi ro không.",
+      "Sai. Gửi nhanh hơn không làm thay đổi bản chất; nhắc nhở vẫn không xử lý được lỗ hổng trên hệ thống.",
+      "Sai. Thực hiện khắc phục là trách nhiệm của Ban điều hành; kiểm toán viên tự cấu hình là làm thay quản lý.",
+      "Đúng. Kế hoạch không xử lý nguyên nhân (hệ thống cho phép tự duyệt) nên chưa đạt."
+    ],
+    "trap": "Chấp nhận kế hoạch hành động chỉ nhắc nhở, không xử lý nguyên nhân gốc của phát hiện.",
+    "refs": [
+      "GIAS 14.4",
+      "CIA Part 3 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X06",
+    "section": "D",
+    "topic": "D4",
+    "difficulty": 2,
+    "stem": "Giám đốc khối đề nghị CAE hoãn phát hành báo cáo kiểm toán đến sau kỳ xét thưởng cuối năm, vì báo cáo có phát hiện không có lợi cho khối. Báo cáo đã sẵn sàng và được CAE phê duyệt. CAE nên làm gì?",
+    "options": [
+      "Phát hành theo lịch, vì trao đổi phải kịp thời và không bị chi phối bởi lợi ích của đơn vị.",
+      "Hoãn theo đề nghị, vì thời điểm phát hành không làm thay đổi nội dung báo cáo.",
+      "Hoãn và gửi trước cho Giám đốc khối để có thời gian chuẩn bị giải trình về phát hiện.",
+      "Phát hành nhưng bỏ phát hiện bất lợi, rồi gửi phần đó riêng sau kỳ xét thưởng."
+    ],
+    "answer": 0,
+    "explanation": "Báo cáo cuối cùng phải kịp thời (GIAS 15.1, 11.2), và kiểm toán viên không được để lợi ích của người khác chi phối (GIAS 2.2). Hoãn để kết quả không ảnh hưởng xét thưởng là để lợi ích của đơn vị quyết định thời điểm trao đổi, làm người cần thông tin nhận muộn; bỏ phát hiện còn vi phạm yêu cầu trung thực, đầy đủ (GIAS 1.1).",
+    "optionNotes": [
+      "Đúng. Báo cáo đã sẵn sàng thì phát hành kịp thời, không để lợi ích của đơn vị chi phối.",
+      "Sai. Thời điểm quan trọng: hoãn để tránh ảnh hưởng xét thưởng làm người cần thông tin nhận muộn và kết quả bị chi phối.",
+      "Sai. Đơn vị đã có cơ hội giải trình trong quá trình kiểm toán; hoãn để chuẩn bị thêm vẫn là để lợi ích chi phối.",
+      "Sai. Bỏ phát hiện khỏi báo cáo là che giấu thông tin, trái yêu cầu trung thực và đầy đủ."
+    ],
+    "trap": "Chấp nhận hoãn phát hành báo cáo theo đề nghị của đơn vị vì lợi ích riêng của họ.",
+    "refs": [
+      "GIAS 15.1",
+      "GIAS 2.2",
+      "GIAS 1.1",
+      "CIA Part 3 D.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X07",
+    "section": "D",
+    "topic": "D8",
+    "difficulty": 3,
+    "stem": "Ban điều hành và cả HĐQT quyết định không báo cáo một sự cố rò rỉ dữ liệu khách hàng cho cơ quan quản lý, dù luật yêu cầu báo cáo trong 72 giờ, vì 'sợ ảnh hưởng uy tín'. CAE đã trao đổi đầy đủ theo trình tự nội bộ. Nhận định nào đúng nhất về nghĩa vụ của kiểm toán nội bộ?",
+    "options": [
+      "Dừng lại, vì HĐQT là cấp cao nhất và đã quyết định chấp nhận rủi ro này.",
+      "Báo vi phạm cho người, cơ quan có thẩm quyền theo quy định của luật và chính sách áp dụng.",
+      "Tự công bố sự việc lên mạng xã hội để bảo vệ quyền lợi của khách hàng bị ảnh hưởng.",
+      "Ghi nhận quyết định của HĐQT vào hồ sơ và tiếp tục theo dõi trong cuộc kiểm toán sau."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 1.3 yêu cầu kiểm toán viên hiểu và tuân thủ luật, quy định áp dụng, gồm việc công bố khi luật yêu cầu; khi phát hiện vi phạm pháp luật, phải báo cho cá nhân hoặc cơ quan có thẩm quyền hành động phù hợp, theo luật, quy định và chính sách, thủ tục áp dụng. Chấp nhận rủi ro theo GIAS 11.5 áp dụng cho rủi ro kinh doanh; nó không biến việc cố ý vi phạm nghĩa vụ báo cáo theo luật thành quyết định hợp lệ.",
+    "optionNotes": [
+      "Sai. HĐQT có thể chấp nhận rủi ro kinh doanh, nhưng không thể quyết định vi phạm nghĩa vụ báo cáo theo luật.",
+      "Đúng. Vi phạm pháp luật được báo cho người, cơ quan có thẩm quyền theo luật và chính sách áp dụng (GIAS 1.3).",
+      "Sai. Công bố lên mạng xã hội không phải kênh theo luật và chính sách; nó còn vi phạm nghĩa vụ bảo mật.",
+      "Sai. Chỉ ghi nhận và theo dõi là bỏ qua vi phạm pháp luật đang diễn ra; GIAS 1.3 yêu cầu báo cáo theo luật."
+    ],
+    "trap": "Cho rằng HĐQT đã chấp nhận thì mọi rủi ro, kể cả vi phạm nghĩa vụ báo cáo theo luật, đều khép lại.",
+    "refs": [
+      "GIAS 1.3",
+      "GIAS 11.5",
+      "CIA Part 3 D.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X08",
+    "section": "D",
+    "topic": "D2",
+    "difficulty": 2,
+    "stem": "Kiểm toán nội bộ vừa hoàn thành một cuộc tư vấn thiết kế quy trình phê duyệt hợp đồng. Trưởng nhóm định đưa vào báo cáo cuối cùng một kết luận xếp hạng 'kiểm soát hữu hiệu' như các cuộc đảm bảo. Nhận định nào đúng nhất?",
+    "options": [
+      "Đúng, vì mọi báo cáo cuối cùng đều phải có kết luận về hiệu quả kiểm soát.",
+      "Đúng, nếu đơn vị đề nghị tư vấn đồng ý với mức xếp hạng 'kiểm soát hữu hiệu'.",
+      "Chưa cần; kết luận về hiệu quả kiểm soát là yêu cầu riêng của cuộc đảm bảo.",
+      "Chưa cần; báo cáo cuộc tư vấn không cần nêu mục tiêu, phạm vi hay kết luận."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 15.1 yêu cầu mọi báo cáo cuối cùng nêu mục tiêu, phạm vi, kiến nghị hoặc kế hoạch hành động nếu có, và kết luận; riêng cuộc đảm bảo còn phải có phát hiện cùng mức độ, giải thích giới hạn phạm vi và kết luận về hiệu quả quản trị, rủi ro, kiểm soát. Cuộc tư vấn thiết kế quy trình mới chưa vận hành, nên xếp hạng 'hữu hiệu' như cuộc đảm bảo vừa không bắt buộc vừa không có căn cứ.",
+    "optionNotes": [
+      "Sai. Kết luận về hiệu quả quản trị, rủi ro, kiểm soát là nội dung thêm của cuộc đảm bảo, không phải của mọi báo cáo.",
+      "Sai. Sự đồng ý của đơn vị không tạo căn cứ cho một kết luận đảm bảo mà cuộc tư vấn không được thiết kế để đưa ra.",
+      "Đúng. Kết luận về hiệu quả kiểm soát chỉ bắt buộc với cuộc đảm bảo; cuộc tư vấn kết luận theo mục tiêu đã thỏa thuận.",
+      "Sai. Mọi báo cáo cuối cùng, kể cả tư vấn, đều phải nêu mục tiêu, phạm vi và kết luận theo GIAS 15.1."
+    ],
+    "trap": "Áp yêu cầu kết luận hiệu quả kiểm soát của cuộc đảm bảo cho báo cáo cuộc tư vấn.",
+    "refs": [
+      "GIAS 15.1",
+      "CIA Part 3 D.2"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X09",
+    "section": "D",
+    "topic": "D7",
+    "difficulty": 2,
+    "stem": "Trên hệ thống theo dõi, các đơn vị được quyền tự chuyển trạng thái kế hoạch hành động sang 'đã hoàn thành' và phát hiện tự động đóng. Rủi ro chính của cách làm này là gì?",
+    "options": [
+      "Hệ thống phải xử lý quá nhiều thay đổi trạng thái mỗi tháng.",
+      "Kiểm toán viên mất quyền truy cập dữ liệu của đơn vị trên hệ thống theo dõi phát hiện.",
+      "Đơn vị phải mất thêm thời gian cập nhật hệ thống thay vì khắc phục.",
+      "Phát hiện có thể bị đóng mà kiểm toán nội bộ chưa xác nhận việc thực hiện."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 15.2 yêu cầu kiểm toán viên xác nhận Ban điều hành đã thực hiện kiến nghị hoặc kế hoạch hành động theo phương pháp đã thiết lập, gồm đánh giá lại dựa trên rủi ro và cập nhật trạng thái trên hệ thống. Đơn vị có thể báo đã hoàn thành, nhưng việc đóng phát hiện cần qua xác nhận của kiểm toán nội bộ; nếu không, báo cáo tiến độ cho HĐQT có thể sai.",
+    "optionNotes": [
+      "Sai. Khối lượng thay đổi không phải rủi ro chính; vấn đề là phát hiện bị đóng khi chưa được xác nhận.",
+      "Sai. Cho đơn vị cập nhật trạng thái không làm kiểm toán viên mất quyền truy cập; vấn đề nằm ở quyền đóng phát hiện.",
+      "Sai. Cập nhật trạng thái tốn ít công; rủi ro thật là trạng thái 'hoàn thành' chưa được kiểm chứng.",
+      "Đúng. Đóng phát hiện cần xác nhận của kiểm toán nội bộ theo GIAS 15.2, không chỉ dựa vào tự báo của đơn vị."
+    ],
+    "trap": "Để đơn vị tự đóng phát hiện trên hệ thống theo dõi mà không qua xác nhận của kiểm toán nội bộ.",
+    "refs": [
+      "GIAS 15.2",
+      "CIA Part 3 D.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X11",
+    "section": "D",
+    "topic": "D7",
+    "difficulty": 2,
+    "stem": "Kế hoạch hành động gồm ba việc: sửa quy trình, cấu hình hệ thống và đào tạo nhân viên. Khi theo dõi, kiểm toán viên thấy hai việc đầu đã xong, việc đào tạo chưa làm. Cách cập nhật trạng thái phù hợp nhất là gì?",
+    "options": [
+      "Ghi nhận thực hiện một phần, giữ phát hiện mở và theo dõi phần còn lại.",
+      "Đóng phát hiện, vì phần lớn các hành động trong kế hoạch đã hoàn thành.",
+      "Đóng phát hiện cũ và mở một phát hiện mới chỉ cho phần đào tạo còn thiếu.",
+      "Chuyển phần đào tạo cho kiểm toán nội bộ tự tổ chức để đóng phát hiện sớm."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 15.2 yêu cầu theo dõi theo phương pháp đã thiết lập và cập nhật trạng thái hành động của Ban điều hành trên hệ thống theo dõi. Trạng thái phải phản ánh đúng thực tế: phát hiện chỉ đóng khi kế hoạch đã hoàn thành và xử lý được rủi ro; thực hiện một phần thì giữ mở và theo dõi phần còn lại.",
+    "optionNotes": [
+      "Đúng. Ghi nhận thực hiện một phần và giữ phát hiện mở phản ánh đúng tình trạng.",
+      "Sai. Phần lớn không phải là toàn bộ; đóng sớm làm báo cáo tiến độ sai lệch và phần còn lại bị bỏ quên.",
+      "Sai. Tách thành phát hiện mới làm số liệu theo dõi sai lệch; vẫn là cùng một phát hiện chưa xử lý xong.",
+      "Sai. Thực hiện kế hoạch hành động là trách nhiệm của Ban điều hành; kiểm toán nội bộ không làm thay."
+    ],
+    "trap": "Đóng phát hiện khi kế hoạch hành động mới hoàn thành phần lớn, chưa xong toàn bộ.",
+    "refs": [
+      "GIAS 15.2",
+      "CIA Part 3 D.7"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X12",
+    "section": "D",
+    "topic": "D3",
+    "difficulty": 3,
+    "stem": "Phát hiện rủi ro cao: dữ liệu khách hàng chưa được mã hóa khi lưu trữ. Ban điều hành đề xuất kế hoạch hành động hoàn thành sau 3 năm, khi nâng cấp toàn bộ hệ thống, và không có biện pháp nào trong thời gian chờ. Kiểm toán viên nên làm gì?",
+    "options": [
+      "Chấp nhận, vì thời hạn khắc phục hoàn toàn do Ban điều hành quyết định.",
+      "Đánh giá tính hợp lý của thời hạn và đề nghị biện pháp tạm thời giảm rủi ro.",
+      "Từ chối mọi thời hạn quá 3 tháng và yêu cầu nâng cấp hệ thống ngay lập tức.",
+      "Ghi thời hạn 3 năm vào báo cáo và đóng phát hiện khi kế hoạch được chấp thuận."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 14.4 nêu kiểm toán viên nên đánh giá và trao đổi với quản lý về tính khả thi, hợp lý của kế hoạch hành động, gồm phân tích chi phí, lợi ích và việc kế hoạch có xử lý rủi ro thỏa đáng theo ngưỡng chịu đựng hay không. Để rủi ro cao tồn tại 3 năm không có biện pháp nào có thể vượt ngưỡng chịu đựng; biện pháp tạm thời (hạn chế truy cập, giám sát) giúp giảm rủi ro trong thời gian chờ.",
+    "optionNotes": [
+      "Sai. Ban điều hành đề xuất thời hạn, nhưng kiểm toán viên phải đánh giá kế hoạch có xử lý rủi ro thỏa đáng không.",
+      "Đúng. Đánh giá tính hợp lý của thời hạn và đề nghị biện pháp tạm thời là cách xử lý phù hợp.",
+      "Sai. Đòi nâng cấp ngay có thể không khả thi; mục tiêu là giảm rủi ro hợp lý, không phải thời hạn cứng.",
+      "Sai. Phát hiện chỉ đóng khi đã khắc phục, không phải khi kế hoạch được chấp thuận."
+    ],
+    "trap": "Chấp nhận thời hạn khắc phục rất dài cho rủi ro cao mà không xét biện pháp tạm thời.",
+    "refs": [
+      "GIAS 14.4",
+      "CIA Part 3 D.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-X13",
+    "section": "D",
+    "topic": "D1",
+    "difficulty": 2,
+    "stem": "Dự thảo báo cáo về quy trình cho vay đính kèm phụ lục liệt kê họ tên, số căn cước và số tài khoản của 200 khách hàng trong mẫu kiểm tra. Báo cáo sẽ gửi cho 15 người nhận. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Giữ phụ lục, vì thông tin chi tiết giúp người đọc tự kiểm tra kết quả kiểm toán.",
+      "Gửi báo cáo cho ít người hơn nhưng vẫn giữ nguyên phụ lục dữ liệu khách hàng.",
+      "Bỏ dữ liệu cá nhân không cần thiết, chỉ giữ thông tin đủ để hiểu phát hiện.",
+      "Giữ phụ lục nhưng đánh dấu 'Mật' ở trang đầu tiên của báo cáo cuối cùng."
+    ],
+    "answer": 2,
+    "explanation": "Trao đổi phải súc tích, bỏ thông tin không cần thiết (GIAS 11.2), và kiểm toán viên phải bảo vệ thông tin khỏi tiếp cận, công bố trái phép, tuân thủ quy định về bảo mật và quyền riêng tư (GIAS 5.2). Dữ liệu cá nhân của 200 khách hàng không cần để người đọc hiểu phát hiện; chi tiết đó nên nằm trong hồ sơ kiểm toán có kiểm soát truy cập.",
+    "optionNotes": [
+      "Sai. Người đọc báo cáo không cần dữ liệu cá nhân để hiểu phát hiện; chi tiết thuộc hồ sơ kiểm toán.",
+      "Sai. Giảm người nhận có ích, nhưng dữ liệu không cần thiết vẫn không nên có trong báo cáo.",
+      "Đúng. Bỏ dữ liệu cá nhân không cần thiết đáp ứng cả yêu cầu súc tích và bảo vệ thông tin.",
+      "Sai. Đánh dấu 'Mật' không thay việc hạn chế dữ liệu; thông tin vẫn bị phát tán cho mọi người nhận."
+    ],
+    "trap": "Đưa dữ liệu cá nhân chi tiết vào báo cáo vì nghĩ càng chi tiết càng minh bạch.",
+    "refs": [
+      "GIAS 11.2",
+      "GIAS 5.2",
+      "CIA Part 3 D.1"
+    ],
+    "source": "original"
   }
 ]
