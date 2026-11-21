@@ -675,5 +675,33 @@
       "CIA Part 3 A.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-A-V01",
+    "section": "A",
+    "topic": "A2",
+    "difficulty": 2,
+    "stem": "Để có tiền mua phần mềm phân tích dữ liệu, CAE cắt toàn bộ ngân sách đào tạo của bộ phận năm nay và nói 'CPE là trách nhiệm của từng người'. Nhận định nào đúng nhất?",
+    "options": [
+      "Chưa đúng; CAE chịu trách nhiệm về năng lực bộ phận và nên dành ngân sách đào tạo.",
+      "Đúng, vì đầu tư công nghệ luôn mang lại hiệu quả cao hơn đầu tư vào đào tạo.",
+      "Đúng, vì kiểm toán viên phải tự lo việc phát triển nghề nghiệp liên tục của mình.",
+      "Chưa đúng; tổ chức bắt buộc phải tài trợ toàn bộ chi phí CPE cho mọi kiểm toán viên."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 3.2 yêu cầu kiểm toán viên phải duy trì, phát triển năng lực và theo đuổi phát triển nghề nghiệp liên tục. Hướng dẫn của chuẩn mực nêu dù kiểm toán viên chịu trách nhiệm phát triển năng lực của mình, CAE chịu trách nhiệm về năng lực của bộ phận và nên lập ngân sách, kế hoạch đào tạo; ngân sách đào tạo nên cân bằng giữa năng lực tập thể và nhu cầu phát triển của từng người. Phần mềm mới cũng cần đào tạo mới dùng hiệu quả (GIAS 10.3).",
+    "optionNotes": [
+      "Đúng. CAE chịu trách nhiệm về năng lực của bộ phận và nên dành ngân sách cho đào tạo.",
+      "Sai. Công nghệ chỉ hiệu quả khi người dùng có năng lực; GIAS 10.3 còn yêu cầu đào tạo khi triển khai công nghệ mới.",
+      "Sai. Trách nhiệm cá nhân không loại bỏ trách nhiệm của CAE về năng lực tập thể của bộ phận.",
+      "Sai. GIAS không bắt buộc tổ chức tài trợ toàn bộ CPE; điều nên làm là CAE lập ngân sách, kế hoạch đào tạo hợp lý."
+    ],
+    "trap": "Cho rằng phát triển nghề nghiệp hoàn toàn là trách nhiệm cá nhân nên CAE có thể bỏ ngân sách đào tạo.",
+    "refs": [
+      "GIAS 3.2",
+      "GIAS 10.3",
+      "CIA Part 3 A.2"
+    ],
+    "source": "original"
   }
 ]

@@ -1210,5 +1210,60 @@
       "CIA Part 3 D.8"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-D-V01",
+    "section": "D",
+    "topic": "D8",
+    "difficulty": 3,
+    "stem": "Kế hoạch khắc phục phân quyền hệ thống thanh toán đã lùi hạn năm lần trong hai năm, lần nào cũng vì 'chưa có ngân sách', và chưa ai chính thức quyết định chấp nhận rủi ro. Kiểm toán viên đã ghi nhận giải trình và trao đổi với CAE. CAE nên làm gì tiếp theo?",
+    "options": [
+      "Tiếp tục cho lùi hạn, vì chưa có quyết định chấp nhận rủi ro chính thức nào được đưa ra.",
+      "Đóng phát hiện vì đã quá cũ, và mở lại khi Ban điều hành có ngân sách để thực hiện.",
+      "Xác định việc trì hoãn kéo dài có phải là chấp nhận rủi ro vượt ngưỡng chịu đựng hay không.",
+      "Tự thu xếp ngân sách của kiểm toán nội bộ để khắc phục, vì rủi ro đã kéo dài quá lâu."
+    ],
+    "answer": 2,
+    "explanation": "Sau khi kiểm toán viên lấy giải trình và trao đổi với CAE (GIAS 15.2), CAE cần xác định việc chậm trễ hoặc không hành động có phải là Ban điều hành đang chấp nhận rủi ro vượt ngưỡng chịu đựng trên thực tế hay không. Nếu đúng vậy, GIAS 11.5 yêu cầu thảo luận với Ban điều hành cấp cao, và báo HĐQT nếu không được giải quyết. Năm lần lùi hạn vì thiếu ngân sách là dấu hiệu rõ của chấp nhận rủi ro ngầm.",
+    "optionNotes": [
+      "Sai. Không có quyết định chính thức không có nghĩa là chưa chấp nhận rủi ro; lùi hạn mãi là chấp nhận trên thực tế.",
+      "Sai. Đóng phát hiện khi rủi ro vẫn còn là phản ánh sai và bỏ qua nghĩa vụ báo cáo rủi ro không chấp nhận được.",
+      "Đúng. CAE xác định chậm trễ kéo dài có phải là chấp nhận rủi ro vượt ngưỡng không, để áp dụng trình tự GIAS 11.5.",
+      "Sai. CAE không có trách nhiệm xử lý rủi ro; tự khắc phục còn làm suy giảm khách quan của kiểm toán nội bộ."
+    ],
+    "trap": "Cho rằng chưa có quyết định chấp nhận rủi ro chính thức thì có thể tiếp tục cho lùi hạn mãi.",
+    "refs": [
+      "GIAS 15.2",
+      "GIAS 11.5",
+      "CIA Part 3 D.8"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-D-V02",
+    "section": "D",
+    "topic": "D8",
+    "difficulty": 2,
+    "stem": "Mỗi khi kế hoạch hành động quá hạn, CAE và Ban điều hành lại tranh luận việc có cần báo HĐQT hay không, vì chưa từng thống nhất khi nào thì một vấn đề phải được báo lên. Cách cải thiện phù hợp nhất là gì?",
+    "options": [
+      "Báo HĐQT mọi kế hoạch quá hạn, để không phải tranh luận trong từng trường hợp.",
+      "Để Tổng Giám đốc quyết định trong từng trường hợp có cần báo HĐQT hay không.",
+      "Chỉ báo HĐQT khi đã có tổn thất thực tế phát sinh từ kế hoạch bị quá hạn.",
+      "Thống nhất với HĐQT tiêu chí và quy trình báo vượt cấp, có Ban điều hành tham gia."
+    ],
+    "answer": 3,
+    "explanation": "Theo điều kiện thiết yếu ở GIAS 8.1, HĐQT cần thống nhất với CAE tiêu chí xác định vấn đề nào phải báo lên HĐQT và quy trình báo vượt cấp, còn Ban điều hành cần phối hợp với HĐQT và CAE về quy trình này. Hướng dẫn của chuẩn mực nêu tiêu chí nên gắn với quy trình CAE dùng để báo vượt cấp. Có tiêu chí thống nhất trước thì không phải tranh luận từng trường hợp, và việc báo cáo nhất quán, kịp thời.",
+    "optionNotes": [
+      "Sai. Báo mọi trường hợp làm HĐQT quá tải và làm lu mờ các vấn đề thực sự quan trọng.",
+      "Sai. Để Ban điều hành quyết định việc báo lên HĐQT làm suy yếu kênh báo cáo trực tiếp của CAE với HĐQT.",
+      "Sai. Chờ có tổn thất là quá muộn; mục đích báo vượt cấp là để HĐQT can thiệp trước khi rủi ro xảy ra.",
+      "Đúng. Tiêu chí và quy trình báo vượt cấp thống nhất trước với HĐQT, có Ban điều hành tham gia, giúp báo cáo nhất quán."
+    ],
+    "trap": "Cho rằng việc báo vượt cấp lên HĐQT có thể quyết định theo từng trường hợp mà không cần tiêu chí thống nhất trước.",
+    "refs": [
+      "GIAS 8.1",
+      "CIA Part 3 D.8"
+    ],
+    "source": "original"
   }
 ]

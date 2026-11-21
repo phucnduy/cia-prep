@@ -401,5 +401,59 @@
       "CIA Part 3 C.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-C-V01",
+    "section": "C",
+    "topic": "C1",
+    "difficulty": 2,
+    "stem": "CAE thuê một chuyên gia bên ngoài thực hiện toàn bộ đợt tự đánh giá định kỳ; các kiểm toán viên trong bộ phận không tham gia để 'kết quả khách quan'. Nhiều kiểm toán viên vẫn hiểu mơ hồ về Chuẩn mực. Nhận định nào đúng nhất?",
+    "options": [
+      "Nên cân nhắc cho kiểm toán viên tham gia, để họ hiểu Chuẩn mực tốt hơn.",
+      "Phù hợp, vì tự đánh giá phải do người ngoài bộ phận làm mới có giá trị.",
+      "Phù hợp, vì việc hiểu Chuẩn mực là trách nhiệm cá nhân của kiểm toán viên.",
+      "Nên bỏ tự đánh giá định kỳ, vì đã có đánh giá chất lượng bên ngoài năm năm một lần."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 12.1 yêu cầu đánh giá nội bộ gồm tự đánh giá định kỳ, do chính bộ phận hoặc người khác trong tổ chức có đủ hiểu biết về kiểm toán nội bộ thực hiện. Hướng dẫn của chuẩn mực nêu CAE nên cân nhắc cho kiểm toán viên tham gia tự đánh giá định kỳ để họ hiểu Chuẩn mực tốt hơn. Thuê ngoài toàn bộ không sai, nhưng bỏ lỡ cơ hội nâng hiểu biết của đội ngũ.",
+    "optionNotes": [
+      "Đúng. Cho kiểm toán viên tham gia tự đánh giá là hướng dẫn của GIAS 12.1 để họ hiểu Chuẩn mực hơn.",
+      "Sai. Tự đánh giá định kỳ có thể do chính bộ phận thực hiện; tính độc lập là yêu cầu của đánh giá bên ngoài.",
+      "Sai. Kiểm toán viên phải có hoặc phát triển kiến thức về Chuẩn mực, nhưng CAE có thể dùng tự đánh giá để hỗ trợ việc này.",
+      "Sai. Tự đánh giá định kỳ là bắt buộc theo GIAS 12.1, không bị thay thế bởi đánh giá bên ngoài."
+    ],
+    "trap": "Cho rằng tự đánh giá định kỳ phải do người ngoài thực hiện mới khách quan, nên không cho kiểm toán viên tham gia.",
+    "refs": [
+      "GIAS 12.1",
+      "CIA Part 3 C.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-C-V02",
+    "section": "C",
+    "topic": "C3",
+    "difficulty": 2,
+    "stem": "Bộ phận kiểm toán đang chọn chỉ số để đo hiệu quả (mức tạo ra giá trị cho tổ chức), không chỉ hiệu suất. Chỉ số nào sau đây phản ánh rõ nhất hiệu quả?",
+    "options": [
+      "Tỷ lệ cuộc kiểm toán hoàn thành so với kế hoạch năm đã được phê duyệt.",
+      "Tỷ lệ kiến nghị rủi ro cao được thực hiện và làm giảm sự cố liên quan.",
+      "Số ngày trung bình từ khi kết thúc thực địa đến khi phát hành báo cáo.",
+      "Số giờ công kiểm toán bình quân trên mỗi cuộc kiểm toán trong năm."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 12.2 nêu mục tiêu hoạt động nên cân bằng giữa các lĩnh vực kết quả và có chỉ tiêu cả định lượng và định tính. Hiệu suất đo cách dùng nguồn lực (giờ công, thời gian phát hành, tỷ lệ hoàn thành kế hoạch); hiệu quả đo kết quả tạo ra cho tổ chức. Tỷ lệ kiến nghị rủi ro cao được thực hiện và làm giảm sự cố cho thấy kiểm toán đã giúp giảm rủi ro thật.",
+    "optionNotes": [
+      "Sai. Hoàn thành kế hoạch đo năng suất, không cho biết các cuộc kiểm toán có tạo ra cải thiện nào không.",
+      "Đúng. Kiến nghị rủi ro cao được thực hiện và làm giảm sự cố là thước đo hiệu quả, tức giá trị tạo ra.",
+      "Sai. Thời gian phát hành báo cáo đo hiệu suất và tính kịp thời, không đo giá trị tạo ra cho tổ chức.",
+      "Sai. Giờ công trên mỗi cuộc đo hiệu suất sử dụng nguồn lực, không đo kết quả mang lại."
+    ],
+    "trap": "Nhầm chỉ số hiệu suất (giờ công, thời gian, tỷ lệ hoàn thành) với chỉ số hiệu quả (giá trị tạo ra).",
+    "refs": [
+      "GIAS 12.2",
+      "CIA Part 3 C.3"
+    ],
+    "source": "original"
   }
 ]

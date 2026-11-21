@@ -391,5 +391,114 @@
       "CIA Part 3 B.3"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-B-V01",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 2,
+    "stem": "Danh mục kiểm toán (audit universe) của công ty chỉ liệt kê 18 phòng ban theo sơ đồ tổ chức. Công ty đang thuê ngoài trung tâm dữ liệu, vận hành 5 hệ thống lõi và triển khai một dự án ERP lớn. Điểm yếu chính của danh mục là gì?",
+    "options": [
+      "Chưa gồm bên thứ ba, hệ thống và dự án, nên đánh giá rủi ro có thể bỏ sót.",
+      "Danh mục quá dài, nên rút gọn còn các phòng ban có rủi ro cao nhất trong năm.",
+      "Danh mục phải được Ban điều hành phê duyệt trước khi dùng để lập kế hoạch.",
+      "Danh mục chỉ cần cập nhật khi tổ chức thay đổi sơ đồ phòng ban chính thức."
+    ],
+    "answer": 0,
+    "explanation": "Danh mục kiểm toán gồm các đơn vị có thể kiểm toán như bộ phận, quy trình, chương trình, hệ thống, dự án và bên thứ ba, gắn với mục tiêu và rủi ro của tổ chức. Hướng dẫn của GIAS 9.4 nêu bộ phận nên rà soát và kiểm chứng các rủi ro chính để danh mục và đánh giá rủi ro bao phủ được rủi ro chủ yếu. Chỉ liệt kê phòng ban theo sơ đồ sẽ bỏ sót rủi ro nằm ở nhà cung cấp, hệ thống và dự án.",
+    "optionNotes": [
+      "Đúng. Danh mục nên gồm cả bên thứ ba, hệ thống và dự án để đánh giá rủi ro không bỏ sót.",
+      "Sai. Vấn đề không phải độ dài mà là thiếu loại đơn vị kiểm toán; rút gọn càng làm sót thêm rủi ro.",
+      "Sai. Danh mục là công cụ của kiểm toán nội bộ; kế hoạch dựa trên nó mới được HĐQT phê duyệt.",
+      "Sai. Rủi ro thay đổi cả khi sơ đồ tổ chức không đổi, như khi có dự án hay thuê ngoài mới; danh mục cần cập nhật theo đó."
+    ],
+    "trap": "Xây danh mục kiểm toán theo sơ đồ phòng ban, bỏ qua bên thứ ba, hệ thống và dự án.",
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-V02",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Quy định ngành bắt buộc kiểm toán quy trình quản lý kho quỹ mỗi năm, dù đánh giá rủi ro của bộ phận xếp quy trình này ở mức thấp. Để có thêm nguồn lực cho mảng an ninh mạng rủi ro cao, CAE định bỏ cuộc kiểm toán kho quỹ năm nay. Nhận định nào đúng nhất?",
+    "options": [
+      "Phù hợp, vì kế hoạch kiểm toán phải hoàn toàn dựa trên kết quả đánh giá rủi ro.",
+      "Chưa phù hợp; cuộc kiểm toán do quy định bắt buộc vẫn phải có, cần tìm nguồn lực khác.",
+      "Phù hợp, nếu CAE ghi nhận lý do trong hồ sơ lập kế hoạch và báo HĐQT cuối năm.",
+      "Chưa phù hợp; nên bỏ cuộc an ninh mạng, vì cuộc bắt buộc luôn ưu tiên hơn rủi ro cao."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 9.4 nêu khi xây dựng kế hoạch, CAE nên xét các cuộc kiểm toán do luật, quy định yêu cầu, cùng các khu vực rủi ro đáng kể. Cuộc bắt buộc không thể bỏ chỉ vì rủi ro được đánh giá thấp; còn thiếu nguồn lực cho khu vực rủi ro cao thì CAE phải xác định cách bổ sung hoặc báo HĐQT và Ban điều hành về tác động (GIAS 9.4, 10.2). Hai yêu cầu cùng tồn tại; giải pháp là nguồn lực, không phải bỏ một bên.",
+    "optionNotes": [
+      "Sai. Đánh giá rủi ro là cơ sở chính, nhưng kế hoạch còn phải gồm các cuộc do luật, quy định yêu cầu.",
+      "Đúng. Cuộc bắt buộc vẫn được giữ; thiếu nguồn lực cho an ninh mạng được giải quyết bằng bổ sung nguồn lực hoặc báo tác động.",
+      "Sai. Ghi nhận lý do không làm việc vi phạm quy định trở nên hợp lệ; cuộc bắt buộc vẫn phải thực hiện.",
+      "Sai. Không có thứ tự ưu tiên tuyệt đối; bỏ khu vực rủi ro cao mà không báo cũng trái yêu cầu trao đổi về khu vực rủi ro cao chưa được bao phủ."
+    ],
+    "trap": "Cho rằng kế hoạch dựa hoàn toàn trên rủi ro nên có thể bỏ cuộc kiểm toán do quy định bắt buộc.",
+    "refs": [
+      "GIAS 9.4",
+      "GIAS 10.2",
+      "CIA Part 3 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-V03",
+    "section": "B",
+    "topic": "B1",
+    "difficulty": 3,
+    "stem": "Trong năm, nhiều khối kinh doanh tự dùng các công cụ trí tuệ nhân tạo tạo sinh để soạn hợp đồng và trả lời khách hàng, nhưng sổ đăng ký rủi ro chưa nhắc đến. Đánh giá rủi ro của bộ phận kiểm toán chỉ dựa trên sổ đăng ký và kết quả kiểm toán năm trước. CAE nên làm gì?",
+    "options": [
+      "Chờ bộ phận Quản lý rủi ro đưa rủi ro AI vào sổ đăng ký rồi mới xem xét cho kế hoạch.",
+      "Đề nghị Ban điều hành cấm hẳn việc dùng AI trước khi bộ phận kiểm toán đánh giá được.",
+      "Có quy trình nhận diện rủi ro mới nổi và xét đưa rủi ro từ việc dùng AI vào kế hoạch.",
+      "Giữ nguyên đánh giá, vì rủi ro chưa có trong sổ đăng ký thì chưa đủ căn cứ đưa vào kế hoạch."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 9.4 nêu CAE nên xây dựng quy trình nhận diện và đánh giá các rủi ro đáng kể, mới và mới nổi để xét đưa vào kế hoạch, nên luôn cập nhật thông tin rủi ro, và nên tự rà soát, kiểm chứng các rủi ro chính thay vì chỉ dựa vào thông tin của Ban điều hành. Việc dùng AI tạo sinh không kiểm soát có thể gây rủi ro về bảo mật dữ liệu, sai sót hợp đồng và tuân thủ; chờ sổ đăng ký cập nhật là để rủi ro tồn tại mà không ai đánh giá.",
+    "optionNotes": [
+      "Sai. Kiểm toán nội bộ nên tự nhận diện rủi ro mới nổi, không chỉ chờ sổ đăng ký của Ban điều hành.",
+      "Sai. Quyết định cấm hay cho phép là việc của Ban điều hành; kiểm toán nội bộ đánh giá rủi ro, không ra lệnh cấm.",
+      "Đúng. Quy trình nhận diện rủi ro mới nổi giúp đưa rủi ro từ việc dùng AI vào kế hoạch kịp thời.",
+      "Sai. Sổ đăng ký thiếu rủi ro chính là lý do kiểm toán nội bộ cần tự rà soát; thiếu trong sổ không có nghĩa là không có rủi ro."
+    ],
+    "trap": "Chỉ dựa vào sổ đăng ký rủi ro của Ban điều hành khi lập kế hoạch, bỏ qua rủi ro mới nổi chưa được ghi nhận.",
+    "refs": [
+      "GIAS 9.4",
+      "CIA Part 3 B.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-B-V04",
+    "section": "B",
+    "topic": "B3",
+    "difficulty": 3,
+    "stem": "CAE định bỏ cuộc kiểm toán kiểm soát chung CNTT năm nay vì kiểm toán độc lập 'đã kiểm tra kiểm soát CNTT' khi kiểm toán báo cáo tài chính. Mục tiêu của kiểm toán nội bộ năm nay là đánh giá khả năng chống tấn công mạng của hệ thống. Điều CAE cần làm trước tiên là gì?",
+    "options": [
+      "Dựa hoàn toàn vào kết quả, vì kiểm toán độc lập là bên có năng lực và độc lập cao.",
+      "Yêu cầu kiểm toán độc lập mở rộng phạm vi sang an ninh mạng thay cho kiểm toán nội bộ.",
+      "Không dựa vào, vì kiểm toán nội bộ không được dùng công việc của kiểm toán độc lập.",
+      "Tìm hiểu mục tiêu, phạm vi và kết quả công việc của họ có đáp ứng mục tiêu của mình không."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 9.5 yêu cầu CAE phối hợp với các bên đảm bảo và cân nhắc dựa vào công việc của họ, ghi lại cơ sở và vẫn chịu trách nhiệm về kết luận. Hướng dẫn nêu CAE nên hiểu mục tiêu, phạm vi và kết quả công việc của bên kia. Kiểm toán độc lập kiểm tra kiểm soát CNTT liên quan đến báo cáo tài chính; mục tiêu đó có thể không bao phủ khả năng chống tấn công mạng, nên chưa thể dựa vào khi chưa đối chiếu.",
+    "optionNotes": [
+      "Sai. Năng lực và độc lập là cần nhưng chưa đủ; công việc của họ phải đáp ứng mục tiêu của kiểm toán nội bộ.",
+      "Sai. Kiểm toán độc lập có mục tiêu riêng; kiểm toán nội bộ không giao lại trách nhiệm đảm bảo của mình cho họ.",
+      "Sai. GIAS 9.5 cho phép cân nhắc dựa vào công việc của bên đảm bảo bên ngoài, gồm kiểm toán độc lập.",
+      "Đúng. Phải hiểu mục tiêu, phạm vi và kết quả công việc của bên kia trước khi quyết định dựa vào."
+    ],
+    "trap": "Cho rằng kiểm toán độc lập đã kiểm tra một lĩnh vực thì kiểm toán nội bộ dựa vào được, dù mục tiêu khác nhau.",
+    "refs": [
+      "GIAS 9.5",
+      "CIA Part 3 B.3"
+    ],
+    "source": "original"
   }
 ]
