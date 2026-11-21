@@ -1998,5 +1998,320 @@
       "CIA Part 2 A.4"
     ],
     "source": "original"
+  },
+  {
+    "id": "P2-A-V01",
+    "section": "A",
+    "topic": "A6",
+    "difficulty": 2,
+    "stem": "Một bước trong chương trình kiểm toán quy trình mua hàng chỉ ghi: 'Phân tích dữ liệu để tìm giao dịch bất thường.' Khi rà soát chương trình trước khi phê duyệt, CAE yêu cầu bổ sung. Nội dung bắt buộc nào bước này còn thiếu?",
+    "options": [
+      "Kết luận dự kiến của bước phân tích để định hướng cho kiểm toán viên.",
+      "Số giao dịch bất thường tối thiểu mà bước phân tích cần tìm ra.",
+      "Chữ ký xác nhận của trưởng phòng mua hàng về nguồn dữ liệu được cung cấp.",
+      "Phép phân tích cụ thể và công cụ sẽ dùng, cùng người được giao thực hiện."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 13.6 yêu cầu chương trình kiểm toán xác định người được giao từng việc, và phương pháp, gồm các thủ tục phân tích sẽ dùng và công cụ thực hiện. 'Phân tích dữ liệu' chung chung không cho biết sẽ chạy phép kiểm tra nào (trùng hóa đơn, nhà cung cấp mới có giao dịch lớn, giao dịch ngày nghỉ), dùng công cụ gì, ai làm, nên khó thực hiện thống nhất và rà soát.",
+    "optionNotes": [
+      "Sai. Kết luận dự kiến tạo định kiến về kết quả; chương trình nêu cách làm, không nêu trước kết luận.",
+      "Sai. Đặt chỉ tiêu số giao dịch bất thường làm sai lệch công việc; kết quả phụ thuộc vào dữ liệu thực tế.",
+      "Sai. Xác nhận nguồn dữ liệu có thể hữu ích, nhưng không phải nội dung bắt buộc của bước trong chương trình.",
+      "Đúng. Chương trình phải nêu phương pháp, thủ tục phân tích, công cụ và người thực hiện."
+    ],
+    "trap": "Viết thủ tục chung chung trong chương trình, không nêu phép phân tích, công cụ và người thực hiện.",
+    "refs": [
+      "GIAS 13.6",
+      "CIA Part 2 A.6"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V02",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Kế hoạch cuộc kiểm toán ghi: 'Phạm vi: quy trình ghi nhận doanh thu tại 3 chi nhánh miền Bắc, trên hệ thống SAP, gồm khâu xuất hóa đơn và ghi sổ.' Phạm vi này còn thiếu yếu tố quan trọng nào?",
+    "options": [
+      "Khoảng thời gian mà các giao dịch được kiểm toán phát sinh.",
+      "Tên các kiểm toán viên được giao thực hiện từng chi nhánh.",
+      "Kết luận dự kiến về mức độ hữu hiệu của quy trình doanh thu.",
+      "Danh sách các phát hiện của cuộc kiểm toán năm trước."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 13.3 yêu cầu phạm vi xác định trọng tâm và giới hạn của cuộc kiểm toán bằng cách nêu hoạt động, địa điểm, quy trình, hệ thống, bộ phận, khoảng thời gian được kiểm toán và các yếu tố khác. Phạm vi trên đã nêu quy trình, địa điểm, hệ thống, nhưng chưa nêu kỳ giao dịch, nên không rõ kết luận áp dụng cho giai đoạn nào.",
+    "optionNotes": [
+      "Đúng. Khoảng thời gian được kiểm toán là yếu tố bắt buộc của phạm vi.",
+      "Sai. Phân công kiểm toán viên thuộc chương trình kiểm toán, không phải yếu tố của phạm vi.",
+      "Sai. Kết luận chỉ có sau khi thực hiện; nêu trước trong phạm vi là định kiến về kết quả.",
+      "Sai. Phát hiện năm trước là thông tin đầu vào khi lập kế hoạch, không phải thành phần của phạm vi."
+    ],
+    "trap": "Quên khoảng thời gian được kiểm toán khi mô tả phạm vi.",
+    "refs": [
+      "GIAS 13.3",
+      "CIA Part 2 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V03",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Cùng một loại sự cố mã độc qua tệp đính kèm email đã xảy ra ba lần trong năm. Quy trình quản lý sự cố của công ty gồm phát hiện, phân loại, xử lý và báo cáo. Khi lập kế hoạch kiểm toán, khâu nào nhiều khả năng còn thiếu nhất?",
+    "options": [
+      "Phân loại mức độ nghiêm trọng của từng sự cố khi được phát hiện.",
+      "Rút kinh nghiệm sau sự cố để xử lý nguyên nhân và ngăn tái diễn.",
+      "Báo cáo sự cố cho lãnh đạo bộ phận CNTT trong vòng 24 giờ.",
+      "Ghi nhận thời điểm phát hiện sự cố vào hệ thống theo dõi."
+    ],
+    "answer": 1,
+    "explanation": "Quản lý sự cố thường gồm phát hiện, phân loại, xử lý, báo cáo và rút kinh nghiệm. Sự cố cùng loại lặp lại nhiều lần cho thấy tổ chức xử lý hậu quả nhưng không tìm và khắc phục nguyên nhân (ví dụ lọc tệp đính kèm, đào tạo người dùng). Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Quy trình đã có khâu phân loại; sự cố lặp lại không phải do thiếu phân loại.",
+      "Đúng. Thiếu bước rút kinh nghiệm khiến nguyên nhân không được xử lý và sự cố lặp lại.",
+      "Sai. Quy trình đã có khâu báo cáo; báo cáo nhanh hơn không ngăn được sự cố tái diễn.",
+      "Sai. Ghi thời điểm phát hiện thuộc khâu phát hiện đã có, không giải thích được việc sự cố lặp lại."
+    ],
+    "trap": "Bỏ qua khâu rút kinh nghiệm khi đánh giá quy trình quản lý sự cố.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V04",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Lập trình viên của công ty có quyền tự đưa mã đã sửa lên môi trường vận hành của hệ thống thanh toán mà không cần ai duyệt, và không có nhật ký thay đổi. Khi lập kế hoạch kiểm toán, rủi ro chính cần xem xét là gì?",
+    "options": [
+      "Hệ thống chạy chậm hơn sau mỗi lần cập nhật mã nguồn.",
+      "Lập trình viên mất nhiều thời gian hơn để sửa lỗi phần mềm.",
+      "Thay đổi trái phép hoặc sai được đưa vào vận hành mà không bị phát hiện.",
+      "Người dùng phải đào tạo lại sau mỗi lần hệ thống thay đổi giao diện."
+    ],
+    "answer": 2,
+    "explanation": "Quản lý thay đổi chương trình là một nhóm kiểm soát chung CNTT. Khi người phát triển tự đưa mã lên môi trường vận hành không qua phê duyệt, kiểm thử và không có nhật ký, thay đổi sai hoặc cố ý (ví dụ chuyển tiền vào tài khoản riêng) có thể được đưa vào mà không ai biết. Kế hoạch nên xét phân tách môi trường phát triển và vận hành, phê duyệt và kiểm thử thay đổi. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Hiệu năng là vấn đề kỹ thuật thứ yếu so với rủi ro thay đổi trái phép trên hệ thống thanh toán.",
+      "Sai. Quyền rộng thường làm việc nhanh hơn; vấn đề là thiếu kiểm soát, không phải thời gian sửa lỗi.",
+      "Đúng. Không phân tách và phê duyệt thay đổi tạo rủi ro thay đổi trái phép không bị phát hiện.",
+      "Sai. Đào tạo người dùng là vấn đề vận hành nhỏ, không phải rủi ro chính của việc thiếu kiểm soát thay đổi."
+    ],
+    "trap": "Bỏ qua rủi ro thay đổi trái phép khi người phát triển tự đưa mã lên môi trường vận hành.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V05",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Ở kho vật tư, thủ kho là người duy nhất thực hiện kiểm kê cuối năm và tự lập biên bản chênh lệch. Khi lập kế hoạch kiểm toán quản lý tồn kho, rủi ro nào nên được ưu tiên nhất?",
+    "options": [
+      "Kiểm kê mất nhiều thời gian vì chỉ có một người thực hiện.",
+      "Giá trị tồn kho có thể bị ảnh hưởng bởi biến động giá vật tư.",
+      "Biên bản kiểm kê có thể trình bày không theo mẫu chuẩn của công ty.",
+      "Mất mát vật tư có thể bị che giấu vì người giữ tài sản tự kiểm kê."
+    ],
+    "answer": 3,
+    "explanation": "Người giữ tài sản không nên là người duy nhất kiểm kê tài sản đó: nếu có thất thoát, người đó có thể điều chỉnh số liệu kiểm kê để che giấu. Kiểm soát phù hợp là kiểm kê có người độc lập tham gia, đối chiếu với sổ sách và điều tra chênh lệch. Đây là kiến thức nghiệp vụ chung về phân nhiệm, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Thời gian là vấn đề hiệu suất; rủi ro chính là thiếu tính độc lập của việc kiểm kê.",
+      "Sai. Biến động giá ảnh hưởng đánh giá giá trị, không liên quan đến việc ai thực hiện kiểm kê.",
+      "Sai. Sai mẫu biểu là vấn đề hình thức, không làm thay đổi độ tin cậy của số liệu như việc thiếu độc lập.",
+      "Đúng. Người giữ tài sản tự kiểm kê có thể che giấu mất mát."
+    ],
+    "trap": "Không nhận ra rủi ro khi người giữ tài sản tự kiểm kê tài sản của mình.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V06",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Một linh kiện quan trọng của dây chuyền sản xuất chỉ được mua từ một nhà cung cấp ở nước ngoài, công ty chưa có nhà cung cấp thay thế và chỉ dự trữ đủ dùng 5 ngày. Khi lập kế hoạch kiểm toán chuỗi cung ứng, rủi ro nổi bật nhất là gì?",
+    "options": [
+      "Gián đoạn sản xuất nếu nhà cung cấp duy nhất không giao được hàng.",
+      "Giá linh kiện có thể tăng nhẹ theo tỷ giá ngoại tệ hằng tháng.",
+      "Chi phí vận chuyển quốc tế làm giảm biên lợi nhuận của sản phẩm.",
+      "Hồ sơ nhập khẩu có thể bị chậm khi làm thủ tục hải quan."
+    ],
+    "answer": 0,
+    "explanation": "Phụ thuộc vào một nhà cung cấp duy nhất cho linh kiện quan trọng, cùng mức dự trữ thấp, tạo rủi ro tập trung: chỉ một sự cố ở nhà cung cấp, vận chuyển hay chính sách thương mại cũng có thể làm dừng sản xuất. Kế hoạch nên xét đánh giá nhà cung cấp, phương án thay thế và mức dự trữ an toàn. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Phụ thuộc một nhà cung cấp với dự trữ thấp tạo rủi ro gián đoạn sản xuất.",
+      "Sai. Biến động giá nhẹ là rủi ro tài chính nhỏ so với nguy cơ dừng dây chuyền sản xuất.",
+      "Sai. Chi phí vận chuyển ảnh hưởng lợi nhuận nhưng không phải rủi ro nổi bật trong tình huống này.",
+      "Sai. Chậm thủ tục là một nguyên nhân có thể gây gián đoạn; rủi ro cốt lõi là phụ thuộc một nguồn."
+    ],
+    "trap": "Tập trung vào biến động chi phí, bỏ qua rủi ro tập trung vào một nhà cung cấp.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V07",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Trong 5 ngày cuối năm tài chính, doanh số giao cho các đại lý tăng gấp bốn lần bình thường, kèm điều khoản đại lý được trả lại hàng chưa bán trong 90 ngày. Đầu năm sau, lượng hàng trả lại tăng mạnh. Khi lập kế hoạch kiểm toán, rủi ro nào nên được ưu tiên?",
+    "options": [
+      "Chi phí vận chuyển cuối năm tăng do giao hàng gấp cho đại lý.",
+      "Doanh thu bị ghi nhận sớm hoặc cao hơn thực tế ở năm tài chính cũ.",
+      "Đại lý có thể không đủ kho bãi để chứa lượng hàng nhận được.",
+      "Hàng tồn kho của công ty bị thiếu hụt vào đầu năm tài chính mới."
+    ],
+    "answer": 1,
+    "explanation": "Dồn hàng cho đại lý cuối kỳ kèm quyền trả lại rộng, rồi hàng trả về đầu kỳ sau, là dấu hiệu doanh thu có thể bị ghi nhận sớm hoặc thổi phồng để đạt chỉ tiêu năm. Kế hoạch nên xét thời điểm chuyển giao rủi ro, điều khoản trả lại, ước tính hàng trả lại và kiểm tra khóa sổ (cut-off). Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Chi phí vận chuyển là vấn đề phụ; dấu hiệu chính là doanh thu có thể bị ghi nhận sai kỳ.",
+      "Đúng. Dồn hàng cuối kỳ có quyền trả lại là dấu hiệu doanh thu bị ghi nhận sớm hoặc cao.",
+      "Sai. Kho bãi của đại lý là vấn đề của đại lý, không phải rủi ro chính của công ty trong tình huống này.",
+      "Sai. Hàng trả lại làm tồn kho tăng chứ không thiếu; rủi ro chính nằm ở doanh thu năm cũ."
+    ],
+    "trap": "Không nhận ra dấu hiệu dồn hàng cuối kỳ để ghi nhận doanh thu sớm.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V08",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Năm nay, chi phí sửa chữa thường xuyên máy móc giảm mạnh, trong khi tài sản cố định tăng do nhiều khoản sửa chữa nhỏ được ghi tăng nguyên giá. Lợi nhuận vừa đủ đạt chỉ tiêu thưởng. Khi lập kế hoạch kiểm toán, rủi ro nào nên được xem xét?",
+    "options": [
+      "Tài sản cố định bị khấu hao quá nhanh làm lợi nhuận năm nay thấp hơn.",
+      "Máy móc được sửa chữa ít hơn nên dễ hỏng hơn trong năm tới.",
+      "Chi phí bị vốn hóa sai thành tài sản, làm tài sản và lợi nhuận bị phản ánh cao.",
+      "Nhà cung cấp dịch vụ sửa chữa tăng giá so với hợp đồng năm trước."
+    ],
+    "answer": 2,
+    "explanation": "Chi phí sửa chữa thường xuyên không làm tăng lợi ích kinh tế lâu dài thường phải ghi vào chi phí trong kỳ. Ghi tăng nguyên giá các khoản này làm chi phí giảm, tài sản và lợi nhuận tăng. Việc lợi nhuận vừa đủ đạt chỉ tiêu thưởng là áp lực có thể dẫn đến điều chỉnh này. Đây là kiến thức kế toán chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Dấu hiệu trong đề cho thấy lợi nhuận bị đẩy lên, không phải khấu hao làm lợi nhuận thấp.",
+      "Sai. Đề không cho thấy sửa chữa ít hơn; chi phí chỉ được ghi vào chỗ khác.",
+      "Đúng. Vốn hóa sai chi phí sửa chữa làm tài sản và lợi nhuận bị phản ánh cao.",
+      "Sai. Đề cho thấy chi phí sửa chữa giảm mạnh, không có dấu hiệu nhà cung cấp tăng giá."
+    ],
+    "trap": "Không nhận ra việc vốn hóa sai chi phí để đạt chỉ tiêu lợi nhuận.",
+    "refs": [
+      "CIA Part 2 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V09",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 2,
+    "stem": "Một quy định mới yêu cầu doanh nghiệp sản xuất báo cáo lượng phát thải khí nhà kính, có hiệu lực từ năm sau. Công ty chưa giao bộ phận nào thu thập số liệu phát thải. Khi lập kế hoạch kiểm toán quy trình sản xuất năm nay, kiểm toán viên nên xử lý thông tin này thế nào?",
+    "options": [
+      "Bỏ qua, vì quy định chưa có hiệu lực trong năm được kiểm toán.",
+      "Chỉ ghi nhận để năm sau, khi quy định có hiệu lực, mới đánh giá.",
+      "Tự thu thập số liệu phát thải thay cho công ty để kịp hạn báo cáo.",
+      "Xét như rủi ro mới nổi về tuân thủ, đánh giá mức chuẩn bị của công ty."
+    ],
+    "answer": 3,
+    "explanation": "Thay đổi về luật, quy định là nguồn rủi ro mới nổi cần xét khi đánh giá rủi ro chi tiết. Quy định có hiệu lực năm sau nhưng công ty cần chuẩn bị từ năm nay (giao trách nhiệm, thu thập dữ liệu, hệ thống), nên mức sẵn sàng là rủi ro hiện tại. Kiểm toán viên không tự làm thay việc của quản lý. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Rủi ro tuân thủ trong tương lai đòi hỏi chuẩn bị từ bây giờ; bỏ qua là nhận diện rủi ro muộn.",
+      "Sai. Chờ đến khi có hiệu lực thì quá muộn để công ty chuẩn bị kịp thời.",
+      "Sai. Thu thập số liệu là trách nhiệm của quản lý; kiểm toán viên làm thay sẽ mất khách quan.",
+      "Đúng. Quy định sắp có hiệu lực là rủi ro mới nổi; mức chuẩn bị của công ty cần được đánh giá."
+    ],
+    "trap": "Bỏ qua quy định sắp có hiệu lực khi đánh giá rủi ro, vì nghĩ chỉ xét quy định hiện hành.",
+    "refs": [
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V10",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Toàn bộ cấu hình máy chủ, mật khẩu quản trị và quy trình xử lý sự cố của hệ thống lõi chỉ do một kỹ sư nắm, không có tài liệu, và người này vừa xin nghỉ việc sau 2 tháng nữa. Khi đánh giá rủi ro cuộc kiểm toán CNTT, rủi ro nào nên được ưu tiên?",
+    "options": [
+      "Phụ thuộc vào một cá nhân, có thể làm gián đoạn hệ thống lõi khi người này rời đi.",
+      "Chi phí tuyển dụng một kỹ sư thay thế có thể cao hơn mức lương hiện tại.",
+      "Kỹ sư mới cần thời gian để làm quen với văn hóa và đồng nghiệp của công ty.",
+      "Bộ phận Nhân sự chưa cập nhật mô tả công việc cho vị trí kỹ sư hệ thống."
+    ],
+    "answer": 0,
+    "explanation": "Thay đổi về con người, như nhân sự chủ chốt nghỉ việc, là nguồn rủi ro cần xét khi đánh giá rủi ro chi tiết. Khi kiến thức và quyền quản trị chỉ tập trung ở một người, không có tài liệu, việc người đó rời đi có thể làm tổ chức không vận hành hay khôi phục được hệ thống lõi. Kế hoạch nên xét việc lập tài liệu, chuyển giao và quản lý quyền quản trị. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Đúng. Phụ thuộc vào một người không có tài liệu tạo rủi ro gián đoạn và mất quyền kiểm soát hệ thống.",
+      "Sai. Chi phí tuyển dụng là vấn đề nhân sự nhỏ so với nguy cơ gián đoạn hệ thống lõi.",
+      "Sai. Hòa nhập văn hóa là vấn đề nhân sự, không phải rủi ro chính đối với hệ thống lõi.",
+      "Sai. Mô tả công việc có ích cho tuyển dụng, nhưng không xử lý việc kiến thức chỉ nằm ở một người."
+    ],
+    "trap": "Coi việc nhân sự chủ chốt nghỉ việc chỉ là vấn đề tuyển dụng, bỏ qua rủi ro phụ thuộc cá nhân.",
+    "refs": [
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V11",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Để tiết kiệm chi phí, trưởng nhóm đề xuất kiểm quỹ tiền mặt của 8 phòng giao dịch có rủi ro cao bằng cách xem video do thủ quỹ tự quay rồi gửi lên. Nhận định nào phù hợp nhất?",
+    "options": [
+      "Phù hợp, vì video cho thấy rõ số tiền và tiết kiệm chi phí đi lại.",
+      "Chưa phù hợp; với tài sản rủi ro cao nên kiểm quỹ trực tiếp, đột xuất tại chỗ.",
+      "Phù hợp, nếu thủ quỹ ký cam kết video được quay đúng ngày kiểm quỹ.",
+      "Chưa phù hợp; mọi cuộc kiểm toán đều phải thực hiện trực tiếp tại đơn vị."
+    ],
+    "answer": 1,
+    "explanation": "Kiểm toán từ xa tiết kiệm chi phí, nhưng cần chú ý độ tin cậy của bằng chứng và việc khó quan sát trực tiếp tài sản. Video do chính người giữ quỹ quay và chọn thời điểm có thể bị dàn dựng hoặc cắt ghép; với tài sản dễ thất thoát như tiền mặt ở đơn vị rủi ro cao, kiểm quỹ trực tiếp, đột xuất cho bằng chứng tin cậy hơn. Đây là kiến thức nghiệp vụ chung, không lấy từ GIAS.",
+    "optionNotes": [
+      "Sai. Video do người được kiểm tra tự quay có độ tin cậy thấp; tiết kiệm chi phí không bù được điều đó.",
+      "Đúng. Tiền mặt ở đơn vị rủi ro cao nên được kiểm trực tiếp, đột xuất.",
+      "Sai. Cam kết của chính người được kiểm tra không làm tăng độ tin cậy của video.",
+      "Sai. Kiểm toán từ xa phù hợp với nhiều trường hợp; vấn đề là loại tài sản và mức rủi ro ở đây."
+    ],
+    "trap": "Dùng bằng chứng từ xa do chính đơn vị tạo ra cho tài sản rủi ro cao như tiền mặt.",
+    "refs": [
+      "CIA Part 2 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P2-A-V13",
+    "section": "A",
+    "topic": "A5",
+    "difficulty": 3,
+    "stem": "Chiến lược công ty là tập trung vào phân khúc khách hàng cao cấp, nhưng mục tiêu năm của phòng Marketing là 'tối đa số khách hàng tiềm năng thu được', đo bằng số lượt đăng ký. Khi lập kế hoạch kiểm toán phòng Marketing, kiểm toán viên nên xử lý điểm này thế nào?",
+    "options": [
+      "Bỏ qua, vì mục tiêu của từng phòng ban do trưởng phòng tự quyết định.",
+      "Đề nghị HĐQT điều chỉnh chiến lược cho phù hợp với mục tiêu của phòng Marketing.",
+      "Xét sự lệch giữa mục tiêu của phòng và chiến lược công ty như một rủi ro cần đánh giá.",
+      "Dùng mục tiêu số lượt đăng ký làm tiêu chí duy nhất, vì phòng đã được giao chỉ tiêu này."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 13.2 nêu kiểm toán viên nên xem xét sự gắn kết giữa tổ chức và hoạt động được kiểm toán, và GIAS 13.2 yêu cầu thu thập thông tin về chiến lược, mục tiêu và rủi ro của tổ chức liên quan đến hoạt động. Mục tiêu đo số lượt đăng ký có thể đẩy nguồn lực vào khách hàng không thuộc phân khúc chiến lược; sự lệch này là rủi ro cần đánh giá.",
+    "optionNotes": [
+      "Sai. Mục tiêu của phòng ban phải phục vụ chiến lược chung; sự lệch là thông tin quan trọng cho đánh giá rủi ro.",
+      "Sai. Chiến lược do HĐQT đặt; hoạt động phòng ban phải gắn với chiến lược, không phải ngược lại.",
+      "Đúng. Sự lệch giữa mục tiêu phòng ban và chiến lược công ty là rủi ro cần xem xét.",
+      "Sai. Chỉ dùng chỉ tiêu của phòng làm tiêu chí bỏ qua việc chỉ tiêu đó có phù hợp chiến lược hay không."
+    ],
+    "trap": "Đánh giá hoạt động chỉ theo mục tiêu riêng của phòng, bỏ qua sự gắn kết với chiến lược tổ chức.",
+    "refs": [
+      "GIAS 13.2",
+      "CIA Part 2 A.5"
+    ],
+    "source": "original"
   }
 ]
