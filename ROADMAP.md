@@ -4,21 +4,21 @@ Shared status for every work session in this folder. Read this file and `CLAUDE.
 
 Live site: https://phucnduy.github.io/cia-prep/ (GitHub Pages, deployed by pushing `main`).
 
-## Status (2026-11-20)
+## Status (2026-11-21)
 
 | Part | Questions | Full exam needs | Easy / medium / hard | Trap-tagged | Status |
 |---|---|---|---|---|---|
 | P1 Internal Audit Fundamentals | 505 | 125 (A44 B25 C37 D19) | 1 / 53 / 46% | 388 | ready |
 | P2 Internal Audit Engagement | 106 | 100 (A50 B40 C10); now A50 B40 C16 | 6 / 56 / 39% | 92 | ready (one full exam) |
-| P3 Internal Audit Function | 109 | 100 (A25 B15 C15 D45); now A26 B19 C17 D47 | 2 / 58 / 40% | 85 | ready |
+| P3 Internal Audit Function | 200 | 100 (A25 B15 C15 D45); now A50 B30 C30 D90 (two full exams) | 1 / 60 / 39% | 176 | ready |
 
 Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audit:bank` for current numbers and thin topics.
 
 ## Next work, in priority order
 
-1. **P3 from one full exam (100) to 200.** Every mock exam now draws the same 100 questions (shuffled); a second set is needed before mock results mean much. Thin topics now: A1, A3, A4, B3, C2, C3, D3, D7 (5 each). Most GIAS points for P3 now have a question; new questions should come from the syllabus 'may include' items in lessons.json, checked for repeats with scripts/cross-pairs.mjs and by reading the topic.
-2. **P2 to 200.** Trap tagging done (92 of 106). Thin topics: B1, B3, B4, B5, B8 (4 each).
-3. **Raise hard share and traps.** P3 hard is 26% (aim 40%). New batches: at least 60% trap, easy at most 10%.
+1. **P2 to 200.** Trap tagging done (92 of 106). Thin topics: B1, B3, B4, B5, B8 (4 each). P2 mock exams still draw the same 106 questions.
+2. **P3 thin topics** (P3 is at 200): A3 9, B1 9, C2 9, C3 8, D6 8, D8 7. D3, D6 and D8 are close to saturated; GIAS Requirements and Considerations for 9.2-12.2, 14.3-15.2 are mostly used. New P3 questions should be contrast or sequence items, not new rules.
+3. **Keep hard share and traps.** P3 hard is 39% (aim 40%). New batches: at least 60% trap, easy at most 10%.
 4. **Cross-part repeats** (same concept in P1 and P2/P3, lower priority since parts are separate exams): P2-A-M22 / P1-C-N09 (RTO and RPO), P2-B-H03 / P1-D-L013 (Benford), P2-C-M01 / P1-B-M21 (outsourced engagement, CAE still responsible), P3-D-003 / P1-C-L027 (cost-benefit). Also P2-A-005 / P2-A-M19 (missing analytics skills) is a mild hint pair.
 5. **More "what first" sequence questions.** P1 has 11 of 505.
 6. **Topical Requirements lessons** (third-party, organizational behavior), from IIA's published Topical Requirements.
@@ -30,7 +30,7 @@ Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audi
 1. Pick topics from `npm run audit:bank` (thin topics first). Read the lesson and search the bank for the concept to avoid giveaway pairs. Write to the standard in `docs/nguyen-tac-bien-soan-ra-soat.md` and self-review with its checklist (section 6.1).
 2. Check every GIAS citation: `node scripts/gias-req.mjs 9.5 11.5` prints the Requirements text (`--full` adds Considerations).
 3. Write the batch as JSON in a temp file (ids like `P3-D-N07`, with `topic`, `difficulty`, `optionNotes`, `refs`, and `trap` for trap questions).
-4. `node scripts/batch-check.mjs <part> <file>`: balances answer positions, flags length tells, misaligned notes and near-duplicates. Fix and re-run until "no problems".
+4. `node scripts/batch-near.mjs <part> <file> 1` lists the closest existing question for each new one (stem, answer, and answer-in-text); read every lead above about 0.4. Then `node scripts/batch-check.mjs <part> <file>`: balances answer positions, flags length tells, misaligned notes and near-duplicates. Fix and re-run until "no problems". batch-check rewrites the file with options shuffled, so after it runs, edit options by matching their text, never by index.
 5. `node scripts/add-questions.mjs <part> <file>` (use `--replace` to rewrite existing ids).
 6. `npm run validate`, `npm test`, `npm run build`; check one practice session in the browser (reload so the new data loads).
 7. Commit with the batch name, push `main`, confirm the GitHub Actions run succeeds, update this file.
@@ -40,6 +40,8 @@ Lessons: all topics of P1, P2 and P3 have detailed lessons. Re-run `npm run audi
 Two sessions must not edit the same `public/data/<part>/questions-<section>.json` at the same time. Give each session its own part or section, or run them one after another. Batch ids include the part and section, so they never collide across sessions.
 
 ## Done (recent)
+
+- 2026-11-21: P3 reaches 200 (A50 B30 C30 D90; hard 39%, trap 88%). Batches W, X, R (section D: tone and accuracy, interim communication, closing meeting authority, action plan quality, follow-up status, error correction cause, conformance statement as a 'should', conclusions in context, aggregation, reasonable assurance, risk tolerance in significance, themes from other providers), Y (B: urgent plan changes, significant-change criteria, risk register validation, assurance map, combined assurance, provider conflicts, retest, long-term reliance agreement, engagement rationale, risk vs known control effectiveness), Z and Z2 (A: methodology form by size, methodology review triggers, retention, assurance/advisory balance, vision vs objective vs initiative, gap analysis/SWOT, EQA results prompting strategy review, communication criteria, informal contact, liaison rotation, annual independence confirmation, regulators, CPE and ethics training, budget from strategy, technology review), Q (C: EQA plan with the board, full results direct from assessor, internal assessment covers performance objectives, regulatory frequency, EQA scope, law preventing conformance, citing other requirements, Topical Requirements, board approval of objectives, raising targets, stakeholder feedback, SAIV rationale). Dropped as repeats: P3-D-W07, X10, C-Q01. New script `scripts/batch-near.mjs`.
 
 - 2026-11-21: P3 batch V (9 questions toward 200): audit universe beyond the org chart, a mandatory low-risk audit vs a high-risk gap (9.4, 10.2), emerging AI risks not in the register, relying on external auditor work with different objectives (9.5), auditors in self-assessment (12.1), effectiveness vs efficiency measures (12.2), prolonged delay as de facto risk acceptance (15.2, 11.5), agreeing escalation criteria with the board (8.1), CAE's training budget (3.2).
 - 2026-11-21: P2 older questions trap-tagged (65 more; 92 of 106, 87%). Untagged ones are recall items. Noted near-pair left in place: P2-A-002 / P2-A-M09 (no criteria; M09 adds the advisory option).
