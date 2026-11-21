@@ -703,5 +703,334 @@
       "CIA Part 3 A.2"
     ],
     "source": "original"
+  },
+  {
+    "id": "P3-A-Z01",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Bộ phận kiểm toán của một công ty nhỏ có 3 người. Thay cho sổ tay dày như ở các ngân hàng, CAE dùng một bộ quy trình ngắn và các mẫu biểu tích hợp sẵn trong phần mềm quản lý kiểm toán. Người đánh giá chất lượng nên nhận định thế nào?",
+    "options": [
+      "Chưa tuân thủ, vì phương pháp phải được tập hợp thành một sổ tay kiểm toán nội bộ hoàn chỉnh.",
+      "Tuân thủ, vì bộ phận nhỏ được miễn yêu cầu thiết lập phương pháp theo Chuẩn mực.",
+      "Có thể tuân thủ; hình thức và mức chi tiết tùy quy mô, miễn là phương pháp hướng dẫn công việc có hệ thống.",
+      "Chưa tuân thủ, vì phương pháp đặt trong phần mềm không được coi là phương pháp có văn bản."
+    ],
+    "answer": 2,
+    "explanation": "GIAS 9.3 yêu cầu CAE thiết lập phương pháp để hướng dẫn bộ phận một cách có hệ thống và kỷ luật. Hướng dẫn của chuẩn mực nêu hình thức, nội dung, mức chi tiết và mức độ văn bản hóa có thể khác nhau theo quy mô, cơ cấu, độ phức tạp của tổ chức và bộ phận; phương pháp có thể là các quy trình riêng lẻ, sổ tay, hoặc tích hợp trong phần mềm quản lý kiểm toán.",
+    "optionNotes": [
+      "Sai. Chuẩn mực không bắt buộc một sổ tay hoàn chỉnh; phương pháp có thể là quy trình riêng lẻ hoặc tích hợp trong phần mềm.",
+      "Sai. Yêu cầu có phương pháp áp dụng cho mọi bộ phận; quy mô chỉ ảnh hưởng đến hình thức và mức chi tiết.",
+      "Đúng. Phương pháp tùy quy mô về hình thức, nhưng phải tồn tại và hướng dẫn công việc có hệ thống.",
+      "Sai. Hướng dẫn của GIAS 9.3 nêu rõ phương pháp có thể được tích hợp trong phần mềm quản lý kiểm toán."
+    ],
+    "trap": "Nghĩ phương pháp bắt buộc phải là một sổ tay dày, hoặc bộ phận nhỏ được miễn có phương pháp.",
+    "refs": [
+      "GIAS 9.3",
+      "CIA Part 3 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z02",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "CAE muốn biết các phương pháp của bộ phận (đánh giá rủi ro, thực hiện cuộc kiểm toán, theo dõi kiến nghị) có thực sự hữu hiệu hay không. Cách làm phù hợp nhất là gì?",
+    "options": [
+      "Đếm số trang và số mẫu biểu của sổ tay để xem phương pháp đã đủ chi tiết hay chưa.",
+      "Xin đơn vị được kiểm toán chấm điểm mức hài lòng sau mỗi cuộc và dùng làm thước đo duy nhất.",
+      "Đề nghị kiểm toán độc lập phê duyệt sổ tay phương pháp trước mỗi kỳ kiểm toán báo cáo tài chính.",
+      "Xem xét hiệu quả của phương pháp trong các lần đánh giá chất lượng của bộ phận kiểm toán."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 9.3 yêu cầu CAE đánh giá hiệu quả của phương pháp và cập nhật khi cần. Hướng dẫn của chuẩn mực nêu hiệu quả của phương pháp nên được xem xét trong các lần đánh giá chất lượng bộ phận kiểm toán nội bộ, gồm việc rà soát hồ sơ để xem phương pháp có được tuân thủ và có giúp đạt kết quả chất lượng hay không.",
+    "optionNotes": [
+      "Sai. Độ dày của sổ tay không cho biết phương pháp có giúp công việc đạt chất lượng; cần xét kết quả áp dụng.",
+      "Sai. Ý kiến của đơn vị là một đầu vào hữu ích nhưng không đủ để đánh giá toàn bộ hiệu quả của phương pháp.",
+      "Sai. Phương pháp của kiểm toán nội bộ do CAE thiết lập; kiểm toán độc lập không phê duyệt phương pháp này.",
+      "Đúng. Đánh giá chất lượng là dịp để xem xét phương pháp có được áp dụng và có hữu hiệu không."
+    ],
+    "trap": "Đánh giá phương pháp theo độ dày tài liệu hoặc một chỉ số đơn lẻ thay vì qua đánh giá chất lượng.",
+    "refs": [
+      "GIAS 9.3",
+      "GIAS 8.3",
+      "CIA Part 3 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z03",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Sổ tay phương pháp kiểm toán nội bộ vừa được cập nhật năm ngoái. Năm nay công ty có CAE mới và Chủ tịch HĐQT mới. CAE mới cho rằng chưa cần xem lại phương pháp vì 'mới cập nhật'. Nhận định nào phù hợp nhất?",
+    "options": [
+      "Chưa phù hợp; thay đổi CAE hoặc Chủ tịch HĐQT là lý do nên xem xét lại và sửa phương pháp khi cần.",
+      "Phù hợp, vì phương pháp chỉ cần rà soát khi Chuẩn mực của IIA thay đổi.",
+      "Chưa phù hợp; CAE mới phải viết lại toàn bộ phương pháp theo cách làm của mình ngay khi nhận nhiệm vụ.",
+      "Phù hợp, nếu Chủ tịch HĐQT mới ký phê duyệt lại sổ tay phương pháp hiện hành."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 9.3 yêu cầu CAE cập nhật phương pháp khi cần để cải thiện bộ phận và đáp ứng các thay đổi quan trọng ảnh hưởng đến bộ phận. Hướng dẫn của chuẩn mực nêu lý do cập nhật gồm thay đổi về chuẩn mực, pháp luật, công nghệ, quy mô hay cơ cấu bộ phận; thay đổi CAE hoặc Chủ tịch HĐQT cũng có thể cần rà soát. Xem xét lại không có nghĩa là viết lại toàn bộ.",
+    "optionNotes": [
+      "Đúng. Thay đổi CAE hoặc Chủ tịch HĐQT là lý do nên rà soát lại phương pháp và sửa khi cần.",
+      "Sai. Thay đổi Chuẩn mực chỉ là một lý do; pháp luật, công nghệ, nhân sự chủ chốt cũng có thể đòi hỏi cập nhật.",
+      "Sai. Rà soát nhằm điều chỉnh phần cần thiết; viết lại toàn bộ ngay là không cần và làm gián đoạn bộ phận.",
+      "Sai. Phương pháp do CAE thiết lập; chữ ký của Chủ tịch HĐQT không thay việc xem phương pháp còn phù hợp không."
+    ],
+    "trap": "Cho rằng phương pháp mới cập nhật thì không cần xem lại dù nhân sự chủ chốt thay đổi.",
+    "refs": [
+      "GIAS 9.3",
+      "CIA Part 3 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z04",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 2,
+    "stem": "Để tiết kiệm dung lượng lưu trữ, các trưởng nhóm tự xóa hồ sơ kiểm toán sau 2 năm, trong khi chính sách của công ty yêu cầu lưu tài liệu tối thiểu 10 năm. Phương pháp của bộ phận không có quy định về lưu giữ hồ sơ. Vấn đề chính là gì?",
+    "options": [
+      "Chỉ cần giữ báo cáo cuối cùng, vì báo cáo đã tóm tắt đầy đủ kết quả của cuộc kiểm toán.",
+      "Hồ sơ phải được lưu theo pháp luật và chính sách áp dụng; bộ phận cần phương pháp về việc này.",
+      "Mỗi trưởng nhóm được tự quyết thời hạn lưu theo mức độ quan trọng của từng cuộc kiểm toán.",
+      "Nên lưu vĩnh viễn mọi tài liệu thu thập được để phòng trường hợp cần đến về sau."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 14.6 yêu cầu kiểm toán viên lưu giữ hồ sơ kiểm toán theo pháp luật, quy định và chính sách, thủ tục của bộ phận và tổ chức. Hướng dẫn của GIAS 9.3 liệt kê cách lưu giữ và cung cấp hồ sơ là một phương pháp cần có. Xóa sau 2 năm trái chính sách 10 năm của công ty, và việc để từng trưởng nhóm tự quyết cho thấy thiếu phương pháp thống nhất.",
+    "optionNotes": [
+      "Sai. Báo cáo không thay hồ sơ; hồ sơ phải đủ để người có năng lực thực hiện lại và đạt cùng kết quả (GIAS 14.6).",
+      "Đúng. Hồ sơ phải lưu theo pháp luật và chính sách, và bộ phận cần phương pháp thống nhất về lưu giữ.",
+      "Sai. Thời hạn lưu không do từng trưởng nhóm tự quyết; nó theo pháp luật, chính sách và phương pháp thống nhất.",
+      "Sai. Lưu vĩnh viễn mọi thứ không phải yêu cầu và tạo rủi ro bảo mật; thời hạn lưu theo pháp luật và chính sách."
+    ],
+    "trap": "Cho rằng chỉ cần lưu báo cáo cuối cùng, hoặc thời hạn lưu do từng trưởng nhóm quyết định.",
+    "refs": [
+      "GIAS 14.6",
+      "GIAS 9.3",
+      "CIA Part 3 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z05",
+    "section": "A",
+    "topic": "A1",
+    "difficulty": 3,
+    "stem": "Các yêu cầu tư vấn từ Ban điều hành tăng nhanh và đã chiếm 60% số giờ của bộ phận, khiến nhiều cuộc đảm bảo rủi ro cao bị lùi. Bộ phận chưa có quy định nào về cách cân đối giữa đảm bảo và tư vấn. CAE nên làm gì?",
+    "options": [
+      "Tiếp tục nhận tư vấn, vì Ban điều hành đánh giá cao giá trị của các cuộc tư vấn hơn đảm bảo.",
+      "Từ chối mọi yêu cầu tư vấn cho đến khi hoàn thành toàn bộ các cuộc đảm bảo trong kế hoạch.",
+      "Thiết lập phương pháp xác định sự cân đối giữa đảm bảo và tư vấn, và áp dụng khi xét yêu cầu mới.",
+      "Để Ban điều hành quyết định tỷ lệ giữa đảm bảo và tư vấn, vì họ là bên đề nghị tư vấn."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 9.3 liệt kê cách xác định sự cân đối giữa đảm bảo và tư vấn là một phương pháp cần có. GIAS 9.4 yêu cầu CAE trao đổi kịp thời với HĐQT và Ban điều hành về các yêu cầu dịch vụ xung đột, như đề nghị thay cuộc đảm bảo đã lập bằng tư vấn. Thiếu quy định khiến tư vấn lấn dần độ bao phủ đảm bảo mà HĐQT không được biết.",
+    "optionNotes": [
+      "Sai. Giá trị của tư vấn không bù được việc rủi ro cao thiếu đảm bảo; HĐQT phải được biết xung đột này.",
+      "Sai. Tư vấn là dịch vụ hợp lệ theo Quy chế KTNB; từ chối toàn bộ là cực đoan và không giải quyết thiếu phương pháp.",
+      "Đúng. Bộ phận cần phương pháp cân đối hai loại dịch vụ; việc tư vấn lấn đảm bảo rủi ro cao cũng phải được báo HĐQT.",
+      "Sai. Cân đối dịch vụ ảnh hưởng đến kế hoạch do HĐQT phê duyệt; Ban điều hành không tự quyết tỷ lệ."
+    ],
+    "trap": "Để tư vấn lấn dần đảm bảo mà không có phương pháp cân đối và không báo HĐQT.",
+    "refs": [
+      "GIAS 9.3",
+      "GIAS 9.4",
+      "CIA Part 3 A.1"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z06",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "CAE đang soạn chiến lược kiểm toán nội bộ. Câu nào dưới đây phù hợp nhất để làm tầm nhìn (vision) của bộ phận?",
+    "options": [
+      "Hoàn thành đủ 30 cuộc kiểm toán trong kế hoạch năm 2026 đúng tiến độ đã được HĐQT phê duyệt.",
+      "Đến cuối năm 2027, 80% cuộc kiểm toán sử dụng phân tích dữ liệu trên toàn bộ tổng thể giao dịch.",
+      "Trong quý 2, mua phần mềm phân tích dữ liệu và đào tạo cho 10 kiểm toán viên sử dụng thành thạo.",
+      "Đến năm 2029, là đối tác tin cậy giúp HĐQT và Ban điều hành nhận diện, quản lý rủi ro trọng yếu."
+    ],
+    "answer": 3,
+    "explanation": "GIAS 9.2 yêu cầu chiến lược gồm tầm nhìn, mục tiêu chiến lược và các sáng kiến hỗ trợ. Hướng dẫn của chuẩn mực mô tả tầm nhìn là trạng thái mong muốn trong tương lai (ví dụ 3-5 năm) và truyền cảm hứng; mục tiêu chiến lược là đích cụ thể có thể đạt để tiến tới tầm nhìn; sáng kiến là các bước cụ thể để đạt từng mục tiêu.",
+    "optionNotes": [
+      "Sai. Đây là mục tiêu của kế hoạch kiểm toán năm, không phải tầm nhìn dài hạn của bộ phận.",
+      "Sai. Đây là mục tiêu chiến lược: một đích đo được để tiến tới tầm nhìn, không phải trạng thái mong muốn tổng thể.",
+      "Sai. Đây là sáng kiến hỗ trợ: bước cụ thể, có thời hạn ngắn để đạt một mục tiêu chiến lược.",
+      "Đúng. Câu mô tả trạng thái mong muốn dài hạn của bộ phận, đúng tính chất của tầm nhìn."
+    ],
+    "trap": "Nhầm tầm nhìn với mục tiêu chiến lược, sáng kiến hoặc mục tiêu của kế hoạch năm.",
+    "refs": [
+      "GIAS 9.2",
+      "CIA Part 3 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z07",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "CAE đã nắm chiến lược của công ty và kỳ vọng của HĐQT, Ban điều hành. Bước tiếp theo, CAE muốn tìm ra những điểm bộ phận cần cải thiện để đáp ứng các kỳ vọng đó. Cách tiếp cận nào phù hợp nhất?",
+    "options": [
+      "Phân tích khoảng cách giữa hiện trạng và trạng thái mong muốn của bộ phận, hoặc phân tích SWOT.",
+      "Sao chép chiến lược của bộ phận kiểm toán một ngân hàng lớn đã được đánh giá cao.",
+      "Lập ngay danh sách sáng kiến công nghệ, vì công nghệ là yếu tố quyết định của mọi chiến lược.",
+      "Bắt đầu từ ngân sách hiện có rồi chọn các mục tiêu nằm trong giới hạn ngân sách đó."
+    ],
+    "answer": 0,
+    "explanation": "Hướng dẫn của GIAS 9.2 nêu một cách xây dựng chiến lược là phân tích điểm mạnh, điểm yếu, cơ hội và thách thức (SWOT) của bộ phận để tìm cách cải thiện; cách khác là phân tích khoảng cách giữa hiện trạng và trạng thái mong muốn. Cả hai đều xuất phát từ tình hình của chính bộ phận so với kỳ vọng đã nắm.",
+    "optionNotes": [
+      "Đúng. Phân tích khoảng cách hoặc SWOT giúp xác định điểm cần cải thiện của bộ phận.",
+      "Sai. Chiến lược phải gắn với chiến lược và kỳ vọng của chính tổ chức; sao chép bỏ qua bối cảnh riêng.",
+      "Sai. Công nghệ là một nhóm sáng kiến nên có, nhưng sáng kiến chỉ xác định sau khi rõ mục tiêu.",
+      "Sai. Ngân sách là ràng buộc cần tính, nhưng bắt đầu từ ngân sách làm chiến lược không xuất phát từ kỳ vọng."
+    ],
+    "trap": "Bắt đầu chiến lược từ ngân sách hoặc danh sách sáng kiến, thay vì phân tích khoảng cách so với kỳ vọng.",
+    "refs": [
+      "GIAS 9.2",
+      "CIA Part 3 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z08",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 3,
+    "stem": "Đánh giá chất lượng bên ngoài vừa kết luận bộ phận kiểm toán yếu về phân tích dữ liệu và kiểm toán CNTT. Chiến lược kiểm toán nội bộ ba năm được rà soát lần gần nhất cách đây một năm, lần tới dự kiến sau hai năm nữa. CAE nên làm gì với chiến lược?",
+    "options": [
+      "Giữ nguyên đến kỳ rà soát dự kiến, vì chiến lược ba năm không nên điều chỉnh giữa kỳ.",
+      "Rà soát sớm chiến lược cùng HĐQT và Ban điều hành, đưa kết quả đánh giá vào sáng kiến.",
+      "Chỉ đưa kết quả đánh giá vào kế hoạch kiểm toán năm tới, không cần đụng đến chiến lược.",
+      "Giao toàn bộ việc khắc phục cho chương trình đảm bảo chất lượng, tách khỏi chiến lược."
+    ],
+    "answer": 1,
+    "explanation": "GIAS 9.2 yêu cầu CAE rà soát chiến lược với HĐQT và Ban điều hành định kỳ. Hướng dẫn của chuẩn mực nêu kết quả đánh giá nội bộ và bên ngoài là một yếu tố có thể khiến chiến lược được rà soát thường xuyên hơn. Điểm yếu về phân tích dữ liệu và CNTT là vấn đề năng lực dài hạn, cần sáng kiến chiến lược chứ không chỉ điều chỉnh kế hoạch năm.",
+    "optionNotes": [
+      "Sai. Chiến lược nên được điều chỉnh khi có thay đổi quan trọng; kết quả đánh giá bên ngoài là một lý do rà soát sớm.",
+      "Đúng. Kết quả đánh giá bên ngoài là lý do rà soát chiến lược sớm hơn cùng HĐQT và Ban điều hành.",
+      "Sai. Kế hoạch năm phân bổ cuộc kiểm toán; xây dựng năng lực dài hạn thuộc sáng kiến của chiến lược.",
+      "Sai. Kế hoạch khắc phục của QAIP và chiến lược cần gắn với nhau; tách rời khiến năng lực không được đầu tư."
+    ],
+    "trap": "Giữ chiến lược đến kỳ rà soát dự kiến dù kết quả đánh giá bên ngoài cho thấy điểm yếu lớn.",
+    "refs": [
+      "GIAS 9.2",
+      "GIAS 8.3",
+      "CIA Part 3 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z09",
+    "section": "A",
+    "topic": "A3",
+    "difficulty": 2,
+    "stem": "Các sáng kiến hỗ trợ trong chiến lược mới của bộ phận gồm: tăng số cuộc kiểm toán từ 25 lên 35 mỗi năm, rút ngắn thời gian phát hành báo cáo, giảm chi phí công tác. Nhóm sáng kiến nào còn thiếu rõ nhất?",
+    "options": [
+      "Tăng tỷ lệ cuộc kiểm toán đột xuất không báo trước để tạo tính răn đe với đơn vị.",
+      "Mở rộng đối tượng nhận báo cáo kiểm toán sang toàn bộ nhân viên của công ty.",
+      "Phát triển năng lực kiểm toán viên và ứng dụng công nghệ để nâng hiệu quả bộ phận.",
+      "Chuyển một nửa số cuộc kiểm toán sang thuê ngoài để giảm chi phí nhân sự của bộ phận."
+    ],
+    "answer": 2,
+    "explanation": "Hướng dẫn của GIAS 9.2 nêu các sáng kiến hỗ trợ chiến lược nên gồm cơ hội phát triển năng lực kiểm toán viên, việc đưa vào và áp dụng công nghệ khi giúp bộ phận hiệu quả hơn, và cơ hội cải thiện bộ phận nói chung. Bộ sáng kiến chỉ về số lượng và chi phí thiếu hai nhóm đầu.",
+    "optionNotes": [
+      "Sai. Kiểm toán đột xuất là kỹ thuật cho từng cuộc, không phải nhóm sáng kiến mà chiến lược nên có.",
+      "Sai. Phân phối báo cáo theo nhu cầu và bảo mật; phát rộng cho mọi nhân viên không phải sáng kiến chiến lược nên có.",
+      "Đúng. Năng lực và công nghệ là hai nhóm sáng kiến hướng dẫn của GIAS 9.2 nêu rõ.",
+      "Sai. Thuê ngoài là một lựa chọn nguồn lực, nhưng không thay được việc phát triển năng lực của bộ phận."
+    ],
+    "trap": "Coi chiến lược chỉ là tăng số lượng và giảm chi phí, bỏ qua năng lực và công nghệ.",
+    "refs": [
+      "GIAS 9.2",
+      "CIA Part 3 A.3"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z10",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Ủy ban Kiểm toán phàn nàn mỗi quý nhận một tập tài liệu 200 trang gồm mọi báo cáo kiểm toán, khó thấy đâu là vấn đề cần quyết định. Cách xử lý phù hợp nhất của CAE là gì?",
+    "options": [
+      "Cắt mỗi báo cáo kiểm toán xuống còn một trang trước khi gửi cho Ủy ban Kiểm toán.",
+      "Để Ban điều hành chọn những báo cáo nào được chuyển tiếp lên Ủy ban Kiểm toán.",
+      "Ngừng gửi báo cáo từng cuộc, chỉ báo cáo tổng hợp một lần vào cuối năm tài chính.",
+      "Thống nhất với Ủy ban tiêu chí vấn đề cần báo cáo chính thức, cùng hình thức và tần suất."
+    ],
+    "answer": 3,
+    "explanation": "Hướng dẫn của GIAS 11.1 nêu CAE nên trao đổi với HĐQT và Ban điều hành về phương pháp trao đổi, để xác định tiêu chí vấn đề quan trọng cần trao đổi chính thức, hình thức, nội dung và tần suất. Thống nhất trước giúp Ủy ban nhận đúng thông tin cần cho quyết định mà không bỏ sót vấn đề quan trọng.",
+    "optionNotes": [
+      "Sai. Rút ngắn đồng loạt mà không có tiêu chí có thể làm mất thông tin quan trọng; cần thống nhất nhu cầu trước.",
+      "Sai. Để Ban điều hành lọc thông tin gửi HĐQT làm suy yếu quan hệ báo cáo chức năng của CAE.",
+      "Sai. Báo cáo một lần cuối năm làm vấn đề quan trọng đến muộn; trao đổi phải kịp thời.",
+      "Đúng. Tiêu chí, hình thức và tần suất trao đổi nên được thống nhất với HĐQT."
+    ],
+    "trap": "Giải quyết quá tải thông tin bằng cách cắt bớt tùy ý hoặc để Ban điều hành lọc báo cáo.",
+    "refs": [
+      "GIAS 11.1",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z11",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 2,
+    "stem": "Nhân viên các phòng ban chỉ gặp kiểm toán viên trong các buổi họp chính thức của cuộc kiểm toán và thường trả lời dè dặt. CAE muốn họ cởi mở hơn khi trao đổi về rủi ro. Cách làm phù hợp nhất là gì?",
+    "options": [
+      "Tạo cơ hội trao đổi không chính thức, thường xuyên giữa kiểm toán viên và nhân viên.",
+      "Yêu cầu Ban điều hành ra văn bản bắt buộc nhân viên trả lời đầy đủ mọi câu hỏi của kiểm toán.",
+      "Hạn chế tiếp xúc ngoài cuộc kiểm toán để kiểm toán viên giữ được tính khách quan.",
+      "Ghi âm mọi buổi phỏng vấn để nhân viên thấy trách nhiệm với câu trả lời của mình."
+    ],
+    "answer": 0,
+    "explanation": "GIAS 11.1 yêu cầu CAE thúc đẩy cả trao đổi chính thức và không chính thức. Hướng dẫn của chuẩn mực nêu khi trao đổi không chính thức diễn ra đều đặn, nhân viên tin tưởng kiểm toán viên hơn, nên dễ có những trao đổi thẳng thắn mà họp chính thức không có; nó cũng giúp kiểm toán viên hiểu sâu hơn tổ chức và môi trường kiểm soát.",
+    "optionNotes": [
+      "Đúng. Trao đổi không chính thức đều đặn xây dựng lòng tin và thúc đẩy trao đổi thẳng thắn.",
+      "Sai. Quyền tiếp cận thông tin đã có trong Quy chế KTNB; ép buộc bằng văn bản không tạo được lòng tin.",
+      "Sai. Tiếp xúc không chính thức không làm mất khách quan nếu có biện pháp như luân chuyển kiểm toán viên.",
+      "Sai. Ghi âm làm nhân viên càng dè dặt hơn; mục tiêu là lòng tin, không phải tạo áp lực."
+    ],
+    "trap": "Nghĩ trao đổi không chính thức với nhân viên làm mất tính khách quan của kiểm toán viên.",
+    "refs": [
+      "GIAS 11.1",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
+  },
+  {
+    "id": "P3-A-Z12",
+    "section": "A",
+    "topic": "A4",
+    "difficulty": 3,
+    "stem": "Một kiểm toán viên được giao làm đầu mối liên lạc với khối Nguồn vốn suốt 6 năm, rất thân với lãnh đạo khối và thường được hỏi ý kiến trước khi khối ban hành quy trình. Biện pháp phù hợp nhất của CAE là gì?",
+    "options": [
+      "Giữ nguyên, vì quan hệ thân thiết giúp kiểm toán nội bộ nắm thông tin nhanh và đầy đủ hơn.",
+      "Luân chuyển đầu mối sang kiểm toán viên khác để cân bằng lợi ích liên lạc và tính khách quan.",
+      "Bỏ hẳn cơ chế đầu mối liên lạc với các khối để tránh mọi rủi ro về tính khách quan.",
+      "Yêu cầu kiểm toán viên này ký cam kết khách quan hằng năm và tiếp tục làm đầu mối như cũ."
+    ],
+    "answer": 1,
+    "explanation": "Hướng dẫn của GIAS 11.1 nêu CAE có thể giao kiểm toán viên làm đầu mối trao đổi thường xuyên với các khối chủ chốt, và việc luân chuyển kiểm toán viên giữa các đơn vị giúp cân bằng lợi ích của trao đổi không chính thức với nhu cầu bảo vệ tính khách quan. Sáu năm gắn bó, lại được hỏi ý kiến về quy trình, cho thấy nguy cơ quen thuộc cao (GIAS 2.1).",
+    "optionNotes": [
+      "Sai. Quan hệ quá thân và lâu năm tạo nguy cơ quen thuộc, làm suy giảm tính khách quan khi kiểm toán khối này.",
+      "Đúng. Luân chuyển đầu mối giữ được trao đổi thường xuyên mà vẫn bảo vệ tính khách quan.",
+      "Sai. Bỏ hẳn đầu mối làm mất lợi ích trao đổi thường xuyên; vấn đề được xử lý bằng luân chuyển.",
+      "Sai. Cam kết hằng năm là hình thức; nó không xử lý nguy cơ quen thuộc đã hình thành qua sáu năm."
+    ],
+    "trap": "Giải quyết nguy cơ quen thuộc bằng cam kết hình thức, hoặc bỏ hẳn kênh liên lạc với các khối.",
+    "refs": [
+      "GIAS 11.1",
+      "GIAS 2.1",
+      "CIA Part 3 A.4"
+    ],
+    "source": "original"
   }
 ]
